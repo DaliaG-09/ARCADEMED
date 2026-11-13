@@ -56,7 +56,11 @@
    "correcta": 0,
    "explicacion": "Un cultivo positivo sin síntomas no se trata siempre. La clase indica tratarlo solo en casos específicos (embarazo, antes de una intervención urológica, trasplante renal), como se ve en la pregunta de bacteriuria asintomática más abajo.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 9 y 23",
-   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón."
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón.",
+   "guia": {
+    "t": "• IDSA 2019: no pedir urocultivo ni tratar la bacteriuria asintomática, salvo en el embarazo y antes de procedimientos urológicos con sangrado mucoso.\n• Coincide con tu PPT.",
+    "f": "IDSA 2019 – Bacteriuria asintomática (Nicolle et al., Clin Infect Dis 2019;68:e83) y resumen AHRQ"
+   }
   },
   {
    "id": "n-itu-rec",
@@ -85,7 +89,11 @@
    "correcta": 0,
    "explicacion": "Definiciones de la lámina: ITU recurrente = 2 o más en 6 meses o 3 o más en un año (común en mujeres). Reinfección = nueva infección tras una erradicación confirmada por urocultivo negativo. Persistencia = el mismo germen tras el tratamiento adecuado, por foco oculto o resistencia.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 9",
-   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón."
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón.",
+   "guia": {
+    "t": "• AUA: ITU recurrente = 2 episodios con cultivo en 6 meses o 3 en 1 año.\n• Pedir uroanálisis y urocultivo en cada episodio sintomático antes del tratamiento.\n• No hacer cultivos de vigilancia ni de control en pacientes sin síntomas.\n• Cistoscopia e imágenes de vía urinaria alta NO se piden de rutina en la paciente típica. Ojo: tu PPT incluye estudios de imágenes; para el examen manda la PPT.\n• Se puede ofrecer profilaxis antibiótica, arándano y estrógeno vaginal en posmenopáusicas.",
+    "f": "AUA/CUA/SUFU – ITU recurrente no complicada en mujeres (2019, actualizada 2022)"
+   }
   },
   {
    "id": "n-itu-comp",
@@ -312,7 +320,11 @@
    "correcta": 0,
    "explicacion": "Esquema de cistitis (lámina 20): fosfomicina 3 g VO en 1 dosis; nitrofurantoína 100 mg VO cada 12 h por 5 días; trimetoprima-sulfametoxazol (Trim-Sulf) cada 8 h solo si la resistencia es menor de 20 %.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 20",
-   "contexto": "Trimetoprima-sulfametoxazol es un antibiótico oral muy usado en ITU. Solo se recomienda si menos de 20 de cada 100 gérmenes locales son resistentes."
+   "contexto": "Trimetoprima-sulfametoxazol es un antibiótico oral muy usado en ITU. Solo se recomienda si menos de 20 de cada 100 gérmenes locales son resistentes.",
+   "guia": {
+    "t": "• Según el resumen AHRQ de IDSA/ESCMID 2010, en cistitis no complicada las opciones son nitrofurantoína, TMP-SMX (trimetoprima-sulfametoxazol) y cefalosporinas orales; las fluoroquinolonas no se recomiendan como primera línea por sus efectos adversos.\n• Duración típica de la cistitis: 3 a 5 días.\n• La fosfomicina 3 g en dosis única aparece en protocolos hospitalarios, no en el resumen original.\n• Ojo: en pielonefritis se evitan nitrofurantoína y fosfomicina porque no alcanzan buenos niveles fuera de la orina (protocolo hospitalario).\n• La elección real depende de la resistencia local.",
+    "f": "IDSA/ESCMID 2010 – Cistitis y pielonefritis no complicadas (Gupta et al., Clin Infect Dis 2011;52:e103), según resumen AHRQ; la fosfomicina viene de protocolos hospitalarios (no es la guía original)"
+   }
   },
   {
    "id": "n-itu-blee",
@@ -369,7 +381,11 @@
    ],
    "correcta": 0,
    "explicacion": "ITU recurrente (más de 3 episodios por año): más líquidos, antibiótico poscoital (después de las relaciones sexuales) y considerar imágenes. El cranberry no se recomienda.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 22"
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 22",
+   "guia": {
+    "t": "• AUA: ITU recurrente = 2 episodios con cultivo en 6 meses o 3 en 1 año.\n• Pedir uroanálisis y urocultivo en cada episodio sintomático antes del tratamiento.\n• No hacer cultivos de vigilancia ni de control en pacientes sin síntomas.\n• Cistoscopia e imágenes de vía urinaria alta NO se piden de rutina en la paciente típica. Ojo: tu PPT incluye estudios de imágenes; para el examen manda la PPT.\n• Se puede ofrecer profilaxis antibiótica, arándano y estrógeno vaginal en posmenopáusicas.",
+    "f": "AUA/CUA/SUFU – ITU recurrente no complicada en mujeres (2019, actualizada 2022)"
+   }
   },
   {
    "id": "n-itu-asin",
@@ -397,7 +413,11 @@
    ],
    "correcta": 0,
    "explicacion": "Sí tratar: embarazo, intervención urológica, trasplante renal. No tratar: premenopáusicas, ancianos, diabetes, cateterizados y lesión espinal. Definición: cultivo positivo (10⁵) sin síntomas ni signos de ITU.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 23"
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 23",
+   "guia": {
+    "t": "• IDSA 2019: no pedir urocultivo ni tratar la bacteriuria asintomática, salvo en el embarazo y antes de procedimientos urológicos con sangrado mucoso.\n• Coincide con tu PPT.",
+    "f": "IDSA 2019 – Bacteriuria asintomática (Nicolle et al., Clin Infect Dis 2019;68:e83) y resumen AHRQ"
+   }
   },
   {
    "id": "n-itu-case",

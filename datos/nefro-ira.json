@@ -27,7 +27,11 @@
    "correcta": 0,
    "explicacion": "Los desechos nitrogenados son urea y creatinina. Por eso la IRA se ve en laboratorio como aumento de esos valores.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 7",
-   "contexto": "IRA = injuria renal aguda. Nitrogenados = urea y creatinina, los productos que el riñón elimina."
+   "contexto": "IRA = injuria renal aguda. Nitrogenados = urea y creatinina, los productos que el riñón elimina.",
+   "guia": {
+    "t": "• KDIGO 2012 define IRA (AKI) como: aumento de creatinina ≥0.3 mg/dL en 48 h, o ≥1.5 veces el basal en 7 días, o diuresis <0.5 mL/kg/h por 6 h.\n• Estadio 1: 1.5–1.9 veces o +0.3 mg/dL; estadio 2: 2.0–2.9 veces.\n• Estadio 3: ≥3 veces, o creatinina ≥4.0 mg/dL, o inicio de diálisis; diuresis <0.3 mL/kg/h por ≥24 h o anuria ≥12 h.\n• Se toma el estadio más alto entre creatinina y diuresis.\n• Historia: RIFLE → AKIN (ventana de 48 h) → KDIGO.\n• KDIGO sugiere no usar diuréticos para acelerar la recuperación renal y evaluar al paciente a los 3 meses.",
+    "f": "KDIGO 2012 – Lesión renal aguda (Kidney Int Suppl 2012;2:1-138)"
+   }
   },
   {
    "id": "n-ira-prem",
@@ -170,7 +174,11 @@
    "correcta": 0,
    "explicacion": "AKIN-KDIGO tiene tres estadios: AKI-I, AKI-II, AKI-III.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 10",
-   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina.",
+   "guia": {
+    "t": "• KDIGO 2012 define IRA (AKI) como: aumento de creatinina ≥0.3 mg/dL en 48 h, o ≥1.5 veces el basal en 7 días, o diuresis <0.5 mL/kg/h por 6 h.\n• Estadio 1: 1.5–1.9 veces o +0.3 mg/dL; estadio 2: 2.0–2.9 veces.\n• Estadio 3: ≥3 veces, o creatinina ≥4.0 mg/dL, o inicio de diálisis; diuresis <0.3 mL/kg/h por ≥24 h o anuria ≥12 h.\n• Se toma el estadio más alto entre creatinina y diuresis.\n• Historia: RIFLE → AKIN (ventana de 48 h) → KDIGO.\n• KDIGO sugiere no usar diuréticos para acelerar la recuperación renal y evaluar al paciente a los 3 meses.",
+    "f": "KDIGO 2012 – Lesión renal aguda (Kidney Int Suppl 2012;2:1-138)"
+   }
   },
   {
    "id": "n-ira-akin1",
@@ -199,7 +207,11 @@
    "correcta": 0,
    "explicacion": "AKI-I: aumento ≥0.3 mg/dL, o 1.5 a 2 veces la basal. AKI-II: más de 2 a 3 veces. AKI-III: más de 3 veces, o ≥4 mg/dL con aumento agudo de al menos 0.5, o terapia de reemplazo renal.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 10",
-   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina.",
+   "guia": {
+    "t": "• KDIGO 2012 define IRA (AKI) como: aumento de creatinina ≥0.3 mg/dL en 48 h, o ≥1.5 veces el basal en 7 días, o diuresis <0.5 mL/kg/h por 6 h.\n• Estadio 1: 1.5–1.9 veces o +0.3 mg/dL; estadio 2: 2.0–2.9 veces.\n• Estadio 3: ≥3 veces, o creatinina ≥4.0 mg/dL, o inicio de diálisis; diuresis <0.3 mL/kg/h por ≥24 h o anuria ≥12 h.\n• Se toma el estadio más alto entre creatinina y diuresis.\n• Historia: RIFLE → AKIN (ventana de 48 h) → KDIGO.\n• KDIGO sugiere no usar diuréticos para acelerar la recuperación renal y evaluar al paciente a los 3 meses.",
+    "f": "KDIGO 2012 – Lesión renal aguda (Kidney Int Suppl 2012;2:1-138)"
+   }
   },
   {
    "id": "n-ira-akin2",
@@ -228,7 +240,11 @@
    "correcta": 0,
    "explicacion": "En la lámina, el criterio de AKI-III incluye creatinina más de 3 veces la basal o mayor de 4 mg/dL y diuresis menor de 0.3 mL/kg por más de 24 horas, o anuria mayor de 12 horas.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 22 a 24",
-   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina.",
+   "guia": {
+    "t": "• KDIGO 2012 define IRA (AKI) como: aumento de creatinina ≥0.3 mg/dL en 48 h, o ≥1.5 veces el basal en 7 días, o diuresis <0.5 mL/kg/h por 6 h.\n• Estadio 1: 1.5–1.9 veces o +0.3 mg/dL; estadio 2: 2.0–2.9 veces.\n• Estadio 3: ≥3 veces, o creatinina ≥4.0 mg/dL, o inicio de diálisis; diuresis <0.3 mL/kg/h por ≥24 h o anuria ≥12 h.\n• Se toma el estadio más alto entre creatinina y diuresis.\n• Historia: RIFLE → AKIN (ventana de 48 h) → KDIGO.\n• KDIGO sugiere no usar diuréticos para acelerar la recuperación renal y evaluar al paciente a los 3 meses.",
+    "f": "KDIGO 2012 – Lesión renal aguda (Kidney Int Suppl 2012;2:1-138)"
+   }
   },
   {
    "id": "n-ira-pre",
@@ -486,7 +502,11 @@
    "explicacion": "El estadio se calcula con la creatinina y la diuresis, y se toma el peor de los dos criterios.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 21",
    "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina.",
-   "nota": "La lámina 21 pregunta el estadio sin dar la respuesta; AKI-III sale de los criterios de la lámina 10."
+   "nota": "La lámina 21 pregunta el estadio sin dar la respuesta; AKI-III sale de los criterios de la lámina 10.",
+   "guia": {
+    "t": "• KDIGO 2012 define IRA (AKI) como: aumento de creatinina ≥0.3 mg/dL en 48 h, o ≥1.5 veces el basal en 7 días, o diuresis <0.5 mL/kg/h por 6 h.\n• Estadio 1: 1.5–1.9 veces o +0.3 mg/dL; estadio 2: 2.0–2.9 veces.\n• Estadio 3: ≥3 veces, o creatinina ≥4.0 mg/dL, o inicio de diálisis; diuresis <0.3 mL/kg/h por ≥24 h o anuria ≥12 h.\n• Se toma el estadio más alto entre creatinina y diuresis.\n• Historia: RIFLE → AKIN (ventana de 48 h) → KDIGO.\n• KDIGO sugiere no usar diuréticos para acelerar la recuperación renal y evaluar al paciente a los 3 meses.",
+    "f": "KDIGO 2012 – Lesión renal aguda (Kidney Int Suppl 2012;2:1-138)"
+   }
   },
   {
    "id": "n-ira-case2",
@@ -545,7 +565,11 @@
    "correcta": 0,
    "explicacion": "RIFLE: R <0.5 mL/kg/h × 6 h; I <0.5 × 12 h; F <0.3 × 24 h o anuria × 12 h.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 9 y 23",
-   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina.",
+   "guia": {
+    "t": "• KDIGO 2012 define IRA (AKI) como: aumento de creatinina ≥0.3 mg/dL en 48 h, o ≥1.5 veces el basal en 7 días, o diuresis <0.5 mL/kg/h por 6 h.\n• Estadio 1: 1.5–1.9 veces o +0.3 mg/dL; estadio 2: 2.0–2.9 veces.\n• Estadio 3: ≥3 veces, o creatinina ≥4.0 mg/dL, o inicio de diálisis; diuresis <0.3 mL/kg/h por ≥24 h o anuria ≥12 h.\n• Se toma el estadio más alto entre creatinina y diuresis.\n• Historia: RIFLE → AKIN (ventana de 48 h) → KDIGO.\n• KDIGO sugiere no usar diuréticos para acelerar la recuperación renal y evaluar al paciente a los 3 meses.",
+    "f": "KDIGO 2012 – Lesión renal aguda (Kidney Int Suppl 2012;2:1-138)"
+   }
   }
  ],
  "tarjetas": [

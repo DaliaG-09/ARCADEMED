@@ -307,7 +307,11 @@
    ],
    "correcta": 0,
    "explicacion": "Moderada (11.5 a 15): suero salino y diuréticos de asa. Severa (más de 15): se agregan bifosfonatos (pamidronato, zoledronato) y calcitonina.",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 20 y 21"
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 20 y 21",
+   "guia": {
+    "t": "• Primer paso: hidratación con solución salina isotónica (por ejemplo, bolo de 1 a 2 L y luego 100 a 300 mL/h según tolerancia).\n• Los diuréticos de asa no han demostrado bajar el calcio más rápido que la hidratación sola; se usan con cautela y solo tras reponer volumen. Ojo: tu PPT los incluye; para el examen manda la PPT.\n• El ácido zoledrónico 4 mg IV es el tratamiento de primera línea; tarda 2 a 3 días y dura unas 4 semanas.\n• La calcitonina actúa en horas y sirve de puente; el denosumab se usa si hay resistencia a bifosfonatos.",
+    "f": "Revisión de Chakhtoura y El-Hajj Fuleihan (Endocrinol Metab Clin N Am 2021) y algoritmo MD Anderson; no es una guía única de sociedad"
+   }
   },
   {
    "id": "n-ca-bif",
@@ -336,7 +340,11 @@
    "correcta": 0,
    "explicacion": "Efectos adversos: síndrome gripal y nefrotoxicidad.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 21",
-   "nota": "La tabla da duraciones aproximadas; zoledronato 28 días y pamidronato de 21 a 28 días son muy cercanas."
+   "nota": "La tabla da duraciones aproximadas; zoledronato 28 días y pamidronato de 21 a 28 días son muy cercanas.",
+   "guia": {
+    "t": "• Primer paso: hidratación con solución salina isotónica (por ejemplo, bolo de 1 a 2 L y luego 100 a 300 mL/h según tolerancia).\n• Los diuréticos de asa no han demostrado bajar el calcio más rápido que la hidratación sola; se usan con cautela y solo tras reponer volumen. Ojo: tu PPT los incluye; para el examen manda la PPT.\n• El ácido zoledrónico 4 mg IV es el tratamiento de primera línea; tarda 2 a 3 días y dura unas 4 semanas.\n• La calcitonina actúa en horas y sirve de puente; el denosumab se usa si hay resistencia a bifosfonatos.",
+    "f": "Revisión de Chakhtoura y El-Hajj Fuleihan (Endocrinol Metab Clin N Am 2021) y algoritmo MD Anderson; no es una guía única de sociedad"
+   }
   },
   {
    "id": "n-ca-mgf",

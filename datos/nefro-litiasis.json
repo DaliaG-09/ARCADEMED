@@ -228,7 +228,11 @@
    ],
    "correcta": 0,
    "explicacion": "Nifedipino: relaja fibras musculares. Tamsulosina (bloqueador alfa-1): favorece la peristalsis. Se acompaña de dieta y AINE para el dolor.",
-   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 17"
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 17",
+   "guia": {
+    "t": "• AUA 2016: en cálculos ureterales no complicados de ≤10 mm se ofrece observación, y en los distales se ofrece terapia médica expulsiva con alfabloqueadores.\n• Ojo: tu PPT menciona nifedipino y tamsulosina; la guía AUA habla de alfabloqueadores. Para el examen manda la PPT.\n• Si hay obstrucción con sospecha de infección, la guía exige drenar urgentemente (stent o nefrostomía) y diferir el tratamiento del cálculo.",
+    "f": "AUA/Endourological Society 2016 – Manejo quirúrgico de cálculos (Assimos et al., J Urol 2016;196:1161)"
+   }
   },
   {
    "id": "n-lit-lec",

@@ -308,7 +308,11 @@
    "correcta": 0,
    "explicacion": "GLP-1 RA (semaglutida, liraglutida) si TFG baja o no tolera iSGLT2; HbA1c ≈7 %.",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 20",
-   "contexto": "iSGLT2 = inhibidores del cotransportador sodio-glucosa 2. GLP-1 RA = agonistas del receptor de GLP-1."
+   "contexto": "iSGLT2 = inhibidores del cotransportador sodio-glucosa 2. GLP-1 RA = agonistas del receptor de GLP-1.",
+   "guia": {
+    "t": "• KDIGO 2022 recomienda un iSGLT2 (inhibidor del cotransportador sodio-glucosa 2) en DM2 + ERC con TFG ≥20 mL/min/1.73 m², y continuarlo hasta diálisis o trasplante.\n• Metformina si TFG ≥30 (bajar dosis si TFG <45).\n• Si no se logra la meta de glucosa con metformina + iSGLT2, se recomienda un agonista GLP-1 de acción prolongada.\n• Coincide con tu PPT (iSGLT2 como primera línea).",
+    "f": "KDIGO 2022 – Diabetes en ERC (Kidney Int 2022;102(5S):S1-S127) y consenso ADA/KDIGO 2022"
+   }
   },
   {
    "id": "n-nd-tx2",
@@ -336,7 +340,11 @@
    ],
    "correcta": 0,
    "explicacion": "Iniciar IECA o ARA II si el cociente albuminuria/creatinina (ACR) >30 mg/g, aun con presión normal.",
-   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 21"
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 21",
+   "guia": {
+    "t": "• KDIGO 2024 (ERC) plantea una meta de PAS (presión sistólica) <120 mmHg, con inhibidor del sistema renina-angiotensina a dosis máxima tolerada si hay HTA.\n• Tu PPT usa <130/80 mmHg. Ojo: son metas distintas; para el examen manda la PPT.",
+    "f": "KDIGO 2024 – Evaluación y manejo de la ERC (Kidney Int 2024;105(4S):S117-S314)"
+   }
   },
   {
    "id": "n-nd-tx3",
@@ -364,7 +372,11 @@
    ],
    "correcta": 0,
    "explicacion": "Estatinas en todo paciente con diabetes y ERC; LDL <70 mg/dL en alto riesgo CV.",
-   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 22"
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 22",
+   "guia": {
+    "t": "• KDIGO 2022: un antagonista no esteroideo del receptor mineralocorticoide con beneficio probado (finerenona) se recomienda en DM2 con TFG ≥25, potasio normal y albuminuria (ACR ≥30 mg/g) pese a la dosis máxima tolerada de IECA/ARA II.\n• Puede añadirse al tratamiento con iSGLT2.",
+    "f": "KDIGO 2022 – Diabetes en ERC (Kidney Int 2022;102(5S):S1-S127) y consenso ADA/KDIGO 2022"
+   }
   },
   {
    "id": "n-nd-ic",
@@ -392,7 +404,11 @@
    ],
    "correcta": 0,
    "explicacion": "Interconsulta.",
-   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 23"
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 23",
+   "guia": {
+    "t": "• KDIGO 2024: usar una ecuación validada de riesgo (como la KFRE, Kidney Failure Risk Equation) en G3 a G5 para estimar el riesgo de falla renal y decidir la derivación.\n• Derivar también si la causa de la ERC es incierta, en enfermedad renal hereditaria o en litiasis recurrente extensa.\n• Tus umbrales de la PPT (TFG <30, albuminuria alta) son un resumen práctico; para el examen manda la PPT.",
+    "f": "KDIGO 2024 – Evaluación y manejo de la ERC (Kidney Int 2024;105(4S):S117-S314)"
+   }
   },
   {
    "id": "n-nd-case",

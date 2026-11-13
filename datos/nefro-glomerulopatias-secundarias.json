@@ -232,7 +232,11 @@
    "explicacion": "Euro-Lupus: dosis bajas de ciclofosfamida seguidas de azatioprina. Azatioprina más metilprednisolona, solo en pacientes con deseo de embarazo. Micofenolato de mofetilo (1 a 3 g/día) logró más remisiones y menos muertes que ciclofosfamida con esteroides.",
    "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 16",
    "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis lúpica, el compromiso renal del LES. Se clasifica en seis clases según la biopsia.",
-   "nota": "Para tu práctica, no para el examen: en Lima el esquema de inducción suele ser esteroides con micofenolato o ciclofosfamida según el caso y la disponibilidad, siguiendo guías KDIGO."
+   "nota": "Para tu práctica, no para el examen: en Lima el esquema de inducción suele ser esteroides con micofenolato o ciclofosfamida según el caso y la disponibilidad, siguiendo guías KDIGO.",
+   "guia": {
+    "t": "• KDIGO 2024 (clase III/IV, activa): glucocorticoides más una opción: ácido micofenólico (MPAA), ciclofosfamida IV a dosis baja, belimumab con MPAA o ciclofosfamida, o MPAA con un inhibidor de calcineurina si la función renal no está muy afectada.\n• La ciclofosfamida IV puede ser la inicial si hay dificultad de adherencia a esquemas orales.\n• Hidroxicloroquina para todos los pacientes con nefritis lúpica salvo contraindicación.\n• Clase V: bloqueo del sistema renina-angiotensina, control de PA e hidroxicloroquina; se añade inmunosupresión si hay proteinuria nefrótica.\n• Tu PPT da metilprednisolona en bolos más ciclofosfamida; es una opción válida, pero KDIGO hoy prefiere esquemas con MPAA. Para el examen manda la PPT.",
+    "f": "KDIGO 2024 – Nefritis lúpica (Kidney Int 2024;105(1S):S1-S69)"
+   }
   },
   {
    "id": "n-gp2-cs",

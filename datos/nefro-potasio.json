@@ -364,7 +364,11 @@
    ],
    "correcta": 0,
    "explicacion": "K⁺ >9: onda sinusoidal o asistolia.",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 22"
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 22",
+   "guia": {
+    "t": "• El ECG no es ni sensible ni específico para hiperpotasemia: hay pacientes con potasio muy alto y ECG normal.\n• Un ECG normal no descarta hiperpotasemia; si hay cambios, tratar sin esperar.\n• Tu PPT relaciona K+ de ~6 con ondas T picudas; sirve como guía general.",
+    "f": "KDIGO Controversies Conference 2020 (Clase et al., Kidney Int 2020;97:42-61) y algoritmos de emergencia (ACEP, Emergency Care BC); no es una guía única"
+   }
   },
   {
    "id": "n-k-hk3",
@@ -392,7 +396,11 @@
    ],
    "correcta": 0,
    "explicacion": "Luego insulina más glucosa (10 U con 50 mL de glucosa al 50 %), salbutamol, bicarbonato si hay acidosis, diuréticos de asa y diálisis.",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 24"
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 24",
+   "guia": {
+    "t": "• El calcio IV estabiliza la membrana cardiaca pero NO baja el potasio; se da primero ante cambios en el ECG.\n• Esquema de emergencia: gluconato de calcio 1 g (10 mL al 10 %) en 2 a 3 minutos, y repetir a los 5 minutos si persisten los cambios.\n• Luego insulina con glucosa, la base del tratamiento agudo; el riesgo es hipoglucemia.\n• Coincide con tu PPT (10 mL en 2 a 5 min).",
+    "f": "KDIGO Controversies Conference 2020 (Clase et al., Kidney Int 2020;97:42-61) y algoritmos de emergencia (ACEP, Emergency Care BC); no es una guía única"
+   }
   },
   {
    "id": "n-k-hk4",
@@ -420,7 +428,11 @@
    ],
    "correcta": 0,
    "explicacion": "Acción: insulina más glucosa 15 min a 6-8 h; β-agonistas 30 min a 2-3 h; bicarbonato 30-60 min.",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 24"
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 24",
+   "guia": {
+    "t": "• La insulina con glucosa, los β-agonistas (salbutamol) y el bicarbonato desplazan el potasio hacia la célula, no lo eliminan del cuerpo.\n• Insulina + glucosa es la base; una pauta común es 10 UI de insulina regular con 25 g de glucosa.\n• La evidencia del bicarbonato es conflictiva; se considera sobre todo si hay acidosis metabólica y no sustituye al calcio.",
+    "f": "KDIGO Controversies Conference 2020 (Clase et al., Kidney Int 2020;97:42-61) y algoritmos de emergencia (ACEP, Emergency Care BC); no es una guía única"
+   }
   }
  ],
  "tarjetas": [

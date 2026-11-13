@@ -371,7 +371,11 @@
    ],
    "correcta": 0,
    "explicacion": "GEFS: prednisona 1 mg/kg/día por 4 a 6 meses; si es resistente, ciclosporina o tacrolimus con o sin esteroides. Mesangiocapilar: corticoides más micofenolato o rituximab.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 21"
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 21",
+   "guia": {
+    "t": "• KDIGO 2021: en membranosa ya no hace falta biopsia para el diagnóstico si hay anticuerpos anti-PLA2R tipo M (receptor de fosfolipasa A2).\n• El tratamiento se decide por riesgo de progresión (según proteinuria, TFG y albúmina); el rituximab está indicado en riesgo moderado a alto.\n• Tu PPT agrega el esquema Ponticelli (ciclofosfamida alternada con esteroides); para el examen manda la PPT.",
+    "f": "KDIGO 2021 – Enfermedades glomerulares (Kidney Int 2021;100(4S))"
+   }
   },
   {
    "id": "n-sn-sup",

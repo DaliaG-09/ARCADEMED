@@ -175,7 +175,11 @@
    "correcta": 0,
    "explicacion": "IF: depósitos granulares de IgG y C3 en la membrana basal. Las formas secundarias se asocian a lupus, hepatitis B y C, AINE y neoplasias, y en ellas el complemento puede estar bajo.",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 16",
-   "contexto": "MO = microscopía óptica; ME = microscopía electrónica; IF = inmunofluorescencia; MBG = membrana basal glomerular. Son los tres estudios de la biopsia renal que permiten distinguir cada glomerulopatía."
+   "contexto": "MO = microscopía óptica; ME = microscopía electrónica; IF = inmunofluorescencia; MBG = membrana basal glomerular. Son los tres estudios de la biopsia renal que permiten distinguir cada glomerulopatía.",
+   "guia": {
+    "t": "• KDIGO 2021: en membranosa ya no hace falta biopsia para el diagnóstico si hay anticuerpos anti-PLA2R tipo M (receptor de fosfolipasa A2).\n• El tratamiento se decide por riesgo de progresión (según proteinuria, TFG y albúmina); el rituximab está indicado en riesgo moderado a alto.\n• Tu PPT agrega el esquema Ponticelli (ciclofosfamida alternada con esteroides); para el examen manda la PPT.",
+    "f": "KDIGO 2021 – Enfermedades glomerulares (Kidney Int 2021;100(4S))"
+   }
   },
   {
    "id": "n-gp1-mb3",

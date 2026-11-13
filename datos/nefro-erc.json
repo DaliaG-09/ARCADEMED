@@ -26,7 +26,11 @@
    ],
    "correcta": 0,
    "explicacion": "ERC = anormalidad estructural o funcional del riñón que dura más de 3 meses. Se apoya en marcadores de daño (proteinuria, sedimento, imagen, biopsia).",
-   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 8"
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 8",
+   "guia": {
+    "t": "• KDIGO define la ERC como anormalidades de la estructura o función del riñón presentes por más de 3 meses y con implicancias para la salud.\n• Se diagnostica con TFG (tasa de filtración glomerular) <60 mL/min/1.73 m² o con marcadores de daño, por ejemplo cociente albúmina/creatinina (ACR) ≥30 mg/g, por más de 3 meses.\n• Si se detecta por casualidad un ACR alto, hematuria o TFG baja, KDIGO pide repetir las pruebas para confirmar.\n• Coincide con tu PPT.",
+    "f": "KDIGO 2024 – Evaluación y manejo de la ERC (Kidney Int 2024;105(4S):S117-S314)"
+   }
   },
   {
    "id": "n-erc-marc",
@@ -54,7 +58,11 @@
    ],
    "correcta": 0,
    "explicacion": "La lámina incluye marcadores de daño patológico, de imagen y biomarcadores. Una anormalidad estructural persistente basta, aunque la TFG se mantenga.",
-   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 8"
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 8",
+   "guia": {
+    "t": "• KDIGO define la ERC como anormalidades de la estructura o función del riñón presentes por más de 3 meses y con implicancias para la salud.\n• Se diagnostica con TFG (tasa de filtración glomerular) <60 mL/min/1.73 m² o con marcadores de daño, por ejemplo cociente albúmina/creatinina (ACR) ≥30 mg/g, por más de 3 meses.\n• Si se detecta por casualidad un ACR alto, hematuria o TFG baja, KDIGO pide repetir las pruebas para confirmar.\n• Coincide con tu PPT.",
+    "f": "KDIGO 2024 – Evaluación y manejo de la ERC (Kidney Int 2024;105(4S):S117-S314)"
+   }
   },
   {
    "id": "n-erc-etio",
@@ -396,7 +404,11 @@
    ],
    "correcta": 0,
    "explicacion": "Microalbuminuria 30 a 300 mg/24 h; macroalbuminuria más de 300 mg/24 h. Se confirma con 2 estudios separados 3 a 6 meses.",
-   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 14"
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 14",
+   "guia": {
+    "t": "• KDIGO define la ERC como anormalidades de la estructura o función del riñón presentes por más de 3 meses y con implicancias para la salud.\n• Se diagnostica con TFG (tasa de filtración glomerular) <60 mL/min/1.73 m² o con marcadores de daño, por ejemplo cociente albúmina/creatinina (ACR) ≥30 mg/g, por más de 3 meses.\n• Si se detecta por casualidad un ACR alto, hematuria o TFG baja, KDIGO pide repetir las pruebas para confirmar.\n• Coincide con tu PPT.",
+    "f": "KDIGO 2024 – Evaluación y manejo de la ERC (Kidney Int 2024;105(4S):S117-S314)"
+   }
   },
   {
    "id": "n-erc-eco",
@@ -509,7 +521,11 @@
    "correcta": 0,
    "explicacion": "IECA = inhibidores de la enzima convertidora de angiotensina; ARA II = antagonistas de los receptores de angiotensina II. Los BCC (bloqueadores de canales de calcio) pueden usarse junto a IECA o ARA II; en estadios tempranos se prefieren tiazidas.",
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 17",
-   "nota": "Las guías KDIGO suelen mantener estos fármacos aun con TFG baja si el potasio y la creatinina lo permiten. Sigue el PPT para el examen."
+   "nota": "Las guías KDIGO suelen mantener estos fármacos aun con TFG baja si el potasio y la creatinina lo permiten. Sigue el PPT para el examen.",
+   "guia": {
+    "t": "• KDIGO 2024 recomienda iniciar un bloqueador del sistema renina-angiotensina (IECA o ARA II) en albuminuria muy aumentada (A3) sin diabetes.\n• Evitar combinar IECA + ARA II + inhibidor directo de renina.\n• Al iniciar o cambiar la dosis, revisar a las 2 a 4 semanas la PA, la creatinina y el potasio.\n• En el resumen que revisé no aparece un corte de TFG para suspenderlos. Ojo: tu PPT dice no usarlos con TFG <30; para el examen manda la PPT.",
+    "f": "KDIGO 2024 – Evaluación y manejo de la ERC (Kidney Int 2024;105(4S):S117-S314)"
+   }
   },
   {
    "id": "n-erc-dial1",
@@ -622,7 +638,11 @@
    "correcta": 0,
    "explicacion": "ERC = TFG <60 mL/min/1.73 m² por más de 3 meses, o marcadores de daño renal (como albuminuria) aunque la TFG sea normal. Luego se estadía con KDIGO.",
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 24",
-   "contexto": "KDIGO (Kidney Disease: Improving Global Outcomes): organización internacional que publica las guías para clasificar y tratar las enfermedades renales. TFG = tasa de filtrado glomerular, el volumen de sangre que los riñones filtran por minuto."
+   "contexto": "KDIGO (Kidney Disease: Improving Global Outcomes): organización internacional que publica las guías para clasificar y tratar las enfermedades renales. TFG = tasa de filtrado glomerular, el volumen de sangre que los riñones filtran por minuto.",
+   "guia": {
+    "t": "• KDIGO define la ERC como anormalidades de la estructura o función del riñón presentes por más de 3 meses y con implicancias para la salud.\n• Se diagnostica con TFG (tasa de filtración glomerular) <60 mL/min/1.73 m² o con marcadores de daño, por ejemplo cociente albúmina/creatinina (ACR) ≥30 mg/g, por más de 3 meses.\n• Si se detecta por casualidad un ACR alto, hematuria o TFG baja, KDIGO pide repetir las pruebas para confirmar.\n• Coincide con tu PPT.",
+    "f": "KDIGO 2024 – Evaluación y manejo de la ERC (Kidney Int 2024;105(4S):S117-S314)"
+   }
   }
  ],
  "tarjetas": [

@@ -223,7 +223,11 @@
    ],
    "correcta": 0,
    "explicacion": "Graves: vómito, distrés cardiorrespiratorio, somnolencia anormal y profunda, convulsiones y coma (Glasgow ≤8).",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 16"
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 16",
+   "guia": {
+    "t": "• La guía europea 2014 considera síntomas graves: convulsiones, coma, vómitos y distrés cardiorrespiratorio.\n• Tratamiento: 150 mL de NaCl 3 % IV en 20 minutos, repetidos hasta 2 veces o hasta subir 5 mmol/L; luego se detiene.\n• Meta: aliviar los síntomas, no normalizar el sodio.",
+    "f": "Guía europea de hiponatremia 2014 (ESE/ERA-EDTA/ESICM; Spasovski et al., Eur J Endocrinol 2014;170:G1-G47)"
+   }
   },
   {
    "id": "n-na-sol",
@@ -280,7 +284,11 @@
    "correcta": 0,
    "explicacion": "Un corregido excesivo provoca síndrome de desmielinización osmótica.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 21",
-   "nota": "Los talleres de la clase dan metas de 4 a 8, 8 a 10 o 10 a 12 mEq/L según la lámina. Aquí la lámina de tratamiento de hipernatremia (lám. 26) dice no más de 8 mEq/L en 24 h."
+   "nota": "Los talleres de la clase dan metas de 4 a 8, 8 a 10 o 10 a 12 mEq/L según la lámina. Aquí la lámina de tratamiento de hipernatremia (lám. 26) dice no más de 8 mEq/L en 24 h.",
+   "guia": {
+    "t": "• La guía europea 2014 limita la subida de sodio a 10 mmol/L en las primeras 24 h y 8 mmol/L cada 24 h después.\n• En pacientes con riesgo de síndrome de desmielinización osmótica (hipopotasemia, desnutrición, alcoholismo) el límite es 8 mmol/L en 24 h.\n• Tu PPT dice máximo 8 en 24 h; es el límite estricto. Para el examen manda la PPT.",
+    "f": "Guía europea de hiponatremia 2014 (ESE/ERA-EDTA/ESICM; Spasovski et al., Eur J Endocrinol 2014;170:G1-G47)"
+   }
   },
   {
    "id": "n-na-c1",
@@ -481,7 +489,11 @@
    ],
    "correcta": 0,
    "explicacion": "Una corrección demasiado rápida de la hipernatremia puede causar edema cerebral.",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 26"
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 26",
+   "guia": {
+    "t": "• Referencia clínica: en hipernatremia crónica (>24 h o duración desconocida), bajar el sodio no más de 0.5 mmol/L/h y no más de 10 mmol/L/día, con meta de 145 mmol/L.\n• Tu PPT dice no más de 8 mEq/L en 24 h; para el examen manda la PPT.",
+    "f": "Referencia clínica de medicina aguda sobre hipernatremia (NO es una guía de sociedad); consulta la guía local"
+   }
   },
   {
    "id": "n-na-case",

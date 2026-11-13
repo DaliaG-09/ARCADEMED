@@ -198,7 +198,11 @@
    ],
    "correcta": 0,
    "explicacion": "IECA = inhibidor de la enzima convertidora de angiotensina. ARA II = antagonista del receptor de angiotensina II.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 14"
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 14",
+   "guia": {
+    "t": "• KDIGO 2021: los glucocorticoides no se indican para prevenir la nefritis en la púrpura de Henoch-Schönlein (IgAV) y pueden usarse en niños con nefritis leve a moderada.\n• En IgA el pilar inicial es el tratamiento de soporte con IECA/ARA II.\n• Tu PPT menciona bolos de esteroides, ciclofosfamida y plasmaféresis; para el examen manda la PPT.",
+    "f": "KDIGO 2021 – Enfermedades glomerulares (Kidney Int 2021;100(4S))"
+   }
   },
   {
    "id": "n-sis-suh1",
