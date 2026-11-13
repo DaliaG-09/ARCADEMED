@@ -1,0 +1,335 @@
+{
+ "preguntas": [
+  {
+   "id": "n-lit-comp",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "dif": 2,
+   "enunciado": "Varón de 40 años con DM2 insulinodependiente y cálculo renal de 1 cm. ¿Composición más probable?",
+   "opciones": [
+    {
+     "t": "Oxalato de calcio",
+     "por": "Es el tipo más frecuente."
+    },
+    {
+     "t": "Ácido úrico",
+     "por": "Es la segunda más frecuente y se relaciona con DM, pero el más frecuente es oxalato de calcio."
+    },
+    {
+     "t": "Estruvita (amonio fosfato)",
+     "por": "Es de infecciones."
+    },
+    {
+     "t": "Fosfato inorgánico",
+     "por": "No es el más frecuente."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La clase plantea la pregunta en lám. 3 y 27.",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 3 y 27",
+   "nota": "La lámina no da la respuesta; oxalato de calcio es lo más frecuente. En diabéticos con orina ácida también puede ser ácido úrico."
+  },
+  {
+   "id": "n-lit-cor",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "dif": 1,
+   "enunciado": "¿Cuál es el principal componente del cálculo coraliforme?",
+   "opciones": [
+    {
+     "t": "Estruvita",
+     "por": "Asociada a bacterias productoras de ureasa, como Proteus mirabilis."
+    },
+    {
+     "t": "Oxalato de calcio",
+     "por": "No."
+    },
+    {
+     "t": "Ácido úrico",
+     "por": "No."
+    },
+    {
+     "t": "Cistina",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Llena parcial o totalmente el sistema colector.",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 11"
+  },
+  {
+   "id": "n-lit-fis",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "dif": 2,
+   "enunciado": "¿Cuál es el primer paso para formar un cálculo?",
+   "opciones": [
+    {
+     "t": "Supersaturación urinaria",
+     "por": "Los solutos exceden su solubilidad."
+    },
+    {
+     "t": "Retención en el urotelio",
+     "por": "Es el cuarto."
+    },
+    {
+     "t": "Crecimiento y agregación",
+     "por": "Es el tercero."
+    },
+    {
+     "t": "Nucleación",
+     "por": "Es el segundo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Secuencia: supersaturación, nucleación, crecimiento y agregación, retención.",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 9"
+  },
+  {
+   "id": "n-lit-rx",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "dif": 1,
+   "enunciado": "¿Cuál es el estudio ideal por su alta sensibilidad y especificidad?",
+   "opciones": [
+    {
+     "t": "Tomografía",
+     "por": "Es el examen ideal."
+    },
+    {
+     "t": "Ecografía ureteral (sensibilidad 45 %)",
+     "por": "Sensibilidad baja."
+    },
+    {
+     "t": "Radiografía simple de abdomen",
+     "por": "Solo ve los radioopacos."
+    },
+    {
+     "t": "Urocultivo",
+     "por": "No es de imagen."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Ecografía: ureteral sensibilidad 45 % y especificidad 95 %; renal 45 % y 84 %.",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 14 a 16"
+  },
+  {
+   "id": "n-lit-dieta",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "dif": 2,
+   "enunciado": "Recomendación dietética en litiasis:",
+   "opciones": [
+    {
+     "t": "Más de 2.5 L de líquidos al día, calcio 800 mg a 1 g, sodio 2 a 3 g, evitar oxalato",
+     "por": "Evitar espinaca, frutos secos y soja."
+    },
+    {
+     "t": "Restringir líquidos",
+     "por": "No."
+    },
+    {
+     "t": "Restringir totalmente el calcio",
+     "por": "Se recomienda 800 mg a 1 g."
+    },
+    {
+     "t": "Dieta alta en sodio",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "AINE para el dolor.",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 17"
+  },
+  {
+   "id": "n-lit-exp",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "dif": 2,
+   "enunciado": "¿Cuáles son los fármacos del tratamiento expulsivo?",
+   "opciones": [
+    {
+     "t": "Nifedipino y tamsulosina",
+     "por": "Relajan la fibra muscular ureteral."
+    },
+    {
+     "t": "Furosemida",
+     "por": "No."
+    },
+    {
+     "t": "Ciprofloxacino",
+     "por": "No es expulsivo."
+    },
+    {
+     "t": "Prednisona",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tamsulosina es un bloqueador α1.",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 17"
+  },
+  {
+   "id": "n-lit-qx",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "dif": 3,
+   "enunciado": "Litiasis de 3 cm, de forma irregular (coraliforme). ¿Qué procedimiento?",
+   "opciones": [
+    {
+     "t": "Nefrolitotomía percutánea",
+     "por": "Para litos >2 cm y formas irregulares."
+    },
+    {
+     "t": "Litotricia extracorpórea",
+     "por": "Efectividad 60 a 80 % en riñón; menos para grandes."
+    },
+    {
+     "t": "Ureteroscopía",
+     "por": "Para uréter o vejiga."
+    },
+    {
+     "t": "Solo hidratación",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Cirugía abierta cada vez menos usada.",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 18 a 20"
+  },
+  {
+   "id": "n-lit-up",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "dif": 1,
+   "enunciado": "¿Qué es la uropatía obstructiva?",
+   "opciones": [
+    {
+     "t": "Cambio estructural o funcional que impide el flujo urinario normal y causa ERC por fibrosis",
+     "por": "Con hidronefrosis."
+    },
+    {
+     "t": "Una infección",
+     "por": "No."
+    },
+    {
+     "t": "Un tipo de glomerulopatía",
+     "por": "No."
+    },
+    {
+     "t": "Un cálculo siempre",
+     "por": "Puede tener otras causas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tratamiento según la causa de fondo.",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 22"
+  },
+  {
+   "id": "n-lit-baja",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "dif": 2,
+   "enunciado": "¿Qué es causa de obstrucción de vía urinaria baja?",
+   "opciones": [
+    {
+     "t": "Hiperplasia benigna de próstata",
+     "por": "También trauma uretral, fimosis, fármacos anticolinérgicos o antidepresivos."
+    },
+    {
+     "t": "Aneurisma de aorta",
+     "por": "Es extrínseca de vía alta."
+    },
+    {
+     "t": "Tumor ovárico",
+     "por": "Vía alta."
+    },
+    {
+     "t": "Pancreatitis",
+     "por": "Vía alta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "NM = neoplasia maligna.",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 23"
+  },
+  {
+   "id": "n-lit-alta",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "dif": 2,
+   "enunciado": "¿Qué es causa extrínseca de obstrucción de vía urinaria alta?",
+   "opciones": [
+    {
+     "t": "Tumor ovárico, cáncer de cérvix, aneurisma de aorta, hematomas o pancreatitis",
+     "por": "Compresión externa."
+    },
+    {
+     "t": "Hiperplasia de próstata",
+     "por": "Baja."
+    },
+    {
+     "t": "Estenosis uretral",
+     "por": "Baja."
+    },
+    {
+     "t": "Fimosis",
+     "por": "Baja."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Intrínsecas: litiasis, tumores, granulomas, infecciones y abscesos.",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 24"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "n-lit-c-0",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "f": "Coraliforme",
+   "b": "Estruvita; Proteus (ureasa)",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 11"
+  },
+  {
+   "id": "n-lit-c-1",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "f": "Pasos de formación",
+   "b": "Supersaturación, nucleación, agregación, retención",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 9"
+  },
+  {
+   "id": "n-lit-c-2",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "f": "Mejor imagen",
+   "b": "Tomografía",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 16"
+  },
+  {
+   "id": "n-lit-c-3",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "f": "Dieta",
+   "b": "Líquidos >2.5 L; Ca 800-1000 mg; Na 2-3 g; evitar oxalato",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 17"
+  },
+  {
+   "id": "n-lit-c-4",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "f": "Expulsivo",
+   "b": "Nifedipino y tamsulosina",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 17"
+  },
+  {
+   "id": "n-lit-c-5",
+   "area": "nefro",
+   "tema": "Litiasis y uropatía obstructiva",
+   "f": "Percutánea",
+   "b": "Litos >2 cm o coraliformes",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 20"
+  }
+ ]
+}

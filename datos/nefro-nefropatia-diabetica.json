@@ -1,0 +1,477 @@
+{
+ "preguntas": [
+  {
+   "id": "n-nd-def",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 1,
+   "enunciado": "¿Qué es la nefropatía diabética?",
+   "opciones": [
+    {
+     "t": "Glomeruloesclerosis progresiva por los efectos crónicos de la hiperglucemia, con albuminuria persistente, HTA y caída del filtrado",
+     "por": "Definición de la lámina."
+    },
+    {
+     "t": "Infección del riñón en diabéticos",
+     "por": "Eso es pielonefritis."
+    },
+    {
+     "t": "Obstrucción por cálculos en diabéticos",
+     "por": "Es litiasis."
+    },
+    {
+     "t": "Necrosis tubular aguda por contraste",
+     "por": "Es IRA."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Con riesgo elevado de enfermedad renal terminal.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 7"
+  },
+  {
+   "id": "n-nd-hist",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "enunciado": "¿Qué lesión histológica se considera patognomónica de la nefropatía diabética?",
+   "opciones": [
+    {
+     "t": "Esclerosis nodular de Kimmelstiel-Wilson",
+     "por": "Además: engrosamiento de la MBG, expansión mesangial, hialinosis arteriolar."
+    },
+    {
+     "t": "Semilunas epiteliales",
+     "por": "Son de GNRP."
+    },
+    {
+     "t": "Espigas subepiteliales",
+     "por": "Son de membranosa."
+    },
+    {
+     "t": "Fusión de pedicelos solamente",
+     "por": "Es de cambios mínimos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "MBG = membrana basal glomerular.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 8"
+  },
+  {
+   "id": "n-nd-rf",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "enunciado": "¿Cuál es un factor de riesgo de nefropatía diabética según la lámina?",
+   "opciones": [
+    {
+     "t": "Mal control glucémico sostenido (HbA1c elevada)",
+     "por": "También HTA, dislipidemia, obesidad, tabaquismo y antecedentes familiares."
+    },
+    {
+     "t": "Dieta baja en sal",
+     "por": "Es protectora."
+    },
+    {
+     "t": "Hipotensión",
+     "por": "No."
+    },
+    {
+     "t": "Control glucémico estricto",
+     "por": "Es protector."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Más de 10 años en DM1; puede aparecer antes en DM2.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 10",
+   "contexto": "HbA1c = hemoglobina glucosilada, refleja el control de glucosa de los últimos 3 meses. DM1 y DM2 = diabetes mellitus tipo 1 y 2."
+  },
+  {
+   "id": "n-nd-epi",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 1,
+   "enunciado": "En Perú, ¿qué porcentaje de pacientes en hemodiálisis crónica tiene nefropatía diabética como diagnóstico principal?",
+   "opciones": [
+    {
+     "t": "Más de 30 %",
+     "por": "Estudios locales."
+    },
+    {
+     "t": "Menos de 5 %",
+     "por": "Muy bajo."
+    },
+    {
+     "t": "10 %",
+     "por": "No."
+    },
+    {
+     "t": "Casi 100 %",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Aumentan la obesidad, el sedentarismo y el mal control de la diabetes.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 11"
+  },
+  {
+   "id": "n-nd-temp",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 1,
+   "enunciado": "¿Cuál es el hallazgo más temprano y útil para el diagnóstico precoz?",
+   "opciones": [
+    {
+     "t": "Microalbuminuria (30 a 300 mg/día)",
+     "por": "Puede preceder años al deterioro de la función."
+    },
+    {
+     "t": "Creatinina elevada",
+     "por": "Es tardía."
+    },
+    {
+     "t": "Edema generalizado",
+     "por": "Es de etapas intermedias."
+    },
+    {
+     "t": "Uremia",
+     "por": "Es de etapas avanzadas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En esta fase la TFG suele ser normal o aumentada (hiperfiltración).",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 12"
+  },
+  {
+   "id": "n-nd-tiempo",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "enunciado": "¿Cuándo suele aparecer la albuminuria en DM1 y en DM2?",
+   "opciones": [
+    {
+     "t": "En DM1 después de 5 años del diagnóstico; en DM2 puede estar desde el inicio",
+     "por": "Según la lámina."
+    },
+    {
+     "t": "En DM1 desde el inicio",
+     "por": "Es en DM2."
+    },
+    {
+     "t": "A los 30 años en ambas",
+     "por": "No."
+    },
+    {
+     "t": "Nunca en DM2",
+     "por": "Sí aparece."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En DM2 el inicio es de tiempo incierto.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 12"
+  },
+  {
+   "id": "n-nd-inter",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "enunciado": "Proteinuria mayor de 300 mg/día, edema blando e HTA en un diabético: ¿qué etapa?",
+   "opciones": [
+    {
+     "t": "Intermedia (nefropatía incipiente o establecida)",
+     "por": "Con caída progresiva de TFG."
+    },
+    {
+     "t": "Fase silente",
+     "por": "Solo microalbuminuria."
+    },
+    {
+     "t": "Avanzada (ERC 4 a 5)",
+     "por": "Hay uremia."
+    },
+    {
+     "t": "Sin nefropatía",
+     "por": "Sí hay."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Puede coexistir con retinopatía y neuropatía periférica.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 13"
+  },
+  {
+   "id": "n-nd-av",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "enunciado": "¿Cuál es hallazgo de la etapa avanzada (ERC 4 a 5)?",
+   "opciones": [
+    {
+     "t": "Síntomas urémicos, anemia normocítica, acidosis, hiperpotasemia y HTA resistente",
+     "por": "Necesidad de diálisis."
+    },
+    {
+     "t": "Solo microalbuminuria",
+     "por": "Es etapa inicial."
+    },
+    {
+     "t": "TFG aumentada",
+     "por": "Es etapa inicial."
+    },
+    {
+     "t": "Sin síntomas",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Trastornos: hiponatremia, hiperpotasemia.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 14"
+  },
+  {
+   "id": "n-nd-dx",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "enunciado": "Criterios diagnósticos de nefropatía diabética:",
+   "opciones": [
+    {
+     "t": "Albuminuria persistente >30 mg/g (2 de 3 muestras en 3 a 6 meses), diabetes >5 años, HTA y ausencia de otras causas",
+     "por": "Conclusión de la clase."
+    },
+    {
+     "t": "Una tira reactiva positiva",
+     "por": "No."
+    },
+    {
+     "t": "Solo creatinina elevada",
+     "por": "No."
+    },
+    {
+     "t": "Retinopatía sola",
+     "por": "Refuerza, no basta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Microalbuminuria 30 a 300 mg/24 h o mg/g; macroalbuminuria >300.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 16 y 17"
+  },
+  {
+   "id": "n-nd-bx",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 3,
+   "enunciado": "¿Cuándo se indica biopsia renal en un diabético?",
+   "opciones": [
+    {
+     "t": "Sedimento activo, hematuria, caída rápida de TFG, ausencia de retinopatía o duda diagnóstica",
+     "por": "Lámina de exámenes auxiliares."
+    },
+    {
+     "t": "En todos los diabéticos",
+     "por": "No."
+    },
+    {
+     "t": "Cuando hay retinopatía",
+     "por": "Refuerza el diagnóstico de ND."
+    },
+    {
+     "t": "Nunca",
+     "por": "Sí se indica en esos casos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Ecografía: riñones normales o aumentados al inicio.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 18"
+  },
+  {
+   "id": "n-nd-tx1",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "enunciado": "Primera línea en nefropatía diabética con TFG mayor o igual a 20-30:",
+   "opciones": [
+    {
+     "t": "iSGLT2 (empagliflozina, dapagliflozina)",
+     "por": "Retrasan la progresión y reducen el riesgo CV."
+    },
+    {
+     "t": "Metformina con TFG <30",
+     "por": "Se usa hasta TFG ≥30."
+    },
+    {
+     "t": "Corticoides",
+     "por": "No."
+    },
+    {
+     "t": "AINE",
+     "por": "Dañan el riñón."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "GLP-1 RA (semaglutida, liraglutida) si TFG baja o no tolera iSGLT2; HbA1c ≈7 %.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 20",
+   "contexto": "iSGLT2 = inhibidores del cotransportador sodio-glucosa 2. GLP-1 RA = agonistas del receptor de GLP-1."
+  },
+  {
+   "id": "n-nd-tx2",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "enunciado": "¿Cuál es la meta de PA en un diabético con albuminuria mayor de 30 mg/g?",
+   "opciones": [
+    {
+     "t": "Menos de 130/80 mmHg",
+     "por": "Con IECA o ARA II."
+    },
+    {
+     "t": "Menos de 160/100",
+     "por": "Alta."
+    },
+    {
+     "t": "Menos de 100/60",
+     "por": "Muy baja."
+    },
+    {
+     "t": "Menos de 150/90",
+     "por": "Alta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Iniciar IECA o ARA II si el cociente albuminuria/creatinina (ACR) >30 mg/g, aun con presión normal.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 21"
+  },
+  {
+   "id": "n-nd-tx3",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "enunciado": "Finerenona: ¿qué es?",
+   "opciones": [
+    {
+     "t": "Antagonista selectivo del receptor mineralocorticoide que reduce progresión renal y CV en DM2 con albuminuria",
+     "por": "Está en la tabla."
+    },
+    {
+     "t": "iSGLT2",
+     "por": "Son dapagliflozina y empagliflozina."
+    },
+    {
+     "t": "Agonista GLP-1",
+     "por": "Es semaglutida."
+    },
+    {
+     "t": "Estatina",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Estatinas en todo paciente con diabetes y ERC; LDL <70 mg/dL en alto riesgo CV.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 22"
+  },
+  {
+   "id": "n-nd-ic",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 1,
+   "enunciado": "¿Cuándo derivar a Nefrología a un diabético?",
+   "opciones": [
+    {
+     "t": "TFG <30, albuminuria >500 a 1000 mg/g persistente, progresión rápida o duda diagnóstica",
+     "por": "Lámina de manejo avanzado."
+    },
+    {
+     "t": "Solo si hay edema",
+     "por": "No."
+    },
+    {
+     "t": "A todos con HbA1c 7 %",
+     "por": "No."
+    },
+    {
+     "t": "Nunca",
+     "por": "Sí se deriva."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Interconsulta.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 23"
+  },
+  {
+   "id": "n-nd-case",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 3,
+   "enunciado": "Varón de 60 años, DM2 de 20 años con retinopatía, edemas generalizados, PA 160/110, albúmina 1.9, colesterol 313. ¿Planteo?",
+   "opciones": [
+    {
+     "t": "Síndrome nefrótico por nefropatía diabética",
+     "por": "Con retinopatía y 20 años de diabetes."
+    },
+    {
+     "t": "Insuficiencia cardiaca únicamente",
+     "por": "Hay hipoalbuminemia."
+    },
+    {
+     "t": "IRA prerrenal",
+     "por": "Creatinina de 1.2."
+    },
+    {
+     "t": "Cirrosis",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Plan: albuminuria de 24 h, ecografía, fondo de ojo; IECA o ARA II, iSGLT2, estatina, diurético.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 26",
+   "nota": "La lámina plantea el caso sin dar respuesta; el diagnóstico es una interpretación a partir de los datos."
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "n-nd-c-0",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "f": "ND: histología",
+   "b": "Kimmelstiel-Wilson, MBG gruesa, mesangio expandido",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 8"
+  },
+  {
+   "id": "n-nd-c-1",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "f": "Microalbuminuria",
+   "b": "30 a 300 mg/24 h",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 12"
+  },
+  {
+   "id": "n-nd-c-2",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "f": "Dx de ND",
+   "b": ">30 mg/g en 2 de 3 muestras; DM >5 años; HTA; sin otra causa",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 16"
+  },
+  {
+   "id": "n-nd-c-3",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "f": "ND: tratamiento",
+   "b": "iSGLT2, IECA/ARA II, finerenona, estatina",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 22"
+  },
+  {
+   "id": "n-nd-c-4",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "f": "Meta PA",
+   "b": "<130/80 si albuminuria >30",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 21"
+  },
+  {
+   "id": "n-nd-c-5",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "f": "Derivar",
+   "b": "TFG <30 o albuminuria >500-1000",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 23"
+  }
+ ]
+}

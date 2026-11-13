@@ -9,6 +9,10 @@
   "nefro-enfermedades-sistemicas.json",
   "nefro-sodio.json",
   "nefro-potasio.json",
-  "nefro-calcio-magnesio.json"
+  "nefro-calcio-magnesio.json",
+  "nefro-nefropatia-diabetica.json",
+  "nefro-litiasis.json",
+  "nefro-itu.json",
+  "nefro-tbc-renal.json"
  ]
 }

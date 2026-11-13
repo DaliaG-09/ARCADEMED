@@ -1,0 +1,336 @@
+{
+ "preguntas": [
+  {
+   "id": "n-tbc-gen",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "dif": 1,
+   "enunciado": "¿Dónde suele iniciar la tuberculosis urogenital?",
+   "opciones": [
+    {
+     "t": "En el riñón",
+     "por": "Es forma extrapulmonar por Mycobacterium tuberculosis."
+    },
+    {
+     "t": "En la próstata",
+     "por": "Es secundaria."
+    },
+    {
+     "t": "En el pene",
+     "por": "Raro."
+    },
+    {
+     "t": "En la vejiga",
+     "por": "Suele ser secundaria a la renal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Afecta por igual a varones y mujeres.",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 7"
+  },
+  {
+   "id": "n-tbc-rf",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "dif": 2,
+   "enunciado": "Factores de riesgo de TBC urogenital:",
+   "opciones": [
+    {
+     "t": "Malnutrición, diabetes, VIH, tabaquismo, abuso de drogas, situación de calle",
+     "por": "Lámina de factores de riesgo."
+    },
+    {
+     "t": "Dieta rica en fibra",
+     "por": "No."
+    },
+    {
+     "t": "Ejercicio frecuente",
+     "por": "No."
+    },
+    {
+     "t": "Hipertensión aislada",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "VIH = virus de inmunodeficiencia humana.",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 8"
+  },
+  {
+   "id": "n-tbc-pat",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "dif": 2,
+   "enunciado": "¿Cómo llega el bacilo al riñón?",
+   "opciones": [
+    {
+     "t": "Diseminación hematógena durante la primoinfección, con focos en la corteza y reactivación años después",
+     "por": "Granulomas con necrosis caseosa."
+    },
+    {
+     "t": "Ascenso desde la uretra",
+     "por": "No es la vía descrita."
+    },
+    {
+     "t": "Contacto con el agua",
+     "por": "No."
+    },
+    {
+     "t": "Solo por vía digestiva",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los focos latentes se reactivan por disminución de la inmunidad.",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 9"
+  },
+  {
+   "id": "n-tbc-renal",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "dif": 2,
+   "enunciado": "Lesión renal por TBC:",
+   "opciones": [
+    {
+     "t": "Granulomas y necrosis caseosa con nefritis túbulo-intersticial crónica; las cavidades pueden llevar a ERC",
+     "por": "Es la presentación urogenital más frecuente."
+    },
+    {
+     "t": "Depósitos de IgA",
+     "por": "No."
+    },
+    {
+     "t": "Cambios mínimos",
+     "por": "No."
+    },
+    {
+     "t": "Cálculos",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Vía hematógena o linfática.",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 11"
+  },
+  {
+   "id": "n-tbc-ure",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "dif": 2,
+   "enunciado": "¿Qué porción del uréter se afecta más en la TBC?",
+   "opciones": [
+    {
+     "t": "El tercio inferior",
+     "por": "50 % de TBC renal compromete uréteres: estenosis y reflujo."
+    },
+    {
+     "t": "El tercio superior",
+     "por": "No."
+    },
+    {
+     "t": "El medio",
+     "por": "No."
+    },
+    {
+     "t": "Todo por igual",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Inflamación, edema, ulceración granulomatosa y fibrosis.",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 12"
+  },
+  {
+   "id": "n-tbc-vej",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "dif": 2,
+   "enunciado": "TBC vesical:",
+   "opciones": [
+    {
+     "t": "Usualmente secundaria a TBC renal; se presenta como cistitis y progresa a fibrosis",
+     "por": "También post-BCG en neoplasia vesical."
+    },
+    {
+     "t": "Siempre primaria",
+     "por": "Usualmente secundaria."
+    },
+    {
+     "t": "Sin síntomas",
+     "por": "Cistitis."
+    },
+    {
+     "t": "Nunca fibrosis",
+     "por": "Progresa a fibrosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "BCG = bacilo de Calmette-Guérin (inmunoterapia vesical).",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 13"
+  },
+  {
+   "id": "n-tbc-pro",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "dif": 3,
+   "enunciado": "TBC prostática: ¿qué complicación se describe?",
+   "opciones": [
+    {
+     "t": "Fístula a la uretra, con cavidades y abscesos",
+     "por": "Presenta epididimitis u orquitis."
+    },
+    {
+     "t": "Cálculos coraliformes",
+     "por": "No."
+    },
+    {
+     "t": "Insuficiencia renal aguda",
+     "por": "No."
+    },
+    {
+     "t": "Hidrocele agudo",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Diseminación linfática o hematógena.",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 14"
+  },
+  {
+   "id": "n-tbc-dx1",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "dif": 2,
+   "enunciado": "¿Qué prueba tiene mayor sensibilidad para el diagnóstico de TBC renal?",
+   "opciones": [
+    {
+     "t": "PCR (98.1 %)",
+     "por": "No distingue entre activa y latente."
+    },
+    {
+     "t": "Ziehl-Neelsen (42 a 52 %)",
+     "por": "Sensibilidad baja."
+    },
+    {
+     "t": "Cultivo (hasta 90 %)",
+     "por": "Menor que PCR, tarda hasta 6 semanas."
+    },
+    {
+     "t": "Urocultivo común",
+     "por": "No detecta M. tuberculosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El cultivo permite hacer prueba de sensibilidad antibiótica.",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 17",
+   "contexto": "PCR = reacción en cadena de la polimerasa. BAAR = bacilos ácido-alcohol resistentes (tinción de Ziehl-Neelsen)."
+  },
+  {
+   "id": "n-tbc-dx2",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "dif": 2,
+   "enunciado": "¿Qué hallazgo histológico da el diagnóstico?",
+   "opciones": [
+    {
+     "t": "Necrosis caseosa y granulomas",
+     "por": "Típicos."
+    },
+    {
+     "t": "Semilunas",
+     "por": "GNRP."
+    },
+    {
+     "t": "Esclerosis nodular",
+     "por": "Nefropatía diabética."
+    },
+    {
+     "t": "Depósitos en espigas",
+     "por": "Membranosa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tinción de Ziehl-Neelsen: BAAR en orina.",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 17"
+  },
+  {
+   "id": "n-tbc-case",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "dif": 3,
+   "enunciado": "Varón de 65 años con ERC, fiebre persistente pese a levofloxacino, claritromicina y meropenem, hemocultivo y urocultivo negativos. ¿Qué se pide?",
+   "opciones": [
+    {
+     "t": "Baciloscopía en orina y esputo, Ziehl-Neelsen y cultivo de Löwenstein",
+     "por": "Se confirmó TBC genitourinaria."
+    },
+    {
+     "t": "Más antibióticos de amplio espectro",
+     "por": "Ya falló."
+    },
+    {
+     "t": "Solo urocultivo repetido",
+     "por": "Fue negativo."
+    },
+    {
+     "t": "Tomografía cerebral",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tratamiento del caso: rifampicina, isoniacida y pirazinamida.",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 3 y 21",
+   "nota": "El caso del PPT usa tres fármacos; el esquema estándar también incluye etambutol."
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "n-tbc-c-0",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "f": "TBC renal",
+   "b": "Granulomas, necrosis caseosa, nefritis tubulointersticial",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 11"
+  },
+  {
+   "id": "n-tbc-c-1",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "f": "Uréter",
+   "b": "Tercio inferior; estenosis",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 12"
+  },
+  {
+   "id": "n-tbc-c-2",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "f": "Dx PCR",
+   "b": "98.1 % sensibilidad",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 17"
+  },
+  {
+   "id": "n-tbc-c-3",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "f": "Ziehl-Neelsen",
+   "b": "42 a 52 % de sensibilidad",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 17"
+  },
+  {
+   "id": "n-tbc-c-4",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "f": "Cultivo",
+   "b": "Hasta 90 %; 6 semanas",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 17"
+  },
+  {
+   "id": "n-tbc-c-5",
+   "area": "nefro",
+   "tema": "TBC renal y vías urinarias",
+   "f": "Tratamiento del caso",
+   "b": "Rifampicina, isoniacida, pirazinamida",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 11), lám. 21"
+  }
+ ]
+}
