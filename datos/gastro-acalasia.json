@@ -1,0 +1,473 @@
+{
+ "preguntas": [
+  {
+   "id": "g-aca-def",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 1,
+   "enunciado": "¿Cómo se define la acalasia?",
+   "opciones": [
+    {
+     "t": "Un trastorno de la motilidad esofágica con peristalsis aberrante y relajación insuficiente del esfínter esofágico inferior (EEI)",
+     "por": "Es la definición de la lámina: el EEI no se relaja bien y el esófago no empuja el alimento."
+    },
+    {
+     "t": "Un reflujo del contenido gástrico al esófago por un EEI hipotónico",
+     "por": "Eso es la ERGE, que es lo contrario: el EEI cierra mal en vez de relajarse mal."
+    },
+    {
+     "t": "Una bolsa mucosa en la unión faringoesofágica",
+     "por": "Es el divertículo de Zenker."
+    },
+    {
+     "t": "Una contracción esofágica vigorosa con peristalsis normal",
+     "por": "Eso describe el esófago en cascanueces; en la acalasia no hay peristalsis normal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Acalasia: peristalsis aberrante y relajación insuficiente del EEI. Incidencia de 0,03 a 1,63 por 100 mil personas al año, igual en hombres y mujeres, sin predilección racial, con pico entre los 30 y 60 años.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 6"
+  },
+  {
+   "id": "g-aca-causa",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "¿Qué infección es una causa secundaria de acalasia?",
+   "opciones": [
+    {
+     "t": "Trypanosoma cruzi (enfermedad de Chagas)",
+     "por": "Destruye las neuronas del plexo mientérico; es la causa secundaria que menciona la lámina."
+    },
+    {
+     "t": "Helicobacter pylori",
+     "por": "Causa gastritis y úlcera, no acalasia."
+    },
+    {
+     "t": "Virus de la hepatitis B",
+     "por": "Afecta el hígado, no la motilidad esofágica."
+    },
+    {
+     "t": "Giardia lamblia",
+     "por": "Produce diarrea por afectación del intestino delgado."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La mayoría de las acalasias son idiopáticas. Otros factores: infección por T. cruzi (Chagas, causa secundaria), autoinmunidad y predisposición genética (casos familiares raros).",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 7",
+   "nota": "La relación con el plexo mientérico (neuronas inhibidoras) es complemento; la lámina 10 lo muestra en un esquema con neuronas mientéricas y apoptosis."
+  },
+  {
+   "id": "g-aca-clinica",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 1,
+   "enunciado": "Varón de 45 años con disfagia progresiva para sólidos y líquidos, regurgitación de alimentos sin digerir y pérdida de peso. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "Acalasia",
+     "por": "La disfagia para sólidos Y líquidos desde el inicio, con regurgitación de alimento no digerido, es lo característico."
+    },
+    {
+     "t": "ERGE",
+     "por": "Predomina la pirosis; la disfagia solo aparece si hay una estenosis."
+    },
+    {
+     "t": "Cáncer de esófago",
+     "por": "Es posible (por eso se hace endoscopía), pero la disfagia empieza por sólidos y progresa, y el curso insidioso con líquidos desde el inicio orienta a acalasia."
+    },
+    {
+     "t": "Espasmo esofágico difuso",
+     "por": "Causa dolor torácico y disfagia intermitente, no regurgitación progresiva con pérdida de peso."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Clínica: disfagia progresiva (sólidos y líquidos), regurgitación de alimentos no digeridos, pérdida de peso, dolor torácico y pirosis (por fermentación del alimento retenido) en 27 a 42 %, y neumonía por aspiración en casos avanzados.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 8"
+  },
+  {
+   "id": "g-aca-pirosis",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "¿Por qué un paciente con acalasia puede tener pirosis?",
+   "opciones": [
+    {
+     "t": "Por la fermentación de los alimentos retenidos en el esófago",
+     "por": "No es reflujo ácido: el alimento estancado fermenta y produce ácido láctico."
+    },
+    {
+     "t": "Porque el EEI está hipotónico y deja pasar ácido",
+     "por": "Es lo contrario: el EEI está hipertónico y no se relaja."
+    },
+    {
+     "t": "Porque hay una úlcera duodenal asociada",
+     "por": "No es la explicación que da la lámina."
+    },
+    {
+     "t": "Porque la bilis refluye al esófago",
+     "por": "La bilis no es el mecanismo en la acalasia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La pirosis de la acalasia (27 a 42 %) se debe a la fermentación del alimento retenido. Por eso un tratamiento con IBP no resuelve el síntoma y puede retrasar el diagnóstico.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 8",
+   "nota": "La advertencia sobre el retraso del diagnóstico con IBP es un complemento (no está en la lámina)."
+  },
+  {
+   "id": "g-aca-eckardt",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "Según la tabla del puntaje de Eckardt, ¿qué puntaje de pérdida de peso corresponde a una pérdida mayor de 10 kg?",
+   "opciones": [
+    {
+     "t": "3",
+     "por": "En la tabla: 0 = ninguna; 1 = menos de 5 kg; 2 = de 5 a 10 kg; 3 = más de 10 kg."
+    },
+    {
+     "t": "1",
+     "por": "Es para una pérdida menor de 5 kg."
+    },
+    {
+     "t": "2",
+     "por": "Es para una pérdida de 5 a 10 kg."
+    },
+    {
+     "t": "0",
+     "por": "Significa que no hay pérdida de peso."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Eckardt: pérdida de peso (0 ninguna, 1 <5 kg, 2 de 5 a 10 kg, 3 >10 kg); disfagia, dolor retroesternal y regurgitación (0 ninguno, 1 ocasional, 2 diario, 3 en cada comida). El máximo total es 12.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 9",
+   "contexto": "Puntaje de Eckardt: mide la gravedad de la acalasia sumando cuatro síntomas (pérdida de peso, disfagia, dolor retroesternal y regurgitación), cada uno de 0 a 3. Sirve para evaluar la severidad al inicio y la respuesta al tratamiento.",
+   "nota": "La suma máxima de 12 es un complemento: la lámina muestra solo la tabla de puntajes."
+  },
+  {
+   "id": "g-aca-barites",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "¿Qué hallazgo típico muestra el esofagograma con bario en la acalasia?",
+   "opciones": [
+    {
+     "t": "Dilatación esofágica con estrechamiento distal en cono, el 'signo de pico de pájaro'",
+     "por": "El bario no pasa al estómago y el esófago distal se afina en forma de cono."
+    },
+    {
+     "t": "Una imagen en 'sacacorchos' con múltiples contracciones",
+     "por": "Es la imagen del espasmo esofágico difuso."
+    },
+    {
+     "t": "Un defecto de llenado irregular con bordes en 'manzana mordida'",
+     "por": "Es la imagen del cáncer de esófago."
+    },
+    {
+     "t": "Un saco que sale de la unión faringoesofágica",
+     "por": "Es el divertículo de Zenker."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Diagnóstico: (1) esofagograma con bario (pico de pájaro: dilatación más estrechamiento distal en cono); (2) manometría de alta resolución, el estándar de oro; (3) endoscopía digestiva alta para descartar cáncer o pseudoacalasia.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11 y 12 y 20",
+   "nota": "Las imágenes de 'sacacorchos' y 'manzana mordida' son complemento para diferenciar; no están en la lámina."
+  },
+  {
+   "id": "g-aca-manometria",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "¿Cuál es el estándar de oro para diagnosticar acalasia y qué muestra?",
+   "opciones": [
+    {
+     "t": "Manometría esofágica de alta resolución: presión del EEI aumentada con relajación incompleta y ausencia de peristalsis",
+     "por": "Confirma el diagnóstico y define el tipo según la clasificación de Chicago."
+    },
+    {
+     "t": "Esofagograma con bario",
+     "por": "Sugiere el diagnóstico, pero no es el estándar de oro."
+    },
+    {
+     "t": "Endoscopía digestiva alta",
+     "por": "Sirve para descartar cáncer o pseudoacalasia, no para confirmar."
+    },
+    {
+     "t": "pH-metría de 24 horas",
+     "por": "Mide reflujo ácido y no evalúa la relajación del EEI."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Manometría de alta resolución = estándar de oro. Muestra EEI hipertensivo con relajación alterada en todos los subtipos y ausencia de peristalsis.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11"
+  },
+  {
+   "id": "g-aca-chicago",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 3,
+   "enunciado": "En la clasificación de Chicago, ¿qué tipo de acalasia muestra contracciones prematuras (espásticas)?",
+   "opciones": [
+    {
+     "t": "Tipo III",
+     "por": "Es el tipo con contracciones espásticas; en el tipo II hay panpresurización y en el tipo I ausencia de presurización."
+    },
+    {
+     "t": "Tipo I",
+     "por": "Es la acalasia clásica: peristalsis ausente y sin presurización."
+    },
+    {
+     "t": "Tipo II",
+     "por": "Muestra presurización panesofágica, no espasmos."
+    },
+    {
+     "t": "Los tres tipos por igual",
+     "por": "Cada tipo tiene un patrón distinto, aunque la relajación del EEI está alterada en todos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Chicago: tipo I sin presurización (ausencia de peristalsis), tipo II panpresurización, tipo III contracciones prematuras (espásticas). El tipo III es el de peor respuesta a dilatación y requiere miotomía más larga.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11 y 13",
+   "contexto": "Clasificación de Chicago: usa la manometría de alta resolución (un catéter con muchos sensores que mide la presión del esófago) para dividir la acalasia en tres tipos según el patrón de presión. Orienta la elección del tratamiento y el pronóstico.",
+   "nota": "La peor respuesta del tipo III a la dilatación es complemento (se ve en el algoritmo de la lámina 23)."
+  },
+  {
+   "id": "g-aca-farmaco",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "¿Qué fármacos orales menciona la lámina para acalasia?",
+   "opciones": [
+    {
+     "t": "Nifedipino 10 a 30 mg antes de las comidas, isosorbida 5 mg sublingual, anticolinérgicos o agonistas beta",
+     "por": "Relajan el EEI, pero su efecto es modesto y se reservan para quienes no pueden recibir un tratamiento definitivo."
+    },
+    {
+     "t": "Omeprazol a dosis altas",
+     "por": "Los IBP tratan el reflujo ácido, no relajan el EEI."
+    },
+    {
+     "t": "Procinéticos como la metoclopramida",
+     "por": "Aumentan la peristalsis, que en la acalasia está ausente."
+    },
+    {
+     "t": "Antibióticos de amplio espectro",
+     "por": "No tienen papel en el tratamiento."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tratamiento: el objetivo es mejorar los síntomas. Farmacológico: nifedipino, isosorbida (liberación de óxido nítrico y reducción del calcio intracelular), atropina, terbutalina. Endoscópico: toxina botulínica 100 UI sobre la unión escamocilíndrica. Dilatación neumática (riesgo de perforación). Quirúrgico: miotomía.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14",
+   "nota": "Que se reservan a pacientes no aptos para el tratamiento definitivo está en el algoritmo de la lámina 23."
+  },
+  {
+   "id": "g-aca-botox",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "¿Cómo se aplica la toxina botulínica en la acalasia?",
+   "opciones": [
+    {
+     "t": "Se inyectan 100 unidades por encima de la unión escamocilíndrica por endoscopía",
+     "por": "Bloquea la liberación de acetilcolina y relaja el EEI, con efecto transitorio."
+    },
+    {
+     "t": "Se aplica por vía intravenosa semanal",
+     "por": "No es la vía de aplicación."
+    },
+    {
+     "t": "Se inyecta en el cuerpo del esófago a 5 cm del cardias",
+     "por": "La lámina indica el sitio: por encima de la unión escamocilíndrica."
+    },
+    {
+     "t": "Se usa como tratamiento definitivo en todos los pacientes jóvenes",
+     "por": "Su efecto dura pocos meses; es una opción para pacientes no aptos para cirugía."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Toxina botulínica: 100 unidades endoscópicas por encima de la unión escamocilíndrica. El efecto es temporal, por eso se usa en pacientes que no pueden recibir tratamiento definitivo.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14",
+   "nota": "Que el efecto sea transitorio y que se use en no aptos es complemento (consistente con lámina 23)."
+  },
+  {
+   "id": "g-aca-dilat",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "¿Cuál es el principal riesgo de la dilatación neumática?",
+   "opciones": [
+    {
+     "t": "Perforación esofágica",
+     "por": "Es la complicación principal que señala la lámina."
+    },
+    {
+     "t": "Hemorragia digestiva baja",
+     "por": "No es la complicación típica del procedimiento."
+    },
+    {
+     "t": "Pancreatitis aguda",
+     "por": "No se relaciona con la dilatación esofágica."
+    },
+    {
+     "t": "Hipertiroidismo",
+     "por": "No tiene relación."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La dilatación neumática rompe las fibras del EEI con un balón. Su riesgo es la perforación esofágica. En el algoritmo se indica en acalasia tipo I o II.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14 y 15"
+  },
+  {
+   "id": "g-aca-cx",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "¿Qué se asocia a la miotomía quirúrgica del EEI en la acalasia?",
+   "opciones": [
+    {
+     "t": "Fundoplicatura, por el alto riesgo de ERGE tras la miotomía",
+     "por": "Al cortar el EEI se pierde la barrera antirreflujo, por eso se añade una fundoplicatura parcial."
+    },
+    {
+     "t": "Esofagectomía de rutina",
+     "por": "Solo se hace en megaesófago o esófago sigmoideo."
+    },
+    {
+     "t": "Antibióticos por 6 meses",
+     "por": "No es parte del tratamiento."
+    },
+    {
+     "t": "Radioterapia",
+     "por": "No tiene papel en la acalasia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Miotomía quirúrgica: división de las fibras musculares del EEI (la lámina menciona toracotomía; el algoritmo muestra Heller laparoscópica con fundoplicación de Dor o Toupet). Esofagectomía: megaesófago o esófago sigmoideo con dilatación tortuosa.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 16",
+   "nota": "Hoy la miotomía se hace sobre todo por laparoscopía o por vía endoscópica (POEM), según el algoritmo de la lámina 23."
+  },
+  {
+   "id": "g-aca-algoritmo",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 3,
+   "enunciado": "Paciente con acalasia tipo III apto para cirugía. ¿Qué tratamiento define el algoritmo?",
+   "opciones": [
+    {
+     "t": "Miotomía a medida, por POEM o Heller",
+     "por": "El tipo III necesita una miotomía más larga que cubra el segmento espástico."
+    },
+    {
+     "t": "Dilatación neumática como primera opción",
+     "por": "Se indica para los tipos I o II."
+    },
+    {
+     "t": "Toxina botulínica definitiva",
+     "por": "Se reserva para pacientes no aptos para el tratamiento definitivo."
+    },
+    {
+     "t": "Solo relajantes del músculo liso",
+     "por": "Es lo que se da a pacientes no aptos para el definitivo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Algoritmo (POEM = miotomía endoscópica peroral; Heller = miotomía quirúrgica): tipo I o II → dilatación neumática, Heller laparoscópica (con Dor o Toupet) o POEM; tipo III → miotomía a medida (POEM o Heller); no aptos → toxina botulínica o relajantes del músculo liso. Tras POEM, los pacientes salen con IBP.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 23",
+   "contexto": "Clasificación de Chicago: usa la manometría de alta resolución (un catéter con muchos sensores que mide la presión del esófago) para dividir la acalasia en tres tipos según el patrón de presión. Orienta la elección del tratamiento y el pronóstico."
+  },
+  {
+   "id": "g-aca-pron",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "¿Qué complicación a largo plazo tiene la acalasia sin tratamiento?",
+   "opciones": [
+    {
+     "t": "Megaesófago con riesgo de carcinoma escamocelular",
+     "por": "La estasis crónica irrita la mucosa; la lámina menciona el riesgo de carcinoma escamocelular."
+    },
+    {
+     "t": "Adenocarcinoma por esófago de Barrett",
+     "por": "Es la complicación de la ERGE crónica, no de la acalasia."
+    },
+    {
+     "t": "Cirrosis hepática",
+     "por": "No se relaciona."
+    },
+    {
+     "t": "Úlcera duodenal",
+     "por": "No se relaciona con la acalasia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Con tratamiento adecuado, la calidad de vida mejora. Sin tratamiento: megaesófago con riesgo de carcinoma escamocelular. Recidiva en 20 a 30 % tras cirugía.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 17"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "g-aca-c-0",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "f": "Acalasia: definición",
+   "b": "Peristalsis aberrante y relajación insuficiente del EEI. Pico a los 30 a 60 años.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 6"
+  },
+  {
+   "id": "g-aca-c-1",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "f": "Acalasia: clínica",
+   "b": "Disfagia a sólidos y líquidos, regurgitación sin digerir, pérdida de peso, pirosis por fermentación.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 8"
+  },
+  {
+   "id": "g-aca-c-2",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "f": "Eckardt",
+   "b": "Suma de pérdida de peso, disfagia, dolor retroesternal y regurgitación (0 a 3 cada uno).",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 9"
+  },
+  {
+   "id": "g-aca-c-3",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "f": "Esofagograma",
+   "b": "Pico de pájaro: dilatación con estrechamiento distal en cono.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11"
+  },
+  {
+   "id": "g-aca-c-4",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "f": "Estándar de oro",
+   "b": "Manometría de alta resolución: EEI hipertenso sin relajación y sin peristalsis.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11"
+  },
+  {
+   "id": "g-aca-c-5",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "f": "Chicago",
+   "b": "Tipo I: sin presurización\nTipo II: panpresurización\nTipo III: espásticas",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 13"
+  },
+  {
+   "id": "g-aca-c-6",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "f": "Tratamiento de acalasia",
+   "b": "Nifedipino/isosorbida, toxina botulínica 100 UI, dilatación neumática, miotomía + fundoplicatura, esofagectomía.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14"
+  },
+  {
+   "id": "g-aca-c-7",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "f": "Complicación",
+   "b": "Megaesófago con riesgo de carcinoma escamocelular. Recidiva 20 a 30 % tras cirugía.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 17"
+  }
+ ]
+}

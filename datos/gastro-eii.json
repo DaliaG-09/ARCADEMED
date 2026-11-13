@@ -1,0 +1,577 @@
+{
+ "preguntas": [
+  {
+   "id": "g-eii-def",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 1,
+   "enunciado": "¿Qué trastornos engloba la enfermedad inflamatoria intestinal (EII)?",
+   "opciones": [
+    {
+     "t": "Colitis ulcerosa (CU) y enfermedad de Crohn (EC), dos trastornos inflamatorios crónicos de causa desconocida",
+     "por": "Es la definición de la lámina: ambos son idiopáticos y crónicos."
+    },
+    {
+     "t": "Colitis infecciosa y colitis pseudomembranosa",
+     "por": "Tienen causa identificable (infección, toxina de C. difficile); son parte del diagnóstico diferencial."
+    },
+    {
+     "t": "Síndrome de intestino irritable y dispepsia",
+     "por": "Son trastornos funcionales, sin inflamación visible."
+    },
+    {
+     "t": "Colitis isquémica y colitis colagenosa",
+     "por": "También son parte del diagnóstico diferencial, no de la EII."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "EII = colitis ulcerosa + enfermedad de Crohn. Las características clínicas, endoscópicas e histológicas son la clave del diagnóstico, aunque ningún hallazgo aislado es absolutamente diagnóstico de una u otra.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 7"
+  },
+  {
+   "id": "g-eii-etio",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "¿Qué genes se relacionan con la susceptibilidad a la EII en la lámina de etiopatogenia?",
+   "opciones": [
+    {
+     "t": "NOD2/CARD15, TLR4 e IL-23R",
+     "por": "Condicionan la susceptibilidad y una respuesta inmune exagerada."
+    },
+    {
+     "t": "BRCA1 y BRCA2",
+     "por": "Son genes de cáncer de mama y ovario."
+    },
+    {
+     "t": "HFE y ATP7B",
+     "por": "Son genes de hemocromatosis y enfermedad de Wilson."
+    },
+    {
+     "t": "CFTR y PKD1",
+     "por": "Son genes de fibrosis quística y poliquistosis renal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Etiopatogenia: factores genéticos (NOD2/CARD15, TLR4, IL-23R) + respuesta inmune alterada (pérdida de tolerancia, barrera epitelial) + microflora y ambiente (disbiosis, infecciones, tabaco, AINE, estrés).",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 7"
+  },
+  {
+   "id": "g-eii-epi",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 1,
+   "enunciado": "¿Qué se dice de la epidemiología de la EII?",
+   "opciones": [
+    {
+     "t": "Aparece a cualquier edad, con más frecuencia entre la 2.ª y la 4.ª década; 5 a 20 % tiene un familiar afectado",
+     "por": "Además, la incidencia es mayor en Norteamérica y el norte de Europa."
+    },
+    {
+     "t": "Aparece solo en ancianos",
+     "por": "Puede aparecer a cualquier edad y es más frecuente en adultos jóvenes."
+    },
+    {
+     "t": "Es más frecuente en poblaciones asiáticas y africanas",
+     "por": "Es más frecuente en población blanca y judíos."
+    },
+    {
+     "t": "No tiene componente familiar",
+     "por": "Hasta 20 % de los pacientes tiene un familiar con EII."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "EII: 2.ª a 4.ª década, mayor incidencia en Norteamérica, Reino Unido y norte de Europa; CU 19/100 000, EC 13 a 20/100 000; 5 a 20 % con familiar afectado, riesgo 10 a 15 % mayor en primer grado; más de 200 locus de susceptibilidad; asociada a espondilitis anquilosante, psoriasis, etc.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 8"
+  },
+  {
+   "id": "g-eii-tabaco",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "¿Cómo influye el tabaco en la EII?",
+   "opciones": [
+    {
+     "t": "Es protector en la colitis ulcerosa y un factor de riesgo en la enfermedad de Crohn",
+     "por": "Es uno de los rasgos que diferencian ambas enfermedades."
+    },
+    {
+     "t": "Es factor de riesgo en la colitis ulcerosa y protector en el Crohn",
+     "por": "Es al revés."
+    },
+    {
+     "t": "Es protector en ambas",
+     "por": "En Crohn aumenta recidivas, fístulas y abscesos."
+    },
+    {
+     "t": "No influye en ninguna",
+     "por": "Tiene efectos opuestos y bien descritos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tabaco: protector en CU (menos recidivas en fumadores), factor de riesgo en EC (más recidivas, fístulas y abscesos, sobre todo en la zona ileocecal y colónica). No se recomienda fumar a un paciente con CU: el efecto protector no compensa el daño.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 12 y 13",
+   "nota": "La recomendación de no fumar a pacientes con CU es un complemento."
+  },
+  {
+   "id": "g-eii-dif1",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "¿Qué diferencia la extensión de la colitis ulcerosa respecto de la enfermedad de Crohn?",
+   "opciones": [
+    {
+     "t": "En la CU la inflamación es continua desde el recto; en el Crohn es discontinua con zonas sanas ('lesiones en salto')",
+     "por": "La CU afecta solo colon y recto; el Crohn puede afectar todo el tubo digestivo."
+    },
+    {
+     "t": "La CU afecta todo el tubo digestivo y el Crohn solo el colon",
+     "por": "Es al revés."
+    },
+    {
+     "t": "Las dos son continuas y transmurales",
+     "por": "La CU compromete solo mucosa y submucosa."
+    },
+    {
+     "t": "La CU es discontinua y transmural",
+     "por": "Esas son características del Crohn."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "CU: solo colon y recto, inflamación continua, mucosa y submucosa. Crohn: todo el tubo digestivo, inflamación discontinua y transmural (todas las capas).",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 13"
+  },
+  {
+   "id": "g-eii-dif2",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 3,
+   "enunciado": "Paciente con diarrea crónica. El examen muestra p-ANCA positivo y ASCA negativo. ¿Qué enfermedad apoya?",
+   "opciones": [
+    {
+     "t": "Colitis ulcerosa",
+     "por": "El patrón p-ANCA(+)/ASCA(−) es el de la CU; en el Crohn es ASCA(+)/p-ANCA(−)."
+    },
+    {
+     "t": "Enfermedad de Crohn",
+     "por": "Típicamente ASCA positivo y p-ANCA negativo."
+    },
+    {
+     "t": "Colitis infecciosa",
+     "por": "Estos anticuerpos no se usan para diagnosticarla."
+    },
+    {
+     "t": "Síndrome de intestino irritable",
+     "por": "No se altera ningún anticuerpo en el SII."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "p-ANCA (anticuerpos anticitoplasma de neutrófilos) y ASCA (anticuerpos anti-Saccharomyces cerevisiae) son un apoyo diagnóstico, no confirman. CU: p-ANCA(+), ASCA(−). Crohn: ASCA(+), p-ANCA generalmente negativo.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 13 a 15"
+  },
+  {
+   "id": "g-eii-cirugia",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "¿Qué se dice sobre la respuesta a la cirugía en la EII?",
+   "opciones": [
+    {
+     "t": "En la CU la colectomía es curativa; en el Crohn no, porque la enfermedad puede reaparecer",
+     "por": "La colectomía elimina la mucosa afectada en la CU."
+    },
+    {
+     "t": "La cirugía cura el Crohn",
+     "por": "En el Crohn reaparece, sobre todo en la anastomosis."
+    },
+    {
+     "t": "La CU recidiva siempre tras colectomía",
+     "por": "Si se quita el colon y el recto, la enfermedad se elimina."
+    },
+    {
+     "t": "Ninguna de las dos necesita cirugía",
+     "por": "Las dos pueden necesitarla en urgencia o en refractariedad."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Cirugía: curativa en CU, no curativa en Crohn. Recurrencia posquirúrgica: CU 0, Crohn +. Riesgo de cáncer: alto en CU (según tiempo y extensión), menor en Crohn. La apendicectomía disminuye el riesgo de CU.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 13 y 16"
+  },
+  {
+   "id": "g-eii-cu_clin",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "Varón de 25 años con diarrea con sangre y moco, tenesmo y urgencia rectal en brotes y remisiones. ¿Cuál es el diagnóstico más probable y dónde empieza la enfermedad?",
+   "opciones": [
+    {
+     "t": "Colitis ulcerosa, que empieza siempre en el recto y se extiende de forma continua",
+     "por": "Sangrado, tenesmo y compromiso rectal (95 %) son típicos de la CU."
+    },
+    {
+     "t": "Enfermedad de Crohn con afectación del íleon terminal",
+     "por": "Predominan dolor, pérdida de peso, masa ileocecal y fístulas; el sangrado es menor."
+    },
+    {
+     "t": "Síndrome de intestino irritable",
+     "por": "No hay sangre ni moco en el SII."
+    },
+    {
+     "t": "Colitis isquémica",
+     "por": "Es de adultos mayores, de inicio agudo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "CU: diarrea crónica con sangre y moco, tenesmo, urgencia; curso en brotes y remisiones. Complicaciones: megacolon tóxico, hemorragia, perforación, cáncer colorrectal. Extraintestinales: artritis, uveítis, eritema nodoso, colangitis esclerosante primaria.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 14 y 16"
+  },
+  {
+   "id": "g-eii-cu_img",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "¿Qué imagen radiológica se asocia a la colitis ulcerosa crónica y cuál es el estudio de elección?",
+   "opciones": [
+    {
+     "t": "Colon sin haustras, en 'tubo de plomo'; el estudio de elección es la colonoscopía con biopsia",
+     "por": "La TAC solo se usa para evaluar complicaciones."
+    },
+    {
+     "t": "Mucosa en 'empedrado' y signo del cordón; el estudio de elección es la enterorresonancia",
+     "por": "Son hallazgos del Crohn."
+    },
+    {
+     "t": "Pico de pájaro en el esófago; la manometría",
+     "por": "Es la imagen de la acalasia."
+    },
+    {
+     "t": "Doble burbuja; la ecografía",
+     "por": "Es el signo de la atresia duodenal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "CU: colon sin haustras (tubo de plomo); colonoscopía con biopsia (inflamación superficial y continua). Úlceras superficiales al inicio, más profundas en fases avanzadas, a veces en 'botón de camisa'. Megacolon tóxico: dilatación con columna de aire en la radiografía.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 14, 18 y 19"
+  },
+  {
+   "id": "g-eii-crohn",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "Mujer de 28 años con dolor abdominal crónico en fosa ilíaca derecha, diarrea, pérdida de peso, fiebre y una fístula perianal. ¿Qué enfermedad sugiere y qué estudio de imagen se prefiere?",
+   "opciones": [
+    {
+     "t": "Enfermedad de Crohn; la enterorresonancia magnética",
+     "por": "Dolor, pérdida de peso, masa o fístulas apuntan al Crohn; la RM enterográfica es el estudio de elección."
+    },
+    {
+     "t": "Colitis ulcerosa; la colonoscopía",
+     "por": "La CU casi no produce fístulas ni compromete el íleon."
+    },
+    {
+     "t": "Apendicitis; la ecografía",
+     "por": "El curso crónico y la fístula perianal no corresponden."
+    },
+    {
+     "t": "Síndrome de intestino irritable; ninguna imagen",
+     "por": "El SII no tiene fiebre ni fístulas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Crohn: cualquier segmento (sobre todo íleon terminal y colon), inflamación segmentaria y transmural con granulomas, úlceras profundas en 'empedrado'. Complicaciones: fístulas, abscesos, estenosis, obstrucción, perforación. Fístulas perianales en 15 a 35 %. Imagen de elección: RM enterográfica (TAC enterográfico si no hay RM).",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 15 y 16"
+  },
+  {
+   "id": "g-eii-montreal",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 3,
+   "enunciado": "En la clasificación de Montreal, ¿qué indica E2?",
+   "opciones": [
+    {
+     "t": "Colitis izquierda: la inflamación llega hasta el ángulo esplénico",
+     "por": "E1 es proctitis (solo recto) y E3 es colitis extensa o pancolitis."
+    },
+    {
+     "t": "Proctitis ulcerosa",
+     "por": "Es E1: la inflamación no supera el límite superior del recto."
+    },
+    {
+     "t": "Pancolitis",
+     "por": "Es E3: la enfermedad se extiende más allá del ángulo esplénico."
+    },
+    {
+     "t": "Colitis en remisión",
+     "por": "Es la gravedad S0, no una extensión."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Montreal: extensión E1 proctitis, E2 colitis izquierda (hasta el ángulo esplénico), E3 extensa o pancolitis. Gravedad: S0 remisión, S1 leve (≤4 deposiciones al día, sin síntomas sistémicos), S2 moderada, S3 grave (≥6 deposiciones con sangre, fiebre >37,5 °C, taquicardia >90, Hb <10,5 g/dl, VSG >30).",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 25",
+   "contexto": "Clasificación de Montreal de la colitis ulcerosa: describe la extensión de la enfermedad (E1 a E3) y su gravedad (S0 a S3) para elegir el tratamiento. La extensión se define por hasta dónde llega la inflamación vista en la colonoscopía."
+  },
+  {
+   "id": "g-eii-extra",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "Según la tabla de complicaciones, ¿cuál de estas manifestaciones aparece SOLO en la enfermedad de Crohn y no en la colitis ulcerosa?",
+   "opciones": [
+    {
+     "t": "Úlceras orales (aftas)",
+     "por": "La tabla la marca solo en el Crohn, junto con los trastornos óseos y el déficit de vitamina B12."
+    },
+    {
+     "t": "Uveítis y epiescleritis",
+     "por": "La tabla las marca en ambas enfermedades."
+    },
+    {
+     "t": "Colangitis esclerosante primaria",
+     "por": "También aparece en las dos."
+    },
+    {
+     "t": "Enfermedad tromboembólica",
+     "por": "La tabla la marca en ambas; la inflamación crónica aumenta el riesgo de trombosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Extraintestinales en ambas: uveítis, epiescleritis, artropatía, pioderma gangrenoso y eritema nodoso, litiasis renal, colangitis esclerosante primaria y enfermedad tromboembólica. Solo en el Crohn: úlceras orales, trastornos óseos (osteoporosis, osteomalacia) y déficit de B12 (por afectación del íleon).",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 23, 24 y 34",
+   "nota": "La explicación del déficit de B12 por afectación del íleon es un complemento."
+  },
+  {
+   "id": "g-eii-megacolon",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "¿Qué complicación de la colitis ulcerosa muestra la dilatación del colon con columna de aire en la radiografía?",
+   "opciones": [
+    {
+     "t": "Megacolon tóxico",
+     "por": "La lámina de radiología lo señala como complicación de la CU."
+    },
+    {
+     "t": "Obstrucción intestinal por estenosis",
+     "por": "Es la complicación más frecuente del Crohn."
+    },
+    {
+     "t": "Fístula perianal",
+     "por": "Es típica del Crohn."
+    },
+    {
+     "t": "Colelitiasis",
+     "por": "No aparece como complicación aquí."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Megacolon tóxico: dilatación aguda del colon con signos sistémicos; es una indicación quirúrgica de urgencia si hay perforación o está por ocurrir. En el Crohn la complicación más frecuente es la obstrucción intestinal; la perforación es excepcional.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 14, 18 y 21"
+  },
+  {
+   "id": "g-eii-trat_leve",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "Paciente con colitis ulcerosa distal leve a moderada. ¿Qué indica la clase?",
+   "opciones": [
+    {
+     "t": "Mesalazina (5-ASA), por vía tópica en supositorios, enemas o espuma durante 4 a 6 semanas",
+     "por": "Es eficaz en la CU distal; por vía oral en la extensa."
+    },
+    {
+     "t": "Infliximab como primera línea",
+     "por": "Los biológicos se reservan para formas moderadas a graves o refractarias."
+    },
+    {
+     "t": "Ciclosporina intravenosa",
+     "por": "Es terapia de rescate en CU grave corticorrefractaria."
+    },
+    {
+     "t": "Colectomía de entrada",
+     "por": "Solo se opera en urgencia o refractariedad."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "5-ASA = ácido 5-aminosalicílico (mesalamina o mesalazina). Sulfasalazina = sulfapiridina + 5-ASA unidos por enlace azo; las bacterias del colon lo separan y la sulfapiridina causa la mayor parte de la toxicidad. Mesalazina: CU leve a moderada; supositorios 500 mg/8 h, enemas 1,2 g/noche o espuma 2 g/noche por 4 a 6 semanas.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 26 a 29"
+  },
+  {
+   "id": "g-eii-brote_mod",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 3,
+   "enunciado": "Brote moderado de colitis ulcerosa: ¿qué indica el algoritmo y qué se hace si no hay respuesta en 1 a 2 semanas?",
+   "opciones": [
+    {
+     "t": "Corticoides orales (1 mg/kg, con o sin tratamiento tópico); sin respuesta, ingresar y tratar como brote grave con esteroides intravenosos",
+     "por": "Si responde, se disminuye el esteroide progresivamente y se pasa al tratamiento de mantenimiento."
+    },
+    {
+     "t": "Antibióticos por 7 días",
+     "por": "No son tratamiento del brote de CU."
+    },
+    {
+     "t": "Solo dieta y observación",
+     "por": "El brote moderado requiere tratamiento activo."
+    },
+    {
+     "t": "Colectomía inmediata",
+     "por": "No está indicada en el brote moderado."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Brote moderado: corticoides orales 1 mg/kg (± tópico) → respuesta: descenso progresivo y mantenimiento; no respuesta en 1 a 2 semanas: ingreso y esteroides intravenosos. Corticoides: budesonida, prednisona 0,25 a 0,75 mg/kg, metilprednisolona 40 a 60 mg/día i.v.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 30 y 31"
+  },
+  {
+   "id": "g-eii-inmuno",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "¿En qué casos se indica azatioprina o 6-mercaptopurina en la EII?",
+   "opciones": [
+    {
+     "t": "Refractariedad o dependencia de esteroides, enfermedad perianal, Crohn fistulizante y mantenimiento de la remisión",
+     "por": "Son las indicaciones de la lámina para estos inmunomoduladores."
+    },
+    {
+     "t": "Dolor abdominal leve aislado",
+     "por": "No justifica un inmunomodulador."
+    },
+    {
+     "t": "Como tratamiento inicial de toda proctitis",
+     "por": "Se usa mesalazina tópica primero."
+    },
+    {
+     "t": "Solo en el megacolon tóxico",
+     "por": "No es su indicación."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Azatioprina (AZA) y su metabolito 6-mercaptopurina (6-MP): refractariedad a esteroides, enfermedad perianal, Crohn fistulizante, corticodependencia (EC y CU) y mantenimiento. Metotrexato: tratamiento de sostén del Crohn activo. Ciclosporina A: terapia de rescate (remisión en 60 %) en CU corticorrefractaria o Crohn grave.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 33"
+  },
+  {
+   "id": "g-eii-biologicos",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "¿Cómo actúa el vedolizumab?",
+   "opciones": [
+    {
+     "t": "Es una anti-integrina: impide que los linfocitos T entren al tejido inflamado del intestino",
+     "por": "Bloquea la migración de linfocitos T de memoria al tejido intestinal."
+    },
+    {
+     "t": "Es un anti-TNF-α que neutraliza el factor de necrosis tumoral",
+     "por": "Eso hacen infliximab y adalimumab."
+    },
+    {
+     "t": "Es un corticoide de liberación en el colon",
+     "por": "Eso es la budesonida."
+    },
+    {
+     "t": "Es un antibiótico contra Clostridioides",
+     "por": "No es un antibiótico."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Biológicos: infliximab, adalimumab, golimumab, certolizumab (anti-TNF-α); natalizumab y vedolizumab (anti-integrinas); ustekinumab (anti-IL-12/23); risankizumab. El vedolizumab inhibe la integrina α4β7 y actúa solo en el intestino.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 35 y 36"
+  },
+  {
+   "id": "g-eii-cx_ind",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "¿Cuál es una indicación quirúrgica urgente en la colitis ulcerosa?",
+   "opciones": [
+    {
+     "t": "Hemorragia masiva incohercible o megacolon tóxico con perforación inminente",
+     "por": "También: CU fulminante sin respuesta, obstrucción por estenosis o cáncer de colon."
+    },
+    {
+     "t": "Dolor leve sin sangre",
+     "por": "No requiere cirugía de urgencia."
+    },
+    {
+     "t": "Una proctitis distal controlada con enemas",
+     "por": "Se maneja médicamente."
+    },
+    {
+     "t": "Fatiga y pérdida de peso leve",
+     "por": "No es indicación quirúrgica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Indicaciones de cirugía de urgencia en CU (solo 15 % comienza con enfermedad catastrófica): hemorragia masiva incohercible; megacolon tóxico con perforación presente o inminente; CU fulminante que no responde a esteroides o inmunosupresores; obstrucción por estenosis; cáncer de colon. Opciones: proctocolectomía con ileostomía permanente o con IPAA (reservorio ileoanal).",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 37 a 39"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "g-eii-c-0",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "f": "EII",
+   "b": "Colitis ulcerosa + enfermedad de Crohn: inflamatorias, crónicas, idiopáticas.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 7"
+  },
+  {
+   "id": "g-eii-c-1",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "f": "CU vs Crohn: extensión",
+   "b": "CU: solo colon y recto, continua, mucosa y submucosa. Crohn: todo el tubo, discontinua, transmural.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 13"
+  },
+  {
+   "id": "g-eii-c-2",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "f": "Anticuerpos",
+   "b": "CU: p-ANCA (+), ASCA (−). Crohn: ASCA (+), p-ANCA (−).",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 13"
+  },
+  {
+   "id": "g-eii-c-3",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "f": "Tabaco",
+   "b": "Protege en CU, empeora el Crohn.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 13"
+  },
+  {
+   "id": "g-eii-c-4",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "f": "Imagen de elección",
+   "b": "CU: colonoscopía con biopsia. Crohn: enterorresonancia magnética.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 15"
+  },
+  {
+   "id": "g-eii-c-5",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "f": "Montreal (extensión)",
+   "b": "E1 proctitis\nE2 colitis izquierda\nE3 colitis extensa",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 25"
+  },
+  {
+   "id": "g-eii-c-6",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "f": "Tratamiento de CU leve a moderada",
+   "b": "Mesalazina oral o tópica 4 a 6 semanas; corticoides si no responde.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 27"
+  },
+  {
+   "id": "g-eii-c-7",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "f": "Indicaciones de cirugía en CU",
+   "b": "Hemorragia masiva, megacolon tóxico con perforación, CU fulminante, obstrucción por estenosis, cáncer de colon.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 37"
+  }
+ ]
+}

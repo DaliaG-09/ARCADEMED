@@ -16,6 +16,10 @@
   "nefro-tbc-renal.json",
   "gastro-erge.json",
   "gastro-gastritis.json",
-  "gastro-eup.json"
+  "gastro-eup.json",
+  "gastro-acalasia.json",
+  "gastro-funcionales.json",
+  "gastro-eii.json",
+  "gastro-hepatitis.json"
  ]
 }

@@ -1,0 +1,721 @@
+{
+ "preguntas": [
+  {
+   "id": "g-hep-def",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 1,
+   "enunciado": "¿Cómo se explica el daño del hígado en las hepatitis virales?",
+   "opciones": [
+    {
+     "t": "El virus no es citopático: el sistema inmune destruye los hepatocitos infectados para erradicarlo",
+     "por": "Es la idea central de la lámina de definición: la lesión es inmunomediada."
+    },
+    {
+     "t": "El virus destruye directamente los hepatocitos al replicarse",
+     "por": "Es lo que no ocurre con la mayoría de estos virus, que no son citopáticos (el virus D es la posible excepción)."
+    },
+    {
+     "t": "Las toxinas bacterianas intestinales dañan el hígado",
+     "por": "No hay toxina bacteriana en las hepatitis virales."
+    },
+    {
+     "t": "La obstrucción de la vía biliar daña el hepatocito",
+     "por": "Es el mecanismo de una colestasis obstructiva, no de la hepatitis viral."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hepatitis viral: lesión inflamatoria difusa y primaria del hígado con respuesta necroinflamatoria, que puede ser asintomática o llegar a insuficiencia hepática. El daño lo produce el sistema inmune al destruir los hepatocitos infectados.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 7"
+  },
+  {
+   "id": "g-hep-virus",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 1,
+   "enunciado": "¿Qué virus de hepatitis se transmiten por vía fecal-oral?",
+   "opciones": [
+    {
+     "t": "A y E",
+     "por": "Son los dos virus de transmisión fecal-oral por agua y alimentos contaminados."
+    },
+    {
+     "t": "B y C",
+     "por": "Se transmiten por sangre y otros líquidos corporales."
+    },
+    {
+     "t": "B y D",
+     "por": "Son de transmisión parenteral; el D solo infecta si hay hepatitis B."
+    },
+    {
+     "t": "C y D",
+     "por": "Son de transmisión parenteral."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Seis virus pueden causar hepatitis aguda; A y E son fecal-orales; B, C, D y G son por exposición percutánea o mucosa a sangre o líquidos. Solo B, C, D (y G) pueden cronificar; A y E no.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 8",
+   "nota": "La lámina dice que 5 de los 6 virus causan infección crónica; en la práctica A y E no cronifican (salvo E en inmunosuprimidos)."
+  },
+  {
+   "id": "g-hep-hav",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué virus es el de la hepatitis A?",
+   "opciones": [
+    {
+     "t": "Un virus ARN de cadena simple, de la familia Picornaviridae",
+     "por": "El daño lo producen las células T citotóxicas y las NK, no el virus."
+    },
+    {
+     "t": "Un virus ADN de la familia Hepadnaviridae",
+     "por": "Es el virus de la hepatitis B."
+    },
+    {
+     "t": "Un virus ARN de la familia Flaviviridae",
+     "por": "Es el virus de la hepatitis C."
+    },
+    {
+     "t": "Un virus ARN circular defectuoso",
+     "por": "Es el virus de la hepatitis D, que necesita al VHB."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "VHA: ARN de cadena simple, Picornavirus, transmisión fecal-oral (alimentos, agua, heces). Incubación 4 a 6 semanas con eliminación fecal masiva incluso antes de los síntomas.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 9 y 10"
+  },
+  {
+   "id": "g-hep-hav_hist",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cuál es el orden de la historia natural de la hepatitis A?",
+   "opciones": [
+    {
+     "t": "Incubación, periodo prodrómico, periodo de estado (ictérico) y convalecencia",
+     "por": "Duran respectivamente 2 a 6 semanas, 2 a 3 días, 3 a 6 semanas y hasta 3 a 6 meses."
+    },
+    {
+     "t": "Prodrómico, incubación, convalecencia y estado",
+     "por": "Invierte el orden: la incubación va primero."
+    },
+    {
+     "t": "Estado, incubación, prodrómico y convalecencia",
+     "por": "El periodo ictérico no puede preceder a los síntomas inespecíficos."
+    },
+    {
+     "t": "Incubación, convalecencia, prodrómico y estado",
+     "por": "La convalecencia es el último periodo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hepatitis A: la excreción fecal ocurre desde al menos 2 semanas antes de los síntomas (contagio) y los 8 a 10 días después. Prodrómico: astenia, fiebre, anorexia, coluria. Ictérico: hepatomegalia en 80 %, pico de ALT. Convalecencia: curación en 2 a 3 semanas (hasta 6); 4 a 20 % recae.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 15 a 19"
+  },
+  {
+   "id": "g-hep-hav_dx",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué marcador indica infección AGUDA por el virus de la hepatitis A?",
+   "opciones": [
+    {
+     "t": "IgM anti-VHA",
+     "por": "Está presente al inicio de los síntomas y se mantiene de 3 a 6 meses."
+    },
+    {
+     "t": "IgG anti-VHA",
+     "por": "Persiste por años y indica inmunidad."
+    },
+    {
+     "t": "HBsAg",
+     "por": "Es un marcador de hepatitis B."
+    },
+    {
+     "t": "Anti-HBc total",
+     "por": "Es un marcador de hepatitis B."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "IgM anti-HAV: marcador de infección aguda. IgG anti-HAV: marcador de inmunidad por años (infección previa o vacuna). ALT = alanina aminotransferasa.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 21"
+  },
+  {
+   "id": "g-hep-hav_trat",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 1,
+   "enunciado": "¿Cuál es el tratamiento de la hepatitis A aguda?",
+   "opciones": [
+    {
+     "t": "Medidas de soporte: hidratación, nutrición, evitar alcohol y hepatotóxicos, y vigilar la evolución a fulminante",
+     "por": "No hay antiviral; ningún suplemento ha demostrado mejoría."
+    },
+    {
+     "t": "Interferón pegilado por 12 meses",
+     "por": "Se usa en hepatitis B o C crónicas, no en la A."
+    },
+    {
+     "t": "Lamivudina por vía oral",
+     "por": "Es un fármaco para el VHB."
+    },
+    {
+     "t": "Vitaminas y hepatoprotectores",
+     "por": "La lámina dice que ningún suplemento ha comprobado mejoría."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hepatitis A: soporte, hidratación y nutrición, evitar alcohol y fármacos hepatotóxicos y vigilar para detectar hepatitis fulminante (<1 % en adultos). La vacuna previene la enfermedad (2 dosis, a los 0 y 6 a 12 meses).",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 22 y 23"
+  },
+  {
+   "id": "g-hep-hbv",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué se sabe del virus de la hepatitis B (VHB)?",
+   "opciones": [
+    {
+     "t": "Es un virus ADN de la familia Hepadnaviridae; el gen X participa en la carcinogénesis hepática",
+     "por": "Tiene cuatro genes: core, superficie, X y polimerasa."
+    },
+    {
+     "t": "Es un virus ARN de cadena simple",
+     "por": "Eso corresponde al VHC."
+    },
+    {
+     "t": "Se transmite principalmente por vía fecal-oral",
+     "por": "Se transmite por sangre, sexual y perinatal."
+    },
+    {
+     "t": "Solo infecta a personas inmunodeprimidas",
+     "por": "Infecta a cualquier persona expuesta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "VHB: ADN, Hepadnaviridae. Genes: core (proteína del core y HBeAg), superficie (pre-S1, pre-S2, S), X (proteína X, transactivadora, carcinogénesis) y polimerasa (replicación del ADN).",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 24"
+  },
+  {
+   "id": "g-hep-hbv_trans",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 1,
+   "enunciado": "¿Cuál es la vía de transmisión más frecuente de la hepatitis B en la lámina?",
+   "opciones": [
+    {
+     "t": "Las relaciones sexuales",
+     "por": "También se transmite por perinatal (más frecuente en países de alta prevalencia), drogas inyectables, tatuajes y accidentes cortopunzantes."
+    },
+    {
+     "t": "Las transfusiones de sangre",
+     "por": "Son menos frecuentes desde el tamizaje de donantes."
+    },
+    {
+     "t": "El agua contaminada",
+     "por": "Esa es la vía de los virus A y E."
+    },
+    {
+     "t": "La picadura de insectos",
+     "por": "No es una vía de transmisión."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Transmisión del VHB: sexual (más frecuente), transfusiones (menos), perinatal (más frecuente en países de alta prevalencia), drogas inyectables, tatuajes y piercing, accidentes cortopunzantes.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 26"
+  },
+  {
+   "id": "g-hep-marcadores",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué indica el HBeAg en la hepatitis B?",
+   "opciones": [
+    {
+     "t": "Replicación viral, en infectados con cepa salvaje",
+     "por": "Indica alta replicación e infectividad."
+    },
+    {
+     "t": "Inmunidad por vacunación",
+     "por": "La vacuna produce solo anti-HBs."
+    },
+    {
+     "t": "Exposición previa al virus",
+     "por": "La exposición la indica el anti-HBc."
+    },
+    {
+     "t": "Infección aguda reciente",
+     "por": "La infección aguda se marca con IgM anti-HBc."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "HBsAg: infección. Anti-HBc: exposición. Anti-HBs: resolución o inmunidad. HBeAg: replicación viral (cepa salvaje). IgM anti-HBc: infección aguda. Anti-HBe: disminución de la infectividad.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 31",
+   "contexto": "Marcadores de la hepatitis B: HBsAg (antígeno de superficie) indica infección activa; anti-HBs (anticuerpo contra ese antígeno) indica inmunidad por vacuna o por haber superado la infección; anti-HBc (anticuerpo contra el core, la cápside del virus) indica exposición, y su fracción IgM indica infección aguda; HBeAg indica replicación viral y anti-HBe menor infectividad."
+  },
+  {
+   "id": "g-hep-caso",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "Varón de 28 años de Ayacucho con náuseas, vómitos, artralgias e ictericia. HBsAg (+), anti-HBs (−), IgM anti-HBc (+), HBeAg (+), anti-HBe (−). ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "Hepatitis B aguda",
+     "por": "HBsAg e IgM anti-HBc positivos con HBeAg positivo indican infección aguda con replicación activa."
+    },
+    {
+     "t": "Portador de bajo nivel",
+     "por": "Tendría HBeAg negativo, anti-HBe positivo y transaminasas normales."
+    },
+    {
+     "t": "Inmunización reciente",
+     "por": "Solo mostraría anti-HBs positivo, sin HBsAg ni IgM anti-HBc."
+    },
+    {
+     "t": "Hepatitis B crónica",
+     "por": "Requiere HBsAg positivo por más de 6 meses y la IgM anti-HBc suele ser negativa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El caso de la clase: síntomas de hepatitis aguda con HBsAg e IgM anti-HBc positivos. La IgM anti-HBc diferencia lo agudo de lo crónico. Convalecencia: HBsAg negativo y anti-HBs positivo.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 3 y 66",
+   "contexto": "Marcadores de la hepatitis B: HBsAg (antígeno de superficie) indica infección activa; anti-HBs (anticuerpo contra ese antígeno) indica inmunidad por vacuna o por haber superado la infección; anti-HBc (anticuerpo contra el core, la cápside del virus) indica exposición, y su fracción IgM indica infección aguda; HBeAg indica replicación viral y anti-HBe menor infectividad."
+  },
+  {
+   "id": "g-hep-perfil",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 3,
+   "enunciado": "¿Qué situación indica HBsAg (−), anti-HBs (+), IgM anti-HBc (−) y anti-HBc total (+)?",
+   "opciones": [
+    {
+     "t": "Infección pasada, ya resuelta",
+     "por": "Hay anticuerpo contra el core (exposición) y contra la superficie (inmunidad) sin antígeno."
+    },
+    {
+     "t": "Vacunación",
+     "por": "La vacuna da anti-HBs aislado: anti-HBc total negativo."
+    },
+    {
+     "t": "Infección aguda",
+     "por": "Tendría HBsAg positivo e IgM anti-HBc positiva."
+    },
+    {
+     "t": "Infección crónica",
+     "por": "Tendría HBsAg positivo y anti-HBs negativo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Perfiles: HBsAg+, anti-HBs−, IgM+, total+ = aguda. HBsAg−, anti-HBs−, IgM+, total+ = aguda en periodo ventana. HBsAg+, anti-HBs−, IgM−, total+ = crónica. HBsAg−, anti-HBs+, IgM−, total+ = pasada. Solo anti-HBc total+ = pasada, crónica o falso positivo. Solo anti-HBs+ = vacunación.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 36",
+   "contexto": "Marcadores de la hepatitis B: HBsAg (antígeno de superficie) indica infección activa; anti-HBs (anticuerpo contra ese antígeno) indica inmunidad por vacuna o por haber superado la infección; anti-HBc (anticuerpo contra el core, la cápside del virus) indica exposición, y su fracción IgM indica infección aguda; HBeAg indica replicación viral y anti-HBe menor infectividad."
+  },
+  {
+   "id": "g-hep-ventana",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 3,
+   "enunciado": "¿Qué es el 'periodo ventana' de la hepatitis B y cómo se diagnostica?",
+   "opciones": [
+    {
+     "t": "Un periodo en que el HBsAg ya no se detecta aunque hay infección aguda; se diagnostica con IgM anti-HBc",
+     "por": "Es el marcador que llena el vacío entre la desaparición del HBsAg y la aparición del anti-HBs."
+    },
+    {
+     "t": "Un periodo en que no se detecta ningún marcador y se espera 1 año",
+     "por": "Siempre hay IgM anti-HBc durante la infección aguda."
+    },
+    {
+     "t": "Un periodo de inmunidad después de la vacuna",
+     "por": "No tiene relación con la vacuna."
+    },
+    {
+     "t": "Un periodo de portador sano",
+     "por": "Es el periodo de infección aguda, no la fase del portador inactivo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Diagnóstico de hepatitis B aguda: HBsAg, HBeAg, IgM anti-HBc y ADN-VHB; bioquímico con ALT, AST y GGT elevadas. En el periodo ventana, el HBsAg no es detectable y el diagnóstico se hace con IgM anti-HBc.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 32"
+  },
+  {
+   "id": "g-hep-cronica",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cómo se define la hepatitis B crónica?",
+   "opciones": [
+    {
+     "t": "HBsAg positivo por más de 6 meses",
+     "por": "Puede ser portador inactivo o infección activa."
+    },
+    {
+     "t": "HBsAg positivo por más de 1 semana",
+     "por": "La cronicidad exige más de 6 meses."
+    },
+    {
+     "t": "Anti-HBs positivo por más de 6 meses",
+     "por": "Es inmunidad, no infección."
+    },
+    {
+     "t": "IgM anti-HBc positiva por más de 3 días",
+     "por": "La IgM indica infección aguda."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Crónica: HBsAg+ más de 6 meses. Portador inactivo: asintomático, transaminasas normales, HBeAg negativo y anti-HBe positivo, ADN-VHB indetectable o menor de 10 000 a 100 000 copias/ml. Infección activa: ALT elevada permanente o intermitente, HBeAg positivo o negativo (mutante precore) y hepatitis histológica. 1 a 5 % de adultos inmunocompetentes cronifican.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 34 y 35"
+  },
+  {
+   "id": "g-hep-fases",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 3,
+   "enunciado": "En la hepatitis B crónica, ¿qué caracteriza a la fase inmunotolerante?",
+   "opciones": [
+    {
+     "t": "Se da en infección perinatal, con inflamación hepática mínima, ALT normal y ADN del VHB alto",
+     "por": "Puede durar desde 1 año hasta décadas."
+    },
+    {
+     "t": "ALT muy alta con inflamación activa y daño hepático",
+     "por": "Es la fase de activación inmunitaria."
+    },
+    {
+     "t": "ADN del VHB bajo o indetectable con ALT normal",
+     "por": "Es la fase de baja replicación."
+    },
+    {
+     "t": "Pérdida del HBsAg sin cicatriz",
+     "por": "Es la remisión; aun así quedan trazas de ADN, por lo que no es curación."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Fases de la hepatitis B crónica: inmunotolerante (adquirida perinatalmente, inflamación mínima), activación inmunitaria (ADN y ALT altos o fluctuantes), baja replicación (ADN bajo, ALT normal), reactivación (ALT y ADN fluctuantes) y remisión (no es curación).",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 30"
+  },
+  {
+   "id": "g-hep-indic_trat",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cuál es una indicación de tratamiento de la hepatitis B según la lámina?",
+   "opciones": [
+    {
+     "t": "ADN del VHB mayor de 20 000 UI/ml, con transaminasas elevadas o hepatitis crónica en la biopsia",
+     "por": "La lámina menciona estos tres criterios, con HBeAg positivo o negativo."
+    },
+    {
+     "t": "Transaminasas normales y ADN indetectable",
+     "por": "Es un portador inactivo y se vigila."
+    },
+    {
+     "t": "IgG anti-VHB aislada",
+     "por": "Indica inmunidad."
+    },
+    {
+     "t": "Cualquier paciente con HBsAg positivo por 1 semana",
+     "por": "Sin cronicidad no se trata."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Indicaciones: elevación de transaminasas, HBV-DNA detectable >20 000 UI/ml (116 400 copias/ml; 5,82 copias = 1 UI) con HBeAg positivo o negativo, y biopsia con hepatitis crónica. Fármacos: interferón, lamivudina, adefovir, entecavir, tenofovir.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 39 a 43",
+   "nota": "La lámina 37 dice que el nivel límite es >100 000 copias/ml, mientras la lámina 39 usa >20 000 UI/ml; son criterios de fuentes distintas."
+  },
+  {
+   "id": "g-hep-antivirales",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué ventaja tiene el tenofovir alafenamida (TAF) sobre el tenofovir disoproxil fumarato (TDF)?",
+   "opciones": [
+    {
+     "t": "Logra eficacia antiviral con una dosis menor y menor toxicidad renal y ósea",
+     "por": "El nivel plasmático de TAF es 91 % menor que el de TDF."
+    },
+    {
+     "t": "Se administra una vez por semana",
+     "por": "Se toma a diario."
+    },
+    {
+     "t": "Es un interferón de acción larga",
+     "por": "TAF y TDF son análogos nucleótidos orales."
+    },
+    {
+     "t": "Es útil solo contra el virus C",
+     "por": "Es un fármaco anti-VHB."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "TFV = tenofovir. TDF 300 mg y TAF 25 mg son profármacos del mismo tenofovir; TAF llega mejor al hepatocito con menos tenofovir circulante. Adefovir: nefrotoxicidad. Lamivudina: resistencia de 20 % al año y 60 % a los 4 años; se puede agregar tenofovir.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 41 y 43"
+  },
+  {
+   "id": "g-hep-prev_b",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿A quién se indica la inmunoglobulina contra hepatitis B (inmunoprofilaxis pasiva)?",
+   "opciones": [
+    {
+     "t": "Al recién nacido de madre HBsAg positiva, tras un pinchazo con aguja o exposición sexual, y en trasplante hepático en HBsAg positivos",
+     "por": "Se da junto con la vacuna (inmunización activa), idealmente antes de las 48 horas y no más allá de 7 días."
+    },
+    {
+     "t": "A todo adulto sano como prevención anual",
+     "por": "No se indica de rutina."
+    },
+    {
+     "t": "Solo a pacientes con hepatitis C",
+     "por": "No sirve contra el VHC."
+    },
+    {
+     "t": "A pacientes con hepatitis A crónica",
+     "por": "La hepatitis A no cronifica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Prevención de hepatitis B: modificar conductas, inmunoprofilaxis pasiva (IgHB 0,05 a 0,07 ml/kg antes de las 48 h, una segunda dosis a los 30 días, más inmunización activa) y vacunación (recombinante de levadura, anti-HBs en 95 %; revacunar si anti-HBs <10 UI/L, a los 5 a 10 años).",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 44 y 45"
+  },
+  {
+   "id": "g-hep-hcv",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "De 100 pacientes con hepatitis C, ¿cuántos desarrollan infección crónica?",
+   "opciones": [
+    {
+     "t": "Alrededor de 80",
+     "por": "Unos 20 se resuelven y 80 se cronifican; de estos, 24 no progresan, 32 son variables y 24 progresan a cirrosis."
+    },
+    {
+     "t": "Alrededor de 20",
+     "por": "Es el número que se resuelve."
+    },
+    {
+     "t": "Alrededor de 5",
+     "por": "La mayoría cronifica, no solo unos pocos."
+    },
+    {
+     "t": "Los 100",
+     "por": "Una parte se cura de forma espontánea."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "VHC: ARN de cadena simple, sin vacuna; solo 15 a 20 % tiene síntomas agudos; ~80 % cronifica; la cirrosis se desarrolla en 20 % en al menos 20 años y puede llegar a carcinoma hepatocelular. El alcohol acelera la progresión.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 46, 49 y 50",
+   "nota": "El gráfico de la lámina 50 muestra 24 % de progresión a cirrosis a los 10 años, y la lámina 49 dice 20 % en 20 años; las cifras difieren entre láminas."
+  },
+  {
+   "id": "g-hep-hcv_trans",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 1,
+   "enunciado": "¿Cuál es una forma de transmisión de la hepatitis C?",
+   "opciones": [
+    {
+     "t": "Transfusión de hemoderivados o uso de drogas intravenosas",
+     "por": "La vía sexual y la convivencia son posibles pero poco eficaces; la vertical es poco frecuente."
+    },
+    {
+     "t": "Fecal-oral por agua contaminada",
+     "por": "Es la vía de A y E."
+    },
+    {
+     "t": "Picadura de zancudo",
+     "por": "No es una vía conocida."
+    },
+    {
+     "t": "Compartir cubiertos",
+     "por": "La convivencia es poco eficaz como vía de transmisión."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Transmisión del VHC: hemoderivados, materiales no desechables en el pasado, drogas intravenosas ilícitas; sexual y convivencia posibles pero poco eficaces; vertical poco frecuente.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 48"
+  },
+  {
+   "id": "g-hep-hcv_extra",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué manifestación extrahepática se asocia a la hepatitis C crónica?",
+   "opciones": [
+    {
+     "t": "Crioglobulinemia, glomerulonefritis membranoproliferativa y porfiria cutánea tardía",
+     "por": "También tiroiditis, artritis y poliartralgias."
+    },
+    {
+     "t": "Pancreatitis aguda",
+     "por": "No es una manifestación típica de la hepatitis C."
+    },
+    {
+     "t": "Estomatitis herpética",
+     "por": "No se relaciona."
+    },
+    {
+     "t": "Hipertiroidismo con exoftalmos",
+     "por": "La asociación es con tiroiditis, no con enfermedad de Graves."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hepatitis C crónica: astenia, mialgias, artralgias; laboratorio con plaquetopenia, ALT, AST y GGT elevadas, colesterol y proteínas bajos, hierro y ferritina elevados. Extrahepáticas: artritis, tiroiditis, crioglobulinemia, GN membranoproliferativa, porfiria cutánea tardía, eritema nudoso.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 51"
+  },
+  {
+   "id": "g-hep-aad",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué son los agentes antivirales de acción directa (AAD) contra el VHC?",
+   "opciones": [
+    {
+     "t": "Fármacos que inhiben directamente la replicación viral: inhibidores de entrada, de la proteasa NS3/NS4A y de la polimerasa NS5",
+     "por": "Actúan en distintos pasos del ciclo viral y han reemplazado al interferón."
+    },
+    {
+     "t": "Vacunas de virus atenuados",
+     "por": "No existe vacuna contra el VHC."
+    },
+    {
+     "t": "Inmunoglobulina hiperinmune",
+     "por": "La lámina señala que la prevención no es posible con gammaglobulina hiperinmune."
+    },
+    {
+     "t": "Corticoides de acción prolongada",
+     "por": "No tratan la infección."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "AAD = agentes antivirales de acción directa. La lámina 53 recuerda que no hay vacuna ni gammaglobulina hiperinmune para el VHC, y menciona el trasplante hepático en enfermedad avanzada.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 53 y 54",
+   "nota": "El reemplazo del interferón por los AAD es un complemento."
+  },
+  {
+   "id": "g-hep-hdv",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué se sabe del virus de la hepatitis D?",
+   "opciones": [
+    {
+     "t": "Es un virus ARN defectuoso que solo causa hepatitis en presencia del VHB (coinfección o superinfección)",
+     "por": "Su prevención es la vacuna contra la hepatitis B."
+    },
+    {
+     "t": "Se transmite por vía fecal-oral y no cronifica",
+     "por": "Es la vía del virus A o E."
+    },
+    {
+     "t": "Puede infectar sin presencia del VHB",
+     "por": "Necesita el HBsAg del VHB para completar su ciclo."
+    },
+    {
+     "t": "Se previene con una vacuna propia",
+     "por": "No hay vacuna propia: se previene vacunando contra el VHB."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "VHD: ARN pequeño y circular, defectuoso; coinfección (aguda) o superinfección (en crónica) con VHB; mayor gravedad, cronicidad y fulminante. Áreas endémicas: Mediterráneo, Medio Oriente y algunos países de Sudamérica. Interferón a dosis altas: respuesta de 15 a 25 %.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 56 a 59"
+  },
+  {
+   "id": "g-hep-hev",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 3,
+   "enunciado": "¿Qué característica particular tiene la hepatitis E?",
+   "opciones": [
+    {
+     "t": "En embarazadas puede producir hepatitis fulminante con mortalidad de 20 a 25 %",
+     "por": "Se transmite por vía oral-fecal por agua contaminada, con incubación de 15 a 60 días."
+    },
+    {
+     "t": "Cronifica siempre en personas sanas",
+     "por": "Normalmente es autolimitada; solo cronifica en inmunosuprimidos, trasplantados o cirróticos."
+    },
+    {
+     "t": "Se previene con la vacuna contra la hepatitis A",
+     "por": "No existe esa protección cruzada."
+    },
+    {
+     "t": "Se transmite por transfusión únicamente",
+     "por": "Su vía principal es fecal-oral."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "VHE: oral-fecal, agua contaminada; grandes epidemias en India, Bangladesh, Centroamérica y Sudamérica; jóvenes adultos; transaminasas normalizan en 6 a 8 semanas; colestasis de varias semanas. Diagnóstico: IgM e IgG anti-VHE. Se estudian vacunas (HEV 239, China).",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 60 a 63"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "g-hep-c-0",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "f": "Daño en hepatitis viral",
+   "b": "El virus no es citopático: el sistema inmune destruye los hepatocitos infectados.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 7"
+  },
+  {
+   "id": "g-hep-c-1",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "f": "Fecal-oral vs parenteral",
+   "b": "A y E: fecal-oral. B, C, D y G: sangre y líquidos. A y E no cronifican.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 8"
+  },
+  {
+   "id": "g-hep-c-2",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "f": "Hepatitis A: dx",
+   "b": "IgM anti-VHA = aguda. IgG anti-VHA = inmunidad.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 21"
+  },
+  {
+   "id": "g-hep-c-3",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "f": "Marcadores de VHB",
+   "b": "HBsAg: infección. Anti-HBs: inmunidad. IgM anti-HBc: aguda. HBeAg: replicación.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 31"
+  },
+  {
+   "id": "g-hep-c-4",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "f": "Periodo ventana",
+   "b": "HBsAg negativo con infección aguda: se diagnostica con IgM anti-HBc.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 32"
+  },
+  {
+   "id": "g-hep-c-5",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "f": "VHB crónica",
+   "b": "HBsAg positivo >6 meses. Portador inactivo: ALT normal, HBeAg −, anti-HBe +.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 34"
+  },
+  {
+   "id": "g-hep-c-6",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "f": "Hepatitis C",
+   "b": "ARN; 80 % cronifica; sin vacuna; AAD: inhibidores NS3/NS4A y NS5.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 50"
+  },
+  {
+   "id": "g-hep-c-7",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "f": "Hepatitis D y E",
+   "b": "D: defectuoso, necesita VHB. E: fecal-oral, 20 a 25 % de mortalidad en embarazadas.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 56"
+  }
+ ]
+}

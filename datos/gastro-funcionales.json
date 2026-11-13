@@ -1,0 +1,441 @@
+{
+ "preguntas": [
+  {
+   "id": "g-func-disp",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 1,
+   "enunciado": "¿Cuáles son las manifestaciones de la dispepsia según la clase?",
+   "opciones": [
+    {
+     "t": "Dolor o epigastralgia, saciedad precoz, plenitud posprandial, distensión abdominal y náuseas",
+     "por": "Son los síntomas de un trastorno del tubo digestivo alto que agrupa la lámina."
+    },
+    {
+     "t": "Diarrea crónica con pérdida de peso y anemia",
+     "por": "Orientan a malabsorción o enfermedad inflamatoria, no a dispepsia."
+    },
+    {
+     "t": "Ictericia, coluria y acolia",
+     "por": "Son signos de colestasis, no de dispepsia."
+    },
+    {
+     "t": "Hematoquecia y tenesmo",
+     "por": "Son síntomas del tubo digestivo bajo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Dispepsia: conjunto de signos y síntomas de un trastorno del tubo digestivo (TGI): dolor o epigastralgia, saciedad precoz, plenitud posprandial, distensión abdominal, náuseas.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 8"
+  },
+  {
+   "id": "g-func-clasif",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 2,
+   "enunciado": "Un paciente con dispepsia tiene una endoscopía digestiva alta (EDA) normal. ¿Cómo se clasifica?",
+   "opciones": [
+    {
+     "t": "Dispepsia funcional",
+     "por": "Si la EDA no revela ninguna alteración, se aplican los criterios de Roma IV."
+    },
+    {
+     "t": "Dispepsia no estudiada",
+     "por": "Es la que no tiene endoscopía; aquí sí se hizo."
+    },
+    {
+     "t": "Dispepsia orgánica",
+     "por": "Requiere identificar una causa, y la EDA no mostró ninguna."
+    },
+    {
+     "t": "Dispepsia secundaria a H. pylori",
+     "por": "La infección se diagnostica con otras pruebas; una EDA normal no la demuestra."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Clasificación: (1) no estudiada, sin EDA; (2) funcional, EDA sin alteraciones, según Roma IV (síndrome de distrés posprandial, síndrome de dolor epigástrico o superposición); (3) orgánica, con causa identificada. La dispepsia no estudiada puede ser por dispepsia funcional, ERGE, gastritis o duodenitis, o AINE.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 9 y 10"
+  },
+  {
+   "id": "g-func-etio",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 2,
+   "enunciado": "¿Cuál de estos factores se asocia a la dispepsia funcional?",
+   "opciones": [
+    {
+     "t": "Hipersensibilidad visceral, alteraciones de la motilidad, H. pylori y factores psicosociales",
+     "por": "Son los factores que menciona la lámina de etiología."
+    },
+    {
+     "t": "Obstrucción biliar por un cálculo",
+     "por": "Es una causa orgánica de dolor, no de dispepsia funcional."
+    },
+    {
+     "t": "Úlcera péptica activa",
+     "por": "Es una causa orgánica: la endoscopía la mostraría."
+    },
+    {
+     "t": "Cáncer gástrico",
+     "por": "Es una causa orgánica; por eso se buscan signos de alarma."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Dispepsia funcional: hipersensibilidad intestinal (visceral), alteraciones de motilidad, infección por H. pylori y factores psicosociales.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 10"
+  },
+  {
+   "id": "g-func-roma_df",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 3,
+   "enunciado": "¿Qué exigen los criterios de Roma IV para el síndrome de distrés posprandial (SDP)?",
+   "opciones": [
+    {
+     "t": "Plenitud posprandial molesta o saciedad precoz que impide terminar una comida, al menos 3 días a la semana",
+     "por": "El SDP se define por los síntomas relacionados con la comida."
+    },
+    {
+     "t": "Dolor o ardor epigástrico al menos 1 día a la semana",
+     "por": "Es el síndrome de dolor epigástrico (SDE)."
+    },
+    {
+     "t": "Pirosis y regurgitación al menos 2 días a la semana",
+     "por": "Son criterios de ERGE, no de dispepsia funcional."
+    },
+    {
+     "t": "Vómitos persistentes sin causa",
+     "por": "No es un criterio del SDP; los vómitos persistentes obligan a descartar otra causa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Roma IV, dispepsia funcional: uno o más de plenitud posprandial, saciedad precoz, dolor epigástrico o ardor epigástrico, sin enfermedad orgánica en la endoscopía, con inicio hace al menos 6 meses y síntomas en los últimos 3 meses. SDP: plenitud o saciedad precoz (≥3 días/semana). SDE: dolor o ardor epigástrico (≥1 día/semana). Pueden superponerse.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 11",
+   "contexto": "Criterios de Roma IV: consenso internacional que define los trastornos funcionales digestivos (sin lesión visible en las pruebas) a partir de los síntomas, su frecuencia y su duración. Se usan para diagnosticar la dispepsia funcional y el síndrome de intestino irritable."
+  },
+  {
+   "id": "g-func-alarma",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 3,
+   "enunciado": "¿En qué paciente con dispepsia está indicada la endoscopía de entrada?",
+   "opciones": [
+    {
+     "t": "En quien tiene signos de alarma, o supera la edad límite (por ejemplo, 60 años en USA)",
+     "por": "Los signos de alarma y la edad avanzada obligan a descartar cáncer u otra causa orgánica."
+    },
+    {
+     "t": "En todo paciente joven sin signos de alarma",
+     "por": "En ellos se prueba primero un test de H. pylori o un tratamiento empírico."
+    },
+    {
+     "t": "Solo si el test de aliento es negativo",
+     "por": "El orden depende de los signos de alarma y la edad, no del resultado de ese test."
+    },
+    {
+     "t": "Nunca, porque la dispepsia es siempre funcional",
+     "por": "Si no se hace endoscopía, no se pueden descartar causas orgánicas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Dispepsia no investigada: con signos de alarma (a cualquier edad) o mayor de la edad límite, que varía por país (55 años México, 35 Colombia, 60 USA) → EDA. Sin alarma y menor de la edad límite → test de aliento (UBT) o antígeno fecal de H. pylori; si es positivo, se erradica; si no mejora, es dispepsia funcional.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 13 y 25",
+   "nota": "En Perú se suele usar como referencia 50 a 55 años, según la lámina 13; las cifras exactas dependen de la guía."
+  },
+  {
+   "id": "g-func-trat_disp",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 2,
+   "enunciado": "Paciente con dispepsia que toma AINE de forma crónica y no tiene signos de alarma. ¿Qué indica el algoritmo?",
+   "opciones": [
+    {
+     "t": "Suspender el AINE, o añadir un IBP si no se puede suspender",
+     "por": "Los AINE son una causa frecuente de dispepsia; si no se pueden retirar, se protege con IBP."
+    },
+    {
+     "t": "Realizar una colonoscopía",
+     "por": "No hay indicación para estudiar el colon."
+    },
+    {
+     "t": "Iniciar cirugía antirreflujo",
+     "por": "No corresponde a una dispepsia por AINE."
+    },
+    {
+     "t": "Indicar una dieta absoluta",
+     "por": "No es una medida recomendada."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Algoritmo de tratamiento: historia clínica y examen físico; si toma AINE, suspender (o añadir IBP) y ajustar el IBP si mejora. Con signos de alarma, edad de 50 a 55 años o antecedente familiar de cáncer de vías altas → endoscopía. Sin alarma y menor de 50 años → test de H. pylori y tratar si es positivo.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 13"
+  },
+  {
+   "id": "g-func-sii_def",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 1,
+   "enunciado": "¿Cómo se define el síndrome de intestino irritable (SII)?",
+   "opciones": [
+    {
+     "t": "Un trastorno funcional con dolor abdominal crónico o recurrente y alteración del hábito intestinal (diarrea, estreñimiento o ambos)",
+     "por": "Es la definición de la lámina."
+    },
+    {
+     "t": "Una inflamación crónica de la mucosa del colon con úlceras",
+     "por": "Eso es la colitis ulcerosa; el SII no tiene lesión visible."
+    },
+    {
+     "t": "Un tumor del colon que produce dolor y sangrado",
+     "por": "El sangrado es signo de alarma que obliga a descartar tumor."
+    },
+    {
+     "t": "Una infección intestinal crónica por parásitos",
+     "por": "Se descarta con exámenes, pero no define el SII."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "SII: trastorno funcional con dolor abdominal crónico o recurrente más cambio del hábito intestinal. Factores fisiopatológicos: trastornos motores, hipersensibilidad visceral y central, microinflamación, alteración de la permeabilidad, disbiosis y factores emocionales. Es un trastorno 'cerebro-intestino'.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 15 y 16",
+   "nota": "La expresión 'eje cerebro-intestino' es un complemento; la lámina solo muestra los factores."
+  },
+  {
+   "id": "g-func-sii_roma",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 3,
+   "enunciado": "Según Roma IV, ¿qué se necesita para diagnosticar SII con estreñimiento?",
+   "opciones": [
+    {
+     "t": "Dolor abdominal recurrente al menos 1 día por semana en los últimos 3 meses, con 2 o más: relacionado con la defecación, menos de 3 deposiciones por semana o heces duras",
+     "por": "Son los criterios de la rama de dolor del algoritmo."
+    },
+    {
+     "t": "Dolor abdominal ocasional, sin relación con la defecación",
+     "por": "Si el dolor no se relaciona con la defecación, no es SII."
+    },
+    {
+     "t": "Cualquier diarrea de más de 2 semanas con sangre",
+     "por": "La sangre es un signo de alarma, no un criterio de SII."
+    },
+    {
+     "t": "Una colonoscopía con múltiples pólipos",
+     "por": "Los pólipos no definen SII."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Roma IV: dolor abdominal al menos 1 día/semana por 3 meses, relacionado con la defecación, con cambio en la frecuencia o en la forma de las heces. El estreñimiento funcional comparte los criterios de esfuerzo, heces duras, evacuación incompleta, obstrucción anal, maniobras manuales o <3 deposiciones/semana.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 17",
+   "contexto": "Criterios de Roma IV: consenso internacional que define los trastornos funcionales digestivos (sin lesión visible en las pruebas) a partir de los síntomas, su frecuencia y su duración. Se usan para diagnosticar la dispepsia funcional y el síndrome de intestino irritable.",
+   "nota": "El algoritmo mezcla los criterios de SII-E y de estreñimiento funcional; ambos terminan en la 'clasificación en subtipos'."
+  },
+  {
+   "id": "g-func-bristol",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 2,
+   "enunciado": "Según la escala de Bristol, ¿cuál es la heces tipo 1?",
+   "opciones": [
+    {
+     "t": "Trozos duros separados, como nueces, que pasan con dificultad",
+     "por": "Es el tipo más extremo de estreñimiento."
+    },
+    {
+     "t": "Salchicha lisa y blanda",
+     "por": "Es el tipo 4, la forma normal."
+    },
+    {
+     "t": "Fragmentos blandos con bordes irregulares",
+     "por": "Es el tipo 6, que se asocia a diarrea."
+    },
+    {
+     "t": "Completamente líquida, sin trozos sólidos",
+     "por": "Es el tipo 7."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Bristol: tipo 1 trozos duros como nueces; tipo 2 salchicha de fragmentos; tipo 3 salchicha con grietas; tipo 4 salchicha lisa y blanda; tipo 5 trozos blandos de bordes definidos; tipo 6 fragmentos blandos de bordes irregulares; tipo 7 acuosa, totalmente líquida.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 17",
+   "contexto": "Escala de Bristol: clasifica las heces en 7 tipos según su forma y consistencia. Los tipos 1 y 2 indican tránsito lento (estreñimiento) y los 6 y 7 tránsito rápido (diarrea). Se usa para definir los subtipos del síndrome de intestino irritable."
+  },
+  {
+   "id": "g-func-subtipos",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 3,
+   "enunciado": "Un paciente tiene más de 25 % de deposiciones tipo 6 o 7 y menos de 25 % tipo 1 o 2. ¿Qué subtipo de SII es?",
+   "opciones": [
+    {
+     "t": "SII con predominio de diarrea (SII-D)",
+     "por": "Es el subtipo con más de 25 % de heces tipo 6 o 7."
+    },
+    {
+     "t": "SII con predominio de estreñimiento (SII-E)",
+     "por": "Requiere más de 25 % de heces tipo 1 o 2."
+    },
+    {
+     "t": "SII mixto (SII-M)",
+     "por": "Exige más de 25 % de heces tipo 1 o 2 Y más de 25 % de tipo 6 o 7."
+    },
+    {
+     "t": "SII inclasificable",
+     "por": "Se usa cuando no encaja en ninguno de los subtipos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Subtipos (por escala de Bristol): SII-E >25 % tipo 1 o 2 y <25 % tipo 6 o 7; SII-D >25 % tipo 6 o 7 y <25 % tipo 1 o 2; SII-M >25 % de ambos; SII-I inclasificable.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 18",
+   "contexto": "Escala de Bristol: clasifica las heces en 7 tipos según su forma y consistencia. Los tipos 1 y 2 indican tránsito lento (estreñimiento) y los 6 y 7 tránsito rápido (diarrea). Se usa para definir los subtipos del síndrome de intestino irritable."
+  },
+  {
+   "id": "g-func-alarma_sii",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 2,
+   "enunciado": "¿Cuál de estos es un signo de alarma en un paciente con sospecha de SII?",
+   "opciones": [
+    {
+     "t": "Sangre en las heces",
+     "por": "Junto con pérdida de peso, anemia, antecedente familiar de cáncer de colon o enfermedad inflamatoria, o inicio agudo después de los 50 años."
+    },
+    {
+     "t": "Distensión abdominal que mejora al defecar",
+     "por": "Es un síntoma típico de SII, no de alarma."
+    },
+    {
+     "t": "Dolor abdominal que se alivia con la deposición",
+     "por": "También es típico del SII."
+    },
+    {
+     "t": "Alternancia entre diarrea y estreñimiento",
+     "por": "Es frecuente en el SII mixto."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Signos de alarma: sangre en heces, pérdida de peso, anemia, antecedentes familiares de cáncer de colon o enfermedad inflamatoria, inicio agudo en mayores de 50 años. Con alarma se piden estudios específicos (colonoscopía, análisis de sangre con marcadores de inflamación, estudios radiológicos).",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 17"
+  },
+  {
+   "id": "g-func-caso",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 3,
+   "enunciado": "Mujer de 26 años con 3 años de dolor abdominal casi diario, diarrea (5 deposiciones) alternando con estreñimiento leve, meteorismo y distensión. Sin sangre ni moco en las heces, la diarrea no la despierta de noche, no baja de peso. Su padre tuvo cáncer de colon a los 33 años. ¿Qué plan corresponde?",
+   "opciones": [
+    {
+     "t": "Pensar en SII (mixto), pero por el antecedente familiar de cáncer de colon hacer estudios, como colonoscopía, antes de confirmarlo",
+     "por": "Los síntomas son típicos de SII, pero el antecedente familiar es un signo de alarma que obliga a descartar patología orgánica."
+    },
+    {
+     "t": "Diagnosticar SII sin más estudios y dar tratamiento sintomático",
+     "por": "Ignora el signo de alarma: padre con cáncer de colon a los 33 años."
+    },
+    {
+     "t": "Pedir solo una radiografía simple de abdomen",
+     "por": "No descarta cáncer de colon ni enfermedad inflamatoria."
+    },
+    {
+     "t": "Indicar cirugía abdominal exploratoria",
+     "por": "Es excesivo: primero se estudia con colonoscopía y exámenes."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El caso de la clase: dolor, cambio del hábito y meteorismo sin signos orgánicos sugieren SII mixto. El antecedente de cáncer de colon en un familiar de primer grado joven es un signo de alarma, así que se indican estudios (colonoscopía, hemograma, marcadores de inflamación) antes de afirmar un trastorno funcional.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 3, 17 y 21"
+  },
+  {
+   "id": "g-func-dx_sii",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 2,
+   "enunciado": "¿Qué se pide en la evaluación de un paciente con sospecha de SII según los 'fundamentos básicos del diagnóstico'?",
+   "opciones": [
+    {
+     "t": "Historia clínica y laboratorio básico (hemograma, bioquímico, electrolitos, pruebas hepáticas y tiroideas); si todo es negativo, SII",
+     "por": "El SII es un diagnóstico clínico, apoyado por exámenes normales."
+    },
+    {
+     "t": "Una biopsia de colon en todos los casos",
+     "por": "No se requiere de rutina; se usa ante signos de alarma."
+    },
+    {
+     "t": "Una tomografía por emisión de positrones",
+     "por": "No forma parte de la evaluación."
+    },
+    {
+     "t": "Un cultivo de médula ósea",
+     "por": "No tiene papel en el SII."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Historia clínica (síntomas típicos variables sin progresión, peso estable, asociación con estrés), pruebas de laboratorio (hemograma, pruebas hepáticas, bioquímico, electrolitos, tiroideas) y, según el caso, estudios endoscópicos o de imagen (ecografía, tránsito con bario, endoscopía alta o baja). Negativos = SII.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 26"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "g-func-c-0",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "f": "Dispepsia",
+   "b": "Dolor o epigastralgia, saciedad precoz, plenitud posprandial, distensión, náuseas.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 8"
+  },
+  {
+   "id": "g-func-c-1",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "f": "Tipos de dispepsia",
+   "b": "No estudiada (sin EDA), funcional (EDA normal, Roma IV), orgánica (con causa).",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 9"
+  },
+  {
+   "id": "g-func-c-2",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "f": "Roma IV: SDP y SDE",
+   "b": "SDP: plenitud o saciedad precoz (≥3 días/semana). SDE: dolor o ardor epigástrico (≥1 día/semana).",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 11"
+  },
+  {
+   "id": "g-func-c-3",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "f": "Signos de alarma en SII",
+   "b": "Sangre en heces, pérdida de peso, anemia, antecedente familiar de cáncer de colon o enfermedad inflamatoria, inicio agudo >50 años.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 17"
+  },
+  {
+   "id": "g-func-c-4",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "f": "SII: definición",
+   "b": "Dolor abdominal crónico o recurrente más alteración del hábito intestinal.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 15"
+  },
+  {
+   "id": "g-func-c-5",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "f": "Bristol",
+   "b": "1-2 estreñimiento\n3-4 normal\n5-6 tendencia a diarrea\n7 líquida",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 17"
+  },
+  {
+   "id": "g-func-c-6",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "f": "Subtipos de SII",
+   "b": "SII-E >25 % tipo 1 o 2. SII-D >25 % tipo 6 o 7. SII-M ambos. SII-I inclasificable.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 18"
+  },
+  {
+   "id": "g-func-c-7",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "f": "Dispepsia: con alarma",
+   "b": "Endoscopía de entrada. Sin alarma: test de H. pylori (aliento o antígeno fecal) y tratar.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 13"
+  }
+ ]
+}
