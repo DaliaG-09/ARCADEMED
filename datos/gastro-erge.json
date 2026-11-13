@@ -1,0 +1,610 @@
+{
+ "preguntas": [
+  {
+   "id": "g-erge-def",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 1,
+   "enunciado": "¿Cómo define la clase a la enfermedad por reflujo gastroesofágico (ERGE)?",
+   "opciones": [
+    {
+     "t": "Un desorden de la motilidad en el que el contenido gástrico regresa al esófago o a la cavidad oral y produce síntomas y complicaciones",
+     "por": "Es la definición de la lámina: lo importante es que el reflujo cause síntomas o complicaciones, no que exista reflujo aislado."
+    },
+    {
+     "t": "Una infección del esófago por Helicobacter pylori",
+     "por": "H. pylori vive en el estómago y se asocia a gastritis y úlcera, no define la ERGE."
+    },
+    {
+     "t": "Un trastorno por falta de relajación del esfínter esofágico inferior (EEI)",
+     "por": "Eso describe la acalasia, en la que el alimento no pasa al estómago. En la ERGE el EEI está insuficiente y el contenido sube."
+    },
+    {
+     "t": "La presencia de úlceras en el duodeno por exceso de ácido",
+     "por": "Es la enfermedad ulcero péptica, otra patología distinta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "ERGE = enfermedad por reflujo gastroesofágico. La lámina la define como un desorden de motilidad con reflujo del contenido gástrico hacia el esófago o la boca, con síntomas y complicaciones. Se estima en 20 % de la población general y se asoció con sexo femenino y consumo de alcohol.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 7"
+  },
+  {
+   "id": "g-erge-caso",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 1,
+   "enunciado": "Varón de 35 años con un mes de pirosis, regurgitación ácida y tos nocturna que aumenta con el café. Niega disfagia y pérdida de peso. IMC 35. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "Enfermedad por reflujo gastroesofágico",
+     "por": "Pirosis, regurgitación ácida, tos nocturna y el empeoramiento con café, junto con obesidad (IMC 35), son el cuadro típico de ERGE."
+    },
+    {
+     "t": "Acalasia",
+     "por": "Se manifiesta con disfagia (para sólidos y líquidos) y regurgitación de alimento sin digerir; este paciente niega disfagia."
+    },
+    {
+     "t": "Divertículo de Zenker",
+     "por": "Produce disfagia alta, halitosis y regurgitación de alimento retenido, no pirosis. Además suele ser de adultos mayores."
+    },
+    {
+     "t": "Espasmo esofágico distal",
+     "por": "Causa dolor torácico y disfagia intermitente, no la pirosis con regurgitación ácida que aquí domina."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El caso de la clase: la pirosis y la regurgitación ácida son los síntomas típicos de ERGE. La obesidad aumenta la presión intraabdominal y favorece el reflujo; el café relaja el EEI. La ausencia de disfagia y de pérdida de peso es dato de que no hay signos de alarma.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 3 y 38"
+  },
+  {
+   "id": "g-erge-estrech",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "¿En qué nivel está el estrechamiento broncoaórtico del esófago y cuánto mide?",
+   "opciones": [
+    {
+     "t": "Detrás de la bifurcación traqueal, a la altura de D4, de 15 a 17 mm",
+     "por": "Es el segundo estrechamiento anatómico que describe la lámina."
+    },
+    {
+     "t": "A la altura del cricoides, de 14 mm",
+     "por": "Ese es el estrechamiento cervical (cricofaríngeo), el punto más estrecho del tubo digestivo."
+    },
+    {
+     "t": "En el hiato diafragmático, de 16 a 19 mm",
+     "por": "Ese es el estrechamiento diafragmático, donde el esófago atraviesa el diafragma."
+    },
+    {
+     "t": "En la unión con el estómago, de 25 mm",
+     "por": "No es uno de los tres estrechamientos que menciona la lámina."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El esófago mide 2 a 2,5 cm de diámetro y tiene tres estrechamientos: cervical (14 mm, esfínter cricofaríngeo), broncoaórtico (15 a 17 mm, D4, detrás de la bifurcación traqueal) y diafragmático (16 a 19 mm, paso por el diafragma).",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 8"
+  },
+  {
+   "id": "g-erge-eei",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "¿Qué se dice del esfínter esofágico inferior (EEI)?",
+   "opciones": [
+    {
+     "t": "Es un esfínter fisiológico, no anatómico, con una presión en reposo de 10 a 25 mmHg",
+     "por": "La lámina lo explica así: no hay una estructura de esfínter, pero la zona mantiene una presión elevada que cierra el paso hacia el esófago."
+    },
+    {
+     "t": "Es un anillo muscular anatómico bien definido con presión de 50 mmHg",
+     "por": "No es una estructura anatómica definida y la presión es mucho menor."
+    },
+    {
+     "t": "Está formado por el músculo cricofaríngeo",
+     "por": "El cricofaríngeo forma el esfínter esofágico superior (EES), que separa la faringe del esófago e inicia la deglución."
+    },
+    {
+     "t": "Tiene presión negativa para permitir el paso del bolo",
+     "por": "La presión intratorácica es negativa, pero el EEI tiene presión positiva de reposo; solo se relaja al deglutir."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "EES = esfínter esofágico superior (cricofaríngeo, inicia la deglución). EEI = esfínter esofágico inferior: separa el esófago del estómago, es fisiológico y mantiene 10 a 25 mmHg en reposo. Su incompetencia es clave en la ERGE.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 12 y 13"
+  },
+  {
+   "id": "g-erge-plexos",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "¿Qué plexo de la inervación intrínseca del esófago es el de Auerbach?",
+   "opciones": [
+    {
+     "t": "El plexo mientérico, entre las capas muscular circular y longitudinal",
+     "por": "La lámina lo señala: Mientérico = Auerbach."
+    },
+    {
+     "t": "El plexo submucoso",
+     "por": "Ese es el de Meissner."
+    },
+    {
+     "t": "Los nervios vagos",
+     "por": "Son la inervación extrínseca, igual que el tronco simpático."
+    },
+    {
+     "t": "El plexo celíaco",
+     "por": "No aparece en la lámina como inervación esofágica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Inervación extrínseca: nervios vagos y tronco simpático. Intrínseca: plexo mientérico (Auerbach) y submucoso (Meissner). Este esquema se repite en acalasia, donde se pierden las neuronas del plexo mientérico.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 9",
+   "nota": "La relación con la acalasia es un complemento (no está en esta lámina)."
+  },
+  {
+   "id": "g-erge-riesgo",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 1,
+   "enunciado": "¿Cuál de estos NO es un factor de riesgo para ERGE según la clase?",
+   "opciones": [
+    {
+     "t": "Dieta rica en fibra y frutas",
+     "por": "La lámina no la menciona; los factores de riesgo son hábitos como bebidas carbonatadas y comidas copiosas, no la fibra."
+    },
+    {
+     "t": "Obesidad",
+     "por": "Sí es factor de riesgo: aumenta la presión intraabdominal."
+    },
+    {
+     "t": "Consumo de AINE (antiinflamatorios no esteroideos)",
+     "por": "Sí figura en la lámina, junto con alcohol y tabaco."
+    },
+    {
+     "t": "Hernia de hiato",
+     "por": "Sí es factor de riesgo: desplaza la unión esofagogástrica y debilita la barrera antirreflujo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Factores de riesgo de la lámina: bebidas carbonatadas y comidas copiosas, alcohol, tabaco y AINE, ejercicio abdominal extremo, estrés y enfermedades psiquiátricas, mayor nivel educacional, obesidad, embarazo y hernia de hiato.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 14",
+   "nota": "La fibra y las frutas no figuran en la lámina; es un distractor construido para esta pregunta."
+  },
+  {
+   "id": "g-erge-defensa",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "¿Cuáles son los tres mecanismos de defensa antirreflujo de la lámina?",
+   "opciones": [
+    {
+     "t": "Barrera antirreflujo, aclaramiento esofágico y barrera esofágica",
+     "por": "Son los tres factores protectores de la lámina 15."
+    },
+    {
+     "t": "Vaciamiento gástrico, secreción de gastrina y peristalsis colónica",
+     "por": "Mezcla elementos que no son los tres mecanismos de defensa del esófago."
+    },
+    {
+     "t": "Producción de HCl, pepsina y bilis",
+     "por": "Son agentes agresores del reflujo, no protectores."
+    },
+    {
+     "t": "Barrera antirreflujo, hiperfiltración y fibrosis",
+     "por": "La hiperfiltración y la fibrosis no pertenecen a la ERGE."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Defensa antirreflujo: (1) barrera antirreflujo (EEI, pinzamiento diafragmático), (2) aclaramiento esofágico (peristalsis y saliva barren el ácido), (3) barrera esofágica (resistencia de la mucosa). Los agresores son el ácido, la pepsina y la bilis.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 15"
+  },
+  {
+   "id": "g-erge-clinica",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 1,
+   "enunciado": "¿Cuál es el síntoma más frecuente de la ERGE en la lámina de clínica?",
+   "opciones": [
+    {
+     "t": "Pirosis (75 %)",
+     "por": "Es el síntoma más frecuente, junto con la regurgitación ácida."
+    },
+    {
+     "t": "Disfagia",
+     "por": "Aparece en la lámina pero con menor frecuencia; en ERGE suele indicar complicación (estenosis, cáncer)."
+    },
+    {
+     "t": "Pérdida de esmalte dental",
+     "por": "Es una manifestación extraesofágica, menos frecuente."
+    },
+    {
+     "t": "Hipo",
+     "por": "Está en la lista pero no es el más común."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Síntomas digestivos: pirosis (75 %), regurgitación ácida, disfagia, odinofagia (dolor al deglutir), hipo, dolor torácico o epigástrico, pérdida de esmalte dental y náuseas. La pirosis es ardor retroesternal que sube.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 18"
+  },
+  {
+   "id": "g-erge-montreal",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "Según Montreal, ¿cuál de estas es una manifestación extraesofágica de asociación ESTABLECIDA con el reflujo?",
+   "opciones": [
+    {
+     "t": "Tos crónica por reflujo",
+     "por": "Junto con laringitis, asma y erosiones dentales, es una asociación establecida."
+    },
+    {
+     "t": "Sinusitis",
+     "por": "Es una asociación solo propuesta, no establecida."
+    },
+    {
+     "t": "Otitis media recurrente",
+     "por": "También es una asociación propuesta."
+    },
+    {
+     "t": "Esófago de Barrett",
+     "por": "Es un síndrome esofágico (con lesión de la mucosa), no extraesofágico."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Extraesofágicos establecidos: tos, laringitis, asma, erosiones dentales. Propuestos: faringitis, sinusitis, fibrosis pulmonar idiopática, otitis media recurrente. Esofágicos con lesión: esofagitis, estenosis, Barrett, adenocarcinoma.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 19",
+   "contexto": "Clasificación de Montreal: ordena las manifestaciones de la ERGE en síndromes esofágicos (los síntomas o lesiones dentro del esófago) y extraesofágicos (los que aparecen fuera de él, como tos o laringitis)."
+  },
+  {
+   "id": "g-erge-montreal2",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 3,
+   "enunciado": "En la clasificación de Montreal, ¿qué es la 'ERNE'?",
+   "opciones": [
+    {
+     "t": "Enfermedad por reflujo no erosiva: síntomas típicos de reflujo sin lesión visible en la endoscopía",
+     "por": "Es el síndrome típico de reflujo del grupo de síndromes sintomáticos."
+    },
+    {
+     "t": "Esofagitis erosiva",
+     "por": "Es la contraparte: hay lesión visible de la mucosa."
+    },
+    {
+     "t": "Esófago de Barrett",
+     "por": "Es una complicación con metaplasia, dentro de síndromes con lesión."
+    },
+    {
+     "t": "Un síndrome extraesofágico propuesto",
+     "por": "La ERNE es un síndrome esofágico sintomático, no extraesofágico."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "ERNE: enfermedad por reflujo no erosiva. Se manifiesta con pirosis y regurgitación pero la endoscopía es normal. Pertenece a los síndromes esofágicos sintomáticos, junto con el dolor torácico por reflujo.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 19",
+   "contexto": "Clasificación de Montreal: ordena las manifestaciones de la ERGE en síndromes esofágicos (los síntomas o lesiones dentro del esófago) y extraesofágicos (los que aparecen fuera de él, como tos o laringitis).",
+   "nota": "La definición de ERNE como 'sin lesión en la endoscopía' es un complemento: la lámina solo muestra la sigla."
+  },
+  {
+   "id": "g-erge-prueba",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "Paciente con pirosis y regurgitación típicas, sin signos de alarma. ¿Cuál es el siguiente paso según las guías de la clase?",
+   "opciones": [
+    {
+     "t": "Prueba terapéutica con inhibidor de la bomba de protones (IBP) de 2 a 4 semanas",
+     "por": "Las guías recomiendan empezar con una prueba terapéutica en la ERGE típica."
+    },
+    {
+     "t": "Endoscopía inmediata",
+     "por": "Se reserva para signos de alarma, riesgo de Barrett o mala respuesta a IBP."
+    },
+    {
+     "t": "Esofagograma con bario",
+     "por": "La lámina dice explícitamente que NO se recomienda."
+    },
+    {
+     "t": "Manometría esofágica",
+     "por": "No se recomienda para el diagnóstico; se hace a candidatos a cirugía antirreflujo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "IBP = inhibidor de la bomba de protones (omeprazol y similares). Prueba terapéutica 2 a 4 semanas; si hay síntomas extraesofágicos más ERGE: doble dosis por 12 semanas. Si los síntomas son solo extraesofágicos, se estudian con pruebas diagnósticas.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 20"
+  },
+  {
+   "id": "g-erge-endo",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "¿Cuándo está indicada la endoscopía en ERGE?",
+   "opciones": [
+    {
+     "t": "Ante signos de alarma, riesgo de esófago de Barrett o mala respuesta a IBP",
+     "por": "Son los tres criterios de la lámina."
+    },
+    {
+     "t": "En todo paciente con pirosis",
+     "por": "No es necesaria en el cuadro típico: se empieza con prueba terapéutica."
+    },
+    {
+     "t": "Solo si el paciente responde bien al IBP",
+     "por": "La buena respuesta es motivo para continuar el IBP, no para endoscopía."
+    },
+    {
+     "t": "Para medir la presión del EEI",
+     "por": "Eso es la manometría, no la endoscopía."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Pruebas: endoscopía (signos de alarma, riesgo de Barrett, mala respuesta); pH-metría o impedancia (síntomas refractarios sin evidencia de ERGE en endoscopía); NO esofagograma; manometría solo antes de cirugía. Esófago de Barrett: reemplazo del epitelio esofágico por intestinal, precursor del adenocarcinoma.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 20"
+  },
+  {
+   "id": "g-erge-ph",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 3,
+   "enunciado": "¿Cuál es una desventaja de la pH-metría esofágica según la clase?",
+   "opciones": [
+    {
+     "t": "Solo mide reflujo líquido y no el duodenogastroesofágico",
+     "por": "La lámina lista esto, junto con sensibilidad y especificidad de 80 % y corte en pH 4."
+    },
+    {
+     "t": "Tiene una sensibilidad de 100 %",
+     "por": "No: es de alrededor de 80 %."
+    },
+    {
+     "t": "Mide únicamente el reflujo gaseoso",
+     "por": "Es lo contrario: mide solo el líquido."
+    },
+    {
+     "t": "Evalúa todo el esófago incluida la zona proximal",
+     "por": "Está limitada a la porción distal del esófago."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "pH-metría: S y E de 80 %, solo reflujo líquido, no evalúa el duodenogastroesofágico (con bilis), limitada al esófago distal, corte pH 4. S = sensibilidad, E = especificidad.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 24"
+  },
+  {
+   "id": "g-erge-la",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "En la clasificación de Los Ángeles, ¿qué grado corresponde a rupturas de la mucosa que afectan 75 % o más de la circunferencia?",
+   "opciones": [
+    {
+     "t": "Grado D",
+     "por": "D es el más grave: afecta ≥75 % de la circunferencia."
+    },
+    {
+     "t": "Grado A",
+     "por": "Una o más rupturas de hasta 5 mm que no se extienden entre los extremos de dos pliegues."
+    },
+    {
+     "t": "Grado B",
+     "por": "Rupturas de más de 5 mm de longitud que tampoco se extienden entre dos pliegues."
+    },
+    {
+     "t": "Grado C",
+     "por": "Rupturas que se extienden entre los extremos de dos o más pliegues pero afectan menos de 75 % de la circunferencia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "A: rupturas ≤5 mm. B: >5 mm, sin continuidad entre pliegues. C: continuidad entre dos o más pliegues, <75 % de la circunferencia. D: ≥75 %. Los grados B, C y D son esofagitis más claramente erosiva.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 26",
+   "contexto": "Clasificación de Los Ángeles: gradúa la gravedad de la esofagitis por reflujo según el tamaño de las lesiones (rupturas) de la mucosa vistas en la endoscopía. Va de A (leve) a D (grave) y se usa para decidir el tratamiento y el seguimiento."
+  },
+  {
+   "id": "g-erge-alg",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 3,
+   "enunciado": "Paciente con pirosis, sin datos de alarma, no mejora con IBP. La endoscopía sin IBP es normal. Luego se hace pH con cápsula sin IBP y el tiempo de exposición ácida (TEA) es 7 %. ¿Qué concluye el algoritmo?",
+   "opciones": [
+    {
+     "t": "Diagnóstico de ERGE, porque el TEA es mayor de 6 %",
+     "por": "TEA >6 % confirma ERGE; de 4 a 6 % no es concluyente y <4 % apunta a otras causas."
+    },
+    {
+     "t": "No concluyente, se repite la prueba",
+     "por": "El rango no concluyente es de 4 a 6 %."
+    },
+    {
+     "t": "Descarta ERGE, se buscan otras causas",
+     "por": "Eso corresponde a TEA menor de 4 %."
+    },
+    {
+     "t": "Cirugía antirreflujo inmediata",
+     "por": "La cirugía se plantea en ERGE complicada o refractaria, no por un TEA solo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "TEA = tiempo de exposición ácida, el porcentaje del registro con pH <4 en el esófago. En el algoritmo de la lámina 21: endoscopía normal o esofagitis A → pH sin IBP; >6 % ERGE, 4 a 6 % no concluyente, <4 % otras causas. Esofagitis B, C o D o Barrett confirman el diagnóstico por sí solas.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 21",
+   "contexto": "TEA (tiempo de exposición ácida) es el porcentaje de tiempo que el pH esofágico está por debajo de 4 durante el monitoreo. Sirve para confirmar ERGE cuando la endoscopía no muestra lesiones claras."
+  },
+  {
+   "id": "g-erge-estilo",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 1,
+   "enunciado": "¿Cuál de estas medidas de estilo de vida recomienda la clase?",
+   "opciones": [
+    {
+     "t": "Elevar la cabecera de la cama 15 a 25 cm y no acostarse hasta 2 a 3 horas después de comer",
+     "por": "Ambas reducen el reflujo nocturno."
+    },
+    {
+     "t": "Comidas copiosas y poco frecuentes",
+     "por": "Se recomiendan comidas frecuentes y de poco volumen."
+    },
+    {
+     "t": "Aumentar el consumo de café y cítricos",
+     "por": "Se deben evitar grasas, cítricos y café."
+    },
+    {
+     "t": "Usar ropa ajustada para sostener el abdomen",
+     "por": "Se debe evitar determinada ropa: aumenta la presión intraabdominal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Estilo de vida: bajar la presión intraabdominal (evitar sobrepeso, ropa ajustada, esfuerzos y estreñimiento), cabecera 15 a 25 cm o 22 grados, dejar el tabaco. Dieta: comidas pequeñas y frecuentes, evitar grasas, cítricos y café.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 27 y 28"
+  },
+  {
+   "id": "g-erge-ibp",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "¿Qué tasa de curación de la esofagitis erosiva logra el omeprazol (20 a 60 mg/día) a las 8 a 12 semanas, según la tabla?",
+   "opciones": [
+    {
+     "t": "85 a 96 %",
+     "por": "A las 4 semanas es 67 a 85 %; a las 8 a 12 semanas sube a 85 a 96 %."
+    },
+    {
+     "t": "67 a 85 %",
+     "por": "Es la cifra a las 4 semanas."
+    },
+    {
+     "t": "Más de 90 %",
+     "por": "Es la supresión ácida gástrica, no la tasa de curación."
+    },
+    {
+     "t": "50 %",
+     "por": "No corresponde a ninguna cifra de la tabla."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Omeprazol 20 a 60 mg/día: supresión ácida gástrica >90 %; curación de esofagitis 67 a 85 % a las 4 semanas y 85 a 96 % a las 8 a 12 semanas. La dosis estándar se toma 30 minutos antes del desayuno.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 30",
+   "nota": "Para tu práctica: en Perú se usan omeprazol y esomeprazol, pero para el examen guíate por la tabla."
+  },
+  {
+   "id": "g-erge-cx",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "¿Cuál es una indicación de cirugía antirreflujo (fundoplicatura)?",
+   "opciones": [
+    {
+     "t": "ERGE complicada, como esofagitis erosiva que no cicatriza o Barrett",
+     "por": "Es una indicación de la lámina."
+    },
+    {
+     "t": "Hernia hiatal gigante",
+     "por": "Es una contraindicación."
+    },
+    {
+     "t": "Íleo mecánico o paralítico",
+     "por": "También es contraindicación."
+    },
+    {
+     "t": "Gastroparesia no controlada",
+     "por": "Es contraindicación: el estómago no vacía."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Fundoplicatura laparoscópica: se envuelve el fondo gástrico alrededor del esófago distal para restaurar el EEI. Indicaciones: ERGE complicada, jóvenes con supresión ácida de por vida, quienes no pueden pagar el tratamiento. Contraindicaciones: hernia hiatal gigante, íleo, gastroparesia no controlada. No controla síntomas en 10 a 15 % y más de 30 % necesita IBP a largo plazo.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 34 y 35"
+  },
+  {
+   "id": "g-erge-endoter",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 3,
+   "enunciado": "¿Cómo actúa la radiofrecuencia (procedimiento de Stretta) en el tratamiento endoscópico de la ERGE?",
+   "opciones": [
+    {
+     "t": "Aplica corriente oscilante en la muscular externa 2 cm arriba y abajo del EEI; el mecanismo exacto se desconoce",
+     "por": "Así lo describe la lámina."
+    },
+    {
+     "t": "Crea de una a tres plicas con una máquina de coser endoscópica",
+     "por": "Eso es la plicación intraluminal, otra técnica."
+    },
+    {
+     "t": "Envuelve el fondo gástrico alrededor del esófago",
+     "por": "Es la fundoplicatura, cirugía."
+    },
+    {
+     "t": "Libera el EEI cortando sus fibras musculares",
+     "por": "Eso se hace en la miotomía de la acalasia, no en el reflujo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tratamiento endoscópico: plicación intraluminal (una a tres plicas a la altura del EEI, tipo EndoCinch) y cauterización por radiofrecuencia (corriente oscilante, mecanismo desconocido: ¿polimerización de colágena, cicatrización o destrucción de neuronas?).",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 31 y 32"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "g-erge-c-0",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "f": "Definición de ERGE",
+   "b": "Desorden de motilidad: el contenido gástrico sube al esófago o a la boca y causa síntomas y complicaciones. Prevalencia ~20 %.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 7"
+  },
+  {
+   "id": "g-erge-c-1",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "f": "EEI",
+   "b": "Esfínter fisiológico, 10 a 25 mmHg en reposo. EES = cricofaríngeo (inicia la deglución).",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 13"
+  },
+  {
+   "id": "g-erge-c-2",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "f": "Síntomas de ERGE",
+   "b": "Pirosis (75 %), regurgitación ácida, disfagia, odinofagia, hipo, dolor torácico, pérdida de esmalte, náuseas.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 18"
+  },
+  {
+   "id": "g-erge-c-3",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "f": "Prueba terapéutica",
+   "b": "IBP 2 a 4 semanas. Con síntomas extraesofágicos y de ERGE: doble dosis 12 semanas. No esofagograma.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 20"
+  },
+  {
+   "id": "g-erge-c-4",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "f": "Endoscopía en ERGE",
+   "b": "Signos de alarma, riesgo de Barrett o mala respuesta a IBP.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 20"
+  },
+  {
+   "id": "g-erge-c-5",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "f": "Los Ángeles",
+   "b": "A ≤5 mm\nB >5 mm sin unir pliegues\nC une pliegues, <75 %\nD ≥75 %",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 26"
+  },
+  {
+   "id": "g-erge-c-6",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "f": "TEA (pH)",
+   "b": "TEA >6 % diagnóstico; 4 a 6 % no concluyente; <4 % otras causas. Corte pH 4.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 21"
+  },
+  {
+   "id": "g-erge-c-7",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "f": "Fundoplicatura",
+   "b": "Indicada en ERGE complicada. Contraindicada: hernia hiatal gigante, íleo, gastroparesia no controlada.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 35"
+  }
+ ]
+}

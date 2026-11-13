@@ -1,0 +1,467 @@
+{
+ "preguntas": [
+  {
+   "id": "g-eup-def",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 1,
+   "enunciado": "¿Cómo se define la enfermedad ulcero péptica (EUP)?",
+   "opciones": [
+    {
+     "t": "Discontinuidad del revestimiento interno del tubo digestivo por acción del ácido gástrico y la pepsina",
+     "por": "Es la definición de la lámina. Afecta sobre todo estómago y duodeno."
+    },
+    {
+     "t": "Inflamación de la mucosa sin pérdida del epitelio",
+     "por": "Eso es gastritis: la úlcera sí implica pérdida del revestimiento."
+    },
+    {
+     "t": "Dilatación de las venas del esófago por hipertensión portal",
+     "por": "Son las várices esofágicas, no una úlcera."
+    },
+    {
+     "t": "Tumor maligno del estómago por Helicobacter pylori",
+     "por": "El cáncer gástrico es otra entidad; por eso la úlcera gástrica se biopsia para descartar malignidad."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Úlcera = discontinuidad del revestimiento por ácido gástrico y pepsina, en estómago y duodeno; puede afectar también esófago, duodeno distal o yeyuno. 10 a 20 % de los casos se presentan en pacientes sin antecedentes. El diagnóstico es por endoscopía más biopsia.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 7 y 8"
+  },
+  {
+   "id": "g-eup-hp",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 2,
+   "enunciado": "¿Qué factor de virulencia de Helicobacter pylori le permite sobrevivir en el ácido del estómago?",
+   "opciones": [
+    {
+     "t": "La ureasa, que descompone la urea en amoniaco y neutraliza el ácido",
+     "por": "El amoniaco alcaliniza el entorno inmediato de la bacteria."
+    },
+    {
+     "t": "Los flagelos",
+     "por": "Le dan motilidad para llegar al epitelio gástrico, no neutralizan el ácido."
+    },
+    {
+     "t": "Las toxinas CagA y VacA",
+     "por": "Producen inflamación de la mucosa y daño del tejido."
+    },
+    {
+     "t": "La cápsula polisacárida",
+     "por": "No figura en la lámina como mecanismo de supervivencia en el ácido."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "H. pylori: ureasa (urea → amoniaco, neutraliza el ácido), flagelos (motilidad hacia el epitelio), toxinas CagA y VacA (inflamación y daño). Solo 10 % de los infectados desarrollan úlcera; 70 a 90 % de las úlceras duodenales se asocian a la bacteria. Recidiva de 5 a 20 %.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 10"
+  },
+  {
+   "id": "g-eup-clinica",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 1,
+   "enunciado": "¿Qué síntoma es el más frecuente de la úlcera péptica?",
+   "opciones": [
+    {
+     "t": "Dolor epigástrico, en 80 a 90 % de los pacientes",
+     "por": "Se acompaña de náuseas, vómitos y anorexia; el examen solo muestra dolor leve a la palpación."
+    },
+    {
+     "t": "Disfagia progresiva",
+     "por": "Sugiere un problema esofágico, no una úlcera."
+    },
+    {
+     "t": "Diarrea crónica sin dolor",
+     "por": "No es el cuadro típico de úlcera."
+    },
+    {
+     "t": "Ictericia",
+     "por": "Se relaciona con enfermedad hepatobiliar o pancreática."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Clínica: dolor epigástrico (80 a 90 %), náuseas, vómitos, anorexia. No se puede distinguir una úlcera gástrica de una duodenal solo por los síntomas, y no existe una prueba de laboratorio que diagnostique la úlcera.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 11"
+  },
+  {
+   "id": "g-eup-dx",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 2,
+   "enunciado": "¿Cuál es el estándar de oro para el diagnóstico de la úlcera péptica?",
+   "opciones": [
+    {
+     "t": "Endoscopía digestiva alta con biopsia para H. pylori",
+     "por": "Permite ver la úlcera, tomar biopsias y descartar malignidad."
+    },
+    {
+     "t": "Test de urea en aliento",
+     "por": "Detecta H. pylori, pero no muestra la úlcera."
+    },
+    {
+     "t": "Antígeno fecal de H. pylori",
+     "por": "Es una prueba no invasiva de infección, no del daño en la mucosa."
+    },
+    {
+     "t": "Una prueba de laboratorio de rutina",
+     "por": "La lámina dice explícitamente que no existe prueba de laboratorio diagnóstica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Estándar de oro: endoscopía digestiva alta con biopsia. Pruebas no invasivas: test de urea y antígeno fecal; la lámina advierte que los IBP (inhibidores de la bomba de protones) interfieren con el resultado.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 11 a 13",
+   "nota": "En la práctica los IBP suelen dar falsos NEGATIVOS (por eso se suspenden unas 2 semanas antes del test de aliento o del antígeno fecal); la lámina dice falsos positivos. Sigue la lámina para el examen."
+  },
+  {
+   "id": "g-eup-biopsia",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 2,
+   "enunciado": "¿Para qué se toma biopsia de una úlcera gástrica?",
+   "opciones": [
+    {
+     "t": "Para descartar malignidad y buscar H. pylori",
+     "por": "Una úlcera gástrica puede ser un cáncer; en la duodenal el riesgo de malignidad es muy bajo."
+    },
+    {
+     "t": "Para medir el pH del estómago",
+     "por": "El pH se mide con otras pruebas, no con la biopsia."
+    },
+    {
+     "t": "Para tratar la hemorragia",
+     "por": "La biopsia no es tratamiento."
+    },
+    {
+     "t": "Solo para clasificar el tamaño",
+     "por": "El tamaño se ve en la endoscopía."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Histología de la úlcera: pérdida del epitelio hasta la muscular, restos inflamatorios y necróticos, agregados linfoides con centros germinales y proceso linfoplasmocitario. La atipia glandular (forma, tamaño, núcleo y mitosis) orienta a malignidad. La biopsia excluye tumor y determina H. pylori.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 15 a 17 y 30",
+   "nota": "Que la úlcera duodenal casi nunca es maligna es un complemento."
+  },
+  {
+   "id": "g-eup-forrest",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 3,
+   "enunciado": "Según la tabla de Forrest, ¿qué lesión tiene el mayor riesgo de resangrado sin tratamiento?",
+   "opciones": [
+    {
+     "t": "Forrest IA o IB (sangrado pulsátil o en napa), alrededor de 55 %",
+     "por": "Es el grupo de mayor riesgo, con mortalidad cercana a 11 %."
+    },
+    {
+     "t": "Forrest IIC (mácula plana), alrededor de 10 %",
+     "por": "Riesgo bajo: una mancha plana casi no resangra."
+    },
+    {
+     "t": "Forrest III (fondo limpio), alrededor de 5 %",
+     "por": "Es el de menor riesgo de resangrado y mortalidad."
+    },
+    {
+     "t": "Forrest IIB (coágulo adherido), alrededor de 22 %",
+     "por": "Riesgo intermedio, menor que el sangrado activo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Forrest: IA sangrado pulsátil y IB en napa (resangrado 55 %, mortalidad 11 %); IIA vaso visible (43 % y 11 %); IIB coágulo adherido (22 % y 7 %); IIC mácula plana (10 % y 3 %); III fondo limpio (5 % y 2 %). Cuanto más alto el riesgo, más se justifica la terapia endoscópica.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 14",
+   "contexto": "Clasificación de Forrest: describe el aspecto endoscópico de una úlcera que sangra o sangró. Sirve para estimar el riesgo de que vuelva a sangrar y la mortalidad, y así decidir si necesita tratamiento endoscópico."
+  },
+  {
+   "id": "g-eup-trat1",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 2,
+   "enunciado": "Paciente con úlcera por H. pylori, sin alergia a la amoxicilina. ¿Cuál es el esquema de cuadriterapia con bismuto de la lámina?",
+   "opciones": [
+    {
+     "t": "IBP, amoxicilina, metronidazol y subsalicilato de bismuto",
+     "por": "IBP 40 mg, amoxicilina 1 g y metronidazol 500 mg cada 8 horas, más bismuto 20 ml cada 8 horas."
+    },
+    {
+     "t": "IBP, claritromicina y levofloxacina",
+     "por": "No es uno de los esquemas de primera línea de la lámina."
+    },
+    {
+     "t": "Solo IBP por 8 semanas",
+     "por": "Sin antibióticos no se erradica la bacteria."
+    },
+    {
+     "t": "Amoxicilina y tetraciclina sin IBP",
+     "por": "Falta el IBP y la tetraciclina no es parte de la primera línea sin alergia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Primera línea (no alérgico): cuadriterapia con bismuto, cuadriterapia concomitante (IBP 40 mg cada 12 h, amoxicilina 1 g cada 12 h, metronidazol 500 mg cada 8 h, claritromicina 500 mg cada 12 h) o terapia dual con amoxicilina. Control de erradicación a las 6 a 8 semanas.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 18"
+  },
+  {
+   "id": "g-eup-trat2",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 3,
+   "enunciado": "Falló la primera línea de erradicación de H. pylori. ¿Qué indica la lámina como segunda línea?",
+   "opciones": [
+    {
+     "t": "IBP 20 mg, tetraciclina 500 mg, metronidazol 500 mg (cada 6 h) y bismuto 15 ml cada 6 h",
+     "por": "Es la terapia de segunda línea; luego se controla a las 6 a 8 semanas."
+    },
+    {
+     "t": "Repetir el mismo esquema de primera línea",
+     "por": "Si falló, repetir el mismo esquema no es lo indicado."
+    },
+    {
+     "t": "Suspender el tratamiento y observar",
+     "por": "Hay que insistir en erradicar la bacteria."
+    },
+    {
+     "t": "Cirugía antiulcerosa",
+     "por": "No se plantea en el algoritmo de erradicación."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Fracaso de la primera línea → segunda línea (IBP + tetraciclina + metronidazol + bismuto). Si vuelve a fallar: derivar a gastroenterología, estudiar resistencia con cultivo o PCR y dar IBP + bismuto + 2 antibióticos según resistencia.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 18"
+  },
+  {
+   "id": "g-eup-alergia",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 2,
+   "enunciado": "¿Qué esquema usa la lámina para el paciente con H. pylori ALÉRGICO a la amoxicilina?",
+   "opciones": [
+    {
+     "t": "IBP, tetraciclina, metronidazol y subsalicilato de bismuto, cada 8 horas",
+     "por": "Reemplaza la amoxicilina por tetraciclina."
+    },
+    {
+     "t": "IBP, amoxicilina, metronidazol y bismuto",
+     "por": "Incluye amoxicilina, que no se puede usar."
+    },
+    {
+     "t": "Terapia dual con amoxicilina",
+     "por": "Contiene amoxicilina."
+    },
+    {
+     "t": "Solo claritromicina",
+     "por": "Un antibiótico aislado no es un esquema de erradicación."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En alérgicos a la amoxicilina: IBP 40 mg, tetraciclina 500 mg, metronidazol 500 mg y bismuto 20 ml, cada 8 horas. Si falla, se deriva a gastroenterología con estudio de resistencia (cultivo o PCR).",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 19"
+  },
+  {
+   "id": "g-eup-aine",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 2,
+   "enunciado": "¿Qué dice la clase sobre los antiinflamatorios y la úlcera?",
+   "opciones": [
+    {
+     "t": "Los inhibidores selectivos de COX-2 reducen en 75 % la aparición de úlceras; la aspirina duplica el riesgo de sangrado",
+     "por": "La aspirina (AAS) inhibe de forma irreversible COX-1 y COX-2."
+    },
+    {
+     "t": "Los AINE no se asocian con úlcera",
+     "por": "Sí: 10 a 20 % de los usuarios crónicos desarrollan úlceras."
+    },
+    {
+     "t": "La aspirina protege la mucosa gástrica",
+     "por": "Al contrario: duplica el riesgo de sangrado."
+    },
+    {
+     "t": "Los AINE solo producen úlceras duodenales",
+     "por": "También gástricas, y la mayoría de las úlceras por AINE son asintomáticas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Úlcera por AINE: 10 a 20 % de usuarios crónicos de AINE; la mayoría son asintomáticas; los COX-2 selectivos disminuyen 75 % la aparición; la aspirina inhibe COX-1 y COX-2 de forma irreversible y duplica el riesgo de sangrado. COX = ciclooxigenasa; protege la mucosa sintetizando prostaglandinas.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 7 y 21",
+   "nota": "El porcentaje exacto de úlceras gástricas y duodenales por AINE varía entre lámina 21 y otros textos; la cifra de 10 a 20 % es la que figura en la clase."
+  },
+  {
+   "id": "g-eup-epi",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 2,
+   "enunciado": "¿Qué se dice de la epidemiología de la úlcera péptica en el Perú?",
+   "opciones": [
+    {
+     "t": "La relación úlcera duodenal/gástrica es 4:1, pero en la población andina la gástrica es más frecuente por la poliglobulia",
+     "por": "La altura modifica el patrón habitual."
+    },
+    {
+     "t": "La úlcera gástrica es siempre 4 veces más frecuente que la duodenal",
+     "por": "Es al revés en general: duodenal 4 a 1."
+    },
+    {
+     "t": "No hay diferencias regionales",
+     "por": "La lámina señala variaciones regionales."
+    },
+    {
+     "t": "Afecta solo a varones jóvenes",
+     "por": "El consumo de AINE y aspirina es más frecuente en mujeres de edad avanzada."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "10 a 15 % de la población padece úlcera alguna vez. UD/UG 4:1. Consumo indiscriminado de AINE y aspirina más frecuente en mujeres de edad avanzada.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 22"
+  },
+  {
+   "id": "g-eup-dolor",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 2,
+   "enunciado": "¿Qué indica un dolor de úlcera constante que irradia al dorso?",
+   "opciones": [
+    {
+     "t": "Sospecha de penetración a páncreas",
+     "por": "Una úlcera penetrante erosiona la pared y llega al páncreas."
+    },
+    {
+     "t": "Una úlcera duodenal sin complicación",
+     "por": "La no complicada da dolor epigástrico con irradiación al hipocondrio derecho."
+    },
+    {
+     "t": "Una úlcera gástrica típica",
+     "por": "Irradia al hipocondrio izquierdo, no al dorso de forma constante."
+    },
+    {
+     "t": "Una gastritis aguda",
+     "por": "No es el cuadro de la gastritis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Dolor: ardor, quemazón, languidez epigástrica en 80 %, irradiado al hipocondrio derecho (UD) o izquierdo (UG). Si es constante y va al dorso, se sospecha penetración al páncreas.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 22"
+  },
+  {
+   "id": "g-eup-trat_med",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 2,
+   "enunciado": "¿Cómo actúan los inhibidores de la bomba de protones (IBP) como el omeprazol?",
+   "opciones": [
+    {
+     "t": "Inhiben de forma específica y no competitiva la bomba H⁺/K⁺ ATPasa de las células parietales",
+     "por": "Así bloquean el paso final de la secreción ácida."
+    },
+    {
+     "t": "Neutralizan el ácido ya secretado",
+     "por": "Eso hacen los antiácidos (magaldrato, sucralfato), con efecto corto."
+    },
+    {
+     "t": "Bloquean los receptores H2 de la histamina",
+     "por": "Eso hacen los anti-H2 como la ranitidina."
+    },
+    {
+     "t": "Eliminan la bacteria H. pylori por sí solos",
+     "por": "Los IBP reducen el ácido; para erradicar se necesitan antibióticos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tratamiento: régimen higiénico dietético; antiácidos (magaldrato, sucralfato, bismuto) con efecto sintomático corto; IBP (omeprazol, lansoprazol, esomeprazol) que inhiben la bomba H⁺/K⁺ ATPasa.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 23"
+  },
+  {
+   "id": "g-eup-algoritmo",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 3,
+   "enunciado": "Úlcera gástrica asociada a H. pylori, ya erradicado. ¿Qué duración de IBP indica el algoritmo?",
+   "opciones": [
+    {
+     "t": "Completar el IBP por 8 semanas",
+     "por": "En la úlcera gástrica asociada a H. pylori se completa el IBP por 8 semanas tras erradicar."
+    },
+    {
+     "t": "Completar el IBP por 4 semanas",
+     "por": "Corresponde a la úlcera duodenal grande, complicada o refractaria."
+    },
+    {
+     "t": "No requiere IBP",
+     "por": "Corresponde a la úlcera duodenal sin esos criterios."
+    },
+    {
+     "t": "IBP de por vida",
+     "por": "Solo se valora largo plazo si no se puede suspender el AINE o hay antecedente de úlcera."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Algoritmo (UP = úlcera péptica; UG = gástrica, UD = duodenal): asociada a H. pylori, erradicar; UG → IBP 8 semanas; UD grande, complicada o refractaria → IBP 4 semanas, si no → sin IBP. Asociada a AINE: si no se puede suspender, valorar IBP a largo plazo. Sin H. pylori ni AINE: UG sin antecedente 8 semanas, UD sin antecedente 4 semanas; con antecedente, valorar largo plazo.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 24",
+   "contexto": "Este algoritmo ayuda a decidir cuánto tiempo mantener el IBP después de tratar la causa de la úlcera, según el tipo de úlcera y sus factores."
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "g-eup-c-0",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "f": "Definición de úlcera",
+   "b": "Discontinuidad del revestimiento por ácido y pepsina. Estómago y duodeno.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 8"
+  },
+  {
+   "id": "g-eup-c-1",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "f": "Factores de H. pylori",
+   "b": "Ureasa (neutraliza ácido), flagelos (motilidad), CagA y VacA (daño). Solo 10 % de infectados hace úlcera.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 10"
+  },
+  {
+   "id": "g-eup-c-2",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "f": "Estándar de oro",
+   "b": "Endoscopía digestiva alta con biopsia (H. pylori y descartar malignidad).",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 13"
+  },
+  {
+   "id": "g-eup-c-3",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "f": "Forrest",
+   "b": "IA/IB 55 %\nIIA 43 %\nIIB 22 %\nIIC 10 %\nIII 5 % (resangrado)",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 14"
+  },
+  {
+   "id": "g-eup-c-4",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "f": "Cuadriterapia con bismuto",
+   "b": "IBP + amoxicilina + metronidazol + bismuto. Control a las 6 a 8 semanas.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 18"
+  },
+  {
+   "id": "g-eup-c-5",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "f": "Alergia a amoxicilina",
+   "b": "IBP + tetraciclina + metronidazol + bismuto.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 19"
+  },
+  {
+   "id": "g-eup-c-6",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "f": "Úlcera y AINE",
+   "b": "COX-2 selectivos −75 %. Aspirina duplica el riesgo de sangrado.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 21"
+  },
+  {
+   "id": "g-eup-c-7",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "f": "Dolor al dorso",
+   "b": "Dolor constante que irradia al dorso: sospecha de penetración a páncreas.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 22"
+  }
+ ]
+}

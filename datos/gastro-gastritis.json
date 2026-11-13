@@ -1,0 +1,468 @@
+{
+ "preguntas": [
+  {
+   "id": "g-gastritis-def",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 1,
+   "enunciado": "¿Cómo define la clase a la gastritis?",
+   "opciones": [
+    {
+     "t": "Un proceso inflamatorio que provoca lesiones en la mucosa gástrica",
+     "por": "Es la definición de la lámina. Según la causa y los hallazgos al microscopio se divide en aguda, crónica y eosinofílica."
+    },
+    {
+     "t": "Una ulceración profunda que atraviesa la muscular de la mucosa",
+     "por": "Eso describe una úlcera, no una gastritis: la gastritis compromete la mucosa."
+    },
+    {
+     "t": "Una dilatación de las venas del fondo gástrico por hipertensión portal",
+     "por": "Son las várices gástricas, una complicación de la cirrosis."
+    },
+    {
+     "t": "Un trastorno funcional sin lesión de la mucosa",
+     "por": "Eso es la dispepsia funcional, en la que la endoscopía es normal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Gastritis = inflamación de la mucosa gástrica. Según la etiología y la anatomía patológica se distingue la aguda, la crónica (por Helicobacter pylori, por degeneración con metaplasia, o autoinmune) y la eosinofílica.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 7"
+  },
+  {
+   "id": "g-gastritis-causas",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 1,
+   "enunciado": "¿Cuál es una causa de gastritis aguda según la clase?",
+   "opciones": [
+    {
+     "t": "Uso de antiinflamatorios no esteroideos (AINE), alcohol o cáusticos",
+     "por": "La lámina menciona fármacos (sobre todo AINE), alcohol e ingesta de cáusticos."
+    },
+    {
+     "t": "Déficit de ácido fólico",
+     "por": "Está en el diagnóstico diferencial de la gastritis crónica, no es una causa de gastritis aguda."
+    },
+    {
+     "t": "Dieta vegetariana estricta",
+     "por": "Es un diagnóstico diferencial de la forma crónica (por déficit de vitamina B12), no causa gastritis aguda."
+    },
+    {
+     "t": "Gastrectomía total",
+     "por": "No se puede inflamar un estómago que ya no existe; aparece en el diferencial de la gastritis crónica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Gastritis aguda: secundaria a fármacos (principalmente AINE), alcohol o cáusticos (voluntarios o accidentales), o a enfermedad grave (trauma, sepsis, grandes quemados).",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 9"
+  },
+  {
+   "id": "g-gastritis-erosiva",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Una paciente gran quemada desarrolla gastritis aguda ulcerada con sangrado. ¿Cómo se llaman estas úlceras por estrés según la lámina?",
+   "opciones": [
+    {
+     "t": "Úlceras de Curling (si es por quemaduras extensas)",
+     "por": "La lámina las asocia a quemaduras extensas; las de Cushing se ven en lesiones intracraneales."
+    },
+    {
+     "t": "Úlceras de Cushing",
+     "por": "Se asocian a lesiones intracraneales, no a quemaduras."
+    },
+    {
+     "t": "Úlceras de Zollinger-Ellison",
+     "por": "No figuran en la lámina; son por un tumor secretor de gastrina."
+    },
+    {
+     "t": "Úlceras de Dieulafoy",
+     "por": "No aparecen en la lámina; son sangrados por un vaso submucoso dilatado."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Gastritis aguda erosiva: AINE, alcohol, H. pylori o estrés; lesiones difusas con hemorragia digestiva alta (HDA) en 20 %. Ulcerada: asociada a trauma grave, quemaduras extensas (Curling), sepsis y lesiones intracraneales (Cushing), por hipoperfusión; lesiones en fondo, cuerpo y duodeno, con HDA en más de 20 %.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 10",
+   "nota": "En el PPT la clasificación Curling/Cushing se menciona como parte de la gastritis ulcerada; en otros textos se llaman 'úlceras de estrés'."
+  },
+  {
+   "id": "g-gastritis-hda",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 2,
+   "enunciado": "En la gastritis aguda con hemorragia digestiva alta (HDA), ¿qué porcentaje se autolimita?",
+   "opciones": [
+    {
+     "t": "Alrededor de 80 %",
+     "por": "La HDA ocurre en 10 a 20 % de los casos y en cerca de 80 % de ellos se autolimita."
+    },
+    {
+     "t": "Alrededor de 20 %",
+     "por": "Es el porcentaje de gastritis agudas que sangran, no el de los que se autolimitan."
+    },
+    {
+     "t": "Cerca de 100 %",
+     "por": "La clase no lo plantea así: depende de la causa; por estrés cuesta más que ceda."
+    },
+    {
+     "t": "Alrededor de 5 %",
+     "por": "No coincide con la cifra de la lámina."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Gastritis aguda: epigastralgia, náuseas, llenura precoz; HDA en 10 a 20 %, y de esos cerca de 80 % se autolimitan según el factor causal (H. pylori, alcohol; el estrés no con facilidad).",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 20"
+  },
+  {
+   "id": "g-gastritis-cronica",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cómo progresa la gastritis crónica según la lámina?",
+   "opciones": [
+    {
+     "t": "Por etapas en años o décadas, hasta una gastritis atrófica con pérdida de glándulas",
+     "por": "Empieza en la infancia como inflamación superficial y avanza paso a paso."
+    },
+    {
+     "t": "Aparece de golpe en adultos y se cura en semanas",
+     "por": "Es lo contrario: es progresiva y de por vida."
+    },
+    {
+     "t": "Solo afecta el antro y nunca progresa",
+     "por": "Puede afectar antro, cuerpo y fundo, y progresa a atrofia."
+    },
+    {
+     "t": "Se inicia con atrofia y luego aparece la inflamación",
+     "por": "La inflamación (superficial y activa) es la que precede a la atrofia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Gastritis crónica: inflamación de múltiples etapas, progresiva y de por vida. Empieza en la infancia con inflamación mononuclear crónica ('superficial') más inflamación neutrofílica aguda ('activa'); con décadas llega a gastritis atrófica (pérdida de glándulas en antro, cuerpo, fundo o varios).",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 13"
+  },
+  {
+   "id": "g-gastritis-cascada",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 3,
+   "enunciado": "Según el esquema de la cascada de Correa, ¿qué secuencia lleva de la gastritis por H. pylori al cáncer?",
+   "opciones": [
+    {
+     "t": "Gastritis crónica no atrófica, gastritis atrófica, metaplasia intestinal, estómago hipo o aclorhídrico, displasia y cáncer",
+     "por": "Es el orden del diagrama de la lámina 19."
+    },
+    {
+     "t": "Metaplasia intestinal, gastritis atrófica, gastritis crónica y cáncer",
+     "por": "Invierte el orden: la metaplasia viene después de la atrofia."
+    },
+    {
+     "t": "Gastritis aguda, úlcera péptica y cáncer sin pasos intermedios",
+     "por": "Omite la atrofia, la metaplasia y la displasia."
+    },
+    {
+     "t": "Displasia, metaplasia, atrofia y gastritis crónica",
+     "por": "Es la secuencia inversa a la real."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El diagrama muestra la progresión lenta: H. pylori → gastritis crónica no atrófica → gastritis atrófica (antro, cuerpo o ambos) → metaplasia intestinal → estómago hipo o aclorhídrico → displasia (neoplasia intraepitelial) → cáncer. Los factores que empujan la cascada son cepas citotóxicas, estrés oxidativo, mutágenos, acetaldehído, déficit de B12, tabaco y dieta.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 19",
+   "contexto": "La cascada de Correa describe cómo una infección crónica del estómago puede evolucionar durante décadas a cáncer gástrico a través de lesiones preneoplásicas. Se usa para entender por qué la atrofia y la metaplasia intestinal exigen seguimiento.",
+   "nota": "El nombre 'cascada de Correa' es un complemento: la lámina muestra el esquema sin ese nombre."
+  },
+  {
+   "id": "g-gastritis-tipos",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué gastritis crónica se llama tipo A y qué zona del estómago afecta?",
+   "opciones": [
+    {
+     "t": "La autoinmune; afecta cuerpo y fundo, con pérdida de células parietales y principales",
+     "por": "Es la forma autoinmune, que respeta el antro."
+    },
+    {
+     "t": "La infecciosa por H. pylori; afecta sobre todo el antro",
+     "por": "Esa es la gastritis tipo B (no atrófica o superficial)."
+    },
+    {
+     "t": "La biliar reactiva",
+     "por": "Es la de tipo C, por reflujo biliar."
+    },
+    {
+     "t": "La eosinofílica; afecta todo el estómago por igual",
+     "por": "No es el tipo A de la lámina."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tipo A: autoinmune, cuerpo y fundo, destruye células parietales (que producen ácido y factor intrínseco) y principales. Tipo B: infecciosa por H. pylori, no atrófica o superficial, sin atrofia al inicio. Tipo C: biliar reactiva, con hiperplasia epitelial.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 14 y 15"
+  },
+  {
+   "id": "g-gastritis-atrofica",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cómo se establece el diagnóstico de gastritis atrófica?",
+   "opciones": [
+    {
+     "t": "Por histopatología (biopsia)",
+     "por": "La atrofia (pérdida de glándulas, con o sin metaplasia) se confirma al microscopio."
+    },
+    {
+     "t": "Por los síntomas clínicos únicamente",
+     "por": "La clínica es inespecífica (dolor, náuseas, llenura precoz)."
+    },
+    {
+     "t": "Por el test de aliento",
+     "por": "Detecta infección por H. pylori, no atrofia."
+    },
+    {
+     "t": "Por radiografía contrastada",
+     "por": "No se usa: no muestra la histología de la mucosa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Gastritis atrófica: pérdida de glándulas gástricas con o sin metaplasia en un contexto de inflamación crónica, por H. pylori o enfermedad autoinmune. Prevalencia 15 %. El diagnóstico es histopatológico.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 16"
+  },
+  {
+   "id": "g-gastritis-endoscopica",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué hallazgos endoscópicos caracterizan la gastritis atrófica?",
+   "opciones": [
+    {
+     "t": "Mucosa pálida, pérdida de pliegues rugosos y vasos sanguíneos prominentes",
+     "por": "Al adelgazarse el epitelio, los vasos se ven a través de la mucosa."
+    },
+    {
+     "t": "Mucosa enrojecida con múltiples erosiones y sangrado",
+     "por": "Corresponde a la gastritis erosiva aguda (por AINE o alcohol)."
+    },
+    {
+     "t": "Pliegues gruesos y aumentados de tamaño",
+     "por": "Es lo contrario: en la atrofia los pliegues se pierden."
+    },
+    {
+     "t": "Una úlcera con fondo limpio",
+     "por": "Sugiere úlcera péptica, no gastritis atrófica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Endoscopía de la atrofia: mucosa pálida, pérdida de pliegues y vasos sanguíneos evidentes por adelgazamiento del epitelio.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 18"
+  },
+  {
+   "id": "g-gastritis-clinica",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Mujer con gastritis crónica que presenta glositis, anorexia, diarrea y anemia megaloblástica. ¿A qué se asocia este cuadro?",
+   "opciones": [
+    {
+     "t": "A déficit de vitamina B12 por gastritis atrófica",
+     "por": "La pérdida de células parietales reduce el factor intrínseco y la absorción de B12."
+    },
+    {
+     "t": "A una infección aguda por Giardia",
+     "por": "Causa diarrea, pero no explica la anemia megaloblástica ni la glositis."
+    },
+    {
+     "t": "A una úlcera duodenal sangrante",
+     "por": "El sangrado crónico da anemia ferropénica, no megaloblástica."
+    },
+    {
+     "t": "A una gastritis erosiva por AINE",
+     "por": "Produce epigastralgia y sangrado, no déficit de B12."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Gastritis crónica: dolor, náuseas, distensión y llenura precoz (sobre todo por H. pylori). Con glositis, anorexia, diarrea y anemia megaloblástica hay que pensar en déficit de B12. Se confirma con B12 sérica menor de 170 pg/ml y gastrina mayor de 100 pg/ml.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 20 y 22",
+   "nota": "La explicación del mecanismo (factor intrínseco) es un complemento; la lámina solo enlaza la gastritis crónica con la anemia megaloblástica."
+  },
+  {
+   "id": "g-gastritis-dx",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cuál de estas pruebas permite diagnosticar la infección por H. pylori en la gastritis crónica según la clase?",
+   "opciones": [
+    {
+     "t": "Test de aliento, antígeno fecal o serología ELISA",
+     "por": "Son las tres pruebas no invasivas de la lámina, además de la endoscopía con biopsia dirigida."
+    },
+    {
+     "t": "Colonoscopía con biopsia de colon",
+     "por": "El H. pylori está en el estómago, no en el colon."
+    },
+    {
+     "t": "Tomografía de abdomen",
+     "por": "No detecta la bacteria."
+    },
+    {
+     "t": "Dosaje de amilasa sérica",
+     "por": "Es una prueba pancreática, no de infección gástrica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Gastritis crónica: endoscopía alta con biopsia dirigida (identifica H. pylori en histología), ELISA cuantitativa de anticuerpos anti-H. pylori (80 %), test de aliento, antígeno fecal, gastrina sérica (>100 pg/ml) y vitamina B12 (<170 pg/ml). La anemia megaloblástica se confirma con biopsia medular.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 22"
+  },
+  {
+   "id": "g-gastritis-tx_aguda",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Paciente con gastritis aguda por uso crónico de AINE. ¿Qué tratamiento indica la clase?",
+   "opciones": [
+    {
+     "t": "Suspender el AINE y dar IBP mientras dure el tratamiento con AINE",
+     "por": "Es lo que indica la lámina; se repone sangre solo si hace falta."
+    },
+    {
+     "t": "Continuar el AINE y dar solo antiácidos",
+     "por": "Mantener el agente causal impide la cicatrización."
+    },
+    {
+     "t": "Antibióticos para erradicar H. pylori en todos los casos",
+     "por": "La erradicación se reserva a la gastritis por H. pylori."
+    },
+    {
+     "t": "Suspender el AINE y dar sucralfato por sonda nasogástrica",
+     "por": "La sonda con sucralfato se usa en la gastritis por estrés del paciente grave."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "IBP = inhibidor de la bomba de protones. Gastritis aguda por estrés: mantener el pH intragástrico por encima de 4 con IBP, reponer sangre si hace falta, sucralfato por sonda nasogástrica. Por AINE: suspender el fármaco, IBP mientras dure el AINE. Por alcohol: suspender, IBP más magaldrato.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 23"
+  },
+  {
+   "id": "g-gastritis-tx_cron",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 3,
+   "enunciado": "Paciente con gastritis crónica por H. pylori y alergia a la penicilina. ¿Qué esquema propone la lámina?",
+   "opciones": [
+    {
+     "t": "IBP con metronidazol y tetraciclina, o levofloxacina con claritromicina",
+     "por": "Son las alternativas para alérgicos a la amoxicilina."
+    },
+    {
+     "t": "IBP con amoxicilina y claritromicina",
+     "por": "Es el esquema estándar, pero la amoxicilina es una penicilina."
+    },
+    {
+     "t": "Solo IBP a 20 mg al día",
+     "por": "Controla el ácido pero no erradica la bacteria."
+    },
+    {
+     "t": "Vitamina B12 intramuscular",
+     "por": "Trata el déficit de B12, no la infección."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Gastritis crónica: IBP 20 mg/día más amoxicilina y claritromicina. Alérgicos: metronidazol y tetraciclina (2 g/día), o levofloxacina y claritromicina (1 g/día cada una). Déficit de B12: 100 µg/día IM por 7 días y luego una vez al mes de forma indefinida, o cobalamina oral 1000 µg/día.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 24",
+   "nota": "Para tu práctica en Perú: la guía latinoamericana de H. pylori (en la bibliografía de la clase de EUP) recomienda la cuadriterapia con bismuto como primera línea; para el examen guíate por esta lámina."
+  },
+  {
+   "id": "g-gastritis-caso",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Varón de 38 años con dolor y quemazón en el epigastrio hace 2 semanas, que bebe agua del grifo sin hervir. ¿Cuál es la causa más frecuente de gastritis a nivel mundial?",
+   "opciones": [
+    {
+     "t": "Infección por Helicobacter pylori",
+     "por": "Es la causa más frecuente a nivel mundial; el agua no tratada es una vía de contagio."
+    },
+    {
+     "t": "Uso de AINE",
+     "por": "Es una causa importante de gastritis aguda erosiva, pero no la más frecuente en el mundo."
+    },
+    {
+     "t": "Consumo de alcohol",
+     "por": "Produce gastritis aguda, no es la causa mundial principal."
+    },
+    {
+     "t": "Reflujo biliar",
+     "por": "Causa la gastritis tipo C, mucho menos frecuente."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El caso de la clase: dolor y quemazón en el epigastrio más agua sin hervir orienta a H. pylori. Las cepas oncogénicas son las que expresan las toxinas CagA y VacA (lám. 10 del PPT de enfermedad ulcero péptica).",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 29",
+   "nota": "La lámina solo plantea la pregunta de las cepas oncogénicas; la respuesta CagA/VacA proviene del otro PPT (úlcera péptica, lám. 10)."
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "g-gastritis-c-0",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "f": "Gastritis: concepto",
+   "b": "Inflamación de la mucosa gástrica. Tipos: aguda, crónica (H. pylori, metaplasia, autoinmune) y eosinofílica.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 7"
+  },
+  {
+   "id": "g-gastritis-c-1",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "f": "Causas de gastritis aguda",
+   "b": "AINE, alcohol, cáusticos, enfermedad grave (trauma, sepsis, quemados).",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 9"
+  },
+  {
+   "id": "g-gastritis-c-2",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "f": "Curling y Cushing",
+   "b": "Curling: quemaduras extensas. Cushing: lesiones intracraneales. Ambas con riesgo de HDA.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 10"
+  },
+  {
+   "id": "g-gastritis-c-3",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "f": "Tipos de gastritis crónica",
+   "b": "A: autoinmune (cuerpo y fundo). B: H. pylori (antro). C: biliar reactiva.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 14"
+  },
+  {
+   "id": "g-gastritis-c-4",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "f": "Atrofia en endoscopía",
+   "b": "Mucosa pálida, pérdida de pliegues, vasos prominentes. Diagnóstico por histología.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 18"
+  },
+  {
+   "id": "g-gastritis-c-5",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "f": "Dx de H. pylori",
+   "b": "Endoscopía con biopsia, ELISA (80 %), test de aliento, antígeno fecal.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 22"
+  },
+  {
+   "id": "g-gastritis-c-6",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "f": "Marcadores",
+   "b": "Gastrina sérica >100 pg/ml; vitamina B12 <170 pg/ml.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 22"
+  },
+  {
+   "id": "g-gastritis-c-7",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "f": "Tratamiento H. pylori",
+   "b": "IBP + amoxicilina + claritromicina. Alérgicos: metronidazol + tetraciclina, o levofloxacina + claritromicina.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 24"
+  }
+ ]
+}

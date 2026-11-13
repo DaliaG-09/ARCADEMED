@@ -13,6 +13,9 @@
   "nefro-nefropatia-diabetica.json",
   "nefro-litiasis.json",
   "nefro-itu.json",
-  "nefro-tbc-renal.json"
+  "nefro-tbc-renal.json",
+  "gastro-erge.json",
+  "gastro-gastritis.json",
+  "gastro-eup.json"
  ]
 }
