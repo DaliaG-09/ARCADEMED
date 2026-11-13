@@ -127,6 +127,15 @@ h1,h2,h3{font-weight:400;line-height:1.55;letter-spacing:0}
 .card .side{font-weight:400;font-size:10px;letter-spacing:.06em}
 .card .txt{font-size:21px}
 @media (max-width:420px){.logo{font-size:19px}.big{font-size:30px}}
+
+/* Ajustes v2: la letra de pixeles no trae Í mayúscula, los modos van en 2 columnas, textos largos de casos */
+.world h3{font-family:var(--body);font-weight:800;font-size:20px;letter-spacing:0}
+.actions{grid-template-columns:repeat(2,1fr)}
+.card .txt{line-height:1.5}
+.q{line-height:1.55}
+@media (max-width:480px){.actions{grid-template-columns:1fr}}
+.case{font-size:15px;font-weight:500;line-height:1.55;margin:4px 0 12px}
+.ctx{font-size:13.5px}
 </style>
 </head>
 <body>
@@ -223,6 +232,7 @@ function save(){ mem = S; try{ localStorage.setItem(KEY, JSON.stringify(S)); }ca
 
 /* ---------- utilidades ---------- */
 const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const nl = s => esc(s).replace(/\n/g, '<br>');
 const shuffle = a => { a = a.slice(); for(let i=a.length-1;i>0;i--){ const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]] = [a[j],a[i]]; } return a; };
 const areaOf = id => AREAS.find(a => a.id === id) || AREAS[0];
 const today = () => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
@@ -327,8 +337,8 @@ function vPlay(){
   if(V.answered){
     const ok = V.opts[V.picked].ok;
     fb = '<div class="fb '+(ok ? 'ok' : 'bad')+'"><h3>'+(ok ? '¡CORRECTO! +'+V.lastXp+' XP' : 'FALLASTE')+'</h3>'+
-      '<p>'+esc(q.explicacion || '')+'</p>'+
-      (q.nota ? '<p class="note"><b>Para tu práctica, no para el examen:</b> '+esc(q.nota)+'</p>' : '')+
+      '<p>'+nl(q.explicacion || '')+'</p>'+
+      (q.nota ? '<p class="note"><b>Para tu práctica, no para el examen:</b> '+nl(q.nota)+'</p>' : '')+
       '<p class="src">Fuente: '+esc(q.fuente || 'sin fuente indicada')+'</p></div>'+
       '<div class="row" style="margin-top:14px"><button class="btn gold grow" data-act="next">'+(V.lives <= 0 && V.modo === 'boss' ? 'Ver resultado' : (V.i+1 >= V.ids.length ? 'Terminar ronda' : 'Siguiente'))+'</button></div>';
   }
@@ -336,9 +346,9 @@ function vPlay(){
     '<div class="hud"><button class="btn small ghost" data-act="home">Salir</button><div class="grow">'+segs((V.i + (V.answered ? 1 : 0))/V.ids.length, Math.min(V.ids.length, 20))+'</div><span class="src">'+(V.i+1)+'/'+V.ids.length+'</span>'+hearts+'<span class="combo">'+(V.combo > 1 ? 'x'+V.combo : '')+'</span></div>'+
     '<div class="panel">'+
       '<div class="row" style="margin-bottom:10px"><span class="pill" style="color:'+a.c+'">'+esc(a.n)+'</span><span class="src grow">'+esc(q.tema)+'</span>'+(q.demo ? '<span class="demo">DEMO</span>' : '')+'</div>'+
-      (q.contexto ? '<div class="ctx">'+esc(q.contexto)+'</div>' : '')+
+      (q.contexto ? '<div class="ctx">'+nl(q.contexto)+'</div>' : '')+
       (q.img ? '<img class="qimg" alt="Imagen de la pregunta" src="'+esc(q.img)+'">' : '')+
-      '<p class="q">'+esc(q.enunciado)+'</p>'+
+      (q.enunciado.includes('\n\n') ? '<p class="case">'+nl(q.enunciado.split('\n\n').slice(0,-1).join('\n\n'))+'</p>' : '')+'<p class="q">'+nl(q.enunciado.split('\n\n').pop())+'</p>'+
       '<div class="opts">'+opts+'</div>'+fb+
     '</div></div>';
 }
@@ -348,7 +358,8 @@ function vResult(){
   const acc = V.ids.length ? Math.round(100*V.ok/V.answeredN) : 0;
   const fails = V.fails.map(byId).filter(Boolean).map(q => {
     const c = q.opciones[q.correcta];
-    return '<div class="res-item">'+esc(q.enunciado)+'<br><b>Respuesta: '+esc(c.t)+'</b></div>';
+    const e = q.enunciado.split('\n\n').pop();
+    return '<div class="res-item">'+esc(e.length > 170 ? e.slice(0,170)+'…' : e)+'<br><b>Respuesta: '+esc(c.t)+'</b></div>';
   }).join('');
   const lvUp = level(S.xp) > V.lvStart;
   return '<div class="stack">'+
@@ -382,7 +393,7 @@ function vCards(){
     '<div class="panel card '+(V.flipped ? 'back' : '')+'" data-act="flip" tabindex="0" role="button" aria-label="Voltear tarjeta">'+
       '<span class="pill" style="color:'+a.c+'">'+esc(a.n)+' · '+esc(c.tema)+'</span>'+(c.demo ? '<span class="demo">DEMO</span>' : '')+
       '<span class="side">'+(V.flipped ? 'RESPUESTA' : 'PREGUNTA')+'</span>'+
-      '<div class="txt">'+esc(V.flipped ? c.b : c.f)+'</div>'+
+      '<div class="txt">'+nl(V.flipped ? c.b : c.f)+'</div>'+(V.flipped && c.fuente ? '<span class="src">Fuente: '+esc(c.fuente)+'</span>' : '')+
       (V.flipped ? '' : '<span class="src">Toca la tarjeta o pulsa Espacio para voltear</span>')+
     '</div>'+
     (V.flipped ? '<div class="rates">'+rates+'</div>' : '')+'</div>';
