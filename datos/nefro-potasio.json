@@ -1,0 +1,492 @@
+{
+ "preguntas": [
+  {
+   "id": "n-k-gen",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 1,
+   "enunciado": "¿Dónde se encuentra la mayor parte del potasio del cuerpo?",
+   "opciones": [
+    {
+     "t": "98 % dentro de las células",
+     "por": "Es el catión intracelular más importante."
+    },
+    {
+     "t": "98 % en la sangre",
+     "por": "Solo 2 % está en sangre."
+    },
+    {
+     "t": "50 % en el hueso",
+     "por": "No."
+    },
+    {
+     "t": "Igual dentro y fuera de la célula",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Participa en la actividad neuromuscular y en la contracción cardiaca.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 9"
+  },
+  {
+   "id": "n-k-ing",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 2,
+   "enunciado": "¿Qué hace entrar el potasio a la célula?",
+   "opciones": [
+    {
+     "t": "Insulina, estimulación β2-adrenérgica, aldosterona y alcalosis metabólica",
+     "por": "Los favorecedores de la entrada."
+    },
+    {
+     "t": "Acidosis metabólica",
+     "por": "Favorece su salida."
+    },
+    {
+     "t": "Hiperosmolaridad extracelular",
+     "por": "Favorece su salida."
+    },
+    {
+     "t": "Lisis celular",
+     "por": "Libera potasio."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Salida: acidosis metabólica, hiperosmolaridad, agonistas α-adrenérgicos, lisis celular (tumoral, rabdomiólisis, hemólisis).",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 10"
+  },
+  {
+   "id": "n-k-elim",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 1,
+   "enunciado": "¿Por qué vía se elimina la mayor parte del potasio?",
+   "opciones": [
+    {
+     "t": "Orina (80 %)",
+     "por": "Heces 15 % y sudor 5 %."
+    },
+    {
+     "t": "Heces (80 %)",
+     "por": "Es 15 %."
+    },
+    {
+     "t": "Sudor (80 %)",
+     "por": "Es 5 %."
+    },
+    {
+     "t": "Aire espirado",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Ingesta diaria compensada por excreción.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 9"
+  },
+  {
+   "id": "n-k-grado",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 1,
+   "enunciado": "Un paciente tiene K⁺ de 2.8 mEq/L. ¿Qué grado de hipopotasemia es?",
+   "opciones": [
+    {
+     "t": "Moderada (2.5 a 3)",
+     "por": "Según la lámina."
+    },
+    {
+     "t": "Leve (3 a 3.5)",
+     "por": "2.8 es menor de 3."
+    },
+    {
+     "t": "Grave (<2.5)",
+     "por": "2.8 es mayor de 2.5."
+    },
+    {
+     "t": "Normal",
+     "por": "Normal es 3.5 a 5.5."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Normal 3.5 a 5.5 mEq/L.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 11"
+  },
+  {
+   "id": "n-k-etio",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 2,
+   "enunciado": "¿Cuál es una causa de hipopotasemia por redistribución?",
+   "opciones": [
+    {
+     "t": "Insulina o agonistas β2 (como el salbutamol)",
+     "por": "Metiendo K⁺ dentro de la célula."
+    },
+    {
+     "t": "Diarrea y laxantes",
+     "por": "Es pérdida digestiva."
+    },
+    {
+     "t": "Diuréticos de asa",
+     "por": "Pérdida renal."
+    },
+    {
+     "t": "Baja ingesta",
+     "por": "Es falta de ingesta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Otras causas de redistribución: alcalosis, parálisis periódica hipopotasémica, tratamiento de anemia megaloblástica.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 13"
+  },
+  {
+   "id": "n-k-etio2",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 2,
+   "enunciado": "Paciente con HTA, K⁺ bajo, renina baja y aldosterona alta. ¿Diagnóstico probable?",
+   "opciones": [
+    {
+     "t": "Hiperaldosteronismo primario",
+     "por": "Renina baja con aldosterona alta."
+    },
+    {
+     "t": "Síndrome de Bartter",
+     "por": "PA normal o baja y aldosterona alta con renina alta."
+    },
+    {
+     "t": "Síndrome de Liddle",
+     "por": "Aldosterona suprimida."
+    },
+    {
+     "t": "Ingesta de diuréticos",
+     "por": "Renina alta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Liddle: autosómico dominante en niños con PA alta y aldosterona suprimida. Gitelman: adultos, hipocalciuria e hipomagnesemia. Bartter: hipercalciuria.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 15",
+   "contexto": "PA = presión arterial. Los síndromes de Bartter, Gitelman y Liddle son tubulopatías hereditarias que pierden potasio por la orina."
+  },
+  {
+   "id": "n-k-cli",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 2,
+   "enunciado": "Manifestaciones clínicas de la hipopotasemia:",
+   "opciones": [
+    {
+     "t": "Debilidad, calambres, íleo paralítico y arritmias",
+     "por": "Con rabdomiólisis en casos graves."
+    },
+    {
+     "t": "Hiperreflexia y tetania",
+     "por": "Es hipocalcemia."
+    },
+    {
+     "t": "Edema de miembros",
+     "por": "No."
+    },
+    {
+     "t": "Polidipsia únicamente",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Renales: pérdida de concentración urinaria, alcalosis metabólica.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 16"
+  },
+  {
+   "id": "n-k-ecg",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 2,
+   "enunciado": "¿Qué cambios en el ECG produce la hipopotasemia?",
+   "opciones": [
+    {
+     "t": "Descenso del segmento ST, aplanamiento de T y onda U de mayor amplitud",
+     "por": "Típicos."
+    },
+    {
+     "t": "Ondas T picudas",
+     "por": "Es hiperpotasemia."
+    },
+    {
+     "t": "Prolongación del QRS",
+     "por": "Es hiperpotasemia."
+    },
+    {
+     "t": "Onda sinusoidal",
+     "por": "Es hiperpotasemia grave."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "ECG = electrocardiograma.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 17"
+  },
+  {
+   "id": "n-k-tx",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 3,
+   "enunciado": "Límites de velocidad de reposición de potasio:",
+   "opciones": [
+    {
+     "t": "Vía periférica menos de 10 mEq/h; vía central menos de 40 mEq/h",
+     "por": "Según la lámina."
+    },
+    {
+     "t": "Periférica 40 mEq/h",
+     "por": "Es para central."
+    },
+    {
+     "t": "Central 100 mEq/h",
+     "por": "Peligroso."
+    },
+    {
+     "t": "Sin límite",
+     "por": "Sí hay."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Requerimiento basal 1 mEq/kg/día; potasio corporal total estimado 50 × peso.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 18"
+  },
+  {
+   "id": "n-k-calc",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 3,
+   "enunciado": "Varón de 70 kg con hipopotasemia. Con la regla de la lámina, ¿cuál es su requerimiento basal y su potasio corporal total?",
+   "opciones": [
+    {
+     "t": "Basal 70 mEq/día; PCT 3500 mEq",
+     "por": "1 × 70 = 70; 50 × 70 = 3500."
+    },
+    {
+     "t": "Basal 140 mEq/día; PCT 3500 mEq",
+     "por": "Basal es 1 mEq/kg, no 2."
+    },
+    {
+     "t": "Basal 70 mEq/día; PCT 7000 mEq",
+     "por": "PCT es 50 × peso, no 100."
+    },
+    {
+     "t": "Basal 3500 mEq/día; PCT 70 mEq",
+     "por": "Invertiste ambos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Requerimiento = basal + PCT, según la lámina.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 18",
+   "contexto": "PCT = potasio corporal total. Se suma al basal para estimar lo que se debe reponer."
+  },
+  {
+   "id": "n-k-lev",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 1,
+   "enunciado": "Tratamiento de la hipopotasemia leve:",
+   "opciones": [
+    {
+     "t": "Alimentos ricos en potasio",
+     "por": "Moderada: sales orales como gluconato o ascorbato de potasio."
+    },
+    {
+     "t": "Gluconato de potasio IV rápido",
+     "por": "No."
+    },
+    {
+     "t": "Restricción de potasio",
+     "por": "No."
+    },
+    {
+     "t": "Diálisis",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Sales orales: ascorbato, gluconato o glucoheptonato de potasio.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 19"
+  },
+  {
+   "id": "n-k-hk1",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 2,
+   "enunciado": "¿Cuál es una causa de pseudohiperpotasemia?",
+   "opciones": [
+    {
+     "t": "Muestra hemolizada o torniquete muy apretado",
+     "por": "También leucocitosis o trombocitosis extremas."
+    },
+    {
+     "t": "Insuficiencia renal aguda",
+     "por": "Es verdadera."
+    },
+    {
+     "t": "Acidosis metabólica",
+     "por": "Es verdadera."
+    },
+    {
+     "t": "Espironolactona",
+     "por": "Es verdadera."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Causas verdaderas: disminución de la eliminación renal, paso de K⁺ al extracelular y exceso de aporte.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 21 y 23"
+  },
+  {
+   "id": "n-k-hk2",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 2,
+   "enunciado": "¿Qué ECG corresponde a K⁺ de aproximadamente 6 mEq/L?",
+   "opciones": [
+    {
+     "t": "Ondas T picudas",
+     "por": "A 8: aplanamiento de P, PR y QRS largos."
+    },
+    {
+     "t": "Onda sinusoidal",
+     "por": "A K⁺ >9."
+    },
+    {
+     "t": "Normal",
+     "por": "A 4."
+    },
+    {
+     "t": "Ondas U",
+     "por": "Es hipopotasemia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "K⁺ >9: onda sinusoidal o asistolia.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 22"
+  },
+  {
+   "id": "n-k-hk3",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 3,
+   "enunciado": "Hiperpotasemia con ondas T picudas y pérdida de la onda P. ¿Qué se da primero?",
+   "opciones": [
+    {
+     "t": "Gluconato de calcio al 10 % (10 mL en 2 a 5 min IV)",
+     "por": "Antagoniza el efecto cardiaco; inicio en 5 a 10 min."
+    },
+    {
+     "t": "Furosemida solo",
+     "por": "Elimina potasio de forma lenta."
+    },
+    {
+     "t": "Resinas de intercambio",
+     "por": "Son de acción lenta."
+    },
+    {
+     "t": "Bicarbonato oral",
+     "por": "No es lo primero."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Luego insulina más glucosa (10 U con 50 mL de glucosa al 50 %), salbutamol, bicarbonato si hay acidosis, diuréticos de asa y diálisis.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 24"
+  },
+  {
+   "id": "n-k-hk4",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 3,
+   "enunciado": "¿Qué mecanismo tienen la insulina con glucosa, los β-agonistas y el bicarbonato?",
+   "opciones": [
+    {
+     "t": "Desplazan el potasio al interior de la célula",
+     "por": "No lo eliminan del cuerpo."
+    },
+    {
+     "t": "Eliminan potasio del cuerpo",
+     "por": "Eso hacen los diuréticos de asa y la diálisis."
+    },
+    {
+     "t": "Antagonizan el efecto cardiaco",
+     "por": "Eso hace el calcio."
+    },
+    {
+     "t": "Bloquean la absorción",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Acción: insulina más glucosa 15 min a 6-8 h; β-agonistas 30 min a 2-3 h; bicarbonato 30-60 min.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 24"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "n-k-c-0",
+   "area": "nefro",
+   "tema": "Potasio",
+   "f": "K⁺ normal",
+   "b": "3.5 a 5.5 mEq/L",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 11"
+  },
+  {
+   "id": "n-k-c-1",
+   "area": "nefro",
+   "tema": "Potasio",
+   "f": "Hipopotasemia: ECG",
+   "b": "↓ST, T aplanada, onda U",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 17"
+  },
+  {
+   "id": "n-k-c-2",
+   "area": "nefro",
+   "tema": "Potasio",
+   "f": "Reposición",
+   "b": "Periférica <10 mEq/h; central <40 mEq/h",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 18"
+  },
+  {
+   "id": "n-k-c-3",
+   "area": "nefro",
+   "tema": "Potasio",
+   "f": "Basal y PCT",
+   "b": "Basal 1 mEq/kg/día; PCT 50 × peso",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 18"
+  },
+  {
+   "id": "n-k-c-4",
+   "area": "nefro",
+   "tema": "Potasio",
+   "f": "Hiperpotasemia: ECG",
+   "b": "T picuda → P plana/QRS largo → sinusoidal",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 22"
+  },
+  {
+   "id": "n-k-c-5",
+   "area": "nefro",
+   "tema": "Potasio",
+   "f": "Hiperpotasemia: primer paso",
+   "b": "Gluconato de calcio 10 %",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 24"
+  },
+  {
+   "id": "n-k-c-6",
+   "area": "nefro",
+   "tema": "Potasio",
+   "f": "Entrada del K⁺",
+   "b": "Insulina, β2, aldosterona, alcalosis",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 10"
+  },
+  {
+   "id": "n-k-c-7",
+   "area": "nefro",
+   "tema": "Potasio",
+   "f": "Pseudohiperpotasemia",
+   "b": "Hemólisis, torniquete, leucocitosis",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 21"
+  }
+ ]
+}

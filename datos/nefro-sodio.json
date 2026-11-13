@@ -1,0 +1,582 @@
+{
+ "preguntas": [
+  {
+   "id": "n-na-ger",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 1,
+   "enunciado": "¿Qué refleja casi siempre una hiponatremia?",
+   "opciones": [
+    {
+     "t": "Un exceso de agua en relación con el sodio, más que una pérdida absoluta de sodio",
+     "por": "Lo dice la lámina de generalidades."
+    },
+    {
+     "t": "Una pérdida absoluta de sodio corporal",
+     "por": "Eso ocurre en algunos casos, pero no es lo habitual."
+    },
+    {
+     "t": "Un exceso de potasio",
+     "por": "No es la causa."
+    },
+    {
+     "t": "Siempre déficit de volumen",
+     "por": "Puede haber hipo, eu o hipervolemia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El sodio es el principal determinante de la osmolaridad plasmática; si la hiponatremia se instala rápido puede causar edema cerebral.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 8"
+  },
+  {
+   "id": "n-na-eval",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "enunciado": "¿Cuál es el primer paso para evaluar una hiponatremia?",
+   "opciones": [
+    {
+     "t": "Medir la osmolaridad plasmática",
+     "por": "Luego se evalúa el volumen extracelular, la osmolaridad urinaria y el Na⁺ urinario."
+    },
+    {
+     "t": "Dar NaCl 3 % de inmediato a todos",
+     "por": "Solo si hay síntomas graves."
+    },
+    {
+     "t": "Medir solo la creatinina",
+     "por": "No clasifica la hiponatremia."
+    },
+    {
+     "t": "Pedir una tomografía",
+     "por": "No es el primer paso."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se evalúa también la tasa de corrección segura para evitar el síndrome de desmielinización osmótica.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 8"
+  },
+  {
+   "id": "n-na-osm",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "enunciado": "¿Cuál es la fórmula de osmolaridad plasmática de la clase?",
+   "opciones": [
+    {
+     "t": "2 × Na⁺ + glucosa/18 + urea/6 (normal 275 a 290 mOsm/kg)",
+     "por": "Los osmoles principales son sodio, glucosa y urea."
+    },
+    {
+     "t": "Na⁺ + K⁺ + glucosa",
+     "por": "No incluye urea ni el factor 2."
+    },
+    {
+     "t": "2 × Na⁺ − glucosa/18",
+     "por": "La glucosa suma."
+    },
+    {
+     "t": "Na⁺ × glucosa × urea",
+     "por": "No es producto."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La osmolaridad efectiva solo cuenta sodio y glucosa porque la urea atraviesa libremente las membranas.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 11"
+  },
+  {
+   "id": "n-na-osm2",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 3,
+   "enunciado": "Na⁺ 120 mEq/L, glucosa 90 mg/dL, urea 60 mg/dL. Calcula la osmolaridad plasmática.",
+   "opciones": [
+    {
+     "t": "255 mOsm/kg",
+     "por": "2 × 120 + 90/18 + 60/6 = 240 + 5 + 10 = 255. Es baja: hiposmolar."
+    },
+    {
+     "t": "245 mOsm/kg",
+     "por": "Olvidaste sumar la urea (osmolaridad efectiva)."
+    },
+    {
+     "t": "135 mOsm/kg",
+     "por": "Olvidaste multiplicar el sodio por 2."
+    },
+    {
+     "t": "2220 mOsm/kg",
+     "por": "Multiplicaste en lugar de dividir."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "255 mOsm/kg está por debajo de 275: hiponatremia hipoosmolar.",
+   "fuente": "Complemento: caso inventado para practicar la fórmula de la lám. 11",
+   "contexto": "Osmolaridad plasmática = 2 × [Na⁺] + glucosa/18 + urea/6, en mOsm/kg. La glucosa y la urea se ingresan en mg/dL; el divisor convierte a mmol/L. Normal 275 a 290."
+  },
+  {
+   "id": "n-na-clas",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 1,
+   "enunciado": "Según la osmolaridad, ¿cómo se clasifica una hiponatremia con osmolaridad menor de 275?",
+   "opciones": [
+    {
+     "t": "Hipoosmolar (verdadera): puede ser eu, hipo o hipervolémica",
+     "por": "Es la hiponatremia verdadera."
+    },
+    {
+     "t": "Isoosmolar",
+     "por": "275 a 290: por hiperlipidemia o hiperproteinemia."
+    },
+    {
+     "t": "Hiperosmolar",
+     "por": "Mayor de 290: por hiperglucemia o soluciones hipertónicas."
+    },
+    {
+     "t": "No existe esa clasificación",
+     "por": "Sí existe."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Pseudohiponatremia: hiperlipidemia e hiperproteinemia (isoosmolar). Hiperglucemia o manitol: hiperosmolar.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 12 y 14"
+  },
+  {
+   "id": "n-na-grado",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 1,
+   "enunciado": "Un paciente tiene Na⁺ de 127 mEq/L. ¿Qué grado de hiponatremia es?",
+   "opciones": [
+    {
+     "t": "Moderada (125 a 129)",
+     "por": "Con síntomas neurológicos leves posibles."
+    },
+    {
+     "t": "Leve (130 a 134)",
+     "por": "127 es menor de 130."
+    },
+    {
+     "t": "Grave (<125)",
+     "por": "127 es mayor de 125."
+    },
+    {
+     "t": "Normal",
+     "por": "Es menor de 135."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hiponatremia: Na⁺ menor de 135 mEq/L.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 13"
+  },
+  {
+   "id": "n-na-vol",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "enunciado": "Hiponatremia hipoosmolar en un paciente con cirrosis o insuficiencia cardiaca:",
+   "opciones": [
+    {
+     "t": "Hipervolemia: más agua que sodio",
+     "por": "Causas hipervolémicas: falla cardiaca, cirrosis, insuficiencia renal."
+    },
+    {
+     "t": "Hipovolemia: vómitos y diarrea",
+     "por": "Es otro grupo."
+    },
+    {
+     "t": "Euvolemia por SIAD",
+     "por": "No."
+    },
+    {
+     "t": "Pseudohiponatremia",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Euvolémica: insuficiencia suprarrenal, hipotiroidismo, SIAD. Hipovolémica: vómitos, diarrea, tercer espacio, pérdidas renales.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 15"
+  },
+  {
+   "id": "n-na-sint",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "enunciado": "¿Cuál de estos es síntoma grave de la hiponatremia?",
+   "opciones": [
+    {
+     "t": "Convulsiones o coma",
+     "por": "Más somnolencia profunda y distrés cardiorrespiratorio."
+    },
+    {
+     "t": "Náuseas sin vómitos",
+     "por": "Moderadamente grave."
+    },
+    {
+     "t": "Confusión leve",
+     "por": "Moderadamente grave."
+    },
+    {
+     "t": "Cefalea",
+     "por": "Moderadamente grave."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Graves: vómito, distrés cardiorrespiratorio, somnolencia anormal y profunda, convulsiones y coma (Glasgow ≤8).",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 16"
+  },
+  {
+   "id": "n-na-sol",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 1,
+   "enunciado": "¿Cuántos mEq/L de sodio tiene el cloruro de sodio al 3 %?",
+   "opciones": [
+    {
+     "t": "513",
+     "por": "NaCl 3 % es hipertónico."
+    },
+    {
+     "t": "154",
+     "por": "Es NaCl 0.9 %."
+    },
+    {
+     "t": "68",
+     "por": "Es NaCl 20 % (valor de la lámina)."
+    },
+    {
+     "t": "20",
+     "por": "Es bicarbonato 8.5 %."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Soluciones: NaCl 3 % 513; 0.9 % 154; 20 % 68; bicarbonato de sodio 8.5 % 20 mEq/L.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 17"
+  },
+  {
+   "id": "n-na-meta",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "enunciado": "¿Cuánto debe subir como máximo el sodio en las primeras 24 horas?",
+   "opciones": [
+    {
+     "t": "8 mEq/L",
+     "por": "Para evitar la mielinólisis."
+    },
+    {
+     "t": "20 mEq/L",
+     "por": "Demasiado rápido."
+    },
+    {
+     "t": "1 mEq/L",
+     "por": "Demasiado lento."
+    },
+    {
+     "t": "No hay límite",
+     "por": "Sí lo hay."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Un corregido excesivo provoca síndrome de desmielinización osmótica.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 21",
+   "nota": "Los talleres de la clase dan metas de 4 a 8, 8 a 10 o 10 a 12 mEq/L según la lámina. Aquí la lámina de tratamiento de hipernatremia (lám. 26) dice no más de 8 mEq/L en 24 h."
+  },
+  {
+   "id": "n-na-c1",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 3,
+   "enunciado": "Mujer de 76 años, 46 kg, Na⁺ 112 mEq/L, somnolienta. Usarás NaCl 3 % (513 mEq/L). Con ACT = 0.45 × peso, ¿cuánto sube el Na⁺ por 1 L infundido?",
+   "opciones": [
+    {
+     "t": "≈ 18.5 mEq/L",
+     "por": "ACT = 0.45 × 46 = 20.7 (la lámina redondea a 21). (513−112)/(20.7+1) = 18.5."
+    },
+    {
+     "t": "≈ 19.4 mEq/L",
+     "por": "Olvidaste sumar 1 al ACT."
+    },
+    {
+     "t": "≈ 14.0 mEq/L",
+     "por": "Usaste ACT de hombre joven."
+    },
+    {
+     "t": "≈ 1.9 mEq/L",
+     "por": "Usaste NaCl 0.9 % en lugar de 3 %."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Con la meta de 8 mEq/L en 24 h: 433 mL, es decir unos 18.0 mL/h por bomba de infusión y control de electrolitos cada 3 a 4 horas.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 20",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (valor que da la lámina); dextrosa 5 % no tiene sodio.",
+   "nota": "La lámina redondea el ACT a 21 y obtiene 18.2 mEq/L, 440 mL y 18.3 mL/h; con 20.7 el resultado cambia ligeramente."
+  },
+  {
+   "id": "n-na-c1b",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 3,
+   "enunciado": "En el mismo caso (cambio de 18.2 mEq/L por litro de NaCl 3 %), ¿qué volumen se necesita para subir 8 mEq/L?",
+   "opciones": [
+    {
+     "t": "≈ 440 mL en 24 horas (≈ 18 mL/h)",
+     "por": "8 / 18.2 = 0.44 L."
+    },
+    {
+     "t": "1000 mL en 24 horas",
+     "por": "Subiría 18 mEq/L, demasiado."
+    },
+    {
+     "t": "≈ 2200 mL en 24 horas",
+     "por": "Dividiste al revés (18.2/8)."
+    },
+    {
+     "t": "≈ 150 mL en 24 horas",
+     "por": "Subiría menos de 3 mEq/L."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Volumen = cambio deseado ÷ cambio por litro. Velocidad = volumen ÷ 24 h.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 20",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (valor que da la lámina); dextrosa 5 % no tiene sodio."
+  },
+  {
+   "id": "n-na-hn",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 1,
+   "enunciado": "¿Qué define a la hipernatremia?",
+   "opciones": [
+    {
+     "t": "Na⁺ mayor de 145 mEq/L; siempre refleja déficit relativo de agua",
+     "por": "Respecto al sodio corporal total."
+    },
+    {
+     "t": "Na⁺ mayor de 135",
+     "por": "Es el límite de hiponatremia."
+    },
+    {
+     "t": "Exceso de sodio siempre",
+     "por": "Puede ser por pérdida de agua."
+    },
+    {
+     "t": "Osmolaridad baja",
+     "por": "Es hiperosmolar."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hiperosmolaridad: sale agua de las neuronas y hay deshidratación celular cerebral.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 22 y 25"
+  },
+  {
+   "id": "n-na-hn2",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "enunciado": "Diabetes insípida central: ¿cuál es el mecanismo de hipernatremia?",
+   "opciones": [
+    {
+     "t": "Pérdida pura de agua por déficit de ADH (euvolémica)",
+     "por": "Nefrogénica: resistencia renal a la ADH."
+    },
+    {
+     "t": "Pérdida de agua y sodio por diarrea",
+     "por": "Hipovolémica."
+    },
+    {
+     "t": "Exceso de sodio por NaCl 3 %",
+     "por": "Hipervolémica."
+    },
+    {
+     "t": "Ingesta excesiva de sal",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "ADH = hormona antidiurética.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 23"
+  },
+  {
+   "id": "n-na-hn3",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "enunciado": "¿Qué factor de riesgo es el más característico de hipernatremia hospitalaria?",
+   "opciones": [
+    {
+     "t": "Edad avanzada con sed disminuida y dificultad para acceder al agua",
+     "por": "Más UCI, NPT sin agua libre, litio."
+    },
+    {
+     "t": "Juventud",
+     "por": "No."
+    },
+    {
+     "t": "Ingesta alta de agua",
+     "por": "No."
+    },
+    {
+     "t": "Hiperaldosteronismo aislado",
+     "por": "Es causa menos frecuente."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Fármacos: diuréticos de asa u osmóticos, litio, glucocorticoides.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 24"
+  },
+  {
+   "id": "n-na-c2",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 3,
+   "enunciado": "Varón de 76 años, 68 kg, Na⁺ 168 mEq/L, deshidratado y febril. Usarás dextrosa 5 % + 1 ampolla de NaCl 20 % (Na⁺ de la mezcla 68 mEq/L). ACT = 0.5 × peso. ¿Cuánto cambia el Na⁺ por litro infundido?",
+   "opciones": [
+    {
+     "t": "≈ −2.9 mEq/L (baja)",
+     "por": "ACT = 0.5 × 68 = 34. (68 − 168)/(34+1) = −2.86."
+    },
+    {
+     "t": "≈ −4.8 mEq/L",
+     "por": "Usaste dextrosa 5 % sola (sin sodio)."
+    },
+    {
+     "t": "≈ −0.4 mEq/L",
+     "por": "Usaste NaCl 0.9 % (154 mEq/L) en lugar de la mezcla con 68."
+    },
+    {
+     "t": "≈ +2.9 mEq/L",
+     "por": "El sodio baja, no sube: el signo es negativo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Para bajar 4 mEq/L en 12 h: 1400 mL, unos 117 mL/h.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 29",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (valor que da la lámina); dextrosa 5 % no tiene sodio.",
+   "nota": "La lámina obtiene −2.8 mEq/L, 1430 mL y 120 mL/h; con el valor exacto (−2.86) salen unos 1400 mL y 117 mL/h. El ritmo es muy similar."
+  },
+  {
+   "id": "n-na-txhn",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "enunciado": "En hipernatremia, ¿qué ritmo de descenso de sodio indica la clase?",
+   "opciones": [
+    {
+     "t": "No más de 8 mEq/L en las primeras 24 horas",
+     "por": "El mejor indicador de respuesta es la mejoría de síntomas neurológicos."
+    },
+    {
+     "t": "20 mEq/L en 24 horas",
+     "por": "Edema cerebral."
+    },
+    {
+     "t": "Corregir en 1 hora",
+     "por": "Muy rápido."
+    },
+    {
+     "t": "No hay límite",
+     "por": "Sí hay."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Una corrección demasiado rápida de la hipernatremia puede causar edema cerebral.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 26"
+  },
+  {
+   "id": "n-na-case",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 3,
+   "enunciado": "Mujer de 63 años con cáncer de colon, Na⁺ de 134 que baja a 115 en 5 días con NaCl 0.9 % y NaCl 20 %. Está asintomática. ¿Cómo se clasifica?",
+   "opciones": [
+    {
+     "t": "Hiponatremia hipotónica, euvolémica, grave y crónica",
+     "por": "Respuesta del PPT."
+    },
+    {
+     "t": "Hiponatremia hipertónica",
+     "por": "La osmolaridad es baja."
+    },
+    {
+     "t": "Hiponatremia leve aguda",
+     "por": "Es <125, grave."
+    },
+    {
+     "t": "Hipernatremia",
+     "por": "El sodio bajó."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Grave: Na⁺ <125. La falta de respuesta al suero salino sugiere SIAD (secreción inadecuada de ADH).",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 3 y 33",
+   "nota": "La lámina clasifica el caso y no nombra SIAD; la sospecha de SIAD es un complemento por la falta de respuesta al salino."
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "n-na-c-0",
+   "area": "nefro",
+   "tema": "Sodio",
+   "f": "Osmolaridad plasmática",
+   "b": "2 × Na + glucosa/18 + urea/6; normal 275-290",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 11"
+  },
+  {
+   "id": "n-na-c-1",
+   "area": "nefro",
+   "tema": "Sodio",
+   "f": "Hiponatremia",
+   "b": "Na⁺ <135: leve 130-134, moderada 125-129, grave <125",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 13"
+  },
+  {
+   "id": "n-na-c-2",
+   "area": "nefro",
+   "tema": "Sodio",
+   "f": "Soluciones: sodio",
+   "b": "NaCl 3 % 513; 0.9 % 154; 20 % 68; bicarbonato 8.5 % 20",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 17"
+  },
+  {
+   "id": "n-na-c-3",
+   "area": "nefro",
+   "tema": "Sodio",
+   "f": "Adrogué-Madias",
+   "b": "(Na infundido − Na sérico)/(ACT+1)",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 19"
+  },
+  {
+   "id": "n-na-c-4",
+   "area": "nefro",
+   "tema": "Sodio",
+   "f": "ACT",
+   "b": "Hombre 0.6; mujer 0.5; anciano 0.5; anciana 0.45 (× peso)",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 9"
+  },
+  {
+   "id": "n-na-c-5",
+   "area": "nefro",
+   "tema": "Sodio",
+   "f": "Hipernatremia",
+   "b": "Na⁺ >145; déficit relativo de agua",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 22"
+  },
+  {
+   "id": "n-na-c-6",
+   "area": "nefro",
+   "tema": "Sodio",
+   "f": "Meta de corrección",
+   "b": "Máximo 8 mEq/L en 24 h",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 26"
+  },
+  {
+   "id": "n-na-c-7",
+   "area": "nefro",
+   "tema": "Sodio",
+   "f": "Déficit de sodio",
+   "b": "0.6 × peso × (120 − Na medido)",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 18"
+  }
+ ]
+}
