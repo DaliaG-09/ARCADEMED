@@ -140,7 +140,11 @@
    ],
    "correcta": 0,
    "explicacion": "PCR = proteína C reactiva.",
-   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 13"
+   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 13",
+   "guia": {
+    "t": "• La base del tratamiento es la rehidratación oral con agua y sal.\n• No se recomiendan antibióticos empíricos en diarrea aguda de rutina ni en diarrea del viajero leve.\n• Se estudian las heces si hay disentería, enfermedad moderada a grave, síntomas >7 días, alto riesgo de contagio o brote.\n• En diarrea del viajero discapacitante con fiebre: azitromicina; la loperamida se añade al antibiótico para acortar la diarrea.\n• Probióticos no recomendados para el tratamiento de la diarrea aguda; no se pide sensibilidad antibiótica de rutina.",
+    "f": "ACG Clinical Guideline: Diagnosis, Treatment and Prevention of Acute Diarrheal Infections in Adults (Riddle et al., Am J Gastroenterol 2016;111:602-622)"
+   }
   },
   {
    "id": "g-dia-trat",
@@ -168,7 +172,11 @@
    ],
    "correcta": 0,
    "explicacion": "Antibióticos: diarrea inflamatoria, fiebre, sepsis o shock.",
-   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 14"
+   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 14",
+   "guia": {
+    "t": "• La base del tratamiento es la rehidratación oral con agua y sal.\n• No se recomiendan antibióticos empíricos en diarrea aguda de rutina ni en diarrea del viajero leve.\n• Se estudian las heces si hay disentería, enfermedad moderada a grave, síntomas >7 días, alto riesgo de contagio o brote.\n• En diarrea del viajero discapacitante con fiebre: azitromicina; la loperamida se añade al antibiótico para acortar la diarrea.\n• Probióticos no recomendados para el tratamiento de la diarrea aguda; no se pide sensibilidad antibiótica de rutina.",
+    "f": "ACG Clinical Guideline: Diagnosis, Treatment and Prevention of Acute Diarrheal Infections in Adults (Riddle et al., Am J Gastroenterol 2016;111:602-622)"
+   }
   },
   {
    "id": "g-dia-atb",
@@ -196,7 +204,11 @@
    ],
    "correcta": 0,
    "explicacion": "Tabla de la lámina 15: Campylobacter, azitromicina (alternativa ciprofloxacino); Giardia, tinidazol o nitazoxanida; Shigella, azitromicina, ciprofloxacino o ceftriaxona (TMP/SMX o ampicilina si es sensible); Yersinia, TMP/SMX (trimetoprim-sulfametoxazol); Vibrio cholerae, doxiciclina.",
-   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 15"
+   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 15",
+   "guia": {
+    "t": "• Primer episodio: fidaxomicina 200 mg cada 12 h por 10 días (preferida) o vancomicina oral 125 mg cada 6 h por 10 días (alternativa aceptable).\n• Primera recurrencia: fidaxomicina (esquema estándar o pulsado); se puede asociar bezlotoxumab si la recurrencia ocurre en 6 meses.\n• Fulminante: vancomicina oral más metronidazol IV.\n• Una de las razones de la preferencia es que la fidaxomicina reduce las recurrencias.",
+    "f": "IDSA/SHEA, actualización 2021 de la guía de infección por C. difficile en adultos (Johnson et al., Clin Infect Dis 2021;73:e1029-e1044)"
+   }
   },
   {
    "id": "g-dia-viaje",
@@ -224,7 +236,11 @@
    ],
    "correcta": 0,
    "explicacion": "Si el paciente parece enfermo, está grave o tiene constantes vitales anormales: reanimación con líquidos IV, pruebas analíticas, exámenes de heces y radiología. Con factores de riesgo de diarrea no benigna: valorar los resultados o el tratamiento específico.",
-   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 16 y 17"
+   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 16 y 17",
+   "guia": {
+    "t": "• La base del tratamiento es la rehidratación oral con agua y sal.\n• No se recomiendan antibióticos empíricos en diarrea aguda de rutina ni en diarrea del viajero leve.\n• Se estudian las heces si hay disentería, enfermedad moderada a grave, síntomas >7 días, alto riesgo de contagio o brote.\n• En diarrea del viajero discapacitante con fiebre: azitromicina; la loperamida se añade al antibiótico para acortar la diarrea.\n• Probióticos no recomendados para el tratamiento de la diarrea aguda; no se pide sensibilidad antibiótica de rutina.",
+    "f": "ACG Clinical Guideline: Diagnosis, Treatment and Prevention of Acute Diarrheal Infections in Adults (Riddle et al., Am J Gastroenterol 2016;111:602-622)"
+   }
   },
   {
    "id": "g-dia-cron",
@@ -339,7 +355,11 @@
    "correcta": 0,
    "explicacion": "Caso de la lámina 26: la lámina solo plantea preguntas abiertas (anamnesis, examen físico y plan de trabajo).",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 26 y 29",
-   "nota": "Que el cuadro de inicio rápido tras arroz sugiere una toxina preformada (Bacillus cereus) es un complemento; la lámina no lo menciona."
+   "nota": "Que el cuadro de inicio rápido tras arroz sugiere una toxina preformada (Bacillus cereus) es un complemento; la lámina no lo menciona.",
+   "guia": {
+    "t": "• La base del tratamiento es la rehidratación oral con agua y sal.\n• No se recomiendan antibióticos empíricos en diarrea aguda de rutina ni en diarrea del viajero leve.\n• Se estudian las heces si hay disentería, enfermedad moderada a grave, síntomas >7 días, alto riesgo de contagio o brote.\n• En diarrea del viajero discapacitante con fiebre: azitromicina; la loperamida se añade al antibiótico para acortar la diarrea.\n• Probióticos no recomendados para el tratamiento de la diarrea aguda; no se pide sensibilidad antibiótica de rutina.",
+    "f": "ACG Clinical Guideline: Diagnosis, Treatment and Prevention of Acute Diarrheal Infections in Adults (Riddle et al., Am J Gastroenterol 2016;111:602-622)"
+   }
   }
  ],
  "tarjetas": [

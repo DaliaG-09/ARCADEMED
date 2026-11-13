@@ -227,7 +227,11 @@
    ],
    "correcta": 0,
    "explicacion": "Esquema de la lámina 19: hepatopatía crónica → cirrosis compensada → (hemorragia varicosa, ascitis, encefalopatía, ictericia) → cirrosis descompensada → muerte o trasplante hepático. Los eventos como síndrome hepatorrenal, ascitis refractaria y PBE (peritonitis bacteriana espontánea) agravan el cuadro; el hepatocarcinoma puede aparecer en cualquier etapa.",
-   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 19 y 20"
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 19 y 20",
+   "guia": {
+    "t": "• La ascitis suele ser la primera descompensación; su aparición reduce la sobrevida a 5 años de ~80 % a ~30 %.\n• Toda ascitis nueva, o paciente hospitalizado con ascitis, requiere paracentesis diagnóstica.\n• Manejo inicial: restricción de sodio (2 g/día) y diuréticos (espironolactona 100 a 200 mg/día, con furosemida si hace falta); evitar AINE, IECA y ARA II.\n• Tras paracentesis de gran volumen: albúmina (6 a 8 g por litro extraído).\n• Pacientes con ascitis y complicaciones deben ser evaluados para trasplante hepático.",
+    "f": "AASLD Practice Guidance 2021: ascitis, peritonitis bacteriana espontánea y síndrome hepatorrenal (Biggins et al., Hepatology 2021;74:1014-1048)"
+   }
   },
   {
    "id": "g-cir-trat",
@@ -313,7 +317,11 @@
    "correcta": 0,
    "explicacion": "HVPG = gradiente de presión venosa hepática. Más de 10 a 12 mmHg: várices y sangrado. Resangrado temprano: sangrado de várices gástricas, sangrado activo, albúmina baja, insuficiencia renal y HVPG >20 mmHg.",
    "fuente": "PPT Cirrosis hepática (sem. 13), lám. 24 y 25",
-   "contexto": "El HVPG es la diferencia entre la presión de la vena porta y la de la vena cava, medida con un catéter en las venas hepáticas. Se usa para saber qué tan alta es la hipertensión portal."
+   "contexto": "El HVPG es la diferencia entre la presión de la vena porta y la de la vena cava, medida con un catéter en las venas hepáticas. Se usa para saber qué tan alta es la hipertensión portal.",
+   "guia": {
+    "t": "• La hipertensión portal clínicamente significativa (CSPH) se define con HVPG ≥10 mmHg; es el umbral desde el que aparecen várices y otras complicaciones.\n• AASLD 2024 y Baveno VII recomiendan betabloqueadores no selectivos (carvedilol) en pacientes con CSPH, para disminuir la presión portal y prevenir la descompensación (por ejemplo, ascitis).",
+    "f": "AASLD Practice Guidance 2024 sobre hipertensión portal y várices (Kaplan et al., Hepatology 2024;79:1180-1211) y consenso Baveno VII (de Franchis et al., J Hepatol 2022;76:959-974)"
+   }
   },
   {
    "id": "g-cir-resangrado",
@@ -341,7 +349,11 @@
    ],
    "correcta": 0,
    "explicacion": "Factores de resangrado temprano: (1) várices gástricas, (2) sangrado activo, (3) albúmina baja, (4) insuficiencia renal, (5) HVPG >20 mmHg.",
-   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 25"
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 25",
+   "guia": {
+    "t": "• Hemorragia aguda por várices: reanimación cuidadosa con transfusión restrictiva (Hb objetivo 7 a 8 g/dl).\n• Vasoactivos (terlipressina u octreótido) lo antes posible y antibiótico profiláctico (p. ej. ceftriaxona), por el riesgo de infecciones bacterianas.\n• Endoscopía en las primeras 12 h con ligadura de várices como primera opción.\n• TIPS precoz (preventivo) en pacientes de alto riesgo de resangrado; AASLD 2024 precisó su rol.",
+    "f": "AASLD Practice Guidance 2024 sobre hipertensión portal y várices (Kaplan et al., Hepatology 2024;79:1180-1211) y consenso Baveno VII (de Franchis et al., J Hepatol 2022;76:959-974)"
+   }
   },
   {
    "id": "g-cir-algoritmo",
@@ -370,7 +382,11 @@
    "correcta": 0,
    "explicacion": "AVB = hemorragia variceal aguda. Algoritmo: reanimación (Hb 7 a 8 g/dl), profilaxis antibiótica (ceftriaxona), fármacos vasoactivos (terlipresina, octreótido, vasopresina), endoscopía en 12 h (primera elección: ligadura con banda; segunda: escleroterapia). Controlado: profilaxis secundaria con betabloqueador no selectivo (propranolol, carvedilol, nadolol) ± ligadura. Refractario: balón de Sengstaken, TIPS o BRTO.",
    "fuente": "PPT Cirrosis hepática (sem. 13), lám. 26",
-   "nota": "En Perú se usa mucho el octreótido y la ligadura endoscópica; sigue la lámina para el examen."
+   "nota": "En Perú se usa mucho el octreótido y la ligadura endoscópica; sigue la lámina para el examen.",
+   "guia": {
+    "t": "• Hemorragia aguda por várices: reanimación cuidadosa con transfusión restrictiva (Hb objetivo 7 a 8 g/dl).\n• Vasoactivos (terlipressina u octreótido) lo antes posible y antibiótico profiláctico (p. ej. ceftriaxona), por el riesgo de infecciones bacterianas.\n• Endoscopía en las primeras 12 h con ligadura de várices como primera opción.\n• TIPS precoz (preventivo) en pacientes de alto riesgo de resangrado; AASLD 2024 precisó su rol.",
+    "f": "AASLD Practice Guidance 2024 sobre hipertensión portal y várices (Kaplan et al., Hepatology 2024;79:1180-1211) y consenso Baveno VII (de Franchis et al., J Hepatol 2022;76:959-974)"
+   }
   },
   {
    "id": "g-cir-tips",
@@ -398,7 +414,11 @@
    ],
    "correcta": 0,
    "explicacion": "TIPS = shunt portosistémico intrahepático transyugular: comunica el sistema portal (alta presión) con el sistémico (baja presión), reduciendo la hipertensión portal. Pasa sangre de la porta al torrente sistémico sin ser filtrada, por eso causa encefalopatía.",
-   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 27 a 29"
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 27 a 29",
+   "guia": {
+    "t": "• AASLD 2024 aclara el papel del TIPS preventivo (precoz) en la hemorragia aguda por várices de alto riesgo de resangrado.\n• TIPS también está listado como opción en ascitis refractaria.\n• Todo paciente con ascitis clínicamente significativa y complicaciones debe considerarse para evaluación de trasplante hepático.",
+    "f": "AASLD Practice Guidance 2024 sobre hipertensión portal y várices (Kaplan et al., Hepatology 2024;79:1180-1211) y consenso Baveno VII (de Franchis et al., J Hepatol 2022;76:959-974)"
+   }
   },
   {
    "id": "g-cir-caso",
@@ -426,7 +446,11 @@
    ],
    "correcta": 0,
    "explicacion": "El caso de la clase: hematemesis + ictericia + somnolencia + ascitis. Se buscan signos de hepatopatía crónica, se hace endoscopía urgente para varices, paracentesis diagnóstica (descartar PBE), laboratorio (coagulación, albúmina) y ecografía.",
-   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 32"
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 32",
+   "guia": {
+    "t": "• Hemorragia aguda por várices: reanimación cuidadosa con transfusión restrictiva (Hb objetivo 7 a 8 g/dl).\n• Vasoactivos (terlipressina u octreótido) lo antes posible y antibiótico profiláctico (p. ej. ceftriaxona), por el riesgo de infecciones bacterianas.\n• Endoscopía en las primeras 12 h con ligadura de várices como primera opción.\n• TIPS precoz (preventivo) en pacientes de alto riesgo de resangrado; AASLD 2024 precisó su rol.",
+    "f": "AASLD Practice Guidance 2024 sobre hipertensión portal y várices (Kaplan et al., Hepatology 2024;79:1180-1211) y consenso Baveno VII (de Franchis et al., J Hepatol 2022;76:959-974)"
+   }
   }
  ],
  "tarjetas": [

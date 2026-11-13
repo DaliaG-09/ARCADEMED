@@ -139,7 +139,11 @@
    ],
    "correcta": 0,
    "explicacion": "Gastritis crónica: inflamación de múltiples etapas, progresiva y de por vida. Empieza en la infancia con inflamación mononuclear crónica ('superficial') más inflamación neutrofílica aguda ('activa'); con décadas llega a gastritis atrófica (pérdida de glándulas en antro, cuerpo, fundo o varios).",
-   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 13"
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 13",
+   "guia": {
+    "t": "• Los pacientes con gastritis crónica atrófica o metaplasia intestinal tienen riesgo de adenocarcinoma gástrico.\n• La biopsia debe tomarse al menos de antro y cuerpo, en frascos separados, y buscar H. pylori.\n• En atrofia avanzada, seguimiento con endoscopía de alta calidad cada 3 años.\n• La erradicación de H. pylori cura la gastritis no atrófica, puede hacer regresar la atrofia y reduce el riesgo de cáncer.\n• Pepsinógeno I bajo o relación pepsinógeno I/II baja identifica atrofia avanzada.",
+    "f": "MAPS II, guía ESGE/EHMSG/ESP/SPED sobre condiciones precancerosas del estómago (Pimentel-Nunes et al., Endoscopy 2019;51:365-388)"
+   }
   },
   {
    "id": "g-gastritis-cascada",
@@ -169,7 +173,11 @@
    "explicacion": "El diagrama muestra la progresión lenta: H. pylori → gastritis crónica no atrófica → gastritis atrófica (antro, cuerpo o ambos) → metaplasia intestinal → estómago hipo o aclorhídrico → displasia (neoplasia intraepitelial) → cáncer. Los factores que empujan la cascada son cepas citotóxicas, estrés oxidativo, mutágenos, acetaldehído, déficit de B12, tabaco y dieta.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 19",
    "contexto": "La cascada de Correa describe cómo una infección crónica del estómago puede evolucionar durante décadas a cáncer gástrico a través de lesiones preneoplásicas. Se usa para entender por qué la atrofia y la metaplasia intestinal exigen seguimiento.",
-   "nota": "El nombre 'cascada de Correa' es un complemento: la lámina muestra el esquema sin ese nombre."
+   "nota": "El nombre 'cascada de Correa' es un complemento: la lámina muestra el esquema sin ese nombre.",
+   "guia": {
+    "t": "• Los pacientes con gastritis crónica atrófica o metaplasia intestinal tienen riesgo de adenocarcinoma gástrico.\n• La biopsia debe tomarse al menos de antro y cuerpo, en frascos separados, y buscar H. pylori.\n• En atrofia avanzada, seguimiento con endoscopía de alta calidad cada 3 años.\n• La erradicación de H. pylori cura la gastritis no atrófica, puede hacer regresar la atrofia y reduce el riesgo de cáncer.\n• Pepsinógeno I bajo o relación pepsinógeno I/II baja identifica atrofia avanzada.",
+    "f": "MAPS II, guía ESGE/EHMSG/ESP/SPED sobre condiciones precancerosas del estómago (Pimentel-Nunes et al., Endoscopy 2019;51:365-388)"
+   }
   },
   {
    "id": "g-gastritis-tipos",
@@ -225,7 +233,11 @@
    ],
    "correcta": 0,
    "explicacion": "Gastritis atrófica: pérdida de glándulas gástricas con o sin metaplasia en un contexto de inflamación crónica, por H. pylori o enfermedad autoinmune. Prevalencia 15 %. El diagnóstico es histopatológico.",
-   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 16"
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 16",
+   "guia": {
+    "t": "• Los pacientes con gastritis crónica atrófica o metaplasia intestinal tienen riesgo de adenocarcinoma gástrico.\n• La biopsia debe tomarse al menos de antro y cuerpo, en frascos separados, y buscar H. pylori.\n• En atrofia avanzada, seguimiento con endoscopía de alta calidad cada 3 años.\n• La erradicación de H. pylori cura la gastritis no atrófica, puede hacer regresar la atrofia y reduce el riesgo de cáncer.\n• Pepsinógeno I bajo o relación pepsinógeno I/II baja identifica atrofia avanzada.",
+    "f": "MAPS II, guía ESGE/EHMSG/ESP/SPED sobre condiciones precancerosas del estómago (Pimentel-Nunes et al., Endoscopy 2019;51:365-388)"
+   }
   },
   {
    "id": "g-gastritis-endoscopica",
@@ -253,7 +265,11 @@
    ],
    "correcta": 0,
    "explicacion": "Endoscopía de la atrofia: mucosa pálida, pérdida de pliegues y vasos sanguíneos evidentes por adelgazamiento del epitelio.",
-   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 18"
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 18",
+   "guia": {
+    "t": "• Los pacientes con gastritis crónica atrófica o metaplasia intestinal tienen riesgo de adenocarcinoma gástrico.\n• La biopsia debe tomarse al menos de antro y cuerpo, en frascos separados, y buscar H. pylori.\n• En atrofia avanzada, seguimiento con endoscopía de alta calidad cada 3 años.\n• La erradicación de H. pylori cura la gastritis no atrófica, puede hacer regresar la atrofia y reduce el riesgo de cáncer.\n• Pepsinógeno I bajo o relación pepsinógeno I/II baja identifica atrofia avanzada.",
+    "f": "MAPS II, guía ESGE/EHMSG/ESP/SPED sobre condiciones precancerosas del estómago (Pimentel-Nunes et al., Endoscopy 2019;51:365-388)"
+   }
   },
   {
    "id": "g-gastritis-clinica",
@@ -310,7 +326,11 @@
    ],
    "correcta": 0,
    "explicacion": "Gastritis crónica: endoscopía alta con biopsia dirigida (identifica H. pylori en histología), ELISA cuantitativa de anticuerpos anti-H. pylori (80 %), test de aliento, antígeno fecal, gastrina sérica (>100 pg/ml) y vitamina B12 (<170 pg/ml). La anemia megaloblástica se confirma con biopsia medular.",
-   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 22"
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 22",
+   "guia": {
+    "t": "• Los pacientes con gastritis crónica atrófica o metaplasia intestinal tienen riesgo de adenocarcinoma gástrico.\n• La biopsia debe tomarse al menos de antro y cuerpo, en frascos separados, y buscar H. pylori.\n• En atrofia avanzada, seguimiento con endoscopía de alta calidad cada 3 años.\n• La erradicación de H. pylori cura la gastritis no atrófica, puede hacer regresar la atrofia y reduce el riesgo de cáncer.\n• Pepsinógeno I bajo o relación pepsinógeno I/II baja identifica atrofia avanzada.",
+    "f": "MAPS II, guía ESGE/EHMSG/ESP/SPED sobre condiciones precancerosas del estómago (Pimentel-Nunes et al., Endoscopy 2019;51:365-388)"
+   }
   },
   {
    "id": "g-gastritis-tx_aguda",
@@ -367,7 +387,11 @@
    "correcta": 0,
    "explicacion": "Gastritis crónica: IBP 20 mg/día más amoxicilina y claritromicina. Alérgicos: metronidazol y tetraciclina (2 g/día), o levofloxacina y claritromicina (1 g/día cada una). Déficit de B12: 100 µg/día IM por 7 días y luego una vez al mes de forma indefinida, o cobalamina oral 1000 µg/día.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 24",
-   "nota": "Para tu práctica en Perú: la guía latinoamericana de H. pylori (en la bibliografía de la clase de EUP) recomienda la cuadriterapia con bismuto como primera línea; para el examen guíate por esta lámina."
+   "nota": "Para tu práctica en Perú: la guía latinoamericana de H. pylori (en la bibliografía de la clase de EUP) recomienda la cuadriterapia con bismuto como primera línea; para el examen guíate por esta lámina.",
+   "guia": {
+    "t": "• La cuádruple con bismuto por 14 días es el esquema de primera línea recomendado por la ACG 2024 (IBP + bismuto + tetraciclina + metronidazol).\n• La triple con claritromicina y levofloxacina ya no se recomiendan como primera línea.\n• Ojo: tu PPT menciona levofloxacina con claritromicina; para el examen manda la PPT.",
+    "f": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection (Chey et al., Am J Gastroenterol 2024;119:1730-1753)"
+   }
   },
   {
    "id": "g-gastritis-caso",

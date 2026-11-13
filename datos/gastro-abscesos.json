@@ -223,7 +223,11 @@
    ],
    "correcta": 0,
    "explicacion": "Esquema empírico: metronidazol 30 a 40 mg/kg/día más ceftriaxona o piperacilina-tazobactam. Falla del drenaje: considerar un segundo catéter.",
-   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 19 a 22"
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 19 a 22",
+   "guia": {
+    "t": "• El drenaje es la terapia óptima del absceso piógeno; se coloca catéter en abscesos >5 cm.\n• Los abscesos pequeños o múltiples (<3 a 5 cm) que no se pueden drenar pueden manejarse con antibióticos solos.\n• Duración total típica de antibióticos: 14 a 42 días; se agrega metronidazol si se sospecha ameba.\n• Un esquema empírico de ejemplo es piperacilina/tazobactam, ajustado luego al cultivo.",
+    "f": "Johns Hopkins ABX Guide, absceso hepático (referencia clínica; no es una guía de sociedad científica)"
+   }
   },
   {
    "id": "g-abs-ameb",
@@ -335,7 +339,11 @@
    ],
    "correcta": 0,
    "explicacion": "Alternativa: tinidazol 2 g por 3 días. Amebicidas luminales: teclozán, iodoquinol, paromomicina, furoato de diloxanida. Drenaje percutáneo si falla el fármaco, o absceso de 40 a 170 mm o en el lóbulo izquierdo.",
-   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 31 a 33"
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 31 a 33",
+   "guia": {
+    "t": "• Absceso amebiano: metronidazol 750 mg cada 8 h por 7 a 10 días (agente tisular).\n• Luego se agrega un agente luminal (paromomicina 500 mg cada 8 h por 7 días), porque la colonización intestinal persiste en 40 a 60 %.\n• La mayoría mejora en 72 a 96 horas.\n• Se aspira si no hay mejoría en 5 a 7 días, si el absceso es >5 cm o del lóbulo izquierdo, o hay sobreinfección bacteriana.",
+    "f": "StatPearls, absceso hepático amebiano (referencia clínica; no es una guía de sociedad científica)"
+   }
   },
   {
    "id": "g-abs-caso",

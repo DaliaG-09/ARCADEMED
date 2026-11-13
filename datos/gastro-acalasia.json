@@ -171,7 +171,11 @@
    "correcta": 0,
    "explicacion": "Diagnóstico: (1) esofagograma con bario (pico de pájaro: dilatación más estrechamiento distal en cono); (2) manometría de alta resolución, el estándar de oro; (3) endoscopía digestiva alta para descartar cáncer o pseudoacalasia.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11 y 12 y 20",
-   "nota": "Las imágenes de 'sacacorchos' y 'manzana mordida' son complemento para diferenciar; no están en la lámina."
+   "nota": "Las imágenes de 'sacacorchos' y 'manzana mordida' son complemento para diferenciar; no están en la lámina.",
+   "guia": {
+    "t": "• La manometría de alta resolución es la prueba de confirmación (estándar de oro).\n• Todo paciente con sospecha debe tener endoscopía para descartar pseudoacalasia por una masa que obstruya.\n• El esofagograma con bario cronometrado, con retención de bario y 'pico de pájaro', apoya el diagnóstico.\n• La ACG sugiere usar la clasificación de Chicago para orientar pronóstico y tratamiento.",
+    "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
+   }
   },
   {
    "id": "g-aca-manometria",
@@ -199,7 +203,11 @@
    ],
    "correcta": 0,
    "explicacion": "Manometría de alta resolución = estándar de oro. Muestra EEI hipertensivo con relajación alterada en todos los subtipos y ausencia de peristalsis.",
-   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11"
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11",
+   "guia": {
+    "t": "• La manometría de alta resolución es la prueba de confirmación (estándar de oro).\n• Todo paciente con sospecha debe tener endoscopía para descartar pseudoacalasia por una masa que obstruya.\n• El esofagograma con bario cronometrado, con retención de bario y 'pico de pájaro', apoya el diagnóstico.\n• La ACG sugiere usar la clasificación de Chicago para orientar pronóstico y tratamiento.",
+    "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
+   }
   },
   {
    "id": "g-aca-chicago",
@@ -229,7 +237,11 @@
    "explicacion": "Chicago: tipo I sin presurización (ausencia de peristalsis), tipo II panpresurización, tipo III contracciones prematuras (espásticas). El tipo III es el de peor respuesta a dilatación y requiere miotomía más larga.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11 y 13",
    "contexto": "Clasificación de Chicago: usa la manometría de alta resolución (un catéter con muchos sensores que mide la presión del esófago) para dividir la acalasia en tres tipos según el patrón de presión. Orienta la elección del tratamiento y el pronóstico.",
-   "nota": "La peor respuesta del tipo III a la dilatación es complemento (se ve en el algoritmo de la lámina 23)."
+   "nota": "La peor respuesta del tipo III a la dilatación es complemento (se ve en el algoritmo de la lámina 23).",
+   "guia": {
+    "t": "• La manometría de alta resolución es la prueba de confirmación (estándar de oro).\n• Todo paciente con sospecha debe tener endoscopía para descartar pseudoacalasia por una masa que obstruya.\n• El esofagograma con bario cronometrado, con retención de bario y 'pico de pájaro', apoya el diagnóstico.\n• La ACG sugiere usar la clasificación de Chicago para orientar pronóstico y tratamiento.",
+    "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
+   }
   },
   {
    "id": "g-aca-farmaco",
@@ -258,7 +270,11 @@
    "correcta": 0,
    "explicacion": "Tratamiento: el objetivo es mejorar los síntomas. Farmacológico: nifedipino, isosorbida (liberación de óxido nítrico y reducción del calcio intracelular), atropina, terbutalina. Endoscópico: toxina botulínica 100 UI sobre la unión escamocilíndrica. Dilatación neumática (riesgo de perforación). Quirúrgico: miotomía.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14",
-   "nota": "Que se reservan a pacientes no aptos para el tratamiento definitivo está en el algoritmo de la lámina 23."
+   "nota": "Que se reservan a pacientes no aptos para el tratamiento definitivo está en el algoritmo de la lámina 23.",
+   "guia": {
+    "t": "• Tipos I y II: dilatación neumática, miotomía de Heller laparoscópica y POEM tienen eficacia comparable.\n• Tipo III: se recomienda POEM o Heller 'a medida', más eficaces que la dilatación neumática.\n• La toxina botulínica se reserva para quienes no pueden recibir un tratamiento definitivo; los fármacos orales son la opción menos eficaz.\n• La dilatación neumática seriada es el tratamiento no quirúrgico más eficaz; no se pide gastrografin de rutina tras dilatar, solo ante sospecha de perforación.",
+    "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
+   }
   },
   {
    "id": "g-aca-botox",
@@ -287,7 +303,11 @@
    "correcta": 0,
    "explicacion": "Toxina botulínica: 100 unidades endoscópicas por encima de la unión escamocilíndrica. El efecto es temporal, por eso se usa en pacientes que no pueden recibir tratamiento definitivo.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14",
-   "nota": "Que el efecto sea transitorio y que se use en no aptos es complemento (consistente con lámina 23)."
+   "nota": "Que el efecto sea transitorio y que se use en no aptos es complemento (consistente con lámina 23).",
+   "guia": {
+    "t": "• Tipos I y II: dilatación neumática, miotomía de Heller laparoscópica y POEM tienen eficacia comparable.\n• Tipo III: se recomienda POEM o Heller 'a medida', más eficaces que la dilatación neumática.\n• La toxina botulínica se reserva para quienes no pueden recibir un tratamiento definitivo; los fármacos orales son la opción menos eficaz.\n• La dilatación neumática seriada es el tratamiento no quirúrgico más eficaz; no se pide gastrografin de rutina tras dilatar, solo ante sospecha de perforación.",
+    "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
+   }
   },
   {
    "id": "g-aca-dilat",
@@ -315,7 +335,11 @@
    ],
    "correcta": 0,
    "explicacion": "La dilatación neumática rompe las fibras del EEI con un balón. Su riesgo es la perforación esofágica. En el algoritmo se indica en acalasia tipo I o II.",
-   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14 y 15"
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14 y 15",
+   "guia": {
+    "t": "• Tipos I y II: dilatación neumática, miotomía de Heller laparoscópica y POEM tienen eficacia comparable.\n• Tipo III: se recomienda POEM o Heller 'a medida', más eficaces que la dilatación neumática.\n• La toxina botulínica se reserva para quienes no pueden recibir un tratamiento definitivo; los fármacos orales son la opción menos eficaz.\n• La dilatación neumática seriada es el tratamiento no quirúrgico más eficaz; no se pide gastrografin de rutina tras dilatar, solo ante sospecha de perforación.",
+    "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
+   }
   },
   {
    "id": "g-aca-cx",
@@ -344,7 +368,11 @@
    "correcta": 0,
    "explicacion": "Miotomía quirúrgica: división de las fibras musculares del EEI (la lámina menciona toracotomía; el algoritmo muestra Heller laparoscópica con fundoplicación de Dor o Toupet). Esofagectomía: megaesófago o esófago sigmoideo con dilatación tortuosa.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 16",
-   "nota": "Hoy la miotomía se hace sobre todo por laparoscopía o por vía endoscópica (POEM), según el algoritmo de la lámina 23."
+   "nota": "Hoy la miotomía se hace sobre todo por laparoscopía o por vía endoscópica (POEM), según el algoritmo de la lámina 23.",
+   "guia": {
+    "t": "• Tipos I y II: dilatación neumática, miotomía de Heller laparoscópica y POEM tienen eficacia comparable.\n• Tipo III: se recomienda POEM o Heller 'a medida', más eficaces que la dilatación neumática.\n• La toxina botulínica se reserva para quienes no pueden recibir un tratamiento definitivo; los fármacos orales son la opción menos eficaz.\n• La dilatación neumática seriada es el tratamiento no quirúrgico más eficaz; no se pide gastrografin de rutina tras dilatar, solo ante sospecha de perforación.",
+    "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
+   }
   },
   {
    "id": "g-aca-algoritmo",
@@ -373,7 +401,11 @@
    "correcta": 0,
    "explicacion": "Algoritmo (POEM = miotomía endoscópica peroral; Heller = miotomía quirúrgica): tipo I o II → dilatación neumática, Heller laparoscópica (con Dor o Toupet) o POEM; tipo III → miotomía a medida (POEM o Heller); no aptos → toxina botulínica o relajantes del músculo liso. Tras POEM, los pacientes salen con IBP.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 23",
-   "contexto": "Clasificación de Chicago: usa la manometría de alta resolución (un catéter con muchos sensores que mide la presión del esófago) para dividir la acalasia en tres tipos según el patrón de presión. Orienta la elección del tratamiento y el pronóstico."
+   "contexto": "Clasificación de Chicago: usa la manometría de alta resolución (un catéter con muchos sensores que mide la presión del esófago) para dividir la acalasia en tres tipos según el patrón de presión. Orienta la elección del tratamiento y el pronóstico.",
+   "guia": {
+    "t": "• Tipos I y II: dilatación neumática, miotomía de Heller laparoscópica y POEM tienen eficacia comparable.\n• Tipo III: se recomienda POEM o Heller 'a medida', más eficaces que la dilatación neumática.\n• La toxina botulínica se reserva para quienes no pueden recibir un tratamiento definitivo; los fármacos orales son la opción menos eficaz.\n• La dilatación neumática seriada es el tratamiento no quirúrgico más eficaz; no se pide gastrografin de rutina tras dilatar, solo ante sospecha de perforación.",
+    "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
+   }
   },
   {
    "id": "g-aca-pron",

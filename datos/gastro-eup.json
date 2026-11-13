@@ -169,7 +169,11 @@
    "correcta": 0,
    "explicacion": "Forrest: IA sangrado pulsátil y IB en napa (resangrado 55 %, mortalidad 11 %); IIA vaso visible (43 % y 11 %); IIB coágulo adherido (22 % y 7 %); IIC mácula plana (10 % y 3 %); III fondo limpio (5 % y 2 %). Cuanto más alto el riesgo, más se justifica la terapia endoscópica.",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 14",
-   "contexto": "Clasificación de Forrest: describe el aspecto endoscópico de una úlcera que sangra o sangró. Sirve para estimar el riesgo de que vuelva a sangrar y la mortalidad, y así decidir si necesita tratamiento endoscópico."
+   "contexto": "Clasificación de Forrest: describe el aspecto endoscópico de una úlcera que sangra o sangró. Sirve para estimar el riesgo de que vuelva a sangrar y la mortalidad, y así decidir si necesita tratamiento endoscópico.",
+   "guia": {
+    "t": "• La ACG recomienda terapia endoscópica (térmica, clips u otras) para úlceras con sangrado activo (en chorro o en napa) y con vaso visible no sangrante.\n• Para coágulo adherido resistente a la irrigación no llega a una recomendación a favor ni en contra.\n• Tras hemostasia: IBP en dosis altas por 3 días (continuo o intermitente) y luego IBP cada 12 h hasta 2 semanas.\n• Si resangra: repetir endoscopía; si la endoscopía falla, embolización arterial transcatéter.",
+    "f": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding (Laine et al., Am J Gastroenterol 2021;116:899-917)"
+   }
   },
   {
    "id": "g-eup-trat1",
@@ -197,7 +201,11 @@
    ],
    "correcta": 0,
    "explicacion": "Primera línea (no alérgico): cuadriterapia con bismuto, cuadriterapia concomitante (IBP 40 mg cada 12 h, amoxicilina 1 g cada 12 h, metronidazol 500 mg cada 8 h, claritromicina 500 mg cada 12 h) o terapia dual con amoxicilina. Control de erradicación a las 6 a 8 semanas.",
-   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 18"
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 18",
+   "guia": {
+    "t": "• Primera línea sin tratamiento previo: cuádruple con bismuto optimizada por 14 días (IBP a dosis estándar cada 12 h + bismuto + tetraciclina 500 mg cada 6 h + metronidazol 500 mg cada 6 a 8 h). Es la única recomendación fuerte de la ACG 2024.\n• Opciones condicionales: triple con rifabutina, o dual con vonoprazán + amoxicilina.\n• La triple con claritromicina y la terapia concomitante ya no son de primera línea.\n• Tras un fallo: cuádruple con bismuto si no se usó antes; si ya se usó, triple con rifabutina.\n• La ACG recomienda tetraciclina (no doxiciclina) y no encuentra evidencia suficiente para probióticos.\n• Ojo: el esquema con amoxicilina de tu PPT difiere de la ACG 2024; para el examen manda la PPT.",
+    "f": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection (Chey et al., Am J Gastroenterol 2024;119:1730-1753)"
+   }
   },
   {
    "id": "g-eup-trat2",
@@ -225,7 +233,11 @@
    ],
    "correcta": 0,
    "explicacion": "Fracaso de la primera línea → segunda línea (IBP + tetraciclina + metronidazol + bismuto). Si vuelve a fallar: derivar a gastroenterología, estudiar resistencia con cultivo o PCR y dar IBP + bismuto + 2 antibióticos según resistencia.",
-   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 18"
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 18",
+   "guia": {
+    "t": "• Primera línea sin tratamiento previo: cuádruple con bismuto optimizada por 14 días (IBP a dosis estándar cada 12 h + bismuto + tetraciclina 500 mg cada 6 h + metronidazol 500 mg cada 6 a 8 h). Es la única recomendación fuerte de la ACG 2024.\n• Opciones condicionales: triple con rifabutina, o dual con vonoprazán + amoxicilina.\n• La triple con claritromicina y la terapia concomitante ya no son de primera línea.\n• Tras un fallo: cuádruple con bismuto si no se usó antes; si ya se usó, triple con rifabutina.\n• La ACG recomienda tetraciclina (no doxiciclina) y no encuentra evidencia suficiente para probióticos.",
+    "f": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection (Chey et al., Am J Gastroenterol 2024;119:1730-1753)"
+   }
   },
   {
    "id": "g-eup-alergia",
@@ -253,7 +265,11 @@
    ],
    "correcta": 0,
    "explicacion": "En alérgicos a la amoxicilina: IBP 40 mg, tetraciclina 500 mg, metronidazol 500 mg y bismuto 20 ml, cada 8 horas. Si falla, se deriva a gastroenterología con estudio de resistencia (cultivo o PCR).",
-   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 19"
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 19",
+   "guia": {
+    "t": "• La ACG 2024 usa la cuádruple con bismuto (con tetraciclina, sin amoxicilina), y no contiene amoxicilina, así que es la opción natural en alérgicos a penicilina.\n• Dura 14 días: IBP a dosis estándar cada 12 h + bismuto + tetraciclina 500 mg cada 6 h + metronidazol 500 mg cada 6 a 8 h.\n• La triple con claritromicina ya no es de primera línea.",
+    "f": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection (Chey et al., Am J Gastroenterol 2024;119:1730-1753)"
+   }
   },
   {
    "id": "g-eup-aine",

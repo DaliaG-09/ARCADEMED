@@ -279,7 +279,11 @@
    ],
    "correcta": 0,
    "explicacion": "Crohn: cualquier segmento (sobre todo íleon terminal y colon), inflamación segmentaria y transmural con granulomas, úlceras profundas en 'empedrado'. Complicaciones: fístulas, abscesos, estenosis, obstrucción, perforación. Fístulas perianales en 15 a 35 %. Imagen de elección: RM enterográfica (TAC enterográfico si no hay RM).",
-   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 15 y 16"
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 15 y 16",
+   "guia": {
+    "t": "• En Crohn moderado a grave de reciente diagnóstico, la guía 2025 favorece empezar pronto con terapia avanzada (biológicos o moléculas pequeñas) en lugar de escalar paso a paso.\n• Para enfermedad localizada, la resección ileocecal temprana es una alternativa razonable a anti-TNF.\n• Los síntomas deben confirmarse con evidencia objetiva (endoscopía, imagen o calprotectina) antes de atribuirlos a actividad.",
+    "f": "ACG Clinical Guideline: Management of Crohn's Disease in Adults (Lichtenstein et al., Am J Gastroenterol 2025;120:1225-1264)"
+   }
   },
   {
    "id": "g-eii-montreal",
@@ -393,7 +397,11 @@
    ],
    "correcta": 0,
    "explicacion": "5-ASA = ácido 5-aminosalicílico (mesalamina o mesalazina). Sulfasalazina = sulfapiridina + 5-ASA unidos por enlace azo; las bacterias del colon lo separan y la sulfapiridina causa la mayor parte de la toxicidad. Mesalazina: CU leve a moderada; supositorios 500 mg/8 h, enemas 1,2 g/noche o espuma 2 g/noche por 4 a 6 semanas.",
-   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 26 a 29"
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 26 a 29",
+   "guia": {
+    "t": "• Mesalazina (5-ASA) es la base del tratamiento de la CU leve a moderada: rectal en proctitis, oral en colitis extensa (en proctitis, 1 g/día por vía rectal).\n• La ACG contempla budesonida MMX oral y corticoides sistémicos para inducir remisión; los corticoides sistémicos se desaconsejan para mantener.\n• Tiopurinas y metotrexato no se recomiendan para inducción.\n• En CU moderada a grave: biológicos, inhibidores JAK o moduladores S1P; vedolizumab se recomienda para inducción y mantenimiento.\n• La calprotectina fecal se recomienda para evaluar respuesta y sospecha de recaída.",
+    "f": "ACG Clinical Guideline Update: Ulcerative Colitis in Adults (Rubin et al., Am J Gastroenterol 2025;120:1187-1224)"
+   }
   },
   {
    "id": "g-eii-brote_mod",
@@ -421,7 +429,11 @@
    ],
    "correcta": 0,
    "explicacion": "Brote moderado: corticoides orales 1 mg/kg (± tópico) → respuesta: descenso progresivo y mantenimiento; no respuesta en 1 a 2 semanas: ingreso y esteroides intravenosos. Corticoides: budesonida, prednisona 0,25 a 0,75 mg/kg, metilprednisolona 40 a 60 mg/día i.v.",
-   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 30 y 31"
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 30 y 31",
+   "guia": {
+    "t": "• Mesalazina (5-ASA) es la base del tratamiento de la CU leve a moderada: rectal en proctitis, oral en colitis extensa (en proctitis, 1 g/día por vía rectal).\n• La ACG contempla budesonida MMX oral y corticoides sistémicos para inducir remisión; los corticoides sistémicos se desaconsejan para mantener.\n• Tiopurinas y metotrexato no se recomiendan para inducción.\n• En CU moderada a grave: biológicos, inhibidores JAK o moduladores S1P; vedolizumab se recomienda para inducción y mantenimiento.\n• La calprotectina fecal se recomienda para evaluar respuesta y sospecha de recaída.",
+    "f": "ACG Clinical Guideline Update: Ulcerative Colitis in Adults (Rubin et al., Am J Gastroenterol 2025;120:1187-1224)"
+   }
   },
   {
    "id": "g-eii-inmuno",
@@ -449,7 +461,11 @@
    ],
    "correcta": 0,
    "explicacion": "Azatioprina (AZA) y su metabolito 6-mercaptopurina (6-MP): refractariedad a esteroides, enfermedad perianal, Crohn fistulizante, corticodependencia (EC y CU) y mantenimiento. Metotrexato: tratamiento de sostén del Crohn activo. Ciclosporina A: terapia de rescate (remisión en 60 %) en CU corticorrefractaria o Crohn grave.",
-   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 33"
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 33",
+   "guia": {
+    "t": "• CU: la ACG 2025 no recomienda tiopurinas ni metotrexato para inducir remisión.\n• Crohn: azatioprina y 6-mercaptopurina son eficaces para mantener la remisión (recomendación fuerte).\n• Ojo: el uso de tu PPT puede ser más amplio; para el examen manda la PPT.",
+    "f": "ACG Clinical Guideline: Management of Crohn's Disease in Adults (Lichtenstein et al., Am J Gastroenterol 2025;120:1225-1264)"
+   }
   },
   {
    "id": "g-eii-biologicos",
@@ -477,7 +493,11 @@
    ],
    "correcta": 0,
    "explicacion": "Biológicos: infliximab, adalimumab, golimumab, certolizumab (anti-TNF-α); natalizumab y vedolizumab (anti-integrinas); ustekinumab (anti-IL-12/23); risankizumab. El vedolizumab inhibe la integrina α4β7 y actúa solo en el intestino.",
-   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 35 y 36"
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 35 y 36",
+   "guia": {
+    "t": "• Vedolizumab (anti-integrina α4β7) está recomendado por la ACG para inducción y mantenimiento en CU moderada a grave, y se prefiere sobre adalimumab.\n• La guía 2025 también incluye anti-TNF, JAK, S1P e inhibidores de IL-23 como opciones.",
+    "f": "ACG Clinical Guideline Update: Ulcerative Colitis in Adults (Rubin et al., Am J Gastroenterol 2025;120:1187-1224)"
+   }
   },
   {
    "id": "g-eii-cx_ind",

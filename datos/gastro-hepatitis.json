@@ -394,7 +394,11 @@
    ],
    "correcta": 0,
    "explicacion": "Fases de la hepatitis B crónica: inmunotolerante (adquirida perinatalmente, inflamación mínima), activación inmunitaria (ADN y ALT altos o fluctuantes), baja replicación (ADN bajo, ALT normal), reactivación (ALT y ADN fluctuantes) y remisión (no es curación).",
-   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 30"
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 30",
+   "guia": {
+    "t": "• Fase inmunotolerante: HBeAg positivo, ADN-VHB muy alto (típicamente >1 millón UI/ml en AASLD 2018; AASLD/ISDA 2025 usa >10 millones), ALT normal (<35 U/l en hombres, <25 U/l en mujeres) y poca fibrosis.\n• Inmunoactiva: HBeAg positivo con ALT ≥2 veces el límite normal y ADN-VHB ≥20 000 UI/ml (HBeAg negativo: ADN-VHB ≥2000 UI/ml).\n• Inactiva: HBeAg negativo, ALT normal y ADN-VHB <2000 UI/ml.",
+    "f": "AASLD Hepatitis B Guidance 2018 (Terrault et al., Hepatology 2018;67:1560-1599)"
+   }
   },
   {
    "id": "g-hep-indic_trat",
@@ -423,7 +427,11 @@
    "correcta": 0,
    "explicacion": "Indicaciones: elevación de transaminasas, HBV-DNA detectable >20 000 UI/ml (116 400 copias/ml; 5,82 copias = 1 UI) con HBeAg positivo o negativo, y biopsia con hepatitis crónica. Fármacos: interferón, lamivudina, adefovir, entecavir, tenofovir.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 39 a 43",
-   "nota": "La lámina 37 dice que el nivel límite es >100 000 copias/ml, mientras la lámina 39 usa >20 000 UI/ml; son criterios de fuentes distintas."
+   "nota": "La lámina 37 dice que el nivel límite es >100 000 copias/ml, mientras la lámina 39 usa >20 000 UI/ml; son criterios de fuentes distintas.",
+   "guia": {
+    "t": "• Se trata a los adultos en fase inmunoactiva: HBeAg positivo con ALT ≥2×LSN y ADN-VHB ≥20 000 UI/ml; HBeAg negativo con ALT ≥2×LSN y ADN-VHB ≥2000 UI/ml.\n• Cirrosis descompensada con ADN-VHB detectable: tratar de inmediato, sin importar la carga viral.\n• Inmunotolerantes: se recomienda no tratar (se considera solo si >40 años con fibrosis o inflamación significativas).\n• Preferidos: peg-interferón, entecavir, tenofovir disoproxil (TDF) o tenofovir alafenamida (TAF).\n• Existe una guía nueva AASLD/ISDA 2025; los umbrales de arriba son de la guía 2018.",
+    "f": "AASLD Hepatitis B Guidance 2018 (Terrault et al., Hepatology 2018;67:1560-1599)"
+   }
   },
   {
    "id": "g-hep-antivirales",
@@ -451,7 +459,11 @@
    ],
    "correcta": 0,
    "explicacion": "TFV = tenofovir. TDF 300 mg y TAF 25 mg son profármacos del mismo tenofovir; TAF llega mejor al hepatocito con menos tenofovir circulante. Adefovir: nefrotoxicidad. Lamivudina: resistencia de 20 % al año y 60 % a los 4 años; se puede agregar tenofovir.",
-   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 41 y 43"
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 41 y 43",
+   "guia": {
+    "t": "• Los análogos preferidos para hepatitis B crónica son entecavir, TDF y TAF (todos con alta barrera a la resistencia), además del peg-interferón.\n• La elección entre ellos depende de las características del paciente, como función renal y salud ósea.",
+    "f": "AASLD Hepatitis B Guidance 2018 (Terrault et al., Hepatology 2018;67:1560-1599)"
+   }
   },
   {
    "id": "g-hep-prev_b",
@@ -593,7 +605,11 @@
    "correcta": 0,
    "explicacion": "AAD = agentes antivirales de acción directa. La lámina 53 recuerda que no hay vacuna ni gammaglobulina hiperinmune para el VHC, y menciona el trasplante hepático en enfermedad avanzada.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 53 y 54",
-   "nota": "El reemplazo del interferón por los AAD es un complemento."
+   "nota": "El reemplazo del interferón por los AAD es un complemento.",
+   "guia": {
+    "t": "• AASLD-IDSA recomienda tratar a todos los adultos con hepatitis C crónica.\n• Esquemas pangenotípicos simplificados para adultos sin tratamiento previo y sin cirrosis: glecaprevir/pibrentasvir por 8 semanas, o sofosbuvir/velpatasvir por 12 semanas.\n• Con cirrosis compensada: glecaprevir/pibrentasvir 8 semanas o sofosbuvir/velpatasvir 12 semanas.\n• Se pueden iniciar sin conocer el genotipo.",
+    "f": "AASLD-IDSA HCV Guidance (hcvguidelines.org), tratamiento simplificado de adultos sin tratamiento previo"
+   }
   },
   {
    "id": "g-hep-hdv",

@@ -311,7 +311,11 @@
    ],
    "correcta": 0,
    "explicacion": "IBP = inhibidor de la bomba de protones (omeprazol y similares). Prueba terapéutica 2 a 4 semanas; si hay síntomas extraesofágicos más ERGE: doble dosis por 12 semanas. Si los síntomas son solo extraesofágicos, se estudian con pruebas diagnósticas.",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 20"
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 20",
+   "guia": {
+    "t": "• Con síntomas típicos (pirosis, regurgitación) y sin signos de alarma, la ACG sugiere una prueba empírica con IBP una vez al día por 8 semanas.\n• La endoscopía se prioriza ante disfagia, signos de alarma o riesgo de esófago de Barrett, y también si no hay respuesta o hay recaída al suspender el IBP (idealmente 2 a 4 semanas sin IBP).\n• No recomienda el esofagograma con bario para diagnosticar ERGE.\n• Ojo: tu PPT habla de 2 a 4 semanas de prueba; para el examen manda la PPT.",
+    "f": "ACG Clinical Guideline: Diagnosis and Management of GERD (Katz et al., Am J Gastroenterol 2022;117:27-56)"
+   }
   },
   {
    "id": "g-erge-endo",
@@ -339,7 +343,11 @@
    ],
    "correcta": 0,
    "explicacion": "Pruebas: endoscopía (signos de alarma, riesgo de Barrett, mala respuesta); pH-metría o impedancia (síntomas refractarios sin evidencia de ERGE en endoscopía); NO esofagograma; manometría solo antes de cirugía. Esófago de Barrett: reemplazo del epitelio esofágico por intestinal, precursor del adenocarcinoma.",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 20"
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 20",
+   "guia": {
+    "t": "• La ACG recomienda endoscopía de entrada ante disfagia, signos de alarma o factores de riesgo de esófago de Barrett.\n• También si los síntomas no responden o recaen tras el IBP; en ese caso se hace idealmente 2 a 4 semanas sin IBP.\n• El esofagograma con bario no sirve para diagnosticar ERGE.",
+    "f": "ACG Clinical Guideline: Diagnosis and Management of GERD (Katz et al., Am J Gastroenterol 2022;117:27-56)"
+   }
   },
   {
    "id": "g-erge-ph",
@@ -367,7 +375,11 @@
    ],
    "correcta": 0,
    "explicacion": "pH-metría: S y E de 80 %, solo reflujo líquido, no evalúa el duodenogastroesofágico (con bilis), limitada al esófago distal, corte pH 4. S = sensibilidad, E = especificidad.",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 24"
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 24",
+   "guia": {
+    "t": "• En síntomas refractarios, primero se optimiza el IBP.\n• Si nunca hubo diagnóstico objetivo de ERGE: pH-metría SIN IBP.\n• Si la ERGE ya está demostrada: pH-impedancia CON IBP, para ver si el síntoma persiste por reflujo.\n• Ante síntomas extraesofágicos, la ACG pide estudiar (endoscopía y/o pH) antes de dar IBP de forma empírica.",
+    "f": "ACG Clinical Guideline: Diagnosis and Management of GERD (Katz et al., Am J Gastroenterol 2022;117:27-56)"
+   }
   },
   {
    "id": "g-erge-la",
@@ -425,7 +437,11 @@
    "correcta": 0,
    "explicacion": "TEA = tiempo de exposición ácida, el porcentaje del registro con pH <4 en el esófago. En el algoritmo de la lámina 21: endoscopía normal o esofagitis A → pH sin IBP; >6 % ERGE, 4 a 6 % no concluyente, <4 % otras causas. Esofagitis B, C o D o Barrett confirman el diagnóstico por sí solas.",
    "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 21",
-   "contexto": "TEA (tiempo de exposición ácida) es el porcentaje de tiempo que el pH esofágico está por debajo de 4 durante el monitoreo. Sirve para confirmar ERGE cuando la endoscopía no muestra lesiones claras."
+   "contexto": "TEA (tiempo de exposición ácida) es el porcentaje de tiempo que el pH esofágico está por debajo de 4 durante el monitoreo. Sirve para confirmar ERGE cuando la endoscopía no muestra lesiones claras.",
+   "guia": {
+    "t": "• En síntomas refractarios, primero se optimiza el IBP.\n• Si nunca hubo diagnóstico objetivo de ERGE: pH-metría SIN IBP.\n• Si la ERGE ya está demostrada: pH-impedancia CON IBP, para ver si el síntoma persiste por reflujo.\n• Ante síntomas extraesofágicos, la ACG pide estudiar (endoscopía y/o pH) antes de dar IBP de forma empírica.",
+    "f": "ACG Clinical Guideline: Diagnosis and Management of GERD (Katz et al., Am J Gastroenterol 2022;117:27-56)"
+   }
   },
   {
    "id": "g-erge-estilo",

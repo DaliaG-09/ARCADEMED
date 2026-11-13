@@ -196,7 +196,11 @@
    "correcta": 0,
    "explicacion": "Después de la endoscopia: si hay lesión de alto riesgo de recidiva (Forrest I, IIa y IIb) se hace tratamiento endoscópico más IBP intravenoso por 72 h; si falla, embolización arterial o cirugía, y si hay recidiva se repite la endoscopia. Si no hay lesión de alto riesgo, dieta, IBP oral y alta precoz. Eritromicina 250 mg IV 20 a 30 min antes de la endoscopia (opcional, con signo de interrogación en la lámina). IBP = inhibidor de bomba de protones; PAS = presión arterial sistólica; FC = frecuencia cardiaca.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 15",
-   "contexto": "Clasificación de Forrest: describe la apariencia endoscópica de la úlcera y sirve para estimar el riesgo de que vuelva a sangrar (I sangrado activo, IIa vaso visible, IIb coágulo adherido, IIc mancha plana, III base limpia). Se usa para decidir si se trata endoscópicamente y cuánto tiempo se da IBP."
+   "contexto": "Clasificación de Forrest: describe la apariencia endoscópica de la úlcera y sirve para estimar el riesgo de que vuelva a sangrar (I sangrado activo, IIa vaso visible, IIb coágulo adherido, IIc mancha plana, III base limpia). Se usa para decidir si se trata endoscópicamente y cuánto tiempo se da IBP.",
+   "guia": {
+    "t": "• Estratificar el riesgo (Glasgow-Blatchford 0 a 1 permite alta temprana).\n• Transfusión restrictiva: umbral de Hb 7 g/dl (8 g/dl si hay enfermedad cardiovascular).\n• Eritromicina IV antes de la endoscopía.\n• Endoscopía dentro de las primeras 24 h.\n• Sobre IBP antes de la endoscopía, la ACG no logra recomendar a favor ni en contra.\n• Ojo: el bolo de IBP de 80 mg + infusión de tu PPT no figura como recomendación en la ACG 2021; para el examen manda la PPT.",
+    "f": "ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding (Laine et al., Am J Gastroenterol 2021;116:899-917)"
+   }
   },
   {
    "id": "g-hd-hdb",
@@ -366,7 +370,11 @@
    "correcta": 0,
    "explicacion": "Angio-TC (tomografía con contraste): no invasiva, rápida, detecta tasas de sangrado de 0,3 a 0,5 ml/min, sensibilidad de 85 %. Cirugía: falla del tratamiento endoscópico.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 25 y 26",
-   "contexto": "Algoritmo de HDB (lámina 25): primero reanimación hemodinámica; si la HDB es grave se hace gastroscopia diagnóstica, y si no hay origen alto se hace angio-TC cuando hay sangrado activo o inestabilidad; si es leve, colonoscopia precoz o manejo ambulatorio."
+   "contexto": "Algoritmo de HDB (lámina 25): primero reanimación hemodinámica; si la HDB es grave se hace gastroscopia diagnóstica, y si no hay origen alto se hace angio-TC cuando hay sangrado activo o inestabilidad; si es leve, colonoscopia precoz o manejo ambulatorio.",
+   "guia": {
+    "t": "• En HDB hospitalizada que requiere colonoscopía, la ACG recomienda hacerla de forma no emergente: la colonoscopía urgente (<24 h) no mejoró desenlaces.\n• Si se encuentra sangrado activo o estigmas de alto riesgo, se hace hemostasia endoscópica.",
+    "f": "ACG Clinical Guideline: Management of Patients With Acute Lower GI Bleeding (Am J Gastroenterol 2023;118:208-231)"
+   }
   },
   {
    "id": "g-hd-caso",

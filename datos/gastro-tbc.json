@@ -310,7 +310,11 @@
    "correcta": 0,
    "explicacion": "Cirugía: obstrucción intestinal, perforación, fístulas y hemorragia masiva. Sin tratamiento la mortalidad es de 6 a 20 %.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 22 y 23",
-   "nota": "Para tu práctica, no para el examen: la mayoría de guías usa 6 meses (2 meses de HRZE y 4 de HR); esta clase indica 9 meses."
+   "nota": "Para tu práctica, no para el examen: la mayoría de guías usa 6 meses (2 meses de HRZE y 4 de HR); esta clase indica 9 meses.",
+   "guia": {
+    "t": "• La OMS recomienda el esquema de 6 meses 2HRZE/4HR también para la TB extrapulmonar, salvo SNC, hueso y articulación (donde se sugieren tratamientos más largos).\n• Ojo: tu PPT indica 9 meses para TB abdominal; para el examen manda la PPT.",
+    "f": "OMS: Consolidated guidelines on tuberculosis, Módulo 4 – tratamiento de la TB sensible a fármacos (2022)"
+   }
   },
   {
    "id": "g-tbc-caso",

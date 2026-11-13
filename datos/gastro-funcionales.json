@@ -140,7 +140,11 @@
    "correcta": 0,
    "explicacion": "Dispepsia no investigada: con signos de alarma (a cualquier edad) o mayor de la edad límite, que varía por país (55 años México, 35 Colombia, 60 USA) → EDA. Sin alarma y menor de la edad límite → test de aliento (UBT) o antígeno fecal de H. pylori; si es positivo, se erradica; si no mejora, es dispepsia funcional.",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 13 y 25",
-   "nota": "En Perú se suele usar como referencia 50 a 55 años, según la lámina 13; las cifras exactas dependen de la guía."
+   "nota": "En Perú se suele usar como referencia 50 a 55 años, según la lámina 13; las cifras exactas dependen de la guía.",
+   "guia": {
+    "t": "• Menores de 60 años: prueba no invasiva de H. pylori y tratar si es positiva.\n• Si es negativa o no responde: prueba de IBP; luego antidepresivo tricíclico o procinético, en ese orden.\n• ≥60 años: endoscopía (recomendación condicional); los signos de alarma no obligan a endoscopía automática en jóvenes y se valoran caso a caso.",
+    "f": "ACG/CAG Clinical Guideline: Management of Dyspepsia (Moayyedi et al., Am J Gastroenterol 2017;112:988-1013)"
+   }
   },
   {
    "id": "g-func-trat_disp",
@@ -197,7 +201,11 @@
    "correcta": 0,
    "explicacion": "SII: trastorno funcional con dolor abdominal crónico o recurrente más cambio del hábito intestinal. Factores fisiopatológicos: trastornos motores, hipersensibilidad visceral y central, microinflamación, alteración de la permeabilidad, disbiosis y factores emocionales. Es un trastorno 'cerebro-intestino'.",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 15 y 16",
-   "nota": "La expresión 'eje cerebro-intestino' es un complemento; la lámina solo muestra los factores."
+   "nota": "La expresión 'eje cerebro-intestino' es un complemento; la lámina solo muestra los factores.",
+   "guia": {
+    "t": "• Diagnóstico positivo (no de exclusión) con criterios de Roma IV: dolor abdominal al menos 1 vez por semana en los últimos 3 meses, con 2 o más de: relación con la defecación, cambio en la frecuencia o cambio en la forma de las heces; inicio hace ≥6 meses. La distensión no es necesaria.\n• Con diarrea: serología para celiaquía y calprotectina fecal (o lactoferrina) con PCR para descartar EII.\n• No se recomienda estudiar patógenos en heces de rutina.",
+    "f": "ACG Clinical Guideline: Management of Irritable Bowel Syndrome (Lacy et al., Am J Gastroenterol 2021;116:17-44)"
+   }
   },
   {
    "id": "g-func-sii_roma",
@@ -227,7 +235,11 @@
    "explicacion": "Roma IV: dolor abdominal al menos 1 día/semana por 3 meses, relacionado con la defecación, con cambio en la frecuencia o en la forma de las heces. El estreñimiento funcional comparte los criterios de esfuerzo, heces duras, evacuación incompleta, obstrucción anal, maniobras manuales o <3 deposiciones/semana.",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 17",
    "contexto": "Criterios de Roma IV: consenso internacional que define los trastornos funcionales digestivos (sin lesión visible en las pruebas) a partir de los síntomas, su frecuencia y su duración. Se usan para diagnosticar la dispepsia funcional y el síndrome de intestino irritable.",
-   "nota": "El algoritmo mezcla los criterios de SII-E y de estreñimiento funcional; ambos terminan en la 'clasificación en subtipos'."
+   "nota": "El algoritmo mezcla los criterios de SII-E y de estreñimiento funcional; ambos terminan en la 'clasificación en subtipos'.",
+   "guia": {
+    "t": "• Diagnóstico positivo (no de exclusión) con criterios de Roma IV: dolor abdominal al menos 1 vez por semana en los últimos 3 meses, con 2 o más de: relación con la defecación, cambio en la frecuencia o cambio en la forma de las heces; inicio hace ≥6 meses. La distensión no es necesaria.\n• Con diarrea: serología para celiaquía y calprotectina fecal (o lactoferrina) con PCR para descartar EII.\n• No se recomienda estudiar patógenos en heces de rutina.",
+    "f": "ACG Clinical Guideline: Management of Irritable Bowel Syndrome (Lacy et al., Am J Gastroenterol 2021;116:17-44)"
+   }
   },
   {
    "id": "g-func-bristol",
@@ -341,7 +353,11 @@
    ],
    "correcta": 0,
    "explicacion": "El caso de la clase: dolor, cambio del hábito y meteorismo sin signos orgánicos sugieren SII mixto. El antecedente de cáncer de colon en un familiar de primer grado joven es un signo de alarma, así que se indican estudios (colonoscopía, hemograma, marcadores de inflamación) antes de afirmar un trastorno funcional.",
-   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 3, 17 y 21"
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 3, 17 y 21",
+   "guia": {
+    "t": "• Diagnóstico positivo (no de exclusión) con criterios de Roma IV: dolor abdominal al menos 1 vez por semana en los últimos 3 meses, con 2 o más de: relación con la defecación, cambio en la frecuencia o cambio en la forma de las heces; inicio hace ≥6 meses. La distensión no es necesaria.\n• Con diarrea: serología para celiaquía y calprotectina fecal (o lactoferrina) con PCR para descartar EII.\n• No se recomienda estudiar patógenos en heces de rutina.",
+    "f": "ACG Clinical Guideline: Management of Irritable Bowel Syndrome (Lacy et al., Am J Gastroenterol 2021;116:17-44)"
+   }
   },
   {
    "id": "g-func-dx_sii",
@@ -369,7 +385,11 @@
    ],
    "correcta": 0,
    "explicacion": "Historia clínica (síntomas típicos variables sin progresión, peso estable, asociación con estrés), pruebas de laboratorio (hemograma, pruebas hepáticas, bioquímico, electrolitos, tiroideas) y, según el caso, estudios endoscópicos o de imagen (ecografía, tránsito con bario, endoscopía alta o baja). Negativos = SII.",
-   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 26"
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 26",
+   "guia": {
+    "t": "• Diagnóstico positivo (no de exclusión) con criterios de Roma IV: dolor abdominal al menos 1 vez por semana en los últimos 3 meses, con 2 o más de: relación con la defecación, cambio en la frecuencia o cambio en la forma de las heces; inicio hace ≥6 meses. La distensión no es necesaria.\n• Con diarrea: serología para celiaquía y calprotectina fecal (o lactoferrina) con PCR para descartar EII.\n• No se recomienda estudiar patógenos en heces de rutina.",
+    "f": "ACG Clinical Guideline: Management of Irritable Bowel Syndrome (Lacy et al., Am J Gastroenterol 2021;116:17-44)"
+   }
   }
  ],
  "tarjetas": [

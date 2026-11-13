@@ -54,7 +54,11 @@
    ],
    "correcta": 0,
    "explicacion": "Etiología: litiasis 40 a 70 %, alcohol 25 a 45 %, tumores 5 a 14 %, fármacos (AZT, ácido valproico) 3,2 a 6 %, hipertrigliceridemia familiar (>1000 mg/dl), infecciones e hipercalcemia.",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 10"
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 10",
+   "guia": {
+    "t": "• En todo paciente con pancreatitis aguda se sugiere ecografía abdominal para evaluar causa biliar (repetirla si la primera no es concluyente).\n• En pancreatitis biliar sin colangitis, se sugiere tratamiento médico antes que CPRE temprana (primeras 72 h).\n• Para evitar recurrencias de causa biliar se recomienda la colecistectomía.",
+    "f": "ACG Guidelines: Management of Acute Pancreatitis (Tenner et al., Am J Gastroenterol 2024;119:419-437)"
+   }
   },
   {
    "id": "g-pan-clinica",
@@ -340,7 +344,11 @@
    "correcta": 0,
    "explicacion": "Hidratación: agresiva (250 a 500 ml/h o 5 a 10 ml/kg/h por 12 a 24 horas) o moderada (1,5 a 2 ml/kg/h). El estudio citado en la lámina 24 (NEJM) compara ambas: la agresiva no mejoró los resultados y se asoció a más sobrecarga de líquidos.",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 23 y 24",
-   "nota": "La conclusión del estudio de la lámina 24 (más sobrecarga hídrica con la hidratación agresiva) es una lectura del resumen mostrado."
+   "nota": "La conclusión del estudio de la lámina 24 (más sobrecarga hídrica con la hidratación agresiva) es una lectura del resumen mostrado.",
+   "guia": {
+    "t": "• La ACG 2024 sugiere hidratación moderadamente agresiva con lactato de Ringer sobre solución salina, con bolos adicionales si hay hipovolemia.\n• Reevaluar con frecuencia (urea, hematocrito, diuresis, estado cardiopulmonar): la hidratación importa sobre todo en las primeras 24 h.\n• La guía AGA 2018 no prefiere Ringer sobre solución salina; las sociedades difieren en este punto.",
+    "f": "ACG Guidelines: Management of Acute Pancreatitis (Tenner et al., Am J Gastroenterol 2024;119:419-437)"
+   }
   },
   {
    "id": "g-pan-dieta",
@@ -368,7 +376,11 @@
    ],
    "correcta": 0,
    "explicacion": "Dieta: evaluación nutricional en 24 a 48 h. Pancreatitis leve o moderada: vía oral en 24 a 48 horas, sólida baja en grasas, rica en hidratos y proteínas; si no se puede en 3 a 4 días, sonda (nutrición enteral). Grave: enteral (sonda gástrica o nasoyeyunal); parenteral solo si no se tolera.",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 25"
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 25",
+   "guia": {
+    "t": "• En pancreatitis leve, la ACG 2024 sugiere alimentación oral precoz (24 a 48 h) según tolerancia, en lugar de la dieta absoluta.\n• Si no tolera la vía oral en formas moderadamente graves o graves, se prefiere nutrición enteral sobre parenteral; la parenteral solo si la enteral no es posible o no cubre las necesidades.",
+    "f": "ACG Guidelines: Management of Acute Pancreatitis (Tenner et al., Am J Gastroenterol 2024;119:419-437)"
+   }
   },
   {
    "id": "g-pan-analgesia",
@@ -425,7 +437,11 @@
    ],
    "correcta": 0,
    "explicacion": "Antibióticos: no de rutina; sospechar infección si hay necrosis y deterioro a los 7 a 10 días. No todos los antibióticos llegan al páncreas: carbapenémicos, quinolonas, metronidazol.",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 27 y 28"
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 27 y 28",
+   "guia": {
+    "t": "• La ACG 2024 sugiere no dar antibióticos profilácticos en pancreatitis grave ni en necrosis estéril.\n• Los antibióticos se reservan para necrosis infectada, junto con desbridamiento o necrosectomía cuando corresponda.\n• Tampoco se necesita antifúngico de rutina.\n• La punción con aguja fina para confirmar infección no se sugiere de rutina.",
+    "f": "ACG Guidelines: Management of Acute Pancreatitis (Tenner et al., Am J Gastroenterol 2024;119:419-437)"
+   }
   },
   {
    "id": "g-pan-cronica",

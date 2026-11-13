@@ -55,7 +55,11 @@
    "correcta": 0,
    "explicacion": "A: signos locales (Murphy, masa, dolor o defensa en hipocondrio derecho). B: signos sistémicos (fiebre, PCR y leucocitos elevados). C: imagen característica. PCR = proteína C reactiva.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 8",
-   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir los antibióticos, el drenaje y el momento de la cirugía."
+   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir los antibióticos, el drenaje y el momento de la cirugía.",
+   "guia": {
+    "t": "• TG18 mantiene los criterios TG13: A (signos locales: signo de Murphy, masa o dolor en hipocondrio derecho), B (signos sistémicos: fiebre, PCR elevada, leucocitosis) y C (hallazgos de imagen).\n• Sospechoso: un criterio A + uno B. Definitivo: A + B + C.",
+    "f": "Tokyo Guidelines 2018 (TG18), colecistitis aguda (Yokoe et al., J Hepatobiliary Pancreat Sci 2018;25:41-54)"
+   }
   },
   {
    "id": "g-bil-imag_cole",
@@ -112,7 +116,11 @@
    "correcta": 0,
    "explicacion": "Grado I: no cumple II ni III. Grado II: leucocitos >18 000, masa dolorosa, duración >72 h o inflamación local marcada (gangrena, absceso, peritonitis biliar, enfisema). Grado III: disfunción cardiovascular, neurológica, respiratoria, renal, hepática u hematológica.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 10",
-   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir los antibióticos, el drenaje y el momento de la cirugía."
+   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir los antibióticos, el drenaje y el momento de la cirugía.",
+   "guia": {
+    "t": "• TG18 mantiene los criterios TG13: A (signos locales: signo de Murphy, masa o dolor en hipocondrio derecho), B (signos sistémicos: fiebre, PCR elevada, leucocitosis) y C (hallazgos de imagen).\n• Sospechoso: un criterio A + uno B. Definitivo: A + B + C.",
+    "f": "Tokyo Guidelines 2018 (TG18), colecistitis aguda (Yokoe et al., J Hepatobiliary Pancreat Sci 2018;25:41-54)"
+   }
   },
   {
    "id": "g-bil-trat_cole",
@@ -141,7 +149,11 @@
    "correcta": 0,
    "explicacion": "Grado I: antibióticos, cuidados generales y colecistectomía laparoscópica temprana. Grado II: colecistectomía temprana si hay técnica avanzada; si falla, drenaje. Se toma hemocultivo antes de los antibióticos y cultivo de la bilis al drenar.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 11 y 13",
-   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir los antibióticos, el drenaje y el momento de la cirugía."
+   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir los antibióticos, el drenaje y el momento de la cirugía.",
+   "guia": {
+    "t": "• Grado I y II con bajo riesgo (índice de Charlson <6 y ASA <3): colecistectomía laparoscópica temprana (3 a 7 días).\n• Grado II con alto riesgo: drenaje temprano de la vesícula y colecistectomía diferida.\n• Grado III (con disfunción orgánica): reanimación, antibióticos y soporte de órganos; drenaje (PTGBD) en alto riesgo.\n• Si hay duda, reevaluar cada 6 a 12 h.",
+    "f": "Tokyo Guidelines 2018 (TG18), colecistitis aguda (Yokoe et al., J Hepatobiliary Pancreat Sci 2018;25:41-54)"
+   }
   },
   {
    "id": "g-bil-atb_cole",
@@ -169,7 +181,11 @@
    ],
    "correcta": 0,
    "explicacion": "Moderado a severo: piperacilina/tazobactam 4,5 g cada 6 horas; con BLEE, carbapenem.",
-   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 12 y 18"
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 12 y 18",
+   "guia": {
+    "t": "• La elección del antibiótico empírico depende de la gravedad, de si la infección es adquirida en la comunidad o intrahospitalaria y de la sensibilidad local de los gérmenes.",
+    "f": "Tokyo Guidelines 2018 (TG18), terapia antimicrobiana en colangitis y colecistitis (Gomi et al., J Hepatobiliary Pancreat Sci 2018;25:3-16)"
+   }
   },
   {
    "id": "g-bil-col_def",
@@ -283,7 +299,11 @@
    "correcta": 0,
    "explicacion": "A: fiebre >38 °C o escalofríos; leucocitos <4000 o >10 000; PCR >1 mg/dl. B: ictericia (bilirrubina total >2 mg/dl) o FA, GGT, AST o ALT >1,5 veces el valor normal. C: dilatación biliar o causa visible. FA = fosfatasa alcalina; GGT = gamma glutamil transpeptidasa.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 20 y 21",
-   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir los antibióticos, el drenaje y el momento de la cirugía."
+   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir los antibióticos, el drenaje y el momento de la cirugía.",
+   "guia": {
+    "t": "• Al diagnosticar colangitis (cualquier grado): antibióticos, hidratación, corrección de electrolitos y analgesia.\n• Grado I (leve): suele bastar el tratamiento inicial; drenaje si no responde en 24 h.\n• Grado II (moderada): drenaje biliar temprano (endoscópico o percutáneo), dentro de ~48 h; tomar hemocultivos y cultivo de bilis.\n• Grado III (grave): soporte respiratorio y circulatorio y drenaje urgente en cuanto el paciente se estabiliza.\n• Tras un drenaje exitoso, antibióticos por 4 a 7 días.",
+    "f": "Tokyo Guidelines 2018 (TG18), manejo inicial y flujograma de colangitis aguda (Miura et al., J Hepatobiliary Pancreat Sci 2018;25:31-40)"
+   }
   },
   {
    "id": "g-bil-dilat",
@@ -340,7 +360,11 @@
    "correcta": 0,
    "explicacion": "Grado II: dos de leucocitos >12 000 o <4000, fiebre ≥39 °C, edad >75, bilirrubina >5, albúmina baja. Grado I: no cumple los anteriores.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 23",
-   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir los antibióticos, el drenaje y el momento de la cirugía."
+   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir los antibióticos, el drenaje y el momento de la cirugía.",
+   "guia": {
+    "t": "• Al diagnosticar colangitis (cualquier grado): antibióticos, hidratación, corrección de electrolitos y analgesia.\n• Grado I (leve): suele bastar el tratamiento inicial; drenaje si no responde en 24 h.\n• Grado II (moderada): drenaje biliar temprano (endoscópico o percutáneo), dentro de ~48 h; tomar hemocultivos y cultivo de bilis.\n• Grado III (grave): soporte respiratorio y circulatorio y drenaje urgente en cuanto el paciente se estabiliza.\n• Tras un drenaje exitoso, antibióticos por 4 a 7 días.",
+    "f": "Tokyo Guidelines 2018 (TG18), manejo inicial y flujograma de colangitis aguda (Miura et al., J Hepatobiliary Pancreat Sci 2018;25:31-40)"
+   }
   },
   {
    "id": "g-bil-trat_col",
@@ -369,7 +393,11 @@
    "correcta": 0,
    "explicacion": "Drenaje percutáneo: efectivo en 90 a 100 %, con fluoroscopia y ecografía; recomendable si hay alteraciones anatómicas.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 24 a 27 y 36",
-   "nota": "El drenaje por CPRE como estándar es un complemento; la lámina 27 detalla el drenaje percutáneo."
+   "nota": "El drenaje por CPRE como estándar es un complemento; la lámina 27 detalla el drenaje percutáneo.",
+   "guia": {
+    "t": "• Al diagnosticar colangitis (cualquier grado): antibióticos, hidratación, corrección de electrolitos y analgesia.\n• Grado I (leve): suele bastar el tratamiento inicial; drenaje si no responde en 24 h.\n• Grado II (moderada): drenaje biliar temprano (endoscópico o percutáneo), dentro de ~48 h; tomar hemocultivos y cultivo de bilis.\n• Grado III (grave): soporte respiratorio y circulatorio y drenaje urgente en cuanto el paciente se estabiliza.\n• Tras un drenaje exitoso, antibióticos por 4 a 7 días.",
+    "f": "Tokyo Guidelines 2018 (TG18), manejo inicial y flujograma de colangitis aguda (Miura et al., J Hepatobiliary Pancreat Sci 2018;25:31-40)"
+   }
   },
   {
    "id": "g-bil-cole_def",
@@ -453,7 +481,11 @@
    ],
    "correcta": 0,
    "explicacion": "La ecografía tiene baja sensibilidad para litos del colédoco. Mejor estudio: colangio-resonancia; con alto riesgo, CPRE.",
-   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 39 y 40"
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 39 y 40",
+   "guia": {
+    "t": "• Alto riesgo: lito en imagen, colangitis clínica, o bilirrubina total >4 mg/dl con colédoco dilatado → CPRE directa.\n• Riesgo intermedio (pruebas hepáticas alteradas, edad >55 años o colédoco dilatado) → EUS, colangio-RM o colangiografía intraoperatoria antes de la CPRE.\n• Riesgo bajo → colecistectomía sin estudio adicional de la vía biliar.\n• Ojo: si tu PPT usa los criterios más antiguos (2010), para el examen manda la PPT.",
+    "f": "ASGE Guideline on the role of endoscopy in the evaluation and management of choledocholithiasis (Buxbaum et al., Gastrointest Endosc 2019)"
+   }
   },
   {
    "id": "g-bil-riesgo",
@@ -481,7 +513,11 @@
    ],
    "correcta": 0,
    "explicacion": "Algoritmo: riesgo bajo, colecistectomía laparoscópica; intermedio, colangiografía intraoperatoria o ecografía laparoscópica, o ecoendoscopía o colangio-RM; alto, CPRE preoperatoria.",
-   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 34 a 36"
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 34 a 36",
+   "guia": {
+    "t": "• Alto riesgo: lito en imagen, colangitis clínica, o bilirrubina total >4 mg/dl con colédoco dilatado → CPRE directa.\n• Riesgo intermedio (pruebas hepáticas alteradas, edad >55 años o colédoco dilatado) → EUS, colangio-RM o colangiografía intraoperatoria antes de la CPRE.\n• Riesgo bajo → colecistectomía sin estudio adicional de la vía biliar.\n• Ojo: si tu PPT usa los criterios más antiguos (2010), para el examen manda la PPT.",
+    "f": "ASGE Guideline on the role of endoscopy in the evaluation and management of choledocholithiasis (Buxbaum et al., Gastrointest Endosc 2019)"
+   }
   }
  ],
  "tarjetas": [
