@@ -5,55 +5,56 @@
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 1,
-   "enunciado": "¿Cómo se define la injuria renal aguda?",
+   "enunciado": "¿Cómo define la clase la injuria renal aguda?",
    "opciones": [
     {
-     "t": "Descenso rápido del filtrado glomerular (horas a semanas) con retención de nitrogenados y alteración hidroelectrolítica y ácido-base",
-     "por": "Es la definición de la lámina."
+     "t": "Descenso rápido del filtrado glomerular (horas a semanas), con retención de desechos nitrogenados y alteración del equilibrio hidroelectrolítico y ácido-base",
+     "por": "Lo central es la rapidez: el riñón pierde su capacidad de filtrar en horas o semanas, y la sangre acumula urea y creatinina."
     },
     {
      "t": "Pérdida lenta de función renal durante más de 3 meses",
-     "por": "Eso es ERC."
+     "por": "Eso es enfermedad renal crónica, no aguda."
     },
     {
-     "t": "Presencia de proteinuria mayor de 3.5 g/día",
+     "t": "Proteinuria mayor de 3.5 g/día con edema",
      "por": "Eso es síndrome nefrótico."
     },
     {
      "t": "Hematuria con cilindros hemáticos",
-     "por": "Eso orienta a síndrome nefrítico."
+     "por": "Eso orienta a síndrome nefrítico, que puede causar IRA, pero no la define."
     }
    ],
    "correcta": 0,
-   "explicacion": "IRA: caída rápida del filtrado glomerular, retención de productos nitrogenados y trastornos del equilibrio hidroelectrolítico y ácido-base.",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 7"
+   "explicacion": "Los desechos nitrogenados son urea y creatinina. Por eso la IRA se ve en laboratorio como aumento de esos valores.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 7",
+   "contexto": "IRA = injuria renal aguda. Nitrogenados = urea y creatinina, los productos que el riñón elimina."
   },
   {
    "id": "n-ira-prem",
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 2,
-   "enunciado": "¿Cuál NO es una de las tres premisas para una función renal normal?",
+   "enunciado": "¿Cuál NO es una de las tres premisas para que el riñón funcione normalmente según la clase?",
    "opciones": [
     {
-     "t": "Ausencia de proteinuria",
-     "por": "Las premisas son perfusión adecuada, integridad del parénquima y permeabilidad de las vías excretoras."
+     "t": "Ausencia de proteínas en la orina",
+     "por": "No es una premisa. Las tres son perfusión sanguínea adecuada, integridad del parénquima renal y permeabilidad de las vías excretoras."
     },
     {
-     "t": "Perfusión renal adecuada",
-     "por": "Es la premisa que falla en la IRA prerrenal."
+     "t": "Perfusión sanguínea adecuada",
+     "por": "Sí es premisa: sin sangre suficiente no hay filtrado. Si falla, la IRA es prerrenal."
     },
     {
      "t": "Integridad del parénquima renal",
-     "por": "Es la que falla en la IRA renal."
+     "por": "Sí es premisa: si el tejido se daña (túbulos, glomérulos), la IRA es renal."
     },
     {
      "t": "Permeabilidad de las vías excretoras",
-     "por": "Es la que falla en la IRA postrenal."
+     "por": "Sí es premisa: si la orina no puede salir, la IRA es postrenal."
     }
    ],
    "correcta": 0,
-   "explicacion": "Cada tipo de IRA rompe una premisa: perfusión (prerrenal), parénquima (renal) o vía excretora (postrenal).",
+   "explicacion": "Cada tipo de IRA rompe una premisa: perfusión (prerrenal), parénquima (renal), vía excretora (postrenal).",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 8"
   },
   {
@@ -61,27 +62,27 @@
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 1,
-   "enunciado": "¿Cuál es la clasificación fisiopatológica de la IRA?",
+   "enunciado": "¿Cómo se clasifica la IRA según el elemento que falla?",
    "opciones": [
     {
      "t": "Prerrenal, renal (intrínseca) y postrenal (obstructiva)",
-     "por": "Según el elemento funcional alterado."
+     "por": "Prerrenal: falla la perfusión. Renal: se alteran las estructuras del riñón. Postrenal: el flujo de orina está interrumpido."
     },
     {
      "t": "Aguda, subaguda y crónica",
-     "por": "Es por tiempo, no por mecanismo."
+     "por": "Esa es una clasificación por tiempo, no por mecanismo."
     },
     {
      "t": "Oligúrica, anúrica y poliúrica",
-     "por": "Es por diuresis."
+     "por": "Esa es por cantidad de orina."
     },
     {
      "t": "Glomerular, tubular y vascular",
-     "por": "Solo describe la IRA renal."
+     "por": "Solo describe tipos de daño dentro de la IRA renal."
     }
    ],
    "correcta": 0,
-   "explicacion": "Prerrenal: falla la perfusión. Renal: daño del parénquima. Postrenal: flujo urinario interrumpido.",
+   "explicacion": "Prerrenal 60 a 70 % de los casos; renal, la necrosis tubular es la causa más frecuente; postrenal, la obstrucción.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 11"
   },
   {
@@ -89,29 +90,29 @@
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 2,
-   "enunciado": "Según RIFLE, ¿qué estadio corresponde a creatinina ×2 o descenso del FG mayor de 50 %, con diuresis menor de 0.5 mL/kg/h por 12 horas?",
+   "enunciado": "Un paciente tiene creatinina que se duplica (×2) y orina menor de 0.5 mL/kg/h por 12 horas. ¿Qué estadio RIFLE?",
    "opciones": [
     {
      "t": "Injury (lesión)",
-     "por": "R: ×1.5, 6 h; I: ×2, 12 h; F: ×3 o Cr ≥4, 24 h o anuria 12 h."
+     "por": "Injury es creatinina ×2 o FG disminuye más de 50 %, con diuresis menor de 0.5 mL/kg/h por 12 horas."
     },
     {
      "t": "Risk (riesgo)",
-     "por": "Es ×1.5 o descenso del FG mayor de 25 %."
+     "por": "Risk es creatinina ×1.5 o FG baja más de 25 %, con diuresis menor de 0.5 mL/kg/h por 6 horas."
     },
     {
      "t": "Failure (fracaso)",
-     "por": "Es ×3, descenso mayor de 75 % o Cr ≥4."
+     "por": "Failure es creatinina ×3, FG baja más de 75 %, creatinina ≥4 mg/dL con aumento agudo de al menos 0.5, o diuresis menor de 0.3 mL/kg/h por 24 horas (o anuria por 12 horas)."
     },
     {
      "t": "Loss (pérdida)",
-     "por": "Es pérdida de función por más de 4 semanas."
+     "por": "Loss es pérdida completa de la función renal por más de 4 semanas; no se mide con creatinina en horas."
     }
    ],
    "correcta": 0,
-   "explicacion": "RIFLE: Risk, Injury, Failure (agudos, mayor sensibilidad); Loss (más de 4 semanas) y ESKD (más de 3 meses) tienen mayor especificidad. ESKD = enfermedad renal terminal.",
+   "explicacion": "Memoriza: R ×1.5 (6 h), I ×2 (12 h), F ×3 (24 h o anuria 12 h). Los tres primeros tienen alta sensibilidad; L y E tienen alta especificidad.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 9",
-   "contexto": "IRA = injuria (insuficiencia) renal aguda. Cr = creatinina sérica. AKIN = Acute Kidney Injury Network; KDIGO = guía internacional de enfermedades renales; RIFLE = clasificación previa de la IRA."
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
   },
   {
    "id": "n-ira-rifle2",
@@ -121,26 +122,26 @@
    "enunciado": "En RIFLE, ¿cuánto tiempo de pérdida completa de la función renal define 'Loss' y 'ESKD'?",
    "opciones": [
     {
-     "t": "Más de 4 semanas y más de 3 meses",
-     "por": "Loss más de 4 semanas; ESKD más de 3 meses."
+     "t": "Loss: más de 4 semanas; ESKD (enfermedad renal terminal): más de 3 meses",
+     "por": "Son los estadios de desenlace: miden cuánto dura la pérdida de función."
     },
     {
-     "t": "Más de 1 semana y más de 4 semanas",
-     "por": "Los tiempos son mayores."
+     "t": "Loss: más de 1 semana; ESKD: más de 4 semanas",
+     "por": "Los tiempos son mayores en la lámina."
     },
     {
-     "t": "Más de 3 meses y más de 6 meses",
+     "t": "Loss: más de 3 meses; ESKD: más de 6 meses",
      "por": "No coincide con la lámina."
     },
     {
-     "t": "Más de 48 horas y más de 7 días",
-     "por": "Esa es la ventana de AKIN para diagnóstico."
+     "t": "Loss: más de 48 horas; ESKD: más de 7 días",
+     "por": "La ventana de 48 horas es de AKIN para el diagnóstico, no de estos estadios."
     }
    ],
    "correcta": 0,
-   "explicacion": "Loss y ESKD son los estadios de desenlace, con alta especificidad.",
+   "explicacion": "ESKD = end-stage kidney disease. Los estadios Risk, Injury y Failure son los agudos.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 9",
-   "contexto": "IRA = injuria (insuficiencia) renal aguda. Cr = creatinina sérica. AKIN = Acute Kidney Injury Network; KDIGO = guía internacional de enfermedades renales; RIFLE = clasificación previa de la IRA."
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
   },
   {
    "id": "n-ira-akin",
@@ -150,26 +151,26 @@
    "enunciado": "¿Qué agregó la clasificación AKIN al esquema RIFLE?",
    "opciones": [
     {
-     "t": "Una ventana de 48 horas para realizar el diagnóstico",
-     "por": "Lo dice la lámina."
+     "t": "Una ventana de 48 horas para hacer el diagnóstico",
+     "por": "Con AKIN el aumento de creatinina de 0.3 mg/dL se valora dentro de 48 horas. En 2004 la Red de Trabajo de Lesión Renal (AKIN) modificó RIFLE y lo llamó AKI."
     },
     {
-     "t": "El criterio de proteinuria",
-     "por": "No lo agregó."
+     "t": "El requisito de biopsia renal",
+     "por": "No pide biopsia."
     },
     {
-     "t": "La biopsia como requisito",
-     "por": "No lo es."
+     "t": "Eliminar los criterios de creatinina",
+     "por": "Los mantiene y los hace más sensibles."
     },
     {
-     "t": "Eliminó los criterios de creatinina",
-     "por": "Los mantiene."
+     "t": "Un criterio de proteinuria",
+     "por": "No agregó proteinuria."
     }
    ],
    "correcta": 0,
-   "explicacion": "En 2004 se integró la Red de Trabajo de Lesión Renal (AKIN), que modificó RIFLE y lo llamó AKI.",
+   "explicacion": "AKIN-KDIGO tiene tres estadios: AKI-I, AKI-II, AKI-III.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 10",
-   "contexto": "IRA = injuria (insuficiencia) renal aguda. Cr = creatinina sérica. AKIN = Acute Kidney Injury Network; KDIGO = guía internacional de enfermedades renales; RIFLE = clasificación previa de la IRA."
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
   },
   {
    "id": "n-ira-akin1",
@@ -179,55 +180,55 @@
    "enunciado": "Un paciente sube su creatinina de 0.9 a 1.3 mg/dL en 36 horas. ¿Qué estadio AKIN-KDIGO?",
    "opciones": [
     {
-     "t": "AKI-I (aumento de 0.3 mg/dL o más)",
-     "por": "Aumento de 0.4 mg/dL supera el umbral de 0.3."
+     "t": "AKI-I",
+     "por": "Aumentó 0.4 mg/dL en menos de 48 horas, más que el umbral de 0.3 mg/dL. La razón 1.3/0.9 es 1.44, menor de 1.5, así que el criterio es el aumento absoluto."
     },
     {
      "t": "AKI-II",
-     "por": "Se necesita de 2 a 3 veces la basal."
+     "por": "Requiere creatinina más de 2 a 3 veces la basal."
     },
     {
      "t": "AKI-III",
-     "por": "Requiere más de 3 veces, ≥4 mg/dL o diálisis."
+     "por": "Requiere más de 3 veces la basal, o ≥4 mg/dL, o terapia de reemplazo renal."
     },
     {
      "t": "No cumple criterios",
-     "por": "Subió 0.4 mg/dL, es más de 0.3."
+     "por": "Sí cumple: basta un aumento de 0.3 mg/dL o más."
     }
    ],
    "correcta": 0,
-   "explicacion": "AKI-I: Cr ≥0.3 mg/dL o 1.5 a 2 veces la basal.",
+   "explicacion": "AKI-I: aumento ≥0.3 mg/dL, o 1.5 a 2 veces la basal. AKI-II: más de 2 a 3 veces. AKI-III: más de 3 veces, o ≥4 mg/dL con aumento agudo de al menos 0.5, o terapia de reemplazo renal.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 10",
-   "contexto": "IRA = injuria (insuficiencia) renal aguda. Cr = creatinina sérica. AKIN = Acute Kidney Injury Network; KDIGO = guía internacional de enfermedades renales; RIFLE = clasificación previa de la IRA."
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
   },
   {
    "id": "n-ira-akin2",
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 3,
-   "enunciado": "Cr basal 1.1 mg/dL que llega a 4.5 mg/dL, con diuresis de 50 mL en 14 horas. ¿Estadio?",
+   "enunciado": "Varón de 43 años hospitalizado por neumonía. Creatinina 1.1 mg/dL al ingreso y 4.5 mg/dL al día 5, diuresis de 50 mL en 14 horas. ¿Estadio?",
    "opciones": [
     {
-     "t": "AKI-III: más de 3 veces la basal y Cr ≥4 mg/dL",
-     "por": "4.5/1.1 = 4.1 veces."
+     "t": "AKI-III (AKIN 3)",
+     "por": "4.5 / 1.1 = 4.1 veces la basal (más de 3 veces) y además supera 4 mg/dL. La diuresis casi nula refuerza la gravedad."
     },
     {
      "t": "AKI-II",
-     "por": "Eso es de 2 a 3 veces la basal."
+     "por": "Es para aumentos de más de 2 a 3 veces la basal; aquí fue más de 4 veces."
     },
     {
      "t": "AKI-I",
-     "por": "Es solo ≥0.3 mg/dL o 1.5 a 2 veces."
+     "por": "Es para aumentos de 0.3 mg/dL o 1.5 a 2 veces; aquí fue mucho más."
     },
     {
-     "t": "Solo prerrenal, sin estadio",
-     "por": "El estadio se asigna igual, sin importar la causa."
+     "t": "Falla prerrenal, sin estadio",
+     "por": "El estadio se asigna igual, sin importar el mecanismo."
     }
    ],
    "correcta": 0,
-   "explicacion": "AKI-III: más de 3 veces la basal, Cr ≥4 con aumento agudo ≥0.5, o necesidad de TRR.",
+   "explicacion": "En la lámina, el criterio de AKI-III incluye creatinina más de 3 veces la basal o mayor de 4 mg/dL y diuresis menor de 0.3 mL/kg por más de 24 horas, o anuria mayor de 12 horas.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 22 a 24",
-   "contexto": "IRA = injuria (insuficiencia) renal aguda. Cr = creatinina sérica. AKIN = Acute Kidney Injury Network; KDIGO = guía internacional de enfermedades renales; RIFLE = clasificación previa de la IRA."
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
   },
   {
    "id": "n-ira-pre",
@@ -238,15 +239,15 @@
    "opciones": [
     {
      "t": "60 a 70 %",
-     "por": "Es la causa más frecuente."
+     "por": "Es la causa más frecuente de IRA."
     },
     {
      "t": "5 a 10 %",
-     "por": "Es muy bajo."
+     "por": "Es muy bajo; corresponde más a la postrenal."
     },
     {
      "t": "20 a 30 %",
-     "por": "Es más cercano a las renales."
+     "por": "Es más parecido a la IRA renal."
     },
     {
      "t": "90 %",
@@ -254,7 +255,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La IRA prerrenal tiene mecanismo de vasoconstricción compensadora de la arteriola aferente.",
+   "explicacion": "La disminución marcada del flujo sanguíneo hace que la arteriola aferente se contraiga para compensar, y el FG cae.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 12"
   },
   {
@@ -262,27 +263,27 @@
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 2,
-   "enunciado": "¿Qué desencadena la caída del FG en la IRA prerrenal?",
+   "enunciado": "¿Cómo disminuye el filtrado glomerular en la IRA prerrenal?",
    "opciones": [
     {
-     "t": "Isquemia renal que reduce el flujo plasmático glomerular y la presión de ultrafiltración",
-     "por": "Es el esquema de la lámina."
+     "t": "La isquemia causa vasoconstricción y congestión medular; baja el flujo plasmático glomerular y la presión de ultrafiltración",
+     "por": "Menos sangre al glomérulo significa menos presión para filtrar. Si la isquemia sigue, también baja el oxígeno en la médula renal y aparece daño tubular."
     },
     {
-     "t": "Obstrucción ureteral",
-     "por": "Es postrenal."
+     "t": "Una obstrucción en el uréter bloquea la orina",
+     "por": "Eso es postrenal."
     },
     {
-     "t": "Depósito de inmunocomplejos",
-     "por": "Es glomerulonefritis."
+     "t": "Depósito de inmunocomplejos en el glomérulo",
+     "por": "Eso es glomerulonefritis, causa renal."
     },
     {
-     "t": "Nefritis intersticial",
-     "por": "Es renal."
+     "t": "Inflamación del intersticio por fármacos",
+     "por": "Eso es nefritis intersticial, causa renal."
     }
    ],
    "correcta": 0,
-   "explicacion": "Isquemia → vasoconstricción y congestión medular → menos O₂ a la médula → daño tubular.",
+   "explicacion": "Si la isquemia es prolongada, la IRA prerrenal puede pasar a renal (necrosis tubular).",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 13"
   },
   {
@@ -290,28 +291,57 @@
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 2,
-   "enunciado": "¿Qué evento produce obstrucción tubular y 'backleak' en la necrosis tubular?",
+   "enunciado": "En la necrosis tubular, ¿qué produce la obstrucción tubular y la 'retrodifusión' (backleak)?",
    "opciones": [
     {
-     "t": "Descamación de células tubulares tras apoptosis y necrosis",
-     "por": "Es el esquema de la lámina."
+     "t": "La descamación de células tubulares tras apoptosis y necrosis",
+     "por": "Las células muertas se desprenden y tapan el túbulo. El filtrado se escapa de vuelta al intersticio (backleak), y el FG cae."
     },
     {
-     "t": "Depósito de anticuerpos",
-     "por": "No."
+     "t": "Depósitos de anticuerpos en el glomérulo",
+     "por": "Eso ocurre en glomerulonefritis, no en necrosis tubular."
     },
     {
-     "t": "Estenosis ureteral",
-     "por": "Es postrenal."
+     "t": "Una estenosis ureteral",
+     "por": "Es una causa postrenal."
     },
     {
      "t": "Hipervolemia",
-     "por": "No."
+     "por": "No es mecanismo de esta lesión."
     }
    ],
    "correcta": 0,
-   "explicacion": "Isquemia → daño endotelial e inflamación → lesión tubular → descamación → obstrucción y retrodifusión (backleak).",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 15"
+   "explicacion": "Isquemia → lesión del endotelio y vasoconstricción; inflamación; lesión tubular con pérdida del citoesqueleto y de la polaridad celular; apoptosis y necrosis; descamación; obstrucción.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 15 y 16"
+  },
+  {
+   "id": "n-ira-mixto",
+   "area": "nefro",
+   "tema": "Injuria renal aguda",
+   "dif": 3,
+   "enunciado": "En la IRA por necrosis tubular, ¿qué dos grupos de agresores actúan sobre el riñón según el esquema de la lámina 16?",
+   "opciones": [
+    {
+     "t": "Alteraciones hemodinámicas y nefrotoxinas",
+     "por": "Ambas producen vasoconstricción renal y lesión tubular directa. Eso activa la mácula densa, forma cilindros intratubulares y causa retrodifusión de líquido, y todo baja el filtrado."
+    },
+    {
+     "t": "Infecciones y trasplante",
+     "por": "No son los dos grupos del esquema."
+    },
+    {
+     "t": "Obstrucción y reflujo",
+     "por": "Son causas postrenales."
+    },
+    {
+     "t": "Autoanticuerpos y complemento",
+     "por": "Pertenecen a las glomerulonefritis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los cilindros granulosos en la orina son un signo típico de necrosis tubular.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 16",
+   "nota": "Que los cilindros granulosos son típicos de necrosis tubular es conocimiento general (complemento); la lámina solo muestra el esquema."
   },
   {
    "id": "n-ira-renal",
@@ -321,25 +351,54 @@
    "enunciado": "¿Cuál de estas es causa de IRA renal (intrínseca)?",
    "opciones": [
     {
-     "t": "Necrosis tubular isquémica o nefrotóxica",
-     "por": "Es la más frecuente."
+     "t": "Necrosis tubular por isquemia o nefrotóxicos",
+     "por": "Es una de las causas listadas: necrosis tubular, nefritis intersticial, glomerulonefritis y vasculitis."
     },
     {
-     "t": "Hemorragia",
-     "por": "Es prerrenal."
+     "t": "Hemorragia grave",
+     "por": "Es prerrenal: baja el volumen y la perfusión."
     },
     {
-     "t": "Hipertrofia prostática",
-     "por": "Es postrenal."
+     "t": "Hipertrofia benigna de próstata",
+     "por": "Es postrenal: obstruye la salida de orina."
     },
     {
      "t": "Insuficiencia cardiaca",
-     "por": "Es prerrenal."
+     "por": "Es prerrenal: el corazón no perfunde suficiente."
     }
    ],
    "correcta": 0,
-   "explicacion": "IRA renal: necrosis tubular, nefritis intersticial, glomerulonefritis, vasculitis.",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 14"
+   "explicacion": "El esquema de la lámina 18 divide la IRA renal en vascular, glomerular, tubular e intersticial.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 14 y 18"
+  },
+  {
+   "id": "n-ira-pre3",
+   "area": "nefro",
+   "tema": "Injuria renal aguda",
+   "dif": 2,
+   "enunciado": "¿Cuál de estas es causa de IRA prerrenal según el esquema de la lámina 18?",
+   "opciones": [
+    {
+     "t": "Sepsis, cirrosis, anafilaxia, hemorragia o diuresis excesiva",
+     "por": "Se dividen en disfunción cardiaca, vasodilatación (sepsis, cirrosis, anafilaxia), hipovolemia (hemorragia, diuresis) y resistencia vascular (cirugía, anestesia)."
+    },
+    {
+     "t": "Nefrolitiasis y necrosis papilar",
+     "por": "Son causas postrenales intrarrenales."
+    },
+    {
+     "t": "Glomerulonefritis y vasculitis",
+     "por": "Son causas renales."
+    },
+    {
+     "t": "Hipertrofia prostática",
+     "por": "Es postrenal extrarrenal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Todas bajan la perfusión renal. Aquí no hay daño del parénquima al inicio, por eso es potencialmente reversible si se corrige a tiempo.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 18",
+   "nota": "La lámina 18 está en inglés; la lista de causas la leí del esquema."
   },
   {
    "id": "n-ira-post",
@@ -349,16 +408,16 @@
    "enunciado": "¿Cuál de estas es causa de IRA postrenal?",
    "opciones": [
     {
-     "t": "Hipertrofia prostática benigna",
-     "por": "Obstruye la salida."
+     "t": "Hipertrofia benigna de próstata",
+     "por": "Estrecha la uretra y obstruye la salida de la orina. Otras causas: cálculos, coágulos, cáncer, vejiga neurogénica, estenosis uretral, fimosis."
     },
     {
      "t": "Sepsis",
-     "por": "Es prerrenal."
+     "por": "Es prerrenal (vasodilatación)."
     },
     {
      "t": "Vasculitis",
-     "por": "Es renal."
+     "por": "Es renal (vascular)."
     },
     {
      "t": "Hipovolemia",
@@ -366,94 +425,127 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Postrenal: cálculos, coágulos, cáncer, vejiga neurogénica, estenosis uretral, HBP.",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 17"
+   "explicacion": "Postrenal por localización: ureteral (cálculos, coágulos, cáncer), vesical (vejiga neurogénica, neoplasia, coágulos, compresión extrínseca), uretral (estenosis, fimosis, HBP o cáncer de próstata).",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 17",
+   "contexto": "HBP = hiperplasia benigna de próstata."
   },
   {
    "id": "n-ira-case1",
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 3,
-   "enunciado": "Varón de 71 años con EPOC, operado de RTU por HBP. Cr 14 mg/dL, hidronefrosis bilateral, diuresis de 50 mL en 24 horas. ¿Tipo de IRA?",
+   "enunciado": "Varón de 71 años con EPOC, resección transuretral por HBP. Hace 10 días tos y orina poco. Hidratado, PA 130/80, sin edemas, sin globo vesical. Creatinina 14 mg/dL, ecografía con hidronefrosis bilateral, diuresis 50 mL en 24 horas. ¿Qué tipo de IRA?",
    "opciones": [
     {
      "t": "Postrenal (obstructiva)",
-     "por": "Hidronefrosis bilateral tras HBP."
+     "por": "La hidronefrosis bilateral con antecedente de HBP orienta a obstrucción de las vías urinarias."
     },
     {
      "t": "Prerrenal",
-     "por": "Se esperaría ecografía normal."
+     "por": "Está hidratado, con presión normal y sin edemas; no hay signos de hipoperfusión, y la ecografía no sería con hidronefrosis."
     },
     {
      "t": "Renal por necrosis tubular",
-     "por": "No explica la hidronefrosis."
+     "por": "No explica por sí sola la dilatación bilateral."
     },
     {
      "t": "Renal glomerular",
-     "por": "Se vería hematuria y cilindros."
+     "por": "Se esperaría hematuria con cilindros hemáticos."
     }
    ],
    "correcta": 0,
-   "explicacion": "La ecografía con hidronefrosis orienta al origen postrenal.",
+   "explicacion": "Con creatinina 14 mg/dL y diuresis de 50 mL en 24 horas, el estadio KDIGO es AKI-III.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 3 y 21",
-   "contexto": "IRA = injuria (insuficiencia) renal aguda. Cr = creatinina sérica. AKIN = Acute Kidney Injury Network; KDIGO = guía internacional de enfermedades renales; RIFLE = clasificación previa de la IRA."
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
+  },
+  {
+   "id": "n-ira-case1b",
+   "area": "nefro",
+   "tema": "Injuria renal aguda",
+   "dif": 2,
+   "enunciado": "En el paciente de 71 años con creatinina de 14 mg/dL y 50 mL de orina en 24 horas, ¿qué estadio KDIGO tiene?",
+   "opciones": [
+    {
+     "t": "AKI-III",
+     "por": "La creatinina es mayor de 4 mg/dL y la diuresis de 50 mL en 24 horas es una oliguria extrema (casi anuria)."
+    },
+    {
+     "t": "AKI-I",
+     "por": "Es para aumentos de 0.3 mg/dL o 1.5 a 2 veces; aquí es mucho mayor."
+    },
+    {
+     "t": "AKI-II",
+     "por": "Es para aumentos de más de 2 a 3 veces la basal."
+    },
+    {
+     "t": "No se puede estadiar sin creatinina previa",
+     "por": "Con creatinina mayor de 4 mg/dL y diuresis casi nula se clasifica AKI-III."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El estadio se calcula con la creatinina y la diuresis, y se toma el peor de los dos criterios.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 21",
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina.",
+   "nota": "La lámina 21 pregunta el estadio sin dar la respuesta; AKI-III sale de los criterios de la lámina 10."
   },
   {
    "id": "n-ira-case2",
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 3,
-   "enunciado": "Mujer de 43 años con neumonía comunitaria tratada con vancomicina y piperacilina/tazobactam. Al día 5 hipotensión; Cr 1.1 a 4.5 mg/dL, K⁺ 5.9, HCO₃⁻ 15, cilindros granulosos, ecografía normal. ¿Diagnóstico?",
+   "enunciado": "Varón de 43 años con neumonía, tratado con vancomicina y piperacilina-tazobactam. Al día 5: hipotensión (85/50), diuresis de 50 mL en 14 h, creatinina 1.1 → 4.5 mg/dL, K⁺ 5.9, HCO₃⁻ 15, cilindros granulosos y ecografía renal normal. ¿Diagnóstico?",
    "opciones": [
     {
-     "t": "IRA renal por necrosis tubular aguda (nefrotóxica e isquémica)",
-     "por": "Cilindros granulosos con hipotensión y nefrotóxicos."
+     "t": "IRA renal por necrosis tubular aguda (nefrotóxica e isquémica), estadio AKI-III",
+     "por": "Hay dos agresores sobre el túbulo: hipotensión (isquemia) y fármacos nefrotóxicos. Los cilindros granulosos indican daño tubular, y la ecografía normal descarta obstrucción."
     },
     {
      "t": "IRA postrenal",
-     "por": "Ecografía normal."
+     "por": "La ecografía es normal, sin dilatación pielocalicial."
     },
     {
      "t": "IRA prerrenal pura",
-     "por": "Cilindros granulosos sugieren daño tubular."
+     "por": "La hipotensión participa, pero los cilindros granulosos indican que ya hay daño tubular."
     },
     {
      "t": "Glomerulonefritis aguda",
-     "por": "No hay hematuria con cilindros hemáticos."
+     "por": "No hay hematuria con cilindros hemáticos ni proteinuria marcada."
     }
    ],
    "correcta": 0,
-   "explicacion": "Vancomicina más piperacilina/tazobactam es una combinación nefrotóxica.",
+   "explicacion": "K⁺ 5.9 (hiperpotasemia) y HCO₃⁻ 15 (acidosis metabólica) son las alteraciones hidroelectrolíticas y ácido-base de la definición.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 22 a 24",
-   "contexto": "IRA = injuria (insuficiencia) renal aguda. Cr = creatinina sérica. AKIN = Acute Kidney Injury Network; KDIGO = guía internacional de enfermedades renales; RIFLE = clasificación previa de la IRA."
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina.",
+   "nota": "La lámina da el diagnóstico como injuria renal aguda AKIN 3. Que sea necrosis tubular aguda es la interpretación a partir de los datos."
   },
   {
    "id": "n-ira-oligo",
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 2,
-   "enunciado": "¿Cuál es el criterio de diuresis para AKI-III?",
+   "enunciado": "¿Qué criterio de diuresis acompaña al estadio de máxima gravedad en la lámina del caso?",
    "opciones": [
     {
-     "t": "Menos de 0.3 mL/kg/h por más de 24 horas o anuria de más de 12 horas",
-     "por": "Así lo señala la lámina."
+     "t": "Menos de 0.3 mL/kg/h por más de 24 horas, o anuria de más de 12 horas",
+     "por": "Es el criterio de diuresis del estadio más grave (AKI-III; Failure en RIFLE)."
     },
     {
      "t": "Menos de 0.5 mL/kg/h por 6 horas",
      "por": "Es Risk (RIFLE)."
     },
     {
-     "t": "Menos de 1 mL/kg/h por 3 horas",
-     "por": "No es criterio."
-    },
-    {
      "t": "Menos de 0.5 mL/kg/h por 12 horas",
      "por": "Es Injury (RIFLE)."
+    },
+    {
+     "t": "Más de 1 mL/kg/h por 3 horas",
+     "por": "No es criterio de IRA."
     }
    ],
    "correcta": 0,
-   "explicacion": "AKI-III: diuresis <0.3 mL/kg/h por más de 24 h o anuria más de 12 h.",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 24"
+   "explicacion": "RIFLE: R <0.5 mL/kg/h × 6 h; I <0.5 × 12 h; F <0.3 × 24 h o anuria × 12 h.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 9 y 23",
+   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
   }
  ],
  "tarjetas": [
@@ -462,64 +554,64 @@
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "f": "IRA: definición",
-   "b": "Descenso rápido del FG (horas a semanas)",
+   "b": "Descenso rápido del filtrado glomerular (horas a semanas), con retención de nitrogenados y alteración hidroelectrolítica y ácido-base.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 7"
   },
   {
    "id": "n-ira-c-1",
    "area": "nefro",
    "tema": "Injuria renal aguda",
-   "f": "RIFLE",
-   "b": "R, I, F, L, E",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 9"
+   "f": "Tres premisas del riñón",
+   "b": "Perfusión, integridad del parénquima, permeabilidad de vías excretoras.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 8"
   },
   {
    "id": "n-ira-c-2",
    "area": "nefro",
    "tema": "Injuria renal aguda",
-   "f": "AKI-I",
-   "b": "Cr ≥0.3 o 1.5 a 2 veces",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 10"
+   "f": "RIFLE",
+   "b": "Risk ×1.5 (6 h); Injury ×2 (12 h); Failure ×3 o Cr ≥4 (24 h o anuria 12 h); Loss >4 semanas; ESKD >3 meses.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 9"
   },
   {
    "id": "n-ira-c-3",
    "area": "nefro",
    "tema": "Injuria renal aguda",
-   "f": "AKI-III",
-   "b": "Cr >3 veces, ≥4, o TRR",
+   "f": "AKI-I",
+   "b": "Cr ≥0.3 mg/dL o 1.5 a 2 veces la basal (ventana de 48 h).",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 10"
   },
   {
    "id": "n-ira-c-4",
    "area": "nefro",
    "tema": "Injuria renal aguda",
-   "f": "Prerrenal: frecuencia",
-   "b": "60 a 70 % de las IRA",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 12"
+   "f": "AKI-III",
+   "b": "Cr >3 veces la basal, o ≥4 mg/dL con aumento agudo ≥0.5, o terapia de reemplazo renal.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 10"
   },
   {
    "id": "n-ira-c-5",
    "area": "nefro",
    "tema": "Injuria renal aguda",
-   "f": "Premisas",
-   "b": "Perfusión, parénquima, vías excretoras",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 8"
+   "f": "Prerrenal",
+   "b": "60 a 70 % de los casos. Hipoperfusión: vasoconstricción de la arteriola aferente, baja el FG.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 12"
   },
   {
    "id": "n-ira-c-6",
    "area": "nefro",
    "tema": "Injuria renal aguda",
-   "f": "Postrenal",
-   "b": "Cálculos, coágulos, HBP, vejiga neurogénica",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 17"
+   "f": "Renal",
+   "b": "Necrosis tubular (isquemia o nefrotóxica), nefritis intersticial, glomerulonefritis, vasculitis.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 14"
   },
   {
    "id": "n-ira-c-7",
    "area": "nefro",
    "tema": "Injuria renal aguda",
-   "f": "Renal",
-   "b": "NTA, NIA, GN, vasculitis",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 14"
+   "f": "Postrenal",
+   "b": "Ureteral: cálculos, coágulos, cáncer. Vejiga: neurogénica, neoplasia. Uretra: estenosis, fimosis, HBP.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 17"
   }
  ]
 }
