@@ -1,0 +1,436 @@
+{
+ "preguntas": [
+  {
+   "id": "g-abs-def",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 1,
+   "enunciado": "¿Qué tipo de absceso hepático es más frecuente?",
+   "opciones": [
+    {
+     "t": "El piógeno (bacteriano), 80 a 90 %",
+     "por": "El amebiano representa 5 a 10 %."
+    },
+    {
+     "t": "El amebiano",
+     "por": "Es menos frecuente, sobre todo en países occidentales."
+    },
+    {
+     "t": "El micótico",
+     "por": "No es el más frecuente."
+    },
+    {
+     "t": "El mixto",
+     "por": "Es una superinfección piógena de un absceso parasitario, poco habitual."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Absceso hepático: colección supurativa en el parénquima, mortalidad de 2 a 12 %. Piógeno: 2,3 casos por 100 000 habitantes/año; amebiano (Entamoeba histolytica): 0,1 por 100 000. Piógeno en diabéticos, trasplantados, tumores malignos o inmunodepresión.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 6"
+  },
+  {
+   "id": "g-abs-via",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "¿Cuál es la vía de origen más frecuente de un absceso hepático piógeno?",
+   "opciones": [
+    {
+     "t": "La vía biliar (colangitis ascendente), por ejemplo por coledocolitiasis, estenosis o cáncer",
+     "por": "Patología biliar: 35 a 45 % de los abscesos."
+    },
+    {
+     "t": "La vía portal (pileflebitis), 20 %",
+     "por": "Es posible desde apendicitis, diverticulitis o EII, pero menos frecuente."
+    },
+    {
+     "t": "La arteria hepática",
+     "por": "Es la bacteriemia sistémica (endocarditis, osteomielitis, neumonía)."
+    },
+    {
+     "t": "Traumatismo abdominal",
+     "por": "Es una vía menos habitual."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Vías: biliar, portal, arteria hepática, traumatismo y contigüidad. Criptogénico (sin foco) 35 %.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 9",
+   "nota": "La lámina da 35 a 45 % para patología biliar y 20 % para la vía portal; la vía biliar domina."
+  },
+  {
+   "id": "g-abs-micro",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "¿Qué microorganismos predominan en el absceso hepático piógeno?",
+   "opciones": [
+    {
+     "t": "Bacilos gramnegativos aerobios, sobre todo E. coli y Klebsiella, más anaerobios",
+     "por": "E. coli aparece en 35 a 45 %."
+    },
+    {
+     "t": "Solo Entamoeba histolytica",
+     "por": "Causa el absceso amebiano."
+    },
+    {
+     "t": "Solo hongos",
+     "por": "Son una causa menor."
+    },
+    {
+     "t": "Solo Staphylococcus aureus",
+     "por": "No es el principal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Cuadro de agentes: gramnegativos aerobios (E. coli, Klebsiella, Proteus, Pseudomonas), grampositivos (Enterococcus, Streptococcus), anaerobios (Bacteroides, Fusobacterium, Clostridium) y hongos.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 11"
+  },
+  {
+   "id": "g-abs-carac",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "Un absceso grande, único y de origen portal, traumático o criptogénico. ¿Con qué característica coincide?",
+   "opciones": [
+    {
+     "t": "Es un absceso piógeno grande y solitario",
+     "por": "Los múltiples y pequeños suelen ser biliares."
+    },
+    {
+     "t": "Es bilateral, de origen arterial o fúngico",
+     "por": "Los bilaterales son arteriales o fúngicos."
+    },
+    {
+     "t": "Es un absceso múltiple de origen biliar",
+     "por": "Los múltiples y pequeños son biliares (63 % en lóbulo derecho)."
+    },
+    {
+     "t": "Es un absceso amebiano",
+     "por": "No se describe así en esta lámina."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El absceso se predice por número, localización y tamaño. Grandes y solitarios: portal, traumático o criptogénico. Múltiples y pequeños: biliar. Bilaterales: arterial (90 %), biliar o fúngico.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 12"
+  },
+  {
+   "id": "g-abs-clin",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "¿Cuál es la presentación clínica típica del absceso piógeno?",
+   "opciones": [
+    {
+     "t": "Fiebre, malestar, anorexia y dolor en hipocondrio derecho con irradiación al hombro derecho, durante días a 2 o 3 semanas",
+     "por": "La fiebre aparece en 59 a 90 %."
+    },
+    {
+     "t": "Ictericia intensa y prurito, sin fiebre",
+     "por": "No es la forma típica."
+    },
+    {
+     "t": "Diarrea con moco y sangre",
+     "por": "Corresponde a colitis."
+    },
+    {
+     "t": "Dolor súbito en epigastrio con hematemesis",
+     "por": "Sugiere úlcera o HDA."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Otros hallazgos: escalofríos 69 %, náuseas, pérdida de peso, derrame pleural derecho, hepatomegalia e ictericia.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 13"
+  },
+  {
+   "id": "g-abs-lab",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "¿Qué hallazgos de laboratorio se esperan en el absceso piógeno?",
+   "opciones": [
+    {
+     "t": "Leucocitosis con neutrofilia, PCR y VSG elevadas, fosfatasa alcalina elevada (70 a 90 %) y anemia normocítica",
+     "por": "El INR puede estar alargado."
+    },
+    {
+     "t": "Leucopenia y fosfatasa alcalina baja",
+     "por": "No son los hallazgos habituales."
+    },
+    {
+     "t": "Hemocultivos siempre negativos",
+     "por": "Son positivos en 30 a 50 %."
+    },
+    {
+     "t": "Pruebas hepáticas normales",
+     "por": "Suelen estar alteradas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "75 % presenta leucocitosis de 10 000 a 80 000. PCR 100 %; hemoglobina baja 82 %; bilirrubina 75 %.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 14"
+  },
+  {
+   "id": "g-abs-usg",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "¿Qué estudio de imagen es el de elección inicial y qué muestra en el absceso piógeno?",
+   "opciones": [
+    {
+     "t": "La ecografía: lesión hipoecogénica de bordes irregulares, con puntos hiperecogénicos, sensibilidad de 85 a 95 % en abscesos mayores de 2 cm",
+     "por": "Permite la aspiración."
+    },
+    {
+     "t": "La radiografía de tórax",
+     "por": "Solo da datos indirectos, como elevación del hemidiafragma derecho."
+    },
+    {
+     "t": "La gammagrafía",
+     "por": "No es el estudio inicial."
+    },
+    {
+     "t": "La resonancia magnética",
+     "por": "No es el estudio inicial."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Rx de tórax: alterada en 50 % (infiltrado basal, derrame pleural, atelectasias planas, elevación del hemidiafragma derecho). TAC: detecta lesiones de 0,5 cm y se usa para lesiones multiloculares.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 15 a 18",
+   "nota": "La lámina presenta la TAC como método de elección en un cuadro distinto, pero su rango de sensibilidad está dado por la ecografía."
+  },
+  {
+   "id": "g-abs-trat",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 3,
+   "enunciado": "¿Cómo se trata un absceso hepático piógeno menor de 3 cm?",
+   "opciones": [
+    {
+     "t": "Con antibióticos solos",
+     "por": "Si es mayor de 3 cm y unilocular se drena de forma percutánea; si es multilocular, drenaje quirúrgico o resección."
+    },
+    {
+     "t": "Con cirugía de entrada",
+     "por": "No se requiere drenaje en los menores de 3 cm."
+    },
+    {
+     "t": "Con drenaje percutáneo siempre",
+     "por": "Se reserva para los mayores."
+    },
+    {
+     "t": "Con observación sin tratamiento",
+     "por": "Debe tratarse."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Si el absceso está roto: drenaje quirúrgico o resección. Esquema empírico: metronidazol más ceftriaxona o piperacilina-tazobactam. Drenaje percutáneo: éxito de 80 a 87 %. Contraindicaciones: coagulopatías, ascitis, abscesos múltiples pequeños o riesgo de dañar una estructura vital.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 19 a 22"
+  },
+  {
+   "id": "g-abs-ameb",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "¿Cuál es el perfil típico del absceso hepático amebiano?",
+   "opciones": [
+    {
+     "t": "Varón menor de 40 años, absceso solitario del lóbulo derecho y serología positiva a E. histolytica",
+     "por": "Antecedente de viaje a zona endémica."
+    },
+    {
+     "t": "Mayor de 50 años, múltiple y con serología negativa",
+     "por": "Es el perfil piógeno."
+    },
+    {
+     "t": "Diabético con mortalidad de 10 a 15 %",
+     "por": "Es el piógeno."
+    },
+    {
+     "t": "Mujer mayor de 50 años",
+     "por": "El amebiano predomina en hombres (9 a 10:1)."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Comparación amebiano vs piógeno: edad <40 vs >50; fiebre 95 a 100 %; serología 98 a 100 % vs menos de 5 %; absceso solitario 80 % vs múltiple 50 %; mortalidad menor de 5 % vs 10 a 15 %.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 24 y 40"
+  },
+  {
+   "id": "g-abs-patog",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "¿Cómo llega la ameba al hígado y cómo es el contenido del absceso?",
+   "opciones": [
+    {
+     "t": "Por vía venosa portal desde la mucosa colónica; el contenido es un líquido espeso color chocolate",
+     "por": "Los trofozoítos se agrupan en focos con células inflamatorias."
+    },
+    {
+     "t": "Por vía biliar ascendente; contenido purulento amarillo",
+     "por": "Es el absceso piógeno."
+    },
+    {
+     "t": "Por vía arterial; contenido seroso",
+     "por": "No corresponde."
+    },
+    {
+     "t": "Por vía linfática desde el pulmón",
+     "por": "No es el mecanismo descrito."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Patogenia: quiste ingerido, trofozoíto en el colon, úlceras en botón de camisa, invasión portal, granulomas con necrosis de licuefacción.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 25"
+  },
+  {
+   "id": "g-abs-lab_a",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "¿Qué prueba de laboratorio confirma el contacto con la ameba?",
+   "opciones": [
+    {
+     "t": "Anticuerpos antiamebianos (hemaglutinación indirecta, ELISA), positivos desde el 7.º a 10.º día",
+     "por": "ELISA tiene sensibilidad de 95 %."
+    },
+    {
+     "t": "Hemocultivo",
+     "por": "Es positivo en el piógeno."
+    },
+    {
+     "t": "Antígeno carcinoembrionario",
+     "por": "No es una prueba diagnóstica de ameba."
+    },
+    {
+     "t": "Reacción en cadena en sangre",
+     "por": "No se menciona en la lámina."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Laboratorio: leucocitos mayores de 15 000, anemia, fosfatasa alcalina elevada, hipoalbuminemia.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 27"
+  },
+  {
+   "id": "g-abs-trat_a",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "¿Cuál es el tratamiento de elección del absceso hepático amebiano?",
+   "opciones": [
+    {
+     "t": "Metronidazol 750 mg por vía oral cada 8 horas por 7 a 10 días",
+     "por": "Respuesta mayor de 85 %."
+    },
+    {
+     "t": "Ceftriaxona sola",
+     "por": "No cubre E. histolytica."
+    },
+    {
+     "t": "Drenaje quirúrgico siempre",
+     "por": "La mayoría responde al fármaco."
+    },
+    {
+     "t": "Albendazol",
+     "por": "No es el fármaco de elección."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Alternativa: tinidazol 2 g por 3 días. Luego un amebicida luminal (teclozán, paromomicina) por riesgo de recaída de 10 %. Drenaje percutáneo: falla del fármaco, absceso de 40 a 170 mm o lóbulo izquierdo; cirugía si hay ruptura.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 31 a 33"
+  },
+  {
+   "id": "g-abs-caso",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 3,
+   "enunciado": "Varón de 40 años con fiebre de 39 °C y dolor en hipocondrio derecho. ¿Qué datos orientan a absceso amebiano frente a piógeno?",
+   "opciones": [
+    {
+     "t": "Edad menor de 40, viaje a zona endémica, absceso solitario del lóbulo derecho y serología positiva",
+     "por": "Se trata con metronidazol."
+    },
+    {
+     "t": "Edad mayor de 50 y múltiples abscesos",
+     "por": "Orienta a piógeno."
+    },
+    {
+     "t": "Diabetes y hemocultivo positivo",
+     "por": "Orienta a piógeno."
+    },
+    {
+     "t": "Foco biliar",
+     "por": "Orienta a piógeno."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El caso de la lámina 36 pregunta por causas comunes y por el tratamiento del amebiano.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 36 y 41"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "g-abs-c-0",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "f": "Absceso más frecuente",
+   "b": "Piógeno 80 a 90 %; amebiano 5 a 10 %.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 6"
+  },
+  {
+   "id": "g-abs-c-1",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "f": "Vía del piógeno",
+   "b": "Biliar, portal 20 %, arterial, traumática, criptogénica 35 %.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 9"
+  },
+  {
+   "id": "g-abs-c-2",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "f": "Ecografía",
+   "b": "Método de elección; lesión hipoecogénica; sensibilidad 85 a 95 % si >2 cm.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 16"
+  },
+  {
+   "id": "g-abs-c-3",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "f": "Piógeno <3 cm",
+   "b": "Antibióticos solos. Mayor y unilocular: drenaje percutáneo.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 19"
+  },
+  {
+   "id": "g-abs-c-4",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "f": "Amebiano",
+   "b": "Joven, solitario, lóbulo derecho, serología positiva.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 40"
+  },
+  {
+   "id": "g-abs-c-5",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "f": "Contenido amebiano",
+   "b": "Líquido espeso color chocolate.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 25"
+  },
+  {
+   "id": "g-abs-c-6",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "f": "Metronidazol",
+   "b": "750 mg VO cada 8 h por 7 a 10 días.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 32"
+  },
+  {
+   "id": "g-abs-c-7",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "f": "Mortalidad",
+   "b": "Amebiano <5 %; piógeno 10 a 15 %.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 40"
+  }
+ ]
+}

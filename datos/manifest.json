@@ -24,6 +24,9 @@
   "gastro-cirrosis.json",
   "gastro-pancreatitis.json",
   "gastro-via-biliar.json",
-  "gastro-diarrea.json"
+  "gastro-diarrea.json",
+  "gastro-hemorragia.json",
+  "gastro-abscesos.json",
+  "gastro-tbc.json"
  ]
 }

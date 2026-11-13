@@ -1,0 +1,465 @@
+{
+ "preguntas": [
+  {
+   "id": "g-hd-def",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 1,
+   "enunciado": "¿Qué define a una hemorragia digestiva alta (HDA)?",
+   "opciones": [
+    {
+     "t": "Sangrado de una lesión entre el esfínter esofágico superior y el ángulo de Treitz",
+     "por": "Se presenta con hematemesis, melena o hematoquecia."
+    },
+    {
+     "t": "Sangrado distal al ángulo de Treitz",
+     "por": "Es la definición de hemorragia digestiva baja."
+    },
+    {
+     "t": "Sangrado solo de várices esofágicas",
+     "por": "Las várices son una de varias causas."
+    },
+    {
+     "t": "Sangrado solo del ano y recto",
+     "por": "Es la rectorragia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "HDA: incidencia de 61 a 78 por 100 000 adultos; mortalidad 2 a 10 %. Se clasifica en variceal y no variceal. Ángulo de Treitz: unión duodenoyeyunal.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 8 y 9"
+  },
+  {
+   "id": "g-hd-term",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 1,
+   "enunciado": "Heces negras, brillantes, pegajosas y de olor fétido. ¿Cómo se llama y qué sugiere?",
+   "opciones": [
+    {
+     "t": "Melena; suele proceder de tramos altos del tubo digestivo",
+     "por": "Se debe a la sangre degradada por el contenido digestivo."
+    },
+    {
+     "t": "Hematemesis; sangrado alto",
+     "por": "Hematemesis es vómito con sangre."
+    },
+    {
+     "t": "Rectorragia; sangrado del recto",
+     "por": "La rectorragia es sangre roja fresca por el recto."
+    },
+    {
+     "t": "Hematoquecia; sangrado de colon izquierdo",
+     "por": "Son deposiciones con sangre roja fresca."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hematemesis: vómito de sangre roja o en posos de café. Melena: heces negras fétidas. Hematoquecia: sangre roja fresca, que suele ser distal pero también puede ser sangrado alto muy abundante. Rectorragia: sangre roja por el recto. Sangre oculta: anemia, cansancio, ferropenia.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 32"
+  },
+  {
+   "id": "g-hd-causas",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 2,
+   "enunciado": "¿Cuál es la causa más frecuente de HDA?",
+   "opciones": [
+    {
+     "t": "Úlcera péptica (40 %), asociada a H. pylori",
+     "por": "Su mortalidad es menor de 5 %."
+    },
+    {
+     "t": "Hipertensión portal con várices (10 a 20 %)",
+     "por": "Es menos frecuente, pero con mortalidad de 15 a 40 % por sangrado."
+    },
+    {
+     "t": "Anomalías vasculares (7 %)",
+     "por": "Incluyen angiodisplasia y lesión de Dieulafoy."
+    },
+    {
+     "t": "Neoplasias (1 %)",
+     "por": "Son una causa poco frecuente."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Causas de HDA: úlcera péptica 40 %; hipertensión portal 10 a 20 %; anomalías vasculares 7 %; neoplasias 1 %; esofagitis erosiva (ERGE, alcohol).",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 10 a 14"
+  },
+  {
+   "id": "g-hd-var",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 2,
+   "enunciado": "En un paciente cirrótico con sangrado variceal, ¿qué tratamiento endoscópico indica la lámina?",
+   "opciones": [
+    {
+     "t": "Ligadura endoscópica de las várices",
+     "por": "30 % de los cirróticos presenta sangrado variceal."
+    },
+    {
+     "t": "Inhibidor de bomba de protones sin endoscopia",
+     "por": "No trata la causa del sangrado variceal."
+    },
+    {
+     "t": "Argón plasma",
+     "por": "Se usa en angiodisplasia."
+    },
+    {
+     "t": "Hemicolectomía",
+     "por": "Es una cirugía para cáncer de colon."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hipertensión portal: várices esofágicas más que duodenales; mortalidad del sangrado 15 a 40 %. Tratamiento endoscópico con ligaduras.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 10",
+   "nota": "En la práctica real se añaden vasoconstrictores (octreotide) y antibiótico profiláctico; son complementos que la lámina no menciona."
+  },
+  {
+   "id": "g-hd-dieu",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 2,
+   "enunciado": "¿Qué es la lesión de Dieulafoy?",
+   "opciones": [
+    {
+     "t": "Una arteria submucosa gástrica aberrante de gran calibre que puede sangrar",
+     "por": "Pertenece a las anomalías vasculares; la angiodisplasia es la más común."
+    },
+    {
+     "t": "Una úlcera duodenal por H. pylori",
+     "por": "La Dieulafoy no es una úlcera."
+    },
+    {
+     "t": "Una neoplasia gástrica",
+     "por": "No es un tumor."
+    },
+    {
+     "t": "Una várice esofágica",
+     "por": "Se asocia a hipertensión portal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Anomalías vasculares: 7 % de las HDA; angiodisplasia lo más común; Dieulafoy, arteria gástrica submucosa aberrante.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 12"
+  },
+  {
+   "id": "g-hd-neo",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 2,
+   "enunciado": "Hombre con anemia, síndrome consuntivo y síndrome pilórico. ¿Qué causa de HDA es más probable?",
+   "opciones": [
+    {
+     "t": "Neoplasia",
+     "por": "Se asocia a síndromes consuntivo, pilórico y anémico."
+    },
+    {
+     "t": "Úlcera péptica",
+     "por": "No suele dar síndrome consuntivo."
+    },
+    {
+     "t": "Esofagitis erosiva",
+     "por": "Se asocia a ERGE o alcohol."
+    },
+    {
+     "t": "Lesión de Dieulafoy",
+     "por": "Sangra de forma brusca, no con un síndrome consuntivo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Neoplasias: 1 % de HDA; pueden causar obstrucción mecánica.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 13"
+  },
+  {
+   "id": "g-hd-alg",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 3,
+   "enunciado": "Paciente con sospecha de HDA, hemodinámicamente estable. ¿Qué indica el algoritmo?",
+   "opciones": [
+    {
+     "t": "Reposición de volumen, bolo de 80 mg de IBP seguido de 8 mg/h, valorar transfusión restrictiva y endoscopia dentro de 24 horas",
+     "por": "Ante lesión de alto riesgo recidiva (Forrest Ia, Ib, IIa, IIb): tratamiento endoscópico más IBP intravenoso 72 h."
+    },
+    {
+     "t": "Endoscopia a las 72 horas sin IBP",
+     "por": "Debe hacerse en las primeras 24 horas."
+    },
+    {
+     "t": "Transfusión liberal en todos",
+     "por": "Se valora transfusión restrictiva."
+    },
+    {
+     "t": "Dieta e IBP oral sin endoscopia",
+     "por": "Eso se hace solo si la lesión es de bajo riesgo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Si PAS <100 mmHg o FC >100 lat/min: ingreso a UCI y endoscopia inmediata. Eritromicina 250 mg IV 20 a 30 min antes de la endoscopia (opcional). Si falla: embolización arterial o cirugía; si recidiva: repetir endoscopia. IBP = inhibidor de bomba de protones; PAS = presión arterial sistólica; FC = frecuencia cardiaca. Forrest: clasificación endoscópica del riesgo de resangrado de las úlceras.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 15",
+   "contexto": "Clasificación de Forrest: describe la apariencia endoscópica de la úlcera (Ia sangrado en chorro, Ib sangrado en napa, IIa vaso visible, IIb coágulo adherido, IIc mancha plana, III base limpia)."
+  },
+  {
+   "id": "g-hd-hdb",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 1,
+   "enunciado": "¿Cómo se define la hemorragia digestiva baja (HDB)?",
+   "opciones": [
+    {
+     "t": "Sangrado de origen distal al ángulo de Treitz; 95 % se origina en el colon",
+     "por": "Representa 20 % de las hemorragias digestivas."
+    },
+    {
+     "t": "Sangrado proximal al ángulo de Treitz",
+     "por": "Es la HDA."
+    },
+    {
+     "t": "Solo sangrado del ano",
+     "por": "La rectorragia es ano y recto."
+    },
+    {
+     "t": "Siempre sangrado masivo",
+     "por": "No necesariamente."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "HDB: la mortalidad y la morbilidad aumentan con la edad y las comorbilidades.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 17"
+  },
+  {
+   "id": "g-hd-div",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 2,
+   "enunciado": "¿Cuál es la causa más frecuente de HDB?",
+   "opciones": [
+    {
+     "t": "Divertículos: más del 50 % de las HDB, con sangrado abundante e indoloro",
+     "por": "80 % se autolimita; recidiva en 25 %."
+    },
+    {
+     "t": "Hemorroides",
+     "por": "Son 5 a 10 % de las HDB."
+    },
+    {
+     "t": "Colitis isquémica",
+     "por": "Es 20 % de las HDB, en ancianos."
+    },
+    {
+     "t": "Angiodisplasia",
+     "por": "Es 11 % de las HDB."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Diverticulosis presente en 3 a 5 % de los pacientes.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 18"
+  },
+  {
+   "id": "g-hd-angio",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 2,
+   "enunciado": "Mayor de 60 años con episodios recurrentes de sangrado indoloro y lesiones rojas planas en el ciego. ¿Diagnóstico y tratamiento?",
+   "opciones": [
+    {
+     "t": "Angiodisplasia; tratamiento endoscópico con plasma de argón",
+     "por": "Es 11 % de las HDB."
+    },
+    {
+     "t": "Diverticulosis; cirugía",
+     "por": "No produce lesiones planas rojas."
+    },
+    {
+     "t": "Hemorroides internas; ligadura",
+     "por": "No se ven en el ciego."
+    },
+    {
+     "t": "Cáncer de colon; quimioterapia",
+     "por": "Cursa con sangrado silente y cambios del ritmo defecatorio."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Angiodisplasia: lesiones de la mucosa rojas y planas, más en ciego y colon derecho.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 19"
+  },
+  {
+   "id": "g-hd-isq",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 2,
+   "enunciado": "Anciano con hematoquecia por menor flujo mesentérico en el colon. ¿Qué diagnóstico corresponde?",
+   "opciones": [
+    {
+     "t": "Colitis isquémica",
+     "por": "Representa 20 % de las HDB; puede afectar áreas extensas."
+    },
+    {
+     "t": "Hemorroides",
+     "por": "Producen rectorragia asociada a la evacuación."
+    },
+    {
+     "t": "Colitis infecciosa",
+     "por": "Cursa con fiebre y diarrea disentérica."
+    },
+    {
+     "t": "Enteropatía por radiación",
+     "por": "Ocurre en 2 a 20 % de los pacientes irradiados."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Imagen: angiografía mesentérica.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 23"
+  },
+  {
+   "id": "g-hd-hem",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 1,
+   "enunciado": "¿Cuál de estas afirmaciones sobre hemorroides es correcta?",
+   "opciones": [
+    {
+     "t": "Las internas son indoloras y las externas dolorosas",
+     "por": "Son 5 a 10 % de las HDB."
+    },
+    {
+     "t": "Las internas son dolorosas",
+     "por": "Son indoloras."
+    },
+    {
+     "t": "Son la causa principal de HDB",
+     "por": "Los divertículos son la principal."
+    },
+    {
+     "t": "Causan melena",
+     "por": "Producen rectorragia (sangre roja fresca)."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Sangrado asociado al ritmo evacuatorio.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 22"
+  },
+  {
+   "id": "g-hd-trat",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 3,
+   "enunciado": "¿Qué indica la lámina sobre el manejo endoscópico de la HDB?",
+   "opciones": [
+    {
+     "t": "Se hace en las primeras 24 horas tras preparación con PEG, en el paciente estable, con precisión de 74 a 82 %",
+     "por": "Las terapias incluyen adrenalina, coagulación térmica, endoclips y plasma de argón."
+    },
+    {
+     "t": "Colonoscopia inmediata sin preparación",
+     "por": "La preparación con PEG (polietilenglicol) mejora la visualización."
+    },
+    {
+     "t": "Siempre cirugía de primera línea",
+     "por": "La cirugía se reserva para fallo endoscópico."
+    },
+    {
+     "t": "Se tranquiliza y se envía a casa",
+     "por": "No está indicado ante hemorragia importante."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Angio-TC: no invasiva, rápida, detecta sangrados de 0,3 a 0,5 ml/min, sensibilidad 85 %. Cirugía: fallo endoscópico, mayor morbilidad y mortalidad.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 25 y 26"
+  },
+  {
+   "id": "g-hd-caso",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "dif": 3,
+   "enunciado": "Mujer de 72 años con hemorragia rectal importante la misma noche de una polipectomía, hemodinámicamente estable. ¿Siguiente paso?",
+   "opciones": [
+    {
+     "t": "Colonoscopia al día siguiente tras preparación nocturna con PEG",
+     "por": "Es la opción (a) del caso."
+    },
+    {
+     "t": "Colonoscopia esa misma noche sin PEG",
+     "por": "Sin preparación no se visualiza bien."
+    },
+    {
+     "t": "Gammagrafía con radionúclidos",
+     "por": "No es la opción de primera línea."
+    },
+    {
+     "t": "Tranquilizar y enviar a casa",
+     "por": "Tiene hemorragia importante."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Caso de reflexión y de aplicación.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 3 y 29",
+   "nota": "La lámina no marca la respuesta correcta; la respuesta (a) se deduce de la lámina 26."
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "g-hd-c-0",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "f": "Definición de HDA",
+   "b": "Entre esfínter esofágico superior y ángulo de Treitz.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 8"
+  },
+  {
+   "id": "g-hd-c-1",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "f": "Causas de HDA",
+   "b": "Úlcera 40 %; várices 10 a 20 %; vasculares 7 %; neoplasias 1 %.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 10"
+  },
+  {
+   "id": "g-hd-c-2",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "f": "Tratamiento variceal",
+   "b": "Endoscópico con ligaduras.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 10"
+  },
+  {
+   "id": "g-hd-c-3",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "f": "Algoritmo de HDA",
+   "b": "Reposición, IBP 80 mg + 8 mg/h, transfusión restrictiva, endoscopia en 24 h.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 15"
+  },
+  {
+   "id": "g-hd-c-4",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "f": "HDB",
+   "b": "Distal al Treitz; 95 % en colon. La principal causa es diverticulosis.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 17"
+  },
+  {
+   "id": "g-hd-c-5",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "f": "Angiodisplasia",
+   "b": "Mayor de 60 años, lesiones rojas planas en ciego; plasma de argón.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 19"
+  },
+  {
+   "id": "g-hd-c-6",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "f": "Colitis isquémica",
+   "b": "Anciano con hematoquecia; angiografía mesentérica.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 23"
+  },
+  {
+   "id": "g-hd-c-7",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva alta y baja",
+   "f": "Manejo de HDB",
+   "b": "Colonoscopia en 24 h con PEG; angio-TC; cirugía si falla.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 26"
+  }
+ ]
+}
