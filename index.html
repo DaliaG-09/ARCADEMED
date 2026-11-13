@@ -136,6 +136,13 @@ h1,h2,h3{font-weight:400;line-height:1.55;letter-spacing:0}
 @media (max-width:480px){.actions{grid-template-columns:1fr}}
 .case{font-size:15px;font-weight:500;line-height:1.55;margin:4px 0 12px}
 .ctx{font-size:13.5px}
+.catbox{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.catbox svg{flex:none;animation:catpop .45s cubic-bezier(.3,1.6,.5,1) both}
+.bubble{position:relative;border:3px solid var(--ink);border-radius:12px;background:#fff;padding:8px 12px;font-weight:800;font-size:15px;box-shadow:3px 3px 0 var(--ink)}
+.bubble:before{content:'';position:absolute;left:-10px;top:50%;margin-top:-7px;border:7px solid transparent;border-right-color:var(--ink);border-left:0}
+.fb.ok .bubble{color:var(--good)} .fb.bad .bubble{color:var(--bad)}
+@keyframes catpop{from{transform:translateY(14px) scale(.6);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.catbox svg{animation:none}}
 </style>
 </head>
 <body>
@@ -258,6 +265,21 @@ function px(rows, color, s){
 }
 const HEART = ['.XX.XX.','XXXXXXX','XXXXXXX','.XXXXX.','..XXX..','...X...'];
 const heart = full => px(HEART, full ? 'var(--bad)' : '#d9d2bd', 4);
+
+const CAT_COL = {K:'#1a1a1a', O:'#ff9f43', P:'#ff5fa2', B:'#4cc3ff'};
+function catSvg(mood, sz){
+  const r = ['.KK........KK.','.KPK......KPK.','.KPOKKKKKKOPK.','.KOOOOOOOOOOK.','KOOOOOOOOOOOOK','KOOOOOOOOOOOOK','KOOOOOOOOOOOOK','KOOOOOPPOOOOOK','KOOOOOOOOOOOOK','.KOOOOOOOOOOK.','..KKKKKKKKKK..'].map(x => x.split(''));
+  const set = (y, xs, c) => xs.forEach(x => r[y][x] = c);
+  if(mood === 'ok'){ set(5,[3,4,9,10],'K'); set(8,[5,8],'K'); set(9,[6,7],'K'); }
+  else { set(5,[3,10],'K'); set(6,[3,10],'K'); set(7,[3,10],'B'); set(8,[6,7],'K'); set(9,[5,8],'K'); }
+  let o = '';
+  r.forEach((row, y) => row.forEach((ch, x) => { if(CAT_COL[ch]) o += '<rect x="'+x+'" y="'+y+'" width="1" height="1" fill="'+CAT_COL[ch]+'"/>'; }));
+  return '<svg viewBox="0 0 14 11" width="'+(14*sz)+'" height="'+(11*sz)+'" shape-rendering="crispEdges" role="img" aria-label="'+(mood === 'ok' ? 'Gatito feliz' : 'Gatito triste')+'">'+o+'</svg>';
+}
+const CAT_OK = ['¡Miau-ravilloso!','¡Bien hecho, doctora!','¡Purr-fecto!','¡Eso, eso!','¡Así se hace!','¡Ronroneo de orgullo!'];
+const CAT_BAD = ['Miau... ¡vamos otra vez!','Tranqui, así se aprende.','Casi, ¡la próxima sale!','Lee la explicación y a la siguiente.','Ay... ¡tú puedes!'];
+const catPick = a => a[Math.floor(Math.random()*a.length)];
+function catBox(mood, msg, sz){ return '<div class="catbox">'+catSvg(mood, sz || 6)+'<div class="bubble">'+esc(msg)+'</div></div>'; }
 const segs = (pct, n, cls) => '<div class="segs '+(cls||'')+'">' + Array.from({length:n}, (_, i) => '<i class="'+(i < Math.round(pct*n) ? 'on' : '')+'"></i>').join('') + '</div>';
 
 /* ---------- repetición espaciada (flashcards) ---------- */
@@ -336,7 +358,7 @@ function vPlay(){
   let fb = '';
   if(V.answered){
     const ok = V.opts[V.picked].ok;
-    fb = '<div class="fb '+(ok ? 'ok' : 'bad')+'"><h3>'+(ok ? '¡CORRECTO! +'+V.lastXp+' XP' : 'FALLASTE')+'</h3>'+
+    fb = '<div class="fb '+(ok ? 'ok' : 'bad')+'">'+catBox(ok ? 'ok' : 'bad', V.catMsg || '')+'<h3>'+(ok ? '¡CORRECTO! +'+V.lastXp+' XP' : 'FALLASTE')+'</h3>'+
       '<p>'+nl(q.explicacion || '')+'</p>'+
       (q.nota ? '<p class="note"><b>Para tu práctica, no para el examen:</b> '+nl(q.nota)+'</p>' : '')+
       '<p class="src">Fuente: '+esc(q.fuente || 'sin fuente indicada')+'</p></div>'+
@@ -364,6 +386,7 @@ function vResult(){
   const lvUp = level(S.xp) > V.lvStart;
   return '<div class="stack">'+
     '<div class="panel" style="text-align:center"><p class="label">'+(V.dead ? 'SIN VIDAS' : 'RONDA COMPLETA')+'</p>'+
+      '<div style="display:flex;justify-content:center">'+catBox((V.dead || acc < 50) ? 'bad' : 'ok', V.dead ? '¡Perdimos, pero repasamos y volvemos!' : (acc >= 80 ? '¡Ganaste! ¡Miau-ravilloso!' : acc >= 50 ? '¡Buena ronda! Repasa las falladas.' : 'Ánimo, repasa y vuelve a intentar.'), 5)+'</div>'+
       '<div class="big">'+V.ok+' / '+V.answeredN+'</div>'+
       '<p class="sub">'+acc+'% de aciertos · mejor combo x'+V.maxCombo+'</p>'+
       '<p style="font-family:var(--display);font-size:16px;color:var(--ink);margin:14px 0 4px">+<span id="xpcount" data-t="'+V.xp+'">'+V.xp+'</span> XP</p>'+
@@ -457,6 +480,7 @@ function pick(i){
     st.bad++; st.streak = 0; V.combo = 0; V.lastXp = 0; V.fails.push(q.id);
     if(V.modo === 'boss') V.lives--;
   }
+  V.catMsg = o.ok ? (V.combo >= 3 ? '¡Racha de '+V.combo+'! ¡Miau-gnífico!' : catPick(CAT_OK)) : (V.modo === 'boss' && V.lives <= 0 ? 'Se acabaron las vidas... ¡a la revancha!' : catPick(CAT_BAD));
   S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; markDay(); save(); render();
 }
 function next(){
