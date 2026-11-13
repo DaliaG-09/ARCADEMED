@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ArcadeMed</title>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#ffd93b">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="ArcadeMed">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* Plan: póster pop con tipografía de videojuego (Press Start 2P para títulos y cifras, Outfit para leer). Fondo amarillo fuerte, tarjetas blancas con borde negro y sombra dura, pegatinas rosa.
+   Tipografía gruesa en mayúsculas para títulos. Una columna, pensada para celular. */
+:root{
+  --bg:#ffd93b; --panel:#ffffff; --panel2:#ffffff; --line:#14110f; --shade:#14110f; --ink:#14110f;
+  --text:#14110f; --mut:#4f4638; --pink:#ff5fa2; --gold:var(--ink);
+  --good:#008f4c; --bad:#e02a1f; --nefro:#1d5fe0; --gastro:#c85f00; --derma:#a02ee0;
+  --display:"Press Start 2P", ui-monospace, monospace; --body:"Outfit", system-ui, sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:16px;line-height:1.5}
+body{min-height:100%;background:radial-gradient(rgba(20,17,15,.13) 1.6px, transparent 1.8px) 0 0/22px 22px, var(--bg)}
+#app{max-width:720px;margin:0 auto;padding:22px 16px 72px}
+h1,h2,h3{margin:0;font-family:var(--display);font-weight:800;line-height:1.1;text-wrap:balance;text-transform:uppercase;letter-spacing:-.01em}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,textarea:focus-visible{outline:4px solid var(--ink);outline-offset:3px}
+.logo{font-size:56px;font-weight:800;line-height:.95;text-shadow:3px 3px 0 #fff}
+.logo .six{display:inline-block;background:var(--pink);border:3px solid var(--ink);border-radius:14px;padding:0 .2em;margin-left:.15em;transform:rotate(5deg);box-shadow:4px 4px 0 var(--ink);text-shadow:none}
+.sub{color:var(--ink);font-size:15px;margin:12px 0 0;font-weight:600}
+.panel{background:var(--panel);border:3px solid var(--ink);border-radius:16px;padding:16px;box-shadow:6px 6px 0 var(--ink)}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.grow{flex:1 1 auto}
+.stack{display:flex;flex-direction:column;gap:18px}
+.btn{background:#fff;border:3px solid var(--ink);border-radius:12px;padding:10px 16px;font-weight:800;box-shadow:4px 4px 0 var(--ink);transition:transform .06s, box-shadow .06s}
+.btn:hover{background:#fff6bd}
+.btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--ink)}
+.btn.gold{background:var(--pink);color:var(--ink)}
+.btn.gold:hover{background:#ff79b3}
+.btn.ghost{background:transparent;box-shadow:none;border-color:transparent;text-decoration:underline;text-underline-offset:3px}
+.btn.small{padding:6px 12px;font-size:14px;box-shadow:3px 3px 0 var(--ink)}
+.btn.ghost.small{box-shadow:none}
+.btn[disabled]{opacity:.45;cursor:not-allowed;box-shadow:none}
+.pill{display:inline-block;font-size:12px;font-weight:800;text-transform:uppercase;padding:2px 10px;border-radius:99px;border:3px solid currentColor;background:#fff}
+.demo{color:var(--ink);font-size:11px;border:2px dashed var(--ink);padding:1px 7px;border-radius:6px;font-weight:800}
+.lvl{font-family:var(--display);font-weight:800;font-size:14px;background:var(--ink);color:var(--bg);padding:3px 11px;border-radius:8px;text-transform:uppercase}
+.segs{display:flex;gap:3px;margin-top:8px}
+.segs i{flex:1;height:16px;background:#fff;border:2px solid var(--ink);border-radius:4px}
+.segs i.on{background:var(--pink)}
+.segs.good i.on{background:#19d27f}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px;text-align:center}
+.stats b{display:block;font-family:var(--display);font-weight:800;font-size:28px}
+.stats span{font-size:12px;font-weight:700}
+.worlds{display:grid;gap:16px}
+.world{border-left-width:14px;display:flex;flex-direction:column;gap:8px}
+.world h3{font-size:22px}
+.actions{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.act{text-align:left;display:flex;flex-direction:column;gap:3px;padding:14px}
+.act b{font-family:var(--display);font-weight:800;font-size:19px;text-transform:uppercase}
+.act span{color:var(--mut);font-size:13.5px;font-weight:500}
+.gold span{color:var(--ink)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{background:#fff;border:3px solid var(--ink);border-radius:10px;padding:6px 13px;font-weight:700;font-size:14px;box-shadow:3px 3px 0 var(--ink)}
+.chip.on{background:var(--pink)}
+.label{font-family:var(--display);font-weight:800;font-size:15px;text-transform:uppercase;letter-spacing:.08em;margin:0 0 8px;display:inline-block;background:var(--ink);color:var(--bg);padding:2px 10px;border-radius:6px}
+.hud{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.hud .grow{min-width:120px}
+.hearts{display:flex;gap:4px}
+.combo{font-family:var(--display);font-weight:800;font-size:22px;color:var(--ink);background:var(--pink);border:3px solid var(--ink);border-radius:10px;padding:0 8px;min-width:0}
+.combo:empty{display:none}
+.ctx{background:#fff3a8;border:3px solid var(--ink);border-radius:10px;padding:9px 12px;font-size:14px;margin-bottom:12px;font-weight:500}
+.q{font-size:19px;font-weight:700;margin:6px 0 14px;text-wrap:pretty}
+.qimg{max-width:100%;border-radius:12px;border:3px solid var(--ink);margin-bottom:12px}
+.opts{display:flex;flex-direction:column;gap:12px}
+.opt{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;background:#fff;border:3px solid var(--ink);border-radius:12px;padding:10px 12px;box-shadow:4px 4px 0 var(--ink);font-weight:600}
+.opt:not([disabled]):hover{background:#fff6bd}
+.opt .k{font-family:var(--display);font-weight:800;font-size:15px;background:var(--ink);color:#fff;border-radius:7px;padding:1px 9px;flex:none}
+.opt .why{display:block;font-size:13.5px;margin-top:5px;font-weight:500}
+.opt.ok{background:#aef2cd}
+.opt.bad{background:#ffb8b0;animation:shake .35s}
+.opt.dim{opacity:.55}
+.opt[disabled]{cursor:default}
+.fb{margin-top:18px;border-radius:12px;border:3px solid var(--ink);padding:14px;background:#f4f0e4}
+.fb h3{font-size:20px;margin-bottom:8px}
+.fb.ok h3{color:var(--good)} .fb.bad h3{color:var(--bad)}
+.fb p{margin:6px 0}
+.src{font-size:13px;color:var(--mut);font-weight:600}
+.note{border-left:5px solid var(--derma);padding-left:10px;font-size:14px}
+.big{font-family:var(--display);font-weight:800;font-size:68px;line-height:1;margin:8px 0;text-shadow:4px 4px 0 var(--pink)}
+.res-list{display:flex;flex-direction:column;gap:12px;margin-top:10px}
+.res-item{background:#fff;border:3px solid var(--ink);border-radius:12px;padding:10px 12px;font-size:14px;box-shadow:4px 4px 0 var(--ink)}
+.res-item b{color:var(--good);font-weight:800}
+.card{min-height:240px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:10px;cursor:pointer;padding:24px 18px;user-select:none}
+.card .side{font-family:var(--display);font-weight:800;font-size:13px;letter-spacing:.12em}
+.card .txt{font-size:23px;font-weight:700;text-wrap:balance}
+.card.back{background:var(--pink)}
+.rates{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}
+.rate{padding:9px 4px;font-size:14px;display:flex;flex-direction:column;gap:2px;align-items:center}
+.rate small{font-size:11px;color:var(--mut);font-weight:600}
+textarea{width:100%;min-height:130px;background:#fff;color:var(--text);border:3px solid var(--ink);border-radius:12px;padding:10px;font:13px ui-monospace,monospace}
+.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:12px;font-weight:800;z-index:9;max-width:90%}
+.foot{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media (max-width:420px){.logo{font-size:42px}.rates{grid-template-columns:repeat(2,1fr)}.big{font-size:52px}}
+
+/* Ajustes para la tipografía de pixeles: un solo peso, más ancha, tamaños menores */
+h1,h2,h3{font-weight:400;line-height:1.55;letter-spacing:0}
+.logo{font-size:26px;font-weight:400;line-height:1.6}
+.logo .six{padding:0 .2em;margin-left:.3em}
+.lvl{font-weight:400;font-size:11px}
+.stats b{font-weight:400;font-size:16px;line-height:1.6}
+.world h3{font-size:14px}
+.act b{font-weight:400;font-size:12px;line-height:1.6}
+.label{font-weight:400;font-size:10px;letter-spacing:.04em;line-height:1.8}
+.combo{font-weight:400;font-size:12px;padding:4px 8px}
+.fb h3{font-size:13px;line-height:1.6}
+.big{font-weight:400;font-size:40px;line-height:1.3;text-shadow:4px 4px 0 var(--pink)}
+.opt .k{font-weight:400;font-size:11px;padding:5px 7px}
+.card .side{font-weight:400;font-size:10px;letter-spacing:.06em}
+.card .txt{font-size:21px}
+@media (max-width:420px){.logo{font-size:19px}.big{font-size:30px}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<script id="banco" type="application/json">
+{
+"areas":[
+ {"id":"nefro","n":"Nefrología","c":"var(--nefro)"},
+ {"id":"gastro","n":"Gastroenterología","c":"var(--gastro)"},
+ {"id":"derma","n":"Dermatología","c":"var(--derma)"}
+],
+"preguntas":[
+ {"id":"demo-n1","area":"nefro","tema":"Enfermedad renal crónica","demo":true,
+  "contexto":"Estadios de ERC (enfermedad renal crónica): se clasifican según la TFG (tasa de filtrado glomerular) y sirven para estimar gravedad y decidir seguimiento. Se usan cuando la alteración renal dura más de 3 meses.",
+  "enunciado":"Un paciente tiene una TFG de 22 mL/min/1.73 m² sostenida por más de 3 meses. ¿Qué estadio de ERC corresponde según KDIGO?",
+  "opciones":[
+   {"t":"G2","por":"G2 es TFG de 60 a 89."},
+   {"t":"G3b","por":"G3b es TFG de 30 a 44."},
+   {"t":"G4","por":"G4 es TFG de 15 a 29, donde cae 22."},
+   {"t":"G5","por":"G5 es TFG menor de 15."}],
+  "correcta":2,"explicacion":"Con 22 mL/min/1.73 m² el paciente está en G4 (disminución grave, 15 a 29).","fuente":"DEMO: reemplazar con tu PPT"},
+ {"id":"demo-n2","area":"nefro","tema":"Síndromes glomerulares","demo":true,
+  "enunciado":"Una paciente adulta tiene edema, hipoalbuminemia, hiperlipidemia y proteinuria de 5 g en 24 horas. ¿Qué síndrome describe este cuadro?",
+  "opciones":[
+   {"t":"Síndrome nefrótico","por":"Proteinuria mayor de 3.5 g/24 h con hipoalbuminemia, edema e hiperlipidemia."},
+   {"t":"Síndrome nefrítico","por":"Se caracteriza por hematuria, hipertensión y caída de la TFG, con proteinuria menor."},
+   {"t":"Síndrome urémico","por":"Es la expresión clínica de la insuficiencia renal avanzada."},
+   {"t":"Necrosis tubular aguda","por":"Es una causa de lesión renal aguda, no un síndrome de proteinuria masiva."}],
+  "correcta":0,"explicacion":"La tétrada de proteinuria en rango nefrótico, hipoalbuminemia, edema e hiperlipidemia define el síndrome nefrótico.","fuente":"DEMO: reemplazar con tu PPT"},
+ {"id":"demo-g1","area":"gastro","tema":"Cirrosis","demo":true,
+  "contexto":"Child-Pugh: puntaje de gravedad de la cirrosis (bilirrubina, albúmina, INR, ascitis y encefalopatía). Se usa para estimar pronóstico y riesgo quirúrgico. A: 5 a 6 puntos, B: 7 a 9, C: 10 a 15.",
+  "enunciado":"Un paciente cirrótico suma 8 puntos en la escala de Child-Pugh. ¿A qué clase pertenece?",
+  "opciones":[
+   {"t":"Clase A","por":"La clase A va de 5 a 6 puntos."},
+   {"t":"Clase B","por":"La clase B va de 7 a 9 puntos, donde cae 8."},
+   {"t":"Clase C","por":"La clase C va de 10 a 15 puntos."},
+   {"t":"No se puede clasificar","por":"El puntaje total alcanza para asignar la clase."}],
+  "correcta":1,"explicacion":"8 puntos corresponde a Child-Pugh B (compromiso funcional significativo).","fuente":"DEMO: reemplazar con tu PPT"},
+ {"id":"demo-g2","area":"gastro","tema":"Enfermedad ulcerosa péptica","demo":true,
+  "enunciado":"¿Cuál es la causa más frecuente de úlcera péptica duodenal?",
+  "opciones":[
+   {"t":"Helicobacter pylori","por":"Es la causa más frecuente de úlcera duodenal."},
+   {"t":"AINEs (antiinflamatorios no esteroideos)","por":"Son la segunda causa más común, importante sobre todo en la úlcera gástrica."},
+   {"t":"Síndrome de Zollinger-Ellison","por":"Es una causa rara, por gastrinoma."},
+   {"t":"Estrés fisiológico","por":"Se asocia a úlceras de estrés en pacientes críticos, no es la causa habitual."}],
+  "correcta":0,"explicacion":"H. pylori es la causa más frecuente de úlcera duodenal; por eso se busca y se erradica.","fuente":"DEMO: reemplazar con tu PPT",
+  "nota":"Verifica en tu PPT qué porcentaje cita tu profesora."},
+ {"id":"demo-d1","area":"derma","tema":"Lesiones pigmentadas","demo":true,
+  "contexto":"Regla ABCDE: criterios para sospechar melanoma en un lunar. A asimetría, B bordes irregulares, C color variado, D diámetro, E evolución.",
+  "enunciado":"En la regla ABCDE para sospechar melanoma, ¿qué indica la letra D?",
+  "opciones":[
+   {"t":"Diámetro mayor de 6 mm","por":"Un diámetro mayor de 6 mm aumenta la sospecha."},
+   {"t":"Dolor espontáneo","por":"El dolor no forma parte de la regla."},
+   {"t":"Descamación","por":"La descamación no es criterio de la regla."},
+   {"t":"Distribución en zonas fotoexpuestas","por":"Es un dato de contexto, no la D de la regla."}],
+  "correcta":0,"explicacion":"La D es de diámetro: más de 6 mm. La E (evolución) es el criterio con más peso clínico.","fuente":"DEMO: reemplazar con tu PPT"},
+ {"id":"demo-d2","area":"derma","tema":"Lesiones elementales","demo":true,
+  "enunciado":"¿Cómo se llama la lesión elevada, circunscrita y sólida, de menos de 1 cm?",
+  "opciones":[
+   {"t":"Mácula","por":"Es plana, solo cambia el color de la piel."},
+   {"t":"Pápula","por":"Es elevada, sólida y menor de 1 cm."},
+   {"t":"Placa","por":"Es elevada y sólida, pero de 1 cm o más."},
+   {"t":"Vesícula","por":"Es elevada pero contiene líquido, menor de 1 cm."}],
+  "correcta":1,"explicacion":"Pápula: elevada, sólida, menor de 1 cm. Si pasa de 1 cm pasa a ser placa o nódulo.","fuente":"DEMO: reemplazar con tu PPT"}
+],
+"tarjetas":[
+ {"id":"demo-tn1","area":"nefro","tema":"Enfermedad renal crónica","f":"¿Qué TFG define el estadio G5 de ERC?","b":"Menor de 15 mL/min/1.73 m² (falla renal).","demo":true},
+ {"id":"demo-tn2","area":"nefro","tema":"Síndromes glomerulares","f":"Proteinuria en rango nefrótico en adultos","b":"Más de 3.5 g en 24 horas.","demo":true},
+ {"id":"demo-tg1","area":"gastro","tema":"Cirrosis","f":"Puntaje de Child-Pugh por clase","b":"A: 5 a 6. B: 7 a 9. C: 10 a 15.","demo":true},
+ {"id":"demo-tg2","area":"gastro","tema":"Enfermedad ulcerosa péptica","f":"Causa más frecuente de úlcera duodenal","b":"Helicobacter pylori.","demo":true},
+ {"id":"demo-td1","area":"derma","tema":"Lesiones pigmentadas","f":"Regla ABCDE del melanoma","b":"Asimetría, Bordes irregulares, Color variado, Diámetro mayor de 6 mm, Evolución.","demo":true},
+ {"id":"demo-td2","area":"derma","tema":"Lesiones elementales","f":"Diferencia entre pápula y placa","b":"Ambas son elevadas y sólidas. Pápula menor de 1 cm, placa de 1 cm o más.","demo":true}
+]
+}
+</script>
+
+<script>
+(function(){
+const BANCO = JSON.parse(document.getElementById('banco').textContent);
+const AREAS = BANCO.areas;
+const KEY = 'arcade-c6-v1';
+const RANKS = ['Ciclo básico','Internado','Residente','Asistente','Jefe de servicio','Catedrático'];
+
+/* ---------- estado y guardado ---------- */
+let mem = null;
+function fresh(){ return {xp:0, days:[], q:{}, c:{}, custom:{preguntas:[], tarjetas:[]}}; }
+function load(){
+  try{ const r = localStorage.getItem(KEY); if(r){ const o = JSON.parse(r); return Object.assign(fresh(), o); } }catch(e){}
+  return mem || fresh();
+}
+let S = load();
+function save(){ mem = S; try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
+
+/* ---------- utilidades ---------- */
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const shuffle = a => { a = a.slice(); for(let i=a.length-1;i>0;i--){ const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]] = [a[j],a[i]]; } return a; };
+const areaOf = id => AREAS.find(a => a.id === id) || AREAS[0];
+const today = () => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
+function allQ(){ const m = new Map(); BANCO.preguntas.concat(S.custom.preguntas).forEach(q => m.set(q.id, q)); return [...m.values()]; }
+function allC(){ const m = new Map(); BANCO.tarjetas.concat(S.custom.tarjetas).forEach(c => m.set(c.id, c)); return [...m.values()]; }
+const level = xp => 1 + Math.floor(Math.sqrt(xp/40));
+const xpFor = l => 40*(l-1)*(l-1);
+const isFallada = q => { const s = S.q[q.id]; return !!s && s.bad > 0 && s.streak < 2; };
+const isDominada = q => { const s = S.q[q.id]; return !!s && s.streak >= 2; };
+function dayStreak(){
+  const set = new Set(S.days); let n = 0; const d = new Date();
+  const f = x => x.getFullYear()+'-'+String(x.getMonth()+1).padStart(2,'0')+'-'+String(x.getDate()).padStart(2,'0');
+  if(!set.has(f(d))) d.setDate(d.getDate()-1);
+  while(set.has(f(d))){ n++; d.setDate(d.getDate()-1); }
+  return n;
+}
+function markDay(){ const t = today(); if(!S.days.includes(t)){ S.days.push(t); S.days = S.days.slice(-400); } }
+function toast(msg){ const t = document.createElement('div'); t.className = 'toast'; t.textContent = msg; document.body.appendChild(t); setTimeout(() => t.remove(), 2600); }
+
+function px(rows, color, s){
+  let r = ''; rows.forEach((row, y) => [...row].forEach((ch, x) => { if(ch === 'X') r += '<rect x="'+x+'" y="'+y+'" width="1" height="1"/>'; }));
+  return '<svg viewBox="0 0 '+rows[0].length+' '+rows.length+'" width="'+(rows[0].length*s)+'" height="'+(rows.length*s)+'" fill="'+color+'" shape-rendering="crispEdges" aria-hidden="true">'+r+'</svg>';
+}
+const HEART = ['.XX.XX.','XXXXXXX','XXXXXXX','.XXXXX.','..XXX..','...X...'];
+const heart = full => px(HEART, full ? 'var(--bad)' : '#d9d2bd', 4);
+const segs = (pct, n, cls) => '<div class="segs '+(cls||'')+'">' + Array.from({length:n}, (_, i) => '<i class="'+(i < Math.round(pct*n) ? 'on' : '')+'"></i>').join('') + '</div>';
+
+/* ---------- repetición espaciada (flashcards) ---------- */
+function sched(c, r){
+  let ef = c ? c.ef : 2.5, it = c ? c.int : 0, reps = c ? c.reps : 0, due;
+  if(r === 'again'){ reps = 0; it = 0; ef = Math.max(1.3, ef-0.2); due = Date.now() + 10*60000; return {ef, int:it, reps, due, label:'10 min'}; }
+  if(r === 'hard'){ it = Math.max(1, Math.round((it||1)*1.2)); ef = Math.max(1.3, ef-0.15); reps++; }
+  if(r === 'good'){ reps++; it = reps === 1 ? 1 : reps === 2 ? 3 : Math.round(it*ef); }
+  if(r === 'easy'){ reps++; it = reps === 1 ? 3 : reps === 2 ? 6 : Math.round(it*ef*1.3); ef += 0.1; }
+  due = Date.now() + it*864e5;
+  return {ef, int:it, reps, due, label: it + (it === 1 ? ' día' : ' días')};
+}
+const dueCards = () => allC().filter(c => !S.c[c.id] || S.c[c.id].due <= Date.now());
+
+/* ---------- navegación ---------- */
+let V = {name:'home'};
+function go(v){ V = v; render(); window.scrollTo(0,0); }
+
+/* ---------- vistas ---------- */
+function vHome(){
+  const lv = level(S.xp), cur = xpFor(lv), nxt = xpFor(lv+1), pct = (S.xp-cur)/(nxt-cur);
+  const qs = allQ(), nFall = qs.filter(isFallada).length, nDue = dueCards().length;
+  const dom = qs.filter(isDominada).length, vistas = qs.filter(q => S.q[q.id]).length;
+  const worlds = AREAS.map(a => {
+    const aq = qs.filter(q => q.area === a.id), ad = aq.filter(isDominada).length;
+    const temas = new Set(aq.map(q => q.tema)).size;
+    return '<div class="panel world" style="border-left-color:'+a.c+'">'+
+      '<div class="row"><h3 class="grow" style="color:'+a.c+'">'+esc(a.n)+'</h3><span class="src">'+aq.length+' preguntas · '+temas+' temas</span></div>'+
+      segs(aq.length ? ad/aq.length : 0, 16, 'good')+
+      '<div class="row"><span class="src grow">'+ad+' dominadas de '+aq.length+'</span><button class="btn small gold" data-act="setup" data-area="'+a.id+'">Jugar</button></div></div>';
+  }).join('');
+  return '<div class="stack">'+
+    '<header><h1 class="logo">Arcade<span class="six">Med</span></h1><p class="sub">Continua 6 · Nefrología · Gastroenterología · Dermatología</p></header>'+
+    '<div class="panel"><div class="row"><span class="lvl">NIVEL '+lv+'</span><span class="grow" style="font-weight:600">'+RANKS[Math.min(lv-1, RANKS.length-1)]+'</span><span class="src">'+(S.xp-cur)+' / '+(nxt-cur)+' XP</span></div>'+
+    segs(pct, 20)+
+    '<div class="stats"><div><b>'+S.xp+'</b><span>XP total</span></div><div><b>'+dayStreak()+'</b><span>días de racha</span></div><div><b>'+dom+'/'+qs.length+'</b><span>dominadas</span></div></div></div>'+
+    '<div><p class="label">MODOS</p><div class="actions">'+
+      '<button class="btn act gold" data-act="quick"><b>RONDA RÁPIDA</b><span>10 preguntas mezcladas, con vidas</span></button>'+
+      '<button class="btn act" data-act="setup" data-area="all"><b>RONDA A MEDIDA</b><span>Elige área, tema y cantidad</span></button>'+
+      '<button class="btn act" data-act="falladas" '+(nFall ? '' : 'disabled')+'><b>REPASAR FALLADAS</b><span>'+nFall+' por dominar (necesitas 2 aciertos seguidos)</span></button>'+
+      '<button class="btn act" data-act="cards"><b>FLASHCARDS</b><span>'+nDue+' por repasar hoy, repetición espaciada</span></button>'+
+    '</div></div>'+
+    '<div><p class="label">MUNDOS</p><div class="worlds">'+worlds+'</div></div>'+
+    '<p class="src">Has visto '+vistas+' de '+qs.length+' preguntas. Las marcadas DEMO son de prueba: se reemplazan con las de tus PPT.</p>'+
+    '<div class="foot"><button class="btn small ghost" data-act="backup">Respaldo del progreso</button><button class="btn small ghost" data-act="import">Cargar preguntas</button></div>'+
+  '</div>';
+}
+
+function vSetup(){
+  const qs = allQ();
+  const temas = [...new Set(qs.filter(q => V.area === 'all' || q.area === V.area).map(q => q.tema))];
+  const chip = (act, key, val, label) => '<button class="chip '+(V[key] === val ? 'on' : '')+'" data-act="'+act+'" data-k="'+key+'" data-v="'+esc(val)+'">'+esc(label)+'</button>';
+  return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button></div>'+
+   '<h2 style="font-size:15px">RONDA A MEDIDA</h2>'+
+   '<div class="panel stack">'+
+    '<div><p class="label">ÁREA</p><div class="chips">'+chip('opt','area','all','Todas')+AREAS.map(a => chip('opt','area',a.id,a.n)).join('')+'</div></div>'+
+    '<div><p class="label">TEMA</p><div class="chips">'+chip('opt','tema','all','Todos')+temas.map(t => chip('opt','tema',t,t)).join('')+'</div></div>'+
+    '<div><p class="label">PREGUNTAS</p><div class="chips">'+[10,20,50,100].map(n => chip('opt','n',String(n),String(n))).join('')+chip('opt','n','0','Todas')+'</div></div>'+
+    '<div><p class="label">QUÉ PREGUNTAS</p><div class="chips">'+chip('opt','src','todas','Todas')+chip('opt','src','nuevas','Solo nuevas')+chip('opt','src','falladas','Solo falladas')+'</div></div>'+
+    '<div><p class="label">MODO</p><div class="chips">'+chip('opt','modo','practica','Práctica libre')+chip('opt','modo','boss','Boss: 3 vidas')+'</div></div>'+
+    '<button class="btn gold" data-act="start">Empezar ronda</button>'+
+   '</div></div>';
+}
+
+function buildOpts(q){ return shuffle(q.opciones.map((o, i) => ({t:o.t, por:o.por, ok:i === q.correcta}))); }
+
+function vPlay(){
+  const q = allQ().find(x => x.id === V.ids[V.i]); const a = areaOf(q.area);
+  const hearts = V.modo === 'boss' ? '<div class="hearts" aria-label="Vidas">'+[0,1,2].map(i => heart(i < V.lives)).join('')+'</div>' : '<span class="src">Práctica</span>';
+  const letters = 'ABCDEFGH';
+  const opts = V.opts.map((o, i) => {
+    let cls = '';
+    if(V.answered){ cls = o.ok ? 'ok' : (i === V.picked ? 'bad' : 'dim'); }
+    return '<button class="opt '+cls+'" data-act="pick" data-i="'+i+'" '+(V.answered ? 'disabled' : '')+'><span class="k">'+letters[i]+'</span><span>'+esc(o.t)+(V.answered && o.por ? '<span class="why">'+esc(o.por)+'</span>' : '')+'</span></button>';
+  }).join('');
+  let fb = '';
+  if(V.answered){
+    const ok = V.opts[V.picked].ok;
+    fb = '<div class="fb '+(ok ? 'ok' : 'bad')+'"><h3>'+(ok ? '¡CORRECTO! +'+V.lastXp+' XP' : 'FALLASTE')+'</h3>'+
+      '<p>'+esc(q.explicacion || '')+'</p>'+
+      (q.nota ? '<p class="note"><b>Para tu práctica, no para el examen:</b> '+esc(q.nota)+'</p>' : '')+
+      '<p class="src">Fuente: '+esc(q.fuente || 'sin fuente indicada')+'</p></div>'+
+      '<div class="row" style="margin-top:14px"><button class="btn gold grow" data-act="next">'+(V.lives <= 0 && V.modo === 'boss' ? 'Ver resultado' : (V.i+1 >= V.ids.length ? 'Terminar ronda' : 'Siguiente'))+'</button></div>';
+  }
+  return '<div>'+
+    '<div class="hud"><button class="btn small ghost" data-act="home">Salir</button><div class="grow">'+segs((V.i + (V.answered ? 1 : 0))/V.ids.length, Math.min(V.ids.length, 20))+'</div><span class="src">'+(V.i+1)+'/'+V.ids.length+'</span>'+hearts+'<span class="combo">'+(V.combo > 1 ? 'x'+V.combo : '')+'</span></div>'+
+    '<div class="panel">'+
+      '<div class="row" style="margin-bottom:10px"><span class="pill" style="color:'+a.c+'">'+esc(a.n)+'</span><span class="src grow">'+esc(q.tema)+'</span>'+(q.demo ? '<span class="demo">DEMO</span>' : '')+'</div>'+
+      (q.contexto ? '<div class="ctx">'+esc(q.contexto)+'</div>' : '')+
+      (q.img ? '<img class="qimg" alt="Imagen de la pregunta" src="'+esc(q.img)+'">' : '')+
+      '<p class="q">'+esc(q.enunciado)+'</p>'+
+      '<div class="opts">'+opts+'</div>'+fb+
+    '</div></div>';
+}
+
+function vResult(){
+  const qs = allQ(); const byId = id => qs.find(q => q.id === id);
+  const acc = V.ids.length ? Math.round(100*V.ok/V.answeredN) : 0;
+  const fails = V.fails.map(byId).filter(Boolean).map(q => {
+    const c = q.opciones[q.correcta];
+    return '<div class="res-item">'+esc(q.enunciado)+'<br><b>Respuesta: '+esc(c.t)+'</b></div>';
+  }).join('');
+  const lvUp = level(S.xp) > V.lvStart;
+  return '<div class="stack">'+
+    '<div class="panel" style="text-align:center"><p class="label">'+(V.dead ? 'SIN VIDAS' : 'RONDA COMPLETA')+'</p>'+
+      '<div class="big">'+V.ok+' / '+V.answeredN+'</div>'+
+      '<p class="sub">'+acc+'% de aciertos · mejor combo x'+V.maxCombo+'</p>'+
+      '<p style="font-family:var(--display);font-size:16px;color:var(--ink);margin:14px 0 4px">+<span id="xpcount" data-t="'+V.xp+'">'+V.xp+'</span> XP</p>'+
+      (V.bonus ? '<p class="src">Incluye bonus de 20 XP por superar 80%.</p>' : '')+
+      (lvUp ? '<p class="lvl" style="margin-top:10px">¡SUBISTE AL NIVEL '+level(S.xp)+'!</p>' : '')+
+    '</div>'+
+    (V.fails.length ? '<div><p class="label">PARA REPASAR ('+V.fails.length+')</p><div class="res-list">'+fails+'</div></div>' : '<p class="sub" style="text-align:center">Ronda limpia, sin falladas.</p>')+
+    '<div class="row">'+
+      (V.fails.length ? '<button class="btn gold grow" data-act="retryfails">Repasar las falladas</button>' : '')+
+      '<button class="btn grow" data-act="replay">Repetir ronda</button>'+
+      '<button class="btn grow ghost" data-act="home">Inicio</button>'+
+    '</div></div>';
+}
+
+function vCards(){
+  const cs = allC(); const c = cs.find(x => x.id === V.queue[V.i]);
+  if(!c){
+    return '<div class="stack"><div class="panel" style="text-align:center"><p class="label">SESIÓN TERMINADA</p><div class="big">'+V.done+'</div><p class="sub">tarjetas repasadas</p></div>'+
+      '<div class="row"><button class="btn gold grow" data-act="home">Inicio</button><button class="btn grow" data-act="cardsall">Repasar todas igual</button></div></div>';
+  }
+  const a = areaOf(c.area); const st = S.c[c.id];
+  const rates = ['again','hard','good','easy'].map((r, k) => {
+    const lab = {again:'Otra vez',hard:'Difícil',good:'Bien',easy:'Fácil'}[r];
+    return '<button class="btn rate" data-act="rate" data-r="'+r+'">'+lab+'<small>'+sched(st, r).label+'</small></button>';
+  }).join('');
+  return '<div><div class="hud"><button class="btn small ghost" data-act="home">Salir</button><div class="grow">'+segs(V.i/(V.queue.length), Math.min(V.queue.length, 20))+'</div><span class="src">'+V.done+' hechas · '+(V.queue.length - V.i)+' en cola</span></div>'+
+    '<div class="panel card '+(V.flipped ? 'back' : '')+'" data-act="flip" tabindex="0" role="button" aria-label="Voltear tarjeta">'+
+      '<span class="pill" style="color:'+a.c+'">'+esc(a.n)+' · '+esc(c.tema)+'</span>'+(c.demo ? '<span class="demo">DEMO</span>' : '')+
+      '<span class="side">'+(V.flipped ? 'RESPUESTA' : 'PREGUNTA')+'</span>'+
+      '<div class="txt">'+esc(V.flipped ? c.b : c.f)+'</div>'+
+      (V.flipped ? '' : '<span class="src">Toca la tarjeta o pulsa Espacio para voltear</span>')+
+    '</div>'+
+    (V.flipped ? '<div class="rates">'+rates+'</div>' : '')+'</div>';
+}
+
+function vBackup(){
+  return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button></div>'+
+   '<h2 style="font-size:15px">RESPALDO</h2>'+
+   '<p class="sub">Tu progreso se guarda en este navegador. Si cambias de celular o limpias datos, se pierde. Copia este código y guárdalo (por ejemplo en notas) para restaurarlo.</p>'+
+   '<textarea id="bk" readonly>'+esc(JSON.stringify(S))+'</textarea>'+
+   '<div class="row"><button class="btn gold" data-act="copybk">Copiar código</button></div>'+
+   '<p class="label" style="margin-top:12px">RESTAURAR</p>'+
+   '<textarea id="bkin" placeholder="Pega aquí tu código de respaldo"></textarea>'+
+   '<div class="row"><button class="btn" data-act="restore">Restaurar progreso</button></div></div>';
+}
+
+function vImport(){
+  return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button></div>'+
+   '<h2 style="font-size:15px">CARGAR PREGUNTAS</h2>'+
+   '<p class="sub">Pega el JSON con preguntas y tarjetas generadas desde tus PPT. Si un id ya existe, se reemplaza. Formato: {"preguntas":[...],"tarjetas":[...]}.</p>'+
+   '<textarea id="imp" placeholder="Pega aquí el JSON"></textarea>'+
+   '<div class="row"><button class="btn gold" data-act="doimport">Cargar</button></div></div>';
+}
+
+function render(){
+  const f = {home:vHome, setup:vSetup, play:vPlay, result:vResult, cards:vCards, backup:vBackup, import:vImport}[V.name];
+  document.getElementById('app').innerHTML = f();
+  if(V.name === 'result'){
+    const el = document.getElementById('xpcount');
+    if(el && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+      const t = +el.dataset.t, t0 = performance.now();
+      (function tick(now){ const p = Math.min(1, (now-t0)/800); el.textContent = Math.round(t*p); if(p < 1) requestAnimationFrame(tick); })(t0);
+    }
+  }
+}
+
+/* ---------- lógica de rondas ---------- */
+function startRound(ids, modo, redo){
+  if(!ids.length){ toast('No hay preguntas con ese filtro.'); return; }
+  const qs = allQ();
+  V = {name:'play', ids, i:0, modo, lives:3, combo:0, maxCombo:0, ok:0, answeredN:0, xp:0, fails:[], answered:false, picked:null, lastXp:0, lvStart:level(S.xp), dead:false, bonus:false};
+  V.opts = buildOpts(qs.find(q => q.id === ids[0]));
+  render(); window.scrollTo(0,0);
+}
+function pool(cfg){
+  let p = allQ().filter(q => (cfg.area === 'all' || q.area === cfg.area) && (cfg.tema === 'all' || q.tema === cfg.tema));
+  if(cfg.src === 'nuevas') p = p.filter(q => !S.q[q.id]);
+  if(cfg.src === 'falladas') p = p.filter(isFallada);
+  p = shuffle(p);
+  return cfg.n > 0 ? p.slice(0, cfg.n) : p;
+}
+function pick(i){
+  if(V.name !== 'play' || V.answered) return;
+  const q = allQ().find(x => x.id === V.ids[V.i]); const o = V.opts[i]; if(!o) return;
+  V.answered = true; V.picked = i; V.answeredN++;
+  const st = S.q[q.id] || {ok:0, bad:0, streak:0};
+  if(o.ok){
+    st.ok++; st.streak++; V.ok++; V.combo++; V.maxCombo = Math.max(V.maxCombo, V.combo);
+    V.lastXp = 10 + Math.min(V.combo-1, 5)*2;
+  } else {
+    st.bad++; st.streak = 0; V.combo = 0; V.lastXp = 0; V.fails.push(q.id);
+    if(V.modo === 'boss') V.lives--;
+  }
+  S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; markDay(); save(); render();
+}
+function next(){
+  const over = (V.modo === 'boss' && V.lives <= 0) || V.i + 1 >= V.ids.length;
+  if(over){
+    V.dead = V.modo === 'boss' && V.lives <= 0;
+    const acc = V.ok / Math.max(1, V.answeredN);
+    if(!V.dead && V.answeredN >= 5 && acc >= 0.8){ S.xp += 20; V.xp += 20; V.bonus = true; save(); }
+    const keep = V; V = Object.assign({}, keep, {name:'result'}); render(); window.scrollTo(0,0); return;
+  }
+  V.i++; V.answered = false; V.picked = null;
+  V.opts = buildOpts(allQ().find(q => q.id === V.ids[V.i]));
+  render(); window.scrollTo(0,0);
+}
+function startCards(all){
+  const cs = all ? allC() : dueCards();
+  V = {name:'cards', queue:shuffle(cs.map(c => c.id)), i:0, flipped:false, done:0};
+  render();
+}
+function rate(r){
+  const id = V.queue[V.i]; const nxt = sched(S.c[id], r);
+  S.c[id] = {ef:nxt.ef, int:nxt.int, reps:nxt.reps, due:nxt.due};
+  if(r !== 'again') S.xp += 3;
+  if(r === 'again') V.queue.push(id);
+  V.done++; V.i++; V.flipped = false; markDay(); save(); render();
+}
+
+/* ---------- acciones ---------- */
+const OPT = {area:'all', tema:'all', n:'10', src:'todas', modo:'practica'};
+const A = {
+  home: () => go({name:'home'}),
+  quick: () => startRound(pool({area:'all', tema:'all', n:10, src:'todas'}).map(q => q.id), 'boss'),
+  falladas: () => startRound(shuffle(allQ().filter(isFallada)).map(q => q.id), 'practica'),
+  setup: d => go(Object.assign({name:'setup'}, OPT, {area:d.area || 'all', tema:'all'})),
+  opt: d => { V[d.k] = d.v; if(d.k === 'area') V.tema = 'all'; ['area','tema','n','src','modo'].forEach(k => OPT[k] = V[k]); render(); },
+  start: () => startRound(pool({area:V.area, tema:V.tema, n:+V.n, src:V.src}).map(q => q.id), V.modo),
+  pick: d => pick(+d.i),
+  next: () => next(),
+  retryfails: () => startRound(shuffle(V.fails), 'practica'),
+  replay: () => startRound(shuffle(V.ids), V.modo),
+  cards: () => startCards(false),
+  cardsall: () => startCards(true),
+  flip: () => { V.flipped = !V.flipped; render(); },
+  rate: d => rate(d.r),
+  backup: () => go({name:'backup'}),
+  import: () => go({name:'import'}),
+  copybk: () => { const t = document.getElementById('bk'); t.select(); try{ navigator.clipboard.writeText(t.value).then(() => toast('Código copiado'), () => toast('Selecciona el texto y cópialo a mano')); }catch(e){ toast('Selecciona el texto y cópialo a mano'); } },
+  restore: () => {
+    try{ const o = JSON.parse(document.getElementById('bkin').value); if(typeof o.xp !== 'number' || !o.q) throw 0; S = Object.assign(fresh(), o); save(); toast('Progreso restaurado'); go({name:'home'}); }
+    catch(e){ toast('Ese código no es válido'); }
+  },
+  doimport: () => {
+    try{
+      const o = JSON.parse(document.getElementById('imp').value); let np = 0, nt = 0;
+      const clean = s => String(s).replace(/[^\w-]/g, '_');
+      (o.preguntas || []).forEach(q => {
+        if(!q.id || !q.enunciado || !Array.isArray(q.opciones) || q.opciones.length < 2 || !Number.isInteger(q.correcta) || !q.opciones[q.correcta] || !AREAS.some(a => a.id === q.area)) return;
+        q.id = clean(q.id); q.tema = q.tema || 'General';
+        S.custom.preguntas = S.custom.preguntas.filter(x => x.id !== q.id).concat([q]); np++;
+      });
+      (o.tarjetas || []).forEach(c => {
+        if(!c.id || !c.f || !c.b || !AREAS.some(a => a.id === c.area)) return;
+        c.id = clean(c.id); c.tema = c.tema || 'General';
+        S.custom.tarjetas = S.custom.tarjetas.filter(x => x.id !== c.id).concat([c]); nt++;
+      });
+      save(); toast(np + ' preguntas y ' + nt + ' tarjetas cargadas'); if(np + nt) go({name:'home'});
+    }catch(e){ toast('El JSON no es válido'); }
+  }
+};
+document.addEventListener('click', e => {
+  const t = e.target.closest('[data-act]'); if(!t || t.disabled) return;
+  const f = A[t.dataset.act]; if(f) f(t.dataset);
+});
+document.addEventListener('keydown', e => {
+  if(e.target.tagName === 'TEXTAREA') return;
+  if(V.name === 'play'){
+    const i = '1234'.indexOf(e.key) >= 0 && e.key ? '1234'.indexOf(e.key) : 'abcd'.indexOf(e.key.toLowerCase());
+    if(!V.answered && i >= 0 && e.key.length === 1) pick(i);
+    else if(V.answered && (e.key === 'Enter' || e.key === ' ')){ e.preventDefault(); next(); }
+  } else if(V.name === 'cards' && V.queue[V.i]){
+    if(e.key === ' ' || e.key === 'Enter'){ e.preventDefault(); if(!V.flipped){ V.flipped = true; render(); } }
+    else if(V.flipped && '1234'.includes(e.key) && e.key.length === 1) rate(['again','hard','good','easy']['1234'.indexOf(e.key)]);
+  }
+});
+/* ---------- carga de preguntas desde datos/ y service worker ---------- */
+async function cargarDatos(){
+  try{
+    const m = await (await fetch('datos/manifest.json', {cache:'no-cache'})).json();
+    const ps = [], ts = [];
+    for(const f of (m.archivos || [])){
+      const d = await (await fetch('datos/' + f, {cache:'no-cache'})).json();
+      ps.push(...(d.preguntas || [])); ts.push(...(d.tarjetas || []));
+    }
+    if(ps.length || ts.length){ BANCO.preguntas = ps; BANCO.tarjetas = ts; if(V.name === 'home') render(); }
+  }catch(e){}
+}
+render();
+cargarDatos();
+if('serviceWorker' in navigator){ window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => {}); }); }
+})();
+</script>
+</body>
+</html>

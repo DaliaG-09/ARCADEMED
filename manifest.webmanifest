@@ -1,0 +1,31 @@
+{
+  "name": "ArcadeMed",
+  "short_name": "ArcadeMed",
+  "description": "Banco de preguntas y flashcards para la Continua 6",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffd93b",
+  "theme_color": "#ffd93b",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
