@@ -5,533 +5,660 @@
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 1,
-   "enunciado": "¿Qué criterio de proteinuria define el síndrome nefrótico en adultos?",
+   "enunciado": "Un adulto elimina 4 g de proteínas en 24 horas, con albúmina de 2.8 g/dL, edema generalizado y colesterol alto. ¿Qué cumple el cuadro?",
    "opciones": [
     {
-     "t": "3.5 g/24 horas o más",
-     "por": "Es el rango nefrótico de la lámina (en niños ≥40 mg/m²/h)."
+     "t": "Los criterios de síndrome nefrótico",
+     "por": "Proteinuria ≥3.5 g/24 h, albúmina <3.0 g/dL, edema por baja presión oncótica e hiperlipidemia: están los cuatro."
     },
     {
-     "t": "0.5 g/24 horas",
-     "por": "Es mucho menor."
+     "t": "Solo proteinuria en rango no nefrótico",
+     "por": "4 g/24 h supera el límite de 3.5 g. Es rango nefrótico."
     },
     {
-     "t": "1 g/24 horas",
-     "por": "Es indicación de biopsia en nefrítico."
+     "t": "Síndrome nefrítico",
+     "por": "El nefrítico tiene proteinuria menor de 3.5 g/día, hematuria con cilindros e hipertensión."
     },
     {
-     "t": "150 mg/24 horas",
-     "por": "Es el límite normal."
+     "t": "Lesión renal aguda prerrenal",
+     "por": "No explica la pérdida masiva de proteínas ni la hiperlipidemia."
     }
    ],
    "correcta": 0,
-   "explicacion": "Tétrada: proteinuria ≥3.5 g/24 h, hipoalbuminemia <3.0 g/dL, edema e hiperlipidemia; lipiduria es opcional.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 7"
+   "explicacion": "Definición (lám. 7): proteinuria ≥3.5 g/24 h en adultos (o ≥40 mg/m²/hora en niños); albúmina <3.0 g/dL; edema generalizado (anasarca); colesterol total elevado, sobre todo LDL; lipiduria opcional (cuerpos grasos ovales o cilindros grasos).",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 7",
+   "contexto": "Síndrome nefrótico = el glomérulo pierde proteínas en grandes cantidades por daño de la barrera de filtración (podocitos, membrana basal, endotelio). Los valores salen de la lámina de definición."
   },
   {
    "id": "n-sn-alb",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "Según la lámina de definición, ¿qué valor de albúmina define hipoalbuminemia?",
+   "enunciado": "Según la lámina de definición del síndrome nefrótico, ¿con qué valor se considera hipoalbuminemia?",
    "opciones": [
     {
-     "t": "Menos de 3.0 g/dL",
-     "por": "Valor de la definición."
+     "t": "Albúmina sérica menor de 3.0 g/dL",
+     "por": "Es el valor de la lámina de definición y de las conclusiones."
     },
     {
-     "t": "Menos de 3.5 g/dL",
-     "por": "Es el límite normal."
+     "t": "Menor de 3.5 g/dL",
+     "por": "Es el límite inferior normal de albúmina, no el criterio de la lámina."
     },
     {
-     "t": "Menos de 4.0 g/dL",
-     "por": "No."
+     "t": "Menor de 2.5 g/dL",
+     "por": "Es el valor de la imagen comparativa de la clase de nefrítico (lám. 9); la definición de nefrótico usa 3.0."
     },
     {
-     "t": "Menos de 1 g/dL",
-     "por": "Demasiado bajo."
+     "t": "Menor de 4.0 g/dL",
+     "por": "Es demasiado alto; la mayoría de personas sanas está cerca de ese valor."
     }
    ],
    "correcta": 0,
-   "explicacion": "Albúmina <3.0 g/dL.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 7",
-   "nota": "La imagen comparativa de la clase de síndrome nefrítico (lám. 9) usa <2.5 g/dL. Para el examen usa el valor de la lámina de definición (<3.0 g/dL)."
+   "explicacion": "Para tromboprofilaxis, la lámina de tratamiento habla de albúmina menor de 2 a 2.5 g/dL con factores de riesgo. Son dos usos distintos del valor.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 7 y 20",
+   "nota": "La imagen comparativa de la clase de nefrítico usa <2.5 g/dL. Para el examen, usa <3.0 g/dL para definir el síndrome."
   },
   {
    "id": "n-sn-edema",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "¿Por qué hay edema generalizado en el nefrótico?",
+   "enunciado": "¿Por qué aparece edema generalizado en el síndrome nefrótico?",
    "opciones": [
     {
-     "t": "Por disminución de la presión oncótica plasmática y retención renal de sodio y agua",
-     "por": "La hipovolemia efectiva activa SRAA y ADH."
+     "t": "Cae la presión oncótica por la pérdida de albúmina, el riñón detecta hipovolemia y retiene sodio y agua",
+     "por": "La albúmina mantiene el agua dentro de los vasos. Si baja, el agua sale al intersticio. El riñón lo interpreta como falta de volumen y activa renina-angiotensina-aldosterona y ADH, lo que agrava el edema."
     },
     {
-     "t": "Por aumento de la presión oncótica",
-     "por": "Es lo contrario."
+     "t": "Sube la presión oncótica y el agua se queda en los tejidos",
+     "por": "Es al revés: la presión oncótica baja por la hipoalbuminemia."
     },
     {
-     "t": "Por hipertensión portal",
-     "por": "No."
+     "t": "Hay hipertensión portal por cirrosis",
+     "por": "Eso causa ascitis en cirrosis. El nefrótico se debe a la pérdida urinaria de proteínas."
     },
     {
-     "t": "Por hipoproteinemia hepática solamente",
-     "por": "El origen es la pérdida urinaria."
+     "t": "El corazón falla y no puede bombear",
+     "por": "La falla cardiaca da edema por otro mecanismo; en el nefrótico el corazón es normal."
     }
    ],
    "correcta": 0,
-   "explicacion": "SRAA = renina-angiotensina-aldosterona; ADH = hormona antidiurética.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 16"
+   "explicacion": "SRAA = sistema renina-angiotensina-aldosterona. ADH = hormona antidiurética (vasopresina). Por eso el manejo incluye restricción de sal y agua y diuréticos.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 16 y 20",
+   "contexto": "Síndrome nefrótico = el glomérulo pierde proteínas en grandes cantidades por daño de la barrera de filtración (podocitos, membrana basal, endotelio). Los valores salen de la lámina de definición."
   },
   {
    "id": "n-sn-lip",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "¿Por qué se eleva el colesterol?",
+   "enunciado": "¿Por qué se eleva el colesterol en el síndrome nefrótico?",
    "opciones": [
     {
-     "t": "El hígado aumenta la síntesis de lipoproteínas y disminuye la depuración",
-     "por": "Respuesta a la hipoalbuminemia."
+     "t": "El hígado aumenta la síntesis de lipoproteínas en respuesta a la hipoalbuminemia y además se depuran menos los lípidos",
+     "por": "El hígado intenta compensar la caída de albúmina fabricando más proteínas, y entre ellas lipoproteínas. Además se dañan enzimas que eliminan lípidos."
     },
     {
-     "t": "Por mayor absorción intestinal",
-     "por": "No."
+     "t": "El intestino absorbe más grasa",
+     "por": "La lámina no lo propone como causa."
     },
     {
-     "t": "Por pérdida urinaria de colesterol",
-     "por": "No."
+     "t": "Se pierde colesterol por la orina y el cuerpo lo compensa",
+     "por": "El colesterol no se pierde por la orina de esa forma; lo que sube es la producción."
     },
     {
-     "t": "Por menor síntesis hepática",
-     "por": "Es lo contrario."
+     "t": "El hígado fabrica menos lipoproteínas",
+     "por": "Es lo contrario: fabrica más."
     }
    ],
    "correcta": 0,
-   "explicacion": "Sube colesterol total, LDL y triglicéridos.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 18"
+   "explicacion": "Sube el colesterol total, el LDL y los triglicéridos. En el tratamiento se dan estatinas si la dislipidemia persiste más de 6 meses.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 18 y 20"
   },
   {
    "id": "n-sn-trombo",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "¿Cuál es la complicación trombótica más característica?",
+   "enunciado": "¿Qué complicación trombótica es la más característica del síndrome nefrótico y por qué ocurre?",
    "opciones": [
     {
-     "t": "Trombosis de la vena renal",
-     "por": "Por pérdida de antitrombina III, proteínas C y S."
+     "t": "Trombosis de la vena renal, porque se pierden antitrombina III y proteínas C y S y sube el fibrinógeno",
+     "por": "Las proteínas que frenan la coagulación se van por la orina y el hígado fabrica más fibrinógeno. Quedan más coagulables y la vena renal es el sitio clásico."
     },
     {
-     "t": "Trombosis de la arteria renal",
-     "por": "No es la característica."
+     "t": "Hemorragia digestiva, porque falta fibrinógeno",
+     "por": "Al contrario: el fibrinógeno está aumentado y el riesgo es de trombosis."
     },
     {
-     "t": "Infarto cerebral hemorrágico",
-     "por": "No."
+     "t": "Coagulación intravascular diseminada, por infección",
+     "por": "No es la complicación característica."
     },
     {
-     "t": "Coagulación intravascular diseminada",
-     "por": "No."
+     "t": "Trombosis de la arteria carótida por el colesterol",
+     "por": "El colesterol alto ayuda a ateroesclerosis, pero la lámina destaca la trombosis venosa, sobre todo renal."
     }
    ],
    "correcta": 0,
-   "explicacion": "Hipercoagulabilidad: pérdida de antitrombina III, C y S y aumento de fibrinógeno.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 17 y 19"
+   "explicacion": "Otras trombosis posibles: trombosis venosa profunda y embolia pulmonar. Tromboprofilaxis si albúmina <2 a 2.5 g/dL más factores de riesgo (GEFS, inmovilidad).",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 17, 19 y 20",
+   "contexto": "GEFS = glomeruloesclerosis focal y segmentaria, una causa de síndrome nefrótico."
   },
   {
    "id": "n-sn-inf",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "¿A qué gérmenes hay mayor riesgo por pérdida de inmunoglobulinas?",
+   "enunciado": "¿Por qué hay más infecciones en el síndrome nefrótico y a qué gérmenes se tiene más riesgo?",
    "opciones": [
     {
-     "t": "Gérmenes encapsulados, como el neumococo",
-     "por": "Por pérdida de IgG y complemento."
+     "t": "Se pierden inmunoglobulinas (IgG) y complemento por la orina; hay más riesgo con gérmenes encapsulados como el neumococo",
+     "por": "Sin esas defensas el cuerpo elimina mal las bacterias con cápsula. En niños puede dar sepsis y peritonitis."
     },
     {
-     "t": "Virus respiratorios",
-     "por": "No."
+     "t": "Se pierden glóbulos blancos por la orina; hay más riesgo con virus respiratorios",
+     "por": "No se pierden glóbulos blancos; lo que se pierde son inmunoglobulinas y complemento."
     },
     {
-     "t": "Hongos",
-     "por": "No."
+     "t": "Por el uso de diuréticos; hay más riesgo con hongos",
+     "por": "Los diuréticos no causan inmunosupresión de este tipo."
     },
     {
-     "t": "Parásitos",
-     "por": "No."
+     "t": "Por la hiperlipidemia; hay más riesgo con parásitos",
+     "por": "El colesterol alto no explica el riesgo infeccioso."
     }
    ],
    "correcta": 0,
-   "explicacion": "Vacunas: neumococo, influenza y hepatitis B.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 18 y 20"
+   "explicacion": "Vacunas recomendadas en la lámina de tratamiento: neumococo, influenza y hepatitis B.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 18, 19 y 20"
   },
   {
    "id": "n-sn-sel",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "¿Qué proteínas pasan en la proteinuria selectiva?",
+   "enunciado": "¿Qué diferencia a la proteinuria selectiva de la no selectiva?",
    "opciones": [
     {
-     "t": "Principalmente albúmina",
-     "por": "Pasan proteínas de bajo peso molecular."
+     "t": "En la selectiva pasa sobre todo albúmina (proteínas pequeñas); en la no selectiva pasan también inmunoglobulinas y otras proteínas grandes",
+     "por": "Cuanto más grande el daño de la barrera de filtración, más grandes son las proteínas que cruzan."
     },
     {
-     "t": "Inmunoglobulinas",
-     "por": "Eso es no selectiva."
+     "t": "En la selectiva pasan inmunoglobulinas y proteínas grandes",
+     "por": "Eso es la no selectiva."
     },
     {
-     "t": "Todas",
-     "por": "No."
+     "t": "En la selectiva no pasa ninguna proteína",
+     "por": "Sí pasa albúmina y proteínas de bajo peso molecular."
     },
     {
-     "t": "Proteínas grandes",
-     "por": "Eso es no selectiva."
+     "t": "Ambas dejan pasar solo albúmina",
+     "por": "La no selectiva incluye proteínas de alto peso molecular."
     }
    ],
    "correcta": 0,
-   "explicacion": "No selectiva: albúmina, inmunoglobulinas y proteínas grandes.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 15"
+   "explicacion": "Selectiva: típica de cambios mínimos (daño más leve). No selectiva: daño estructural mayor.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 15",
+   "nota": "La lámina define los dos tipos sin decir qué enfermedad corresponde a cada uno. Que la selectiva sea típica de cambios mínimos es conocimiento general (complemento)."
   },
   {
    "id": "n-sn-ped",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "¿Cuál es la causa más frecuente en niños?",
+   "enunciado": "¿Cuál es la causa más frecuente de síndrome nefrótico en niños?",
    "opciones": [
     {
-     "t": "Cambios mínimos (70 a 90 %)",
-     "por": "Es la principal en pediatría."
+     "t": "Enfermedad de cambios mínimos (70 a 90 %)",
+     "por": "Es la causa principal en pediatría y responde bien a esteroides."
     },
     {
-     "t": "GEFS",
-     "por": "~8 %."
+     "t": "Glomeruloesclerosis focal y segmentaria (GEFS)",
+     "por": "Es la segunda causa en niños, con cerca de 8 %. Predomina en adultos."
     },
     {
-     "t": "Mesangiocapilar",
-     "por": "Más en adultos."
+     "t": "Glomerulonefritis mesangiocapilar",
+     "por": "Tiene 30 a 40 % en adultos, según la tabla de epidemiología."
     },
     {
-     "t": "Membranosa",
-     "por": "Más en adultos."
+     "t": "Nefropatía membranosa",
+     "por": "Es más propia de adultos, hacia los 40 a 60 años."
     }
    ],
    "correcta": 0,
-   "explicacion": "GEFS = glomeruloesclerosis focal y segmentaria.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 12"
+   "explicacion": "Niños: 2 a 7 casos por 100 000 al año. Adultos: mesangiocapilar 30 a 40 %, GEFS 15 a 25 %, cambios mínimos cerca de 20 %. En adultos de Lima (biopsias), 67 % es GEFS.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 12 y 13",
+   "nota": "Los porcentajes de adultos en la tabla de la lámina 12 no coinciden con lo que enseñan otros textos (la membranosa suele ser primera en adultos). Para el examen usa la tabla del PPT."
+  },
+  {
+   "id": "n-sn-edad",
+   "area": "nefro",
+   "tema": "Síndrome nefrótico",
+   "dif": 2,
+   "enunciado": "Según el esquema de etiología por edad, ¿qué causa de síndrome nefrótico se asocia con adultos mayores?",
+   "opciones": [
+    {
+     "t": "Amiloidosis y causas paraneoplásicas",
+     "por": "En el esquema aparecen al final de la línea de edad, hacia los 60 a 70 años."
+    },
+    {
+     "t": "Nefrosis congénita",
+     "por": "Aparece desde el nacimiento."
+    },
+    {
+     "t": "Enfermedad de cambios mínimos",
+     "por": "Es sobre todo de niños, aunque el esquema la repite hacia los 40."
+    },
+    {
+     "t": "Nefropatía diabética tipo 1",
+     "por": "El esquema la ubica en adultos jóvenes, alrededor de los 30 a 40 años."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Orden aproximado: nefrosis congénita, cambios mínimos, GEFS, diabetes tipo 1, nefropatía membranosa (50 a 60 años), diabetes tipo 2, amiloidosis, paraneoplásico.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 11",
+   "nota": "El esquema de la lámina 11 es un gráfico en inglés sin cifras exactas; las edades son aproximadas."
+  },
+  {
+   "id": "n-sn-neo",
+   "area": "nefro",
+   "tema": "Síndrome nefrótico",
+   "dif": 2,
+   "enunciado": "Hombre de 68 años con síndrome nefrótico reciente. ¿Qué indica la clase que debes descartar?",
+   "opciones": [
+    {
+     "t": "Una neoplasia oculta",
+     "por": "En mayores de 50 años el síndrome nefrótico puede ser paraneoplásico, asociado a tumores no diagnosticados."
+    },
+    {
+     "t": "Enfermedad de cambios mínimos como causa segura",
+     "por": "Es más propia de niños; en un mayor no se asume sin descartar otras causas."
+    },
+    {
+     "t": "Glomerulonefritis postestreptocócica",
+     "por": "Es un síndrome nefrítico, y no es la causa a descartar en esta edad."
+    },
+    {
+     "t": "Una infección urinaria baja",
+     "por": "No produce proteinuria nefrótica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "También se buscan causas secundarias: diabetes, lupus, amiloidosis, infecciones y fármacos.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 9 y 13"
   },
   {
    "id": "n-sn-case",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 3,
-   "enunciado": "Niño de 7 años con edema periorbital y en piernas, PA normal, proteinuria +++, albúmina 2.0, colesterol elevado, creatinina normal. ¿Diagnóstico y causa más probable?",
+   "enunciado": "Niño de 7 años con 2 semanas de edema en la cara y las piernas, fatiga, presión arterial normal. Orina con proteinuria +++, albúmina 2.0 g/dL, colesterol elevado y creatinina normal. ¿Cuál es el diagnóstico presuntivo?",
    "opciones": [
     {
-     "t": "Síndrome nefrótico por enfermedad de cambios mínimos",
-     "por": "Es el cuadro del PPT."
+     "t": "Síndrome nefrótico, más probable por enfermedad de cambios mínimos",
+     "por": "Hay proteinuria intensa, albúmina baja, edema y colesterol alto. La edad lo hace compatible con cambios mínimos, la causa principal en niños."
     },
     {
      "t": "Síndrome nefrítico",
-     "por": "Faltan hematuria e HTA."
+     "por": "No hay hipertensión, hematuria ni creatinina alterada, y la proteinuria es muy intensa."
     },
     {
-     "t": "ERC",
-     "por": "No."
+     "t": "Enfermedad renal crónica",
+     "por": "La creatinina es normal y el cuadro es de 2 semanas."
     },
     {
-     "t": "IRA prerrenal",
-     "por": "No."
+     "t": "Lesión renal aguda prerrenal",
+     "por": "La creatinina es normal, y no explica la proteinuria ni la dislipidemia."
     }
    ],
    "correcta": 0,
-   "explicacion": "Se trata con prednisona 2 mg/kg/día por 4 a 6 semanas.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 3 y 24"
+   "explicacion": "Plan de la clase: confirmar con orina de 24 horas o cociente proteína/creatinina, perfil lipídico y función renal, y tratar con prednisona 2 mg/kg/día.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 3 y 24",
+   "nota": "La lámina plantea el caso y deja la respuesta abierta. El diagnóstico es la interpretación esperada."
   },
   {
    "id": "n-sn-tx",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "Tratamiento de cambios mínimos en niños:",
+   "enunciado": "Niño con síndrome nefrótico por cambios mínimos. ¿Qué tratamiento corresponde?",
    "opciones": [
     {
-     "t": "Prednisona 2 mg/kg/día por 4 a 6 semanas, luego descenso",
-     "por": "Remite 90 % en 2 a 3 semanas."
+     "t": "Prednisona 2 mg/kg/día por 4 a 6 semanas, luego descenso progresivo",
+     "por": "Con ese esquema cerca del 90 % remite en 2 a 3 semanas."
     },
     {
-     "t": "Rituximab",
-     "por": "Es para membranosa."
+     "t": "Rituximab o esquema Ponticelli",
+     "por": "Es el tratamiento de la glomerulopatía membranosa."
     },
     {
-     "t": "Ciclofosfamida",
-     "por": "No es inicial."
+     "t": "Ciclosporina o tacrolimus como primera línea",
+     "por": "Se reservan para GEFS resistente a esteroides."
     },
     {
-     "t": "Solo IECA",
-     "por": "No basta."
+     "t": "Solo IECA y restricción de sal",
+     "por": "Ayudan a disminuir la proteinuria, pero no tratan la causa."
     }
    ],
    "correcta": 0,
-   "explicacion": "En adultos con cambios mínimos: 1 mg/kg/día por 8 a 16 semanas.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 21"
+   "explicacion": "Adultos con cambios mínimos: prednisona 1 mg/kg/día por 8 a 16 semanas, remisión en 70 a 80 %.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 21",
+   "contexto": "IECA = inhibidor de la enzima convertidora de angiotensina (por ejemplo enalapril)."
   },
   {
    "id": "n-sn-tx2",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "¿Cuál es el tratamiento para la glomerulopatía membranosa?",
+   "enunciado": "Paciente con glomerulopatía membranosa y síndrome nefrótico. ¿Qué tratamiento específico propone la lámina?",
    "opciones": [
     {
-     "t": "Rituximab o esquema Ponticelli",
-     "por": "Respuesta alta pero lenta."
+     "t": "Rituximab o esquema Ponticelli (ciclofosfamida alternada con esteroides)",
+     "por": "La remisión es alta pero lenta."
     },
     {
-     "t": "Prednisona sola 2 mg/kg",
-     "por": "Es cambios mínimos."
+     "t": "Prednisona 2 mg/kg/día por 4 a 6 semanas",
+     "por": "Es el esquema de cambios mínimos en niños."
     },
     {
-     "t": "Solo diuréticos",
-     "por": "No."
+     "t": "Prednisona 1 mg/kg/día por 4 a 6 meses",
+     "por": "Es el esquema de GEFS."
     },
     {
-     "t": "Inhibidores de calcineurina de primera línea",
-     "por": "Es GEFS resistente."
+     "t": "Solo tratar la causa de fondo",
+     "por": "Se aplica a los nefróticos secundarios (lupus, diabetes, amiloide), no a la membranosa primaria."
     }
    ],
    "correcta": 0,
-   "explicacion": "Ponticelli: ciclofosfamida con esteroides alternados.",
+   "explicacion": "GEFS: prednisona 1 mg/kg/día por 4 a 6 meses; si es resistente, ciclosporina o tacrolimus con o sin esteroides. Mesangiocapilar: corticoides más micofenolato o rituximab.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 21"
   },
   {
-   "id": "n-sn-age",
+   "id": "n-sn-sup",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "Hombre de 65 años con síndrome nefrótico. ¿Qué descartar?",
+   "enunciado": "Paciente con síndrome nefrótico, anasarca y albúmina muy baja con riesgo de shock. ¿Qué medida de apoyo plantea la clase?",
    "opciones": [
     {
-     "t": "Neoplasia oculta",
-     "por": "Mayor de 50 años."
+     "t": "Albúmina intravenosa junto con un diurético",
+     "por": "Sube la presión oncótica y facilita que el diurético elimine el exceso de agua."
     },
     {
-     "t": "Mielinólisis",
-     "por": "No."
+     "t": "Solo restricción de sal",
+     "por": "Es útil en edema leve, pero aquí se necesita más."
     },
     {
-     "t": "Cambios mínimos siempre",
-     "por": "No."
+     "t": "Suspender todos los diuréticos",
+     "por": "Los diuréticos son parte del tratamiento del edema."
     },
     {
-     "t": "Glomerulonefritis postestreptocócica",
-     "por": "No."
+     "t": "Anticoagulación inmediata en todos",
+     "por": "La tromboprofilaxis se indica con albúmina baja y factores de riesgo; no en todos."
     }
    ],
    "correcta": 0,
-   "explicacion": "Paraneoplásica a edades avanzadas.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 13"
+   "explicacion": "Edema: furosemida con o sin tiazida, restricción de sal y agua. Presión arterial: IECA o ARA II, que además reducen la proteinuria y protegen el riñón. ARA II = antagonista del receptor de angiotensina II.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 20"
   },
   {
    "id": "n-sn-derm",
    "area": "nefro",
    "tema": "Síndrome nefrítico",
    "dif": 1,
-   "enunciado": "¿Cuál es la tríada básica del síndrome nefrítico?",
+   "enunciado": "¿Qué caracteriza al síndrome nefrítico?",
    "opciones": [
     {
-     "t": "Hematuria, hipertensión y edema, con oliguria",
-     "por": "Más proteinuria leve."
+     "t": "Hematuria (a veces con cilindros hemáticos), proteinuria leve a moderada, edema, hipertensión, oliguria y a veces azoemia",
+     "por": "Todo viene de la inflamación aguda del glomérulo: el glomérulo inflamado deja pasar sangre y retiene sodio y agua."
     },
     {
-     "t": "Proteinuria masiva y edema",
-     "por": "Es nefrótico."
+     "t": "Proteinuria masiva, hipoalbuminemia y dislipidemia",
+     "por": "Eso es síndrome nefrótico."
     },
     {
-     "t": "Dislipidemia",
-     "por": "No."
+     "t": "Poliuria con hipotensión",
+     "por": "El nefrítico cursa con oliguria e hipertensión."
     },
     {
-     "t": "Lipiduria",
-     "por": "No."
+     "t": "Solo hematuria sin ningún otro hallazgo",
+     "por": "El cuadro completo incluye hipertensión, edema y proteinuria leve."
     }
    ],
    "correcta": 0,
-   "explicacion": "Nefrítico: inflamación glomerular aguda; proteinuria menor de 3.5 g/día.",
-   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 7"
+   "explicacion": "Azoemia = aumento de urea y creatinina en la sangre. Proteinuria menor de 3.5 g/día.",
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 7",
+   "contexto": "Síndrome nefrítico = inflamación aguda del glomérulo. Deja pasar sangre (hematuria) y poca proteína, y se acompaña de hipertensión y menos orina."
   },
   {
    "id": "n-sn-ctr",
    "area": "nefro",
    "tema": "Síndrome nefrítico",
    "dif": 2,
-   "enunciado": "¿Cuál diferencia al nefrítico del nefrótico?",
+   "enunciado": "Un paciente tiene orina con cilindros hemáticos, hipertensión, oliguria y proteinuria de 1.5 g/día. ¿Cuál es el síndrome?",
    "opciones": [
     {
-     "t": "Hematuria con cilindros hemáticos",
-     "por": "Rara en nefrótico."
+     "t": "Nefrítico",
+     "por": "Los cilindros hemáticos indican sangrado de origen glomerular. La proteinuria está por debajo de 3.5 g/día."
     },
     {
-     "t": "Hiperlipidemia",
-     "por": "Del nefrótico."
+     "t": "Nefrótico",
+     "por": "Tendría proteinuria masiva (más de 3.5 g/día), edema severo y lipiduria; la hematuria es rara."
     },
     {
-     "t": "Proteinuria masiva",
-     "por": "Del nefrótico."
+     "t": "Mixto sin predominio",
+     "por": "La combinación de cilindros hemáticos, hipertensión y oliguria apunta claramente al nefrítico."
     },
     {
-     "t": "Anasarca",
-     "por": "Del nefrótico."
+     "t": "Infección urinaria",
+     "por": "No explica los cilindros hemáticos ni la hipertensión."
     }
    ],
    "correcta": 0,
-   "explicacion": "Nefrítico: función renal disminuida frecuentemente.",
-   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 8"
+   "explicacion": "Nefrítico: hematuria con cilindros, hipoalbuminemia leve o ausente, edema leve a moderado, hipertensión frecuente, oliguria, sin lipiduria, sin dislipidemia, función renal frecuentemente disminuida. Nefrótico: lo contrario en casi todo.",
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 8",
+   "contexto": "Síndrome nefrítico = inflamación aguda del glomérulo. Deja pasar sangre (hematuria) y poca proteína, y se acompaña de hipertensión y menos orina.",
+   "nota": "El síndrome nefrótico puede mezclarse con hallazgos nefríticos (lám. 8 del PPT de nefrótico)."
+  },
+  {
+   "id": "n-sn-fis",
+   "area": "nefro",
+   "tema": "Síndrome nefrítico",
+   "dif": 2,
+   "enunciado": "¿Qué mecanismo produce el síndrome nefrítico?",
+   "opciones": [
+    {
+     "t": "Inflamación glomerular aguda con infiltrado de leucocitos y proliferación endotelial o mesangial, por depósitos inmunes",
+     "por": "El daño de la pared del capilar glomerular deja salir sangre y reduce la filtración."
+    },
+    {
+     "t": "Lesión de los podocitos con pérdida masiva de proteínas",
+     "por": "Es el mecanismo del nefrótico."
+    },
+    {
+     "t": "Obstrucción del flujo de orina",
+     "por": "Eso es uropatía obstructiva."
+    },
+    {
+     "t": "Pérdida de volumen por diarrea",
+     "por": "Eso causa lesión renal prerrenal, no un síndrome nefrítico."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Causas primarias frecuentes: glomerulonefritis postinfecciosa, GN rápidamente progresiva, nefropatía IgA. Secundarias: lupus, vasculitis (ANCA).",
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 8 y 11",
+   "contexto": "ANCA = anticuerpos anticitoplasma de neutrófilos. GN = glomerulonefritis."
   },
   {
    "id": "n-sn-post",
    "area": "nefro",
    "tema": "Síndrome nefrítico",
    "dif": 2,
-   "enunciado": "Inicio súbito con rápida resolución orienta a:",
+   "enunciado": "Un niño tiene hematuria, edema e hipertensión de comienzo súbito que se resuelve rápido. ¿Qué causa orienta?",
    "opciones": [
     {
      "t": "Glomerulonefritis postestreptocócica",
-     "por": "Así lo dice la lámina."
+     "por": "El comienzo súbito y la rápida resolución la sugieren."
     },
     {
-     "t": "Nefropatía IgA",
-     "por": "No."
+     "t": "Nefropatía por IgA de evolución crónica",
+     "por": "El comienzo insidioso y el deterioro progresivo orientan a otras causas."
     },
     {
-     "t": "Vasculitis",
-     "por": "No."
+     "t": "Vasculitis con oliguria progresiva",
+     "por": "La oliguria con deterioro de función orienta a otra etiología."
     },
     {
-     "t": "Lupus",
-     "por": "No."
+     "t": "Nefritis hereditaria",
+     "por": "Sigue un curso lento y familiar."
     }
    ],
    "correcta": 0,
-   "explicacion": "Inicio insidioso y deterioro orientan a otras causas.",
-   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 12"
+   "explicacion": "Puede acompañarse de anorexia, fiebre, dolor abdominal y cefalea. En el laboratorio se esperan complemento bajo y anticuerpos antiestreptolisina elevados.",
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 12 y 15",
+   "nota": "Complemento bajo y antiestreptolisina elevada están en el flujograma de la lám. 15."
   },
   {
-   "id": "n-sn-bxn",
-   "area": "nefro",
-   "tema": "Síndrome nefrítico",
-   "dif": 2,
-   "enunciado": "¿Cuál es indicación de biopsia en nefrítico?",
-   "opciones": [
-    {
-     "t": "Proteinuria mayor de 1 g/día",
-     "por": "Está en la lámina."
-    },
-    {
-     "t": "Hematuria aislada",
-     "por": "No."
-    },
-    {
-     "t": "Mejoría rápida",
-     "por": "No."
-    },
-    {
-     "t": "Hipertensión controlada",
-     "por": "No."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "También deterioro rápido de la función renal.",
-   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 14"
-  },
-  {
-   "id": "n-sn-txn",
-   "area": "nefro",
-   "tema": "Síndrome nefrítico",
-   "dif": 2,
-   "enunciado": "¿Cuál es un tratamiento en nefrítico?",
-   "opciones": [
-    {
-     "t": "Restricción de sodio y líquidos más furosemida",
-     "por": "Control del edema."
-    },
-    {
-     "t": "Dieta rica en sal",
-     "por": "No."
-    },
-    {
-     "t": "AINE",
-     "por": "Se suspenden."
-    },
-    {
-     "t": "Actividad intensa",
-     "por": "Es reposo relativo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "IECA/ARA II con cuidado si hay oliguria severa.",
-   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 17"
-  },
-  {
-   "id": "n-sn-goodp",
+   "id": "n-sn-caso2",
    "area": "nefro",
    "tema": "Síndrome nefrítico",
    "dif": 3,
-   "enunciado": "Tratamiento del Goodpasture:",
+   "enunciado": "Niño de 8 años con orina color Coca-Cola, edema palpebral y PA 140/90, 2 semanas después de una faringitis. El complemento sérico está bajo. ¿Cuál es el diagnóstico más probable?",
    "opciones": [
     {
-     "t": "Plasmaféresis más corticoides y ciclofosfamida",
-     "por": "Así."
+     "t": "Glomerulonefritis aguda postestreptocócica",
+     "por": "Aparece 1 a 3 semanas después de la infección con síndrome nefrítico típico y complemento bajo."
     },
     {
-     "t": "Antibióticos",
-     "por": "No."
+     "t": "Enfermedad de cambios mínimos",
+     "por": "Daría proteinuria masiva y edema con presión normal y orina sin sangre."
     },
     {
-     "t": "Solo IECA",
-     "por": "No."
+     "t": "Nefropatía por IgA",
+     "por": "También da hematuria, pero tras la infección es inmediata (sinfaringítica) y el complemento es normal."
     },
     {
-     "t": "Rituximab solo",
-     "por": "No."
+     "t": "Pielonefritis aguda",
+     "por": "Tendría fiebre, dolor lumbar y piuria, no hipertensión con complemento bajo."
     }
    ],
    "correcta": 0,
-   "explicacion": "Vasculitis ANCA: corticoides con ciclofosfamida o rituximab.",
-   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 18"
+   "explicacion": "Tratamiento: soporte con restricción de sal y líquidos, diurético de asa para el edema y control de la presión arterial; se trata el foco infeccioso si persiste.",
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 12, 15 y 18",
+   "nota": "Caso armado como complemento: el PPT da los datos de cada elemento (lám. 12 y 15), no este caso."
   },
   {
    "id": "n-sn-age2",
    "area": "nefro",
    "tema": "Síndrome nefrítico",
    "dif": 2,
-   "enunciado": "Mayor de 40 años con nefrítico: causas",
+   "enunciado": "Mayor de 40 años con síndrome nefrítico. ¿Cuáles son las causas más frecuentes según la tabla por edad?",
    "opciones": [
     {
-     "t": "Nefropatía IgA, GN rápidamente progresiva, vasculitis",
-     "por": "Tabla."
+     "t": "Nefropatía IgA, glomerulonefritis rápidamente progresiva, vasculitis y glomerulonefritis aguda postinfecciosa",
+     "por": "Son las causas listadas para mayores de 40 años."
     },
     {
-     "t": "Enfermedad de membrana basal delgada",
-     "por": "<40."
+     "t": "Púrpura de Schönlein-Henoch, enfermedad de membrana basal delgada y nefritis hereditarias",
+     "por": "Son causas de menores de 15 años (y en parte de 15 a 40)."
     },
     {
-     "t": "Púrpura de Schönlein-Henoch",
-     "por": "<15."
+     "t": "Solo glomerulonefritis postestreptocócica",
+     "por": "También aparece, pero no es la única."
     },
     {
-     "t": "Nefritis hereditarias",
-     "por": "<40."
+     "t": "Nefropatía mesangial proliferativa y nefritis hereditarias",
+     "por": "Pertenecen al grupo de 15 a 40 años y a los menores."
     }
    ],
    "correcta": 0,
-   "explicacion": "Por edad.",
+   "explicacion": "Menores de 15: GN postinfecciosa, nefropatía IgA, membrana basal delgada, nefritis hereditarias, púrpura de Schönlein-Henoch, nefropatía lúpica. De 15 a 40: nefropatía IgA, membrana basal delgada, lúpica, hereditarias, mesangial proliferativa, GN rápidamente progresiva, postinfecciosa.",
    "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 10"
+  },
+  {
+   "id": "n-sn-bxn",
+   "area": "nefro",
+   "tema": "Síndrome nefrítico",
+   "dif": 2,
+   "enunciado": "¿Cuál es una indicación de biopsia renal en un síndrome nefrítico?",
+   "opciones": [
+    {
+     "t": "Proteinuria mayor de 1 g/día",
+     "por": "Está en la lista de la lámina de biopsia."
+    },
+    {
+     "t": "Hematuria con mejoría en pocos días",
+     "por": "Una mejoría rápida sugiere postestreptocócica y no requiere biopsia."
+    },
+    {
+     "t": "Hipertensión que cede con diuréticos",
+     "por": "No es indicación."
+    },
+    {
+     "t": "Presión arterial normal y proteinuria de 0.3 g/día",
+     "por": "Con proteinuria baja y evolución favorable no se indica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Indicaciones: deterioro rápido de la función renal; insuficiencia renal establecida; proteinuria mayor de 1 g/día; persistencia de proteinuria y alteraciones inmunológicas no compatibles. En el flujograma (lám. 15), la biopsia también se piensa con dudas diagnósticas, deterioro progresivo y sospecha de causa glomerular.",
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 14 y 15"
+  },
+  {
+   "id": "n-sn-txn",
+   "area": "nefro",
+   "tema": "Síndrome nefrítico",
+   "dif": 2,
+   "enunciado": "Paciente con síndrome nefrítico agudo con edema e hipertensión. ¿Qué medidas generales indica la lámina?",
+   "opciones": [
+    {
+     "t": "Restricción de sodio y líquidos, furosemida, IECA o ARA II (con cuidado si hay oliguria severa), reposo relativo y evitar nefrotóxicos",
+     "por": "Controlan la presión y el edema, y evitan dañar más el riñón."
+    },
+    {
+     "t": "Dieta rica en sal y AINE para el dolor",
+     "por": "La sal empeora el edema y los AINE son nefrotóxicos: se suspenden."
+    },
+    {
+     "t": "Actividad física intensa",
+     "por": "Se indica reposo relativo durante la fase aguda."
+    },
+    {
+     "t": "Aumentar la ingesta de líquidos",
+     "por": "Hay oliguria y sobrecarga de volumen: se restringe."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Vigilar balance hídrico. En el flujograma de la lám. 16 también aparecen hemodiálisis (uremia grave, hiperpotasemia grave, insuficiencia cardiaca refractaria) y corticoides (biopsia con proliferación extracapilar o insuficiencia renal grave).",
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 16 y 17",
+   "contexto": "AINE = antiinflamatorios no esteroideos (ibuprofeno, diclofenaco...). Nefrotóxico = que daña el riñón."
+  },
+  {
+   "id": "n-sn-goodp",
+   "area": "nefro",
+   "tema": "Síndrome nefrítico",
+   "dif": 3,
+   "enunciado": "¿Qué tratamiento corresponde al síndrome de Goodpasture?",
+   "opciones": [
+    {
+     "t": "Plasmaféresis más corticoides y ciclofosfamida",
+     "por": "La plasmaféresis retira los anticuerpos contra la membrana basal; los corticoides y la ciclofosfamida frenan su producción."
+    },
+    {
+     "t": "Solo IECA y restricción de sal",
+     "por": "Controlan la presión, pero no frenan la enfermedad autoinmune."
+    },
+    {
+     "t": "Antibióticos",
+     "por": "No es una infección."
+    },
+    {
+     "t": "Antivirales directos",
+     "por": "Se usan en crioglobulinemia por virus de hepatitis C."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Otros tratamientos de la tabla: GN rápidamente progresiva y vasculitis ANCA: corticoides con ciclofosfamida o rituximab (± plasmaféresis en RPGN). Nefritis lúpica: corticoides con micofenolato o ciclofosfamida. Nefropatía IgA: control tensional, IECA/ARA II; corticoides en casos graves.",
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 18"
   }
  ],
  "tarjetas": [
@@ -540,39 +667,39 @@
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "f": "Nefrótico: definición",
-   "b": "≥3.5 g/24h, albúmina <3.0, edema, hiperlipidemia",
+   "b": "Proteinuria ≥3.5 g/24 h (niños ≥40 mg/m²/h); albúmina <3.0 g/dL; edema; hiperlipidemia; lipiduria opcional.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 7"
   },
   {
    "id": "n-sn-c-1",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
-   "f": "Trombosis",
-   "b": "Pérdida de antitrombina III, C y S; vena renal",
+   "f": "Nefrótico: trombosis",
+   "b": "Se pierden antitrombina III, proteínas C y S; sube el fibrinógeno. Típica: vena renal.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 17"
   },
   {
    "id": "n-sn-c-2",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
-   "f": "Infecciones",
-   "b": "Encapsulados",
+   "f": "Nefrótico: infecciones",
+   "b": "Pérdida de IgG y complemento. Gérmenes encapsulados (neumococo). Vacunar: neumococo, influenza, hepatitis B.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 18"
   },
   {
    "id": "n-sn-c-3",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
-   "f": "CM niños",
-   "b": "Prednisona 2 mg/kg 4 a 6 sem",
+   "f": "Cambios mínimos: tratamiento",
+   "b": "Niños: prednisona 2 mg/kg/día por 4 a 6 semanas. Adultos: 1 mg/kg/día por 8 a 16 semanas.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 21"
   },
   {
    "id": "n-sn-c-4",
    "area": "nefro",
    "tema": "Síndrome nefrítico",
-   "f": "Nefrítico",
-   "b": "Hematuria, HTA, edema, oliguria",
+   "f": "Nefrítico: cuadro",
+   "b": "Hematuria con cilindros hemáticos, proteinuria <3.5 g/día, edema, hipertensión, oliguria, a veces azoemia.",
    "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 7"
   },
   {
@@ -580,7 +707,7 @@
    "area": "nefro",
    "tema": "Síndrome nefrítico",
    "f": "Nefrítico: biopsia",
-   "b": ">1 g/día",
+   "b": "Deterioro rápido, insuficiencia renal, proteinuria >1 g/día, alteraciones inmunológicas no compatibles.",
    "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 14"
   },
   {
@@ -588,8 +715,16 @@
    "area": "nefro",
    "tema": "Síndrome nefrítico",
    "f": "Goodpasture",
-   "b": "Plasmaféresis más corticoides y ciclofosfamida",
+   "b": "Plasmaféresis más corticoides más ciclofosfamida.",
    "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 18"
+  },
+  {
+   "id": "n-sn-c-7",
+   "area": "nefro",
+   "tema": "Síndrome nefrítico",
+   "f": "Postestreptocócica",
+   "b": "Inicio súbito y resolución rápida. Complemento bajo y antiestreptolisina elevada.",
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 12"
   }
  ]
 }
