@@ -1,0 +1,694 @@
+{
+ "preguntas": [
+  {
+   "id": "n-erc-def",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 1,
+   "enunciado": "¿Qué define a la enfermedad renal crónica (ERC) según la clase?",
+   "opciones": [
+    {
+     "t": "Anormalidad de la estructura o de la función del riñón presente por más de 3 meses",
+     "por": "Es la definición de la lámina: lo que cuenta es la persistencia (más de 3 meses) y que haya daño estructural o funcional."
+    },
+    {
+     "t": "Caída brusca de la TFG en horas o días",
+     "por": "Eso es la injuria renal aguda; la ERC exige cronicidad."
+    },
+    {
+     "t": "Creatinina mayor de 1.5 mg/dL en una sola medición",
+     "por": "Un valor aislado no define ERC: se necesita persistencia y se interpreta con la TFG."
+    },
+    {
+     "t": "Presencia de proteinuria por menos de 1 semana",
+     "por": "Una proteinuria transitoria no cumple el criterio de más de 3 meses."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "ERC = anormalidad estructural o funcional del riñón que dura más de 3 meses. Se apoya en marcadores de daño (proteinuria, sedimento, imagen, biopsia).",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 8"
+  },
+  {
+   "id": "n-erc-marc",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 2,
+   "enunciado": "Un paciente tiene 5 meses con TFG de 80 mL/min/1.73 m², pero la ecografía muestra quistes renales bilaterales. ¿Cumple criterio de ERC?",
+   "opciones": [
+    {
+     "t": "Sí, porque hay una anormalidad estructural por más de 3 meses aunque la TFG sea casi normal",
+     "por": "La definición incluye alteraciones estructurales, no solo la TFG baja."
+    },
+    {
+     "t": "No, porque la ERC solo se diagnostica con TFG menor de 60",
+     "por": "Esa es una restricción incorrecta: la TFG baja es solo uno de los criterios."
+    },
+    {
+     "t": "No, porque se necesita biopsia para confirmar ERC",
+     "por": "La biopsia no es requisito para el diagnóstico."
+    },
+    {
+     "t": "Sí, pero solo si además hay creatinina elevada",
+     "por": "La creatinina elevada no es obligatoria si hay otro marcador de daño."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La lámina incluye marcadores de daño patológico, de imagen y biomarcadores. Una anormalidad estructural persistente basta, aunque la TFG se mantenga.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 8"
+  },
+  {
+   "id": "n-erc-etio",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 1,
+   "enunciado": "¿Cuál es la causa más frecuente de ERC según la lámina de etiología?",
+   "opciones": [
+    {
+     "t": "Glomerulopatía diabética (alrededor de 30 %)",
+     "por": "Es la causa principal en la lámina, seguida de la nefropatía hipertensiva."
+    },
+    {
+     "t": "Poliquistosis renal (alrededor de 30 %)",
+     "por": "La poliquistosis es solo 2 a 3 % de los casos."
+    },
+    {
+     "t": "Glomerulonefritis (alrededor de 30 %)",
+     "por": "Las glomerulonefritis son menos de 10 %."
+    },
+    {
+     "t": "Infecciones urinarias recurrentes (alrededor de 30 %)",
+     "por": "Están entre las otras causas, con porcentaje bajo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Etiología: glomerulopatía diabética ~30 %, nefropatía hipertensiva 15 a 30 %, glomerulonefritis <10 %, poliquistosis 2 a 3 %.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 12"
+  },
+  {
+   "id": "n-erc-etio2",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 2,
+   "enunciado": "Mujer de 60 años con HTA de 15 años de evolución mal controlada, sin diabetes. Perfil de riesgo para ERC: ¿qué mecanismo explica el daño renal?",
+   "opciones": [
+    {
+     "t": "Nefropatía hipertensiva: la presión alta lesiona de forma sostenida el glomérulo y los vasos",
+     "por": "La HTA es de las causas más frecuentes (15 a 30 %) y daña por hiperfiltración, isquemia y fibrosis."
+    },
+    {
+     "t": "Poliquistosis renal, por la presión elevada",
+     "por": "La poliquistosis es genética y mucho menos frecuente (2 a 3 %)."
+    },
+    {
+     "t": "Obstrucción por litiasis, por la hipertensión",
+     "por": "La HTA no causa litiasis; la obstrucción es otra causa."
+    },
+    {
+     "t": "Glomerulonefritis aguda, que siempre produce HTA",
+     "por": "La glomerulonefritis es menos de 10 % de las ERC y no se explica por HTA previa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La HTA sostenida es la segunda causa de ERC. Una vez iniciada la lesión, la compensación por hiperfiltración y el SRAA perpetúan el daño.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 12 y 13"
+  },
+  {
+   "id": "n-erc-fisio",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 2,
+   "enunciado": "En la fisiopatología de la ERC, ¿qué ocurre en la fase de 'compensación' tras la lesión inicial?",
+   "opciones": [
+    {
+     "t": "Hiperfiltración de las nefronas sanas y proteinuria",
+     "por": "La lámina señala hiperfiltración glomerular y proteinuria como compensación."
+    },
+    {
+     "t": "Fibrosis con colágeno y miofibroblastos",
+     "por": "Eso es la fase de fibrosis y pérdida (TGF-β)."
+    },
+    {
+     "t": "Activación del SRAA y atrofia tubular",
+     "por": "Pertenece a la fase de progresión."
+    },
+    {
+     "t": "Hiperglucemia y toxinas",
+     "por": "Son agentes de la lesión inicial, no la compensación."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Secuencia de la lámina: lesión inicial, compensación (hiperfiltración, proteinuria), inflamación crónica, fibrosis (TGF-β) y progresión (SRAA, isquemia, atrofia). SRAA = sistema renina-angiotensina-aldosterona.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 13"
+  },
+  {
+   "id": "n-erc-fibrosis",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 2,
+   "enunciado": "¿Qué molécula y qué células se asocian a la fibrosis renal en la tabla de fisiopatología?",
+   "opciones": [
+    {
+     "t": "TGF-β (factor de crecimiento transformante beta) y miofibroblastos con depósito de colágeno",
+     "por": "Esa es la fase 'fibrosis y pérdida' de la lámina."
+    },
+    {
+     "t": "Aldosterona y células mesangiales",
+     "por": "La aldosterona participa en el SRAA de la progresión, no es el mediador de la fibrosis en la lámina."
+    },
+    {
+     "t": "Citocinas y células inmunes",
+     "por": "Corresponden a la fase de inflamación crónica."
+    },
+    {
+     "t": "Insulina y podocitos",
+     "por": "No son los protagonistas de la fibrosis en la lámina."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Inflamación crónica: células inmunes, citocinas, estrés oxidativo. Fibrosis: TGF-β, miofibroblastos y colágeno.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 13"
+  },
+  {
+   "id": "n-erc-stage",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 1,
+   "enunciado": "Según KDIGO, ¿qué estadio corresponde a una TFG de 38 mL/min/1.73 m²?",
+   "opciones": [
+    {
+     "t": "G3b (30 a 44)",
+     "por": "TFG de 30 a 44 es G3b: disminución de moderada a grave."
+    },
+    {
+     "t": "G3a (45 a 59)",
+     "por": "38 está por debajo de 45."
+    },
+    {
+     "t": "G4 (15 a 29)",
+     "por": "38 es mayor de 30."
+    },
+    {
+     "t": "G2 (60 a 89)",
+     "por": "38 está muy por debajo de 60."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "G1 ≥90; G2 60 a 89; G3a 45 a 59; G3b 30 a 44; G4 15 a 29; G5 <15.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 10 y 11",
+   "contexto": "KDIGO (Kidney Disease: Improving Global Outcomes): organización internacional que publica las guías para clasificar y tratar las enfermedades renales. TFG = tasa de filtrado glomerular, el volumen de sangre que los riñones filtran por minuto."
+  },
+  {
+   "id": "n-erc-alb",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 1,
+   "enunciado": "Según KDIGO, ¿qué categoría de albuminuria es 150 mg/g de creatinina?",
+   "opciones": [
+    {
+     "t": "A2 (30 a 300 mg/g)",
+     "por": "150 está dentro del rango de albuminuria moderadamente aumentada."
+    },
+    {
+     "t": "A1 (menos de 30 mg/g)",
+     "por": "150 es mayor de 30."
+    },
+    {
+     "t": "A3 (mayor de 300 mg/g)",
+     "por": "150 es menor de 300."
+    },
+    {
+     "t": "G2",
+     "por": "G es la categoría de TFG, no de albuminuria."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "A1 <30 mg/g; A2 30 a 300 mg/g; A3 >300 mg/g. La albuminuria y la TFG se combinan para estimar el riesgo.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 10 y 11",
+   "contexto": "KDIGO (Kidney Disease: Improving Global Outcomes): organización internacional que publica las guías para clasificar y tratar las enfermedades renales. TFG = tasa de filtrado glomerular, el volumen de sangre que los riñones filtran por minuto."
+  },
+  {
+   "id": "n-erc-heat1",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 3,
+   "enunciado": "Paciente con TFG de 52 y albuminuria de 400 mg/g. ¿Qué riesgo asigna el mapa de calor de KDIGO?",
+   "opciones": [
+    {
+     "t": "Riesgo muy alto (rojo): G3a con A3",
+     "por": "G3a + A3 cae en la zona roja del mapa."
+    },
+    {
+     "t": "Riesgo bajo (verde)",
+     "por": "El verde se reserva a G1 o G2 con A1."
+    },
+    {
+     "t": "Riesgo moderadamente aumentado (amarillo)",
+     "por": "G3a con A1 es amarillo; con A3 sube a rojo."
+    },
+    {
+     "t": "Riesgo alto (naranja)",
+     "por": "G3a con A2 es naranja; con A3 es rojo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Mapa: G1-G2 A1 verde; G3a A1 amarillo, A2 naranja, A3 rojo; G3b A2 y A3 rojos; G4-G5 todos rojos.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 11",
+   "contexto": "KDIGO (Kidney Disease: Improving Global Outcomes): organización internacional que publica las guías para clasificar y tratar las enfermedades renales. TFG = tasa de filtrado glomerular, el volumen de sangre que los riñones filtran por minuto."
+  },
+  {
+   "id": "n-erc-heat2",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 2,
+   "enunciado": "Un paciente con TFG de 92 y albuminuria de 20 mg/g (sin otro marcador de daño). ¿Qué indica el mapa de KDIGO?",
+   "opciones": [
+    {
+     "t": "Riesgo bajo (verde); sin otro marcador de daño no es ERC",
+     "por": "G1 con A1 es verde: sin otro marcador no hay ERC."
+    },
+    {
+     "t": "Riesgo muy alto (rojo)",
+     "por": "El rojo es para G3b A2 o peor."
+    },
+    {
+     "t": "Riesgo alto (naranja)",
+     "por": "Se necesitaría A3 o G3a con A2."
+    },
+    {
+     "t": "ERC G1A1 que requiere diálisis",
+     "por": "No hay indicación de diálisis y tampoco ERC."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "G1 o G2 con A1 es verde (riesgo bajo) y solo es ERC si existe otro marcador de daño.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 11",
+   "contexto": "KDIGO (Kidney Disease: Improving Global Outcomes): organización internacional que publica las guías para clasificar y tratar las enfermedades renales. TFG = tasa de filtrado glomerular, el volumen de sangre que los riñones filtran por minuto."
+  },
+  {
+   "id": "n-erc-cg1",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 3,
+   "enunciado": "Varón de 72 años, 68 kg, creatinina sérica 1.6 mg/dL. Calcula su TFG con Cockcroft-Gault y ubica su estadio KDIGO.",
+   "opciones": [
+    {
+     "t": "≈ 40 mL/min: G3b",
+     "por": "(140 − 72) × 68 / (72 × 1.6) = 4624 / 115.2 = 40.1. Cae entre 30 y 44, es G3b."
+    },
+    {
+     "t": "≈ 34 mL/min: G3b",
+     "por": "Aplicaste el factor 0.85, que es solo para mujeres."
+    },
+    {
+     "t": "≈ 60 mL/min: G2",
+     "por": "Cuenta mal: el denominador es 72 × creatinina."
+    },
+    {
+     "t": "≈ 125 mL/min: G1",
+     "por": "Se suma la edad en vez de restarla."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Cockcroft-Gault: (140 − edad) × peso / (72 × creatinina), ×0.85 en mujeres. Resultado 40.1 mL/min, G3b.",
+   "fuente": "Complemento: la fórmula está en la lám. 9 del PPT (la clase muestra MDRD y Cockcroft-Gault); el caso es inventado para practicar",
+   "contexto": "Cockcroft-Gault estima la TFG (en mL/min) a partir de edad, peso y creatinina. (140 − edad) × peso (kg) / (72 × creatinina en mg/dL); en mujeres se multiplica por 0.85. TFG = filtrado glomerular. Se usa para estadiar la ERC."
+  },
+  {
+   "id": "n-erc-cg2",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 3,
+   "enunciado": "Mujer de 66 años, 55 kg, creatinina 1.3 mg/dL. ¿Cuál es su TFG por Cockcroft-Gault?",
+   "opciones": [
+    {
+     "t": "≈ 37 mL/min",
+     "por": "(140 − 66) × 55 / (72 × 1.3) × 0.85 = 4070 / 93.6 × 0.85 = 37.0 (G3b)."
+    },
+    {
+     "t": "≈ 43 mL/min",
+     "por": "Olvidaste el factor 0.85 de las mujeres."
+    },
+    {
+     "t": "≈ 45 mL/min",
+     "por": "Aplicaste el factor 1.21, que es de MDRD para afroestadounidenses."
+    },
+    {
+     "t": "≈ 18 mL/min",
+     "por": "Error de cuenta: la creatinina se multiplica por 72 en el denominador."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Cockcroft-Gault con factor 0.85 para mujeres: 37.0 mL/min, G3b.",
+   "fuente": "Complemento: caso inventado para practicar la fórmula de la lám. 9",
+   "contexto": "Cockcroft-Gault: (140 − edad) × peso (kg) / (72 × creatinina en mg/dL); en mujeres × 0.85."
+  },
+  {
+   "id": "n-erc-mdrd",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 2,
+   "enunciado": "En la fórmula MDRD, ¿qué factores se aplican según sexo y etnia?",
+   "opciones": [
+    {
+     "t": "×0.742 en mujeres y ×1.21 en afroestadounidenses",
+     "por": "Así aparece en la imagen de la lámina de TFG."
+    },
+    {
+     "t": "×0.85 en mujeres y ×1.21 en varones",
+     "por": "El 0.85 es de Cockcroft-Gault, no de MDRD."
+    },
+    {
+     "t": "×1.86 en mujeres",
+     "por": "El 1.86 es la constante inicial de la fórmula."
+    },
+    {
+     "t": "Ninguno, no depende del sexo",
+     "por": "Sí depende: tanto MDRD como Cockcroft-Gault corrigen para mujeres."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "MDRD: 1.86 × (Pcr)^−1.154 × (edad)^−0.203 × 0.742 (mujeres) × 1.21 (afroestadounidenses). Cockcroft-Gault ×0.85 en mujeres.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 9"
+  },
+  {
+   "id": "n-erc-alb2",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 2,
+   "enunciado": "¿Cómo se confirma una albuminuria persistente según la lámina de diagnóstico?",
+   "opciones": [
+    {
+     "t": "Con 2 estudios separados por 3 a 6 meses",
+     "por": "La ERC exige persistencia, por eso se repite."
+    },
+    {
+     "t": "Con una sola tira reactiva positiva",
+     "por": "Puede ser transitoria (fiebre, ejercicio, infección)."
+    },
+    {
+     "t": "Con dos muestras el mismo día",
+     "por": "No demuestra cronicidad."
+    },
+    {
+     "t": "Con una ecografía renal",
+     "por": "La ecografía estudia estructura, no albuminuria."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Microalbuminuria 30 a 300 mg/24 h; macroalbuminuria más de 300 mg/24 h. Se confirma con 2 estudios separados 3 a 6 meses.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 14"
+  },
+  {
+   "id": "n-erc-eco",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 2,
+   "enunciado": "¿Qué hallazgo ecográfico sugiere cronicidad?",
+   "opciones": [
+    {
+     "t": "Pérdida de la diferenciación corticomedular",
+     "por": "La lámina lo menciona para distinguir un daño crónico de uno agudo."
+    },
+    {
+     "t": "Riñones aumentados de tamaño siempre",
+     "por": "En la ERC avanzada suelen ser pequeños, salvo causas como diabetes o poliquistosis."
+    },
+    {
+     "t": "Contornos lisos con buena diferenciación",
+     "por": "Eso sugiere riñón sano."
+    },
+    {
+     "t": "Ausencia de hidronefrosis",
+     "por": "Descarta obstrucción, no cronicidad."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La ecografía evalúa alteraciones estructurales, quistes, masas, litiasis, hidronefrosis, asimetría y diferencia entre lo agudo y lo crónico.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 15"
+  },
+  {
+   "id": "n-erc-bx",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 2,
+   "enunciado": "¿Cuál es una contraindicación para la biopsia renal en un paciente con ERC?",
+   "opciones": [
+    {
+     "t": "Riñón pequeño (menor de 9 cm)",
+     "por": "Indica fibrosis avanzada: poco rendimiento y mayor riesgo."
+    },
+    {
+     "t": "Hematuria de origen renal",
+     "por": "Es indicación, no contraindicación."
+    },
+    {
+     "t": "Masa renal",
+     "por": "Es indicación."
+    },
+    {
+     "t": "Disminución inexplicable de la función renal",
+     "por": "Es indicación."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Indicaciones: hematuria renal, proteinuria, masa renal, disminución inexplicable de la función. Contraindicaciones: riñón <9 cm, monorreno, coagulopatía o HTA no controlada, infección.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 16"
+  },
+  {
+   "id": "n-erc-tx",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 2,
+   "enunciado": "¿Qué analgésico se prefiere en un paciente con ERC?",
+   "opciones": [
+    {
+     "t": "Paracetamol",
+     "por": "La lámina lo señala como de elección."
+    },
+    {
+     "t": "Ibuprofeno",
+     "por": "AINE nefrotóxico."
+    },
+    {
+     "t": "Diclofenaco",
+     "por": "AINE nefrotóxico."
+    },
+    {
+     "t": "Naproxeno",
+     "por": "AINE nefrotóxico."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "AINE = antiinflamatorios no esteroideos; reducen el flujo renal. Evitar nefrotóxicos es parte del tratamiento.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 17"
+  },
+  {
+   "id": "n-erc-tx2",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 3,
+   "enunciado": "¿Qué recomienda la lámina de tratamiento sobre IECA y ARA II en la ERC?",
+   "opciones": [
+    {
+     "t": "Reducen la albuminuria; no usarlos con TFG menor de 30",
+     "por": "Eso dice la lámina."
+    },
+    {
+     "t": "Se usan en toda ERC sin importar la TFG",
+     "por": "La lámina pone límite a TFG <30."
+    },
+    {
+     "t": "Están contraindicados en toda ERC",
+     "por": "Reducen la albuminuria: están indicados."
+    },
+    {
+     "t": "Se combinan siempre entre sí",
+     "por": "Esta combinación no aparece como recomendada."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "IECA = inhibidores de la enzima convertidora de angiotensina; ARA II = antagonistas de los receptores de angiotensina II. Los BCC (bloqueadores de canales de calcio) pueden usarse junto a IECA o ARA II; en estadios tempranos se prefieren tiazidas.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 17",
+   "nota": "Las guías KDIGO suelen mantener estos fármacos aun con TFG baja si el potasio y la creatinina lo permiten. Sigue el PPT para el examen."
+  },
+  {
+   "id": "n-erc-dial1",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 2,
+   "enunciado": "¿Cuál de estos es criterio para iniciar diálisis?",
+   "opciones": [
+    {
+     "t": "Hiperpotasemia refractaria con K⁺ mayor de 6.5",
+     "por": "Está en la lámina de criterios."
+    },
+    {
+     "t": "K⁺ de 5.2 controlado con dieta",
+     "por": "No es refractario ni extremo."
+    },
+    {
+     "t": "TFG de 40 sin síntomas",
+     "por": "El umbral es TFG <15 con síntomas o <10 en diabéticos."
+    },
+    {
+     "t": "Creatinina de 2 mg/dL aislada",
+     "por": "No es criterio."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Criterios: TFG <15 sintomático o <10 en diabetes; síntomas urémicos; K⁺ >6.5 refractario; acidosis con pH <7.2 o HCO₃⁻ <12; sobrecarga hídrica refractaria; desnutrición.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 18"
+  },
+  {
+   "id": "n-erc-dial2",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 3,
+   "enunciado": "Varón de 58 años con ERC, TFG 9, edema agudo de pulmón que no mejora con furosemida en dosis altas. ¿Qué criterio dialítico cumple?",
+   "opciones": [
+    {
+     "t": "Sobrecarga hídrica refractaria a diuréticos",
+     "por": "Congestión pulmonar que no responde a diuréticos."
+    },
+    {
+     "t": "Acidosis con pH menor de 7.2",
+     "por": "El caso no da gases."
+    },
+    {
+     "t": "Hiperpotasemia mayor de 6.5",
+     "por": "No se menciona."
+    },
+    {
+     "t": "Desnutrición con albúmina baja",
+     "por": "No es el motivo urgente."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "También cumple TFG <15, pero lo que impulsa la indicación aquí es la sobrecarga hídrica refractaria.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 18"
+  },
+  {
+   "id": "n-erc-dial3",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 2,
+   "enunciado": "¿Cuál de estos son síntomas urémicos que justifican diálisis?",
+   "opciones": [
+    {
+     "t": "Náuseas y vómitos incoercibles, encefalopatía, pericarditis, neuropatía",
+     "por": "Están listados."
+    },
+    {
+     "t": "Prurito leve aislado",
+     "por": "No se lista."
+    },
+    {
+     "t": "Dolor lumbar",
+     "por": "No es urémico."
+    },
+    {
+     "t": "Cefalea ocasional",
+     "por": "No se lista."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los síntomas urémicos reflejan acumulación de toxinas y son indicación de TRR (terapia de reemplazo renal).",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 18"
+  },
+  {
+   "id": "n-erc-cons",
+   "area": "nefro",
+   "tema": "ERC",
+   "dif": 1,
+   "enunciado": "¿Cuál es el criterio de TFG de la conclusión de la clase?",
+   "opciones": [
+    {
+     "t": "TFG menor de 60 por más de 3 meses",
+     "por": "Se estadía con KDIGO."
+    },
+    {
+     "t": "TFG menor de 90 por 1 mes",
+     "por": "Es el límite de G1."
+    },
+    {
+     "t": "TFG menor de 15 por 3 meses",
+     "por": "Es G5."
+    },
+    {
+     "t": "TFG menor de 30 por 6 meses",
+     "por": "Es G4."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "ERC si hay TFG <60 por más de 3 meses o marcadores de daño.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 24",
+   "contexto": "KDIGO (Kidney Disease: Improving Global Outcomes): organización internacional que publica las guías para clasificar y tratar las enfermedades renales. TFG = tasa de filtrado glomerular, el volumen de sangre que los riñones filtran por minuto."
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "n-erc-c-0",
+   "area": "nefro",
+   "tema": "ERC",
+   "f": "Definición ERC",
+   "b": "Anormalidad estructural o funcional del riñón por más de 3 meses.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 8"
+  },
+  {
+   "id": "n-erc-c-1",
+   "area": "nefro",
+   "tema": "ERC",
+   "f": "Categorías G (TFG)",
+   "b": "G1 ≥90\nG2 60-89\nG3a 45-59\nG3b 30-44\nG4 15-29\nG5 <15",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 10"
+  },
+  {
+   "id": "n-erc-c-2",
+   "area": "nefro",
+   "tema": "ERC",
+   "f": "Albuminuria A",
+   "b": "A1 <30 mg/g\nA2 30-300\nA3 >300",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 11"
+  },
+  {
+   "id": "n-erc-c-3",
+   "area": "nefro",
+   "tema": "ERC",
+   "f": "Causas de ERC",
+   "b": "Glomerulopatía diabética ~30 %, HTA 15-30 %, glomerulonefritis <10 %, poliquistosis 2-3 %",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 12"
+  },
+  {
+   "id": "n-erc-c-4",
+   "area": "nefro",
+   "tema": "ERC",
+   "f": "Cockcroft-Gault",
+   "b": "(140 − edad) × peso (kg) / (72 × Cr); ×0.85 mujeres",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 9"
+  },
+  {
+   "id": "n-erc-c-5",
+   "area": "nefro",
+   "tema": "ERC",
+   "f": "Biopsia: contraindicaciones",
+   "b": "Riñón <9 cm, monorreno, coagulopatía/HTA no controlada, infección",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 16"
+  },
+  {
+   "id": "n-erc-c-6",
+   "area": "nefro",
+   "tema": "ERC",
+   "f": "Criterios de diálisis",
+   "b": "TFG <15 sintomático (<10 diabetes); síntomas urémicos; K⁺ >6.5; pH <7.2 o HCO₃⁻ <12; sobrecarga hídrica refractaria",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 18"
+  },
+  {
+   "id": "n-erc-c-7",
+   "area": "nefro",
+   "tema": "ERC",
+   "f": "Analgésico de elección",
+   "b": "Paracetamol; evitar AINE",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 17"
+  }
+ ]
+}

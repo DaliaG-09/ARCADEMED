@@ -1,5 +1,8 @@
 {
-  "archivos": [
-    "nefro-talleres.json"
-  ]
+ "archivos": [
+  "nefro-talleres.json",
+  "nefro-erc.json",
+  "nefro-ira.json",
+  "nefro-sindromes.json"
+ ]
 }
