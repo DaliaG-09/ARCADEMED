@@ -5,57 +5,87 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 1,
-   "enunciado": "¿Por qué el riñón se afecta con frecuencia en las vasculitis sistémicas?",
+   "enunciado": "¿Por qué el riñón se afecta con tanta frecuencia en las vasculitis sistémicas?",
    "opciones": [
     {
-     "t": "Por la diversidad de vasos renales (arterias, arcuatas, interlobulares, arteriolas, capilares glomerulares), sobre todo en la vasculitis de pequeños vasos",
-     "por": "Lo dice la lámina."
+     "t": "Porque tiene vasos de todos los tamaños (arterias, interlobulares, arcuatas, arteriolas y capilares glomerulares), y las vasculitis de pequeños vasos son las que más lo comprometen",
+     "por": "Las vasculitis son inflamación y necrosis de los vasos. Como el riñón es un órgano muy vascularizado, casi siempre hay un vaso del calibre que ataca cada vasculitis."
     },
     {
      "t": "Porque el riñón no tiene vasos pequeños",
-     "por": "Sí los tiene."
+     "por": "Sí los tiene: arteriolas y capilares glomerulares."
     },
     {
      "t": "Porque solo las vasculitis de vasos grandes lo afectan",
-     "por": "Es al revés."
+     "por": "Es al revés: predominan las de pequeños vasos."
     },
     {
-     "t": "Porque la vasculitis siempre empieza en el riñón",
-     "por": "No."
+     "t": "Porque toda vasculitis empieza en el riñón",
+     "por": "Pueden empezar en cualquier órgano."
     }
    ],
    "correcta": 0,
-   "explicacion": "Vasculitis: inflamación y necrosis de vasos; las manifestaciones dependen del tamaño y la localización del vaso.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 7"
+   "explicacion": "Según el tamaño del vaso: grandes (Takayasu, células gigantes), medianos (poliarteritis nudosa, Kawasaki) y pequeños (por complejos inmunes: crioglobulinémica, Henoch-Schönlein; asociadas a ANCA: poliangeítis microscópica, Wegener, Churg-Strauss).",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 7 a 9 y 41"
+  },
+  {
+   "id": "n-sis-clas",
+   "area": "nefro",
+   "tema": "Enfermedades sistémicas y riñón",
+   "dif": 2,
+   "enunciado": "Según la clasificación de Chapel Hill de la clase, ¿qué vasculitis son 'asociadas a ANCA' de pequeños vasos?",
+   "opciones": [
+    {
+     "t": "Poliangeítis microscópica, granulomatosis con poliangeítis (Wegener) y síndrome de Churg-Strauss",
+     "por": "Son las tres de pequeños vasos con ANCA. Las de pequeños vasos por complejos inmunes son otro grupo."
+    },
+    {
+     "t": "Takayasu y arteritis de células gigantes",
+     "por": "Son de vasos grandes."
+    },
+    {
+     "t": "Poliarteritis nodosa y Kawasaki",
+     "por": "Son de vasos medianos."
+    },
+    {
+     "t": "Henoch-Schönlein y crioglobulinémica",
+     "por": "Son de pequeños vasos, pero por complejos inmunes (no asociadas a ANCA)."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Enfermedad de Goodpasture también se ubica entre las de complejos inmunes en el esquema (anti-MBG).",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 8 y 42",
+   "contexto": "ANCA = anticuerpos anticitoplasma de neutrófilos. Hay dos tipos: anti-PR3 (proteinasa 3) y anti-MPO (mieloperoxidasa). Ayudan a diagnosticar las vasculitis de pequeños vasos."
   },
   {
    "id": "n-sis-anca1",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "Según la tabla de ANCA, ¿qué vasculitis tiene mayor porcentaje de ANCA positivo, con anti-PR3 en 80 a 90 %?",
+   "enunciado": "¿Qué vasculitis se asocia con ANCA anti-PR3 en 80 a 90 % de los casos?",
    "opciones": [
     {
-     "t": "Granulomatosis con poliangeítis (Wegener), 90 %",
-     "por": "Es la de mayor positividad."
+     "t": "Granulomatosis de Wegener (granulomatosis con poliangeítis)",
+     "por": "Tiene la mayor positividad de ANCA (90 %), casi siempre anti-PR3."
     },
     {
-     "t": "Poliarteritis nudosa microscópica, 70 %",
-     "por": "Anti-MPO mayoritariamente."
+     "t": "Poliangeítis microscópica",
+     "por": "El ANCA es positivo en 70 % y es sobre todo anti-MPO."
     },
     {
-     "t": "Glomerulonefritis pauciinmune, 80 a 90 % con anti-MPO",
-     "por": "Su positividad es menor que la de Wegener y predomina anti-MPO."
+     "t": "Glomerulonefritis pauciinmune",
+     "por": "El ANCA es positivo en 80 a 90 %, con anti-MPO en 75 a 80 %."
     },
     {
-     "t": "Churg-Strauss, 40 a 60 %",
-     "por": "Es la de menor positividad."
+     "t": "Síndrome de Churg-Strauss",
+     "por": "El ANCA es positivo solo en 40 a 60 %, con anti-MPO en 70 a 75 %."
     }
    ],
    "correcta": 0,
-   "explicacion": "PA microscópica 70 %, anti-MPO; GN pauciinmune 80 a 90 %, anti-MPO en 75 a 80 %; Churg-Strauss 40 a 60 %, anti-MPO en 70 a 75 %.",
+   "explicacion": "Regla práctica: Wegener es anti-PR3 (c-ANCA); poliangeítis microscópica, pauciinmune y Churg-Strauss son sobre todo anti-MPO.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 9",
-   "contexto": "ANCA = anticuerpos anticitoplasma de neutrófilos; los dos tipos son anti-PR3 (proteinasa 3) y anti-MPO (mieloperoxidasa)."
+   "contexto": "ANCA = anticuerpos anticitoplasma de neutrófilos. Hay dos tipos: anti-PR3 (proteinasa 3) y anti-MPO (mieloperoxidasa). Ayudan a diagnosticar las vasculitis de pequeños vasos.",
+   "nota": "La regla c-ANCA/p-ANCA es conocimiento general (complemento); la tabla de la lámina solo dice anti-PR3 y anti-MPO."
   },
   {
    "id": "n-sis-man",
@@ -65,24 +95,24 @@
    "enunciado": "¿Cuál es el cuadro renal típico de las vasculitis?",
    "opciones": [
     {
-     "t": "Microhematuria, proteinuria no nefrótica, lesión renal rápidamente progresiva y PA elevada",
-     "por": "Lámina de manifestaciones."
+     "t": "Microhematuria, proteinuria no nefrótica, lesión renal rápidamente progresiva y presión arterial elevada",
+     "por": "Es un cuadro nefrítico, a menudo una glomerulonefritis rápidamente progresiva."
     },
     {
-     "t": "Anasarca con albúmina baja",
-     "por": "Es nefrótico."
+     "t": "Anasarca con albúmina baja y proteinuria masiva",
+     "por": "Es síndrome nefrótico."
     },
     {
-     "t": "Poliuria aislada",
-     "por": "No."
+     "t": "Poliuria aislada sin alteración del sedimento",
+     "por": "No es el cuadro típico."
     },
     {
-     "t": "Cólico renal",
-     "por": "No."
+     "t": "Dolor cólico con hematuria",
+     "por": "Es el cuadro de una litiasis ureteral."
     }
    ],
    "correcta": 0,
-   "explicacion": "El síndrome clínico es nefrítico, a menudo una GNRP.",
+   "explicacion": "El examen de orina muestra hematuria; la proteinuria suele estar por debajo del rango nefrótico.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 10"
   },
   {
@@ -90,55 +120,56 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "Tratamiento de inducción de una vasculitis con afectación renal:",
+   "enunciado": "Paciente con vasculitis y afectación renal. ¿Qué tratamiento de inducción propone la clase?",
    "opciones": [
     {
-     "t": "Glucocorticoides más ciclofosfamida (rituximab en casos graves)",
-     "por": "Con plasmaféresis si hay diálisis o enfermedad pulmonar."
+     "t": "Glucocorticoides más ciclofosfamida (se puede sustituir por rituximab en casos graves); plasmaféresis si hay diálisis o enfermedad pulmonar",
+     "por": "El tratamiento inmunosupresor se indica en todos los casos porque ha reducido la mortalidad, y debe ser precoz, antes de que haya lesiones irreversibles."
     },
     {
-     "t": "Solo IECA",
-     "por": "No."
+     "t": "Solo IECA para bajar la presión",
+     "por": "No frena la inflamación vascular."
     },
     {
      "t": "Solo antibióticos",
-     "por": "No."
+     "por": "La vasculitis no es infecciosa."
     },
     {
-     "t": "Observación",
-     "por": "El tratamiento debe ser precoz."
+     "t": "Observación hasta que aparezca diálisis",
+     "por": "Esperar deja lesiones irreversibles."
     }
    ],
    "correcta": 0,
-   "explicacion": "El tratamiento inmunosupresor está indicado en todos los casos porque redujo la mortalidad.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 11"
+   "explicacion": "Para tu práctica en Lima: usa guías KDIGO de glomerulonefritis y consulta con nefrología en cuanto sospeches vasculitis ANCA.",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 11",
+   "nota": "La última frase es complemento (práctica); lo del PPT está en la lámina 11."
   },
   {
    "id": "n-sis-hsp1",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "¿Qué vasculitis se caracteriza por depósito de inmunocomplejos con IgA en pequeños vasos, tras una infección respiratoria alta?",
+   "enunciado": "Niño con púrpura palpable, artralgias, dolor abdominal y hematuria dos semanas después de una infección respiratoria alta. ¿Qué vasculitis es?",
    "opciones": [
     {
-     "t": "Púrpura de Schönlein-Henoch",
-     "por": "Con glicosilación anormal de IgA y vía alternativa del complemento."
+     "t": "Púrpura de Schönlein-Henoch (vasculitis por IgA)",
+     "por": "Los complejos inmunes con IgA anormalmente glicosilada se depositan en los vasos pequeños y en el mesangio, y activan la vía alternativa del complemento."
     },
     {
      "t": "Granulomatosis de Wegener",
-     "por": "Es ANCA."
+     "por": "Es asociada a ANCA y afecta vías respiratorias y riñón."
     },
     {
      "t": "Crioglobulinemia",
-     "por": "Es IgM-IgG."
+     "por": "Da hipocomplementemia y suele ser por hepatitis C."
     },
     {
      "t": "Esclerodermia",
-     "por": "No."
+     "por": "Es una enfermedad del colágeno con Raynaud y esclerosis de la piel."
     }
    ],
    "correcta": 0,
-   "explicacion": "Clínica: púrpura palpable y petequias, artritis o artralgias (75 %), dolor abdominal, hematuria, proteinuria e HTA con función conservada.",
+   "explicacion": "Clínica: púrpura palpable y petequias, artritis o artralgias (75 %), dolor abdominal; en el riñón, hematuria, proteinuria e hipertensión, con función renal conservada y, en algunos, glomerulonefritis progresiva. La mayoría de los casos sigue a una infección respiratoria alta.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 12 y 13"
   },
   {
@@ -146,27 +177,27 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "Tratamiento de la nefritis de Henoch-Schönlein:",
+   "enunciado": "¿Qué tratamiento propone la clase para la nefritis de Henoch-Schönlein?",
    "opciones": [
     {
-     "t": "Medidas de soporte; en afectación renal, bolos de glucocorticoides, ciclofosfamida y plasmaféresis; IECA o ARA II si hay proteinuria persistente",
-     "por": "Según la lámina."
+     "t": "Medidas de soporte; si hay afectación renal, bolos de glucocorticoides, ciclofosfamida y plasmaféresis; IECA o ARA II si hay proteinuria persistente",
+     "por": "Las medidas de soporte son la base. La inmunosupresión se reserva para el riñón comprometido."
     },
     {
      "t": "Solo antibióticos",
-     "por": "No."
+     "por": "No es una infección activa."
     },
     {
      "t": "Cirugía",
-     "por": "No."
+     "por": "No es quirúrgica."
     },
     {
-     "t": "Diuréticos únicamente",
-     "por": "No."
+     "t": "Solo diuréticos",
+     "por": "Controlan el edema, no la inflamación."
     }
    ],
    "correcta": 0,
-   "explicacion": "Tratamiento de la lámina 14.",
+   "explicacion": "IECA = inhibidor de la enzima convertidora de angiotensina. ARA II = antagonista del receptor de angiotensina II.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 14"
   },
   {
@@ -174,28 +205,57 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "Niño con diarrea sanguinolenta previa que luego presenta anemia hemolítica, plaquetas bajas e insuficiencia renal. ¿Diagnóstico?",
+   "enunciado": "Niño con diarrea previa, luego anemia hemolítica, plaquetas bajas e insuficiencia renal. ¿Diagnóstico?",
    "opciones": [
     {
      "t": "Síndrome urémico hemolítico",
-     "por": "Antecedente de diarrea con toxina de E. coli."
+     "por": "Antecedente de diarrea, con frecuencia por una toxina de E. coli. La toxina daña el endotelio y hay agregación plaquetaria con trombos intravasculares."
     },
     {
      "t": "Síndrome nefrótico",
-     "por": "No."
+     "por": "No hay anemia hemolítica ni trombocitopenia."
     },
     {
-     "t": "Henoch",
+     "t": "Púrpura de Schönlein-Henoch",
      "por": "Tiene púrpura palpable y plaquetas normales."
     },
     {
      "t": "Esclerodermia",
-     "por": "No."
+     "por": "No hay antecedente de diarrea ni trombos plaquetarios."
     }
    ],
    "correcta": 0,
-   "explicacion": "Daño del endotelio, agregación plaquetaria y trombos intravasculares. Clínica: trombocitopenia, hematuria o proteinuria, insuficiencia renal, arritmia, confusión y convulsiones.",
+   "explicacion": "Clínica de la lámina 16: trombocitopenia con tendencia al sangrado (hematuria, epistaxis, púrpura), anemia hemolítica, hematuria o proteinuria, insuficiencia renal, arritmia, confusión y convulsiones.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 15 y 16"
+  },
+  {
+   "id": "n-sis-esc0",
+   "area": "nefro",
+   "tema": "Enfermedades sistémicas y riñón",
+   "dif": 2,
+   "enunciado": "¿Qué es la esclerodermia?",
+   "opciones": [
+    {
+     "t": "Una enfermedad del colágeno y vascular con proliferación excesiva de colágeno que afecta piel, tubo digestivo, riñón, pulmón y corazón",
+     "por": "En la piel hay Raynaud, edema de manos y pies, esclerodactilia y úlceras; en el tubo digestivo, pirosis y disfagia; también artralgias."
+    },
+    {
+     "t": "Una vasculitis de grandes vasos",
+     "por": "No: es una enfermedad del colágeno."
+    },
+    {
+     "t": "Una enfermedad por depósito de cadenas ligeras",
+     "por": "Eso es otra entidad (disproteinemia)."
+    },
+    {
+     "t": "Una glomerulopatía primaria",
+     "por": "Afecta varios órganos; el riñón es uno de ellos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Cardiopulmonares: fibrosis pulmonar, arritmias, miocardiopatía.",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 17 y 18",
+   "contexto": "Esclerodactilia = piel de los dedos tensa y engrosada. Raynaud = dedos que cambian de color con el frío."
   },
   {
    "id": "n-sis-esc1",
@@ -205,80 +265,81 @@
    "enunciado": "¿Qué es la crisis renal esclerodérmica?",
    "opciones": [
     {
-     "t": "Complicación grave con HTA maligna, anemia hemolítica microangiopática, trombocitopenia e IRA",
-     "por": "Aparece unos 5 años tras el diagnóstico."
+     "t": "Complicación grave con hipertensión maligna, anemia hemolítica microangiopática, trombocitopenia e insuficiencia renal aguda",
+     "por": "Aparece unos 5 años después del diagnóstico, sobre todo con afectación cutánea difusa y anticuerpos anti-ARN polimerasa III. La afectación renal es indicador de mal pronóstico."
     },
     {
-     "t": "Síndrome nefrótico lento",
-     "por": "No."
+     "t": "Un síndrome nefrótico de evolución lenta",
+     "por": "No: es una urgencia con hipertensión maligna."
     },
     {
      "t": "Hematuria macroscópica aislada",
-     "por": "No."
+     "por": "No es el cuadro."
     },
     {
-     "t": "Litiasis",
-     "por": "No."
+     "t": "Una litiasis con cólico",
+     "por": "No tiene relación."
     }
    ],
    "correcta": 0,
-   "explicacion": "Es más frecuente con afectación cutánea difusa y anticuerpos anti-ARN polimerasa III. La afectación renal es de mal pronóstico.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 17 y 18"
+   "explicacion": "También puede haber proteinuria y microhematuria.",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 18",
+   "contexto": "Microangiopática = hemólisis por daño de los vasos pequeños: los glóbulos rojos se rompen al pasar por ellos."
   },
   {
    "id": "n-sis-esc2",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "En la esclerodermia, ¿cuál es el tratamiento de elección a nivel renal?",
+   "enunciado": "En la esclerodermia, ¿qué fármaco se prefiere a nivel renal?",
    "opciones": [
     {
-     "t": "Control de la HTA con IECA",
-     "por": "D-penicilamina y colchicina son antifibróticos."
+     "t": "IECA, para controlar la hipertensión",
+     "por": "La clase dice que a nivel renal el control de la presión con IECA es el tratamiento de elección. Para el resto: control de síntomas, D-penicilamina y colchicina (antifibróticos)."
     },
     {
      "t": "Rituximab",
-     "por": "No."
+     "por": "No es el de elección renal."
     },
     {
      "t": "Plasmaféresis",
-     "por": "No."
+     "por": "No se indica de rutina."
     },
     {
      "t": "Ciclofosfamida",
-     "por": "No es el de elección."
+     "por": "No se menciona como elección renal."
     }
    ],
    "correcta": 0,
-   "explicacion": "Esclerodermia: enfermedad del colágeno con Raynaud, edema de manos, esclerodactilia, úlceras y afectación esofágica.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 17 y 19"
+   "explicacion": "Los inmunomoduladores se consideran terapias futuras.",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 19"
   },
   {
    "id": "n-sis-mm1",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "¿Qué lesión renal es la más frecuente en el mieloma múltiple?",
+   "enunciado": "En el mieloma múltiple, ¿cuál es la afectación renal más frecuente?",
    "opciones": [
     {
-     "t": "Riñón de mieloma: cilindros de cadenas ligeras que obstruyen los túbulos",
-     "por": "Con IRA o IRC."
+     "t": "Riñón de mieloma: las cadenas ligeras precipitan en los túbulos y forman cilindros que los obstruyen y los lesionan",
+     "por": "Se manifiesta como insuficiencia renal aguda o crónica. La hipercalcemia (vasoconstricción renal) y la hiperuricemia agravan el daño."
     },
     {
-     "t": "Cambios mínimos",
-     "por": "No."
+     "t": "Enfermedad de cambios mínimos",
+     "por": "No es la afectación habitual."
     },
     {
-     "t": "Nefropatía IgA",
-     "por": "No."
+     "t": "Nefropatía por IgA",
+     "por": "No se asocia."
     },
     {
      "t": "Glomerulonefritis postestreptocócica",
-     "por": "No."
+     "por": "Es infecciosa, no por cadenas ligeras."
     }
    ],
    "correcta": 0,
-   "explicacion": "Mieloma: proliferación clonal de células plasmáticas; dolores óseos, fracturas patológicas, hipercalcemia, anemia grave y trombocitopenia. Hipercalcemia e hiperuricemia agravan el daño.",
+   "explicacion": "Mieloma: proliferación clonal de células plasmáticas con exceso de un tipo de inmunoglobulina. Clínica: dolores óseos, fracturas patológicas, hipercalcemia, anemia grave y trombocitopenia. La afectación renal se asocia a mal pronóstico.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 20 a 22"
   },
   {
@@ -286,28 +347,29 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 3,
-   "enunciado": "Estudios para el diagnóstico del mieloma múltiple:",
+   "enunciado": "¿Qué estudios apoyan el diagnóstico de mieloma múltiple?",
    "opciones": [
     {
-     "t": "Inmunoelectroforesis, proteína de Bence Jones en orina y aspirado de médula ósea con más de 10 % de plasmocitos",
-     "por": "Confirmación con aspirado."
+     "t": "Inmunoelectroforesis en sangre u orina, proteinuria de Bence Jones y aspirado de médula ósea con más de 10 % de células plasmáticas",
+     "por": "Detectan el exceso de cadenas ligeras y confirman la proliferación plasmática."
     },
     {
-     "t": "Solo creatinina",
-     "por": "No."
+     "t": "Solo creatinina sérica",
+     "por": "Mide la función renal, no confirma el mieloma."
     },
     {
      "t": "Ecografía renal",
-     "por": "No confirma."
+     "por": "No confirma el diagnóstico."
     },
     {
      "t": "Urocultivo",
-     "por": "No."
+     "por": "Busca infección, no mieloma."
     }
    ],
    "correcta": 0,
-   "explicacion": "Tratamiento: reducir cadenas ligeras, trasplante de médula ósea, corticoides con bortezomib (inhibidor del proteasoma) y plasmaféresis.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 23 y 24"
+   "explicacion": "Tratamiento: reducir la producción de cadenas ligeras, trasplante de médula ósea o precursores hematopoyéticos, corticoides con inhibidores del proteasoma (bortezomib) y plasmaféresis.",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 23 y 24",
+   "contexto": "Proteinuria de Bence Jones = cadenas ligeras de inmunoglobulinas en la orina."
   },
   {
    "id": "n-sis-am",
@@ -317,52 +379,53 @@
    "enunciado": "¿Qué cadena depositan la amiloidosis primaria y la enfermedad de depósito de cadenas ligeras?",
    "opciones": [
     {
-     "t": "Amiloidosis primaria: lambda; depósito de cadenas ligeras: kappa",
-     "por": "Según la lámina."
+     "t": "Amiloidosis primaria: cadena lambda. Depósito de cadenas ligeras: cadena kappa",
+     "por": "Así lo indica la lámina 22."
     },
     {
-     "t": "Ambas lambda",
-     "por": "No."
+     "t": "Ambas depositan cadena lambda",
+     "por": "La enfermedad de depósito es kappa."
     },
     {
-     "t": "Ambas kappa",
-     "por": "No."
+     "t": "Ambas depositan cadena kappa",
+     "por": "La amiloidosis primaria es lambda."
     },
     {
-     "t": "Amiloidosis primaria: kappa",
-     "por": "Invertido."
+     "t": "Amiloidosis primaria: kappa; depósito: lambda",
+     "por": "Están invertidas."
     }
    ],
    "correcta": 0,
-   "explicacion": "La amiloidosis tiene subtipos AL, AA, β2-microglobulina (diálisis) y hereditaria. Cursa con proteinuria nefrótica y edemas; sobrevida de 18 meses en la primaria.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 22, 26 y 27"
+   "explicacion": "Amiloidosis: depósito de proteína amiloide, con subtipos primaria (AL: cadenas ligeras), secundaria (AA), de diálisis (β2-microglobulina) y hereditaria. En el riñón hay proteinuria nefrótica y edemas, y a largo plazo insuficiencia renal. La primaria tiene sobrevida de unos 18 meses. El diagnóstico es por biopsia del órgano afectado.",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 22, 26 y 27",
+   "contexto": "AL = amiloidosis de cadenas ligeras. AA = amiloide A (en inflamación crónica)."
   },
   {
    "id": "n-sis-dep",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 3,
-   "enunciado": "¿Cómo se distingue la enfermedad de depósito de cadenas ligeras de la amiloidosis primaria?",
+   "enunciado": "¿En qué se diferencia la enfermedad de depósito de cadenas ligeras de la amiloidosis primaria?",
    "opciones": [
     {
-     "t": "Los depósitos son granulares y no fibrilares; cursa con falla renal y proteinuria no nefrótica",
-     "por": "Se localizan en la MBG y la cápsula de Bowman."
+     "t": "Los depósitos son granulares, no fibrilares; se ubican más en la membrana basal y cápsula de Bowman; hay falla renal con proteinuria no nefrótica",
+     "por": "En amiloidosis los depósitos son fibrilares y dan proteinuria nefrótica."
     },
     {
      "t": "Los depósitos son fibrilares",
-     "por": "Esos son amiloide."
+     "por": "Eso es amiloide."
     },
     {
-     "t": "Proteinuria masiva siempre",
-     "por": "No."
+     "t": "Siempre da proteinuria masiva",
+     "por": "Es no nefrótica en esta enfermedad."
     },
     {
-     "t": "No hay falla renal",
-     "por": "Sí la hay."
+     "t": "Nunca produce falla renal",
+     "por": "Sí la produce."
     }
    ],
    "correcta": 0,
-   "explicacion": "La enfermedad de depósito de cadenas pesadas implica una cadena alfa anómala, con tratamiento de quimioterapia.",
+   "explicacion": "La enfermedad por depósito de cadenas pesadas (cadena alfa anómala) se ve en la IF como depósito tubular o granular; el cuadro es parecido y se trata con quimioterapia.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 28 y 29"
   },
   {
@@ -370,40 +433,40 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 3,
-   "enunciado": "Neoplasia linfoplasmocítica que secreta IgM en exceso, con afectación renal infrecuente:",
+   "enunciado": "Neoplasia de células linfoplasmáticas que secreta IgM en exceso, con fiebre, anemia, hepatoesplenomegalia y adenopatías. El riñón se afecta poco. ¿Cuál es?",
    "opciones": [
     {
      "t": "Macroglobulinemia de Waldenström",
-     "por": "Con fiebre, astenia, anemia, hepatoesplenomegalia y adenopatías."
+     "por": "Es la neoplasia de células linfoplasmocitoides con IgM monoclonal. La afectación renal es infrecuente, por infiltración del parénquima."
     },
     {
      "t": "Mieloma múltiple clásico",
-     "por": "Es IgG o IgA."
+     "por": "Produce sobre todo IgG o IgA, y el riñón se afecta mucho."
     },
     {
      "t": "Amiloidosis AA",
-     "por": "No."
+     "por": "Es depósito de proteína amiloide en enfermedades inflamatorias."
     },
     {
      "t": "Esclerodermia",
-     "por": "No."
+     "por": "Es una enfermedad del colágeno, no una neoplasia."
     }
    ],
    "correcta": 0,
-   "explicacion": "Es una neoplasia de células linfoplasmocitoides con IgM monoclonal: no se trata de un mieloma clásico.",
+   "explicacion": "Síntomas generales: fiebre, astenia, pérdida de peso. Hematológicos: anemia, hepatoesplenomegalia, linfadenopatías.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 25",
-   "nota": "El nombre «Waldenström» no aparece en la lámina, se deduce de la descripción (IgM, células linfoplasmocitoides)."
+   "nota": "El nombre 'Waldenström' no aparece en la lámina; se deduce de la descripción (IgM, células linfoplasmocitoides)."
   },
   {
    "id": "n-sis-les",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "¿Con qué criterio se clasifica a un paciente como portador de LES (SLICC 2012)?",
+   "enunciado": "Según los criterios SLICC 2012 de la clase, ¿cuándo se clasifica a un paciente como portador de lupus?",
    "opciones": [
     {
      "t": "Nefritis lúpica comprobada por biopsia con ANA o anti-DNA positivos, o 4 o más criterios con al menos uno clínico y uno inmunológico",
-     "por": "Tabla 3 de la clase."
+     "por": "Es la forma de la tabla 3. Entre los criterios clínicos están el lupus cutáneo, las úlceras orales, la alopecia, la sinovitis, la serositis, el criterio renal y la anemia hemolítica; entre los inmunológicos, ANA, anti-DNA, anti-Sm, antifosfolípidos, hipocomplementemia y Coombs directo positivo."
     },
     {
      "t": "Solo anti-DNA positivo",
@@ -411,72 +474,73 @@
     },
     {
      "t": "Solo proteinuria",
-     "por": "No."
+     "por": "Es parte del criterio renal, pero no clasifica por sí sola."
     },
     {
-     "t": "Solo fiebre",
-     "por": "No."
+     "t": "Solo fiebre persistente",
+     "por": "No es un criterio."
     }
    ],
    "correcta": 0,
-   "explicacion": "Afectación renal en 40 a 60 % de los casos.",
+   "explicacion": "La afectación renal aparece en 40 a 60 % de los casos y es una causa importante de morbimortalidad. El criterio renal incluye cociente proteína/creatinina o proteinuria de 24 h ≥500 mg, o cilindros hemáticos.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 30 y 31",
-   "contexto": "SLICC = Systemic Lupus International Collaborating Clinics. LES = lupus eritematoso sistémico."
+   "contexto": "SLICC = Systemic Lupus International Collaborating Clinics. ANA = anticuerpos antinucleares. LES = lupus eritematoso sistémico."
   },
   {
    "id": "n-sis-ar",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "Glomerulopatías asociadas a la artritis reumatoide:",
+   "enunciado": "¿Qué lesiones renales se asocian a la artritis reumatoide según la clase?",
    "opciones": [
     {
-     "t": "Membranosa, amiloidosis secundaria y proliferativa mesangial; además nefropatía por analgésicos",
-     "por": "Tratamiento con metotrexato y anti-TNF."
+     "t": "Glomerulonefritis membranosa, amiloidosis secundaria y GN proliferativa mesangial (a veces con IgA); además vasculitis reumatoide y nefropatía por analgésicos",
+     "por": "La artritis reumatoide es una poliartritis crónica simétrica de articulaciones periféricas. Su tratamiento usa metotrexato y terapias biológicas, como anti-TNF."
     },
     {
      "t": "Solo cambios mínimos",
-     "por": "No."
+     "por": "No es lo descrito."
     },
     {
-     "t": "Solo GNRP",
-     "por": "No."
+     "t": "Solo GNRP anti-MBG",
+     "por": "No se asocia."
     },
     {
-     "t": "Ninguna",
-     "por": "Sí hay."
+     "t": "Ninguna lesión renal",
+     "por": "Sí las hay, y los analgésicos también dañan el riñón."
     }
    ],
    "correcta": 0,
-   "explicacion": "AR: poliartritis crónica simétrica de articulaciones periféricas.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 32 a 34"
+   "explicacion": "La vasculitis reumatoide se acompaña de ANCA positivo con hipocomplementemia.",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 32 a 34",
+   "contexto": "Anti-TNF = fármacos que bloquean el factor de necrosis tumoral (por ejemplo infliximab)."
   },
   {
    "id": "n-sis-vir",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "Hepatitis C y riñón:",
+   "enunciado": "¿Qué afectación renal se asocia a la hepatitis C y a la hepatitis B según la clase?",
    "opciones": [
     {
-     "t": "Crioglobulinemia, glomerulonefritis membranoproliferativa y/o membranosa",
-     "por": "La hepatitis B causa GN postinfecciosa; el VIH, nefropatía colapsante."
+     "t": "Hepatitis C: crioglobulinemia, GN membranoproliferativa y/o membranosa. Hepatitis B: GN postinfecciosa",
+     "por": "La prevalencia exacta de GN por VHC se desconoce. El VIH produce nefropatía colapsante."
     },
     {
-     "t": "Solo GN postestreptocócica",
-     "por": "No."
+     "t": "Hepatitis C: GN postestreptocócica",
+     "por": "No es la que describe la lámina."
     },
     {
-     "t": "Solo cambios mínimos",
-     "por": "No."
+     "t": "Hepatitis B: cambios mínimos",
+     "por": "La lámina cita GN postinfecciosa."
     },
     {
-     "t": "Nunca afecta el riñón",
-     "por": "Sí."
+     "t": "Ninguna afecta el riñón",
+     "por": "Sí lo afectan."
     }
    ],
    "correcta": 0,
-   "explicacion": "La prevalencia exacta de GN por VHC se desconoce.",
+   "explicacion": "VHB, VHC = virus de hepatitis B y C.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 34"
   },
   {
@@ -484,85 +548,87 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "Medidas terapéuticas generales en enfermedades sistémicas con riñón:",
+   "enunciado": "¿Qué metas generales plantea la clase para las enfermedades sistémicas con afectación renal?",
    "opciones": [
     {
-     "t": "PA <130/80, reducir proteinuria con IECA o ARA II, LDL <100 mg/dL y HDL >40 mg/dL",
-     "por": "Control cardiovascular."
+     "t": "PA <130/80, reducir la proteinuria con IECA o ARA II (meta <300 mg/día), LDL <100 mg/dL y HDL >40 mg/dL",
+     "por": "Es el control del riesgo cardiovascular."
     },
     {
      "t": "PA <160/100",
-     "por": "Muy alta."
+     "por": "Es una meta demasiado alta."
     },
     {
-     "t": "LDL <200",
-     "por": "Muy alto."
+     "t": "LDL <200 mg/dL",
+     "por": "Es demasiado alto para esta meta."
     },
     {
-     "t": "Evitar IECA",
-     "por": "Se prefieren."
+     "t": "Evitar IECA y ARA II",
+     "por": "Se prefieren por su efecto sobre la proteinuria."
     }
    ],
    "correcta": 0,
-   "explicacion": "Profilaxis: cotrimoxazol para Pneumocystis jirovecii, calcio para osteoporosis, prevenir insuficiencia gonadal.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 35 y 37"
+   "explicacion": "Profilaxis: cotrimoxazol para Pneumocystis jirovecii, suplementos de calcio para prevenir osteoporosis y prevenir la insuficiencia gonadal.",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 35 y 37",
+   "contexto": "Pneumocystis jirovecii causa neumonía en pacientes inmunosuprimidos."
   },
   {
    "id": "n-sis-cf",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 3,
-   "enunciado": "Ajuste de ciclofosfamida: mayor de 70 años con aclaramiento de creatinina menor de 25 mL/min. ¿Qué dosis?",
+   "enunciado": "Mujer de 72 años con vasculitis ANCA, aclaramiento de creatinina de 20 mL/min. ¿Qué porcentaje de la dosis de ciclofosfamida corresponde?",
    "opciones": [
     {
      "t": "50 % de la dosis",
-     "por": "Según la tabla 6."
-    },
-    {
-     "t": "100 %",
-     "por": "Es para menores de 60 con >25."
-    },
-    {
-     "t": "85 %",
-     "por": "Es para <60 con <25 o 60 a 70 con >25."
+     "por": "En la tabla 6, mayores de 70 años con aclaramiento menor de 25 mL/min reciben 50 %."
     },
     {
      "t": "65 %",
-     "por": "Es para 60 a 70 con <25 o >70 con >25."
+     "por": "Es para mayores de 70 con aclaramiento >25, o para 60 a 70 con <25."
+    },
+    {
+     "t": "85 %",
+     "por": "Es para menores de 60 con <25, o 60 a 70 con >25."
+    },
+    {
+     "t": "100 %",
+     "por": "Es solo para menores de 60 con aclaramiento >25."
     }
    ],
    "correcta": 0,
-   "explicacion": "A los 7 a 10 días hacer hemograma: si leucocitos <4000 o neutrófilos <1500, reducir la siguiente dosis 0.25 g/m².",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 36"
+   "explicacion": "A los 7 a 10 días del bolo se hace hemograma: si leucocitos <4000 o neutrófilos <1500, la siguiente dosis se reduce en 0.25 g/m².",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 36",
+   "contexto": "Ciclofosfamida es tóxica para la médula y se elimina por el riñón, por eso se reduce con la edad y con la función renal baja."
   },
   {
    "id": "n-sis-case",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 3,
-   "enunciado": "Mujer de 68 años con otitis crónica, hipoacusia, 3 semanas de cansancio, anemia y creatinina 2 mg/dL. ¿Por qué sospechar vasculitis?",
+   "enunciado": "Mujer de 68 años con otitis crónica e hipoacusia, 3 semanas de cansancio y malestar, creatinina 2 mg/dL y anemia. ¿Por qué sospechar vasculitis y qué tratamiento propones?",
    "opciones": [
     {
-     "t": "Compromiso de oído crónico más afectación renal con anemia sugiere vasculitis ANCA (granulomatosis con poliangeítis)",
-     "por": "Tratamiento: glucocorticoides más ciclofosfamida o rituximab."
+     "t": "Afectación crónica de oído más deterioro renal y anemia sugiere vasculitis ANCA (por ejemplo granulomatosis con poliangeítis). Glucocorticoides más ciclofosfamida o rituximab",
+     "por": "La vasculitis afecta vías respiratorias altas, oído y riñón. El tratamiento debe empezar pronto."
     },
     {
-     "t": "Es una ITU",
-     "por": "No."
+     "t": "Infección urinaria; tratamiento con antibiótico",
+     "por": "No explica el oído ni la anemia con creatinina elevada."
     },
     {
-     "t": "Es hipotiroidismo",
-     "por": "No."
+     "t": "Hipotiroidismo; levotiroxina",
+     "por": "No explica el daño renal."
     },
     {
-     "t": "Es litiasis",
-     "por": "No."
+     "t": "Litiasis; litotricia",
+     "por": "No se relaciona."
     }
    ],
    "correcta": 0,
-   "explicacion": "Se confirma con ANCA y biopsia.",
+   "explicacion": "Se confirma con ANCA y biopsia renal.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 39",
-   "nota": "La lámina plantea las preguntas sin dar la respuesta; la respuesta es una interpretación basada en el contenido de la clase."
+   "nota": "La lámina solo plantea las preguntas; la respuesta es una interpretación basada en la clase."
   }
  ],
  "tarjetas": [
@@ -571,15 +637,15 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "f": "Henoch-Schönlein",
-   "b": "IgA en pequeños vasos; púrpura, artritis, dolor abdominal, hematuria",
+   "b": "IgA en pequeños vasos; púrpura, artritis, dolor abdominal, hematuria.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 12"
   },
   {
    "id": "n-sis-c-1",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
-   "f": "SUH",
-   "b": "Diarrea, toxina de E. coli, trombos, anemia hemolítica",
+   "f": "Síndrome urémico hemolítico",
+   "b": "Diarrea previa (toxina de E. coli); anemia hemolítica, plaquetas bajas, insuficiencia renal.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 15"
   },
   {
@@ -587,7 +653,7 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "f": "Crisis renal esclerodérmica",
-   "b": "HTA maligna, anemia hemolítica microangiopática; anti-ARN polimerasa III",
+   "b": "HTA maligna, anemia hemolítica microangiopática; anti-ARN polimerasa III. IECA.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 18"
   },
   {
@@ -595,7 +661,7 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "f": "Riñón de mieloma",
-   "b": "Cilindros de cadenas ligeras",
+   "b": "Cadenas ligeras forman cilindros que obstruyen el túbulo.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 21"
   },
   {
@@ -603,32 +669,32 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "f": "Amiloidosis",
-   "b": "Primaria AL (lambda); secundaria AA",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 26"
+   "b": "Primaria AL (lambda); secundaria AA. Depósito de cadenas ligeras: kappa, granular.",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 22"
   },
   {
    "id": "n-sis-c-5",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "f": "Vasculitis: tratamiento",
-   "b": "Corticoides más ciclofosfamida; rituximab si grave; plasmaféresis",
+   "b": "Corticoides más ciclofosfamida; rituximab si grave; plasmaféresis.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 11"
   },
   {
    "id": "n-sis-c-6",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
-   "f": "SLICC",
-   "b": "Biopsia más ANA o anti-DNA; o 4 criterios",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 31"
+   "f": "ANCA: tabla",
+   "b": "Wegener 90 % anti-PR3; PAM 70 % anti-MPO; pauciinmune 80-90 %; Churg-Strauss 40-60 %.",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 9"
   },
   {
    "id": "n-sis-c-7",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
-   "f": "Metas",
-   "b": "PA <130/80; LDL <100; HDL >40",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 35"
+   "f": "Metas generales",
+   "b": "PA <130/80; LDL <100; HDL >40; proteinuria <300 mg/día.",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 36"
   }
  ]
 }
