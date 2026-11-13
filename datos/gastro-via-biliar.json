@@ -1,0 +1,553 @@
+{
+ "preguntas": [
+  {
+   "id": "g-bil-def",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 1,
+   "enunciado": "¿Cuál es la causa más frecuente de colecistitis aguda?",
+   "opciones": [
+    {
+     "t": "Litiasis biliar (90 a 95 %)",
+     "por": "Una piedra obstruye el conducto cístico; la forma alitiásica es 3 a 14 %."
+    },
+    {
+     "t": "Colecistitis alitiásica (3 a 14 %)",
+     "por": "Es menos frecuente y aparece en UCI, grandes quemados, infección o trauma."
+    },
+    {
+     "t": "Infección por Ascaris",
+     "por": "Es una causa rara de patología biliar."
+    },
+    {
+     "t": "Tumor de la vesícula",
+     "por": "Es una causa poco frecuente de obstrucción."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Colecistitis aguda: inflamación aguda de la vesícula. Litiásica 90 a 95 %; alitiásica 3 a 14 % (UCI, gran quemado, infección, traumatismo). Fisiopatología: obstrucción del conducto cístico, distensión de la vesícula y menor flujo sanguíneo con isquemia e inflamación.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 6 y 7"
+  },
+  {
+   "id": "g-bil-dx_cole",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 2,
+   "enunciado": "Según los criterios de Tokio para colecistitis, ¿cómo se hace el diagnóstico definitivo?",
+   "opciones": [
+    {
+     "t": "Un ítem de A (inflamación local) más uno de B (inflamación sistémica) más uno de C (imagen)",
+     "por": "Es sospechoso si hay un ítem de A más uno de B."
+    },
+    {
+     "t": "Solo un ítem de A",
+     "por": "Con A solo no se hace ni la sospecha."
+    },
+    {
+     "t": "Solo la ecografía con litiasis",
+     "por": "La litiasis sin los otros criterios no define colecistitis."
+    },
+    {
+     "t": "Un ítem de B más uno de C, sin A",
+     "por": "La definición exige un signo de inflamación local (A)."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "A: signos de inflamación local (Murphy, masa, dolor o defensa en hipocondrio derecho). B: inflamación sistémica (fiebre, PCR elevada, leucocitos). C: hallazgo de imagen característico. Sospecha: A + B. Definitivo: A + B + C.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 8",
+   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir antibióticos, drenaje y momento de la cirugía."
+  },
+  {
+   "id": "g-bil-imag_cole",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 2,
+   "enunciado": "¿Qué hallazgos de la ecografía abdominal apoyan una colecistitis aguda?",
+   "opciones": [
+    {
+     "t": "Engrosamiento de la pared, litiasis con sombra acústica y signo de Murphy ecográfico",
+     "por": "La ecografía tiene sensibilidad de 50 a 88 % y especificidad de 80 a 88 %."
+    },
+    {
+     "t": "Vesícula con pared fina y sin litos",
+     "por": "Es una vesícula normal."
+    },
+    {
+     "t": "Dilatación del conducto pancreático",
+     "por": "Sugiere patología pancreática."
+    },
+    {
+     "t": "Solo aire en la vía biliar",
+     "por": "Es un hallazgo de otras condiciones (fístula, CPRE previa)."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Ecografía: engrosamiento de pared, litiasis, sombra acústica y Murphy ecográfico (S 63 a 95 %, E 93 a 95 %). Tomografía: distensión vesicular, engrosamiento de la grasa perivesicular o de la pared, líquido libre o absceso.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 9"
+  },
+  {
+   "id": "g-bil-sev_cole",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 3,
+   "enunciado": "Colecistitis aguda con leucocitos de 20 000, masa dolorosa palpable en el hipocondrio derecho y 4 días de evolución, sin falla de órgano. ¿Qué grado de Tokio es?",
+   "opciones": [
+    {
+     "t": "Grado II (moderada)",
+     "por": "Basta uno de estos: leucocitos >18 000, masa dolorosa palpable, evolución >72 horas o inflamación local marcada."
+    },
+    {
+     "t": "Grado I (leve)",
+     "por": "Es la que no cumple criterios de grado II ni III."
+    },
+    {
+     "t": "Grado III (severa)",
+     "por": "Exige disfunción de órgano: hipotensión con vasopresores, alteración de conciencia, PaO2/FiO2 <300, oliguria o creatinina >2, INR >1,5 o plaquetas <100 000."
+    },
+    {
+     "t": "No es colecistitis",
+     "por": "Cumple criterios de inflamación local y sistémica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Grado I: no cumple II ni III. Grado II: leucocitos >18 000, masa dolorosa, duración >72 h o inflamación local marcada (gangrena, enfisema, absceso, peritonitis biliar). Grado III: disfunción cardiovascular, neurológica, respiratoria (PaO2/FiO2 <300), renal (creatinina >2), hepática (INR >1,5) o hematológica (plaquetas <100 000).",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 10",
+   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir antibióticos, drenaje y momento de la cirugía."
+  },
+  {
+   "id": "g-bil-trat_cole",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 3,
+   "enunciado": "Colecistitis grado III (severa). ¿Qué indica el esquema de tratamiento?",
+   "opciones": [
+    {
+     "t": "Antibióticos y soporte de órganos, drenaje urgente de la vesícula y colecistectomía laparoscópica electiva tardía",
+     "por": "En la grave la prioridad es tratar la disfunción de órganos."
+    },
+    {
+     "t": "Colecistectomía de emergencia sin drenaje",
+     "por": "Con el paciente inestable, la cirugía inmediata tiene alto riesgo."
+    },
+    {
+     "t": "Observación sin antibióticos",
+     "por": "La colecistitis requiere antibióticos y soporte."
+    },
+    {
+     "t": "Colecistectomía temprana como en el grado I",
+     "por": "Es la conducta de los grados I y II."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Grado I: antibióticos y cuidados generales, y colecistectomía laparoscópica temprana (o observación). Grado II: colecistectomía temprana si hay técnica avanzada; si falla, drenaje. Grado III: soporte, drenaje urgente de la vesícula y colecistectomía electiva tardía. Se toma hemocultivo antes de los antibióticos y cultivo de bilis en el drenaje.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 11 y 13",
+   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir antibióticos, drenaje y momento de la cirugía."
+  },
+  {
+   "id": "g-bil-atb_cole",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 2,
+   "enunciado": "Colecistitis leve en un paciente sin BLEE. ¿Qué antibiótico empírico indica la lámina?",
+   "opciones": [
+    {
+     "t": "Ceftriaxona 2 g intravenosos cada 24 horas",
+     "por": "Si hay BLEE (betalactamasas de espectro extendido): ertapenem 1 g cada 24 h."
+    },
+    {
+     "t": "Piperacilina/tazobactam 4,5 g cada 6 horas",
+     "por": "Es para casos moderados a severos."
+    },
+    {
+     "t": "Carbapenem como primera elección",
+     "por": "Se reserva para sospecha de BLEE en casos moderados o severos."
+    },
+    {
+     "t": "Metronidazol oral",
+     "por": "No cubre a los gérmenes principales por sí solo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Gérmenes frecuentes: E. coli (25 a 50 %), Klebsiella (15 a 20 %), Enterococcus (10 a 20 %), Enterobacter (5 a 10 %), Pseudomonas. Empírico: leve, ceftriaxona 2 g/24 h (BLEE: ertapenem 1 g); moderado a severo, piperacilina/tazobactam 4,5 g cada 6 h (BLEE: carbapenem).",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 12 y 18"
+  },
+  {
+   "id": "g-bil-col_def",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 1,
+   "enunciado": "¿Cómo se define la colangitis aguda?",
+   "opciones": [
+    {
+     "t": "Síndrome con fiebre, ictericia y dolor abdominal por estasis e infección de la vía biliar",
+     "por": "Es una infección de la vía biliar con obstrucción."
+    },
+    {
+     "t": "Inflamación aguda de la vesícula por un lito en el cístico",
+     "por": "Es la colecistitis aguda."
+    },
+    {
+     "t": "Destrucción crónica y progresiva de los conductos biliares intrahepáticos",
+     "por": "Es una cirrosis biliar o colangitis esclerosante, otra enfermedad."
+    },
+    {
+     "t": "Presencia de litos en la vesícula sin síntomas",
+     "por": "Es la colelitiasis asintomática."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Colangitis: infección biliar con estasis. Causas: cálculo (28 a 70 %), estenosis benigna (5 a 28 %), malignidad (10 a 57 %), infecciones (Fasciola, Ascaris), disfunción del esfínter de Oddi y post-CPRE (0,5 a 1,7 %).",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 15 y 16"
+  },
+  {
+   "id": "g-bil-col_fisio",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 2,
+   "enunciado": "¿Por qué una obstrucción biliar produce sepsis?",
+   "opciones": [
+    {
+     "t": "Porque al subir la presión intraductal, los conductos biliares se vuelven permeables y pasan bacterias y toxinas a la sangre",
+     "por": "Puede causar abscesos hepáticos y sepsis graves."
+    },
+    {
+     "t": "Porque la bilis estéril se vuelve tóxica por sí sola",
+     "por": "El problema es la infección y la translocación, no una toxicidad de la bilis."
+    },
+    {
+     "t": "Porque el páncreas libera enzimas a la sangre",
+     "por": "Eso ocurre en la pancreatitis."
+    },
+    {
+     "t": "Porque disminuye la producción de bilis",
+     "por": "No explica la sepsis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Fisiopatología: la hipertensión biliar aumenta la permeabilidad de los conductos y favorece la translocación de bacterias y toxinas, con infecciones graves como abscesos hepáticos y sepsis.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 17"
+  },
+  {
+   "id": "g-bil-charcot",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 2,
+   "enunciado": "¿Qué es la tríada de Charcot y en qué porcentaje aparece?",
+   "opciones": [
+    {
+     "t": "Dolor abdominal, fiebre e ictericia; aparece en 50 a 70 % de las colangitis",
+     "por": "Si hay además hipotensión y alteración del estado mental, la colangitis es severa."
+    },
+    {
+     "t": "Fiebre, hematemesis y melena",
+     "por": "No es la tríada de Charcot."
+    },
+    {
+     "t": "Dolor, vómitos y diarrea",
+     "por": "No es específica de colangitis."
+    },
+    {
+     "t": "Ictericia, prurito y pérdida de peso",
+     "por": "Orienta a una colestasis tumoral, no a colangitis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Colangitis: tríada de Charcot (dolor, fiebre, ictericia) en 50 a 70 %. La asociación con hipotensión y alteración del estado mental forma la péntada de Reynolds, que indica colangitis grave.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 19",
+   "nota": "El nombre 'péntada de Reynolds' es un complemento; la lámina solo menciona hipotensión y alteración mental."
+  },
+  {
+   "id": "g-bil-dx_col",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 3,
+   "enunciado": "Paciente con fiebre de 39 °C, leucocitosis, bilirrubina total de 3 mg/dl, FA y GGT elevadas y la ecografía muestra dilatación de la vía biliar. Según Tokio, ¿qué diagnóstico corresponde?",
+   "opciones": [
+    {
+     "t": "Colangitis definitiva, porque cumple A (inflamación sistémica) + B (colestasis) + C (imagen)",
+     "por": "Con A + B o C el diagnóstico es solo sospechoso."
+    },
+    {
+     "t": "Colangitis solo sospechosa",
+     "por": "Se queda en sospecha si falta uno de los tres grupos; aquí están A, B y C."
+    },
+    {
+     "t": "Colecistitis aguda",
+     "por": "No hay signos de inflamación local de la vesícula."
+    },
+    {
+     "t": "Pancreatitis aguda",
+     "por": "Faltan el dolor típico y la elevación de lipasa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tokio para colangitis: A inflamación sistémica (fiebre >38 °C o escalofríos; leucocitos <4000 o >10 000; PCR >1 mg/dl); B colestasis (ictericia T-Bil >2 mg/dl; FA, GGT, AST o ALT >1,5 veces el límite superior); C imágenes (dilatación biliar o causa visible). Sospecha: A + B o C. Definitivo: A + B + C. Sensibilidad 90 %.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 20 y 21",
+   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir antibióticos, drenaje y momento de la cirugía."
+  },
+  {
+   "id": "g-bil-dilat",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 2,
+   "enunciado": "¿Qué diámetro del colédoco se considera dilatado en la ecografía?",
+   "opciones": [
+    {
+     "t": "Más de 6 mm; más de 10 mm si el paciente fue colecistectomizado",
+     "por": "Entre 8 y 10 mm se valora el caso."
+    },
+    {
+     "t": "Más de 2 mm",
+     "por": "Es un valor normal."
+    },
+    {
+     "t": "Más de 4 mm en todos los casos",
+     "por": "No es el criterio de la lámina."
+    },
+    {
+     "t": "Solo más de 20 mm",
+     "por": "Es una dilatación extrema; el umbral es mucho menor."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Criterio de imagen: dilatación de la vía biliar >6 mm (>10 mm si hay colecistectomía previa; 8 a 10 valorar) o evidencia de lito. Ecografía: accesible; litos, dilatación, tumores. Tomografía: litos, neoplasia, complicaciones. RM: conducto biliar, malignidad (S 98 %).",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 21 y 22"
+  },
+  {
+   "id": "g-bil-sev_col",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 3,
+   "enunciado": "¿Qué indica una colangitis de grado III (severa) en Tokio?",
+   "opciones": [
+    {
+     "t": "Disfunción de al menos un órgano o sistema (por ejemplo hipotensión con vasopresores o alteración de la conciencia)",
+     "por": "El grado II exige dos de: leucocitos >12 000 o <4000, fiebre ≥39, edad >75, bilirrubina >5 mg/dl, albúmina baja."
+    },
+    {
+     "t": "Fiebre de 38,5 °C con leucocitos de 11 000",
+     "por": "Corresponde a un cuadro leve o moderado."
+    },
+    {
+     "t": "Bilirrubina de 2,5 mg/dl sin otro dato",
+     "por": "Por sí sola no define severidad."
+    },
+    {
+     "t": "Edad de 80 años aislada",
+     "por": "Es un criterio del grado II, no del III."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Grado III: disfunción cardiovascular (hipotensión con dopamina >5 µg/kg/min o noradrenalina), neurológica (alteración de la conciencia), respiratoria (PaO2/FiO2 <300), renal (oliguria, creatinina >2), hepática (INR >1,5) o hematológica (plaquetas <100 000). Grado II: dos de leucocitos >12 000 o <4000, fiebre ≥39 °C, edad >75, bilirrubina >5, albúmina <70 % del límite inferior. Grado I: no cumple los anteriores.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 23",
+   "contexto": "Criterios de Tokio: guía internacional que define cómo diagnosticar y graduar la gravedad de la colecistitis y la colangitis agudas (grado I leve, II moderado, III grave). Se usan para decidir antibióticos, drenaje y momento de la cirugía."
+  },
+  {
+   "id": "g-bil-trat_col",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 2,
+   "enunciado": "¿Cuál es el tratamiento inicial de una colangitis aguda?",
+   "opciones": [
+    {
+     "t": "Hidratación endovenosa, analgesia y antibióticos en las primeras 6 horas, con drenaje de la vía biliar según la gravedad",
+     "por": "Los antibióticos duran de 4 a 7 días."
+    },
+    {
+     "t": "Solo antibióticos orales ambulatorios",
+     "por": "La colangitis exige hospitalización y tratamiento intravenoso."
+    },
+    {
+     "t": "Esperar 72 horas antes de dar antibióticos",
+     "por": "Se inician en las primeras 6 horas."
+    },
+    {
+     "t": "Cirugía abierta inmediata en todos",
+     "por": "El drenaje (CPRE o percutáneo) es la medida, no la cirugía abierta de entrada."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tratamiento: reanimación con fluidos, analgesia y antibióticos en las primeras 6 horas (limitan la respuesta séptica, previenen absceso y falla de órganos), 4 a 7 días. Drenaje percutáneo: efectivo en 90 a 100 %, con fluoroscopía y ecografía; recomendable si hay alteraciones anatómicas. CPRE = colangiopancreatografía retrógrada endoscópica.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 24 a 27 y 36",
+   "nota": "Que el drenaje por CPRE sea el estándar es un complemento; la lámina 27 detalla el drenaje percutáneo."
+  },
+  {
+   "id": "g-bil-cole_def",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 2,
+   "enunciado": "¿Cuál es la forma más frecuente de coledocolitiasis?",
+   "opciones": [
+    {
+     "t": "La secundaria: litos que pasan de la vesícula al colédoco",
+     "por": "95 % de los pacientes con coledocolitiasis tiene colelitiasis."
+    },
+    {
+     "t": "La primaria, formada de novo en el colédoco",
+     "por": "Es menos frecuente."
+    },
+    {
+     "t": "La asociada a quistes hepáticos",
+     "por": "No es una causa descrita."
+    },
+    {
+     "t": "La secundaria a tumores",
+     "por": "Los tumores causan obstrucción pero no son litiasis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Coledocolitiasis: lito en la vía biliar principal. 10 a 20 % se diagnostica durante la colecistectomía. Factores de riesgo: conducto cístico >4 mm, edad, sexo femenino, genética. Litos de colesterol desde la vesícula o de novo en el colédoco.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 29 a 32"
+  },
+  {
+   "id": "g-bil-cole_clin",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 2,
+   "enunciado": "¿Cómo se manifiesta una coledocolitiasis no complicada?",
+   "opciones": [
+    {
+     "t": "Cólico biliar en cuadrante superior derecho y epigastrio; la resolución del dolor indica que el lito pasó al intestino",
+     "por": "Puede complicarse con pancreatitis o colangitis."
+    },
+    {
+     "t": "Fiebre alta con hipotensión",
+     "por": "Sugiere colangitis, que es una complicación."
+    },
+    {
+     "t": "Tumoración palpable y vesícula indolora",
+     "por": "El signo de Courvoisier se atribuye a malignidad."
+    },
+    {
+     "t": "Dolor en faja constante con lipasa elevada",
+     "por": "Es la pancreatitis biliar, una complicación posible."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Presentación: cólico biliar (cuadrante superior derecho, epigastrio); resolución del dolor indica paso del lito. Courvoisier (vesícula palpable e indolora con ictericia) sugiere malignidad. Labs: elevación temprana de ALT y AST y luego de bilirrubina directa, FA y GGT; con complicaciones suben leucocitos, PCR, amilasa y lipasa.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 31 a 33"
+  },
+  {
+   "id": "g-bil-caso",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 3,
+   "enunciado": "Paciente con dolor en hipocondrio derecho que cedió, sin fiebre, con ictericia, marcadores de inflamación negativos, hipertransaminasemia leve y FA y GGT elevadas. La ecografía no aporta. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "Coledocolitiasis",
+     "por": "Un lito atrapado en el colédoco produce colestasis sin dolor ni inflamación si no hay infección."
+    },
+    {
+     "t": "Colecistitis aguda",
+     "por": "Habría fiebre, leucocitosis y signos de inflamación local."
+    },
+    {
+     "t": "Colangitis aguda",
+     "por": "Faltan fiebre y marcadores de inflamación."
+    },
+    {
+     "t": "Hepatitis viral aguda",
+     "por": "Las transaminasas serían muy altas, no leves con FA y GGT altas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El caso de la clase. La ecografía tiene baja sensibilidad para litos del colédoco (menor de 40 % según la lámina 40). Mejor estudio: colangio-resonancia; en riesgo alto, CPRE.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 39 y 40"
+  },
+  {
+   "id": "g-bil-riesgo",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 3,
+   "enunciado": "En el algoritmo de coledocolitiasis, ¿cuándo se indica CPRE preoperatoria?",
+   "opciones": [
+    {
+     "t": "Probabilidad alta: lito visto en imagen, bilirrubina >4 mg/dl con dilatación del colédoco, o colangitis clínica",
+     "por": "En probabilidad intermedia (hepatograma anormal, edad >55 o dilatación) se hace eco endoscópica o colangio-RM antes."
+    },
+    {
+     "t": "En todos los pacientes con colelitiasis sintomática",
+     "por": "La probabilidad baja se maneja con colecistectomía laparoscópica sin colangiografía."
+    },
+    {
+     "t": "Solo después de la colecistectomía",
+     "por": "En alto riesgo se indica antes de la cirugía."
+    },
+    {
+     "t": "Nunca, porque la RM la reemplaza siempre",
+     "por": "La CPRE trata el lito, no solo lo diagnostica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Algoritmo (paciente sintomático con colelitiasis): riesgo bajo → colecistectomía laparoscópica. Intermedio (hepatograma anormal, edad >55, colédoco dilatado) → colangiografía intraoperatoria o eco laparoscópica, o ecoendoscopía o colangio-RM preoperatoria. Alto → CPRE preoperatoria. La RM es el mejor estudio no invasivo de la vía biliar.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 34 a 36"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "g-bil-c-0",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "f": "Colecistitis: causa",
+   "b": "Litiasis en 90 a 95 %. Alitiásica en 3 a 14 % (UCI, quemados, infección, trauma).",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 6"
+  },
+  {
+   "id": "g-bil-c-1",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "f": "Tokio colecistitis",
+   "b": "Definitivo: A (local) + B (sistémico) + C (imagen).",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 8"
+  },
+  {
+   "id": "g-bil-c-2",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "f": "Gravedad de colecistitis",
+   "b": "Grado II: leucocitos >18 000, masa, >72 h, inflamación local. Grado III: falla de órgano.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 10"
+  },
+  {
+   "id": "g-bil-c-3",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "f": "Antibióticos",
+   "b": "Leve: ceftriaxona 2 g/24 h. Moderado o severo: piperacilina/tazobactam 4,5 g/6 h. BLEE: carbapenem.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 12"
+  },
+  {
+   "id": "g-bil-c-4",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "f": "Tríada de Charcot",
+   "b": "Dolor, fiebre e ictericia (50 a 70 % de las colangitis).",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 19"
+  },
+  {
+   "id": "g-bil-c-5",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "f": "Tokio colangitis",
+   "b": "A inflamación sistémica + B colestasis + C imagen. Sospecha A + B o C.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 20"
+  },
+  {
+   "id": "g-bil-c-6",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "f": "Dilatación de vía biliar",
+   "b": "Mayor de 6 mm; mayor de 10 mm si colecistectomizado.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 21"
+  },
+  {
+   "id": "g-bil-c-7",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "f": "Coledocolitiasis",
+   "b": "Litos secundarios en 95 %. Cólico, ictericia, FA y GGT altas. Mejor estudio: colangio-RM. Tratamiento: CPRE.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 30"
+  }
+ ]
+}

@@ -20,6 +20,10 @@
   "gastro-acalasia.json",
   "gastro-funcionales.json",
   "gastro-eii.json",
-  "gastro-hepatitis.json"
+  "gastro-hepatitis.json",
+  "gastro-cirrosis.json",
+  "gastro-pancreatitis.json",
+  "gastro-via-biliar.json",
+  "gastro-diarrea.json"
  ]
 }

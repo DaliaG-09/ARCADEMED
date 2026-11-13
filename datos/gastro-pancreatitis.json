@@ -1,0 +1,525 @@
+{
+ "preguntas": [
+  {
+   "id": "g-pan-def",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 1,
+   "enunciado": "¿Cómo define la clase a la pancreatitis aguda?",
+   "opciones": [
+    {
+     "t": "Una condición inflamatoria del páncreas que puede causar lesión local, síndrome de respuesta inflamatoria sistémica, falla orgánica y muerte",
+     "por": "Su mortalidad va de 3 a 17 % y su incidencia de 4,9 a 73 casos por 100 000 habitantes."
+    },
+    {
+     "t": "Una destrucción progresiva y permanente del páncreas con insuficiencia endocrina y exocrina",
+     "por": "Eso es la pancreatitis crónica."
+    },
+    {
+     "t": "Un tumor del páncreas que produce dolor en faja",
+     "por": "Es el cáncer de páncreas, otra entidad."
+    },
+    {
+     "t": "Una infección bacteriana primaria del páncreas",
+     "por": "La pancreatitis aguda es una inflamación, y solo se infecta en las complicaciones."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Pancreatitis aguda: inflamación del páncreas que puede ser leve o mortal. Puede producir lesión local, SIRS (síndrome de respuesta inflamatoria sistémica), falla orgánica y muerte.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 8"
+  },
+  {
+   "id": "g-pan-etio",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 1,
+   "enunciado": "¿Cuál es la causa más frecuente de pancreatitis aguda?",
+   "opciones": [
+    {
+     "t": "Litiasis biliar (40 a 70 %)",
+     "por": "El alcohol es la segunda causa (25 a 45 %)."
+    },
+    {
+     "t": "Alcohol (25 a 45 %)",
+     "por": "Es la segunda causa más frecuente."
+    },
+    {
+     "t": "Tumores (5 a 14 %)",
+     "por": "Son una causa menos frecuente."
+    },
+    {
+     "t": "Fármacos (3,2 a 6 %)",
+     "por": "Incluyen azatioprina (AZT) y ácido valproico, pero son poco frecuentes."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Etiología: litiasis 40 a 70 %, alcohol 25 a 45 %, tumores 5 a 14 %, fármacos (AZT, ácido valproico) 3,2 a 6 %, hipertrigliceridemia familiar (>1000 mg/dl), infecciones e hipercalcemia.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 10"
+  },
+  {
+   "id": "g-pan-clinica",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 1,
+   "enunciado": "Varón de 45 años con dolor epigástrico constante e intenso, irradiado a la espalda, con náuseas y vómitos tras una comilona con alcohol. ¿Qué diagnóstico sugiere?",
+   "opciones": [
+    {
+     "t": "Pancreatitis aguda",
+     "por": "El dolor epigástrico constante en faja con náuseas y vómitos es la presentación típica."
+    },
+    {
+     "t": "Gastritis aguda",
+     "por": "Suele ser menos intenso y sin irradiación a la espalda."
+    },
+    {
+     "t": "Cólico biliar simple",
+     "por": "Dura menos de 6 horas y se localiza en el hipocondrio derecho."
+    },
+    {
+     "t": "Enfermedad por reflujo",
+     "por": "Produce ardor retroesternal, no dolor constante en faja."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Clínica: dolor epigástrico constante, irradiado a espalda, pecho o flancos, severo (10/10), con náuseas y vómitos. Examen: distensión, ruidos hidroaéreos disminuidos, dolor y rebote, fiebre, ictericia y alteración hemodinámica.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 11 y 12"
+  },
+  {
+   "id": "g-pan-dx",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cuántos criterios se necesitan para diagnosticar pancreatitis aguda y cuáles son?",
+   "opciones": [
+    {
+     "t": "Dos de tres: clínica, laboratorio (amilasa o lipasa) e imágenes",
+     "por": "Es la regla de la lámina de diagnóstico."
+    },
+    {
+     "t": "Los tres criterios obligatorios",
+     "por": "Con dos basta."
+    },
+    {
+     "t": "Solo la elevación de amilasa",
+     "por": "No se exige un criterio aislado."
+    },
+    {
+     "t": "Solo la tomografía",
+     "por": "La imagen es una opción entre tres, no un requisito obligatorio."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Diagnóstico: 2 de 3 criterios: (1) dolor abdominal típico, (2) amilasa o lipasa mayor de 3 veces el valor normal, (3) hallazgos característicos en imágenes.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 13 y 14"
+  },
+  {
+   "id": "g-pan-lipasa",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Por qué la lipasa se prefiere a la amilasa para diagnosticar pancreatitis aguda?",
+   "opciones": [
+    {
+     "t": "Tiene mayor sensibilidad (82 a 100 %) y se mantiene elevada más tiempo (hasta 8 a 14 días)",
+     "por": "La amilasa tiene sensibilidad de 67 a 83 %, vida media de 10 horas y se normaliza en 3 a 5 días."
+    },
+    {
+     "t": "Se eleva más tarde que la amilasa",
+     "por": "Se eleva más pronto: a las 4 a 8 horas, frente a las 6 a 12 horas de la amilasa."
+    },
+    {
+     "t": "Es más barata y no se altera por el alcohol",
+     "por": "El costo no es el motivo."
+    },
+    {
+     "t": "Se normaliza en 24 horas",
+     "por": "Se mantiene elevada de 8 a 14 días."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Amilasa: elevación a las 6 a 12 h, vida media 10 h, normaliza a los 3 a 5 días, sensibilidad 67 a 83 %, especificidad 85 a 89 %. Lipasa: elevación a las 4 a 8 h, pico a las 24 h, normaliza a los 8 a 14 días, sensibilidad 82 a 100 %. El diagnóstico exige elevación mayor de 3 veces el valor normal.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 14"
+  },
+  {
+   "id": "g-pan-imagenes",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cuál es el estudio de imagen de primera elección en la pancreatitis aguda?",
+   "opciones": [
+    {
+     "t": "La ecografía abdominal, que identifica litiasis, páncreas agrandado y líquido libre",
+     "por": "Es operador dependiente y se limita por el meteorismo."
+    },
+    {
+     "t": "La tomografía a las 12 horas de inicio",
+     "por": "Se usa si hay duda diagnóstica; las complicaciones se ven a las 48 a 72 horas."
+    },
+    {
+     "t": "La colangio-resonancia en todos los casos",
+     "por": "Se reserva para sospecha de colédocolitiasis de 3 mm o evaluar el conducto pancreático."
+    },
+    {
+     "t": "La radiografía simple de abdomen",
+     "por": "No es un estudio de elección para pancreatitis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Imágenes: ecografía (estudio de elección; litiasis, páncreas agrandado, líquido libre), TAC (sensibilidad 90 %; útil con duda diagnóstica y a las 48 a 72 h para complicaciones) y colangio-RMN (colédocolitiasis, conducto pancreático).",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 15 y 16"
+  },
+  {
+   "id": "g-pan-severidad",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué proporción de las pancreatitis agudas son leves?",
+   "opciones": [
+    {
+     "t": "80 a 85 %, sin daño de órgano ni necrosis",
+     "por": "La forma severa (15 a 20 %) tiene dos fases."
+    },
+    {
+     "t": "15 a 20 %",
+     "por": "Es la proporción de casos severos."
+    },
+    {
+     "t": "50 %",
+     "por": "No coincide con la lámina."
+    },
+    {
+     "t": "100 %",
+     "por": "Una parte importante evoluciona a severa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Severidad: leve 80 a 85 % (sin falla de órgano ni necrosis); severa 15 a 20 %, con dos fases (SIRS temprano y complicaciones locales tardías).",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 17"
+  },
+  {
+   "id": "g-pan-bisap",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 3,
+   "enunciado": "¿Cuál de estos es un componente del puntaje BISAP?",
+   "opciones": [
+    {
+     "t": "BUN mayor de 25 mg/dl",
+     "por": "También: alteración del estado mental (Glasgow <15), SIRS, edad mayor de 60 años y derrame pleural."
+    },
+    {
+     "t": "Edad mayor de 55 años",
+     "por": "Es un criterio de Ranson; en BISAP el punto de corte es 60."
+    },
+    {
+     "t": "Calcio sérico menor de 8 mg/dl",
+     "por": "Es un criterio de Ranson a las 48 horas."
+    },
+    {
+     "t": "Lipasa mayor de 3 veces el normal",
+     "por": "Es criterio diagnóstico, no de severidad."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "BISAP: BUN >25, alteración del estado mental, SIRS (≥2: temperatura <36 o >38 °C, frecuencia respiratoria >20, frecuencia cardiaca >90, leucocitos <4000 o >12 000), edad >60 y derrame pleural. Sensibilidad 72 %, especificidad 99 %; 0 puntos: mortalidad <1 %; 5 puntos: 22 %.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 18",
+   "contexto": "Puntaje BISAP: predice la mortalidad de la pancreatitis aguda en las primeras 24 horas. Suma 1 punto por cada uno de cinco datos: BUN (nitrógeno ureico) mayor de 25 mg/dl, alteración del estado mental, SIRS, edad mayor de 60 años y derrame pleural."
+  },
+  {
+   "id": "g-pan-marshall",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿A partir de qué puntaje de Marshall se considera que hay falla de órgano?",
+   "opciones": [
+    {
+     "t": "2 puntos o más",
+     "por": "Se evalúan los sistemas respiratorio (PaO2/FiO2), renal (creatinina) y cardiovascular (presión sistólica)."
+    },
+    {
+     "t": "1 punto",
+     "por": "Es disfunción mínima; no llega al umbral."
+    },
+    {
+     "t": "4 puntos o más",
+     "por": "Es una disfunción grave, pero el umbral es 2."
+    },
+    {
+     "t": "Cualquier valor, si hay dolor intenso",
+     "por": "El puntaje depende de la función de órganos, no del dolor."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Marshall: respiratorio (PaO2/FiO2 >400 = 0; <101 = 4), renal (creatinina <1,4 = 0; >4,9 = 4) y cardiovascular (PAS >90 = 0; con respuesta a fluidos = 1, sin respuesta = 2 o más). Un puntaje de 2 o más en cualquier sistema indica falla de órgano.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 19",
+   "contexto": "Puntaje de Marshall modificado: mide la disfunción de tres sistemas (respiratorio, renal y cardiovascular) de 0 a 4 puntos cada uno. Se usa para saber si hay falla de órgano en una pancreatitis aguda."
+  },
+  {
+   "id": "g-pan-ranson",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 3,
+   "enunciado": "¿Cuál de estos es un criterio de Ranson al INGRESO?",
+   "opciones": [
+    {
+     "t": "Edad mayor de 55 años, leucocitos mayores de 16 000, glucosa elevada, LDH mayor de 350 o TGO mayor de 250",
+     "por": "Son los cinco criterios iniciales."
+    },
+    {
+     "t": "Descenso del hematocrito mayor de 10 %",
+     "por": "Es un criterio de las primeras 48 horas."
+    },
+    {
+     "t": "Calcio sérico menor de 8 mg/dl",
+     "por": "Es un criterio de las 48 horas."
+    },
+    {
+     "t": "PaO2 menor de 60 mmHg",
+     "por": "También se evalúa a las 48 horas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Ranson al ingreso: edad >55, leucocitos >16 000, glucosa >11 mmol/L, LDH >350 UI/L, TGO >250 UI/L. A las 48 horas: caída de hematocrito >10 %, aumento de urea, calcio <8 mg/dl, PaO2 <60 mmHg, déficit de bases >4 mEq/L, secuestro de líquido >6 L.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 20",
+   "contexto": "Criterios de Ranson: sistema de 11 puntos para estimar la gravedad de la pancreatitis aguda, con 5 datos al ingreso y 6 a las 48 horas. Cuantos más criterios, mayor la mortalidad.",
+   "nota": "En la lámina los símbolos están desordenados (por ejemplo 'Edad >55' y 'Glucemia >11 mmol/L'); aquí se interpretan en el orden estándar de Ranson."
+  },
+  {
+   "id": "g-pan-balthazar",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 3,
+   "enunciado": "En el índice tomográfico de severidad, ¿qué grado indica 2 o más colecciones líquidas peripancreáticas o aire retroperitoneal?",
+   "opciones": [
+    {
+     "t": "Grado E (4 puntos)",
+     "por": "Los grados van de A (páncreas normal, 0 puntos) a E (4 puntos)."
+    },
+    {
+     "t": "Grado B (1 punto)",
+     "por": "Es el aumento de tamaño focal o difuso del páncreas."
+    },
+    {
+     "t": "Grado C (2 puntos)",
+     "por": "Hay inflamación pancreática o de la grasa peripancreática."
+    },
+    {
+     "t": "Grado D (3 puntos)",
+     "por": "Es una colección líquida única."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Índice tomográfico (Balthazar): grado A 0, B 1, C 2, D 3, E 4; necrosis: ninguna 0, <30 % 2, 30 a 50 % 4, >50 % 6. Total 0 a 1: morbilidad 0; 2 a 3: 8 % y mortalidad 3 %; 4 a 6: 35 % y 6 %; 7 a 10: 92 % y 17 %.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 21 y 22",
+   "contexto": "El índice tomográfico de severidad suma el grado de inflamación (A a E) y el porcentaje de necrosis visto en la tomografía con contraste. Un puntaje alto predice más complicaciones y mortalidad."
+  },
+  {
+   "id": "g-pan-hidrata",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué solución se prefiere para la hidratación en pancreatitis aguda según la lámina?",
+   "opciones": [
+    {
+     "t": "Lactato de Ringer, por su mejor balance de electrolitos",
+     "por": "La hidratación agresiva se da en 5 a 10 ml/kg/h por 12 a 24 horas; la moderada, 1,5 a 2 ml/kg/h."
+    },
+    {
+     "t": "Solución salina al 0,9 % en todos los casos",
+     "por": "La lámina indica preferir el lactato de Ringer."
+    },
+    {
+     "t": "Dextrosa al 5 % en agua",
+     "por": "No repone el volumen intravascular."
+    },
+    {
+     "t": "No hidratar y mantener ayuno absoluto",
+     "por": "La hidratación temprana es el pilar del tratamiento."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hidratación: agresiva (250 a 500 ml/h o 5 a 10 ml/kg/h por 12 a 24 horas) o moderada (1,5 a 2 ml/kg/h). El estudio citado en la lámina 24 (NEJM) compara ambas: la agresiva no mejoró los resultados y se asoció a más sobrecarga de líquidos.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 23 y 24",
+   "nota": "La conclusión del estudio de la lámina 24 (más sobrecarga hídrica con la hidratación agresiva) es una lectura del resumen mostrado."
+  },
+  {
+   "id": "g-pan-dieta",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cuándo se inicia la alimentación en una pancreatitis aguda leve o moderada?",
+   "opciones": [
+    {
+     "t": "Por vía oral a las 24 a 48 horas, con dieta sólida baja en grasas",
+     "por": "Si no se puede por vía oral a los 3 a 4 días, se inicia nutrición enteral por sonda."
+    },
+    {
+     "t": "Después de 7 días de ayuno absoluto",
+     "por": "El ayuno prolongado no es lo recomendado."
+    },
+    {
+     "t": "Solo con nutrición parenteral",
+     "por": "La nutrición enteral es preferible a la parenteral."
+    },
+    {
+     "t": "Con una dieta rica en grasas",
+     "por": "Debe ser baja en grasas y rica en hidratos y proteínas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Dieta: evaluación nutricional en 24 a 48 h. Pancreatitis leve o moderada: vía oral en 24 a 48 horas, sólida baja en grasas, rica en hidratos y proteínas; si no se puede en 3 a 4 días, sonda (nutrición enteral). Grave: enteral (sonda gástrica o nasoyeyunal); parenteral solo si no se tolera.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 25"
+  },
+  {
+   "id": "g-pan-analgesia",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué analgésicos recomienda la clase en la pancreatitis aguda?",
+   "opciones": [
+    {
+     "t": "Opiáceos (tramadol, morfina o petidina) como primera línea, evitando los AINE",
+     "por": "Se inicia en las primeras 24 horas y se puede considerar analgesia epidural."
+    },
+    {
+     "t": "AINE como primera línea",
+     "por": "La lámina indica evitarlos."
+    },
+    {
+     "t": "No dar analgesia para no ocultar el cuadro",
+     "por": "Se debe tratar el dolor desde las primeras 24 horas."
+    },
+    {
+     "t": "Solo paracetamol oral",
+     "por": "La lámina propone opiáceos como primera línea."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Analgesia: iniciar en 24 horas, evitar AINE, opiáceos de primera línea, considerar analgesia epidural.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 26",
+   "nota": "Algunas guías aceptan AINE si no hay insuficiencia renal; la lámina dice evitarlos."
+  },
+  {
+   "id": "g-pan-atb",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cuándo se dan antibióticos en la pancreatitis aguda?",
+   "opciones": [
+    {
+     "t": "Solo ante evidencia de infección, por ejemplo necrosis con deterioro a los 7 a 10 días de hospitalización",
+     "por": "No se usan de forma rutinaria ni preventiva; se eligen carbapenémicos, quinolonas o metronidazol por su penetración al páncreas."
+    },
+    {
+     "t": "En todo paciente desde el ingreso, de forma preventiva",
+     "por": "No se recomienda el uso rutinario."
+    },
+    {
+     "t": "Solo si la amilasa pasa de 1000",
+     "por": "La amilasa no indica infección."
+    },
+    {
+     "t": "Siempre con aminoglucósidos",
+     "por": "No llegan bien al páncreas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Antibióticos: no de rutina; sospechar infección si hay necrosis y deterioro a los 7 a 10 días. No todos los antibióticos llegan al páncreas: carbapenémicos, quinolonas, metronidazol.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 27 y 28"
+  },
+  {
+   "id": "g-pan-cronica",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cómo se define la pancreatitis crónica?",
+   "opciones": [
+    {
+     "t": "Destrucción progresiva y permanente del páncreas, con insuficiencia endocrina y exocrina y dolor abdominal",
+     "por": "Es irreversible; es más frecuente entre los 35 y 55 años."
+    },
+    {
+     "t": "Una inflamación aguda reversible de 6 semanas",
+     "por": "La pancreatitis crónica es irreversible."
+    },
+    {
+     "t": "Un quiste de páncreas",
+     "por": "Es una complicación posible, no la definición."
+    },
+    {
+     "t": "Un estado de dolor sin daño estructural",
+     "por": "Hay daño progresivo (fibrosis, calcificaciones)."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Pancreatitis crónica: destrucción progresiva y permanente, causas multifactoriales (alcohol, tabaco, genes), 50 por 100 000 habitantes. Clasificación: calcificante, obstructiva, autoinmune (5 %) y paraduodenal. El dolor abdominal es el síntoma más frecuente (85 a 97 %).",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 30 a 32"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "g-pan-c-0",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "f": "Causas de pancreatitis aguda",
+   "b": "Litiasis 40 a 70 %, alcohol 25 a 45 %, tumores, fármacos, hipertrigliceridemia (>1000 mg/dl), hipercalcemia.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 10"
+  },
+  {
+   "id": "g-pan-c-1",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "f": "Dx de pancreatitis aguda",
+   "b": "2 de 3: dolor típico, amilasa o lipasa >3 veces lo normal, imágenes.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 13"
+  },
+  {
+   "id": "g-pan-c-2",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "f": "Lipasa vs amilasa",
+   "b": "Lipasa: sube a las 4 a 8 h, pico 24 h, normaliza en 8 a 14 días, S 82 a 100 %. Amilasa: 6 a 12 h, normaliza en 3 a 5 días.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 14"
+  },
+  {
+   "id": "g-pan-c-3",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "f": "Ecografía en pancreatitis",
+   "b": "Estudio de elección: litiasis, páncreas agrandado, líquido libre. Operador dependiente.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 16"
+  },
+  {
+   "id": "g-pan-c-4",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "f": "BISAP",
+   "b": "BUN >25, estado mental alterado, SIRS, edad >60, derrame pleural. 0 puntos <1 %, 5 puntos 22 %.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 18"
+  },
+  {
+   "id": "g-pan-c-5",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "f": "Marshall",
+   "b": "≥2 puntos = falla de órgano (respiratorio, renal, cardiovascular).",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 19"
+  },
+  {
+   "id": "g-pan-c-6",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "f": "Hidratación",
+   "b": "Lactato de Ringer. Agresiva 5 a 10 ml/kg/h; moderada 1,5 a 2 ml/kg/h.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 23"
+  },
+  {
+   "id": "g-pan-c-7",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "f": "Analgesia y antibióticos",
+   "b": "Opiáceos, evitar AINE. Antibióticos solo si hay infección (carbapenémicos, quinolonas, metronidazol).",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 26"
+  }
+ ]
+}

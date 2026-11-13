@@ -1,0 +1,498 @@
+{
+ "preguntas": [
+  {
+   "id": "g-cir-def",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 1,
+   "enunciado": "¿Cómo se define la cirrosis hepática?",
+   "opciones": [
+    {
+     "t": "Enfermedad crónica y difusa con fibrosis, nódulos de regeneración y trastorno de la arquitectura hepática y de la circulación intrahepática",
+     "por": "Es la definición de la lámina: la fibrosis es por acúmulo de colágeno en la matriz extracelular."
+    },
+    {
+     "t": "Inflamación aguda y reversible del hígado por un virus",
+     "por": "Eso es la hepatitis viral aguda."
+    },
+    {
+     "t": "Acúmulo de grasa en el hígado sin fibrosis",
+     "por": "Es la esteatosis; en la cirrosis ya hay fibrosis y nódulos."
+    },
+    {
+     "t": "Dilatación de los conductos biliares por obstrucción",
+     "por": "Es una colestasis obstructiva, no una cirrosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Cirrosis: enfermedad crónica y difusa con fibrosis (colágeno en la matriz extracelular), nódulos de regeneración, inflamación crónica y alteración de la arquitectura hepática y de la circulación. En la fisiopatología participan las células estrelladas hepáticas activadas (HSC) que depositan matriz.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 8 y 10"
+  },
+  {
+   "id": "g-cir-etio",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 1,
+   "enunciado": "¿Cuál es la causa más frecuente de cirrosis en la lámina de etiología?",
+   "opciones": [
+    {
+     "t": "Alcohol (30 a 50 %)",
+     "por": "El virus de la hepatitis C es la segunda con 35 %, y los virus B y D suman alrededor de 10 %."
+    },
+    {
+     "t": "Hemocromatosis",
+     "por": "Es una causa genética menos frecuente."
+    },
+    {
+     "t": "Enfermedad de Wilson",
+     "por": "Es una causa rara, por acúmulo de cobre."
+    },
+    {
+     "t": "Criptogenética (cirrosis de origen indeterminado)",
+     "por": "Es menor de 10 %."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Etiología: esteatohepatitis no alcohólica, alcohol (30 a 50 %), VHC (35 %), VHB y VHD (10 %), biliar (cirrosis biliar primaria, colangitis esclerosante primaria), hemocromatosis, Wilson, déficit de A1AT (alfa-1-antitripsina), autoinmune, vascular (Budd-Chiari, enfermedad venooclusiva) y criptogenética (<10 %).",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 9"
+  },
+  {
+   "id": "g-cir-signos",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "enunciado": "¿Cuál de estos es un estigma de hepatopatía crónica?",
+   "opciones": [
+    {
+     "t": "Arañas vasculares y eritema palmar",
+     "por": "También: ictericia, leuconiquia, ginecomastia, contractura de Dupuytren, hipertrofia parotídea y dedos en palillo de tambor."
+    },
+    {
+     "t": "Fiebre y tos productiva",
+     "por": "Son síntomas respiratorios o infecciosos, no estigmas hepáticos."
+    },
+    {
+     "t": "Bocio y exoftalmos",
+     "por": "Son signos de enfermedad tiroidea."
+    },
+    {
+     "t": "Xantelasmas oculares únicamente",
+     "por": "No son un estigma que describa la lámina para cirrosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Signos: piel fina, menos masa muscular, arañas vasculares, telangiectasias, eritema palmar, ictericia, púrpura, leuconiquia; abdomen con ascitis, circulación colateral y hernia umbilical; hipertrofia parotídea, contractura de Dupuytren, dedos en palillo de tambor, ginecomastia y edemas.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 12 a 15"
+  },
+  {
+   "id": "g-cir-ascitis",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "enunciado": "¿Qué signos del examen físico sugieren ascitis?",
+   "opciones": [
+    {
+     "t": "Matidez cambiante y en flancos, timpanismo central, signo de la oleada y 'vientre en batracio'",
+     "por": "Son los signos descritos en la lámina del examen físico."
+    },
+    {
+     "t": "Timpanismo en los flancos y matidez central",
+     "por": "Es al revés: en la ascitis hay matidez en los flancos y timpanismo central (donde flotan las asas)."
+    },
+    {
+     "t": "Matidez fija e inmóvil en todo el abdomen",
+     "por": "La matidez es cambiante con la posición del paciente."
+    },
+    {
+     "t": "Ruidos hidroaéreos ausentes y abdomen en tabla",
+     "por": "Sugiere peritonitis o abdomen agudo, no ascitis simple."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Examen físico: matidez cambiante y en flancos, timpanismo central, signo de la oleada ascítica, elevación del diafragma, edema de pared, circulación colateral, hernia umbilical. Se debe descartar hepatocarcinoma (20 %), trombosis portal y atrofia hepática; la paracentesis diagnóstica descarta infección.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 13"
+  },
+  {
+   "id": "g-cir-labs",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "enunciado": "¿Qué alteraciones de laboratorio son típicas de la cirrosis?",
+   "opciones": [
+    {
+     "t": "Citopenias, coagulopatía e hipergammaglobulinemia, con albúmina baja y bilirrubina alta",
+     "por": "Reflejan el hiperesplenismo, la falla de síntesis y la estimulación inmune."
+    },
+    {
+     "t": "Policitemia y albúmina alta",
+     "por": "La albúmina baja, no alta, porque el hígado deja de sintetizarla."
+    },
+    {
+     "t": "Hipogammaglobulinemia",
+     "por": "Es hipergammaglobulinemia."
+    },
+    {
+     "t": "Plaquetas altas y TP corto",
+     "por": "Hay plaquetopenia (hiperesplenismo) y TP prolongado."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Laboratorio: citopenias, coagulopatía, hipergammaglobulinemia, albúmina, bilirrubina, iones, AST/ALT, GGT/FA y alteraciones propias de la etiología. Imágenes: ecografía (contorno nodular, esplenomegalia, circulación colateral, doppler), endoscopía alta (várices), biopsia o fibroscan, TAC y RMN (estudio vascular y del hepatocarcinoma).",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 16 y 17",
+   "nota": "Que la ecografía muestre contorno nodular y esplenomegalia viene de la lámina 17; las alteraciones del TP y las plaquetas son complemento."
+  },
+  {
+   "id": "g-cir-child1",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 3,
+   "enunciado": "Según la tabla de Child-Pugh de la clase, ¿qué rango de puntaje corresponde a la clase B?",
+   "opciones": [
+    {
+     "t": "7 a 9 puntos",
+     "por": "A es 5 a 6 puntos; B es 7 a 9; C es 10 a 15 puntos."
+    },
+    {
+     "t": "5 a 6 puntos",
+     "por": "Es la clase A (supervivencia a 1 año de 100 %)."
+    },
+    {
+     "t": "10 a 15 puntos",
+     "por": "Es la clase C (supervivencia a 1 año de 45 %)."
+    },
+    {
+     "t": "2 a 4 puntos",
+     "por": "No existe: el puntaje mínimo es 5."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Child-Pugh: A 5 a 6 puntos (supervivencia a 1 año ~100 %), B 7 a 9 (~80 %), C 10 a 15 (~45 %). Cada variable da 1 a 3 puntos; 'La cirrosis BATEA el hígado': Bilirrubina, Albúmina, Tiempo de protrombina, Encefalopatía y Ascitis.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 11 y 36",
+   "contexto": "Puntaje de Child-Pugh: mide la gravedad de la cirrosis sumando cinco variables (bilirrubina, albúmina, tiempo de protrombina, encefalopatía y ascitis), de 1 a 3 puntos cada una. Sirve para clasificar al paciente en A, B o C y estimar su pronóstico y riesgo quirúrgico.",
+   "nota": "La lámina 11 muestra la clase C como '>10' y la 36 como '10 a 15'; la lámina 11 usa 'mg/dl' para la albúmina cuando son g/dl. Para el examen, usa la tabla de la lámina 36."
+  },
+  {
+   "id": "g-cir-child2",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 3,
+   "enunciado": "Paciente con bilirrubina 2,5 mg/dl, albúmina 3,0 g/dl, tiempo de protrombina prolongado 5 segundos, encefalopatía grado I-II y ascitis leve. ¿Qué puntaje de Child-Pugh tiene?",
+   "opciones": [
+    {
+     "t": "10 puntos (clase C)",
+     "por": "Bilirrubina 2 + albúmina 2 + TP 2 + encefalopatía 2 + ascitis 2 = 10 puntos: clase C."
+    },
+    {
+     "t": "5 puntos (clase A)",
+     "por": "Es el mínimo y exige que todas las variables sean normales."
+    },
+    {
+     "t": "7 puntos (clase B)",
+     "por": "Solo sale si algunas variables valen 1 punto."
+    },
+    {
+     "t": "15 puntos (clase C)",
+     "por": "Es el máximo: tendría todas las variables en 3."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Con la tabla de la lámina 36: bilirrubina 2 a 3 = 2 puntos; albúmina 2,8 a 3,5 = 2; TP 4 a 6 s = 2; encefalopatía I-II = 2; ascitis leve = 2. Suma 10 = Child C. Los puntos de corte exactos cambian entre la lámina 11 y la 36.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 36 y 11",
+   "contexto": "Puntaje de Child-Pugh: mide la gravedad de la cirrosis sumando cinco variables (bilirrubina, albúmina, tiempo de protrombina, encefalopatía y ascitis), de 1 a 3 puntos cada una. Sirve para clasificar al paciente en A, B o C y estimar su pronóstico y riesgo quirúrgico.",
+   "nota": "Con los puntos de corte de la lámina 11 (bilirrubina 1,5 a 3, albúmina 2,8 a 3) el resultado también es 10 puntos en este caso."
+  },
+  {
+   "id": "g-cir-cons",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "enunciado": "¿Qué consecuencia o complicación hace pasar una cirrosis de 'compensada' a 'descompensada'?",
+   "opciones": [
+    {
+     "t": "Hemorragia por várices, ascitis, encefalopatía o ictericia",
+     "por": "Son los eventos que marcan la descompensación; luego puede aparecer síndrome hepatorrenal, ascitis refractaria o PBE."
+    },
+    {
+     "t": "Solo la presencia de arañas vasculares",
+     "por": "Es un estigma de enfermedad crónica, no una descompensación."
+    },
+    {
+     "t": "El hallazgo de ecografía con hígado nodular",
+     "por": "Es parte del diagnóstico, no una descompensación."
+    },
+    {
+     "t": "Una hernia umbilical",
+     "por": "Es un signo de hipertensión intraabdominal, no el evento que define la descompensación."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Esquema de la lámina 19: hepatopatía crónica → cirrosis compensada → (hemorragia varicosa, ascitis, encefalopatía, ictericia) → cirrosis descompensada → muerte o trasplante hepático. Los eventos como síndrome hepatorrenal, ascitis refractaria y PBE (peritonitis bacteriana espontánea) agravan el cuadro; el hepatocarcinoma puede aparecer en cualquier etapa.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 19 y 20"
+  },
+  {
+   "id": "g-cir-trat",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "enunciado": "¿Qué medida general indica la lámina para el paciente con cirrosis?",
+   "opciones": [
+    {
+     "t": "Tratar la causa, no beber alcohol, vacunar contra hepatitis y evitar AINE, sedantes y hepatotóxicos",
+     "por": "Además de tratar bien las descompensaciones y considerar el trasplante."
+    },
+    {
+     "t": "Usar AINE para el dolor abdominal",
+     "por": "Los AINE pueden precipitar sangrado y falla renal en la cirrosis."
+    },
+    {
+     "t": "Dar sedantes para dormir mejor",
+     "por": "Los sedantes pueden desencadenar encefalopatía."
+    },
+    {
+     "t": "Restringir las proteínas de forma permanente",
+     "por": "La lámina pide nutrición adecuada, no restricción rutinaria."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Medidas generales: tratamiento etiológico (virus C, virus B, cirrosis biliar primaria, colangitis esclerosante primaria, autoinmune), nutrición y no alcohol, vacunación contra hepatitis, evitar AINE, sedantes y hepatotóxicos, tratar las descompensaciones (ascitis, encefalopatía, hemorragia) y trasplante hepático.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 21",
+   "nota": "La advertencia de que los AINE pueden precipitar falla renal o sangrado es un complemento."
+  },
+  {
+   "id": "g-cir-hp",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "enunciado": "¿Cómo se origina la hipertensión portal en la cirrosis?",
+   "opciones": [
+    {
+     "t": "La fibrosis aumenta la resistencia al flujo de sangre en el hígado y eleva la presión en la vena porta",
+     "por": "Luego se forman vasos colaterales que empeoran el síndrome hiperdinámico."
+    },
+    {
+     "t": "Por una disminución del flujo sanguíneo esplácnico",
+     "por": "El flujo esplácnico aumenta, lo que agrava la presión."
+    },
+    {
+     "t": "Por una obstrucción de la vena cava inferior",
+     "por": "Es otra causa de congestión, no el mecanismo habitual de la cirrosis."
+    },
+    {
+     "t": "Por aumento de la albúmina plasmática",
+     "por": "Lo que ocurre es hipoalbuminemia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hipertensión portal: la cicatrización y los cambios estructurales estrechan los vasos, suben el tono vascular y la resistencia; aumenta la presión en la porta, se ensanchan vasos y se forman colaterales, con mayor flujo y complicaciones: varices esofágicas y ascitis. Las varices pueden formarse con gradiente de presión (HVPG) sobre 10 a 12 mmHg.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 22 a 24"
+  },
+  {
+   "id": "g-cir-hvpg",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 3,
+   "enunciado": "¿Qué gradiente de presión portal (HVPG) se asocia con la aparición de várices y sangrado?",
+   "opciones": [
+    {
+     "t": "Por encima de 10 a 12 mmHg",
+     "por": "Es el umbral descrito en la lámina para várices gastroesofágicas y sangrado."
+    },
+    {
+     "t": "Por encima de 3 mmHg",
+     "por": "Los valores normales llegan hasta 5 mmHg."
+    },
+    {
+     "t": "Por encima de 5 mmHg",
+     "por": "Es el límite superior de lo normal; la hipertensión portal clínicamente significativa empieza en 10."
+    },
+    {
+     "t": "Menos de 5 mmHg",
+     "por": "Es lo normal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "HVPG = gradiente de presión venosa hepática. Más de 10 a 12 mmHg: várices y sangrado. Resangrado temprano: sangrado de várices gástricas, sangrado activo, albúmina baja, insuficiencia renal y HVPG >20 mmHg.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 24 y 25",
+   "contexto": "El HVPG es la diferencia entre la presión de la vena porta y la de la vena cava, medida con un catéter en las venas hepáticas. Se usa para saber qué tan alta es la hipertensión portal."
+  },
+  {
+   "id": "g-cir-resangrado",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "enunciado": "¿Cuál de estos se asocia a mayor riesgo de resangrado temprano de várices?",
+   "opciones": [
+    {
+     "t": "Sangrado de várices gástricas, sangrado activo, albúmina baja, insuficiencia renal o HVPG mayor de 20",
+     "por": "Son los factores que menciona la lámina."
+    },
+    {
+     "t": "Edad menor de 40 años",
+     "por": "No es un factor de la lámina."
+    },
+    {
+     "t": "Plaquetas elevadas",
+     "por": "En cirrosis hay plaquetopenia, y no es un factor de la lámina."
+    },
+    {
+     "t": "Hemoglobina mayor de 14",
+     "por": "No figura entre los factores."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Factores de resangrado temprano: (1) várices gástricas, (2) sangrado activo, (3) albúmina baja, (4) insuficiencia renal, (5) HVPG >20 mmHg.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 25"
+  },
+  {
+   "id": "g-cir-algoritmo",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 3,
+   "enunciado": "Paciente cirrótico con hemorragia por várices y hemodinámicamente estable. ¿Qué indica el algoritmo?",
+   "opciones": [
+    {
+     "t": "Reanimación cuidadosa (Hb de 7 a 8 g/dl), antibiótico profiláctico y vasoactivos, y endoscopía en 12 horas con ligadura de várices como primera opción",
+     "por": "Si no se controla (hemorragia refractaria): balón, TIPS o BRTO. Después, profilaxis secundaria con betabloqueador no selectivo ± ligadura."
+    },
+    {
+     "t": "Transfundir hasta una hemoglobina de 12 g/dl",
+     "por": "La lámina indica reanimación con Hb de 7 a 8 g/dl; transfundir más aumenta la presión portal."
+    },
+    {
+     "t": "Esperar sin endoscopía hasta que el sangrado se detenga solo",
+     "por": "La endoscopía debe hacerse en las primeras 12 horas."
+    },
+    {
+     "t": "Cirugía abierta de derivación inmediata",
+     "por": "Es una opción tardía; el algoritmo propone TIPS si hay refractariedad."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "AVB = hemorragia variceal aguda. Algoritmo: reanimación (Hb 7 a 8 g/dl), profilaxis antibiótica (ceftriaxona), fármacos vasoactivos (terlipresina, octreótido, vasopresina), endoscopía en 12 h (primera elección: ligadura con banda; segunda: escleroterapia). Controlado: profilaxis secundaria con betabloqueador no selectivo (propranolol, carvedilol, nadolol) ± ligadura. Refractario: balón de Sengstaken, TIPS o BRTO.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 26",
+   "nota": "En Perú se usa mucho el octreótido y la ligadura endoscópica; sigue la lámina para el examen."
+  },
+  {
+   "id": "g-cir-tips",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 3,
+   "enunciado": "¿Qué es el TIPS y cuál es su principal complicación?",
+   "opciones": [
+    {
+     "t": "Una derivación portosistémica intrahepática transyugular que comunica la porta con una vena hepática; puede causar encefalopatía",
+     "por": "Controla la hemorragia en 95 %, con resangrado de 18 % y mortalidad de 38 %."
+    },
+    {
+     "t": "Una cirugía que extirpa el bazo",
+     "por": "Es una esplenectomía, no un TIPS."
+    },
+    {
+     "t": "Una endoscopía con bandas elásticas",
+     "por": "Es la ligadura de várices."
+    },
+    {
+     "t": "Un trasplante de hígado parcial",
+     "por": "El TIPS no reemplaza el hígado, solo desvía sangre."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "TIPS = shunt portosistémico intrahepático transyugular: comunica el sistema portal (alta presión) con el sistémico (baja presión), reduciendo la hipertensión portal. Pasa sangre de la porta al torrente sistémico sin ser filtrada, por eso causa encefalopatía.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 27 a 29"
+  },
+  {
+   "id": "g-cir-caso",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 3,
+   "enunciado": "Mujer de 56 años con hematemesis, ictericia, somnolencia, bradipsiquia, abdomen distendido con matidez desplazable y signos de peritonismo. ¿Cuál es el planteamiento más probable?",
+   "opciones": [
+    {
+     "t": "Cirrosis descompensada con hemorragia digestiva por várices, encefalopatía hepática y ascitis, con posible peritonitis bacteriana espontánea",
+     "por": "Hematemesis más ictericia, ascitis y alteración del sensorio apuntan a cirrosis descompensada."
+    },
+    {
+     "t": "Gastritis aguda por AINE sin hepatopatía",
+     "por": "No explica la ictericia, la ascitis ni la encefalopatía."
+    },
+    {
+     "t": "Úlcera duodenal perforada",
+     "por": "Causaría abdomen en tabla con aire libre, no matidez desplazable por ascitis."
+    },
+    {
+     "t": "Hepatitis A aguda",
+     "por": "Es autolimitada y no produce hematemesis ni ascitis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El caso de la clase: hematemesis + ictericia + somnolencia + ascitis. Se buscan signos de hepatopatía crónica, se hace endoscopía urgente para varices, paracentesis diagnóstica (descartar PBE), laboratorio (coagulación, albúmina) y ecografía.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 32"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "g-cir-c-0",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "f": "Cirrosis: definición",
+   "b": "Fibrosis difusa, nódulos de regeneración, trastorno de la arquitectura y de la circulación hepática.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 8"
+  },
+  {
+   "id": "g-cir-c-1",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "f": "Causas de cirrosis",
+   "b": "Alcohol 30 a 50 %, VHC 35 %, VHB y VHD 10 %, NASH, biliar, hemocromatosis, Wilson, A1AT, autoinmune.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 9"
+  },
+  {
+   "id": "g-cir-c-2",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "f": "Child-Pugh",
+   "b": "A 5 a 6 (100 % a 1 año)\nB 7 a 9 (80 %)\nC 10 a 15 (45 %)",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 36"
+  },
+  {
+   "id": "g-cir-c-3",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "f": "BATEA",
+   "b": "Bilirrubina, Albúmina, Tiempo de protrombina, Encefalopatía, Ascitis: 1 a 3 puntos cada una.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 36"
+  },
+  {
+   "id": "g-cir-c-4",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "f": "Signos de ascitis",
+   "b": "Matidez cambiante en flancos, timpanismo central, oleada ascítica, vientre en batracio.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 13"
+  },
+  {
+   "id": "g-cir-c-5",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "f": "HVPG",
+   "b": "Más de 10 a 12 mmHg: várices y sangrado. Más de 20: resangrado temprano.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 24"
+  },
+  {
+   "id": "g-cir-c-6",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "f": "Hemorragia variceal",
+   "b": "Hb 7 a 8, antibiótico, vasoactivo, endoscopía en 12 h con ligadura. Refractaria: balón o TIPS.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 26"
+  },
+  {
+   "id": "g-cir-c-7",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "f": "TIPS",
+   "b": "Comunica porta con vena hepática. Hemostasia 95 %. Riesgo de encefalopatía.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 27"
+  }
+ ]
+}
