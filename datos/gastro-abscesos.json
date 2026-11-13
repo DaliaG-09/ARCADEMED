@@ -388,7 +388,7 @@
    "id": "g-abs-c-0",
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
-   "f": "Absceso más frecuente",
+   "f": "En los abscesos hepáticos, ¿qué porcentaje corresponde al piógeno y cuál al amebiano?",
    "b": "Piógeno 80 a 90 %; amebiano 5 a 10 %.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 6"
   },
@@ -396,7 +396,7 @@
    "id": "g-abs-c-1",
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
-   "f": "Vías del piógeno",
+   "f": "¿Por qué vías llegan las bacterias al hígado en el absceso piógeno?",
    "b": "Biliar (35 a 45 %), portal (20 %), arterial, trauma, criptogénico (35 %).",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 9"
   },
@@ -404,7 +404,7 @@
    "id": "g-abs-c-2",
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
-   "f": "Ecografía",
+   "f": "Absceso hepático: ¿qué estudio de imagen se usa primero y qué muestra?",
    "b": "Método de elección; lesión hipoecogénica; sensibilidad 85 a 95 % si mayor de 2 cm.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 16"
   },
@@ -412,7 +412,7 @@
    "id": "g-abs-c-3",
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
-   "f": "Piógeno menor de 3 cm",
+   "f": "¿Cómo se trata un absceso piógeno según su tamaño?",
    "b": "Antibióticos solos. Mayor y unilocular: drenaje percutáneo.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 19"
   },
@@ -420,7 +420,7 @@
    "id": "g-abs-c-4",
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
-   "f": "Perfil del amebiano",
+   "f": "¿Qué perfil de paciente y de lesión sugiere absceso hepático amebiano?",
    "b": "Menor de 40 años, varón, solitario, lóbulo derecho, serología positiva.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 40"
   },
@@ -428,7 +428,7 @@
    "id": "g-abs-c-5",
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
-   "f": "Contenido amebiano",
+   "f": "¿Cómo es el pus que se drena de un absceso amebiano?",
    "b": "Líquido espeso color chocolate.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 25"
   },
@@ -436,7 +436,7 @@
    "id": "g-abs-c-6",
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
-   "f": "Metronidazol",
+   "f": "¿Qué dosis y duración de metronidazol se usa en el absceso amebiano, y qué se da después?",
    "b": "750 mg VO cada 8 h por 7 a 10 días; luego amebicida luminal.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 32"
   },
@@ -444,7 +444,7 @@
    "id": "g-abs-c-7",
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
-   "f": "Mortalidad",
+   "f": "¿Cuál es la mortalidad del absceso amebiano comparada con la del piógeno?",
    "b": "Amebiano menor de 5 %; piógeno 10 a 15 %.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 40"
   }

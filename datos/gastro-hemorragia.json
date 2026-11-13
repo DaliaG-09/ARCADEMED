@@ -418,7 +418,7 @@
    "id": "g-hd-c-0",
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
-   "f": "Definición de HDA",
+   "f": "¿Cómo se define la hemorragia digestiva alta (HDA) y cómo se presenta?",
    "b": "Origen entre el esfínter esofágico superior y el ángulo de Treitz. Se presenta con hematemesis, melena o hematoquecia.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 8"
   },
@@ -426,7 +426,7 @@
    "id": "g-hd-c-1",
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
-   "f": "Causas de HDA",
+   "f": "¿Cuáles son las causas de HDA y su frecuencia?",
    "b": "Úlcera péptica 40 %; várices (hipertensión portal) 10 a 20 %; anomalías vasculares 7 %; neoplasias 1 %.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 10"
   },
@@ -434,7 +434,7 @@
    "id": "g-hd-c-2",
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
-   "f": "Várices: tratamiento",
+   "f": "¿Cómo se trata el sangrado por várices y qué mortalidad tiene?",
    "b": "Hipertensión portal: endoscópico con ligaduras. Mortalidad del sangrado: 15 a 40 %.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 10"
   },
@@ -442,7 +442,7 @@
    "id": "g-hd-c-3",
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
-   "f": "Algoritmo de HDA estable",
+   "f": "¿Qué pasos sigue el algoritmo en un paciente con HDA estable?",
    "b": "Reposición de volumen, IBP 80 mg en bolo y 8 mg/h, transfusión restrictiva, endoscopia antes de 24 h.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 15"
   },
@@ -450,7 +450,7 @@
    "id": "g-hd-c-4",
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
-   "f": "Definición de HDB",
+   "f": "¿Cómo se define la hemorragia digestiva baja (HDB) y cuál es su causa principal?",
    "b": "Origen distal al ángulo de Treitz; 95 % en el colon. Causa principal: diverticulosis (>50 %).",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 17"
   },
@@ -458,7 +458,7 @@
    "id": "g-hd-c-5",
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
-   "f": "Angiodisplasia",
+   "f": "¿Cómo se reconoce una angiodisplasia como causa de HDB?",
    "b": "Mayor de 60 años; sangrado recurrente indoloro; lesiones rojas planas en ciego; tratamiento con plasma de argón.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 19"
   },
@@ -466,7 +466,7 @@
    "id": "g-hd-c-6",
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
-   "f": "Colitis isquémica",
+   "f": "¿Cómo se presenta la colitis isquémica y cómo se estudia?",
    "b": "Anciano con hematoquecia por flujo mesentérico reducido; 20 % de las HDB; angiografía mesentérica.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 23"
   },
@@ -474,7 +474,7 @@
    "id": "g-hd-c-7",
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
-   "f": "Estudio de HDB",
+   "f": "¿Qué estudios se usan en la HDB y cuándo se opera?",
    "b": "Colonoscopia en 24 h tras PEG; angio-TC (sensibilidad 85 %); cirugía si falla lo endoscópico.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 26"
   }

@@ -689,7 +689,7 @@
    "id": "g-hep-c-0",
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
-   "f": "Daño en hepatitis viral",
+   "f": "En las hepatitis virales, ¿cómo se produce el daño al hígado?",
    "b": "El virus no es citopático: el sistema inmune destruye los hepatocitos infectados.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 7"
   },
@@ -697,7 +697,7 @@
    "id": "g-hep-c-1",
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
-   "f": "Fecal-oral vs parenteral",
+   "f": "¿Qué virus de hepatitis se transmiten por vía fecal-oral y cuáles por sangre, y cuáles cronifican?",
    "b": "A y E: fecal-oral. B, C, D y G: sangre y líquidos. A y E no cronifican.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 8"
   },
@@ -705,7 +705,7 @@
    "id": "g-hep-c-2",
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
-   "f": "Hepatitis A: dx",
+   "f": "¿Cómo se diagnostica la hepatitis A según IgM e IgG anti-VHA?",
    "b": "IgM anti-VHA = aguda. IgG anti-VHA = inmunidad.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 21"
   },
@@ -713,7 +713,7 @@
    "id": "g-hep-c-3",
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
-   "f": "Marcadores de VHB",
+   "f": "¿Qué indica cada marcador de la hepatitis B (HBsAg, anti-HBs, IgM anti-HBc, HBeAg)?",
    "b": "HBsAg: infección. Anti-HBs: inmunidad. IgM anti-HBc: aguda. HBeAg: replicación.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 31"
   },
@@ -721,7 +721,7 @@
    "id": "g-hep-c-4",
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
-   "f": "Periodo ventana",
+   "f": "¿Qué es el periodo ventana de la hepatitis B y cómo se diagnostica?",
    "b": "HBsAg negativo con infección aguda: se diagnostica con IgM anti-HBc.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 32"
   },
@@ -729,7 +729,7 @@
    "id": "g-hep-c-5",
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
-   "f": "VHB crónica",
+   "f": "¿Cómo se define la hepatitis B crónica y qué caracteriza al portador inactivo?",
    "b": "HBsAg positivo >6 meses. Portador inactivo: ALT normal, HBeAg −, anti-HBe +.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 34"
   },
@@ -737,7 +737,7 @@
    "id": "g-hep-c-6",
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
-   "f": "Hepatitis C",
+   "f": "¿Qué características tiene la hepatitis C (ARN, cronificación, vacuna y tratamiento)?",
    "b": "ARN; 80 % cronifica; sin vacuna; AAD: inhibidores NS3/NS4A y NS5.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 50"
   },
@@ -745,7 +745,7 @@
    "id": "g-hep-c-7",
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
-   "f": "Hepatitis D y E",
+   "f": "¿Qué se sabe de las hepatitis D y E?",
    "b": "D: defectuoso, necesita VHB. E: fecal-oral, 20 a 25 % de mortalidad en embarazadas.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 56"
   }

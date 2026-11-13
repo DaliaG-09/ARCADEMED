@@ -376,7 +376,7 @@
    "id": "g-dia-c-0",
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
-   "f": "Duración de la diarrea",
+   "f": "¿Cómo se clasifica la diarrea según su duración?",
    "b": "Aguda menor de 14 días; subaguda 14 a 30 días; crónica mayor de 30 días.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 8"
   },
@@ -384,7 +384,7 @@
    "id": "g-dia-c-1",
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
-   "f": "Inflamatoria vs no inflamatoria",
+   "f": "¿Cómo se distingue una diarrea inflamatoria de una no inflamatoria?",
    "b": "Inflamatoria: fiebre, tenesmo, sangre y moco, calprotectina positiva. No inflamatoria: virus, vómitos, sin sangre.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 10"
   },
@@ -392,7 +392,7 @@
    "id": "g-dia-c-2",
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
-   "f": "Primer paso en la evaluación",
+   "f": "Ante un paciente con diarrea aguda, ¿qué se evalúa primero?",
    "b": "Grado de deshidratación y hemodinamia; descartar abdomen agudo.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 12"
   },
@@ -400,7 +400,7 @@
    "id": "g-dia-c-3",
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
-   "f": "Cuándo pedir exámenes",
+   "f": "¿En qué situaciones se piden exámenes auxiliares en la diarrea aguda?",
    "b": "Sangre o moco, fiebre, dolor intenso o sepsis, más de 7 días.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 13"
   },
@@ -408,7 +408,7 @@
    "id": "g-dia-c-4",
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
-   "f": "Tratamiento general",
+   "f": "¿Cuál es el tratamiento general de la diarrea aguda y cuándo se dan antibióticos?",
    "b": "Hidratación. Antibióticos solo si es inflamatoria, con fiebre, sepsis o shock. Probióticos no rutinarios.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 14"
   },
@@ -416,7 +416,7 @@
    "id": "g-dia-c-5",
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
-   "f": "C. difficile",
+   "f": "¿Qué se usa para tratar la diarrea por C. difficile?",
    "b": "Fidaxomicina; alternativa vancomicina oral.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 15"
   },
@@ -424,7 +424,7 @@
    "id": "g-dia-c-6",
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
-   "f": "Brecha osmótica",
+   "f": "Diarrea crónica: ¿qué indica una brecha osmótica fecal mayor de 100 y una menor de 50?",
    "b": "Mayor de 100: osmótica. Menor de 50: secretora.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 22"
   },
@@ -432,7 +432,7 @@
    "id": "g-dia-c-7",
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
-   "f": "Conclusión",
+   "f": "¿Qué mensaje final deja la clase sobre la diarrea aguda y el uso de antibióticos?",
    "b": "Tercera causa de muerte infantil, prevenible. No toda diarrea necesita antibióticos.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 29"
   }

@@ -544,7 +544,7 @@
    "id": "g-eii-c-0",
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
-   "f": "EII",
+   "f": "¿Qué enfermedades forman la enfermedad inflamatoria intestinal (EII)?",
    "b": "Colitis ulcerosa + enfermedad de Crohn: inflamatorias, crónicas, idiopáticas.",
    "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 7"
   },
@@ -552,7 +552,7 @@
    "id": "g-eii-c-1",
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
-   "f": "CU vs Crohn: extensión",
+   "f": "¿En qué se diferencian la colitis ulcerosa y el Crohn por extensión y profundidad?",
    "b": "CU: solo colon y recto, continua, mucosa y submucosa. Crohn: todo el tubo, discontinua, transmural.",
    "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 13"
   },
@@ -560,7 +560,7 @@
    "id": "g-eii-c-2",
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
-   "f": "Anticuerpos",
+   "f": "¿Qué anticuerpos (p-ANCA y ASCA) se asocian a colitis ulcerosa y a Crohn?",
    "b": "CU: p-ANCA (+), ASCA (−). Crohn: ASCA (+), p-ANCA (−).",
    "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 13"
   },
@@ -568,7 +568,7 @@
    "id": "g-eii-c-3",
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
-   "f": "Tabaco",
+   "f": "¿Cómo influye el tabaco en la colitis ulcerosa y en el Crohn?",
    "b": "Protege en CU, empeora el Crohn.",
    "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 13"
   },
@@ -576,7 +576,7 @@
    "id": "g-eii-c-4",
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
-   "f": "Imagen de elección",
+   "f": "¿Qué estudio de imagen es de elección en colitis ulcerosa y cuál en Crohn?",
    "b": "CU: colonoscopía con biopsia. Crohn: enterorresonancia magnética.",
    "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 15"
   },
@@ -584,7 +584,7 @@
    "id": "g-eii-c-5",
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
-   "f": "Montreal (extensión)",
+   "f": "En la clasificación de Montreal, ¿qué significan E1, E2 y E3?",
    "b": "E1 proctitis\nE2 colitis izquierda\nE3 colitis extensa",
    "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 25"
   },
@@ -592,7 +592,7 @@
    "id": "g-eii-c-6",
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
-   "f": "Tratamiento de CU leve a moderada",
+   "f": "¿Cómo se trata la colitis ulcerosa leve a moderada?",
    "b": "Mesalazina oral o tópica 4 a 6 semanas; corticoides si no responde.",
    "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 27"
   },
@@ -600,7 +600,7 @@
    "id": "g-eii-c-7",
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
-   "f": "Indicaciones de cirugía en CU",
+   "f": "¿Cuáles son las indicaciones de cirugía en colitis ulcerosa?",
    "b": "Hemorragia masiva, megacolon tóxico con perforación, CU fulminante, obstrucción por estenosis, cáncer de colon.",
    "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 37"
   }

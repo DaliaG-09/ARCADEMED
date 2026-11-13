@@ -359,7 +359,7 @@
    "id": "g-tbc-c-0",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
-   "f": "Agente",
+   "f": "¿Qué agente causa la tuberculosis abdominal?",
    "b": "Mycobacterium tuberculosis (a veces M. bovis).",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 9"
   },
@@ -367,7 +367,7 @@
    "id": "g-tbc-c-1",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
-   "f": "Localización",
+   "f": "¿Qué zonas del abdomen compromete con más frecuencia la tuberculosis abdominal?",
    "b": "Región ileocecal y peritoneo.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 10"
   },
@@ -375,7 +375,7 @@
    "id": "g-tbc-c-2",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
-   "f": "Formas intestinales",
+   "f": "¿Qué formas de tuberculosis intestinal existen y con qué frecuencia?",
    "b": "Ulcerativa 60 %, hipertrófica 10 %, mixta 30 %.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 14"
   },
@@ -383,7 +383,7 @@
    "id": "g-tbc-c-3",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
-   "f": "Líquido ascítico",
+   "f": "¿Cómo es el líquido ascítico en la tuberculosis peritoneal?",
    "b": "Exudado, GASA menor de 1,1, mononucleares, ADA mayor de 33 UI/L.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 17"
   },
@@ -391,7 +391,7 @@
    "id": "g-tbc-c-4",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
-   "f": "Signo de Fleischner",
+   "f": "¿Qué es el signo de Fleischner en la tuberculosis intestinal?",
    "b": "Válvula ileocecal engrosada con segmento ileal angosto.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 18"
   },
@@ -399,7 +399,7 @@
    "id": "g-tbc-c-5",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
-   "f": "Diagnóstico",
+   "f": "¿Qué procedimientos diagnostican la tuberculosis abdominal?",
    "b": "Colonoscopia con ileoscopia terminal y laparoscopia.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 16"
   },
@@ -407,7 +407,7 @@
    "id": "g-tbc-c-6",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
-   "f": "Tratamiento",
+   "f": "¿Cuál es el esquema de tratamiento de la tuberculosis abdominal?",
    "b": "9 meses: 2 meses HRZE y 7 meses HR.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 22"
   },
@@ -415,7 +415,7 @@
    "id": "g-tbc-c-7",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
-   "f": "Cirugía",
+   "f": "¿Cuándo se opera la tuberculosis abdominal?",
    "b": "Obstrucción, perforación, fístulas y hemorragia masiva.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 22"
   }

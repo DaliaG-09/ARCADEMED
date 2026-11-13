@@ -430,7 +430,7 @@
    "id": "g-eup-c-0",
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
-   "f": "Definición de úlcera",
+   "f": "¿Cómo se define la úlcera péptica?",
    "b": "Discontinuidad del revestimiento por ácido y pepsina. Estómago y duodeno.",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 8"
   },
@@ -438,7 +438,7 @@
    "id": "g-eup-c-1",
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
-   "f": "Factores de H. pylori",
+   "f": "¿Qué factores de virulencia tiene H. pylori y qué hace cada uno?",
    "b": "Ureasa (neutraliza ácido), flagelos (motilidad), CagA y VacA (daño). Solo 10 % de infectados hace úlcera.",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 10"
   },
@@ -446,7 +446,7 @@
    "id": "g-eup-c-2",
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
-   "f": "Estándar de oro",
+   "f": "¿Cuál es el estándar de oro para diagnosticar la úlcera péptica?",
    "b": "Endoscopía digestiva alta con biopsia (H. pylori y descartar malignidad).",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 13"
   },
@@ -454,7 +454,7 @@
    "id": "g-eup-c-3",
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
-   "f": "Forrest",
+   "f": "En la clasificación de Forrest, ¿qué riesgo de resangrado tiene cada tipo?",
    "b": "IA/IB 55 %\nIIA 43 %\nIIB 22 %\nIIC 10 %\nIII 5 % (resangrado)",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 14"
   },
@@ -462,7 +462,7 @@
    "id": "g-eup-c-4",
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
-   "f": "Cuadriterapia con bismuto",
+   "f": "¿Qué esquema de cuadriterapia con bismuto se usa para erradicar H. pylori y cuándo se controla?",
    "b": "IBP + amoxicilina + metronidazol + bismuto. Control a las 6 a 8 semanas.",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 18"
   },
@@ -470,7 +470,7 @@
    "id": "g-eup-c-5",
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
-   "f": "Alergia a amoxicilina",
+   "f": "¿Qué esquema se usa en la erradicación de H. pylori si hay alergia a la amoxicilina?",
    "b": "IBP + tetraciclina + metronidazol + bismuto.",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 19"
   },
@@ -478,7 +478,7 @@
    "id": "g-eup-c-6",
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
-   "f": "Úlcera y AINE",
+   "f": "¿Cómo se relacionan los AINE y la aspirina con la úlcera y el sangrado?",
    "b": "COX-2 selectivos −75 %. Aspirina duplica el riesgo de sangrado.",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 21"
   },
@@ -486,7 +486,7 @@
    "id": "g-eup-c-7",
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
-   "f": "Dolor al dorso",
+   "f": "Una úlcera con dolor constante que irradia al dorso, ¿qué hace sospechar?",
    "b": "Dolor constante que irradia al dorso: sospecha de penetración a páncreas.",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 22"
   }

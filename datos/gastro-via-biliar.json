@@ -538,7 +538,7 @@
    "id": "g-bil-c-0",
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
-   "f": "Colecistitis: causa",
+   "f": "¿Cuál es la causa más frecuente de colecistitis aguda y qué porcentaje es alitiásica?",
    "b": "Litiasis en 90 a 95 %. Alitiásica en 3 a 14 %.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 6"
   },
@@ -546,7 +546,7 @@
    "id": "g-bil-c-1",
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
-   "f": "Tokio colecistitis",
+   "f": "¿Cómo se hace el diagnóstico definitivo de colecistitis según los criterios de Tokio?",
    "b": "Definitivo: A (local) + B (sistémico) + C (imagen).",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 8"
   },
@@ -554,7 +554,7 @@
    "id": "g-bil-c-2",
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
-   "f": "Gravedad de colecistitis",
+   "f": "¿Qué define el grado II y el grado III de gravedad en la colecistitis?",
    "b": "Grado II: leucocitos >18 000, masa, >72 h. Grado III: falla de órgano.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 10"
   },
@@ -562,7 +562,7 @@
    "id": "g-bil-c-3",
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
-   "f": "Antibióticos",
+   "f": "¿Qué antibióticos se usan en colecistitis según su gravedad?",
    "b": "Leve: ceftriaxona 2 g/24 h. Moderado o severo: piperacilina/tazobactam 4,5 g/6 h. BLEE: carbapenem.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 12"
   },
@@ -570,7 +570,7 @@
    "id": "g-bil-c-4",
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
-   "f": "Tríada de Charcot",
+   "f": "¿Qué componentes tiene la tríada de Charcot y en qué patología aparece?",
    "b": "Dolor, fiebre e ictericia (50 a 70 % de las colangitis).",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 19"
   },
@@ -578,7 +578,7 @@
    "id": "g-bil-c-5",
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
-   "f": "Tokio colangitis",
+   "f": "¿Cómo se diagnostica la colangitis aguda según los criterios de Tokio?",
    "b": "A inflamación sistémica + B colestasis + C imagen.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 20"
   },
@@ -586,7 +586,7 @@
    "id": "g-bil-c-6",
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
-   "f": "Dilatación de vía biliar",
+   "f": "¿Desde qué diámetro se considera dilatada la vía biliar?",
    "b": "Mayor de 6 mm; mayor de 10 mm si colecistectomizado.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 21"
   },
@@ -594,7 +594,7 @@
    "id": "g-bil-c-7",
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
-   "f": "Coledocolitiasis",
+   "f": "En la coledocolitiasis, ¿cuál es el origen habitual de los litos, el mejor estudio y el tratamiento?",
    "b": "Litos secundarios en 95 %. Mejor estudio: colangio-RM. Tratamiento: CPRE.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 30"
   }

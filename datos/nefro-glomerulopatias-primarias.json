@@ -573,7 +573,7 @@
    "id": "n-gp1-c-0",
    "area": "nefro",
    "tema": "Glomerulopatías primarias",
-   "f": "Cambios mínimos",
+   "f": "¿Cómo es la nefropatía de cambios mínimos (edad, histología y tratamiento)?",
    "b": "Niños. MO normal, IF negativa, ME con fusión de pedicelos. Corticoides: prednisona 1 mg/kg/día.",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 14"
   },
@@ -581,7 +581,7 @@
    "id": "n-gp1-c-1",
    "area": "nefro",
    "tema": "Glomerulopatías primarias",
-   "f": "Membranosa",
+   "f": "¿Cómo es la glomerulopatía membranosa (edad, depósitos, anticuerpo y complicación)?",
    "b": "Adultos. Depósitos subepiteliales en espigas. Anti-PLA2R. Trombosis 40 %.",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 16"
   },
@@ -589,7 +589,7 @@
    "id": "n-gp1-c-2",
    "area": "nefro",
    "tema": "Glomerulopatías primarias",
-   "f": "Anti-MBG (Goodpasture)",
+   "f": "¿Cómo es la enfermedad anti-MBG (Goodpasture), cómo se ve en inmunofluorescencia y cómo se trata?",
    "b": "IF lineal de IgG. Riñón y pulmón. Plasmaféresis, corticoides y ciclofosfamida.",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 17"
   },
@@ -597,7 +597,7 @@
    "id": "n-gp1-c-3",
    "area": "nefro",
    "tema": "Glomerulopatías primarias",
-   "f": "Nefropatía por IgA",
+   "f": "¿Cómo se presenta la nefropatía por IgA y qué muestra la inmunofluorescencia?",
    "b": "Hematuria macroscópica tras infección. IF mesangial de IgA. Complemento normal.",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 19"
   },
@@ -605,7 +605,7 @@
    "id": "n-gp1-c-4",
    "area": "nefro",
    "tema": "Glomerulopatías primarias",
-   "f": "GEFS",
+   "f": "¿Qué es la GEFS (glomeruloesclerosis focal y segmentaria), sus causas y su tratamiento refractario?",
    "b": "Esclerosis segmentaria y focal. VIH, heroína, obesidad. Refractaria: ciclosporina o micofenolato.",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 20"
   },
@@ -613,7 +613,7 @@
    "id": "n-gp1-c-5",
    "area": "nefro",
    "tema": "Glomerulopatías primarias",
-   "f": "GNMP",
+   "f": "¿Qué hallazgo caracteriza a la GNMP (glomerulonefritis membranoproliferativa) y qué tipos tiene?",
    "b": "Doble contorno ('railway track'). Tipo I, II (C3) y III.",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 22"
   },
@@ -621,7 +621,7 @@
    "id": "n-gp1-c-6",
    "area": "nefro",
    "tema": "Glomerulopatías primarias",
-   "f": "GNRP: tres tipos",
+   "f": "¿Cuáles son los tres tipos de glomerulonefritis rápidamente progresiva (GNRP) y su inmunofluorescencia?",
    "b": "I anti-MBG (lineal). II inmunocomplejos (granular). III ANCA (pauciinmune).",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 25"
   },
@@ -629,7 +629,7 @@
    "id": "n-gp1-c-7",
    "area": "nefro",
    "tema": "Glomerulopatías primarias",
-   "f": "Recaída vs remisión",
+   "f": "¿Cómo se definen recaída y remisión según la proteinuria en niños?",
    "b": "Recaída: >40 mg/m²/h en 3 días no consecutivos. Remisión: <4 mg/m²/h.",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 28"
   }

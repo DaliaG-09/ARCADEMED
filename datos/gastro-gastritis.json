@@ -437,7 +437,7 @@
    "id": "g-gastritis-c-0",
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
-   "f": "Gastritis: concepto",
+   "f": "¿Qué es la gastritis y qué tipos distingue la clase?",
    "b": "Inflamación de la mucosa gástrica. Tipos: aguda, crónica (H. pylori, metaplasia, autoinmune) y eosinofílica.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 7"
   },
@@ -445,7 +445,7 @@
    "id": "g-gastritis-c-1",
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
-   "f": "Causas de gastritis aguda",
+   "f": "¿Cuáles son las causas de gastritis aguda?",
    "b": "AINE, alcohol, cáusticos, enfermedad grave (trauma, sepsis, quemados).",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 9"
   },
@@ -453,7 +453,7 @@
    "id": "g-gastritis-c-2",
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
-   "f": "Curling y Cushing",
+   "f": "¿Qué son las úlceras de Curling y de Cushing?",
    "b": "Curling: quemaduras extensas. Cushing: lesiones intracraneales. Ambas con riesgo de HDA.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 10"
   },
@@ -461,7 +461,7 @@
    "id": "g-gastritis-c-3",
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
-   "f": "Tipos de gastritis crónica",
+   "f": "¿Qué tipos de gastritis crónica hay (A, B y C) y qué zona afecta cada uno?",
    "b": "A: autoinmune (cuerpo y fundo). B: H. pylori (antro). C: biliar reactiva.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 14"
   },
@@ -469,7 +469,7 @@
    "id": "g-gastritis-c-4",
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
-   "f": "Atrofia en endoscopía",
+   "f": "¿Qué hallazgos endoscópicos sugieren atrofia gástrica y cómo se confirma?",
    "b": "Mucosa pálida, pérdida de pliegues, vasos prominentes. Diagnóstico por histología.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 18"
   },
@@ -477,7 +477,7 @@
    "id": "g-gastritis-c-5",
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
-   "f": "Dx de H. pylori",
+   "f": "¿Qué pruebas diagnostican la infección por H. pylori?",
    "b": "Endoscopía con biopsia, ELISA (80 %), test de aliento, antígeno fecal.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 22"
   },
@@ -485,7 +485,7 @@
    "id": "g-gastritis-c-6",
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
-   "f": "Marcadores",
+   "f": "¿Qué valores de gastrina y de vitamina B12 sugieren gastritis atrófica?",
    "b": "Gastrina sérica >100 pg/ml; vitamina B12 <170 pg/ml.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 22"
   },
@@ -493,7 +493,7 @@
    "id": "g-gastritis-c-7",
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
-   "f": "Tratamiento H. pylori",
+   "f": "¿Cuál es el tratamiento de H. pylori en gastritis y qué esquema usan los alérgicos?",
    "b": "IBP + amoxicilina + claritromicina. Alérgicos: metronidazol + tetraciclina, o levofloxacina + claritromicina.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 24"
   }

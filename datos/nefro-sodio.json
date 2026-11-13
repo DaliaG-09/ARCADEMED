@@ -539,7 +539,7 @@
    "id": "n-na-c-0",
    "area": "nefro",
    "tema": "Sodio",
-   "f": "Osmolaridad plasmática",
+   "f": "¿Cuál es la fórmula de la osmolaridad plasmática y su valor normal?",
    "b": "2 × Na + glucosa/18 + urea/6; normal 275-290",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 11"
   },
@@ -547,7 +547,7 @@
    "id": "n-na-c-1",
    "area": "nefro",
    "tema": "Sodio",
-   "f": "Hiponatremia",
+   "f": "¿Cómo se clasifica la hiponatremia por gravedad?",
    "b": "Na⁺ <135: leve 130-134, moderada 125-129, grave <125",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 13"
   },
@@ -555,7 +555,7 @@
    "id": "n-na-c-2",
    "area": "nefro",
    "tema": "Sodio",
-   "f": "Soluciones: sodio",
+   "f": "¿Cuánto sodio (mEq/L) aporta cada solución: NaCl 3 %, 0.9 %, 20 % y bicarbonato 8.5 %?",
    "b": "NaCl 3 % 513; 0.9 % 154; 20 % 68; bicarbonato 8.5 % 20",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 17"
   },
@@ -563,7 +563,7 @@
    "id": "n-na-c-3",
    "area": "nefro",
    "tema": "Sodio",
-   "f": "Adrogué-Madias",
+   "f": "¿Cuál es la fórmula de Adrogué-Madias para calcular el cambio de sodio?",
    "b": "(Na infundido − Na sérico)/(ACT+1)",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 19"
   },
@@ -571,7 +571,7 @@
    "id": "n-na-c-4",
    "area": "nefro",
    "tema": "Sodio",
-   "f": "ACT",
+   "f": "¿Qué factor se multiplica por el peso para calcular el agua corporal total (ACT) según el paciente?",
    "b": "Hombre 0.6; mujer 0.5; anciano 0.5; anciana 0.45 (× peso)",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 9"
   },
@@ -579,7 +579,7 @@
    "id": "n-na-c-5",
    "area": "nefro",
    "tema": "Sodio",
-   "f": "Hipernatremia",
+   "f": "¿Cómo se define la hipernatremia y qué refleja?",
    "b": "Na⁺ >145; déficit relativo de agua",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 22"
   },
@@ -587,7 +587,7 @@
    "id": "n-na-c-6",
    "area": "nefro",
    "tema": "Sodio",
-   "f": "Meta de corrección",
+   "f": "¿Cuál es el límite máximo de corrección de sodio en 24 horas?",
    "b": "Máximo 8 mEq/L en 24 h",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 26"
   },
@@ -595,7 +595,7 @@
    "id": "n-na-c-7",
    "area": "nefro",
    "tema": "Sodio",
-   "f": "Déficit de sodio",
+   "f": "¿Cómo se calcula el déficit de sodio para llegar a 120 mEq/L?",
    "b": "0.6 × peso × (120 − Na medido)",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 18"
   }

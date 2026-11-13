@@ -454,7 +454,7 @@
    "id": "n-nd-c-0",
    "area": "nefro",
    "tema": "Nefropatía diabética",
-   "f": "ND: histología",
+   "f": "¿Qué hallazgos histológicos tiene la nefropatía diabética?",
    "b": "Kimmelstiel-Wilson, MBG gruesa, mesangio expandido",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 8"
   },
@@ -462,7 +462,7 @@
    "id": "n-nd-c-1",
    "area": "nefro",
    "tema": "Nefropatía diabética",
-   "f": "Microalbuminuria",
+   "f": "¿Qué rango de albuminuria define la microalbuminuria?",
    "b": "30 a 300 mg/24 h",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 12"
   },
@@ -470,7 +470,7 @@
    "id": "n-nd-c-2",
    "area": "nefro",
    "tema": "Nefropatía diabética",
-   "f": "Dx de ND",
+   "f": "¿Cuáles son los criterios diagnósticos de nefropatía diabética?",
    "b": ">30 mg/g en 2 de 3 muestras; DM >5 años; HTA; sin otra causa",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 16"
   },
@@ -478,7 +478,7 @@
    "id": "n-nd-c-3",
    "area": "nefro",
    "tema": "Nefropatía diabética",
-   "f": "ND: tratamiento",
+   "f": "¿Qué fármacos se usan para tratar la nefropatía diabética?",
    "b": "iSGLT2, IECA/ARA II, finerenona, estatina",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 22"
   },
@@ -486,7 +486,7 @@
    "id": "n-nd-c-4",
    "area": "nefro",
    "tema": "Nefropatía diabética",
-   "f": "Meta PA",
+   "f": "¿Qué meta de presión arterial se busca en la nefropatía diabética con albuminuria?",
    "b": "<130/80 si albuminuria >30",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 21"
   },
@@ -494,7 +494,7 @@
    "id": "n-nd-c-5",
    "area": "nefro",
    "tema": "Nefropatía diabética",
-   "f": "Derivar",
+   "f": "¿Cuándo se deriva a Nefrología a un paciente diabético?",
    "b": "TFG <30 o albuminuria >500-1000",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 23"
   }

@@ -477,7 +477,7 @@
    "id": "n-ca-c-0",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "PTH",
+   "f": "¿Qué efecto tiene la PTH sobre el calcio y el fósforo?",
    "b": "Sube calcio y baja fósforo.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 9"
   },
@@ -485,7 +485,7 @@
    "id": "n-ca-c-1",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "Hipocalcemia",
+   "f": "¿Cómo se define la hipocalcemia?",
    "b": "Calcio corregido <8.4 o ionizado <4.2.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 10"
   },
@@ -493,7 +493,7 @@
    "id": "n-ca-c-2",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "Signos de hipocalcemia",
+   "f": "¿Qué signos de examen físico y de ECG aparecen en la hipocalcemia?",
    "b": "Chvostek y Trousseau; QT largo.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 12"
   },
@@ -501,7 +501,7 @@
    "id": "n-ca-c-3",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "Hipocalcemia grave",
+   "f": "¿Cuál es el tratamiento de la hipocalcemia grave?",
    "b": "Gluconato de calcio 10 % IV.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 16"
   },
@@ -509,7 +509,7 @@
    "id": "n-ca-c-4",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "Hipercalcemia",
+   "f": "¿Cómo se define la hipercalcemia?",
    "b": "Calcio corregido >10.3.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 17"
   },
@@ -517,7 +517,7 @@
    "id": "n-ca-c-5",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "Hipercalcemia severa",
+   "f": "¿Cómo se trata la hipercalcemia severa según el valor del calcio?",
    "b": ">15: suero salino, asa, bifosfonatos, calcitonina; >18: hemodiálisis.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 20"
   },
@@ -525,7 +525,7 @@
    "id": "n-ca-c-6",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "Magnesio",
+   "f": "¿Cómo se trata la hipomagnesemia grave?",
    "b": "Hipomagnesemia grave <1.0: sulfato de magnesio IV.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 28"
   },
@@ -533,7 +533,7 @@
    "id": "n-ca-c-7",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "Magnesio en el riñón",
+   "f": "¿Dónde se reabsorbe la mayor parte del magnesio en el riñón?",
    "b": "60 a 70 % se reabsorbe en la rama ascendente del asa de Henle.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 24"
   }

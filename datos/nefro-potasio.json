@@ -445,7 +445,7 @@
    "id": "n-k-c-0",
    "area": "nefro",
    "tema": "Potasio",
-   "f": "K⁺ normal",
+   "f": "¿Cuál es el rango normal de potasio?",
    "b": "3.5 a 5.5 mEq/L",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 11"
   },
@@ -453,7 +453,7 @@
    "id": "n-k-c-1",
    "area": "nefro",
    "tema": "Potasio",
-   "f": "Hipopotasemia: ECG",
+   "f": "¿Qué cambios en el ECG produce la hipopotasemia?",
    "b": "↓ST, T aplanada, onda U",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 17"
   },
@@ -461,7 +461,7 @@
    "id": "n-k-c-2",
    "area": "nefro",
    "tema": "Potasio",
-   "f": "Reposición",
+   "f": "¿Qué velocidad máxima de reposición de potasio se permite por vía periférica y central?",
    "b": "Periférica <10 mEq/h; central <40 mEq/h",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 18"
   },
@@ -469,7 +469,7 @@
    "id": "n-k-c-3",
    "area": "nefro",
    "tema": "Potasio",
-   "f": "Basal y PCT",
+   "f": "¿Cuál es el requerimiento basal de potasio y cómo se estima el déficit (PCT)?",
    "b": "Basal 1 mEq/kg/día; PCT 50 × peso",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 18"
   },
@@ -477,7 +477,7 @@
    "id": "n-k-c-4",
    "area": "nefro",
    "tema": "Potasio",
-   "f": "Hiperpotasemia: ECG",
+   "f": "¿Cómo progresan los cambios del ECG en la hiperpotasemia?",
    "b": "T picuda → P plana/QRS largo → sinusoidal",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 22"
   },
@@ -485,7 +485,7 @@
    "id": "n-k-c-5",
    "area": "nefro",
    "tema": "Potasio",
-   "f": "Hiperpotasemia: primer paso",
+   "f": "En hiperpotasemia con cambios en el ECG, ¿qué se administra primero?",
    "b": "Gluconato de calcio 10 %",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 24"
   },
@@ -493,7 +493,7 @@
    "id": "n-k-c-6",
    "area": "nefro",
    "tema": "Potasio",
-   "f": "Entrada del K⁺",
+   "f": "¿Qué hace entrar el potasio a la célula?",
    "b": "Insulina, β2, aldosterona, alcalosis",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 10"
   },
@@ -501,7 +501,7 @@
    "id": "n-k-c-7",
    "area": "nefro",
    "tema": "Potasio",
-   "f": "Pseudohiperpotasemia",
+   "f": "¿Qué causas pueden dar una pseudohiperpotasemia?",
    "b": "Hemólisis, torniquete, leucocitosis",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 21"
   }

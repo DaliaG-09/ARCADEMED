@@ -407,7 +407,7 @@
    "id": "g-func-c-0",
    "area": "gastro",
    "tema": "Dispepsia y síndrome de intestino irritable",
-   "f": "Dispepsia",
+   "f": "¿Qué síntomas definen la dispepsia?",
    "b": "Dolor o epigastralgia, saciedad precoz, plenitud posprandial, distensión, náuseas.",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 8"
   },
@@ -415,7 +415,7 @@
    "id": "g-func-c-1",
    "area": "gastro",
    "tema": "Dispepsia y síndrome de intestino irritable",
-   "f": "Tipos de dispepsia",
+   "f": "¿Qué tipos de dispepsia se distinguen según el estudio endoscópico?",
    "b": "No estudiada (sin EDA), funcional (EDA normal, Roma IV), orgánica (con causa).",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 9"
   },
@@ -423,7 +423,7 @@
    "id": "g-func-c-2",
    "area": "gastro",
    "tema": "Dispepsia y síndrome de intestino irritable",
-   "f": "Roma IV: SDP y SDE",
+   "f": "Según Roma IV, ¿qué diferencia al síndrome de distrés posprandial (SDP) del de dolor epigástrico (SDE)?",
    "b": "SDP: plenitud o saciedad precoz (≥3 días/semana). SDE: dolor o ardor epigástrico (≥1 día/semana).",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 11"
   },
@@ -431,7 +431,7 @@
    "id": "g-func-c-3",
    "area": "gastro",
    "tema": "Dispepsia y síndrome de intestino irritable",
-   "f": "Signos de alarma en SII",
+   "f": "¿Qué signos de alarma obligan a descartar organicidad en un paciente con sospecha de SII?",
    "b": "Sangre en heces, pérdida de peso, anemia, antecedente familiar de cáncer de colon o enfermedad inflamatoria, inicio agudo >50 años.",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 17"
   },
@@ -439,7 +439,7 @@
    "id": "g-func-c-4",
    "area": "gastro",
    "tema": "Dispepsia y síndrome de intestino irritable",
-   "f": "SII: definición",
+   "f": "¿Cómo se define el síndrome de intestino irritable (SII)?",
    "b": "Dolor abdominal crónico o recurrente más alteración del hábito intestinal.",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 15"
   },
@@ -447,7 +447,7 @@
    "id": "g-func-c-5",
    "area": "gastro",
    "tema": "Dispepsia y síndrome de intestino irritable",
-   "f": "Bristol",
+   "f": "Escala de Bristol: ¿qué indica cada tipo de heces?",
    "b": "1-2 estreñimiento\n3-4 normal\n5-6 tendencia a diarrea\n7 líquida",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 17"
   },
@@ -455,7 +455,7 @@
    "id": "g-func-c-6",
    "area": "gastro",
    "tema": "Dispepsia y síndrome de intestino irritable",
-   "f": "Subtipos de SII",
+   "f": "¿Cómo se clasifican los subtipos de SII (E, D, M, I) por la forma de las heces?",
    "b": "SII-E >25 % tipo 1 o 2. SII-D >25 % tipo 6 o 7. SII-M ambos. SII-I inclasificable.",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 18"
   },
@@ -463,7 +463,7 @@
    "id": "g-func-c-7",
    "area": "gastro",
    "tema": "Dispepsia y síndrome de intestino irritable",
-   "f": "Dispepsia: con alarma",
+   "f": "En dispepsia, ¿qué se hace con alarma y qué sin alarma?",
    "b": "Endoscopía de entrada. Sin alarma: test de H. pylori (aliento o antígeno fecal) y tratar.",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 13"
   }

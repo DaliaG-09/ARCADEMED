@@ -487,7 +487,7 @@
    "id": "g-pan-c-0",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
-   "f": "Causas de pancreatitis aguda",
+   "f": "¿Cuáles son las causas de pancreatitis aguda y su frecuencia?",
    "b": "Litiasis 40 a 70 %, alcohol 25 a 45 %, tumores, fármacos, hipertrigliceridemia (>1000 mg/dl), hipercalcemia.",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 10"
   },
@@ -495,7 +495,7 @@
    "id": "g-pan-c-1",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
-   "f": "Dx de pancreatitis aguda",
+   "f": "¿Cuántos criterios se necesitan para diagnosticar pancreatitis aguda y cuáles son?",
    "b": "2 de 3: dolor típico, amilasa o lipasa >3 veces lo normal, imágenes.",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 13"
   },
@@ -503,7 +503,7 @@
    "id": "g-pan-c-2",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
-   "f": "Lipasa vs amilasa",
+   "f": "¿Por qué se prefiere la lipasa a la amilasa y cómo evolucionan en el tiempo?",
    "b": "Lipasa: sube a las 4 a 8 h, pico 24 h, normaliza en 8 a 14 días, S 82 a 100 %. Amilasa: 6 a 12 h, normaliza en 3 a 5 días.",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 14"
   },
@@ -511,7 +511,7 @@
    "id": "g-pan-c-3",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
-   "f": "Ecografía en pancreatitis",
+   "f": "¿Qué estudio de imagen se usa primero en la pancreatitis aguda y qué limitación tiene?",
    "b": "Estudio de elección: litiasis, páncreas agrandado, líquido libre. Operador dependiente.",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 16"
   },
@@ -519,7 +519,7 @@
    "id": "g-pan-c-4",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
-   "f": "BISAP",
+   "f": "BISAP (puntaje de gravedad en pancreatitis): ¿qué cinco ítems evalúa y qué mortalidad predice?",
    "b": "BUN >25, estado mental alterado, SIRS, edad >60, derrame pleural. 0 puntos <1 %, 5 puntos 22 %.",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 18"
   },
@@ -527,7 +527,7 @@
    "id": "g-pan-c-5",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
-   "f": "Marshall",
+   "f": "Escala de Marshall: ¿qué puntaje indica falla de órgano y qué sistemas evalúa?",
    "b": "≥2 puntos = falla de órgano (respiratorio, renal, cardiovascular).",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 19"
   },
@@ -535,7 +535,7 @@
    "id": "g-pan-c-6",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
-   "f": "Hidratación",
+   "f": "¿Qué líquido y qué velocidad de hidratación se usan en la pancreatitis aguda?",
    "b": "Lactato de Ringer. Agresiva 5 a 10 ml/kg/h; moderada 1,5 a 2 ml/kg/h.",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 23"
   },
@@ -543,7 +543,7 @@
    "id": "g-pan-c-7",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
-   "f": "Analgesia y antibióticos",
+   "f": "¿Qué analgesia se usa en pancreatitis aguda y cuándo se dan antibióticos?",
    "b": "Opiáceos, evitar AINE. Antibióticos solo si hay infección (carbapenémicos, quinolonas, metronidazol).",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 26"
   }
