@@ -5,56 +5,56 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 1,
-   "enunciado": "¿Cómo se clasifica la diarrea según su duración?",
+   "enunciado": "Según la clase, ¿cómo se clasifica la diarrea por su duración?",
    "opciones": [
     {
-     "t": "Aguda <14 días, subaguda 14 a 30 días, crónica >30 días",
-     "por": "Se define también por heces de 200 a 300 g o más en 24 horas."
+     "t": "Aguda menor de 14 días, subaguda de 14 a 30 días y crónica de más de 30 días",
+     "por": "Así la define la lámina 8, junto con heces de 200 a 300 g (o más) en 24 horas o aumento del número de deposiciones y heces líquidas."
     },
     {
-     "t": "Aguda <3 días, crónica >7 días",
-     "por": "Los plazos son mucho más cortos que los de la lámina."
+     "t": "Aguda menor de 3 días y crónica mayor de 7 días",
+     "por": "Los plazos son demasiado cortos: con 7 días aún se habla de diarrea aguda."
     },
     {
-     "t": "Aguda <30 días, crónica >90 días",
-     "por": "La aguda dura menos de 14 días."
+     "t": "Aguda menor de 30 días y crónica mayor de 90 días",
+     "por": "La diarrea aguda dura menos de 14 días; entre 14 y 30 días ya es subaguda."
     },
     {
-     "t": "Aguda <7 días, subaguda 7 a 14 días, crónica >14 días",
-     "por": "La crónica es mayor de 30 días."
+     "t": "Aguda menor de 7 días, subaguda de 7 a 14 días y crónica mayor de 14 días",
+     "por": "La crónica es la que supera los 30 días, no los 14."
     }
    ],
    "correcta": 0,
-   "explicacion": "Diarrea: aumento del número de deposiciones o heces líquidas, con peso fecal de 200 a 300 g/24 h o más. Aguda <14 días; subaguda 14 a 30 días; crónica >30 días.",
+   "explicacion": "Diarrea: aumento del número de deposiciones por día o heces líquidas. Se considera crónica cuando supera los 30 días.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 8",
-   "nota": "La lámina 19 define crónica como 'mayor de 4 semanas' (28 días), casi equivalente a >30 días."
+   "nota": "La lámina 19 define la diarrea crónica como 'mayor de 4 semanas' (28 días), casi equivalente a más de 30 días."
   },
   {
    "id": "g-dia-gen",
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 1,
-   "enunciado": "Respecto a la diarrea aguda, ¿qué afirmación es correcta?",
+   "enunciado": "¿Qué afirmación sobre la diarrea aguda es correcta según la clase?",
    "opciones": [
     {
-     "t": "Suele autolimitarse en poblaciones con buen saneamiento y agua potable; la prevención es clave",
-     "por": "Es más frecuente en edades extremas."
+     "t": "Suele autolimitarse donde hay buen saneamiento y acceso a agua potable; la prevención es clave",
+     "por": "Es más frecuente en edades extremas y es una de las principales causas de visita a emergencia (179 millones de visitas al año en EE. UU.)."
     },
     {
      "t": "Es más frecuente en adultos jóvenes",
-     "por": "Predomina en edades extremas (niños y ancianos)."
+     "por": "Predomina en edades extremas (niños pequeños y ancianos)."
     },
     {
      "t": "Casi siempre requiere antibióticos",
-     "por": "No toda diarrea necesita antibióticos."
+     "por": "No toda diarrea necesita antibióticos; la mayoría se autolimita."
     },
     {
      "t": "Solo tiene causas inflamatorias",
-     "por": "Se divide en inflamatoria y no inflamatoria."
+     "por": "Se divide en causas inflamatorias y no inflamatorias."
     }
    ],
    "correcta": 0,
-   "explicacion": "Es una de las principales causas de consulta en emergencia (179 millones de visitas anuales en EE. UU.) y la tercera causa de muerte infantil en el mundo. Es prevenible.",
+   "explicacion": "La enfermedad diarreica es una de las causas más frecuentes de morbilidad y mortalidad en el mundo, la tercera causa de muerte infantil, y es prevenible.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 9 y 29"
   },
   {
@@ -62,46 +62,47 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 2,
-   "enunciado": "Paciente con fiebre, tenesmo, heces con sangre y moco, y calprotectina fecal positiva. ¿Qué tipo de diarrea es la más probable?",
+   "enunciado": "Un paciente presenta fiebre, tenesmo, heces con sangre y moco, y calprotectina fecal positiva. ¿Qué tipo de diarrea es más probable?",
    "opciones": [
     {
-     "t": "Inflamatoria, por ejemplo por Shigella, Salmonella, Campylobacter o E. coli enteroinvasiva",
-     "por": "Causas no infecciosas: Crohn, colitis ulcerativa y enteritis por radiación."
+     "t": "Diarrea inflamatoria, por ejemplo por Shigella, Salmonella, Campylobacter o E. coli enteroinvasiva",
+     "por": "La diarrea inflamatoria cursa con fiebre, dolor abdominal, tenesmo y síntomas sistémicos, con PCR o NAAT positivas y calprotectina fecal positiva. Las causas no infecciosas incluyen Crohn, colitis ulcerativa y enteritis por radiación."
     },
     {
-     "t": "No inflamatoria viral por Rotavirus o Norovirus",
-     "por": "Causa náuseas, vómitos y dolor, sin fiebre alta ni sangre ni tenesmo."
+     "t": "Diarrea no inflamatoria viral, por ejemplo por Rotavirus o Norovirus",
+     "por": "Es una diarrea con náuseas, vómitos y dolor abdominal, pero sin fiebre alta, sangre ni tenesmo."
     },
     {
-     "t": "No inflamatoria por estrés psicosocial",
-     "por": "El estrés y la dieta no producen fiebre ni sangre."
+     "t": "Diarrea no inflamatoria por estrés psicosocial",
+     "por": "El estrés y la dieta son causas no inflamatorias, sin sangre en las heces."
     },
     {
      "t": "Diarrea por Giardia",
-     "por": "Giardia es parásito de diarrea no inflamatoria."
+     "por": "Es un parásito de diarrea no inflamatoria, sin sangre ni moco."
     }
    ],
    "correcta": 0,
-   "explicacion": "Inflamatoria: fiebre, dolor abdominal, tenesmo, síntomas sistémicos; laboratorio con PCR o NAAT positiva y calprotectina fecal positiva. No inflamatoria: náuseas, vómitos, dolor, sin sangre; causas virales (Rotavirus, Norovirus), dieta, estrés. NAAT = prueba de amplificación de ácidos nucleicos; PCR en esta lámina es reacción en cadena de la polimerasa.",
-   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 10"
+   "explicacion": "PCR = reacción en cadena de la polimerasa; NAAT = prueba de amplificación de ácidos nucleicos. Diarrea no inflamatoria: infecciosa (virus), por dieta o por estrés psicosocial.",
+   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 10",
+   "contexto": "Clasificar la diarrea como inflamatoria o no inflamatoria orienta el estudio y el tratamiento: la inflamatoria suele requerir estudio de heces y, a veces, antibióticos."
   },
   {
    "id": "g-dia-ex",
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 1,
-   "enunciado": "En un paciente con diarrea aguda, ¿con qué debe iniciarse la evaluación?",
+   "enunciado": "Al evaluar a un paciente con diarrea aguda, ¿con qué debe empezar la evaluación?",
    "opciones": [
     {
      "t": "Con el grado de deshidratación y la hemodinamia",
-     "por": "Luego se descarta abdomen agudo quirúrgico."
+     "por": "Se mide fiebre, taquicardia, hipotensión, llenado capilar y mucosas. También se examina el abdomen para descartar un abdomen agudo quirúrgico y se evalúa el estado neurológico."
     },
     {
      "t": "Con una colonoscopia",
-     "por": "No es un examen inicial."
+     "por": "No es un examen inicial en la diarrea aguda."
     },
     {
-     "t": "Con un coprocultivo en todos los casos",
+     "t": "Con un coprocultivo en todos",
      "por": "Los exámenes auxiliares no son de rutina."
     },
     {
@@ -110,7 +111,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Examen físico: fiebre, taquicardia, hipotensión, llenado capilar, mucosas, abdomen (descartar abdomen agudo quirúrgico) y evaluación neurológica. Historia: volumen, frecuencia, duración, moco o sangre, fiebre, dolor, vómitos, viajes y alimentos.",
+   "explicacion": "La historia incluye volumen, frecuencia, duración, color, moco o sangre, síntomas asociados (fiebre, dolor, vómitos, flujo urinario) y antecedentes (viajes, alimentos y agua consumidos).",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 11 y 12"
   },
   {
@@ -118,27 +119,27 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 2,
-   "enunciado": "¿En qué situaciones se piden exámenes auxiliares en la diarrea aguda?",
+   "enunciado": "¿En cuáles situaciones se solicitan exámenes auxiliares en la diarrea aguda?",
    "opciones": [
     {
-     "t": "Sangre o moco, fiebre, dolor abdominal intenso o sepsis, o diarrea de más de 7 días",
-     "por": "No se piden de rutina."
+     "t": "Con sangre o moco, fiebre, dolor abdominal intenso o sepsis, o diarrea de más de 7 días",
+     "por": "Los exámenes no son de rutina. Se piden reacción inflamatoria en heces, hemograma, urea, creatinina, electrolitos, PCR y cultivos."
     },
     {
      "t": "En toda diarrea aguda, sin excepción",
-     "por": "La lámina dice que no son de rutina."
+     "por": "La lámina dice 'no de rutina'."
     },
     {
-     "t": "Solo si el paciente es mayor de 80 años",
-     "por": "La edad no es el criterio."
+     "t": "Solo si el paciente tiene más de 80 años",
+     "por": "La edad no es el criterio. Los criterios son signos de gravedad y duración."
     },
     {
      "t": "Solo después de 30 días de diarrea",
-     "por": "Con 7 días ya se indican."
+     "por": "A los 7 días ya se indican; 30 días es el umbral de la diarrea crónica."
     }
    ],
    "correcta": 0,
-   "explicacion": "Exámenes: reacción inflamatoria en heces, hemograma, urea, creatinina, electrolitos, PCR y cultivos.",
+   "explicacion": "PCR = proteína C reactiva.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 13"
   },
   {
@@ -153,20 +154,20 @@
      "por": "Si hay sepsis, shock o intolerancia oral, se hidrata por vía endovenosa."
     },
     {
-     "t": "Dar antibióticos a todos",
-     "por": "No se recomiendan en la mayoría de casos."
+     "t": "Dar antibióticos a todos los pacientes",
+     "por": "La mayoría se autolimita y los antibióticos no se recomiendan en la mayoría de casos."
     },
     {
-     "t": "Probióticos de rutina",
-     "por": "No son de uso rutinario; reducen solo 1 día la duración."
+     "t": "Dar probióticos de rutina",
+     "por": "No son de uso rutinario; reducen la duración de la diarrea solo en 1 día."
     },
     {
-     "t": "Ayuno prolongado",
-     "por": "No hay respaldo para esto en la lámina."
+     "t": "Mantener ayuno prolongado",
+     "por": "Se debe mantener la alimentación con nutrientes."
     }
    ],
    "correcta": 0,
-   "explicacion": "Antibióticos: diarrea inflamatoria, fiebre, sepsis o shock. Probióticos: no rutinarios (acortan un día la diarrea). La mayoría se autolimita.",
+   "explicacion": "Antibióticos: diarrea inflamatoria, fiebre, sepsis o shock.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 14"
   },
   {
@@ -174,27 +175,27 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 3,
-   "enunciado": "Colitis por Clostridioides difficile. ¿Qué antibiótico indica la lámina como primera elección?",
+   "enunciado": "En la tabla de tratamiento dirigido, ¿qué antibiótico es la primera elección para colitis por Clostridioides difficile?",
    "opciones": [
     {
      "t": "Fidaxomicina (Dificid)",
-     "por": "Alternativa: vancomicina oral."
+     "por": "La alternativa es vancomicina oral."
     },
     {
      "t": "Azitromicina",
-     "por": "Es la primera elección para Campylobacter."
+     "por": "Es la primera elección para Campylobacter y se usa también para Shigella."
     },
     {
      "t": "Tinidazol",
-     "por": "Se usa en Giardia."
+     "por": "Es la primera elección para Giardia, con nitazoxanida y metronidazol como alternativas."
     },
     {
      "t": "Doxiciclina",
-     "por": "Es para Vibrio cholerae."
+     "por": "Es la primera elección para Vibrio cholerae."
     }
    ],
    "correcta": 0,
-   "explicacion": "Tratamiento dirigido: Campylobacter, azitromicina (alternativa ciprofloxacino); C. difficile, fidaxomicina (vancomicina oral); Giardia, tinidazol o nitazoxanida (metronidazol); Shigella, azitromicina, ciprofloxacino o ceftriaxona (TMP/SMX, ampicilina); Vibrio cholerae, doxiciclina (ciprofloxacino, azitromicina); Yersinia, TMP/SMX (cefotaxima, ciprofloxacino). TMP/SMX = trimetoprim-sulfametoxazol.",
+   "explicacion": "Tabla de la lámina 15: Campylobacter, azitromicina (alternativa ciprofloxacino); Giardia, tinidazol o nitazoxanida; Shigella, azitromicina, ciprofloxacino o ceftriaxona (TMP/SMX o ampicilina si es sensible); Yersinia, TMP/SMX (trimetoprim-sulfametoxazol); Vibrio cholerae, doxiciclina.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 15"
   },
   {
@@ -202,15 +203,15 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 2,
-   "enunciado": "Paciente con diarrea aguda sin signos de gravedad, sin factores de riesgo y con viaje reciente. ¿Qué indica el algoritmo?",
+   "enunciado": "Un paciente con diarrea aguda sin gravedad ni factores de riesgo de diarrea no benigna refiere un viaje reciente. ¿Qué indica el algoritmo?",
    "opciones": [
     {
      "t": "Posible diarrea del viajero: valorar tratamiento antibiótico empírico",
-     "por": "Sin viaje reciente: posible enfermedad vírica, tratamiento de soporte."
+     "por": "Se llega a esta rama del algoritmo cuando no hay gravedad ni factores de riesgo y la respuesta a '¿viaje reciente?' es sí."
     },
     {
-     "t": "Tratamiento de soporte únicamente en todos los casos",
-     "por": "Con viaje reciente se valora antibiótico empírico."
+     "t": "Solo tratamiento de soporte, sin considerar antibióticos",
+     "por": "Eso corresponde a quienes no viajaron: posible enfermedad vírica con tratamiento de soporte."
     },
     {
      "t": "Ingreso hospitalario inmediato",
@@ -218,11 +219,11 @@
     },
     {
      "t": "Colonoscopia urgente",
-     "por": "No forma parte del algoritmo de diarrea aguda."
+     "por": "No forma parte del algoritmo de la diarrea aguda."
     }
    ],
    "correcta": 0,
-   "explicacion": "Algoritmo: ¿enfermo o grave o con constantes anormales? Sí: reanimación con líquidos IV, pruebas analíticas y radiológicas. ¿Factores de riesgo de diarrea no benigna? Sí: valorar resultados o tratamiento específico. ¿Viaje reciente? Sí: diarrea del viajero. No: enfermedad vírica.",
+   "explicacion": "Si el paciente parece enfermo, está grave o tiene constantes vitales anormales: reanimación con líquidos IV, pruebas analíticas, exámenes de heces y radiología. Con factores de riesgo de diarrea no benigna: valorar los resultados o el tratamiento específico.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 16 y 17"
   },
   {
@@ -230,27 +231,27 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 1,
-   "enunciado": "¿Cuál es la duración mínima y la prevalencia de la diarrea crónica?",
+   "enunciado": "¿Qué se afirma sobre la diarrea crónica?",
    "opciones": [
     {
-     "t": "Más de 4 semanas; prevalencia de 1 a 4 %",
-     "por": "La evaluación se dirige a buscar la causa."
+     "t": "Dura más de 4 semanas, afecta a 1 a 4 % de la población y se evalúa buscando la causa",
+     "por": "La historia incluye apariencia de las heces, dieta, viajes, fármacos, manifestaciones extraintestinales e impacto psicosocial."
     },
     {
-     "t": "Más de 14 días; prevalencia de 20 %",
-     "por": "14 días es el límite de la aguda."
+     "t": "Dura más de 14 días y afecta a 20 % de la población",
+     "por": "14 días es el límite de la diarrea aguda; la prevalencia es de 1 a 4 %."
     },
     {
-     "t": "Más de 3 días; prevalencia de 50 %",
-     "por": "No corresponde a ninguna definición."
+     "t": "Se trata sin buscar causa con antidiarreicos",
+     "por": "La evaluación está dirigida a buscar la causa."
     },
     {
-     "t": "Más de 1 año; prevalencia menor de 0,1 %",
-     "por": "No se requiere un año ni es tan rara."
+     "t": "Dura más de un año",
+     "por": "El umbral es 4 semanas."
     }
    ],
    "correcta": 0,
-   "explicacion": "Historia: apariencia de heces, dieta, viajes, fármacos, manifestaciones extraintestinales e impacto psicosocial. Estudios: hemograma, PCR, heces y coprocultivo, VIH (descartar inmunosupresión) y colonoscopia.",
+   "explicacion": "Estudios: hemograma, PCR, examen de heces y coprocultivo, VIH (para descartar inmunosupresión) y colonoscopia.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 19 a 21"
   },
   {
@@ -258,57 +259,57 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 3,
-   "enunciado": "¿Qué hallazgo apoya una diarrea osmótica (por ejemplo, intolerancia a lactosa o fructosa)?",
+   "enunciado": "Un paciente con diarrea crónica mejora con el ayuno y tiene una brecha osmótica fecal mayor de 100 mOsm/kg. ¿Qué tipo de diarrea sugiere?",
    "opciones": [
     {
-     "t": "Mejora con el ayuno y el brecha osmótica fecal es mayor de 100 mOsm/kg",
-     "por": "La secretora tiene brecha menor de 50."
+     "t": "Diarrea acuosa osmótica, por ejemplo malabsorción de carbohidratos, celiaquía, laxantes osmóticos o antiácidos",
+     "por": "Mejora con el ayuno porque el soluto que retiene el agua deja de ingerirse. La brecha osmótica es mayor de 100 mOsm/kg."
     },
     {
-     "t": "Brecha osmótica menor de 50 mOsm/kg",
-     "por": "Es el hallazgo de la diarrea secretora."
+     "t": "Diarrea secretora",
+     "por": "Persiste con el ayuno, con síntomas nocturnos y brecha osmótica menor de 50 mOsm/kg."
     },
     {
-     "t": "Síntomas nocturnos que persisten con el ayuno",
-     "por": "Es característico de la diarrea secretora."
+     "t": "Diarrea grasa (esteatorrea)",
+     "por": "Se confirma con grasa fecal elevada y es característica de los trastornos malabsortivos."
     },
     {
-     "t": "Esteatorrea con grasa fecal elevada",
-     "por": "Es característica de la diarrea grasa (malabsortiva)."
+     "t": "Diarrea inflamatoria",
+     "por": "Se acompaña de fiebre, sangre y moco, con calprotectina fecal elevada."
     }
    ],
    "correcta": 0,
-   "explicacion": "Diarrea acuosa osmótica: mejora con ayuno, brecha osmótica >100. Causas: malabsorción de carbohidratos (test del aliento), celiaquía, laxantes osmóticos y antiácidos. Secretora: síntomas nocturnos que persisten, brecha <50. Grasa: grasa fecal elevada.",
+   "explicacion": "Brecha osmótica = osmolaridad fecal menos 2 × (sodio + potasio fecales). Carbohidratos: test del aliento y prueba de evitar el alimento.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 22 y 23",
-   "contexto": "Brecha osmótica fecal: diferencia entre la osmolaridad de las heces y dos veces la suma de sodio y potasio fecales. Ayuda a distinguir la diarrea osmótica de la secretora.",
-   "nota": "La lámina 23 tiene el título 'Reflujo gastroesofágico', copiado por error de otra clase."
+   "contexto": "Brecha osmótica fecal: diferencia entre la osmolaridad de las heces y dos veces la suma de sodio y potasio fecales. Ayuda a distinguir una diarrea osmótica (brecha mayor de 100) de una secretora (brecha menor de 50).",
+   "nota": "La lámina 23 tiene el título 'Reflujo gastroesofágico', copiado por error de otra clase; el contenido es el mismo cuadro de diarrea crónica."
   },
   {
    "id": "g-dia-dx_cron",
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 3,
-   "enunciado": "¿Qué prueba se pide ante la sospecha de enfermedad celíaca?",
+   "enunciado": "En un paciente con diarrea crónica se sospecha enfermedad celíaca. ¿Qué pruebas indica la tabla de diagnóstico diferencial?",
    "opciones": [
     {
-     "t": "Transglutaminasa tisular IgA con IgA total, y biopsia duodenal",
-     "por": "La gluten-dependencia y la anemia ferropénica orientan a ella."
+     "t": "Transglutaminasa tisular IgA con IgA total, y endoscopia con biopsia duodenal",
+     "por": "La clínica sugestiva es la sensibilidad al gluten, anemia ferropénica o enfermedades asociadas como la diabetes tipo 1."
     },
     {
-     "t": "Test de aliento con hidrógeno",
-     "por": "Sirve para malabsorción de carbohidratos y SIBO."
+     "t": "Test del aliento con hidrógeno",
+     "por": "Sirve para malabsorción de carbohidratos y para el sobrecrecimiento bacteriano del intestino delgado (SIBO)."
     },
     {
      "t": "Dúplex o angiotomografía mesentérica",
-     "por": "Se pide en isquemia mesentérica crónica."
+     "por": "Se pide en la isquemia mesentérica crónica, con dolor posprandial."
     },
     {
-     "t": "Biopsia con rojo Congo",
-     "por": "Es para amiloidosis, no celiaquía."
+     "t": "Biopsia con tinción de rojo Congo",
+     "por": "Es la prueba para amiloidosis."
     }
    ],
    "correcta": 0,
-   "explicacion": "Tabla de diagnóstico diferencial: celiaquía (tTG IgA, IgA total, endoscopia con biopsia duodenal); IBS (Rome IV con hemograma, PCR y calprotectina); colitis microscópica (colonoscopia con biopsia); Crohn (calprotectina, colonoscopia); amiloidosis (biopsia); isquemia mesentérica (dúplex o angio-TC); linfáticos (radiografía y ecocardio); SIBO (aliento con hidrógeno o aspirado yeyunal); giardiasis (antígeno en heces).",
+   "explicacion": "Otros ítems: colitis microscópica (colonoscopia con biopsia), Crohn (calprotectina y colonoscopia), SIBO (aliento o aspirado yeyunal), parásitos (antígeno en heces) y síndrome de intestino irritable (criterios de Roma IV con hemograma, PCR y calprotectina).",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 22 y 23"
   },
   {
@@ -316,29 +317,29 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 3,
-   "enunciado": "Mujer de 50 años con 3 horas de dolor cólico, náuseas y 2 vómitos tras comer arroz chifa. ¿Cuál es la conducta inicial?",
+   "enunciado": "Una mujer de 50 años con hipertensión controlada llega a emergencia con 3 horas de dolor tipo cólico, malestar general, náuseas y dos vómitos alimentarios tras comer arroz chifa. ¿Cuál es la conducta inicial?",
    "opciones": [
     {
-     "t": "Ampliar la anamnesis (fiebre, sangre o moco, viajes, personas con síntomas similares), valorar hidratación y hemodinamia y descartar abdomen agudo",
-     "por": "El cuadro de aparición rápida tras una comida sugiere toxina; el tratamiento es de soporte."
+     "t": "Ampliar la anamnesis (fiebre, sangre o moco, viajes, otras personas con síntomas), evaluar hidratación y hemodinamia y descartar un abdomen agudo",
+     "por": "La clase insiste en empezar por la deshidratación y la hemodinamia. El tratamiento es de soporte, con hidratación."
     },
     {
      "t": "Iniciar antibióticos de amplio espectro de entrada",
-     "por": "La mayoría se autolimita y no se indica en casos sin signos de gravedad."
+     "por": "La mayoría de las diarreas se autolimita y los antibióticos se reservan para casos inflamatorios, con fiebre, sepsis o shock."
     },
     {
-     "t": "Colonoscopia urgente",
-     "por": "No es un estudio inicial en una diarrea aguda."
+     "t": "Hacer una colonoscopia urgente",
+     "por": "No es un estudio inicial en un cuadro agudo de 3 horas."
     },
     {
-     "t": "Dar alta sin evaluar",
-     "por": "Primero se evalúa deshidratación y hemodinamia."
+     "t": "Dar de alta sin evaluar",
+     "por": "Primero se evalúa la gravedad, la deshidratación y se descarta un abdomen agudo."
     }
    ],
    "correcta": 0,
-   "explicacion": "Caso de la lámina 26. Evaluar el grado de deshidratación, hemodinamia, signos peritoneales y antecedentes (viaje, alimentos); hidratar y no dar antibióticos de rutina.",
-   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 26 a 29",
-   "nota": "La lámina solo plantea el caso con preguntas abiertas; la mención de intoxicación por toxina del arroz (Bacillus cereus) es complemento."
+   "explicacion": "Caso de la lámina 26: la lámina solo plantea preguntas abiertas (anamnesis, examen físico y plan de trabajo).",
+   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 26 y 29",
+   "nota": "Que el cuadro de inicio rápido tras arroz sugiere una toxina preformada (Bacillus cereus) es un complemento; la lámina no lo menciona."
   }
  ],
  "tarjetas": [
@@ -347,7 +348,7 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "f": "Duración de la diarrea",
-   "b": "Aguda <14 días; subaguda 14 a 30; crónica >30 días.",
+   "b": "Aguda menor de 14 días; subaguda 14 a 30 días; crónica mayor de 30 días.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 8"
   },
   {
@@ -355,7 +356,7 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "f": "Inflamatoria vs no inflamatoria",
-   "b": "Inflamatoria: fiebre, tenesmo, sangre, calprotectina positiva. No inflamatoria: virus, vómitos, sin sangre.",
+   "b": "Inflamatoria: fiebre, tenesmo, sangre y moco, calprotectina positiva. No inflamatoria: virus, vómitos, sin sangre.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 10"
   },
   {
@@ -379,7 +380,7 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "f": "Tratamiento general",
-   "b": "Hidratación. Antibióticos solo en inflamatoria, fiebre, sepsis o shock. Probióticos no rutinarios.",
+   "b": "Hidratación. Antibióticos solo si es inflamatoria, con fiebre, sepsis o shock. Probióticos no rutinarios.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 14"
   },
   {
@@ -403,7 +404,7 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "f": "Conclusión",
-   "b": "Tercera causa de muerte infantil. No toda diarrea necesita antibióticos.",
+   "b": "Tercera causa de muerte infantil, prevenible. No toda diarrea necesita antibióticos.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 29"
   }
  ]

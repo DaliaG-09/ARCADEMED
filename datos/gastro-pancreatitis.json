@@ -128,8 +128,8 @@
      "por": "Se eleva más pronto: a las 4 a 8 horas, frente a las 6 a 12 horas de la amilasa."
     },
     {
-     "t": "Es más barata y no se altera por el alcohol",
-     "por": "El costo no es el motivo."
+     "t": "Se eleva menos que la amilasa y se normaliza en 24 horas",
+     "por": "Es lo contrario: la lipasa es más específica, se eleva desde las 4 a 8 horas y tarda de 8 a 14 días en normalizarse, lo que da una ventana diagnóstica más larga."
     },
     {
      "t": "Se normaliza en 24 horas",
@@ -157,7 +157,7 @@
     },
     {
      "t": "La colangio-resonancia en todos los casos",
-     "por": "Se reserva para sospecha de colédocolitiasis de 3 mm o evaluar el conducto pancreático."
+     "por": "Es una prueba más cara y menos disponible; se reserva para sospecha de coledocolitiasis o para evaluar el conducto pancreático."
     },
     {
      "t": "La radiografía simple de abdomen",

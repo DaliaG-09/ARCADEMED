@@ -5,55 +5,55 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 1,
-   "enunciado": "¿Qué órganos puede comprometer la tuberculosis abdominal?",
+   "enunciado": "¿Qué estructuras puede comprometer la tuberculosis abdominal?",
    "opciones": [
     {
      "t": "Intestino delgado, peritoneo, mesenterio, hígado, bazo, ganglios linfáticos y páncreas",
-     "por": "A veces se necesitan métodos invasivos para el diagnóstico."
+     "por": "La TBC abdominal compromete el tubo digestivo y los órganos y estructuras vecinas. A veces se necesitan métodos invasivos para llegar a un diagnóstico preciso y tratar a tiempo."
     },
     {
      "t": "Solo el pulmón",
-     "por": "Eso es tuberculosis pulmonar."
+     "por": "La TBC pulmonar es la forma más frecuente, pero la clase habla del abdomen."
     },
     {
-     "t": "Solo el estómago",
-     "por": "El estómago es una localización muy rara (6 casos en la serie de la lámina)."
+     "t": "Solo el riñón y la vejiga",
+     "por": "Eso es tuberculosis genitourinaria, otra forma extrapulmonar."
     },
     {
-     "t": "Solo el riñón",
-     "por": "La tuberculosis renal es otra forma extrapulmonar."
+     "t": "Solo el sistema nervioso central",
+     "por": "Es la meningitis tuberculosa, otra forma extrapulmonar."
     }
    ],
    "correcta": 0,
-   "explicacion": "Mycobacterium tuberculosis es el agente en casi todos los casos; en algunos países, M. bovis. TBCP = tuberculosis pulmonar. TBCA = tuberculosis abdominal. La relación con extrapulmonar aumenta en VIH.",
-   "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 7 y 9"
+   "explicacion": "TBCP = tuberculosis pulmonar. En el VIH aumenta la relación de TBC extrapulmonar frente a la pulmonar. 15 a 20 % de los pacientes con TBCP presenta manifestaciones extrapulmonares, y 5 % más si hay VIH.",
+   "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 7 y 8"
   },
   {
    "id": "g-tbc-epi",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 2,
-   "enunciado": "¿Qué se afirma sobre la epidemiología de la tuberculosis?",
+   "enunciado": "¿Qué se afirma en la clase sobre la tuberculosis en la población con VIH?",
    "opciones": [
     {
-     "t": "En 2017 hubo 10 millones de casos y 1,6 millones de muertes; es la primera causa de muerte en personas con VIH",
-     "por": "Solo 15 a 20 % de la TBC pulmonar tiene manifestaciones extrapulmonares (más 5 % en VIH)."
+     "t": "Es la principal causa de muerte de las personas con serología positiva al VIH",
+     "por": "En 2017 hubo 10 millones de casos de TBC y 1,6 millones de muertes. En el VIH aumenta la proporción de formas extrapulmonares."
     },
     {
-     "t": "Es rara y casi no mata",
-     "por": "Es un problema de alta incidencia y mortalidad."
+     "t": "Es rara en los pacientes con VIH",
+     "por": "Es todo lo contrario: es la principal causa de muerte."
     },
     {
-     "t": "Es más frecuente en países desarrollados",
+     "t": "Solo aparece en la forma pulmonar",
+     "por": "El VIH aumenta la frecuencia de TBC extrapulmonar, incluida la abdominal."
+    },
+    {
+     "t": "Predomina en países desarrollados",
      "por": "Predomina en países subdesarrollados."
-    },
-    {
-     "t": "No se asocia a VIH",
-     "por": "El VIH aumenta la forma extrapulmonar."
     }
    ],
    "correcta": 0,
-   "explicacion": "Dato de la clase: TBC y VIH se asocian.",
+   "explicacion": "Datos epidemiológicos de la clase.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 7 y 8"
   },
   {
@@ -61,56 +61,56 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 2,
-   "enunciado": "¿Cuáles son las vías de infección de la tuberculosis abdominal?",
+   "enunciado": "¿Cuál es la ruta más importante por la que la tuberculosis llega al tubo digestivo?",
    "opciones": [
     {
-     "t": "Deglución de esputo contaminado, vía hematógena (miliar) y extensión directa; M. bovis por leche contaminada",
-     "por": "Deglutir esputo es la ruta importante."
+     "t": "Deglución de esputo contaminado en una TBC pulmonar activa",
+     "por": "Es la ruta más importante. M. bovis, en cambio, se adquiere por leche contaminada."
     },
     {
-     "t": "Solo inhalación directa en el abdomen",
-     "por": "No ocurre así."
+     "t": "Contacto sexual",
+     "por": "No es el mecanismo descrito en la clase."
     },
     {
-     "t": "Solo transmisión sexual",
-     "por": "No es el mecanismo descrito."
+     "t": "Transfusión de sangre",
+     "por": "No se menciona como mecanismo."
     },
     {
-     "t": "Solo por transfusión",
-     "por": "No se menciona."
+     "t": "Por inhalación directa de gérmenes en el abdomen",
+     "por": "El bacilo se inhala por la vía respiratoria; el abdomen se compromete por deglución, por vía hematógena o por extensión directa."
     }
    ],
    "correcta": 0,
-   "explicacion": "Extensión directa: órganos adyacentes (genitales internos femeninos en TBC peritoneal). Lesión cavitaria con BK positivo en esputo en más de 50 % de TBCA.",
+   "explicacion": "Otros mecanismos: vía hematógena (TBC miliar o bacteriemia en la primera fase de la TBC pulmonar) y extensión directa a órganos adyacentes (genitales internos femeninos en la TBC peritoneal).",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 9",
-   "nota": "Que 'más del 50 % de las lesiones cavitarias con BK positivo hacen TBCA' sigue la redacción de la lámina; la cifra es ambigua."
+   "nota": "La lámina dice 'lesión cavitaria con BK en esputo positivo en más del 50 % hace TBC abdominal'; la redacción es ambigua y se estudia solo como dato de apoyo."
   },
   {
    "id": "g-tbc-ileo",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 2,
-   "enunciado": "¿Por qué la tuberculosis abdominal afecta sobre todo la región ileocecal?",
+   "enunciado": "¿Por qué la tuberculosis abdominal compromete sobre todo la región ileocecal y el peritoneo?",
    "opciones": [
     {
-     "t": "Por el linfotrofismo del bacilo, la abundancia de tejido linfoide ileocecal, la estasis luminal y la poca actividad digestiva",
-     "por": "Afecta también el peritoneo."
+     "t": "Por el linfotrofismo del bacilo y la gran cantidad de tejido linfoide ileocecal, con estasis luminal y poca actividad digestiva",
+     "por": "El bacilo se dirige al tejido linfoide. Allí el tránsito es lento, lo que favorece su permanencia."
     },
     {
      "t": "Porque allí el pH es muy ácido",
-     "por": "No es la explicación."
+     "por": "El pH ácido está en el estómago, donde la TBC es rarísima."
     },
     {
-     "t": "Porque es la zona más vascularizada",
-     "por": "No es lo que dice la lámina."
+     "t": "Porque es la zona con más bacterias normales",
+     "por": "La clase no explica la TBC por la flora intestinal."
     },
     {
      "t": "Porque el bacilo solo vive en el colon izquierdo",
-     "por": "No es así."
+     "por": "Se localiza sobre todo en el íleon terminal y el ciego."
     }
    ],
    "correcta": 0,
-   "explicacion": "Se disemina a ganglios y mesenterio, a veces con compresión.",
+   "explicacion": "La infección se disemina a ganglios adyacentes y al mesenterio; a veces a ganglios extraintestinales con compresión.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 10"
   },
   {
@@ -118,27 +118,27 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 3,
-   "enunciado": "¿Qué hallazgo histológico es típico y con qué enfermedad se confunde?",
+   "enunciado": "En la biopsia intestinal de un paciente con sospecha de TBC abdominal, ¿qué hallazgo es el típico y con qué enfermedad puede confundirse?",
    "opciones": [
     {
      "t": "Granulomas caseosos y no caseosos submucosos; puede simular enfermedad de Crohn",
-     "por": "Baja sensibilidad de la tinción BAAR (bacilos ácido-alcohol resistentes) por ser paucibacilar."
+     "por": "Hay inflamación celular e hiperplasia linfática. Las ulceraciones se deben a endoarteritis de vasos submucosos."
     },
     {
-     "t": "Criptas con abscesos solamente",
-     "por": "No es el hallazgo típico."
+     "t": "Abscesos crípticos con atrofia de vellosidades",
+     "por": "Son hallazgos de colitis ulcerativa y de enfermedad celíaca, respectivamente, no de TBC."
     },
     {
      "t": "Células en anillo de sello",
-     "por": "Sugiere cáncer gástrico."
+     "por": "Son propias del adenocarcinoma gástrico difuso."
     },
     {
      "t": "Fibrosis hepática en puentes",
-     "por": "Es de cirrosis."
+     "por": "Es un hallazgo de cirrosis."
     }
    ],
    "correcta": 0,
-   "explicacion": "Las ulceraciones se deben a endoarteritis de vasos submucosos.",
+   "explicacion": "La tinción BAAR (bacilos ácido alcohol resistentes) tiene sensibilidad baja y depende del operador, porque la infección es paucibacilar (pocos bacilos).",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 12"
   },
   {
@@ -146,27 +146,27 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 3,
-   "enunciado": "Tuberculosis intestinal: ¿qué forma es la más frecuente?",
+   "enunciado": "¿Cuál es la forma más frecuente de tuberculosis intestinal?",
    "opciones": [
     {
-     "t": "Ulcerativa, 60 %, de lesiones superficiales y alta mortalidad",
-     "por": "Hipertrófica 10 % (simula carcinoma) y mixta 30 %."
+     "t": "La ulcerativa (60 %), con lesiones superficiales de la mucosa y alta mortalidad",
+     "por": "Es considerada un proceso virulento."
     },
     {
-     "t": "Hipertrófica",
-     "por": "Es 10 %."
+     "t": "La hipertrófica (10 %)",
+     "por": "Son áreas de fibrosis y cicatrización con apariencia de carcinoma."
     },
     {
-     "t": "Mixta úlcero-hipertrófica",
-     "por": "Es 30 %."
+     "t": "La mixta úlcero-hipertrófica (30 %)",
+     "por": "Es la segunda en frecuencia."
     },
     {
-     "t": "Seca",
-     "por": "Es una forma peritoneal, 5 %."
+     "t": "La peritoneal seca (5 %)",
+     "por": "Es una forma peritoneal, no una forma intestinal."
     }
    ],
    "correcta": 0,
-   "explicacion": "TBC peritoneal: exudativa (95 %) o seca (5 %). TBC hepática: granulomas caseosos con células de Langhans; en 50 % no hay caseificación ni BAAR.",
+   "explicacion": "TBC peritoneal: exudativa (95 %) o seca (5 %). TBC hepática: granulomas caseosos o tuberculomas con células de Langhans; en 50 % no son caseosos ni se identifica el BAAR.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 14"
   },
   {
@@ -177,24 +177,24 @@
    "enunciado": "¿Cómo se presenta la tuberculosis entero-peritoneal?",
    "opciones": [
     {
-     "t": "Fiebre, astenia, diaforesis nocturna, dolor abdominal (80 %), ascitis, diarrea crónica y pérdida de peso; en el íleo-cecal, masa en fosa ilíaca derecha",
-     "por": "Obstrucción en 20 %; fístulas en 5 %."
+     "t": "Fiebre, astenia, diaforesis nocturna, dolor abdominal (80 %), diarrea crónica, pérdida de peso y ascitis; en la ileocecal, masa en fosa ilíaca derecha",
+     "por": "La evolución es de 1 a 6 meses; en 20 % debuta con una complicación (ascitis, obstrucción intestinal, peritonismo)."
     },
     {
-     "t": "Dolor súbito con hematemesis",
-     "por": "No es la forma típica."
+     "t": "Hematemesis con melena",
+     "por": "La hemorragia digestiva baja es poco frecuente en la TBC abdominal."
     },
     {
-     "t": "Solo ictericia",
-     "por": "No es lo habitual."
+     "t": "Ictericia con vesícula palpable e indolora",
+     "por": "Es el signo de Courvoisier, que sugiere un tumor de la vía biliar."
     },
     {
-     "t": "Asintomática siempre",
-     "por": "La clínica es variable pero suele haber síntomas."
+     "t": "Síntomas agudos de horas de evolución",
+     "por": "Suele ser un cuadro subagudo o crónico."
     }
    ],
    "correcta": 0,
-   "explicacion": "Evolución de 1 a 6 meses; 20 % debuta con complicación (ascitis, obstrucción, peritonismo). HDB poco frecuente.",
+   "explicacion": "Obstrucción en 20 %; fístulas en 5 %; hemorragia digestiva baja grave en 15 %. En la TBC hepática hay dolor en hipocondrio derecho, hepatomegalia dolorosa e ictericia.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 15"
   },
   {
@@ -202,84 +202,85 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 3,
-   "enunciado": "En la TBC peritoneal, ¿qué características tiene el líquido ascítico?",
+   "enunciado": "Un paciente con ascitis tiene líquido turbio, proteínas >2,5 g/dl, gradiente de albúmina suero-ascitis <1,1, predominio de mononucleares y ADA >33 UI/L. ¿Qué diagnóstico se sospecha?",
    "opciones": [
     {
-     "t": "Exudado (proteínas >2,5 g/dl), gradiente albúmina suero-ascitis menor de 1,1, predominio de mononucleares y ADA elevada (>33 UI/L)",
-     "por": "Glucosa baja; el cultivo de BAAR es poco frecuente y tarda 4 a 8 semanas."
+     "t": "Peritonitis tuberculosa",
+     "por": "El exudado de predominio mononuclear con ADA elevada es típico de TBC peritoneal. La glucosa baja y el cultivo de BAAR es poco frecuente y tarda de 4 a 8 semanas."
     },
     {
-     "t": "Trasudado con gradiente mayor de 1,1",
-     "por": "Corresponde a hipertensión portal."
+     "t": "Cirrosis hepática descompensada",
+     "por": "Daría un trasudado con gradiente de albúmina suero-ascitis mayor o igual a 1,1."
     },
     {
-     "t": "Predominio de neutrófilos con gradiente alto",
-     "por": "Es PBE."
+     "t": "Peritonitis bacteriana espontánea",
+     "por": "Predominan los neutrófilos en el líquido ascítico."
     },
     {
-     "t": "Líquido claro y acelular",
-     "por": "No es lo esperado."
+     "t": "Insuficiencia cardiaca",
+     "por": "Produce un trasudado con gradiente alto."
     }
    ],
    "correcta": 0,
-   "explicacion": "ADA: adenosina desaminasa, por aumento de linfocitos. Aspecto turbio (91 %). PPD positivo en 80 %. Anemia 60 a 85 %; trombocitosis 18 a 55 %. La OMS sugiere PCR y prueba de resistencia.",
+   "explicacion": "ADA: adenosina desaminasa, que aumenta por el aumento de linfocitos. Líquido turbio en 91 % y amarillo cetrino en 76 %. PPD positivo en 80 %. Anemia 60 a 85 %. La OMS sugiere PCR y prueba de resistencia.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 17",
-   "contexto": "Gradiente albúmina suero-ascitis (GASA): albúmina sérica menos albúmina del líquido ascítico. Un valor mayor o igual a 1,1 indica hipertensión portal; menor de 1,1 sugiere peritonitis tuberculosa o carcinomatosis."
+   "contexto": "Gradiente de albúmina suero-ascitis (GASA): albúmina sérica menos albúmina del líquido ascítico. Si es mayor o igual a 1,1 g/dl indica hipertensión portal (trasudado); si es menor de 1,1 sugiere peritonitis tuberculosa o carcinomatosis peritoneal."
   },
   {
    "id": "g-tbc-img",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 2,
-   "enunciado": "¿Qué signo radiológico se describe en la TBC ileocecal?",
+   "enunciado": "En el estudio radiológico de un paciente con TBC ileocecal se ve la válvula ileocecal engrosada y abierta, con un segmento ileal angosto. ¿Cómo se llama este signo?",
    "opciones": [
     {
-     "t": "Signo de Fleischner: válvula ileocecal engrosada y abierta con un segmento ileal angosto",
-     "por": "La cicatrización acorta el colon ascendente."
+     "t": "Signo de Fleischner",
+     "por": "Se debe al engrosamiento de la válvula ileocecal. La cicatrización acorta el colon ascendente y retrae el ciego."
     },
     {
      "t": "Signo de la cuerda",
-     "por": "Se describe en otras patologías."
-    },
-    {
-     "t": "Signo del doble halo",
-     "por": "No se describe en esta lámina."
+     "por": "Se describe en la enfermedad de Crohn, por una estenosis larga."
     },
     {
      "t": "Signo de la pila de monedas",
-     "por": "No es de TBC."
+     "por": "Es de la isquemia mesentérica y el edema intestinal."
+    },
+    {
+     "t": "Signo del doble halo",
+     "por": "Se usa en procesos inflamatorios de la pared intestinal; no es de TBC."
     }
    ],
    "correcta": 0,
-   "explicacion": "Peritonitis: ascitis libre o tabicada (casi 100 %) de alta densidad en TAC. Diferencial: carcinomatosis, con mayor engrosamiento peritoneal. Ganglios con centro hipodenso y anillo hiperdenso (no patognomónico).",
-   "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 18 a 21"
+   "explicacion": "Peritonitis tuberculosa: ascitis libre o tabicada en casi 100 % (ecografía y TAC), de alta densidad. Diferencial: carcinomatosis, con mayor engrosamiento peritoneal.",
+   "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 18 a 21",
+   "nota": "Los signos de los distractores son complementos; la lámina solo describe el signo de Fleischner."
   },
   {
    "id": "g-tbc-dx",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 3,
-   "enunciado": "¿Qué exámenes endoscópicos y quirúrgicos se emplean para el diagnóstico?",
+   "enunciado": "¿Qué procedimientos se emplean para llegar al diagnóstico de TBC abdominal?",
    "opciones": [
     {
      "t": "Colonoscopia con ileoscopia terminal y biopsias; laparoscopia para TBC peritoneal y hepática",
-     "por": "Hallazgo de BAAR y cultivo: 40 a 60 %."
+     "por": "La colonoscopia evalúa las lesiones y toma muestras. El hallazgo de BAAR y cultivos ayuda en 40 a 60 %."
     },
     {
      "t": "Solo endoscopia alta",
-     "por": "No es suficiente."
+     "por": "No explora el íleon terminal ni el ciego."
     },
     {
      "t": "Laparotomía en todos",
-     "por": "Se reserva para peritonitis o complicaciones."
+     "por": "Se reserva para pacientes con signos de peritonitis."
     },
     {
-     "t": "Solo ecografía",
-     "por": "No permite diagnóstico de certeza."
+     "t": "Solo radiografía de tórax",
+     "por": "Puede mostrar TBC pulmonar, pero no confirma la abdominal."
     }
    ],
    "correcta": 0,
-   "explicacion": "Colonoscopia: deformidad del ciego, úlceras, nódulos, estenosis. Laparotomía: peritoneo friable y acartonado, mal pronóstico.",
+   "explicacion": "Colonoscopia: deformidad y contracción del ciego, úlceras, nódulos, lesiones polipoideas y estenosis; se hacen biopsias del borde de la úlcera.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 16"
   },
   {
@@ -287,19 +288,19 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 2,
-   "enunciado": "¿Cuál es el esquema recomendado para tuberculosis abdominal en la clase?",
+   "enunciado": "¿Cuál es el esquema de tratamiento para tuberculosis abdominal que propone la clase?",
    "opciones": [
     {
-     "t": "9 meses: 2 meses con isoniacida, rifampicina, etambutol y pirazinamida; luego 7 meses de isoniacida y rifampicina",
-     "por": "90 % responde al tratamiento médico."
+     "t": "9 meses: 2 meses con isoniacida, rifampicina, etambutol y pirazinamida, y luego 7 meses con isoniacida y rifampicina",
+     "por": "El 90 % de los pacientes responde al tratamiento médico."
     },
     {
-     "t": "Solo 2 semanas de antibióticos",
-     "por": "No es suficiente."
+     "t": "Solo 2 semanas de antibióticos de amplio espectro",
+     "por": "No cura la tuberculosis."
     },
     {
-     "t": "Cirugía en todos",
-     "por": "Solo en complicaciones."
+     "t": "Cirugía en todos los casos",
+     "por": "Se reserva para complicaciones."
     },
     {
      "t": "Corticoides solos",
@@ -307,36 +308,36 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Cirugía: obstrucción, perforación, fístulas, hemorragia masiva. Pronóstico: mortalidad de 6 a 20 % sin tratamiento.",
+   "explicacion": "Cirugía: obstrucción intestinal, perforación, fístulas y hemorragia masiva. Sin tratamiento la mortalidad es de 6 a 20 %.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 22 y 23",
-   "nota": "Esta clase indica 9 meses; otras guías recomiendan 6 meses (2 + 4)."
+   "nota": "Para tu práctica, no para el examen: la mayoría de guías usa 6 meses (2 meses de HRZE y 4 de HR); esta clase indica 9 meses."
   },
   {
    "id": "g-tbc-caso",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 3,
-   "enunciado": "Varón de 28 años con conducta sexual de riesgo, un mes de dolor abdominal, pérdida de 5 kg, fiebre y diarrea con moco, que trabaja en hacinamiento. ¿Qué diagnóstico se sospecha?",
+   "enunciado": "Un varón de 28 años con conducta sexual de riesgo, un mes de dolor abdominal difuso, pérdida de 5 kg, fiebre ocasional y diarrea con moco, que trabaja en hacinamiento. ¿Qué diagnóstico se debe sospechar?",
    "opciones": [
     {
-     "t": "Tuberculosis abdominal en un paciente con probable VIH",
-     "por": "El hacinamiento y el VIH son factores de riesgo."
+     "t": "Tuberculosis abdominal, con descarte de infección por VIH",
+     "por": "La evolución de un mes con síntomas generales y el hacinamiento hacen pensar en TBC. La conducta sexual de riesgo obliga a descartar VIH, que aumenta las formas extrapulmonares."
     },
     {
      "t": "Gastroenteritis aguda viral",
-     "por": "La evolución de un mes la descarta."
+     "por": "Dura días, no un mes con pérdida de peso."
     },
     {
-     "t": "Hemorroides",
-     "por": "No explican el cuadro sistémico."
+     "t": "Hemorroides internas",
+     "por": "No explican fiebre, pérdida de peso ni diarrea con moco."
     },
     {
      "t": "Pancreatitis aguda",
-     "por": "El cuadro no es compatible."
+     "por": "El dolor sería en epigastrio, constante, con lipasa elevada, y no un cuadro de un mes."
     }
    ],
    "correcta": 0,
-   "explicacion": "Diagnósticos del caso: TBC abdominal, enfermedad inflamatoria intestinal, linfoma, infecciones asociadas a VIH. Plan: PPD, VIH, BK, colonoscopia, líquido ascítico con ADA.",
+   "explicacion": "Preguntas del caso: diagnósticos probables, plan de trabajo y factores de riesgo (VIH, hacinamiento).",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 3 y 25"
   }
  ],
@@ -346,7 +347,7 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "f": "Agente",
-   "b": "M. tuberculosis (a veces M. bovis).",
+   "b": "Mycobacterium tuberculosis (a veces M. bovis).",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 9"
   },
   {
@@ -370,7 +371,7 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "f": "Líquido ascítico",
-   "b": "Exudado, GASA <1,1, mononucleares, ADA >33.",
+   "b": "Exudado, GASA menor de 1,1, mononucleares, ADA mayor de 33 UI/L.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 17"
   },
   {
@@ -378,7 +379,7 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "f": "Signo de Fleischner",
-   "b": "Válvula ileocecal engrosada con íleon angosto.",
+   "b": "Válvula ileocecal engrosada con segmento ileal angosto.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 18"
   },
   {
@@ -386,7 +387,7 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "f": "Diagnóstico",
-   "b": "Colonoscopia con ileoscopia, laparoscopia.",
+   "b": "Colonoscopia con ileoscopia terminal y laparoscopia.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 16"
   },
   {
@@ -394,7 +395,7 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "f": "Tratamiento",
-   "b": "9 meses: 2 HRZE y 7 HR.",
+   "b": "9 meses: 2 meses HRZE y 7 meses HR.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 22"
   },
   {
@@ -402,7 +403,7 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "f": "Cirugía",
-   "b": "Obstrucción, perforación, fístulas, hemorragia masiva.",
+   "b": "Obstrucción, perforación, fístulas y hemorragia masiva.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 22"
   }
  ]
