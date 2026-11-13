@@ -5,111 +5,142 @@
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 1,
-   "enunciado": "Pielonefritis es la infección de:",
+   "enunciado": "El tracto urinario se puede infectar en varios niveles. ¿Cómo se llama la infección que compromete los uréteres y los riñones?",
    "opciones": [
     {
-     "t": "Uréteres y riñones",
-     "por": "Cistitis es la de la vejiga y uretritis la de la uretra."
+     "t": "Pielonefritis",
+     "por": "Es el nombre de la infección alta, de uréteres y riñones. Suele dar fiebre, escalofríos y dolor lumbar, por eso es más seria que una cistitis."
     },
     {
-     "t": "Vejiga",
-     "por": "Es cistitis."
+     "t": "Cistitis",
+     "por": "Es la infección de la vejiga, un nivel más bajo. Da molestias al orinar, pero sin fiebre ni dolor lumbar."
     },
     {
-     "t": "Uretra",
-     "por": "Es uretritis."
+     "t": "Uretritis",
+     "por": "Es la infección de la uretra, el conducto por donde sale la orina. Queda más abajo que la vejiga."
     },
     {
-     "t": "Próstata",
-     "por": "No se menciona."
+     "t": "Bacteriuria asintomática",
+     "por": "No es un sitio, sino una situación: hay bacterias en la orina pero la persona no tiene síntomas."
     }
    ],
    "correcta": 0,
-   "explicacion": "ITU: presencia y proliferación anormal de microorganismos, generalmente bacterias, en cualquier parte del sistema urinario.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 8"
+   "explicacion": "Según la clase, la ITU es la presencia y multiplicación anormal de microorganismos (casi siempre bacterias) en cualquier parte del sistema urinario: uretra (uretritis), vejiga (cistitis) y uréteres con riñones (pielonefritis). Va desde una pielonefritis hasta una bacteriuria sin síntomas.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 8",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón."
   },
   {
    "id": "n-itu-bas",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 2,
-   "enunciado": "Bacteriuria asintomática según la lámina:",
+   "enunciado": "Mujer de 35 años sin ningún síntoma. En un control, el urocultivo muestra más de 100 000 UFC de un solo germen. ¿Qué es esto?",
    "opciones": [
     {
-     "t": "Bacterias en la orina sin síntomas, con más de 100 000 UFC de un germen",
-     "por": "Cultivo positivo sin clínica."
+     "t": "Bacteriuria asintomática",
+     "por": "Hay bacterias en la orina en cantidad significativa (más de 100 000 UFC de un germen) pero sin síntomas urinarios. Eso la define."
     },
     {
-     "t": "Bacterias con disuria y fiebre",
-     "por": "Es sintomática."
+     "t": "Bacteriuria sintomática",
+     "por": "Para ser sintomática debe haber síntomas como disuria, urgencia o fiebre. Aquí no hay ninguno."
     },
     {
-     "t": "Cultivo negativo con síntomas",
-     "por": "No."
+     "t": "ITU recurrente",
+     "por": "La recurrente se define por repetición de episodios (2 o más en 6 meses o 3 o más en un año). Aquí hay un solo hallazgo."
     },
     {
-     "t": "Leucocituria con fiebre",
-     "por": "No."
+     "t": "ITU persistente",
+     "por": "La persistente es la que sigue con el mismo germen después de un tratamiento adecuado. Aquí no hubo tratamiento previo."
     }
    ],
    "correcta": 0,
-   "explicacion": "UFC = unidades formadoras de colonias.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 9"
+   "explicacion": "Un cultivo positivo sin síntomas no se trata siempre. La clase indica tratarlo solo en casos específicos (embarazo, antes de una intervención urológica, trasplante renal), como se ve en la pregunta de bacteriuria asintomática más abajo.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 9 y 23",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón."
   },
   {
    "id": "n-itu-rec",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 2,
-   "enunciado": "¿Cuál es la definición de ITU recurrente?",
+   "enunciado": "Una mujer tuvo 3 episodios de cistitis en el último año. Después de cada tratamiento el urocultivo salió negativo, y cada vez volvió a infectarse. ¿Cómo se clasifica?",
    "opciones": [
     {
-     "t": "2 o más infecciones en 6 meses o 3 o más en un año",
-     "por": "Más frecuente en mujeres."
+     "t": "ITU recurrente (cada episodio es una reinfección)",
+     "por": "Cumple 3 o más infecciones en un año. Como el cultivo quedó negativo entre episodios, cada nuevo cuadro es una reinfección (el germen se eliminó y luego volvió a entrar)."
     },
     {
-     "t": "1 infección al año",
-     "por": "No."
+     "t": "ITU persistente",
+     "por": "Persistencia es cuando el mismo germen sigue presente después de un tratamiento adecuado. Aquí los cultivos se negativizaron, así que se erradicó."
     },
     {
-     "t": "2 en 5 años",
-     "por": "No."
+     "t": "Bacteriuria asintomática",
+     "por": "La paciente tuvo síntomas en cada episodio; esta categoría es solo para cultivo positivo sin síntomas."
     },
     {
-     "t": "Un cultivo positivo único",
-     "por": "No."
+     "t": "Pielonefritis",
+     "por": "Pielonefritis es la localización alta. El caso describe cistitis; la pregunta es sobre el patrón de repetición."
     }
    ],
    "correcta": 0,
-   "explicacion": "Reinfección: nueva infección tras erradicación con urocultivo negativo entre episodios. Persistencia: el mismo germen tras tratamiento adecuado.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 9"
+   "explicacion": "Definiciones de la lámina: ITU recurrente = 2 o más en 6 meses o 3 o más en un año (común en mujeres). Reinfección = nueva infección tras una erradicación confirmada por urocultivo negativo. Persistencia = el mismo germen tras el tratamiento adecuado, por foco oculto o resistencia.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 9",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón."
   },
   {
    "id": "n-itu-comp",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 2,
-   "enunciado": "Mujer con disuria sin fiebre ni dolor lumbar. ¿ITU complicada o no?",
+   "enunciado": "Mujer joven con disuria y urgencia miccional desde ayer. No tiene fiebre, escalofríos ni dolor de flanco. ¿Cómo se clasifica su ITU?",
    "opciones": [
     {
      "t": "No complicada: cistitis confinada a la vejiga",
-     "por": "Sin signos de infección alta."
+     "por": "La infección está limitada a la vejiga y no hay signos de infección por encima de ella. Eso es una ITU no complicada."
     },
     {
      "t": "Complicada",
-     "por": "Requiere fiebre, escalofríos o dolor de flanco."
+     "por": "Se llama complicada cuando hay signos de infección más arriba de la vejiga: fiebre, escalofríos, dolor de flanco o dolor en el ángulo costovertebral."
     },
     {
      "t": "Pielonefritis",
-     "por": "No hay síntomas altos."
+     "por": "La pielonefritis cursa con fiebre y dolor lumbar. Aquí solo hay síntomas de vejiga."
     },
     {
-     "t": "Uretritis gonocócica",
-     "por": "No hay datos."
+     "t": "Bacteriuria asintomática",
+     "por": "Tiene síntomas (disuria, urgencia), así que no es asintomática."
     }
    ],
    "correcta": 0,
-   "explicacion": "Complicada: fiebre, escalofríos, dolor de flanco, dolor en ángulo costovertebral, dolor pélvico o perineal.",
+   "explicacion": "La clase separa la ITU no complicada (cistitis, solo vejiga) de la complicada (signos sistémicos o de infección alta: fiebre, escalofríos, fatiga, dolor de flanco, dolor en ángulo costovertebral, dolor pélvico o perineal).",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 10"
+  },
+  {
+   "id": "n-itu-comp2",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "enunciado": "Mujer de 28 años con disuria, fiebre de 38.5 °C, escalofríos y dolor en el flanco derecho. ¿Cómo se clasifica su ITU?",
+   "opciones": [
+    {
+     "t": "Complicada (sugiere infección alta, pielonefritis)",
+     "por": "La fiebre, los escalofríos y el dolor de flanco indican que la infección pasó de la vejiga hacia arriba."
+    },
+    {
+     "t": "No complicada, porque la mayoría de las ITU en mujeres jóvenes lo son",
+     "por": "Que sea frecuente en mujeres jóvenes no cambia la clasificación: aquí hay signos de infección alta."
+    },
+    {
+     "t": "Cistitis simple",
+     "por": "La cistitis simple no tiene fiebre ni dolor de flanco."
+    },
+    {
+     "t": "Bacteriuria asintomática",
+     "por": "Hay síntomas intensos; no puede ser asintomática."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los signos que hacen pensar en infección por encima de la vejiga son fiebre, escalofríos, fatiga o malestar, dolor de flanco, dolor en el ángulo costovertebral y dolor pélvico o perineal.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 10"
   },
   {
@@ -117,197 +148,227 @@
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 1,
-   "enunciado": "¿Cuál es el agente más frecuente en ITU?",
+   "enunciado": "¿Qué germen causa con mayor frecuencia las ITU, y qué debe guiar la elección del antibiótico según los datos peruanos de la clase?",
    "opciones": [
     {
-     "t": "Escherichia coli",
-     "por": "Con alta resistencia a ciprofloxacino y cefalosporinas en Perú."
+     "t": "Escherichia coli; el antibiograma local, porque hay alta resistencia a ciprofloxacino y cefalosporinas",
+     "por": "E. coli es el agente predominante. Como en Perú resiste mucho a ciprofloxacino y a cefalosporinas, el antibiótico debe elegirse según el antibiograma y la vigilancia local."
     },
     {
-     "t": "Staphylococcus aureus",
-     "por": "No."
+     "t": "Staphylococcus aureus; la sensibilidad no importa",
+     "por": "S. aureus no es el germen habitual de las ITU, y la sensibilidad sí importa porque hay resistencias."
     },
     {
-     "t": "Pseudomonas",
-     "por": "No."
+     "t": "Pseudomonas aeruginosa; siempre carbapenémicos",
+     "por": "Pseudomonas es poco frecuente en ITU comunes y no se usan carbapenémicos de rutina; eso queda para riesgo de BLEE."
     },
     {
-     "t": "Candida",
-     "por": "No."
+     "t": "Candida; fluconazol",
+     "por": "Los hongos son raros en ITU de la comunidad."
     }
    ],
    "correcta": 0,
-   "explicacion": "Prevalencia de 7 % en embarazadas a 21 % en servicios hospitalarios; guiar con antibiograma.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 11 y 14"
+   "explicacion": "En Perú la prevalencia varía de unos 7 % en embarazadas a unos 21 % en servicios hospitalarios. Por eso la clase insiste en prescribir según antibiograma.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 11 y 14",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón. Antibiograma = informe del laboratorio que dice a qué antibióticos es sensible el germen."
   },
   {
    "id": "n-itu-via",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 2,
-   "enunciado": "¿Cuál es la vía más frecuente de infección?",
+   "enunciado": "¿Por cuántas vías pueden llegar los microorganismos al tracto urinario según la clase?",
    "opciones": [
     {
-     "t": "Ascendente",
-     "por": "Las otras son hematógena y linfática."
+     "t": "Tres: ascendente, hematógena y linfática",
+     "por": "La lámina de fisiopatología muestra estas tres vías."
     },
     {
-     "t": "Hematógena",
-     "por": "Menos frecuente."
+     "t": "Una sola: la ascendente desde la uretra",
+     "por": "La ascendente es la más frecuente en la práctica, pero la clase enumera tres vías."
     },
     {
-     "t": "Linfática",
-     "por": "Menos frecuente."
+     "t": "Dos: ascendente y hematógena",
+     "por": "Falta la vía linfática, que también aparece en la lámina."
     },
     {
-     "t": "Por continuidad con el pulmón",
-     "por": "No."
+     "t": "Cuatro, incluida la inhalatoria",
+     "por": "La vía inhalatoria no se describe para las ITU."
     }
    ],
    "correcta": 0,
-   "explicacion": "En la ITU por E. coli el germen asciende desde la uretra.",
+   "explicacion": "Vía ascendente: el germen sube por la uretra hasta vejiga y riñón (típica de E. coli). Hematógena: llega por la sangre. Linfática: por los vasos linfáticos.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 12",
-   "nota": "La lámina nombra las tres vías y E. coli como el más frecuente; que la vía ascendente sea la más frecuente es conocimiento general."
+   "nota": "La lámina muestra las tres vías en un esquema. Que la ascendente sea la más frecuente es conocimiento general y no viene escrito en la lámina."
   },
   {
-   "id": "n-itu-cli",
+   "id": "n-itu-cli1",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 1,
-   "enunciado": "Cistitis o pielonefritis: disuria, polaquiuria, urgencia, dolor suprapúbico y hematuria.",
+   "enunciado": "Paciente con ardor al orinar, ganas frecuentes de orinar con poca cantidad, urgencia, dolor sobre el pubis y algo de sangre en la orina, sin fiebre. ¿Qué cuadro es?",
    "opciones": [
     {
      "t": "Cistitis",
-     "por": "Pielonefritis: fiebre, escalofríos, dolor en ángulo costovertebral, náuseas y vómitos."
+     "por": "Disuria, polaquiuria, urgencia, dolor suprapúbico y hematuria son las manifestaciones típicas de la cistitis."
     },
     {
      "t": "Pielonefritis",
-     "por": "Cursa con fiebre y dolor lumbar."
-    },
-    {
-     "t": "Uretritis",
-     "por": "No."
+     "por": "La pielonefritis cursa con fiebre, escalofríos, dolor en el ángulo costovertebral, náuseas y vómitos."
     },
     {
      "t": "Bacteriuria asintomática",
-     "por": "Sin síntomas."
+     "por": "Esta no da ningún síntoma, y aquí hay varios."
+    },
+    {
+     "t": "Uretritis gonocócica",
+     "por": "Daría secreción uretral; la clase no la desarrolla y el cuadro descrito es el clásico de cistitis."
     }
    ],
    "correcta": 0,
-   "explicacion": "Puño-percusión lumbar positiva sugiere pielonefritis.",
+   "explicacion": "Cistitis: disuria (dolor al orinar), polaquiuria (orinar muchas veces), urgencia, dolor suprapúbico y hematuria. Pielonefritis: fiebre, escalofríos, dolor en el ángulo costovertebral, náuseas y vómitos.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 15"
+  },
+  {
+   "id": "n-itu-cli2",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "enunciado": "En el examen físico de una paciente con ITU, ¿qué maniobra ayuda a sospechar pielonefritis?",
+   "opciones": [
+    {
+     "t": "Puño-percusión lumbar positiva (dolor al golpear suavemente el ángulo costovertebral)",
+     "por": "La lámina de examen físico incluye puño-percusión. Si duele en la fosa lumbar, orienta a compromiso del riñón."
+    },
+    {
+     "t": "Signo de Chvostek",
+     "por": "Es un signo de hipocalcemia (golpe en la mejilla), no de ITU."
+    },
+    {
+     "t": "Signo de Trousseau",
+     "por": "Es un signo de hipocalcemia (espasmo de la mano con el manguito); no tiene que ver con la ITU."
+    },
+    {
+     "t": "Auscultación de soplos en el tórax",
+     "por": "La lámina menciona auscultar soplos (por ejemplo vasculares), pero no sirve para distinguir pielonefritis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El examen físico incluye inspección, palpación de los puntos dolorosos (superior, medio e inferior), puño-percusión y auscultación.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 16"
   },
   {
    "id": "n-itu-dx",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 1,
-   "enunciado": "¿Sobre qué se basa el diagnóstico de ITU?",
+   "enunciado": "¿En qué se basa el diagnóstico de una ITU según las conclusiones de la clase?",
    "opciones": [
     {
-     "t": "Examen clínico, uroanálisis, cultivo e imágenes",
-     "por": "Conclusión de la clase."
+     "t": "En el examen clínico, el uroanálisis, el cultivo y las imágenes",
+     "por": "Los cuatro elementos se combinan; el cultivo y las imágenes se piden según cada caso."
     },
     {
-     "t": "Solo la clínica",
-     "por": "No."
+     "t": "Solo en los síntomas",
+     "por": "Los síntomas orientan, pero hay ITU sin síntomas (bacteriuria asintomática) y síntomas sin ITU."
     },
     {
-     "t": "Solo imágenes",
-     "por": "No."
+     "t": "Solo en el hemograma",
+     "por": "El hemograma puede mostrar leucocitos altos, pero no confirma una ITU."
     },
     {
-     "t": "Solo el hemograma",
-     "por": "No."
+     "t": "Solo en una ecografía renal",
+     "por": "La ecografía sirve para descartar obstrucción o complicaciones, no para confirmar la infección."
     }
    ],
    "correcta": 0,
-   "explicacion": "Cultivo y imágenes se piden según el caso.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 17"
+   "explicacion": "El uroanálisis muestra leucocitos, nitritos y bacterias; el urocultivo identifica el germen y su sensibilidad.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 17 y 29"
   },
   {
    "id": "n-itu-tx",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 2,
-   "enunciado": "Esquema de la lámina para cistitis:",
+   "enunciado": "Mujer de 25 años con cistitis no complicada. ¿Cuál de estas es una opción oral según la lámina de tratamiento de la cistitis?",
    "opciones": [
     {
-     "t": "Fosfomicina 3 g VO en dosis única, nitrofurantoína 100 mg c/12 h por 5 días, o trimetoprima-sulfametoxazol c/8 h si la resistencia es menor de 20 %",
-     "por": "Opciones orales."
+     "t": "Fosfomicina 3 g por vía oral, dosis única",
+     "por": "Es una de las tres opciones de la lámina para cistitis: fosfomicina 3 g en una dosis, nitrofurantoína 100 mg cada 12 horas por 5 días, o trimetoprima-sulfametoxazol cada 8 horas si la resistencia local es menor de 20 %."
     },
     {
-     "t": "Ceftriaxona IV 10 días",
-     "por": "Es para pielonefritis."
+     "t": "Ceftriaxona 1 g IV cada 24 horas",
+     "por": "Es una opción para pielonefritis sin riesgo de BLEE, por vía intravenosa. Para una cistitis simple no hace falta."
     },
     {
-     "t": "Meropenem de entrada",
-     "por": "Excesivo."
+     "t": "Meropenem 1 g IV cada 8 horas",
+     "por": "Es un carbapenémico, reservado para pielonefritis con riesgo de gérmenes resistentes (BLEE). Sería exagerado en una cistitis."
     },
     {
-     "t": "Observación sin tratamiento",
-     "por": "No."
+     "t": "Ciprofloxacino 500 mg cada 12 horas",
+     "por": "La clase advierte alta resistencia a ciprofloxacino en Perú; no está en el esquema de cistitis de la lámina."
     }
    ],
    "correcta": 0,
-   "explicacion": "Para pielonefritis con riesgo de BLEE (resistencia): carbapenémicos; sin riesgo: ceftriaxona o quinolonas.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 19 y 20",
-   "contexto": "BLEE (ESBL) = betalactamasas de espectro extendido: enzimas bacterianas que inactivan penicilinas y cefalosporinas."
+   "explicacion": "Esquema de cistitis (lámina 20): fosfomicina 3 g VO en 1 dosis; nitrofurantoína 100 mg VO cada 12 h por 5 días; trimetoprima-sulfametoxazol (Trim-Sulf) cada 8 h solo si la resistencia es menor de 20 %.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 20",
+   "contexto": "Trimetoprima-sulfametoxazol es un antibiótico oral muy usado en ITU. Solo se recomienda si menos de 20 de cada 100 gérmenes locales son resistentes."
   },
   {
    "id": "n-itu-blee",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 3,
-   "enunciado": "Paciente con pielonefritis y factores de riesgo de resistencia (BLEE). ¿Qué esquema inicial?",
+   "enunciado": "Paciente con pielonefritis que tiene factores de riesgo de resistencia (por ejemplo, un germen productor de BLEE). ¿Qué esquema inicial propone la lámina de pielonefritis?",
    "opciones": [
     {
-     "t": "Un carbapenémico (imipenem, meropenem o doripenem)",
-     "por": "Cobertura para BLEE."
+     "t": "Un carbapenémico por vía intravenosa (imipenem, meropenem o doripenem)",
+     "por": "Cuando hay riesgo de BLEE se usa un antibiótico de amplio espectro con cobertura para esos gérmenes: carbapenémico (imipenem 500 mg c/6 h, meropenem 1 g c/8 h o doripenem 500 mg c/8 h)."
     },
     {
-     "t": "Ceftriaxona sola",
-     "por": "No cubre BLEE."
+     "t": "Ceftriaxona 1 g IV cada 24 h",
+     "por": "Es la opción cuando NO hay riesgo de BLEE; las BLEE inactivan las cefalosporinas."
     },
     {
-     "t": "Nitrofurantoína",
-     "por": "Es para cistitis."
+     "t": "Nitrofurantoína oral",
+     "por": "Es para cistitis. En pielonefritis no alcanza niveles adecuados en el riñón."
     },
     {
-     "t": "Fosfomicina oral",
-     "por": "Es para cistitis."
+     "t": "Fosfomicina 3 g oral",
+     "por": "Es opción de cistitis; no se usa como esquema de pielonefritis en la lámina."
     }
    ],
    "correcta": 0,
-   "explicacion": "Sin riesgo: ceftriaxona, piperacilina-tazobactam o quinolonas.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 21"
+   "explicacion": "Sin riesgo de BLEE (esquema estándar): ceftriaxona, piperacilina-tazobactam, ciprofloxacino o levofloxacino. Con riesgo: carbapenémico; si hay cocos gram positivos, se agrega vancomicina, daptomicina o linezolid. Adapta siempre al antibiograma de tu hospital.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 21",
+   "contexto": "BLEE (o ESBL) = betalactamasas de espectro extendido. Son enzimas de algunas bacterias que destruyen las penicilinas y las cefalosporinas. Los carbapenémicos suelen resistir su efecto."
   },
   {
    "id": "n-itu-rec2",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 2,
-   "enunciado": "Mujer con 4 episodios de cistitis en un año. ¿Qué recomienda la lámina?",
+   "enunciado": "Mujer con 4 episodios de cistitis en un año. ¿Qué incluye el manejo de ITU recurrente en la lámina?",
    "opciones": [
     {
-     "t": "Aumentar la ingesta de líquidos, antibiótico poscoital y considerar imágenes",
-     "por": "El cranberry no se recomienda."
+     "t": "Aumentar la ingesta de líquidos, antibiótico poscoital y considerar estudios de imágenes",
+     "por": "Son las medidas del esquema de más de 3 episodios por año."
     },
     {
-     "t": "Cranberry como tratamiento",
-     "por": "La lámina dice 'No: cranberry'."
+     "t": "Tomar jugo de arándano (cranberry) como tratamiento",
+     "por": "La lámina marca 'No: cranberry'. No se recomienda como medida."
     },
     {
-     "t": "Ignorar",
-     "por": "No."
+     "t": "Repetir el mismo antibiótico de 14 días en cada episodio sin estudiar",
+     "por": "No es lo indicado: se busca prevenir, y se consideran imágenes para buscar causas."
     },
     {
-     "t": "Antibiótico diario sin estudio",
-     "por": "No."
+     "t": "No hacer nada porque es normal en mujeres",
+     "por": "La recurrencia merece estudio y prevención."
     }
    ],
    "correcta": 0,
-   "explicacion": "Más de 3 episodios al año.",
+   "explicacion": "ITU recurrente (más de 3 episodios por año): más líquidos, antibiótico poscoital (después de las relaciones sexuales) y considerar imágenes. El cranberry no se recomienda.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 22"
   },
   {
@@ -315,27 +376,27 @@
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 3,
-   "enunciado": "¿En qué caso se trata la bacteriuria asintomática?",
+   "enunciado": "¿En cuál de estas situaciones SÍ se trata una bacteriuria asintomática?",
    "opciones": [
     {
-     "t": "Embarazo, intervención urológica o trasplante renal",
-     "por": "No se trata en premenopáusicas, ancianos, DM, cateterizados ni lesión espinal."
+     "t": "Embarazo",
+     "por": "Tratar la bacteriuria asintomática en el embarazo previene la pielonefritis. También se trata antes de una intervención urológica y en el trasplante renal."
     },
     {
-     "t": "Diabetes",
-     "por": "No se trata."
+     "t": "Mujer premenopáusica no embarazada",
+     "por": "No se trata: no mejora los resultados y favorece resistencia."
     },
     {
-     "t": "Anciano",
-     "por": "No."
+     "t": "Paciente con diabetes mellitus",
+     "por": "La lámina lo pone en 'no tratar' pese a ser diabético."
     },
     {
-     "t": "Paciente cateterizado",
-     "por": "No."
+     "t": "Paciente con sonda vesical (cateterizado)",
+     "por": "Tampoco se trata, según la lámina. Se trata solo si hay síntomas."
     }
    ],
    "correcta": 0,
-   "explicacion": "Cultivo positivo (10⁵) sin síntomas.",
+   "explicacion": "Sí tratar: embarazo, intervención urológica, trasplante renal. No tratar: premenopáusicas, ancianos, diabetes, cateterizados y lesión espinal. Definición: cultivo positivo (10⁵) sin síntomas ni signos de ITU.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 23"
   },
   {
@@ -343,28 +404,29 @@
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 3,
-   "enunciado": "Mujer de 46 años con fiebre 38.7 °C, dolor lumbar bilateral, puño-percusión positiva, orina con mal olor, 500 leucocitos por campo. ¿Diagnóstico?",
+   "enunciado": "Mujer de 46 años, fiebre de 38.7 °C, dolor lumbar bilateral (más en el izquierdo), orina con mal olor, disuria y náuseas. Puño-percusión lumbar positiva. Leucocitos 11 200 con desviación izquierda; orina con 500 leucocitos por campo. ¿Diagnóstico más probable?",
    "opciones": [
     {
      "t": "Pielonefritis aguda (ITU complicada)",
-     "por": "Fiebre, dolor lumbar y puño-percusión positiva."
+     "por": "Fiebre, dolor lumbar con puño-percusión positiva, leucocitosis con desviación izquierda y leucocituria intensa indican infección del riñón."
     },
     {
      "t": "Cistitis no complicada",
-     "por": "Hay fiebre y dolor lumbar."
+     "por": "La cistitis simple no da fiebre ni dolor lumbar con puño-percusión positiva."
     },
     {
-     "t": "Cólico renal",
-     "por": "Hay fiebre y leucocituria."
+     "t": "Cólico renal por litiasis",
+     "por": "El cólico es dolor intenso y no explica por sí solo la fiebre, la leucocitosis ni los 500 leucocitos en orina."
     },
     {
      "t": "Apendicitis",
-     "por": "Abdomen sin irritación."
+     "por": "El abdomen está blando, sin irritación peritoneal; el dolor y la puño-percusión son lumbares."
     }
    ],
    "correcta": 0,
-   "explicacion": "Se pide urocultivo y se inicia antibiótico según riesgo de resistencia.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 26"
+   "explicacion": "Plan: urocultivo antes del antibiótico, evaluar gravedad y riesgo de resistencia, y elegir esquema (sin riesgo de BLEE, ceftriaxona; con riesgo, un carbapenémico). Considera imágenes si no mejora o hay sospecha de obstrucción.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 26",
+   "nota": "La lámina plantea las preguntas y no da la respuesta; el diagnóstico es una interpretación a partir de los datos del caso."
   }
  ],
  "tarjetas": [
@@ -372,8 +434,8 @@
    "id": "n-itu-c-0",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
-   "f": "Cistitis: tratamiento",
-   "b": "Fosfomicina 3 g; nitrofurantoína 100 mg c/12 h x 5 días; TMP-SMX si R <20 %",
+   "f": "Cistitis: tratamiento oral (lám. 20)",
+   "b": "Fosfomicina 3 g VO dosis única\nNitrofurantoína 100 mg VO c/12 h por 5 días\nTrimetoprima-sulfametoxazol c/8 h si la resistencia es menor de 20 %",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 20"
   },
   {
@@ -381,40 +443,40 @@
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "f": "ITU recurrente",
-   "b": "≥2 en 6 meses o ≥3 en un año",
+   "b": "2 o más en 6 meses o 3 o más en un año.\nMedidas: más líquidos, antibiótico poscoital, considerar imágenes. No cranberry.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 9"
   },
   {
    "id": "n-itu-c-2",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
-   "f": "Bacteriuria asintomática: tratar",
-   "b": "Embarazo, urología, trasplante",
+   "f": "Bacteriuria asintomática: ¿tratar?",
+   "b": "Sí: embarazo, intervención urológica, trasplante renal.\nNo: premenopáusicas, ancianos, diabetes, cateterizados, lesión espinal.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 23"
   },
   {
    "id": "n-itu-c-3",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
-   "f": "E. coli",
-   "b": "Más frecuente",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 14"
+   "f": "Germen más frecuente",
+   "b": "Escherichia coli, con alta resistencia a ciprofloxacino y cefalosporinas en Perú: guiarse por el antibiograma.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 11"
   },
   {
    "id": "n-itu-c-4",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
-   "f": "Pielonefritis",
-   "b": "Fiebre, escalofríos, dolor costovertebral, náuseas",
+   "f": "Cistitis vs pielonefritis",
+   "b": "Cistitis: disuria, polaquiuria, urgencia, dolor suprapúbico, hematuria.\nPielonefritis: fiebre, escalofríos, dolor en ángulo costovertebral, náuseas y vómitos.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 15"
   },
   {
    "id": "n-itu-c-5",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
-   "f": "Cranberry",
-   "b": "No recomendado en ITU recurrente",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 22"
+   "f": "Pielonefritis y BLEE",
+   "b": "Con riesgo de BLEE: carbapenémico IV. Sin riesgo: ceftriaxona, piperacilina-tazobactam o quinolonas.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 21"
   }
  ]
 }
