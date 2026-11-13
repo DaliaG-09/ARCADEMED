@@ -152,77 +152,7 @@ h1,h2,h3{font-weight:400;line-height:1.55;letter-spacing:0}
 <body>
 <div id="app"></div>
 
-<script id="banco" type="application/json">
-{
-"areas":[
- {"id":"nefro","n":"Nefrología","c":"var(--nefro)"},
- {"id":"gastro","n":"Gastroenterología","c":"var(--gastro)"},
- {"id":"derma","n":"Dermatología","c":"var(--derma)"}
-],
-"preguntas":[
- {"id":"demo-n1","area":"nefro","tema":"Enfermedad renal crónica","demo":true,
-  "contexto":"Estadios de ERC (enfermedad renal crónica): se clasifican según la TFG (tasa de filtrado glomerular) y sirven para estimar gravedad y decidir seguimiento. Se usan cuando la alteración renal dura más de 3 meses.",
-  "enunciado":"Un paciente tiene una TFG de 22 mL/min/1.73 m² sostenida por más de 3 meses. ¿Qué estadio de ERC corresponde según KDIGO?",
-  "opciones":[
-   {"t":"G2","por":"G2 es TFG de 60 a 89."},
-   {"t":"G3b","por":"G3b es TFG de 30 a 44."},
-   {"t":"G4","por":"G4 es TFG de 15 a 29, donde cae 22."},
-   {"t":"G5","por":"G5 es TFG menor de 15."}],
-  "correcta":2,"explicacion":"Con 22 mL/min/1.73 m² el paciente está en G4 (disminución grave, 15 a 29).","fuente":"DEMO: reemplazar con tu PPT"},
- {"id":"demo-n2","area":"nefro","tema":"Síndromes glomerulares","demo":true,
-  "enunciado":"Una paciente adulta tiene edema, hipoalbuminemia, hiperlipidemia y proteinuria de 5 g en 24 horas. ¿Qué síndrome describe este cuadro?",
-  "opciones":[
-   {"t":"Síndrome nefrótico","por":"Proteinuria mayor de 3.5 g/24 h con hipoalbuminemia, edema e hiperlipidemia."},
-   {"t":"Síndrome nefrítico","por":"Se caracteriza por hematuria, hipertensión y caída de la TFG, con proteinuria menor."},
-   {"t":"Síndrome urémico","por":"Es la expresión clínica de la insuficiencia renal avanzada."},
-   {"t":"Necrosis tubular aguda","por":"Es una causa de lesión renal aguda, no un síndrome de proteinuria masiva."}],
-  "correcta":0,"explicacion":"La tétrada de proteinuria en rango nefrótico, hipoalbuminemia, edema e hiperlipidemia define el síndrome nefrótico.","fuente":"DEMO: reemplazar con tu PPT"},
- {"id":"demo-g1","area":"gastro","tema":"Cirrosis","demo":true,
-  "contexto":"Child-Pugh: puntaje de gravedad de la cirrosis (bilirrubina, albúmina, INR, ascitis y encefalopatía). Se usa para estimar pronóstico y riesgo quirúrgico. A: 5 a 6 puntos, B: 7 a 9, C: 10 a 15.",
-  "enunciado":"Un paciente cirrótico suma 8 puntos en la escala de Child-Pugh. ¿A qué clase pertenece?",
-  "opciones":[
-   {"t":"Clase A","por":"La clase A va de 5 a 6 puntos."},
-   {"t":"Clase B","por":"La clase B va de 7 a 9 puntos, donde cae 8."},
-   {"t":"Clase C","por":"La clase C va de 10 a 15 puntos."},
-   {"t":"No se puede clasificar","por":"El puntaje total alcanza para asignar la clase."}],
-  "correcta":1,"explicacion":"8 puntos corresponde a Child-Pugh B (compromiso funcional significativo).","fuente":"DEMO: reemplazar con tu PPT"},
- {"id":"demo-g2","area":"gastro","tema":"Enfermedad ulcerosa péptica","demo":true,
-  "enunciado":"¿Cuál es la causa más frecuente de úlcera péptica duodenal?",
-  "opciones":[
-   {"t":"Helicobacter pylori","por":"Es la causa más frecuente de úlcera duodenal."},
-   {"t":"AINEs (antiinflamatorios no esteroideos)","por":"Son la segunda causa más común, importante sobre todo en la úlcera gástrica."},
-   {"t":"Síndrome de Zollinger-Ellison","por":"Es una causa rara, por gastrinoma."},
-   {"t":"Estrés fisiológico","por":"Se asocia a úlceras de estrés en pacientes críticos, no es la causa habitual."}],
-  "correcta":0,"explicacion":"H. pylori es la causa más frecuente de úlcera duodenal; por eso se busca y se erradica.","fuente":"DEMO: reemplazar con tu PPT",
-  "nota":"Verifica en tu PPT qué porcentaje cita tu profesora."},
- {"id":"demo-d1","area":"derma","tema":"Lesiones pigmentadas","demo":true,
-  "contexto":"Regla ABCDE: criterios para sospechar melanoma en un lunar. A asimetría, B bordes irregulares, C color variado, D diámetro, E evolución.",
-  "enunciado":"En la regla ABCDE para sospechar melanoma, ¿qué indica la letra D?",
-  "opciones":[
-   {"t":"Diámetro mayor de 6 mm","por":"Un diámetro mayor de 6 mm aumenta la sospecha."},
-   {"t":"Dolor espontáneo","por":"El dolor no forma parte de la regla."},
-   {"t":"Descamación","por":"La descamación no es criterio de la regla."},
-   {"t":"Distribución en zonas fotoexpuestas","por":"Es un dato de contexto, no la D de la regla."}],
-  "correcta":0,"explicacion":"La D es de diámetro: más de 6 mm. La E (evolución) es el criterio con más peso clínico.","fuente":"DEMO: reemplazar con tu PPT"},
- {"id":"demo-d2","area":"derma","tema":"Lesiones elementales","demo":true,
-  "enunciado":"¿Cómo se llama la lesión elevada, circunscrita y sólida, de menos de 1 cm?",
-  "opciones":[
-   {"t":"Mácula","por":"Es plana, solo cambia el color de la piel."},
-   {"t":"Pápula","por":"Es elevada, sólida y menor de 1 cm."},
-   {"t":"Placa","por":"Es elevada y sólida, pero de 1 cm o más."},
-   {"t":"Vesícula","por":"Es elevada pero contiene líquido, menor de 1 cm."}],
-  "correcta":1,"explicacion":"Pápula: elevada, sólida, menor de 1 cm. Si pasa de 1 cm pasa a ser placa o nódulo.","fuente":"DEMO: reemplazar con tu PPT"}
-],
-"tarjetas":[
- {"id":"demo-tn1","area":"nefro","tema":"Enfermedad renal crónica","f":"¿Qué TFG define el estadio G5 de ERC?","b":"Menor de 15 mL/min/1.73 m² (falla renal).","demo":true},
- {"id":"demo-tn2","area":"nefro","tema":"Síndromes glomerulares","f":"Proteinuria en rango nefrótico en adultos","b":"Más de 3.5 g en 24 horas.","demo":true},
- {"id":"demo-tg1","area":"gastro","tema":"Cirrosis","f":"Puntaje de Child-Pugh por clase","b":"A: 5 a 6. B: 7 a 9. C: 10 a 15.","demo":true},
- {"id":"demo-tg2","area":"gastro","tema":"Enfermedad ulcerosa péptica","f":"Causa más frecuente de úlcera duodenal","b":"Helicobacter pylori.","demo":true},
- {"id":"demo-td1","area":"derma","tema":"Lesiones pigmentadas","f":"Regla ABCDE del melanoma","b":"Asimetría, Bordes irregulares, Color variado, Diámetro mayor de 6 mm, Evolución.","demo":true},
- {"id":"demo-td2","area":"derma","tema":"Lesiones elementales","f":"Diferencia entre pápula y placa","b":"Ambas son elevadas y sólidas. Pápula menor de 1 cm, placa de 1 cm o más.","demo":true}
-]
-}
-</script>
+<script id="banco" type="application/json">{"areas": [{"id": "nefro", "n": "Nefrología", "c": "var(--nefro)"}, {"id": "gastro", "n": "Gastroenterología", "c": "var(--gastro)"}, {"id": "derma", "n": "Dermatología", "c": "var(--derma)"}], "preguntas": [], "tarjetas": []}</script>
 
 <script>
 (function(){
@@ -330,9 +260,9 @@ function vHome(){
     const aq = qs.filter(q => q.area === a.id), ad = aq.filter(isDominada).length;
     const temas = new Set(aq.map(q => q.tema)).size;
     return '<div class="panel world" style="border-left-color:'+a.c+'">'+
-      '<div class="row"><h3 class="grow" style="color:'+a.c+'">'+esc(a.n)+'</h3><span class="src">'+aq.length+' preguntas · '+temas+' temas</span></div>'+
+      '<div class="row"><h3 class="grow" style="color:'+a.c+'">'+esc(a.n)+'</h3><span class="src">'+(aq.length ? aq.length+' preguntas · '+temas+' temas' : 'sin preguntas aún')+'</span></div>'+
       segs(aq.length ? ad/aq.length : 0, 16, 'good')+
-      '<div class="row"><span class="src grow">'+ad+' dominadas de '+aq.length+'</span><button class="btn small gold" data-act="setup" data-area="'+a.id+'">Jugar</button></div></div>';
+      '<div class="row"><span class="src grow">'+(aq.length ? ad+' dominadas de '+aq.length : 'Próximamente: faltan las láminas de esta área')+'</span>'+(aq.length ? '<button class="btn small gold" data-act="setup" data-area="'+a.id+'">Jugar</button>' : '')+'</div></div>';
   }).join('');
   return '<div class="stack">'+
     '<header><h1 class="logo">Arcade<span class="six">Med</span></h1><p class="sub">Continua 6 · Nefrología · Gastroenterología · Dermatología</p></header>'+

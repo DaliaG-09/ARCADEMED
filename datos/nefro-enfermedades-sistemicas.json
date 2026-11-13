@@ -335,7 +335,7 @@
     },
     {
      "t": "Nefropatía por IgA",
-     "por": "No se asocia."
+     "por": "La nefropatía por IgA no se asocia al mieloma; lo típico es el riñón de mieloma por cadenas ligeras."
     },
     {
      "t": "Glomerulonefritis postestreptocócica",
@@ -425,7 +425,7 @@
     },
     {
      "t": "Nunca produce falla renal",
-     "por": "Sí la produce."
+     "por": "Sí produce falla renal: es una de sus manifestaciones principales."
     }
    ],
    "correcta": 0,
@@ -474,7 +474,7 @@
     },
     {
      "t": "Solo anti-DNA positivo",
-     "por": "No basta."
+     "por": "El anti-DNA es solo un criterio inmunológico: hace falta además al menos un criterio clínico, o nefritis por biopsia con ANA o anti-DNA positivos."
     },
     {
      "t": "Solo proteinuria",
@@ -507,7 +507,7 @@
     },
     {
      "t": "Solo GNRP anti-MBG",
-     "por": "No se asocia."
+     "por": "La GN anti-MBG no es una de las lesiones descritas en la artritis reumatoide; además la opción dice 'solo' y hay varias lesiones."
     },
     {
      "t": "Ninguna lesión renal",
@@ -540,7 +540,7 @@
     },
     {
      "t": "Ninguna afecta el riñón",
-     "por": "Sí lo afectan."
+     "por": "Ambos virus afectan el riñón: VHC con crioglobulinemia y GN, VHB con GN postinfecciosa."
     }
    ],
    "correcta": 0,

@@ -75,11 +75,11 @@
     },
     {
      "t": "Cilindros eritrocitarios",
-     "por": "Solo 10 %."
+     "por": "Los cilindros eritrocitarios aparecen solo en 10 %: son menos constantes que la proteinuria (100 %)."
     },
     {
      "t": "Falla renal aguda",
-     "por": "Solo 1 a 2 %."
+     "por": "La falla renal aguda es rara (1 a 2 %), mucho menos constante que la proteinuria."
     }
    ],
    "correcta": 0,
@@ -158,7 +158,7 @@
     },
     {
      "t": "Depósitos mesangiales sin cambios en microscopía óptica",
-     "por": "Es la clase I."
+     "por": "Depósitos mesangiales sin cambios en microscopía óptica corresponden a la clase I (mesangial mínima)."
     },
     {
      "t": "Proliferación mesangial",
@@ -166,7 +166,7 @@
     },
     {
      "t": "Aspecto de nefropatía membranosa",
-     "por": "Es la clase V."
+     "por": "El aspecto de nefropatía membranosa corresponde a la clase V, no a la IV."
     }
    ],
    "correcta": 0,
@@ -367,7 +367,7 @@
     },
     {
      "t": "Glomerulonefritis postestreptocócica",
-     "por": "No se asocia."
+     "por": "La glomerulonefritis postestreptocócica sigue a una infección por estreptococo; no es la que describe la lámina para la espondilitis anquilosante."
     },
     {
      "t": "Nefropatía membranosa",
@@ -375,7 +375,7 @@
     },
     {
      "t": "Cambios mínimos",
-     "por": "No se asocia."
+     "por": "Los cambios mínimos no son la glomerulopatía que la lámina asocia a la espondilitis anquilosante."
     }
    ],
    "correcta": 0,

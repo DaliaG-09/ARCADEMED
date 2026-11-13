@@ -267,7 +267,7 @@
     },
     {
      "t": "90 %",
-     "por": "Es exagerado."
+     "por": "Es exagerado: la lámina da 60 a 70 % para la prerrenal; el resto se reparte entre la renal y la postrenal."
     }
    ],
    "correcta": 0,
@@ -437,7 +437,7 @@
     },
     {
      "t": "Hipovolemia",
-     "por": "Es prerrenal."
+     "por": "La hipovolemia baja la perfusión del riñón: es causa prerrenal, no obstructiva."
     }
    ],
    "correcta": 0,

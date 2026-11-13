@@ -101,7 +101,7 @@
     },
     {
      "t": "Los tres criterios obligatorios",
-     "por": "Con dos basta."
+     "por": "Con dos de tres criterios basta; exigir los tres retrasaría el diagnóstico."
     },
     {
      "t": "Solo la elevación de amilasa",
@@ -114,7 +114,8 @@
    ],
    "correcta": 0,
    "explicacion": "Diagnóstico: 2 de 3 criterios: (1) dolor abdominal típico, (2) amilasa o lipasa mayor de 3 veces el valor normal, (3) hallazgos característicos en imágenes.",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 13 y 14"
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 13 y 14",
+   "contexto": "Criterios diagnósticos de pancreatitis aguda: regla de 2 de 3 que se usa al evaluar a un paciente con dolor abdominal agudo para confirmar el diagnóstico."
   },
   {
    "id": "g-pan-lipasa",

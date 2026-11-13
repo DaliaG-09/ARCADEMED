@@ -82,7 +82,8 @@
    ],
    "correcta": 0,
    "explicacion": "Osmolaridad efectiva (tonicidad) = 2 × Na⁺ + glucosa/18; la urea no cuenta porque cruza libremente las membranas celulares.",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 11"
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 11",
+   "contexto": "Osmolaridad plasmática: concentración total de solutos en la sangre; se calcula para saber si una hiponatremia es verdadera (hipoosmolar) o una pseudohiponatremia."
   },
   {
    "id": "n-na-osm2",
@@ -134,7 +135,7 @@
     },
     {
      "t": "No existe esa clasificación",
-     "por": "Sí existe."
+     "por": "Sí existe: la hiponatremia se clasifica por osmolaridad en hipoosmolar, isoosmolar e hiperosmolar."
     }
    ],
    "correcta": 0,
@@ -186,11 +187,11 @@
     },
     {
      "t": "Euvolemia por SIAD",
-     "por": "No."
+     "por": "La euvolemia por SIAD no corresponde a cirrosis ni insuficiencia cardiaca, que retienen agua y sodio (hipervolemia)."
     },
     {
      "t": "Pseudohiponatremia",
-     "por": "No."
+     "por": "La pseudohiponatremia es isoosmolar (por lípidos o proteínas); no es la hipoosmolar con edemas de la cirrosis o la insuficiencia cardiaca."
     }
    ],
    "correcta": 0,
@@ -242,20 +243,21 @@
     },
     {
      "t": "154",
-     "por": "Es NaCl 0.9 %."
+     "por": "154 mEq/L es el NaCl 0.9 % (suero fisiológico), isotónico; no el 3 %."
     },
     {
      "t": "68",
-     "por": "Es NaCl 20 % (valor de la lámina)."
+     "por": "68 es el valor que la lámina da para el NaCl 20 % (ver la nota sobre la unidad)."
     },
     {
      "t": "20",
-     "por": "Es bicarbonato 8.5 %."
+     "por": "20 es el valor que la lámina da para el bicarbonato de sodio 8.5 % (ver la nota sobre la unidad)."
     }
    ],
    "correcta": 0,
-   "explicacion": "Soluciones: NaCl 3 % 513; 0.9 % 154; 20 % 68; bicarbonato de sodio 8.5 % 20 mEq/L.",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 17"
+   "explicacion": "Soluciones de la lámina: NaCl 3 % = 513; NaCl 0.9 % = 154; NaCl 20 % = 68; bicarbonato de sodio 8.5 % = 20. Los dos últimos valores corresponden en realidad a una ampolla de 20 mL (no a un litro).",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 17",
+   "nota": "NaCl 20 % tiene unos 3400 mEq/L y el bicarbonato 8.5 % unos 1000 mEq/L; los 68 y 20 de la lámina son los mEq de una ampolla de 20 mL. Se usan así en los casos de la clase (1 ampolla en 1 L). Para el examen, usa los números de la lámina."
   },
   {
    "id": "n-na-meta",
@@ -317,7 +319,7 @@
    "correcta": 0,
    "explicacion": "Con la meta de 8 mEq/L en 24 h: 433 mL, es decir unos 18.0 mL/h por bomba de infusión y control de electrolitos cada 3 a 4 horas.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 20",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (valor que da la lámina); dextrosa 5 % no tiene sodio.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (mEq por ampolla de 20 mL, como en la lámina); dextrosa 5 % no tiene sodio.",
    "nota": "La lámina redondea el ACT a 21 y obtiene 18.2 mEq/L, 440 mL y 18.3 mL/h; con 20.7 el resultado cambia ligeramente."
   },
   {
@@ -325,11 +327,11 @@
    "area": "nefro",
    "tema": "Sodio",
    "dif": 3,
-   "enunciado": "En el mismo caso (cambio de 18.2 mEq/L por litro de NaCl 3 %), ¿qué volumen se necesita para subir 8 mEq/L?",
+   "enunciado": "En el mismo caso (cambio de unos 18 mEq/L por litro de NaCl 3 %; la lámina obtiene 18.2 al redondear el ACT a 21), ¿qué volumen se necesita para subir 8 mEq/L?",
    "opciones": [
     {
      "t": "≈ 440 mL en 24 horas (≈ 18 mL/h)",
-     "por": "8 / 18.2 = 0.44 L."
+     "por": "8 / 18.2 = 0.44 L (con 18.5 sale unos 433 mL). Es la misma meta de 8 mEq/L en 24 horas."
     },
     {
      "t": "1000 mL en 24 horas",
@@ -347,7 +349,7 @@
    "correcta": 0,
    "explicacion": "Volumen = cambio deseado ÷ cambio por litro. Velocidad = volumen ÷ 24 h.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 20",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (valor que da la lámina); dextrosa 5 % no tiene sodio."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (mEq por ampolla de 20 mL, como en la lámina); dextrosa 5 % no tiene sodio."
   },
   {
    "id": "n-na-hn",
@@ -398,7 +400,7 @@
     },
     {
      "t": "Ingesta excesiva de sal",
-     "por": "No."
+     "por": "La ingesta excesiva de sal da hipernatremia por exceso de sodio, no la pérdida pura de agua de la diabetes insípida central."
     }
    ],
    "correcta": 0,
@@ -418,11 +420,11 @@
     },
     {
      "t": "Juventud",
-     "por": "No."
+     "por": "En la juventud la sed y la función renal están conservadas; no es un factor de riesgo característico."
     },
     {
      "t": "Ingesta alta de agua",
-     "por": "No."
+     "por": "Una ingesta alta de agua tiende a bajar el sodio, no a subirlo."
     },
     {
      "t": "Hiperaldosteronismo aislado",

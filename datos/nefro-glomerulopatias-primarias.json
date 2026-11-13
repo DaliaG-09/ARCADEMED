@@ -255,7 +255,7 @@
     },
     {
      "t": "Oliguria con semilunas en casi todos los glomérulos",
-     "por": "Eso es GNRP."
+     "por": "Oliguria con semilunas en casi todos los glomérulos es la GNRP (glomerulonefritis rápidamente progresiva), no la presentación típica de la IgA."
     },
     {
      "t": "Solo rash con artritis",
@@ -521,7 +521,8 @@
    ],
    "correcta": 0,
    "explicacion": "Recaídas frecuentes: 2 o más en 6 meses o 3 en un año. Corticodependiente: recae al bajar la dosis o en las 2 semanas siguientes. Corticorresistente inicial: no responde en las primeras 8 a 12 semanas.",
-   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 28 a 30"
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 28 a 30",
+   "contexto": "Recaída y remisión en síndrome nefrótico pediátrico: definiciones por proteinuria que sirven para decidir si el niño responde a corticoides."
   },
   {
    "id": "n-gp1-rem2",
@@ -549,7 +550,8 @@
    ],
    "correcta": 0,
    "explicacion": "Corticosensible: respondedor inicial (remisión en 8 a 12 semanas), brote único, recaídas infrecuentes, recaídas frecuentes, corticodependiente, corticosensible tardío. Corticorresistente: inicial, tardío, permanente.",
-   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 29 y 30"
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 29 y 30",
+   "contexto": "Patrones de respuesta a corticoides en síndrome nefrótico pediátrico: sirven para clasificar al niño (corticosensible, corticodependiente, corticorresistente) y decidir el tratamiento."
   }
  ],
  "tarjetas": [

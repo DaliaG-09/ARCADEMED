@@ -1661,35 +1661,8 @@
    "correcta": 0,
    "explicacion": "Lámina 11: hombres 0.6 × peso, mujeres 0.5 × peso, ancianos (> 65 años) 0.5 × peso.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, ancianos (más de 65 años) 0.5 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta de la lámina es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
-  },
-  {
-   "id": "n-elec-c-513",
-   "area": "nefro",
-   "tema": "Taller electrolitos",
-   "dif": 1,
-   "enunciado": "¿Cuántos mEq/L de sodio tiene el cloruro de sodio al 3 %?",
-   "opciones": [
-    {
-     "t": "513 mEq/L",
-     "por": "Es la cifra de la lámina 11."
-    },
-    {
-     "t": "154 mEq/L",
-     "por": "Es la concentración del NaCl 0.9 %."
-    },
-    {
-     "t": "77 mEq/L",
-     "por": "Es la concentración del NaCl 0.45 %."
-    },
-    {
-     "t": "1026 mEq/L",
-     "por": "Es el doble de la real."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Lámina 11: NaCl 0.9 % = 154 mEq/L y NaCl 3 % = 513 mEq/L.",
-   "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11"
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, ancianos (más de 65 años) 0.5 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta de la lámina es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
+   "nota": "En la clase de sodio (sem. 9) la mujer anciana usa 0.45 y el varón anciano 0.5; el taller usa 0.5 para ancianos en general. Usa el valor que te indique el enunciado."
   },
   {
    "id": "n-elec-c-meta",
