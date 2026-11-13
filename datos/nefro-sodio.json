@@ -62,7 +62,7 @@
    "area": "nefro",
    "tema": "Sodio",
    "dif": 2,
-   "enunciado": "¿Cuál es la fórmula de osmolaridad plasmática de la clase?",
+   "enunciado": "¿Cuál es la fórmula de la osmolaridad plasmática?",
    "opciones": [
     {
      "t": "2 × Na⁺ + glucosa/18 + urea/6",
@@ -476,7 +476,7 @@
    "area": "nefro",
    "tema": "Sodio",
    "dif": 2,
-   "enunciado": "En hipernatremia, ¿qué ritmo de descenso de sodio indica la clase?",
+   "enunciado": "En hipernatremia, ¿qué ritmo máximo de descenso de sodio se indica?",
    "opciones": [
     {
      "t": "No más de 8 mEq/L en las primeras 24 horas",
@@ -560,36 +560,12 @@
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 17"
   },
   {
-   "id": "n-na-c-3",
-   "area": "nefro",
-   "tema": "Sodio",
-   "f": "¿Cuál es la fórmula de Adrogué-Madias para calcular el cambio de sodio?",
-   "b": "(Na infundido − Na sérico)/(ACT+1)",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 19"
-  },
-  {
-   "id": "n-na-c-4",
-   "area": "nefro",
-   "tema": "Sodio",
-   "f": "¿Qué factor se multiplica por el peso para calcular el agua corporal total (ACT) según el paciente?",
-   "b": "Hombre 0.6; mujer 0.5; anciano 0.5; anciana 0.45 (× peso)",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 9"
-  },
-  {
    "id": "n-na-c-5",
    "area": "nefro",
    "tema": "Sodio",
    "f": "¿Cómo se define la hipernatremia y qué refleja?",
    "b": "Na⁺ >145; déficit relativo de agua",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 22"
-  },
-  {
-   "id": "n-na-c-6",
-   "area": "nefro",
-   "tema": "Sodio",
-   "f": "¿Cuál es el límite máximo de corrección de sodio en 24 horas?",
-   "b": "Máximo 8 mEq/L en 24 h",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 26"
   },
   {
    "id": "n-na-c-7",

@@ -269,7 +269,7 @@
    "area": "nefro",
    "tema": "Tuberculosis renal y de vías urinarias",
    "dif": 2,
-   "enunciado": "Terminada la fase inicial de 2 meses del tratamiento de TBC, ¿cómo sigue el esquema según la lámina?",
+   "enunciado": "Terminada la fase inicial de 2 meses del tratamiento de TBC, ¿cómo sigue el esquema?",
    "opciones": [
     {
      "t": "Continuación de 4 a 7 meses con isoniazida y rifampicina",
@@ -299,7 +299,7 @@
    "area": "nefro",
    "tema": "Tuberculosis renal y de vías urinarias",
    "dif": 3,
-   "enunciado": "En el caso de la clase (varón de 65 años con TBC renal) se indican rifampicina, isoniazida y pirazinamida. ¿Qué fármaco del esquema inicial completo falta?",
+   "enunciado": "Varón de 65 años con TBC renal que recibe rifampicina, isoniazida y pirazinamida. ¿Qué fármaco del esquema inicial completo falta?",
    "opciones": [
     {
      "t": "Etambutol",

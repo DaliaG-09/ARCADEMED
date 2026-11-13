@@ -5,7 +5,7 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 1,
-   "enunciado": "Según la clase, ¿cómo se clasifica la diarrea por su duración?",
+   "enunciado": "¿Cómo se clasifica la diarrea por su duración?",
    "opciones": [
     {
      "t": "Aguda menor de 14 días, subaguda de 14 a 30 días y crónica de más de 30 días",
@@ -34,7 +34,7 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 1,
-   "enunciado": "¿Qué afirmación sobre la diarrea aguda es correcta según la clase?",
+   "enunciado": "¿Qué afirmación sobre la diarrea aguda es correcta?",
    "opciones": [
     {
      "t": "Se autolimita con buen saneamiento y agua potable",
@@ -188,7 +188,7 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 3,
-   "enunciado": "En la tabla de tratamiento dirigido, ¿qué antibiótico es la primera elección para colitis por Clostridioides difficile?",
+   "enunciado": "¿qué antibiótico es la primera elección para colitis por Clostridioides difficile?",
    "opciones": [
     {
      "t": "Fidaxomicina (Dificid)",

@@ -34,7 +34,7 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 2,
-   "enunciado": "¿Qué se afirma en la clase sobre la tuberculosis en la población con VIH?",
+   "enunciado": "¿Qué importancia tiene la tuberculosis en la población con VIH?",
    "opciones": [
     {
      "t": "Principal causa de muerte en personas con VIH",
@@ -295,7 +295,7 @@
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
    "dif": 2,
-   "enunciado": "¿Cuál es el esquema de tratamiento para tuberculosis abdominal que propone la clase?",
+   "enunciado": "¿Cuál es el esquema de tratamiento de la tuberculosis abdominal?",
    "opciones": [
     {
      "t": "9 meses: 2 con HRZE y 7 con isoniacida y rifampicina",

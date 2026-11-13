@@ -127,7 +127,7 @@
    "area": "nefro",
    "tema": "Glomerulopatías primarias",
    "dif": 1,
-   "enunciado": "Según esta clase, ¿cuál es la causa más común de síndrome nefrótico en adultos?",
+   "enunciado": "¿Cuál es la causa más común de síndrome nefrótico en adultos?",
    "opciones": [
     {
      "t": "Glomerulonefritis membranosa",
@@ -337,7 +337,7 @@
    "area": "nefro",
    "tema": "Glomerulopatías primarias",
    "dif": 2,
-   "enunciado": "¿Qué causas secundarias de GEFS menciona la lámina?",
+   "enunciado": "¿Qué causas secundarias de GEFS se conocen?",
    "opciones": [
     {
      "t": "VIH, heroína, obesidad, drepanocitosis",
@@ -366,7 +366,7 @@
    "area": "nefro",
    "tema": "Glomerulopatías primarias",
    "dif": 3,
-   "enunciado": "Paciente con GEFS primaria que no responde a corticoides. ¿Qué plantea la lámina?",
+   "enunciado": "Paciente con GEFS primaria que no responde a corticoides. ¿Qué se plantea?",
    "opciones": [
     {
      "t": "Ciclosporina o micofenolato más IECA",

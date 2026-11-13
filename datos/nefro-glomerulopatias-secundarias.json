@@ -35,7 +35,7 @@
    "area": "nefro",
    "tema": "Glomerulopatías secundarias",
    "dif": 1,
-   "enunciado": "¿En qué porcentaje de pacientes con lupus aparece nefritis lúpica según la clase?",
+   "enunciado": "¿En qué porcentaje de pacientes con lupus aparece nefritis lúpica?",
    "opciones": [
     {
      "t": "En 30 a 70 %",
@@ -123,7 +123,7 @@
    "area": "nefro",
    "tema": "Glomerulopatías secundarias",
    "dif": 3,
-   "enunciado": "¿Cómo se origina el daño en la nefritis lúpica según la lámina de patogenia?",
+   "enunciado": "¿Cómo se origina el daño en la nefritis lúpica?",
    "opciones": [
     {
      "t": "ANA y mala depuración de restos apoptóticos",
@@ -213,7 +213,7 @@
    "area": "nefro",
    "tema": "Glomerulopatías secundarias",
    "dif": 3,
-   "enunciado": "¿Qué tratamiento propone la lámina para lograr la remisión de una nefritis lúpica proliferativa?",
+   "enunciado": "¿Qué tratamiento se propone para lograr la remisión de una nefritis lúpica proliferativa?",
    "opciones": [
     {
      "t": "Metilprednisolona y ciclofosfamida",
@@ -277,7 +277,7 @@
    "area": "nefro",
    "tema": "Glomerulopatías secundarias",
    "dif": 2,
-   "enunciado": "Paciente con púrpura palpable, hipocomplementemia, hematuria y proteinuria, con glomerulonefritis de aspecto membranoproliferativo. ¿Qué diagnóstico plantea la lámina?",
+   "enunciado": "Paciente con púrpura palpable, hipocomplementemia, hematuria y proteinuria, con glomerulonefritis de aspecto membranoproliferativo. ¿Qué diagnóstico plantea este cuadro?",
    "opciones": [
     {
      "t": "Crioglobulinemia mixta tipo II",
@@ -511,7 +511,7 @@
    "area": "nefro",
    "tema": "Glomerulopatías secundarias",
    "dif": 3,
-   "enunciado": "Varón de 65 años, DM2 de 5 años, prostatectomía 8 días antes. Hematuria persistente, hipertensión, anemia y edemas. Ecografía: riñones sin obstrucción con aumento de reflectividad cortical. Creatinina 6 mg/dL y proteinuria nefrótica que la diabetes no explica por sí sola. ¿Qué diagnóstico da la clase?",
+   "enunciado": "Varón de 65 años, DM2 de 5 años, prostatectomía 8 días antes. Hematuria persistente, hipertensión, anemia y edemas. Ecografía: riñones sin obstrucción con aumento de reflectividad cortical. Creatinina 6 mg/dL y proteinuria nefrótica que la diabetes no explica por sí sola. ¿Cuál es el diagnóstico más probable?",
    "opciones": [
     {
      "t": "GNRP secundaria a vasculitis",
@@ -583,7 +583,7 @@
    "area": "nefro",
    "tema": "Glomerulopatías secundarias",
    "f": "¿Qué es la púrpura de Henoch-Schönlein y qué depósitos muestra?",
-   "b": "Depósitos mesangiales de IgA; niños; púrpura, artralgias, dolor abdominal, riñón.",
+   "b": "IgA en pequeños vasos; depósitos mesangiales; niños; púrpura, artralgias, dolor abdominal y riñón (hematuria).",
    "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 20"
   },
   {

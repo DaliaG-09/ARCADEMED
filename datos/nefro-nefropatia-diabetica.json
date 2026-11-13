@@ -62,7 +62,7 @@
    "area": "nefro",
    "tema": "Nefropatía diabética",
    "dif": 2,
-   "enunciado": "¿Cuál es un factor de riesgo de nefropatía diabética según la lámina?",
+   "enunciado": "¿Cuál es un factor de riesgo de nefropatía diabética?",
    "opciones": [
     {
      "t": "Mal control glucémico sostenido",
@@ -181,8 +181,7 @@
    "opciones": [
     {
      "t": "Intermedia (nefropatía incipiente o establecida)",
-     "por": "Hay proteinuria mayor de 300 mg/día, edema e hipertensión; el filtrado cae poco a poco. Suele coexistir con retinopatía y neuropatía.",
-     "full": "Intermedia (nefropatía incipiente o establecida)"
+     "por": "Hay proteinuria mayor de 300 mg/día, edema e hipertensión; el filtrado cae poco a poco. Suele coexistir con retinopatía y neuropatía."
     },
     {
      "t": "Fase silente",
@@ -235,7 +234,7 @@
    "area": "nefro",
    "tema": "Nefropatía diabética",
    "dif": 2,
-   "enunciado": "Criterios diagnósticos de nefropatía diabética:",
+   "enunciado": "¿Cuáles son los criterios diagnósticos de nefropatía diabética?",
    "opciones": [
     {
      "t": "Albuminuria >30 mg/g persistente con DM >5 años",

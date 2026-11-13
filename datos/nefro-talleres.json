@@ -791,7 +791,7 @@
    "area": "nefro",
    "tema": "Gases arteriales: práctica",
    "dif": 2,
-   "enunciado": "Paciente con acidosis respiratoria y pCO₂ de 60 mmHg. ¿Cuál es el HCO₃⁻ esperado con la fórmula de la lámina 4?",
+   "enunciado": "Paciente con acidosis respiratoria y pCO₂ de 60 mmHg. ¿Cuál es el HCO₃⁻ esperado con la fórmula de compensación?",
    "opciones": [
     {
      "t": "26 mEq/L",
@@ -820,7 +820,7 @@
    "area": "nefro",
    "tema": "Gases arteriales: práctica",
    "dif": 2,
-   "enunciado": "Paciente con acidosis respiratoria y pCO₂ de 70 mmHg. ¿Cuál es el HCO₃⁻ esperado con la fórmula de la lámina 4?",
+   "enunciado": "Paciente con acidosis respiratoria y pCO₂ de 70 mmHg. ¿Cuál es el HCO₃⁻ esperado con la fórmula de compensación?",
    "opciones": [
     {
      "t": "27 mEq/L",
@@ -849,7 +849,7 @@
    "area": "nefro",
    "tema": "Gases arteriales: práctica",
    "dif": 2,
-   "enunciado": "Paciente con alcalosis respiratoria y pCO₂ de 30 mmHg. ¿Cuál es el HCO₃⁻ esperado con la fórmula de la lámina 4?",
+   "enunciado": "Paciente con alcalosis respiratoria y pCO₂ de 30 mmHg. ¿Cuál es el HCO₃⁻ esperado con la fórmula de compensación?",
    "opciones": [
     {
      "t": "22 mEq/L",
@@ -878,7 +878,7 @@
    "area": "nefro",
    "tema": "Gases arteriales: práctica",
    "dif": 2,
-   "enunciado": "Paciente con alcalosis respiratoria y pCO₂ de 25 mmHg. ¿Cuál es el HCO₃⁻ esperado con la fórmula de la lámina 4?",
+   "enunciado": "Paciente con alcalosis respiratoria y pCO₂ de 25 mmHg. ¿Cuál es el HCO₃⁻ esperado con la fórmula de compensación?",
    "opciones": [
     {
      "t": "21 mEq/L",
@@ -994,7 +994,7 @@
    "area": "nefro",
    "tema": "Taller electrolitos",
    "dif": 3,
-   "enunciado": "Varón de 30 años, 70 kg, náufrago rescatado tras 2 días a la deriva; bebió abundante agua de mar. Obnubilación severa, hiperreflexia, mioclonías, llanto sin lágrimas y signos de depleción de volumen intracelular.\nAGA: pH 7.22, pCO₂ 30 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 168, Cl⁻ 130 mEq/L. Glucosa 480 mg/dL.\n\n¿Cuál es el resumen diagnóstico de la lámina?",
+   "enunciado": "Varón de 30 años, 70 kg, náufrago rescatado tras 2 días a la deriva; bebió abundante agua de mar. Obnubilación severa, hiperreflexia, mioclonías, llanto sin lágrimas y signos de depleción de volumen intracelular.\nAGA: pH 7.22, pCO₂ 30 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 168, Cl⁻ 130 mEq/L. Glucosa 480 mg/dL.\n\n¿Cuál es el resumen diagnóstico de este caso?",
    "opciones": [
     {
      "t": "Acidosis metabólica con anion gap elevado, acidosis respiratoria agregada e hipernatremia extrema",
@@ -1141,7 +1141,7 @@
    "area": "nefro",
    "tema": "Taller electrolitos",
    "dif": 2,
-   "enunciado": "Mujer de 45 años, 65 kg, con hipertensión arterial severa refractaria a varios fármacos. Consulta por episodios de debilidad muscular marcada y parestesias proximales. PA 190/110, sin edemas, estado neurológico conservado y abolición de reflejos osteotendinosos.\nAGA: pH 7.48, pCO₂ 46 mmHg, HCO₃⁻ 33 mEq/L.\nElectrolitos: Na⁺ 155, K⁺ 2.5, Cl⁻ 105 mEq/L.\n\n¿Qué mecanismo explica este cuadro, según la lámina?",
+   "enunciado": "Mujer de 45 años, 65 kg, con hipertensión arterial severa refractaria a varios fármacos. Consulta por episodios de debilidad muscular marcada y parestesias proximales. PA 190/110, sin edemas, estado neurológico conservado y abolición de reflejos osteotendinosos.\nAGA: pH 7.48, pCO₂ 46 mmHg, HCO₃⁻ 33 mEq/L.\nElectrolitos: Na⁺ 155, K⁺ 2.5, Cl⁻ 105 mEq/L.\n\n¿Qué mecanismo explica este cuadro?",
    "opciones": [
     {
      "t": "Exceso de aldosterona: retiene Na⁺ y pierde K⁺",
@@ -1317,7 +1317,7 @@
    "area": "nefro",
    "tema": "Taller electrolitos",
    "dif": 1,
-   "enunciado": "Varón de 72 años, 60 kg, con fibrilación auricular. Dolor abdominal súbito desproporcionado y abdomen distendido.\nAGA: pH 7.21, pCO₂ 32 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 115, K⁺ 5.1, Cl⁻ 85 mEq/L. Albúmina 4.0 g/dL. Lactato elevado.\n\n¿Qué ACT usas, según la lámina?",
+   "enunciado": "Varón de 72 años, 60 kg, con fibrilación auricular. Dolor abdominal súbito desproporcionado y abdomen distendido.\nAGA: pH 7.21, pCO₂ 32 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 115, K⁺ 5.1, Cl⁻ 85 mEq/L. Albúmina 4.0 g/dL. Lactato elevado.\n\n¿Cuál es su agua corporal total (ACT) para calcular la infusión de sodio?",
    "opciones": [
     {
      "t": "30 L",
@@ -1672,7 +1672,7 @@
    "area": "nefro",
    "tema": "Taller electrolitos",
    "dif": 1,
-   "enunciado": "Según la lámina de la fórmula de Adrogué-Madias, ¿cuál es la meta de corrección del sodio en 24 horas?",
+   "enunciado": "En la fórmula de Adrogué-Madias, ¿cuál es la meta de corrección del sodio en 24 horas?",
    "opciones": [
     {
      "t": "Aumentar 4 a 8 mEq/L",
@@ -2140,15 +2140,7 @@
    "area": "nefro",
    "tema": "Taller electrolitos",
    "f": "¿Cómo se calcula el ACT (agua corporal total)?",
-   "b": "Hombres 0.6 × peso (kg)\nMujeres 0.5 × peso\nAncianos (más de 65 años) 0.5 × peso",
-   "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11"
-  },
-  {
-   "id": "n-t-elec-nacl",
-   "area": "nefro",
-   "tema": "Taller electrolitos",
-   "f": "Sodio de las soluciones: NaCl 0.9 % y NaCl 3 %",
-   "b": "NaCl 0.9 % = 154 mEq/L\nNaCl 3 % = 513 mEq/L",
+   "b": "Hombres 0.6 × peso (kg)\nMujeres 0.5 × peso\nAncianos (más de 65 años) 0.5 × peso / En la clase de sodio, anciana 0.45 × peso.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11"
   },
   {

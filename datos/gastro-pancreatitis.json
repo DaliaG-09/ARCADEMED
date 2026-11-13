@@ -5,7 +5,7 @@
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
    "dif": 1,
-   "enunciado": "¿Cómo define la clase a la pancreatitis aguda?",
+   "enunciado": "¿Cómo se define la pancreatitis aguda?",
    "opciones": [
     {
      "t": "Inflamación pancreática con lesión local, SIRS y posible falla orgánica",
@@ -94,7 +94,7 @@
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
    "dif": 2,
-   "enunciado": "¿Cuántos criterios se necesitan para diagnosticar pancreatitis aguda y cuáles son?",
+   "enunciado": "¿Cuántos criterios se necesitan para diagnosticar pancreatitis aguda?",
    "opciones": [
     {
      "t": "Dos de tres criterios",
@@ -328,7 +328,7 @@
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
    "dif": 2,
-   "enunciado": "¿Qué solución se prefiere para la hidratación en pancreatitis aguda según la lámina?",
+   "enunciado": "¿Qué solución se prefiere para la hidratación en pancreatitis aguda?",
    "opciones": [
     {
      "t": "Lactato de Ringer, por su mejor balance de electrolitos",
@@ -394,7 +394,7 @@
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
    "dif": 2,
-   "enunciado": "¿Qué analgésicos recomienda la clase en la pancreatitis aguda?",
+   "enunciado": "¿Qué analgésicos se recomiendan en la pancreatitis aguda?",
    "opciones": [
     {
      "t": "Opiáceos (tramadol, morfina o petidina), no AINE",

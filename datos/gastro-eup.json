@@ -151,7 +151,7 @@
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
    "dif": 3,
-   "enunciado": "Según la tabla de Forrest, ¿qué lesión tiene el mayor riesgo de resangrado sin tratamiento?",
+   "enunciado": "En la clasificación de Forrest, ¿qué lesión tiene el mayor riesgo de resangrado sin tratamiento?",
    "opciones": [
     {
      "t": "Forrest IA o IB, cerca de 55 %",
@@ -185,7 +185,7 @@
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
    "dif": 2,
-   "enunciado": "Paciente con úlcera por H. pylori, sin alergia a la amoxicilina. ¿Cuál es el esquema de cuadriterapia con bismuto de la lámina?",
+   "enunciado": "Paciente con úlcera por H. pylori, sin alergia a la amoxicilina. ¿Cuál es el esquema de cuadriterapia con bismuto?",
    "opciones": [
     {
      "t": "IBP, amoxicilina, metronidazol y bismuto",
@@ -218,7 +218,7 @@
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
    "dif": 3,
-   "enunciado": "Falló la primera línea de erradicación de H. pylori. ¿Qué indica la lámina como segunda línea?",
+   "enunciado": "Falló la primera línea de erradicación de H. pylori. ¿Qué se indica como segunda línea?",
    "opciones": [
     {
      "t": "IBP, tetraciclina, metronidazol y bismuto cada 6 h",
@@ -251,7 +251,7 @@
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
    "dif": 2,
-   "enunciado": "¿Qué esquema usa la lámina para el paciente con H. pylori ALÉRGICO a la amoxicilina?",
+   "enunciado": "¿Qué esquema se usa en el paciente con H. pylori ALÉRGICO a la amoxicilina?",
    "opciones": [
     {
      "t": "IBP, tetraciclina, metronidazol y bismuto cada 8 h",
@@ -284,7 +284,7 @@
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
    "dif": 2,
-   "enunciado": "¿Qué dice la clase sobre los antiinflamatorios y la úlcera?",
+   "enunciado": "¿Cómo se relacionan los antiinflamatorios y la aspirina con la úlcera péptica?",
    "opciones": [
     {
      "t": "COX-2 selectivos bajan 75 % las úlceras",

@@ -34,7 +34,7 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "Según la clasificación de Chapel Hill de la clase, ¿qué vasculitis son 'asociadas a ANCA' de pequeños vasos?",
+   "enunciado": "Según la clasificación de Chapel Hill, ¿qué vasculitis son 'asociadas a ANCA' de pequeños vasos?",
    "opciones": [
     {
      "t": "Poliangeítis microscópica, GPA y Churg-Strauss",
@@ -124,7 +124,7 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "Paciente con vasculitis y afectación renal. ¿Qué tratamiento de inducción propone la clase?",
+   "enunciado": "Paciente con vasculitis y afectación renal. ¿Qué tratamiento de inducción se indica?",
    "opciones": [
     {
      "t": "Glucocorticoides más ciclofosfamida o rituximab",
@@ -183,7 +183,7 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "¿Qué tratamiento propone la clase para la nefritis de Henoch-Schönlein?",
+   "enunciado": "¿Qué tratamiento se indica en la nefritis de Henoch-Schönlein?",
    "opciones": [
     {
      "t": "Soporte y glucocorticoides si hay compromiso renal",
@@ -479,7 +479,7 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "Según los criterios SLICC 2012 de la clase, ¿cuándo se clasifica a un paciente como portador de lupus?",
+   "enunciado": "Según los criterios SLICC 2012, ¿cuándo se clasifica a un paciente como portador de lupus?",
    "opciones": [
     {
      "t": "Biopsia lúpica con ANA o anti-DNA, o 4 criterios",
@@ -509,7 +509,7 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "¿Qué lesiones renales se asocian a la artritis reumatoide según la clase?",
+   "enunciado": "¿Qué lesiones renales se asocian a la artritis reumatoide?",
    "opciones": [
     {
      "t": "GN membranosa y amiloidosis secundaria",
@@ -539,7 +539,7 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "¿Qué afectación renal se asocia a la hepatitis C y a la hepatitis B según la clase?",
+   "enunciado": "¿Qué afectación renal se asocia a la hepatitis C y a la hepatitis B?",
    "opciones": [
     {
      "t": "VHC: crioglobulinemia y GNMP; VHB: GN postinfecciosa",
@@ -568,7 +568,7 @@
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
-   "enunciado": "¿Qué metas generales plantea la clase para las enfermedades sistémicas con afectación renal?",
+   "enunciado": "¿Qué metas generales se plantean en las enfermedades sistémicas con afectación renal?",
    "opciones": [
     {
      "t": "PA <130/80 y proteinuria <300 mg/día",
@@ -654,14 +654,6 @@
   }
  ],
  "tarjetas": [
-  {
-   "id": "n-sis-c-0",
-   "area": "nefro",
-   "tema": "Enfermedades sistémicas y riñón",
-   "f": "¿Qué es la púrpura de Henoch-Schönlein y qué cuadro produce?",
-   "b": "IgA en pequeños vasos; púrpura, artritis, dolor abdominal, hematuria.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 12"
-  },
   {
    "id": "n-sis-c-1",
    "area": "nefro",

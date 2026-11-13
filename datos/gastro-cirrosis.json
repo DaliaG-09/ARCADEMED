@@ -34,7 +34,7 @@
    "area": "gastro",
    "tema": "Cirrosis hepática",
    "dif": 1,
-   "enunciado": "¿Cuál es la causa más frecuente de cirrosis en la lámina de etiología?",
+   "enunciado": "¿Cuál es la causa más frecuente de cirrosis?",
    "opciones": [
     {
      "t": "Alcohol (30 a 50 %)",
@@ -149,7 +149,7 @@
    "area": "gastro",
    "tema": "Cirrosis hepática",
    "dif": 3,
-   "enunciado": "Según la tabla de Child-Pugh de la clase, ¿qué rango de puntaje corresponde a la clase B?",
+   "enunciado": "En la escala de Child-Pugh, ¿qué rango de puntaje corresponde a la clase B?",
    "opciones": [
     {
      "t": "7 a 9 puntos",
@@ -242,7 +242,7 @@
    "area": "gastro",
    "tema": "Cirrosis hepática",
    "dif": 2,
-   "enunciado": "¿Qué medida general indica la lámina para el paciente con cirrosis?",
+   "enunciado": "¿Qué medida general se indica en el paciente con cirrosis?",
    "opciones": [
     {
      "t": "Tratar la causa, evitar alcohol, AINE y sedantes, y vacunar",

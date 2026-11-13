@@ -34,7 +34,7 @@
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
    "dif": 2,
-   "enunciado": "¿Qué genes se relacionan con la susceptibilidad a la EII en la lámina de etiopatogenia?",
+   "enunciado": "¿Qué genes se relacionan con la susceptibilidad a la EII?",
    "opciones": [
     {
      "t": "NOD2/CARD15, TLR4 e IL-23R",
@@ -325,7 +325,7 @@
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
    "dif": 2,
-   "enunciado": "Según la tabla de complicaciones, ¿cuál de estas manifestaciones aparece SOLO en la enfermedad de Crohn y no en la colitis ulcerosa?",
+   "enunciado": "¿cuál de estas manifestaciones aparece SOLO en la enfermedad de Crohn y no en la colitis ulcerosa?",
    "opciones": [
     {
      "t": "Úlceras orales (aftas)",
@@ -382,7 +382,7 @@
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
    "dif": 2,
-   "enunciado": "Paciente con colitis ulcerosa distal leve a moderada. ¿Qué indica la clase?",
+   "enunciado": "Paciente con colitis ulcerosa distal leve a moderada. ¿Qué tratamiento se indica?",
    "opciones": [
     {
      "t": "Mesalazina tópica durante 4 a 6 semanas",
@@ -418,7 +418,7 @@
    "enunciado": "Brote moderado de colitis ulcerosa: ¿qué indica el algoritmo y qué se hace si no hay respuesta en 1 a 2 semanas?",
    "opciones": [
     {
-     "t": "Corticoides orales 1 mg/kg",
+     "t": "Corticoides orales; sin respuesta, esteroides IV",
      "por": "Si responde, se disminuye el esteroide progresivamente y se pasa al tratamiento de mantenimiento.",
      "full": "Corticoides orales (1 mg/kg, con o sin tratamiento tópico); sin respuesta, ingresar y tratar como brote grave con esteroides intravenosos"
     },

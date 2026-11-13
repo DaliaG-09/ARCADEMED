@@ -5,7 +5,7 @@
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
    "dif": 1,
-   "enunciado": "¿Cómo define la clase a la enfermedad por reflujo gastroesofágico (ERGE)?",
+   "enunciado": "¿Cómo se define la enfermedad por reflujo gastroesofágico (ERGE)?",
    "opciones": [
     {
      "t": "Trastorno de motilidad con reflujo gástrico a esófago y síntomas",
@@ -149,7 +149,7 @@
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
    "dif": 1,
-   "enunciado": "¿Cuál de estos NO es un factor de riesgo para ERGE según la clase?",
+   "enunciado": "¿Cuál de estos NO es un factor de riesgo para ERGE?",
    "opciones": [
     {
      "t": "Dieta rica en fibra y frutas",
@@ -178,7 +178,7 @@
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
    "dif": 2,
-   "enunciado": "¿Cuáles son los tres mecanismos de defensa antirreflujo de la lámina?",
+   "enunciado": "¿Cuáles son los tres mecanismos de defensa antirreflujo?",
    "opciones": [
     {
      "t": "Barrera antirreflujo, aclaramiento esofágico y barrera esofágica",
@@ -206,7 +206,7 @@
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
    "dif": 1,
-   "enunciado": "¿Cuál es el síntoma más frecuente de la ERGE en la lámina de clínica?",
+   "enunciado": "¿Cuál es el síntoma más frecuente de la ERGE?",
    "opciones": [
     {
      "t": "Pirosis (75 %)",
@@ -294,7 +294,7 @@
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
    "dif": 2,
-   "enunciado": "Paciente con pirosis y regurgitación típicas, sin signos de alarma. ¿Cuál es el siguiente paso según las guías de la clase?",
+   "enunciado": "Paciente con pirosis y regurgitación típicas, sin signos de alarma. ¿Cuál es el siguiente paso?",
    "opciones": [
     {
      "t": "IBP de prueba por 2 a 4 semanas",
@@ -360,7 +360,7 @@
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
    "dif": 3,
-   "enunciado": "¿Cuál es una desventaja de la pH-metría esofágica según la clase?",
+   "enunciado": "¿Cuál es una desventaja de la pH-metría esofágica?",
    "opciones": [
     {
      "t": "Solo mide reflujo líquido y no el duodenogastroesofágico",
@@ -455,7 +455,7 @@
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
    "dif": 1,
-   "enunciado": "¿Cuál de estas medidas de estilo de vida recomienda la clase?",
+   "enunciado": "¿Cuál de estas medidas de estilo de vida se recomienda en ERGE?",
    "opciones": [
     {
      "t": "Elevar cabecera 15 a 25 cm y no acostarse 2 a 3 h tras comer",

@@ -90,7 +90,7 @@
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
    "dif": 2,
-   "enunciado": "Un paciente con cirrosis presenta sangrado por várices esofágicas. Según la clase, ¿cuál es el tratamiento endoscópico?",
+   "enunciado": "Un paciente con cirrosis presenta sangrado por várices esofágicas. ¿Cuál es el tratamiento endoscópico?",
    "opciones": [
     {
      "t": "Ligadura endoscópica de las várices",
@@ -119,7 +119,7 @@
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
    "dif": 2,
-   "enunciado": "¿Qué es la lesión de Dieulafoy, que la clase incluye entre las causas vasculares de HDA?",
+   "enunciado": "¿Qué es la lesión de Dieulafoy, una causa vascular de HDA?",
    "opciones": [
     {
      "t": "Arteria submucosa gástrica aberrante y de gran calibre",
@@ -148,7 +148,7 @@
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
    "dif": 2,
-   "enunciado": "Un adulto mayor con anemia, pérdida de peso, saciedad precoz y vómitos de retención presenta hematemesis. Según la clase, ¿qué causa de HDA es la más probable?",
+   "enunciado": "Un adulto mayor con anemia, pérdida de peso, saciedad precoz y vómitos de retención presenta hematemesis. ¿Qué causa de HDA es la más probable?",
    "opciones": [
     {
      "t": "Neoplasia",
@@ -176,7 +176,7 @@
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
    "dif": 3,
-   "enunciado": "Un paciente con sospecha de HDA está hemodinámicamente estable (PAS >100 mmHg y FC <100 lat/min). Según el algoritmo de la clase, ¿cuál es la conducta inicial?",
+   "enunciado": "Un paciente con sospecha de HDA está hemodinámicamente estable (PAS >100 mmHg y FC <100 lat/min). ¿Cuál es la conducta inicial?",
    "opciones": [
     {
      "t": "Vías periféricas, volumen, IBP 80 mg en bolo, transfusión restrictiva y endoscopía <24 h",
@@ -354,7 +354,7 @@
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
    "dif": 3,
-   "enunciado": "En un paciente hemodinámicamente estable con HDB, ¿cómo se hace el estudio endoscópico según la clase?",
+   "enunciado": "En un paciente hemodinámicamente estable con HDB, ¿cómo se hace el estudio endoscópico?",
    "opciones": [
     {
      "t": "Colonoscopia en 24 h tras preparación con PEG",

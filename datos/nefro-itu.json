@@ -157,7 +157,7 @@
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 1,
-   "enunciado": "¿Qué germen causa con mayor frecuencia las ITU, y qué debe guiar la elección del antibiótico según los datos peruanos de la clase?",
+   "enunciado": "¿Qué germen causa con mayor frecuencia las ITU, y qué debe guiar la elección del antibiótico en Perú?",
    "opciones": [
     {
      "t": "E. coli; antibiograma local por la resistencia",
@@ -187,7 +187,7 @@
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 2,
-   "enunciado": "¿Por cuántas vías pueden llegar los microorganismos al tracto urinario según la clase?",
+   "enunciado": "¿Por cuántas vías pueden llegar los microorganismos al tracto urinario?",
    "opciones": [
     {
      "t": "Tres: ascendente, hematógena y linfática",
@@ -273,7 +273,7 @@
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 1,
-   "enunciado": "¿En qué se basa el diagnóstico de una ITU según las conclusiones de la clase?",
+   "enunciado": "¿En qué se basa el diagnóstico de una ITU?",
    "opciones": [
     {
      "t": "Clínica, uroanálisis, cultivo e imágenes",
@@ -302,7 +302,7 @@
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 2,
-   "enunciado": "Mujer de 25 años con cistitis no complicada. ¿Cuál de estas es una opción oral según la lámina de tratamiento de la cistitis?",
+   "enunciado": "Mujer de 25 años con cistitis no complicada. ¿Cuál de estas es una opción oral?",
    "opciones": [
     {
      "t": "Fosfomicina 3 g por vía oral, dosis única",
@@ -365,7 +365,7 @@
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 2,
-   "enunciado": "Mujer con 4 episodios de cistitis en un año. ¿Qué incluye el manejo de ITU recurrente en la lámina?",
+   "enunciado": "Mujer con 4 episodios de cistitis en un año. ¿Qué incluye el manejo de ITU recurrente?",
    "opciones": [
     {
      "t": "Aumentar la ingesta de líquidos, antibiótico poscoital y considerar estudios de imágenes",

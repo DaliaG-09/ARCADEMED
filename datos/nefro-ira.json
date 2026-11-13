@@ -5,7 +5,7 @@
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 1,
-   "enunciado": "¿Cómo define la clase la injuria renal aguda?",
+   "enunciado": "¿Cómo se define la injuria renal aguda?",
    "opciones": [
     {
      "t": "Caída rápida del filtrado glomerular con retención de nitrogenados",
@@ -39,7 +39,7 @@
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 2,
-   "enunciado": "¿Cuál NO es una de las tres premisas para que el riñón funcione normalmente según la clase?",
+   "enunciado": "¿Cuál NO es una de las tres condiciones para que el riñón funcione normalmente?",
    "opciones": [
     {
      "t": "Ausencia de proteínas en la orina",
@@ -341,7 +341,7 @@
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 3,
-   "enunciado": "En la IRA por necrosis tubular, ¿qué dos grupos de agresores actúan sobre el riñón según el esquema de la lámina 16?",
+   "enunciado": "En la IRA por necrosis tubular, ¿qué dos grupos de agresores actúan sobre el riñón?",
    "opciones": [
     {
      "t": "Alteraciones hemodinámicas y nefrotoxinas",
@@ -398,7 +398,7 @@
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 2,
-   "enunciado": "¿Cuál de estas es causa de IRA prerrenal según el esquema de la lámina 18?",
+   "enunciado": "¿Cuál de estas es causa de IRA prerrenal?",
    "opciones": [
     {
      "t": "Sepsis, cirrosis o hemorragia",
@@ -551,7 +551,7 @@
    "area": "nefro",
    "tema": "Injuria renal aguda",
    "dif": 2,
-   "enunciado": "¿Qué criterio de diuresis acompaña al estadio de máxima gravedad en la lámina del caso?",
+   "enunciado": "¿Qué criterio de diuresis acompaña al estadio de máxima gravedad (AKI III)?",
    "opciones": [
     {
      "t": "<0.3 mL/kg/h por >24 h, o anuria >12 h",

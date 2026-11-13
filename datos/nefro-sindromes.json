@@ -34,7 +34,7 @@
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "Según la lámina de definición del síndrome nefrótico, ¿con qué valor se considera hipoalbuminemia?",
+   "enunciado": "¿con qué valor se considera hipoalbuminemia?",
    "opciones": [
     {
      "t": "Albúmina sérica menor de 3.0 g/dL",
@@ -269,7 +269,7 @@
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "Hombre de 68 años con síndrome nefrótico reciente. ¿Qué indica la clase que debes descartar?",
+   "enunciado": "Hombre de 68 años con síndrome nefrótico reciente. ¿Qué debes descartar?",
    "opciones": [
     {
      "t": "Una neoplasia oculta",
@@ -357,7 +357,7 @@
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "Paciente con glomerulopatía membranosa y síndrome nefrótico. ¿Qué tratamiento específico propone la lámina?",
+   "enunciado": "Paciente con glomerulopatía membranosa y síndrome nefrótico. ¿Qué tratamiento específico se propone?",
    "opciones": [
     {
      "t": "Rituximab o esquema Ponticelli",
@@ -390,7 +390,7 @@
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "Paciente con síndrome nefrótico, anasarca y albúmina muy baja con riesgo de shock. ¿Qué medida de apoyo plantea la clase?",
+   "enunciado": "Paciente con síndrome nefrótico, anasarca y albúmina muy baja con riesgo de shock. ¿Qué medida de apoyo se plantea?",
    "opciones": [
     {
      "t": "Albúmina intravenosa junto con un diurético",
@@ -622,7 +622,7 @@
    "area": "nefro",
    "tema": "Síndrome nefrítico",
    "dif": 2,
-   "enunciado": "Paciente con síndrome nefrítico agudo con edema e hipertensión. ¿Qué medidas generales indica la lámina?",
+   "enunciado": "Paciente con síndrome nefrítico agudo con edema e hipertensión. ¿Qué medidas generales se indican?",
    "opciones": [
     {
      "t": "Restringir sal y líquidos, furosemida e IECA",

@@ -175,7 +175,7 @@
    "area": "nefro",
    "tema": "Potasio",
    "dif": 2,
-   "enunciado": "Manifestaciones clínicas de la hipopotasemia:",
+   "enunciado": "¿Cuáles son las manifestaciones clínicas de la hipopotasemia?",
    "opciones": [
     {
      "t": "Debilidad, calambres, íleo y arritmias",
@@ -233,7 +233,7 @@
    "area": "nefro",
    "tema": "Potasio",
    "dif": 3,
-   "enunciado": "Límites de velocidad de reposición de potasio:",
+   "enunciado": "¿Cuáles son los límites de velocidad de reposición de potasio?",
    "opciones": [
     {
      "t": "Periférica <10; central <40 mEq/h",
@@ -262,7 +262,7 @@
    "area": "nefro",
    "tema": "Potasio",
    "dif": 3,
-   "enunciado": "Varón de 70 kg con hipopotasemia. Con la regla de la lámina, ¿cuál es su requerimiento basal y su potasio corporal total?",
+   "enunciado": "Varón de 70 kg con hipopotasemia. Con la regla de cálculo, ¿cuál es su requerimiento basal y su potasio corporal total?",
    "opciones": [
     {
      "t": "Basal 70 mEq/día; PCT 3500 mEq",

@@ -5,7 +5,7 @@
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
    "dif": 1,
-   "enunciado": "¿Cómo define la clase a la gastritis?",
+   "enunciado": "¿Cómo se define la gastritis?",
    "opciones": [
     {
      "t": "Un proceso inflamatorio que provoca lesiones en la mucosa gástrica",
@@ -33,7 +33,7 @@
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
    "dif": 1,
-   "enunciado": "¿Cuál es una causa de gastritis aguda según la clase?",
+   "enunciado": "¿Cuál es una causa de gastritis aguda?",
    "opciones": [
     {
      "t": "AINE, alcohol o cáusticos",
@@ -62,7 +62,7 @@
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
    "dif": 2,
-   "enunciado": "Una paciente gran quemada desarrolla gastritis aguda ulcerada con sangrado. ¿Cómo se llaman estas úlceras por estrés según la lámina?",
+   "enunciado": "Una paciente gran quemada desarrolla gastritis aguda ulcerada con sangrado. ¿Cómo se llaman estas úlceras por estrés?",
    "opciones": [
     {
      "t": "Úlceras de Curling",
@@ -120,7 +120,7 @@
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
    "dif": 2,
-   "enunciado": "¿Cómo progresa la gastritis crónica según la lámina?",
+   "enunciado": "¿Cómo progresa la gastritis crónica?",
    "opciones": [
     {
      "t": "Por etapas durante años, hasta atrofia glandular",
@@ -153,7 +153,7 @@
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
    "dif": 3,
-   "enunciado": "Según el esquema de la cascada de Correa, ¿qué secuencia lleva de la gastritis por H. pylori al cáncer?",
+   "enunciado": "Según la cascada de Correa, ¿qué secuencia lleva de la gastritis por H. pylori al cáncer?",
    "opciones": [
     {
      "t": "Gastritis no atrófica, atrófica, metaplasia, hipoclorhidria, displasia, cáncer",
@@ -312,7 +312,7 @@
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
    "dif": 2,
-   "enunciado": "¿Cuál de estas pruebas permite diagnosticar la infección por H. pylori en la gastritis crónica según la clase?",
+   "enunciado": "¿Cuál de estas pruebas permite diagnosticar la infección por H. pylori en la gastritis crónica?",
    "opciones": [
     {
      "t": "Test de aliento, antígeno fecal o ELISA",
@@ -345,7 +345,7 @@
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
    "dif": 2,
-   "enunciado": "Paciente con gastritis aguda por uso crónico de AINE. ¿Qué tratamiento indica la clase?",
+   "enunciado": "Paciente con gastritis aguda por uso crónico de AINE. ¿Qué tratamiento se indica?",
    "opciones": [
     {
      "t": "Suspender el AINE y dar IBP mientras dure el tratamiento con AINE",
@@ -373,7 +373,7 @@
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
    "dif": 3,
-   "enunciado": "Paciente con gastritis crónica por H. pylori y alergia a la penicilina. ¿Qué esquema propone la lámina?",
+   "enunciado": "Paciente con gastritis crónica por H. pylori y alergia a la penicilina. ¿Qué esquema se indica?",
    "opciones": [
     {
      "t": "IBP con metronidazol y tetraciclina",

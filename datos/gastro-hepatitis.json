@@ -207,7 +207,7 @@
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
    "dif": 1,
-   "enunciado": "¿Cuál es la vía de transmisión más frecuente de la hepatitis B en la lámina?",
+   "enunciado": "¿Cuál es la vía de transmisión más frecuente de la hepatitis B?",
    "opciones": [
     {
      "t": "Las relaciones sexuales",
@@ -413,7 +413,7 @@
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
    "dif": 2,
-   "enunciado": "¿Cuál es una indicación de tratamiento de la hepatitis B según la lámina?",
+   "enunciado": "¿Cuál es una indicación de tratamiento de la hepatitis B crónica?",
    "opciones": [
     {
      "t": "ADN VHB >20 000 UI/ml con transaminasas altas o biopsia activa",

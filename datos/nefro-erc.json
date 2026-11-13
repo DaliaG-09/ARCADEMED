@@ -5,7 +5,7 @@
    "area": "nefro",
    "tema": "ERC",
    "dif": 1,
-   "enunciado": "¿Qué define a la enfermedad renal crónica (ERC) según la clase?",
+   "enunciado": "¿Cómo se define la enfermedad renal crónica (ERC)?",
    "opciones": [
     {
      "t": "Anormalidad renal presente por más de 3 meses",
@@ -71,7 +71,7 @@
    "area": "nefro",
    "tema": "ERC",
    "dif": 1,
-   "enunciado": "¿Cuál es la causa más frecuente de ERC según la lámina de etiología?",
+   "enunciado": "¿Cuál es la causa más frecuente de ERC?",
    "opciones": [
     {
      "t": "Glomerulopatía diabética (alrededor de 30 %)",
@@ -157,7 +157,7 @@
    "area": "nefro",
    "tema": "ERC",
    "dif": 2,
-   "enunciado": "¿Qué molécula y qué células se asocian a la fibrosis renal en la tabla de fisiopatología?",
+   "enunciado": "¿Qué molécula y qué células se asocian a la fibrosis renal en la ERC?",
    "opciones": [
     {
      "t": "TGF-β con miofibroblastos y colágeno",
@@ -392,7 +392,7 @@
    "area": "nefro",
    "tema": "ERC",
    "dif": 2,
-   "enunciado": "¿Cómo se confirma una albuminuria persistente según la lámina de diagnóstico?",
+   "enunciado": "¿Cómo se confirma una albuminuria persistente?",
    "opciones": [
     {
      "t": "Con 2 estudios separados por 3 a 6 meses",
@@ -508,7 +508,7 @@
    "area": "nefro",
    "tema": "ERC",
    "dif": 3,
-   "enunciado": "¿Qué recomienda la lámina de tratamiento sobre IECA y ARA II en la ERC?",
+   "enunciado": "¿Qué se recomienda sobre IECA y ARA II en la ERC?",
    "opciones": [
     {
      "t": "Bajan la albuminuria; no con TFG <30",
@@ -628,7 +628,7 @@
    "area": "nefro",
    "tema": "ERC",
    "dif": 1,
-   "enunciado": "¿Cuál es el criterio de TFG de la conclusión de la clase?",
+   "enunciado": "¿Qué TFG sostenida por más de 3 meses basta para definir ERC?",
    "opciones": [
     {
      "t": "TFG menor de 60 por más de 3 meses",
