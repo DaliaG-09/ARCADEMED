@@ -9,19 +9,19 @@
    "opciones": [
     {
      "t": "98 % dentro de las células",
-     "por": "Es el catión intracelular más importante."
+     "por": "El potasio es el catión intracelular más importante: casi todo está dentro de las células y solo 2 % en la sangre. Por eso un valor normal en sangre no asegura que no falte potasio total."
     },
     {
      "t": "98 % en la sangre",
-     "por": "Solo 2 % está en sangre."
+     "por": "En la sangre hay solo 2 %; la mayor parte está dentro de las células."
     },
     {
      "t": "50 % en el hueso",
-     "por": "No."
+     "por": "El potasio es sobre todo intracelular, no óseo."
     },
     {
      "t": "Igual dentro y fuera de la célula",
-     "por": "No."
+     "por": "La diferencia de concentración (alto dentro, bajo fuera) es lo que define el potencial de membrana."
     }
    ],
    "correcta": 0,
@@ -37,19 +37,19 @@
    "opciones": [
     {
      "t": "Insulina, estimulación β2-adrenérgica, aldosterona y alcalosis metabólica",
-     "por": "Los favorecedores de la entrada."
+     "por": "Son los factores que meten potasio a la célula: bajan el potasio sérico sin que el cuerpo lo pierda."
     },
     {
      "t": "Acidosis metabólica",
-     "por": "Favorece su salida."
+     "por": "Hace salir potasio de la célula y sube el potasio sérico."
     },
     {
      "t": "Hiperosmolaridad extracelular",
-     "por": "Favorece su salida."
+     "por": "Hace salir potasio de la célula y sube el potasio sérico."
     },
     {
      "t": "Lisis celular",
-     "por": "Libera potasio."
+     "por": "Al romperse las células sale el potasio que contienen y sube el potasio sérico."
     }
    ],
    "correcta": 0,
@@ -65,19 +65,19 @@
    "opciones": [
     {
      "t": "Orina (80 %)",
-     "por": "Heces 15 % y sudor 5 %."
+     "por": "La orina elimina cerca de 80 %; las heces 15 % y el sudor 5 %. Por eso la insuficiencia renal causa hiperpotasemia."
     },
     {
      "t": "Heces (80 %)",
-     "por": "Es 15 %."
+     "por": "Las heces eliminan cerca de 15 %."
     },
     {
      "t": "Sudor (80 %)",
-     "por": "Es 5 %."
+     "por": "El sudor elimina cerca de 5 %."
     },
     {
      "t": "Aire espirado",
-     "por": "No."
+     "por": "El pulmón no elimina potasio."
     }
    ],
    "correcta": 0,
@@ -93,19 +93,19 @@
    "opciones": [
     {
      "t": "Moderada (2.5 a 3)",
-     "por": "Según la lámina."
+     "por": "La clasificación de la lámina 11: leve 3 a 3.5 mEq/L, moderada 2.5 a 3 y grave menor de 2.5."
     },
     {
      "t": "Leve (3 a 3.5)",
-     "por": "2.8 es menor de 3."
+     "por": "Leve es 3 a 3.5; 2.8 está por debajo."
     },
     {
      "t": "Grave (<2.5)",
-     "por": "2.8 es mayor de 2.5."
+     "por": "Grave es menor de 2.5; 2.8 está por encima."
     },
     {
      "t": "Normal",
-     "por": "Normal es 3.5 a 5.5."
+     "por": "Normal es 3.5 a 5.5 mEq/L; 2.8 está bajo."
     }
    ],
    "correcta": 0,
@@ -121,19 +121,19 @@
    "opciones": [
     {
      "t": "Insulina o agonistas β2 (como el salbutamol)",
-     "por": "Metiendo K⁺ dentro de la célula."
+     "por": "La insulina y los agonistas β2 (salbutamol) meten el potasio a la célula; el sodio sérico no cambia pero el potasio sí baja, aunque el cuerpo no lo haya perdido."
     },
     {
      "t": "Diarrea y laxantes",
-     "por": "Es pérdida digestiva."
+     "por": "Es una pérdida por el tubo digestivo, no una redistribución."
     },
     {
      "t": "Diuréticos de asa",
-     "por": "Pérdida renal."
+     "por": "Es una pérdida por la orina, no una redistribución."
     },
     {
      "t": "Baja ingesta",
-     "por": "Es falta de ingesta."
+     "por": "Es un déficit de aporte, no una redistribución."
     }
    ],
    "correcta": 0,
@@ -149,19 +149,19 @@
    "opciones": [
     {
      "t": "Hiperaldosteronismo primario",
-     "por": "Renina baja con aldosterona alta."
+     "por": "En el hiperaldosteronismo primario la aldosterona está alta de forma autónoma, retiene sodio (hipertensión) y elimina potasio. La renina baja porque el volumen alto la frena."
     },
     {
      "t": "Síndrome de Bartter",
-     "por": "PA normal o baja y aldosterona alta con renina alta."
+     "por": "En Bartter la presión es normal o baja, y renina y aldosterona están altas."
     },
     {
      "t": "Síndrome de Liddle",
-     "por": "Aldosterona suprimida."
+     "por": "En Liddle hay hipertensión con potasio bajo, pero la aldosterona está suprimida (no alta)."
     },
     {
      "t": "Ingesta de diuréticos",
-     "por": "Renina alta."
+     "por": "Con diuréticos, la renina está alta por la pérdida de volumen."
     }
    ],
    "correcta": 0,
@@ -178,19 +178,19 @@
    "opciones": [
     {
      "t": "Debilidad, calambres, íleo paralítico y arritmias",
-     "por": "Con rabdomiólisis en casos graves."
+     "por": "El potasio bajo debilita el músculo y el intestino y altera el ritmo cardiaco. En casos graves hay rabdomiólisis."
     },
     {
      "t": "Hiperreflexia y tetania",
-     "por": "Es hipocalcemia."
+     "por": "Son signos de hipocalcemia, no de hipopotasemia."
     },
     {
      "t": "Edema de miembros",
-     "por": "No."
+     "por": "No es una manifestación de hipopotasemia."
     },
     {
      "t": "Polidipsia únicamente",
-     "por": "No."
+     "por": "La hipopotasemia causa poliuria por pérdida de concentración urinaria, y a la vez debilidad y arritmias; no solo sed."
     }
    ],
    "correcta": 0,
@@ -206,19 +206,19 @@
    "opciones": [
     {
      "t": "Descenso del segmento ST, aplanamiento de T y onda U de mayor amplitud",
-     "por": "Típicos."
+     "por": "El potasio bajo retrasa la repolarización: baja el ST, se aplana la T y crece la onda U."
     },
     {
      "t": "Ondas T picudas",
-     "por": "Es hiperpotasemia."
+     "por": "Es un cambio de hiperpotasemia, no de hipopotasemia."
     },
     {
      "t": "Prolongación del QRS",
-     "por": "Es hiperpotasemia."
+     "por": "Es un cambio de hiperpotasemia, no de hipopotasemia."
     },
     {
      "t": "Onda sinusoidal",
-     "por": "Es hiperpotasemia grave."
+     "por": "Es un cambio de hiperpotasemia muy grave."
     }
    ],
    "correcta": 0,
@@ -234,19 +234,19 @@
    "opciones": [
     {
      "t": "Vía periférica menos de 10 mEq/h; vía central menos de 40 mEq/h",
-     "por": "Según la lámina."
+     "por": "La vena periférica se irrita y el potasio rápido en una vía central llega concentrado al corazón: por eso hay límites. La periférica admite menos velocidad."
     },
     {
      "t": "Periférica 40 mEq/h",
-     "por": "Es para central."
+     "por": "40 mEq/h es el límite de la vía central, no de la periférica."
     },
     {
      "t": "Central 100 mEq/h",
-     "por": "Peligroso."
+     "por": "Es peligroso: puede causar paro cardiaco."
     },
     {
      "t": "Sin límite",
-     "por": "Sí hay."
+     "por": "Sí hay un límite de velocidad."
     }
    ],
    "correcta": 0,
@@ -291,19 +291,19 @@
    "opciones": [
     {
      "t": "Alimentos ricos en potasio",
-     "por": "Moderada: sales orales como gluconato o ascorbato de potasio."
+     "por": "En la hipopotasemia leve basta con la dieta. La moderada requiere sales orales (ascorbato, gluconato o glucoheptonato de potasio)."
     },
     {
      "t": "Gluconato de potasio IV rápido",
-     "por": "No."
+     "por": "El potasio IV rápido es peligroso y no se indica en hipopotasemia leve."
     },
     {
      "t": "Restricción de potasio",
-     "por": "No."
+     "por": "Agravaría el déficit; se necesita aumentar el aporte."
     },
     {
      "t": "Diálisis",
-     "por": "No."
+     "por": "Es para hiperpotasemia grave, no para el potasio bajo."
     }
    ],
    "correcta": 0,
@@ -319,19 +319,19 @@
    "opciones": [
     {
      "t": "Muestra hemolizada o torniquete muy apretado",
-     "por": "También leucocitosis o trombocitosis extremas."
+     "por": "La salida de potasio ocurre en el tubo de ensayo, no en el paciente: el valor sale alto aunque el potasio real sea normal. También ocurre con leucocitosis o trombocitosis extremas."
     },
     {
      "t": "Insuficiencia renal aguda",
-     "por": "Es verdadera."
+     "por": "El riñón no elimina potasio y sube de verdad en el paciente: es hiperpotasemia verdadera."
     },
     {
      "t": "Acidosis metabólica",
-     "por": "Es verdadera."
+     "por": "Saca potasio de las células y lo sube de verdad en el paciente."
     },
     {
      "t": "Espironolactona",
-     "por": "Es verdadera."
+     "por": "Bloquea la aldosterona y retiene potasio de verdad en el paciente."
     }
    ],
    "correcta": 0,
@@ -347,19 +347,19 @@
    "opciones": [
     {
      "t": "Ondas T picudas",
-     "por": "A 8: aplanamiento de P, PR y QRS largos."
+     "por": "A medida que sube el potasio, la T se vuelve picuda, luego se aplana la P y se alargan PR y QRS (cerca de 8 mEq/L), y finalmente aparece onda sinusoidal."
     },
     {
      "t": "Onda sinusoidal",
-     "por": "A K⁺ >9."
+     "por": "Aparece con potasio mayor de 9 mEq/L."
     },
     {
      "t": "Normal",
-     "por": "A 4."
+     "por": "Con potasio de 4 el ECG es normal."
     },
     {
      "t": "Ondas U",
-     "por": "Es hipopotasemia."
+     "por": "Es un hallazgo de hipopotasemia."
     }
    ],
    "correcta": 0,
@@ -375,19 +375,19 @@
    "opciones": [
     {
      "t": "Gluconato de calcio al 10 % (10 mL en 2 a 5 min IV)",
-     "por": "Antagoniza el efecto cardiaco; inicio en 5 a 10 min."
+     "por": "El calcio no baja el potasio, pero estabiliza la membrana del músculo cardiaco y protege del ritmo peligroso. Actúa en 5 a 10 minutos, por eso va primero."
     },
     {
      "t": "Furosemida solo",
-     "por": "Elimina potasio de forma lenta."
+     "por": "Actúa más lento y no protege el corazón de inmediato."
     },
     {
      "t": "Resinas de intercambio",
-     "por": "Son de acción lenta."
+     "por": "Tardan horas en actuar."
     },
     {
      "t": "Bicarbonato oral",
-     "por": "No es lo primero."
+     "por": "No es la medida inicial."
     }
    ],
    "correcta": 0,
@@ -403,19 +403,19 @@
    "opciones": [
     {
      "t": "Desplazan el potasio al interior de la célula",
-     "por": "No lo eliminan del cuerpo."
+     "por": "Solo lo meten a la célula de forma temporal; el potasio sigue en el cuerpo y hay que eliminarlo después."
     },
     {
      "t": "Eliminan potasio del cuerpo",
-     "por": "Eso hacen los diuréticos de asa y la diálisis."
+     "por": "Eso lo hacen los diuréticos de asa, las resinas y la diálisis."
     },
     {
      "t": "Antagonizan el efecto cardiaco",
-     "por": "Eso hace el calcio."
+     "por": "Ese es el efecto del gluconato de calcio."
     },
     {
-     "t": "Bloquean la absorción",
-     "por": "No."
+     "t": "Bloquean la absorción intestinal de potasio",
+     "por": "Esa es la acción de las resinas de intercambio, no de estos fármacos."
     }
    ],
    "correcta": 0,

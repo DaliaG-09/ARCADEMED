@@ -8,24 +8,24 @@
    "enunciado": "¿Qué efecto tiene la PTH sobre el calcio y el fósforo séricos?",
    "opciones": [
     {
-     "t": "Aumenta el calcio y disminuye el fósforo",
-     "por": "Estimula resorción ósea y reabsorción renal de Ca, inhibe la de P y activa la 1α-hidroxilasa."
+     "t": "Sube el calcio y baja el fósforo",
+     "por": "La PTH saca calcio del hueso, aumenta su reabsorción en el riñón, inhibe la reabsorción renal de fósforo (se pierde por la orina) y activa la 1α-hidroxilasa que forma calcitriol."
     },
     {
-     "t": "Disminuye calcio y aumenta fósforo",
-     "por": "Es lo contrario."
+     "t": "Baja el calcio y sube el fósforo",
+     "por": "Es lo contrario: la PTH se activa cuando el calcio está bajo, para subirlo."
     },
     {
-     "t": "Aumenta ambos",
-     "por": "El fósforo baja."
+     "t": "Sube ambos",
+     "por": "El fósforo baja porque la PTH aumenta su eliminación por la orina."
     },
     {
-     "t": "No cambia",
-     "por": "Sí cambia."
+     "t": "No cambia ninguno",
+     "por": "Es la hormona principal del equilibrio del calcio."
     }
    ],
    "correcta": 0,
-   "explicacion": "PTH = hormona paratiroidea; el calcitriol es la vitamina D activa.",
+   "explicacion": "PTH = hormona paratiroidea. Calcitriol = forma activa de la vitamina D.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 9"
   },
   {
@@ -33,27 +33,27 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "dif": 3,
-   "enunciado": "Acciones de la FGF23:",
+   "enunciado": "¿Qué hace la FGF23?",
    "opciones": [
     {
-     "t": "Aumenta la fosfaturia, baja el calcitriol e inhibe débilmente la PTH",
-     "por": "Disminuye el fósforo sérico."
+     "t": "Aumenta la eliminación de fósforo por la orina, baja el calcitriol e inhibe débilmente la PTH",
+     "por": "El resultado es que baja el fósforo sérico."
     },
     {
      "t": "Aumenta la absorción intestinal de calcio",
-     "por": "Eso hace el calcitriol."
+     "por": "Eso lo hace el calcitriol."
     },
     {
      "t": "Estimula la resorción ósea",
-     "por": "Eso hace la PTH."
+     "por": "Eso lo hace la PTH."
     },
     {
-     "t": "Aumenta la reabsorción de fósforo",
-     "por": "Es lo contrario."
+     "t": "Aumenta la reabsorción renal de fósforo",
+     "por": "Es lo contrario: aumenta la fosfaturia."
     }
    ],
    "correcta": 0,
-   "explicacion": "FGF23 = factor de crecimiento de fibroblastos 23.",
+   "explicacion": "FGF23 = factor de crecimiento de fibroblastos 23, producido por el hueso.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 9"
   },
   {
@@ -61,27 +61,27 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "dif": 2,
-   "enunciado": "Calcitriol: ¿qué hace?",
+   "enunciado": "¿Qué hace el calcitriol?",
    "opciones": [
     {
-     "t": "Aumenta la absorción intestinal de calcio y fósforo y da retroalimentación negativa sobre la PTH",
-     "por": "Sube ambos."
+     "t": "Aumenta la absorción intestinal de calcio y fósforo y frena la PTH por retroalimentación negativa",
+     "por": "Por eso sube el calcio y el fósforo sérico. También favorece la resorción ósea junto con la PTH."
     },
     {
-     "t": "Baja el calcio",
-     "por": "No."
+     "t": "Baja el calcio sérico",
+     "por": "Lo sube."
     },
     {
-     "t": "Aumenta la fosfaturia",
-     "por": "Eso hace FGF23."
+     "t": "Aumenta la eliminación renal de fósforo",
+     "por": "Eso lo hace la FGF23."
     },
     {
-     "t": "Reduce la absorción de calcio",
-     "por": "No."
+     "t": "Reduce la absorción intestinal de calcio",
+     "por": "Es lo contrario: la aumenta."
     }
    ],
    "correcta": 0,
-   "explicacion": "También aumenta la resorción ósea junto con la PTH.",
+   "explicacion": "Calcitriol = vitamina D activa (1,25-dihidroxivitamina D).",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 9"
   },
   {
@@ -93,52 +93,52 @@
    "opciones": [
     {
      "t": "Calcio corregido menor de 8.4 mg/dL o calcio ionizado menor de 4.2 mg/dL",
-     "por": "Con el algoritmo según PTH."
+     "por": "Se acompaña de un algoritmo según la PTH: si está baja, hipoparatiroidismo; si está alta, deficiencia de vitamina D, resistencia a la PTH o quelación."
     },
     {
      "t": "Calcio mayor de 10.3 mg/dL",
-     "por": "Es hipercalcemia."
+     "por": "Eso es hipercalcemia."
     },
     {
      "t": "Calcio menor de 7 mg/dL",
-     "por": "Demasiado estricto."
+     "por": "Con menos de 8.4 ya es hipocalcemia; 7 es una forma grave."
     },
     {
      "t": "Calcio de 8.6 mg/dL",
-     "por": "Es normal."
+     "por": "Está dentro del rango normal."
     }
    ],
    "correcta": 0,
-   "explicacion": "PTH baja con calcio bajo: hipoparatiroidismo. PTH alta: deficiencia de vitamina D, resistencia a PTH, quelación.",
+   "explicacion": "El calcio total se corrige por la albúmina; el ionizado es la fracción activa.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 10",
-   "contexto": "El calcio total se corrige por la albúmina; el calcio ionizado es la fracción activa."
+   "contexto": "Calcio corregido = ajuste del calcio total según la albúmina, porque parte del calcio va unida a ella. Calcio ionizado = calcio libre, el que actúa."
   },
   {
    "id": "n-ca-hipoCa2",
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "dif": 2,
-   "enunciado": "Calcio bajo con PTH baja o inapropiadamente normal. ¿Qué pensar?",
+   "enunciado": "Un paciente tiene calcio bajo con PTH baja o inapropiadamente normal. ¿Qué piensas?",
    "opciones": [
     {
-     "t": "Hipoparatiroidismo (por ejemplo posquirúrgico)",
-     "por": "Hipomagnesemia también puede causarlo."
+     "t": "Hipoparatiroidismo (por ejemplo tras una cirugía de cuello); también puede deberse a hipomagnesemia",
+     "por": "Con calcio bajo, la PTH debería estar alta. Si no lo está, la glándula no responde o no existe."
     },
     {
      "t": "Deficiencia de vitamina D",
-     "por": "Cursa con PTH alta."
+     "por": "Cursa con PTH alta, porque la glándula intenta compensar."
     },
     {
-     "t": "ERC",
-     "por": "PTH alta y fósforo alto."
+     "t": "Enfermedad renal crónica",
+     "por": "Cursa con PTH alta y fósforo alto."
     },
     {
      "t": "Pseudohipoparatiroidismo",
-     "por": "PTH alta."
+     "por": "Es resistencia a la PTH: la PTH está alta."
     }
    ],
    "correcta": 0,
-   "explicacion": "Plan de trabajo: pedir calcio ionizado, PTH, fosfato, magnesio, calcitriol y creatinina.",
+   "explicacion": "Plan de trabajo: calcio ionizado, PTH, fósforo, magnesio, calcitriol y creatinina.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 10, 11 y 14"
   },
   {
@@ -150,19 +150,19 @@
    "opciones": [
     {
      "t": "Signos de Chvostek y de Trousseau",
-     "por": "Más parestesias, calambres y tetania."
+     "por": "Chvostek: se golpea el nervio facial y se contrae la cara. Trousseau: con el manguito de presión inflado la mano adopta espasmo. Además hay parestesias, calambres y tetania."
     },
     {
      "t": "Hiperreflexia sin tetania",
-     "por": "No."
+     "por": "La hipocalcemia da hiperreflexia con tetania, no sin ella."
     },
     {
      "t": "Poliuria y polidipsia",
-     "por": "Es hipercalcemia."
+     "por": "Son manifestaciones de hipercalcemia."
     },
     {
-     "t": "Dolor óseo",
-     "por": "Es hipercalcemia."
+     "t": "Dolor óseo con cálculos renales",
+     "por": "Es parte del cuadro de hipercalcemia."
     }
    ],
    "correcta": 0,
@@ -174,27 +174,27 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "dif": 2,
-   "enunciado": "¿Qué hallazgo ECG produce la hipocalcemia?",
+   "enunciado": "¿Qué hallazgo en el ECG produce la hipocalcemia?",
    "opciones": [
     {
-     "t": "Prolongación del QT, con ondas T normales",
-     "por": "Riesgo de arritmias, FV y muerte súbita."
+     "t": "QT prolongado con ondas T normales",
+     "por": "Aumenta el riesgo de arritmias, fibrilación ventricular y muerte súbita."
     },
     {
      "t": "QT corto",
-     "por": "Es hipercalcemia."
+     "por": "Es el hallazgo de la hipercalcemia."
     },
     {
      "t": "Ondas T picudas",
-     "por": "Es hiperpotasemia."
+     "por": "Son de la hiperpotasemia."
     },
     {
      "t": "Onda U",
-     "por": "Es hipopotasemia."
+     "por": "Es de la hipopotasemia."
     }
    ],
    "correcta": 0,
-   "explicacion": "Fórmulas de QTc: Bazett, Fridericia y Framingham.",
+   "explicacion": "QTc = QT corregido por la frecuencia cardiaca (Bazett, Fridericia o Framingham).",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 15"
   },
   {
@@ -202,27 +202,27 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "dif": 3,
-   "enunciado": "Paciente con hipocalcemia y convulsiones. ¿Tratamiento?",
+   "enunciado": "Paciente con hipocalcemia grave y convulsiones. ¿Qué tratamiento corresponde?",
    "opciones": [
     {
-     "t": "Gluconato de calcio al 10 %: 10 mL en 50 a 100 mL de SG 5 % en 10 a 20 min",
-     "por": "Luego infusión de 0.5 a 2 mg/kg/h."
+     "t": "Gluconato de calcio al 10 %: 10 mL en 50 a 100 mL de dextrosa 5 % en 10 a 20 minutos, y luego infusión",
+     "por": "La hipocalcemia sintomática grave se trata por vía IV porque puede producir convulsiones y arritmias."
     },
     {
      "t": "Calcio oral solo",
-     "por": "Es para leve."
+     "por": "Es para la hipocalcemia leve."
     },
     {
-     "t": "Observación",
-     "por": "Grave."
+     "t": "Observar y repetir el calcio mañana",
+     "por": "Con convulsiones es una urgencia."
     },
     {
      "t": "Bifosfonatos",
-     "por": "Es hipercalcemia."
+     "por": "Bajan el calcio; se usan en hipercalcemia."
     }
    ],
    "correcta": 0,
-   "explicacion": "Leve: calcio oral y vitamina D. Moderada: calcio oral más calcitriol.",
+   "explicacion": "Después: infusión de 0.5 a 2 mg/kg/h. Leve: calcio oral y vitamina D. Moderada: calcio oral más calcitriol.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 16"
   },
   {
@@ -233,24 +233,24 @@
    "enunciado": "¿Cómo se define la hipercalcemia?",
    "opciones": [
     {
-     "t": "Calcio corregido mayor de 10.3 mg/dL o ionizado mayor de 5.2 mg/dL",
-     "por": "Con PTH como punto de partida."
+     "t": "Calcio corregido mayor de 10.3 mg/dL o calcio ionizado mayor de 5.2 mg/dL",
+     "por": "Se parte de la PTH: si está elevada, hiperparatiroidismo; si está suprimida, neoplasia, exceso de vitamina D o enfermedades granulomatosas."
     },
     {
-     "t": "Calcio menor de 8.4",
-     "por": "Es hipocalcemia."
+     "t": "Calcio menor de 8.4 mg/dL",
+     "por": "Eso es hipocalcemia."
     },
     {
-     "t": "Calcio de 9.5",
-     "por": "Normal."
+     "t": "Calcio de 9.5 mg/dL",
+     "por": "Está dentro del rango normal."
     },
     {
-     "t": "Calcio mayor de 8.5",
-     "por": "Es normal."
+     "t": "Calcio mayor de 8.5 mg/dL",
+     "por": "Con 8.5 a 10.3 el calcio es normal."
     }
    ],
    "correcta": 0,
-   "explicacion": "PTH elevada: hiperparatiroidismo. PTH suprimida: neoplasia, vitamina D, enfermedades granulomatosas.",
+   "explicacion": "La hipercalcemia grave se maneja de forma urgente.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 17"
   },
   {
@@ -258,27 +258,27 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "dif": 2,
-   "enunciado": "¿Cuál es una causa de hipercalcemia con aumento de resorción ósea?",
+   "enunciado": "¿Cuál de estas causas de hipercalcemia aumenta la resorción ósea?",
    "opciones": [
     {
      "t": "Hiperparatiroidismo primario o metástasis óseas (PTHrP)",
-     "por": "También mieloma e hipertiroidismo."
+     "por": "El hueso libera calcio. También el mieloma y el hipertiroidismo."
     },
     {
      "t": "Intoxicación por vitamina D",
-     "por": "Aumenta la absorción intestinal."
+     "por": "Aumenta la absorción intestinal de calcio."
     },
     {
      "t": "Síndrome de leche y alcalinos",
-     "por": "Aumenta la absorción."
+     "por": "Aumenta la absorción de calcio."
     },
     {
      "t": "Sarcoidosis",
-     "por": "Aumenta la absorción."
+     "por": "El granuloma produce calcitriol y sube la absorción intestinal."
     }
    ],
    "correcta": 0,
-   "explicacion": "PTHrP = péptido relacionado a la PTH.",
+   "explicacion": "PTHrP = péptido relacionado a la PTH, que producen algunos tumores.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 18"
   },
   {
@@ -286,27 +286,27 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "dif": 3,
-   "enunciado": "Hipercalcemia de 16 mg/dL. ¿Qué sigue?",
+   "enunciado": "Paciente con calcio de 16 mg/dL. ¿Qué tratamiento sigue?",
    "opciones": [
     {
-     "t": "Hidratación, diuréticos de asa y bifosfonatos con calcitonina",
-     "por": "Más de 15 es severa; más de 18 se piensa en hemodiálisis."
+     "t": "Hidratación con suero salino, diuréticos de asa y bifosfonatos con calcitonina",
+     "por": "El suero salino repone volumen y aumenta la eliminación de calcio, la furosemida la refuerza y los bifosfonatos frenan la resorción ósea. Más de 18 mg/dL puede requerir hemodiálisis."
     },
     {
      "t": "Calcio oral",
-     "por": "Empeora."
+     "por": "Empeoraría la hipercalcemia."
     },
     {
      "t": "Tiazidas",
-     "por": "Elevan el calcio."
+     "por": "Disminuyen la eliminación de calcio y lo elevan."
     },
     {
-     "t": "Observación",
-     "por": "Es severa."
+     "t": "Solo observación",
+     "por": "Es una hipercalcemia grave y se trata de inmediato."
     }
    ],
    "correcta": 0,
-   "explicacion": "Moderada 11.5 a 15: suero salino y diuréticos de asa. Bifosfonatos: pamidronato, zoledronato.",
+   "explicacion": "Moderada (11.5 a 15): suero salino y diuréticos de asa. Severa (más de 15): se agregan bifosfonatos (pamidronato, zoledronato) y calcitonina.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 20 y 21"
   },
   {
@@ -314,56 +314,56 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "dif": 3,
-   "enunciado": "¿Qué bifosfonato dura más tiempo de efecto en hipercalcemia aguda?",
+   "enunciado": "¿Qué bifosfonato tiene efecto más largo en hipercalcemia?",
    "opciones": [
     {
      "t": "Zoledronato (alrededor de 28 días)",
-     "por": "Pamidronato 21-28 días."
+     "por": "Pamidronato dura entre 21 y 28 días."
     },
     {
      "t": "Clodronato (14 días)",
-     "por": "Es más corto."
+     "por": "Dura menos."
     },
     {
      "t": "Ibandronato (14 días)",
-     "por": "Es más corto."
+     "por": "Dura menos."
     },
     {
-     "t": "Ninguno",
-     "por": "Sí tienen duración."
+     "t": "Ninguno tiene duración definida",
+     "por": "Sí tienen una duración aproximada."
     }
    ],
    "correcta": 0,
    "explicacion": "Efectos adversos: síndrome gripal y nefrotoxicidad.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 21",
-   "nota": "La tabla da duraciones aproximadas; zoledronato 28 días y pamidronato 21 a 28 días son muy cercanas."
+   "nota": "La tabla da duraciones aproximadas; zoledronato 28 días y pamidronato de 21 a 28 días son muy cercanas."
   },
   {
    "id": "n-ca-mgf",
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "dif": 2,
-   "enunciado": "¿Dónde se reabsorbe la mayor parte del magnesio?",
+   "enunciado": "¿Dónde se reabsorbe la mayor parte del magnesio filtrado?",
    "opciones": [
     {
-     "t": "Rama ascendente del asa de Henle (60 a 70 %)",
-     "por": "Menos en el túbulo contorneado distal."
+     "t": "En la rama ascendente gruesa del asa de Henle (60 a 70 %)",
+     "por": "Otra parte, menor, se reabsorbe en el túbulo contorneado distal."
     },
     {
      "t": "Túbulo proximal",
-     "por": "No."
+     "por": "Reabsorbe sobre todo sodio y agua, no la mayor parte del magnesio."
     },
     {
-     "t": "Colector",
-     "por": "No."
+     "t": "Túbulo colector",
+     "por": "Reabsorbe poco magnesio."
     },
     {
-     "t": "Rama descendente",
-     "por": "No."
+     "t": "Rama descendente del asa",
+     "por": "Es permeable al agua, no al magnesio."
     }
    ],
    "correcta": 0,
-   "explicacion": "Un tercio de lo ingerido se absorbe en el intestino.",
+   "explicacion": "Cerca de un tercio del magnesio ingerido se absorbe en el intestino. Por eso los diuréticos de asa causan hipomagnesemia.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 24"
   },
   {
@@ -371,27 +371,27 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "dif": 1,
-   "enunciado": "Un Mg sérico de 0.9 mg/dL es:",
+   "enunciado": "Un magnesio sérico de 0.9 mg/dL es:",
    "opciones": [
     {
-     "t": "Hipomagnesemia grave (<1.0)",
-     "por": "Leve 1.2 a 1.7; moderada 1.0 a 1.2."
+     "t": "Hipomagnesemia grave (menor de 1.0)",
+     "por": "Leve 1.2 a 1.7; moderada 1.0 a 1.2; grave menor de 1.0."
     },
     {
      "t": "Leve",
-     "por": "Es mayor de 1.2."
+     "por": "Leve corresponde a 1.2 a 1.7."
     },
     {
      "t": "Moderada",
-     "por": "Es 1.0 a 1.2."
+     "por": "Moderada corresponde a 1.0 a 1.2."
     },
     {
      "t": "Normal",
-     "por": "Es muy bajo."
+     "por": "Está muy por debajo del rango normal."
     }
    ],
    "correcta": 0,
-   "explicacion": "Magnesio bajo no se corrige si no se repone también potasio y calcio.",
+   "explicacion": "El magnesio bajo es difícil de corregir si no se repone también potasio y calcio.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 25"
   },
   {
@@ -399,27 +399,27 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "dif": 2,
-   "enunciado": "Causa de hipomagnesemia:",
+   "enunciado": "¿Cuál es una causa de hipomagnesemia?",
    "opciones": [
     {
-     "t": "Diuréticos de asa, aminoglucósidos, cisplatino, alcoholismo",
-     "por": "Pérdidas renales o ingesta baja."
+     "t": "Diuréticos de asa, aminoglucósidos, cisplatino o alcoholismo",
+     "por": "Producen pérdida renal de magnesio o ingesta baja."
     },
     {
      "t": "Hiperparatiroidismo",
-     "por": "No es causa de la lámina."
+     "por": "No está en la lista de causas de la lámina."
     },
     {
      "t": "Deshidratación con sodio alto",
-     "por": "No."
+     "por": "No es causa de magnesio bajo."
     },
     {
      "t": "Ingesta alta de magnesio",
-     "por": "Es lo contrario."
+     "por": "Eso lleva a hipermagnesemia."
     }
    ],
    "correcta": 0,
-   "explicacion": "También Gitelman y Bartter.",
+   "explicacion": "También las tubulopatías de Gitelman y Bartter.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 26"
   },
   {
@@ -427,29 +427,30 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "dif": 3,
-   "enunciado": "Hipomagnesemia con torsades de pointes. ¿Qué?",
+   "enunciado": "Paciente con hipomagnesemia y torsades de pointes. ¿Qué se da?",
    "opciones": [
     {
-     "t": "MgSO₄ 1 a 2 g IV en bolo en 15 minutos",
-     "por": "Emergencia."
+     "t": "Sulfato de magnesio 1 a 2 g IV en bolo en 15 minutos",
+     "por": "Es una emergencia: el magnesio estabiliza la arritmia."
     },
     {
      "t": "Óxido de magnesio oral",
-     "por": "Es para leve."
+     "por": "Es para formas leves, y su efecto es lento."
     },
     {
      "t": "Calcio oral",
-     "por": "No."
+     "por": "No corrige el magnesio ni la arritmia."
     },
     {
      "t": "Observación",
-     "por": "Arritmia grave."
+     "por": "Es una arritmia grave, con riesgo de muerte."
     }
    ],
    "correcta": 0,
-   "explicacion": "Moderada a grave: 1 a 2 g en 1 a 2 h; grave: hasta 4 a 6 g en 12 a 24 h.",
+   "explicacion": "Moderada a grave: 1 a 2 g en 1 a 2 horas; grave: hasta 4 a 6 g en 12 a 24 horas.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 28",
-   "nota": "Una imagen del PPT (lám. 27) muestra una tabla de manifestaciones por rangos de Mg altos, que parece ser de hipermagnesemia; no se usó en preguntas."
+   "contexto": "Torsades de pointes = taquicardia ventricular polimórfica, relacionada con QT largo.",
+   "nota": "Una imagen del PPT (lám. 27) muestra manifestaciones por rangos de magnesio alto (hipermagnesemia); no se usó en preguntas."
   }
  ],
  "tarjetas": [
@@ -458,7 +459,7 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "f": "PTH",
-   "b": "↑Ca, ↓P",
+   "b": "Sube calcio y baja fósforo.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 9"
   },
   {
@@ -466,23 +467,23 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "f": "Hipocalcemia",
-   "b": "Ca corregido <8.4 o iónico <4.2",
+   "b": "Calcio corregido <8.4 o ionizado <4.2.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 10"
   },
   {
    "id": "n-ca-c-2",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "Signos de hipoCa",
-   "b": "Chvostek y Trousseau; QT largo",
+   "f": "Signos de hipocalcemia",
+   "b": "Chvostek y Trousseau; QT largo.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 12"
   },
   {
    "id": "n-ca-c-3",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "HipoCa grave",
-   "b": "Gluconato de calcio 10 % IV",
+   "f": "Hipocalcemia grave",
+   "b": "Gluconato de calcio 10 % IV.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 16"
   },
   {
@@ -490,15 +491,15 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "f": "Hipercalcemia",
-   "b": "Ca >10.3 corregido",
+   "b": "Calcio corregido >10.3.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 17"
   },
   {
    "id": "n-ca-c-5",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "HiperCa severa",
-   "b": ">15 bifosfonatos, calcitonina; >18 diálisis",
+   "f": "Hipercalcemia severa",
+   "b": ">15: suero salino, asa, bifosfonatos, calcitonina; >18: hemodiálisis.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 20"
   },
   {
@@ -506,15 +507,15 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "f": "Magnesio",
-   "b": "Mg bajo: <1.0 grave; MgSO₄ IV",
+   "b": "Hipomagnesemia grave <1.0: sulfato de magnesio IV.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 28"
   },
   {
    "id": "n-ca-c-7",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "Mg y asa de Henle",
-   "b": "60-70 % se reabsorbe ahí",
+   "f": "Magnesio en el riñón",
+   "b": "60 a 70 % se reabsorbe en la rama ascendente del asa de Henle.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 24"
   }
  ]

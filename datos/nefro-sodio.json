@@ -9,19 +9,19 @@
    "opciones": [
     {
      "t": "Un exceso de agua en relación con el sodio, más que una pérdida absoluta de sodio",
-     "por": "Lo dice la lámina de generalidades."
+     "por": "Casi siempre hay demasiada agua en relación con el sodio. Por eso la hiponatremia se corrige regulando el agua, y no solo dando sal."
     },
     {
      "t": "Una pérdida absoluta de sodio corporal",
-     "por": "Eso ocurre en algunos casos, pero no es lo habitual."
+     "por": "Puede pasar (vómitos, diarrea), pero la lámina dice que lo más frecuente es el exceso relativo de agua."
     },
     {
      "t": "Un exceso de potasio",
-     "por": "No es la causa."
+     "por": "El potasio es otro electrolito y no determina el sodio sérico."
     },
     {
      "t": "Siempre déficit de volumen",
-     "por": "Puede haber hipo, eu o hipervolemia."
+     "por": "El volumen extracelular puede estar bajo, normal o alto: eso se evalúa aparte."
     }
    ],
    "correcta": 0,
@@ -37,19 +37,19 @@
    "opciones": [
     {
      "t": "Medir la osmolaridad plasmática",
-     "por": "Luego se evalúa el volumen extracelular, la osmolaridad urinaria y el Na⁺ urinario."
+     "por": "Primero se descarta que sea una falsa hiponatremia (osmolaridad normal o alta). Después se evalúa el volumen extracelular, la osmolaridad urinaria y el sodio urinario, y se define una tasa de corrección segura."
     },
     {
      "t": "Dar NaCl 3 % de inmediato a todos",
-     "por": "Solo si hay síntomas graves."
+     "por": "El suero hipertónico se reserva para síntomas graves; dárselo a todos es peligroso."
     },
     {
      "t": "Medir solo la creatinina",
-     "por": "No clasifica la hiponatremia."
+     "por": "La creatinina informa la función renal, pero no clasifica la hiponatremia."
     },
     {
      "t": "Pedir una tomografía",
-     "por": "No es el primer paso."
+     "por": "Es innecesaria como primer paso."
     }
    ],
    "correcta": 0,
@@ -65,7 +65,7 @@
    "opciones": [
     {
      "t": "2 × Na⁺ + glucosa/18 + urea/6 (normal 275 a 290 mOsm/kg)",
-     "por": "Los osmoles principales son sodio, glucosa y urea."
+     "por": "El sodio, la glucosa y la urea son los osmoles principales (lámina 36). El 2 multiplica al sodio porque cada Na⁺ arrastra un anión."
     },
     {
      "t": "Na⁺ + K⁺ + glucosa",
@@ -81,7 +81,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La osmolaridad efectiva solo cuenta sodio y glucosa porque la urea atraviesa libremente las membranas.",
+   "explicacion": "Osmolaridad efectiva (tonicidad) = 2 × Na⁺ + glucosa/18; la urea no cuenta porque cruza libremente las membranas celulares.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 11"
   },
   {
@@ -122,15 +122,15 @@
    "opciones": [
     {
      "t": "Hipoosmolar (verdadera): puede ser eu, hipo o hipervolémica",
-     "por": "Es la hiponatremia verdadera."
+     "por": "Con menos de 275 mOsm/kg es una hiponatremia verdadera: sobra agua. Luego se clasifica por volumen en hipovolémica, euvolémica e hipervolémica."
     },
     {
      "t": "Isoosmolar",
-     "por": "275 a 290: por hiperlipidemia o hiperproteinemia."
+     "por": "Osmolaridad normal (275 a 290): es la pseudohiponatremia, por hiperlipidemia o hiperproteinemia."
     },
     {
      "t": "Hiperosmolar",
-     "por": "Mayor de 290: por hiperglucemia o soluciones hipertónicas."
+     "por": "Osmolaridad mayor de 290: la hiponatremia hipertónica, por hiperglucemia o manitol, que sacan agua de las células."
     },
     {
      "t": "No existe esa clasificación",
@@ -150,19 +150,19 @@
    "opciones": [
     {
      "t": "Moderada (125 a 129)",
-     "por": "Con síntomas neurológicos leves posibles."
+     "por": "127 está entre 125 y 129: moderada. Pueden aparecer síntomas neurológicos leves."
     },
     {
      "t": "Leve (130 a 134)",
-     "por": "127 es menor de 130."
+     "por": "Leve es 130 a 134; 127 está por debajo."
     },
     {
      "t": "Grave (<125)",
-     "por": "127 es mayor de 125."
+     "por": "Grave es menor de 125; 127 está por encima."
     },
     {
      "t": "Normal",
-     "por": "Es menor de 135."
+     "por": "El sodio normal es 135 a 145; 127 está bajo."
     }
    ],
    "correcta": 0,
@@ -178,11 +178,11 @@
    "opciones": [
     {
      "t": "Hipervolemia: más agua que sodio",
-     "por": "Causas hipervolémicas: falla cardiaca, cirrosis, insuficiencia renal."
+     "por": "Hay exceso de sodio y más exceso de agua: edemas o ascitis. La falla cardiaca, la cirrosis y la insuficiencia renal retienen agua y sodio."
     },
     {
      "t": "Hipovolemia: vómitos y diarrea",
-     "por": "Es otro grupo."
+     "por": "Los vómitos y la diarrea dan hiponatremia hipovolémica, que tiene signos de deshidratación."
     },
     {
      "t": "Euvolemia por SIAD",
@@ -206,19 +206,19 @@
    "opciones": [
     {
      "t": "Convulsiones o coma",
-     "por": "Más somnolencia profunda y distrés cardiorrespiratorio."
+     "por": "Los síntomas graves son vómito, distrés cardiorrespiratorio, somnolencia profunda, convulsiones y coma (Glasgow ≤8)."
     },
     {
      "t": "Náuseas sin vómitos",
-     "por": "Moderadamente grave."
+     "por": "Es un síntoma moderadamente grave, no el más grave."
     },
     {
      "t": "Confusión leve",
-     "por": "Moderadamente grave."
+     "por": "Es un síntoma moderadamente grave, no el más grave."
     },
     {
      "t": "Cefalea",
-     "por": "Moderadamente grave."
+     "por": "Es un síntoma moderadamente grave, no el más grave."
     }
    ],
    "correcta": 0,
@@ -234,7 +234,7 @@
    "opciones": [
     {
      "t": "513",
-     "por": "NaCl 3 % es hipertónico."
+     "por": "Es una solución hipertónica: 513 mEq/L, mucho mayor que el plasma (unos 140). Se usa para subir el sodio con síntomas graves."
     },
     {
      "t": "154",
@@ -262,19 +262,19 @@
    "opciones": [
     {
      "t": "8 mEq/L",
-     "por": "Para evitar la mielinólisis."
+     "por": "Con 8 mEq/L en 24 horas se evita el síndrome de desmielinización osmótica, que ocurre si el sodio sube demasiado rápido."
     },
     {
      "t": "20 mEq/L",
-     "por": "Demasiado rápido."
+     "por": "Subir tan rápido causa desmielinización osmótica."
     },
     {
      "t": "1 mEq/L",
-     "por": "Demasiado lento."
+     "por": "Es seguro pero insuficiente si hay síntomas graves."
     },
     {
      "t": "No hay límite",
-     "por": "Sí lo hay."
+     "por": "Sí hay un límite de seguridad."
     }
    ],
    "correcta": 0,
@@ -350,19 +350,19 @@
    "opciones": [
     {
      "t": "Na⁺ mayor de 145 mEq/L; siempre refleja déficit relativo de agua",
-     "por": "Respecto al sodio corporal total."
+     "por": "Aunque el sodio sea alto, la causa de fondo es que falta agua en relación con el sodio total. Hay hipernatremia con pérdida de agua, o con exceso de sodio."
     },
     {
      "t": "Na⁺ mayor de 135",
-     "por": "Es el límite de hiponatremia."
+     "por": "135 es el límite inferior normal; la hipernatremia empieza sobre 145."
     },
     {
      "t": "Exceso de sodio siempre",
-     "por": "Puede ser por pérdida de agua."
+     "por": "A menudo se debe a pérdida de agua más que a exceso de sodio."
     },
     {
      "t": "Osmolaridad baja",
-     "por": "Es hiperosmolar."
+     "por": "La hipernatremia es siempre hiperosmolar, no baja."
     }
    ],
    "correcta": 0,
@@ -378,15 +378,15 @@
    "opciones": [
     {
      "t": "Pérdida pura de agua por déficit de ADH (euvolémica)",
-     "por": "Nefrogénica: resistencia renal a la ADH."
+     "por": "La ADH hace que el riñón retenga agua. Si falta, se pierde agua pura por la orina y el sodio sube. En la nefrogénica el riñón no responde a la ADH."
     },
     {
      "t": "Pérdida de agua y sodio por diarrea",
-     "por": "Hipovolémica."
+     "por": "Eso es hipernatremia hipovolémica."
     },
     {
      "t": "Exceso de sodio por NaCl 3 %",
-     "por": "Hipervolémica."
+     "por": "Eso es hipernatremia hipervolémica."
     },
     {
      "t": "Ingesta excesiva de sal",
@@ -406,7 +406,7 @@
    "opciones": [
     {
      "t": "Edad avanzada con sed disminuida y dificultad para acceder al agua",
-     "por": "Más UCI, NPT sin agua libre, litio."
+     "por": "Con la edad baja la sed y la función renal, y a veces el paciente no puede pedir agua. Otros riesgos: UCI, nutrición parenteral sin agua libre, litio."
     },
     {
      "t": "Juventud",
@@ -418,7 +418,7 @@
     },
     {
      "t": "Hiperaldosteronismo aislado",
-     "por": "Es causa menos frecuente."
+     "por": "Es una causa menos frecuente de hipernatremia."
     }
    ],
    "correcta": 0,
@@ -464,19 +464,19 @@
    "opciones": [
     {
      "t": "No más de 8 mEq/L en las primeras 24 horas",
-     "por": "El mejor indicador de respuesta es la mejoría de síntomas neurológicos."
+     "por": "Se controla el sodio de forma seriada y se valora la mejoría de los síntomas neurológicos."
     },
     {
      "t": "20 mEq/L en 24 horas",
-     "por": "Edema cerebral."
+     "por": "Bajar el sodio tan rápido hace entrar agua a las neuronas y causa edema cerebral."
     },
     {
      "t": "Corregir en 1 hora",
-     "por": "Muy rápido."
+     "por": "Es muy rápido y peligroso."
     },
     {
      "t": "No hay límite",
-     "por": "Sí hay."
+     "por": "Sí hay un límite de seguridad."
     }
    ],
    "correcta": 0,
@@ -492,19 +492,19 @@
    "opciones": [
     {
      "t": "Hiponatremia hipotónica, euvolémica, grave y crónica",
-     "por": "Respuesta del PPT."
+     "por": "La osmolaridad es baja (hipotónica), el paciente no tiene signos de hipo ni hipervolemia (euvolémica), el sodio es menor de 125 (grave) y bajó en días (crónica), sin síntomas."
     },
     {
      "t": "Hiponatremia hipertónica",
-     "por": "La osmolaridad es baja."
+     "por": "Esa se ve con hiperglucemia o manitol; aquí no hay datos de eso."
     },
     {
      "t": "Hiponatremia leve aguda",
-     "por": "Es <125, grave."
+     "por": "El sodio llegó a 115, muy por debajo de 125: es grave, y se instaló en 5 días."
     },
     {
      "t": "Hipernatremia",
-     "por": "El sodio bajó."
+     "por": "El sodio bajó, no subió."
     }
    ],
    "correcta": 0,
