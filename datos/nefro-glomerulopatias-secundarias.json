@@ -1,0 +1,551 @@
+{
+ "preguntas": [
+  {
+   "id": "n-gp2-gen",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 1,
+   "enunciado": "En una glomerulopatía secundaria, ¿hacia dónde se dirige principalmente el tratamiento?",
+   "opciones": [
+    {
+     "t": "Hacia la enfermedad de base que la desencadena, más el control de la afección renal",
+     "por": "Así lo dice la lámina."
+    },
+    {
+     "t": "Solo a la hipertensión",
+     "por": "La HTA se controla pero no es el eje."
+    },
+    {
+     "t": "A la biopsia repetida",
+     "por": "La biopsia diagnostica, no trata."
+    },
+    {
+     "t": "A trasplantar siempre",
+     "por": "No es el abordaje inicial."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la HTA que casi siempre aparece se prefieren IECA y ARA II. En las vasculitis la biopsia puede llevar al diagnóstico.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 7"
+  },
+  {
+   "id": "n-gp2-nl1",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 1,
+   "enunciado": "¿En qué porcentaje de los pacientes con LES aparece nefritis lúpica?",
+   "opciones": [
+    {
+     "t": "30 a 70 %",
+     "por": "Es lo que indica la lámina."
+    },
+    {
+     "t": "Menos de 5 %",
+     "por": "Es muy bajo."
+    },
+    {
+     "t": "Casi 100 %",
+     "por": "Es muy alto."
+    },
+    {
+     "t": "10 %",
+     "por": "Es bajo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Un estudio latinoamericano de 1214 pacientes encontró compromiso renal en 51.7 %.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 9",
+   "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis (nefropatía) lúpica, el compromiso renal del LES. La clasificación de la OMS divide la NL en seis clases según la biopsia."
+  },
+  {
+   "id": "n-gp2-nl2",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 2,
+   "enunciado": "En la NL, ¿cuál es la manifestación más constante?",
+   "opciones": [
+    {
+     "t": "Proteinuria (100 %)",
+     "por": "Seguida de hematuria microscópica (80 %)."
+    },
+    {
+     "t": "Hematuria macroscópica (1 a 2 %)",
+     "por": "Es rara."
+    },
+    {
+     "t": "Cilindros eritrocitarios (10 %)",
+     "por": "Son poco frecuentes."
+    },
+    {
+     "t": "Falla renal aguda (1 a 2 %)",
+     "por": "Es poco frecuente."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Síndrome nefrótico 45 a 65 %, caída de función renal 40 a 80 %, HTA 15 a 50 %.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 9",
+   "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis (nefropatía) lúpica, el compromiso renal del LES. La clasificación de la OMS divide la NL en seis clases según la biopsia."
+  },
+  {
+   "id": "n-gp2-nlrf",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 2,
+   "enunciado": "¿Cuál es un factor de riesgo para desarrollar nefritis en pacientes con LES?",
+   "opciones": [
+    {
+     "t": "Etnia hispana o afroamericana, anti-DNA de doble cadena y anti-RNP",
+     "por": "Está en la lámina."
+    },
+    {
+     "t": "Edad menor de 10 años",
+     "por": "No se lista."
+    },
+    {
+     "t": "Sexo femenino con lupus leve",
+     "por": "No se lista como riesgo."
+    },
+    {
+     "t": "Ser de raza blanca",
+     "por": "Es lo contrario."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Factores de progresión: creatinina >1.5 mg/dL, anemia, HTA, hipocomplementemia, proteinuria, varón, raza negra, tabaquismo.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 11",
+   "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis (nefropatía) lúpica, el compromiso renal del LES. La clasificación de la OMS divide la NL en seis clases según la biopsia."
+  },
+  {
+   "id": "n-gp2-nlc1",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 2,
+   "enunciado": "¿Qué hallazgo identifica la clase IV de nefritis lúpica?",
+   "opciones": [
+    {
+     "t": "Asas de alambre (wire-loop) por depósitos subendoteliales extensos",
+     "por": "Es proliferativa difusa."
+    },
+    {
+     "t": "Depósitos mesangiales sin cambios en MO",
+     "por": "Es la clase I."
+    },
+    {
+     "t": "Proliferación mesangial",
+     "por": "Es la clase II."
+    },
+    {
+     "t": "Aspecto de membranosa pura",
+     "por": "Es la clase V."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Clase I mínima mesangial; II mesangial proliferativa; III focal; IV difusa; V membranosa; VI esclerosante avanzada.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 12 a 14",
+   "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis (nefropatía) lúpica, el compromiso renal del LES. La clasificación de la OMS divide la NL en seis clases según la biopsia."
+  },
+  {
+   "id": "n-gp2-nlc2",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 2,
+   "enunciado": "Clase de NL que puede verse igual que una membranosa idiopática:",
+   "opciones": [
+    {
+     "t": "Clase V",
+     "por": "Se acompaña más a menudo de otras lesiones y de C1q y C4."
+    },
+    {
+     "t": "Clase I",
+     "por": "Es normal en MO."
+    },
+    {
+     "t": "Clase III",
+     "por": "Es focal proliferativa."
+    },
+    {
+     "t": "Clase VI",
+     "por": "Es esclerosante avanzada."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "C1q y C4 pertenecen a la vía clásica del complemento.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 15",
+   "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis (nefropatía) lúpica, el compromiso renal del LES. La clasificación de la OMS divide la NL en seis clases según la biopsia."
+  },
+  {
+   "id": "n-gp2-nltx",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 3,
+   "enunciado": "Tratamiento de la NL proliferativa para alcanzar remisión:",
+   "opciones": [
+    {
+     "t": "Bolos mensuales de metilprednisolona más ciclofosfamida",
+     "por": "Remisión en 83 %."
+    },
+    {
+     "t": "Solo IECA",
+     "por": "Insuficiente."
+    },
+    {
+     "t": "Antibióticos",
+     "por": "No."
+    },
+    {
+     "t": "Plasmaféresis de rutina",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En fracaso, ácido micofenólico; Euro-Lupus: dosis bajas de ciclofosfamida seguidas de azatioprina; azatioprina más metilprednisolona si hay deseo de embarazo.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 16"
+  },
+  {
+   "id": "n-gp2-cs",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 2,
+   "enunciado": "Vasculitis de pequeño vaso con granulomas, eosinofilia, IgE elevada y pANCA:",
+   "opciones": [
+    {
+     "t": "Síndrome de Churg-Strauss",
+     "por": "GN focal y segmentaria necrotizante con semilunas."
+    },
+    {
+     "t": "Púrpura de Schönlein-Henoch",
+     "por": "Es por depósito de IgA."
+    },
+    {
+     "t": "Crioglobulinemia mixta",
+     "por": "Hipocomplementemia y púrpura."
+    },
+    {
+     "t": "Artritis reumatoide",
+     "por": "IgM y FR."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tratamiento: esteroides con o sin inmunosupresores según gravedad.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 18"
+  },
+  {
+   "id": "n-gp2-crio",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 2,
+   "enunciado": "Púrpura palpable, hipocomplementemia y glomerulonefritis con aspecto membranoproliferativo:",
+   "opciones": [
+    {
+     "t": "Crioglobulinemia mixta tipo II",
+     "por": "Hallazgos similares a la GNMP idiopática."
+    },
+    {
+     "t": "Churg-Strauss",
+     "por": "Con eosinofilia."
+    },
+    {
+     "t": "Henoch-Schönlein",
+     "por": "Hay IgA mesangial."
+    },
+    {
+     "t": "Sjögren",
+     "por": "Nefritis intersticial."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Insuficiencia renal en grado variable en el 50 %.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 19"
+  },
+  {
+   "id": "n-gp2-hsp",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 2,
+   "enunciado": "Niño de 7 años con púrpura, dolor abdominal, artralgias y hematuria. ¿Qué muestra la IF renal?",
+   "opciones": [
+    {
+     "t": "Depósitos mesangiales de IgA",
+     "por": "Es el diagnóstico por IF."
+    },
+    {
+     "t": "Depósitos lineales de IgG",
+     "por": "Anti-MBG."
+    },
+    {
+     "t": "Negativa",
+     "por": "Pauciinmune."
+    },
+    {
+     "t": "Solo C3",
+     "por": "Es C3 glomerulopatía."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Más del 90 % de los casos son menores de 10 años; picos en invierno y primavera. En GNRP: esteroides IV y luego prednisona 1 mg/kg/día por 3 meses.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 20"
+  },
+  {
+   "id": "n-gp2-ar",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 2,
+   "enunciado": "En la artritis reumatoide, ¿qué marcador serológico y qué depósito se esperan?",
+   "opciones": [
+    {
+     "t": "Factor reumatoide (positivo en 70 %) y depósitos de IgM, con microhematuria",
+     "por": "Lesiones: membranosa, proliferativa, MP, mesangial."
+    },
+    {
+     "t": "ANCA",
+     "por": "No."
+    },
+    {
+     "t": "Anti-MBG",
+     "por": "No."
+    },
+    {
+     "t": "Anti-PLA2R",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El FR es un autoanticuerpo IgM.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 21"
+  },
+  {
+   "id": "n-gp2-ea",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 3,
+   "enunciado": "¿Qué glomerulopatía se asocia ocasionalmente a la espondilitis anquilosante?",
+   "opciones": [
+    {
+     "t": "GN por IgA y amiloidosis renal secundaria",
+     "por": "Afecta a varones jóvenes."
+    },
+    {
+     "t": "GN postestreptocócica",
+     "por": "No."
+    },
+    {
+     "t": "Membranosa",
+     "por": "No."
+    },
+    {
+     "t": "Cambios mínimos",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Enfermedad inflamatoria crónica del esqueleto axial.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 24 y 25"
+  },
+  {
+   "id": "n-gp2-sj",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 3,
+   "enunciado": "Afectación renal del síndrome de Sjögren:",
+   "opciones": [
+    {
+     "t": "Nefritis intersticial con acidosis tubular tipo I (distal)",
+     "por": "Rara vez GN."
+    },
+    {
+     "t": "Síndrome nefrótico por cambios mínimos",
+     "por": "No."
+    },
+    {
+     "t": "GNRP anti-MBG",
+     "por": "No."
+    },
+    {
+     "t": "Nefropatía por IgA",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Infiltrado linfoplasmocitario y destrucción de glándulas exocrinas.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 26"
+  },
+  {
+   "id": "n-gp2-ee",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 2,
+   "enunciado": "¿Qué gérmenes causan GN en la endocarditis aguda y subaguda?",
+   "opciones": [
+    {
+     "t": "Aguda: S. aureus y E. faecalis; subaguda: Streptococcus",
+     "por": "Según la lámina."
+    },
+    {
+     "t": "Aguda: Streptococcus; subaguda: S. aureus",
+     "por": "Invertido."
+    },
+    {
+     "t": "Solo E. coli",
+     "por": "No."
+    },
+    {
+     "t": "Solo virus",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tratamiento: erradicar la infección.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 28"
+  },
+  {
+   "id": "n-gp2-shunt",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 3,
+   "enunciado": "Nefritis del shunt (derivación ventrículo-atrial):",
+   "opciones": [
+    {
+     "t": "S. epidermidis o aureus; lesión más frecuente GNMP; proteinuria nefrótica en 25 %",
+     "por": "Con hematuria e IR leve o moderada."
+    },
+    {
+     "t": "E. coli; cambios mínimos",
+     "por": "No."
+    },
+    {
+     "t": "Streptococcus; membranosa",
+     "por": "No."
+    },
+    {
+     "t": "Virus; GEFS",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se erradica el foco infeccioso.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 32"
+  },
+  {
+   "id": "n-gp2-sif",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 2,
+   "enunciado": "Presentación renal más frecuente de la sífilis y la lepra:",
+   "opciones": [
+    {
+     "t": "Sífilis: síndrome nefrótico con GN membranosa; lepra: GN proliferativa difusa",
+     "por": "IF IgM, IgG, C3 en lepra."
+    },
+    {
+     "t": "Sífilis: nefrítico; lepra: nefrótico",
+     "por": "Invertido."
+    },
+    {
+     "t": "Ambas: cambios mínimos",
+     "por": "No."
+    },
+    {
+     "t": "Ambas: GEFS",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Depósitos subepiteliales de IgG y C3 en sífilis.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 34"
+  },
+  {
+   "id": "n-gp2-case",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "dif": 3,
+   "enunciado": "Varón de 65 años con DM2, tras prostatectomía: hematuria, HTA, anemia, Cr 6 mg/dL, proteinuria nefrótica, ecografía sin obstrucción. ¿Diagnóstico de la clase?",
+   "opciones": [
+    {
+     "t": "Glomerulonefritis rápidamente progresiva secundaria a vasculitis",
+     "por": "Respuesta del PPT."
+    },
+    {
+     "t": "Nefropatía diabética pura",
+     "por": "Proteinuria no explicable por diabetes."
+    },
+    {
+     "t": "IRA postrenal",
+     "por": "Sin obstrucción."
+    },
+    {
+     "t": "IRA prerrenal",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se confirma con biopsia renal.",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 37 y 38"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "n-gp2-c-0",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "f": "Clases de NL",
+   "b": "I mínima, II mesangial, III focal, IV difusa, V membranosa, VI esclerosante",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 12"
+  },
+  {
+   "id": "n-gp2-c-1",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "f": "Clase IV",
+   "b": "Asas de alambre",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 14"
+  },
+  {
+   "id": "n-gp2-c-2",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "f": "NL: tratamiento",
+   "b": "Metilprednisolona más ciclofosfamida mensual; micofenolato si fracasa",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 16"
+  },
+  {
+   "id": "n-gp2-c-3",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "f": "Churg-Strauss",
+   "b": "Eosinofilia, IgE, pANCA",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 18"
+  },
+  {
+   "id": "n-gp2-c-4",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "f": "Henoch-Schönlein",
+   "b": "IgA mesangial; niños; púrpura, artritis, abdomen, riñón",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 20"
+  },
+  {
+   "id": "n-gp2-c-5",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "f": "Sjögren",
+   "b": "Nefritis intersticial con ATR I",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 26"
+  },
+  {
+   "id": "n-gp2-c-6",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "f": "Nefritis del shunt",
+   "b": "S. epidermidis; GNMP",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 32"
+  },
+  {
+   "id": "n-gp2-c-7",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias",
+   "f": "Sífilis",
+   "b": "GN membranosa; nefrótico",
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 34"
+  }
+ ]
+}

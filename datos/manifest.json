@@ -3,6 +3,9 @@
   "nefro-talleres.json",
   "nefro-erc.json",
   "nefro-ira.json",
-  "nefro-sindromes.json"
+  "nefro-sindromes.json",
+  "nefro-glomerulopatias-primarias.json",
+  "nefro-glomerulopatias-secundarias.json",
+  "nefro-enfermedades-sistemicas.json"
  ]
 }

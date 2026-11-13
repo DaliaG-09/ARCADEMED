@@ -1,0 +1,551 @@
+{
+ "preguntas": [
+  {
+   "id": "n-gp1-def",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 1,
+   "enunciado": "¿Qué son las glomerulopatías?",
+   "opciones": [
+    {
+     "t": "Enfermedades heterogéneas que afectan la estructura y la función glomerular, primarias o secundarias",
+     "por": "Es la definición de la lámina."
+    },
+    {
+     "t": "Infecciones del tracto urinario bajo",
+     "por": "Son infecciones de vejiga o uretra, no afectan al glomérulo."
+    },
+    {
+     "t": "Alteraciones únicamente del túbulo proximal",
+     "por": "El glomerulopatía afecta al glomérulo."
+    },
+    {
+     "t": "Cualquier cálculo que obstruye la vía urinaria",
+     "por": "Eso es litiasis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se clasifican en primarias (enfermedad propia del riñón) y secundarias (por una enfermedad sistémica).",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 8"
+  },
+  {
+   "id": "n-gp1-cm1",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "Niño de 6 años con edema facial brusco, proteinuria nefrótica, sin hematuria ni HTA, complemento normal. La MO es normal. ¿Qué espera encontrar la ME?",
+   "opciones": [
+    {
+     "t": "Fusión o borramiento difuso de los pedicelos de los podocitos",
+     "por": "Es el hallazgo clave de la nefropatía por cambios mínimos."
+    },
+    {
+     "t": "Depósitos subepiteliales en espigas",
+     "por": "Corresponden a la nefropatía membranosa."
+    },
+    {
+     "t": "Doble contorno de la MBG",
+     "por": "Es de la membranoproliferativa."
+    },
+    {
+     "t": "Depósitos mesangiales densos",
+     "por": "Son de la nefropatía por IgA."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Cambios mínimos: síndrome nefrótico puro, MO normal, IF negativa, ME con fusión de pedicelos, complemento normal. Es la causa más frecuente en niños.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 13 y 14",
+   "contexto": "MO = microscopía óptica; ME = microscopía electrónica; IF = inmunofluorescencia; MBG = membrana basal glomerular. Son los tres estudios de la biopsia renal que permiten distinguir cada glomerulopatía."
+  },
+  {
+   "id": "n-gp1-cm2",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "¿Qué antecedentes se asocian a la nefropatía por cambios mínimos secundaria?",
+   "opciones": [
+    {
+     "t": "AINE, linfoma de Hodgkin, alergias, infecciones virales y vacunas",
+     "por": "Etiología secundaria listada."
+    },
+    {
+     "t": "Hepatitis B y C",
+     "por": "Se asocian a membranosa y membranoproliferativa."
+    },
+    {
+     "t": "VIH, heroína y obesidad",
+     "por": "Son causas secundarias de GEFS."
+    },
+    {
+     "t": "Anticuerpos anti-PLA2R",
+     "por": "Son de la membranosa primaria."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se describe además antecedente de atopia o alergias.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 13 y 14"
+  },
+  {
+   "id": "n-gp1-cm3",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "Tratamiento inicial de cambios mínimos y su respuesta:",
+   "opciones": [
+    {
+     "t": "Corticoides (prednisona): respuesta excelente, sobre todo en niños",
+     "por": "Inmunosupresores solo si recaídas frecuentes."
+    },
+    {
+     "t": "Plasmaféresis",
+     "por": "Es para anti-MBG."
+    },
+    {
+     "t": "Rituximab de primera línea",
+     "por": "Se usa en recaídas frecuentes."
+    },
+    {
+     "t": "Solo IECA y observación",
+     "por": "Los corticoides son lo principal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Prednisona 1 mg/kg/día (máx. 80 mg) por 4 a 16 semanas; si no hay respuesta en 4 a 6 semanas, biopsia. Supervivencia 85 a 90 %.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 13 y 14",
+   "nota": "La clase de síndrome nefrótico (lám. 21) da 2 mg/kg/día por 4 a 6 semanas en niños; esta lámina da 1 mg/kg/día (máx. 80 mg) por 4 a 16 semanas. Para el examen usa el valor de la clase que te toque."
+  },
+  {
+   "id": "n-gp1-mb1",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 1,
+   "enunciado": "¿Cuál es la causa más común de síndrome nefrótico en adultos según esta clase?",
+   "opciones": [
+    {
+     "t": "Glomerulonefritis membranosa",
+     "por": "Lo dice la lámina."
+    },
+    {
+     "t": "Cambios mínimos",
+     "por": "Es la más común en niños."
+    },
+    {
+     "t": "Nefropatía por IgA",
+     "por": "Cursa con hematuria recurrente."
+    },
+    {
+     "t": "GNRP",
+     "por": "Es un síndrome nefrítico rápidamente progresivo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Membranosa: depósito de inmunocomplejos subepiteliales, proteinuria de 5 a 15 g/día y trombosis en 40 %.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 15",
+   "nota": "La clase de síndrome nefrótico (lám. 12) menciona la GEFS y la mesangiocapilar como más frecuentes en adultos en algunas series; la clase de glomerulopatías pone a la membranosa como la más común."
+  },
+  {
+   "id": "n-gp1-mb2",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "Varón de 48 años con proteinuria de 8 g/día, edema, complemento normal, anti-PLA2R positivo. ¿Qué espera en la ME?",
+   "opciones": [
+    {
+     "t": "Depósitos subepiteliales en forma de espigas",
+     "por": "Con engrosamiento difuso de la MBG sin proliferación celular."
+    },
+    {
+     "t": "Semilunas epiteliales",
+     "por": "Corresponden a GNRP."
+    },
+    {
+     "t": "Fusión de pedicelos sin depósitos",
+     "por": "Es de cambios mínimos."
+    },
+    {
+     "t": "Doble contorno con lobulación",
+     "por": "Es membranoproliferativa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "IF: depósitos granulares de IgG y C3. Anti-PLA2R positivo en la enfermedad primaria; en las secundarias hay lupus, hepatitis B/C, AINE y neoplasias.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 16",
+   "contexto": "MO = microscopía óptica; ME = microscopía electrónica; IF = inmunofluorescencia; MBG = membrana basal glomerular. Son los tres estudios de la biopsia renal que permiten distinguir cada glomerulopatía."
+  },
+  {
+   "id": "n-gp1-mb3",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "¿Cuál es la evolución de la nefropatía membranosa?",
+   "opciones": [
+    {
+     "t": "1/3 remite, 1/3 persiste y 1/3 progresa a ERC",
+     "por": "Peor si hay función renal disminuida o proteinuria intensa."
+    },
+    {
+     "t": "Todos remiten",
+     "por": "No."
+    },
+    {
+     "t": "Todos progresan",
+     "por": "No."
+    },
+    {
+     "t": "Siempre curan con corticoides",
+     "por": "Se usan inmunosupresores si persiste."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tratamiento conservador si la función es normal; si persiste, corticoides con ciclosporina o ciclofosfamida.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 16"
+  },
+  {
+   "id": "n-gp1-anti1",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "Joven de 24 años con hematuria, insuficiencia renal aguda y hemoptisis. IF con depósito lineal de IgG. ¿Diagnóstico?",
+   "opciones": [
+    {
+     "t": "Enfermedad de Goodpasture (anti-MBG)",
+     "por": "Afecta riñón y pulmón."
+    },
+    {
+     "t": "Nefropatía por IgA",
+     "por": "IF con depósitos mesangiales de IgA."
+    },
+    {
+     "t": "Membranosa",
+     "por": "IF granular."
+    },
+    {
+     "t": "GEFS",
+     "por": "IF negativa o inespecífica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Anticuerpos anti-MBG; MO con semilunas; complemento normal. Se trata con plasmaféresis, corticoides y ciclofosfamida. Peor pronóstico si más del 80 % de glomérulos con semilunas o Cr >6 mg/dL.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 17",
+   "contexto": "MO = microscopía óptica; ME = microscopía electrónica; IF = inmunofluorescencia; MBG = membrana basal glomerular. Son los tres estudios de la biopsia renal que permiten distinguir cada glomerulopatía."
+  },
+  {
+   "id": "n-gp1-iga1",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "¿Cuál es la presentación típica de la nefropatía por IgA (enfermedad de Berger)?",
+   "opciones": [
+    {
+     "t": "Hematuria macroscópica recurrente tras infecciones respiratorias o digestivas",
+     "por": "Es nefrítico recurrente."
+    },
+    {
+     "t": "Anasarca con albúmina menor de 2 g/dL",
+     "por": "Eso es nefrótico."
+    },
+    {
+     "t": "Oliguria con semilunas",
+     "por": "Es GNRP."
+    },
+    {
+     "t": "Rash con artritis únicamente",
+     "por": "No es la presentación típica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Complemento normal. IF con depósitos mesangiales de IgA dominante.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 19"
+  },
+  {
+   "id": "n-gp1-iga2",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 3,
+   "enunciado": "¿Qué vía del complemento se activa en la nefropatía por IgA?",
+   "opciones": [
+    {
+     "t": "Vía alternativa o de la lectina",
+     "por": "La lámina remarca que NO es la vía clásica."
+    },
+    {
+     "t": "Vía clásica",
+     "por": "La lámina dice que no."
+    },
+    {
+     "t": "Ninguna",
+     "por": "Sí hay activación."
+    },
+    {
+     "t": "Solo la vía final común",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Secuencia: IgA1 con glicosilación anormal → autoanticuerpos → complejos inmunes → depósito mesangial → complemento → daño.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 18"
+  },
+  {
+   "id": "n-gp1-gefs",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "¿Qué es la GEFS (glomeruloesclerosis focal y segmentaria)?",
+   "opciones": [
+    {
+     "t": "Esclerosis de una parte del glomérulo (segmentaria) en algunos glomérulos (focal)",
+     "por": "Con fusión de pedicelos y daño podocitario."
+    },
+    {
+     "t": "Esclerosis de todos los glomérulos",
+     "por": "Sería global."
+    },
+    {
+     "t": "Engrosamiento uniforme de la MBG",
+     "por": "Es membranosa."
+    },
+    {
+     "t": "Depósitos lineales de IgG",
+     "por": "Es anti-MBG."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Causas secundarias: VIH, heroína, obesidad, anemia drepanocítica, reducción de masa renal. Alto riesgo de progresión a ERC, sobre todo si no responde a esteroides.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 20"
+  },
+  {
+   "id": "n-gp1-gefs2",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 3,
+   "enunciado": "Tratamiento de la GEFS refractaria a corticoides:",
+   "opciones": [
+    {
+     "t": "Inmunosupresores como ciclosporina o micofenolato",
+     "por": "Más IECA/ARA II."
+    },
+    {
+     "t": "Plasmaféresis",
+     "por": "No."
+    },
+    {
+     "t": "Ninguno",
+     "por": "No."
+    },
+    {
+     "t": "Solo reposo",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "IECA/ARA II si proteinuria; si es secundaria, tratar la causa.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 20"
+  },
+  {
+   "id": "n-gp1-gnmp",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 3,
+   "enunciado": "¿Qué patrón histológico es característico de la glomerulonefritis membranoproliferativa?",
+   "opciones": [
+    {
+     "t": "Doble contorno de la MBG con proliferación mesangial y lobulación",
+     "por": "'Railway track'."
+    },
+    {
+     "t": "Espigas subepiteliales",
+     "por": "Es membranosa."
+    },
+    {
+     "t": "Borramiento de pedicelos solo",
+     "por": "Es cambios mínimos."
+    },
+    {
+     "t": "Semilunas en la mayoría de glomérulos",
+     "por": "Es GNRP."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tipo I: inmunocomplejos subendoteliales. Tipo II: glomerulopatía C3 (vía alternativa). Causas secundarias: VHB, VHC, autoinmunes, crioglobulinemia, neoplasias.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 22"
+  },
+  {
+   "id": "n-gp1-gnrp",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "¿Qué caracteriza a la GNRP?",
+   "opciones": [
+    {
+     "t": "Pérdida rápida de función renal en semanas o meses, con semilunas en la mayoría de glomérulos",
+     "por": "Síndrome nefrítico severo."
+    },
+    {
+     "t": "Curso lento a lo largo de años",
+     "por": "Eso es GNMP."
+    },
+    {
+     "t": "Síndrome nefrótico puro",
+     "por": "No."
+    },
+    {
+     "t": "Buen pronóstico sin tratamiento",
+     "por": "Es malo sin tratamiento."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "GNRP por anti-MBG, inmunocomplejos o ANCA.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 24 y 25"
+  },
+  {
+   "id": "n-gp1-gnrp2",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 3,
+   "enunciado": "Clasificación de la GNRP: ¿cuál empareja bien el tipo con su IF?",
+   "opciones": [
+    {
+     "t": "Tipo III (ANCA, pauciinmune): IF negativa o mínima",
+     "por": "Vasculitis GPA/MPA."
+    },
+    {
+     "t": "Tipo I: depósitos granulares",
+     "por": "Es lineal."
+    },
+    {
+     "t": "Tipo II: IF negativa",
+     "por": "Es granular."
+    },
+    {
+     "t": "Tipo III: depósitos lineales",
+     "por": "Es negativa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tipo I: anti-MBG, lineal IgG (Goodpasture). Tipo II: inmunocomplejos granulares (lupus, postinfecciosa, Henoch-Schönlein). Tipo III: pauciinmune ANCA (vasculitis).",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 25"
+  },
+  {
+   "id": "n-gp1-bx",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "¿En cuál de estas situaciones se indica biopsia renal?",
+   "opciones": [
+    {
+     "t": "Falla renal inexplicable",
+     "por": "También síndrome nefrítico agudo, nefrótico, proteinuria no nefrótica aislada, hematuria glomerular aislada, enfermedades del tejido conectivo."
+    },
+    {
+     "t": "Infección urinaria baja simple",
+     "por": "No."
+    },
+    {
+     "t": "Cólico renal típico",
+     "por": "No."
+    },
+    {
+     "t": "Hipertensión esencial",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El diagnóstico se basa en clínica, laboratorio e histopatología.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 26"
+  },
+  {
+   "id": "n-gp1-rem",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 3,
+   "enunciado": "¿Qué es una 'recaída' en este esquema?",
+   "opciones": [
+    {
+     "t": "Proteinuria mayor de 40 mg/m²/h en 3 días no consecutivos",
+     "por": "Remisión es menor de 4 mg/m²/h."
+    },
+    {
+     "t": "Proteinuria menor de 4 mg/m²/h",
+     "por": "Es remisión."
+    },
+    {
+     "t": "Proteinuria mayor de 1 g/día",
+     "por": "No."
+    },
+    {
+     "t": "Hematuria macroscópica",
+     "por": "No."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Recaídas frecuentes: 2 o más en 6 meses o 3 en un año. Corticodependiente: recae al bajar la dosis o en las 2 semanas siguientes. Corticorresistente inicial: no responde en 8 a 12 semanas.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 28 a 30"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "n-gp1-c-0",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "f": "Cambios mínimos",
+   "b": "Niños; MO normal, IF neg., ME fusión de pedicelos; corticoides",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 14"
+  },
+  {
+   "id": "n-gp1-c-1",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "f": "Membranosa",
+   "b": "Adultos; espigas subepiteliales; anti-PLA2R",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 16"
+  },
+  {
+   "id": "n-gp1-c-2",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "f": "Anti-MBG",
+   "b": "IF lineal de IgG; Goodpasture; plasmaféresis",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 17"
+  },
+  {
+   "id": "n-gp1-c-3",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "f": "IgA",
+   "b": "Hematuria macroscópica tras infección; IF mesangial IgA",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 19"
+  },
+  {
+   "id": "n-gp1-c-4",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "f": "GEFS",
+   "b": "Esclerosis segmentaria y focal; VIH, heroína, obesidad",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 20"
+  },
+  {
+   "id": "n-gp1-c-5",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "f": "GNMP",
+   "b": "Doble contorno / railway track",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 22"
+  },
+  {
+   "id": "n-gp1-c-6",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "f": "GNRP tipos",
+   "b": "I anti-MBG; II inmunocomplejos; III ANCA",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 25"
+  },
+  {
+   "id": "n-gp1-c-7",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "f": "Recaída",
+   "b": "Proteinuria >40 mg/m²/h en 3 días no consecutivos",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 28"
+  }
+ ]
+}
