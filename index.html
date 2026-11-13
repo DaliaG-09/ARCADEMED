@@ -266,15 +266,34 @@ function px(rows, color, s){
 const HEART = ['.XX.XX.','XXXXXXX','XXXXXXX','.XXXXX.','..XXX..','...X...'];
 const heart = full => px(HEART, full ? 'var(--bad)' : '#d9d2bd', 4);
 
-const CAT_COL = {K:'#1a1a1a', O:'#ff9f43', P:'#ff5fa2', B:'#4cc3ff'};
+const CAT_COL = {K:'#1a1a1a', G:'#3d3d3d', W:'#ffffff', B:'#4cc3ff'};
 function catSvg(mood, sz){
-  const r = ['.KK........KK.','.KPK......KPK.','.KPOKKKKKKOPK.','.KOOOOOOOOOOK.','KOOOOOOOOOOOOK','KOOOOOOOOOOOOK','KOOOOOOOOOOOOK','KOOOOOPPOOOOOK','KOOOOOOOOOOOOK','.KOOOOOOOOOOK.','..KKKKKKKKKK..'].map(x => x.split(''));
+  const r = [
+    '.KK..........KK.',
+    '.KWK........KWK.',
+    '.KWWKKKKKKKKWWK.',
+    '.KKKKKKKKKKKKKK.',
+    '.KKKKKKKKKKKKKK.',
+    '.KKKKKKKKKKKKKK.',
+    '.KKKKKKKKKKKKKK.',
+    '.KKKKKKWWKKKKKK.',
+    '.KKKKKKKKKKKKKK.',
+    '..KKKKKKKKKKKK..',
+    '...KKKKKKKKKK...',
+    '..KKKKKKKKKKKK..',
+    '..KKKKKKKKKKKKKK',
+    '..KKKGKKKKGKKKKK',
+    '..KKKGKKKKGKKKKK',
+    '..KKKGKKKKGKKKK.',
+    '..KKKKKKKKKKKKK.',
+    '..KKKKKKKKKKKK..'
+  ].map(x => x.split(''));
   const set = (y, xs, c) => xs.forEach(x => r[y][x] = c);
-  if(mood === 'ok'){ set(5,[3,4,9,10],'K'); set(8,[5,8],'K'); set(9,[6,7],'K'); }
-  else { set(5,[3,10],'K'); set(6,[3,10],'K'); set(7,[3,10],'B'); set(8,[6,7],'K'); set(9,[5,8],'K'); }
+  if(mood === 'ok'){ set(5,[4,11],'W'); set(6,[3,5,10,12],'W'); set(8,[6,9],'W'); set(9,[7,8],'W'); }
+  else { set(5,[4,11],'W'); set(6,[4,11],'W'); set(7,[4,11],'B'); set(8,[4,11],'B'); set(8,[7,8],'W'); set(9,[6,9],'W'); }
   let o = '';
   r.forEach((row, y) => row.forEach((ch, x) => { if(CAT_COL[ch]) o += '<rect x="'+x+'" y="'+y+'" width="1" height="1" fill="'+CAT_COL[ch]+'"/>'; }));
-  return '<svg viewBox="0 0 14 11" width="'+(14*sz)+'" height="'+(11*sz)+'" shape-rendering="crispEdges" role="img" aria-label="'+(mood === 'ok' ? 'Gatito feliz' : 'Gatito triste')+'">'+o+'</svg>';
+  return '<svg viewBox="0 0 16 18" width="'+(16*sz)+'" height="'+(18*sz)+'" shape-rendering="crispEdges" role="img" aria-label="'+(mood === 'ok' ? 'Gatito negro feliz' : 'Gatito negro triste')+'">'+o+'</svg>';
 }
 const CAT_OK = ['¡Miau-ravilloso!','¡Bien hecho, doctora!','¡Purr-fecto!','¡Eso, eso!','¡Así se hace!','¡Ronroneo de orgullo!'];
 const CAT_BAD = ['Miau... ¡vamos otra vez!','Tranqui, así se aprende.','Casi, ¡la próxima sale!','Lee la explicación y a la siguiente.','Ay... ¡tú puedes!'];
