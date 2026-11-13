@@ -8,8 +8,9 @@
    "enunciado": "¿Cuáles son las manifestaciones de la dispepsia según la clase?",
    "opciones": [
     {
-     "t": "Dolor o epigastralgia, saciedad precoz, plenitud posprandial, distensión abdominal y náuseas",
-     "por": "Son los síntomas de un trastorno del tubo digestivo alto que agrupa la lámina."
+     "t": "Epigastralgia, saciedad precoz, plenitud, distensión y náuseas",
+     "por": "Son los síntomas de un trastorno del tubo digestivo alto que agrupa la lámina.",
+     "full": "Dolor o epigastralgia, saciedad precoz, plenitud posprandial, distensión abdominal y náuseas"
     },
     {
      "t": "Diarrea crónica con pérdida de peso y anemia",
@@ -64,8 +65,9 @@
    "enunciado": "¿Cuál de estos factores se asocia a la dispepsia funcional?",
    "opciones": [
     {
-     "t": "Hipersensibilidad visceral, alteraciones de la motilidad, H. pylori y factores psicosociales",
-     "por": "Son los factores que menciona la lámina de etiología."
+     "t": "Hipersensibilidad visceral y dismotilidad",
+     "por": "Son los factores que menciona la lámina de etiología.",
+     "full": "Hipersensibilidad visceral, alteraciones de la motilidad, H. pylori y factores psicosociales"
     },
     {
      "t": "Obstrucción biliar por un cálculo",
@@ -92,8 +94,9 @@
    "enunciado": "¿Qué exigen los criterios de Roma IV para el síndrome de distrés posprandial (SDP)?",
    "opciones": [
     {
-     "t": "Plenitud posprandial molesta o saciedad precoz que impide terminar una comida, al menos 3 días a la semana",
-     "por": "El SDP se define por los síntomas relacionados con la comida."
+     "t": "Plenitud o saciedad precoz molesta, al menos 3 días por semana",
+     "por": "El SDP se define por los síntomas relacionados con la comida.",
+     "full": "Plenitud posprandial molesta o saciedad precoz que impide terminar una comida, al menos 3 días a la semana"
     },
     {
      "t": "Dolor o ardor epigástrico al menos 1 día a la semana",
@@ -121,8 +124,9 @@
    "enunciado": "¿En qué paciente con dispepsia está indicada la endoscopía de entrada?",
    "opciones": [
     {
-     "t": "En quien tiene signos de alarma, o supera la edad límite (por ejemplo, 60 años en USA)",
-     "por": "Los signos de alarma y la edad avanzada obligan a descartar cáncer u otra causa orgánica."
+     "t": "Con signos de alarma o por encima de la edad límite",
+     "por": "Los signos de alarma y la edad avanzada obligan a descartar cáncer u otra causa orgánica.",
+     "full": "En quien tiene signos de alarma, o supera la edad límite (por ejemplo, 60 años en USA)"
     },
     {
      "t": "En todo paciente joven sin signos de alarma",
@@ -154,8 +158,9 @@
    "enunciado": "Paciente con dispepsia que toma AINE de forma crónica y no tiene signos de alarma. ¿Qué indica el algoritmo?",
    "opciones": [
     {
-     "t": "Suspender el AINE, o añadir un IBP si no se puede suspender",
-     "por": "Los AINE son una causa frecuente de dispepsia; si no se pueden retirar, se protege con IBP."
+     "t": "Suspender el AINE o añadir IBP",
+     "por": "Los AINE son una causa frecuente de dispepsia; si no se pueden retirar, se protege con IBP.",
+     "full": "Suspender el AINE, o añadir un IBP si no se puede suspender"
     },
     {
      "t": "Realizar una colonoscopía",
@@ -182,8 +187,9 @@
    "enunciado": "¿Cómo se define el síndrome de intestino irritable (SII)?",
    "opciones": [
     {
-     "t": "Un trastorno funcional con dolor abdominal crónico o recurrente y alteración del hábito intestinal (diarrea, estreñimiento o ambos)",
-     "por": "Es la definición de la lámina."
+     "t": "Dolor abdominal crónico con cambio del hábito intestinal",
+     "por": "Es la definición de la lámina.",
+     "full": "Un trastorno funcional con dolor abdominal crónico o recurrente y alteración del hábito intestinal (diarrea, estreñimiento o ambos)"
     },
     {
      "t": "Una inflamación crónica de la mucosa del colon con úlceras",
@@ -215,8 +221,9 @@
    "enunciado": "Según Roma IV, ¿qué se necesita para diagnosticar SII con estreñimiento?",
    "opciones": [
     {
-     "t": "Dolor abdominal recurrente al menos 1 día por semana en los últimos 3 meses, con 2 o más: relacionado con la defecación, menos de 3 deposiciones por semana o heces duras",
-     "por": "Son los criterios de la rama de dolor del algoritmo."
+     "t": "Dolor ≥1 día/semana por 3 meses, con 2 criterios de defecación",
+     "por": "Son los criterios de la rama de dolor del algoritmo.",
+     "full": "Dolor abdominal recurrente al menos 1 día por semana en los últimos 3 meses, con 2 o más: relacionado con la defecación, menos de 3 deposiciones por semana o heces duras"
     },
     {
      "t": "Dolor abdominal ocasional, sin relación con la defecación",
@@ -249,8 +256,9 @@
    "enunciado": "Según la escala de Bristol, ¿cuál es la heces tipo 1?",
    "opciones": [
     {
-     "t": "Trozos duros separados, como nueces, que pasan con dificultad",
-     "por": "Es el tipo más extremo de estreñimiento."
+     "t": "Trozos duros separados, como nueces",
+     "por": "Es el tipo más extremo de estreñimiento.",
+     "full": "Trozos duros separados, como nueces, que pasan con dificultad"
     },
     {
      "t": "Salchicha lisa y blanda",
@@ -335,8 +343,9 @@
    "enunciado": "Mujer de 26 años con 3 años de dolor abdominal casi diario, diarrea (5 deposiciones) alternando con estreñimiento leve, meteorismo y distensión. Sin sangre ni moco en las heces, la diarrea no la despierta de noche, no baja de peso. Su padre tuvo cáncer de colon a los 33 años. ¿Qué plan corresponde?",
    "opciones": [
     {
-     "t": "Pensar en SII (mixto), pero por el antecedente familiar de cáncer de colon hacer estudios, como colonoscopía, antes de confirmarlo",
-     "por": "Los síntomas son típicos de SII, pero el antecedente familiar es un signo de alarma que obliga a descartar patología orgánica."
+     "t": "Probable SII mixto, pero con colonoscopía antes por antecedente familiar",
+     "por": "Los síntomas son típicos de SII, pero el antecedente familiar es un signo de alarma que obliga a descartar patología orgánica.",
+     "full": "Pensar en SII (mixto), pero por el antecedente familiar de cáncer de colon hacer estudios, como colonoscopía, antes de confirmarlo"
     },
     {
      "t": "Diagnosticar SII sin más estudios y dar tratamiento sintomático",
@@ -367,8 +376,9 @@
    "enunciado": "¿Qué se pide en la evaluación de un paciente con sospecha de SII según los 'fundamentos básicos del diagnóstico'?",
    "opciones": [
     {
-     "t": "Historia clínica y laboratorio básico (hemograma, bioquímico, electrolitos, pruebas hepáticas y tiroideas); si todo es negativo, SII",
-     "por": "El SII es un diagnóstico clínico, apoyado por exámenes normales."
+     "t": "Historia y laboratorio básico; si es negativo, SII",
+     "por": "El SII es un diagnóstico clínico, apoyado por exámenes normales.",
+     "full": "Historia clínica y laboratorio básico (hemograma, bioquímico, electrolitos, pruebas hepáticas y tiroideas); si todo es negativo, SII"
     },
     {
      "t": "Una biopsia de colon en todos los casos",

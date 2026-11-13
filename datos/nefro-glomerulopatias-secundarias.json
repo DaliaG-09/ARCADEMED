@@ -8,8 +8,9 @@
    "enunciado": "En una glomerulopatía secundaria, ¿hacia dónde se dirige principalmente el tratamiento?",
    "opciones": [
     {
-     "t": "Hacia la enfermedad de base que la desencadena, además del control de las manifestaciones renales",
-     "por": "Si no se trata la causa (por ejemplo, el lupus o la infección), el riñón sigue dañándose. La hipertensión, que casi siempre aparece, se controla con IECA o ARA II."
+     "t": "Tratar la enfermedad de base",
+     "por": "Si no se trata la causa (por ejemplo, el lupus o la infección), el riñón sigue dañándose. La hipertensión, que casi siempre aparece, se controla con IECA o ARA II.",
+     "full": "Hacia la enfermedad de base que la desencadena, además del control de las manifestaciones renales"
     },
     {
      "t": "Solo a controlar la hipertensión",
@@ -95,8 +96,9 @@
    "enunciado": "¿Cuál es un factor de riesgo para desarrollar nefritis en un paciente con lupus?",
    "opciones": [
     {
-     "t": "Etnia hispana o afroamericana, anticuerpos anti-DNA de doble cadena y anti-RNP",
-     "por": "Son los factores de riesgo para NL listados en la lámina."
+     "t": "Etnia hispana o afro y anti-DNA bicatenario",
+     "por": "Son los factores de riesgo para NL listados en la lámina.",
+     "full": "Etnia hispana o afroamericana, anticuerpos anti-DNA de doble cadena y anti-RNP"
     },
     {
      "t": "Ser de raza blanca",
@@ -124,8 +126,9 @@
    "enunciado": "¿Cómo se origina el daño en la nefritis lúpica según la lámina de patogenia?",
    "opciones": [
     {
-     "t": "Se producen anticuerpos antinucleares, hay apoptosis alterada y menos eliminación de restos celulares; esos restos estimulan la respuesta inmune",
-     "por": "Los restos de células que mueren no se limpian bien. El sistema inmune los reconoce como extraños y arma una respuesta autoinmune."
+     "t": "ANA y mala depuración de restos apoptóticos",
+     "por": "Los restos de células que mueren no se limpian bien. El sistema inmune los reconoce como extraños y arma una respuesta autoinmune.",
+     "full": "Se producen anticuerpos antinucleares, hay apoptosis alterada y menos eliminación de restos celulares; esos restos estimulan la respuesta inmune"
     },
     {
      "t": "Un germen infecta el glomérulo directamente",
@@ -153,8 +156,9 @@
    "enunciado": "¿Qué hallazgo en la biopsia identifica la nefritis lúpica clase IV?",
    "opciones": [
     {
-     "t": "Asas de alambre (wire-loop): depósitos subendoteliales prominentes y extensos",
-     "por": "Hacen que la pared capilar se vea rígida y gruesa. Es la forma proliferativa difusa, la más grave."
+     "t": "Asas de alambre (wire-loop) subendoteliales",
+     "por": "Hacen que la pared capilar se vea rígida y gruesa. Es la forma proliferativa difusa, la más grave.",
+     "full": "Asas de alambre (wire-loop): depósitos subendoteliales prominentes y extensos"
     },
     {
      "t": "Depósitos mesangiales sin cambios en microscopía óptica",
@@ -212,8 +216,9 @@
    "enunciado": "¿Qué tratamiento propone la lámina para lograr la remisión de una nefritis lúpica proliferativa?",
    "opciones": [
     {
-     "t": "Bolos mensuales de metilprednisolona más ciclofosfamida",
-     "por": "Lograron remisión en 83 % y protegen contra la progresión a enfermedad renal terminal. Si fracasa, se usa ácido micofenólico."
+     "t": "Metilprednisolona y ciclofosfamida",
+     "por": "Lograron remisión en 83 % y protegen contra la progresión a enfermedad renal terminal. Si fracasa, se usa ácido micofenólico.",
+     "full": "Bolos mensuales de metilprednisolona más ciclofosfamida"
     },
     {
      "t": "Solo IECA o ARA II",
@@ -333,8 +338,9 @@
    "enunciado": "En la artritis reumatoide con afectación renal, ¿qué marcador serológico y qué depósitos se esperan?",
    "opciones": [
     {
-     "t": "Factor reumatoide (positivo en 70 %) y depósitos de IgM en la IF, con microhematuria aislada",
-     "por": "El factor reumatoide es un autoanticuerpo de clase IgM. Se han descrito lesiones membranosa, proliferativa, membranoproliferativa y mesangial."
+     "t": "Factor reumatoide y depósitos de IgM",
+     "por": "El factor reumatoide es un autoanticuerpo de clase IgM. Se han descrito lesiones membranosa, proliferativa, membranoproliferativa y mesangial.",
+     "full": "Factor reumatoide (positivo en 70 %) y depósitos de IgM en la IF, con microhematuria aislada"
     },
     {
      "t": "ANCA",
@@ -362,8 +368,9 @@
    "enunciado": "¿Qué glomerulopatía se asocia ocasionalmente a la espondilitis anquilosante?",
    "opciones": [
     {
-     "t": "Glomerulonefritis por IgA, y también amiloidosis renal secundaria",
-     "por": "La espondilitis anquilosante es una enfermedad inflamatoria crónica del esqueleto axial que afecta sobre todo a varones jóvenes."
+     "t": "GN por IgA y amiloidosis",
+     "por": "La espondilitis anquilosante es una enfermedad inflamatoria crónica del esqueleto axial que afecta sobre todo a varones jóvenes.",
+     "full": "Glomerulonefritis por IgA, y también amiloidosis renal secundaria"
     },
     {
      "t": "Glomerulonefritis postestreptocócica",
@@ -390,8 +397,9 @@
    "enunciado": "¿Qué afectación renal produce principalmente el síndrome de Sjögren?",
    "opciones": [
     {
-     "t": "Nefritis intersticial con acidosis tubular tipo I (distal)",
-     "por": "El infiltrado de linfocitos y plasmocitos destruye glándulas y también afecta el intersticio renal. Rara vez causa GN membranosa o membranoproliferativa."
+     "t": "Nefritis intersticial con ATR tipo I",
+     "por": "El infiltrado de linfocitos y plasmocitos destruye glándulas y también afecta el intersticio renal. Rara vez causa GN membranosa o membranoproliferativa.",
+     "full": "Nefritis intersticial con acidosis tubular tipo I (distal)"
     },
     {
      "t": "Síndrome nefrótico por cambios mínimos",
@@ -418,8 +426,9 @@
    "enunciado": "¿Qué gérmenes se asocian a glomerulonefritis en la endocarditis bacteriana aguda y subaguda?",
    "opciones": [
     {
-     "t": "Aguda: Staphylococcus aureus y Enterococcus faecalis; subaguda: Streptococcus",
-     "por": "Es la distribución de la lámina."
+     "t": "Aguda: S. aureus y E. faecalis; subaguda: estreptococo",
+     "por": "Es la distribución de la lámina.",
+     "full": "Aguda: Staphylococcus aureus y Enterococcus faecalis; subaguda: Streptococcus"
     },
     {
      "t": "Aguda: Streptococcus; subaguda: Staphylococcus aureus",
@@ -446,8 +455,9 @@
    "enunciado": "Paciente con derivación ventrículo-atrial infectada y hematuria con proteinuria. ¿Qué cuadro describe la lámina?",
    "opciones": [
     {
-     "t": "Nefritis del shunt: germen S. epidermidis o S. aureus; lesión más frecuente GNMP; proteinuria nefrótica en 25 %",
-     "por": "Con hematuria, insuficiencia renal leve o moderada e hipertensión. El foco infectado en el catéter produce complejos inmunes."
+     "t": "S. epidermidis o S. aureus; GNMP más frecuente",
+     "por": "Con hematuria, insuficiencia renal leve o moderada e hipertensión. El foco infectado en el catéter produce complejos inmunes.",
+     "full": "Nefritis del shunt: germen S. epidermidis o S. aureus; lesión más frecuente GNMP; proteinuria nefrótica en 25 %"
     },
     {
      "t": "Infección por E. coli con cambios mínimos",
@@ -475,8 +485,9 @@
    "enunciado": "¿Cuál es la presentación renal más frecuente de la sífilis y de la lepra?",
    "opciones": [
     {
-     "t": "Sífilis: síndrome nefrótico con GN membranosa; lepra: GN proliferativa difusa",
-     "por": "En sífilis hay depósitos subepiteliales de IgG y C3. En lepra la IF muestra IgM, IgG y C3."
+     "t": "Sífilis: nefrótico membranoso; lepra: GN difusa",
+     "por": "En sífilis hay depósitos subepiteliales de IgG y C3. En lepra la IF muestra IgM, IgG y C3.",
+     "full": "Sífilis: síndrome nefrótico con GN membranosa; lepra: GN proliferativa difusa"
     },
     {
      "t": "Sífilis: síndrome nefrítico; lepra: nefrótico",
@@ -503,8 +514,9 @@
    "enunciado": "Varón de 65 años, DM2 de 5 años, prostatectomía 8 días antes. Hematuria persistente, hipertensión, anemia y edemas. Ecografía: riñones sin obstrucción con aumento de reflectividad cortical. Creatinina 6 mg/dL y proteinuria nefrótica que la diabetes no explica por sí sola. ¿Qué diagnóstico da la clase?",
    "opciones": [
     {
-     "t": "Glomerulonefritis rápidamente progresiva secundaria a vasculitis",
-     "por": "Hematuria, hipertensión, creatinina elevada en pocos días y proteinuria nefrótica orientan a GN rápida. La biopsia confirmaría el diagnóstico."
+     "t": "GNRP secundaria a vasculitis",
+     "por": "Hematuria, hipertensión, creatinina elevada en pocos días y proteinuria nefrótica orientan a GN rápida. La biopsia confirmaría el diagnóstico.",
+     "full": "Glomerulonefritis rápidamente progresiva secundaria a vasculitis"
     },
     {
      "t": "Nefropatía diabética pura",

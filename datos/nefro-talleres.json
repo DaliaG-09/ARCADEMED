@@ -183,8 +183,9 @@
    "enunciado": "Hombre de 65 años con cirrosis por alcohol, somnolencia, debilidad y menor alerta de 24 horas. PA 90/55, FC 110, FR 28, deshidratado.\nAGA: pH 7.30, pCO₂ 30 mmHg, HCO₃⁻ 15 mEq/L.\nElectrolitos: Na⁺ 138, K⁺ 4.8, Cl⁻ 110 mEq/L. Albúmina 2.0 g/dL. Lactato elevado.\n\n¿Cuál es el diagnóstico final?",
    "opciones": [
     {
-     "t": "Cirrosis con hipotensión y lactato elevado, con acidosis metabólica con anion gap elevado",
-     "por": "AG corregido 18: elevado, por lactato."
+     "t": "Acidosis láctica con anion gap elevado en cirrosis",
+     "por": "AG corregido 18: elevado, por lactato.",
+     "full": "Cirrosis con hipotensión y lactato elevado, con acidosis metabólica con anion gap elevado"
     },
     {
      "t": "Acidosis metabólica hiperclorémica con anion gap normal por diarrea",
@@ -299,8 +300,9 @@
    "enunciado": "Mujer de 55 años con insuficiencia renal crónica, debilidad, náuseas y respiración rápida y profunda (FR 30) de 2 días, somnolienta. PA 100/60, FC 105.\nAGA: pH 7.25, pCO₂ 28 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 140, K⁺ 5.2, Cl⁻ 108 mEq/L. Albúmina 3.0 g/dL. Creatinina elevada.\n\n¿Cuál es el diagnóstico final?",
    "opciones": [
     {
-     "t": "Acidosis metabólica con anion gap elevado y compensación respiratoria adecuada; probable acidosis urémica por insuficiencia renal",
-     "por": "Es el diagnóstico de la lámina 16."
+     "t": "Acidosis con AG elevado, compensada; probable causa urémica",
+     "por": "Es el diagnóstico de la lámina 16.",
+     "full": "Acidosis metabólica con anion gap elevado y compensación respiratoria adecuada; probable acidosis urémica por insuficiencia renal"
     },
     {
      "t": "Acidosis metabólica hiperclorémica con anion gap normal",
@@ -1142,8 +1144,9 @@
    "enunciado": "Mujer de 45 años, 65 kg, con hipertensión arterial severa refractaria a varios fármacos. Consulta por episodios de debilidad muscular marcada y parestesias proximales. PA 190/110, sin edemas, estado neurológico conservado y abolición de reflejos osteotendinosos.\nAGA: pH 7.48, pCO₂ 46 mmHg, HCO₃⁻ 33 mEq/L.\nElectrolitos: Na⁺ 155, K⁺ 2.5, Cl⁻ 105 mEq/L.\n\n¿Qué mecanismo explica este cuadro, según la lámina?",
    "opciones": [
     {
-     "t": "Hiperactividad crónica de aldosterona: retiene sodio en el túbulo colector y pierde potasio e hidrogeniones",
-     "por": "Es el texto de la lámina 9."
+     "t": "Exceso de aldosterona: retiene Na⁺ y pierde K⁺",
+     "por": "Es el texto de la lámina 9.",
+     "full": "Hiperactividad crónica de aldosterona: retiene sodio en el túbulo colector y pierde potasio e hidrogeniones"
     },
     {
      "t": "Pérdida renal de sodio por diuréticos",

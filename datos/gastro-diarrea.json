@@ -37,8 +37,9 @@
    "enunciado": "¿Qué afirmación sobre la diarrea aguda es correcta según la clase?",
    "opciones": [
     {
-     "t": "Suele autolimitarse donde hay buen saneamiento y acceso a agua potable; la prevención es clave",
-     "por": "Es más frecuente en edades extremas y es una de las principales causas de visita a emergencia (179 millones de visitas al año en EE. UU.)."
+     "t": "Se autolimita con buen saneamiento y agua potable",
+     "por": "Es más frecuente en edades extremas y es una de las principales causas de visita a emergencia (179 millones de visitas al año en EE. UU.).",
+     "full": "Suele autolimitarse donde hay buen saneamiento y acceso a agua potable; la prevención es clave"
     },
     {
      "t": "Es más frecuente en adultos jóvenes",
@@ -65,8 +66,9 @@
    "enunciado": "Un paciente presenta fiebre, tenesmo, heces con sangre y moco, y calprotectina fecal positiva. ¿Qué tipo de diarrea es más probable?",
    "opciones": [
     {
-     "t": "Diarrea inflamatoria, por ejemplo por Shigella, Salmonella, Campylobacter o E. coli enteroinvasiva",
-     "por": "La diarrea inflamatoria cursa con fiebre, dolor abdominal, tenesmo y síntomas sistémicos, con PCR o NAAT positivas y calprotectina fecal positiva. Las causas no infecciosas incluyen Crohn, colitis ulcerativa y enteritis por radiación."
+     "t": "Inflamatoria: Shigella, Salmonella, Campylobacter, E. coli invasiva",
+     "por": "La diarrea inflamatoria cursa con fiebre, dolor abdominal, tenesmo y síntomas sistémicos, con PCR o NAAT positivas y calprotectina fecal positiva. Las causas no infecciosas incluyen Crohn, colitis ulcerativa y enteritis por radiación.",
+     "full": "Diarrea inflamatoria, por ejemplo por Shigella, Salmonella, Campylobacter o E. coli enteroinvasiva"
     },
     {
      "t": "Diarrea no inflamatoria viral, por ejemplo por Rotavirus o Norovirus",
@@ -94,8 +96,9 @@
    "enunciado": "Al evaluar a un paciente con diarrea aguda, ¿con qué debe empezar la evaluación?",
    "opciones": [
     {
-     "t": "Con el grado de deshidratación y la hemodinamia",
-     "por": "Se mide fiebre, taquicardia, hipotensión, llenado capilar y mucosas. También se examina el abdomen para descartar un abdomen agudo quirúrgico y se evalúa el estado neurológico."
+     "t": "Con la hidratación y la hemodinamia",
+     "por": "Se mide fiebre, taquicardia, hipotensión, llenado capilar y mucosas. También se examina el abdomen para descartar un abdomen agudo quirúrgico y se evalúa el estado neurológico.",
+     "full": "Con el grado de deshidratación y la hemodinamia"
     },
     {
      "t": "Con una colonoscopia",
@@ -122,8 +125,9 @@
    "enunciado": "¿En cuáles situaciones se solicitan exámenes auxiliares en la diarrea aguda?",
    "opciones": [
     {
-     "t": "Con sangre o moco, fiebre, dolor abdominal intenso o sepsis, o diarrea de más de 7 días",
-     "por": "Los exámenes no son de rutina. Se piden reacción inflamatoria en heces, hemograma, urea, creatinina, electrolitos, PCR y cultivos."
+     "t": "Sangre o moco, fiebre, dolor intenso, sepsis o >7 días",
+     "por": "Los exámenes no son de rutina. Se piden reacción inflamatoria en heces, hemograma, urea, creatinina, electrolitos, PCR y cultivos.",
+     "full": "Con sangre o moco, fiebre, dolor abdominal intenso o sepsis, o diarrea de más de 7 días"
     },
     {
      "t": "En toda diarrea aguda, sin excepción",
@@ -154,8 +158,9 @@
    "enunciado": "¿Cuál es la base del tratamiento de la diarrea aguda?",
    "opciones": [
     {
-     "t": "Hidratar con agua, electrolitos y nutrientes, por vía oral si hay tolerancia",
-     "por": "Si hay sepsis, shock o intolerancia oral, se hidrata por vía endovenosa."
+     "t": "Rehidratar con líquidos y electrolitos",
+     "por": "Si hay sepsis, shock o intolerancia oral, se hidrata por vía endovenosa.",
+     "full": "Hidratar con agua, electrolitos y nutrientes, por vía oral si hay tolerancia"
     },
     {
      "t": "Dar antibióticos a todos los pacientes",
@@ -250,8 +255,9 @@
    "enunciado": "¿Qué se afirma sobre la diarrea crónica?",
    "opciones": [
     {
-     "t": "Dura más de 4 semanas, afecta a 1 a 4 % de la población y se evalúa buscando la causa",
-     "por": "La historia incluye apariencia de las heces, dieta, viajes, fármacos, manifestaciones extraintestinales e impacto psicosocial."
+     "t": "Dura más de 4 semanas y se busca la causa",
+     "por": "La historia incluye apariencia de las heces, dieta, viajes, fármacos, manifestaciones extraintestinales e impacto psicosocial.",
+     "full": "Dura más de 4 semanas, afecta a 1 a 4 % de la población y se evalúa buscando la causa"
     },
     {
      "t": "Dura más de 14 días y afecta a 20 % de la población",
@@ -278,8 +284,9 @@
    "enunciado": "Un paciente con diarrea crónica mejora con el ayuno y tiene una brecha osmótica fecal mayor de 100 mOsm/kg. ¿Qué tipo de diarrea sugiere?",
    "opciones": [
     {
-     "t": "Diarrea acuosa osmótica, por ejemplo malabsorción de carbohidratos, celiaquía, laxantes osmóticos o antiácidos",
-     "por": "Mejora con el ayuno porque el soluto que retiene el agua deja de ingerirse. La brecha osmótica es mayor de 100 mOsm/kg."
+     "t": "Acuosa osmótica (malabsorción, celiaquía)",
+     "por": "Mejora con el ayuno porque el soluto que retiene el agua deja de ingerirse. La brecha osmótica es mayor de 100 mOsm/kg.",
+     "full": "Diarrea acuosa osmótica, por ejemplo malabsorción de carbohidratos, celiaquía, laxantes osmóticos o antiácidos"
     },
     {
      "t": "Diarrea secretora",
@@ -308,8 +315,9 @@
    "enunciado": "En un paciente con diarrea crónica se sospecha enfermedad celíaca. ¿Qué pruebas indica la tabla de diagnóstico diferencial?",
    "opciones": [
     {
-     "t": "Transglutaminasa tisular IgA con IgA total, y endoscopia con biopsia duodenal",
-     "por": "La clínica sugestiva es la sensibilidad al gluten, anemia ferropénica o enfermedades asociadas como la diabetes tipo 1."
+     "t": "Transglutaminasa IgA y biopsia duodenal",
+     "por": "La clínica sugestiva es la sensibilidad al gluten, anemia ferropénica o enfermedades asociadas como la diabetes tipo 1.",
+     "full": "Transglutaminasa tisular IgA con IgA total, y endoscopia con biopsia duodenal"
     },
     {
      "t": "Test del aliento con hidrógeno",
@@ -336,8 +344,9 @@
    "enunciado": "Una mujer de 50 años con hipertensión controlada llega a emergencia con 3 horas de dolor tipo cólico, malestar general, náuseas y dos vómitos alimentarios tras comer arroz chifa. ¿Cuál es la conducta inicial?",
    "opciones": [
     {
-     "t": "Ampliar la anamnesis (fiebre, sangre o moco, viajes, otras personas con síntomas), evaluar hidratación y hemodinamia y descartar un abdomen agudo",
-     "por": "La clase insiste en empezar por la deshidratación y la hemodinamia. El tratamiento es de soporte, con hidratación."
+     "t": "Ampliar anamnesis, evaluar hidratación y descartar abdomen agudo",
+     "por": "La clase insiste en empezar por la deshidratación y la hemodinamia. El tratamiento es de soporte, con hidratación.",
+     "full": "Ampliar la anamnesis (fiebre, sangre o moco, viajes, otras personas con síntomas), evaluar hidratación y hemodinamia y descartar un abdomen agudo"
     },
     {
      "t": "Iniciar antibióticos de amplio espectro de entrada",

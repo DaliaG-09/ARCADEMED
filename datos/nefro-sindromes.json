@@ -66,8 +66,9 @@
    "enunciado": "¿Por qué aparece edema generalizado en el síndrome nefrótico?",
    "opciones": [
     {
-     "t": "Cae la presión oncótica por la pérdida de albúmina, el riñón detecta hipovolemia y retiene sodio y agua",
-     "por": "La albúmina mantiene el agua dentro de los vasos. Si baja, el agua sale al intersticio. El riñón lo interpreta como falta de volumen y activa renina-angiotensina-aldosterona y ADH, lo que agrava el edema."
+     "t": "Baja la presión oncótica y el riñón retiene sodio y agua",
+     "por": "La albúmina mantiene el agua dentro de los vasos. Si baja, el agua sale al intersticio. El riñón lo interpreta como falta de volumen y activa renina-angiotensina-aldosterona y ADH, lo que agrava el edema.",
+     "full": "Cae la presión oncótica por la pérdida de albúmina, el riñón detecta hipovolemia y retiene sodio y agua"
     },
     {
      "t": "Sube la presión oncótica y el agua se queda en los tejidos",
@@ -95,8 +96,9 @@
    "enunciado": "¿Por qué se eleva el colesterol en el síndrome nefrótico?",
    "opciones": [
     {
-     "t": "El hígado aumenta la síntesis de lipoproteínas en respuesta a la hipoalbuminemia y además se depuran menos los lípidos",
-     "por": "El hígado intenta compensar la caída de albúmina fabricando más proteínas, y entre ellas lipoproteínas. Además se dañan enzimas que eliminan lípidos."
+     "t": "El hígado sintetiza más lipoproteínas y se depuran menos",
+     "por": "El hígado intenta compensar la caída de albúmina fabricando más proteínas, y entre ellas lipoproteínas. Además se dañan enzimas que eliminan lípidos.",
+     "full": "El hígado aumenta la síntesis de lipoproteínas en respuesta a la hipoalbuminemia y además se depuran menos los lípidos"
     },
     {
      "t": "El intestino absorbe más grasa",
@@ -123,8 +125,9 @@
    "enunciado": "¿Qué complicación trombótica es la más característica del síndrome nefrótico y por qué ocurre?",
    "opciones": [
     {
-     "t": "Trombosis de la vena renal, porque se pierden antitrombina III y proteínas C y S y sube el fibrinógeno",
-     "por": "Las proteínas que frenan la coagulación se van por la orina y el hígado fabrica más fibrinógeno. Quedan más coagulables y la vena renal es el sitio clásico."
+     "t": "Trombosis de vena renal por pérdida de antitrombina III",
+     "por": "Las proteínas que frenan la coagulación se van por la orina y el hígado fabrica más fibrinógeno. Quedan más coagulables y la vena renal es el sitio clásico.",
+     "full": "Trombosis de la vena renal, porque se pierden antitrombina III y proteínas C y S y sube el fibrinógeno"
     },
     {
      "t": "Hemorragia digestiva, porque falta fibrinógeno",
@@ -152,8 +155,9 @@
    "enunciado": "¿Por qué hay más infecciones en el síndrome nefrótico y a qué gérmenes se tiene más riesgo?",
    "opciones": [
     {
-     "t": "Se pierden inmunoglobulinas (IgG) y complemento por la orina; hay más riesgo con gérmenes encapsulados como el neumococo",
-     "por": "Sin esas defensas el cuerpo elimina mal las bacterias con cápsula. En niños puede dar sepsis y peritonitis."
+     "t": "Pérdida de IgG y complemento; más riesgo con encapsulados como neumococo",
+     "por": "Sin esas defensas el cuerpo elimina mal las bacterias con cápsula. En niños puede dar sepsis y peritonitis.",
+     "full": "Se pierden inmunoglobulinas (IgG) y complemento por la orina; hay más riesgo con gérmenes encapsulados como el neumococo"
     },
     {
      "t": "Se pierden glóbulos blancos por la orina; hay más riesgo con virus respiratorios",
@@ -180,8 +184,9 @@
    "enunciado": "¿Qué diferencia a la proteinuria selectiva de la no selectiva?",
    "opciones": [
     {
-     "t": "En la selectiva pasa sobre todo albúmina (proteínas pequeñas); en la no selectiva pasan también inmunoglobulinas y otras proteínas grandes",
-     "por": "Cuanto más grande el daño de la barrera de filtración, más grandes son las proteínas que cruzan."
+     "t": "Selectiva: casi solo albúmina; no selectiva: también globulinas",
+     "por": "Cuanto más grande el daño de la barrera de filtración, más grandes son las proteínas que cruzan.",
+     "full": "En la selectiva pasa sobre todo albúmina (proteínas pequeñas); en la no selectiva pasan también inmunoglobulinas y otras proteínas grandes"
     },
     {
      "t": "En la selectiva pasan inmunoglobulinas y proteínas grandes",
@@ -295,8 +300,9 @@
    "enunciado": "Niño de 7 años con 2 semanas de edema en la cara y las piernas, fatiga, presión arterial normal. Orina con proteinuria +++, albúmina 2.0 g/dL, colesterol elevado y creatinina normal. ¿Cuál es el diagnóstico presuntivo?",
    "opciones": [
     {
-     "t": "Síndrome nefrótico, más probable por enfermedad de cambios mínimos",
-     "por": "Hay proteinuria intensa, albúmina baja, edema y colesterol alto. La edad lo hace compatible con cambios mínimos, la causa principal en niños."
+     "t": "Nefrótico por cambios mínimos",
+     "por": "Hay proteinuria intensa, albúmina baja, edema y colesterol alto. La edad lo hace compatible con cambios mínimos, la causa principal en niños.",
+     "full": "Síndrome nefrótico, más probable por enfermedad de cambios mínimos"
     },
     {
      "t": "Síndrome nefrítico",
@@ -324,8 +330,9 @@
    "enunciado": "Niño con síndrome nefrótico por cambios mínimos. ¿Qué tratamiento corresponde?",
    "opciones": [
     {
-     "t": "Prednisona 2 mg/kg/día por 4 a 6 semanas, luego descenso progresivo",
-     "por": "Con ese esquema cerca del 90 % remite en 2 a 3 semanas."
+     "t": "Prednisona 2 mg/kg/día 4 a 6 semanas",
+     "por": "Con ese esquema cerca del 90 % remite en 2 a 3 semanas.",
+     "full": "Prednisona 2 mg/kg/día por 4 a 6 semanas, luego descenso progresivo"
     },
     {
      "t": "Rituximab o esquema Ponticelli",
@@ -353,8 +360,9 @@
    "enunciado": "Paciente con glomerulopatía membranosa y síndrome nefrótico. ¿Qué tratamiento específico propone la lámina?",
    "opciones": [
     {
-     "t": "Rituximab o esquema Ponticelli (ciclofosfamida alternada con esteroides)",
-     "por": "La remisión es alta pero lenta."
+     "t": "Rituximab o esquema Ponticelli",
+     "por": "La remisión es alta pero lenta.",
+     "full": "Rituximab o esquema Ponticelli (ciclofosfamida alternada con esteroides)"
     },
     {
      "t": "Prednisona 2 mg/kg/día por 4 a 6 semanas",
@@ -413,8 +421,9 @@
    "enunciado": "¿Qué caracteriza al síndrome nefrítico?",
    "opciones": [
     {
-     "t": "Hematuria (a veces con cilindros hemáticos), proteinuria leve a moderada, edema, hipertensión, oliguria y a veces azoemia",
-     "por": "Todo viene de la inflamación aguda del glomérulo: el glomérulo inflamado deja pasar sangre y retiene sodio y agua."
+     "t": "Hematuria con cilindros, edema, HTA y oliguria",
+     "por": "Todo viene de la inflamación aguda del glomérulo: el glomérulo inflamado deja pasar sangre y retiene sodio y agua.",
+     "full": "Hematuria (a veces con cilindros hemáticos), proteinuria leve a moderada, edema, hipertensión, oliguria y a veces azoemia"
     },
     {
      "t": "Proteinuria masiva, hipoalbuminemia y dislipidemia",
@@ -472,8 +481,9 @@
    "enunciado": "¿Qué mecanismo produce el síndrome nefrítico?",
    "opciones": [
     {
-     "t": "Inflamación glomerular aguda con infiltrado de leucocitos y proliferación endotelial o mesangial, por depósitos inmunes",
-     "por": "El daño de la pared del capilar glomerular deja salir sangre y reduce la filtración."
+     "t": "Inflamación glomerular aguda con proliferación celular",
+     "por": "El daño de la pared del capilar glomerular deja salir sangre y reduce la filtración.",
+     "full": "Inflamación glomerular aguda con infiltrado de leucocitos y proliferación endotelial o mesangial, por depósitos inmunes"
     },
     {
      "t": "Lesión de los podocitos con pérdida masiva de proteínas",
@@ -615,8 +625,9 @@
    "enunciado": "Paciente con síndrome nefrítico agudo con edema e hipertensión. ¿Qué medidas generales indica la lámina?",
    "opciones": [
     {
-     "t": "Restricción de sodio y líquidos, furosemida, IECA o ARA II (con cuidado si hay oliguria severa), reposo relativo y evitar nefrotóxicos",
-     "por": "Controlan la presión y el edema, y evitan dañar más el riñón."
+     "t": "Restringir sal y líquidos, furosemida e IECA",
+     "por": "Controlan la presión y el edema, y evitan dañar más el riñón.",
+     "full": "Restricción de sodio y líquidos, furosemida, IECA o ARA II (con cuidado si hay oliguria severa), reposo relativo y evitar nefrotóxicos"
     },
     {
      "t": "Dieta rica en sal y AINE para el dolor",
@@ -644,8 +655,9 @@
    "enunciado": "¿Qué tratamiento corresponde al síndrome de Goodpasture?",
    "opciones": [
     {
-     "t": "Plasmaféresis más corticoides y ciclofosfamida",
-     "por": "La plasmaféresis retira los anticuerpos contra la membrana basal; los corticoides y la ciclofosfamida frenan su producción."
+     "t": "Plasmaféresis más inmunosupresión",
+     "por": "La plasmaféresis retira los anticuerpos contra la membrana basal; los corticoides y la ciclofosfamida frenan su producción.",
+     "full": "Plasmaféresis más corticoides y ciclofosfamida"
     },
     {
      "t": "Solo IECA y restricción de sal",

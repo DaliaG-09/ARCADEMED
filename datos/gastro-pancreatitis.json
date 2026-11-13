@@ -8,8 +8,9 @@
    "enunciado": "¿Cómo define la clase a la pancreatitis aguda?",
    "opciones": [
     {
-     "t": "Una condición inflamatoria del páncreas que puede causar lesión local, síndrome de respuesta inflamatoria sistémica, falla orgánica y muerte",
-     "por": "Su mortalidad va de 3 a 17 % y su incidencia de 4,9 a 73 casos por 100 000 habitantes."
+     "t": "Inflamación pancreática con lesión local, SIRS y posible falla orgánica",
+     "por": "Su mortalidad va de 3 a 17 % y su incidencia de 4,9 a 73 casos por 100 000 habitantes.",
+     "full": "Una condición inflamatoria del páncreas que puede causar lesión local, síndrome de respuesta inflamatoria sistémica, falla orgánica y muerte"
     },
     {
      "t": "Una destrucción progresiva y permanente del páncreas con insuficiencia endocrina y exocrina",
@@ -96,8 +97,9 @@
    "enunciado": "¿Cuántos criterios se necesitan para diagnosticar pancreatitis aguda y cuáles son?",
    "opciones": [
     {
-     "t": "Dos de tres: clínica, laboratorio (amilasa o lipasa) e imágenes",
-     "por": "Es la regla de la lámina de diagnóstico."
+     "t": "Dos de tres criterios",
+     "por": "Es la regla de la lámina de diagnóstico.",
+     "full": "Dos de tres: clínica, laboratorio (amilasa o lipasa) e imágenes"
     },
     {
      "t": "Los tres criterios obligatorios",
@@ -125,8 +127,9 @@
    "enunciado": "¿Por qué la lipasa se prefiere a la amilasa para diagnosticar pancreatitis aguda?",
    "opciones": [
     {
-     "t": "Tiene mayor sensibilidad (82 a 100 %) y se mantiene elevada más tiempo (hasta 8 a 14 días)",
-     "por": "La amilasa tiene sensibilidad de 67 a 83 %, vida media de 10 horas y se normaliza en 3 a 5 días."
+     "t": "Más sensible (82 a 100 %) y elevada por más tiempo",
+     "por": "La amilasa tiene sensibilidad de 67 a 83 %, vida media de 10 horas y se normaliza en 3 a 5 días.",
+     "full": "Tiene mayor sensibilidad (82 a 100 %) y se mantiene elevada más tiempo (hasta 8 a 14 días)"
     },
     {
      "t": "Se eleva más tarde que la amilasa",
@@ -153,8 +156,9 @@
    "enunciado": "¿Cuál es el estudio de imagen de primera elección en la pancreatitis aguda?",
    "opciones": [
     {
-     "t": "La ecografía abdominal, que identifica litiasis, páncreas agrandado y líquido libre",
-     "por": "Es operador dependiente y se limita por el meteorismo."
+     "t": "Ecografía abdominal, que muestra litiasis y líquido libre",
+     "por": "Es operador dependiente y se limita por el meteorismo.",
+     "full": "La ecografía abdominal, que identifica litiasis, páncreas agrandado y líquido libre"
     },
     {
      "t": "La tomografía a las 12 horas de inicio",
@@ -267,8 +271,9 @@
    "enunciado": "¿Cuál de estos es un criterio de Ranson al INGRESO?",
    "opciones": [
     {
-     "t": "Edad mayor de 55 años, leucocitos mayores de 16 000, glucosa elevada, LDH mayor de 350 o TGO mayor de 250",
-     "por": "Son los cinco criterios iniciales."
+     "t": "Edad >55 años o leucocitos >16 000",
+     "por": "Son los cinco criterios iniciales.",
+     "full": "Edad mayor de 55 años, leucocitos mayores de 16 000, glucosa elevada, LDH mayor de 350 o TGO mayor de 250"
     },
     {
      "t": "Descenso del hematocrito mayor de 10 %",
@@ -359,8 +364,9 @@
    "enunciado": "¿Cuándo se inicia la alimentación en una pancreatitis aguda leve o moderada?",
    "opciones": [
     {
-     "t": "Por vía oral a las 24 a 48 horas, con dieta sólida baja en grasas",
-     "por": "Si no se puede por vía oral a los 3 a 4 días, se inicia nutrición enteral por sonda."
+     "t": "Vía oral a las 24 a 48 h, sólida y baja en grasa",
+     "por": "Si no se puede por vía oral a los 3 a 4 días, se inicia nutrición enteral por sonda.",
+     "full": "Por vía oral a las 24 a 48 horas, con dieta sólida baja en grasas"
     },
     {
      "t": "Después de 7 días de ayuno absoluto",
@@ -391,8 +397,9 @@
    "enunciado": "¿Qué analgésicos recomienda la clase en la pancreatitis aguda?",
    "opciones": [
     {
-     "t": "Opiáceos (tramadol, morfina o petidina) como primera línea, evitando los AINE",
-     "por": "Se inicia en las primeras 24 horas y se puede considerar analgesia epidural."
+     "t": "Opiáceos (tramadol, morfina o petidina), no AINE",
+     "por": "Se inicia en las primeras 24 horas y se puede considerar analgesia epidural.",
+     "full": "Opiáceos (tramadol, morfina o petidina) como primera línea, evitando los AINE"
     },
     {
      "t": "AINE como primera línea",
@@ -420,8 +427,9 @@
    "enunciado": "¿Cuándo se dan antibióticos en la pancreatitis aguda?",
    "opciones": [
     {
-     "t": "Solo ante evidencia de infección, por ejemplo necrosis con deterioro a los 7 a 10 días de hospitalización",
-     "por": "No se usan de forma rutinaria ni preventiva; se eligen carbapenémicos, quinolonas o metronidazol por su penetración al páncreas."
+     "t": "Solo con infección demostrada, como necrosis infectada tardía",
+     "por": "No se usan de forma rutinaria ni preventiva; se eligen carbapenémicos, quinolonas o metronidazol por su penetración al páncreas.",
+     "full": "Solo ante evidencia de infección, por ejemplo necrosis con deterioro a los 7 a 10 días de hospitalización"
     },
     {
      "t": "En todo paciente desde el ingreso, de forma preventiva",
@@ -452,8 +460,9 @@
    "enunciado": "¿Cómo se define la pancreatitis crónica?",
    "opciones": [
     {
-     "t": "Destrucción progresiva y permanente del páncreas, con insuficiencia endocrina y exocrina y dolor abdominal",
-     "por": "Es irreversible; es más frecuente entre los 35 y 55 años."
+     "t": "Destrucción permanente con insuficiencia exo y endocrina",
+     "por": "Es irreversible; es más frecuente entre los 35 y 55 años.",
+     "full": "Destrucción progresiva y permanente del páncreas, con insuficiencia endocrina y exocrina y dolor abdominal"
     },
     {
      "t": "Una inflamación aguda reversible de 6 semanas",

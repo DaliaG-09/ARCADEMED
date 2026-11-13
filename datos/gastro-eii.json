@@ -8,8 +8,9 @@
    "enunciado": "¿Qué trastornos engloba la enfermedad inflamatoria intestinal (EII)?",
    "opciones": [
     {
-     "t": "Colitis ulcerosa (CU) y enfermedad de Crohn (EC), dos trastornos inflamatorios crónicos de causa desconocida",
-     "por": "Es la definición de la lámina: ambos son idiopáticos y crónicos."
+     "t": "Colitis ulcerosa y enfermedad de Crohn, de causa desconocida",
+     "por": "Es la definición de la lámina: ambos son idiopáticos y crónicos.",
+     "full": "Colitis ulcerosa (CU) y enfermedad de Crohn (EC), dos trastornos inflamatorios crónicos de causa desconocida"
     },
     {
      "t": "Colitis infecciosa y colitis pseudomembranosa",
@@ -64,8 +65,9 @@
    "enunciado": "¿Qué se dice de la epidemiología de la EII?",
    "opciones": [
     {
-     "t": "Aparece a cualquier edad, con más frecuencia entre la 2.ª y la 4.ª década; 5 a 20 % tiene un familiar afectado",
-     "por": "Además, la incidencia es mayor en Norteamérica y el norte de Europa."
+     "t": "Cualquier edad, más entre 2.ª y 4.ª década; 5 a 20 % familiar",
+     "por": "Además, la incidencia es mayor en Norteamérica y el norte de Europa.",
+     "full": "Aparece a cualquier edad, con más frecuencia entre la 2.ª y la 4.ª década; 5 a 20 % tiene un familiar afectado"
     },
     {
      "t": "Aparece solo en ancianos",
@@ -121,8 +123,9 @@
    "enunciado": "¿Qué diferencia la extensión de la colitis ulcerosa respecto de la enfermedad de Crohn?",
    "opciones": [
     {
-     "t": "En la CU la inflamación es continua desde el recto; en el Crohn es discontinua con zonas sanas ('lesiones en salto')",
-     "por": "La CU afecta solo colon y recto; el Crohn puede afectar todo el tubo digestivo."
+     "t": "CU continua desde el recto; Crohn discontinua, con lesiones en salto",
+     "por": "La CU afecta solo colon y recto; el Crohn puede afectar todo el tubo digestivo.",
+     "full": "En la CU la inflamación es continua desde el recto; en el Crohn es discontinua con zonas sanas ('lesiones en salto')"
     },
     {
      "t": "La CU afecta todo el tubo digestivo y el Crohn solo el colon",
@@ -177,8 +180,9 @@
    "enunciado": "¿Qué se dice sobre la respuesta a la cirugía en la EII?",
    "opciones": [
     {
-     "t": "En la CU la colectomía es curativa; en el Crohn no, porque la enfermedad puede reaparecer",
-     "por": "La colectomía elimina la mucosa afectada en la CU."
+     "t": "Colectomía cura la CU, no el Crohn",
+     "por": "La colectomía elimina la mucosa afectada en la CU.",
+     "full": "En la CU la colectomía es curativa; en el Crohn no, porque la enfermedad puede reaparecer"
     },
     {
      "t": "La cirugía cura el Crohn",
@@ -205,8 +209,9 @@
    "enunciado": "Varón de 25 años con diarrea con sangre y moco, tenesmo y urgencia rectal en brotes y remisiones. ¿Cuál es el diagnóstico más probable y dónde empieza la enfermedad?",
    "opciones": [
     {
-     "t": "Colitis ulcerosa, que empieza siempre en el recto y se extiende de forma continua",
-     "por": "Sangrado, tenesmo y compromiso rectal (95 %) son típicos de la CU."
+     "t": "Colitis ulcerosa, que parte del recto de forma continua",
+     "por": "Sangrado, tenesmo y compromiso rectal (95 %) son típicos de la CU.",
+     "full": "Colitis ulcerosa, que empieza siempre en el recto y se extiende de forma continua"
     },
     {
      "t": "Enfermedad de Crohn con afectación del íleon terminal",
@@ -293,8 +298,9 @@
    "enunciado": "En la clasificación de Montreal, ¿qué indica E2?",
    "opciones": [
     {
-     "t": "Colitis izquierda: la inflamación llega hasta el ángulo esplénico",
-     "por": "E1 es proctitis (solo recto) y E3 es colitis extensa o pancolitis."
+     "t": "Colitis izquierda, hasta el ángulo esplénico",
+     "por": "E1 es proctitis (solo recto) y E3 es colitis extensa o pancolitis.",
+     "full": "Colitis izquierda: la inflamación llega hasta el ángulo esplénico"
     },
     {
      "t": "Proctitis ulcerosa",
@@ -379,8 +385,9 @@
    "enunciado": "Paciente con colitis ulcerosa distal leve a moderada. ¿Qué indica la clase?",
    "opciones": [
     {
-     "t": "Mesalazina (5-ASA), por vía tópica en supositorios, enemas o espuma durante 4 a 6 semanas",
-     "por": "Es eficaz en la CU distal; por vía oral en la extensa."
+     "t": "Mesalazina tópica durante 4 a 6 semanas",
+     "por": "Es eficaz en la CU distal; por vía oral en la extensa.",
+     "full": "Mesalazina (5-ASA), por vía tópica en supositorios, enemas o espuma durante 4 a 6 semanas"
     },
     {
      "t": "Infliximab como primera línea",
@@ -411,8 +418,9 @@
    "enunciado": "Brote moderado de colitis ulcerosa: ¿qué indica el algoritmo y qué se hace si no hay respuesta en 1 a 2 semanas?",
    "opciones": [
     {
-     "t": "Corticoides orales (1 mg/kg, con o sin tratamiento tópico); sin respuesta, ingresar y tratar como brote grave con esteroides intravenosos",
-     "por": "Si responde, se disminuye el esteroide progresivamente y se pasa al tratamiento de mantenimiento."
+     "t": "Corticoides orales 1 mg/kg",
+     "por": "Si responde, se disminuye el esteroide progresivamente y se pasa al tratamiento de mantenimiento.",
+     "full": "Corticoides orales (1 mg/kg, con o sin tratamiento tópico); sin respuesta, ingresar y tratar como brote grave con esteroides intravenosos"
     },
     {
      "t": "Antibióticos por 7 días",
@@ -443,8 +451,9 @@
    "enunciado": "¿En qué casos se indica azatioprina o 6-mercaptopurina en la EII?",
    "opciones": [
     {
-     "t": "Refractariedad o dependencia de esteroides, enfermedad perianal, Crohn fistulizante y mantenimiento de la remisión",
-     "por": "Son las indicaciones de la lámina para estos inmunomoduladores."
+     "t": "Dependencia de esteroides o enfermedad fistulizante",
+     "por": "Son las indicaciones de la lámina para estos inmunomoduladores.",
+     "full": "Refractariedad o dependencia de esteroides, enfermedad perianal, Crohn fistulizante y mantenimiento de la remisión"
     },
     {
      "t": "Dolor abdominal leve aislado",
@@ -475,8 +484,9 @@
    "enunciado": "¿Cómo actúa el vedolizumab?",
    "opciones": [
     {
-     "t": "Es una anti-integrina: impide que los linfocitos T entren al tejido inflamado del intestino",
-     "por": "Bloquea la migración de linfocitos T de memoria al tejido intestinal."
+     "t": "Anti-integrina: impide el ingreso de linfocitos T al intestino",
+     "por": "Bloquea la migración de linfocitos T de memoria al tejido intestinal.",
+     "full": "Es una anti-integrina: impide que los linfocitos T entren al tejido inflamado del intestino"
     },
     {
      "t": "Es un anti-TNF-α que neutraliza el factor de necrosis tumoral",
@@ -507,8 +517,9 @@
    "enunciado": "¿Cuál es una indicación quirúrgica urgente en la colitis ulcerosa?",
    "opciones": [
     {
-     "t": "Hemorragia masiva incohercible o megacolon tóxico con perforación inminente",
-     "por": "También: CU fulminante sin respuesta, obstrucción por estenosis o cáncer de colon."
+     "t": "Hemorragia masiva o megacolon tóxico",
+     "por": "También: CU fulminante sin respuesta, obstrucción por estenosis o cáncer de colon.",
+     "full": "Hemorragia masiva incohercible o megacolon tóxico con perforación inminente"
     },
     {
      "t": "Dolor leve sin sangre",

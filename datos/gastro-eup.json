@@ -8,8 +8,9 @@
    "enunciado": "¿Cómo se define la enfermedad ulcero péptica (EUP)?",
    "opciones": [
     {
-     "t": "Discontinuidad del revestimiento interno del tubo digestivo por acción del ácido gástrico y la pepsina",
-     "por": "Es la definición de la lámina. Afecta sobre todo estómago y duodeno."
+     "t": "Lesión de la mucosa digestiva por ácido gástrico y pepsina",
+     "por": "Es la definición de la lámina. Afecta sobre todo estómago y duodeno.",
+     "full": "Discontinuidad del revestimiento interno del tubo digestivo por acción del ácido gástrico y la pepsina"
     },
     {
      "t": "Inflamación de la mucosa sin pérdida del epitelio",
@@ -36,8 +37,9 @@
    "enunciado": "¿Qué factor de virulencia de Helicobacter pylori le permite sobrevivir en el ácido del estómago?",
    "opciones": [
     {
-     "t": "La ureasa, que descompone la urea en amoniaco y neutraliza el ácido",
-     "por": "El amoniaco alcaliniza el entorno inmediato de la bacteria."
+     "t": "Ureasa, que neutraliza el ácido",
+     "por": "El amoniaco alcaliniza el entorno inmediato de la bacteria.",
+     "full": "La ureasa, que descompone la urea en amoniaco y neutraliza el ácido"
     },
     {
      "t": "Los flagelos",
@@ -64,8 +66,9 @@
    "enunciado": "¿Qué síntoma es el más frecuente de la úlcera péptica?",
    "opciones": [
     {
-     "t": "Dolor epigástrico, en 80 a 90 % de los pacientes",
-     "por": "Se acompaña de náuseas, vómitos y anorexia; el examen solo muestra dolor leve a la palpación."
+     "t": "Dolor epigástrico (80 a 90 %)",
+     "por": "Se acompaña de náuseas, vómitos y anorexia; el examen solo muestra dolor leve a la palpación.",
+     "full": "Dolor epigástrico, en 80 a 90 % de los pacientes"
     },
     {
      "t": "Disfagia progresiva",
@@ -92,8 +95,9 @@
    "enunciado": "¿Cuál es el estándar de oro para el diagnóstico de la úlcera péptica?",
    "opciones": [
     {
-     "t": "Endoscopía digestiva alta con biopsia para H. pylori",
-     "por": "Permite ver la úlcera, tomar biopsias y descartar malignidad."
+     "t": "Endoscopía alta con biopsia para H. pylori",
+     "por": "Permite ver la úlcera, tomar biopsias y descartar malignidad.",
+     "full": "Endoscopía digestiva alta con biopsia para H. pylori"
     },
     {
      "t": "Test de urea en aliento",
@@ -150,8 +154,9 @@
    "enunciado": "Según la tabla de Forrest, ¿qué lesión tiene el mayor riesgo de resangrado sin tratamiento?",
    "opciones": [
     {
-     "t": "Forrest IA o IB (sangrado pulsátil o en napa), alrededor de 55 %",
-     "por": "Es el grupo de mayor riesgo, con mortalidad cercana a 11 %."
+     "t": "Forrest IA o IB, cerca de 55 %",
+     "por": "Es el grupo de mayor riesgo, con mortalidad cercana a 11 %.",
+     "full": "Forrest IA o IB (sangrado pulsátil o en napa), alrededor de 55 %"
     },
     {
      "t": "Forrest IIC (mácula plana), alrededor de 10 %",
@@ -183,8 +188,9 @@
    "enunciado": "Paciente con úlcera por H. pylori, sin alergia a la amoxicilina. ¿Cuál es el esquema de cuadriterapia con bismuto de la lámina?",
    "opciones": [
     {
-     "t": "IBP, amoxicilina, metronidazol y subsalicilato de bismuto",
-     "por": "IBP 40 mg, amoxicilina 1 g y metronidazol 500 mg cada 8 horas, más bismuto 20 ml cada 8 horas."
+     "t": "IBP, amoxicilina, metronidazol y bismuto",
+     "por": "IBP 40 mg, amoxicilina 1 g y metronidazol 500 mg cada 8 horas, más bismuto 20 ml cada 8 horas.",
+     "full": "IBP, amoxicilina, metronidazol y subsalicilato de bismuto"
     },
     {
      "t": "IBP, claritromicina y levofloxacina",
@@ -215,8 +221,9 @@
    "enunciado": "Falló la primera línea de erradicación de H. pylori. ¿Qué indica la lámina como segunda línea?",
    "opciones": [
     {
-     "t": "IBP 20 mg, tetraciclina 500 mg, metronidazol 500 mg (cada 6 h) y bismuto 15 ml cada 6 h",
-     "por": "Es la terapia de segunda línea; luego se controla a las 6 a 8 semanas."
+     "t": "IBP, tetraciclina, metronidazol y bismuto cada 6 h",
+     "por": "Es la terapia de segunda línea; luego se controla a las 6 a 8 semanas.",
+     "full": "IBP 20 mg, tetraciclina 500 mg, metronidazol 500 mg (cada 6 h) y bismuto 15 ml cada 6 h"
     },
     {
      "t": "Repetir el mismo esquema de primera línea",
@@ -247,8 +254,9 @@
    "enunciado": "¿Qué esquema usa la lámina para el paciente con H. pylori ALÉRGICO a la amoxicilina?",
    "opciones": [
     {
-     "t": "IBP, tetraciclina, metronidazol y subsalicilato de bismuto, cada 8 horas",
-     "por": "Reemplaza la amoxicilina por tetraciclina."
+     "t": "IBP, tetraciclina, metronidazol y bismuto cada 8 h",
+     "por": "Reemplaza la amoxicilina por tetraciclina.",
+     "full": "IBP, tetraciclina, metronidazol y subsalicilato de bismuto, cada 8 horas"
     },
     {
      "t": "IBP, amoxicilina, metronidazol y bismuto",
@@ -279,8 +287,9 @@
    "enunciado": "¿Qué dice la clase sobre los antiinflamatorios y la úlcera?",
    "opciones": [
     {
-     "t": "Los inhibidores selectivos de COX-2 reducen en 75 % la aparición de úlceras; la aspirina duplica el riesgo de sangrado",
-     "por": "La aspirina (AAS) inhibe de forma irreversible COX-1 y COX-2."
+     "t": "COX-2 selectivos bajan 75 % las úlceras",
+     "por": "La aspirina (AAS) inhibe de forma irreversible COX-1 y COX-2.",
+     "full": "Los inhibidores selectivos de COX-2 reducen en 75 % la aparición de úlceras; la aspirina duplica el riesgo de sangrado"
     },
     {
      "t": "Los AINE no se asocian con úlcera",
@@ -308,8 +317,9 @@
    "enunciado": "¿Qué se dice de la epidemiología de la úlcera péptica en el Perú?",
    "opciones": [
     {
-     "t": "La relación úlcera duodenal/gástrica es 4:1, pero en la población andina la gástrica es más frecuente por la poliglobulia",
-     "por": "La altura modifica el patrón habitual."
+     "t": "Duodenal/gástrica 4:1, pero en la altura andina predomina la gástrica",
+     "por": "La altura modifica el patrón habitual.",
+     "full": "La relación úlcera duodenal/gástrica es 4:1, pero en la población andina la gástrica es más frecuente por la poliglobulia"
     },
     {
      "t": "La úlcera gástrica es siempre 4 veces más frecuente que la duodenal",
@@ -364,8 +374,9 @@
    "enunciado": "¿Cómo actúan los inhibidores de la bomba de protones (IBP) como el omeprazol?",
    "opciones": [
     {
-     "t": "Inhiben de forma específica y no competitiva la bomba H⁺/K⁺ ATPasa de las células parietales",
-     "por": "Así bloquean el paso final de la secreción ácida."
+     "t": "Inhiben de forma no competitiva la bomba H⁺/K⁺ ATPasa",
+     "por": "Así bloquean el paso final de la secreción ácida.",
+     "full": "Inhiben de forma específica y no competitiva la bomba H⁺/K⁺ ATPasa de las células parietales"
     },
     {
      "t": "Neutralizan el ácido ya secretado",

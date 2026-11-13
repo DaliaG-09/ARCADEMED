@@ -8,8 +8,9 @@
    "enunciado": "¿Cómo se define la acalasia?",
    "opciones": [
     {
-     "t": "Un trastorno de la motilidad esofágica con peristalsis aberrante y relajación insuficiente del esfínter esofágico inferior (EEI)",
-     "por": "Es la definición de la lámina: el EEI no se relaja bien y el esófago no empuja el alimento."
+     "t": "Peristalsis aberrante y relajación insuficiente del EEI",
+     "por": "Es la definición de la lámina: el EEI no se relaja bien y el esófago no empuja el alimento.",
+     "full": "Un trastorno de la motilidad esofágica con peristalsis aberrante y relajación insuficiente del esfínter esofágico inferior (EEI)"
     },
     {
      "t": "Un reflujo del contenido gástrico al esófago por un EEI hipotónico",
@@ -152,8 +153,9 @@
    "enunciado": "¿Qué hallazgo típico muestra el esofagograma con bario en la acalasia?",
    "opciones": [
     {
-     "t": "Dilatación esofágica con estrechamiento distal en cono, el 'signo de pico de pájaro'",
-     "por": "El bario no pasa al estómago y el esófago distal se afina en forma de cono."
+     "t": "Dilatación esofágica con estrechamiento distal en pico de pájaro",
+     "por": "El bario no pasa al estómago y el esófago distal se afina en forma de cono.",
+     "full": "Dilatación esofágica con estrechamiento distal en cono, el 'signo de pico de pájaro'"
     },
     {
      "t": "Una imagen en 'sacacorchos' con múltiples contracciones",
@@ -185,8 +187,9 @@
    "enunciado": "¿Cuál es el estándar de oro para diagnosticar acalasia y qué muestra?",
    "opciones": [
     {
-     "t": "Manometría esofágica de alta resolución: presión del EEI aumentada con relajación incompleta y ausencia de peristalsis",
-     "por": "Confirma el diagnóstico y define el tipo según la clasificación de Chicago."
+     "t": "Manometría esofágica de alta resolución",
+     "por": "Confirma el diagnóstico y define el tipo según la clasificación de Chicago.",
+     "full": "Manometría esofágica de alta resolución: presión del EEI aumentada con relajación incompleta y ausencia de peristalsis"
     },
     {
      "t": "Esofagograma con bario",
@@ -251,8 +254,9 @@
    "enunciado": "¿Qué fármacos orales menciona la lámina para acalasia?",
    "opciones": [
     {
-     "t": "Nifedipino 10 a 30 mg antes de las comidas, isosorbida 5 mg sublingual, anticolinérgicos o agonistas beta",
-     "por": "Relajan el EEI, pero su efecto es modesto y se reservan para quienes no pueden recibir un tratamiento definitivo."
+     "t": "Nifedipino o nitratos sublinguales",
+     "por": "Relajan el EEI, pero su efecto es modesto y se reservan para quienes no pueden recibir un tratamiento definitivo.",
+     "full": "Nifedipino 10 a 30 mg antes de las comidas, isosorbida 5 mg sublingual, anticolinérgicos o agonistas beta"
     },
     {
      "t": "Omeprazol a dosis altas",
@@ -349,8 +353,9 @@
    "enunciado": "¿Qué se asocia a la miotomía quirúrgica del EEI en la acalasia?",
    "opciones": [
     {
-     "t": "Fundoplicatura, por el alto riesgo de ERGE tras la miotomía",
-     "por": "Al cortar el EEI se pierde la barrera antirreflujo, por eso se añade una fundoplicatura parcial."
+     "t": "Fundoplicatura parcial asociada",
+     "por": "Al cortar el EEI se pierde la barrera antirreflujo, por eso se añade una fundoplicatura parcial.",
+     "full": "Fundoplicatura, por el alto riesgo de ERGE tras la miotomía"
     },
     {
      "t": "Esofagectomía de rutina",
@@ -415,8 +420,9 @@
    "enunciado": "¿Qué complicación a largo plazo tiene la acalasia sin tratamiento?",
    "opciones": [
     {
-     "t": "Megaesófago con riesgo de carcinoma escamocelular",
-     "por": "La estasis crónica irrita la mucosa; la lámina menciona el riesgo de carcinoma escamocelular."
+     "t": "Megaesófago con riesgo de carcinoma escamoso",
+     "por": "La estasis crónica irrita la mucosa; la lámina menciona el riesgo de carcinoma escamocelular.",
+     "full": "Megaesófago con riesgo de carcinoma escamocelular"
     },
     {
      "t": "Adenocarcinoma por esófago de Barrett",

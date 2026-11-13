@@ -8,8 +8,9 @@
    "enunciado": "¿Qué son las glomerulopatías?",
    "opciones": [
     {
-     "t": "Enfermedades que afectan la estructura y la función del glomérulo; son heterogéneas en etiología, clínica y evolución",
-     "por": "Se clasifican en primarias (la enfermedad nace en el riñón) y secundarias (el riñón se afecta por una enfermedad sistémica)."
+     "t": "Enfermedades heterogéneas del glomérulo",
+     "por": "Se clasifican en primarias (la enfermedad nace en el riñón) y secundarias (el riñón se afecta por una enfermedad sistémica).",
+     "full": "Enfermedades que afectan la estructura y la función del glomérulo; son heterogéneas en etiología, clínica y evolución"
     },
     {
      "t": "Infecciones de la vejiga o la uretra",
@@ -37,8 +38,9 @@
    "enunciado": "Niño de 6 años con edema facial de inicio brusco, proteinuria en rango nefrótico, sin hematuria ni hipertensión, complemento normal. La microscopía óptica es normal. ¿Qué mostraría la microscopía electrónica?",
    "opciones": [
     {
-     "t": "Fusión o borramiento difuso de los pedicelos de los podocitos",
-     "por": "Es el hallazgo de la nefropatía por cambios mínimos: la luz solo muestra un glomérulo normal, pero con el electrónico se ve que los podocitos perdieron sus prolongaciones."
+     "t": "Borramiento de los pedicelos podocitarios",
+     "por": "Es el hallazgo de la nefropatía por cambios mínimos: la luz solo muestra un glomérulo normal, pero con el electrónico se ve que los podocitos perdieron sus prolongaciones.",
+     "full": "Fusión o borramiento difuso de los pedicelos de los podocitos"
     },
     {
      "t": "Depósitos subepiteliales en forma de espigas",
@@ -66,8 +68,9 @@
    "enunciado": "¿Qué condiciones se asocian a la nefropatía por cambios mínimos secundaria?",
    "opciones": [
     {
-     "t": "AINE, linfoma de Hodgkin, alergias, infecciones virales y vacunas",
-     "por": "Son las causas secundarias de la lámina. Además suele haber antecedente de atopia o alergias."
+     "t": "AINE, Hodgkin, alergias y vacunas",
+     "por": "Son las causas secundarias de la lámina. Además suele haber antecedente de atopia o alergias.",
+     "full": "AINE, linfoma de Hodgkin, alergias, infecciones virales y vacunas"
     },
     {
      "t": "Hepatitis B y C, lupus y neoplasias",
@@ -96,8 +99,9 @@
    "enunciado": "¿Cuál es el tratamiento inicial de la nefropatía por cambios mínimos y qué se espera?",
    "opciones": [
     {
-     "t": "Corticoides (prednisona): respuesta excelente, sobre todo en niños",
-     "por": "Los inmunosupresores (ciclofosfamida, tacrolimus, rituximab) se guardan para recaídas frecuentes. La supervivencia es de 85 a 90 %."
+     "t": "Prednisona, con excelente respuesta",
+     "por": "Los inmunosupresores (ciclofosfamida, tacrolimus, rituximab) se guardan para recaídas frecuentes. La supervivencia es de 85 a 90 %.",
+     "full": "Corticoides (prednisona): respuesta excelente, sobre todo en niños"
     },
     {
      "t": "Plasmaféresis",
@@ -189,8 +193,9 @@
    "enunciado": "¿Cómo evoluciona la nefropatía membranosa?",
    "opciones": [
     {
-     "t": "Un tercio remite, un tercio persiste y un tercio progresa a ERC",
-     "por": "Es peor si la función renal ya está disminuida o la proteinuria es intensa."
+     "t": "Tercios: remite, persiste, progresa",
+     "por": "Es peor si la función renal ya está disminuida o la proteinuria es intensa.",
+     "full": "Un tercio remite, un tercio persiste y un tercio progresa a ERC"
     },
     {
      "t": "Todos remiten solos",
@@ -217,8 +222,9 @@
    "enunciado": "Varón de 24 años con hematuria, insuficiencia renal aguda y hemoptisis. La inmunofluorescencia muestra depósito lineal de IgG. ¿Diagnóstico?",
    "opciones": [
     {
-     "t": "Glomerulonefritis anti-MBG (enfermedad de Goodpasture si hay afectación pulmonar)",
-     "por": "Los anticuerpos atacan la membrana basal del glomérulo y también la del alvéolo, por eso hay riñón y pulmón. El depósito es lineal a lo largo de la MBG."
+     "t": "GN anti-MBG (Goodpasture)",
+     "por": "Los anticuerpos atacan la membrana basal del glomérulo y también la del alvéolo, por eso hay riñón y pulmón. El depósito es lineal a lo largo de la MBG.",
+     "full": "Glomerulonefritis anti-MBG (enfermedad de Goodpasture si hay afectación pulmonar)"
     },
     {
      "t": "Nefropatía por IgA",
@@ -246,8 +252,9 @@
    "enunciado": "¿Cuál es la presentación típica de la nefropatía por IgA (enfermedad de Berger)?",
    "opciones": [
     {
-     "t": "Hematuria macroscópica recurrente después de infecciones respiratorias o digestivas",
-     "por": "Es un síndrome nefrítico recurrente. Típico de niños y adultos jóvenes, más en hombres. El complemento sérico es normal."
+     "t": "Hematuria macroscópica recurrente tras infecciones",
+     "por": "Es un síndrome nefrítico recurrente. Típico de niños y adultos jóvenes, más en hombres. El complemento sérico es normal.",
+     "full": "Hematuria macroscópica recurrente después de infecciones respiratorias o digestivas"
     },
     {
      "t": "Anasarca con albúmina menor de 2 g/dL",
@@ -303,8 +310,9 @@
    "enunciado": "¿Qué significa glomeruloesclerosis focal y segmentaria (GEFS)?",
    "opciones": [
     {
-     "t": "Cicatrización de solo una parte del glomérulo (segmentaria) en algunos glomérulos (focal)",
-     "por": "El daño empieza en los podocitos, se pierde proteína y la cicatriz aparece en segmentos."
+     "t": "Cicatriz parcial en algunos glomérulos",
+     "por": "El daño empieza en los podocitos, se pierde proteína y la cicatriz aparece en segmentos.",
+     "full": "Cicatrización de solo una parte del glomérulo (segmentaria) en algunos glomérulos (focal)"
     },
     {
      "t": "Cicatrización de todos los glomérulos",
@@ -332,8 +340,9 @@
    "enunciado": "¿Qué causas secundarias de GEFS menciona la lámina?",
    "opciones": [
     {
-     "t": "VIH, uso de heroína, obesidad, anemia drepanocítica y reducción de masa renal",
-     "por": "Son causas que dañan el podocito de forma indirecta o lo sobrecargan."
+     "t": "VIH, heroína, obesidad, drepanocitosis",
+     "por": "Son causas que dañan el podocito de forma indirecta o lo sobrecargan.",
+     "full": "VIH, uso de heroína, obesidad, anemia drepanocítica y reducción de masa renal"
     },
     {
      "t": "AINE, linfoma de Hodgkin y vacunas",
@@ -360,8 +369,9 @@
    "enunciado": "Paciente con GEFS primaria que no responde a corticoides. ¿Qué plantea la lámina?",
    "opciones": [
     {
-     "t": "Inmunosupresores como ciclosporina o micofenolato, y IECA o ARA II para la proteinuria",
-     "por": "Son los pasos siguientes cuando los esteroides fallan."
+     "t": "Ciclosporina o micofenolato más IECA",
+     "por": "Son los pasos siguientes cuando los esteroides fallan.",
+     "full": "Inmunosupresores como ciclosporina o micofenolato, y IECA o ARA II para la proteinuria"
     },
     {
      "t": "Plasmaféresis",
@@ -388,8 +398,9 @@
    "enunciado": "¿Qué patrón histológico caracteriza a la glomerulonefritis membranoproliferativa (GNMP)?",
    "opciones": [
     {
-     "t": "Proliferación mesangial, lobulación y doble contorno de la membrana basal ('railway track')",
-     "por": "La MBG se ve como dos líneas paralelas, como rieles de tren."
+     "t": "Doble contorno de la MBG y lobulación",
+     "por": "La MBG se ve como dos líneas paralelas, como rieles de tren.",
+     "full": "Proliferación mesangial, lobulación y doble contorno de la membrana basal ('railway track')"
     },
     {
      "t": "Espigas subepiteliales",
@@ -417,8 +428,9 @@
    "enunciado": "¿Qué es la glomerulonefritis rápidamente progresiva (GNRP)?",
    "opciones": [
     {
-     "t": "Un síndrome con pérdida rápida de función renal en semanas o meses, con semilunas epiteliales en la mayoría de los glomérulos",
-     "por": "Suele presentarse como síndrome nefrítico severo. Sin tratamiento tiene mal pronóstico y puede llevar a diálisis."
+     "t": "Pérdida rápida de función con semilunas",
+     "por": "Suele presentarse como síndrome nefrítico severo. Sin tratamiento tiene mal pronóstico y puede llevar a diálisis.",
+     "full": "Un síndrome con pérdida rápida de función renal en semanas o meses, con semilunas epiteliales en la mayoría de los glomérulos"
     },
     {
      "t": "Una enfermedad lenta que evoluciona en años",
@@ -446,8 +458,9 @@
    "enunciado": "En la clasificación de la GNRP, ¿qué tipo es la pauciinmune y qué muestra la inmunofluorescencia?",
    "opciones": [
     {
-     "t": "Tipo III (ANCA, vasculitis GPA o MPA): inmunofluorescencia negativa o mínima",
-     "por": "Pauciinmune significa 'pocos depósitos inmunes'."
+     "t": "Tipo III: IF negativa o mínima",
+     "por": "Pauciinmune significa 'pocos depósitos inmunes'.",
+     "full": "Tipo III (ANCA, vasculitis GPA o MPA): inmunofluorescencia negativa o mínima"
     },
     {
      "t": "Tipo I: depósitos granulares",
@@ -503,8 +516,9 @@
    "enunciado": "En un niño con síndrome nefrótico, ¿cómo se define una recaída y una remisión?",
    "opciones": [
     {
-     "t": "Recaída: proteinuria mayor de 40 mg/m²/h en tres días no consecutivos. Remisión: menor de 4 mg/m²/h",
-     "por": "Se cuenta con la primera orina de la mañana, en tres días no consecutivos."
+     "t": "Recaída >40 mg/m²/h en 3 días; remisión <4 mg/m²/h",
+     "por": "Se cuenta con la primera orina de la mañana, en tres días no consecutivos.",
+     "full": "Recaída: proteinuria mayor de 40 mg/m²/h en tres días no consecutivos. Remisión: menor de 4 mg/m²/h"
     },
     {
      "t": "Recaída: proteinuria menor de 4 mg/m²/h; remisión: mayor de 40",

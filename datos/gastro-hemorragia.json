@@ -36,8 +36,9 @@
    "enunciado": "Un paciente refiere heces negras, brillantes, pegajosas y de olor muy fétido. ¿Cómo se llama este signo y qué localización sugiere?",
    "opciones": [
     {
-     "t": "Melena; sugiere un sangrado de tramos altos del tubo digestivo",
-     "por": "La sangre se degrada al mezclarse con el contenido digestivo (jugo gástrico y bacterias) y las heces salen negras, pegajosas y fétidas. Suele indicar sangrado alto."
+     "t": "Melena; sangrado de tramos altos",
+     "por": "La sangre se degrada al mezclarse con el contenido digestivo (jugo gástrico y bacterias) y las heces salen negras, pegajosas y fétidas. Suele indicar sangrado alto.",
+     "full": "Melena; sugiere un sangrado de tramos altos del tubo digestivo"
     },
     {
      "t": "Hematemesis; sangrado alto",
@@ -121,8 +122,9 @@
    "enunciado": "¿Qué es la lesión de Dieulafoy, que la clase incluye entre las causas vasculares de HDA?",
    "opciones": [
     {
-     "t": "Una arteria submucosa gástrica aberrante, de gran calibre, que puede sangrar",
-     "por": "Es una anomalía vascular: un vaso anormalmente grande en la submucosa del estómago. Las anomalías vasculares causan 7 % de las HDA y la angiodisplasia es la más común."
+     "t": "Arteria submucosa gástrica aberrante y de gran calibre",
+     "por": "Es una anomalía vascular: un vaso anormalmente grande en la submucosa del estómago. Las anomalías vasculares causan 7 % de las HDA y la angiodisplasia es la más común.",
+     "full": "Una arteria submucosa gástrica aberrante, de gran calibre, que puede sangrar"
     },
     {
      "t": "Una úlcera duodenal asociada a H. pylori",
@@ -177,8 +179,9 @@
    "enunciado": "Un paciente con sospecha de HDA está hemodinámicamente estable (PAS >100 mmHg y FC <100 lat/min). Según el algoritmo de la clase, ¿cuál es la conducta inicial?",
    "opciones": [
     {
-     "t": "Colocar 1 o 2 catéteres periféricos, reponer volumen, dar bolo de 80 mg de IBP seguido de 8 mg/h, valorar transfusión restrictiva y hacer endoscopia en las primeras 24 horas",
-     "por": "Esa es la secuencia de la lámina 15 para el paciente estable: reanimación, IBP en bolo y luego infusión, transfusión restrictiva y endoscopia digestiva alta antes de 24 h."
+     "t": "Vías periféricas, volumen, IBP 80 mg en bolo, transfusión restrictiva y endoscopía <24 h",
+     "por": "Esa es la secuencia de la lámina 15 para el paciente estable: reanimación, IBP en bolo y luego infusión, transfusión restrictiva y endoscopia digestiva alta antes de 24 h.",
+     "full": "Colocar 1 o 2 catéteres periféricos, reponer volumen, dar bolo de 80 mg de IBP seguido de 8 mg/h, valorar transfusión restrictiva y hacer endoscopia en las primeras 24 horas"
     },
     {
      "t": "Ingresar a UCI y hacer endoscopia inmediata",
@@ -210,8 +213,9 @@
    "enunciado": "¿Cómo se define la hemorragia digestiva baja (HDB) y qué proporción de las hemorragias digestivas representa?",
    "opciones": [
     {
-     "t": "Origen distal al ángulo de Treitz; 20 % de las hemorragias digestivas, con 95 % originado en el colon",
-     "por": "Es la definición de la clase. La mortalidad y la morbilidad aumentan con la edad y las comorbilidades."
+     "t": "Distal al Treitz; 20 % de las hemorragias, 95 % colónico",
+     "por": "Es la definición de la clase. La mortalidad y la morbilidad aumentan con la edad y las comorbilidades.",
+     "full": "Origen distal al ángulo de Treitz; 20 % de las hemorragias digestivas, con 95 % originado en el colon"
     },
     {
      "t": "Origen proximal al ángulo de Treitz; 80 % de las hemorragias digestivas",
@@ -238,8 +242,9 @@
    "enunciado": "¿Cuál es la causa más frecuente de HDB?",
    "opciones": [
     {
-     "t": "Enfermedad diverticular (diverticulosis): más del 50 % de las HDB",
-     "por": "Produce sangrado de gran volumen e indoloro. 80 % se autolimita y la recurrencia es de 25 %. La diverticulosis está presente en 3 a 5 % de los pacientes."
+     "t": "Enfermedad diverticular",
+     "por": "Produce sangrado de gran volumen e indoloro. 80 % se autolimita y la recurrencia es de 25 %. La diverticulosis está presente en 3 a 5 % de los pacientes.",
+     "full": "Enfermedad diverticular (diverticulosis): más del 50 % de las HDB"
     },
     {
      "t": "Hemorroides",
@@ -323,8 +328,9 @@
    "enunciado": "Respecto de las hemorroides como causa de hemorragia digestiva baja, ¿qué afirmación es correcta?",
    "opciones": [
     {
-     "t": "Las internas son indoloras y las externas son dolorosas; el sangrado se asocia al ritmo evacuatorio",
-     "por": "Causan 5 a 10 % de las HDB y se presentan como rectorragia."
+     "t": "Internas indoloras, externas dolorosas; sangrado con la evacuación",
+     "por": "Causan 5 a 10 % de las HDB y se presentan como rectorragia.",
+     "full": "Las internas son indoloras y las externas son dolorosas; el sangrado se asocia al ritmo evacuatorio"
     },
     {
      "t": "Las hemorroides internas son dolorosas y las externas indoloras",
@@ -351,8 +357,9 @@
    "enunciado": "En un paciente hemodinámicamente estable con HDB, ¿cómo se hace el estudio endoscópico según la clase?",
    "opciones": [
     {
-     "t": "Colonoscopia en las primeras 24 horas, después de una preparación con PEG (polietilenglicol)",
-     "por": "La endoscopia identifica el origen del sangrado en 74 a 82 % y permite tratar con adrenalina, coagulación térmica, endoclips o plasma de argón."
+     "t": "Colonoscopia en 24 h tras preparación con PEG",
+     "por": "La endoscopia identifica el origen del sangrado en 74 a 82 % y permite tratar con adrenalina, coagulación térmica, endoclips o plasma de argón.",
+     "full": "Colonoscopia en las primeras 24 horas, después de una preparación con PEG (polietilenglicol)"
     },
     {
      "t": "Colonoscopia inmediata sin preparación",
@@ -384,8 +391,9 @@
    "enunciado": "Una mujer de 72 años se hizo una colonoscopia por anemia ferropénica y se le extirpó un pólipo pediculado de 12 mm del colon descendente. Esa noche reingresa con hemorragia rectal importante, hemodinámicamente estable, con sangre fresca al tacto rectal. ¿Cuál es el siguiente paso más apropiado?",
    "opciones": [
     {
-     "t": "Colonoscopia a la mañana siguiente, tras preparación intestinal nocturna con PEG",
-     "por": "Es la opción (a). Estable, con sangrado posterior a polipectomía: la clase indica endoscopia en las primeras 24 horas después de preparar el colon con PEG, para ver el sitio y tratarlo con clips o coagulación."
+     "t": "Colonoscopia al día siguiente tras preparación nocturna con PEG",
+     "por": "Es la opción (a). Estable, con sangrado posterior a polipectomía: la clase indica endoscopia en las primeras 24 horas después de preparar el colon con PEG, para ver el sitio y tratarlo con clips o coagulación.",
+     "full": "Colonoscopia a la mañana siguiente, tras preparación intestinal nocturna con PEG"
     },
     {
      "t": "Colonoscopia esa misma noche, sin solución PEG",

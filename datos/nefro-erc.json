@@ -8,8 +8,9 @@
    "enunciado": "¿Qué define a la enfermedad renal crónica (ERC) según la clase?",
    "opciones": [
     {
-     "t": "Anormalidad de la estructura o de la función del riñón presente por más de 3 meses",
-     "por": "Es la definición de la lámina: lo que cuenta es la persistencia (más de 3 meses) y que haya daño estructural o funcional."
+     "t": "Anormalidad renal presente por más de 3 meses",
+     "por": "Es la definición de la lámina: lo que cuenta es la persistencia (más de 3 meses) y que haya daño estructural o funcional.",
+     "full": "Anormalidad de la estructura o de la función del riñón presente por más de 3 meses"
     },
     {
      "t": "Caída brusca de la TFG en horas o días",
@@ -40,8 +41,9 @@
    "enunciado": "Un paciente tiene 5 meses con TFG de 80 mL/min/1.73 m², pero la ecografía muestra quistes renales bilaterales. ¿Cumple criterio de ERC?",
    "opciones": [
     {
-     "t": "Sí, porque hay una anormalidad estructural por más de 3 meses aunque la TFG sea casi normal",
-     "por": "La definición incluye alteraciones estructurales, no solo la TFG baja."
+     "t": "Sí: anormalidad estructural por más de 3 meses",
+     "por": "La definición incluye alteraciones estructurales, no solo la TFG baja.",
+     "full": "Sí, porque hay una anormalidad estructural por más de 3 meses aunque la TFG sea casi normal"
     },
     {
      "t": "No, porque la ERC solo se diagnostica con TFG menor de 60",
@@ -100,8 +102,9 @@
    "enunciado": "Mujer de 60 años con hipertensión arterial (HTA) de 15 años de evolución mal controlada y sin diabetes. Si desarrolla ERC, ¿qué mecanismo explica con más probabilidad el daño renal?",
    "opciones": [
     {
-     "t": "Nefropatía hipertensiva: la presión alta lesiona de forma sostenida el glomérulo y los vasos",
-     "por": "La HTA es de las causas más frecuentes (15 a 30 %) y daña por hiperfiltración, isquemia y fibrosis."
+     "t": "Nefropatía hipertensiva por daño vascular sostenido",
+     "por": "La HTA es de las causas más frecuentes (15 a 30 %) y daña por hiperfiltración, isquemia y fibrosis.",
+     "full": "Nefropatía hipertensiva: la presión alta lesiona de forma sostenida el glomérulo y los vasos"
     },
     {
      "t": "Poliquistosis renal, por la presión elevada",
@@ -128,8 +131,9 @@
    "enunciado": "En la fisiopatología de la ERC, ¿qué ocurre en la fase de 'compensación' tras la lesión inicial?",
    "opciones": [
     {
-     "t": "Hiperfiltración de las nefronas sanas y proteinuria",
-     "por": "La lámina señala hiperfiltración glomerular y proteinuria como compensación."
+     "t": "Hiperfiltración y proteinuria",
+     "por": "La lámina señala hiperfiltración glomerular y proteinuria como compensación.",
+     "full": "Hiperfiltración de las nefronas sanas y proteinuria"
     },
     {
      "t": "Fibrosis con colágeno y miofibroblastos",
@@ -156,8 +160,9 @@
    "enunciado": "¿Qué molécula y qué células se asocian a la fibrosis renal en la tabla de fisiopatología?",
    "opciones": [
     {
-     "t": "TGF-β (factor de crecimiento transformante beta) y miofibroblastos con depósito de colágeno",
-     "por": "Esa es la fase 'fibrosis y pérdida' de la lámina."
+     "t": "TGF-β con miofibroblastos y colágeno",
+     "por": "Esa es la fase 'fibrosis y pérdida' de la lámina.",
+     "full": "TGF-β (factor de crecimiento transformante beta) y miofibroblastos con depósito de colágeno"
     },
     {
      "t": "Aldosterona y células mesangiales",
@@ -271,8 +276,9 @@
    "enunciado": "Un paciente con TFG de 92 y albuminuria de 20 mg/g (sin otro marcador de daño). ¿Qué indica el mapa de KDIGO?",
    "opciones": [
     {
-     "t": "Riesgo bajo (verde); sin otro marcador de daño no es ERC",
-     "por": "G1 con A1 es verde: sin otro marcador no hay ERC."
+     "t": "Riesgo bajo (verde); no es ERC",
+     "por": "G1 con A1 es verde: sin otro marcador no hay ERC.",
+     "full": "Riesgo bajo (verde); sin otro marcador de daño no es ERC"
     },
     {
      "t": "Riesgo muy alto (rojo)",
@@ -358,8 +364,9 @@
    "enunciado": "En la fórmula MDRD, ¿qué factores se aplican según sexo y etnia?",
    "opciones": [
     {
-     "t": "×0.742 en mujeres y ×1.21 en afroestadounidenses",
-     "por": "Así aparece en la imagen de la lámina de TFG."
+     "t": "×0.742 mujeres y ×1.21 afroestadounidenses",
+     "por": "Así aparece en la imagen de la lámina de TFG.",
+     "full": "×0.742 en mujeres y ×1.21 en afroestadounidenses"
     },
     {
      "t": "×0.85 en mujeres y ×1.21 en varones",
@@ -504,8 +511,9 @@
    "enunciado": "¿Qué recomienda la lámina de tratamiento sobre IECA y ARA II en la ERC?",
    "opciones": [
     {
-     "t": "Reducen la albuminuria; no usarlos con TFG menor de 30",
-     "por": "Eso dice la lámina."
+     "t": "Bajan la albuminuria; no con TFG <30",
+     "por": "Eso dice la lámina.",
+     "full": "Reducen la albuminuria; no usarlos con TFG menor de 30"
     },
     {
      "t": "Se usan en toda ERC sin importar la TFG",
@@ -537,8 +545,9 @@
    "enunciado": "¿Cuál de estos es criterio para iniciar diálisis?",
    "opciones": [
     {
-     "t": "Hiperpotasemia refractaria con K⁺ mayor de 6.5",
-     "por": "Está en la lámina de criterios."
+     "t": "Hiperpotasemia >6.5 refractaria",
+     "por": "Está en la lámina de criterios.",
+     "full": "Hiperpotasemia refractaria con K⁺ mayor de 6.5"
     },
     {
      "t": "K⁺ de 5.2 controlado con dieta",
@@ -593,8 +602,9 @@
    "enunciado": "¿Cuál de estos son síntomas urémicos que justifican diálisis?",
    "opciones": [
     {
-     "t": "Náuseas y vómitos incoercibles, encefalopatía, pericarditis, neuropatía",
-     "por": "Son manifestaciones de la uremia (toxinas acumuladas) que aparecen en la lámina como indicación de diálisis."
+     "t": "Encefalopatía y pericarditis",
+     "por": "Son manifestaciones de la uremia (toxinas acumuladas) que aparecen en la lámina como indicación de diálisis.",
+     "full": "Náuseas y vómitos incoercibles, encefalopatía, pericarditis, neuropatía"
     },
     {
      "t": "Prurito leve aislado",

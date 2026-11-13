@@ -8,8 +8,9 @@
    "enunciado": "¿Qué refleja casi siempre una hiponatremia?",
    "opciones": [
     {
-     "t": "Un exceso de agua en relación con el sodio, más que una pérdida absoluta de sodio",
-     "por": "Casi siempre hay demasiada agua en relación con el sodio. Por eso la hiponatremia se corrige regulando el agua, y no solo dando sal."
+     "t": "Exceso de agua relativo al sodio, no pérdida de sodio",
+     "por": "Casi siempre hay demasiada agua en relación con el sodio. Por eso la hiponatremia se corrige regulando el agua, y no solo dando sal.",
+     "full": "Un exceso de agua en relación con el sodio, más que una pérdida absoluta de sodio"
     },
     {
      "t": "Una pérdida absoluta de sodio corporal",
@@ -64,8 +65,9 @@
    "enunciado": "¿Cuál es la fórmula de osmolaridad plasmática de la clase?",
    "opciones": [
     {
-     "t": "2 × Na⁺ + glucosa/18 + urea/6 (normal 275 a 290 mOsm/kg)",
-     "por": "El sodio, la glucosa y la urea son los osmoles principales (lámina 36). El 2 multiplica al sodio porque cada Na⁺ arrastra un anión."
+     "t": "2 × Na⁺ + glucosa/18 + urea/6",
+     "por": "El sodio, la glucosa y la urea son los osmoles principales (lámina 36). El 2 multiplica al sodio porque cada Na⁺ arrastra un anión.",
+     "full": "2 × Na⁺ + glucosa/18 + urea/6 (normal 275 a 290 mOsm/kg)"
     },
     {
      "t": "Na⁺ + K⁺ + glucosa",
@@ -122,8 +124,9 @@
    "enunciado": "Según la osmolaridad, ¿cómo se clasifica una hiponatremia con osmolaridad menor de 275?",
    "opciones": [
     {
-     "t": "Hipoosmolar (verdadera): puede ser eu, hipo o hipervolémica",
-     "por": "Con menos de 275 mOsm/kg es una hiponatremia verdadera: sobra agua. Luego se clasifica por volumen en hipovolémica, euvolémica e hipervolémica."
+     "t": "Hipoosmolar (verdadera)",
+     "por": "Con menos de 275 mOsm/kg es una hiponatremia verdadera: sobra agua. Luego se clasifica por volumen en hipovolémica, euvolémica e hipervolémica.",
+     "full": "Hipoosmolar (verdadera): puede ser eu, hipo o hipervolémica"
     },
     {
      "t": "Isoosmolar",
@@ -359,8 +362,9 @@
    "enunciado": "¿Qué define a la hipernatremia?",
    "opciones": [
     {
-     "t": "Na⁺ mayor de 145 mEq/L; siempre refleja déficit relativo de agua",
-     "por": "Aunque el sodio sea alto, la causa de fondo es que falta agua en relación con el sodio total. Hay hipernatremia con pérdida de agua, o con exceso de sodio."
+     "t": "Na⁺ >145 mEq/L por falta de agua",
+     "por": "Aunque el sodio sea alto, la causa de fondo es que falta agua en relación con el sodio total. Hay hipernatremia con pérdida de agua, o con exceso de sodio.",
+     "full": "Na⁺ mayor de 145 mEq/L; siempre refleja déficit relativo de agua"
     },
     {
      "t": "Na⁺ mayor de 135",
@@ -387,8 +391,9 @@
    "enunciado": "Diabetes insípida central: ¿cuál es el mecanismo de hipernatremia?",
    "opciones": [
     {
-     "t": "Pérdida pura de agua por déficit de ADH (euvolémica)",
-     "por": "La ADH hace que el riñón retenga agua. Si falta, se pierde agua pura por la orina y el sodio sube. En la nefrogénica el riñón no responde a la ADH."
+     "t": "Pérdida pura de agua por falta de ADH",
+     "por": "La ADH hace que el riñón retenga agua. Si falta, se pierde agua pura por la orina y el sodio sube. En la nefrogénica el riñón no responde a la ADH.",
+     "full": "Pérdida pura de agua por déficit de ADH (euvolémica)"
     },
     {
      "t": "Pérdida de agua y sodio por diarrea",
@@ -415,8 +420,9 @@
    "enunciado": "¿Qué factor de riesgo es el más característico de hipernatremia hospitalaria?",
    "opciones": [
     {
-     "t": "Edad avanzada con sed disminuida y dificultad para acceder al agua",
-     "por": "Con la edad baja la sed y la función renal, y a veces el paciente no puede pedir agua. Otros riesgos: UCI, nutrición parenteral sin agua libre, litio."
+     "t": "Edad avanzada con sed disminuida",
+     "por": "Con la edad baja la sed y la función renal, y a veces el paciente no puede pedir agua. Otros riesgos: UCI, nutrición parenteral sin agua libre, litio.",
+     "full": "Edad avanzada con sed disminuida y dificultad para acceder al agua"
     },
     {
      "t": "Juventud",
@@ -505,8 +511,9 @@
    "enunciado": "Mujer de 63 años con cáncer de colon, Na⁺ de 134 que baja a 115 en 5 días con NaCl 0.9 % y NaCl 20 %. Está asintomática. ¿Cómo se clasifica?",
    "opciones": [
     {
-     "t": "Hiponatremia hipotónica, euvolémica, grave y crónica",
-     "por": "La osmolaridad es baja (hipotónica), el paciente no tiene signos de hipo ni hipervolemia (euvolémica), el sodio es menor de 125 (grave) y bajó en días (crónica), sin síntomas."
+     "t": "Hipotónica, euvolémica, grave y crónica",
+     "por": "La osmolaridad es baja (hipotónica), el paciente no tiene signos de hipo ni hipervolemia (euvolémica), el sodio es menor de 125 (grave) y bajó en días (crónica), sin síntomas.",
+     "full": "Hiponatremia hipotónica, euvolémica, grave y crónica"
     },
     {
      "t": "Hiponatremia hipertónica",

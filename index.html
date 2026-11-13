@@ -82,6 +82,7 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{outline:4px soli
 .opt{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;background:#fff;border:3px solid var(--ink);border-radius:12px;padding:10px 12px;box-shadow:4px 4px 0 var(--ink);font-weight:600}
 .opt:not([disabled]):hover{background:#fff6bd}
 .opt .k{font-family:var(--display);font-weight:800;font-size:15px;background:var(--ink);color:#fff;border-radius:7px;padding:1px 9px;flex:none}
+.fb .miss{margin:6px 0 8px}
 .opt .why{display:block;font-size:13.5px;margin-top:5px;font-weight:500}
 .opt.ok{background:#aef2cd}
 .opt.bad{background:#ffb8b0;animation:shake .35s}
@@ -297,7 +298,7 @@ function vSetup(){
    '</div></div>';
 }
 
-function buildOpts(q){ return shuffle(q.opciones.map((o, i) => ({t:o.t, por:o.por, ok:i === q.correcta}))); }
+function buildOpts(q){ return shuffle(q.opciones.map((o, i) => ({t:o.t, full:o.full, por:o.por, ok:i === q.correcta}))); }
 
 function vPlay(){
   const q = allQ().find(x => x.id === V.ids[V.i]); const a = areaOf(q.area);
@@ -306,13 +307,13 @@ function vPlay(){
   const opts = V.opts.map((o, i) => {
     let cls = '';
     if(V.answered){ cls = o.ok ? 'ok' : (i === V.picked ? 'bad' : 'dim'); }
-    return '<button class="opt '+cls+'" data-act="pick" data-i="'+i+'" '+(V.answered ? 'disabled' : '')+'><span class="k">'+letters[i]+'</span><span>'+esc(o.t)+(V.answered && o.por ? '<span class="why">'+esc(o.por)+'</span>' : '')+'</span></button>';
+    return '<button class="opt '+cls+'" data-act="pick" data-i="'+i+'" '+(V.answered ? 'disabled' : '')+'><span class="k">'+letters[i]+'</span><span>'+esc(V.answered && o.ok && o.full ? o.full : o.t)+(V.answered && o.por ? '<span class="why">'+esc(o.por)+'</span>' : '')+'</span></button>';
   }).join('');
   let fb = '';
   if(V.answered){
     const ok = V.opts[V.picked].ok;
     fb = '<div class="fb '+(ok ? 'ok' : 'bad')+'">'+catBox(ok ? 'ok' : 'bad', V.catMsg || '')+'<h3>'+(ok ? '¡CORRECTO! +'+V.lastXp+' XP' : 'FALLASTE')+'</h3>'+
-      '<p>'+nl(q.explicacion || '')+'</p>'+
+      (ok ? '' : '<p class="miss"><b>Dónde fallaste:</b> elegiste «'+esc(V.opts[V.picked].t)+'». '+esc(V.opts[V.picked].por || '')+'</p>')+'<p>'+nl(q.explicacion || '')+'</p>'+
       (q.nota ? '<p class="note"><b>Para tu práctica, no para el examen:</b> '+nl(q.nota)+'</p>' : '')+
       (q.guia ? '<details class="guia"><summary>Lo que dicen las guías</summary><p>'+nl(q.guia.t)+'</p><p class="gsrc">Guía: '+esc(q.guia.f)+'</p></details>' : '')+
       '<p class="src">Fuente: '+esc(q.fuente || 'sin fuente indicada')+'</p></div>'+

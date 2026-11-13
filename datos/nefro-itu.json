@@ -70,8 +70,9 @@
    "enunciado": "Una mujer tuvo 3 episodios de cistitis en el último año. Después de cada tratamiento el urocultivo salió negativo, y cada vez volvió a infectarse. ¿Cómo se clasifica?",
    "opciones": [
     {
-     "t": "ITU recurrente (cada episodio es una reinfección)",
-     "por": "Cumple 3 o más infecciones en un año. Como el cultivo quedó negativo entre episodios, cada nuevo cuadro es una reinfección (el germen se eliminó y luego volvió a entrar)."
+     "t": "ITU recurrente",
+     "por": "Cumple 3 o más infecciones en un año. Como el cultivo quedó negativo entre episodios, cada nuevo cuadro es una reinfección (el germen se eliminó y luego volvió a entrar).",
+     "full": "ITU recurrente (cada episodio es una reinfección)"
     },
     {
      "t": "ITU persistente",
@@ -159,8 +160,9 @@
    "enunciado": "¿Qué germen causa con mayor frecuencia las ITU, y qué debe guiar la elección del antibiótico según los datos peruanos de la clase?",
    "opciones": [
     {
-     "t": "Escherichia coli; el antibiograma local, porque hay alta resistencia a ciprofloxacino y cefalosporinas",
-     "por": "E. coli es el agente predominante. Como en Perú resiste mucho a ciprofloxacino y a cefalosporinas, el antibiótico debe elegirse según el antibiograma y la vigilancia local."
+     "t": "E. coli; antibiograma local por la resistencia",
+     "por": "E. coli es el agente predominante. Como en Perú resiste mucho a ciprofloxacino y a cefalosporinas, el antibiótico debe elegirse según el antibiograma y la vigilancia local.",
+     "full": "Escherichia coli; el antibiograma local, porque hay alta resistencia a ciprofloxacino y cefalosporinas"
     },
     {
      "t": "Staphylococcus aureus; la sensibilidad no importa",
@@ -245,8 +247,9 @@
    "enunciado": "En el examen físico de una paciente con ITU, ¿qué maniobra ayuda a sospechar pielonefritis?",
    "opciones": [
     {
-     "t": "Puño-percusión lumbar positiva (dolor al golpear suavemente el ángulo costovertebral)",
-     "por": "La lámina de examen físico incluye puño-percusión. Si duele en la fosa lumbar, orienta a compromiso del riñón."
+     "t": "Puño-percusión lumbar positiva",
+     "por": "La lámina de examen físico incluye puño-percusión. Si duele en la fosa lumbar, orienta a compromiso del riñón.",
+     "full": "Puño-percusión lumbar positiva (dolor al golpear suavemente el ángulo costovertebral)"
     },
     {
      "t": "Signo de Chvostek",
@@ -273,8 +276,9 @@
    "enunciado": "¿En qué se basa el diagnóstico de una ITU según las conclusiones de la clase?",
    "opciones": [
     {
-     "t": "En el examen clínico, el uroanálisis, el cultivo y las imágenes",
-     "por": "Los cuatro elementos se combinan; el cultivo y las imágenes se piden según cada caso."
+     "t": "Clínica, uroanálisis, cultivo e imágenes",
+     "por": "Los cuatro elementos se combinan; el cultivo y las imágenes se piden según cada caso.",
+     "full": "En el examen clínico, el uroanálisis, el cultivo y las imágenes"
     },
     {
      "t": "Solo en los síntomas",
@@ -334,8 +338,9 @@
    "enunciado": "Paciente con pielonefritis que tiene factores de riesgo de resistencia (por ejemplo, un germen productor de BLEE). ¿Qué esquema inicial propone la lámina de pielonefritis?",
    "opciones": [
     {
-     "t": "Un carbapenémico por vía intravenosa (imipenem, meropenem o doripenem)",
-     "por": "Cuando hay riesgo de BLEE se usa un antibiótico de amplio espectro con cobertura para esos gérmenes: carbapenémico (imipenem 500 mg c/6 h, meropenem 1 g c/8 h o doripenem 500 mg c/8 h)."
+     "t": "Carbapenémico IV (meropenem)",
+     "por": "Cuando hay riesgo de BLEE se usa un antibiótico de amplio espectro con cobertura para esos gérmenes: carbapenémico (imipenem 500 mg c/6 h, meropenem 1 g c/8 h o doripenem 500 mg c/8 h).",
+     "full": "Un carbapenémico por vía intravenosa (imipenem, meropenem o doripenem)"
     },
     {
      "t": "Ceftriaxona 1 g IV cada 24 h",

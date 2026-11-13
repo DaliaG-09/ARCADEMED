@@ -36,8 +36,9 @@
    "enunciado": "¿Cuál es una causa de gastritis aguda según la clase?",
    "opciones": [
     {
-     "t": "Uso de antiinflamatorios no esteroideos (AINE), alcohol o cáusticos",
-     "por": "La lámina menciona fármacos (sobre todo AINE), alcohol e ingesta de cáusticos."
+     "t": "AINE, alcohol o cáusticos",
+     "por": "La lámina menciona fármacos (sobre todo AINE), alcohol e ingesta de cáusticos.",
+     "full": "Uso de antiinflamatorios no esteroideos (AINE), alcohol o cáusticos"
     },
     {
      "t": "Déficit de ácido fólico",
@@ -64,8 +65,9 @@
    "enunciado": "Una paciente gran quemada desarrolla gastritis aguda ulcerada con sangrado. ¿Cómo se llaman estas úlceras por estrés según la lámina?",
    "opciones": [
     {
-     "t": "Úlceras de Curling (si es por quemaduras extensas)",
-     "por": "La lámina las asocia a quemaduras extensas; las de Cushing se ven en lesiones intracraneales."
+     "t": "Úlceras de Curling",
+     "por": "La lámina las asocia a quemaduras extensas; las de Cushing se ven en lesiones intracraneales.",
+     "full": "Úlceras de Curling (si es por quemaduras extensas)"
     },
     {
      "t": "Úlceras de Cushing",
@@ -121,8 +123,9 @@
    "enunciado": "¿Cómo progresa la gastritis crónica según la lámina?",
    "opciones": [
     {
-     "t": "Por etapas en años o décadas, hasta una gastritis atrófica con pérdida de glándulas",
-     "por": "Empieza en la infancia como inflamación superficial y avanza paso a paso."
+     "t": "Por etapas durante años, hasta atrofia glandular",
+     "por": "Empieza en la infancia como inflamación superficial y avanza paso a paso.",
+     "full": "Por etapas en años o décadas, hasta una gastritis atrófica con pérdida de glándulas"
     },
     {
      "t": "Aparece de golpe en adultos y se cura en semanas",
@@ -153,8 +156,9 @@
    "enunciado": "Según el esquema de la cascada de Correa, ¿qué secuencia lleva de la gastritis por H. pylori al cáncer?",
    "opciones": [
     {
-     "t": "Gastritis crónica no atrófica, gastritis atrófica, metaplasia intestinal, estómago hipo o aclorhídrico, displasia y cáncer",
-     "por": "Es el orden del diagrama de la lámina 19."
+     "t": "Gastritis no atrófica, atrófica, metaplasia, hipoclorhidria, displasia, cáncer",
+     "por": "Es el orden del diagrama de la lámina 19.",
+     "full": "Gastritis crónica no atrófica, gastritis atrófica, metaplasia intestinal, estómago hipo o aclorhídrico, displasia y cáncer"
     },
     {
      "t": "Metaplasia intestinal, gastritis atrófica, gastritis crónica y cáncer",
@@ -187,8 +191,9 @@
    "enunciado": "¿Qué gastritis crónica se llama tipo A y qué zona del estómago afecta?",
    "opciones": [
     {
-     "t": "La autoinmune; afecta cuerpo y fundo, con pérdida de células parietales y principales",
-     "por": "Es la forma autoinmune, que respeta el antro."
+     "t": "Autoinmune; cuerpo y fundo, con pérdida de células parietales",
+     "por": "Es la forma autoinmune, que respeta el antro.",
+     "full": "La autoinmune; afecta cuerpo y fundo, con pérdida de células parietales y principales"
     },
     {
      "t": "La infecciosa por H. pylori; afecta sobre todo el antro",
@@ -247,8 +252,9 @@
    "enunciado": "¿Qué hallazgos endoscópicos caracterizan la gastritis atrófica?",
    "opciones": [
     {
-     "t": "Mucosa pálida, pérdida de pliegues rugosos y vasos sanguíneos prominentes",
-     "por": "Al adelgazarse el epitelio, los vasos se ven a través de la mucosa."
+     "t": "Mucosa pálida, pliegues perdidos y vasos visibles",
+     "por": "Al adelgazarse el epitelio, los vasos se ven a través de la mucosa.",
+     "full": "Mucosa pálida, pérdida de pliegues rugosos y vasos sanguíneos prominentes"
     },
     {
      "t": "Mucosa enrojecida con múltiples erosiones y sangrado",
@@ -279,8 +285,9 @@
    "enunciado": "Mujer con gastritis crónica que presenta glositis, anorexia, diarrea y anemia megaloblástica. ¿A qué se asocia este cuadro?",
    "opciones": [
     {
-     "t": "A déficit de vitamina B12 por gastritis atrófica",
-     "por": "La pérdida de células parietales reduce el factor intrínseco y la absorción de B12."
+     "t": "Déficit de B12 por gastritis atrófica",
+     "por": "La pérdida de células parietales reduce el factor intrínseco y la absorción de B12.",
+     "full": "A déficit de vitamina B12 por gastritis atrófica"
     },
     {
      "t": "A una infección aguda por Giardia",
@@ -308,8 +315,9 @@
    "enunciado": "¿Cuál de estas pruebas permite diagnosticar la infección por H. pylori en la gastritis crónica según la clase?",
    "opciones": [
     {
-     "t": "Test de aliento, antígeno fecal o serología ELISA",
-     "por": "Son las tres pruebas no invasivas de la lámina, además de la endoscopía con biopsia dirigida."
+     "t": "Test de aliento, antígeno fecal o ELISA",
+     "por": "Son las tres pruebas no invasivas de la lámina, además de la endoscopía con biopsia dirigida.",
+     "full": "Test de aliento, antígeno fecal o serología ELISA"
     },
     {
      "t": "Colonoscopía con biopsia de colon",
@@ -368,8 +376,9 @@
    "enunciado": "Paciente con gastritis crónica por H. pylori y alergia a la penicilina. ¿Qué esquema propone la lámina?",
    "opciones": [
     {
-     "t": "IBP con metronidazol y tetraciclina, o levofloxacina con claritromicina",
-     "por": "Son las alternativas para alérgicos a la amoxicilina."
+     "t": "IBP con metronidazol y tetraciclina",
+     "por": "Son las alternativas para alérgicos a la amoxicilina.",
+     "full": "IBP con metronidazol y tetraciclina, o levofloxacina con claritromicina"
     },
     {
      "t": "IBP con amoxicilina y claritromicina",

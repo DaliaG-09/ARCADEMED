@@ -8,8 +8,9 @@
    "enunciado": "¿Qué es la nefropatía diabética?",
    "opciones": [
     {
-     "t": "Glomeruloesclerosis progresiva por los efectos crónicos de la hiperglucemia, con albuminuria persistente, HTA y caída del filtrado",
-     "por": "La hiperglucemia mantenida daña el glomérulo y lo esclerosa poco a poco. Se manifiesta con albuminuria persistente, hipertensión y caída del filtrado glomerular."
+     "t": "Glomeruloesclerosis por hiperglucemia crónica",
+     "por": "La hiperglucemia mantenida daña el glomérulo y lo esclerosa poco a poco. Se manifiesta con albuminuria persistente, hipertensión y caída del filtrado glomerular.",
+     "full": "Glomeruloesclerosis progresiva por los efectos crónicos de la hiperglucemia, con albuminuria persistente, HTA y caída del filtrado"
     },
     {
      "t": "Infección del riñón en diabéticos",
@@ -64,8 +65,9 @@
    "enunciado": "¿Cuál es un factor de riesgo de nefropatía diabética según la lámina?",
    "opciones": [
     {
-     "t": "Mal control glucémico sostenido (HbA1c elevada)",
-     "por": "La glucosa alta sostenida es el factor principal. Se suman hipertensión, dislipidemia, obesidad, tabaquismo y antecedentes familiares."
+     "t": "Mal control glucémico sostenido",
+     "por": "La glucosa alta sostenida es el factor principal. Se suman hipertensión, dislipidemia, obesidad, tabaquismo y antecedentes familiares.",
+     "full": "Mal control glucémico sostenido (HbA1c elevada)"
     },
     {
      "t": "Dieta baja en sal",
@@ -149,8 +151,9 @@
    "enunciado": "¿Cuándo suele aparecer la albuminuria en DM1 y en DM2?",
    "opciones": [
     {
-     "t": "En DM1 después de 5 años del diagnóstico; en DM2 puede estar desde el inicio",
-     "por": "Es lo que indica la lámina: en DM1 la albuminuria aparece tras unos 5 años; en DM2, como no se sabe cuándo empezó, puede estar desde el inicio."
+     "t": "DM1 tras 5 años; DM2 desde el inicio",
+     "por": "Es lo que indica la lámina: en DM1 la albuminuria aparece tras unos 5 años; en DM2, como no se sabe cuándo empezó, puede estar desde el inicio.",
+     "full": "En DM1 después de 5 años del diagnóstico; en DM2 puede estar desde el inicio"
     },
     {
      "t": "En DM1 desde el inicio",
@@ -178,7 +181,8 @@
    "opciones": [
     {
      "t": "Intermedia (nefropatía incipiente o establecida)",
-     "por": "Hay proteinuria mayor de 300 mg/día, edema e hipertensión; el filtrado cae poco a poco. Suele coexistir con retinopatía y neuropatía."
+     "por": "Hay proteinuria mayor de 300 mg/día, edema e hipertensión; el filtrado cae poco a poco. Suele coexistir con retinopatía y neuropatía.",
+     "full": "Intermedia (nefropatía incipiente o establecida)"
     },
     {
      "t": "Fase silente",
@@ -205,8 +209,9 @@
    "enunciado": "¿Cuál es hallazgo de la etapa avanzada (ERC 4 a 5)?",
    "opciones": [
     {
-     "t": "Síntomas urémicos, anemia normocítica, acidosis, hiperpotasemia y HTA resistente",
-     "por": "En esta etapa el riñón ya casi no funciona y se prepara la terapia de reemplazo (diálisis o trasplante)."
+     "t": "Síntomas urémicos, anemia y acidosis",
+     "por": "En esta etapa el riñón ya casi no funciona y se prepara la terapia de reemplazo (diálisis o trasplante).",
+     "full": "Síntomas urémicos, anemia normocítica, acidosis, hiperpotasemia y HTA resistente"
     },
     {
      "t": "Solo microalbuminuria",
@@ -233,8 +238,9 @@
    "enunciado": "Criterios diagnósticos de nefropatía diabética:",
    "opciones": [
     {
-     "t": "Albuminuria persistente >30 mg/g (2 de 3 muestras en 3 a 6 meses), diabetes >5 años, HTA y ausencia de otras causas",
-     "por": "Se necesita persistencia (2 de 3 muestras en 3 a 6 meses), tiempo de diabetes, hipertensión y descartar otras causas, para no etiquetar como diabética una nefropatía de otro origen."
+     "t": "Albuminuria >30 mg/g persistente con DM >5 años",
+     "por": "Se necesita persistencia (2 de 3 muestras en 3 a 6 meses), tiempo de diabetes, hipertensión y descartar otras causas, para no etiquetar como diabética una nefropatía de otro origen.",
+     "full": "Albuminuria persistente >30 mg/g (2 de 3 muestras en 3 a 6 meses), diabetes >5 años, HTA y ausencia de otras causas"
     },
     {
      "t": "Una tira reactiva positiva",
@@ -261,8 +267,9 @@
    "enunciado": "¿Cuándo se indica biopsia renal en un diabético?",
    "opciones": [
     {
-     "t": "Sedimento activo, hematuria, caída rápida de TFG, ausencia de retinopatía o duda diagnóstica",
-     "por": "Esos hallazgos sugieren otra enfermedad además de la diabetes. En ese caso la biopsia ayuda a distinguirla."
+     "t": "Sedimento activo o caída rápida de TFG",
+     "por": "Esos hallazgos sugieren otra enfermedad además de la diabetes. En ese caso la biopsia ayuda a distinguirla.",
+     "full": "Sedimento activo, hematuria, caída rápida de TFG, ausencia de retinopatía o duda diagnóstica"
     },
     {
      "t": "En todos los diabéticos",
@@ -354,8 +361,9 @@
    "enunciado": "Finerenona: ¿qué es?",
    "opciones": [
     {
-     "t": "Antagonista selectivo del receptor mineralocorticoide que reduce progresión renal y CV en DM2 con albuminuria",
-     "por": "La finerenona bloquea el receptor de mineralocorticoides (como la espironolactona pero selectiva) y reduce la progresión renal y cardiovascular en DM2 con albuminuria."
+     "t": "Antagonista del receptor mineralocorticoide",
+     "por": "La finerenona bloquea el receptor de mineralocorticoides (como la espironolactona pero selectiva) y reduce la progresión renal y cardiovascular en DM2 con albuminuria.",
+     "full": "Antagonista selectivo del receptor mineralocorticoide que reduce progresión renal y CV en DM2 con albuminuria"
     },
     {
      "t": "iSGLT2",
@@ -386,8 +394,9 @@
    "enunciado": "¿Cuándo derivar a Nefrología a un diabético?",
    "opciones": [
     {
-     "t": "TFG <30, albuminuria >500 a 1000 mg/g persistente, progresión rápida o duda diagnóstica",
-     "por": "Son los criterios de derivación: TFG baja, albuminuria muy alta o progresión rápida."
+     "t": "TFG <30 o progresión rápida",
+     "por": "Son los criterios de derivación: TFG baja, albuminuria muy alta o progresión rápida.",
+     "full": "TFG <30, albuminuria >500 a 1000 mg/g persistente, progresión rápida o duda diagnóstica"
     },
     {
      "t": "Solo si hay edema",

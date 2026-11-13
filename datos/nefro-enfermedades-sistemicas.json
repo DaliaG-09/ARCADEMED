@@ -8,8 +8,9 @@
    "enunciado": "¿Por qué el riñón se afecta con tanta frecuencia en las vasculitis sistémicas?",
    "opciones": [
     {
-     "t": "Porque tiene vasos de todos los tamaños (arterias, interlobulares, arcuatas, arteriolas y capilares glomerulares), y las vasculitis de pequeños vasos son las que más lo comprometen",
-     "por": "Las vasculitis son inflamación y necrosis de los vasos. Como el riñón es un órgano muy vascularizado, casi siempre hay un vaso del calibre que ataca cada vasculitis."
+     "t": "Porque tiene vasos de todos los calibres",
+     "por": "Las vasculitis son inflamación y necrosis de los vasos. Como el riñón es un órgano muy vascularizado, casi siempre hay un vaso del calibre que ataca cada vasculitis.",
+     "full": "Porque tiene vasos de todos los tamaños (arterias, interlobulares, arcuatas, arteriolas y capilares glomerulares), y las vasculitis de pequeños vasos son las que más lo comprometen"
     },
     {
      "t": "Porque el riñón no tiene vasos pequeños",
@@ -36,8 +37,9 @@
    "enunciado": "Según la clasificación de Chapel Hill de la clase, ¿qué vasculitis son 'asociadas a ANCA' de pequeños vasos?",
    "opciones": [
     {
-     "t": "Poliangeítis microscópica, granulomatosis con poliangeítis (Wegener) y síndrome de Churg-Strauss",
-     "por": "Son las tres de pequeños vasos con ANCA. Las de pequeños vasos por complejos inmunes son otro grupo."
+     "t": "Poliangeítis microscópica, GPA y Churg-Strauss",
+     "por": "Son las tres de pequeños vasos con ANCA. Las de pequeños vasos por complejos inmunes son otro grupo.",
+     "full": "Poliangeítis microscópica, granulomatosis con poliangeítis (Wegener) y síndrome de Churg-Strauss"
     },
     {
      "t": "Takayasu y arteritis de células gigantes",
@@ -65,8 +67,9 @@
    "enunciado": "¿Qué vasculitis se asocia con ANCA anti-PR3 en 80 a 90 % de los casos?",
    "opciones": [
     {
-     "t": "Granulomatosis de Wegener (granulomatosis con poliangeítis)",
-     "por": "Tiene la mayor positividad de ANCA (90 %), casi siempre anti-PR3."
+     "t": "Granulomatosis de Wegener (GPA)",
+     "por": "Tiene la mayor positividad de ANCA (90 %), casi siempre anti-PR3.",
+     "full": "Granulomatosis de Wegener (granulomatosis con poliangeítis)"
     },
     {
      "t": "Poliangeítis microscópica",
@@ -95,8 +98,9 @@
    "enunciado": "¿Cuál es el cuadro renal típico de las vasculitis?",
    "opciones": [
     {
-     "t": "Microhematuria, proteinuria no nefrótica, lesión renal rápidamente progresiva y presión arterial elevada",
-     "por": "Es un cuadro nefrítico, a menudo una glomerulonefritis rápidamente progresiva."
+     "t": "Microhematuria, proteinuria leve y lesión rápida",
+     "por": "Es un cuadro nefrítico, a menudo una glomerulonefritis rápidamente progresiva.",
+     "full": "Microhematuria, proteinuria no nefrótica, lesión renal rápidamente progresiva y presión arterial elevada"
     },
     {
      "t": "Anasarca con albúmina baja y proteinuria masiva",
@@ -123,8 +127,9 @@
    "enunciado": "Paciente con vasculitis y afectación renal. ¿Qué tratamiento de inducción propone la clase?",
    "opciones": [
     {
-     "t": "Glucocorticoides más ciclofosfamida (se puede sustituir por rituximab en casos graves); plasmaféresis si hay diálisis o enfermedad pulmonar",
-     "por": "El tratamiento inmunosupresor se indica en todos los casos porque ha reducido la mortalidad, y debe ser precoz, antes de que haya lesiones irreversibles."
+     "t": "Glucocorticoides más ciclofosfamida o rituximab",
+     "por": "El tratamiento inmunosupresor se indica en todos los casos porque ha reducido la mortalidad, y debe ser precoz, antes de que haya lesiones irreversibles.",
+     "full": "Glucocorticoides más ciclofosfamida (se puede sustituir por rituximab en casos graves); plasmaféresis si hay diálisis o enfermedad pulmonar"
     },
     {
      "t": "Solo IECA para bajar la presión",
@@ -152,8 +157,9 @@
    "enunciado": "Niño con púrpura palpable, artralgias, dolor abdominal y hematuria dos semanas después de una infección respiratoria alta. ¿Qué vasculitis es?",
    "opciones": [
     {
-     "t": "Púrpura de Schönlein-Henoch (vasculitis por IgA)",
-     "por": "Los complejos inmunes con IgA anormalmente glicosilada se depositan en los vasos pequeños y en el mesangio, y activan la vía alternativa del complemento."
+     "t": "Púrpura de Schönlein-Henoch",
+     "por": "Los complejos inmunes con IgA anormalmente glicosilada se depositan en los vasos pequeños y en el mesangio, y activan la vía alternativa del complemento.",
+     "full": "Púrpura de Schönlein-Henoch (vasculitis por IgA)"
     },
     {
      "t": "Granulomatosis de Wegener",
@@ -180,8 +186,9 @@
    "enunciado": "¿Qué tratamiento propone la clase para la nefritis de Henoch-Schönlein?",
    "opciones": [
     {
-     "t": "Medidas de soporte; si hay afectación renal, bolos de glucocorticoides, ciclofosfamida y plasmaféresis; IECA o ARA II si hay proteinuria persistente",
-     "por": "Las medidas de soporte son la base. La inmunosupresión se reserva para el riñón comprometido."
+     "t": "Soporte y glucocorticoides si hay compromiso renal",
+     "por": "Las medidas de soporte son la base. La inmunosupresión se reserva para el riñón comprometido.",
+     "full": "Medidas de soporte; si hay afectación renal, bolos de glucocorticoides, ciclofosfamida y plasmaféresis; IECA o ARA II si hay proteinuria persistente"
     },
     {
      "t": "Solo antibióticos",
@@ -240,8 +247,9 @@
    "enunciado": "¿Qué es la esclerodermia?",
    "opciones": [
     {
-     "t": "Una enfermedad del colágeno y vascular con proliferación excesiva de colágeno que afecta piel, tubo digestivo, riñón, pulmón y corazón",
-     "por": "En la piel hay Raynaud, edema de manos y pies, esclerodactilia y úlceras; en el tubo digestivo, pirosis y disfagia; también artralgias."
+     "t": "Colagenopatía vascular con exceso de colágeno en varios órganos",
+     "por": "En la piel hay Raynaud, edema de manos y pies, esclerodactilia y úlceras; en el tubo digestivo, pirosis y disfagia; también artralgias.",
+     "full": "Una enfermedad del colágeno y vascular con proliferación excesiva de colágeno que afecta piel, tubo digestivo, riñón, pulmón y corazón"
     },
     {
      "t": "Una vasculitis de grandes vasos",
@@ -269,8 +277,9 @@
    "enunciado": "¿Qué es la crisis renal esclerodérmica?",
    "opciones": [
     {
-     "t": "Complicación grave con hipertensión maligna, anemia hemolítica microangiopática, trombocitopenia e insuficiencia renal aguda",
-     "por": "Aparece unos 5 años después del diagnóstico, sobre todo con afectación cutánea difusa y anticuerpos anti-ARN polimerasa III. La afectación renal es indicador de mal pronóstico."
+     "t": "HTA maligna con hemólisis microangiopática e IRA",
+     "por": "Aparece unos 5 años después del diagnóstico, sobre todo con afectación cutánea difusa y anticuerpos anti-ARN polimerasa III. La afectación renal es indicador de mal pronóstico.",
+     "full": "Complicación grave con hipertensión maligna, anemia hemolítica microangiopática, trombocitopenia e insuficiencia renal aguda"
     },
     {
      "t": "Un síndrome nefrótico de evolución lenta",
@@ -326,8 +335,9 @@
    "enunciado": "En el mieloma múltiple, ¿cuál es la afectación renal más frecuente?",
    "opciones": [
     {
-     "t": "Riñón de mieloma: las cadenas ligeras precipitan en los túbulos y forman cilindros que los obstruyen y los lesionan",
-     "por": "Se manifiesta como insuficiencia renal aguda o crónica. La hipercalcemia (vasoconstricción renal) y la hiperuricemia agravan el daño."
+     "t": "Riñón de mieloma por cilindros de cadenas ligeras",
+     "por": "Se manifiesta como insuficiencia renal aguda o crónica. La hipercalcemia (vasoconstricción renal) y la hiperuricemia agravan el daño.",
+     "full": "Riñón de mieloma: las cadenas ligeras precipitan en los túbulos y forman cilindros que los obstruyen y los lesionan"
     },
     {
      "t": "Enfermedad de cambios mínimos",
@@ -354,8 +364,9 @@
    "enunciado": "¿Qué estudios apoyan el diagnóstico de mieloma múltiple?",
    "opciones": [
     {
-     "t": "Inmunoelectroforesis en sangre u orina, proteinuria de Bence Jones y aspirado de médula ósea con más de 10 % de células plasmáticas",
-     "por": "Detectan el exceso de cadenas ligeras y confirman la proliferación plasmática."
+     "t": "Inmunoelectroforesis y médula con >10 % plasmocitos",
+     "por": "Detectan el exceso de cadenas ligeras y confirman la proliferación plasmática.",
+     "full": "Inmunoelectroforesis en sangre u orina, proteinuria de Bence Jones y aspirado de médula ósea con más de 10 % de células plasmáticas"
     },
     {
      "t": "Solo creatinina sérica",
@@ -383,8 +394,9 @@
    "enunciado": "¿Qué cadena depositan la amiloidosis primaria y la enfermedad de depósito de cadenas ligeras?",
    "opciones": [
     {
-     "t": "Amiloidosis primaria: cadena lambda. Depósito de cadenas ligeras: cadena kappa",
-     "por": "Así lo indica la lámina 22."
+     "t": "Primaria: lambda; depósito de cadenas ligeras: kappa",
+     "por": "Así lo indica la lámina 22.",
+     "full": "Amiloidosis primaria: cadena lambda. Depósito de cadenas ligeras: cadena kappa"
     },
     {
      "t": "Ambas depositan cadena lambda",
@@ -412,8 +424,9 @@
    "enunciado": "¿En qué se diferencia la enfermedad de depósito de cadenas ligeras de la amiloidosis primaria?",
    "opciones": [
     {
-     "t": "Los depósitos son granulares, no fibrilares; se ubican más en la membrana basal y cápsula de Bowman; hay falla renal con proteinuria no nefrótica",
-     "por": "En amiloidosis los depósitos son fibrilares y dan proteinuria nefrótica."
+     "t": "Depósitos granulares, no fibrilares",
+     "por": "En amiloidosis los depósitos son fibrilares y dan proteinuria nefrótica.",
+     "full": "Los depósitos son granulares, no fibrilares; se ubican más en la membrana basal y cápsula de Bowman; hay falla renal con proteinuria no nefrótica"
     },
     {
      "t": "Los depósitos son fibrilares",
@@ -469,8 +482,9 @@
    "enunciado": "Según los criterios SLICC 2012 de la clase, ¿cuándo se clasifica a un paciente como portador de lupus?",
    "opciones": [
     {
-     "t": "Nefritis lúpica comprobada por biopsia con ANA o anti-DNA positivos, o 4 o más criterios con al menos uno clínico y uno inmunológico",
-     "por": "Es la forma de la tabla 3. Entre los criterios clínicos están el lupus cutáneo, las úlceras orales, la alopecia, la sinovitis, la serositis, el criterio renal y la anemia hemolítica; entre los inmunológicos, ANA, anti-DNA, anti-Sm, antifosfolípidos, hipocomplementemia y Coombs directo positivo."
+     "t": "Biopsia lúpica con ANA o anti-DNA, o 4 criterios",
+     "por": "Es la forma de la tabla 3. Entre los criterios clínicos están el lupus cutáneo, las úlceras orales, la alopecia, la sinovitis, la serositis, el criterio renal y la anemia hemolítica; entre los inmunológicos, ANA, anti-DNA, anti-Sm, antifosfolípidos, hipocomplementemia y Coombs directo positivo.",
+     "full": "Nefritis lúpica comprobada por biopsia con ANA o anti-DNA positivos, o 4 o más criterios con al menos uno clínico y uno inmunológico"
     },
     {
      "t": "Solo anti-DNA positivo",
@@ -498,8 +512,9 @@
    "enunciado": "¿Qué lesiones renales se asocian a la artritis reumatoide según la clase?",
    "opciones": [
     {
-     "t": "Glomerulonefritis membranosa, amiloidosis secundaria y GN proliferativa mesangial (a veces con IgA); además vasculitis reumatoide y nefropatía por analgésicos",
-     "por": "La artritis reumatoide es una poliartritis crónica simétrica de articulaciones periféricas. Su tratamiento usa metotrexato y terapias biológicas, como anti-TNF."
+     "t": "GN membranosa y amiloidosis secundaria",
+     "por": "La artritis reumatoide es una poliartritis crónica simétrica de articulaciones periféricas. Su tratamiento usa metotrexato y terapias biológicas, como anti-TNF.",
+     "full": "Glomerulonefritis membranosa, amiloidosis secundaria y GN proliferativa mesangial (a veces con IgA); además vasculitis reumatoide y nefropatía por analgésicos"
     },
     {
      "t": "Solo cambios mínimos",
@@ -527,8 +542,9 @@
    "enunciado": "¿Qué afectación renal se asocia a la hepatitis C y a la hepatitis B según la clase?",
    "opciones": [
     {
-     "t": "Hepatitis C: crioglobulinemia, GN membranoproliferativa y/o membranosa. Hepatitis B: GN postinfecciosa",
-     "por": "La prevalencia exacta de GN por VHC se desconoce. El VIH produce nefropatía colapsante."
+     "t": "VHC: crioglobulinemia y GNMP; VHB: GN postinfecciosa",
+     "por": "La prevalencia exacta de GN por VHC se desconoce. El VIH produce nefropatía colapsante.",
+     "full": "Hepatitis C: crioglobulinemia, GN membranoproliferativa y/o membranosa. Hepatitis B: GN postinfecciosa"
     },
     {
      "t": "Hepatitis C: GN postestreptocócica",
@@ -555,8 +571,9 @@
    "enunciado": "¿Qué metas generales plantea la clase para las enfermedades sistémicas con afectación renal?",
    "opciones": [
     {
-     "t": "PA <130/80, reducir la proteinuria con IECA o ARA II (meta <300 mg/día), LDL <100 mg/dL y HDL >40 mg/dL",
-     "por": "Es el control del riesgo cardiovascular."
+     "t": "PA <130/80 y proteinuria <300 mg/día",
+     "por": "Es el control del riesgo cardiovascular.",
+     "full": "PA <130/80, reducir la proteinuria con IECA o ARA II (meta <300 mg/día), LDL <100 mg/dL y HDL >40 mg/dL"
     },
     {
      "t": "PA <160/100",
@@ -613,8 +630,9 @@
    "enunciado": "Mujer de 68 años con otitis crónica e hipoacusia, 3 semanas de cansancio y malestar, creatinina 2 mg/dL y anemia. ¿Por qué sospechar vasculitis y qué tratamiento propones?",
    "opciones": [
     {
-     "t": "Afectación crónica de oído más deterioro renal y anemia sugiere vasculitis ANCA (por ejemplo granulomatosis con poliangeítis). Glucocorticoides más ciclofosfamida o rituximab",
-     "por": "La vasculitis afecta vías respiratorias altas, oído y riñón. El tratamiento debe empezar pronto."
+     "t": "Vasculitis ANCA; glucocorticoides más ciclofosfamida o rituximab",
+     "por": "La vasculitis afecta vías respiratorias altas, oído y riñón. El tratamiento debe empezar pronto.",
+     "full": "Afectación crónica de oído más deterioro renal y anemia sugiere vasculitis ANCA (por ejemplo granulomatosis con poliangeítis). Glucocorticoides más ciclofosfamida o rituximab"
     },
     {
      "t": "Infección urinaria; tratamiento con antibiótico",

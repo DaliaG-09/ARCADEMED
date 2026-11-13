@@ -8,8 +8,9 @@
    "enunciado": "¿Cómo se define la cirrosis hepática?",
    "opciones": [
     {
-     "t": "Enfermedad crónica y difusa con fibrosis, nódulos de regeneración y trastorno de la arquitectura hepática y de la circulación intrahepática",
-     "por": "Es la definición de la lámina: la fibrosis es por acúmulo de colágeno en la matriz extracelular."
+     "t": "Fibrosis difusa con nódulos y arquitectura hepática alterada",
+     "por": "Es la definición de la lámina: la fibrosis es por acúmulo de colágeno en la matriz extracelular.",
+     "full": "Enfermedad crónica y difusa con fibrosis, nódulos de regeneración y trastorno de la arquitectura hepática y de la circulación intrahepática"
     },
     {
      "t": "Inflamación aguda y reversible del hígado por un virus",
@@ -92,8 +93,9 @@
    "enunciado": "¿Qué signos del examen físico sugieren ascitis?",
    "opciones": [
     {
-     "t": "Matidez cambiante y en flancos, timpanismo central, signo de la oleada y 'vientre en batracio'",
-     "por": "Son los signos descritos en la lámina del examen físico."
+     "t": "Matidez en flancos y signo de la oleada",
+     "por": "Son los signos descritos en la lámina del examen físico.",
+     "full": "Matidez cambiante y en flancos, timpanismo central, signo de la oleada y 'vientre en batracio'"
     },
     {
      "t": "Timpanismo en los flancos y matidez central",
@@ -120,8 +122,9 @@
    "enunciado": "¿Qué alteraciones de laboratorio son típicas de la cirrosis?",
    "opciones": [
     {
-     "t": "Citopenias, coagulopatía e hipergammaglobulinemia, con albúmina baja y bilirrubina alta",
-     "por": "Reflejan el hiperesplenismo, la falla de síntesis y la estimulación inmune."
+     "t": "Citopenias y coagulopatía",
+     "por": "Reflejan el hiperesplenismo, la falla de síntesis y la estimulación inmune.",
+     "full": "Citopenias, coagulopatía e hipergammaglobulinemia, con albúmina baja y bilirrubina alta"
     },
     {
      "t": "Policitemia y albúmina alta",
@@ -209,8 +212,9 @@
    "enunciado": "¿Qué consecuencia o complicación hace pasar una cirrosis de 'compensada' a 'descompensada'?",
    "opciones": [
     {
-     "t": "Hemorragia por várices, ascitis, encefalopatía o ictericia",
-     "por": "Son los eventos que marcan la descompensación; luego puede aparecer síndrome hepatorrenal, ascitis refractaria o PBE."
+     "t": "Várices sangrantes, ascitis, encefalopatía o ictericia",
+     "por": "Son los eventos que marcan la descompensación; luego puede aparecer síndrome hepatorrenal, ascitis refractaria o PBE.",
+     "full": "Hemorragia por várices, ascitis, encefalopatía o ictericia"
     },
     {
      "t": "Solo la presencia de arañas vasculares",
@@ -241,8 +245,9 @@
    "enunciado": "¿Qué medida general indica la lámina para el paciente con cirrosis?",
    "opciones": [
     {
-     "t": "Tratar la causa, no beber alcohol, vacunar contra hepatitis y evitar AINE, sedantes y hepatotóxicos",
-     "por": "Además de tratar bien las descompensaciones y considerar el trasplante."
+     "t": "Tratar la causa, evitar alcohol, AINE y sedantes, y vacunar",
+     "por": "Además de tratar bien las descompensaciones y considerar el trasplante.",
+     "full": "Tratar la causa, no beber alcohol, vacunar contra hepatitis y evitar AINE, sedantes y hepatotóxicos"
     },
     {
      "t": "Usar AINE para el dolor abdominal",
@@ -270,8 +275,9 @@
    "enunciado": "¿Cómo se origina la hipertensión portal en la cirrosis?",
    "opciones": [
     {
-     "t": "La fibrosis aumenta la resistencia al flujo de sangre en el hígado y eleva la presión en la vena porta",
-     "por": "Luego se forman vasos colaterales que empeoran el síndrome hiperdinámico."
+     "t": "La fibrosis eleva la resistencia al flujo y la presión portal",
+     "por": "Luego se forman vasos colaterales que empeoran el síndrome hiperdinámico.",
+     "full": "La fibrosis aumenta la resistencia al flujo de sangre en el hígado y eleva la presión en la vena porta"
     },
     {
      "t": "Por una disminución del flujo sanguíneo esplácnico",
@@ -331,8 +337,9 @@
    "enunciado": "¿Cuál de estos se asocia a mayor riesgo de resangrado temprano de várices?",
    "opciones": [
     {
-     "t": "Sangrado de várices gástricas, sangrado activo, albúmina baja, insuficiencia renal o HVPG mayor de 20",
-     "por": "Son los factores que menciona la lámina."
+     "t": "Várices gástricas o sangrado activo",
+     "por": "Son los factores que menciona la lámina.",
+     "full": "Sangrado de várices gástricas, sangrado activo, albúmina baja, insuficiencia renal o HVPG mayor de 20"
     },
     {
      "t": "Edad menor de 40 años",
@@ -363,8 +370,9 @@
    "enunciado": "Paciente cirrótico con hemorragia por várices y hemodinámicamente estable. ¿Qué indica el algoritmo?",
    "opciones": [
     {
-     "t": "Reanimación cuidadosa (Hb de 7 a 8 g/dl), antibiótico profiláctico y vasoactivos, y endoscopía en 12 horas con ligadura de várices como primera opción",
-     "por": "Si no se controla (hemorragia refractaria): balón, TIPS o BRTO. Después, profilaxis secundaria con betabloqueador no selectivo ± ligadura."
+     "t": "Reanimar (Hb 7 a 8), antibiótico, vasoactivos y endoscopía en 12 h",
+     "por": "Si no se controla (hemorragia refractaria): balón, TIPS o BRTO. Después, profilaxis secundaria con betabloqueador no selectivo ± ligadura.",
+     "full": "Reanimación cuidadosa (Hb de 7 a 8 g/dl), antibiótico profiláctico y vasoactivos, y endoscopía en 12 horas con ligadura de várices como primera opción"
     },
     {
      "t": "Transfundir hasta una hemoglobina de 12 g/dl",
@@ -396,8 +404,9 @@
    "enunciado": "¿Qué es el TIPS y cuál es su principal complicación?",
    "opciones": [
     {
-     "t": "Una derivación portosistémica intrahepática transyugular que comunica la porta con una vena hepática; puede causar encefalopatía",
-     "por": "Controla la hemorragia en 95 %, con resangrado de 18 % y mortalidad de 38 %."
+     "t": "Derivación portosistémica; riesgo de encefalopatía",
+     "por": "Controla la hemorragia en 95 %, con resangrado de 18 % y mortalidad de 38 %.",
+     "full": "Una derivación portosistémica intrahepática transyugular que comunica la porta con una vena hepática; puede causar encefalopatía"
     },
     {
      "t": "Una cirugía que extirpa el bazo",
@@ -428,8 +437,9 @@
    "enunciado": "Mujer de 56 años con hematemesis, ictericia, somnolencia, bradipsiquia, abdomen distendido con matidez desplazable y signos de peritonismo. ¿Cuál es el planteamiento más probable?",
    "opciones": [
     {
-     "t": "Cirrosis descompensada con hemorragia digestiva por várices, encefalopatía hepática y ascitis, con posible peritonitis bacteriana espontánea",
-     "por": "Hematemesis más ictericia, ascitis y alteración del sensorio apuntan a cirrosis descompensada."
+     "t": "Cirrosis descompensada con várices y encefalopatía",
+     "por": "Hematemesis más ictericia, ascitis y alteración del sensorio apuntan a cirrosis descompensada.",
+     "full": "Cirrosis descompensada con hemorragia digestiva por várices, encefalopatía hepática y ascitis, con posible peritonitis bacteriana espontánea"
     },
     {
      "t": "Gastritis aguda por AINE sin hepatopatía",

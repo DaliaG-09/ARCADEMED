@@ -8,8 +8,9 @@
    "enunciado": "¿Qué estructuras puede comprometer la tuberculosis abdominal?",
    "opciones": [
     {
-     "t": "Intestino delgado, peritoneo, mesenterio, hígado, bazo, ganglios linfáticos y páncreas",
-     "por": "La TBC abdominal compromete el tubo digestivo y los órganos y estructuras vecinas. A veces se necesitan métodos invasivos para llegar a un diagnóstico preciso y tratar a tiempo."
+     "t": "Intestino, peritoneo, ganglios e hígado",
+     "por": "La TBC abdominal compromete el tubo digestivo y los órganos y estructuras vecinas. A veces se necesitan métodos invasivos para llegar a un diagnóstico preciso y tratar a tiempo.",
+     "full": "Intestino delgado, peritoneo, mesenterio, hígado, bazo, ganglios linfáticos y páncreas"
     },
     {
      "t": "Solo el pulmón",
@@ -36,8 +37,9 @@
    "enunciado": "¿Qué se afirma en la clase sobre la tuberculosis en la población con VIH?",
    "opciones": [
     {
-     "t": "Es la principal causa de muerte de las personas con serología positiva al VIH",
-     "por": "En 2017 hubo 10 millones de casos de TBC y 1,6 millones de muertes. En el VIH aumenta la proporción de formas extrapulmonares."
+     "t": "Principal causa de muerte en personas con VIH",
+     "por": "En 2017 hubo 10 millones de casos de TBC y 1,6 millones de muertes. En el VIH aumenta la proporción de formas extrapulmonares.",
+     "full": "Es la principal causa de muerte de las personas con serología positiva al VIH"
     },
     {
      "t": "Es rara en los pacientes con VIH",
@@ -93,8 +95,9 @@
    "enunciado": "¿Por qué la tuberculosis abdominal compromete sobre todo la región ileocecal y el peritoneo?",
    "opciones": [
     {
-     "t": "Por el linfotrofismo del bacilo y la gran cantidad de tejido linfoide ileocecal, con estasis luminal y poca actividad digestiva",
-     "por": "El bacilo se dirige al tejido linfoide. Allí el tránsito es lento, lo que favorece su permanencia."
+     "t": "Linfotrofismo del bacilo, tejido linfoide ileocecal y estasis",
+     "por": "El bacilo se dirige al tejido linfoide. Allí el tránsito es lento, lo que favorece su permanencia.",
+     "full": "Por el linfotrofismo del bacilo y la gran cantidad de tejido linfoide ileocecal, con estasis luminal y poca actividad digestiva"
     },
     {
      "t": "Porque allí el pH es muy ácido",
@@ -121,8 +124,9 @@
    "enunciado": "En la biopsia intestinal de un paciente con sospecha de TBC abdominal, ¿qué hallazgo es el típico y con qué enfermedad puede confundirse?",
    "opciones": [
     {
-     "t": "Granulomas caseosos y no caseosos submucosos; puede simular enfermedad de Crohn",
-     "por": "Hay inflamación celular e hiperplasia linfática. Las ulceraciones se deben a endoarteritis de vasos submucosos."
+     "t": "Granulomas submucosos caseosos y no caseosos; simula Crohn",
+     "por": "Hay inflamación celular e hiperplasia linfática. Las ulceraciones se deben a endoarteritis de vasos submucosos.",
+     "full": "Granulomas caseosos y no caseosos submucosos; puede simular enfermedad de Crohn"
     },
     {
      "t": "Abscesos crípticos con atrofia de vellosidades",
@@ -149,8 +153,9 @@
    "enunciado": "¿Cuál es la forma más frecuente de tuberculosis intestinal?",
    "opciones": [
     {
-     "t": "La ulcerativa (60 %), con lesiones superficiales de la mucosa y alta mortalidad",
-     "por": "Es considerada un proceso virulento."
+     "t": "La ulcerativa (60 %), con lesiones superficiales",
+     "por": "Es considerada un proceso virulento.",
+     "full": "La ulcerativa (60 %), con lesiones superficiales de la mucosa y alta mortalidad"
     },
     {
      "t": "La hipertrófica (10 %)",
@@ -177,8 +182,9 @@
    "enunciado": "¿Cómo se presenta la tuberculosis entero-peritoneal?",
    "opciones": [
     {
-     "t": "Fiebre, astenia, diaforesis nocturna, dolor abdominal (80 %), diarrea crónica, pérdida de peso y ascitis; en la ileocecal, masa en fosa ilíaca derecha",
-     "por": "La evolución es de 1 a 6 meses; en 20 % debuta con una complicación (ascitis, obstrucción intestinal, peritonismo)."
+     "t": "Fiebre, sudoración nocturna, pérdida de peso y ascitis",
+     "por": "La evolución es de 1 a 6 meses; en 20 % debuta con una complicación (ascitis, obstrucción intestinal, peritonismo).",
+     "full": "Fiebre, astenia, diaforesis nocturna, dolor abdominal (80 %), diarrea crónica, pérdida de peso y ascitis; en la ileocecal, masa en fosa ilíaca derecha"
     },
     {
      "t": "Hematemesis con melena",
@@ -263,8 +269,9 @@
    "enunciado": "¿Qué procedimientos se emplean para llegar al diagnóstico de TBC abdominal?",
    "opciones": [
     {
-     "t": "Colonoscopia con ileoscopia terminal y biopsias; laparoscopia para TBC peritoneal y hepática",
-     "por": "La colonoscopia evalúa las lesiones y toma muestras. El hallazgo de BAAR y cultivos ayuda en 40 a 60 %."
+     "t": "Colonoscopia con biopsia o laparoscopia",
+     "por": "La colonoscopia evalúa las lesiones y toma muestras. El hallazgo de BAAR y cultivos ayuda en 40 a 60 %.",
+     "full": "Colonoscopia con ileoscopia terminal y biopsias; laparoscopia para TBC peritoneal y hepática"
     },
     {
      "t": "Solo endoscopia alta",
@@ -291,8 +298,9 @@
    "enunciado": "¿Cuál es el esquema de tratamiento para tuberculosis abdominal que propone la clase?",
    "opciones": [
     {
-     "t": "9 meses: 2 meses con isoniacida, rifampicina, etambutol y pirazinamida, y luego 7 meses con isoniacida y rifampicina",
-     "por": "El 90 % de los pacientes responde al tratamiento médico."
+     "t": "9 meses: 2 con HRZE y 7 con isoniacida y rifampicina",
+     "por": "El 90 % de los pacientes responde al tratamiento médico.",
+     "full": "9 meses: 2 meses con isoniacida, rifampicina, etambutol y pirazinamida, y luego 7 meses con isoniacida y rifampicina"
     },
     {
      "t": "Solo 2 semanas de antibióticos de amplio espectro",
@@ -324,8 +332,9 @@
    "enunciado": "Un varón de 28 años con conducta sexual de riesgo, un mes de dolor abdominal difuso, pérdida de 5 kg, fiebre ocasional y diarrea con moco, que trabaja en hacinamiento. ¿Qué diagnóstico se debe sospechar?",
    "opciones": [
     {
-     "t": "Tuberculosis abdominal, con descarte de infección por VIH",
-     "por": "La evolución de un mes con síntomas generales y el hacinamiento hacen pensar en TBC. La conducta sexual de riesgo obliga a descartar VIH, que aumenta las formas extrapulmonares."
+     "t": "Tuberculosis abdominal; descartar VIH",
+     "por": "La evolución de un mes con síntomas generales y el hacinamiento hacen pensar en TBC. La conducta sexual de riesgo obliga a descartar VIH, que aumenta las formas extrapulmonares.",
+     "full": "Tuberculosis abdominal, con descarte de infección por VIH"
     },
     {
      "t": "Gastroenteritis aguda viral",

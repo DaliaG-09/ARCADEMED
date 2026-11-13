@@ -8,8 +8,9 @@
    "enunciado": "¿Cómo se explica el daño del hígado en las hepatitis virales?",
    "opciones": [
     {
-     "t": "El virus no es citopático: el sistema inmune destruye los hepatocitos infectados para erradicarlo",
-     "por": "Es la idea central de la lámina de definición: la lesión es inmunomediada."
+     "t": "El virus no es citopático; el sistema inmune destruye hepatocitos",
+     "por": "Es la idea central de la lámina de definición: la lesión es inmunomediada.",
+     "full": "El virus no es citopático: el sistema inmune destruye los hepatocitos infectados para erradicarlo"
     },
     {
      "t": "El virus destruye directamente los hepatocitos al replicarse",
@@ -65,8 +66,9 @@
    "enunciado": "¿Qué virus es el de la hepatitis A?",
    "opciones": [
     {
-     "t": "Un virus ARN de cadena simple, de la familia Picornaviridae",
-     "por": "El daño lo producen las células T citotóxicas y las NK, no el virus."
+     "t": "Virus ARN de cadena simple, Picornaviridae",
+     "por": "El daño lo producen las células T citotóxicas y las NK, no el virus.",
+     "full": "Un virus ARN de cadena simple, de la familia Picornaviridae"
     },
     {
      "t": "Un virus ADN de la familia Hepadnaviridae",
@@ -93,8 +95,9 @@
    "enunciado": "¿Cuál es el orden de la historia natural de la hepatitis A?",
    "opciones": [
     {
-     "t": "Incubación, periodo prodrómico, periodo de estado (ictérico) y convalecencia",
-     "por": "Duran respectivamente 2 a 6 semanas, 2 a 3 días, 3 a 6 semanas y hasta 3 a 6 meses."
+     "t": "Incubación, pródromo, ictérico y convalecencia",
+     "por": "Duran respectivamente 2 a 6 semanas, 2 a 3 días, 3 a 6 semanas y hasta 3 a 6 meses.",
+     "full": "Incubación, periodo prodrómico, periodo de estado (ictérico) y convalecencia"
     },
     {
      "t": "Prodrómico, incubación, convalecencia y estado",
@@ -149,8 +152,9 @@
    "enunciado": "¿Cuál es el tratamiento de la hepatitis A aguda?",
    "opciones": [
     {
-     "t": "Medidas de soporte: hidratación, nutrición, evitar alcohol y hepatotóxicos, y vigilar la evolución a fulminante",
-     "por": "No hay antiviral; ningún suplemento ha demostrado mejoría."
+     "t": "Soporte e hidratación",
+     "por": "No hay antiviral; ningún suplemento ha demostrado mejoría.",
+     "full": "Medidas de soporte: hidratación, nutrición, evitar alcohol y hepatotóxicos, y vigilar la evolución a fulminante"
     },
     {
      "t": "Interferón pegilado por 12 meses",
@@ -177,8 +181,9 @@
    "enunciado": "¿Qué se sabe del virus de la hepatitis B (VHB)?",
    "opciones": [
     {
-     "t": "Es un virus ADN de la familia Hepadnaviridae; el gen X participa en la carcinogénesis hepática",
-     "por": "Tiene cuatro genes: core, superficie, X y polimerasa."
+     "t": "Virus ADN Hepadnaviridae; el gen X participa en el cáncer",
+     "por": "Tiene cuatro genes: core, superficie, X y polimerasa.",
+     "full": "Es un virus ADN de la familia Hepadnaviridae; el gen X participa en la carcinogénesis hepática"
     },
     {
      "t": "Es un virus ARN de cadena simple",
@@ -233,8 +238,9 @@
    "enunciado": "¿Qué indica el HBeAg en la hepatitis B?",
    "opciones": [
     {
-     "t": "Replicación viral, en infectados con cepa salvaje",
-     "por": "Indica alta replicación e infectividad."
+     "t": "Replicación viral en cepa salvaje",
+     "por": "Indica alta replicación e infectividad.",
+     "full": "Replicación viral, en infectados con cepa salvaje"
     },
     {
      "t": "Inmunidad por vacunación",
@@ -320,8 +326,9 @@
    "enunciado": "¿Qué es el 'periodo ventana' de la hepatitis B y cómo se diagnostica?",
    "opciones": [
     {
-     "t": "Un periodo en que el HBsAg ya no se detecta aunque hay infección aguda; se diagnostica con IgM anti-HBc",
-     "por": "Es el marcador que llena el vacío entre la desaparición del HBsAg y la aparición del anti-HBs."
+     "t": "HBsAg ya negativo con infección aguda; dx con IgM anti-HBc",
+     "por": "Es el marcador que llena el vacío entre la desaparición del HBsAg y la aparición del anti-HBs.",
+     "full": "Un periodo en que el HBsAg ya no se detecta aunque hay infección aguda; se diagnostica con IgM anti-HBc"
     },
     {
      "t": "Un periodo en que no se detecta ningún marcador y se espera 1 año",
@@ -376,8 +383,9 @@
    "enunciado": "En la hepatitis B crónica, ¿qué caracteriza a la fase inmunotolerante?",
    "opciones": [
     {
-     "t": "Se da en infección perinatal, con inflamación hepática mínima, ALT normal y ADN del VHB alto",
-     "por": "Puede durar desde 1 año hasta décadas."
+     "t": "Infección perinatal con ALT normal y ADN del VHB alto",
+     "por": "Puede durar desde 1 año hasta décadas.",
+     "full": "Se da en infección perinatal, con inflamación hepática mínima, ALT normal y ADN del VHB alto"
     },
     {
      "t": "ALT muy alta con inflamación activa y daño hepático",
@@ -408,8 +416,9 @@
    "enunciado": "¿Cuál es una indicación de tratamiento de la hepatitis B según la lámina?",
    "opciones": [
     {
-     "t": "ADN del VHB mayor de 20 000 UI/ml, con transaminasas elevadas o hepatitis crónica en la biopsia",
-     "por": "La lámina menciona estos tres criterios, con HBeAg positivo o negativo."
+     "t": "ADN VHB >20 000 UI/ml con transaminasas altas o biopsia activa",
+     "por": "La lámina menciona estos tres criterios, con HBeAg positivo o negativo.",
+     "full": "ADN del VHB mayor de 20 000 UI/ml, con transaminasas elevadas o hepatitis crónica en la biopsia"
     },
     {
      "t": "Transaminasas normales y ADN indetectable",
@@ -441,8 +450,9 @@
    "enunciado": "¿Qué ventaja tiene el tenofovir alafenamida (TAF) sobre el tenofovir disoproxil fumarato (TDF)?",
    "opciones": [
     {
-     "t": "Logra eficacia antiviral con una dosis menor y menor toxicidad renal y ósea",
-     "por": "El nivel plasmático de TAF es 91 % menor que el de TDF."
+     "t": "Menos toxicidad renal y ósea",
+     "por": "El nivel plasmático de TAF es 91 % menor que el de TDF.",
+     "full": "Logra eficacia antiviral con una dosis menor y menor toxicidad renal y ósea"
     },
     {
      "t": "Se administra una vez por semana",
@@ -473,8 +483,9 @@
    "enunciado": "¿A quién se indica la inmunoglobulina contra hepatitis B (inmunoprofilaxis pasiva)?",
    "opciones": [
     {
-     "t": "Al recién nacido de madre HBsAg positiva, tras un pinchazo con aguja o exposición sexual, y en trasplante hepático en HBsAg positivos",
-     "por": "Se da junto con la vacuna (inmunización activa), idealmente antes de las 48 horas y no más allá de 7 días."
+     "t": "Recién nacido de madre HBsAg positiva",
+     "por": "Se da junto con la vacuna (inmunización activa), idealmente antes de las 48 horas y no más allá de 7 días.",
+     "full": "Al recién nacido de madre HBsAg positiva, tras un pinchazo con aguja o exposición sexual, y en trasplante hepático en HBsAg positivos"
     },
     {
      "t": "A todo adulto sano como prevención anual",
@@ -530,8 +541,9 @@
    "enunciado": "¿Cuál es una forma de transmisión de la hepatitis C?",
    "opciones": [
     {
-     "t": "Transfusión de hemoderivados o uso de drogas intravenosas",
-     "por": "La vía sexual y la convivencia son posibles pero poco eficaces; la vertical es poco frecuente."
+     "t": "Transfusión de hemoderivados o drogas IV",
+     "por": "La vía sexual y la convivencia son posibles pero poco eficaces; la vertical es poco frecuente.",
+     "full": "Transfusión de hemoderivados o uso de drogas intravenosas"
     },
     {
      "t": "Fecal-oral por agua contaminada",
@@ -558,8 +570,9 @@
    "enunciado": "¿Qué manifestación extrahepática se asocia a la hepatitis C crónica?",
    "opciones": [
     {
-     "t": "Crioglobulinemia, glomerulonefritis membranoproliferativa y porfiria cutánea tardía",
-     "por": "También tiroiditis, artritis y poliartralgias."
+     "t": "Crioglobulinemia y GNMP",
+     "por": "También tiroiditis, artritis y poliartralgias.",
+     "full": "Crioglobulinemia, glomerulonefritis membranoproliferativa y porfiria cutánea tardía"
     },
     {
      "t": "Pancreatitis aguda",
@@ -586,8 +599,9 @@
    "enunciado": "¿Qué son los agentes antivirales de acción directa (AAD) contra el VHC?",
    "opciones": [
     {
-     "t": "Fármacos que inhiben directamente la replicación viral: inhibidores de entrada, de la proteasa NS3/NS4A y de la polimerasa NS5",
-     "por": "Actúan en distintos pasos del ciclo viral y han reemplazado al interferón."
+     "t": "Inhiben directamente la replicación viral",
+     "por": "Actúan en distintos pasos del ciclo viral y han reemplazado al interferón.",
+     "full": "Fármacos que inhiben directamente la replicación viral: inhibidores de entrada, de la proteasa NS3/NS4A y de la polimerasa NS5"
     },
     {
      "t": "Vacunas de virus atenuados",
@@ -619,8 +633,9 @@
    "enunciado": "¿Qué se sabe del virus de la hepatitis D?",
    "opciones": [
     {
-     "t": "Es un virus ARN defectuoso que solo causa hepatitis en presencia del VHB (coinfección o superinfección)",
-     "por": "Su prevención es la vacuna contra la hepatitis B."
+     "t": "Virus ARN defectuoso que requiere al VHB",
+     "por": "Su prevención es la vacuna contra la hepatitis B.",
+     "full": "Es un virus ARN defectuoso que solo causa hepatitis en presencia del VHB (coinfección o superinfección)"
     },
     {
      "t": "Se transmite por vía fecal-oral y no cronifica",
@@ -647,8 +662,9 @@
    "enunciado": "¿Qué característica particular tiene la hepatitis E?",
    "opciones": [
     {
-     "t": "En embarazadas puede producir hepatitis fulminante con mortalidad de 20 a 25 %",
-     "por": "Se transmite por vía oral-fecal por agua contaminada, con incubación de 15 a 60 días."
+     "t": "En embarazadas, hepatitis fulminante con mortalidad de 20 a 25 %",
+     "por": "Se transmite por vía oral-fecal por agua contaminada, con incubación de 15 a 60 días.",
+     "full": "En embarazadas puede producir hepatitis fulminante con mortalidad de 20 a 25 %"
     },
     {
      "t": "Cronifica siempre en personas sanas",

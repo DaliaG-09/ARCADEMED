@@ -37,8 +37,9 @@
    "enunciado": "¿Cómo llega el bacilo de la tuberculosis al riñón y qué lesión produce?",
    "opciones": [
     {
-     "t": "Por la sangre o la linfa; produce granulomas con necrosis caseosa y nefritis tubulointersticial crónica",
-     "por": "El riñón se siembra durante la diseminación de la primoinfección. El bacilo puede quedar latente y reactivarse años después, sobre todo con inmunosupresión."
+     "t": "Vía sanguínea o linfática; granulomas caseosos y nefritis crónica",
+     "por": "El riñón se siembra durante la diseminación de la primoinfección. El bacilo puede quedar latente y reactivarse años después, sobre todo con inmunosupresión.",
+     "full": "Por la sangre o la linfa; produce granulomas con necrosis caseosa y nefritis tubulointersticial crónica"
     },
     {
      "t": "Por la vía ascendente desde la uretra; produce un absceso agudo",
@@ -152,8 +153,9 @@
    "enunciado": "En TBC urogenital, ¿cuál de estas manifestaciones corresponde a la vejiga?",
    "opciones": [
     {
-     "t": "Ardor, polaquiuria, nicturia y hematuria; en casos extremos irritabilidad vesical",
-     "por": "La lámina las lista para la vejiga: dolor, aumento de la frecuencia de orinar (también de noche), sangre en la orina e irritabilidad vesical extrema."
+     "t": "Ardor, polaquiuria, nicturia y hematuria",
+     "por": "La lámina las lista para la vejiga: dolor, aumento de la frecuencia de orinar (también de noche), sangre en la orina e irritabilidad vesical extrema.",
+     "full": "Ardor, polaquiuria, nicturia y hematuria; en casos extremos irritabilidad vesical"
     },
     {
      "t": "Epididimitis, inflamación indolora y absceso",
@@ -210,8 +212,9 @@
    "enunciado": "Varón de 65 años con ERC, fiebre persistente y urocultivos comunes negativos. Se sospecha TBC renal. ¿Qué hallazgo apoyaría el diagnóstico?",
    "opciones": [
     {
-     "t": "BAAR en orina con tinción de Ziehl-Neelsen, seguido de cultivo en medio especial",
-     "por": "La orina con piuria y cultivos comunes negativos (piuria estéril) orienta a TBC. Se busca el bacilo con Ziehl-Neelsen y se confirma con cultivo para micobacterias."
+     "t": "BAAR en orina (Ziehl-Neelsen) y cultivo especial",
+     "por": "La orina con piuria y cultivos comunes negativos (piuria estéril) orienta a TBC. Se busca el bacilo con Ziehl-Neelsen y se confirma con cultivo para micobacterias.",
+     "full": "BAAR en orina con tinción de Ziehl-Neelsen, seguido de cultivo en medio especial"
     },
     {
      "t": "Cultivo de orina común con E. coli",
@@ -269,8 +272,9 @@
    "enunciado": "Terminada la fase inicial de 2 meses del tratamiento de TBC, ¿cómo sigue el esquema según la lámina?",
    "opciones": [
     {
-     "t": "Fase de continuación de 4 a 7 meses con isoniazida y rifampicina",
-     "por": "Se retiran pirazinamida y etambutol y se mantienen dos fármacos para eliminar los bacilos restantes."
+     "t": "Continuación de 4 a 7 meses con isoniazida y rifampicina",
+     "por": "Se retiran pirazinamida y etambutol y se mantienen dos fármacos para eliminar los bacilos restantes.",
+     "full": "Fase de continuación de 4 a 7 meses con isoniazida y rifampicina"
     },
     {
      "t": "Se suspende todo porque ya pasaron 2 meses",

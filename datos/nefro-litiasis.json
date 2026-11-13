@@ -67,8 +67,9 @@
    "enunciado": "¿Qué factor de riesgo o mecanismo se asocia con cada tipo de cálculo según el esquema de la lámina?",
    "opciones": [
     {
-     "t": "Estruvita: ITU por bacterias con ureasa (Proteus, Klebsiella...); cistina: defecto genético autosómico recesivo del transportador renal de cistina",
-     "por": "Cada cálculo tiene su origen: la estruvita es de infección y la cistina es genética."
+     "t": "Estruvita: ureasa bacteriana; cistina: defecto genético recesivo",
+     "por": "Cada cálculo tiene su origen: la estruvita es de infección y la cistina es genética.",
+     "full": "Estruvita: ITU por bacterias con ureasa (Proteus, Klebsiella...); cistina: defecto genético autosómico recesivo del transportador renal de cistina"
     },
     {
      "t": "Estruvita: dieta rica en carne; cistina: hiperuricosuria",
@@ -182,8 +183,9 @@
    "enunciado": "¿Qué recomendación dietética corresponde a un paciente con litiasis?",
    "opciones": [
     {
-     "t": "Más de 2.5 L de líquidos al día, calcio 800 mg a 1 g, sodio 2 a 3 g y evitar alimentos con oxalato",
-     "por": "Los líquidos diluyen la orina. El calcio de la dieta se mantiene porque ayuda a que el oxalato se una en el intestino. Evitar espinaca, frutos secos y soja."
+     "t": "Más de 2.5 L de líquido, calcio 800 mg a 1 g, sodio 2 a 3 g",
+     "por": "Los líquidos diluyen la orina. El calcio de la dieta se mantiene porque ayuda a que el oxalato se una en el intestino. Evitar espinaca, frutos secos y soja.",
+     "full": "Más de 2.5 L de líquidos al día, calcio 800 mg a 1 g, sodio 2 a 3 g y evitar alimentos con oxalato"
     },
     {
      "t": "Restringir los líquidos para orinar menos",
@@ -298,8 +300,9 @@
    "enunciado": "¿Qué es la uropatía obstructiva?",
    "opciones": [
     {
-     "t": "Un cambio estructural o funcional que impide el flujo normal de la orina y puede causar ERC por fibrosis",
-     "por": "La obstrucción hace que la orina se acumule, dilate el riñón (hidronefrosis) y con el tiempo cause fibrosis."
+     "t": "Obstáculo al flujo de orina con riesgo de fibrosis",
+     "por": "La obstrucción hace que la orina se acumule, dilate el riñón (hidronefrosis) y con el tiempo cause fibrosis.",
+     "full": "Un cambio estructural o funcional que impide el flujo normal de la orina y puede causar ERC por fibrosis"
     },
     {
      "t": "Una infección del riñón por bacterias",
@@ -356,8 +359,9 @@
    "enunciado": "¿Cuál de estas es una causa extrínseca (por compresión desde fuera) de obstrucción de la vía urinaria alta?",
    "opciones": [
     {
-     "t": "Tumor ovárico, cáncer de cuello uterino, aneurisma de aorta, hematomas o pancreatitis",
-     "por": "Todos comprimen el uréter desde fuera."
+     "t": "Tumor ovárico, cáncer cervical o aneurisma aórtico",
+     "por": "Todos comprimen el uréter desde fuera.",
+     "full": "Tumor ovárico, cáncer de cuello uterino, aneurisma de aorta, hematomas o pancreatitis"
     },
     {
      "t": "Hiperplasia benigna de próstata",

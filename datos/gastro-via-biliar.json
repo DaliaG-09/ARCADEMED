@@ -8,8 +8,9 @@
    "enunciado": "¿Cuál es la causa más frecuente de colecistitis aguda?",
    "opciones": [
     {
-     "t": "Litiasis biliar (90 a 95 %): un cálculo obstruye el conducto cístico",
-     "por": "La obstrucción distiende la vesícula y reduce su flujo sanguíneo, con isquemia e inflamación."
+     "t": "Litiasis (90 a 95 %) que obstruye el cístico",
+     "por": "La obstrucción distiende la vesícula y reduce su flujo sanguíneo, con isquemia e inflamación.",
+     "full": "Litiasis biliar (90 a 95 %): un cálculo obstruye el conducto cístico"
     },
     {
      "t": "Colecistitis alitiásica",
@@ -36,8 +37,9 @@
    "enunciado": "Según los criterios de Tokio, ¿cómo se hace el diagnóstico definitivo de colecistitis aguda?",
    "opciones": [
     {
-     "t": "Un ítem de A (inflamación local) más uno de B (inflamación sistémica) más hallazgos de imagen (C)",
-     "por": "Si solo hay A + B, el diagnóstico es sospechoso. Con A + B + C es definitivo."
+     "t": "Un ítem A, uno B y hallazgos de imagen C",
+     "por": "Si solo hay A + B, el diagnóstico es sospechoso. Con A + B + C es definitivo.",
+     "full": "Un ítem de A (inflamación local) más uno de B (inflamación sistémica) más hallazgos de imagen (C)"
     },
     {
      "t": "Solo un ítem de A",
@@ -69,8 +71,9 @@
    "enunciado": "¿Qué hallazgos ecográficos apoyan una colecistitis aguda?",
    "opciones": [
     {
-     "t": "Engrosamiento de la pared vesicular, litiasis con sombra acústica y signo de Murphy ecográfico",
-     "por": "La ecografía es el primer estudio por imágenes de la colecistitis. En la TAC se ve distensión vesicular, engrosamiento de la grasa o de la pared, líquido libre o absceso."
+     "t": "Pared engrosada con litiasis y Murphy ecográfico",
+     "por": "La ecografía es el primer estudio por imágenes de la colecistitis. En la TAC se ve distensión vesicular, engrosamiento de la grasa o de la pared, líquido libre o absceso.",
+     "full": "Engrosamiento de la pared vesicular, litiasis con sombra acústica y signo de Murphy ecográfico"
     },
     {
      "t": "Vesícula de pared fina y sin litos",
@@ -130,8 +133,9 @@
    "enunciado": "Un paciente con colecistitis aguda grado III (severa) está inestable. ¿Cuál es la conducta del esquema de tratamiento?",
    "opciones": [
     {
-     "t": "Antibióticos, soporte de los órganos y drenaje urgente de la vesícula; colecistectomía laparoscópica electiva y tardía",
-     "por": "En el grado III la prioridad es estabilizar y drenar, no operar de entrada."
+     "t": "Antibióticos, soporte y drenaje urgente",
+     "por": "En el grado III la prioridad es estabilizar y drenar, no operar de entrada.",
+     "full": "Antibióticos, soporte de los órganos y drenaje urgente de la vesícula; colecistectomía laparoscópica electiva y tardía"
     },
     {
      "t": "Colecistectomía de emergencia sin drenaje",
@@ -195,8 +199,9 @@
    "enunciado": "¿Cómo se define la colangitis aguda?",
    "opciones": [
     {
-     "t": "Síndrome con fiebre, ictericia y dolor abdominal, por estasis e infección de la vía biliar",
-     "por": "Es una infección de la vía biliar con obstrucción. Causas: cálculo (28 a 70 %), estenosis benigna (5 a 28 %), malignidad (10 a 57 %), infecciones (Fasciola, Ascaris) y post-CPRE (0,5 a 1,7 %)."
+     "t": "Fiebre, ictericia y dolor por estasis e infección biliar",
+     "por": "Es una infección de la vía biliar con obstrucción. Causas: cálculo (28 a 70 %), estenosis benigna (5 a 28 %), malignidad (10 a 57 %), infecciones (Fasciola, Ascaris) y post-CPRE (0,5 a 1,7 %).",
+     "full": "Síndrome con fiebre, ictericia y dolor abdominal, por estasis e infección de la vía biliar"
     },
     {
      "t": "Inflamación aguda de la vesícula por un lito en el cístico",
@@ -223,8 +228,9 @@
    "enunciado": "¿Por qué una obstrucción biliar puede llevar a sepsis?",
    "opciones": [
     {
-     "t": "Porque la presión elevada en la vía biliar hace los conductos permeables y pasan bacterias y toxinas a la sangre",
-     "por": "Puede causar abscesos hepáticos y sepsis graves."
+     "t": "La presión biliar alta pasa bacterias y toxinas a la sangre",
+     "por": "Puede causar abscesos hepáticos y sepsis graves.",
+     "full": "Porque la presión elevada en la vía biliar hace los conductos permeables y pasan bacterias y toxinas a la sangre"
     },
     {
      "t": "Porque la bilis estéril se vuelve tóxica por sí sola",
@@ -280,8 +286,9 @@
    "enunciado": "Un paciente tiene fiebre de 39 °C, leucocitosis, bilirrubina total de 3 mg/dl, FA y GGT elevadas y dilatación de la vía biliar en la ecografía. Según Tokio, ¿qué diagnóstico corresponde?",
    "opciones": [
     {
-     "t": "Colangitis definitiva: cumple A (inflamación sistémica), B (colestasis) y C (imagen)",
-     "por": "El diagnóstico definitivo exige un ítem de cada grupo; aquí están los tres."
+     "t": "Colangitis definitiva: cumple A, B y C",
+     "por": "El diagnóstico definitivo exige un ítem de cada grupo; aquí están los tres.",
+     "full": "Colangitis definitiva: cumple A (inflamación sistémica), B (colestasis) y C (imagen)"
     },
     {
      "t": "Colangitis solo sospechosa",
@@ -313,8 +320,9 @@
    "enunciado": "¿Qué diámetro del colédoco se considera dilatado en la ecografía?",
    "opciones": [
     {
-     "t": "Más de 6 mm; más de 10 mm si el paciente tiene colecistectomía previa",
-     "por": "Entre 8 y 10 mm se valora el caso. Un lito visible también cuenta como hallazgo de imagen."
+     "t": "Más de 6 mm (10 con colecistectomía)",
+     "por": "Entre 8 y 10 mm se valora el caso. Un lito visible también cuenta como hallazgo de imagen.",
+     "full": "Más de 6 mm; más de 10 mm si el paciente tiene colecistectomía previa"
     },
     {
      "t": "Más de 2 mm",
@@ -341,8 +349,9 @@
    "enunciado": "¿Qué define una colangitis de grado III (severa) en Tokio?",
    "opciones": [
     {
-     "t": "Disfunción de al menos un órgano o sistema, por ejemplo hipotensión con vasopresores o alteración de la conciencia",
-     "por": "Se acompaña de insuficiencia respiratoria (PaO2/FiO2 <300), renal (creatinina >2), hepática (INR >1,5) o plaquetas <100 000."
+     "t": "Disfunción orgánica, como hipotensión con vasopresores",
+     "por": "Se acompaña de insuficiencia respiratoria (PaO2/FiO2 <300), renal (creatinina >2), hepática (INR >1,5) o plaquetas <100 000.",
+     "full": "Disfunción de al menos un órgano o sistema, por ejemplo hipotensión con vasopresores o alteración de la conciencia"
     },
     {
      "t": "Fiebre de 38,5 °C con leucocitos de 11 000",
@@ -374,8 +383,9 @@
    "enunciado": "¿Cuál es el tratamiento inicial de una colangitis aguda?",
    "opciones": [
     {
-     "t": "Hidratación endovenosa, analgesia y antibióticos en las primeras 6 horas, y drenaje de la vía biliar según la gravedad",
-     "por": "Los antibióticos limitan la respuesta séptica y previenen abscesos; duran de 4 a 7 días."
+     "t": "Hidratación, antibióticos en 6 h y drenaje según gravedad",
+     "por": "Los antibióticos limitan la respuesta séptica y previenen abscesos; duran de 4 a 7 días.",
+     "full": "Hidratación endovenosa, analgesia y antibióticos en las primeras 6 horas, y drenaje de la vía biliar según la gravedad"
     },
     {
      "t": "Solo antibióticos orales y control ambulatorio",
@@ -407,8 +417,9 @@
    "enunciado": "¿Cuál es la forma más frecuente de coledocolitiasis?",
    "opciones": [
     {
-     "t": "La secundaria: los litos pasan de la vesícula al colédoco",
-     "por": "95 % de los pacientes con coledocolitiasis tiene colelitiasis."
+     "t": "La secundaria: lito desde la vesícula",
+     "por": "95 % de los pacientes con coledocolitiasis tiene colelitiasis.",
+     "full": "La secundaria: los litos pasan de la vesícula al colédoco"
     },
     {
      "t": "La primaria, formada de novo en el colédoco",
@@ -435,8 +446,9 @@
    "enunciado": "¿Cómo se manifiesta una coledocolitiasis no complicada?",
    "opciones": [
     {
-     "t": "Cólico biliar en el cuadrante superior derecho y el epigastrio; cuando el dolor cede, el lito pasó al intestino",
-     "por": "Con complicaciones puede aparecer pancreatitis o colangitis."
+     "t": "Cólico biliar en HCD y epigastrio que cede al pasar el lito",
+     "por": "Con complicaciones puede aparecer pancreatitis o colangitis.",
+     "full": "Cólico biliar en el cuadrante superior derecho y el epigastrio; cuando el dolor cede, el lito pasó al intestino"
     },
     {
      "t": "Fiebre alta con hipotensión",
@@ -495,8 +507,9 @@
    "enunciado": "En el algoritmo de coledocolitiasis, ¿cuándo se indica una CPRE preoperatoria?",
    "opciones": [
     {
-     "t": "Probabilidad alta: lito visto en imagen, bilirrubina >4 mg/dl con colédoco dilatado, o colangitis clínica",
-     "por": "Con probabilidad intermedia (hepatograma anormal, edad >55 o colédoco dilatado) se hace antes una ecoendoscopía o colangio-RM."
+     "t": "Alta: lito en imagen, bilirrubina >4 con colédoco dilatado o colangitis",
+     "por": "Con probabilidad intermedia (hepatograma anormal, edad >55 o colédoco dilatado) se hace antes una ecoendoscopía o colangio-RM.",
+     "full": "Probabilidad alta: lito visto en imagen, bilirrubina >4 mg/dl con colédoco dilatado, o colangitis clínica"
     },
     {
      "t": "En todos los pacientes con colelitiasis sintomática",

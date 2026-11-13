@@ -8,8 +8,9 @@
    "enunciado": "¿Cómo define la clase la injuria renal aguda?",
    "opciones": [
     {
-     "t": "Descenso rápido del filtrado glomerular (horas a semanas), con retención de desechos nitrogenados y alteración del equilibrio hidroelectrolítico y ácido-base",
-     "por": "Lo central es la rapidez: el riñón pierde su capacidad de filtrar en horas o semanas, y la sangre acumula urea y creatinina."
+     "t": "Caída rápida del filtrado glomerular con retención de nitrogenados",
+     "por": "Lo central es la rapidez: el riñón pierde su capacidad de filtrar en horas o semanas, y la sangre acumula urea y creatinina.",
+     "full": "Descenso rápido del filtrado glomerular (horas a semanas), con retención de desechos nitrogenados y alteración del equilibrio hidroelectrolítico y ácido-base"
     },
     {
      "t": "Pérdida lenta de función renal durante más de 3 meses",
@@ -69,8 +70,9 @@
    "enunciado": "¿Cómo se clasifica la IRA según el elemento que falla?",
    "opciones": [
     {
-     "t": "Prerrenal, renal (intrínseca) y postrenal (obstructiva)",
-     "por": "Prerrenal: falla la perfusión. Renal: se alteran las estructuras del riñón. Postrenal: el flujo de orina está interrumpido."
+     "t": "Prerrenal, renal y postrenal",
+     "por": "Prerrenal: falla la perfusión. Renal: se alteran las estructuras del riñón. Postrenal: el flujo de orina está interrumpido.",
+     "full": "Prerrenal, renal (intrínseca) y postrenal (obstructiva)"
     },
     {
      "t": "Aguda, subaguda y crónica",
@@ -126,8 +128,9 @@
    "enunciado": "En RIFLE, ¿cuánto tiempo de pérdida completa de la función renal define 'Loss' y 'ESKD'?",
    "opciones": [
     {
-     "t": "Loss: más de 4 semanas; ESKD (enfermedad renal terminal): más de 3 meses",
-     "por": "Son los estadios de desenlace: miden cuánto dura la pérdida de función."
+     "t": "Loss >4 semanas; ESKD >3 meses",
+     "por": "Son los estadios de desenlace: miden cuánto dura la pérdida de función.",
+     "full": "Loss: más de 4 semanas; ESKD (enfermedad renal terminal): más de 3 meses"
     },
     {
      "t": "Loss: más de 1 semana; ESKD: más de 4 semanas",
@@ -155,8 +158,9 @@
    "enunciado": "¿Qué agregó la clasificación AKIN al esquema RIFLE?",
    "opciones": [
     {
-     "t": "Una ventana de 48 horas para hacer el diagnóstico",
-     "por": "Con AKIN el aumento de creatinina de 0.3 mg/dL se valora dentro de 48 horas. En 2004 la Red de Trabajo de Lesión Renal (AKIN) modificó RIFLE y lo llamó AKI."
+     "t": "Ventana de 48 horas al diagnóstico",
+     "por": "Con AKIN el aumento de creatinina de 0.3 mg/dL se valora dentro de 48 horas. En 2004 la Red de Trabajo de Lesión Renal (AKIN) modificó RIFLE y lo llamó AKI.",
+     "full": "Una ventana de 48 horas para hacer el diagnóstico"
     },
     {
      "t": "El requisito de biopsia renal",
@@ -282,8 +286,9 @@
    "enunciado": "¿Cómo disminuye el filtrado glomerular en la IRA prerrenal?",
    "opciones": [
     {
-     "t": "La isquemia causa vasoconstricción y congestión medular; baja el flujo plasmático glomerular y la presión de ultrafiltración",
-     "por": "Menos sangre al glomérulo significa menos presión para filtrar. Si la isquemia sigue, también baja el oxígeno en la médula renal y aparece daño tubular."
+     "t": "Vasoconstricción por isquemia y menor flujo glomerular",
+     "por": "Menos sangre al glomérulo significa menos presión para filtrar. Si la isquemia sigue, también baja el oxígeno en la médula renal y aparece daño tubular.",
+     "full": "La isquemia causa vasoconstricción y congestión medular; baja el flujo plasmático glomerular y la presión de ultrafiltración"
     },
     {
      "t": "Una obstrucción en el uréter bloquea la orina",
@@ -310,8 +315,9 @@
    "enunciado": "En la necrosis tubular, ¿qué produce la obstrucción tubular y la 'retrodifusión' (backleak)?",
    "opciones": [
     {
-     "t": "La descamación de células tubulares tras apoptosis y necrosis",
-     "por": "Las células muertas se desprenden y tapan el túbulo. El filtrado se escapa de vuelta al intersticio (backleak), y el FG cae."
+     "t": "Descamación de células tubulares necróticas",
+     "por": "Las células muertas se desprenden y tapan el túbulo. El filtrado se escapa de vuelta al intersticio (backleak), y el FG cae.",
+     "full": "La descamación de células tubulares tras apoptosis y necrosis"
     },
     {
      "t": "Depósitos de anticuerpos en el glomérulo",
@@ -395,8 +401,9 @@
    "enunciado": "¿Cuál de estas es causa de IRA prerrenal según el esquema de la lámina 18?",
    "opciones": [
     {
-     "t": "Sepsis, cirrosis, anafilaxia, hemorragia o diuresis excesiva",
-     "por": "Se dividen en disfunción cardiaca, vasodilatación (sepsis, cirrosis, anafilaxia), hipovolemia (hemorragia, diuresis) y resistencia vascular (cirugía, anestesia)."
+     "t": "Sepsis, cirrosis o hemorragia",
+     "por": "Se dividen en disfunción cardiaca, vasodilatación (sepsis, cirrosis, anafilaxia), hipovolemia (hemorragia, diuresis) y resistencia vascular (cirugía, anestesia).",
+     "full": "Sepsis, cirrosis, anafilaxia, hemorragia o diuresis excesiva"
     },
     {
      "t": "Nefrolitiasis y necrosis papilar",
@@ -516,8 +523,9 @@
    "enunciado": "Varón de 43 años con neumonía, tratado con vancomicina y piperacilina-tazobactam. Al día 5: hipotensión (85/50), diuresis de 50 mL en 14 h, creatinina 1.1 → 4.5 mg/dL, K⁺ 5.9, HCO₃⁻ 15, cilindros granulosos y ecografía renal normal. ¿Diagnóstico?",
    "opciones": [
     {
-     "t": "IRA renal por necrosis tubular aguda (nefrotóxica e isquémica), estadio AKI-III",
-     "por": "Hay dos agresores sobre el túbulo: hipotensión (isquemia) y fármacos nefrotóxicos. Los cilindros granulosos indican daño tubular, y la ecografía normal descarta obstrucción."
+     "t": "NTA nefrotóxica e isquémica, AKI-III",
+     "por": "Hay dos agresores sobre el túbulo: hipotensión (isquemia) y fármacos nefrotóxicos. Los cilindros granulosos indican daño tubular, y la ecografía normal descarta obstrucción.",
+     "full": "IRA renal por necrosis tubular aguda (nefrotóxica e isquémica), estadio AKI-III"
     },
     {
      "t": "IRA postrenal",
@@ -546,8 +554,9 @@
    "enunciado": "¿Qué criterio de diuresis acompaña al estadio de máxima gravedad en la lámina del caso?",
    "opciones": [
     {
-     "t": "Menos de 0.3 mL/kg/h por más de 24 horas, o anuria de más de 12 horas",
-     "por": "Es el criterio de diuresis del estadio más grave (AKI-III; Failure en RIFLE)."
+     "t": "<0.3 mL/kg/h por >24 h, o anuria >12 h",
+     "por": "Es el criterio de diuresis del estadio más grave (AKI-III; Failure en RIFLE).",
+     "full": "Menos de 0.3 mL/kg/h por más de 24 horas, o anuria de más de 12 horas"
     },
     {
      "t": "Menos de 0.5 mL/kg/h por 6 horas",

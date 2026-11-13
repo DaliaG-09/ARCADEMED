@@ -36,8 +36,9 @@
    "enunciado": "¿Qué hace entrar el potasio a la célula?",
    "opciones": [
     {
-     "t": "Insulina, estimulación β2-adrenérgica, aldosterona y alcalosis metabólica",
-     "por": "Son los factores que meten potasio a la célula: bajan el potasio sérico sin que el cuerpo lo pierda."
+     "t": "Insulina, β2 y alcalosis",
+     "por": "Son los factores que meten potasio a la célula: bajan el potasio sérico sin que el cuerpo lo pierda.",
+     "full": "Insulina, estimulación β2-adrenérgica, aldosterona y alcalosis metabólica"
     },
     {
      "t": "Acidosis metabólica",
@@ -177,8 +178,9 @@
    "enunciado": "Manifestaciones clínicas de la hipopotasemia:",
    "opciones": [
     {
-     "t": "Debilidad, calambres, íleo paralítico y arritmias",
-     "por": "El potasio bajo debilita el músculo y el intestino y altera el ritmo cardiaco. En casos graves hay rabdomiólisis."
+     "t": "Debilidad, calambres, íleo y arritmias",
+     "por": "El potasio bajo debilita el músculo y el intestino y altera el ritmo cardiaco. En casos graves hay rabdomiólisis.",
+     "full": "Debilidad, calambres, íleo paralítico y arritmias"
     },
     {
      "t": "Hiperreflexia y tetania",
@@ -205,8 +207,9 @@
    "enunciado": "¿Qué cambios en el ECG produce la hipopotasemia?",
    "opciones": [
     {
-     "t": "Descenso del segmento ST, aplanamiento de T y onda U de mayor amplitud",
-     "por": "El potasio bajo retrasa la repolarización: baja el ST, se aplana la T y crece la onda U."
+     "t": "ST bajo, T aplanada y onda U",
+     "por": "El potasio bajo retrasa la repolarización: baja el ST, se aplana la T y crece la onda U.",
+     "full": "Descenso del segmento ST, aplanamiento de T y onda U de mayor amplitud"
     },
     {
      "t": "Ondas T picudas",
@@ -233,8 +236,9 @@
    "enunciado": "Límites de velocidad de reposición de potasio:",
    "opciones": [
     {
-     "t": "Vía periférica menos de 10 mEq/h; vía central menos de 40 mEq/h",
-     "por": "La vena periférica se irrita y el potasio rápido en una vía central llega concentrado al corazón: por eso hay límites. La periférica admite menos velocidad."
+     "t": "Periférica <10; central <40 mEq/h",
+     "por": "La vena periférica se irrita y el potasio rápido en una vía central llega concentrado al corazón: por eso hay límites. La periférica admite menos velocidad.",
+     "full": "Vía periférica menos de 10 mEq/h; vía central menos de 40 mEq/h"
     },
     {
      "t": "Periférica 40 mEq/h",
@@ -378,8 +382,9 @@
    "enunciado": "Hiperpotasemia con ondas T picudas y pérdida de la onda P. ¿Qué se da primero?",
    "opciones": [
     {
-     "t": "Gluconato de calcio al 10 % (10 mL en 2 a 5 min IV)",
-     "por": "El calcio no baja el potasio, pero estabiliza la membrana del músculo cardiaco y protege del ritmo peligroso. Actúa en 5 a 10 minutos, por eso va primero."
+     "t": "Gluconato de calcio 10 % IV",
+     "por": "El calcio no baja el potasio, pero estabiliza la membrana del músculo cardiaco y protege del ritmo peligroso. Actúa en 5 a 10 minutos, por eso va primero.",
+     "full": "Gluconato de calcio al 10 % (10 mL en 2 a 5 min IV)"
     },
     {
      "t": "Furosemida solo",

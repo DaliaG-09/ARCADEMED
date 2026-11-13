@@ -8,8 +8,9 @@
    "enunciado": "¿Qué tipo de absceso hepático es el más frecuente?",
    "opciones": [
     {
-     "t": "El absceso hepático piógeno (bacteriano), 80 a 90 %",
-     "por": "Es el más común. Ocurre sobre todo en diabéticos, trasplantados de hígado, personas con tumores malignos o con inmunodepresión. Incidencia de 2,3 casos por 100 000 habitantes al año."
+     "t": "Absceso piógeno (bacteriano), 80 a 90 %",
+     "por": "Es el más común. Ocurre sobre todo en diabéticos, trasplantados de hígado, personas con tumores malignos o con inmunodepresión. Incidencia de 2,3 casos por 100 000 habitantes al año.",
+     "full": "El absceso hepático piógeno (bacteriano), 80 a 90 %"
     },
     {
      "t": "El absceso hepático amebiano",
@@ -64,8 +65,9 @@
    "enunciado": "¿Qué bacterias predominan en los abscesos hepáticos piógenos?",
    "opciones": [
     {
-     "t": "Gramnegativos aerobios, sobre todo E. coli y Klebsiella, junto con anaerobios",
-     "por": "Los gramnegativos aerobios son los más comunes (E. coli 35 a 45 %, Klebsiella 18 %). Los anaerobios (Bacteroides, Fusobacterium, Clostridium) aportan una parte importante."
+     "t": "Gramnegativos aerobios y anaerobios",
+     "por": "Los gramnegativos aerobios son los más comunes (E. coli 35 a 45 %, Klebsiella 18 %). Los anaerobios (Bacteroides, Fusobacterium, Clostridium) aportan una parte importante.",
+     "full": "Gramnegativos aerobios, sobre todo E. coli y Klebsiella, junto con anaerobios"
     },
     {
      "t": "Solo Entamoeba histolytica",
@@ -92,8 +94,9 @@
    "enunciado": "Un paciente tiene un absceso hepático grande, único, de origen portal, traumático o criptogénico. ¿Qué dato lo confirma como patrón típico?",
    "opciones": [
     {
-     "t": "Los abscesos grandes y solitarios se deben a vía portal, trauma o criptogénicos",
-     "por": "Es el patrón de la lámina 12: el absceso es predecible según número, localización y tamaño."
+     "t": "Grandes y solitarios: vía portal, trauma o criptogénicos",
+     "por": "Es el patrón de la lámina 12: el absceso es predecible según número, localización y tamaño.",
+     "full": "Los abscesos grandes y solitarios se deben a vía portal, trauma o criptogénicos"
     },
     {
      "t": "Los abscesos múltiples y pequeños de origen biliar",
@@ -149,8 +152,9 @@
    "enunciado": "¿Qué hallazgos de laboratorio se esperan en un absceso hepático piógeno?",
    "opciones": [
     {
-     "t": "Leucocitosis con neutrofilia, PCR y VSG elevadas, fosfatasa alcalina elevada y anemia normocítica",
-     "por": "75 % presenta leucocitosis de 10 000 a 80 000. La fosfatasa alcalina sube en 70 a 90 %. Puede alargarse el tiempo de coagulación (INR)."
+     "t": "Leucocitosis con fosfatasa alcalina alta",
+     "por": "75 % presenta leucocitosis de 10 000 a 80 000. La fosfatasa alcalina sube en 70 a 90 %. Puede alargarse el tiempo de coagulación (INR).",
+     "full": "Leucocitosis con neutrofilia, PCR y VSG elevadas, fosfatasa alcalina elevada y anemia normocítica"
     },
     {
      "t": "Leucopenia con fosfatasa alcalina baja",
@@ -177,8 +181,9 @@
    "enunciado": "Ante la sospecha de absceso hepático piógeno, ¿qué estudio de imagen se solicita primero y qué muestra?",
    "opciones": [
     {
-     "t": "Ecografía abdominal: lesión hipoecogénica de bordes irregulares, con puntos hiperecogénicos",
-     "por": "Es el método de elección, con sensibilidad de 85 a 95 % en abscesos mayores de 2 cm. Permite además la aspiración guiada."
+     "t": "Ecografía abdominal",
+     "por": "Es el método de elección, con sensibilidad de 85 a 95 % en abscesos mayores de 2 cm. Permite además la aspiración guiada.",
+     "full": "Ecografía abdominal: lesión hipoecogénica de bordes irregulares, con puntos hiperecogénicos"
     },
     {
      "t": "Radiografía de tórax",
@@ -265,8 +270,9 @@
    "enunciado": "¿Cómo llega la ameba al hígado y cómo es el contenido del absceso amebiano?",
    "opciones": [
     {
-     "t": "Por vía venosa portal desde la mucosa colónica; el contenido es un líquido espeso color chocolate",
-     "por": "El quiste se ingiere, pasa a trofozoíto en el colon, causa úlceras 'en botón de camisa' y puede invadir la mucosa. En el hígado forma focos con necrosis de licuefacción."
+     "t": "Vía portal desde el colon; pus espeso color chocolate",
+     "por": "El quiste se ingiere, pasa a trofozoíto en el colon, causa úlceras 'en botón de camisa' y puede invadir la mucosa. En el hígado forma focos con necrosis de licuefacción.",
+     "full": "Por vía venosa portal desde la mucosa colónica; el contenido es un líquido espeso color chocolate"
     },
     {
      "t": "Por vía biliar ascendente; contenido purulento amarillo",
@@ -293,8 +299,9 @@
    "enunciado": "¿Qué prueba confirma el contacto con Entamoeba histolytica en un absceso amebiano?",
    "opciones": [
     {
-     "t": "Detección de anticuerpos antiamebianos (hemaglutinación indirecta, ELISA)",
-     "por": "Aparecen entre el 7.º y el 10.º día en 90 a 100 % de los casos. ELISA tiene sensibilidad de 95 %."
+     "t": "Anticuerpos antiamebianos (hemaglutinación, ELISA)",
+     "por": "Aparecen entre el 7.º y el 10.º día en 90 a 100 % de los casos. ELISA tiene sensibilidad de 95 %.",
+     "full": "Detección de anticuerpos antiamebianos (hemaglutinación indirecta, ELISA)"
     },
     {
      "t": "Hemocultivo",
@@ -321,8 +328,9 @@
    "enunciado": "¿Cuál es el tratamiento de elección del absceso hepático amebiano?",
    "opciones": [
     {
-     "t": "Metronidazol 750 mg por vía oral cada 8 horas por 7 a 10 días",
-     "por": "Hay respuesta en más de 85 % de los casos. Se completa con un amebicida luminal porque hay recaída de 10 %."
+     "t": "Metronidazol oral 7 a 10 días",
+     "por": "Hay respuesta en más de 85 % de los casos. Se completa con un amebicida luminal porque hay recaída de 10 %.",
+     "full": "Metronidazol 750 mg por vía oral cada 8 horas por 7 a 10 días"
     },
     {
      "t": "Ceftriaxona sola",
@@ -353,8 +361,9 @@
    "enunciado": "Un varón de 40 años acude por fiebre de 39 °C y dolor en el hipocondrio derecho. ¿Qué dato favorece el absceso amebiano sobre el piógeno?",
    "opciones": [
     {
-     "t": "Edad menor de 40, absceso único en el lóbulo derecho, viaje a zona endémica y serología positiva",
-     "por": "Son rasgos típicos del absceso amebiano, que se trata con metronidazol."
+     "t": "Absceso único derecho, zona endémica, serología positiva",
+     "por": "Son rasgos típicos del absceso amebiano, que se trata con metronidazol.",
+     "full": "Edad menor de 40, absceso único en el lóbulo derecho, viaje a zona endémica y serología positiva"
     },
     {
      "t": "Diabetes y hemocultivo positivo",

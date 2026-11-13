@@ -8,8 +8,9 @@
    "enunciado": "¿Cómo define la clase a la enfermedad por reflujo gastroesofágico (ERGE)?",
    "opciones": [
     {
-     "t": "Un desorden de la motilidad en el que el contenido gástrico regresa al esófago o a la cavidad oral y produce síntomas y complicaciones",
-     "por": "Es la definición de la lámina: lo importante es que el reflujo cause síntomas o complicaciones, no que exista reflujo aislado."
+     "t": "Trastorno de motilidad con reflujo gástrico a esófago y síntomas",
+     "por": "Es la definición de la lámina: lo importante es que el reflujo cause síntomas o complicaciones, no que exista reflujo aislado.",
+     "full": "Un desorden de la motilidad en el que el contenido gástrico regresa al esófago o a la cavidad oral y produce síntomas y complicaciones"
     },
     {
      "t": "Una infección del esófago por Helicobacter pylori",
@@ -64,8 +65,9 @@
    "enunciado": "¿En qué nivel está el estrechamiento broncoaórtico del esófago y cuánto mide?",
    "opciones": [
     {
-     "t": "Detrás de la bifurcación traqueal, a la altura de D4, de 15 a 17 mm",
-     "por": "Es el segundo estrechamiento anatómico que describe la lámina."
+     "t": "Tras la bifurcación traqueal, a nivel D4, de 15 a 17 mm",
+     "por": "Es el segundo estrechamiento anatómico que describe la lámina.",
+     "full": "Detrás de la bifurcación traqueal, a la altura de D4, de 15 a 17 mm"
     },
     {
      "t": "A la altura del cricoides, de 14 mm",
@@ -120,8 +122,9 @@
    "enunciado": "¿Qué plexo de la inervación intrínseca del esófago es el de Auerbach?",
    "opciones": [
     {
-     "t": "El plexo mientérico, entre las capas muscular circular y longitudinal",
-     "por": "La lámina lo señala: Mientérico = Auerbach."
+     "t": "Plexo mientérico",
+     "por": "La lámina lo señala: Mientérico = Auerbach.",
+     "full": "El plexo mientérico, entre las capas muscular circular y longitudinal"
     },
     {
      "t": "El plexo submucoso",
@@ -263,8 +266,9 @@
    "enunciado": "En la clasificación de Montreal, ¿qué es la 'ERNE'?",
    "opciones": [
     {
-     "t": "Enfermedad por reflujo no erosiva: síntomas típicos de reflujo sin lesión visible en la endoscopía",
-     "por": "Es el síndrome típico de reflujo del grupo de síndromes sintomáticos."
+     "t": "Síntomas típicos con endoscopía normal",
+     "por": "Es el síndrome típico de reflujo del grupo de síndromes sintomáticos.",
+     "full": "Enfermedad por reflujo no erosiva: síntomas típicos de reflujo sin lesión visible en la endoscopía"
     },
     {
      "t": "Esofagitis erosiva",
@@ -293,8 +297,9 @@
    "enunciado": "Paciente con pirosis y regurgitación típicas, sin signos de alarma. ¿Cuál es el siguiente paso según las guías de la clase?",
    "opciones": [
     {
-     "t": "Prueba terapéutica con inhibidor de la bomba de protones (IBP) de 2 a 4 semanas",
-     "por": "Las guías recomiendan empezar con una prueba terapéutica en la ERGE típica."
+     "t": "IBP de prueba por 2 a 4 semanas",
+     "por": "Las guías recomiendan empezar con una prueba terapéutica en la ERGE típica.",
+     "full": "Prueba terapéutica con inhibidor de la bomba de protones (IBP) de 2 a 4 semanas"
     },
     {
      "t": "Endoscopía inmediata",
@@ -325,8 +330,9 @@
    "enunciado": "¿Cuándo está indicada la endoscopía en ERGE?",
    "opciones": [
     {
-     "t": "Ante signos de alarma, riesgo de esófago de Barrett o mala respuesta a IBP",
-     "por": "Son los tres criterios de la lámina."
+     "t": "Signos de alarma o riesgo de Barrett",
+     "por": "Son los tres criterios de la lámina.",
+     "full": "Ante signos de alarma, riesgo de esófago de Barrett o mala respuesta a IBP"
     },
     {
      "t": "En todo paciente con pirosis",
@@ -418,8 +424,9 @@
    "enunciado": "Paciente con pirosis, sin datos de alarma, no mejora con IBP. La endoscopía sin IBP es normal. Luego se hace pH con cápsula sin IBP y el tiempo de exposición ácida (TEA) es 7 %. ¿Qué concluye el algoritmo?",
    "opciones": [
     {
-     "t": "Diagnóstico de ERGE, porque el TEA es mayor de 6 %",
-     "por": "TEA >6 % confirma ERGE; de 4 a 6 % no es concluyente y <4 % apunta a otras causas."
+     "t": "ERGE confirmada, porque el TEA supera 6 %",
+     "por": "TEA >6 % confirma ERGE; de 4 a 6 % no es concluyente y <4 % apunta a otras causas.",
+     "full": "Diagnóstico de ERGE, porque el TEA es mayor de 6 %"
     },
     {
      "t": "No concluyente, se repite la prueba",
@@ -451,8 +458,9 @@
    "enunciado": "¿Cuál de estas medidas de estilo de vida recomienda la clase?",
    "opciones": [
     {
-     "t": "Elevar la cabecera de la cama 15 a 25 cm y no acostarse hasta 2 a 3 horas después de comer",
-     "por": "Ambas reducen el reflujo nocturno."
+     "t": "Elevar cabecera 15 a 25 cm y no acostarse 2 a 3 h tras comer",
+     "por": "Ambas reducen el reflujo nocturno.",
+     "full": "Elevar la cabecera de la cama 15 a 25 cm y no acostarse hasta 2 a 3 horas después de comer"
     },
     {
      "t": "Comidas copiosas y poco frecuentes",
@@ -508,8 +516,9 @@
    "enunciado": "¿Cuál es una indicación de cirugía antirreflujo (fundoplicatura)?",
    "opciones": [
     {
-     "t": "ERGE complicada, como esofagitis erosiva que no cicatriza o Barrett",
-     "por": "Es una indicación de la lámina."
+     "t": "ERGE complicada o Barrett",
+     "por": "Es una indicación de la lámina.",
+     "full": "ERGE complicada, como esofagitis erosiva que no cicatriza o Barrett"
     },
     {
      "t": "Hernia hiatal gigante",
@@ -536,8 +545,9 @@
    "enunciado": "¿Cómo actúa la radiofrecuencia (procedimiento de Stretta) en el tratamiento endoscópico de la ERGE?",
    "opciones": [
     {
-     "t": "Aplica corriente oscilante en la muscular externa 2 cm arriba y abajo del EEI; el mecanismo exacto se desconoce",
-     "por": "Así lo describe la lámina."
+     "t": "Corriente oscilante en la muscular 2 cm arriba y abajo del EEI",
+     "por": "Así lo describe la lámina.",
+     "full": "Aplica corriente oscilante en la muscular externa 2 cm arriba y abajo del EEI; el mecanismo exacto se desconoce"
     },
     {
      "t": "Crea de una a tres plicas con una máquina de coser endoscópica",

@@ -36,8 +36,9 @@
    "enunciado": "¿Qué hace la FGF23?",
    "opciones": [
     {
-     "t": "Aumenta la eliminación de fósforo por la orina, baja el calcitriol e inhibe débilmente la PTH",
-     "por": "El resultado es que baja el fósforo sérico."
+     "t": "Aumenta fosfaturia, baja calcitriol e inhibe poco la PTH",
+     "por": "El resultado es que baja el fósforo sérico.",
+     "full": "Aumenta la eliminación de fósforo por la orina, baja el calcitriol e inhibe débilmente la PTH"
     },
     {
      "t": "Aumenta la absorción intestinal de calcio",
@@ -64,8 +65,9 @@
    "enunciado": "¿Qué hace el calcitriol?",
    "opciones": [
     {
-     "t": "Aumenta la absorción intestinal de calcio y fósforo y frena la PTH por retroalimentación negativa",
-     "por": "Por eso sube el calcio y el fósforo sérico. También favorece la resorción ósea junto con la PTH."
+     "t": "Sube absorción de Ca y P intestinales y frena la PTH",
+     "por": "Por eso sube el calcio y el fósforo sérico. También favorece la resorción ósea junto con la PTH.",
+     "full": "Aumenta la absorción intestinal de calcio y fósforo y frena la PTH por retroalimentación negativa"
     },
     {
      "t": "Baja el calcio sérico",
@@ -92,8 +94,9 @@
    "enunciado": "¿Cómo se define la hipocalcemia?",
    "opciones": [
     {
-     "t": "Calcio corregido menor de 8.4 mg/dL o calcio ionizado menor de 4.2 mg/dL",
-     "por": "Se acompaña de un algoritmo según la PTH: si está baja, hipoparatiroidismo; si está alta, deficiencia de vitamina D, resistencia a la PTH o quelación."
+     "t": "Ca corregido <8.4 mg/dL",
+     "por": "Se acompaña de un algoritmo según la PTH: si está baja, hipoparatiroidismo; si está alta, deficiencia de vitamina D, resistencia a la PTH o quelación.",
+     "full": "Calcio corregido menor de 8.4 mg/dL o calcio ionizado menor de 4.2 mg/dL"
     },
     {
      "t": "Calcio mayor de 10.3 mg/dL",
@@ -121,8 +124,9 @@
    "enunciado": "Un paciente tiene calcio bajo con PTH baja o inapropiadamente normal. ¿Qué piensas?",
    "opciones": [
     {
-     "t": "Hipoparatiroidismo (por ejemplo tras una cirugía de cuello); también puede deberse a hipomagnesemia",
-     "por": "Con calcio bajo, la PTH debería estar alta. Si no lo está, la glándula no responde o no existe."
+     "t": "Hipoparatiroidismo o falta de Mg",
+     "por": "Con calcio bajo, la PTH debería estar alta. Si no lo está, la glándula no responde o no existe.",
+     "full": "Hipoparatiroidismo (por ejemplo tras una cirugía de cuello); también puede deberse a hipomagnesemia"
     },
     {
      "t": "Deficiencia de vitamina D",
@@ -205,8 +209,9 @@
    "enunciado": "Paciente con hipocalcemia grave y convulsiones. ¿Qué tratamiento corresponde?",
    "opciones": [
     {
-     "t": "Gluconato de calcio al 10 %: 10 mL en 50 a 100 mL de dextrosa 5 % en 10 a 20 minutos, y luego infusión",
-     "por": "La hipocalcemia sintomática grave se trata por vía IV porque puede producir convulsiones y arritmias."
+     "t": "Gluconato de calcio 10 % IV",
+     "por": "La hipocalcemia sintomática grave se trata por vía IV porque puede producir convulsiones y arritmias.",
+     "full": "Gluconato de calcio al 10 %: 10 mL en 50 a 100 mL de dextrosa 5 % en 10 a 20 minutos, y luego infusión"
     },
     {
      "t": "Calcio oral solo",
@@ -233,8 +238,9 @@
    "enunciado": "¿Cómo se define la hipercalcemia?",
    "opciones": [
     {
-     "t": "Calcio corregido mayor de 10.3 mg/dL o calcio ionizado mayor de 5.2 mg/dL",
-     "por": "Se parte de la PTH: si está elevada, hiperparatiroidismo; si está suprimida, neoplasia, exceso de vitamina D o enfermedades granulomatosas."
+     "t": "Ca corregido >10.3 mg/dL",
+     "por": "Se parte de la PTH: si está elevada, hiperparatiroidismo; si está suprimida, neoplasia, exceso de vitamina D o enfermedades granulomatosas.",
+     "full": "Calcio corregido mayor de 10.3 mg/dL o calcio ionizado mayor de 5.2 mg/dL"
     },
     {
      "t": "Calcio menor de 8.4 mg/dL",
@@ -261,8 +267,9 @@
    "enunciado": "¿Cuál de estas causas de hipercalcemia aumenta la resorción ósea?",
    "opciones": [
     {
-     "t": "Hiperparatiroidismo primario o metástasis óseas (PTHrP)",
-     "por": "El hueso libera calcio. También el mieloma y el hipertiroidismo."
+     "t": "Hiperparatiroidismo primario o PTHrP",
+     "por": "El hueso libera calcio. También el mieloma y el hipertiroidismo.",
+     "full": "Hiperparatiroidismo primario o metástasis óseas (PTHrP)"
     },
     {
      "t": "Intoxicación por vitamina D",
@@ -289,8 +296,9 @@
    "enunciado": "Paciente con calcio de 16 mg/dL. ¿Qué tratamiento sigue?",
    "opciones": [
     {
-     "t": "Hidratación con suero salino, diuréticos de asa y bifosfonatos con calcitonina",
-     "por": "El suero salino repone volumen y aumenta la eliminación de calcio, la furosemida la refuerza y los bifosfonatos frenan la resorción ósea. Más de 18 mg/dL puede requerir hemodiálisis."
+     "t": "Suero salino, asa y bifosfonatos",
+     "por": "El suero salino repone volumen y aumenta la eliminación de calcio, la furosemida la refuerza y los bifosfonatos frenan la resorción ósea. Más de 18 mg/dL puede requerir hemodiálisis.",
+     "full": "Hidratación con suero salino, diuréticos de asa y bifosfonatos con calcitonina"
     },
     {
      "t": "Calcio oral",
@@ -354,8 +362,9 @@
    "enunciado": "¿Dónde se reabsorbe la mayor parte del magnesio filtrado?",
    "opciones": [
     {
-     "t": "En la rama ascendente gruesa del asa de Henle (60 a 70 %)",
-     "por": "Otra parte, menor, se reabsorbe en el túbulo contorneado distal."
+     "t": "Rama ascendente gruesa del asa de Henle",
+     "por": "Otra parte, menor, se reabsorbe en el túbulo contorneado distal.",
+     "full": "En la rama ascendente gruesa del asa de Henle (60 a 70 %)"
     },
     {
      "t": "Túbulo proximal",
@@ -410,8 +419,9 @@
    "enunciado": "¿Cuál es una causa de hipomagnesemia?",
    "opciones": [
     {
-     "t": "Diuréticos de asa, aminoglucósidos, cisplatino o alcoholismo",
-     "por": "Producen pérdida renal de magnesio o ingesta baja."
+     "t": "Diuréticos de asa, aminoglucósidos, cisplatino o alcohol",
+     "por": "Producen pérdida renal de magnesio o ingesta baja.",
+     "full": "Diuréticos de asa, aminoglucósidos, cisplatino o alcoholismo"
     },
     {
      "t": "Hiperparatiroidismo",
@@ -438,8 +448,9 @@
    "enunciado": "Paciente con hipomagnesemia y torsades de pointes. ¿Qué se da?",
    "opciones": [
     {
-     "t": "Sulfato de magnesio 1 a 2 g IV en bolo en 15 minutos",
-     "por": "Es una emergencia: el magnesio estabiliza la arritmia."
+     "t": "Sulfato de magnesio IV",
+     "por": "Es una emergencia: el magnesio estabiliza la arritmia.",
+     "full": "Sulfato de magnesio 1 a 2 g IV en bolo en 15 minutos"
     },
     {
      "t": "Óxido de magnesio oral",
