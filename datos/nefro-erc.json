@@ -89,7 +89,7 @@
    "area": "nefro",
    "tema": "ERC",
    "dif": 2,
-   "enunciado": "Mujer de 60 años con HTA de 15 años de evolución mal controlada, sin diabetes. Perfil de riesgo para ERC: ¿qué mecanismo explica el daño renal?",
+   "enunciado": "Mujer de 60 años con hipertensión arterial (HTA) de 15 años de evolución mal controlada y sin diabetes. Si desarrolla ERC, ¿qué mecanismo explica con más probabilidad el daño renal?",
    "opciones": [
     {
      "t": "Nefropatía hipertensiva: la presión alta lesiona de forma sostenida el glomérulo y los vasos",
@@ -109,7 +109,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La HTA sostenida es la segunda causa de ERC. Una vez iniciada la lesión, la compensación por hiperfiltración y el SRAA perpetúan el daño.",
+   "explicacion": "La HTA sostenida es la segunda causa de ERC. La presión alta daña los vasos y el glomérulo; luego la hiperfiltración de las nefronas restantes y la activación del SRAA (sistema renina-angiotensina-aldosterona) perpetúan la lesión.",
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 12 y 13"
   },
   {
@@ -300,8 +300,8 @@
      "por": "Aplicaste el factor 0.85, que es solo para mujeres."
     },
     {
-     "t": "≈ 60 mL/min: G2",
-     "por": "Cuenta mal: el denominador es 72 × creatinina."
+     "t": "≈ 45 mL/min: G3a",
+     "por": "Intercambiaste la edad (72) y el peso (68). La edad se resta de 140 y el peso multiplica."
     },
     {
      "t": "≈ 125 mL/min: G1",
@@ -333,8 +333,8 @@
      "por": "Aplicaste el factor 1.21, que es de MDRD para afroestadounidenses."
     },
     {
-     "t": "≈ 18 mL/min",
-     "por": "Error de cuenta: la creatinina se multiplica por 72 en el denominador."
+     "t": "≈ 32 mL/min",
+     "por": "Aplicaste el factor 0.742, que pertenece a MDRD; en Cockcroft-Gault el factor para mujeres es 0.85."
     }
    ],
    "correcta": 0,
@@ -463,23 +463,23 @@
    "opciones": [
     {
      "t": "Paracetamol",
-     "por": "La lámina lo señala como de elección."
+     "por": "La lámina lo señala como analgésico de elección: no reduce el flujo sanguíneo del riñón."
     },
     {
      "t": "Ibuprofeno",
-     "por": "AINE nefrotóxico."
+     "por": "Es un AINE (antiinflamatorio no esteroideo): bloquea las prostaglandinas que mantienen el flujo sanguíneo renal y puede empeorar la ERC."
     },
     {
      "t": "Diclofenaco",
-     "por": "AINE nefrotóxico."
+     "por": "También es un AINE nefrotóxico: baja la perfusión del riñón y acelera la pérdida de función."
     },
     {
      "t": "Naproxeno",
-     "por": "AINE nefrotóxico."
+     "por": "Igual que los anteriores, es un AINE; en ERC deben evitarse."
     }
    ],
    "correcta": 0,
-   "explicacion": "AINE = antiinflamatorios no esteroideos; reducen el flujo renal. Evitar nefrotóxicos es parte del tratamiento.",
+   "explicacion": "AINE = antiinflamatorios no esteroideos (ibuprofeno, diclofenaco, naproxeno). Inhiben las prostaglandinas, que dilatan la arteriola aferente del glomérulo; sin ellas baja la filtración. Por eso, en ERC se evitan los nefrotóxicos y se usa paracetamol.",
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 17"
   },
   {
@@ -524,19 +524,19 @@
     },
     {
      "t": "K⁺ de 5.2 controlado con dieta",
-     "por": "No es refractario ni extremo."
+     "por": "Está apenas elevado y se maneja con dieta o fármacos; el criterio es K⁺ >6.5 que no responde al tratamiento."
     },
     {
      "t": "TFG de 40 sin síntomas",
-     "por": "El umbral es TFG <15 con síntomas o <10 en diabéticos."
+     "por": "Es G3b: se vigila y se trata. El umbral de diálisis es TFG <15 con síntomas, o <10 en diabéticos."
     },
     {
      "t": "Creatinina de 2 mg/dL aislada",
-     "por": "No es criterio."
+     "por": "Una creatinina sola no indica diálisis; se valora con la TFG, los síntomas y las complicaciones."
     }
    ],
    "correcta": 0,
-   "explicacion": "Criterios: TFG <15 sintomático o <10 en diabetes; síntomas urémicos; K⁺ >6.5 refractario; acidosis con pH <7.2 o HCO₃⁻ <12; sobrecarga hídrica refractaria; desnutrición.",
+   "explicacion": "Criterios de la lámina para iniciar diálisis: TFG <15 con síntomas (o <10 en diabetes); síntomas urémicos; K⁺ >6.5 que no cede con tratamiento; acidosis con pH <7.2 o HCO₃⁻ <12; sobrecarga hídrica refractaria a diuréticos; desnutrición. En todos, el punto es que el tratamiento médico ya no basta.",
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 18"
   },
   {
@@ -552,15 +552,15 @@
     },
     {
      "t": "Acidosis con pH menor de 7.2",
-     "por": "El caso no da gases."
+     "por": "El caso no da gases arteriales; el dato clave es el edema pulmonar."
     },
     {
      "t": "Hiperpotasemia mayor de 6.5",
-     "por": "No se menciona."
+     "por": "El caso no menciona el potasio."
     },
     {
      "t": "Desnutrición con albúmina baja",
-     "por": "No es el motivo urgente."
+     "por": "Es un criterio de la lámina, pero no explica un edema agudo de pulmón."
     }
    ],
    "correcta": 0,
@@ -576,23 +576,23 @@
    "opciones": [
     {
      "t": "Náuseas y vómitos incoercibles, encefalopatía, pericarditis, neuropatía",
-     "por": "Están listados."
+     "por": "Son manifestaciones de la uremia (toxinas acumuladas) que aparecen en la lámina como indicación de diálisis."
     },
     {
      "t": "Prurito leve aislado",
-     "por": "No se lista."
+     "por": "Un síntoma leve y aislado no obliga a dialisar; la lámina habla de síntomas graves."
     },
     {
      "t": "Dolor lumbar",
-     "por": "No es urémico."
+     "por": "No es una manifestación de la uremia."
     },
     {
      "t": "Cefalea ocasional",
-     "por": "No se lista."
+     "por": "Es inespecífica y no figura entre los síntomas urémicos de la lámina."
     }
    ],
    "correcta": 0,
-   "explicacion": "Los síntomas urémicos reflejan acumulación de toxinas y son indicación de TRR (terapia de reemplazo renal).",
+   "explicacion": "La uremia es el conjunto de síntomas por acumulación de toxinas que el riñón ya no elimina. Los graves (vómitos incoercibles, encefalopatía, pericarditis, neuropatía) son indicación de terapia de reemplazo renal (TRR): diálisis o trasplante.",
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 18"
   },
   {
@@ -604,23 +604,23 @@
    "opciones": [
     {
      "t": "TFG menor de 60 por más de 3 meses",
-     "por": "Se estadía con KDIGO."
+     "por": "Es el criterio de la conclusión: por debajo de 60 ya hay pérdida de función (G3 o peor) y la cronicidad se define por más de 3 meses."
     },
     {
      "t": "TFG menor de 90 por 1 mes",
-     "por": "Es el límite de G1."
+     "por": "Falla en ambos puntos: 90 es el límite de G1 (aún normal) y 1 mes no es cronicidad."
     },
     {
      "t": "TFG menor de 15 por 3 meses",
-     "por": "Es G5."
+     "por": "Es G5, un estadio avanzado; el criterio mínimo de ERC es TFG <60."
     },
     {
      "t": "TFG menor de 30 por 6 meses",
-     "por": "Es G4."
+     "por": "Es G4; el umbral para definir ERC es más alto (<60)."
     }
    ],
    "correcta": 0,
-   "explicacion": "ERC si hay TFG <60 por más de 3 meses o marcadores de daño.",
+   "explicacion": "ERC = TFG <60 mL/min/1.73 m² por más de 3 meses, o marcadores de daño renal (como albuminuria) aunque la TFG sea normal. Luego se estadía con KDIGO.",
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 24",
    "contexto": "KDIGO (Kidney Disease: Improving Global Outcomes): organización internacional que publica las guías para clasificar y tratar las enfermedades renales. TFG = tasa de filtrado glomerular, el volumen de sangre que los riñones filtran por minuto."
   }

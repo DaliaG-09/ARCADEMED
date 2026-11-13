@@ -9,23 +9,23 @@
    "opciones": [
     {
      "t": "Glomeruloesclerosis progresiva por los efectos crónicos de la hiperglucemia, con albuminuria persistente, HTA y caída del filtrado",
-     "por": "Definición de la lámina."
+     "por": "La hiperglucemia mantenida daña el glomérulo y lo esclerosa poco a poco. Se manifiesta con albuminuria persistente, hipertensión y caída del filtrado glomerular."
     },
     {
      "t": "Infección del riñón en diabéticos",
-     "por": "Eso es pielonefritis."
+     "por": "La infección del riñón es pielonefritis; la nefropatía diabética es un daño por la glucosa alta, no infeccioso."
     },
     {
      "t": "Obstrucción por cálculos en diabéticos",
-     "por": "Es litiasis."
+     "por": "La obstrucción por cálculos es litiasis, otro problema."
     },
     {
      "t": "Necrosis tubular aguda por contraste",
-     "por": "Es IRA."
+     "por": "La necrosis tubular por contraste es una lesión renal aguda, no una nefropatía crónica por diabetes."
     }
    ],
    "correcta": 0,
-   "explicacion": "Con riesgo elevado de enfermedad renal terminal.",
+   "explicacion": "Es la primera causa de enfermedad renal terminal en muchos países, y por eso se tamiza cada año con albuminuria.",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 7"
   },
   {
@@ -37,19 +37,19 @@
    "opciones": [
     {
      "t": "Esclerosis nodular de Kimmelstiel-Wilson",
-     "por": "Además: engrosamiento de la MBG, expansión mesangial, hialinosis arteriolar."
+     "por": "Los nódulos de Kimmelstiel-Wilson son acúmulos de matriz mesangial en el glomérulo. Junto a ellos se ven engrosamiento de la membrana basal, expansión mesangial e hialinosis arteriolar."
     },
     {
      "t": "Semilunas epiteliales",
-     "por": "Son de GNRP."
+     "por": "Las semilunas son de la glomerulonefritis rápidamente progresiva."
     },
     {
      "t": "Espigas subepiteliales",
-     "por": "Son de membranosa."
+     "por": "Las espigas subepiteliales son de la nefropatía membranosa."
     },
     {
      "t": "Fusión de pedicelos solamente",
-     "por": "Es de cambios mínimos."
+     "por": "La fusión de pedicelos sin otra lesión es de cambios mínimos."
     }
    ],
    "correcta": 0,
@@ -65,19 +65,19 @@
    "opciones": [
     {
      "t": "Mal control glucémico sostenido (HbA1c elevada)",
-     "por": "También HTA, dislipidemia, obesidad, tabaquismo y antecedentes familiares."
+     "por": "La glucosa alta sostenida es el factor principal. Se suman hipertensión, dislipidemia, obesidad, tabaquismo y antecedentes familiares."
     },
     {
      "t": "Dieta baja en sal",
-     "por": "Es protectora."
+     "por": "Reducir la sal protege al riñón."
     },
     {
      "t": "Hipotensión",
-     "por": "No."
+     "por": "La hipotensión no daña el riñón diabético; el factor de riesgo es la hipertensión."
     },
     {
      "t": "Control glucémico estricto",
-     "por": "Es protector."
+     "por": "Controlar bien la glucosa protege al riñón."
     }
    ],
    "correcta": 0,
@@ -94,19 +94,19 @@
    "opciones": [
     {
      "t": "Más de 30 %",
-     "por": "Estudios locales."
+     "por": "Los estudios locales señalan que más de 30 % de los pacientes en hemodiálisis crónica tiene diabetes como causa principal."
     },
     {
      "t": "Menos de 5 %",
-     "por": "Muy bajo."
+     "por": "Es un porcentaje demasiado bajo para la realidad local."
     },
     {
      "t": "10 %",
-     "por": "No."
+     "por": "Es menor que lo que muestran los estudios locales."
     },
     {
      "t": "Casi 100 %",
-     "por": "No."
+     "por": "Es exagerado: hay otras causas de enfermedad renal terminal."
     }
    ],
    "correcta": 0,
@@ -122,19 +122,19 @@
    "opciones": [
     {
      "t": "Microalbuminuria (30 a 300 mg/día)",
-     "por": "Puede preceder años al deterioro de la función."
+     "por": "Es la señal más precoz: aparece años antes de que suba la creatinina, y permite actuar a tiempo. En esta etapa la TFG suele estar normal o aumentada (hiperfiltración)."
     },
     {
      "t": "Creatinina elevada",
-     "por": "Es tardía."
+     "por": "Cuando sube la creatinina ya hay daño importante."
     },
     {
      "t": "Edema generalizado",
-     "por": "Es de etapas intermedias."
+     "por": "Aparece en etapas intermedias, no en el diagnóstico precoz."
     },
     {
      "t": "Uremia",
-     "por": "Es de etapas avanzadas."
+     "por": "Es propia de etapas avanzadas."
     }
    ],
    "correcta": 0,
@@ -150,19 +150,19 @@
    "opciones": [
     {
      "t": "En DM1 después de 5 años del diagnóstico; en DM2 puede estar desde el inicio",
-     "por": "Según la lámina."
+     "por": "Es lo que indica la lámina: en DM1 la albuminuria aparece tras unos 5 años; en DM2, como no se sabe cuándo empezó, puede estar desde el inicio."
     },
     {
      "t": "En DM1 desde el inicio",
-     "por": "Es en DM2."
+     "por": "Eso corresponde a la DM2, donde el inicio es incierto."
     },
     {
      "t": "A los 30 años en ambas",
-     "por": "No."
+     "por": "La aparición depende del tiempo de diabetes, no de una edad fija."
     },
     {
      "t": "Nunca en DM2",
-     "por": "Sí aparece."
+     "por": "Sí aparece en DM2, y a veces ya está presente al diagnóstico."
     }
    ],
    "correcta": 0,
@@ -178,19 +178,19 @@
    "opciones": [
     {
      "t": "Intermedia (nefropatía incipiente o establecida)",
-     "por": "Con caída progresiva de TFG."
+     "por": "Hay proteinuria mayor de 300 mg/día, edema e hipertensión; el filtrado cae poco a poco. Suele coexistir con retinopatía y neuropatía."
     },
     {
      "t": "Fase silente",
-     "por": "Solo microalbuminuria."
+     "por": "La fase silente solo tiene microalbuminuria."
     },
     {
      "t": "Avanzada (ERC 4 a 5)",
-     "por": "Hay uremia."
+     "por": "En la avanzada ya hay síntomas urémicos, y este paciente no los tiene."
     },
     {
      "t": "Sin nefropatía",
-     "por": "Sí hay."
+     "por": "Sí hay nefropatía: la proteinuria ya es clara."
     }
    ],
    "correcta": 0,
@@ -206,19 +206,19 @@
    "opciones": [
     {
      "t": "Síntomas urémicos, anemia normocítica, acidosis, hiperpotasemia y HTA resistente",
-     "por": "Necesidad de diálisis."
+     "por": "En esta etapa el riñón ya casi no funciona y se prepara la terapia de reemplazo (diálisis o trasplante)."
     },
     {
      "t": "Solo microalbuminuria",
-     "por": "Es etapa inicial."
+     "por": "Es un hallazgo de la etapa inicial, no de la avanzada."
     },
     {
      "t": "TFG aumentada",
-     "por": "Es etapa inicial."
+     "por": "Es un hallazgo de la etapa inicial, no de la avanzada."
     },
     {
      "t": "Sin síntomas",
-     "por": "No."
+     "por": "En la etapa avanzada sí hay síntomas urémicos."
     }
    ],
    "correcta": 0,
@@ -234,19 +234,19 @@
    "opciones": [
     {
      "t": "Albuminuria persistente >30 mg/g (2 de 3 muestras en 3 a 6 meses), diabetes >5 años, HTA y ausencia de otras causas",
-     "por": "Conclusión de la clase."
+     "por": "Se necesita persistencia (2 de 3 muestras en 3 a 6 meses), tiempo de diabetes, hipertensión y descartar otras causas, para no etiquetar como diabética una nefropatía de otro origen."
     },
     {
      "t": "Una tira reactiva positiva",
-     "por": "No."
+     "por": "Una sola tira puede dar falsos positivos (fiebre, ejercicio, infección); se necesita confirmar."
     },
     {
      "t": "Solo creatinina elevada",
-     "por": "No."
+     "por": "La creatinina sube tarde y no distingue la causa."
     },
     {
      "t": "Retinopatía sola",
-     "por": "Refuerza, no basta."
+     "por": "La retinopatía apoya el diagnóstico, pero no basta por sí sola."
     }
    ],
    "correcta": 0,
@@ -262,19 +262,19 @@
    "opciones": [
     {
      "t": "Sedimento activo, hematuria, caída rápida de TFG, ausencia de retinopatía o duda diagnóstica",
-     "por": "Lámina de exámenes auxiliares."
+     "por": "Esos hallazgos sugieren otra enfermedad además de la diabetes. En ese caso la biopsia ayuda a distinguirla."
     },
     {
      "t": "En todos los diabéticos",
-     "por": "No."
+     "por": "No hace falta: la mayoría tiene un cuadro típico que se diagnostica sin biopsia."
     },
     {
      "t": "Cuando hay retinopatía",
-     "por": "Refuerza el diagnóstico de ND."
+     "por": "Con retinopatía el diagnóstico de nefropatía diabética es más probable y no hace falta biopsia."
     },
     {
      "t": "Nunca",
-     "por": "Sí se indica en esos casos."
+     "por": "La biopsia sí se indica en los casos atípicos."
     }
    ],
    "correcta": 0,
@@ -290,19 +290,19 @@
    "opciones": [
     {
      "t": "iSGLT2 (empagliflozina, dapagliflozina)",
-     "por": "Retrasan la progresión y reducen el riesgo CV."
+     "por": "Los iSGLT2 retrasan la progresión de la enfermedad renal y reducen el riesgo cardiovascular, incluso en pacientes con TFG baja."
     },
     {
      "t": "Metformina con TFG <30",
-     "por": "Se usa hasta TFG ≥30."
+     "por": "La metformina se usa con TFG mayor o igual a 30; no es la primera línea renal."
     },
     {
      "t": "Corticoides",
-     "por": "No."
+     "por": "No tratan la nefropatía diabética y empeoran la glucosa."
     },
     {
      "t": "AINE",
-     "por": "Dañan el riñón."
+     "por": "Los AINE dañan el riñón y deben evitarse."
     }
    ],
    "correcta": 0,
@@ -319,19 +319,19 @@
    "opciones": [
     {
      "t": "Menos de 130/80 mmHg",
-     "por": "Con IECA o ARA II."
+     "por": "Menos de 130/80 mmHg, con IECA o ARA II como base."
     },
     {
      "t": "Menos de 160/100",
-     "por": "Alta."
+     "por": "Es una meta demasiado alta para un diabético con albuminuria."
     },
     {
      "t": "Menos de 100/60",
-     "por": "Muy baja."
+     "por": "Es demasiado baja y aumenta el riesgo de hipotensión."
     },
     {
      "t": "Menos de 150/90",
-     "por": "Alta."
+     "por": "Es una meta demasiado alta para un diabético con albuminuria."
     }
    ],
    "correcta": 0,
@@ -347,19 +347,19 @@
    "opciones": [
     {
      "t": "Antagonista selectivo del receptor mineralocorticoide que reduce progresión renal y CV en DM2 con albuminuria",
-     "por": "Está en la tabla."
+     "por": "La finerenona bloquea el receptor de mineralocorticoides (como la espironolactona pero selectiva) y reduce la progresión renal y cardiovascular en DM2 con albuminuria."
     },
     {
      "t": "iSGLT2",
-     "por": "Son dapagliflozina y empagliflozina."
+     "por": "Eso describe a los iSGLT2, que son otro grupo."
     },
     {
      "t": "Agonista GLP-1",
-     "por": "Es semaglutida."
+     "por": "Eso describe a los agonistas de GLP-1."
     },
     {
      "t": "Estatina",
-     "por": "No."
+     "por": "Las estatinas se indican en todo diabético con ERC, pero no son lo que describe esta pregunta."
     }
    ],
    "correcta": 0,
@@ -375,19 +375,19 @@
    "opciones": [
     {
      "t": "TFG <30, albuminuria >500 a 1000 mg/g persistente, progresión rápida o duda diagnóstica",
-     "por": "Lámina de manejo avanzado."
+     "por": "Son los criterios de derivación: TFG baja, albuminuria muy alta o progresión rápida."
     },
     {
      "t": "Solo si hay edema",
-     "por": "No."
+     "por": "El edema es tardío; se deriva antes, según el filtrado y la albuminuria."
     },
     {
      "t": "A todos con HbA1c 7 %",
-     "por": "No."
+     "por": "Un diabético controlado y sin daño renal puede seguirse en atención primaria."
     },
     {
      "t": "Nunca",
-     "por": "Sí se deriva."
+     "por": "Hay criterios claros de derivación."
     }
    ],
    "correcta": 0,
@@ -403,19 +403,19 @@
    "opciones": [
     {
      "t": "Síndrome nefrótico por nefropatía diabética",
-     "por": "Con retinopatía y 20 años de diabetes."
+     "por": "Veinte años de diabetes con retinopatía, edema generalizado, albúmina baja (1.9) y colesterol alto indican síndrome nefrótico por nefropatía diabética."
     },
     {
      "t": "Insuficiencia cardiaca únicamente",
-     "por": "Hay hipoalbuminemia."
+     "por": "La insuficiencia cardiaca no explica la hipoalbuminemia ni el colesterol alto."
     },
     {
      "t": "IRA prerrenal",
-     "por": "Creatinina de 1.2."
+     "por": "La creatinina es casi normal."
     },
     {
      "t": "Cirrosis",
-     "por": "No."
+     "por": "No hay datos de enfermedad hepática crónica."
     }
    ],
    "correcta": 0,
