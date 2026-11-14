@@ -65,7 +65,7 @@
    "area": "nefro",
    "tema": "Glomerulopatías primarias",
    "dif": 2,
-   "enunciado": "¿Qué condiciones se asocian a la nefropatía por cambios mínimos secundaria?",
+   "enunciado": "¿Qué condiciones se asocian a la nefropatía por cambios mínimos secundaria? *",
    "opciones": [
     {
      "t": "AINE, Hodgkin, alergias y vacunas",
@@ -89,7 +89,7 @@
    "explicacion": "Hallazgos de la lámina 13: edema facial y periférico, cefalea, disnea; hematuria en menos de 15 %; albúmina baja; IgG disminuida; gotas lipídicas en las células tubulares.",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 13 y 14",
    "contexto": "AINE = antiinflamatorios no esteroideos. Atopia = tendencia a alergias (asma, rinitis, eccema).",
-   "nota": "La lámina 13 escribe la albúmina como '<2 mg/dL' (error de unidad; debería ser g/dL)."
+   "nota": "* El PPT escribe la albúmina como «<2 mg/dL»; la unidad correcta es g/dL."
   },
   {
    "id": "n-gp1-cm3",

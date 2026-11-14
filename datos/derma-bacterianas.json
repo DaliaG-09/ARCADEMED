@@ -443,7 +443,7 @@
    "area": "derma",
    "tema": "Enfermedades bacterianas de la piel",
    "dif": 2,
-   "enunciado": "¿Cuál es el tratamiento antibiótico de la erisipela?",
+   "enunciado": "¿Cuál es el tratamiento antibiótico de la erisipela? *",
    "opciones": [
     {
      "t": "Amoxicilina por 7 a 21 días",
@@ -466,7 +466,7 @@
    "correcta": 0,
    "explicacion": "Si la fiebre persiste más de 48 horas se valora cambiar el antibiótico.",
    "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 21",
-   "nota": "La lámina llama a la clindamicina 'beta lactámico', pero no lo es: es una lincosamida, útil como alternativa en alergia a penicilinas."
+   "nota": "* El PPT llama «beta lactámico» a la clindamicina; es una lincosamida, no un betalactámico. Sirve como alternativa en alergia a penicilinas."
   },
   {
    "id": "d-bac-erino",
@@ -502,7 +502,7 @@
    "area": "derma",
    "tema": "Enfermedades bacterianas de la piel",
    "dif": 2,
-   "enunciado": "¿Qué agente produce con más frecuencia la celulitis?",
+   "enunciado": "¿Qué agente produce con más frecuencia la celulitis? *",
    "opciones": [
     {
      "t": "Estreptococo β-hemolítico del grupo A o S. aureus",
@@ -525,7 +525,7 @@
    "correcta": 0,
    "explicacion": "Es la enfermedad bacteriana común de la piel, más en adultos de mediana edad, sin diferencia entre sexos.",
    "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 24",
-   "nota": "La lámina escribe 'Streptococo A del grupo B hemolítico'; lo correcto es estreptococo β-hemolítico del grupo A."
+   "nota": "* El PPT escribe «Streptococo A del grupo B hemolítico»; lo correcto es estreptococo β-hemolítico del grupo A (Streptococcus pyogenes)."
   },
   {
    "id": "d-bac-celclin",

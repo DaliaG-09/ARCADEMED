@@ -277,7 +277,7 @@ function vHome(){
       '<button class="btn act" data-act="cards"><b>FLASHCARDS</b><span>'+nDue+' por repasar hoy, repetición espaciada</span></button>'+
     '</div></div>'+
     '<div><p class="label">MUNDOS</p><div class="worlds">'+worlds+'</div></div>'+
-    '<p class="src">Has visto '+vistas+' de '+qs.length+' preguntas. Las marcadas DEMO son de prueba: se reemplazan con las de tus PPT.</p>'+
+    '<p class="src">Has visto '+vistas+' de '+qs.length+' preguntas. Las marcadas DEMO son de prueba: se reemplazan con las de tus PPT. Las preguntas con * al final tienen un dato corregido porque el PPT lo trae mal; al responder te explico qué cambió.</p>'+
     '<div class="foot"><button class="btn small ghost" data-act="backup">Respaldo del progreso</button><button class="btn small ghost" data-act="import">Cargar preguntas</button></div>'+
   '</div>';
 }
@@ -314,7 +314,7 @@ function vPlay(){
     const ok = V.opts[V.picked].ok;
     fb = '<div class="fb '+(ok ? 'ok' : 'bad')+'">'+catBox(ok ? 'ok' : 'bad', V.catMsg || '')+'<h3>'+(ok ? '¡CORRECTO! +'+V.lastXp+' XP' : 'FALLASTE')+'</h3>'+
       (ok ? '' : '<p class="miss"><b>Dónde fallaste:</b> elegiste «'+esc(V.opts[V.picked].t)+'». '+esc(V.opts[V.picked].por || '')+'</p>')+'<p>'+nl(q.explicacion || '')+'</p>'+
-      (q.nota ? '<p class="note"><b>Para tu práctica, no para el examen:</b> '+nl(q.nota)+'</p>' : '')+
+      (q.nota ? (q.nota.charAt(0) === '*' ? '<p class="note"><b>* Corregido, no es igual al PPT:</b> '+nl(q.nota.replace(/^\*\s*/, ''))+'</p>' : '<p class="note"><b>Para tu práctica, no para el examen:</b> '+nl(q.nota)+'</p>') : '')+
       (q.guia ? '<details class="guia"><summary>Lo que dicen las guías</summary><p>'+nl(q.guia.t)+'</p><p class="gsrc">Guía: '+esc(q.guia.f)+'</p></details>' : '')+
       '<p class="src">Fuente: '+esc(q.fuente || 'sin fuente indicada')+'</p></div>'+
       '<div class="row" style="margin-top:14px"><button class="btn gold grow" data-act="next">'+(V.lives <= 0 && V.modo === 'boss' ? 'Ver resultado' : (V.i+1 >= V.ids.length ? 'Terminar ronda' : 'Siguiente'))+'</button></div>';

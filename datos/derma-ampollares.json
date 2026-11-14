@@ -353,7 +353,7 @@
    "area": "derma",
    "tema": "Enfermedades ampollares",
    "dif": 2,
-   "enunciado": "¿Cómo se presenta el penfigoide ampolloso?",
+   "enunciado": "¿Cómo se presenta el penfigoide ampolloso? *",
    "opciones": [
     {
      "t": "Ampollas tensas en piel, con mucosas casi siempre respetadas",
@@ -376,7 +376,7 @@
    "correcta": 0,
    "explicacion": "En la lámina aparece rotulado como 'pénfigo ampollar'.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 18",
-   "nota": "La lámina titula 'Pénfigo ampollar' a esta entidad; el nombre correcto es penfigoide ampolloso."
+   "nota": "* El PPT titula esta enfermedad «pénfigo ampollar»; el nombre correcto es penfigoide ampolloso. El pénfigo es otra enfermedad (acantólisis, anticuerpos contra desmogleínas)."
   },
   {
    "id": "d-amp-dhclin",

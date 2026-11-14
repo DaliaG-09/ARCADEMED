@@ -511,7 +511,7 @@
    "area": "nefro",
    "tema": "Glomerulopatías secundarias",
    "dif": 3,
-   "enunciado": "Varón de 65 años, DM2 de 5 años, prostatectomía 8 días antes. Hematuria persistente, hipertensión, anemia y edemas. Ecografía: riñones sin obstrucción con aumento de reflectividad cortical. Creatinina 6 mg/dL y proteinuria nefrótica que la diabetes no explica por sí sola. ¿Cuál es el diagnóstico más probable?",
+   "enunciado": "Varón de 65 años, DM2 de 5 años, prostatectomía 8 días antes. Hematuria persistente, hipertensión, anemia y edemas. Ecografía: riñones sin obstrucción con aumento de reflectividad cortical. Creatinina 6 mg/dL y proteinuria nefrótica que la diabetes no explica por sí sola. ¿Cuál es el diagnóstico más probable? *",
    "opciones": [
     {
      "t": "GNRP secundaria a vasculitis",
@@ -534,7 +534,7 @@
    "correcta": 0,
    "explicacion": "Plan: biopsia renal, ANCA, anti-MBG, complemento, ANA, y valorar tratamiento inmunosupresor.",
    "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 37 y 38",
-   "nota": "La lámina escribe la proteinuria como '4 gr/dl' (la unidad correcta sería g/día). El diagnóstico es el de la lámina 38."
+   "nota": "* El PPT escribe la proteinuria como «4 gr/dl»; la unidad correcta es g/día."
   }
  ],
  "tarjetas": [

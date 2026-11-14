@@ -121,7 +121,7 @@
    "area": "derma",
    "tema": "Discromías de la piel",
    "dif": 3,
-   "enunciado": "¿Qué es un nevo en halo?",
+   "enunciado": "¿Qué es un nevo en halo? *",
    "opciones": [
     {
      "t": "Halo despigmentado alrededor de un nevus",
@@ -143,7 +143,7 @@
    "correcta": 0,
    "explicacion": "Se describe junto con el vitíligo.",
    "fuente": "PPT Discromías: hipocromía e hipercromía (sem. 14), lám. 9",
-   "nota": "La lámina dice que puede malignizar; en general el nevo en halo se considera benigno, pero conviene vigilar un nevus atípico central."
+   "nota": "* El PPT dice que el nevo en halo «puede malignizar»; el nevo en halo es benigno (el sistema inmune destruye el nevus). Solo se vigila si el nevus central es atípico."
   },
   {
    "id": "d-dis-hpi",

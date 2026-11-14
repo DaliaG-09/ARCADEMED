@@ -34,7 +34,7 @@
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
    "dif": 1,
-   "enunciado": "¿Qué virus de hepatitis se transmiten por vía fecal-oral?",
+   "enunciado": "¿Qué virus de hepatitis se transmiten por vía fecal-oral? *",
    "opciones": [
     {
      "t": "A y E",
@@ -56,7 +56,7 @@
    "correcta": 0,
    "explicacion": "Seis virus pueden causar hepatitis aguda; A y E son fecal-orales; B, C, D y G son por exposición percutánea o mucosa a sangre o líquidos. Solo B, C, D (y G) pueden cronificar; A y E no.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 8",
-   "nota": "La lámina dice que 5 de los 6 virus causan infección crónica; en la práctica A y E no cronifican (salvo E en inmunosuprimidos)."
+   "nota": "* El PPT dice que 5 de los 6 virus causan infección crónica; lo correcto es que cronifican B, C y D (y G), no A ni E (E solo en inmunosuprimidos)."
   },
   {
    "id": "g-hep-hav",

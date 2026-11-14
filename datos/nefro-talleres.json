@@ -1023,7 +1023,7 @@
    "area": "nefro",
    "tema": "Taller electrolitos",
    "dif": 3,
-   "enunciado": "Varón de 30 años, 70 kg, náufrago rescatado tras 2 días a la deriva; bebió abundante agua de mar. Obnubilación severa, hiperreflexia, mioclonías, llanto sin lágrimas y signos de depleción de volumen intracelular.\nAGA: pH 7.22, pCO₂ 30 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 168, Cl⁻ 130 mEq/L. Glucosa 480 mg/dL.\n\nEl taller corrige con una solución cuyo Na⁺ es 68 mEq/L. ¿Cuánto cambia el sodio sérico por cada litro infundido?",
+   "enunciado": "Varón de 30 años, 70 kg, náufrago rescatado tras 2 días a la deriva; bebió abundante agua de mar. Obnubilación severa, hiperreflexia, mioclonías, llanto sin lágrimas y signos de depleción de volumen intracelular.\nAGA: pH 7.22, pCO₂ 30 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 168, Cl⁻ 130 mEq/L. Glucosa 480 mg/dL.\n\nEl taller corrige con una solución cuyo Na⁺ es 68 mEq/L. ¿Cuánto cambia el sodio sérico por cada litro infundido? *",
    "opciones": [
     {
      "t": "−2.33 mEq/L por litro",
@@ -1046,7 +1046,7 @@
    "explicacion": "Cambio por litro = (Na infundido − Na sérico) / (ACT + 1) = (68 − 168) / (42 + 1) = −100 / 43 = −2.33 mEq/L por cada litro.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 6",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, ancianos (más de 65 años) 0.5 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta de la lámina es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
-   "nota": "la lámina rotula la solución como \"hipotónica (D5W)\" pero calcula con 68 mEq/L. La dextrosa al 5% en agua lleva 0 mEq/L de sodio y daría −3.91 por litro. En el examen usa la cifra de la lámina."
+   "nota": "* El PPT rotula la solución como «hipotónica (D5W)» pero calcula con 68 mEq/L de Na⁺; la dextrosa al 5 % en agua tiene 0 mEq/L de sodio (daría −3.91 por litro). La respuesta sigue la cifra de 68 mEq/L del PPT."
   },
   {
    "id": "n-elec-1-vol",
@@ -1199,7 +1199,7 @@
    "area": "nefro",
    "tema": "Taller electrolitos",
    "dif": 3,
-   "enunciado": "Mujer de 45 años, 65 kg, con hipertensión arterial severa refractaria a varios fármacos. Consulta por episodios de debilidad muscular marcada y parestesias proximales. PA 190/110, sin edemas, estado neurológico conservado y abolición de reflejos osteotendinosos.\nAGA: pH 7.48, pCO₂ 46 mmHg, HCO₃⁻ 33 mEq/L.\nElectrolitos: Na⁺ 155, K⁺ 2.5, Cl⁻ 105 mEq/L.\n\nEl taller usa una solución con Na⁺ de 68 mEq/L. ¿Cuánto cambia el sodio por cada litro infundido?",
+   "enunciado": "Mujer de 45 años, 65 kg, con hipertensión arterial severa refractaria a varios fármacos. Consulta por episodios de debilidad muscular marcada y parestesias proximales. PA 190/110, sin edemas, estado neurológico conservado y abolición de reflejos osteotendinosos.\nAGA: pH 7.48, pCO₂ 46 mmHg, HCO₃⁻ 33 mEq/L.\nElectrolitos: Na⁺ 155, K⁺ 2.5, Cl⁻ 105 mEq/L.\n\nEl taller usa una solución con Na⁺ de 68 mEq/L. ¿Cuánto cambia el sodio por cada litro infundido? *",
    "opciones": [
     {
      "t": "−2.60 mEq/L por litro",
@@ -1222,7 +1222,7 @@
    "explicacion": "(68 − 155) / (32.5 + 1) = −87 / 33.5 = −2.60 mEq/L por litro.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 10",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, ancianos (más de 65 años) 0.5 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta de la lámina es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
-   "nota": "igual que en el caso 1, la lámina no aclara cuál solución tiene 68 mEq/L; la dextrosa 5% en agua tiene 0. Usa la cifra de la lámina en el examen."
+   "nota": "* Igual que en el caso 1: el PPT no aclara qué solución tiene 68 mEq/L; la dextrosa al 5 % en agua tiene 0 mEq/L (daría −4.63 por litro). La respuesta sigue la cifra de 68 mEq/L del PPT."
   },
   {
    "id": "n-elec-2-vol",

@@ -354,7 +354,7 @@
    "area": "derma",
    "tema": "Enfermedades virales de la piel",
    "dif": 3,
-   "enunciado": "¿Cómo se usa el imiquimod 5 % en verrugas genitales?",
+   "enunciado": "¿Cómo se usa el imiquimod 5 % en verrugas genitales? *",
    "opciones": [
     {
      "t": "Tres veces por semana al acostarse, lavando a las 6-10 h, hasta 16 semanas",
@@ -377,7 +377,7 @@
    "correcta": 0,
    "explicacion": "La podofilina 25 % y la podofilotoxina 0,5 % no deben usarse en embarazo ni lactancia.",
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 17",
-   "nota": "La lámina llama 'antimicótico' a la podofilina; en realidad es un antimitótico (citotóxico) tópico."
+   "nota": "* El PPT llama «antimicótico» a la podofilina; es un antimitótico (citotóxico) de uso tópico, no trata hongos."
   },
   {
    "id": "d-vir-vacvph",

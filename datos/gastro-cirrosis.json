@@ -149,7 +149,7 @@
    "area": "gastro",
    "tema": "Cirrosis hepática",
    "dif": 3,
-   "enunciado": "En la escala de Child-Pugh, ¿qué rango de puntaje corresponde a la clase B?",
+   "enunciado": "En la escala de Child-Pugh, ¿qué rango de puntaje corresponde a la clase B? *",
    "opciones": [
     {
      "t": "7 a 9 puntos",
@@ -172,7 +172,7 @@
    "explicacion": "Child-Pugh: A 5 a 6 puntos (supervivencia a 1 año ~100 %), B 7 a 9 (~80 %), C 10 a 15 (~45 %). Cada variable da 1 a 3 puntos; 'La cirrosis BATEA el hígado': Bilirrubina, Albúmina, Tiempo de protrombina, Encefalopatía y Ascitis.",
    "fuente": "PPT Cirrosis hepática (sem. 13), lám. 11 y 36",
    "contexto": "Puntaje de Child-Pugh: mide la gravedad de la cirrosis sumando cinco variables (bilirrubina, albúmina, tiempo de protrombina, encefalopatía y ascitis), de 1 a 3 puntos cada una. Sirve para clasificar al paciente en A, B o C y estimar su pronóstico y riesgo quirúrgico.",
-   "nota": "La lámina 11 muestra la clase C como '>10' y la 36 como '10 a 15'; la lámina 11 usa 'mg/dl' para la albúmina cuando son g/dl. Para el examen, usa la tabla de la lámina 36."
+   "nota": "* El PPT usa «mg/dl» para la albúmina en una de las láminas; la unidad correcta es g/dl. Además, la lámina 11 pone la clase C como «>10» y la 36 como «10 a 15»: usa 10 a 15."
   },
   {
    "id": "g-cir-child2",

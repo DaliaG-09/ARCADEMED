@@ -92,7 +92,7 @@
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
    "dif": 2,
-   "enunciado": "¿Cuál es el estándar de oro para el diagnóstico de la úlcera péptica?",
+   "enunciado": "¿Cuál es el estándar de oro para el diagnóstico de la úlcera péptica? *",
    "opciones": [
     {
      "t": "Endoscopía alta con biopsia para H. pylori",
@@ -113,9 +113,9 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Estándar de oro: endoscopía digestiva alta con biopsia. Pruebas no invasivas: test de urea y antígeno fecal; la lámina advierte que los IBP (inhibidores de la bomba de protones) interfieren con el resultado.",
+   "explicacion": "Estándar de oro: endoscopía digestiva alta con biopsia. Pruebas no invasivas: test de urea y antígeno fecal; la lámina advierte que los IBP (inhibidores de la bomba de protones) pueden dar falsos negativos.",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 11 a 13",
-   "nota": "En la práctica los IBP suelen dar falsos NEGATIVOS (por eso se suspenden unas 2 semanas antes del test de aliento o del antígeno fecal); la lámina dice falsos positivos. Sigue la lámina para el examen."
+   "nota": "* El PPT dice que los IBP dan falsos positivos; en realidad dan falsos negativos (por eso se suspenden unas 2 semanas antes del test de aliento o del antígeno fecal)."
   },
   {
    "id": "g-eup-biopsia",
