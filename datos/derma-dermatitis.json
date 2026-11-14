@@ -1,0 +1,733 @@
+{
+ "preguntas": [
+  {
+   "id": "d-dmt-ad",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 1,
+   "enunciado": "¿Cómo se caracteriza la dermatitis atópica?",
+   "opciones": [
+    {
+     "t": "Muy pruriginosa, con edema epidérmico, en cara y flexuras",
+     "por": "Es un trastorno frecuente, extremadamente pruriginoso y de causa desconocida, con edema epidérmico, que suele afectar cara y zonas de flexión.",
+     "full": "Muy pruriginosa, de causa desconocida, con edema epidérmico y afectación de cara y flexuras"
+    },
+    {
+     "t": "Infección bacteriana aguda de causa conocida",
+     "por": "No es una infección y su causa se considera desconocida."
+    },
+    {
+     "t": "Erupción ampollar por autoanticuerpos",
+     "por": "No es una enfermedad ampollar autoinmune."
+    },
+    {
+     "t": "Eritema facial persistente sin picor",
+     "por": "El picor es su rasgo cardinal; el eritema sin picor sugiere rosácea."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la dermatitis atópica hay prurito constante; el rascado produce engrosamiento crónico de la piel (liquenificación), con xerodermia y fisuras por estrato córneo alterado. Cerca del 30 % tiene asma.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 8"
+  },
+  {
+   "id": "d-dmt-adsint",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "enunciado": "¿Qué asociación tiene la dermatitis atópica con el asma?",
+   "opciones": [
+    {
+     "t": "Cerca del 30 % de los pacientes tiene asma",
+     "por": "La clase señala asma en 30 % de los pacientes con dermatitis atópica."
+    },
+    {
+     "t": "Nunca se asocia con asma",
+     "por": "Se asocia a otras enfermedades atópicas, entre ellas el asma."
+    },
+    {
+     "t": "Todos los pacientes tienen asma",
+     "por": "La cifra es de 30 %, no del 100 %."
+    },
+    {
+     "t": "Solo en mayores de 65 años",
+     "por": "La dermatitis atópica es muy frecuente en lactantes y niños."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Signos y síntomas: prurito constante, liquenificación, xerodermia, fisuras en la piel y asma en 30 %.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 9"
+  },
+  {
+   "id": "d-dmt-adhall",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 3,
+   "contexto": "Estos hallazgos clínicos no son patognomónicos: apoyan el diagnóstico de dermatitis atópica, pero ninguno la confirma por sí solo.",
+   "enunciado": "¿Cuál de estos hallazgos es de la dermatitis atópica?",
+   "opciones": [
+    {
+     "t": "Pliegue de Dennie-Morgan y palmas hiperlineales",
+     "por": "La tabla de hallazgos no patognomónicos incluye pliegue infraorbitario de Dennie-Morgan, oscurecimiento periocular y palmas y plantas hiperlineales."
+    },
+    {
+     "t": "Pápulas en bóveda con telangiectasias centrofaciales",
+     "por": "Corresponde a la rosácea pápulopustulosa, no a la dermatitis atópica."
+    },
+    {
+     "t": "Vesículas profundas como pudín de tapioca",
+     "por": "Es la dermatitis dishidrótica."
+    },
+    {
+     "t": "Comedones abiertos con seborrea",
+     "por": "Son lesiones del acné, no de la dermatitis atópica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los hallazgos más frecuentes son pliegue de Dennie-Morgan, color violeta-marrón periocular, palmas hiperlineales, xerodermia, pitiriasis alba y queratosis pilaris. Menos frecuentes: signo de Hertheghe (pérdida de cola de ceja), dermografismo blanco y eccema del pezón.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 10"
+  },
+  {
+   "id": "d-dmt-adbx",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "enunciado": "¿Qué hallazgos tiene la biopsia en la dermatitis atópica?",
+   "opciones": [
+    {
+     "t": "Espongiosis, paraqueratosis y engrosamiento epidérmico",
+     "por": "La biopsia muestra espongiosis, engrosamiento epidérmico, paraqueratosis e infiltrado inflamatorio de linfocitos.",
+     "full": "Espongiosis, engrosamiento epidérmico y paraqueratosis"
+    },
+    {
+     "t": "Atrofia epidérmica sin infiltrado",
+     "por": "Es lo contrario: hay engrosamiento epidérmico e infiltrado linfocitario."
+    },
+    {
+     "t": "Acantólisis suprabasal",
+     "por": "Es del pénfigo vulgar."
+    },
+    {
+     "t": "Granulomas caseosos",
+     "por": "Son de la tuberculosis cutánea."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los exámenes auxiliares incluyen biopsia y elevación sérica de IgE.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 11"
+  },
+  {
+   "id": "d-dmt-adcrit",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 3,
+   "contexto": "Los criterios modificados de la AAD (Academia Americana de Dermatología) clasifican los hallazgos en esenciales, importantes y asociados; se usan para diagnosticar dermatitis atópica cuando la clínica es típica.",
+   "enunciado": "¿Cuál de estas es una característica esencial (siempre presente) en los criterios de la AAD para dermatitis atópica?",
+   "opciones": [
+    {
+     "t": "Prurito",
+     "por": "Las características esenciales son prurito, curso crónico o recurrente y lesiones con morfología y distribución típicas según la edad."
+    },
+    {
+     "t": "Historia familiar de atopia",
+     "por": "Es una característica importante (casi siempre presente), no esencial."
+    },
+    {
+     "t": "Xerosis",
+     "por": "Es una característica importante, no una esencial."
+    },
+    {
+     "t": "Queratitis pilaris",
+     "por": "Es una característica asociada que sugiere el diagnóstico pero no es específica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Las importantes (casi siempre) son: inicio temprano, xerosis e historia personal o familiar de atopia con procesos mediados por IgE. Las asociadas: respuesta vascular atípica, queratosis pilar, alteraciones oculares, acentuación perifolicular y lesiones periorales.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 12"
+  },
+  {
+   "id": "d-dmt-adtx",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "enunciado": "¿Qué medida general se indica en la dermatitis atópica?",
+   "opciones": [
+    {
+     "t": "Evitar desencadenantes e hidratar a diario",
+     "por": "El tratamiento incluye evitar factores desencadenantes (sequedad, estrés, irritantes, tabaco), higiene e hidratación diaria y antiinflamatorio tópico.",
+     "full": "Evitar desencadenantes e hidratar la piel a diario"
+    },
+    {
+     "t": "Aumentar la sequedad ambiental",
+     "por": "La sequedad ambiental es un desencadenante que debe evitarse."
+    },
+    {
+     "t": "Bañar con jabones irritantes a diario",
+     "por": "Los irritantes químicos desencadenan brotes."
+    },
+    {
+     "t": "Corticoides orales de forma continua",
+     "por": "No es la base del tratamiento; la clase indica antiinflamatorios tópicos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Además, se evitan alergenos alimentarios cuando corresponde y se usa tratamiento antiinflamatorio tópico.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 13"
+  },
+  {
+   "id": "d-dmt-ad2",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 3,
+   "contexto": "Esta tabla compara los fármacos sistémicos de segunda línea (azatioprina, metotrexato, micofenolato y dupilumab) para dermatitis atópica que no responde al tratamiento tópico.",
+   "enunciado": "Un adulto con dermatitis atópica refractaria al tratamiento tópico. ¿Cuál de estos es un fármaco de segunda línea sistémico?",
+   "opciones": [
+    {
+     "t": "Metotrexato 7.5 a 25 mg por semana",
+     "por": "La tabla de segunda línea incluye azatioprina, metotrexato, micofenolato y dupilumab."
+    },
+    {
+     "t": "Isotretinoína 40 mg diarios",
+     "por": "No figura en la tabla de segunda línea de la dermatitis atópica."
+    },
+    {
+     "t": "Ivermectina oral única",
+     "por": "Es antiparasitario, no un fármaco de segunda línea de esta tabla."
+    },
+    {
+     "t": "Fluconazol semanal",
+     "por": "Es antifúngico, no corresponde al tratamiento sistémico de la dermatitis atópica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Azatioprina 1 a 3 mg/kg/día; metotrexato 7.5 a 25 mg/semana; micofenolato mofetilo 500 a 3000 mg/día; dupilumab (adultos): 600 mg inicial y 300 mg cada 2 semanas SC.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 14",
+   "nota": "Para tu práctica, no para el examen: en Perú el acceso a dupilumab es limitado; verifica la disponibilidad del esquema en tu hospital."
+  },
+  {
+   "id": "d-dmt-ad3",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 3,
+   "enunciado": "¿Qué fármaco de segunda línea de la dermatitis atópica debe darse con suplementos de ácido fólico?",
+   "opciones": [
+    {
+     "t": "Metotrexato",
+     "por": "La tabla indica dar suplementos de ácido fólico con metotrexato; además es teratógeno (usar anticoncepción) y da mielotoxicidad y hepatotoxicidad."
+    },
+    {
+     "t": "Dupilumab",
+     "por": "No hay datos disponibles en embarazo; sus efectos frecuentes son conjuntivitis y reacción local."
+    },
+    {
+     "t": "Azatioprina",
+     "por": "Está en categoría D de embarazo, con leucopenia y hepatotoxicidad."
+    },
+    {
+     "t": "Micofenolato mofetilo",
+     "por": "Es teratogénico según la tabla, pero la tabla no indica suplementos de ácido fólico con este fármaco."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El metotrexato debe darse con suplementos de ácido fólico y analíticas periódicas, e interacciona con AINE, cotrimoxazol y penicilinas.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 14"
+  },
+  {
+   "id": "d-dmt-seb",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 1,
+   "enunciado": "¿Dónde ocurre la dermatitis seborreica?",
+   "opciones": [
+    {
+     "t": "Áreas con pelo, flexuras y centro del tronco",
+     "por": "Es un trastorno eccematoso de áreas con pelo, incluido el cuero cabelludo, zonas de flexión y regiones centrales del tronco.",
+     "full": "En áreas con pelo, cuero cabelludo, flexuras y zona central del tronco"
+    },
+    {
+     "t": "En palmas y plantas únicamente",
+     "por": "Esa es la zona típica de la dermatitis dishidrótica."
+    },
+    {
+     "t": "En los dedos de las manos únicamente",
+     "por": "No es la distribución de la seborreica."
+    },
+    {
+     "t": "Solo en los miembros inferiores",
+     "por": "No es una localización típica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La dermatitis seborreica también se ve en los pliegues y puede tener un cuadro súbito y agresivo, incluso eritrodérmico.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 16"
+  },
+  {
+   "id": "d-dmt-sebepi",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "enunciado": "¿A quién afecta con mayor frecuencia la dermatitis seborreica?",
+   "opciones": [
+    {
+     "t": "Varón de 40 años: cara y cuero cabelludo",
+     "por": "Es más común en el varón de 40 años con afectación facial y de cuero cabelludo; aumenta en ancianos.",
+     "full": "Al varón de 40 años, con cara y cuero cabelludo"
+    },
+    {
+     "t": "A la mujer joven de 15 años",
+     "por": "No es el grupo de mayor frecuencia de la clase."
+    },
+    {
+     "t": "Solo a recién nacidos",
+     "por": "Se observa en todas las edades, con prevalencia de 3 %."
+    },
+    {
+     "t": "Solo a deportistas",
+     "por": "No se relaciona con la actividad física."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Prevalencia aproximada de 3 %. Se agrava en pacientes con VIH con CD4 < 500; se sospecha participación de la levadura Malassezia.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 17"
+  },
+  {
+   "id": "d-dmt-sebvih",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "enunciado": "¿Qué se sospecha en la patogenia de la dermatitis seborreica?",
+   "opciones": [
+    {
+     "t": "Participación de la levadura Malassezia",
+     "por": "El mecanismo no se conoce bien y se sospecha participación de Malassezia."
+    },
+    {
+     "t": "Infección por virus del papiloma humano",
+     "por": "No se vincula con el VPH."
+    },
+    {
+     "t": "Autoanticuerpos contra desmogleínas",
+     "por": "Eso es el pénfigo vulgar."
+    },
+    {
+     "t": "Déficit de queratina",
+     "por": "No es el mecanismo propuesto en la clase."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es más grave en pacientes con VIH con CD4 < 500. La histopatología es inespecífica.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 17"
+  },
+  {
+   "id": "d-dmt-sebclin",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "enunciado": "¿Cómo se presenta la dermatitis seborreica?",
+   "opciones": [
+    {
+     "t": "Parches rojos con caspa y pápulas foliculares",
+     "por": "Hay parches enrojecidos con exudación, descamación y costras, caspa, y pápulas pequeñas, costrosas y papulopústulas de origen folicular.",
+     "full": "Parches rojos con descamación (caspa) y pápulas foliculares"
+    },
+    {
+     "t": "Vesículas profundas pruriginosas en las manos",
+     "por": "Es la dermatitis dishidrótica."
+    },
+    {
+     "t": "Ronchas fugaces de menos de 24 horas",
+     "por": "Corresponden a la urticaria."
+    },
+    {
+     "t": "Ampollas flácidas con signo de Nikolsky",
+     "por": "Son de enfermedades ampollares como el pénfigo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La descamación se conoce como caspa. En ancianos con sobrepeso puede afectar pliegues y dar un aspecto eritrodérmico, sobre todo en verano.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 19"
+  },
+  {
+   "id": "d-dmt-sebtx",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 3,
+   "enunciado": "¿Qué tratamiento tópico se indica en la dermatitis seborreica leve de cara y tronco?",
+   "opciones": [
+    {
+     "t": "Ketoconazol gel 2 % dos veces por semana",
+     "por": "El esquema de la clase es ketoconazol 2 % gel dos veces por semana por 4 semanas.",
+     "full": "Ketoconazol gel 2 %, dos aplicaciones por semana por 4 semanas"
+    },
+    {
+     "t": "Ketoconazol oral 400 mg diarios por 6 meses",
+     "por": "No es el esquema de la clase para formas leves; la clase da tratamiento tópico."
+    },
+    {
+     "t": "Prednisona oral 1 mg/kg",
+     "por": "No es tratamiento de formas leves."
+    },
+    {
+     "t": "Metotrexato semanal",
+     "por": "Es un fármaco de segunda línea de la dermatitis atópica, no de la seborreica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "También: ciclopiroxolamina 1 % crema, dos veces al día por 3 a 4 semanas, hidrocortisona 1 % (con efectos secundarios) y fototerapia UV. Champú: piritiona de zinc 1 %, sulfuro de selenio 0.5 a 1 %, ketoconazol 2 %, ciclopirox 1 %.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 21"
+  },
+  {
+   "id": "d-dmt-dc",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 1,
+   "enunciado": "¿Qué es la dermatitis de contacto?",
+   "opciones": [
+    {
+     "t": "Exantema eccematoso por contacto con irritante o sensibilizante",
+     "por": "Es un exantema eccematoso causado por el contacto directo con irritantes o sensibilizantes.",
+     "full": "Exantema eccematoso por contacto directo con un irritante o sensibilizante"
+    },
+    {
+     "t": "Una infección por Malassezia",
+     "por": "Esa es la sospecha en la dermatitis seborreica."
+    },
+    {
+     "t": "Un trastorno vesicular de causa desconocida en adultos jóvenes",
+     "por": "Eso describe la dermatitis dishidrótica."
+    },
+    {
+     "t": "Una reacción a la picadura de insectos",
+     "por": "No es la definición de la clase."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La gravedad depende de la concentración, la duración del contacto y la potencia de la sustancia. En fase aguda hay eritema y vesículas; en la crónica, liquenificación y fisuración.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 23"
+  },
+  {
+   "id": "d-dmt-dcirri",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "contexto": "El test de parche (patch test) coloca alérgenos sobre la espalda para detectar sensibilización; es positivo en la dermatitis alérgica de contacto.",
+   "enunciado": "¿Qué mecanismo tiene la dermatitis de contacto irritativa y cuál es el resultado del test de parche?",
+   "opciones": [
+    {
+     "t": "No inmunológico; parche negativo",
+     "por": "En la tabla de Goldner, la irritativa tiene mecanismo no inmunológico y el patch test es negativo.",
+     "full": "No inmunológico; parche negativo"
+    },
+    {
+     "t": "Hipersensibilidad tipo IV; parche positivo",
+     "por": "Es la dermatitis de contacto alérgica."
+    },
+    {
+     "t": "Hipersensibilidad tipo I; parche negativo",
+     "por": "La alérgica es tipo IV, y la irritativa no es inmunológica."
+    },
+    {
+     "t": "Autoinmune; parche positivo",
+     "por": "No es autoinmune."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La irritativa se debe a sustancias irritantes, se localiza en las áreas de contacto y causa quemazón, escozor y dolor.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 25"
+  },
+  {
+   "id": "d-dmt-dcirri2",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "enunciado": "¿Qué porcentaje de la dermatitis de contacto ocupacional y de amas de casa representa la irritativa?",
+   "opciones": [
+    {
+     "t": "80 %",
+     "por": "La dermatitis primaria irritante representa el 80 % de la dermatitis de contacto ocupacional y de amas de casa."
+    },
+    {
+     "t": "8 %",
+     "por": "Es una proporción mucho menor de la señalada."
+    },
+    {
+     "t": "30 %",
+     "por": "No es la cifra de la clase."
+    },
+    {
+     "t": "100 %",
+     "por": "No son todas: existe la alérgica y las fotoinducidas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se debe a irritación física, mecánica o química por exposición repetida (jabones, alcohol, limpiadores). Es frecuente en peluqueros, cocineros y lavanderías; afecta sobre todo las manos.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 25"
+  },
+  {
+   "id": "d-dmt-dcalerg",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 3,
+   "enunciado": "¿Qué tipo de hipersensibilidad produce la dermatitis de contacto alérgica y cuánto tarda en aparecer tras el contacto?",
+   "opciones": [
+    {
+     "t": "Tipo IV; 12 a 48 h tras el contacto",
+     "por": "Es una reacción de hipersensibilidad tipo IV con sensibilización de 10 a 14 días e inducción 12 a 48 horas luego del contacto.",
+     "full": "Tipo IV; 12 a 48 horas tras el contacto"
+    },
+    {
+     "t": "Tipo I; en minutos",
+     "por": "La tipo I es inmediata, como en la urticaria; la dermatitis de contacto es tardía."
+    },
+    {
+     "t": "Tipo II; en 7 días",
+     "por": "No es citotóxica."
+    },
+    {
+     "t": "Tipo III; en 3 semanas",
+     "por": "No es por inmunocomplejos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los antígenos frecuentes son látex, jabón, resinas, antibióticos y metales. El diagnóstico se basa en la historia (busca el antígeno) y la prueba de parche.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 26"
+  },
+  {
+   "id": "d-dmt-parche",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 3,
+   "contexto": "La tabla de reactividad porcentual global por alérgenos muestra con qué frecuencia cada sustancia da una prueba de parche positiva; sirve para saber qué buscar en la dermatitis de contacto alérgica.",
+   "enunciado": "¿Cuál fue el alérgeno con más reacciones positivas en la tabla de prueba de parche?",
+   "opciones": [
+    {
+     "t": "Sulfato de níquel (35.3 %)",
+     "por": "El sulfato de níquel encabeza la tabla con 35.3 %; el cloruro de cobalto tiene 15.1 % y la mezcla de fragancias 14 %."
+    },
+    {
+     "t": "Cloruro de cobalto",
+     "por": "Está segundo, con 15.1 %."
+    },
+    {
+     "t": "Mezcla de fragancias",
+     "por": "Está tercero, con 14 %."
+    },
+    {
+     "t": "Bálsamo del Perú",
+     "por": "Tiene solo 8.5 % de reacciones positivas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Otros alérgenos: dicromato de potasio 8.7 %, bálsamo del Perú 8.5 %, parafenilendiamina 6.7 % (tintes de cabello), sulfato de neomicina 6.6 %.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 27"
+  },
+  {
+   "id": "d-dmt-dcclin",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "enunciado": "¿Cuál es el primer signo tras la exposición en la dermatitis de contacto alérgica?",
+   "opciones": [
+    {
+     "t": "Prurito",
+     "por": "El prurito es el primer signo tras la exposición; luego aparecen exantema, edema y vesículas, y más tarde descamación y fisuras."
+    },
+    {
+     "t": "Fisuras",
+     "por": "Aparecen en una etapa tardía."
+    },
+    {
+     "t": "Descamación",
+     "por": "Es posterior a las vesículas."
+    },
+    {
+     "t": "Ampollas hemorrágicas",
+     "por": "No es el primer signo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Ejemplo de la clase: exposición a tinte de cabello.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 28"
+  },
+  {
+   "id": "d-dmt-dctx",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 3,
+   "enunciado": "¿Qué corticoide tópico y cuánto tiempo se indican en la dermatitis de contacto alérgica?",
+   "opciones": [
+    {
+     "t": "Alta potencia, dos veces al día",
+     "por": "La clase indica corticoides tópicos de alta potencia dos veces al día por 2 a 4 semanas; mantenimiento 1 a 2 veces por semana.",
+     "full": "Alta potencia, dos veces al día por 2 a 4 semanas"
+    },
+    {
+     "t": "Baja potencia, una vez al mes",
+     "por": "No es el esquema de la clase."
+    },
+    {
+     "t": "Orales por 6 meses",
+     "por": "Los corticoides orales no son la primera línea; la clase da tratamiento tópico."
+    },
+    {
+     "t": "Solo antihistamínicos",
+     "por": "Tienen poca evidencia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Objetivos: reducir la inflamación, restaurar la barrera epidérmica y prevenir la exposición. Alternativas: inhibidores tópicos de calcineurina (tacrolimus 0.03 a 0.1 %, pimecrolimus 1 %) 2 a 3 veces por semana, 3 a 12 semanas.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 29"
+  },
+  {
+   "id": "d-dmt-dish",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "enunciado": "¿En quién y dónde aparece la dermatitis dishidrótica?",
+   "opciones": [
+    {
+     "t": "Adultos de 20 a 40 años; manos y plantas",
+     "por": "Es una erupción vesicular crónica recurrente y pruriginosa en manos, plantas y caras laterales de los dedos, en adultos de 20 a 40 años.",
+     "full": "Adultos jóvenes de 20 a 40 años; manos, plantas y lados de los dedos"
+    },
+    {
+     "t": "Lactantes, en la cara y las flexuras",
+     "por": "Eso es dermatitis atópica infantil."
+    },
+    {
+     "t": "Ancianos con sobrepeso, en los pliegues",
+     "por": "Corresponde a la seborreica."
+    },
+    {
+     "t": "Peluqueros por tintes, en el cuello",
+     "por": "Sugiere dermatitis de contacto."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La causa es desconocida. Histopatología: espongiosis intraepidérmica con acumulación de edema que forma vesículas.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 32"
+  },
+  {
+   "id": "d-dmt-dish2",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "enunciado": "¿Qué aspecto tienen las vesículas de la dermatitis dishidrótica?",
+   "opciones": [
+    {
+     "t": "Profundas, en 'pudín de tapioca'",
+     "por": "Las vesículas son profundas, con aspecto de pudín de tapioca."
+    },
+    {
+     "t": "Superficiales y flácidas que se rompen con el roce",
+     "por": "Eso sugiere pénfigo."
+    },
+    {
+     "t": "Con centro umbilicado y pequeñas",
+     "por": "Es el aspecto del molusco contagioso."
+    },
+    {
+     "t": "Con base eritematosa agrupadas sobre un dermatoma",
+     "por": "Son de herpes zóster."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es una vesícula espongiótica intradérmica.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 32"
+  },
+  {
+   "id": "d-dmt-dishtx",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 3,
+   "enunciado": "¿Cuál es la segunda línea en la dermatitis dishidrótica?",
+   "opciones": [
+    {
+     "t": "Esteroides orales de corta duración",
+     "por": "Primera línea: remojos y compresas frías, antihistamínicos para el prurito y corticoides tópicos de alta potencia; segunda línea: esteroides orales por poco tiempo.",
+     "full": "Esteroides orales de corta duración"
+    },
+    {
+     "t": "Rituximab semanal",
+     "por": "No figura en el tratamiento de la dermatitis dishidrótica."
+    },
+    {
+     "t": "Ketoconazol oral",
+     "por": "No es tratamiento de esta dermatitis."
+    },
+    {
+     "t": "Isotretinoína oral",
+     "por": "No está indicada en la dermatitis dishidrótica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los inhibidores de calcineurina pueden ser eficaces y también se usa luz ultravioleta.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 34"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "d-dmt-c-0",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "f": "¿Qué rasgos tiene la dermatitis atópica?",
+   "b": "Prurito constante, liquenificación, xerodermia y fisuras; 30 % tiene asma; IgE sérica elevada.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 9"
+  },
+  {
+   "id": "d-dmt-c-1",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "f": "¿Cuáles son las características esenciales de la dermatitis atópica (criterios AAD)?",
+   "b": "Prurito; curso crónico o recurrente; lesiones típicas con distribución según la edad.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 12"
+  },
+  {
+   "id": "d-dmt-c-2",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "f": "¿Qué fármacos de segunda línea se usan en dermatitis atópica?",
+   "b": "Azatioprina, metotrexato, micofenolato mofetilo y dupilumab (adultos).",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 14"
+  },
+  {
+   "id": "d-dmt-c-3",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "f": "¿Dónde aparece la dermatitis seborreica y qué germen se sospecha?",
+   "b": "Áreas con pelo (cuero cabelludo), flexuras y centro del tronco; se sospecha Malassezia; peor en VIH con CD4 < 500.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 16"
+  },
+  {
+   "id": "d-dmt-c-4",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "f": "¿Cuál es el tratamiento tópico de la dermatitis seborreica leve?",
+   "b": "Ketoconazol 2 % gel (2 veces por semana, 4 semanas) o ciclopirox 1 % (2 veces al día, 3 a 4 semanas); champú con piritiona de zinc o sulfuro de selenio.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 21"
+  },
+  {
+   "id": "d-dmt-c-5",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "f": "¿Cómo se diferencian la dermatitis de contacto irritativa y la alérgica?",
+   "b": "Irritativa: no inmunológica, parche negativo. Alérgica: hipersensibilidad tipo IV, parche positivo.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 25"
+  },
+  {
+   "id": "d-dmt-c-6",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "f": "¿Cuáles son los alérgenos más frecuentes en la prueba de parche?",
+   "b": "Níquel 35.3 %, cobalto 15.1 %, fragancias 14 %, dicromato de potasio 8.7 %, bálsamo del Perú 8.5 %.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 27"
+  },
+  {
+   "id": "d-dmt-c-7",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "f": "¿Cómo es la dermatitis dishidrótica y cómo se trata?",
+   "b": "Vesículas profundas en 'pudín de tapioca' en manos y plantas de adultos de 20 a 40 años; compresas frías, corticoides tópicos de alta potencia, esteroides orales cortos de 2.ª línea.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 34"
+  }
+ ]
+}

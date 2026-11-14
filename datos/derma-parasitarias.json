@@ -1,0 +1,853 @@
+{
+ "preguntas": [
+  {
+   "id": "d-par-clas",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Cuál de estos es un ectoparásito de la piel?",
+   "opciones": [
+    {
+     "t": "Sarcoptes scabiei",
+     "por": "Los ectoparásitos son Sarcoptes scabiei (escabiosis), Pediculus y Pthirus (pediculosis) y las moscas de la miasis.",
+     "full": "Sarcoptes scabiei"
+    },
+    {
+     "t": "Leishmania spp.",
+     "por": "Es un protozoario."
+    },
+    {
+     "t": "Ancylostoma spp.",
+     "por": "Es un helminto, agente de la larva migrans."
+    },
+    {
+     "t": "Wuchereria bancrofti",
+     "por": "Es un helminto, agente de la filariasis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los protozoarios son Leishmania y Entamoeba histolytica; los helmintos son Ancylostoma, Wuchereria, Schistosoma y Dracunculus.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-par-proto",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué agente produce la leishmaniasis cutánea?",
+   "opciones": [
+    {
+     "t": "Leishmania spp., un protozoario",
+     "por": "La leishmaniasis cutánea la producen protozoarios del género Leishmania; Entamoeba histolytica produce amebiasis cutánea.",
+     "full": "Leishmania spp. (protozoario)"
+    },
+    {
+     "t": "Ancylostoma spp.",
+     "por": "Produce larva migrans cutánea."
+    },
+    {
+     "t": "Sarcoptes scabiei",
+     "por": "Produce escabiosis."
+    },
+    {
+     "t": "Dermatobia hominis",
+     "por": "Produce miasis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se transmite por vectores hematófagos como los flebótomos.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-par-helm",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué agente causa la larva migrans cutánea?",
+   "opciones": [
+    {
+     "t": "Ancylostoma spp.",
+     "por": "La larva migrans cutánea es producida por larvas de Ancylostoma.",
+     "full": "Ancylostoma spp."
+    },
+    {
+     "t": "Wuchereria bancrofti",
+     "por": "Produce filariasis linfática."
+    },
+    {
+     "t": "Dracunculus medinensis",
+     "por": "Produce dracunculiasis."
+    },
+    {
+     "t": "Schistosoma spp.",
+     "por": "Produce esquistosomiasis cutánea."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es un helminto.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-par-mias",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué agentes causan miasis cutánea?",
+   "opciones": [
+    {
+     "t": "Dermatobia hominis y Cochliomyia hominivorax",
+     "por": "La miasis se debe a larvas de moscas como Dermatobia hominis y Cochliomyia hominivorax.",
+     "full": "Dermatobia hominis y Cochliomyia hominivorax"
+    },
+    {
+     "t": "Sarcoptes scabiei y Pediculus humanus",
+     "por": "Son de escabiosis y pediculosis."
+    },
+    {
+     "t": "Leishmania y Entamoeba",
+     "por": "Son protozoarios."
+    },
+    {
+     "t": "Wuchereria y Schistosoma",
+     "por": "Son helmintos, no agentes de miasis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Son ectoparásitos.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-par-fr",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 1,
+   "enunciado": "¿Cuál es un factor de riesgo de infección parasitaria cutánea?",
+   "opciones": [
+    {
+     "t": "Viaje a áreas endémicas o exposición a suelos y agua contaminados",
+     "por": "Son factores los viajes a áreas endémicas, malas condiciones sanitarias, contacto con portadores o vectores y exposición a suelos o agua contaminados.",
+     "full": "Viajes a áreas endémicas, mala higiene y exposición a suelos o agua contaminados"
+    },
+    {
+     "t": "Vivir en clima frío y seco con buena higiene",
+     "por": "Los factores son lo contrario: clima cálido y mala higiene."
+    },
+    {
+     "t": "Uso de calzado cerrado",
+     "por": "Es una medida preventiva."
+    },
+    {
+     "t": "Lavado frecuente de manos",
+     "por": "Es una medida preventiva."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Las afecciones son frecuentes con malas condiciones sanitarias, clima cálido y alta densidad poblacional.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 10"
+  },
+  {
+   "id": "d-par-th",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 3,
+   "enunciado": "¿Qué respuesta inmune es protectora en la leishmaniasis?",
+   "opciones": [
+    {
+     "t": "Th1, con interferón gamma e IL-12",
+     "por": "En la leishmaniasis la respuesta Th1 (IFN-γ, IL-12) es protectora y controla la infección.",
+     "full": "Th1: interferón gamma e IL-12"
+    },
+    {
+     "t": "Th2, con IL-4, IL-5 e IgE elevada",
+     "por": "Es la respuesta predominante en escabiosis y larva migrans."
+    },
+    {
+     "t": "Respuesta humoral con IgM única",
+     "por": "No es la respuesta descrita."
+    },
+    {
+     "t": "Ninguna respuesta inmune",
+     "por": "Sí hay respuesta Th1."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La respuesta Th2 produce hipersensibilidad y prurito intenso en escabiosis o larva migrans.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-par-th2",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 3,
+   "enunciado": "¿Qué respuesta inmune predomina en la escabiosis y la larva migrans?",
+   "opciones": [
+    {
+     "t": "Th2, con IL-4, IL-5 e IgE elevada",
+     "por": "Predomina la respuesta Th2, que puede producir hipersensibilidad y prurito intenso.",
+     "full": "Th2: IL-4, IL-5 e IgE elevada"
+    },
+    {
+     "t": "Th1, con interferón gamma e IL-12",
+     "por": "Es la respuesta protectora en leishmaniasis."
+    },
+    {
+     "t": "Respuesta citotóxica pura",
+     "por": "No es la descrita."
+    },
+    {
+     "t": "Sin respuesta inmune",
+     "por": "Existe respuesta Th2."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El prurito de la escabiosis es una hipersensibilidad retardada.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-par-leishpat",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 3,
+   "enunciado": "¿Qué produce Leishmania en la piel?",
+   "opciones": [
+    {
+     "t": "Destruye macrófagos infectados y forma úlceras con granulomas",
+     "por": "Los protozoarios intracelulares destruyen macrófagos infectados y forman úlceras con infiltrado inflamatorio crónico y granulomas.",
+     "full": "Destruye macrófagos y forma úlceras con granulomas"
+    },
+    {
+     "t": "Excava túneles en el estrato córneo",
+     "por": "Es Sarcoptes scabiei."
+    },
+    {
+     "t": "Viaja por la epidermis formando trayectos serpiginosos",
+     "por": "Es la larva migrans."
+    },
+    {
+     "t": "Obstruye vasos linfáticos",
+     "por": "Es la filariasis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se dañan los macrófagos que albergan el parásito.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 14"
+  },
+  {
+   "id": "d-par-fil",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué produce la filariasis crónica?",
+   "opciones": [
+    {
+     "t": "Obstrucción linfática, fibrosis, linfedema y elefantiasis",
+     "por": "El depósito de microfilarias en los vasos linfáticos produce obstrucción, fibrosis y linfedema, que puede evolucionar a elefantiasis.",
+     "full": "Obstrucción linfática con linfedema y elefantiasis"
+    },
+    {
+     "t": "Úlceras con bordes elevados en extremidades",
+     "por": "Es la leishmaniasis."
+    },
+    {
+     "t": "Túneles lineales pruriginosos en pliegues",
+     "por": "Es la escabiosis."
+    },
+    {
+     "t": "Nódulos con movimiento larval",
+     "por": "Es la miasis, no la filariasis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se ve en miembros inferiores y genitales.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 15"
+  },
+  {
+   "id": "d-par-leish",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo es la leishmaniasis cutánea?",
+   "opciones": [
+    {
+     "t": "Pápula que evoluciona a úlcera de bordes elevados y fondo necrótico",
+     "por": "Son pápulas eritematosas que evolucionan a úlceras con bordes elevados y fondo necrótico, únicas o múltiples, en extremidades expuestas.",
+     "full": "Pápula que se ulcera: borde elevado y fondo necrótico"
+    },
+    {
+     "t": "Trayecto serpiginoso pruriginoso en pies",
+     "por": "Es la larva migrans."
+    },
+    {
+     "t": "Nódulo doloroso con secreción y larva visible",
+     "por": "Es la miasis, no la leishmaniasis."
+    },
+    {
+     "t": "Túneles lineales en las manos",
+     "por": "Es la escabiosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La forma mucocutánea es la que se asocia a manifestaciones inmunológicas.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 16"
+  },
+  {
+   "id": "d-par-lm",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo se manifiesta la larva migrans cutánea?",
+   "opciones": [
+    {
+     "t": "Trayectos serpiginosos pruriginosos en pies o glúteos",
+     "por": "Las larvas migran bajo la epidermis y producen trayectos serpiginosos pruriginosos en pies o glúteos.",
+     "full": "Trayectos serpiginosos pruriginosos en pies o glúteos"
+    },
+    {
+     "t": "Úlceras con fondo necrótico",
+     "por": "Es la leishmaniasis."
+    },
+    {
+     "t": "Túneles en pliegues interdigitales",
+     "por": "Es la escabiosis."
+    },
+    {
+     "t": "Linfedema crónico",
+     "por": "Es la filariasis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se previene usando calzado cerrado en zonas endémicas.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 16"
+  },
+  {
+   "id": "d-par-esc",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo es la escabiosis?",
+   "opciones": [
+    {
+     "t": "Pápulas y túneles lineales muy pruriginosos en pliegues",
+     "por": "Hay pápulas y túneles lineales muy pruriginosos en manos, axilas y genitales.",
+     "full": "Pápulas y túneles lineales muy pruriginosos en pliegues (manos, axilas, genitales)"
+    },
+    {
+     "t": "Nódulos con larva visible",
+     "por": "Es la miasis, no la escabiosis."
+    },
+    {
+     "t": "Úlceras de bordes elevados",
+     "por": "Es la leishmaniasis."
+    },
+    {
+     "t": "Vesículas agrupadas en un dermatoma",
+     "por": "Es el herpes zóster, no la escabiosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El prurito es intenso y empeora por la noche.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 17"
+  },
+  {
+   "id": "d-par-miasclin",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo es la lesión de la miasis?",
+   "opciones": [
+    {
+     "t": "Nódulo doloroso con secreción seropurulenta y larva visible que se mueve",
+     "por": "La miasis se presenta como nódulos dolorosos con secreción seropurulenta y movimiento larval visible.",
+     "full": "Nódulo doloroso con secreción seropurulenta y larva visible"
+    },
+    {
+     "t": "Túnel lineal pruriginoso",
+     "por": "Es la escabiosis."
+    },
+    {
+     "t": "Placa ulcerada con granulomas",
+     "por": "Es la leishmaniasis."
+    },
+    {
+     "t": "Edema crónico de piernas",
+     "por": "Es la filariasis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Si no se retira la larva a tiempo hay necrosis y sobreinfección bacteriana.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 17"
+  },
+  {
+   "id": "d-par-dx",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo se confirma la escabiosis?",
+   "opciones": [
+    {
+     "t": "Raspado de piel con visualización del ácaro",
+     "por": "Puede diagnosticarse clínicamente, pero el raspado cutáneo con visualización del ácaro confirma el diagnóstico.",
+     "full": "Raspado de piel con visualización del ácaro"
+    },
+    {
+     "t": "Cultivo en Sabouraud",
+     "por": "Es para micosis."
+    },
+    {
+     "t": "Prueba de parche",
+     "por": "Es para dermatitis de contacto."
+    },
+    {
+     "t": "Frotis de Tzanck",
+     "por": "Es para herpes."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "También se usan microscopía directa en leishmaniasis y miasis, biopsia en leishmaniasis y examen de heces, sangre o linfa en helmintiasis.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 19"
+  },
+  {
+   "id": "d-par-leishtx",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 3,
+   "enunciado": "¿Cuál es el tratamiento de primera línea de la leishmaniasis cutánea?",
+   "opciones": [
+    {
+     "t": "Antimoniales pentavalentes IM o intralesionales por 20 días",
+     "por": "La primera línea son antimoniales pentavalentes por vía IM o intralesional por 20 días; alternativas: miltefosina oral y anfotericina B liposomal en casos graves, inmunosuprimidos o mucocutáneos.",
+     "full": "Antimoniales pentavalentes IM o intralesionales por 20 días"
+    },
+    {
+     "t": "Permetrina 5 % por 8-14 horas",
+     "por": "Es el tratamiento de la escabiosis."
+    },
+    {
+     "t": "Albendazol o ivermectina oral",
+     "por": "Es para larva migrans."
+    },
+    {
+     "t": "Extracción mecánica de larvas",
+     "por": "Es para miasis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En Perú la leishmaniasis es de notificación obligatoria.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 20"
+  },
+  {
+   "id": "d-par-lmtx",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué tratamiento recibe la larva migrans cutánea?",
+   "opciones": [
+    {
+     "t": "Albendazol o ivermectina oral",
+     "por": "Se trata con albendazol o ivermectina oral, con antiinflamatorios para aliviar rápido los síntomas.",
+     "full": "Albendazol o ivermectina por vía oral"
+    },
+    {
+     "t": "Antimoniales pentavalentes",
+     "por": "Son de leishmaniasis."
+    },
+    {
+     "t": "Permetrina 5 % crema",
+     "por": "Es de escabiosis."
+    },
+    {
+     "t": "Dietilcarbamazina",
+     "por": "Se usa en filariasis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los antiinflamatorios alivian los síntomas.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 20"
+  },
+  {
+   "id": "d-par-esctx",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 3,
+   "enunciado": "¿Cómo se aplica la permetrina al 5 % en la escabiosis?",
+   "opciones": [
+    {
+     "t": "En todo el cuerpo por 8-14 horas y se repite a los 7 días",
+     "por": "Se aplica crema en todo el cuerpo por 8-14 horas y se repite a los 7 días.",
+     "full": "Crema en todo el cuerpo por 8-14 horas; repetir a los 7 días"
+    },
+    {
+     "t": "Solo en las lesiones por 1 hora",
+     "por": "No es el esquema indicado."
+    },
+    {
+     "t": "Una vez al mes",
+     "por": "No es el esquema."
+    },
+    {
+     "t": "Solo en cuero cabelludo",
+     "por": "Es para pediculosis, no el esquema de sarna."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se tratan los contactos cercanos, incluso asintomáticos, para evitar reinfección.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 20"
+  },
+  {
+   "id": "d-par-ivm",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 3,
+   "enunciado": "¿Cuándo se prefiere ivermectina oral en escabiosis?",
+   "opciones": [
+    {
+     "t": "Casos extensos, costrosos, brotes institucionales o mala adherencia al tópico",
+     "por": "La ivermectina 200 μg/kg está indicada en casos extensos, costrosos o brotes institucionales, o con mala adherencia al tratamiento tópico.",
+     "full": "Escabiosis extensa, costrosa, en brotes o con mala adherencia al tópico"
+    },
+    {
+     "t": "Siempre como primera línea",
+     "por": "La primera línea es permetrina tópica."
+    },
+    {
+     "t": "Solo en lesiones únicas",
+     "por": "No es la indicación."
+    },
+    {
+     "t": "Nunca se usa en escabiosis",
+     "por": "Sí está indicada en esos casos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Dosis de 200 μg/kg.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 20"
+  },
+  {
+   "id": "d-par-contac",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 3,
+   "enunciado": "¿Por qué se tratan los contactos en la escabiosis aunque no tengan síntomas?",
+   "opciones": [
+    {
+     "t": "Para evitar la reinfestación",
+     "por": "Se tratan los contactos cercanos, incluso asintomáticos, para evitar reinfección.",
+     "full": "Para evitar la reinfección"
+    },
+    {
+     "t": "Porque todos desarrollan úlceras",
+     "por": "No es la razón."
+    },
+    {
+     "t": "Porque la sarna es de origen bacteriano",
+     "por": "La sarna es producida por un ácaro, no una bacteria."
+    },
+    {
+     "t": "Porque la vacuna no existe",
+     "por": "No es la razón."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se lavan ropa y sábanas con agua caliente (> 60 °C).",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 24"
+  },
+  {
+   "id": "d-par-miastx",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Cuál es el tratamiento de la miasis?",
+   "opciones": [
+    {
+     "t": "Extracción mecánica de larvas, con ivermectina si son múltiples",
+     "por": "Se extraen las larvas, se da ivermectina si hay múltiples y profilaxis antibiótica local o sistémica.",
+     "full": "Extracción mecánica de larvas; ivermectina si hay múltiples"
+    },
+    {
+     "t": "Permetrina al 5 % en todo el cuerpo",
+     "por": "Es para escabiosis."
+    },
+    {
+     "t": "Antimoniales intralesionales",
+     "por": "Son para leishmaniasis."
+    },
+    {
+     "t": "Solo antihistamínicos",
+     "por": "No tratan la larva."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La profilaxis antibiótica previene la sobreinfección.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 21"
+  },
+  {
+   "id": "d-par-filtx",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 3,
+   "enunciado": "¿Qué fármacos se usan en la filariasis?",
+   "opciones": [
+    {
+     "t": "Dietilcarbamazina, ivermectina y albendazol",
+     "por": "Se usan dietilcarbamazina, ivermectina y albendazol según el protocolo; el linfedema se maneja con higiene, fisioterapia y cirugía reparadora.",
+     "full": "Dietilcarbamazina, ivermectina y albendazol"
+    },
+    {
+     "t": "Permetrina y benzoato de bencilo",
+     "por": "Son para sarna."
+    },
+    {
+     "t": "Antimoniales pentavalentes",
+     "por": "Son para leishmaniasis."
+    },
+    {
+     "t": "Nistatina y miconazol",
+     "por": "Son antifúngicos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es una de las medidas del Programa Global de Eliminación de la Filariasis Linfática.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 21"
+  },
+  {
+   "id": "d-par-sint",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué fármaco calma el prurito en una parasitosis cutánea?",
+   "opciones": [
+    {
+     "t": "Antihistamínicos orales",
+     "por": "El manejo sintomático usa antihistamínicos orales, corticoides tópicos suaves a moderados y antibióticos si hay sobreinfección.",
+     "full": "Antihistamínicos orales"
+    },
+    {
+     "t": "Ketoconazol oral",
+     "por": "No alivia el prurito."
+    },
+    {
+     "t": "Isotretinoína oral",
+     "por": "No se usa en el manejo sintomático."
+    },
+    {
+     "t": "Mupirocina siempre",
+     "por": "Solo si hay sobreinfección bacteriana."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se debe cuidar la piel y controlar el rascado.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 22"
+  },
+  {
+   "id": "d-par-lavar",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "¿A qué temperatura se lava la ropa en brotes de escabiosis o pediculosis?",
+   "opciones": [
+    {
+     "t": "Agua caliente por encima de 60 °C",
+     "por": "Se lavan sábanas, ropa y toallas con agua caliente (> 60 °C) y se aísla temporalmente a los infestados.",
+     "full": "Agua caliente por encima de 60 °C"
+    },
+    {
+     "t": "Agua fría",
+     "por": "No elimina los parásitos."
+    },
+    {
+     "t": "A 30 °C",
+     "por": "Es insuficiente."
+    },
+    {
+     "t": "No se lava, solo se airea",
+     "por": "No es la medida indicada."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se tratan todos los contactos en albergues, hospitales, cárceles y escuelas.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 24"
+  },
+  {
+   "id": "d-par-pedic",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 3,
+   "enunciado": "En la pediculosis, ¿cuánto tarda en eclosionar la liendre y cuándo es adulto el piojo?",
+   "opciones": [
+    {
+     "t": "Eclosiona a los 7-8 días y es adulto a los 16-17",
+     "por": "El huevo se pone en el tallo del pelo (día 0), eclosiona el día 7-8 y tras 3 mudas llega a adulto el día 16-17.",
+     "full": "Eclosiona el día 7-8; adulto el día 16-17 tras 3 mudas"
+    },
+    {
+     "t": "Eclosiona en 1 día y es adulto en 2",
+     "por": "Es mucho más rápido que lo real."
+    },
+    {
+     "t": "Eclosiona a los 30 días y es adulto a los 60",
+     "por": "Es mucho más lento que lo real."
+    },
+    {
+     "t": "No eclosiona nunca",
+     "por": "Sí eclosiona, a los 7-8 días."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La hembra pone 4-8 huevos al día y vive hasta unos 50 días.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 25"
+  },
+  {
+   "id": "d-par-cicloesc",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 3,
+   "enunciado": "En la escabiosis, ¿dónde pone sus huevos la hembra?",
+   "opciones": [
+    {
+     "t": "En túneles del estrato córneo",
+     "por": "La hembra adulta (0,30-0,45 mm) excava túneles en el estrato córneo y pone allí los huevos.",
+     "full": "En túneles que excava en el estrato córneo"
+    },
+    {
+     "t": "En el tallo del pelo",
+     "por": "Es la liendre del piojo."
+    },
+    {
+     "t": "En heridas, sobre la piel",
+     "por": "Es la mosca de la miasis."
+    },
+    {
+     "t": "En ganglios linfáticos",
+     "por": "No es lo descrito."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El huevo tarda 2-3 días en dar larva (3-4 días) y ninfa (4-7 días); la hembra vive 1-2 meses.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 26"
+  },
+  {
+   "id": "d-par-ciclomias",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 3,
+   "enunciado": "¿Cómo es el ciclo vital de la miasis?",
+   "opciones": [
+    {
+     "t": "Huevos en heridas; larvas en 1-2 días se alimentan 5-10 días y caen al suelo a pupar",
+     "por": "Las moscas ponen huevos en heridas o piel intacta; las larvas emergen en 1-2 días, se alimentan 5-10 días y caen al suelo para pupar.",
+     "full": "Huevos en heridas; larvas 5-10 días de alimentación; luego pupan en el suelo"
+    },
+    {
+     "t": "El parásito vive 1-2 meses en el estrato córneo",
+     "por": "Es el ciclo de la sarna."
+    },
+    {
+     "t": "Las liendres se pegan al tallo del pelo",
+     "por": "Es la pediculosis."
+    },
+    {
+     "t": "Se transmite solo por vía sexual",
+     "por": "No es lo descrito."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Después los adultos reinician el ciclo.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 27"
+  },
+  {
+   "id": "d-par-caso",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 3,
+   "enunciado": "Una niña de 8 años en hacinamiento tiene prurito nocturno, lesiones papulovesiculosas lineales interdigitales, muñecas, axilas y periumbilicales y familiares con síntomas. ¿Qué diagnóstico apoya el signo del surco?",
+   "opciones": [
+    {
+     "t": "Escabiosis",
+     "por": "Prurito nocturno, contactos con síntomas y signo del surco acarino orientan a escabiosis; se trata con permetrina 5 % y se tratan los contactos.",
+     "full": "Escabiosis"
+    },
+    {
+     "t": "Pediculosis capitis",
+     "por": "Afecta cuero cabelludo, no pliegues."
+    },
+    {
+     "t": "Larva migrans",
+     "por": "Da un trayecto serpiginoso en pies o glúteos."
+    },
+    {
+     "t": "Leishmaniasis cutánea",
+     "por": "Da úlceras, no túneles pruriginosos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se indica ropa lavada a más de 60 °C y tratar a todos los contactos.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 31"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "d-par-c-0",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "f": "¿Cómo se clasifican los parásitos de la piel?",
+   "b": "Protozoarios (leishmania), helmintos (larva migrans, filariasis) y ectoparásitos (sarna, piojos, miasis).",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-par-c-1",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "f": "¿Qué respuesta inmune se da en leishmaniasis y en escabiosis?",
+   "b": "Leishmaniasis: Th1 protectora (IFN-γ, IL-12). Escabiosis y larva migrans: Th2 (IL-4, IL-5, IgE).",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-par-c-2",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "f": "¿Cómo se diferencian la larva migrans y la escabiosis?",
+   "b": "Larva migrans: trayecto serpiginoso en pies o glúteos. Escabiosis: túneles y pápulas pruriginosas en pliegues.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 16"
+  },
+  {
+   "id": "d-par-c-3",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "f": "¿Cómo se manifiesta la miasis?",
+   "b": "Nódulo doloroso con secreción seropurulenta y larva visible.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 17"
+  },
+  {
+   "id": "d-par-c-4",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "f": "¿Cómo se confirma la escabiosis?",
+   "b": "Raspado de piel y visualización del ácaro.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 19"
+  },
+  {
+   "id": "d-par-c-5",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "f": "¿Cuál es el tratamiento de la leishmaniasis cutánea?",
+   "b": "Antimoniales pentavalentes IM o intralesionales por 20 días; miltefosina o anfotericina liposomal como alternativas.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 20"
+  },
+  {
+   "id": "d-par-c-6",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "f": "¿Cuál es el tratamiento de la escabiosis?",
+   "b": "Permetrina 5 %: 8-14 horas, repetir a los 7 días; ivermectina 200 μg/kg si es extensa o costrosa; tratar contactos.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 20"
+  },
+  {
+   "id": "d-par-c-7",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "f": "¿Cómo se trata la miasis?",
+   "b": "Extracción mecánica de larvas, ivermectina si son múltiples y profilaxis antibiótica.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 21"
+  }
+ ]
+}

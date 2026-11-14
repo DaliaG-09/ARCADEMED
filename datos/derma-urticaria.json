@@ -1,0 +1,502 @@
+{
+ "preguntas": [
+  {
+   "id": "d-urt-def",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 1,
+   "enunciado": "¿Cómo se manifiesta la urticaria superficial?",
+   "opciones": [
+    {
+     "t": "Placas eritematopapulosas pruriginosas, fugaces y migratorias",
+     "por": "La urticaria superficial se manifiesta por placas eritematopapulosas, pruriginosas, fugaces y migratorias.",
+     "full": "Placas eritematopapulosas, pruriginosas, fugaces y migratorias"
+    },
+    {
+     "t": "Vesículas profundas en palmas que no migran",
+     "por": "Eso describe la dermatitis dishidrótica, no la urticaria."
+    },
+    {
+     "t": "Placas con escama gruesa que persisten semanas",
+     "por": "Las lesiones de urticaria son fugaces y cambian de sitio."
+    },
+    {
+     "t": "Ampollas tensas con signo de Nikolsky negativo",
+     "por": "Eso orienta a una enfermedad ampollar, no a urticaria."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Son lesiones elevadas con contornos bien limitados que aparecen y desaparecen en horas, desplazándose a otras zonas de la piel.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 7"
+  },
+  {
+   "id": "d-urt-angio",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 1,
+   "enunciado": "¿Qué es el angioedema (urticaria profunda)?",
+   "opciones": [
+    {
+     "t": "Edema que suele localizarse en cara y extremidades",
+     "por": "La urticaria profunda o angioedema son edemas que se localizan casi siempre en la cara y las extremidades.",
+     "full": "Edema que se localiza casi siempre en la cara y las extremidades"
+    },
+    {
+     "t": "Placas con escama en cuero cabelludo",
+     "por": "No describe el angioedema."
+    },
+    {
+     "t": "Ampollas flácidas que dejan erosiones",
+     "por": "Es el cuadro del pénfigo, no del angioedema."
+    },
+    {
+     "t": "Pápulas foliculares con comedones",
+     "por": "Corresponde al acné."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es hinchazón de la dermis profunda, como el labio superior edematoso del paciente con hipersensibilidad al pescado.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 7"
+  },
+  {
+   "id": "d-urt-epi",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué proporción de la población presenta al menos un episodio de urticaria aguda en su vida?",
+   "opciones": [
+    {
+     "t": "Entre 15 y 20 %",
+     "por": "El 15-20 % de la población presenta al menos un episodio agudo durante horas o días a lo largo de su vida."
+    },
+    {
+     "t": "Menos de 1 %",
+     "por": "Esa cifra se parece más a la de la urticaria crónica (0,5-3 %)."
+    },
+    {
+     "t": "Más del 60 %",
+     "por": "Es una dermatosis frecuente, pero no afecta a la mayoría."
+    },
+    {
+     "t": "Alrededor del 40 %",
+     "por": "Se aleja de las cifras indicadas en la clase."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La urticaria crónica es mucho menos frecuente: afecta al 0,5-3 %, con lesiones que duran más de 6 semanas.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 8"
+  },
+  {
+   "id": "d-urt-clas",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 1,
+   "enunciado": "Un paciente tiene habones que aparecen a diario desde hace 8 semanas. ¿Cómo se clasifica?",
+   "opciones": [
+    {
+     "t": "Urticaria crónica",
+     "por": "Se llama crónica cuando las lesiones evolucionan más de 6 semanas."
+    },
+    {
+     "t": "Urticaria aguda",
+     "por": "La aguda dura de horas a días, no más de 6 semanas."
+    },
+    {
+     "t": "Angioedema hereditario",
+     "por": "Nada en el caso lo sugiere; se clasifica por el tiempo de evolución."
+    },
+    {
+     "t": "Urticaria purpúrica",
+     "por": "Es una forma clínica, no una clasificación por duración."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Aguda: horas a días. Crónica: más de 6 semanas, que a su vez puede ser inducible (por un estímulo) o espontánea.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 9"
+  },
+  {
+   "id": "d-urt-cronesp",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué tipo de urticaria crónica es la más frecuente?",
+   "opciones": [
+    {
+     "t": "La espontánea, en cerca de 80 % de los casos",
+     "por": "La urticaria crónica espontánea representa alrededor del 80 % de los casos y a veces cursa con manifestaciones extradermatológicas.",
+     "full": "La espontánea, en cerca de 80 % de los casos"
+    },
+    {
+     "t": "La inducida por un estímulo, en 80 %",
+     "por": "La inducible es la menos frecuente de las dos."
+    },
+    {
+     "t": "La aguda que se cronifica en todos",
+     "por": "Esa no es la clasificación de la clase."
+    },
+    {
+     "t": "La urticaria purpúrica, en la mayoría",
+     "por": "Es una forma clínica poco frecuente, no el tipo más común."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La inducible aparece tras un estímulo concreto; en la espontánea no se identifica un desencadenante.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 9"
+  },
+  {
+   "id": "d-urt-fisio",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué célula y qué mediador son centrales en la fisiopatología de la urticaria?",
+   "opciones": [
+    {
+     "t": "Mastocito, con liberación de histamina",
+     "por": "La activación de los mastocitos libera mediadores, en especial la histamina, que causan eritema y edema.",
+     "full": "Mastocito, que libera histamina y otros mediadores"
+    },
+    {
+     "t": "Queratinocito, con liberación de desmogleínas",
+     "por": "Eso es del pénfigo, no de la urticaria."
+    },
+    {
+     "t": "Melanocito, con liberación de melanina",
+     "por": "Es la célula de las discromías."
+    },
+    {
+     "t": "Linfocito B, con liberación de IgG anti-BP180",
+     "por": "Es el mecanismo del penfigoide ampolloso."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La activación del mastocito puede ser específica de antígeno o no específica, y provoca eritema y edema cutáneos.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 10"
+  },
+  {
+   "id": "d-urt-fisio2",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué producen en la piel los mediadores liberados por el mastocito?",
+   "opciones": [
+    {
+     "t": "Eritema y edema",
+     "por": "La liberación de histamina y otros mediadores causa las manifestaciones cutáneas: eritema y edema."
+    },
+    {
+     "t": "Acantólisis y ampollas flácidas",
+     "por": "Es del pénfigo vulgar."
+    },
+    {
+     "t": "Hiperpigmentación permanente",
+     "por": "No es el resultado de la histamina en urticaria."
+    },
+    {
+     "t": "Comedones y pústulas",
+     "por": "Son lesiones del acné."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El edema es el mismo fenómeno que forma el habón superficial o el angioedema profundo.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 10"
+  },
+  {
+   "id": "d-urt-anular",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cuál de estas es una forma clínica de urticaria descrita en la clase?",
+   "opciones": [
+    {
+     "t": "Urticaria purpúrica",
+     "por": "Las formas incluyen superficial de placas, de placas pequeñas, anular, micropapulosa y purpúrica.",
+     "full": "Urticaria purpúrica"
+    },
+    {
+     "t": "Urticaria vesiculosa",
+     "por": "Esa forma no figura entre las descritas."
+    },
+    {
+     "t": "Urticaria verrugosa",
+     "por": "No es una forma clínica descrita."
+    },
+    {
+     "t": "Urticaria liquenificada",
+     "por": "No pertenece a las formas descritas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Las otras son: superficial de placas eritematopapulosas de contornos bien limitados, de placas pequeñas, anular y micropapulosa.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 11"
+  },
+  {
+   "id": "d-urt-sev",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 2,
+   "contexto": "El UAS registra a diario el número de placas (0 a 3) y la intensidad del prurito (0 a 3). Sumado durante 7 días da el UAS7 (0 a 42).",
+   "enunciado": "Según la puntuación de severidad, ¿cuál es el rango de la urticaria moderada?",
+   "opciones": [
+    {
+     "t": "De 16 a 27 puntos",
+     "por": "Controlada < 6, leve 7-15, moderada 16-27 y grave por encima de 28 puntos."
+    },
+    {
+     "t": "De 7 a 15 puntos",
+     "por": "Es el rango de la urticaria leve."
+    },
+    {
+     "t": "Más de 28 puntos",
+     "por": "Corresponde a la urticaria grave."
+    },
+    {
+     "t": "Menos de 6 puntos",
+     "por": "Se considera urticaria controlada."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La puntuación diaria suma número de placas en 24 h y prurito; el UAS7 (7 días) va de 0 a 42.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 14"
+  },
+  {
+   "id": "d-urt-sev2",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 3,
+   "contexto": "La escala de actividad de urticaria suma en cada día las placas (0 a 3) y el prurito (0 a 3).",
+   "enunciado": "En la escala de actividad, ¿cuántos puntos de placas se asignan a más de 50 placas en 24 h o placas grandes confluentes?",
+   "opciones": [
+    {
+     "t": "3 puntos",
+     "por": "La escala da 0 sin placas, 1 con menos de 20, 2 con 20-50 y 3 con más de 50 o placas confluentes."
+    },
+    {
+     "t": "1 punto",
+     "por": "Corresponde a menos de 20 placas en 24 h."
+    },
+    {
+     "t": "2 puntos",
+     "por": "Corresponde a 20-50 placas en 24 h."
+    },
+    {
+     "t": "0 puntos",
+     "por": "Significa ausencia de placas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El prurito también puntúa de 0 (ausente) a 3 (intenso); el máximo diario es 6 y el UAS7 llega a 42.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 14"
+  },
+  {
+   "id": "d-urt-txagu",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cuál es el tratamiento estándar de la urticaria aguda o crónica?",
+   "opciones": [
+    {
+     "t": "Antihistamínico H1 selectivo, un comprimido al día",
+     "por": "El tratamiento estándar es un antihistamínico H1 selectivo, 1 comprimido al día VO, al menos 15-20 días en agudos y meses o años en crónicos.",
+     "full": "Antihistamínico H1 selectivo: 1 comprimido al día por 15-20 días en agudos, meses o años en crónicos"
+    },
+    {
+     "t": "Corticoide oral continuo por meses",
+     "por": "Los corticoides se añaden solo en ciclos cortos en casos específicos."
+    },
+    {
+     "t": "Antibiótico oral por 14 días",
+     "por": "La urticaria no se trata con antibióticos."
+    },
+    {
+     "t": "Isotretinoína oral por 6 meses",
+     "por": "No es tratamiento de la urticaria."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se evitan los factores desencadenantes en la aguda y los agravantes en la crónica, suspendiendo los AINE si es posible.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 15"
+  },
+  {
+   "id": "d-urt-txref",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 3,
+   "contexto": "El algoritmo separa el tratamiento estándar, el de casos refractarios y los criterios de derivación al especialista.",
+   "enunciado": "Un paciente con urticaria crónica sigue con síntomas pese a un antihistamínico H1 diario. ¿Qué indica el algoritmo?",
+   "opciones": [
+    {
+     "t": "Subir la dosis hasta un máximo de 4 comprimidos al día",
+     "por": "En casos refractarios se sube la dosis del antihistamínico H1 hasta un máximo de 4 comprimidos al día.",
+     "full": "Subir la dosis de antihistamínico H1 hasta 4 comprimidos al día"
+    },
+    {
+     "t": "Pasar directamente a un antibiótico",
+     "por": "No es parte del algoritmo."
+    },
+    {
+     "t": "Suspender todo tratamiento",
+     "por": "No hay base para suspender; se escala."
+    },
+    {
+     "t": "Cambiar a un corticoide tópico potente",
+     "por": "El manejo escalona el antihistamínico oral."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Si aun así persiste, se añade prednisona en pauta corta de 5 días (0,5-1 mg/kg/día) en cuadros muy extensos o con angioedema como manifestación principal.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 15"
+  },
+  {
+   "id": "d-urt-txurg",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 3,
+   "enunciado": "En urgencias, ¿qué se añade al antihistamínico en un cuadro muy extenso o con angioedema como manifestación principal?",
+   "opciones": [
+    {
+     "t": "Metilprednisolona 1 mg/kg IM",
+     "por": "Tratamiento de urgencias: antihistamínico H1 selectivo (1-2 comprimidos VO) y metilprednisolona 1 mg/kg IM en cuadros muy extensos o con angioedema principal.",
+     "full": "Metilprednisolona 1 mg/kg por vía IM"
+    },
+    {
+     "t": "Penicilina benzatínica IM",
+     "por": "No es parte del manejo de urgencias de la urticaria."
+    },
+    {
+     "t": "Rituximab endovenoso",
+     "por": "No está en el algoritmo de urgencias."
+    },
+    {
+     "t": "Ketoconazol oral",
+     "por": "Es un antifúngico, no corresponde."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se pueden dar 1 o 2 comprimidos de antihistamínico H1 selectivo por vía oral.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 15"
+  },
+  {
+   "id": "d-urt-deriv",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 3,
+   "enunciado": "¿Cuál de estos es un criterio de derivación a consulta especializada en urticaria?",
+   "opciones": [
+    {
+     "t": "Urticaria crónica refractaria a dosis no licenciadas de antihistamínicos",
+     "por": "Se deriva si es refractaria a dosis no licenciadas (máximo 4 comprimidos/día), si necesitó 2 o 3 tandas de corticoides o hay cuadro urticariforme atípico.",
+     "full": "Urticaria crónica refractaria a dosis altas de antihistamínicos"
+    },
+    {
+     "t": "Un primer episodio agudo leve que cede",
+     "por": "Se maneja de forma estándar sin derivar."
+    },
+    {
+     "t": "Habones aislados con buena respuesta a H1",
+     "por": "Responde al tratamiento estándar."
+    },
+    {
+     "t": "Prurito leve sin placas",
+     "por": "No es criterio de derivación."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "También se deriva si se precisaron más de 2 o 3 tandas cortas de corticoides o si el cuadro es urticariforme atípico.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 15"
+  },
+  {
+   "id": "d-urt-aine",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Qué medida se recomienda en la urticaria crónica respecto a los AINE?",
+   "opciones": [
+    {
+     "t": "Suspenderlos si es posible",
+     "por": "En la urticaria crónica se evitan factores agravantes y se suspende el AINE si fuera posible."
+    },
+    {
+     "t": "Indicarlos como primera línea",
+     "por": "Pueden agravar la urticaria."
+    },
+    {
+     "t": "Darlos junto a cada dosis de H1",
+     "por": "No se recomienda."
+    },
+    {
+     "t": "Usarlos solo en angioedema",
+     "por": "No es una indicación del algoritmo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la urticaria aguda se evitan los factores desencadenantes.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 15"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "d-urt-c-0",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "f": "¿Cómo se define la urticaria y qué es el angioedema?",
+   "b": "Urticaria: placas eritematopapulosas pruriginosas, fugaces y migratorias. Angioedema: edema profundo, sobre todo en cara y extremidades.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 7"
+  },
+  {
+   "id": "d-urt-c-1",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "f": "¿Cuándo una urticaria es aguda y cuándo crónica?",
+   "b": "Aguda: horas a días. Crónica: más de 6 semanas (inducible o espontánea, esta última en 80 %).",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 9"
+  },
+  {
+   "id": "d-urt-c-2",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "f": "¿Qué mecanismo produce la urticaria?",
+   "b": "Activación del mastocito (específica o no de antígeno) con liberación de histamina; produce eritema y edema.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 10"
+  },
+  {
+   "id": "d-urt-c-3",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "f": "¿Qué formas clínicas de urticaria se describen?",
+   "b": "Superficial de placas, de placas pequeñas, anular, micropapulosa y purpúrica.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 11"
+  },
+  {
+   "id": "d-urt-c-4",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "f": "¿Cómo se clasifica la severidad de la urticaria?",
+   "b": "Controlada < 6, leve 7-15, moderada 16-27 y grave > 28 puntos (UAS7 de 0 a 42).",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 14"
+  },
+  {
+   "id": "d-urt-c-5",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "f": "¿Cuál es el tratamiento estándar de la urticaria?",
+   "b": "Antihistamínico H1 selectivo 1 comprimido al día (15-20 días en agudos; meses o años en crónicos).",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 15"
+  },
+  {
+   "id": "d-urt-c-6",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "f": "¿Qué se hace en urticaria refractaria?",
+   "b": "Subir el antihistamínico H1 hasta 4 comprimidos al día; añadir prednisona 0,5-1 mg/kg/día por 5 días si es muy extensa o hay angioedema.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 15"
+  },
+  {
+   "id": "d-urt-c-7",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "f": "¿Cuándo se deriva al especialista?",
+   "b": "Urticaria crónica refractaria a dosis altas, 2 o 3 tandas de corticoides, o cuadro urticariforme atípico.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 15"
+  }
+ ]
+}

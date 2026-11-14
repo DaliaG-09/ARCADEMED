@@ -1,0 +1,796 @@
+{
+ "preguntas": [
+  {
+   "id": "d-amp-def",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 1,
+   "enunciado": "¿Qué mecanismos producen las ampollas?",
+   "opciones": [
+    {
+     "t": "Pérdida de cohesión entre queratinocitos o desprendimiento epidermis-dermis",
+     "por": "Las ampollas resultan de la pérdida de cohesión entre queratinocitos (acantólisis) o del desprendimiento entre epidermis y dermis.",
+     "full": "Acantólisis (pérdida de cohesión entre queratinocitos) o desprendimiento epidermis-dermis"
+    },
+    {
+     "t": "Aumento de la melanina epidérmica",
+     "por": "Eso produce hiperpigmentación."
+    },
+    {
+     "t": "Hiperproliferación de queratinocitos con escama",
+     "por": "Es el mecanismo de la psoriasis."
+    },
+    {
+     "t": "Depósito de hierro en la dermis",
+     "por": "Es de la hemocromatosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Esto altera la integridad de la piel y de las mucosas.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 9"
+  },
+  {
+   "id": "d-amp-etio",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 1,
+   "enunciado": "¿En qué tres grupos se clasifican etiológicamente las enfermedades ampollares?",
+   "opciones": [
+    {
+     "t": "Autoinmunes, hereditarias y tóxicas o inducidas por fármacos",
+     "por": "Se clasifican en autoinmunes (pénfigo vulgar, penfigoide), hereditarias (epidermólisis bullosa) y tóxicas o inducidas por medicamentos (necrólisis epidérmica tóxica).",
+     "full": "Autoinmunes, hereditarias y tóxicas o inducidas por fármacos"
+    },
+    {
+     "t": "Bacterianas, virales y micóticas",
+     "por": "Son las infecciosas, no la clasificación de la clase."
+    },
+    {
+     "t": "Neoplásicas, metabólicas y vasculares",
+     "por": "No es la clasificación de la clase."
+    },
+    {
+     "t": "Alérgicas, físicas y nutricionales",
+     "por": "No es la clasificación de la clase."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Cada grupo tiene ejemplos propios.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 10"
+  },
+  {
+   "id": "d-amp-epi",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿Qué enfermedad ampollar autoinmune es la más común actualmente?",
+   "opciones": [
+    {
+     "t": "Penfigoide ampolloso",
+     "por": "Afecta sobre todo a mayores de 70 años y es la ampollar autoinmune más común.",
+     "full": "Penfigoide ampolloso"
+    },
+    {
+     "t": "Pénfigo vulgar",
+     "por": "Es menos frecuente: 0,1-0,5 casos por 100 000 al año."
+    },
+    {
+     "t": "Dermatitis herpetiforme",
+     "por": "Es más frecuente en jóvenes con enfermedad celíaca."
+    },
+    {
+     "t": "Epidermólisis bullosa",
+     "por": "Es hereditaria, con 8-10 casos por millón."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Su incidencia es de 2 a 22 casos por millón por año.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-amp-epipv",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿En qué grupo etario es más frecuente el pénfigo vulgar?",
+   "opciones": [
+    {
+     "t": "En personas de mediana edad, de 40 a 60 años",
+     "por": "El pénfigo vulgar es más frecuente en personas de 40-60 años, con mayor prevalencia en poblaciones mediterráneas, judías o indias.",
+     "full": "De 40 a 60 años"
+    },
+    {
+     "t": "En mayores de 70 años",
+     "por": "Es la edad del penfigoide ampolloso."
+    },
+    {
+     "t": "En recién nacidos",
+     "por": "Es característico de las formas hereditarias."
+    },
+    {
+     "t": "En adolescentes con enfermedad celíaca",
+     "por": "Es el grupo de la dermatitis herpetiforme."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La incidencia estimada es de 0,1 a 0,5 casos por 100 000 personas al año.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-amp-epidh",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿Quién tiene más probabilidad de dermatitis herpetiforme?",
+   "opciones": [
+    {
+     "t": "Personas jóvenes con enfermedad celíaca no diagnosticada",
+     "por": "Es más común en jóvenes con enfermedad celíaca no diagnosticada, con prevalencia de 11-39 casos por millón.",
+     "full": "Jóvenes con enfermedad celíaca no diagnosticada"
+    },
+    {
+     "t": "Adultos mayores con penfigoide",
+     "por": "No es el grupo típico."
+    },
+    {
+     "t": "Niños con ictiosis",
+     "por": "No es el grupo típico."
+    },
+    {
+     "t": "Mujeres embarazadas únicamente",
+     "por": "No es el grupo típico."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es más frecuente en Europa y América del Norte.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-amp-pv",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿Qué ocurre en la fisiopatología del pénfigo vulgar?",
+   "opciones": [
+    {
+     "t": "Autoanticuerpos IgG contra desmogleínas causan acantólisis",
+     "por": "Los autoanticuerpos IgG contra las desmogleínas de los desmosomas producen acantólisis y ampollas flácidas intraepidérmicas.",
+     "full": "Autoanticuerpos IgG contra desmogleínas con acantólisis"
+    },
+    {
+     "t": "Autoanticuerpos contra BP180 y BP230",
+     "por": "Es el penfigoide ampolloso."
+    },
+    {
+     "t": "Depósito de IgA en papilas dérmicas",
+     "por": "Es la dermatitis herpetiforme."
+    },
+    {
+     "t": "Mutación del colágeno VII",
+     "por": "Es la epidermólisis bullosa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En el pénfigo vulgar son las desmogleínas 1 y 3.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 12"
+  },
+  {
+   "id": "d-amp-bp",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿Contra qué se dirigen los autoanticuerpos del penfigoide ampolloso?",
+   "opciones": [
+    {
+     "t": "BP180 y BP230 de la membrana basal",
+     "por": "Se dirigen contra BP180 y BP230 (hemidesmosomas), con inflamación subepidérmica y ampollas tensas.",
+     "full": "BP180 y BP230 de la membrana basal (hemidesmosomas)"
+    },
+    {
+     "t": "Desmogleínas 1 y 3",
+     "por": "Es del pénfigo vulgar."
+    },
+    {
+     "t": "Transglutaminasa de la mucosa intestinal",
+     "por": "No es del penfigoide."
+    },
+    {
+     "t": "Colágeno VII mutado",
+     "por": "Es de la epidermólisis bullosa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Las ampollas son tensas.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-amp-dh",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿Qué hallazgo inmunológico caracteriza a la dermatitis herpetiforme?",
+   "opciones": [
+    {
+     "t": "Depósitos granulares de IgA en las papilas dérmicas",
+     "por": "Los depósitos granulares de IgA en las papilas dérmicas desencadenan inflamación asociada al gluten.",
+     "full": "Depósitos granulares de IgA en papilas dérmicas"
+    },
+    {
+     "t": "Depósitos lineales de IgG y C3 en la membrana basal",
+     "por": "Es del penfigoide."
+    },
+    {
+     "t": "IgG en red alrededor de queratinocitos",
+     "por": "Es del pénfigo."
+    },
+    {
+     "t": "Ausencia de depósitos",
+     "por": "Es una enfermedad con depósitos de IgA."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se relaciona con la enfermedad celíaca; las lesiones son agrupadas y pruriginosas.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-amp-eb",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿Qué causa la epidermólisis bullosa?",
+   "opciones": [
+    {
+     "t": "Mutaciones en genes de colágeno VII o queratinas",
+     "por": "Es genética, con mutaciones en proteínas estructurales como colágeno VII o queratinas y unión dermoepidérmica defectuosa.",
+     "full": "Mutaciones en genes de colágeno VII o queratinas"
+    },
+    {
+     "t": "Autoanticuerpos contra desmogleínas",
+     "por": "Es del pénfigo."
+    },
+    {
+     "t": "Reacción a fármacos",
+     "por": "Eso es necrólisis epidérmica tóxica."
+    },
+    {
+     "t": "Depósitos de IgA por gluten",
+     "por": "Es la dermatitis herpetiforme."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se manifiesta con fragilidad cutánea extrema.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-amp-clas",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 3,
+   "enunciado": "¿Qué enfermedad ampollar autoinmune es intraepidérmica?",
+   "opciones": [
+    {
+     "t": "Pénfigo foliáceo",
+     "por": "Las intraepidérmicas autoinmunes son pénfigo vulgar y foliáceo.",
+     "full": "Pénfigo foliáceo (y pénfigo vulgar)"
+    },
+    {
+     "t": "Penfigoide ampolloso",
+     "por": "Es subepidérmica."
+    },
+    {
+     "t": "Dermatitis herpetiforme",
+     "por": "Es subepidérmica."
+    },
+    {
+     "t": "Epidermólisis ampollar adquirida",
+     "por": "Es subepidérmica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Las subepidérmicas autoinmunes son penfigoide, dermatitis herpetiforme y epidermólisis ampollar adquirida.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 14"
+  },
+  {
+   "id": "d-amp-clas2",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 3,
+   "enunciado": "¿Cuál es el grupo de las ampollares hereditarias?",
+   "opciones": [
+    {
+     "t": "Epidermólisis bullosa simple, juntural y distrófica",
+     "por": "Las hereditarias son la epidermólisis bullosa simple, juntural y distrófica; las tóxicas son la necrólisis epidérmica tóxica y el síndrome de Stevens-Johnson.",
+     "full": "Epidermólisis bullosa simple, juntural y distrófica"
+    },
+    {
+     "t": "Pénfigo vulgar y foliáceo",
+     "por": "Son autoinmunes intraepidérmicas."
+    },
+    {
+     "t": "Necrólisis epidérmica tóxica",
+     "por": "Es tóxica o inducida."
+    },
+    {
+     "t": "Dermatitis herpetiforme",
+     "por": "Es autoinmune subepidérmica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se clasifican por el plano de separación y la etiología.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 14"
+  },
+  {
+   "id": "d-amp-pvclin",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿Cómo se presenta el pénfigo vulgar?",
+   "opciones": [
+    {
+     "t": "Ampollas flácidas en piel y mucosas",
+     "por": "El pénfigo vulgar es grave, con autoanticuerpos contra desmogleínas 1 y 3 y ampollas flácidas que afectan piel y mucosas.",
+     "full": "Ampollas flácidas en piel y mucosas; desmogleínas 1 y 3"
+    },
+    {
+     "t": "Ampollas tensas que respetan mucosas",
+     "por": "Es el penfigoide ampolloso."
+    },
+    {
+     "t": "Lesiones agrupadas muy pruriginosas con celiaquía",
+     "por": "Es la dermatitis herpetiforme."
+    },
+    {
+     "t": "Ampollas por fricción desde el nacimiento",
+     "por": "Es la epidermólisis bullosa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es una enfermedad autoinmune grave.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 16"
+  },
+  {
+   "id": "d-amp-bpclin",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿Cómo se presenta el penfigoide ampolloso?",
+   "opciones": [
+    {
+     "t": "Ampollas tensas en piel, con mucosas casi siempre respetadas",
+     "por": "Es la ampollar más común en adultos mayores, con ampollas tensas y rara afectación mucosa; los anticuerpos van contra hemidesmosomas.",
+     "full": "Ampollas tensas en piel, casi siempre con mucosas respetadas"
+    },
+    {
+     "t": "Ampollas flácidas que rompen en piel y mucosas",
+     "por": "Es el pénfigo vulgar."
+    },
+    {
+     "t": "Lesiones agrupadas con celiaquía",
+     "por": "Es dermatitis herpetiforme."
+    },
+    {
+     "t": "Ampollas en recién nacidos por trauma",
+     "por": "Es epidermólisis bullosa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la lámina aparece rotulado como 'pénfigo ampollar'.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 18",
+   "nota": "La lámina titula 'Pénfigo ampollar' a esta entidad; el nombre correcto es penfigoide ampolloso."
+  },
+  {
+   "id": "d-amp-dhclin",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿Qué lesiones tiene la dermatitis herpetiforme?",
+   "opciones": [
+    {
+     "t": "Lesiones agrupadas y muy pruriginosas, con relación a enfermedad celíaca",
+     "por": "Se caracteriza por lesiones agrupadas y pruriginosas con depósitos de IgA en papilas dérmicas y relación con enfermedad celíaca.",
+     "full": "Lesiones agrupadas muy pruriginosas, asociadas a enfermedad celíaca"
+    },
+    {
+     "t": "Ampollas flácidas en mucosa oral",
+     "por": "Es el pénfigo vulgar."
+    },
+    {
+     "t": "Ampollas tensas en mayores",
+     "por": "Es el penfigoide."
+    },
+    {
+     "t": "Ampollas congénitas por fragilidad",
+     "por": "Es la epidermólisis bullosa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Responde a dieta sin gluten y dapsona.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 17"
+  },
+  {
+   "id": "d-amp-fr",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿Qué fármacos se mencionan como factor de riesgo de enfermedad ampollar?",
+   "opciones": [
+    {
+     "t": "AINE, antibióticos y antiepilépticos",
+     "por": "Los factores de riesgo incluyen edad avanzada (penfigoide), genética (epidermólisis) y fármacos como AINE, antibióticos y antiepilépticos.",
+     "full": "AINE, antibióticos y antiepilépticos"
+    },
+    {
+     "t": "Vitaminas y suplementos de hierro",
+     "por": "No se mencionan."
+    },
+    {
+     "t": "Antihistamínicos y antiácidos",
+     "por": "No se mencionan."
+    },
+    {
+     "t": "Anticonceptivos y antidiabéticos",
+     "por": "No se mencionan."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La edad avanzada es factor del penfigoide y la genética de la epidermólisis.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 20"
+  },
+  {
+   "id": "d-amp-bx",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 3,
+   "enunciado": "¿Dónde se toma la biopsia para el estudio histológico de una ampolla?",
+   "opciones": [
+    {
+     "t": "En piel perilesional, zona sana adyacente a la ampolla",
+     "por": "La biopsia se toma en piel perilesional (zona sana adyacente a la ampolla).",
+     "full": "Piel perilesional, zona sana adyacente a la ampolla"
+    },
+    {
+     "t": "En el centro del techo de la ampolla roto",
+     "por": "No es la zona recomendada."
+    },
+    {
+     "t": "En la planta del pie siempre",
+     "por": "No es la localización indicada."
+    },
+    {
+     "t": "En cualquier lugar lejano a las lesiones",
+     "por": "Debe ser perilesional."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En el pénfigo vulgar se observa acantólisis con ampollas suprabasales; en el penfigoide, ampollas subepidérmicas con infiltrado eosinofílico.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 21"
+  },
+  {
+   "id": "d-amp-histo",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 3,
+   "enunciado": "¿Qué muestra la histología del penfigoide ampolloso?",
+   "opciones": [
+    {
+     "t": "Ampolla subepidérmica con infiltrado eosinofílico",
+     "por": "Se evidencian ampollas subepidérmicas con infiltrado eosinofílico.",
+     "full": "Ampolla subepidérmica con infiltrado eosinofílico"
+    },
+    {
+     "t": "Acantólisis con ampolla suprabasal",
+     "por": "Es del pénfigo vulgar."
+    },
+    {
+     "t": "Hifas en el estrato córneo",
+     "por": "Es de una micosis."
+    },
+    {
+     "t": "Células gigantes multinucleadas",
+     "por": "Se ven en herpes simple y zóster, no en penfigoide."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En el pénfigo vulgar hay acantólisis con ampollas intraepidérmicas suprabasales.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 21"
+  },
+  {
+   "id": "d-amp-ifd",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 3,
+   "enunciado": "¿Qué patrón muestra la inmunofluorescencia directa del pénfigo?",
+   "opciones": [
+    {
+     "t": "Depósitos de IgG en red alrededor de los queratinocitos",
+     "por": "En el pénfigo hay depósitos de IgG en red alrededor de los queratinocitos.",
+     "full": "Depósitos de IgG en red alrededor de los queratinocitos"
+    },
+    {
+     "t": "Depósitos lineales de IgG y C3 en la membrana basal",
+     "por": "Es del penfigoide."
+    },
+    {
+     "t": "Depósitos granulares de IgA en papilas dérmicas",
+     "por": "Es de la dermatitis herpetiforme."
+    },
+    {
+     "t": "Sin depósitos",
+     "por": "No es lo descrito."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La inmunofluorescencia directa es la prueba diagnóstica clave.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 22"
+  },
+  {
+   "id": "d-amp-ifd2",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 3,
+   "enunciado": "¿Qué patrón muestra la inmunofluorescencia directa del penfigoide?",
+   "opciones": [
+    {
+     "t": "Depósitos lineales de IgG y C3 a lo largo de la membrana basal",
+     "por": "En el penfigoide hay depósitos lineales de IgG y C3 en la membrana basal.",
+     "full": "Depósitos lineales de IgG y C3 en la membrana basal"
+    },
+    {
+     "t": "IgG en red entre queratinocitos",
+     "por": "Es del pénfigo."
+    },
+    {
+     "t": "IgA granular en papilas dérmicas",
+     "por": "Es de la dermatitis herpetiforme."
+    },
+    {
+     "t": "Depósitos de IgM nodulares",
+     "por": "No es lo descrito."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La IFI detecta autoanticuerpos circulantes en suero.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 22"
+  },
+  {
+   "id": "d-amp-elisa",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 3,
+   "enunciado": "¿Qué pruebas adicionales se usan en pénfigo y penfigoide?",
+   "opciones": [
+    {
+     "t": "ELISA para desmogleínas 1 y 3 (pénfigo) y BP180 y BP230 (penfigoide)",
+     "por": "Se usa ELISA para desmogleínas 1 y 3 en pénfigo y para BP180 y BP230 en penfigoide; en epidermólisis bullosa, pruebas genéticas.",
+     "full": "ELISA para desmogleínas 1 y 3 y para BP180 y BP230"
+    },
+    {
+     "t": "Cultivo de Sabouraud",
+     "por": "Es para micosis."
+    },
+    {
+     "t": "Prueba de parche",
+     "por": "Es para dermatitis de contacto."
+    },
+    {
+     "t": "Frotis de Tzanck solamente",
+     "por": "No confirma estas enfermedades."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la epidermólisis bullosa se hacen pruebas genéticas.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 22"
+  },
+  {
+   "id": "d-amp-pvtx",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 3,
+   "enunciado": "¿Cuál es la terapia de primera línea actual del pénfigo vulgar?",
+   "opciones": [
+    {
+     "t": "Rituximab",
+     "por": "Los corticoides sistémicos fueron el pilar, pero hoy el rituximab es la primera línea por su remisión prolongada; azatioprina o micofenolato se asocian en refractarios.",
+     "full": "Rituximab (antes eran los corticoides sistémicos)"
+    },
+    {
+     "t": "Dieta sin gluten y dapsona",
+     "por": "Es el tratamiento de la dermatitis herpetiforme."
+    },
+    {
+     "t": "Solo curas y manejo del dolor",
+     "por": "Es el soporte en epidermólisis bullosa."
+    },
+    {
+     "t": "Corticoide tópico de alta potencia únicamente",
+     "por": "Es para penfigoide localizado."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se asocian azatioprina o micofenolato en casos refractarios.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 23"
+  },
+  {
+   "id": "d-amp-bptx",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 3,
+   "enunciado": "¿Cómo se trata el penfigoide ampolloso localizado y el extenso?",
+   "opciones": [
+    {
+     "t": "Corticoides tópicos de alta potencia si es localizado; sistémicos si es extenso",
+     "por": "En formas localizadas son efectivos los corticoides tópicos de alta potencia; en casos extensos se requieren esteroides sistémicos.",
+     "full": "Corticoide tópico de alta potencia (localizado) o sistémico (extenso)"
+    },
+    {
+     "t": "Rituximab en todos",
+     "por": "Es primera línea del pénfigo vulgar."
+    },
+    {
+     "t": "Dapsona y dieta sin gluten",
+     "por": "Es de dermatitis herpetiforme."
+    },
+    {
+     "t": "Solo curas",
+     "por": "Es soporte de epidermólisis bullosa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El pronóstico es favorable, pero los mayores tienen riesgo infeccioso y tromboembólico.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 23"
+  },
+  {
+   "id": "d-amp-dhtx",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿Cómo se trata la dermatitis herpetiforme?",
+   "opciones": [
+    {
+     "t": "Dieta libre de gluten más dapsona",
+     "por": "Responde a dieta libre de gluten junto con dapsona, un antiinflamatorio.",
+     "full": "Dieta libre de gluten más dapsona"
+    },
+    {
+     "t": "Rituximab en todos",
+     "por": "Es del pénfigo."
+    },
+    {
+     "t": "Corticoide tópico únicamente",
+     "por": "No es el tratamiento indicado."
+    },
+    {
+     "t": "Terapia génica",
+     "por": "Está en investigación para epidermólisis bullosa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hay riesgo de recaída si se abandona la dieta.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 24"
+  },
+  {
+   "id": "d-amp-ebtx",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "¿Cuál es el tratamiento de la epidermólisis bullosa?",
+   "opciones": [
+    {
+     "t": "Principalmente de soporte: cuidado de heridas, dolor e infecciones",
+     "por": "El tratamiento es de soporte (heridas, dolor, prevención de infecciones); la terapia génica está en investigación.",
+     "full": "De soporte: heridas, dolor y prevención de infecciones"
+    },
+    {
+     "t": "Rituximab",
+     "por": "Es del pénfigo vulgar."
+    },
+    {
+     "t": "Dieta sin gluten",
+     "por": "Es de dermatitis herpetiforme."
+    },
+    {
+     "t": "Corticoides tópicos de alta potencia",
+     "por": "Son del penfigoide."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Requiere manejo multidisciplinario.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 24"
+  },
+  {
+   "id": "d-amp-pron",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 3,
+   "enunciado": "¿Cuál es el pronóstico del pénfigo vulgar con rituximab?",
+   "opciones": [
+    {
+     "t": "Remisión en más del 80 % a los 24 meses",
+     "por": "Con rituximab se reporta remisión en más del 80 % de los pacientes a 24 meses; sin tratamiento puede ser mortal.",
+     "full": "Remisión en más del 80 % a los 24 meses"
+    },
+    {
+     "t": "Mortalidad inevitable",
+     "por": "El rituximab mejoró la remisión."
+    },
+    {
+     "t": "Remisión espontánea en todos",
+     "por": "Sin tratamiento puede ser potencialmente mortal."
+    },
+    {
+     "t": "Sin respuesta al tratamiento",
+     "por": "Sí hay respuesta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Sin tratamiento hay riesgo de infecciones, desequilibrio hidroelectrolítico y compromiso mucoso severo.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 25"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "d-amp-c-0",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "f": "¿Qué mecanismo produce el pénfigo vulgar y qué lesiones da?",
+   "b": "IgG contra desmogleínas 1 y 3 → acantólisis; ampollas flácidas en piel y mucosas.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 12"
+  },
+  {
+   "id": "d-amp-c-1",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "f": "¿Contra qué van los anticuerpos del penfigoide ampolloso?",
+   "b": "BP180 y BP230 (membrana basal): ampollas tensas, mucosas casi siempre respetadas; más común en mayores de 70.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-amp-c-2",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "f": "¿Qué hallazgo tiene la dermatitis herpetiforme?",
+   "b": "Depósitos granulares de IgA en papilas dérmicas; relacionada con celiaquía; dieta sin gluten y dapsona.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-amp-c-3",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "f": "¿Qué causa la epidermólisis bullosa?",
+   "b": "Mutaciones en colágeno VII o queratinas; fragilidad extrema; tratamiento de soporte.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-amp-c-4",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "f": "¿Cómo se clasifican las ampollares autoinmunes por plano?",
+   "b": "Intraepidérmicas: pénfigo vulgar y foliáceo. Subepidérmicas: penfigoide, dermatitis herpetiforme, epidermólisis ampollar adquirida.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 14"
+  },
+  {
+   "id": "d-amp-c-5",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "f": "¿Qué muestra la biopsia en pénfigo vulgar y en penfigoide?",
+   "b": "Pénfigo: acantólisis con ampolla suprabasal. Penfigoide: ampolla subepidérmica con eosinófilos. Biopsia perilesional.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 21"
+  },
+  {
+   "id": "d-amp-c-6",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "f": "¿Qué muestra la inmunofluorescencia directa en pénfigo y penfigoide?",
+   "b": "Pénfigo: IgG en red entre queratinocitos. Penfigoide: IgG y C3 lineales en la membrana basal.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 22"
+  },
+  {
+   "id": "d-amp-c-7",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "f": "¿Cuál es el tratamiento del pénfigo vulgar?",
+   "b": "Rituximab como primera línea; corticoides sistémicos; azatioprina o micofenolato en refractarios.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 23"
+  }
+ ]
+}

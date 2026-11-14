@@ -1,0 +1,684 @@
+{
+ "preguntas": [
+  {
+   "id": "d-bac-germ",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 1,
+   "enunciado": "¿Cuáles son las principales bacterias de las infecciones cutáneas?",
+   "opciones": [
+    {
+     "t": "Staphylococcus aureus y Streptococcus pyogenes",
+     "por": "Las principales bacterias son S. aureus y S. pyogenes; la terapia antibiótica inicial es probabilística.",
+     "full": "Staphylococcus aureus y Streptococcus pyogenes"
+    },
+    {
+     "t": "Pseudomonas aeruginosa y Klebsiella pneumoniae",
+     "por": "No son las principales de la piel."
+    },
+    {
+     "t": "Escherichia coli y Proteus mirabilis",
+     "por": "Son típicas de infecciones urinarias."
+    },
+    {
+     "t": "Neisseria gonorrhoeae y Treponema pallidum",
+     "por": "Son agentes de infecciones de transmisión sexual."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El espectro clínico es amplio, el antibiótico se elige de forma empírica y hay que buscar la puerta de entrada.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 7"
+  },
+  {
+   "id": "d-bac-imp",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 1,
+   "enunciado": "¿Quiénes se afectan con más frecuencia por impétigo?",
+   "opciones": [
+    {
+     "t": "Lactantes y niños",
+     "por": "Es una infección superficial altamente contagiosa, más frecuente en lactantes y niños (10 % de las infecciones cutáneas en pediatría).",
+     "full": "Lactantes y niños"
+    },
+    {
+     "t": "Adultos mayores institucionalizados",
+     "por": "No es el grupo más frecuente."
+    },
+    {
+     "t": "Varones de mediana edad",
+     "por": "No es el grupo más afectado."
+    },
+    {
+     "t": "Gestantes en el tercer trimestre",
+     "por": "No es un grupo característico."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los agentes son el estreptococo β-hemolítico del grupo A (S. pyogenes) y/o S. aureus.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 9"
+  },
+  {
+   "id": "d-bac-impamp",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo evoluciona la lesión del impétigo ampolloso?",
+   "opciones": [
+    {
+     "t": "Ampolla subcórnea blanda que erosiona y forma costra melicérica",
+     "por": "La ampolla es superficial y frágil; se erosiona y deja costra melicérica de extensión centrífuga sin cicatriz.",
+     "full": "Ampolla subcórnea blanda que erosiona y deja costra melicérica sin cicatriz"
+    },
+    {
+     "t": "Nódulo profundo que supura y deja cicatriz",
+     "por": "Es más propio de lesiones profundas como el forúnculo."
+    },
+    {
+     "t": "Úlcera con costra negruzca y cicatriz indeleble",
+     "por": "Esa es la ectima."
+    },
+    {
+     "t": "Placa eritematosa dolorosa con fiebre alta",
+     "por": "Es el cuadro de la erisipela."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El impétigo ampolloso se extiende de forma centrífuga y no deja cicatriz.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 10"
+  },
+  {
+   "id": "d-bac-ect",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "contexto": "La ectima y el impétigo ampolloso son formas clínicas del impétigo, pero tienen distinta profundidad.",
+   "enunciado": "¿Qué distingue a la ectima del impétigo ampolloso?",
+   "opciones": [
+    {
+     "t": "Es una forma ulcerativa con costra negruzca y cicatriz",
+     "por": "La ectima es la forma ulcerativa del impétigo: costra negruzca con halo eritematoso, suele estar en miembros inferiores y deja cicatriz indeleble.",
+     "full": "Forma ulcerativa con costra negruzca, halo eritematoso y cicatriz indeleble"
+    },
+    {
+     "t": "Es una ampolla frágil sin cicatriz",
+     "por": "Eso describe el impétigo ampolloso."
+    },
+    {
+     "t": "Es una pústula centrada por un pelo",
+     "por": "Es la foliculitis."
+    },
+    {
+     "t": "Es un edema profundo en la cara",
+     "por": "Eso es angioedema, no ectima."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es una infección más profunda que el impétigo y suele aparecer en las piernas.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 10"
+  },
+  {
+   "id": "d-bac-imptx",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "¿Cuál es el tratamiento del impétigo localizado sin complicaciones y no ampolloso?",
+   "opciones": [
+    {
+     "t": "Antibiótico tópico: mupirocina o ácido fusídico",
+     "por": "Si es localizado y no ampolloso se usan antibióticos tópicos como mupirocina o ácido fusídico.",
+     "full": "Mupirocina o ácido fusídico tópicos"
+    },
+    {
+     "t": "Amoxicilina-clavulánico oral por 10 días",
+     "por": "Se reserva para el ampolloso o con más de 5 lesiones."
+    },
+    {
+     "t": "Corticoide tópico potente",
+     "por": "No trata la infección bacteriana."
+    },
+    {
+     "t": "Antimicótico tópico por 4 semanas",
+     "por": "No es una infección fúngica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El impétigo ampolloso o el que tiene más de 5 lesiones requiere antibiótico sistémico (cefalexina o amoxicilina-clavulánico) por 10 días; cotrimoxazol cubre S. aureus.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 11"
+  },
+  {
+   "id": "d-bac-imptx2",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 3,
+   "enunciado": "Un niño tiene impétigo con más de 5 lesiones. ¿Qué tratamiento corresponde?",
+   "opciones": [
+    {
+     "t": "Antibiótico sistémico, por ejemplo cefalexina, por 10 días",
+     "por": "Con ampollas o más de 5 lesiones se indican antibióticos sistémicos (cefalexina, amoxicilina-clavulánico) durante 10 días.",
+     "full": "Cefalexina o amoxicilina-clavulánico VO por 10 días"
+    },
+    {
+     "t": "Solo mupirocina tópica por 3 días",
+     "por": "El tópico es para casos localizados sin complicaciones."
+    },
+    {
+     "t": "Solo antisépticos y observación",
+     "por": "No es suficiente con tantas lesiones."
+    },
+    {
+     "t": "Corticoides orales",
+     "por": "No tratan la infección."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Cotrimoxazol es opción si se sospecha S. aureus.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 11"
+  },
+  {
+   "id": "d-bac-fol",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 1,
+   "enunciado": "¿Qué es la foliculitis?",
+   "opciones": [
+    {
+     "t": "Infección superficial del folículo pilosebáceo, casi siempre por S. aureus",
+     "por": "Es una infección superficial del folículo pilosebáceo causada casi siempre por S. aureus; se presenta como papulopústula centrada por un pelo.",
+     "full": "Infección superficial del folículo pilosebáceo, casi siempre por S. aureus"
+    },
+    {
+     "t": "Infección de la dermis por estreptococo A",
+     "por": "Es la erisipela, que afecta la dermis."
+    },
+    {
+     "t": "Infección del tejido subcutáneo por clostridios",
+     "por": "No es foliculitis."
+    },
+    {
+     "t": "Infección micótica del cabello por dermatofitos",
+     "por": "Eso sería una tiña."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Sus formas clínicas son foliculitis, forúnculo, ántrax y forunculosis; en la barba se llama sicosis y en la pestaña, orzuelo.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 13"
+  },
+  {
+   "id": "d-bac-foru",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo se define un forúnculo?",
+   "opciones": [
+    {
+     "t": "Foliculitis profunda necrosante, papulonodular muy inflamatoria",
+     "por": "El forúnculo es una foliculitis profunda y necrosante, papulonodular muy inflamatoria, que evoluciona en 5 a 10 días.",
+     "full": "Foliculitis profunda necrosante, papulonodular muy inflamatoria (5-10 días)"
+    },
+    {
+     "t": "Papulopústula superficial con un pelo en el centro",
+     "por": "Esa es la foliculitis simple."
+    },
+    {
+     "t": "Conglomerado de forúnculos con fístulas y fiebre",
+     "por": "Eso es el ántrax."
+    },
+    {
+     "t": "Sucesión crónica de forúnculos",
+     "por": "Eso es la forunculosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La evolución es de 5 a 10 días.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 14"
+  },
+  {
+   "id": "d-bac-antrax",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué caracteriza al ántrax estafilocócico?",
+   "opciones": [
+    {
+     "t": "Conglomerado de forúnculos con placa hiperálgica, fístulas, fiebre y adenopatías",
+     "por": "Es un conglomerado de forúnculos que forma una placa inflamatoria hiperálgica salpicada de pústulas, con fístulas purulentas, fiebre y adenopatías regionales.",
+     "full": "Conglomerado de forúnculos: placa hiperálgica con fístulas, fiebre y adenopatías"
+    },
+    {
+     "t": "Un único nódulo con pelo central",
+     "por": "No es un conglomerado."
+    },
+    {
+     "t": "Una ampolla frágil con costra melicérica",
+     "por": "Es el impétigo."
+    },
+    {
+     "t": "Placa eritematosa bien delimitada en la pierna",
+     "por": "Es la erisipela."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Suele requerir drenaje quirúrgico además de antibiótico antiestafilocócico.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 15"
+  },
+  {
+   "id": "d-bac-foruncl",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 3,
+   "enunciado": "¿Qué se debe buscar en un paciente con forunculosis recurrente?",
+   "opciones": [
+    {
+     "t": "Factor favorecedor (diabetes, déficit de hierro, inmunosupresión) y reservorio de S. aureus",
+     "por": "La forunculosis cronifica por factores como DM, carencia de hierro e inmunosupresión y por reservorio cutáneo de S. aureus (fosas nasales, interglúteo, cavidad bucal).",
+     "full": "Factor favorecedor (DM, déficit de hierro, inmunosupresión) y reservorio de S. aureus"
+    },
+    {
+     "t": "Solo el tipo de ropa interior",
+     "por": "No es la causa principal descrita."
+    },
+    {
+     "t": "Un tumor de piel",
+     "por": "No es lo que se sospecha en forunculosis."
+    },
+    {
+     "t": "Una infección viral recurrente",
+     "por": "No es una enfermedad viral."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El tratamiento incluye antibiótico antiestafilocócico 7 días, desinfección de focos e higiene rigurosa.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 15"
+  },
+  {
+   "id": "d-bac-foltx",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 3,
+   "contexto": "La tabla de tratamiento compara foliculitis, forúnculo, ántrax y forunculosis según tratamiento sistémico, local y otras medidas.",
+   "enunciado": "¿Cuál es el tratamiento de la foliculitis simple?",
+   "opciones": [
+    {
+     "t": "Antibióticos locales por 5 a 7 días, sin antibiótico sistémico",
+     "por": "En la tabla de tratamiento la foliculitis no requiere tratamiento sistémico; se usa desinfección y antibióticos locales 5-7 días.",
+     "full": "Desinfección y antibióticos locales 5-7 días"
+    },
+    {
+     "t": "Cloxacilina IV",
+     "por": "No se indica en foliculitis simple."
+    },
+    {
+     "t": "Drenaje quirúrgico",
+     "por": "Se necesita a menudo en el ántrax, no en la foliculitis."
+    },
+    {
+     "t": "Baja laboral de rutina",
+     "por": "Se plantea en forúnculo o forunculosis de profesiones de riesgo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El forúnculo recibe antibiótico antiestafilocócico (cloxacilina, pristinamicina, ácido fusídico) 3-7 días solo en localización de riesgo (centrofacial), forúnculos múltiples o paciente frágil; sin manipular la lesión.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 16"
+  },
+  {
+   "id": "d-bac-eri",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué estructura afecta la erisipela?",
+   "opciones": [
+    {
+     "t": "La dermis, con posible extensión a linfáticos superficiales",
+     "por": "Es una infección cutánea que afecta la dermis y puede extenderse a vasos linfáticos superficiales; el eritema es bien delimitado y elevado.",
+     "full": "La dermis, con posible extensión a vasos linfáticos superficiales"
+    },
+    {
+     "t": "El folículo piloso exclusivamente",
+     "por": "Eso es la foliculitis."
+    },
+    {
+     "t": "El tejido subcutáneo profundo sin eritema definido",
+     "por": "Eso se acerca más a la celulitis."
+    },
+    {
+     "t": "Solo la epidermis superficial",
+     "por": "Eso es impétigo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Suele afectar los miembros inferiores; incidencia de 10 a 100 casos por 100 000 habitantes.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 18"
+  },
+  {
+   "id": "d-bac-erifr",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "¿Cuál de estos es un factor de riesgo de erisipela?",
+   "opciones": [
+    {
+     "t": "Insuficiencia venosa o linfática",
+     "por": "Los factores locales son insuficiencia vascular (venosa o linfática); también la disrupción de la barrera cutánea (por ejemplo, micosis interdigital plantar, onicomicosis) y la obesidad.",
+     "full": "Insuficiencia vascular (venosa o linfática)"
+    },
+    {
+     "t": "Dieta rica en fibra",
+     "por": "No es un factor de riesgo."
+    },
+    {
+     "t": "Ejercicio aeróbico regular",
+     "por": "No se describe como factor de riesgo."
+    },
+    {
+     "t": "Piel hidratada con barrera intacta",
+     "por": "La barrera íntegra protege; su ruptura es el factor."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La puerta de entrada más frecuente es la ruptura cutánea, como la tiña interdigital.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 19"
+  },
+  {
+   "id": "d-bac-eriq",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo comienza el cuadro clínico de la erisipela?",
+   "opciones": [
+    {
+     "t": "Fiebre de 39-40 °C con escalofríos y luego placa eritematosa dolorosa y edematosa",
+     "por": "El orden cronológico es fiebre de 39 a 40 °C con escalofríos y después placa cutánea eritematosa, dolorosa y edematosa.",
+     "full": "Fiebre de 39-40 °C con escalofríos; luego placa eritematosa, dolorosa y edematosa"
+    },
+    {
+     "t": "Ampolla frágil sin fiebre",
+     "por": "Eso es impétigo ampolloso."
+    },
+    {
+     "t": "Pústula con pelo central sin fiebre",
+     "por": "Eso es foliculitis."
+    },
+    {
+     "t": "Prurito leve y escama fina",
+     "por": "No es el cuadro de la erisipela."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La placa es bien delimitada y elevada.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 20"
+  },
+  {
+   "id": "d-bac-erisev",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 3,
+   "contexto": "La tabla de signos de severidad agrupa antecedentes del paciente, puerta de entrada, signos locales, sistémicos, evolución y laboratorio.",
+   "enunciado": "¿Cuál de estos hallazgos orienta a una infección grave o necrotizante?",
+   "opciones": [
+    {
+     "t": "Dolor desproporcionado no controlado con analgésicos",
+     "por": "Entre los signos locales de gravedad están dolor muy intenso no controlado, zonas equimóticas o purpúricas, hipoestesia, crepitación e induración hiperálgica.",
+     "full": "Dolor intenso no controlado por analgésicos"
+    },
+    {
+     "t": "Eritema bien delimitado en un miembro",
+     "por": "Es la presentación habitual de la erisipela."
+    },
+    {
+     "t": "Fiebre de 38 °C con buena respuesta",
+     "por": "No es un signo de gravedad."
+    },
+    {
+     "t": "Prurito leve alrededor de la lesión",
+     "por": "No es signo de gravedad."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "También: signos de choque séptico, extensión rápida pese al antibiótico, CPK elevada, PCR > 150 mg/l, hemocultivos positivos y falla visceral.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 20"
+  },
+  {
+   "id": "d-bac-eritx",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "¿Cuál es el tratamiento antibiótico de la erisipela?",
+   "opciones": [
+    {
+     "t": "Amoxicilina por 7 a 21 días",
+     "por": "Se cubre el estreptococo con amoxicilina (alternativa clindamicina) durante 7 a 21 días.",
+     "full": "Amoxicilina durante 7-21 días; clindamicina como alternativa"
+    },
+    {
+     "t": "Mupirocina tópica solamente",
+     "por": "Es para impétigo localizado."
+    },
+    {
+     "t": "Fluconazol oral",
+     "por": "Es antifúngico."
+    },
+    {
+     "t": "Prednisona oral",
+     "por": "Los corticoides están contraindicados."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Si la fiebre persiste más de 48 horas se valora cambiar el antibiótico.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 21",
+   "nota": "La lámina llama a la clindamicina 'beta lactámico', pero no lo es: es una lincosamida, útil como alternativa en alergia a penicilinas."
+  },
+  {
+   "id": "d-bac-erino",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 3,
+   "enunciado": "¿Qué fármacos se evitan en la erisipela?",
+   "opciones": [
+    {
+     "t": "AINE y corticoides",
+     "por": "No se usan AINE ni corticoides porque favorecen la necrosis.",
+     "full": "AINE y corticoides, porque favorecen la necrosis"
+    },
+    {
+     "t": "Amoxicilina",
+     "por": "Es el antibiótico de elección."
+    },
+    {
+     "t": "Paracetamol",
+     "por": "No se contraindica."
+    },
+    {
+     "t": "Elevación de la extremidad",
+     "por": "Es una medida adecuada."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se espera mejoría en 48 horas; si la fiebre persiste, se reconsidera el antibiótico.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 21"
+  },
+  {
+   "id": "d-bac-cel",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué agente produce con más frecuencia la celulitis?",
+   "opciones": [
+    {
+     "t": "Estreptococo β-hemolítico del grupo A o S. aureus",
+     "por": "La celulitis suele ser consecuencia del estreptococo β-hemolítico y S. aureus sensible a meticilina; las formas purulentas se asocian más a S. aureus.",
+     "full": "Estreptococo β-hemolítico y S. aureus (más en formas purulentas)"
+    },
+    {
+     "t": "Pseudomonas aeruginosa",
+     "por": "No es el agente habitual."
+    },
+    {
+     "t": "Candida albicans",
+     "por": "Es una levadura, no una bacteria."
+    },
+    {
+     "t": "Treponema pallidum",
+     "por": "Es la sífilis, no la celulitis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es la enfermedad bacteriana común de la piel, más en adultos de mediana edad, sin diferencia entre sexos.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 24",
+   "nota": "La lámina escribe 'Streptococo A del grupo B hemolítico'; lo correcto es estreptococo β-hemolítico del grupo A."
+  },
+  {
+   "id": "d-bac-celclin",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo se presenta la celulitis?",
+   "opciones": [
+    {
+     "t": "Dolor, calor y enrojecimiento mal definido de aparición aguda",
+     "por": "La celulitis aparece de forma aguda con dolor, calor y eritema mal definido; hay fiebre en 26-67 % de los casos.",
+     "full": "Dolor, calor y eritema mal definido, de aparición aguda"
+    },
+    {
+     "t": "Eritema muy elevado y bien delimitado",
+     "por": "Eso describe la erisipela."
+    },
+    {
+     "t": "Papulopústula centrada por un pelo",
+     "por": "Es la foliculitis."
+    },
+    {
+     "t": "Ampolla con costra melicérica",
+     "por": "Es el impétigo ampolloso."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "A diferencia de la erisipela, los bordes no son netos.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 27"
+  },
+  {
+   "id": "d-bac-celdx",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo se diagnostica la celulitis?",
+   "opciones": [
+    {
+     "t": "Clínicamente; el cultivo no es rutinario, solo en la forma purulenta",
+     "por": "El diagnóstico es clínico; los cultivos se hacen en celulitis purulenta; se piden hemograma y marcadores inflamatorios, y ecografía para descartar absceso.",
+     "full": "Clínico; cultivo solo en celulitis purulenta; ecografía si se sospecha absceso"
+    },
+    {
+     "t": "Con cultivo en todos los casos",
+     "por": "No se hace de forma rutinaria."
+    },
+    {
+     "t": "Solo con biopsia cutánea",
+     "por": "No es necesaria."
+    },
+    {
+     "t": "Con prueba de parche",
+     "por": "Es para dermatitis de contacto."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La ecografía ayuda a descartar absceso.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 29"
+  },
+  {
+   "id": "d-bac-celtx",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 3,
+   "enunciado": "¿Cuándo está indicado el antibiótico endovenoso en la celulitis?",
+   "opciones": [
+    {
+     "t": "Celulitis grave, con signos sistémicos o falla del tratamiento oral",
+     "por": "Se indica IV en celulitis grave, signos sistémicos, afectación de cara u ojo, propagación rápida, falla oral e infección profunda o necrotizante.",
+     "full": "Celulitis grave, signos sistémicos, cara u ojo, falla oral o infección necrotizante"
+    },
+    {
+     "t": "En toda celulitis leve sin fiebre",
+     "por": "La leve se trata con antibiótico oral."
+    },
+    {
+     "t": "Solo si hay prurito",
+     "por": "No es criterio."
+    },
+    {
+     "t": "Nunca, siempre es oral",
+     "por": "Hay criterios para vía IV."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Las demás medidas son elevar la zona afectada y dar antibiótico oral en casos leves.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 31"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "d-bac-c-0",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "f": "¿Cuáles son los agentes más frecuentes de las infecciones bacterianas de piel?",
+   "b": "Staphylococcus aureus y Streptococcus pyogenes (estreptococo β-hemolítico grupo A).",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 7"
+  },
+  {
+   "id": "d-bac-c-1",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "f": "¿Cómo se diferencian el impétigo ampolloso y la ectima?",
+   "b": "Ampolloso: ampolla frágil, costra melicérica, sin cicatriz. Ectima: úlcera con costra negruzca, miembros inferiores, cicatriz.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 10"
+  },
+  {
+   "id": "d-bac-c-2",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "f": "¿Cuál es el tratamiento del impétigo?",
+   "b": "Localizado no ampolloso: mupirocina o ácido fusídico. Ampolloso o más de 5 lesiones: cefalexina o amoxicilina-clavulánico por 10 días.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 11"
+  },
+  {
+   "id": "d-bac-c-3",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "f": "¿Qué formas clínicas de foliculitis existen?",
+   "b": "Foliculitis, forúnculo, ántrax y forunculosis; casi siempre por S. aureus.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 13"
+  },
+  {
+   "id": "d-bac-c-4",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "f": "¿Qué es el ántrax?",
+   "b": "Conglomerado de forúnculos con placa hiperálgica, pústulas, fístulas, fiebre y adenopatías; suele necesitar drenaje.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 15"
+  },
+  {
+   "id": "d-bac-c-5",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "f": "¿Qué es la erisipela y cómo se trata?",
+   "b": "Infección de la dermis con eritema elevado y bien delimitado, en miembros inferiores. Amoxicilina 7-21 días; sin AINE ni corticoides.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 21"
+  },
+  {
+   "id": "d-bac-c-6",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "f": "¿Cómo se diferencia la celulitis de la erisipela?",
+   "b": "Celulitis: dolor, calor y eritema mal definido; erisipela: placa bien delimitada y elevada.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 27"
+  },
+  {
+   "id": "d-bac-c-7",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "f": "¿Cuándo se usa antibiótico endovenoso en celulitis?",
+   "b": "Grave, signos sistémicos, cara u ojo, propagación rápida, falla oral o infección necrotizante.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 31"
+  }
+ ]
+}

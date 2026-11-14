@@ -1,0 +1,709 @@
+{
+ "preguntas": [
+  {
+   "id": "d-mic-clas",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 1,
+   "enunciado": "¿Qué micosis se consideran superficiales?",
+   "opciones": [
+    {
+     "t": "Las que afectan estrato córneo, pelo y uñas: tiñas, candidiasis cutánea y pitiriasis versicolor",
+     "por": "Las micosis superficiales afectan el estrato córneo, el pelo o las uñas e incluyen dermatofitosis (tiñas), candidiasis cutánea y pitiriasis versicolor.",
+     "full": "Las que afectan estrato córneo, pelo y uñas: tiñas, candidiasis y pitiriasis versicolor"
+    },
+    {
+     "t": "Esporotricosis, cromomicosis y feohifomicosis",
+     "por": "Son subcutáneas: entran por traumatismo."
+    },
+    {
+     "t": "Histoplasmosis, criptococosis y paracoccidioidomicosis",
+     "por": "Son profundas o sistémicas, diseminadas desde vías respiratorias."
+    },
+    {
+     "t": "Solo las que producen granulomas fistulizados",
+     "por": "Eso describe micosis subcutáneas y profundas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Las subcutáneas entran por traumatismo; las profundas o sistémicas se diseminan desde las vías respiratorias hasta la piel.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 12"
+  },
+  {
+   "id": "d-mic-subc",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Cuál de estas es una micosis subcutánea?",
+   "opciones": [
+    {
+     "t": "Esporotricosis",
+     "por": "Las subcutáneas se introducen por traumatismos: esporotricosis, cromomicosis y feohifomicosis.",
+     "full": "Esporotricosis"
+    },
+    {
+     "t": "Pitiriasis versicolor",
+     "por": "Es superficial."
+    },
+    {
+     "t": "Histoplasmosis",
+     "por": "Es una micosis profunda o sistémica."
+    },
+    {
+     "t": "Tiña pedis",
+     "por": "Es una dermatofitosis superficial."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se adquieren por inoculación traumática y forman granulomas, abscesos o trayectos fistulosos.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 12"
+  },
+  {
+   "id": "d-mic-agentes",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Qué géneros son dermatofitos?",
+   "opciones": [
+    {
+     "t": "Trichophyton, Microsporum y Epidermophyton",
+     "por": "Los dermatofitos son Trichophyton, Microsporum y Epidermophyton; las levaduras son Candida y Malassezia.",
+     "full": "Trichophyton, Microsporum y Epidermophyton"
+    },
+    {
+     "t": "Candida y Malassezia",
+     "por": "Son levaduras, no dermatofitos."
+    },
+    {
+     "t": "Sporothrix y Fonsecaea",
+     "por": "Son agentes de micosis subcutáneas."
+    },
+    {
+     "t": "Cryptococcus e Histoplasma",
+     "por": "Son agentes de micosis profundas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los hongos patógenos pueden ser dermatofitos, levaduras o mohos.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-mic-fisio",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 3,
+   "enunciado": "¿Cómo daña la piel el hongo patógeno?",
+   "opciones": [
+    {
+     "t": "Se adhiere al estrato córneo y produce enzimas como queratinasas y lipasas",
+     "por": "Primero se adhiere al estrato córneo o anexos, favorecido por humedad o maceración, y luego produce enzimas hidrolíticas (queratinasas, lipasas, fosfolipasas, proteasas) que degradan proteínas del epitelio.",
+     "full": "Adhesión al estrato córneo y enzimas hidrolíticas (queratinasas, lipasas, proteasas)"
+    },
+    {
+     "t": "Produce autoanticuerpos contra desmogleínas",
+     "por": "Eso es del pénfigo."
+    },
+    {
+     "t": "Destruye melanocitos por autoinmunidad",
+     "por": "Eso es del vitíligo."
+    },
+    {
+     "t": "Produce toxinas que forman ampollas subcórneas",
+     "por": "Es el mecanismo del impétigo ampolloso."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En inmunocompetentes suele quedar en tejidos superficiales; en inmunosuprimidos hay más diseminación.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-mic-micro",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Qué hongos forman parte de la microbiota normal de la piel?",
+   "opciones": [
+    {
+     "t": "Candida albicans y Malassezia furfur",
+     "por": "Ambos son parte de la microbiota normal y se vuelven patógenos con antibióticos, cambios de pH o humedad excesiva.",
+     "full": "Candida albicans y Malassezia furfur"
+    },
+    {
+     "t": "Trichophyton rubrum y Microsporum canis",
+     "por": "Son dermatofitos que no son microbiota normal."
+    },
+    {
+     "t": "Sporothrix schenckii",
+     "por": "Se adquiere del ambiente por trauma."
+    },
+    {
+     "t": "Ninguno",
+     "por": "La clase señala dos que sí lo son."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se vuelven patógenos con uso de antibióticos, alteración del pH cutáneo o humedad.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 14"
+  },
+  {
+   "id": "d-mic-lima",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 3,
+   "contexto": "Un estudio retrospectivo de 30 años en Lima analizó 7185 casos positivos de dermatomicosis.",
+   "enunciado": "En el estudio de Lima (1976-2005), ¿cuál fue la dermatomicosis más frecuente y su agente principal?",
+   "opciones": [
+    {
+     "t": "Onicomicosis, con Trichophyton rubrum",
+     "por": "Onicomicosis fue 43,6 % de los casos; el patógeno principal fue Trichophyton rubrum (33,2 %), seguido de Candida albicans (15,3 %).",
+     "full": "Onicomicosis (43,6 %), con Trichophyton rubrum (33,2 %)"
+    },
+    {
+     "t": "Pitiriasis versicolor, con Malassezia",
+     "por": "No fue la principal."
+    },
+    {
+     "t": "Tiña capitis, con Microsporum",
+     "por": "No fue la más frecuente."
+    },
+    {
+     "t": "Candidiasis del pañal, con Candida",
+     "por": "No fue la principal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se analizaron 7185 casos positivos en el Instituto de Medicina Tropical Daniel A. Carrión.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-mic-corp",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 1,
+   "enunciado": "¿Cómo es la tiña corporis?",
+   "opciones": [
+    {
+     "t": "Placas anulares eritematodescamativas con borde activo y centro más claro",
+     "por": "La tiña corporis son placas anulares eritemato-descamativas, con borde activo y centro más claro, prurito leve a moderado, en tronco y extremidades.",
+     "full": "Placas anulares eritematodescamativas con borde activo y centro más claro"
+    },
+    {
+     "t": "Maceración interdigital",
+     "por": "Es la tiña pedis erosiva."
+    },
+    {
+     "t": "Alopecia con puntos negros",
+     "por": "Es la tiña capitis tonsurante."
+    },
+    {
+     "t": "Máculas hipopigmentadas finamente descamativas",
+     "por": "Es la pitiriasis versicolor."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Suele afectar tronco y extremidades.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 15"
+  },
+  {
+   "id": "d-mic-pedis",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Cuáles son los tipos clínicos de tiña pedis?",
+   "opciones": [
+    {
+     "t": "Erosivo interdigital, hiperqueratósico en mocasín y vesiculoso",
+     "por": "Se describen maceración interdigital, hiperqueratosis plantar difusa (mocasín) y vesículas plantares.",
+     "full": "Erosivo interdigital, mocasín hiperqueratósico y vesiculoso"
+    },
+    {
+     "t": "Tonsurante, querion y seco",
+     "por": "Son tipos de tiña capitis."
+    },
+    {
+     "t": "Cutánea fija, linfática y diseminada",
+     "por": "Son formas de esporotricosis."
+    },
+    {
+     "t": "Distal, proximal y lateral",
+     "por": "Se aproxima a las formas de onicomicosis, no de tiña pedis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es muy común en adultos.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 15"
+  },
+  {
+   "id": "d-mic-capitis",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Qué formas clínicas tiene la tiña capitis?",
+   "opciones": [
+    {
+     "t": "Alopecia parcheada con puntos negros, querion y forma seca",
+     "por": "Es frecuente en niños: alopecia parcheada con puntos negros (tonsurante), placas inflamatorias con supuración (querion) o escamas adheridas (seca).",
+     "full": "Tonsurante con puntos negros, querion supurativo y forma seca"
+    },
+    {
+     "t": "Maceración, mocasín y vesiculosa",
+     "por": "Son tipos de tiña pedis."
+    },
+    {
+     "t": "Fija, linfática y diseminada",
+     "por": "Son esporotricosis."
+    },
+    {
+     "t": "Intertrigo, pañal y ungueal",
+     "por": "Son formas de candidiasis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se trata con terapia sistémica prolongada; el querion puede dejar alopecia cicatricial.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 15"
+  },
+  {
+   "id": "d-mic-onico",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Cuál es la forma más frecuente de onicomicosis?",
+   "opciones": [
+    {
+     "t": "Subungueal distal lateral",
+     "por": "Se manifiesta con engrosamiento, cambio de color, onicólisis y fragilidad; la subungueal distal lateral es la más frecuente.",
+     "full": "Subungueal distal lateral"
+    },
+    {
+     "t": "Subungueal proximal",
+     "por": "No es la más frecuente."
+    },
+    {
+     "t": "Superficial blanca",
+     "por": "No es la más frecuente."
+    },
+    {
+     "t": "Endonyx",
+     "por": "No es la más frecuente."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los cambios de color pueden ser amarillento, marrón o blanquecino.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 15"
+  },
+  {
+   "id": "d-mic-cand",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Cómo se ve la candidiasis cutánea?",
+   "opciones": [
+    {
+     "t": "Placas eritematosas con borde activo, maceración y pústulas satélite en pliegues",
+     "por": "Afecta áreas húmedas e intertriginosas (ingles, axilas, pliegues submamarios) con eritema, borde activo y pústulas satélite; se asocia a obesidad, diabetes o inmunosupresión.",
+     "full": "Eritema con borde activo, maceración y pústulas satélite en pliegues"
+    },
+    {
+     "t": "Placas anulares secas con centro claro",
+     "por": "Es tiña corporis."
+    },
+    {
+     "t": "Nódulos que siguen los linfáticos",
+     "por": "Es esporotricosis."
+    },
+    {
+     "t": "Máculas finamente descamativas en el tronco",
+     "por": "Es pitiriasis versicolor."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El pañal en lactantes produce eritema con bordes irregulares y lesiones satélite.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 21"
+  },
+  {
+   "id": "d-mic-candf",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 3,
+   "enunciado": "¿Qué es la paroniquia candidiásica?",
+   "opciones": [
+    {
+     "t": "Inflamación dolorosa de los pliegues ungueales por Candida",
+     "por": "Es la candidiasis ungueal: inflamación dolorosa del pliegue ungueal, con engrosamiento y cambio de color, frecuente con humedad prolongada.",
+     "full": "Inflamación dolorosa de los pliegues ungueales con cambio de color de la uña"
+    },
+    {
+     "t": "Hipopigmentación del tronco por Malassezia",
+     "por": "Es pitiriasis versicolor."
+    },
+    {
+     "t": "Erupción del pañal del lactante",
+     "por": "Es otra forma de candidiasis."
+    },
+    {
+     "t": "Granuloma verrugoso en la pierna",
+     "por": "Es cromomicosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La candidiasis mucocutánea crónica aparece en inmunodeficiencias subyacentes.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 22"
+  },
+  {
+   "id": "d-mic-pv",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Cómo es la pitiriasis versicolor?",
+   "opciones": [
+    {
+     "t": "Máculas hipo o hiperpigmentadas, finamente descamativas, en tronco y cuello",
+     "por": "Son máculas hipo o hiperpigmentadas, con fina descamación, en tronco, cuello y parte proximal de las extremidades, más evidentes con el sol.",
+     "full": "Máculas hipo o hiperpigmentadas finamente descamativas en tronco y cuello"
+    },
+    {
+     "t": "Placas anulares con borde activo",
+     "por": "Es tiña corporis."
+    },
+    {
+     "t": "Nódulos ulcerados en trayecto linfático",
+     "por": "Es esporotricosis."
+    },
+    {
+     "t": "Lesiones verrugosas en los miembros inferiores",
+     "por": "Es cromomicosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El agente es Malassezia, parte de la microbiota normal.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 23"
+  },
+  {
+   "id": "d-mic-espor",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Qué caracteriza a la esporotricosis?",
+   "opciones": [
+    {
+     "t": "Nódulos ulcerados a lo largo de los vasos linfáticos por Sporothrix schenckii",
+     "por": "Infección subcutánea por Sporothrix schenckii, con nódulos ulcerados a lo largo de los linfáticos, frecuente en jardineros y trabajadores agrícolas.",
+     "full": "Nódulos que se ulceran siguiendo los vasos linfáticos; jardineros y agricultores"
+    },
+    {
+     "t": "Placas anulares en tronco por Trichophyton",
+     "por": "Es tiña corporis."
+    },
+    {
+     "t": "Lesiones verrugosas lentas en piernas",
+     "por": "Es cromomicosis."
+    },
+    {
+     "t": "Máculas descamativas con el sol",
+     "por": "Es pitiriasis versicolor."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La forma cutáneo-linfática es la más frecuente; la fija suele estar en manos o cara.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 25"
+  },
+  {
+   "id": "d-mic-cromo",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Cómo se presenta la cromomicosis?",
+   "opciones": [
+    {
+     "t": "Lesiones verrugosas de crecimiento lento en extremidades inferiores",
+     "por": "La cromomicosis tiene lesiones verrugosas de crecimiento lento en miembros inferiores y evolución crónica.",
+     "full": "Lesiones verrugosas de crecimiento lento en miembros inferiores"
+    },
+    {
+     "t": "Nódulos que siguen vasos linfáticos",
+     "por": "Es esporotricosis."
+    },
+    {
+     "t": "Placas con puntos negros en el cuero cabelludo",
+     "por": "Es tiña capitis."
+    },
+    {
+     "t": "Máculas con fina descamación",
+     "por": "Es pitiriasis versicolor."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es una micosis subcutánea de evolución crónica.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 26"
+  },
+  {
+   "id": "d-mic-dx",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Qué examen directo se usa para confirmar una micosis superficial?",
+   "opciones": [
+    {
+     "t": "Examen con hidróxido de potasio (KOH)",
+     "por": "El diagnóstico combina clínica, examen directo con KOH, cultivo en Sabouraud, PCR y biopsia con tinciones especiales en casos complejos.",
+     "full": "Examen directo con KOH"
+    },
+    {
+     "t": "Prueba de parche",
+     "por": "Es para dermatitis de contacto."
+    },
+    {
+     "t": "Dermatoscopia de la mucosa",
+     "por": "No es el examen directo."
+    },
+    {
+     "t": "Inmunofluorescencia directa",
+     "por": "Es para enfermedades ampollares."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La guía recomienda confirmación micológica antes de iniciar tratamiento sistémico.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 27"
+  },
+  {
+   "id": "d-mic-txt",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Qué antifúngico tópico y qué duración corresponden a una tiña leve?",
+   "opciones": [
+    {
+     "t": "Terbinafina 1 % crema, 1-2 veces al día por 1-2 semanas",
+     "por": "Terbinafina 1 % crema 1-2 veces al día por 1-2 semanas; clotrimazol o miconazol se aplican 2 veces al día por 2-4 semanas.",
+     "full": "Terbinafina 1 % crema, 1-2 veces al día por 1-2 semanas"
+    },
+    {
+     "t": "Griseofulvina oral por 6-12 semanas",
+     "por": "Es sistémica y se usa sobre todo en tiña capitis."
+    },
+    {
+     "t": "Fluconazol 150 mg semanal",
+     "por": "Es tratamiento de candidiasis extensa."
+    },
+    {
+     "t": "Anfotericina B liposomal IV",
+     "por": "Es para esporotricosis grave."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los sistémicos (terbinafina 250 mg/día por 2-6 semanas, itraconazol, griseofulvina) se reservan para casos severos o extensos.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 30"
+  },
+  {
+   "id": "d-mic-txcap",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 3,
+   "enunciado": "¿Qué antifúngico se usa sobre todo en la tiña capitis?",
+   "opciones": [
+    {
+     "t": "Griseofulvina oral, 10-20 mg/kg/día por 6-12 semanas",
+     "por": "La griseofulvina oral se menciona especialmente en tiña capitis; la tiña capitis requiere terapia sistémica prolongada.",
+     "full": "Griseofulvina oral 10-20 mg/kg/día por 6-12 semanas"
+    },
+    {
+     "t": "Terbinafina crema por 1 semana",
+     "por": "Un tópico no alcanza el pelo."
+    },
+    {
+     "t": "Nistatina crema por 7 días",
+     "por": "Se usa en candidiasis."
+    },
+    {
+     "t": "Amorolfina laca semanal",
+     "por": "Es un tópico para uñas, no para la tiña capitis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los tópicos son para lesiones localizadas.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 30"
+  },
+  {
+   "id": "d-mic-txuña",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 3,
+   "enunciado": "¿Qué duración tiene la terbinafina oral en onicomicosis de las uñas de los pies?",
+   "opciones": [
+    {
+     "t": "12 a 24 semanas",
+     "por": "Terbinafina 250 mg/día: 6-12 semanas en uñas de manos y 12-24 semanas en uñas de pies.",
+     "full": "12 a 24 semanas (6 a 12 en uñas de manos)"
+    },
+    {
+     "t": "6 a 12 semanas",
+     "por": "Es la duración para las uñas de las manos."
+    },
+    {
+     "t": "1 a 2 semanas",
+     "por": "Corresponde a tiñas cutáneas tópicas."
+    },
+    {
+     "t": "7 días",
+     "por": "Es el esquema de itraconazol en tiñas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Alternativas: itraconazol 200 mg/día 6-12 semanas o pulsos de 400 mg una semana al mes por 3-4 meses; laca de amorolfina 5 % o ciclopirox 8 % por 6-12 meses.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 30"
+  },
+  {
+   "id": "d-mic-txespor",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 3,
+   "enunciado": "¿Cuál es el tratamiento de la esporotricosis cutánea fija o linfática?",
+   "opciones": [
+    {
+     "t": "Itraconazol oral 200 mg/día por 3 a 6 meses",
+     "por": "La forma cutánea fija o linfática recibe itraconazol 200 mg/día por 3-6 meses; la diseminada, 200-400 mg/día por 6-12 meses.",
+     "full": "Itraconazol oral 200 mg/día durante 3-6 meses"
+    },
+    {
+     "t": "Fluconazol 150 mg semanal por 2 semanas",
+     "por": "Es para candidiasis."
+    },
+    {
+     "t": "Terbinafina crema por 2 semanas",
+     "por": "No trata la esporotricosis."
+    },
+    {
+     "t": "Anfotericina B desde el inicio en todos",
+     "por": "Se reserva para casos graves o resistentes."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Anfotericina B liposomal 3-5 mg/kg/día IV en graves o resistentes; en formas óseas o meníngeas, anfotericina desoxicolato seguida de itraconazol 400 mg/día por 12 meses.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 31"
+  },
+  {
+   "id": "d-mic-txcand",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Qué se usa en la candidiasis cutánea extensa o recurrente?",
+   "opciones": [
+    {
+     "t": "Fluconazol oral 150 mg semanales por 2-4 semanas",
+     "por": "Fluconazol 150 mg una vez por semana durante 2-4 semanas, o itraconazol 100 mg/día por 14 días.",
+     "full": "Fluconazol 150 mg semanales por 2-4 semanas"
+    },
+    {
+     "t": "Nistatina cada 6 meses",
+     "por": "No es el esquema indicado."
+    },
+    {
+     "t": "Griseofulvina por 12 semanas",
+     "por": "Se usa en tiñas."
+    },
+    {
+     "t": "Antibiótico oral por 10 días",
+     "por": "No trata un hongo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los casos leves a moderados se tratan con nistatina, clotrimazol o miconazol tópicos por 7-14 días.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 32"
+  },
+  {
+   "id": "d-mic-conseq",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "¿Qué consecuencia puede tener no tratar una micosis?",
+   "opciones": [
+    {
+     "t": "Sobreinfección bacteriana como celulitis o impétigo",
+     "por": "Las lesiones micóticas pueden ser puerta de entrada para celulitis o impétigo; además causan cronicidad, deformidad ungueal y, en inmunosuprimidos, candidiasis invasiva.",
+     "full": "Sobreinfección bacteriana, cronicidad y deformidad ungueal"
+    },
+    {
+     "t": "Inmunidad permanente",
+     "por": "No es una consecuencia."
+    },
+    {
+     "t": "Curación espontánea siempre",
+     "por": "No se garantiza."
+    },
+    {
+     "t": "Pérdida de la sensibilidad",
+     "por": "No es una complicación descrita."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En el cuero cabelludo pueden causar alopecia cicatricial irreversible.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 33"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "d-mic-c-0",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "f": "¿Cómo se clasifican las micosis cutáneas?",
+   "b": "Superficiales (tiñas, candidiasis, pitiriasis versicolor), subcutáneas (esporotricosis, cromomicosis) y profundas (histoplasmosis, criptococosis).",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 12"
+  },
+  {
+   "id": "d-mic-c-1",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "f": "¿Qué formas clínicas tiene la tiña capitis?",
+   "b": "Tonsurante con puntos negros, querion y forma seca; frecuente en niños; tratamiento con griseofulvina.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 15"
+  },
+  {
+   "id": "d-mic-c-2",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "f": "¿Qué formas de tiña pedis existen?",
+   "b": "Erosiva interdigital, hiperqueratósica en mocasín y vesiculosa.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 15"
+  },
+  {
+   "id": "d-mic-c-3",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "f": "¿Qué hongos son parte de la microbiota normal?",
+   "b": "Candida albicans y Malassezia furfur.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 14"
+  },
+  {
+   "id": "d-mic-c-4",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "f": "¿Cómo es la pitiriasis versicolor?",
+   "b": "Máculas hipo o hiperpigmentadas, finamente descamativas, en tronco y cuello; peor con sol.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 23"
+  },
+  {
+   "id": "d-mic-c-5",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "f": "¿Cómo es la esporotricosis y qué se usa?",
+   "b": "Sporothrix schenckii: nódulos ulcerados en trayecto linfático; itraconazol 200 mg/día 3-6 meses.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 25"
+  },
+  {
+   "id": "d-mic-c-6",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "f": "¿Cómo se diagnostica una micosis?",
+   "b": "Clínica, KOH, cultivo en Sabouraud, PCR y biopsia en casos complejos; confirmar antes de tratamiento sistémico.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 27"
+  },
+  {
+   "id": "d-mic-c-7",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "f": "¿Qué se usa para onicomicosis?",
+   "b": "Terbinafina 250 mg/día: 6-12 semanas manos, 12-24 semanas pies; itraconazol; laca de amorolfina 5 %.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 30"
+  }
+ ]
+}

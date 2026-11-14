@@ -1,0 +1,884 @@
+{
+ "preguntas": [
+  {
+   "id": "d-vir-mol",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 1,
+   "enunciado": "¿Cómo son las lesiones del molusco contagioso?",
+   "opciones": [
+    {
+     "t": "Pápulas umbilicadas, perladas, indoloras, de 2 a 5 mm",
+     "por": "Son pápulas umbilicadas, perladas, de 2-5 mm, múltiples, indoloras y autolimitadas en 6-12 meses, en cara, tronco, genitales o extremidades.",
+     "full": "Pápulas umbilicadas, perladas, indoloras, de 2 a 5 mm"
+    },
+    {
+     "t": "Vesículas agrupadas sobre base eritematosa",
+     "por": "Son lesiones del herpes simple o zóster."
+    },
+    {
+     "t": "Pápulas hiperqueratósicas con puntos negros",
+     "por": "Son verrugas, con trombosis capilar."
+    },
+    {
+     "t": "Ampollas flácidas con costra melicérica",
+     "por": "Es el impétigo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El virus (MCV) es un poxvirus exclusivo del ser humano; predomina en niños de 2 a 10 años y también en adultos inmunosuprimidos o sexualmente activos.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 9",
+   "nota": "La lámina de clínica da 2-5 mm y resolución en 6-12 meses; las conclusiones dicen 2-10 mm y 6-9 meses. Quédate con 'pápulas umbilicadas perladas, autolimitadas'."
+  },
+  {
+   "id": "d-vir-molag",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿A qué grupo pertenece el virus del molusco contagioso?",
+   "opciones": [
+    {
+     "t": "Poxvirus, exclusivo del ser humano",
+     "por": "Es el Molluscum contagiosum virus (MCV), un poxvirus; es de ADN bicatenario.",
+     "full": "Poxvirus, exclusivo del ser humano"
+    },
+    {
+     "t": "Herpesvirus",
+     "por": "Es el grupo del herpes simple y la varicela zóster."
+    },
+    {
+     "t": "Papilomavirus",
+     "por": "Es el virus de las verrugas (VPH)."
+    },
+    {
+     "t": "Picornavirus",
+     "por": "No es el grupo del molusco."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Predomina en niños de 2 a 10 años.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 9"
+  },
+  {
+   "id": "d-vir-moltx",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué opciones de manejo tiene el molusco en un paciente inmunocompetente?",
+   "opciones": [
+    {
+     "t": "Vigilancia activa o curetaje, crioterapia, imiquimod o cantaridina",
+     "por": "En inmunocompetentes puede optarse por vigilancia activa; si se trata: curetaje, crioterapia, imiquimod tópico o cantaridina.",
+     "full": "Vigilancia activa; si se trata: curetaje, crioterapia, imiquimod o cantaridina"
+    },
+    {
+     "t": "Antibiótico oral por 10 días",
+     "por": "Es una infección viral."
+    },
+    {
+     "t": "Cidofovir sistémico en todos",
+     "por": "Se reserva para inmunosuprimidos."
+    },
+    {
+     "t": "Biopsia de rutina",
+     "por": "No se requiere salvo duda diagnóstica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El diagnóstico es clínico; en inmunosuprimidos puede requerirse cidofovir o tratamientos sistémicos.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 10"
+  },
+  {
+   "id": "d-vir-vphg",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué virus causa las verrugas y qué infecta?",
+   "opciones": [
+    {
+     "t": "VPH, un virus ADN que infecta los queratinocitos",
+     "por": "Las verrugas se deben al virus del papiloma humano (más de 200 subtipos), que infecta queratinocitos de piel y mucosas por contacto directo.",
+     "full": "VPH, un virus ADN bicatenario que infecta queratinocitos"
+    },
+    {
+     "t": "Poxvirus que infecta células basales",
+     "por": "Es el molusco contagioso."
+    },
+    {
+     "t": "Varicela zóster que infecta ganglios",
+     "por": "Es el herpes zóster."
+    },
+    {
+     "t": "Herpes simple 1 que infecta nervios sensitivos",
+     "por": "Es el herpes simple."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es frecuente la autoinoculación; también se contagia por fómites como los pisos.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-vir-vphtipo",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 3,
+   "enunciado": "¿Qué genotipos de VPH causan las verrugas genitales benignas?",
+   "opciones": [
+    {
+     "t": "Tipos 6 y 11",
+     "por": "Las verrugas genitales benignas se deben a los tipos 6 y 11; las plantares y acrales suelen ser 1, 2 y 4; los 16, 18, 31 y 33 son oncogénicos.",
+     "full": "Tipos 6 y 11"
+    },
+    {
+     "t": "Tipos 1, 2 y 4",
+     "por": "Son los de verrugas plantares y acrales."
+    },
+    {
+     "t": "Tipos 16, 18, 31 y 33",
+     "por": "Son oncogénicos."
+    },
+    {
+     "t": "Tipos 3 y 5",
+     "por": "No son los de verrugas genitales benignas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los oncogénicos pueden causar carcinoma epidermoide anogenital y bucofaríngeo.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-vir-vphonc",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 3,
+   "enunciado": "¿Qué genotipos de VPH pueden causar carcinoma epidermoide anogenital y bucofaríngeo?",
+   "opciones": [
+    {
+     "t": "16, 18, 31 y 33",
+     "por": "Los genotipos 16, 18, 31 y 33 son oncogénicos.",
+     "full": "Genotipos 16, 18, 31 y 33"
+    },
+    {
+     "t": "6 y 11",
+     "por": "Producen verrugas genitales benignas."
+    },
+    {
+     "t": "1, 2 y 4",
+     "por": "Producen verrugas plantares."
+    },
+    {
+     "t": "2 y 7",
+     "por": "No son los oncogénicos descritos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En inmunodeprimidos las verrugas son más diseminadas y evolucionan con más frecuencia a neoplasias intraepiteliales.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-vir-vulg",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 1,
+   "enunciado": "¿Cómo es la verruga vulgar?",
+   "opciones": [
+    {
+     "t": "Pápula en domo, exofítica, hiperqueratósica, del color de la piel, de 1 a 10 mm",
+     "por": "Son pápulas en domo, exofíticas e hiperqueratósicas, del color de la piel, con tamaño de 1-10 mm, más a menudo en las manos.",
+     "full": "Pápula en domo, hiperqueratósica, del color de la piel, de 1-10 mm"
+    },
+    {
+     "t": "Pápula umbilicada perlada",
+     "por": "Es la lesión típica del molusco contagioso."
+    },
+    {
+     "t": "Pápula plana de 1-3 mm en cara y dorso de manos",
+     "por": "Son las verrugas planas."
+    },
+    {
+     "t": "Pápula pedunculada digitiforme",
+     "por": "Es la verruga filiforme."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Puede haber eritema leve en los bordes.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 12"
+  },
+  {
+   "id": "d-vir-plant",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué hallazgo tiene la verruga plantar?",
+   "opciones": [
+    {
+     "t": "Puntos negros o marrones por trombosis capilares",
+     "por": "Son pápulas verrugosas endofíticas en la planta, con puntos negros o marrones por trombosis capilares.",
+     "full": "Puntos negros o marrones por trombosis capilares"
+    },
+    {
+     "t": "Umbilicación central perlada",
+     "por": "Es del molusco."
+    },
+    {
+     "t": "Vesículas agrupadas",
+     "por": "Son del herpes."
+    },
+    {
+     "t": "Mancha café con leche",
+     "por": "Es de neurofibromatosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La verruga en mosaico es una colección confluente en palmas y plantas.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-vir-planas",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Dónde se localizan con más frecuencia las verrugas planas?",
+   "opciones": [
+    {
+     "t": "En la cara y el dorso de las manos",
+     "por": "Son pápulas poco elevadas de 1-3 mm con descamación mínima, frecuentes en cara y dorso de manos.",
+     "full": "Cara y dorso de las manos"
+    },
+    {
+     "t": "En las plantas de los pies",
+     "por": "Esa localización es de las verrugas plantares."
+    },
+    {
+     "t": "En el área genital",
+     "por": "Son los condilomas acuminados."
+    },
+    {
+     "t": "En el cuero cabelludo",
+     "por": "No es la localización típica."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Las filiformes o digitales aparecen en cara y cuello.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 13"
+  },
+  {
+   "id": "d-vir-conda",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo son los condilomas acuminados?",
+   "opciones": [
+    {
+     "t": "Papilomas exofíticos sésiles, a veces en placas, que pueden llegar a vagina, uretra o ano",
+     "por": "Son papilomas exofíticos, sésiles, de superficie lisa, del color de la piel, marrones o blanquecinos; pueden extenderse a vagina, uretra o conducto anal.",
+     "full": "Papilomas exofíticos sésiles que pueden extenderse a vagina, uretra o ano"
+    },
+    {
+     "t": "Pápulas umbilicadas de 2-5 mm",
+     "por": "Son del molusco."
+    },
+    {
+     "t": "Placas anulares con borde activo",
+     "por": "Son de tiña corporis."
+    },
+    {
+     "t": "Vesículas dolorosas en racimo",
+     "por": "Son del herpes simple genital."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se denominan también verrugas genitales o venéreas.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 14"
+  },
+  {
+   "id": "d-vir-verrdx",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo se diagnostica una verruga?",
+   "opciones": [
+    {
+     "t": "Clínicamente; biopsia si hay duda o sospecha de carcinoma",
+     "por": "El diagnóstico es clínico; la biopsia se hace si se sospecha carcinoma o si el diagnóstico no es claro.",
+     "full": "Clínico; biopsia si hay duda o sospecha de carcinoma"
+    },
+    {
+     "t": "Con cultivo en Sabouraud",
+     "por": "Es para micosis."
+    },
+    {
+     "t": "Siempre con frotis de Tzanck",
+     "por": "Es para herpes."
+    },
+    {
+     "t": "Con prueba de parche",
+     "por": "Es para dermatitis de contacto."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La histología de una verruga activa es diagnóstica.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 15"
+  },
+  {
+   "id": "d-vir-verrtx",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 3,
+   "enunciado": "¿Qué tratamiento de las verrugas cutáneas tiene eficacia respaldada por estudios controlados?",
+   "opciones": [
+    {
+     "t": "Ácido salicílico",
+     "por": "Ningún tratamiento tiene eficacia consistente en estudios controlados, excepto los productos de ácido salicílico.",
+     "full": "Los productos de ácido salicílico"
+    },
+    {
+     "t": "Crioterapia con nitrógeno líquido",
+     "por": "Es útil, pero sin eficacia consistente en estudios controlados."
+    },
+    {
+     "t": "Fluorouracilo intralesional",
+     "por": "No tiene eficacia consistente en estudios."
+    },
+    {
+     "t": "Inmunoterapia tópica con DPCP",
+     "por": "Se usa como adjunto en verrugas resistentes."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Muchas verrugas desaparecen solas; la crioterapia se aplica 10-20 s o hasta un halo de escarcha de 2 mm.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 16"
+  },
+  {
+   "id": "d-vir-genitx",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 3,
+   "enunciado": "¿Cómo se usa el imiquimod 5 % en verrugas genitales?",
+   "opciones": [
+    {
+     "t": "Tres veces por semana al acostarse, lavando a las 6-10 h, hasta 16 semanas",
+     "por": "Se aplica una capa delgada tres veces a la semana al acostarse y se lava a las 6-10 h, por un máximo de 16 semanas.",
+     "full": "Tres veces por semana al acostarse; lavar a las 6-10 h; máximo 16 semanas"
+    },
+    {
+     "t": "Dos veces al día por 3 días seguidos",
+     "por": "Es el esquema de podofilotoxina al 0,5 %."
+    },
+    {
+     "t": "Una vez cada 1-3 semanas por el médico",
+     "por": "Es la podofilina al 25 %."
+    },
+    {
+     "t": "Dosis única de 1 g",
+     "por": "No es un esquema de imiquimod."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La podofilina 25 % y la podofilotoxina 0,5 % no deben usarse en embarazo ni lactancia.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 17",
+   "nota": "La lámina llama 'antimicótico' a la podofilina; en realidad es un antimitótico (citotóxico) tópico."
+  },
+  {
+   "id": "d-vir-vacvph",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Cuál es la recomendación de vacunación contra VPH de la American Cancer Society?",
+   "opciones": [
+    {
+     "t": "Vacunación regular de los 9 a 12 años y de recuperación hasta los 26",
+     "por": "Recomienda vacunar de rutina entre los 9 y 12 años y vacunación de recuperación hasta los 26 años.",
+     "full": "De rutina entre los 9 y 12 años; recuperación hasta los 26 años"
+    },
+    {
+     "t": "Solo en mayores de 50 años",
+     "por": "No es la recomendación."
+    },
+    {
+     "t": "Solo tras presentar verrugas",
+     "por": "La vacuna previene la infección inicial."
+    },
+    {
+     "t": "Solo en varones sexualmente activos",
+     "por": "No se limita a ese grupo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Previene cánceres cervicouterino, vulvar, vaginal, anal, bucofaríngeo y verrugas genitales.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 18"
+  },
+  {
+   "id": "d-vir-hsv",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Cuál es la diferencia de localización entre HSV-1 y HSV-2?",
+   "opciones": [
+    {
+     "t": "HSV-1: boca y labios; HSV-2: región genital",
+     "por": "HSV-1 infecta cavidad bucal, labios y piel peribucal; HSV-2 infecta sobre todo la región genital, aunque HSV-1 es una causa cada vez más frecuente de herpes genital.",
+     "full": "HSV-1 en boca y labios; HSV-2 en región genital"
+    },
+    {
+     "t": "HSV-1 genital y HSV-2 oral",
+     "por": "Es al revés: el 1 es oral y el 2 genital."
+    },
+    {
+     "t": "Ambos solo en el tronco",
+     "por": "No es la localización típica."
+    },
+    {
+     "t": "HSV-1 en dermatomas y HSV-2 en palmas",
+     "por": "No corresponde."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Ambos tienen ADN bicatenario y quedan latentes en los ganglios sensitivos.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 19"
+  },
+  {
+   "id": "d-vir-hsvlat",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 3,
+   "enunciado": "¿Dónde permanece latente el virus del herpes simple?",
+   "opciones": [
+    {
+     "t": "En los ganglios sensitivos",
+     "por": "Se propaga por los nervios sensitivos hasta los ganglios, donde queda latente; las recurrencias son reactivaciones.",
+     "full": "En los ganglios sensitivos"
+    },
+    {
+     "t": "En los queratinocitos basales",
+     "por": "No es el sitio de latencia."
+    },
+    {
+     "t": "En los melanocitos",
+     "por": "No es el sitio de latencia del virus."
+    },
+    {
+     "t": "En los mastocitos",
+     "por": "No es el sitio de latencia del virus."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los mecanismos inmunitarios eliminan las lesiones en 1-2 semanas, pero la latencia persiste.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 19"
+  },
+  {
+   "id": "d-vir-hsvclin",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo se presenta el herpes simple?",
+   "opciones": [
+    {
+     "t": "Vesículas agrupadas sobre base eritematosa que se erosionan y forman costras",
+     "por": "Las vesículas se agrupan sobre eritema, son dolorosas, se erosionan y forman costras; se resuelven en 1-2 semanas.",
+     "full": "Vesículas dolorosas agrupadas sobre base eritematosa, que se erosionan y forman costras"
+    },
+    {
+     "t": "Pápulas umbilicadas indoloras",
+     "por": "Es la lesión típica del molusco contagioso."
+    },
+    {
+     "t": "Placas anulares descamativas",
+     "por": "Es tiña corporis."
+    },
+    {
+     "t": "Máculas hipopigmentadas",
+     "por": "Es pitiriasis versicolor."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La infección primaria aparece 3 a 7 días tras la exposición; en niños puede ser gingivoestomatitis con fiebre.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 20"
+  },
+  {
+   "id": "d-vir-ecz",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 3,
+   "enunciado": "Un niño con dermatitis atópica desarrolla vesículas y erosiones diseminadas con costras hemorrágicas. ¿Qué es probable?",
+   "opciones": [
+    {
+     "t": "Eccema herpético",
+     "por": "Los pacientes con dermatitis atópica tienen riesgo de eccema herpético: infección cutánea diseminada por HSV.",
+     "full": "Eccema herpético (infección diseminada por HSV)"
+    },
+    {
+     "t": "Molusco contagioso",
+     "por": "Son pápulas umbilicadas, no costras hemorrágicas."
+    },
+    {
+     "t": "Verrugas planas",
+     "por": "No son erosiones con costras."
+    },
+    {
+     "t": "Pitiriasis alba",
+     "por": "No son vesículas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El panadizo herpético afecta dedos de niños que se chupan los dedos o de personal de salud.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 22"
+  },
+  {
+   "id": "d-vir-tzanck",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué muestra el frotis de Tzanck en el herpes?",
+   "opciones": [
+    {
+     "t": "Células gigantes epiteliales multinucleadas",
+     "por": "Con tinción de Wright o Giemsa revela células gigantes multinucleadas; PCR y cultivo distinguen HSV-1 de HSV-2.",
+     "full": "Células gigantes epiteliales multinucleadas"
+    },
+    {
+     "t": "Hifas ramificadas",
+     "por": "Se ven con KOH en micosis."
+    },
+    {
+     "t": "Cuerpos de molusco",
+     "por": "No es lo que muestra el Tzanck."
+    },
+    {
+     "t": "Acantólisis sin virus",
+     "por": "No es el hallazgo descrito."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El Tzanck no distingue herpes simple de zóster.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 23"
+  },
+  {
+   "id": "d-vir-antiv",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 3,
+   "enunciado": "¿Cuándo deben iniciarse los antivirales en el herpes?",
+   "opciones": [
+    {
+     "t": "Dentro de las primeras 72 h del inicio de síntomas",
+     "por": "Los antivirales (herpes simple y zóster) son más útiles si se administran en las 72 h tras el inicio de las manifestaciones.",
+     "full": "Dentro de las primeras 72 h del inicio de síntomas"
+    },
+    {
+     "t": "Solo después de una semana",
+     "por": "Pierden utilidad si se retrasan."
+    },
+    {
+     "t": "Solo si hay fiebre",
+     "por": "No es el criterio."
+    },
+    {
+     "t": "Nunca se indican",
+     "por": "Se indican en enfermedad moderada a grave y en zóster."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La infección bucolabial leve en inmunocompetentes no requiere tratamiento.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 24"
+  },
+  {
+   "id": "d-vir-zos",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué produce el herpes zóster?",
+   "opciones": [
+    {
+     "t": "Reactivación del virus varicela zóster latente en ganglios de raíces dorsales",
+     "por": "El zóster es la reactivación de la varicela latente; el riesgo de vida es de 20-30 % y aumenta pasados los 60 años.",
+     "full": "Reactivación del virus varicela zóster latente en ganglios de raíces dorsales"
+    },
+    {
+     "t": "Primoinfección por HSV-2",
+     "por": "No es la causa."
+    },
+    {
+     "t": "Reactivación del VPH",
+     "por": "No es la causa del herpes zóster."
+    },
+    {
+     "t": "Infección por un poxvirus",
+     "por": "Es la causa del molusco, no del zóster."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La reactivación puede inducirla trauma, estrés, fiebre, radioterapia o inmunosupresión.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 25"
+  },
+  {
+   "id": "d-vir-zosclin",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Cómo se presenta el herpes zóster?",
+   "opciones": [
+    {
+     "t": "Dolor previo y vesículas agrupadas en un dermatoma unilateral",
+     "por": "Suele comenzar con dolor intenso que precede la erupción; las vesículas se agrupan en un solo dermatoma unilateral, más a menudo en el tronco.",
+     "full": "Dolor previo y vesículas agrupadas en un solo dermatoma unilateral"
+    },
+    {
+     "t": "Vesículas simétricas en palmas",
+     "por": "No es el patrón del zóster."
+    },
+    {
+     "t": "Pápulas umbilicadas en niños",
+     "por": "Es la lesión típica del molusco contagioso."
+    },
+    {
+     "t": "Placas anulares descamativas",
+     "por": "Es tiña corporis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Puede haber hormigueo, prurito, sensibilidad o hiperestesia.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 26"
+  },
+  {
+   "id": "d-vir-hutch",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 3,
+   "enunciado": "¿Qué indica el signo de Hutchinson?",
+   "opciones": [
+    {
+     "t": "Compromiso de la rama nasociliar; mayor riesgo de afectación ocular",
+     "por": "Vesículas en la punta o el lado de la nariz indican compromiso de la rama nasociliar y es más probable que el ojo esté afectado, con riesgo de ceguera.",
+     "full": "Vesículas en la punta de la nariz: riesgo de afectación ocular"
+    },
+    {
+     "t": "Afectación del nervio facial con parálisis",
+     "por": "Es el síndrome de Ramsay Hunt."
+    },
+    {
+     "t": "Neuralgia posherpética",
+     "por": "No es el signo."
+    },
+    {
+     "t": "Diseminación hematógena",
+     "por": "No es el signo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El zóster oftálmico (primera división del trigémino) ocurre en 10-15 % de los pacientes.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 28"
+  },
+  {
+   "id": "d-vir-ramsay",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 3,
+   "enunciado": "¿Qué es el síndrome de Ramsay Hunt?",
+   "opciones": [
+    {
+     "t": "Zóster con parálisis facial y compromiso del oído",
+     "por": "Hay parálisis facial con compromiso del oído y la membrana timpánica, con o sin acúfenos, vértigo y sordera.",
+     "full": "Zóster con parálisis facial y compromiso del oído"
+    },
+    {
+     "t": "Zóster con afectación ocular y signo de Hutchinson",
+     "por": "Es el zóster oftálmico."
+    },
+    {
+     "t": "Eccema herpético",
+     "por": "Es en atópicos con HSV."
+    },
+    {
+     "t": "Panadizo herpético",
+     "por": "Es el herpes de los dedos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Es una complicación del zóster.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 29"
+  },
+  {
+   "id": "d-vir-zosdx",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Cuál es la prueba preferida para confirmar el herpes zóster?",
+   "opciones": [
+    {
+     "t": "PCR",
+     "por": "El diagnóstico es clínico; cultivo y PCR son más específicos, y la PCR es la prueba preferida. El Tzanck no distingue de herpes simple.",
+     "full": "PCR"
+    },
+    {
+     "t": "Frotis de Tzanck",
+     "por": "Muestra células gigantes, pero no distingue zóster de herpes simple."
+    },
+    {
+     "t": "KOH",
+     "por": "Es para micosis."
+    },
+    {
+     "t": "Prueba de parche",
+     "por": "Es para dermatitis de contacto."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Las vesículas agrupadas dolorosas en un dermatoma son la clave clínica.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 30"
+  },
+  {
+   "id": "d-vir-zostx",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 3,
+   "enunciado": "¿Cuál es el tratamiento oral del herpes zóster en adulto inmunocompetente?",
+   "opciones": [
+    {
+     "t": "Valaciclovir 1000 mg tres veces al día por 7 días",
+     "por": "Valaciclovir 1000 mg cada 8 h por 7 días; aciclovir 800 mg cinco veces al día por 7-10 días; famciclovir 500 mg cada 8 h por 7 días.",
+     "full": "Valaciclovir 1000 mg cada 8 h por 7 días (o aciclovir o famciclovir)"
+    },
+    {
+     "t": "Fluconazol 150 mg semanal",
+     "por": "Es antifúngico."
+    },
+    {
+     "t": "Amoxicilina 500 mg cada 8 h",
+     "por": "Es antibiótico."
+    },
+    {
+     "t": "Prednisona sola",
+     "por": "No sustituye al antiviral."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se inicia en menos de 72 h y se ajusta en insuficiencia renal.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 31"
+  },
+  {
+   "id": "d-vir-nph",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 3,
+   "enunciado": "¿En qué porcentaje de pacientes con zóster aparece neuralgia posherpética?",
+   "opciones": [
+    {
+     "t": "De 5 a 20 %, más en mayores de 60 años",
+     "por": "La neuralgia posherpética aparece en 5-20 %, es rara en menores de 40 y aumenta con la edad o la inmunosupresión.",
+     "full": "De 5 a 20 %; más en mayores de 60 años e inmunodeprimidos"
+    },
+    {
+     "t": "En casi todos",
+     "por": "La cifra es de 5-20 %."
+    },
+    {
+     "t": "En menos del 1 %",
+     "por": "Es más frecuente."
+    },
+    {
+     "t": "Solo en niños",
+     "por": "Es rara en jóvenes."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los síntomas se resuelven en 3 meses en 50 % y en un año en 75 %.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 32"
+  },
+  {
+   "id": "d-vir-vaczos",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "¿Qué vacuna contra el zóster es más eficaz?",
+   "opciones": [
+    {
+     "t": "Shingrix (recombinante con adyuvante), con eficacia de 97 %",
+     "por": "Shingrix, aprobada en 2017, es más eficaz que la vacuna viva Zostavax, que reduce el zóster 51 % y la neuralgia posherpética 67 %.",
+     "full": "Shingrix (recombinante con adyuvante), eficacia de 97 %"
+    },
+    {
+     "t": "Zostavax (vacuna viva)",
+     "por": "Es menos eficaz."
+    },
+    {
+     "t": "Vacuna BCG",
+     "por": "No previene zóster."
+    },
+    {
+     "t": "Vacuna antineumocócica",
+     "por": "No previene zóster."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La RZV tiene eficacia de 97 %.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 32"
+  }
+ ],
+ "tarjetas": [
+  {
+   "id": "d-vir-c-0",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "f": "¿Cómo son las lesiones del molusco contagioso y cómo se maneja?",
+   "b": "Pápulas umbilicadas perladas por poxvirus; vigilancia activa o curetaje, crioterapia, imiquimod o cantaridina.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 9"
+  },
+  {
+   "id": "d-vir-c-1",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "f": "¿Qué genotipos de VPH causan verrugas?",
+   "b": "Plantares: 1, 2 y 4. Genitales benignas: 6 y 11. Oncogénicos: 16, 18, 31 y 33.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 11"
+  },
+  {
+   "id": "d-vir-c-2",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "f": "¿Qué tipos clínicos de verruga existen?",
+   "b": "Vulgar, plantar, en mosaico, plana, filiforme y condiloma acuminado.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 12"
+  },
+  {
+   "id": "d-vir-c-3",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "f": "¿Cómo se usa el imiquimod 5 % en verrugas genitales?",
+   "b": "Tres veces por semana al acostarse, lavar a las 6-10 h; hasta 16 semanas.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 17"
+  },
+  {
+   "id": "d-vir-c-4",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "f": "¿En qué se diferencia el herpes simple 1 del 2?",
+   "b": "HSV-1: boca y labios; HSV-2: genital (aunque HSV-1 puede causarlo). Latentes en ganglios sensitivos.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 19"
+  },
+  {
+   "id": "d-vir-c-5",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "f": "¿Qué hallazgo tiene el Tzanck?",
+   "b": "Células gigantes epiteliales multinucleadas (en herpes simple y zóster).",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 23"
+  },
+  {
+   "id": "d-vir-c-6",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "f": "¿Qué es el signo de Hutchinson?",
+   "b": "Vesículas en la punta de la nariz: rama nasociliar del trigémino; riesgo ocular.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 28"
+  },
+  {
+   "id": "d-vir-c-7",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "f": "¿Cuál es el tratamiento del zóster?",
+   "b": "Antiviral en < 72 h: valaciclovir 1000 mg cada 8 h por 7 días, aciclovir 800 mg 5 veces al día, famciclovir 500 mg cada 8 h.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 31"
+  }
+ ]
+}
