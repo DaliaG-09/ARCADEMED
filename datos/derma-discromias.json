@@ -14,7 +14,7 @@
     },
     {
      "t": "La cantidad total de melanocitos de la epidermis",
-     "por": "La clase lo descarta: el número no explica la diferencia."
+     "por": "El número de melanocitos es similar entre razas."
     },
     {
      "t": "El grosor del estrato córneo únicamente",
@@ -449,7 +449,7 @@
     },
     {
      "t": "Es siempre permanente, de por vida",
-     "por": "La clase indica semanas y meses."
+     "por": "Dura semanas a meses, no es siempre permanente."
     },
     {
      "t": "Dura solo unas horas tras la lesión",

@@ -39,7 +39,7 @@
    "opciones": [
     {
      "t": "En 30 a 70 %",
-     "por": "La lámina da ese rango. En una cohorte latinoamericana de 1214 pacientes, el compromiso renal fue de 51.7 %."
+     "por": "En una cohorte latinoamericana de 1214 pacientes, el compromiso renal fue de 51.7 %."
     },
     {
      "t": "Menos de 5 %",
@@ -51,7 +51,7 @@
     },
     {
      "t": "Cerca del 10 %",
-     "por": "Es menor que el rango de la lámina."
+     "por": "Es menor que el rango real: el compromiso renal es frecuente en el lupus."
     }
    ],
    "correcta": 0,
@@ -97,8 +97,8 @@
    "opciones": [
     {
      "t": "Etnia hispana o afro y anti-DNA bicatenario",
-     "por": "Son los factores de riesgo para NL listados en la lámina.",
-     "full": "Etnia hispana o afroamericana, anticuerpos anti-DNA de doble cadena y anti-RNP"
+     "full": "Etnia hispana o afroamericana, anticuerpos anti-DNA de doble cadena y anti-RNP",
+     "por": "Son los factores de riesgo para NL listados."
     },
     {
      "t": "Raza blanca y anti-DNA negativo",
@@ -106,7 +106,7 @@
     },
     {
      "t": "Debut después de los 60 años",
-     "por": "No aparece como factor de riesgo en la lámina."
+     "por": "No aparece como factor de riesgo."
     },
     {
      "t": "Tener lupus con síntomas solo en la piel",
@@ -177,7 +177,7 @@
    "explicacion": "En la clase IV (difusa) la proliferación abarca la mayoría de los glomérulos y hay depósitos subendoteliales extensos que forman asas de alambre. Clases: I mínima mesangial; II proliferativa mesangial; III focal (menos de 50 % de glomérulos); IV difusa; V membranosa; VI esclerosante avanzada.",
    "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 12 a 14",
    "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis lúpica, el compromiso renal del LES. Se clasifica en seis clases según la biopsia.",
-   "nota": "La clasificación completa viene en un esquema de la lámina 12; los porcentajes de las clases III y IV son del estándar internacional (complemento)."
+   "nota": "La clasificación completa viene en un esquema;"
   },
   {
    "id": "n-gp2-nlc2",
@@ -230,7 +230,7 @@
     },
     {
      "t": "Plasmaféresis de rutina en todos los casos",
-     "por": "No es parte del esquema base de la lámina."
+     "por": "La plasmaféresis no es parte del esquema de inducción habitual."
     }
    ],
    "correcta": 0,
@@ -297,7 +297,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Los tres elementos de la lámina: púrpura palpable, hipocomplementemia y enfermedad renal con hematuria, proteinuria (a menudo nefrótica) e hipertensión.",
+   "explicacion": "Los tres elementos: púrpura palpable, hipocomplementemia y enfermedad renal con hematuria, proteinuria (a menudo nefrótica) e hipertensión.",
    "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 19",
    "contexto": "GNMP = glomerulonefritis membranoproliferativa."
   },
@@ -374,7 +374,7 @@
     },
     {
      "t": "Glomerulonefritis postestreptocócica",
-     "por": "La glomerulonefritis postestreptocócica sigue a una infección por estreptococo; no es la que describe la lámina para la espondilitis anquilosante."
+     "por": "La glomerulonefritis postestreptocócica sigue a una infección por estreptococo."
     },
     {
      "t": "Nefropatía membranosa",
@@ -382,7 +382,7 @@
     },
     {
      "t": "Cambios mínimos",
-     "por": "Los cambios mínimos no son la glomerulopatía que la lámina asocia a la espondilitis anquilosante."
+     "por": "Los cambios mínimos no son la glomerulopatía asociada a la espondilitis anquilosante."
     }
    ],
    "correcta": 0,
@@ -427,8 +427,8 @@
    "opciones": [
     {
      "t": "Aguda: S. aureus; subaguda: estreptococo",
-     "por": "Es la distribución de la lámina.",
-     "full": "Aguda: Staphylococcus aureus y Enterococcus faecalis; subaguda: Streptococcus"
+     "full": "Aguda: Staphylococcus aureus y Enterococcus faecalis; subaguda: Streptococcus",
+     "por": "Ese es el patrón: S. aureus en la aguda y estreptococos en la subaguda."
     },
     {
      "t": "Aguda: Streptococcus; subaguda: Staphylococcus aureus",
@@ -440,7 +440,7 @@
     },
     {
      "t": "Ambas por Candida y Aspergillus",
-     "por": "La lámina habla de gérmenes bacterianos."
+     "por": "Los gérmenes son bacterianos, no hongos."
     }
    ],
    "correcta": 0,
@@ -465,7 +465,7 @@
     },
     {
      "t": "Infección por Streptococcus con nefropatía membranosa",
-     "por": "No coincide con la lámina."
+     "por": "El germen típico es el estafilococo, no el estreptococo."
     },
     {
      "t": "Infección viral con GEFS",
@@ -474,8 +474,7 @@
    ],
    "correcta": 0,
    "explicacion": "Tratamiento: erradicar el foco infeccioso, retirando o cambiando el shunt si hace falta. La GN por abscesos viscerales cursa con hematuria, proteinuria e insuficiencia renal oligúrica.",
-   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 32",
-   "nota": "Que se retire el shunt es manejo general (complemento); la lámina solo describe el cuadro."
+   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 32"
   },
   {
    "id": "n-gp2-sif",

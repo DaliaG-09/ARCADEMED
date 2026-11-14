@@ -82,7 +82,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Causas de HDA según la clase: úlcera péptica 40 %; hipertensión portal 10 a 20 %; anomalías vasculares 7 %; neoplasias 1 %. También la esofagitis erosiva, asociada a ERGE (enfermedad por reflujo gastroesofágico), al alcohol y a alteración del esfínter esofágico inferior.",
+   "explicacion": "Causas de HDA: úlcera péptica 40 %; hipertensión portal 10 a 20 %; anomalías vasculares 7 %; neoplasias 1 %. También la esofagitis erosiva, asociada a ERGE (enfermedad por reflujo gastroesofágico), al alcohol y a alteración del esfínter esofágico inferior.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 10 a 14"
   },
   {
@@ -112,7 +112,7 @@
    "correcta": 0,
    "explicacion": "Hipertensión portal: causa 10 a 20 % de las HDA; las várices esofágicas son más frecuentes que las duodenales. 30 % de los cirróticos presenta sangrado variceal y la mortalidad del episodio es de 15 a 40 %.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 10",
-   "nota": "Para tu práctica, no para el examen: en el manejo real del sangrado variceal también se añaden vasoconstrictores (octreotide) y antibiótico profiláctico; la lámina solo menciona la ligadura."
+   "nota": "Para tu práctica, no para el examen: en el manejo real del sangrado variceal también se añaden vasoconstrictores (octreotide) y antibiótico profiláctico;"
   },
   {
    "id": "g-hd-dieu",
@@ -152,7 +152,7 @@
    "opciones": [
     {
      "t": "Neoplasia",
-     "por": "La clase asocia la neoplasia a un síndrome consuntivo (pérdida de peso), un síndrome pilórico (obstrucción del vaciado gástrico) y un síndrome anémico. Puede causar obstrucción mecánica."
+     "por": "Puede causar obstrucción mecánica."
     },
     {
      "t": "Úlcera péptica",
@@ -180,8 +180,8 @@
    "opciones": [
     {
      "t": "Vías periféricas, IBP en bolo, transfusión restrictiva y endoscopía",
-     "por": "Esa es la secuencia de la lámina 15 para el paciente estable: reanimación, IBP en bolo y luego infusión, transfusión restrictiva y endoscopia digestiva alta antes de 24 h.",
-     "full": "Colocar 1 o 2 catéteres periféricos, reponer volumen, dar bolo de 80 mg de IBP seguido de 8 mg/h, valorar transfusión restrictiva y hacer endoscopia en las primeras 24 horas"
+     "full": "Colocar 1 o 2 catéteres periféricos, reponer volumen, dar bolo de 80 mg de IBP seguido de 8 mg/h, valorar transfusión restrictiva y hacer endoscopia en las primeras 24 horas",
+     "por": "Esa es la secuencia en el paciente estable: reanimación, IBP en bolo, transfusión restrictiva y endoscopía temprana."
     },
     {
      "t": "Ingresar a UCI y hacer endoscopia inmediata",
@@ -197,7 +197,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Después de la endoscopia: si hay lesión de alto riesgo de recidiva (Forrest I, IIa y IIb) se hace tratamiento endoscópico más IBP intravenoso por 72 h; si falla, embolización arterial o cirugía, y si hay recidiva se repite la endoscopia. Si no hay lesión de alto riesgo, dieta, IBP oral y alta precoz. Eritromicina 250 mg IV 20 a 30 min antes de la endoscopia (opcional, con signo de interrogación en la lámina). IBP = inhibidor de bomba de protones; PAS = presión arterial sistólica; FC = frecuencia cardiaca.",
+   "explicacion": "Después de la endoscopia: si hay lesión de alto riesgo de recidiva (Forrest I, IIa y IIb) se hace tratamiento endoscópico más IBP intravenoso por 72 h; si falla, embolización arterial o cirugía, y si hay recidiva se repite la endoscopia. Si no hay lesión de alto riesgo, dieta, IBP oral y alta precoz. Se puede dar eritromicina 250 mg IV 20 a 30 min antes de la endoscopia (opcional). IBP = inhibidor de bomba de protones; PAS = presión arterial sistólica; FC = frecuencia cardiaca.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 15",
    "contexto": "Clasificación de Forrest: describe la apariencia endoscópica de la úlcera y sirve para estimar el riesgo de que vuelva a sangrar (I sangrado activo, IIa vaso visible, IIb coágulo adherido, IIc mancha plana, III base limpia). Se usa para decidir si se trata endoscópicamente y cuánto tiempo se da IBP.",
    "guia": {
@@ -214,7 +214,7 @@
    "opciones": [
     {
      "t": "Distal al Treitz; 20 % de las hemorragias, 95 % colónico",
-     "por": "Es la definición de la clase. La mortalidad y la morbilidad aumentan con la edad y las comorbilidades.",
+     "por": "Es la definición. La mortalidad y la morbilidad aumentan con la edad y las comorbilidades.",
      "full": "Origen distal al ángulo de Treitz; 20 % de las hemorragias digestivas, con 95 % originado en el colon"
     },
     {
@@ -262,7 +262,7 @@
    "correcta": 0,
    "explicacion": "Resumen de causas de HDB: diverticulosis >50 %; colitis isquémica 20 %; angiodisplasia 11 %; hemorroides 5 a 10 %; también cáncer de colon, colitis infecciosa y enteropatía por radiación.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 18 a 24",
-   "nota": "Las cifras de la clase suman más de 100 % porque provienen de series distintas; se estudian como porcentajes aproximados."
+   "nota": "se estudian como porcentajes aproximados."
   },
   {
    "id": "g-hd-angio",
@@ -393,8 +393,8 @@
    "opciones": [
     {
      "t": "Colonoscopia al día siguiente con preparación PEG",
-     "por": "Es la opción (a). Estable, con sangrado posterior a polipectomía: la clase indica endoscopia en las primeras 24 horas después de preparar el colon con PEG, para ver el sitio y tratarlo con clips o coagulación.",
-     "full": "Colonoscopia a la mañana siguiente, tras preparación intestinal nocturna con PEG"
+     "full": "Colonoscopia a la mañana siguiente, tras preparación intestinal nocturna con PEG",
+     "por": "Estable y con sangrado tras polipectomía: colonoscopia en 24 horas tras preparar con PEG."
     },
     {
      "t": "Colonoscopia esa misma noche, sin solución PEG",
@@ -410,7 +410,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Caso de reflexión y de aplicación (láminas 3 y 29). Nota: la lámina no marca la respuesta; se deduce de la lámina 26 (endoscopia precisa en 74 a 82 %, en las primeras 24 horas tras preparación con PEG, en paciente estable).",
+   "explicacion": "Caso de reflexión y de aplicación: paciente estable, con sangrado posterior a polipectomía; la endoscopia es precisa en 74 a 82 % si se hace en las primeras 24 horas tras preparación con PEG.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 3, 26 y 29"
   }
  ],

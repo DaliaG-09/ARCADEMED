@@ -9,7 +9,7 @@
    "opciones": [
     {
      "t": "Oxalato de calcio",
-     "por": "Es el tipo más frecuente, y además es radioopaco: por eso se ve en una radiografía simple. La lámina 14 muestra que los litos de calcio son los que aparecen en esa placa."
+     "por": "Es el tipo más frecuente, y además es radioopaco: por eso se ve en una radiografía simple."
     },
     {
      "t": "Ácido úrico",
@@ -27,8 +27,7 @@
    "correcta": 0,
    "explicacion": "Lo frecuente gana: oxalato de calcio es el cálculo más común. El dato de la radiografía simple (radioopaco) refuerza esa respuesta. Ojo: en un diabético con orina muy ácida el ácido úrico es posible, y se vería mejor en tomografía.",
    "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 3, 14 y 27",
-   "contexto": "Litiasis = cálculos (piedras) en el tracto urinario. Radioopaco = se ve blanco en la radiografía; radiolúcido = no se ve.",
-   "nota": "La lámina plantea la pregunta sin dar la respuesta. Que el oxalato de calcio sea lo más frecuente y que el ácido úrico sea radiolúcido es conocimiento general, no está escrito en la lámina."
+   "contexto": "Litiasis = cálculos (piedras) en el tracto urinario. Radioopaco = se ve blanco en la radiografía; radiolúcido = no se ve."
   },
   {
    "id": "n-lit-cor",
@@ -88,7 +87,7 @@
    "explicacion": "Oxalato de calcio: hipercalciuria, hiperoxaluria, hiperuricosuria, hipocitraturia y más excreción de sodio. Fosfato de calcio: hipercalciuria, hiperfosfaturia, hipocitraturia, pH urinario alto. Ácido úrico: hiperuricosuria, pH urinario bajo y poco volumen de orina.",
    "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 10",
    "contexto": "Litiasis = cálculos (piedras) en el tracto urinario. Radioopaco = se ve blanco en la radiografía; radiolúcido = no se ve. Sufijo -uria = en la orina (hipercalciuria = mucho calcio en orina).",
-   "nota": "El esquema de la lámina 10 está en inglés y las listas de factores son pequeñas; leí los factores de cada tipo en el esquema."
+   "nota": "leí los factores de cada tipo en el esquema."
   },
   {
    "id": "n-lit-rf",
@@ -103,7 +102,7 @@
     },
     {
      "t": "Dieta baja en sodio y proteínas",
-     "por": "La lámina marca como riesgo la dieta rica en proteínas y sodio, no la baja."
+     "por": "Lo que favorece la litiasis es la dieta rica en proteínas y sodio, no la baja."
     },
     {
      "t": "Ingesta alta de agua",
@@ -111,11 +110,11 @@
     },
     {
      "t": "Tener los riñones pequeños",
-     "por": "No aparece como factor de riesgo en la lámina."
+     "por": "No aparece como factor de riesgo."
     }
    ],
    "correcta": 0,
-   "explicacion": "Factores de la lámina: baja ingesta de líquidos, enfermedades intestinales, obstrucción urinaria, deshidratación, antiácidos de calcio, antecedentes familiares, dieta rica en proteínas y sodio, obesidad.",
+   "explicacion": "Factores: baja ingesta de líquidos, enfermedades intestinales, obstrucción urinaria, deshidratación, antiácidos de calcio, antecedentes familiares, dieta rica en proteínas y sodio, obesidad.",
    "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 12"
   },
   {
@@ -156,7 +155,7 @@
    "opciones": [
     {
      "t": "Tomografía",
-     "por": "La lámina la señala como el examen ideal."
+     "por": "La tomografía es el estudio ideal por su alta sensibilidad y especificidad."
     },
     {
      "t": "Ecografía",
@@ -193,11 +192,11 @@
     },
     {
      "t": "Eliminar por completo el calcio de la dieta",
-     "por": "La lámina indica mantener 800 mg a 1 g al día."
+     "por": "No se elimina el calcio: se mantiene entre 800 mg y 1 g al día."
     },
     {
      "t": "Dieta rica en sodio y proteínas",
-     "por": "Son factores de riesgo según la lámina 12."
+     "por": "Esa dieta aumenta el riesgo de litiasis."
     }
    ],
    "correcta": 0,
@@ -225,7 +224,7 @@
     },
     {
      "t": "Prednisona",
-     "por": "Es un corticoide; no es parte del tratamiento expulsivo de la lámina."
+     "por": "Es un corticoide; no es parte del tratamiento expulsivo."
     }
    ],
    "correcta": 0,
@@ -277,7 +276,7 @@
     },
     {
      "t": "Litotricia extracorpórea",
-     "por": "Funciona mejor con cálculos más pequeños; en uno de 3 cm no es la opción de la lámina."
+     "por": "Funciona mejor con cálculos más pequeños; en uno de 3 cm no es la opción."
     },
     {
      "t": "Ureteroscopía",

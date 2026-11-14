@@ -317,7 +317,7 @@ function vPlay(){
       (ok ? '' : '<p class="miss"><b>Dónde fallaste:</b> elegiste «'+esc(V.opts[V.picked].t)+'». '+esc(V.opts[V.picked].por || '')+'</p>')+'<p>'+nl(q.explicacion || '')+'</p>'+
       (q.nota ? (q.nota.charAt(0) === '*' ? '<p class="note"><b>* Corregido, no es igual al PPT:</b> '+nl(q.nota.replace(/^\*\s*/, ''))+'</p>' : '<p class="note"><b>Para tu práctica, no para el examen:</b> '+nl(q.nota)+'</p>') : '')+
       (q.guia ? '<details class="guia"><summary>Lo que dicen las guías</summary><p>'+nl(q.guia.t)+'</p><p class="gsrc">Guía: '+esc(q.guia.f)+'</p></details>' : '')+
-      '<p class="src">Fuente: '+esc(q.fuente || 'sin fuente indicada')+'</p></div>'+
+      '</div>'+
       '<div class="row" style="margin-top:14px"><button class="btn gold grow" data-act="next">'+(V.lives <= 0 && V.modo === 'boss' ? 'Ver resultado' : (V.i+1 >= V.ids.length ? 'Terminar ronda' : 'Siguiente'))+'</button></div>';
   }
   return '<div>'+
@@ -372,7 +372,7 @@ function vCards(){
     '<div class="panel card '+(V.flipped ? 'back' : '')+'" data-act="flip" tabindex="0" role="button" aria-label="Voltear tarjeta">'+
       '<span class="pill" style="color:'+a.c+'">'+esc(a.n)+' · '+esc(c.tema)+'</span>'+(c.demo ? '<span class="demo">DEMO</span>' : '')+
       '<span class="side">'+(V.flipped ? 'RESPUESTA' : 'PREGUNTA')+'</span>'+
-      '<div class="txt">'+nl(V.flipped ? c.b : c.f)+'</div>'+(V.flipped && c.fuente ? '<span class="src">Fuente: '+esc(c.fuente)+'</span>' : '')+
+      '<div class="txt">'+nl(V.flipped ? c.b : c.f)+'</div>'+
       (V.flipped ? '' : '<span class="src">Toca la tarjeta o pulsa Espacio para voltear</span>')+
     '</div>'+
     (V.flipped ? '<div class="rates">'+rates+'</div>' : '')+'</div>';

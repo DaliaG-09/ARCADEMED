@@ -18,7 +18,7 @@
     },
     {
      "t": "Absceso micótico, por Candida",
-     "por": "Los hongos son una causa menor. La lámina agrupa los agentes en bacterias y parásitos (Entamoeba histolytica)."
+     "por": "Los hongos son una causa menor."
     },
     {
      "t": "Absceso mixto, bacteriano y amebiano",
@@ -83,7 +83,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Los agentes provienen del cuadro de microorganismos de la clase: gramnegativos aerobios, grampositivos aerobios, anaerobios y hongos.",
+   "explicacion": "Los agentes provienen del cuadro de microorganismos: gramnegativos aerobios, grampositivos aerobios, anaerobios y hongos.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 11"
   },
   {
@@ -95,7 +95,7 @@
    "opciones": [
     {
      "t": "Vía portal, traumatismo o criptogénico",
-     "por": "Es el patrón de la lámina 12: el absceso es predecible según número, localización y tamaño.",
+     "por": "Es el patrón: el absceso es predecible según número, localización y tamaño.",
      "full": "La vía portal, un traumatismo o un origen criptogénico"
     },
     {
@@ -114,7 +114,7 @@
    "correcta": 0,
    "explicacion": "Grandes y solitarios: portal, traumático, criptogénico. Múltiples y pequeños: biliar. Bilateral: arterial (90 %), biliar, fúngico.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 12",
-   "nota": "Esta lámina es una tabla de patrones; la relación entre tamaño y origen es una regla de apoyo, no una norma absoluta."
+   "nota": "la relación entre tamaño y origen es una regla de apoyo, no una norma absoluta."
   },
   {
    "id": "g-abs-clin",
@@ -255,11 +255,11 @@
     },
     {
      "t": "Hidatídico",
-     "por": "No se menciona en la lámina y se diagnostica con otros estudios serológicos."
+     "por": "El hidatídico es otra causa de lesión hepática y se diagnostica con otros estudios."
     }
    ],
    "correcta": 0,
-   "explicacion": "Tabla comparativa de la lámina 40: edad (<40 vs >50), diabetes (2 % vs 15 a 27 %), hemocultivo positivo (no vs sí), mortalidad (<5 % vs 10 a 15 %).",
+   "explicacion": "Tabla comparativa: edad (<40 vs >50), diabetes (2 % vs 15 a 27 %), hemocultivo positivo (no vs sí), mortalidad (<5 % vs 10 a 15 %).",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 24 y 40"
   },
   {
@@ -379,7 +379,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Preguntas del caso (lámina 36): causas más comunes de absceso hepático y tratamiento del amebiano.",
+   "explicacion": "Preguntas del caso: causas más comunes de absceso hepático y tratamiento del amebiano.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 36 y 40"
   }
  ],

@@ -9,7 +9,7 @@
    "opciones": [
     {
      "t": "Trastorno de motilidad con reflujo gástrico a esófago y síntomas",
-     "por": "Es la definición de la lámina: lo importante es que el reflujo cause síntomas o complicaciones, no que exista reflujo aislado.",
+     "por": "Es la definición: lo importante es que el reflujo cause síntomas o complicaciones, no que exista reflujo aislado.",
      "full": "Un desorden de la motilidad en el que el contenido gástrico regresa al esófago o a la cavidad oral y produce síntomas y complicaciones"
     },
     {
@@ -26,7 +26,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "ERGE = enfermedad por reflujo gastroesofágico. La lámina la define como un desorden de motilidad con reflujo del contenido gástrico hacia el esófago o la boca, con síntomas y complicaciones. Se estima en 20 % de la población general y se asoció con sexo femenino y consumo de alcohol.",
+   "explicacion": "ERGE = enfermedad por reflujo gastroesofágico: desorden de motilidad con reflujo del contenido gástrico hacia el esófago o la boca, con síntomas y complicaciones. Se estima en 20 % de la población general y se asoció con sexo femenino y consumo de alcohol.",
    "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 7"
   },
   {
@@ -55,7 +55,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "El caso de la clase: la pirosis y la regurgitación ácida son los síntomas típicos de ERGE. La obesidad aumenta la presión intraabdominal y favorece el reflujo; el café relaja el EEI. La ausencia de disfagia y de pérdida de peso es dato de que no hay signos de alarma.",
+   "explicacion": "El caso: la pirosis y la regurgitación ácida son los síntomas típicos de ERGE. La obesidad aumenta la presión intraabdominal y favorece el reflujo; el café relaja el EEI. La ausencia de disfagia y de pérdida de peso es dato de que no hay signos de alarma.",
    "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 3 y 38"
   },
   {
@@ -67,8 +67,8 @@
    "opciones": [
     {
      "t": "Tras la bifurcación traqueal, a nivel D4",
-     "por": "Es el segundo estrechamiento anatómico que describe la lámina.",
-     "full": "Detrás de la bifurcación traqueal, a la altura de D4, de 15 a 17 mm"
+     "full": "Detrás de la bifurcación traqueal, a la altura de D4, de 15 a 17 mm",
+     "por": "El estrechamiento broncoaórtico está detrás de la bifurcación traqueal, a nivel D4."
     },
     {
      "t": "A la altura del cricoides, de 14 mm",
@@ -80,7 +80,7 @@
     },
     {
      "t": "En la unión con el estómago, de 25 mm",
-     "por": "No es uno de los tres estrechamientos que menciona la lámina."
+     "por": "Esa es la unión con el estómago, otro estrechamiento distinto."
     }
    ],
    "correcta": 0,
@@ -96,8 +96,8 @@
    "opciones": [
     {
      "t": "Esfínter fisiológico de 10 a 25 mmHg en reposo",
-     "por": "La lámina lo explica así: no hay una estructura de esfínter, pero la zona mantiene una presión elevada que cierra el paso hacia el esófago.",
-     "full": "Es un esfínter fisiológico, no anatómico, con una presión en reposo de 10 a 25 mmHg"
+     "full": "Es un esfínter fisiológico, no anatómico, con una presión en reposo de 10 a 25 mmHg",
+     "por": "El EEI es un esfínter fisiológico, no anatómico, con presión de reposo de 10 a 25 mmHg."
     },
     {
      "t": "Es un anillo muscular anatómico bien definido con presión de 50 mmHg",
@@ -125,8 +125,8 @@
    "opciones": [
     {
      "t": "Plexo mientérico",
-     "por": "La lámina lo señala: Mientérico = Auerbach.",
-     "full": "El plexo mientérico, entre las capas muscular circular y longitudinal"
+     "full": "El plexo mientérico, entre las capas muscular circular y longitudinal",
+     "por": "El plexo de Auerbach es el mientérico."
     },
     {
      "t": "El plexo submucoso",
@@ -138,13 +138,12 @@
     },
     {
      "t": "El plexo celíaco",
-     "por": "No aparece en la lámina como inervación esofágica."
+     "por": "El plexo celíaco no forma parte de la inervación intrínseca del esófago."
     }
    ],
    "correcta": 0,
    "explicacion": "Inervación extrínseca: nervios vagos y tronco simpático. Intrínseca: plexo mientérico (Auerbach) y submucoso (Meissner). Este esquema se repite en acalasia, donde se pierden las neuronas del plexo mientérico.",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 9",
-   "nota": "La relación con la acalasia es un complemento (no está en esta lámina)."
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 9"
   },
   {
    "id": "g-erge-riesgo",
@@ -155,7 +154,7 @@
    "opciones": [
     {
      "t": "Dieta rica en fibra y frutas",
-     "por": "La lámina no la menciona; los factores de riesgo son hábitos como bebidas carbonatadas y comidas copiosas, no la fibra."
+     "por": "Los factores de riesgo son hábitos como bebidas carbonatadas y comidas copiosas, no la fibra."
     },
     {
      "t": "Obesidad",
@@ -163,7 +162,7 @@
     },
     {
      "t": "Consumo de AINE (antiinflamatorios no esteroideos)",
-     "por": "Sí figura en la lámina, junto con alcohol y tabaco."
+     "por": "Sí figura, junto con alcohol y tabaco."
     },
     {
      "t": "Hernia de hiato",
@@ -171,9 +170,9 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Factores de riesgo de la lámina: bebidas carbonatadas y comidas copiosas, alcohol, tabaco y AINE, ejercicio abdominal extremo, estrés y enfermedades psiquiátricas, mayor nivel educacional, obesidad, embarazo y hernia de hiato.",
+   "explicacion": "Factores de riesgo: bebidas carbonatadas y comidas copiosas, alcohol, tabaco y AINE, ejercicio abdominal extremo, estrés y enfermedades psiquiátricas, mayor nivel educacional, obesidad, embarazo y hernia de hiato.",
    "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 14",
-   "nota": "La fibra y las frutas no figuran en la lámina; es un distractor construido para esta pregunta."
+   "nota": "La fibra y las frutas no figuran; es un distractor construido para esta pregunta."
   },
   {
    "id": "g-erge-defensa",
@@ -184,7 +183,7 @@
    "opciones": [
     {
      "t": "Barrera antirreflujo, aclaramiento esofágico y barrera esofágica",
-     "por": "Son los tres factores protectores de la lámina 15."
+     "por": "Son los tres factores protectores."
     },
     {
      "t": "Vaciamiento gástrico, secreción de gastrina y peristalsis colónica",
@@ -216,7 +215,7 @@
     },
     {
      "t": "Disfagia",
-     "por": "Aparece en la lámina pero con menor frecuencia; en ERGE suele indicar complicación (estenosis, cáncer)."
+     "por": "En ERGE suele indicar complicación (estenosis, cáncer)."
     },
     {
      "t": "Pérdida de esmalte dental",
@@ -288,8 +287,7 @@
    "correcta": 0,
    "explicacion": "ERNE: enfermedad por reflujo no erosiva. Se manifiesta con pirosis y regurgitación pero la endoscopía es normal. Pertenece a los síndromes esofágicos sintomáticos, junto con el dolor torácico por reflujo.",
    "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 19",
-   "contexto": "Clasificación de Montreal: ordena las manifestaciones de la ERGE en síndromes esofágicos (los síntomas o lesiones dentro del esófago) y extraesofágicos (los que aparecen fuera de él, como tos o laringitis).",
-   "nota": "La definición de ERNE como 'sin lesión en la endoscopía' es un complemento: la lámina solo muestra la sigla."
+   "contexto": "Clasificación de Montreal: ordena las manifestaciones de la ERGE en síndromes esofágicos (los síntomas o lesiones dentro del esófago) y extraesofágicos (los que aparecen fuera de él, como tos o laringitis)."
   },
   {
    "id": "g-erge-prueba",
@@ -309,7 +307,7 @@
     },
     {
      "t": "Esofagograma baritado",
-     "por": "La lámina dice explícitamente que NO se recomienda."
+     "por": "El esofagograma no se recomienda como primer paso."
     },
     {
      "t": "Manometría esofágica y pH-metría",
@@ -333,8 +331,8 @@
    "opciones": [
     {
      "t": "Signos de alarma o riesgo de Barrett",
-     "por": "Son los tres criterios de la lámina.",
-     "full": "Ante signos de alarma, riesgo de esófago de Barrett o mala respuesta a IBP"
+     "full": "Ante signos de alarma, riesgo de esófago de Barrett o mala respuesta a IBP",
+     "por": "Se indica endoscopía ante signos de alarma o riesgo de Barrett."
     },
     {
      "t": "En todo paciente con pirosis",
@@ -366,8 +364,8 @@
    "opciones": [
     {
      "t": "Solo mide el reflujo líquido",
-     "por": "La lámina lista esto, junto con sensibilidad y especificidad de 80 % y corte en pH 4.",
-     "full": "Solo mide reflujo líquido y no el duodenogastroesofágico"
+     "full": "Solo mide reflujo líquido y no el duodenogastroesofágico",
+     "por": "La pH-metría mide solo el reflujo ácido líquido."
     },
     {
      "t": "Tiene una sensibilidad de 100 %",
@@ -445,7 +443,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "TEA = tiempo de exposición ácida, el porcentaje del registro con pH <4 en el esófago. En el algoritmo de la lámina 21: endoscopía normal o esofagitis A → pH sin IBP; >6 % ERGE, 4 a 6 % no concluyente, <4 % otras causas. Esofagitis B, C o D o Barrett confirman el diagnóstico por sí solas.",
+   "explicacion": "TEA = tiempo de exposición ácida, el porcentaje del registro con pH <4 en el esófago. En el algoritmo: endoscopía normal o esofagitis A → pH sin IBP; >6 % ERGE, 4 a 6 % no concluyente, <4 % otras causas. Esofagitis B, C o D o Barrett confirman el diagnóstico por sí solas.",
    "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 21",
    "contexto": "TEA (tiempo de exposición ácida) es el porcentaje de tiempo que el pH esofágico está por debajo de 4 durante el monitoreo. Sirve para confirmar ERGE cuando la endoscopía no muestra lesiones claras.",
    "guia": {
@@ -520,8 +518,8 @@
    "opciones": [
     {
      "t": "ERGE complicada o Barrett",
-     "por": "Es una indicación de la lámina.",
-     "full": "ERGE complicada, como esofagitis erosiva que no cicatriza o Barrett"
+     "full": "ERGE complicada, como esofagitis erosiva que no cicatriza o Barrett",
+     "por": "La cirugía se reserva para la ERGE complicada o con Barrett."
     },
     {
      "t": "Hernia hiatal gigante",
@@ -549,8 +547,8 @@
    "opciones": [
     {
      "t": "Corriente oscilante en la muscular 2 cm arriba y abajo del EEI",
-     "por": "Así lo describe la lámina.",
-     "full": "Aplica corriente oscilante en la muscular externa 2 cm arriba y abajo del EEI; el mecanismo exacto se desconoce"
+     "full": "Aplica corriente oscilante en la muscular externa 2 cm arriba y abajo del EEI; el mecanismo exacto se desconoce",
+     "por": "La radiofrecuencia aplica corriente oscilante en la muscular 2 cm arriba y abajo del EEI."
     },
     {
      "t": "Crea de una a tres plicas con una máquina de coser endoscópica",

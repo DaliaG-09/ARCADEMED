@@ -9,8 +9,8 @@
    "opciones": [
     {
      "t": "Epigastralgia, saciedad precoz y plenitud",
-     "por": "Son los síntomas de un trastorno del tubo digestivo alto que agrupa la lámina.",
-     "full": "Dolor o epigastralgia, saciedad precoz, plenitud posprandial, distensión abdominal y náuseas"
+     "full": "Dolor o epigastralgia, saciedad precoz, plenitud posprandial, distensión abdominal y náuseas",
+     "por": "Son los síntomas de un trastorno del tubo digestivo alto."
     },
     {
      "t": "Diarrea crónica con pérdida de peso y anemia",
@@ -66,8 +66,8 @@
    "opciones": [
     {
      "t": "Hipersensibilidad visceral y dismotilidad",
-     "por": "Son los factores que menciona la lámina de etiología.",
-     "full": "Hipersensibilidad visceral, alteraciones de la motilidad, H. pylori y factores psicosociales"
+     "full": "Hipersensibilidad visceral, alteraciones de la motilidad, H. pylori y factores psicosociales",
+     "por": "La hipersensibilidad visceral y la dismotilidad se asocian a la dispepsia funcional."
     },
     {
      "t": "Obstrucción biliar por un cálculo",
@@ -144,7 +144,7 @@
    "correcta": 0,
    "explicacion": "Dispepsia no investigada: con signos de alarma (a cualquier edad) o mayor de la edad límite, que varía por país (55 años México, 35 Colombia, 60 USA) → EDA. Sin alarma y menor de la edad límite → test de aliento (UBT) o antígeno fecal de H. pylori; si es positivo, se erradica; si no mejora, es dispepsia funcional.",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 13 y 25",
-   "nota": "En Perú se suele usar como referencia 50 a 55 años, según la lámina 13; las cifras exactas dependen de la guía.",
+   "nota": "En Perú se suele usar como referencia 50 a 55 años; las cifras exactas dependen de la guía.",
    "guia": {
     "t": "• Menores de 60 años: prueba no invasiva de H. pylori y tratar si es positiva.\n• Si es negativa o no responde: prueba de IBP; luego antidepresivo tricíclico o procinético, en ese orden.\n• ≥60 años: endoscopía (recomendación condicional); los signos de alarma no obligan a endoscopía automática en jóvenes y se valoran caso a caso.",
     "f": "ACG/CAG Clinical Guideline: Management of Dyspepsia (Moayyedi et al., Am J Gastroenterol 2017;112:988-1013)"
@@ -188,8 +188,8 @@
    "opciones": [
     {
      "t": "Dolor abdominal crónico con cambio del hábito intestinal",
-     "por": "Es la definición de la lámina.",
-     "full": "Un trastorno funcional con dolor abdominal crónico o recurrente y alteración del hábito intestinal (diarrea, estreñimiento o ambos)"
+     "full": "Un trastorno funcional con dolor abdominal crónico o recurrente y alteración del hábito intestinal (diarrea, estreñimiento o ambos)",
+     "por": "El SII es un trastorno funcional con dolor y alteración del hábito intestinal."
     },
     {
      "t": "Una inflamación crónica de la mucosa del colon con úlceras",
@@ -207,7 +207,6 @@
    "correcta": 0,
    "explicacion": "SII: trastorno funcional con dolor abdominal crónico o recurrente más cambio del hábito intestinal. Factores fisiopatológicos: trastornos motores, hipersensibilidad visceral y central, microinflamación, alteración de la permeabilidad, disbiosis y factores emocionales. Es un trastorno 'cerebro-intestino'.",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 15 y 16",
-   "nota": "La expresión 'eje cerebro-intestino' es un complemento; la lámina solo muestra los factores.",
    "guia": {
     "t": "• Diagnóstico positivo (no de exclusión) con criterios de Roma IV: dolor abdominal al menos 1 vez por semana en los últimos 3 meses, con 2 o más de: relación con la defecación, cambio en la frecuencia o cambio en la forma de las heces; inicio hace ≥6 meses. La distensión no es necesaria.\n• Con diarrea: serología para celiaquía y calprotectina fecal (o lactoferrina) con PCR para descartar EII.\n• No se recomienda estudiar patógenos en heces de rutina.",
     "f": "ACG Clinical Guideline: Management of Irritable Bowel Syndrome (Lacy et al., Am J Gastroenterol 2021;116:17-44)"
@@ -361,7 +360,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "El caso de la clase: dolor, cambio del hábito y meteorismo sin signos orgánicos sugieren SII mixto. El antecedente de cáncer de colon en un familiar de primer grado joven es un signo de alarma, así que se indican estudios (colonoscopía, hemograma, marcadores de inflamación) antes de afirmar un trastorno funcional.",
+   "explicacion": "El caso: dolor, cambio del hábito y meteorismo sin signos orgánicos sugieren SII mixto. El antecedente de cáncer de colon en un familiar de primer grado joven es un signo de alarma, así que se indican estudios (colonoscopía, hemograma, marcadores de inflamación) antes de afirmar un trastorno funcional.",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 3, 17 y 21",
    "guia": {
     "t": "• Diagnóstico positivo (no de exclusión) con criterios de Roma IV: dolor abdominal al menos 1 vez por semana en los últimos 3 meses, con 2 o más de: relación con la defecación, cambio en la frecuencia o cambio en la forma de las heces; inicio hace ≥6 meses. La distensión no es necesaria.\n• Con diarrea: serología para celiaquía y calprotectina fecal (o lactoferrina) con PCR para descartar EII.\n• No se recomienda estudiar patógenos en heces de rutina.",

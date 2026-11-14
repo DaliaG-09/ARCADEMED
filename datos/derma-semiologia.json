@@ -127,7 +127,7 @@
     },
     {
      "t": "Solo durante el mediodía, con calor",
-     "por": "No es el momento descrito en la clase."
+     "por": "La mitosis aumenta por la noche, no al mediodía."
     },
     {
      "t": "Solo tras la exposición solar",
@@ -238,8 +238,8 @@
    "opciones": [
     {
      "t": "Captan antígenos y los presentan a linfocitos T",
-     "por": "El esquema de la clase muestra captación del antígeno, activación de la célula y migración a los ganglios para presentarlo al linfocito T.",
-     "full": "Captan antígenos y los presentan a los linfocitos T"
+     "full": "Captan antígenos y los presentan a los linfocitos T",
+     "por": "Las células de Langerhans captan antígenos y los presentan a los linfocitos T."
     },
     {
      "t": "Producen melanina para el queratinocito",
@@ -279,7 +279,7 @@
     },
     {
      "t": "100 veces más gruesa",
-     "por": "Excede el rango señalado en la clase."
+     "por": "Esa cifra excede el rango real."
     }
    ],
    "correcta": 0,
@@ -397,7 +397,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "En la tabla de la clase, la hipodermis aísla del calor y su inflamación se relaciona con el eritema nudoso.",
+   "explicacion": "En la tabla, la hipodermis aísla del calor y su inflamación se relaciona con el eritema nudoso.",
    "fuente": "PPT Anatomofisiología y semiología de la piel (sem. 14), lám. 21"
   },
   {
@@ -512,7 +512,7 @@
    "correcta": 0,
    "explicacion": "El nódulo difiere de la pápula solo en el tamaño (0.5 a 5 cm). El tumor es una neoplasia sólida mayor de 5 cm.",
    "fuente": "PPT Anatomofisiología y semiología de la piel (sem. 14), lám. 32",
-   "nota": "La infografía de la lámina de integración (lám. 50) describe la pápula como lesión menor de 1 cm; para tu práctica, no para el examen: aquí se usa el valor de la lámina 32, menor de 0.5 cm."
+   "nota": "para tu práctica, no para el examen: aquí se usa el valor, menor de 0.5 cm."
   },
   {
    "id": "d-sem-habon",

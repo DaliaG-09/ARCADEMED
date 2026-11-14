@@ -9,7 +9,7 @@
    "opciones": [
     {
      "t": "Peristalsis aberrante y relajación insuficiente del EEI",
-     "por": "Es la definición de la lámina: el EEI no se relaja bien y el esófago no empuja el alimento.",
+     "por": "Es la definición: el EEI no se relaja bien y el esófago no empuja el alimento.",
      "full": "Un trastorno de la motilidad esofágica con peristalsis aberrante y relajación insuficiente del esfínter esofágico inferior (EEI)"
     },
     {
@@ -38,7 +38,7 @@
    "opciones": [
     {
      "t": "Trypanosoma cruzi (Chagas)",
-     "por": "Destruye las neuronas del plexo mientérico; es la causa secundaria que menciona la lámina.",
+     "por": "Destruye las neuronas del plexo mientérico.",
      "full": "Trypanosoma cruzi (enfermedad de Chagas)"
     },
     {
@@ -56,8 +56,7 @@
    ],
    "correcta": 0,
    "explicacion": "La mayoría de las acalasias son idiopáticas. Otros factores: infección por T. cruzi (Chagas, causa secundaria), autoinmunidad y predisposición genética (casos familiares raros).",
-   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 7",
-   "nota": "La relación con el plexo mientérico (neuronas inhibidoras) es complemento; la lámina 10 lo muestra en un esquema con neuronas mientéricas y apoptosis."
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 7"
   },
   {
    "id": "g-aca-clinica",
@@ -105,7 +104,7 @@
     },
     {
      "t": "Porque hay una úlcera duodenal asociada",
-     "por": "No es la explicación que da la lámina."
+     "por": "La acalasia no se asocia a úlcera duodenal."
     },
     {
      "t": "Porque la bilis refluye al esófago",
@@ -114,8 +113,7 @@
    ],
    "correcta": 0,
    "explicacion": "La pirosis de la acalasia (27 a 42 %) se debe a la fermentación del alimento retenido. Por eso un tratamiento con IBP no resuelve el síntoma y puede retrasar el diagnóstico.",
-   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 8",
-   "nota": "La advertencia sobre el retraso del diagnóstico con IBP es un complemento (no está en la lámina)."
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 8"
   },
   {
    "id": "g-aca-eckardt",
@@ -144,8 +142,7 @@
    "correcta": 0,
    "explicacion": "Eckardt: pérdida de peso (0 ninguna, 1 <5 kg, 2 de 5 a 10 kg, 3 >10 kg); disfagia, dolor retroesternal y regurgitación (0 ninguno, 1 ocasional, 2 diario, 3 en cada comida). El máximo total es 12.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 9",
-   "contexto": "Puntaje de Eckardt: mide la gravedad de la acalasia sumando cuatro síntomas (pérdida de peso, disfagia, dolor retroesternal y regurgitación), cada uno de 0 a 3. Sirve para evaluar la severidad al inicio y la respuesta al tratamiento.",
-   "nota": "La suma máxima de 12 es un complemento: la lámina muestra solo la tabla de puntajes."
+   "contexto": "Puntaje de Eckardt: mide la gravedad de la acalasia sumando cuatro síntomas (pérdida de peso, disfagia, dolor retroesternal y regurgitación), cada uno de 0 a 3. Sirve para evaluar la severidad al inicio y la respuesta al tratamiento."
   },
   {
    "id": "g-aca-barites",
@@ -175,7 +172,6 @@
    "correcta": 0,
    "explicacion": "Diagnóstico: (1) esofagograma con bario (pico de pájaro: dilatación más estrechamiento distal en cono); (2) manometría de alta resolución, el estándar de oro; (3) endoscopía digestiva alta para descartar cáncer o pseudoacalasia.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11 y 12 y 20",
-   "nota": "Las imágenes de 'sacacorchos' y 'manzana mordida' son complemento para diferenciar; no están en la lámina.",
    "guia": {
     "t": "• La manometría de alta resolución es la prueba de confirmación (estándar de oro).\n• Todo paciente con sospecha debe tener endoscopía para descartar pseudoacalasia por una masa que obstruya.\n• El esofagograma con bario cronometrado, con retención de bario y 'pico de pájaro', apoya el diagnóstico.\n• La ACG sugiere usar la clasificación de Chicago para orientar pronóstico y tratamiento.",
     "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
@@ -242,7 +238,6 @@
    "explicacion": "Chicago: tipo I sin presurización (ausencia de peristalsis), tipo II panpresurización, tipo III contracciones prematuras (espásticas). El tipo III es el de peor respuesta a dilatación y requiere miotomía más larga.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11 y 13",
    "contexto": "Clasificación de Chicago: usa la manometría de alta resolución (un catéter con muchos sensores que mide la presión del esófago) para dividir la acalasia en tres tipos según el patrón de presión. Orienta la elección del tratamiento y el pronóstico.",
-   "nota": "La peor respuesta del tipo III a la dilatación es complemento (se ve en el algoritmo de la lámina 23).",
    "guia": {
     "t": "• La manometría de alta resolución es la prueba de confirmación (estándar de oro).\n• Todo paciente con sospecha debe tener endoscopía para descartar pseudoacalasia por una masa que obstruya.\n• El esofagograma con bario cronometrado, con retención de bario y 'pico de pájaro', apoya el diagnóstico.\n• La ACG sugiere usar la clasificación de Chicago para orientar pronóstico y tratamiento.",
     "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
@@ -276,7 +271,7 @@
    "correcta": 0,
    "explicacion": "Tratamiento: el objetivo es mejorar los síntomas. Farmacológico: nifedipino, isosorbida (liberación de óxido nítrico y reducción del calcio intracelular), atropina, terbutalina. Endoscópico: toxina botulínica 100 UI sobre la unión escamocilíndrica. Dilatación neumática (riesgo de perforación). Quirúrgico: miotomía.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14",
-   "nota": "Que se reservan a pacientes no aptos para el tratamiento definitivo está en el algoritmo de la lámina 23.",
+   "nota": "Que se reservan a pacientes no aptos para el tratamiento definitivo está en el algoritmo.",
    "guia": {
     "t": "• Tipos I y II: dilatación neumática, miotomía de Heller laparoscópica y POEM tienen eficacia comparable.\n• Tipo III: se recomienda POEM o Heller 'a medida', más eficaces que la dilatación neumática.\n• La toxina botulínica se reserva para quienes no pueden recibir un tratamiento definitivo; los fármacos orales son la opción menos eficaz.\n• La dilatación neumática seriada es el tratamiento no quirúrgico más eficaz; no se pide gastrografin de rutina tras dilatar, solo ante sospecha de perforación.",
     "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
@@ -300,7 +295,7 @@
     },
     {
      "t": "Se inyecta en el cuerpo del esófago a 5 cm del cardias",
-     "por": "La lámina indica el sitio: por encima de la unión escamocilíndrica."
+     "por": "La toxina se inyecta en el EEI, por encima de la unión escamocilíndrica."
     },
     {
      "t": "Se usa como tratamiento definitivo en todos los pacientes jóvenes",
@@ -310,7 +305,6 @@
    "correcta": 0,
    "explicacion": "Toxina botulínica: 100 unidades endoscópicas por encima de la unión escamocilíndrica. El efecto es temporal, por eso se usa en pacientes que no pueden recibir tratamiento definitivo.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14",
-   "nota": "Que el efecto sea transitorio y que se use en no aptos es complemento (consistente con lámina 23).",
    "guia": {
     "t": "• Tipos I y II: dilatación neumática, miotomía de Heller laparoscópica y POEM tienen eficacia comparable.\n• Tipo III: se recomienda POEM o Heller 'a medida', más eficaces que la dilatación neumática.\n• La toxina botulínica se reserva para quienes no pueden recibir un tratamiento definitivo; los fármacos orales son la opción menos eficaz.\n• La dilatación neumática seriada es el tratamiento no quirúrgico más eficaz; no se pide gastrografin de rutina tras dilatar, solo ante sospecha de perforación.",
     "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
@@ -325,7 +319,7 @@
    "opciones": [
     {
      "t": "Perforación esofágica",
-     "por": "Es la complicación principal que señala la lámina."
+     "por": "La perforación esofágica es el principal riesgo de la dilatación neumática."
     },
     {
      "t": "Hemorragia digestiva baja",
@@ -374,9 +368,9 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Miotomía quirúrgica: división de las fibras musculares del EEI (la lámina menciona toracotomía; el algoritmo muestra Heller laparoscópica con fundoplicación de Dor o Toupet). Esofagectomía: megaesófago o esófago sigmoideo con dilatación tortuosa.",
+   "explicacion": "Miotomía quirúrgica: división de las fibras musculares del EEI (por toracotomía o, más a menudo, Heller laparoscópica con fundoplicación de Dor o Toupet). Esofagectomía: megaesófago o esófago sigmoideo con dilatación tortuosa.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 16",
-   "nota": "Hoy la miotomía se hace sobre todo por laparoscopía o por vía endoscópica (POEM), según el algoritmo de la lámina 23.",
+   "nota": "Hoy la miotomía se hace sobre todo por laparoscopía o por vía endoscópica (POEM), según el algoritmo.",
    "guia": {
     "t": "• Tipos I y II: dilatación neumática, miotomía de Heller laparoscópica y POEM tienen eficacia comparable.\n• Tipo III: se recomienda POEM o Heller 'a medida', más eficaces que la dilatación neumática.\n• La toxina botulínica se reserva para quienes no pueden recibir un tratamiento definitivo; los fármacos orales son la opción menos eficaz.\n• La dilatación neumática seriada es el tratamiento no quirúrgico más eficaz; no se pide gastrografin de rutina tras dilatar, solo ante sospecha de perforación.",
     "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
@@ -424,7 +418,7 @@
    "opciones": [
     {
      "t": "Megaesófago con riesgo de carcinoma escamoso",
-     "por": "La estasis crónica irrita la mucosa; la lámina menciona el riesgo de carcinoma escamocelular.",
+     "por": "La estasis crónica irrita la mucosa.",
      "full": "Megaesófago con riesgo de carcinoma escamocelular"
     },
     {

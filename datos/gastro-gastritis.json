@@ -9,7 +9,7 @@
    "opciones": [
     {
      "t": "Un proceso inflamatorio que provoca lesiones en la mucosa gástrica",
-     "por": "Es la definición de la lámina. Según la causa y los hallazgos al microscopio se divide en aguda, crónica y eosinofílica."
+     "por": "Es la definición. Según la causa y los hallazgos al microscopio se divide en aguda, crónica y eosinofílica."
     },
     {
      "t": "Una ulceración profunda que atraviesa la muscular de la mucosa",
@@ -37,8 +37,8 @@
    "opciones": [
     {
      "t": "AINE, alcohol o cáusticos",
-     "por": "La lámina menciona fármacos (sobre todo AINE), alcohol e ingesta de cáusticos.",
-     "full": "Uso de antiinflamatorios no esteroideos (AINE), alcohol o cáusticos"
+     "full": "Uso de antiinflamatorios no esteroideos (AINE), alcohol o cáusticos",
+     "por": "Los AINE, el alcohol y los cáusticos dañan la mucosa y causan gastritis aguda."
     },
     {
      "t": "Déficit de ácido fólico",
@@ -66,7 +66,7 @@
    "opciones": [
     {
      "t": "Úlceras de Curling",
-     "por": "La lámina las asocia a quemaduras extensas; las de Cushing se ven en lesiones intracraneales.",
+     "por": "Las de Cushing se ven en lesiones intracraneales.",
      "full": "Úlceras de Curling (si es por quemaduras extensas)"
     },
     {
@@ -75,17 +75,17 @@
     },
     {
      "t": "Úlceras de Zollinger-Ellison",
-     "por": "No figuran en la lámina; son por un tumor secretor de gastrina."
+     "por": "No figuran; son por un tumor secretor de gastrina."
     },
     {
      "t": "Úlceras de Dieulafoy",
-     "por": "No aparecen en la lámina; son sangrados por un vaso submucoso dilatado."
+     "por": "No aparecen; son sangrados por un vaso submucoso dilatado."
     }
    ],
    "correcta": 0,
    "explicacion": "Gastritis aguda erosiva: AINE, alcohol, H. pylori o estrés; lesiones difusas con hemorragia digestiva alta (HDA) en 20 %. Ulcerada: asociada a trauma grave, quemaduras extensas (Curling), sepsis y lesiones intracraneales (Cushing), por hipoperfusión; lesiones en fondo, cuerpo y duodeno, con HDA en más de 20 %.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 10",
-   "nota": "En el PPT la clasificación Curling/Cushing se menciona como parte de la gastritis ulcerada; en otros textos se llaman 'úlceras de estrés'."
+   "nota": "La clasificación Curling/Cushing se menciona como parte de la gastritis ulcerada; en otros textos se llaman «úlceras de estrés»."
   },
   {
    "id": "g-gastritis-hda",
@@ -104,11 +104,11 @@
     },
     {
      "t": "Cerca de 100 %",
-     "por": "La clase no lo plantea así: depende de la causa; por estrés cuesta más que ceda."
+     "por": "Por estrés cuesta más que ceda."
     },
     {
      "t": "Alrededor de 5 %",
-     "por": "No coincide con la cifra de la lámina."
+     "por": "Esa cifra es demasiado baja: la mayoría se autolimita."
     }
    ],
    "correcta": 0,
@@ -157,8 +157,8 @@
    "opciones": [
     {
      "t": "Gastritis no atrófica, atrófica, metaplasia, hipoclorhidria, displasia, cáncer",
-     "por": "Es el orden del diagrama de la lámina 19.",
-     "full": "Gastritis crónica no atrófica, gastritis atrófica, metaplasia intestinal, estómago hipo o aclorhídrico, displasia y cáncer"
+     "full": "Gastritis crónica no atrófica, gastritis atrófica, metaplasia intestinal, estómago hipo o aclorhídrico, displasia y cáncer",
+     "por": "Ese es el orden de la cascada de Correa."
     },
     {
      "t": "Metaplasia intestinal, gastritis atrófica, gastritis crónica y cáncer",
@@ -177,7 +177,6 @@
    "explicacion": "El diagrama muestra la progresión lenta: H. pylori → gastritis crónica no atrófica → gastritis atrófica (antro, cuerpo o ambos) → metaplasia intestinal → estómago hipo o aclorhídrico → displasia (neoplasia intraepitelial) → cáncer. Los factores que empujan la cascada son cepas citotóxicas, estrés oxidativo, mutágenos, acetaldehído, déficit de B12, tabaco y dieta.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 19",
    "contexto": "La cascada de Correa describe cómo una infección crónica del estómago puede evolucionar durante décadas a cáncer gástrico a través de lesiones preneoplásicas. Se usa para entender por qué la atrofia y la metaplasia intestinal exigen seguimiento.",
-   "nota": "El nombre 'cascada de Correa' es un complemento: la lámina muestra el esquema sin ese nombre.",
    "guia": {
     "t": "• Los pacientes con gastritis crónica atrófica o metaplasia intestinal tienen riesgo de adenocarcinoma gástrico.\n• La biopsia debe tomarse al menos de antro y cuerpo, en frascos separados, y buscar H. pylori.\n• En atrofia avanzada, seguimiento con endoscopía de alta calidad cada 3 años.\n• La erradicación de H. pylori cura la gastritis no atrófica, puede hacer regresar la atrofia y reduce el riesgo de cáncer.\n• Pepsinógeno I bajo o relación pepsinógeno I/II baja identifica atrofia avanzada.",
     "f": "MAPS II, guía ESGE/EHMSG/ESP/SPED sobre condiciones precancerosas del estómago (Pimentel-Nunes et al., Endoscopy 2019;51:365-388)"
@@ -205,7 +204,7 @@
     },
     {
      "t": "La eosinofílica; afecta todo el estómago por igual",
-     "por": "No es el tipo A de la lámina."
+     "por": "La eosinofílica no es la tipo A, que es la autoinmune."
     }
    ],
    "correcta": 0,
@@ -304,8 +303,7 @@
    ],
    "correcta": 0,
    "explicacion": "Gastritis crónica: dolor, náuseas, distensión y llenura precoz (sobre todo por H. pylori). Con glositis, anorexia, diarrea y anemia megaloblástica hay que pensar en déficit de B12. Se confirma con B12 sérica menor de 170 pg/ml y gastrina mayor de 100 pg/ml.",
-   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 20 y 22",
-   "nota": "La explicación del mecanismo (factor intrínseco) es un complemento; la lámina solo enlaza la gastritis crónica con la anemia megaloblástica."
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 20 y 22"
   },
   {
    "id": "g-gastritis-dx",
@@ -316,7 +314,7 @@
    "opciones": [
     {
      "t": "Test de aliento, antígeno fecal o ELISA",
-     "por": "Son las tres pruebas no invasivas de la lámina, además de la endoscopía con biopsia dirigida.",
+     "por": "Son las tres pruebas no invasivas, además de la endoscopía con biopsia dirigida.",
      "full": "Test de aliento, antígeno fecal o serología ELISA"
     },
     {
@@ -349,7 +347,7 @@
    "opciones": [
     {
      "t": "Suspender el AINE y dar IBP mientras dure el tratamiento con AINE",
-     "por": "Es lo que indica la lámina; se repone sangre solo si hace falta."
+     "por": "Se repone sangre solo si hace falta."
     },
     {
      "t": "Continuar el AINE y dar solo antiácidos",
@@ -394,9 +392,9 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Gastritis crónica: IBP 20 mg/día más amoxicilina y claritromicina. Alérgicos: metronidazol y tetraciclina (2 g/día), o levofloxacina y claritromicina (1 g/día cada una). Déficit de B12: 100 µg/día IM por 7 días y luego una vez al mes de forma indefinida, o cobalamina oral 1000 µg/día.",
+   "explicacion": "Gastritis crónica: IBP 20 mg/día más amoxicilina y claritromicina. Alérgicos: metronidazol y tetraciclina (2 g/día), o levofloxacina y claritromicina (1 g/día cada una).",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 24",
-   "nota": "Para tu práctica en Perú: la guía latinoamericana de H. pylori (en la bibliografía de la clase de EUP) recomienda la cuadriterapia con bismuto como primera línea; para el examen guíate por esta lámina.",
+   "nota": "Para tu práctica en Perú: la guía latinoamericana de H. pylori recomienda la cuadriterapia con bismuto como primera línea; para el examen guíate por este esquema.",
    "guia": {
     "t": "• La cuádruple con bismuto por 14 días es el esquema de primera línea recomendado por la ACG 2024 (IBP + bismuto + tetraciclina + metronidazol).\n• La triple con claritromicina y levofloxacina ya no se recomiendan como primera línea.\n• Ojo: tu PPT menciona levofloxacina con claritromicina; para el examen manda la PPT.",
     "f": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection (Chey et al., Am J Gastroenterol 2024;119:1730-1753)"
@@ -428,9 +426,8 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "El caso de la clase: dolor y quemazón en el epigastrio más agua sin hervir orienta a H. pylori. Las cepas oncogénicas son las que expresan las toxinas CagA y VacA (lám. 10 del PPT de enfermedad ulcero péptica).",
-   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 29",
-   "nota": "La lámina solo plantea la pregunta de las cepas oncogénicas; la respuesta CagA/VacA proviene del otro PPT (úlcera péptica, lám. 10)."
+   "explicacion": "El caso: dolor y quemazón en el epigastrio más agua sin hervir orienta a H. pylori. Las cepas oncogénicas son las que expresan las toxinas CagA y VacA.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 29"
   }
  ],
  "tarjetas": [

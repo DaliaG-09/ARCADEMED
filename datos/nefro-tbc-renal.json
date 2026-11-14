@@ -58,7 +58,7 @@
    "explicacion": "Si las cavidades necrosadas son múltiples, pueden llevar a enfermedad renal crónica.",
    "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 10), lám. 9 a 11",
    "contexto": "TBC = tuberculosis. BAAR = bacilos ácido-alcohol resistentes (la forma en que se ven las micobacterias con tinción especial). MT = Mycobacterium tuberculosis.",
-   "nota": "La lámina 10 es un esquema en inglés del curso de la TBC (primoinfección, latencia, reactivación). El detalle de reactivación con inmunosupresión sale de ese esquema."
+   "nota": "El detalle de reactivación con inmunosupresión sale de ese esquema."
   },
   {
    "id": "n-tbc-ure",
@@ -109,7 +109,7 @@
     },
     {
      "t": "Solo ocurre en niños menores de 5 años",
-     "por": "No se limita a niños; la lámina no la restringe por edad."
+     "por": "No se limita a niños: también ocurre en adultos."
     }
    ],
    "correcta": 0,
@@ -154,8 +154,8 @@
    "opciones": [
     {
      "t": "Ardor, polaquiuria, nicturia y hematuria",
-     "por": "La lámina las lista para la vejiga: dolor, aumento de la frecuencia de orinar (también de noche), sangre en la orina e irritabilidad vesical extrema.",
-     "full": "Ardor, polaquiuria, nicturia y hematuria; en casos extremos irritabilidad vesical"
+     "full": "Ardor, polaquiuria, nicturia y hematuria; en casos extremos irritabilidad vesical",
+     "por": "Son los síntomas vesicales de la TBC urogenital."
     },
     {
      "t": "Epididimitis, inflamación indolora y absceso",
@@ -188,7 +188,7 @@
     },
     {
      "t": "PCR",
-     "por": "Tiene 98.1 % de sensibilidad, pero no informa la sensibilidad a fármacos según la lámina y no distingue enfermedad activa de latente."
+     "por": "Tiene 98.1 % de sensibilidad, pero no informa la sensibilidad a fármacos y no distingue enfermedad activa de latente."
     },
     {
      "t": "Tinción de Ziehl-Neelsen",
@@ -230,10 +230,10 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "En el caso de la lámina se piden baciloscopía de orina y esputo, tinción de Ziehl-Neelsen y cultivo (medio de Löwenstein-Jensen).",
+   "explicacion": "En este caso se piden baciloscopía de orina y esputo, tinción de Ziehl-Neelsen y cultivo (medio de Löwenstein-Jensen).",
    "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 10), lám. 17 y 21",
    "contexto": "TBC = tuberculosis. BAAR = bacilos ácido-alcohol resistentes (la forma en que se ven las micobacterias con tinción especial). MT = Mycobacterium tuberculosis.",
-   "nota": "La lámina del caso no responde explícitamente el diagnóstico; esta respuesta es la interpretación de la clase."
+   "nota": "esta respuesta es la interpretación."
   },
   {
    "id": "n-tbc-tx1",
@@ -292,7 +292,7 @@
    "correcta": 0,
    "explicacion": "Duración total: 2 meses de fase inicial más 4 a 7 meses de continuación.",
    "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 10), lám. 18",
-   "nota": "El tiempo total (6 a 9 meses) lo calculé sumando las fases de la lámina. Aplica en tu práctica el esquema vigente de la norma técnica peruana de TBC."
+   "nota": "El tiempo total (6 a 9 meses) se calcula sumando las fases. Aplica en tu práctica el esquema vigente de la norma técnica peruana de TBC."
   },
   {
    "id": "n-tbc-tx3",
@@ -311,7 +311,7 @@
     },
     {
      "t": "Estreptomicina",
-     "por": "No aparece en la tabla de la lámina."
+     "por": "La estreptomicina no forma parte del esquema inicial descrito."
     },
     {
      "t": "Ceftriaxona",
@@ -321,7 +321,7 @@
    "correcta": 0,
    "explicacion": "Cuando el caso lista tres fármacos, recuerda que el esquema estándar de la fase inicial son cuatro.",
    "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 10), lám. 18 y 21",
-   "nota": "La lámina 21 del caso menciona solo tres fármacos; la tabla de la lámina 18 incluye etambutol. Se prioriza la tabla."
+   "nota": "El caso menciona solo tres fármacos; la tabla de tratamiento incluye etambutol. Se prioriza la tabla."
   }
  ],
  "tarjetas": [

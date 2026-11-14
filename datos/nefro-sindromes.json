@@ -25,7 +25,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Definición (lám. 7): proteinuria ≥3.5 g/24 h en adultos (o ≥40 mg/m²/hora en niños); albúmina <3.0 g/dL; edema generalizado (anasarca); colesterol total elevado, sobre todo LDL; lipiduria opcional (cuerpos grasos ovales o cilindros grasos).",
+   "explicacion": "Definición: proteinuria ≥3.5 g/24 h en adultos (o ≥40 mg/m²/hora en niños); albúmina <3.0 g/dL; edema generalizado (anasarca); colesterol total elevado, sobre todo LDL; lipiduria opcional (cuerpos grasos ovales o cilindros grasos).",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 7",
    "contexto": "Síndrome nefrótico = el glomérulo pierde proteínas en grandes cantidades por daño de la barrera de filtración (podocitos, membrana basal, endotelio). Los valores salen de los criterios de definición."
   },
@@ -38,16 +38,16 @@
    "opciones": [
     {
      "t": "Menor de 3.0 g/dL",
-     "por": "Es el valor de la lámina de definición y de las conclusiones.",
-     "full": "Albúmina sérica menor de 3.0 g/dL"
+     "full": "Albúmina sérica menor de 3.0 g/dL",
+     "por": "La hipoalbuminemia del síndrome nefrótico se define como albúmina menor de 3.0 g/dL."
     },
     {
      "t": "Menor de 3.5 g/dL",
-     "por": "Es el límite inferior normal de albúmina, no el criterio de la lámina."
+     "por": "Es el límite inferior normal de albúmina, no el criterio."
     },
     {
      "t": "Menor de 2.5 g/dL",
-     "por": "Es el valor de la imagen comparativa de la clase de nefrítico (lám. 9); la definición de nefrótico usa 3.0."
+     "por": "La definición de nefrótico usa 3.0."
     },
     {
      "t": "Menor de 4.0 g/dL",
@@ -55,9 +55,9 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Para tromboprofilaxis, la lámina de tratamiento habla de albúmina menor de 2 a 2.5 g/dL con factores de riesgo. Son dos usos distintos del valor.",
+   "explicacion": "Para tromboprofilaxis se habla de albúmina menor de 2 a 2.5 g/dL con factores de riesgo. Son dos usos distintos del valor.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 7 y 20",
-   "nota": "La imagen comparativa de la clase de nefrítico usa <2.5 g/dL. Para el examen, usa <3.0 g/dL para definir el síndrome."
+   "nota": "Algunas imágenes usan <2.5 g/dL. Para el examen, usa <3.0 g/dL para definir el síndrome."
   },
   {
    "id": "n-sn-edema",
@@ -103,7 +103,7 @@
     },
     {
      "t": "El intestino absorbe más grasa",
-     "por": "La lámina no lo propone como causa."
+     "por": "La hiperlipidemia nefrótica se debe a mayor síntesis hepática, no a mayor absorción intestinal."
     },
     {
      "t": "Se pierde colesterol por la orina y el cuerpo lo compensa",
@@ -140,7 +140,7 @@
     },
     {
      "t": "Trombosis de la arteria carótida por el colesterol",
-     "por": "El colesterol alto ayuda a ateroesclerosis, pero la lámina destaca la trombosis venosa, sobre todo renal."
+     "por": "El colesterol alto favorece la ateroesclerosis, pero lo característico es la trombosis venosa, sobre todo renal."
     }
    ],
    "correcta": 0,
@@ -174,7 +174,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Vacunas recomendadas en la lámina de tratamiento: neumococo, influenza y hepatitis B.",
+   "explicacion": "Vacunas recomendadas: neumococo, influenza y hepatitis B.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 18, 19 y 20"
   },
   {
@@ -204,8 +204,7 @@
    ],
    "correcta": 0,
    "explicacion": "Selectiva: típica de cambios mínimos (daño más leve). No selectiva: daño estructural mayor.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 15",
-   "nota": "La lámina define los dos tipos sin decir qué enfermedad corresponde a cada uno. Que la selectiva sea típica de cambios mínimos es conocimiento general (complemento)."
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 15"
   },
   {
    "id": "n-sn-ped",
@@ -234,7 +233,7 @@
    "correcta": 0,
    "explicacion": "Niños: 2 a 7 casos por 100 000 al año. Adultos: mesangiocapilar 30 a 40 %, GEFS 15 a 25 %, cambios mínimos cerca de 20 %. En adultos de Lima (biopsias), 67 % es GEFS.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 12 y 13",
-   "nota": "Los porcentajes de adultos en la tabla de la lámina 12 no coinciden con lo que enseñan otros textos (la membranosa suele ser primera en adultos). Para el examen usa la tabla del PPT."
+   "nota": "Los porcentajes de adultos de esta tabla no coinciden con lo que enseñan otros textos (la membranosa suele ser primera en adultos). Para el examen usa esta tabla."
   },
   {
    "id": "n-sn-edad",
@@ -263,7 +262,7 @@
    "correcta": 0,
    "explicacion": "Orden aproximado: nefrosis congénita, cambios mínimos, GEFS, diabetes tipo 1, nefropatía membranosa (50 a 60 años), diabetes tipo 2, amiloidosis, paraneoplásico.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 11",
-   "nota": "El esquema de la lámina 11 es un gráfico en inglés sin cifras exactas; las edades son aproximadas."
+   "nota": "las edades son aproximadas."
   },
   {
    "id": "n-sn-neo",
@@ -319,9 +318,9 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Plan de la clase: confirmar con orina de 24 horas o cociente proteína/creatinina, perfil lipídico y función renal, y tratar con prednisona 2 mg/kg/día.",
+   "explicacion": "Plan: confirmar con orina de 24 horas o cociente proteína/creatinina, perfil lipídico y función renal, y tratar con prednisona 2 mg/kg/día.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 3 y 24",
-   "nota": "La lámina plantea el caso y deja la respuesta abierta. El diagnóstico es la interpretación esperada."
+   "nota": "El diagnóstico es la interpretación esperada."
   },
   {
    "id": "n-sn-tx",
@@ -472,7 +471,7 @@
    "explicacion": "Nefrítico: hematuria con cilindros, hipoalbuminemia leve o ausente, edema leve a moderado, hipertensión frecuente, oliguria, sin lipiduria, sin dislipidemia, función renal frecuentemente disminuida. Nefrótico: lo contrario en casi todo.",
    "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 8",
    "contexto": "Síndrome nefrítico = inflamación aguda del glomérulo. Deja pasar sangre (hematuria) y poca proteína, y se acompaña de hipertensión y menos orina.",
-   "nota": "El síndrome nefrótico puede mezclarse con hallazgos nefríticos (lám. 8 del PPT de nefrótico)."
+   "nota": "El síndrome nefrótico puede mezclarse con hallazgos nefríticos."
   },
   {
    "id": "n-sn-fis",
@@ -530,8 +529,7 @@
    ],
    "correcta": 0,
    "explicacion": "Puede acompañarse de anorexia, fiebre, dolor abdominal y cefalea. En el laboratorio se esperan complemento bajo y anticuerpos antiestreptolisina elevados.",
-   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 12 y 15",
-   "nota": "Complemento bajo y antiestreptolisina elevada están en el flujograma de la lám. 15."
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 12 y 15"
   },
   {
    "id": "n-sn-caso2",
@@ -559,8 +557,7 @@
    ],
    "correcta": 0,
    "explicacion": "Tratamiento: soporte con restricción de sal y líquidos, diurético de asa para el edema y control de la presión arterial; se trata el foco infeccioso si persiste.",
-   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 12, 15 y 18",
-   "nota": "Caso armado como complemento: el PPT da los datos de cada elemento (lám. 12 y 15), no este caso."
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 12, 15 y 18"
   },
   {
    "id": "n-sn-age2",
@@ -600,7 +597,7 @@
    "opciones": [
     {
      "t": "Proteinuria mayor de 1 g/día",
-     "por": "Está en la lista de la lámina de biopsia."
+     "por": "Una proteinuria mayor de 1 g/día en un síndrome nefrítico es indicación de biopsia."
     },
     {
      "t": "Hematuria con mejoría en pocos días",
@@ -616,7 +613,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Indicaciones: deterioro rápido de la función renal; insuficiencia renal establecida; proteinuria mayor de 1 g/día; persistencia de proteinuria y alteraciones inmunológicas no compatibles. En el flujograma (lám. 15), la biopsia también se piensa con dudas diagnósticas, deterioro progresivo y sospecha de causa glomerular.",
+   "explicacion": "Indicaciones: deterioro rápido de la función renal; insuficiencia renal establecida; proteinuria mayor de 1 g/día; persistencia de proteinuria y alteraciones inmunológicas no compatibles. En el flujograma, la biopsia también se piensa con dudas diagnósticas, deterioro progresivo y sospecha de causa glomerular.",
    "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 14 y 15"
   },
   {
@@ -645,7 +642,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Vigilar balance hídrico. En el flujograma de la lám. 16 también aparecen hemodiálisis (uremia grave, hiperpotasemia grave, insuficiencia cardiaca refractaria) y corticoides (biopsia con proliferación extracapilar o insuficiencia renal grave).",
+   "explicacion": "Vigilar balance hídrico. También pueden requerirse hemodiálisis (uremia grave, hiperpotasemia grave, insuficiencia cardiaca refractaria) y corticoides (biopsia con proliferación extracapilar o insuficiencia renal grave).",
    "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 16 y 17",
    "contexto": "AINE = antiinflamatorios no esteroideos (ibuprofeno, diclofenaco...). Nefrotóxico = que daña el riñón."
   },

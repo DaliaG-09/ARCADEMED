@@ -331,7 +331,7 @@
    "opciones": [
     {
      "t": "Zoledronato (alrededor de 28 días)",
-     "por": "Es el de mayor duración de la lámina; el pamidronato dura 21 a 28 días."
+     "por": "Es el de mayor duración; el pamidronato dura 21 a 28 días."
     },
     {
      "t": "Clodronato (14 días)",
@@ -347,7 +347,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Duración aproximada de los bifosfonatos de la lámina: zoledronato unos 28 días, pamidronato 21 a 28 días, clodronato e ibandronato unos 14 días. Efectos adversos: síndrome gripal y nefrotoxicidad.",
+   "explicacion": "Duración aproximada de los bifosfonatos: zoledronato unos 28 días, pamidronato 21 a 28 días, clodronato e ibandronato unos 14 días. Efectos adversos: síndrome gripal y nefrotoxicidad.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 21",
    "nota": "La tabla da duraciones aproximadas; zoledronato 28 días y pamidronato de 21 a 28 días son muy cercanas.",
    "guia": {
@@ -427,7 +427,7 @@
     },
     {
      "t": "Insuficiencia renal con oliguria",
-     "por": "No está en la lista de causas de la lámina."
+     "por": "No está en la lista de causas."
     },
     {
      "t": "Deshidratación con hipernatremia",
@@ -471,7 +471,7 @@
    "explicacion": "Moderada a grave: 1 a 2 g en 1 a 2 horas; grave: hasta 4 a 6 g en 12 a 24 horas.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 28",
    "contexto": "Torsades de pointes = taquicardia ventricular polimórfica, relacionada con QT largo.",
-   "nota": "Una imagen del PPT (lám. 27) muestra manifestaciones por rangos de magnesio alto (hipermagnesemia); no se usó en preguntas."
+   "nota": "no se usó en preguntas."
   }
  ],
  "tarjetas": [

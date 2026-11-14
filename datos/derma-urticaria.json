@@ -79,7 +79,7 @@
     },
     {
      "t": "Alrededor del 40 %",
-     "por": "Se aleja de las cifras indicadas en la clase."
+     "por": "Se aleja de las cifras indicadas."
     }
    ],
    "correcta": 0,
@@ -132,7 +132,7 @@
     },
     {
      "t": "La aguda que se cronifica en todos",
-     "por": "Esa no es la clasificación de la clase."
+     "por": "La aguda no se cronifica en todos los casos."
     },
     {
      "t": "La urticaria purpúrica, en la mayoría",

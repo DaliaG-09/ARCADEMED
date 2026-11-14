@@ -9,7 +9,7 @@
    "opciones": [
     {
      "t": "El virus no es citopático; el sistema inmune destruye hepatocitos",
-     "por": "Es la idea central de la lámina de definición: la lesión es inmunomediada.",
+     "por": "Es la idea central: la lesión es inmunomediada.",
      "full": "El virus no es citopático: el sistema inmune destruye los hepatocitos infectados para erradicarlo"
     },
     {
@@ -166,7 +166,7 @@
     },
     {
      "t": "Vitaminas y hepatoprotectores",
-     "por": "La lámina dice que ningún suplemento ha comprobado mejoría."
+     "por": "Ningún suplemento ha demostrado mejoría."
     }
    ],
    "correcta": 0,
@@ -285,7 +285,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "El caso de la clase: síntomas de hepatitis aguda con HBsAg e IgM anti-HBc positivos. La IgM anti-HBc diferencia lo agudo de lo crónico. Convalecencia: HBsAg negativo y anti-HBs positivo.",
+   "explicacion": "El caso: síntomas de hepatitis aguda con HBsAg e IgM anti-HBc positivos. La IgM anti-HBc diferencia lo agudo de lo crónico. Convalecencia: HBsAg negativo y anti-HBs positivo.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 3 y 66",
    "contexto": "Marcadores de la hepatitis B: HBsAg (antígeno de superficie) indica infección activa; anti-HBs (anticuerpo contra ese antígeno) indica inmunidad por vacuna o por haber superado la infección; anti-HBc (anticuerpo contra el core, la cápside del virus) indica exposición, y su fracción IgM indica infección aguda; HBeAg indica replicación viral y anti-HBe menor infectividad."
   },
@@ -418,8 +418,8 @@
    "opciones": [
     {
      "t": "ADN VHB >20 000 UI/ml con transaminasas altas",
-     "por": "La lámina menciona estos tres criterios, con HBeAg positivo o negativo.",
-     "full": "ADN del VHB mayor de 20 000 UI/ml, con transaminasas elevadas o hepatitis crónica en la biopsia"
+     "full": "ADN del VHB mayor de 20 000 UI/ml, con transaminasas elevadas o hepatitis crónica en la biopsia",
+     "por": "Un ADN viral alto con transaminasas elevadas es indicación de tratar."
     },
     {
      "t": "Transaminasas normales y ADN indetectable",
@@ -437,7 +437,7 @@
    "correcta": 0,
    "explicacion": "Indicaciones: elevación de transaminasas, HBV-DNA detectable >20 000 UI/ml (116 400 copias/ml; 5,82 copias = 1 UI) con HBeAg positivo o negativo, y biopsia con hepatitis crónica. Fármacos: interferón, lamivudina, adefovir, entecavir, tenofovir.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 39 a 43",
-   "nota": "La lámina 37 dice que el nivel límite es >100 000 copias/ml, mientras la lámina 39 usa >20 000 UI/ml; son criterios de fuentes distintas.",
+   "nota": "son criterios de fuentes distintas.",
    "guia": {
     "t": "• Se trata a los adultos en fase inmunoactiva: HBeAg positivo con ALT ≥2×LSN y ADN-VHB ≥20 000 UI/ml; HBeAg negativo con ALT ≥2×LSN y ADN-VHB ≥2000 UI/ml.\n• Cirrosis descompensada con ADN-VHB detectable: tratar de inmediato, sin importar la carga viral.\n• Inmunotolerantes: se recomienda no tratar (se considera solo si >40 años con fibrosis o inflamación significativas).\n• Preferidos: peg-interferón, entecavir, tenofovir disoproxil (TDF) o tenofovir alafenamida (TAF).\n• Existe una guía nueva AASLD/ISDA 2025; los umbrales de arriba son de la guía 2018.",
     "f": "AASLD Hepatitis B Guidance 2018 (Terrault et al., Hepatology 2018;67:1560-1599)"
@@ -531,8 +531,7 @@
    ],
    "correcta": 0,
    "explicacion": "VHC: ARN de cadena simple, sin vacuna; solo 15 a 20 % tiene síntomas agudos; ~80 % cronifica; la cirrosis se desarrolla en 20 % en al menos 20 años y puede llegar a carcinoma hepatocelular. El alcohol acelera la progresión.",
-   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 46, 49 y 50",
-   "nota": "El gráfico de la lámina 50 muestra 24 % de progresión a cirrosis a los 10 años, y la lámina 49 dice 20 % en 20 años; las cifras difieren entre láminas."
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 46, 49 y 50"
   },
   {
    "id": "g-hep-hcv_trans",
@@ -610,7 +609,7 @@
     },
     {
      "t": "Inmunoglobulina hiperinmune contra el VHC",
-     "por": "La lámina señala que la prevención no es posible con gammaglobulina hiperinmune."
+     "por": "No existe inmunoglobulina hiperinmune para prevenir el VHC."
     },
     {
      "t": "Corticoides de acción prolongada en hepatitis",
@@ -618,9 +617,8 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "AAD = agentes antivirales de acción directa. La lámina 53 recuerda que no hay vacuna ni gammaglobulina hiperinmune para el VHC, y menciona el trasplante hepático en enfermedad avanzada.",
+   "explicacion": "AAD = agentes antivirales de acción directa. No hay vacuna ni gammaglobulina hiperinmune para el VHC; en enfermedad avanzada se considera el trasplante hepático.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 53 y 54",
-   "nota": "El reemplazo del interferón por los AAD es un complemento.",
    "guia": {
     "t": "• AASLD-IDSA recomienda tratar a todos los adultos con hepatitis C crónica.\n• Esquemas pangenotípicos simplificados para adultos sin tratamiento previo y sin cirrosis: glecaprevir/pibrentasvir por 8 semanas, o sofosbuvir/velpatasvir por 12 semanas.\n• Con cirrosis compensada: glecaprevir/pibrentasvir 8 semanas o sofosbuvir/velpatasvir 12 semanas.\n• Se pueden iniciar sin conocer el genotipo.",
     "f": "AASLD-IDSA HCV Guidance (hcvguidelines.org), tratamiento simplificado de adultos sin tratamiento previo"

@@ -83,7 +83,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La clase describe un segundo pico de incidencia entre los 25 y 35 años, el acné de la mujer adulta, que el PPT trata como entidad aparte.",
+   "explicacion": "Hay un segundo pico de incidencia entre los 25 y 35 años, el acné de la mujer adulta, que se trata como entidad aparte.",
    "fuente": "PPT Acné y rosácea (sem. 14), lám. 9"
   },
   {
@@ -139,7 +139,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Según la clase, los comedones son tapones foliculares cuya punta está pigmentada por melanina en el epitelio folicular.",
+   "explicacion": "Los comedones son tapones foliculares cuya punta está pigmentada por melanina en el epitelio folicular.",
    "fuente": "PPT Acné y rosácea (sem. 14), lám. 10"
   },
   {
@@ -167,7 +167,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "El esquema de la clase muestra un comedón en la luz folicular; el aumento de sebo, de lipólisis y de microflora irrita la pared folicular, la pared se rompe y aparece la inflamación.",
+   "explicacion": "Hay un comedón en la luz folicular; el aumento de sebo, de lipólisis y de microflora irrita la pared folicular, la pared se rompe y aparece la inflamación.",
    "fuente": "PPT Acné y rosácea (sem. 14), lám. 15"
   },
   {
@@ -312,7 +312,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Los tipos de la clase son: 1 comedoniano; 2 comedoniano leve o moderado; 3 papulopustuloso grave o nodular moderado; 4 nodular grave, quístico o con tendencia cicatricial.",
+   "explicacion": "Tipos: 1 comedoniano; 2 comedoniano leve o moderado; 3 papulopustuloso grave o nodular moderado; 4 nodular grave, quístico o con tendencia cicatricial.",
    "fuente": "PPT Acné y rosácea (sem. 14), lám. 11"
   },
   {
@@ -441,8 +441,8 @@
    "opciones": [
     {
      "t": "Entre 30 y 50 años, más en mujeres",
-     "por": "La clase da inicio entre los 30 y 50 años y proporción mujer:hombre de 3:1.",
-     "full": "Aparece entre los 30 y 50 años, más en mujeres (3:1)"
+     "full": "Aparece entre los 30 y 50 años, más en mujeres (3:1)",
+     "por": "Inicia entre los 30 y 50 años y predomina en mujeres (3:1)."
     },
     {
      "t": "Aparece sobre todo en la adolescencia",
@@ -498,8 +498,8 @@
    "opciones": [
     {
      "t": "Cerca de la mitad de los pacientes",
-     "por": "La clase indica que los hallazgos oculares están presentes en el 50 % de los pacientes.",
-     "full": "Cerca de la mitad de los pacientes"
+     "full": "Cerca de la mitad de los pacientes",
+     "por": "Los hallazgos oculares están presentes en cerca de la mitad de los pacientes."
     },
     {
      "t": "Menos del 5 % de los pacientes",
@@ -653,7 +653,7 @@
     },
     {
      "t": "10 mg diarios por 1 semana",
-     "por": "Es insuficiente y no figura en la clase."
+     "por": "Esa dosis es insuficiente."
     }
    ],
    "correcta": 0,

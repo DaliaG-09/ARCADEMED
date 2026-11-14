@@ -38,7 +38,7 @@
    "opciones": [
     {
      "t": "Valorar tumores cutáneos melanocíticos",
-     "por": "La clase lo menciona como herramienta para valorar tumores cutáneos melanocíticos como el melanoma y los nevos."
+     "por": "El dermatoscopio se usa sobre todo para tumores melanocíticos como el melanoma y los nevos."
     },
     {
      "t": "Identificar células acantolíticas en ampollas",
@@ -54,7 +54,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Además de los tumores melanocíticos, la clase muestra criterios dermatoscópicos para varias enfermedades inflamatorias e infecciosas, como el liquen plano o la micosis fungoide.",
+   "explicacion": "Además de los tumores melanocíticos, la dermatoscopía tiene criterios para varias enfermedades inflamatorias e infecciosas, como el liquen plano o la micosis fungoide.",
    "fuente": "PPT Métodos diagnósticos en dermatología (sem. 14), lám. 8"
   },
   {
@@ -122,8 +122,8 @@
    "opciones": [
     {
      "t": "Establecer el diagnóstico y evaluar el tratamiento",
-     "por": "La clase indica que sirve para establecer diagnóstico y evaluar el efecto de un tratamiento.",
-     "full": "Establecer el diagnóstico y evaluar la efectividad del tratamiento"
+     "full": "Establecer el diagnóstico y evaluar la efectividad del tratamiento",
+     "por": "El punch sirve para diagnosticar y para evaluar el efecto del tratamiento."
     },
     {
      "t": "Tomar muestras de músculo y fascia profundas",
@@ -220,7 +220,7 @@
     },
     {
      "t": "Alcohol de 70°",
-     "por": "No figura en la tabla de conservación de la clase."
+     "por": "No figura en la tabla de conservación."
     }
    ],
    "correcta": 0,
@@ -240,7 +240,7 @@
     },
     {
      "t": "10 nm",
-     "por": "No corresponde a ninguna fuente de la clase."
+     "por": "No corresponde a ninguna fuente."
     },
     {
      "t": "1000 nm",
@@ -264,19 +264,19 @@
    "opciones": [
     {
      "t": "Microsporum",
-     "por": "Según la clase, Microsporum presenta la fluorescencia más brillante."
+     "por": "Microsporum da la fluorescencia más brillante."
     },
     {
      "t": "Candida",
-     "por": "No es el hongo que se destaca por su fluorescencia en la clase."
+     "por": "No es el hongo que se destaca por su fluorescencia."
     },
     {
      "t": "Trichophyton rubrum",
-     "por": "La clase destaca a Microsporum, no a Trichophyton."
+     "por": "Trichophyton rubrum no es el que más fluoresce."
     },
     {
      "t": "Aspergillus",
-     "por": "No se menciona en la clase."
+     "por": "Aspergillus no se destaca por su fluorescencia."
     }
    ],
    "correcta": 0,
@@ -296,7 +296,7 @@
     },
     {
      "t": "Color azul",
-     "por": "No es el color descrito en la clase."
+     "por": "No es el color de las porfirias: es rosa-naranja."
     },
     {
      "t": "Verde brillante",
@@ -356,7 +356,7 @@
     },
     {
      "t": "50 a 70 %",
-     "por": "Excede el rango señalado en la clase."
+     "por": "Esa concentración excede el rango usado."
     },
     {
      "t": "Alcohol al 70° solamente",

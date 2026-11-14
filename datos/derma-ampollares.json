@@ -43,15 +43,15 @@
     },
     {
      "t": "Bacterianas, virales y micóticas",
-     "por": "Son las infecciosas, no la clasificación de la clase."
+     "por": "Son las infecciosas, no la clasificación."
     },
     {
      "t": "Neoplásicas, metabólicas y vasculares",
-     "por": "No es la clasificación de la clase."
+     "por": "Esa no es la clasificación etiológica de las ampollares."
     },
     {
      "t": "Alérgicas, físicas y nutricionales",
-     "por": "No es la clasificación de la clase."
+     "por": "Esa tampoco es la clasificación etiológica."
     }
    ],
    "correcta": 0,

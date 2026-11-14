@@ -276,8 +276,7 @@
    ],
    "correcta": 0,
    "explicacion": "Colangitis: dolor + fiebre + ictericia (Charcot). Con hipotensión y confusión: péntada de Reynolds.",
-   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 19",
-   "nota": "El nombre péntada de Reynolds es un complemento; la lámina solo menciona hipotensión y alteración mental."
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 19"
   },
   {
    "id": "g-bil-dx_col",
@@ -331,7 +330,7 @@
     },
     {
      "t": "Más de 4 mm incluso con colecistectomía",
-     "por": "No es el punto de corte de la lámina."
+     "por": "Ese no es el punto de corte: es más de 6 mm."
     },
     {
      "t": "Solo si supera los 20 mm",
@@ -404,7 +403,6 @@
    "correcta": 0,
    "explicacion": "Drenaje percutáneo: efectivo en 90 a 100 %, con fluoroscopia y ecografía; recomendable si hay alteraciones anatómicas.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 24 a 27 y 36",
-   "nota": "El drenaje por CPRE como estándar es un complemento; la lámina 27 detalla el drenaje percutáneo.",
    "guia": {
     "t": "• Al diagnosticar colangitis (cualquier grado): antibióticos, hidratación, corrección de electrolitos y analgesia.\n• Grado I (leve): suele bastar el tratamiento inicial; drenaje si no responde en 24 h.\n• Grado II (moderada): drenaje biliar temprano (endoscópico o percutáneo), dentro de ~48 h; tomar hemocultivos y cultivo de bilis.\n• Grado III (grave): soporte respiratorio y circulatorio y drenaje urgente en cuanto el paciente se estabiliza.\n• Tras un drenaje exitoso, antibióticos por 4 a 7 días.",
     "f": "Tokyo Guidelines 2018 (TG18), manejo inicial y flujograma de colangitis aguda (Miura et al., J Hepatobiliary Pancreat Sci 2018;25:31-40)"

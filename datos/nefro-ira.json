@@ -134,11 +134,11 @@
     },
     {
      "t": "Loss: más de 1 semana; ESKD: más de 4 semanas",
-     "por": "Los tiempos son mayores en la lámina."
+     "por": "Los tiempos son más largos: Loss es más de 4 semanas."
     },
     {
      "t": "Loss: más de 3 meses; ESKD: más de 6 meses",
-     "por": "No coincide con la lámina."
+     "por": "Son tiempos demasiado largos para Loss y ESKD."
     },
     {
      "t": "Loss: más de 48 horas; ESKD: más de 7 días",
@@ -242,7 +242,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "En la lámina, el criterio de AKI-III incluye creatinina más de 3 veces la basal o mayor de 4 mg/dL y diuresis menor de 0.3 mL/kg por más de 24 horas, o anuria mayor de 12 horas.",
+   "explicacion": "El criterio de AKI-III incluye creatinina más de 3 veces la basal o mayor de 4 mg/dL y diuresis menor de 0.3 mL/kg por más de 24 horas, o anuria mayor de 12 horas.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 22 a 24",
    "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina.",
    "guia": {
@@ -271,7 +271,7 @@
     },
     {
      "t": "90 %",
-     "por": "Es exagerado: la lámina da 60 a 70 % para la prerrenal; el resto se reparte entre la renal y la postrenal."
+     "por": "El resto se reparte entre la renal y la postrenal."
     }
    ],
    "correcta": 0,
@@ -362,8 +362,7 @@
    ],
    "correcta": 0,
    "explicacion": "Los cilindros granulosos en la orina son un signo típico de necrosis tubular.",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 16",
-   "nota": "Que los cilindros granulosos son típicos de necrosis tubular es conocimiento general (complemento); la lámina solo muestra el esquema."
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 16"
   },
   {
    "id": "n-ira-renal",
@@ -390,7 +389,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "El esquema de la lámina 18 divide la IRA renal en vascular, glomerular, tubular e intersticial.",
+   "explicacion": "La IRA renal se divide en vascular, glomerular, tubular e intersticial.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 14 y 18"
   },
   {
@@ -421,7 +420,7 @@
    "correcta": 0,
    "explicacion": "Todas bajan la perfusión renal. Aquí no hay daño del parénquima al inicio, por eso es potencialmente reversible si se corrige a tiempo.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 18",
-   "nota": "La lámina 18 está en inglés; la lista de causas la leí del esquema."
+   "nota": "la lista de causas la leí del esquema."
   },
   {
    "id": "n-ira-post",
@@ -509,7 +508,7 @@
    "explicacion": "El estadio se calcula con la creatinina y la diuresis, y se toma el peor de los dos criterios.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 21",
    "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina.",
-   "nota": "La lámina 21 pregunta el estadio sin dar la respuesta; AKI-III sale de los criterios de la lámina 10.",
+   "nota": "AKI-III sale de los criterios.",
    "guia": {
     "t": "• KDIGO 2012 define IRA (AKI) como: aumento de creatinina ≥0.3 mg/dL en 48 h, o ≥1.5 veces el basal en 7 días, o diuresis <0.5 mL/kg/h por 6 h.\n• Estadio 1: 1.5–1.9 veces o +0.3 mg/dL; estadio 2: 2.0–2.9 veces.\n• Estadio 3: ≥3 veces, o creatinina ≥4.0 mg/dL, o inicio de diálisis; diuresis <0.3 mL/kg/h por ≥24 h o anuria ≥12 h.\n• Se toma el estadio más alto entre creatinina y diuresis.\n• Historia: RIFLE → AKIN (ventana de 48 h) → KDIGO.\n• KDIGO sugiere no usar diuréticos para acelerar la recuperación renal y evaluar al paciente a los 3 meses.",
     "f": "KDIGO 2012 – Lesión renal aguda (Kidney Int Suppl 2012;2:1-138)"
@@ -544,7 +543,7 @@
    "explicacion": "K⁺ 5.9 (hiperpotasemia) y HCO₃⁻ 15 (acidosis metabólica) son las alteraciones hidroelectrolíticas y ácido-base de la definición.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 22 a 24",
    "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina.",
-   "nota": "La lámina da el diagnóstico como injuria renal aguda AKIN 3. Que sea necrosis tubular aguda es la interpretación a partir de los datos."
+   "nota": "Que sea necrosis tubular aguda es la interpretación a partir de los datos."
   },
   {
    "id": "n-ira-oligo",

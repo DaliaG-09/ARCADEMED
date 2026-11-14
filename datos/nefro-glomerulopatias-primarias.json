@@ -69,7 +69,7 @@
    "opciones": [
     {
      "t": "AINE, Hodgkin, alergias y vacunas",
-     "por": "Son las causas secundarias de la lámina. Además suele haber antecedente de atopia o alergias.",
+     "por": "Son las causas secundarias. Además suele haber antecedente de atopia o alergias.",
      "full": "AINE, linfoma de Hodgkin, alergias, infecciones virales y vacunas"
     },
     {
@@ -86,7 +86,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Hallazgos de la lámina 13: edema facial y periférico, cefalea, disnea; hematuria en menos de 15 %; albúmina baja; IgG disminuida; gotas lipídicas en las células tubulares.",
+   "explicacion": "Hallazgos: edema facial y periférico, cefalea, disnea; hematuria en menos de 15 %; albúmina baja; IgG disminuida; gotas lipídicas en las células tubulares.",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 13 y 14",
    "contexto": "AINE = antiinflamatorios no esteroideos. Atopia = tendencia a alergias (asma, rinitis, eccema).",
    "nota": "* El PPT escribe la albúmina como «<2 mg/dL»; la unidad correcta es g/dL."
@@ -120,7 +120,7 @@
    "explicacion": "Prednisona 1 mg/kg/día (máximo 80 mg) por 4 a 16 semanas. Si no hay respuesta en 4 a 6 semanas, se hace biopsia renal. El pronóstico es muy bueno en niños: recaen con frecuencia pero no progresan a ERC.",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 13 y 14",
    "contexto": "IECA = inhibidor de la enzima convertidora de angiotensina. ERC = enfermedad renal crónica.",
-   "nota": "La clase de síndrome nefrótico (lám. 21) da 2 mg/kg/día por 4 a 6 semanas en niños; esta lámina da 1 mg/kg/día (máximo 80 mg) por 4 a 16 semanas. Usa el valor de la clase que te toque."
+   "nota": "Otra fuente da 2 mg/kg/día por 4 a 6 semanas en niños; aquí se usa 1 mg/kg/día (máximo 80 mg) por 4 a 16 semanas. Usa el valor que te indique el enunciado."
   },
   {
    "id": "n-gp1-mb1",
@@ -131,7 +131,7 @@
    "opciones": [
     {
      "t": "Glomerulonefritis membranosa",
-     "por": "La lámina la señala como la causa más común en adultos: inmunocomplejos que se depositan en el espacio subepitelial."
+     "por": "Es la causa más común en adultos: inmunocomplejos que se depositan en el espacio subepitelial."
     },
     {
      "t": "Enfermedad de cambios mínimos",
@@ -150,7 +150,7 @@
    "explicacion": "Membranosa: síndrome nefrótico en 80 %, proteinuria de 5 a 15 g/día, trombosis en 40 %, hematuria microscópica en 30 a 50 %, complemento normal. Tratamiento: corticoides, agentes alquilantes, ciclosporina, IECA.",
    "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 15 y 16",
    "contexto": "GNRP = glomerulonefritis rápidamente progresiva.",
-   "nota": "La clase de síndrome nefrótico (lám. 12) cita GEFS y mesangiocapilar como más frecuentes en adultos en algunas series; esta clase pone a la membranosa como la más común."
+   "nota": "Algunas series citan GEFS y mesangiocapilar como más frecuentes en adultos; aquí se considera a la membranosa la más común."
   },
   {
    "id": "n-gp1-mb2",
@@ -283,11 +283,11 @@
    "opciones": [
     {
      "t": "La vía alternativa o de la lectina",
-     "por": "La lámina lo recalca: NO es la vía clásica. Por eso el C3 y el C4 suelen ser normales."
+     "por": "Por eso el C3 y el C4 suelen ser normales."
     },
     {
      "t": "La vía clásica, desde C1q y C4",
-     "por": "La lámina dice expresamente que no."
+     "por": "En la nefropatía por IgA no se activa la vía clásica."
     },
     {
      "t": "Solo la vía final común (C5b-9)",
@@ -526,7 +526,7 @@
     },
     {
      "t": "Recaída: proteinuria mayor de 1 g/día",
-     "por": "No es el criterio de esta lámina."
+     "por": "Esa cifra es de adultos en g/día, no el criterio pediátrico en mg/m²/h."
     },
     {
      "t": "Recaída: aparición de hematuria macroscópica",

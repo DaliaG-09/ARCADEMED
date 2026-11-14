@@ -14,7 +14,7 @@
     },
     {
      "t": "Solo el pulmón y la pleura",
-     "por": "La TBC pulmonar es la forma más frecuente, pero la clase habla del abdomen."
+     "por": "La TBC pulmonar es la más frecuente, pero aquí se pregunta por el abdomen."
     },
     {
      "t": "Solo el riñón y la vejiga",
@@ -72,7 +72,7 @@
     },
     {
      "t": "Contacto sexual",
-     "por": "No es el mecanismo descrito en la clase."
+     "por": "No es el mecanismo principal: la ruta es la deglución de esputo."
     },
     {
      "t": "Transfusión de sangre",
@@ -86,7 +86,7 @@
    "correcta": 0,
    "explicacion": "Otros mecanismos: vía hematógena (TBC miliar o bacteriemia en la primera fase de la TBC pulmonar) y extensión directa a órganos adyacentes (genitales internos femeninos en la TBC peritoneal).",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 9",
-   "nota": "La lámina dice 'lesión cavitaria con BK en esputo positivo en más del 50 % hace TBC abdominal'; la redacción es ambigua y se estudia solo como dato de apoyo."
+   "nota": "la redacción es ambigua y se estudia solo como dato de apoyo."
   },
   {
    "id": "g-tbc-ileo",
@@ -106,7 +106,7 @@
     },
     {
      "t": "Porque es la zona con más bacterias normales",
-     "por": "La clase no explica la TBC por la flora intestinal."
+     "por": "La TBC no se explica por la flora intestinal normal."
     },
     {
      "t": "Porque el bacilo solo vive en el colon izquierdo",
@@ -259,8 +259,7 @@
    ],
    "correcta": 0,
    "explicacion": "Peritonitis tuberculosa: ascitis libre o tabicada en casi 100 % (ecografía y TAC), de alta densidad. Diferencial: carcinomatosis, con mayor engrosamiento peritoneal.",
-   "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 18 a 21",
-   "nota": "Los signos de los distractores son complementos; la lámina solo describe el signo de Fleischner."
+   "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 18 a 21"
   },
   {
    "id": "g-tbc-dx",
@@ -319,7 +318,7 @@
    "correcta": 0,
    "explicacion": "Cirugía: obstrucción intestinal, perforación, fístulas y hemorragia masiva. Sin tratamiento la mortalidad es de 6 a 20 %.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 22 y 23",
-   "nota": "Para tu práctica, no para el examen: la mayoría de guías usa 6 meses (2 meses de HRZE y 4 de HR); esta clase indica 9 meses.",
+   "nota": "Para tu práctica, no para el examen: la mayoría de guías usa 6 meses (2 meses de HRZE y 4 de HR);",
    "guia": {
     "t": "• La OMS recomienda el esquema de 6 meses 2HRZE/4HR también para la TB extrapulmonar, salvo SNC, hueso y articulación (donde se sugieren tratamientos más largos).\n• Ojo: tu PPT indica 9 meses para TB abdominal; para el examen manda la PPT.",
     "f": "OMS: Consolidated guidelines on tuberculosis, Módulo 4 – tratamiento de la TB sensible a fármacos (2022)"

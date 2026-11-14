@@ -9,7 +9,7 @@
    "opciones": [
     {
      "t": "Aguda menor de 14 días, subaguda de 14 a 30 días y crónica de más de 30 días",
-     "por": "Así la define la lámina 8, junto con heces de 200 a 300 g (o más) en 24 horas o aumento del número de deposiciones y heces líquidas."
+     "por": "Esa es la clasificación de la diarrea por su duración."
     },
     {
      "t": "Aguda menor de 3 días y crónica mayor de 7 días",
@@ -26,8 +26,7 @@
    ],
    "correcta": 0,
    "explicacion": "Diarrea: aumento del número de deposiciones por día o heces líquidas. Se considera crónica cuando supera los 30 días.",
-   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 8",
-   "nota": "La lámina 19 define la diarrea crónica como 'mayor de 4 semanas' (28 días), casi equivalente a más de 30 días."
+   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 8"
   },
   {
    "id": "g-dia-gen",
@@ -131,7 +130,7 @@
     },
     {
      "t": "En toda diarrea aguda, sin excepción",
-     "por": "La lámina dice 'no de rutina'."
+     "por": "No se piden exámenes de rutina en toda diarrea aguda."
     },
     {
      "t": "Solo si el paciente tiene más de 80 años",
@@ -208,7 +207,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Tabla de la lámina 15: Campylobacter, azitromicina (alternativa ciprofloxacino); Giardia, tinidazol o nitazoxanida; Shigella, azitromicina, ciprofloxacino o ceftriaxona (TMP/SMX o ampicilina si es sensible); Yersinia, TMP/SMX (trimetoprim-sulfametoxazol); Vibrio cholerae, doxiciclina.",
+   "explicacion": "Tabla: Campylobacter, azitromicina (alternativa ciprofloxacino); Giardia, tinidazol o nitazoxanida; Shigella, azitromicina, ciprofloxacino o ceftriaxona (TMP/SMX o ampicilina si es sensible); Yersinia, TMP/SMX (trimetoprim-sulfametoxazol); Vibrio cholerae, doxiciclina.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 15",
    "guia": {
     "t": "• Primer episodio: fidaxomicina 200 mg cada 12 h por 10 días (preferida) o vancomicina oral 125 mg cada 6 h por 10 días (alternativa aceptable).\n• Primera recurrencia: fidaxomicina (esquema estándar o pulsado); se puede asociar bezlotoxumab si la recurrencia ocurre en 6 meses.\n• Fulminante: vancomicina oral más metronidazol IV.\n• Una de las razones de la preferencia es que la fidaxomicina reduce las recurrencias.",
@@ -306,7 +305,7 @@
    "explicacion": "Brecha osmótica = osmolaridad fecal menos 2 × (sodio + potasio fecales). Carbohidratos: test del aliento y prueba de evitar el alimento.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 22 y 23",
    "contexto": "Brecha osmótica fecal: diferencia entre la osmolaridad de las heces y dos veces la suma de sodio y potasio fecales. Ayuda a distinguir una diarrea osmótica (brecha mayor de 100) de una secretora (brecha menor de 50).",
-   "nota": "La lámina 23 tiene el título 'Reflujo gastroesofágico', copiado por error de otra clase; el contenido es el mismo cuadro de diarrea crónica."
+   "nota": "el contenido es el mismo cuadro de diarrea crónica."
   },
   {
    "id": "g-dia-dx_cron",
@@ -346,7 +345,7 @@
    "opciones": [
     {
      "t": "Ampliar anamnesis y evaluar hidratación",
-     "por": "La clase insiste en empezar por la deshidratación y la hemodinamia. El tratamiento es de soporte, con hidratación.",
+     "por": "El tratamiento es de soporte, con hidratación.",
      "full": "Ampliar la anamnesis (fiebre, sangre o moco, viajes, otras personas con síntomas), evaluar hidratación y hemodinamia y descartar un abdomen agudo"
     },
     {
@@ -363,9 +362,8 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Caso de la lámina 26: la lámina solo plantea preguntas abiertas (anamnesis, examen físico y plan de trabajo).",
+   "explicacion": "Se plantea con preguntas abiertas: anamnesis, examen físico y plan de trabajo.",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 26 y 29",
-   "nota": "Que el cuadro de inicio rápido tras arroz sugiere una toxina preformada (Bacillus cereus) es un complemento; la lámina no lo menciona.",
    "guia": {
     "t": "• La base del tratamiento es la rehidratación oral con agua y sal.\n• No se recomiendan antibióticos empíricos en diarrea aguda de rutina ni en diarrea del viajero leve.\n• Se estudian las heces si hay disentería, enfermedad moderada a grave, síntomas >7 días, alto riesgo de contagio o brote.\n• En diarrea del viajero discapacitante con fiebre: azitromicina; la loperamida se añade al antibiótico para acortar la diarrea.\n• Probióticos no recomendados para el tratamiento de la diarrea aguda; no se pide sensibilidad antibiótica de rutina.",
     "f": "ACG Clinical Guideline: Diagnosis, Treatment and Prevention of Acute Diarrheal Infections in Adults (Riddle et al., Am J Gastroenterol 2016;111:602-622)"

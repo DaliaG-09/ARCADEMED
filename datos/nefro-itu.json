@@ -25,7 +25,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Según la clase, la ITU es la presencia y multiplicación anormal de microorganismos (casi siempre bacterias) en cualquier parte del sistema urinario: uretra (uretritis), vejiga (cistitis) y uréteres con riñones (pielonefritis). Va desde una pielonefritis hasta una bacteriuria sin síntomas.",
+   "explicacion": "La ITU es la presencia y multiplicación anormal de microorganismos (casi siempre bacterias) en cualquier parte del sistema urinario: uretra (uretritis), vejiga (cistitis) y uréteres con riñones (pielonefritis). Va desde una pielonefritis hasta una bacteriuria sin síntomas.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 8",
    "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón."
   },
@@ -54,7 +54,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Un cultivo positivo sin síntomas no se trata siempre. La clase indica tratarlo solo en casos específicos (embarazo, antes de una intervención urológica, trasplante renal), como se ve en la pregunta de bacteriuria asintomática más abajo.",
+   "explicacion": "Un cultivo positivo sin síntomas no se trata siempre. Solo se trata en casos específicos (embarazo, antes de una intervención urológica, trasplante renal), como se ve en la pregunta de bacteriuria asintomática más abajo.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 9 y 23",
    "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón.",
    "guia": {
@@ -88,7 +88,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Definiciones de la lámina: ITU recurrente = 2 o más en 6 meses o 3 o más en un año (común en mujeres). Reinfección = nueva infección tras una erradicación confirmada por urocultivo negativo. Persistencia = el mismo germen tras el tratamiento adecuado, por foco oculto o resistencia.",
+   "explicacion": "Definiciones: ITU recurrente = 2 o más en 6 meses o 3 o más en un año (común en mujeres). Reinfección = nueva infección tras una erradicación confirmada por urocultivo negativo. Persistencia = el mismo germen tras el tratamiento adecuado, por foco oculto o resistencia.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 9",
    "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón.",
    "guia": {
@@ -122,7 +122,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La clase separa la ITU no complicada (cistitis, solo vejiga) de la complicada (signos sistémicos o de infección alta: fiebre, escalofríos, fatiga, dolor de flanco, dolor en ángulo costovertebral, dolor pélvico o perineal).",
+   "explicacion": "La ITU no complicada (cistitis, solo vejiga) se distingue de la complicada (signos sistémicos o de infección alta: fiebre, escalofríos, fatiga, dolor de flanco, dolor en ángulo costovertebral, dolor pélvico o perineal).",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 10"
   },
   {
@@ -179,7 +179,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "En Perú la prevalencia varía de unos 7 % en embarazadas a unos 21 % en servicios hospitalarios. Por eso la clase insiste en prescribir según antibiograma.",
+   "explicacion": "En Perú la prevalencia varía de unos 7 % en embarazadas a unos 21 % en servicios hospitalarios. Por eso se debe prescribir según antibiograma.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 11 y 14",
    "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón. Antibiograma = informe del laboratorio que dice a qué antibióticos es sensible el germen."
   },
@@ -192,15 +192,15 @@
    "opciones": [
     {
      "t": "Tres: ascendente, hematógena y linfática",
-     "por": "La lámina de fisiopatología muestra estas tres vías."
+     "por": "Las tres vías son ascendente, hematógena y linfática."
     },
     {
      "t": "Una sola: la ascendente desde la uretra",
-     "por": "La ascendente es la más frecuente en la práctica, pero la clase enumera tres vías."
+     "por": "La ascendente es la más frecuente, pero existen tres vías."
     },
     {
      "t": "Dos: ascendente y hematógena",
-     "por": "Falta la vía linfática, que también aparece en la lámina."
+     "por": "Falta la vía linfática, que también aparece."
     },
     {
      "t": "Cuatro, incluida la inhalatoria",
@@ -209,8 +209,7 @@
    ],
    "correcta": 0,
    "explicacion": "Vía ascendente: el germen sube por la uretra hasta vejiga y riñón (típica de E. coli). Hematógena: llega por la sangre. Linfática: por los vasos linfáticos.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 12",
-   "nota": "La lámina muestra las tres vías en un esquema. Que la ascendente sea la más frecuente es conocimiento general y no viene escrito en la lámina."
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 12"
   },
   {
    "id": "n-itu-cli1",
@@ -233,7 +232,7 @@
     },
     {
      "t": "Uretritis gonocócica",
-     "por": "Daría secreción uretral; la clase no la desarrolla y el cuadro descrito es el clásico de cistitis."
+     "por": "La uretritis daría secreción uretral; este cuadro es el clásico de cistitis."
     }
    ],
    "correcta": 0,
@@ -249,7 +248,7 @@
    "opciones": [
     {
      "t": "Puño-percusión lumbar positiva",
-     "por": "La lámina de examen físico incluye puño-percusión. Si duele en la fosa lumbar, orienta a compromiso del riñón.",
+     "por": "Si duele en la fosa lumbar, orienta a compromiso del riñón.",
      "full": "Puño-percusión lumbar positiva (dolor al golpear suavemente el ángulo costovertebral)"
     },
     {
@@ -262,7 +261,7 @@
     },
     {
      "t": "Auscultación de soplos en el tórax",
-     "por": "La lámina menciona auscultar soplos (por ejemplo vasculares), pero no sirve para distinguir pielonefritis."
+     "por": "Auscultar soplos no sirve para distinguir pielonefritis."
     }
    ],
    "correcta": 0,
@@ -307,7 +306,7 @@
    "opciones": [
     {
      "t": "Fosfomicina 3 g por vía oral, dosis única",
-     "por": "Es una de las tres opciones de la lámina para cistitis: fosfomicina 3 g en una dosis, nitrofurantoína 100 mg cada 12 horas por 5 días, o trimetoprima-sulfametoxazol cada 8 horas si la resistencia local es menor de 20 %."
+     "por": "Es una de las tres opciones para cistitis: fosfomicina 3 g en una dosis, nitrofurantoína 100 mg cada 12 horas por 5 días, o trimetoprima-sulfametoxazol cada 8 horas si la resistencia local es menor de 20 %."
     },
     {
      "t": "Ceftriaxona 1 g IV cada 24 horas",
@@ -323,7 +322,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Esquema de cistitis (lámina 20): fosfomicina 3 g VO en 1 dosis; nitrofurantoína 100 mg VO cada 12 h por 5 días; trimetoprima-sulfametoxazol (Trim-Sulf) cada 8 h solo si la resistencia es menor de 20 %.",
+   "explicacion": "Esquema de cistitis: fosfomicina 3 g VO en 1 dosis; nitrofurantoína 100 mg VO cada 12 h por 5 días; trimetoprima-sulfametoxazol (Trim-Sulf) cada 8 h solo si la resistencia es menor de 20 %.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 20",
    "contexto": "Trimetoprima-sulfametoxazol es un antibiótico oral muy usado en ITU. Solo se recomienda si menos de 20 de cada 100 gérmenes locales son resistentes.",
    "guia": {
@@ -353,7 +352,7 @@
     },
     {
      "t": "Fosfomicina 3 g oral",
-     "por": "Es opción de cistitis; no se usa como esquema de pielonefritis en la lámina."
+     "por": "Es opción de cistitis; no se usa como esquema de pielonefritis."
     }
    ],
    "correcta": 0,
@@ -375,7 +374,7 @@
     },
     {
      "t": "Tomar jugo de arándano (cranberry) como tratamiento",
-     "por": "La lámina marca 'No: cranberry'. No se recomienda como medida."
+     "por": "El arándano no se recomienda como tratamiento."
     },
     {
      "t": "Repetir el mismo antibiótico de 14 días en cada episodio sin estudiar",
@@ -411,11 +410,11 @@
     },
     {
      "t": "Paciente con diabetes mellitus",
-     "por": "La lámina lo pone en 'no tratar' pese a ser diabético."
+     "por": "Un diabético con bacteriuria asintomática tampoco se trata."
     },
     {
      "t": "Paciente con sonda vesical (cateterizado)",
-     "por": "Tampoco se trata, según la lámina. Se trata solo si hay síntomas."
+     "por": "Tampoco se trata. Se trata solo si hay síntomas."
     }
    ],
    "correcta": 0,
@@ -453,7 +452,7 @@
    "correcta": 0,
    "explicacion": "Plan: urocultivo antes del antibiótico, evaluar gravedad y riesgo de resistencia, y elegir esquema (sin riesgo de BLEE, ceftriaxona; con riesgo, un carbapenémico). Considera imágenes si no mejora o hay sospecha de obstrucción.",
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 26",
-   "nota": "La lámina plantea las preguntas y no da la respuesta; el diagnóstico es una interpretación a partir de los datos del caso."
+   "nota": "el diagnóstico es una interpretación a partir de los datos del caso."
   }
  ],
  "tarjetas": [

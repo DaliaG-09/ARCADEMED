@@ -9,7 +9,7 @@
    "opciones": [
     {
      "t": "Fibrosis difusa con nódulos y arquitectura hepática alterada",
-     "por": "Es la definición de la lámina: la fibrosis es por acúmulo de colágeno en la matriz extracelular.",
+     "por": "Es la definición: la fibrosis es por acúmulo de colágeno en la matriz extracelular.",
      "full": "Enfermedad crónica y difusa con fibrosis, nódulos de regeneración y trastorno de la arquitectura hepática y de la circulación intrahepática"
     },
     {
@@ -78,7 +78,7 @@
     },
     {
      "t": "Estrías violáceas y acantosis nigricans",
-     "por": "Son signos de síndrome de Cushing y de resistencia a la insulina; no están entre los estigmas de hepatopatía crónica que muestra la lámina."
+     "por": "Son signos de síndrome de Cushing y de resistencia a la insulina."
     }
    ],
    "correcta": 0,
@@ -94,8 +94,8 @@
    "opciones": [
     {
      "t": "Matidez en flancos y signo de la oleada",
-     "por": "Son los signos descritos en la lámina del examen físico.",
-     "full": "Matidez cambiante y en flancos, timpanismo central, signo de la oleada y 'vientre en batracio'"
+     "full": "Matidez cambiante y en flancos, timpanismo central, signo de la oleada y 'vientre en batracio'",
+     "por": "Son los signos clásicos de ascitis."
     },
     {
      "t": "Timpanismo en los flancos y matidez central",
@@ -142,7 +142,7 @@
    "correcta": 0,
    "explicacion": "Laboratorio: citopenias, coagulopatía, hipergammaglobulinemia, albúmina, bilirrubina, iones, AST/ALT, GGT/FA y alteraciones propias de la etiología. Imágenes: ecografía (contorno nodular, esplenomegalia, circulación colateral, doppler), endoscopía alta (várices), biopsia o fibroscan, TAC y RMN (estudio vascular y del hepatocarcinoma).",
    "fuente": "PPT Cirrosis hepática (sem. 13), lám. 16 y 17",
-   "nota": "Que la ecografía muestre contorno nodular y esplenomegalia viene de la lámina 17; las alteraciones del TP y las plaquetas son complemento."
+   "nota": "Que la ecografía muestre contorno nodular y esplenomegalia viene;"
   },
   {
    "id": "g-cir-child1",
@@ -172,7 +172,7 @@
    "explicacion": "Child-Pugh: A 5 a 6 puntos (supervivencia a 1 año ~100 %), B 7 a 9 (~80 %), C 10 a 15 (~45 %). Cada variable da 1 a 3 puntos; 'La cirrosis BATEA el hígado': Bilirrubina, Albúmina, Tiempo de protrombina, Encefalopatía y Ascitis.",
    "fuente": "PPT Cirrosis hepática (sem. 13), lám. 11 y 36",
    "contexto": "Puntaje de Child-Pugh: mide la gravedad de la cirrosis sumando cinco variables (bilirrubina, albúmina, tiempo de protrombina, encefalopatía y ascitis), de 1 a 3 puntos cada una. Sirve para clasificar al paciente en A, B o C y estimar su pronóstico y riesgo quirúrgico.",
-   "nota": "* El PPT usa «mg/dl» para la albúmina en una de las láminas; la unidad correcta es g/dl. Además, la lámina 11 pone la clase C como «>10» y la 36 como «10 a 15»: usa 10 a 15."
+   "nota": "* El PPT usa «mg/dl» para la albúmina; la unidad correcta es g/dl. Además pone la clase C como «>10» en un sitio y «10 a 15» en otro: usa 10 a 15."
   },
   {
    "id": "g-cir-child2",
@@ -199,10 +199,9 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Con la tabla de la lámina 36: bilirrubina 2 a 3 = 2 puntos; albúmina 2,8 a 3,5 = 2; TP 4 a 6 s = 2; encefalopatía I-II = 2; ascitis leve = 2. Suma 10 = Child C. Los puntos de corte exactos cambian entre la lámina 11 y la 36.",
+   "explicacion": "Con la tabla: bilirrubina 2 a 3 = 2 puntos; albúmina 2,8 a 3,5 = 2; TP 4 a 6 s = 2; encefalopatía I-II = 2; ascitis leve = 2. Suma 10 = Child C.",
    "fuente": "PPT Cirrosis hepática (sem. 13), lám. 36 y 11",
-   "contexto": "Puntaje de Child-Pugh: mide la gravedad de la cirrosis sumando cinco variables (bilirrubina, albúmina, tiempo de protrombina, encefalopatía y ascitis), de 1 a 3 puntos cada una. Sirve para clasificar al paciente en A, B o C y estimar su pronóstico y riesgo quirúrgico.",
-   "nota": "Con los puntos de corte de la lámina 11 (bilirrubina 1,5 a 3, albúmina 2,8 a 3) el resultado también es 10 puntos en este caso."
+   "contexto": "Puntaje de Child-Pugh: mide la gravedad de la cirrosis sumando cinco variables (bilirrubina, albúmina, tiempo de protrombina, encefalopatía y ascitis), de 1 a 3 puntos cada una. Sirve para clasificar al paciente en A, B o C y estimar su pronóstico y riesgo quirúrgico."
   },
   {
    "id": "g-cir-cons",
@@ -230,7 +229,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Esquema de la lámina 19: hepatopatía crónica → cirrosis compensada → (hemorragia varicosa, ascitis, encefalopatía, ictericia) → cirrosis descompensada → muerte o trasplante hepático. Los eventos como síndrome hepatorrenal, ascitis refractaria y PBE (peritonitis bacteriana espontánea) agravan el cuadro; el hepatocarcinoma puede aparecer en cualquier etapa.",
+   "explicacion": "Esquema: hepatopatía crónica → cirrosis compensada → (hemorragia varicosa, ascitis, encefalopatía, ictericia) → cirrosis descompensada → muerte o trasplante hepático. Los eventos como síndrome hepatorrenal, ascitis refractaria y PBE (peritonitis bacteriana espontánea) agravan el cuadro; el hepatocarcinoma puede aparecer en cualquier etapa.",
    "fuente": "PPT Cirrosis hepática (sem. 13), lám. 19 y 20",
    "guia": {
     "t": "• La ascitis suele ser la primera descompensación; su aparición reduce la sobrevida a 5 años de ~80 % a ~30 %.\n• Toda ascitis nueva, o paciente hospitalizado con ascitis, requiere paracentesis diagnóstica.\n• Manejo inicial: restricción de sodio (2 g/día) y diuréticos (espironolactona 100 a 200 mg/día, con furosemida si hace falta); evitar AINE, IECA y ARA II.\n• Tras paracentesis de gran volumen: albúmina (6 a 8 g por litro extraído).\n• Pacientes con ascitis y complicaciones deben ser evaluados para trasplante hepático.",
@@ -259,13 +258,12 @@
     },
     {
      "t": "Restringir las proteínas de forma permanente",
-     "por": "La lámina pide nutrición adecuada, no restricción rutinaria."
+     "por": "No se restringen las proteínas de forma rutinaria: se pide nutrición adecuada."
     }
    ],
    "correcta": 0,
    "explicacion": "Medidas generales: tratamiento etiológico (virus C, virus B, cirrosis biliar primaria, colangitis esclerosante primaria, autoinmune), nutrición y no alcohol, vacunación contra hepatitis, evitar AINE, sedantes y hepatotóxicos, tratar las descompensaciones (ascitis, encefalopatía, hemorragia) y trasplante hepático.",
-   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 21",
-   "nota": "La advertencia de que los AINE pueden precipitar falla renal o sangrado es un complemento."
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 21"
   },
   {
    "id": "g-cir-hp",
@@ -305,7 +303,7 @@
    "opciones": [
     {
      "t": "Por encima de 10 a 12 mmHg",
-     "por": "Es el umbral descrito en la lámina para várices gastroesofágicas y sangrado."
+     "por": "Con un HVPG por encima de 10 a 12 mmHg aparecen várices y sangrado."
     },
     {
      "t": "Por encima de 3 mmHg",
@@ -338,16 +336,16 @@
    "opciones": [
     {
      "t": "Várices gástricas o sangrado activo",
-     "por": "Son los factores que menciona la lámina.",
-     "full": "Sangrado de várices gástricas, sangrado activo, albúmina baja, insuficiencia renal o HVPG mayor de 20"
+     "full": "Sangrado de várices gástricas, sangrado activo, albúmina baja, insuficiencia renal o HVPG mayor de 20",
+     "por": "Las várices gástricas y el sangrado activo aumentan el riesgo de resangrado."
     },
     {
      "t": "Várices esofágicas pequeñas sin sangrado",
-     "por": "No es un factor de la lámina."
+     "por": "Várices pequeñas sin sangrado no aumentan ese riesgo."
     },
     {
      "t": "Albúmina mayor de 4 g/dL",
-     "por": "En cirrosis hay plaquetopenia, y no es un factor de la lámina."
+     "por": "En cirrosis hay plaquetopenia, y no es un factor."
     },
     {
      "t": "Función renal normal con HVPG <12 mmHg",
@@ -376,7 +374,7 @@
     },
     {
      "t": "Transfundir hasta una hemoglobina de 12 g/dl",
-     "por": "La lámina indica reanimación con Hb de 7 a 8 g/dl; transfundir más aumenta la presión portal."
+     "por": "Transfundir más aumenta la presión portal."
     },
     {
      "t": "Esperar sin endoscopía hasta que el sangrado se detenga solo",
@@ -390,7 +388,7 @@
    "correcta": 0,
    "explicacion": "AVB = hemorragia variceal aguda. Algoritmo: reanimación (Hb 7 a 8 g/dl), profilaxis antibiótica (ceftriaxona), fármacos vasoactivos (terlipresina, octreótido, vasopresina), endoscopía en 12 h (primera elección: ligadura con banda; segunda: escleroterapia). Controlado: profilaxis secundaria con betabloqueador no selectivo (propranolol, carvedilol, nadolol) ± ligadura. Refractario: balón de Sengstaken, TIPS o BRTO.",
    "fuente": "PPT Cirrosis hepática (sem. 13), lám. 26",
-   "nota": "En Perú se usa mucho el octreótido y la ligadura endoscópica; sigue la lámina para el examen.",
+   "nota": "En Perú se usa mucho el octreótido y la ligadura endoscópica;",
    "guia": {
     "t": "• Hemorragia aguda por várices: reanimación cuidadosa con transfusión restrictiva (Hb objetivo 7 a 8 g/dl).\n• Vasoactivos (terlipressina u octreótido) lo antes posible y antibiótico profiláctico (p. ej. ceftriaxona), por el riesgo de infecciones bacterianas.\n• Endoscopía en las primeras 12 h con ligadura de várices como primera opción.\n• TIPS precoz (preventivo) en pacientes de alto riesgo de resangrado; AASLD 2024 precisó su rol.",
     "f": "AASLD Practice Guidance 2024 sobre hipertensión portal y várices (Kaplan et al., Hepatology 2024;79:1180-1211) y consenso Baveno VII (de Franchis et al., J Hepatol 2022;76:959-974)"
@@ -455,7 +453,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "El caso de la clase: hematemesis + ictericia + somnolencia + ascitis. Se buscan signos de hepatopatía crónica, se hace endoscopía urgente para varices, paracentesis diagnóstica (descartar PBE), laboratorio (coagulación, albúmina) y ecografía.",
+   "explicacion": "El caso: hematemesis + ictericia + somnolencia + ascitis. Se buscan signos de hepatopatía crónica, se hace endoscopía urgente para varices, paracentesis diagnóstica (descartar PBE), laboratorio (coagulación, albúmina) y ecografía.",
    "fuente": "PPT Cirrosis hepática (sem. 13), lám. 32",
    "guia": {
     "t": "• Hemorragia aguda por várices: reanimación cuidadosa con transfusión restrictiva (Hb objetivo 7 a 8 g/dl).\n• Vasoactivos (terlipressina u octreótido) lo antes posible y antibiótico profiláctico (p. ej. ceftriaxona), por el riesgo de infecciones bacterianas.\n• Endoscopía en las primeras 12 h con ligadura de várices como primera opción.\n• TIPS precoz (preventivo) en pacientes de alto riesgo de resangrado; AASLD 2024 precisó su rol.",

@@ -98,8 +98,8 @@
    "opciones": [
     {
      "t": "Dos de tres criterios",
-     "por": "Es la regla de la lámina de diagnóstico.",
-     "full": "Dos de tres: clínica, laboratorio (amilasa o lipasa) e imágenes"
+     "full": "Dos de tres: clínica, laboratorio (amilasa o lipasa) e imágenes",
+     "por": "El diagnóstico requiere dos de tres criterios."
     },
     {
      "t": "Los tres criterios obligatorios",
@@ -195,7 +195,7 @@
     },
     {
      "t": "50 %",
-     "por": "No coincide con la lámina."
+     "por": "La mayoría son leves, mucho más que la mitad."
     },
     {
      "t": "100 %",
@@ -293,7 +293,7 @@
    "explicacion": "Ranson al ingreso: edad >55, leucocitos >16 000, glucosa >11 mmol/L, LDH >350 UI/L, TGO >250 UI/L. A las 48 horas: caída de hematocrito >10 %, aumento de urea, calcio <8 mg/dl, PaO2 <60 mmHg, déficit de bases >4 mEq/L, secuestro de líquido >6 L.",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 20",
    "contexto": "Criterios de Ranson: sistema de 11 puntos para estimar la gravedad de la pancreatitis aguda, con 5 datos al ingreso y 6 a las 48 horas. Cuantos más criterios, mayor la mortalidad.",
-   "nota": "En la lámina los símbolos están desordenados (por ejemplo 'Edad >55' y 'Glucemia >11 mmol/L'); aquí se interpretan en el orden estándar de Ranson."
+   "nota": "aquí se interpretan en el orden estándar de Ranson."
   },
   {
    "id": "g-pan-balthazar",
@@ -338,7 +338,7 @@
     },
     {
      "t": "Solución salina al 0,9 % en todos los casos",
-     "por": "La lámina indica preferir el lactato de Ringer."
+     "por": "Se prefiere lactato de Ringer sobre la solución salina."
     },
     {
      "t": "Dextrosa al 5 % en agua",
@@ -350,9 +350,8 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Hidratación: agresiva (250 a 500 ml/h o 5 a 10 ml/kg/h por 12 a 24 horas) o moderada (1,5 a 2 ml/kg/h). El estudio citado en la lámina 24 (NEJM) compara ambas: la agresiva no mejoró los resultados y se asoció a más sobrecarga de líquidos.",
+   "explicacion": "Hidratación: agresiva (250 a 500 ml/h o 5 a 10 ml/kg/h por 12 a 24 horas) o moderada (1,5 a 2 ml/kg/h). Un estudio (NEJM) comparó ambas: la agresiva no mejoró los resultados y se asoció a más sobrecarga de líquidos.",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 23 y 24",
-   "nota": "La conclusión del estudio de la lámina 24 (más sobrecarga hídrica con la hidratación agresiva) es una lectura del resumen mostrado.",
    "guia": {
     "t": "• La ACG 2024 sugiere hidratación moderadamente agresiva con lactato de Ringer sobre solución salina, con bolos adicionales si hay hipovolemia.\n• Reevaluar con frecuencia (urea, hematocrito, diuresis, estado cardiopulmonar): la hidratación importa sobre todo en las primeras 24 h.\n• La guía AGA 2018 no prefiere Ringer sobre solución salina; las sociedades difieren en este punto.",
     "f": "ACG Guidelines: Management of Acute Pancreatitis (Tenner et al., Am J Gastroenterol 2024;119:419-437)"
@@ -405,7 +404,7 @@
     },
     {
      "t": "AINE como primera línea y de rutina",
-     "por": "La lámina indica evitarlos."
+     "por": "Los AINE se evitan en la pancreatitis aguda."
     },
     {
      "t": "No dar analgesia para no enmascarar el cuadro",
@@ -413,13 +412,13 @@
     },
     {
      "t": "Antiespasmódicos orales como único analgésico",
-     "por": "La lámina propone opiáceos como primera línea."
+     "por": "Los opiáceos son la primera línea."
     }
    ],
    "correcta": 0,
    "explicacion": "Analgesia: iniciar en 24 horas, evitar AINE, opiáceos de primera línea, considerar analgesia epidural.",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 26",
-   "nota": "Algunas guías aceptan AINE si no hay insuficiencia renal; la lámina dice evitarlos."
+   "nota": "Algunas guías aceptan AINE si no hay insuficiencia renal;"
   },
   {
    "id": "g-pan-atb",

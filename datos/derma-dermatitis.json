@@ -38,8 +38,8 @@
    "opciones": [
     {
      "t": "Cerca del 30 % tiene asma",
-     "por": "La clase señala asma en 30 % de los pacientes con dermatitis atópica.",
-     "full": "Cerca del 30 % de los pacientes tiene asma"
+     "full": "Cerca del 30 % de los pacientes tiene asma",
+     "por": "Cerca del 30 % de los pacientes con dermatitis atópica tiene asma."
     },
     {
      "t": "Nunca se asocia con asma",
@@ -167,7 +167,7 @@
     },
     {
      "t": "Corticoides orales de forma continua",
-     "por": "No es la base del tratamiento; la clase indica antiinflamatorios tópicos."
+     "por": "No es la base del tratamiento."
     }
    ],
    "correcta": 0,
@@ -275,7 +275,7 @@
     },
     {
      "t": "Mujer joven de 15 años, en el tronco",
-     "por": "No es el grupo de mayor frecuencia de la clase."
+     "por": "No es el grupo de mayor frecuencia."
     },
     {
      "t": "Solo recién nacidos, en la axila",
@@ -311,7 +311,7 @@
     },
     {
      "t": "Déficit de queratina",
-     "por": "No es el mecanismo propuesto en la clase."
+     "por": "No se propone un déficit de queratina como mecanismo."
     }
    ],
    "correcta": 0,
@@ -356,12 +356,12 @@
    "opciones": [
     {
      "t": "Ketoconazol gel 2 % dos veces por semana",
-     "por": "El esquema de la clase es ketoconazol 2 % gel dos veces por semana por 4 semanas.",
-     "full": "Ketoconazol gel 2 %, dos aplicaciones por semana por 4 semanas"
+     "full": "Ketoconazol gel 2 %, dos aplicaciones por semana por 4 semanas",
+     "por": "Para formas leves se usa ketoconazol gel 2 % dos veces por semana."
     },
     {
      "t": "Ketoconazol oral 400 mg diarios por 6 meses",
-     "por": "No es el esquema de la clase para formas leves; la clase da tratamiento tópico."
+     "por": "Para formas leves se usa tratamiento tópico, no oral."
     },
     {
      "t": "Prednisona oral 1 mg/kg",
@@ -373,7 +373,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "También: ciclopiroxolamina 1 % crema, dos veces al día por 3 a 4 semanas, hidrocortisona 1 % (con efectos secundarios) y fototerapia UV. Champú: piritiona de zinc 1 %, sulfuro de selenio 0.5 a 1 %, ketoconazol 2 %, ciclopirox 1 %.",
+   "explicacion": "Champú: piritiona de zinc 1 %, sulfuro de selenio 0.5 a 1 %, ketoconazol 2 %, ciclopirox 1 %.",
    "fuente": "PPT Dermatitis (sem. 14), lám. 21"
   },
   {
@@ -398,7 +398,7 @@
     },
     {
      "t": "Una reacción a la picadura de insectos",
-     "por": "No es la definición de la clase."
+     "por": "La picadura de insectos no define la dermatitis de contacto."
     }
    ],
    "correcta": 0,
@@ -452,7 +452,7 @@
     },
     {
      "t": "30 %",
-     "por": "No es la cifra de la clase."
+     "por": "Esa cifra no corresponde a la irritativa."
     },
     {
      "t": "100 %",
@@ -558,16 +558,16 @@
    "opciones": [
     {
      "t": "Alta potencia, dos veces al día",
-     "por": "La clase indica corticoides tópicos de alta potencia dos veces al día por 2 a 4 semanas; mantenimiento 1 a 2 veces por semana.",
+     "por": "Mantenimiento 1 a 2 veces por semana.",
      "full": "Alta potencia, dos veces al día por 2 a 4 semanas"
     },
     {
      "t": "Baja potencia, una vez al mes",
-     "por": "No es el esquema de la clase."
+     "por": "El esquema usa alta potencia por 2 a 4 semanas, no baja potencia mensual."
     },
     {
      "t": "Corticoides orales por 6 meses",
-     "por": "Los corticoides orales no son la primera línea; la clase da tratamiento tópico."
+     "por": "Los corticoides orales no son la primera línea."
     },
     {
      "t": "Solo antihistamínicos orales",

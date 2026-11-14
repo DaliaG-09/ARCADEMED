@@ -3,13 +3,13 @@
   {
    "id": "n-aga-1-primario",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 1,
    "enunciado": "Hombre de 24 años, diabético tipo 1, suspendió su insulina hace 3 días. Llega con somnolencia, náuseas, vómitos, respiración rápida y profunda (Kussmaul), aliento cetónico y deshidratación.\nAGA: pH 7.18, pCO₂ 25 mmHg, HCO₃⁻ 9 mEq/L.\nElectrolitos: Na⁺ 132, K⁺ 5.5, Cl⁻ 96 mEq/L. Glucosa 480 mg/dL.\n\n¿Cuál es el trastorno ácido-base primario?",
    "opciones": [
     {
      "t": "Acidosis metabólica",
-     "por": "pH bajo (acidosis) con HCO₃⁻ bajo: el cambio primario es el bicarbonato."
+     "por": "PH bajo (acidosis) con HCO₃⁻ bajo: el cambio primario es el bicarbonato."
     },
     {
      "t": "Acidosis respiratoria",
@@ -32,7 +32,7 @@
   {
    "id": "n-aga-1-ag",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 2,
    "enunciado": "Hombre de 24 años, diabético tipo 1, suspendió su insulina hace 3 días. Llega con somnolencia, náuseas, vómitos, respiración rápida y profunda (Kussmaul), aliento cetónico y deshidratación.\nAGA: pH 7.18, pCO₂ 25 mmHg, HCO₃⁻ 9 mEq/L.\nElectrolitos: Na⁺ 132, K⁺ 5.5, Cl⁻ 96 mEq/L. Glucosa 480 mg/dL.\n\n¿Cuál es el anion gap?",
    "opciones": [
@@ -50,7 +50,7 @@
     },
     {
      "t": "32.5 mEq/L",
-     "por": "Incluiste el potasio en el sodio; la fórmula de la lámina usa solo Na⁺."
+     "por": "Incluiste el potasio en el sodio."
     }
    ],
    "correcta": 0,
@@ -61,7 +61,7 @@
   {
    "id": "n-aga-1-winter",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 2,
    "enunciado": "Hombre de 24 años, diabético tipo 1, suspendió su insulina hace 3 días. Llega con somnolencia, náuseas, vómitos, respiración rápida y profunda (Kussmaul), aliento cetónico y deshidratación.\nAGA: pH 7.18, pCO₂ 25 mmHg, HCO₃⁻ 9 mEq/L.\nElectrolitos: Na⁺ 132, K⁺ 5.5, Cl⁻ 96 mEq/L. Glucosa 480 mg/dL.\n\nSegún la fórmula de Winter, ¿cuál es el rango de pCO₂ esperada?",
    "opciones": [
@@ -90,13 +90,13 @@
   {
    "id": "n-aga-1-dx",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 3,
    "enunciado": "Hombre de 24 años, diabético tipo 1, suspendió su insulina hace 3 días. Llega con somnolencia, náuseas, vómitos, respiración rápida y profunda (Kussmaul), aliento cetónico y deshidratación.\nAGA: pH 7.18, pCO₂ 25 mmHg, HCO₃⁻ 9 mEq/L.\nElectrolitos: Na⁺ 132, K⁺ 5.5, Cl⁻ 96 mEq/L. Glucosa 480 mg/dL.\n\n¿Cuál es el diagnóstico final?",
    "opciones": [
     {
      "t": "Cetoacidosis diabética: acidosis metabólica con anion gap elevado y compensación respiratoria parcial",
-     "por": "Es el diagnóstico final de la lámina 9."
+     "por": "pH bajo, HCO₃⁻ bajo y AG elevado (27) con glucosa 480 y respiración de Kussmaul: cetoacidosis con compensación parcial."
     },
     {
      "t": "Acidosis metabólica con anion gap normal por pérdida de bicarbonato, con compensación adecuada",
@@ -112,15 +112,15 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Diabético que dejó la insulina, Kussmaul, aliento cetónico y glucosa 480: cetoacidosis diabética. pH bajo con HCO₃⁻ bajo = acidosis metabólica; AG 27 = elevado; la pCO₂ baja es la compensación respiratoria, que la lámina califica como parcial.",
+   "explicacion": "Diabético que dejó la insulina, Kussmaul, aliento cetónico y glucosa 480: cetoacidosis diabética. pH bajo con HCO₃⁻ bajo = acidosis metabólica; AG 27 = elevado; la pCO₂ baja es la compensación respiratoria, que se considera parcial.",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 9",
    "contexto": "AGA (gasometría arterial): examen de sangre arterial que mide pH, pCO₂ (presión parcial de CO₂), HCO₃⁻ (bicarbonato) y pO₂. Sirve para identificar el trastorno ácido-base primario y ver si el cuerpo lo compensa. Valores normales: pH 7.40 ± 0.05, pCO₂ 40 ± 4 mmHg, HCO₃⁻ 24 ± 2 mEq/L, pO₂ 80 a 97 mmHg, SatO₂ mayor de 98 %.\nFórmula de Winter: pCO₂ esperada = (1.5 × HCO₃⁻) + 8 ± 2. Sirve para saber si la compensación respiratoria de una acidosis metabólica es la adecuada: se compara con la pCO₂ real. pCO₂ real dentro del rango = compensación adecuada; por encima = acidosis respiratoria agregada; por debajo = alcalosis respiratoria agregada.",
-   "nota": "la pCO₂ real (25) queda por encima del rango de Winter (19.5 a 23.5). Estrictamente eso significa compensación insuficiente (acidosis respiratoria agregada), como sí lo interpreta la lámina 6 del taller de electrolitos. En el examen sigue la lámina 9: compensación parcial."
+   "nota": "La pCO₂ real (25) queda por encima del rango de Winter (19.5 a 23.5). Estrictamente eso significa compensación insuficiente (acidosis respiratoria agregada); para el examen se acepta compensación parcial."
   },
   {
    "id": "n-aga-2-agc",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 3,
    "enunciado": "Hombre de 65 años con cirrosis por alcohol, somnolencia, debilidad y menor alerta de 24 horas. PA 90/55, FC 110, FR 28, deshidratado.\nAGA: pH 7.30, pCO₂ 30 mmHg, HCO₃⁻ 15 mEq/L.\nElectrolitos: Na⁺ 138, K⁺ 4.8, Cl⁻ 110 mEq/L. Albúmina 2.0 g/dL. Lactato elevado.\n\nEl AG calculado es 13 mEq/L. ¿Cuál es el AG corregido por albúmina?",
    "opciones": [
@@ -149,7 +149,7 @@
   {
    "id": "n-aga-2-why",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 1,
    "enunciado": "Hombre de 65 años con cirrosis por alcohol, somnolencia, debilidad y menor alerta de 24 horas. PA 90/55, FC 110, FR 28, deshidratado.\nAGA: pH 7.30, pCO₂ 30 mmHg, HCO₃⁻ 15 mEq/L.\nElectrolitos: Na⁺ 138, K⁺ 4.8, Cl⁻ 110 mEq/L. Albúmina 2.0 g/dL. Lactato elevado.\n\n¿Por qué en este paciente se corrige el anion gap?",
    "opciones": [
@@ -178,7 +178,7 @@
   {
    "id": "n-aga-2-dx",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 3,
    "enunciado": "Hombre de 65 años con cirrosis por alcohol, somnolencia, debilidad y menor alerta de 24 horas. PA 90/55, FC 110, FR 28, deshidratado.\nAGA: pH 7.30, pCO₂ 30 mmHg, HCO₃⁻ 15 mEq/L.\nElectrolitos: Na⁺ 138, K⁺ 4.8, Cl⁻ 110 mEq/L. Albúmina 2.0 g/dL. Lactato elevado.\n\n¿Cuál es el diagnóstico final?",
    "opciones": [
@@ -208,7 +208,7 @@
   {
    "id": "n-aga-2-winter",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 2,
    "enunciado": "Hombre de 65 años con cirrosis por alcohol, somnolencia, debilidad y menor alerta de 24 horas. PA 90/55, FC 110, FR 28, deshidratado.\nAGA: pH 7.30, pCO₂ 30 mmHg, HCO₃⁻ 15 mEq/L.\nElectrolitos: Na⁺ 138, K⁺ 4.8, Cl⁻ 110 mEq/L. Albúmina 2.0 g/dL. Lactato elevado.\n\nAplica Winter. ¿Cuál es el rango de pCO₂ esperada y cómo es la compensación?",
    "opciones": [
@@ -237,7 +237,7 @@
   {
    "id": "n-aga-3-agc",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 3,
    "enunciado": "Mujer de 55 años con insuficiencia renal crónica, debilidad, náuseas y respiración rápida y profunda (FR 30) de 2 días, somnolienta. PA 100/60, FC 105.\nAGA: pH 7.25, pCO₂ 28 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 140, K⁺ 5.2, Cl⁻ 108 mEq/L. Albúmina 3.0 g/dL. Creatinina elevada.\n\n¿Cuál es el AG corregido por albúmina?",
    "opciones": [
@@ -266,7 +266,7 @@
   {
    "id": "n-aga-3-winter",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 2,
    "enunciado": "Mujer de 55 años con insuficiencia renal crónica, debilidad, náuseas y respiración rápida y profunda (FR 30) de 2 días, somnolienta. PA 100/60, FC 105.\nAGA: pH 7.25, pCO₂ 28 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 140, K⁺ 5.2, Cl⁻ 108 mEq/L. Albúmina 3.0 g/dL. Creatinina elevada.\n\nAplica Winter. ¿Cuál es el rango de pCO₂ esperada y cómo es la compensación?",
    "opciones": [
@@ -295,14 +295,14 @@
   {
    "id": "n-aga-3-dx",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 3,
    "enunciado": "Mujer de 55 años con insuficiencia renal crónica, debilidad, náuseas y respiración rápida y profunda (FR 30) de 2 días, somnolienta. PA 100/60, FC 105.\nAGA: pH 7.25, pCO₂ 28 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 140, K⁺ 5.2, Cl⁻ 108 mEq/L. Albúmina 3.0 g/dL. Creatinina elevada.\n\n¿Cuál es el diagnóstico final?",
    "opciones": [
     {
      "t": "Acidosis con AG elevado, compensada; probable causa urémica",
-     "por": "Es el diagnóstico de la lámina 16.",
-     "full": "Acidosis metabólica con anion gap elevado y compensación respiratoria adecuada; probable acidosis urémica por insuficiencia renal"
+     "full": "Acidosis metabólica con anion gap elevado y compensación respiratoria adecuada; probable acidosis urémica por insuficiencia renal",
+     "por": "En la insuficiencia renal crónica se retienen ácidos: AG elevado, y la respiración rápida compensa de forma adecuada."
     },
     {
      "t": "Acidosis metabólica hiperclorémica con anion gap normal",
@@ -325,13 +325,13 @@
   {
    "id": "n-aga-c-normales",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 1,
    "enunciado": "¿Cuál de estos conjuntos corresponde a los valores normales de la AGA de referencia?",
    "opciones": [
     {
      "t": "pH 7.35 a 7.45; pCO₂ 36 a 44 mmHg; HCO₃⁻ 22 a 26 mEq/L",
-     "por": "Son los rangos de la lámina 6."
+     "por": "Son los rangos normales de pH, pCO₂ y HCO₃⁻."
     },
     {
      "t": "pH 7.30 a 7.40; pCO₂ 30 a 38 mmHg; HCO₃⁻ 18 a 22 mEq/L",
@@ -354,13 +354,13 @@
   {
    "id": "n-aga-c-cuando-ag",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 1,
    "enunciado": "¿En qué situación se calcula el anion gap?",
    "opciones": [
     {
      "t": "En una acidosis metabólica (HCO₃⁻ menor de 22 mEq/L)",
-     "por": "Es el criterio de la lámina 7."
+     "por": "El AG se calcula para orientar la causa de una acidosis metabólica."
     },
     {
      "t": "En cualquier alcalosis metabólica",
@@ -383,13 +383,13 @@
   {
    "id": "n-aga-c-ag-normal",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 1,
    "enunciado": "Una acidosis metabólica con anion gap normal indica sobre todo:",
    "opciones": [
     {
      "t": "Pérdida de bicarbonato",
-     "por": "Así lo resume la lámina 7."
+     "por": "Con AG normal la acidosis se debe a pérdida de bicarbonato (por ejemplo, diarrea)."
     },
     {
      "t": "Acumulación de ácidos, como cetoacidosis diabética o acidosis láctica",
@@ -405,14 +405,14 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Lámina 7: AG normal = pérdida de bicarbonato. AG elevado = acumulación de ácidos (cetoacidosis diabética, acidosis láctica, insuficiencia renal, intoxicaciones por etanol o etilenglicol).",
+   "explicacion": "AG normal = pérdida de bicarbonato. AG elevado = acumulación de ácidos (cetoacidosis diabética, acidosis láctica, insuficiencia renal, intoxicaciones por etanol o etilenglicol).",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 7",
    "contexto": "Anion gap (AG, brecha aniónica) = Na⁺ − (Cl⁻ + HCO₃⁻); normal 8 a 12 mEq/L. Separa las acidosis metabólicas por acumulación de ácidos (AG elevado) de las que son por pérdida de bicarbonato (AG normal). Se usa cuando el HCO₃⁻ es menor de 22 mEq/L."
   },
   {
    "id": "n-aga-c-secundario",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "dif": 1,
    "enunciado": "En una acidosis metabólica, ¿cuál es el cambio secundario (la compensación)?",
    "opciones": [
@@ -434,7 +434,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Tabla de la lámina 6: bajo HCO₃⁻ (cambio primario) con bajo pCO₂ (secundario); alto pCO₂ con alto HCO₃⁻; alto HCO₃⁻ con alto pCO₂; bajo pCO₂ con bajo HCO₃⁻.",
+   "explicacion": "Tabla: bajo HCO₃⁻ (cambio primario) con bajo pCO₂ (secundario); alto pCO₂ con alto HCO₃⁻; alto HCO₃⁻ con alto pCO₂; bajo pCO₂ con bajo HCO₃⁻.",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 6",
    "contexto": "AGA (gasometría arterial): examen de sangre arterial que mide pH, pCO₂ (presión parcial de CO₂), HCO₃⁻ (bicarbonato) y pO₂. Sirve para identificar el trastorno ácido-base primario y ver si el cuerpo lo compensa. Valores normales: pH 7.40 ± 0.05, pCO₂ 40 ± 4 mmHg, HCO₃⁻ 24 ± 2 mEq/L, pO₂ 80 a 97 mmHg, SatO₂ mayor de 98 %."
   },
@@ -905,7 +905,7 @@
   {
    "id": "n-elec-1-act",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 1,
    "enunciado": "Varón de 30 años, 70 kg, náufrago rescatado tras 2 días a la deriva; bebió abundante agua de mar. Obnubilación severa, hiperreflexia, mioclonías, llanto sin lágrimas y signos de depleción de volumen intracelular.\nAGA: pH 7.22, pCO₂ 30 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 168, Cl⁻ 130 mEq/L. Glucosa 480 mg/dL.\n\n¿Cuál es su agua corporal total (ACT)?",
    "opciones": [
@@ -923,7 +923,7 @@
     },
     {
      "t": "28 L",
-     "por": "Usaste 0.4, que no corresponde a ninguna categoría de la lámina."
+     "por": "Usaste 0.4, que no corresponde a ninguna categoría."
     }
    ],
    "correcta": 0,
@@ -934,13 +934,13 @@
   {
    "id": "n-elec-1-aga",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 3,
    "enunciado": "Varón de 30 años, 70 kg, náufrago rescatado tras 2 días a la deriva; bebió abundante agua de mar. Obnubilación severa, hiperreflexia, mioclonías, llanto sin lágrimas y signos de depleción de volumen intracelular.\nAGA: pH 7.22, pCO₂ 30 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 168, Cl⁻ 130 mEq/L. Glucosa 480 mg/dL.\n\nAplica Winter. ¿Cuál es el rango de pCO₂ esperada y qué indica la pCO₂ real?",
    "opciones": [
     {
      "t": "24 a 28 mmHg; la pCO₂ de 30 está por encima: coexiste acidosis respiratoria",
-     "por": "(1.5 × 12) + 8 = 26 ± 2; la lámina 5 concluye acidosis respiratoria agregada."
+     "por": "Winter: (1.5 × 12) + 8 = 26 ± 2; una pCO₂ de 30 supera ese rango, así que hay acidosis respiratoria agregada."
     },
     {
      "t": "24 a 28 mmHg; la pCO₂ de 30 está dentro: compensación adecuada",
@@ -963,7 +963,7 @@
   {
    "id": "n-elec-1-ag",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 2,
    "enunciado": "Varón de 30 años, 70 kg, náufrago rescatado tras 2 días a la deriva; bebió abundante agua de mar. Obnubilación severa, hiperreflexia, mioclonías, llanto sin lágrimas y signos de depleción de volumen intracelular.\nAGA: pH 7.22, pCO₂ 30 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 168, Cl⁻ 130 mEq/L. Glucosa 480 mg/dL.\n\n¿Cuál es el anion gap?",
    "opciones": [
@@ -992,13 +992,13 @@
   {
    "id": "n-elec-1-dx",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 3,
    "enunciado": "Varón de 30 años, 70 kg, náufrago rescatado tras 2 días a la deriva; bebió abundante agua de mar. Obnubilación severa, hiperreflexia, mioclonías, llanto sin lágrimas y signos de depleción de volumen intracelular.\nAGA: pH 7.22, pCO₂ 30 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 168, Cl⁻ 130 mEq/L. Glucosa 480 mg/dL.\n\n¿Cuál es el resumen diagnóstico de este caso?",
    "opciones": [
     {
      "t": "Acidosis metabólica con anion gap elevado, acidosis respiratoria agregada e hipernatremia extrema",
-     "por": "Es la resolución de la lámina 5."
+     "por": "AG elevado, pCO₂ por encima de lo esperado y Na⁺ de 168 resumen el caso."
     },
     {
      "t": "Acidosis metabólica con anion gap elevado, con compensación respiratoria adecuada e hipernatremia",
@@ -1021,7 +1021,7 @@
   {
    "id": "n-elec-1-cambio",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 3,
    "enunciado": "Varón de 30 años, 70 kg, náufrago rescatado tras 2 días a la deriva; bebió abundante agua de mar. Obnubilación severa, hiperreflexia, mioclonías, llanto sin lágrimas y signos de depleción de volumen intracelular.\nAGA: pH 7.22, pCO₂ 30 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 168, Cl⁻ 130 mEq/L. Glucosa 480 mg/dL.\n\nSe corrige con una solución cuyo Na⁺ es 68 mEq/L. ¿Cuánto cambia el sodio sérico por cada litro infundido? *",
    "opciones": [
@@ -1039,7 +1039,7 @@
     },
     {
      "t": "−3.91 mEq/L por litro",
-     "por": "Usaste Na⁺ infundido de 0, como si fuera dextrosa pura, y no los 68 del taller."
+     "por": "Usaste Na⁺ infundido de 0, como si fuera dextrosa pura, y no los 68."
     }
    ],
    "correcta": 0,
@@ -1051,7 +1051,7 @@
   {
    "id": "n-elec-1-vol",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 3,
    "enunciado": "Varón de 30 años, 70 kg, náufrago rescatado tras 2 días a la deriva; bebió abundante agua de mar. Obnubilación severa, hiperreflexia, mioclonías, llanto sin lágrimas y signos de depleción de volumen intracelular.\nAGA: pH 7.22, pCO₂ 30 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 168, Cl⁻ 130 mEq/L. Glucosa 480 mg/dL.\n\nCon el cambio de −2.33 mEq/L por litro, ¿qué volumen se necesita para bajar 8 mEq/L en 24 horas?",
    "opciones": [
@@ -1076,12 +1076,12 @@
    "explicacion": "Volumen = 8 mEq/L ÷ 2.33 mEq/L por litro = 3.433 L = 3433 mL en 24 horas.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 6",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
-   "nota": "sin redondear el −2.33 el resultado es 3440 mL; la lámina usa 3433. Elige la opción más cercana."
+   "nota": "Sin redondear el −2.33 el resultado es 3440 mL; con el valor redondeado sale 3433. Elige la opción más cercana."
   },
   {
    "id": "n-elec-1-rate",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 2,
    "enunciado": "Varón de 30 años, 70 kg, náufrago rescatado tras 2 días a la deriva; bebió abundante agua de mar. Obnubilación severa, hiperreflexia, mioclonías, llanto sin lágrimas y signos de depleción de volumen intracelular.\nAGA: pH 7.22, pCO₂ 30 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 168, Cl⁻ 130 mEq/L. Glucosa 480 mg/dL.\n\nSi se infunden 3433 mL en 24 horas, ¿cuál es la velocidad de infusión?",
    "opciones": [
@@ -1103,14 +1103,14 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Velocidad = 3433 mL ÷ 24 h = 143 mL/h. La lámina pide monitoreo de sodio cada 4 a 6 horas para no corregir demasiado rápido.",
+   "explicacion": "Velocidad = 3433 mL ÷ 24 h = 143 mL/h. Se monitorea el sodio cada 4 a 6 horas para no corregir demasiado rápido.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 6",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-2-aga",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 3,
    "enunciado": "Mujer de 45 años, 65 kg, con hipertensión arterial severa refractaria a varios fármacos. Consulta por episodios de debilidad muscular marcada y parestesias proximales. PA 190/110, sin edemas, estado neurológico conservado y abolición de reflejos osteotendinosos.\nAGA: pH 7.48, pCO₂ 46 mmHg, HCO₃⁻ 33 mEq/L.\nElectrolitos: Na⁺ 155, K⁺ 2.5, Cl⁻ 105 mEq/L.\n\nInterpreta el equilibrio ácido-base.",
    "opciones": [
@@ -1139,14 +1139,14 @@
   {
    "id": "n-elec-2-mecanismo",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 2,
    "enunciado": "Mujer de 45 años, 65 kg, con hipertensión arterial severa refractaria a varios fármacos. Consulta por episodios de debilidad muscular marcada y parestesias proximales. PA 190/110, sin edemas, estado neurológico conservado y abolición de reflejos osteotendinosos.\nAGA: pH 7.48, pCO₂ 46 mmHg, HCO₃⁻ 33 mEq/L.\nElectrolitos: Na⁺ 155, K⁺ 2.5, Cl⁻ 105 mEq/L.\n\n¿Qué mecanismo explica este cuadro?",
    "opciones": [
     {
      "t": "Exceso de aldosterona: retiene Na⁺ y pierde K⁺",
-     "por": "Es el texto de la lámina 9.",
-     "full": "Hiperactividad crónica de aldosterona: retiene sodio en el túbulo colector y pierde potasio e hidrogeniones"
+     "full": "Hiperactividad crónica de aldosterona: retiene sodio en el túbulo colector y pierde potasio e hidrogeniones",
+     "por": "El exceso de aldosterona retiene Na⁺ y pierde K⁺, lo que explica la HTA y la hipopotasemia."
     },
     {
      "t": "Pérdida renal de sodio por diuréticos",
@@ -1168,7 +1168,7 @@
   {
    "id": "n-elec-2-act",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 1,
    "enunciado": "Mujer de 45 años, 65 kg, con hipertensión arterial severa refractaria a varios fármacos. Consulta por episodios de debilidad muscular marcada y parestesias proximales. PA 190/110, sin edemas, estado neurológico conservado y abolición de reflejos osteotendinosos.\nAGA: pH 7.48, pCO₂ 46 mmHg, HCO₃⁻ 33 mEq/L.\nElectrolitos: Na⁺ 155, K⁺ 2.5, Cl⁻ 105 mEq/L.\n\n¿Cuál es su agua corporal total (ACT)?",
    "opciones": [
@@ -1186,7 +1186,7 @@
     },
     {
      "t": "26 L",
-     "por": "Usaste 0.4, que no corresponde a ninguna categoría de la lámina."
+     "por": "Usaste 0.4, que no corresponde a ninguna categoría."
     }
    ],
    "correcta": 0,
@@ -1197,7 +1197,7 @@
   {
    "id": "n-elec-2-cambio",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 3,
    "enunciado": "Mujer de 45 años, 65 kg, con hipertensión arterial severa refractaria a varios fármacos. Consulta por episodios de debilidad muscular marcada y parestesias proximales. PA 190/110, sin edemas, estado neurológico conservado y abolición de reflejos osteotendinosos.\nAGA: pH 7.48, pCO₂ 46 mmHg, HCO₃⁻ 33 mEq/L.\nElectrolitos: Na⁺ 155, K⁺ 2.5, Cl⁻ 105 mEq/L.\n\nSe usa una solución con Na⁺ de 68 mEq/L. ¿Cuánto cambia el sodio por cada litro infundido? *",
    "opciones": [
@@ -1215,7 +1215,7 @@
     },
     {
      "t": "−4.63 mEq/L por litro",
-     "por": "Usaste Na⁺ infundido de 0 y no los 68 del taller."
+     "por": "Usaste Na⁺ infundido de 0 y no los 68."
     }
    ],
    "correcta": 0,
@@ -1227,7 +1227,7 @@
   {
    "id": "n-elec-2-vol",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 3,
    "enunciado": "Mujer de 45 años, 65 kg, con hipertensión arterial severa refractaria a varios fármacos. Consulta por episodios de debilidad muscular marcada y parestesias proximales. PA 190/110, sin edemas, estado neurológico conservado y abolición de reflejos osteotendinosos.\nAGA: pH 7.48, pCO₂ 46 mmHg, HCO₃⁻ 33 mEq/L.\nElectrolitos: Na⁺ 155, K⁺ 2.5, Cl⁻ 105 mEq/L.\n\nCon −2.60 mEq/L por litro, ¿qué volumen se necesita para bajar 8 mEq/L en 24 horas?",
    "opciones": [
@@ -1256,7 +1256,7 @@
   {
    "id": "n-elec-2-rate",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 2,
    "enunciado": "Mujer de 45 años, 65 kg, con hipertensión arterial severa refractaria a varios fármacos. Consulta por episodios de debilidad muscular marcada y parestesias proximales. PA 190/110, sin edemas, estado neurológico conservado y abolición de reflejos osteotendinosos.\nAGA: pH 7.48, pCO₂ 46 mmHg, HCO₃⁻ 33 mEq/L.\nElectrolitos: Na⁺ 155, K⁺ 2.5, Cl⁻ 105 mEq/L.\n\nSi se infunden 3077 mL en 24 horas, ¿cuál es la velocidad?",
    "opciones": [
@@ -1285,13 +1285,13 @@
   {
    "id": "n-elec-3-dx",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 3,
    "enunciado": "Varón de 72 años, 60 kg, con fibrilación auricular. Dolor abdominal súbito desproporcionado y abdomen distendido.\nAGA: pH 7.21, pCO₂ 32 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 115, K⁺ 5.1, Cl⁻ 85 mEq/L. Albúmina 4.0 g/dL. Lactato elevado.\n\nInterpreta el AGA (calcula el AG y aplica Winter).",
    "opciones": [
     {
      "t": "Acidosis metabólica con AG elevado (18) y acidosis respiratoria agregada",
-     "por": "pCO₂ esperada 26 ± 2 (24 a 28); la real de 32 está por encima."
+     "por": "PCO₂ esperada 26 ± 2 (24 a 28); la real de 32 está por encima."
     },
     {
      "t": "Acidosis metabólica con AG elevado y compensación respiratoria adecuada",
@@ -1310,12 +1310,12 @@
    "explicacion": "AG = 115 − (85 + 12) = 18: elevado (albúmina 4.0, no hace falta corregir). Winter: (1.5 × 12) + 8 = 26 ± 2 → 24 a 28. La pCO₂ real de 32 está por encima: acidosis respiratoria agregada. Con fibrilación auricular y dolor abdominal desproporcionado, la causa es la hiperlactatemia (isquemia mesentérica).",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 13",
    "contexto": "Anion gap (AG, brecha aniónica) = Na⁺ − (Cl⁻ + HCO₃⁻); normal 8 a 12 mEq/L. Separa las acidosis metabólicas por acumulación de ácidos (AG elevado) de las que son por pérdida de bicarbonato (AG normal). Se usa cuando el HCO₃⁻ es menor de 22 mEq/L.\nFórmula de Winter: pCO₂ esperada = (1.5 × HCO₃⁻) + 8 ± 2. Sirve para saber si la compensación respiratoria de una acidosis metabólica es la adecuada: se compara con la pCO₂ real. pCO₂ real dentro del rango = compensación adecuada; por encima = acidosis respiratoria agregada; por debajo = alcalosis respiratoria agregada.",
-   "nota": "el diagnóstico de isquemia mesentérica no lo nombra la lámina; solo habla de hiperlactatemia. Es el contexto clínico clásico de fibrilación auricular con dolor abdominal desproporcionado."
+   "nota": "solo habla de hiperlactatemia. Es el contexto clínico clásico de fibrilación auricular con dolor abdominal desproporcionado."
   },
   {
    "id": "n-elec-3-act",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 1,
    "enunciado": "Varón de 72 años, 60 kg, con fibrilación auricular. Dolor abdominal súbito desproporcionado y abdomen distendido.\nAGA: pH 7.21, pCO₂ 32 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 115, K⁺ 5.1, Cl⁻ 85 mEq/L. Albúmina 4.0 g/dL. Lactato elevado.\n\n¿Cuál es su agua corporal total (ACT) para calcular la infusión de sodio?",
    "opciones": [
@@ -1333,7 +1333,7 @@
     },
     {
      "t": "24 L",
-     "por": "Usaste 0.4, que no corresponde a ninguna categoría de la lámina."
+     "por": "Usaste 0.4, que no corresponde a ninguna categoría."
     }
    ],
    "correcta": 0,
@@ -1344,13 +1344,13 @@
   {
    "id": "n-elec-3-solucion",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 2,
    "enunciado": "Varón de 72 años, 60 kg, con fibrilación auricular. Dolor abdominal súbito desproporcionado y abdomen distendido.\nAGA: pH 7.21, pCO₂ 32 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 115, K⁺ 5.1, Cl⁻ 85 mEq/L. Albúmina 4.0 g/dL. Lactato elevado.\n\nSe corrige este sodio con una solución de 513 mEq/L de Na⁺. ¿Cuál es?",
    "opciones": [
     {
      "t": "NaCl al 3 % (hipertónica)",
-     "por": "Según la lámina 11, el NaCl 3 % tiene 513 mEq/L."
+     "por": "El NaCl al 3 % tiene 513 mEq/L: es la solución hipertónica que sube el sodio."
     },
     {
      "t": "NaCl al 0.9 % (suero fisiológico)",
@@ -1366,14 +1366,14 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La lámina 11 muestra dos presentaciones: NaCl 0.9 % = 154 mEq/L y NaCl 3 % = 513 mEq/L. En la hiponatremia del caso 3 se calcula con 513.",
+   "explicacion": "Hay dos presentaciones: NaCl 0.9 % = 154 mEq/L y NaCl 3 % = 513 mEq/L. En la hiponatremia del caso 3 se calcula con 513.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11 y 14",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-3-cambio",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 3,
    "enunciado": "Varón de 72 años, 60 kg, con fibrilación auricular. Dolor abdominal súbito desproporcionado y abdomen distendido.\nAGA: pH 7.21, pCO₂ 32 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 115, K⁺ 5.1, Cl⁻ 85 mEq/L. Albúmina 4.0 g/dL. Lactato elevado.\n\n¿Cuánto sube el sodio por cada litro de NaCl 3 % (513 mEq/L)?",
    "opciones": [
@@ -1398,12 +1398,12 @@
    "explicacion": "(513 − 115) / (30 + 1) = 398 / 31 = 12.83 mEq/L por litro de solución.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 14",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
-   "nota": "398/31 es 12.84 sin truncar; la lámina escribe 12.83."
+   "nota": "398/31 es 12.84 sin truncar; truncado queda 12.83."
   },
   {
    "id": "n-elec-3-vol",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 3,
    "enunciado": "Varón de 72 años, 60 kg, con fibrilación auricular. Dolor abdominal súbito desproporcionado y abdomen distendido.\nAGA: pH 7.21, pCO₂ 32 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 115, K⁺ 5.1, Cl⁻ 85 mEq/L. Albúmina 4.0 g/dL. Lactato elevado.\n\nCon +12.83 mEq/L por litro, ¿qué volumen de NaCl 3 % se necesita para subir 8 mEq/L en 24 horas?",
    "opciones": [
@@ -1428,18 +1428,18 @@
    "explicacion": "Volumen = 8 mEq/L ÷ 12.83 mEq/L por litro = 0.623 L = 623 mL en 24 horas.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 14",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
-   "nota": "8000 / 12.83 da 623.5; la lámina lo escribe como 623."
+   "nota": "8000 / 12.83 da 623.5; se toma como 623."
   },
   {
    "id": "n-elec-3-rate",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 2,
    "enunciado": "Varón de 72 años, 60 kg, con fibrilación auricular. Dolor abdominal súbito desproporcionado y abdomen distendido.\nAGA: pH 7.21, pCO₂ 32 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 115, K⁺ 5.1, Cl⁻ 85 mEq/L. Albúmina 4.0 g/dL. Lactato elevado.\n\nSi se infunden 623 mL en 24 horas, ¿cuál es la velocidad?",
    "opciones": [
     {
      "t": "≈ 25 mL/h",
-     "por": "623 / 24 = 25.96; la lámina lo escribe como 25."
+     "por": "623 / 24 = 25.96, es decir, unos 25 a 26 mL/h."
     },
     {
      "t": "≈ 52 mL/h",
@@ -1455,15 +1455,15 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Velocidad = 623 mL ÷ 24 h ≈ 25 a 26 mL/h. La lámina anota 25 mL/h.",
+   "explicacion": "Velocidad = 623 mL ÷ 24 h ≈ 25 a 26 mL/h.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 14",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
-   "nota": "623 / 24 da 25.96, que redondea a 26 mL/h; la lámina trunca a 25."
+   "nota": "623 / 24 da 25.96, que redondea a 26 mL/h; truncado es 25."
   },
   {
    "id": "n-elec-4-aga",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 2,
    "enunciado": "Varón de 28 años, 80 kg, rescatado tras 12 horas atrapado bajo escombros. Orina oscura, oliguria, deshidratado y con dolor muscular generalizado.\nAGA: pH 7.29, pCO₂ 25 mmHg, HCO₃⁻ 11 mEq/L.\nElectrolitos: Na⁺ 122, K⁺ 6.8, Cl⁻ 90 mEq/L. Albúmina 3.8 g/dL. Creatinina elevada.\n\nAplica Winter. ¿Cuál es el rango de pCO₂ esperada y cómo es la compensación?",
    "opciones": [
@@ -1492,7 +1492,7 @@
   {
    "id": "n-elec-4-ag",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 2,
    "enunciado": "Varón de 28 años, 80 kg, rescatado tras 12 horas atrapado bajo escombros. Orina oscura, oliguria, deshidratado y con dolor muscular generalizado.\nAGA: pH 7.29, pCO₂ 25 mmHg, HCO₃⁻ 11 mEq/L.\nElectrolitos: Na⁺ 122, K⁺ 6.8, Cl⁻ 90 mEq/L. Albúmina 3.8 g/dL. Creatinina elevada.\n\n¿Cuál es el anion gap?",
    "opciones": [
@@ -1521,7 +1521,7 @@
   {
    "id": "n-elec-4-act",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 1,
    "enunciado": "Varón de 28 años, 80 kg, rescatado tras 12 horas atrapado bajo escombros. Orina oscura, oliguria, deshidratado y con dolor muscular generalizado.\nAGA: pH 7.29, pCO₂ 25 mmHg, HCO₃⁻ 11 mEq/L.\nElectrolitos: Na⁺ 122, K⁺ 6.8, Cl⁻ 90 mEq/L. Albúmina 3.8 g/dL. Creatinina elevada.\n\n¿Cuál es el ACT?",
    "opciones": [
@@ -1539,7 +1539,7 @@
     },
     {
      "t": "32 L",
-     "por": "Usaste 0.4, que no corresponde a ninguna categoría de la lámina."
+     "por": "Usaste 0.4, que no corresponde a ninguna categoría."
     }
    ],
    "correcta": 0,
@@ -1550,7 +1550,7 @@
   {
    "id": "n-elec-4-cambio",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 3,
    "enunciado": "Varón de 28 años, 80 kg, rescatado tras 12 horas atrapado bajo escombros. Orina oscura, oliguria, deshidratado y con dolor muscular generalizado.\nAGA: pH 7.29, pCO₂ 25 mmHg, HCO₃⁻ 11 mEq/L.\nElectrolitos: Na⁺ 122, K⁺ 6.8, Cl⁻ 90 mEq/L. Albúmina 3.8 g/dL. Creatinina elevada.\n\n¿Cuánto sube el sodio por cada litro de NaCl 3 % (513 mEq/L)?",
    "opciones": [
@@ -1575,12 +1575,12 @@
    "explicacion": "(513 − 122) / (48 + 1) = 391 / 49 = 7.97 mEq/L por litro.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 17",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
-   "nota": "391/49 es 7.98 sin truncar; la lámina escribe 7.97."
+   "nota": "391/49 es 7.98 sin truncar; truncado queda 7.97."
   },
   {
    "id": "n-elec-4-vol",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 3,
    "enunciado": "Varón de 28 años, 80 kg, rescatado tras 12 horas atrapado bajo escombros. Orina oscura, oliguria, deshidratado y con dolor muscular generalizado.\nAGA: pH 7.29, pCO₂ 25 mmHg, HCO₃⁻ 11 mEq/L.\nElectrolitos: Na⁺ 122, K⁺ 6.8, Cl⁻ 90 mEq/L. Albúmina 3.8 g/dL. Creatinina elevada.\n\nCon +7.97 mEq/L por litro, ¿qué volumen de NaCl 3 % se necesita para subir 8 mEq/L en 24 horas?",
    "opciones": [
@@ -1605,18 +1605,18 @@
    "explicacion": "Volumen = 8 mEq/L ÷ 7.97 = 1.003 L = 1003 mL en 24 horas.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 17",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
-   "nota": "8000 / 7.97 da 1003.8; la lámina lo escribe como 1003."
+   "nota": "8000 / 7.97 da 1003.8; se toma como 1003."
   },
   {
    "id": "n-elec-4-rate",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 2,
    "enunciado": "Varón de 28 años, 80 kg, rescatado tras 12 horas atrapado bajo escombros. Orina oscura, oliguria, deshidratado y con dolor muscular generalizado.\nAGA: pH 7.29, pCO₂ 25 mmHg, HCO₃⁻ 11 mEq/L.\nElectrolitos: Na⁺ 122, K⁺ 6.8, Cl⁻ 90 mEq/L. Albúmina 3.8 g/dL. Creatinina elevada.\n\nSi se infunden 1003 mL en 24 horas, ¿cuál es la velocidad?",
    "opciones": [
     {
      "t": "≈ 41 mL/h",
-     "por": "1003 / 24 = 41.8; la lámina lo escribe como 41."
+     "por": "1003 / 24 = 41.8, es decir, unos 41 a 42 mL/h."
     },
     {
      "t": "≈ 84 mL/h",
@@ -1632,15 +1632,15 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Velocidad = 1003 mL ÷ 24 h ≈ 41 a 42 mL/h. La lámina anota 41 mL/h.",
+   "explicacion": "Velocidad = 1003 mL ÷ 24 h ≈ 41 a 42 mL/h.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 17",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
-   "nota": "1003 / 24 da 41.8, que redondea a 42 mL/h; la lámina trunca a 41."
+   "nota": "1003 / 24 da 41.8, que redondea a 42 mL/h; truncado es 41."
   },
   {
    "id": "n-elec-c-factor",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 1,
    "enunciado": "¿Qué factor se multiplica por el peso para el ACT de un varón anciano (más de 65 años)?",
    "opciones": [
@@ -1654,29 +1654,29 @@
     },
     {
      "t": "0.4",
-     "por": "No corresponde a ninguna categoría de la lámina."
+     "por": "No corresponde a ninguna categoría."
     },
     {
      "t": "0.45",
-     "por": "No corresponde a ninguna categoría de la lámina."
+     "por": "No corresponde a ninguna categoría."
     }
    ],
    "correcta": 0,
-   "explicacion": "Lámina 11: hombres 0.6 × peso, mujeres 0.5 × peso, ancianos (> 65 años) 0.5 × peso.",
+   "explicacion": "ACT (agua corporal total): hombres 0.6 × peso, mujeres 0.5 × peso, ancianos (> 65 años) 0.5 × peso.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
-   "nota": "En la clase de sodio (sem. 9) la mujer anciana usa 0.45 y el varón anciano 0.5; el taller usa 0.5 para ancianos en general. Usa el valor que te indique el enunciado."
+   "nota": "Algunas fuentes usan 0.45 para la mujer anciana y 0.5 para el varón anciano; aquí se usa 0.5 para ancianos en general. Usa el valor que te indique el enunciado."
   },
   {
    "id": "n-elec-c-meta",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 1,
    "enunciado": "En la fórmula de Adrogué-Madias, ¿cuál es la meta de corrección del sodio en 24 horas?",
    "opciones": [
     {
      "t": "Aumentar 4 a 8 mEq/L",
-     "por": "Es la meta de la lámina 11."
+     "por": "Se corrigen 4 a 8 mEq/L en 24 horas para evitar la mielinólisis."
     },
     {
      "t": "Aumentar 10 a 12 mEq/L",
@@ -1684,7 +1684,7 @@
     },
     {
      "t": "Aumentar 1 a 2 mEq/L",
-     "por": "Es demasiado lento para la meta del taller."
+     "por": "Es demasiado lento para la meta."
     },
     {
      "t": "Normalizar el sodio por completo",
@@ -1692,21 +1692,21 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Lámina 11: meta de 4 a 8 mEq/L en 24 horas, corrección lenta y segura.",
+   "explicacion": "La meta es de 4 a 8 mEq/L en 24 horas: corrección lenta y segura.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
-   "nota": "otras láminas del mismo taller dicen no corregir más de 8 a 10 mEq/L (lám. 10) y más de 10 a 12 (lám. 6). Para el examen, usa 4 a 8 de la lámina de la fórmula."
+   "nota": "Otras fuentes dicen no corregir más de 8 a 10 mEq/L o más de 10 a 12. Para el examen, usa 4 a 8 mEq/L en 24 horas."
   },
   {
    "id": "n-elec-c-mielinolisis",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 1,
    "enunciado": "¿Qué complicación se busca evitar al corregir la hiponatremia de forma lenta y segura?",
    "opciones": [
     {
      "t": "Mielinólisis pontina",
-     "por": "Se advierte en la lámina 11."
+     "por": "Corregir demasiado rápido el sodio puede causar mielinólisis pontina."
     },
     {
      "t": "Hemorragia subaracnoidea",
@@ -1729,7 +1729,7 @@
   {
    "id": "n-elec-c-formula",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "dif": 1,
    "enunciado": "¿Qué calcula la fórmula de Adrogué-Madias?",
    "opciones": [
@@ -1743,7 +1743,7 @@
     },
     {
      "t": "El anion gap corregido por albúmina y lactato",
-     "por": "Esa es otra fórmula, de la lámina 13 del taller de gases."
+     "por": "Esa es la fórmula del AG corregido, no la de Adrogué-Madias."
     },
     {
      "t": "La osmolaridad plasmática efectiva según sodio, glucosa y urea",
@@ -1772,7 +1772,7 @@
     },
     {
      "t": "23.2 L",
-     "por": "Usaste 0.4, que no corresponde a ninguna categoría de la lámina."
+     "por": "Usaste 0.4, que no corresponde a ninguna categoría."
     },
     {
      "t": "31 L",
@@ -1801,7 +1801,7 @@
     },
     {
      "t": "32 L",
-     "por": "Usaste 0.4, que no corresponde a ninguna categoría de la lámina."
+     "por": "Usaste 0.4, que no corresponde a ninguna categoría."
     },
     {
      "t": "35 L",
@@ -2050,7 +2050,7 @@
   {
    "id": "n-t-aga-normales",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "f": "Valores normales de la AGA (gasometría arterial)",
    "b": "pH 7.40 ± 0.05 (7.35 a 7.45)\npCO₂ 40 ± 4 (36 a 44) mmHg\npO₂ 80 a 97 mmHg\nHCO₃⁻ 24 ± 2 (22 a 26) mEq/L\nSatO₂ mayor de 98 %",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 6"
@@ -2058,7 +2058,7 @@
   {
    "id": "n-t-aga-tabla",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "f": "Cambio primario y secundario en los 4 trastornos ácido-base",
    "b": "Acidosis metabólica: ↓HCO₃⁻, luego ↓pCO₂\nAcidosis respiratoria: ↑pCO₂, luego ↑HCO₃⁻\nAlcalosis metabólica: ↑HCO₃⁻, luego ↑pCO₂\nAlcalosis respiratoria: ↓pCO₂, luego ↓HCO₃⁻",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 6"
@@ -2066,7 +2066,7 @@
   {
    "id": "n-t-aga-ag",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "f": "Fórmula del anion gap (AG), valor normal y cuándo usarlo",
    "b": "AG = Na⁺ − (Cl⁻ + HCO₃⁻). Normal 8 a 12 mEq/L. Se usa en acidosis metabólica (HCO₃⁻ menor de 22 mEq/L).",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 7"
@@ -2074,7 +2074,7 @@
   {
    "id": "n-t-aga-ag-causas",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "f": "AG elevado vs AG normal: ¿qué significa cada uno?",
    "b": "AG normal: pérdida de bicarbonato.\nAG elevado: acumulación de ácidos (cetoacidosis diabética, acidosis láctica, insuficiencia renal, intoxicaciones por etanol o etilenglicol).",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 7"
@@ -2082,7 +2082,7 @@
   {
    "id": "n-t-aga-winter",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "f": "Fórmula de Winter",
    "b": "pCO₂ esperada = (1.5 × HCO₃⁻) + 8 ± 2. Se usa en acidosis metabólica para ver si la compensación respiratoria es adecuada (se compara con la pCO₂ real).",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 9"
@@ -2090,7 +2090,7 @@
   {
    "id": "n-t-aga-agc",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "f": "AG corregido por albúmina: fórmula y cuándo",
    "b": "AG + [2.5 × (4 − albúmina)]. Cuando la albúmina es menor de 4 g/dL (cirrosis, desnutrición, síndrome nefrótico, enfermedad crítica), porque la hipoalbuminemia esconde un AG elevado.",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 13"
@@ -2098,7 +2098,7 @@
   {
    "id": "n-t-aga-acidresp",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "f": "HCO₃⁻ esperado en acidosis respiratoria",
    "b": "HCO₃⁻ esperado = 24 + [(pCO₂ − 40) / 10] × 1 (en la forma aguda).",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 4"
@@ -2106,7 +2106,7 @@
   {
    "id": "n-t-aga-alcresp",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "f": "HCO₃⁻ esperado en alcalosis respiratoria",
    "b": "HCO₃⁻ esperado = 24 − [(40 − pCO₂) / 10] × 2 (en la forma aguda).",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 4"
@@ -2114,7 +2114,7 @@
   {
    "id": "n-t-aga-alcmet",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "f": "pCO₂ esperada en alcalosis metabólica",
    "b": "0.7 × (HCO₃⁻ − 24) + 40 ± 5",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 4"
@@ -2122,7 +2122,7 @@
   {
    "id": "n-t-aga-cad",
    "area": "nefro",
-   "tema": "Taller gases arteriales",
+   "tema": "Gases arteriales (casos)",
    "f": "Cetoacidosis diabética en la AGA",
    "b": "Acidosis metabólica con AG elevado (p. ej., AG 27) y compensación respiratoria con pCO₂ baja (Kussmaul).",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 5 a 9"
@@ -2130,7 +2130,7 @@
   {
    "id": "n-t-elec-am",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "f": "Fórmula de Adrogué-Madias",
    "b": "Cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L).",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11"
@@ -2138,7 +2138,7 @@
   {
    "id": "n-t-elec-act",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "f": "¿Cómo se calcula el ACT (agua corporal total)?",
    "b": "ACT = 0.6 × peso (kg) en hombres y 0.5 × peso en mujeres. En mayores de 65 años baja: 0.5 × peso en hombres y 0.45 × peso en mujeres.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11"
@@ -2146,7 +2146,7 @@
   {
    "id": "n-t-elec-meta",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "f": "Meta de corrección del sodio y qué se evita",
    "b": "Aumentar 4 a 8 mEq/L en 24 horas, de forma lenta y segura, para evitar la mielinólisis pontina.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11"
@@ -2154,7 +2154,7 @@
   {
    "id": "n-t-elec-pasos",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "f": "Pasos para calcular la infusión de sodio",
    "b": "1) ACT. 2) Cambio por litro = (Na infundido − Na sérico) / (ACT + 1). 3) Volumen = 8 mEq/L ÷ cambio por litro (24 h). 4) Velocidad = volumen ÷ 24.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 6, 10, 14 y 17"
@@ -2162,7 +2162,7 @@
   {
    "id": "n-t-elec-aldo",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "f": "Hipernatremia + hipopotasemia + alcalosis metabólica + HTA refractaria",
    "b": "Hiperactividad crónica de aldosterona: retiene Na⁺ en el túbulo colector y pierde K⁺ e H⁺ (caso 2).",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 9"
@@ -2170,7 +2170,7 @@
   {
    "id": "n-t-elec-caso1",
    "area": "nefro",
-   "tema": "Taller electrolitos",
+   "tema": "Electrolitos (casos)",
    "f": "Caso clínico: náufrago que tomó agua de mar",
    "b": "Hipernatremia extrema (Na⁺ 168) con acidosis metabólica de AG elevado (26). La pCO₂ de 30 supera la esperada (24 a 28), lo que indica además acidosis respiratoria agregada.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 5"

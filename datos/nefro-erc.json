@@ -9,7 +9,7 @@
    "opciones": [
     {
      "t": "Anormalidad renal presente por más de 3 meses",
-     "por": "Es la definición de la lámina: lo que cuenta es la persistencia (más de 3 meses) y que haya daño estructural o funcional.",
+     "por": "Es la definición: lo que cuenta es la persistencia (más de 3 meses) y que haya daño estructural o funcional.",
      "full": "Anormalidad de la estructura o de la función del riñón presente por más de 3 meses"
     },
     {
@@ -59,7 +59,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La lámina incluye marcadores de daño patológico, de imagen y biomarcadores. Una anormalidad estructural persistente basta, aunque la TFG se mantenga.",
+   "explicacion": "Incluye marcadores de daño patológico, de imagen y biomarcadores. Una anormalidad estructural persistente basta, aunque la TFG se mantenga.",
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 8",
    "guia": {
     "t": "• KDIGO define la ERC como anormalidades de la estructura o función del riñón presentes por más de 3 meses y con implicancias para la salud.\n• Se diagnostica con TFG (tasa de filtración glomerular) <60 mL/min/1.73 m² o con marcadores de daño, por ejemplo cociente albúmina/creatinina (ACR) ≥30 mg/g, por más de 3 meses.\n• Si se detecta por casualidad un ACR alto, hematuria o TFG baja, KDIGO pide repetir las pruebas para confirmar.\n• Coincide con tu PPT.",
@@ -75,7 +75,7 @@
    "opciones": [
     {
      "t": "Glomerulopatía diabética (alrededor de 30 %)",
-     "por": "Es la causa principal en la lámina, seguida de la nefropatía hipertensiva."
+     "por": "Es la causa principal, seguida de la nefropatía hipertensiva."
     },
     {
      "t": "Poliquistosis renal (alrededor de 30 %)",
@@ -132,8 +132,8 @@
    "opciones": [
     {
      "t": "Hiperfiltración y proteinuria",
-     "por": "La lámina señala hiperfiltración glomerular y proteinuria como compensación.",
-     "full": "Hiperfiltración de las nefronas sanas y proteinuria"
+     "full": "Hiperfiltración de las nefronas sanas y proteinuria",
+     "por": "Las nefronas sanas hiperfiltran y aparece proteinuria para compensar la pérdida."
     },
     {
      "t": "Fibrosis con colágeno y miofibroblastos",
@@ -149,7 +149,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Secuencia de la lámina: lesión inicial, compensación (hiperfiltración, proteinuria), inflamación crónica, fibrosis (TGF-β) y progresión (SRAA, isquemia, atrofia). SRAA = sistema renina-angiotensina-aldosterona.",
+   "explicacion": "Secuencia: lesión inicial, compensación (hiperfiltración, proteinuria), inflamación crónica, fibrosis (TGF-β) y progresión (SRAA, isquemia, atrofia). SRAA = sistema renina-angiotensina-aldosterona.",
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 13"
   },
   {
@@ -161,12 +161,12 @@
    "opciones": [
     {
      "t": "TGF-β con miofibroblastos y colágeno",
-     "por": "Esa es la fase 'fibrosis y pérdida' de la lámina.",
-     "full": "TGF-β (factor de crecimiento transformante beta) y miofibroblastos con depósito de colágeno"
+     "full": "TGF-β (factor de crecimiento transformante beta) y miofibroblastos con depósito de colágeno",
+     "por": "Esa es la fase 'fibrosis y pérdida'."
     },
     {
      "t": "Aldosterona y células mesangiales",
-     "por": "La aldosterona participa en el SRAA de la progresión, no es el mediador de la fibrosis en la lámina."
+     "por": "La aldosterona participa en el SRAA de la progresión, no es el mediador de la fibrosis."
     },
     {
      "t": "Citocinas y células inmunes",
@@ -174,7 +174,7 @@
     },
     {
      "t": "Insulina y podocitos",
-     "por": "No son los protagonistas de la fibrosis en la lámina."
+     "por": "No son los protagonistas de la fibrosis."
     }
    ],
    "correcta": 0,
@@ -365,8 +365,8 @@
    "opciones": [
     {
      "t": "×0.742 mujeres y ×1.21 afroestadounidenses",
-     "por": "Así aparece en la imagen de la lámina de TFG.",
-     "full": "×0.742 en mujeres y ×1.21 en afroestadounidenses"
+     "full": "×0.742 en mujeres y ×1.21 en afroestadounidenses",
+     "por": "La fórmula multiplica ×0.742 en mujeres y ×1.21 en afroestadounidenses."
     },
     {
      "t": "×1.86 en varones y ×1.21 en mujeres",
@@ -428,7 +428,7 @@
    "opciones": [
     {
      "t": "Pérdida de la diferenciación corticomedular",
-     "por": "La lámina lo menciona para distinguir un daño crónico de uno agudo."
+     "por": "La pérdida de la diferenciación corticomedular indica daño crónico y no agudo."
     },
     {
      "t": "Riñones aumentados de tamaño siempre",
@@ -464,7 +464,7 @@
     },
     {
      "t": "Masa renal",
-     "por": "Una masa renal está entre las indicaciones de biopsia de la lámina; no es una contraindicación."
+     "por": "Una masa renal está entre las indicaciones de biopsia; no es una contraindicación."
     },
     {
      "t": "Disminución inexplicable de la función renal",
@@ -484,7 +484,7 @@
    "opciones": [
     {
      "t": "Paracetamol",
-     "por": "La lámina lo señala como analgésico de elección: no reduce el flujo sanguíneo del riñón."
+     "por": "El paracetamol no reduce el flujo sanguíneo renal, a diferencia de los AINE."
     },
     {
      "t": "Ibuprofeno",
@@ -512,12 +512,12 @@
    "opciones": [
     {
      "t": "Bajan la albuminuria; no con TFG <30",
-     "por": "Eso dice la lámina.",
-     "full": "Reducen la albuminuria; no usarlos con TFG menor de 30"
+     "full": "Reducen la albuminuria; no usarlos con TFG menor de 30",
+     "por": "Reducen la albuminuria y se evitan con TFG <30."
     },
     {
      "t": "Se usan en toda ERC sin importar la TFG",
-     "por": "La lámina pone límite a TFG <30."
+     "por": "Sí hay límite: con TFG <30 se evitan."
     },
     {
      "t": "Están contraindicados en toda ERC",
@@ -531,7 +531,7 @@
    "correcta": 0,
    "explicacion": "IECA = inhibidores de la enzima convertidora de angiotensina; ARA II = antagonistas de los receptores de angiotensina II. Los BCC (bloqueadores de canales de calcio) pueden usarse junto a IECA o ARA II; en estadios tempranos se prefieren tiazidas.",
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 17",
-   "nota": "Las guías KDIGO suelen mantener estos fármacos aun con TFG baja si el potasio y la creatinina lo permiten. Sigue el PPT para el examen.",
+   "nota": "Las guías KDIGO suelen mantener estos fármacos aun con TFG baja si el potasio y la creatinina lo permiten.",
    "guia": {
     "t": "• KDIGO 2024 recomienda iniciar un bloqueador del sistema renina-angiotensina (IECA o ARA II) en albuminuria muy aumentada (A3) sin diabetes.\n• Evitar combinar IECA + ARA II + inhibidor directo de renina.\n• Al iniciar o cambiar la dosis, revisar a las 2 a 4 semanas la PA, la creatinina y el potasio.\n• En el resumen que revisé no aparece un corte de TFG para suspenderlos. Ojo: tu PPT dice no usarlos con TFG <30; para el examen manda la PPT.",
     "f": "KDIGO 2024 – Evaluación y manejo de la ERC (Kidney Int 2024;105(4S):S117-S314)"
@@ -546,8 +546,8 @@
    "opciones": [
     {
      "t": "Hiperpotasemia >6.5 refractaria",
-     "por": "Está en la lámina de criterios.",
-     "full": "Hiperpotasemia refractaria con K⁺ mayor de 6.5"
+     "full": "Hiperpotasemia refractaria con K⁺ mayor de 6.5",
+     "por": "Una hiperpotasemia mayor de 6.5 que no cede con tratamiento médico es criterio de diálisis."
     },
     {
      "t": "K⁺ de 5.2 controlado con dieta",
@@ -563,7 +563,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Criterios de la lámina para iniciar diálisis: TFG <15 con síntomas (o <10 en diabetes); síntomas urémicos; K⁺ >6.5 que no cede con tratamiento; acidosis con pH <7.2 o HCO₃⁻ <12; sobrecarga hídrica refractaria a diuréticos; desnutrición. En todos, el punto es que el tratamiento médico ya no basta.",
+   "explicacion": "Criterios para iniciar diálisis: TFG <15 con síntomas (o <10 en diabetes); síntomas urémicos; K⁺ >6.5 que no cede con tratamiento; acidosis con pH <7.2 o HCO₃⁻ <12; sobrecarga hídrica refractaria a diuréticos; desnutrición. En todos, el punto es que el tratamiento médico ya no basta.",
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 18"
   },
   {
@@ -587,7 +587,7 @@
     },
     {
      "t": "Anemia con hemoglobina de 9 g/dL",
-     "por": "Es un criterio de la lámina, pero no explica un edema agudo de pulmón."
+     "por": "Es un criterio, pero no explica un edema agudo de pulmón."
     }
    ],
    "correcta": 0,
@@ -603,12 +603,12 @@
    "opciones": [
     {
      "t": "Encefalopatía y pericarditis",
-     "por": "Son manifestaciones de la uremia (toxinas acumuladas) que aparecen en la lámina como indicación de diálisis.",
-     "full": "Náuseas y vómitos incoercibles, encefalopatía, pericarditis, neuropatía"
+     "full": "Náuseas y vómitos incoercibles, encefalopatía, pericarditis, neuropatía",
+     "por": "Son manifestaciones graves de la uremia y obligan a dializar."
     },
     {
      "t": "Prurito leve y piel seca",
-     "por": "Un síntoma leve y aislado no obliga a dialisar; la lámina habla de síntomas graves."
+     "por": "Un síntoma leve y aislado no obliga a dialisar."
     },
     {
      "t": "Cefalea y mareo ocasionales",
@@ -616,7 +616,7 @@
     },
     {
      "t": "Dolor lumbar y hematuria",
-     "por": "Es inespecífica y no figura entre los síntomas urémicos de la lámina."
+     "por": "Es inespecífica y no figura entre los síntomas urémicos."
     }
    ],
    "correcta": 0,

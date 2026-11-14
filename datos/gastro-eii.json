@@ -9,7 +9,7 @@
    "opciones": [
     {
      "t": "Colitis ulcerosa y enfermedad de Crohn",
-     "por": "Es la definición de la lámina: ambos son idiopáticos y crónicos.",
+     "por": "Es la definición: ambos son idiopáticos y crónicos.",
      "full": "Colitis ulcerosa (CU) y enfermedad de Crohn (EC), dos trastornos inflamatorios crónicos de causa desconocida"
     },
     {
@@ -113,8 +113,7 @@
    ],
    "correcta": 0,
    "explicacion": "Tabaco: protector en CU (menos recidivas en fumadores), factor de riesgo en EC (más recidivas, fístulas y abscesos, sobre todo en la zona ileocecal y colónica). No se recomienda fumar a un paciente con CU: el efecto protector no compensa el daño.",
-   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 12 y 13",
-   "nota": "La recomendación de no fumar a pacientes con CU es un complemento."
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 12 y 13"
   },
   {
    "id": "g-eii-dif1",
@@ -347,8 +346,7 @@
    ],
    "correcta": 0,
    "explicacion": "Extraintestinales en ambas: uveítis, epiescleritis, artropatía, pioderma gangrenoso y eritema nodoso, litiasis renal, colangitis esclerosante primaria y enfermedad tromboembólica. Solo en el Crohn: úlceras orales, trastornos óseos (osteoporosis, osteomalacia) y déficit de B12 (por afectación del íleon).",
-   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 23, 24 y 34",
-   "nota": "La explicación del déficit de B12 por afectación del íleon es un complemento."
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 23, 24 y 34"
   },
   {
    "id": "g-eii-megacolon",
@@ -359,7 +357,7 @@
    "opciones": [
     {
      "t": "Megacolon tóxico",
-     "por": "La lámina de radiología lo señala como complicación de la CU."
+     "por": "La dilatación del colon con columna de aire es el megacolon tóxico de la CU."
     },
     {
      "t": "Obstrucción intestinal por estenosis",
@@ -404,7 +402,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "5-ASA = ácido 5-aminosalicílico (mesalamina o mesalazina). Sulfasalazina = sulfapiridina + 5-ASA unidos por enlace azo; las bacterias del colon lo separan y la sulfapiridina causa la mayor parte de la toxicidad. Mesalazina: CU leve a moderada; supositorios 500 mg/8 h, enemas 1,2 g/noche o espuma 2 g/noche por 4 a 6 semanas.",
+   "explicacion": "Sulfasalazina = sulfapiridina + 5-ASA unidos por enlace azo; las bacterias del colon lo separan y la sulfapiridina causa la mayor parte de la toxicidad. Mesalazina: CU leve a moderada; supositorios 500 mg/8 h, enemas 1,2 g/noche o espuma 2 g/noche por 4 a 6 semanas.",
    "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 26 a 29",
    "guia": {
     "t": "• Mesalazina (5-ASA) es la base del tratamiento de la CU leve a moderada: rectal en proctitis, oral en colitis extensa (en proctitis, 1 g/día por vía rectal).\n• La ACG contempla budesonida MMX oral y corticoides sistémicos para inducir remisión; los corticoides sistémicos se desaconsejan para mantener.\n• Tiopurinas y metotrexato no se recomiendan para inducción.\n• En CU moderada a grave: biológicos, inhibidores JAK o moduladores S1P; vedolizumab se recomienda para inducción y mantenimiento.\n• La calprotectina fecal se recomienda para evaluar respuesta y sospecha de recaída.",
@@ -453,7 +451,7 @@
    "opciones": [
     {
      "t": "Dependencia de esteroides o enfermedad fistulizante",
-     "por": "Son las indicaciones de la lámina para estos inmunomoduladores.",
+     "por": "Son las indicaciones para estos inmunomoduladores.",
      "full": "Refractariedad o dependencia de esteroides, enfermedad perianal, Crohn fistulizante y mantenimiento de la remisión"
     },
     {

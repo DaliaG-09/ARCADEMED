@@ -87,8 +87,7 @@
    "correcta": 0,
    "explicacion": "Regla práctica: Wegener es anti-PR3 (c-ANCA); poliangeítis microscópica, pauciinmune y Churg-Strauss son sobre todo anti-MPO.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 9",
-   "contexto": "ANCA = anticuerpos anticitoplasma de neutrófilos. Hay dos tipos: anti-PR3 (proteinasa 3) y anti-MPO (mieloperoxidasa). Ayudan a diagnosticar las vasculitis de pequeños vasos.",
-   "nota": "La regla c-ANCA/p-ANCA es conocimiento general (complemento); la tabla de la lámina solo dice anti-PR3 y anti-MPO."
+   "contexto": "ANCA = anticuerpos anticitoplasma de neutrófilos. Hay dos tipos: anti-PR3 (proteinasa 3) y anti-MPO (mieloperoxidasa). Ayudan a diagnosticar las vasculitis de pequeños vasos."
   },
   {
    "id": "n-sis-man",
@@ -146,8 +145,7 @@
    ],
    "correcta": 0,
    "explicacion": "Para tu práctica en Lima: usa guías KDIGO de glomerulonefritis y consulta con nefrología en cuanto sospeches vasculitis ANCA.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 11",
-   "nota": "La última frase es complemento (práctica); lo del PPT está en la lámina 11."
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 11"
   },
   {
    "id": "n-sis-hsp1",
@@ -236,7 +234,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Clínica de la lámina 16: trombocitopenia con tendencia al sangrado (hematuria, epistaxis, púrpura), anemia hemolítica, hematuria o proteinuria, insuficiencia renal, arritmia, confusión y convulsiones.",
+   "explicacion": "Clínica: trombocitopenia con tendencia al sangrado (hematuria, epistaxis, púrpura), anemia hemolítica, hematuria o proteinuria, insuficiencia renal, arritmia, confusión y convulsiones.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 15 y 16"
   },
   {
@@ -308,7 +306,7 @@
    "opciones": [
     {
      "t": "IECA, para controlar la hipertensión",
-     "por": "La clase dice que a nivel renal el control de la presión con IECA es el tratamiento de elección. Para el resto: control de síntomas, D-penicilamina y colchicina (antifibróticos)."
+     "por": "En el riñón esclerodérmico el IECA es el tratamiento de elección porque controla la presión."
     },
     {
      "t": "Rituximab endovenoso semanal",
@@ -395,8 +393,8 @@
    "opciones": [
     {
      "t": "Primaria: lambda; depósito de cadenas ligeras: kappa",
-     "por": "Así lo indica la lámina 22.",
-     "full": "Amiloidosis primaria: cadena lambda. Depósito de cadenas ligeras: cadena kappa"
+     "full": "Amiloidosis primaria: cadena lambda. Depósito de cadenas ligeras: cadena kappa",
+     "por": "La amiloidosis primaria deposita cadena lambda y la enfermedad de depósito de cadenas ligeras, kappa."
     },
     {
      "t": "Ambas depositan cadena lambda",
@@ -472,7 +470,7 @@
    "correcta": 0,
    "explicacion": "Síntomas generales: fiebre, astenia, pérdida de peso. Hematológicos: anemia, hepatoesplenomegalia, linfadenopatías.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 25",
-   "nota": "El nombre 'Waldenström' no aparece en la lámina; se deduce de la descripción (IgM, células linfoplasmocitoides)."
+   "nota": "El nombre 'Waldenström' no aparece; se deduce de la descripción (IgM, células linfoplasmocitoides)."
   },
   {
    "id": "n-sis-les",
@@ -548,11 +546,11 @@
     },
     {
      "t": "Hepatitis C: GN postestreptocócica",
-     "por": "No es la que describe la lámina."
+     "por": "La GN postestreptocócica sigue a una infección por estreptococo, no a la hepatitis C."
     },
     {
      "t": "Hepatitis B: cambios mínimos",
-     "por": "La lámina cita GN postinfecciosa."
+     "por": "En la hepatitis B se describe GN postinfecciosa, no cambios mínimos."
     },
     {
      "t": "Ninguna afecta el riñón",
@@ -649,7 +647,7 @@
    "correcta": 0,
    "explicacion": "Otitis crónica con hipoacusia más daño renal sugiere granulomatosis con poliangeítis, una vasculitis ANCA. Se confirma con ANCA y biopsia renal, y la inducción es con esteroides y ciclofosfamida.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 39",
-   "nota": "La lámina solo plantea las preguntas; la respuesta es una interpretación basada en la clase."
+   "nota": "la respuesta es una interpretación basada."
   }
  ],
  "tarjetas": [

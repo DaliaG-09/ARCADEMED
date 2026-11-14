@@ -9,7 +9,7 @@
    "opciones": [
     {
      "t": "Lesión de la mucosa digestiva por ácido gástrico y pepsina",
-     "por": "Es la definición de la lámina. Afecta sobre todo estómago y duodeno.",
+     "por": "Es la definición. Afecta sobre todo estómago y duodeno.",
      "full": "Discontinuidad del revestimiento interno del tubo digestivo por acción del ácido gástrico y la pepsina"
     },
     {
@@ -51,7 +51,7 @@
     },
     {
      "t": "La cápsula polisacárida",
-     "por": "No figura en la lámina como mecanismo de supervivencia en el ácido."
+     "por": "La cápsula no es lo que permite sobrevivir en el ácido: es la ureasa."
     }
    ],
    "correcta": 0,
@@ -109,11 +109,11 @@
     },
     {
      "t": "Una prueba de laboratorio de rutina",
-     "por": "La lámina dice explícitamente que no existe prueba de laboratorio diagnóstica."
+     "por": "No existe una prueba de laboratorio diagnóstica de rutina."
     }
    ],
    "correcta": 0,
-   "explicacion": "Estándar de oro: endoscopía digestiva alta con biopsia. Pruebas no invasivas: test de urea y antígeno fecal; la lámina advierte que los IBP (inhibidores de la bomba de protones) pueden dar falsos negativos.",
+   "explicacion": "Estándar de oro: endoscopía digestiva alta con biopsia. Pruebas no invasivas: test de urea y antígeno fecal; los IBP (inhibidores de la bomba de protones) pueden dar falsos negativos.",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 11 a 13",
    "nota": "* El PPT dice que los IBP dan falsos positivos; en realidad dan falsos negativos (por eso se suspenden unas 2 semanas antes del test de aliento o del antígeno fecal)."
   },
@@ -143,8 +143,7 @@
    ],
    "correcta": 0,
    "explicacion": "Histología de la úlcera: pérdida del epitelio hasta la muscular, restos inflamatorios y necróticos, agregados linfoides con centros germinales y proceso linfoplasmocitario. La atipia glandular (forma, tamaño, núcleo y mitosis) orienta a malignidad. La biopsia excluye tumor y determina H. pylori.",
-   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 15 a 17 y 30",
-   "nota": "Que la úlcera duodenal casi nunca es maligna es un complemento."
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 15 a 17 y 30"
   },
   {
    "id": "g-eup-forrest",
@@ -194,7 +193,7 @@
     },
     {
      "t": "IBP, claritromicina y levofloxacina",
-     "por": "No es uno de los esquemas de primera línea de la lámina."
+     "por": "No es uno de los esquemas de primera línea."
     },
     {
      "t": "Solo IBP por 8 semanas",
@@ -278,7 +277,7 @@
     "t": "• La ACG 2024 usa la cuádruple con bismuto (con tetraciclina, sin amoxicilina), y no contiene amoxicilina, así que es la opción natural en alérgicos a penicilina.\n• Dura 14 días: IBP a dosis estándar cada 12 h + bismuto + tetraciclina 500 mg cada 6 h + metronidazol 500 mg cada 6 a 8 h.\n• La triple con claritromicina ya no es de primera línea.",
     "f": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection (Chey et al., Am J Gastroenterol 2024;119:1730-1753)"
    },
-   "nota": "Las láminas 18 y 19 del PPT dan dosis distintas para este esquema (IBP 20 mg con intervalo de 6 h y IBP 40 mg cada 8 h). Lo importante para responder es la combinación de fármacos, no el intervalo."
+   "nota": "Lo importante para responder es la combinación de fármacos, no el intervalo."
   },
   {
    "id": "g-eup-aine",
@@ -308,7 +307,7 @@
    "correcta": 0,
    "explicacion": "Úlcera por AINE: 10 a 20 % de usuarios crónicos de AINE; la mayoría son asintomáticas; los COX-2 selectivos disminuyen 75 % la aparición; la aspirina inhibe COX-1 y COX-2 de forma irreversible y duplica el riesgo de sangrado. COX = ciclooxigenasa; protege la mucosa sintetizando prostaglandinas.",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 7 y 21",
-   "nota": "El porcentaje exacto de úlceras gástricas y duodenales por AINE varía entre lámina 21 y otros textos; la cifra de 10 a 20 % es la que figura en la clase."
+   "nota": "la cifra de 10 a 20 % es la que figura."
   },
   {
    "id": "g-eup-epi",
@@ -328,7 +327,7 @@
     },
     {
      "t": "No hay diferencias regionales",
-     "por": "La lámina señala variaciones regionales."
+     "por": "Sí hay variaciones regionales en el Perú."
     },
     {
      "t": "Afecta solo a varones jóvenes",

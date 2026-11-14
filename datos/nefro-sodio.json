@@ -14,7 +14,7 @@
     },
     {
      "t": "Una pérdida absoluta de sodio corporal",
-     "por": "Puede pasar (vómitos, diarrea), pero la lámina dice que lo más frecuente es el exceso relativo de agua."
+     "por": "Puede ocurrir (vómitos, diarrea), pero lo habitual es un exceso relativo de agua."
     },
     {
      "t": "Un exceso de potasio",
@@ -66,7 +66,7 @@
    "opciones": [
     {
      "t": "2 × Na⁺ + glucosa/18 + urea/6",
-     "por": "El sodio, la glucosa y la urea son los osmoles principales (lámina 36). El 2 multiplica al sodio porque cada Na⁺ arrastra un anión.",
+     "por": "El sodio, la glucosa y la urea son los osmoles principales. El 2 multiplica al sodio porque cada Na⁺ arrastra un anión.",
      "full": "2 × Na⁺ + glucosa/18 + urea/6 (normal 275 a 290 mOsm/kg)"
     },
     {
@@ -250,17 +250,17 @@
     },
     {
      "t": "68",
-     "por": "68 es el valor que la lámina da para el NaCl 20 % (ver la nota sobre la unidad)."
+     "por": "68 es el sodio de una ampolla de NaCl 20 %, no de la solución al 3 %."
     },
     {
      "t": "20",
-     "por": "20 es el valor que la lámina da para el bicarbonato de sodio 8.5 % (ver la nota sobre la unidad)."
+     "por": "20 es el valor del bicarbonato de sodio 8.5 %, no del NaCl 3 %."
     }
    ],
    "correcta": 0,
-   "explicacion": "Soluciones de la lámina: NaCl 3 % = 513; NaCl 0.9 % = 154; NaCl 20 % = 68; bicarbonato de sodio 8.5 % = 20. Los dos últimos valores corresponden en realidad a una ampolla de 20 mL (no a un litro).",
+   "explicacion": "Soluciones: NaCl 3 % = 513; NaCl 0.9 % = 154; NaCl 20 % = 68; bicarbonato de sodio 8.5 % = 20. Los dos últimos valores corresponden en realidad a una ampolla de 20 mL (no a un litro).",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 17",
-   "nota": "NaCl 20 % tiene unos 3400 mEq/L y el bicarbonato 8.5 % unos 1000 mEq/L; los 68 y 20 de la lámina son los mEq de una ampolla de 20 mL. Se usan así en los casos de la clase (1 ampolla en 1 L). Para el examen, usa los números de la lámina."
+   "nota": "NaCl 20 % tiene unos 3400 mEq/L y el bicarbonato 8.5 % unos 1000 mEq/L; los 68 y 20 son los mEq de una ampolla de 20 mL. Se usan así en los casos (1 ampolla en 1 L). Para el examen, usa esos números."
   },
   {
    "id": "n-na-meta",
@@ -289,7 +289,7 @@
    "correcta": 0,
    "explicacion": "Un corregido excesivo provoca síndrome de desmielinización osmótica.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 21",
-   "nota": "Los talleres de la clase dan metas de 4 a 8, 8 a 10 o 10 a 12 mEq/L según la lámina. Aquí la lámina de tratamiento de hipernatremia (lám. 26) dice no más de 8 mEq/L en 24 h.",
+   "nota": "Según el caso se usan metas de 4 a 8, 8 a 10 o 10 a 12 mEq/L; en hipernatremia el tratamiento indica no más de 8 mEq/L en 24 h.",
    "guia": {
     "t": "• La guía europea 2014 limita la subida de sodio a 10 mmol/L en las primeras 24 h y 8 mmol/L cada 24 h después.\n• En pacientes con riesgo de síndrome de desmielinización osmótica (hipopotasemia, desnutrición, alcoholismo) el límite es 8 mmol/L en 24 h.\n• Tu PPT dice máximo 8 en 24 h; es el límite estricto. Para el examen manda la PPT.",
     "f": "Guía europea de hiponatremia 2014 (ESE/ERA-EDTA/ESICM; Spasovski et al., Eur J Endocrinol 2014;170:G1-G47)"
@@ -304,7 +304,7 @@
    "opciones": [
     {
      "t": "≈ 18.5 mEq/L",
-     "por": "ACT = 0.45 × 46 = 20.7 (la lámina redondea a 21). (513−112)/(20.7+1) = 18.5."
+     "por": "ACT = 0.45 × 46 = 20.7; (513 − 112) / (20.7 + 1) = 18.5 mEq/L."
     },
     {
      "t": "≈ 19.4 mEq/L",
@@ -323,7 +323,7 @@
    "explicacion": "Con la meta de 8 mEq/L en 24 h: 433 mL, es decir unos 18.0 mL/h por bomba de infusión y control de electrolitos cada 3 a 4 horas.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 20",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (mEq por ampolla de 20 mL); dextrosa 5 % no tiene sodio.",
-   "nota": "La lámina redondea el ACT a 21 y obtiene 18.2 mEq/L, 440 mL y 18.3 mL/h; con 20.7 el resultado cambia ligeramente."
+   "nota": "El ACT se redondea a 21 y se obtiene 18.2 mEq/L, 440 mL y 18.3 mL/h; con 20.7 el resultado cambia ligeramente."
   },
   {
    "id": "n-na-c1b",
@@ -469,7 +469,7 @@
    "explicacion": "Cambio = (68 − 168) / (0.5 × 68 + 1) = −100 / 35 = −2.86 mEq/L por litro. Para bajar 4 mEq/L en 12 h hacen falta unos 1400 mL, es decir, unos 117 mL/h.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 29",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68; dextrosa 5 % no tiene sodio.",
-   "nota": "La lámina obtiene −2.8 mEq/L, 1430 mL y 120 mL/h; con el valor exacto (−2.86) salen unos 1400 mL y 117 mL/h. El ritmo es muy similar."
+   "nota": "Con −2.8 salen 1430 mL y 120 mL/h; con el valor exacto (−2.86) salen unos 1400 mL y 117 mL/h. El ritmo es muy similar."
   },
   {
    "id": "n-na-txhn",
@@ -530,8 +530,7 @@
    ],
    "correcta": 0,
    "explicacion": "Grave: Na⁺ <125. La falta de respuesta al suero salino sugiere SIAD (secreción inadecuada de ADH).",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 3 y 33",
-   "nota": "La lámina clasifica el caso y no nombra SIAD; la sospecha de SIAD es un complemento por la falta de respuesta al salino."
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 3 y 33"
   }
  ],
  "tarjetas": [
