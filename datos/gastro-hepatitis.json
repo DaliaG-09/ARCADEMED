@@ -181,7 +181,7 @@
    "enunciado": "¿Qué se sabe del virus de la hepatitis B (VHB)?",
    "opciones": [
     {
-     "t": "Virus ADN Hepadnaviridae; el gen X participa en el cáncer",
+     "t": "Virus ADN Hepadnaviridae; gen X en el cáncer",
      "por": "Tiene cuatro genes: core, superficie, X y polimerasa.",
      "full": "Es un virus ADN de la familia Hepadnaviridae; el gen X participa en la carcinogénesis hepática"
     },
@@ -297,19 +297,20 @@
    "enunciado": "¿Qué situación indica HBsAg (−), anti-HBs (+), IgM anti-HBc (−) y anti-HBc total (+)?",
    "opciones": [
     {
-     "t": "Infección pasada, ya resuelta",
-     "por": "Hay anticuerpo contra el core (exposición) y contra la superficie (inmunidad) sin antígeno."
+     "t": "Infección pasada resuelta",
+     "por": "Hay anticuerpo contra el core (exposición) y contra la superficie (inmunidad) sin antígeno.",
+     "full": "Infección pasada, ya resuelta"
     },
     {
-     "t": "Vacunación",
+     "t": "Vacunación previa sin infección",
      "por": "La vacuna da anti-HBs aislado: anti-HBc total negativo."
     },
     {
-     "t": "Infección aguda",
+     "t": "Infección aguda en curso",
      "por": "Tendría HBsAg positivo e IgM anti-HBc positiva."
     },
     {
-     "t": "Infección crónica",
+     "t": "Infección crónica activa",
      "por": "Tendría HBsAg positivo y anti-HBs negativo."
     }
    ],
@@ -416,7 +417,7 @@
    "enunciado": "¿Cuál es una indicación de tratamiento de la hepatitis B crónica?",
    "opciones": [
     {
-     "t": "ADN VHB >20 000 UI/ml con transaminasas altas o biopsia activa",
+     "t": "ADN VHB >20 000 UI/ml con transaminasas altas",
      "por": "La lámina menciona estos tres criterios, con HBeAg positivo o negativo.",
      "full": "ADN del VHB mayor de 20 000 UI/ml, con transaminasas elevadas o hepatitis crónica en la biopsia"
     },
@@ -662,7 +663,7 @@
    "enunciado": "¿Qué característica particular tiene la hepatitis E?",
    "opciones": [
     {
-     "t": "En embarazadas, hepatitis fulminante con mortalidad de 20 a 25 %",
+     "t": "En embarazadas, hepatitis fulminante (20-25 %)",
      "por": "Se transmite por vía oral-fecal por agua contaminada, con incubación de 15 a 60 días.",
      "full": "En embarazadas puede producir hepatitis fulminante con mortalidad de 20 a 25 %"
     },

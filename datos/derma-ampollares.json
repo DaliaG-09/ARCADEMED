@@ -8,7 +8,7 @@
    "enunciado": "¿Qué mecanismos producen las ampollas?",
    "opciones": [
     {
-     "t": "Pérdida de cohesión entre queratinocitos o desprendimiento epidermis-dermis",
+     "t": "Acantólisis o desprendimiento epidermis-dermis",
      "por": "Las ampollas resultan de la pérdida de cohesión entre queratinocitos (acantólisis) o del desprendimiento entre epidermis y dermis.",
      "full": "Acantólisis (pérdida de cohesión entre queratinocitos) o desprendimiento epidermis-dermis"
     },
@@ -37,7 +37,7 @@
    "enunciado": "¿En qué tres grupos se clasifican etiológicamente las enfermedades ampollares?",
    "opciones": [
     {
-     "t": "Autoinmunes, hereditarias y tóxicas o inducidas por fármacos",
+     "t": "Autoinmunes, hereditarias y tóxicas",
      "por": "Se clasifican en autoinmunes (pénfigo vulgar, penfigoide), hereditarias (epidermólisis bullosa) y tóxicas o inducidas por medicamentos (necrólisis epidérmica tóxica).",
      "full": "Autoinmunes, hereditarias y tóxicas o inducidas por fármacos"
     },
@@ -95,7 +95,7 @@
    "enunciado": "¿En qué grupo etario es más frecuente el pénfigo vulgar?",
    "opciones": [
     {
-     "t": "En personas de mediana edad, de 40 a 60 años",
+     "t": "Mediana edad, de 40 a 60 años",
      "por": "El pénfigo vulgar es más frecuente en personas de 40-60 años, con mayor prevalencia en poblaciones mediterráneas, judías o indias.",
      "full": "De 40 a 60 años"
     },
@@ -124,7 +124,7 @@
    "enunciado": "¿Quién tiene más probabilidad de dermatitis herpetiforme?",
    "opciones": [
     {
-     "t": "Personas jóvenes con enfermedad celíaca no diagnosticada",
+     "t": "Jóvenes con celiaquía no diagnosticada",
      "por": "Es más común en jóvenes con enfermedad celíaca no diagnosticada, con prevalencia de 11-39 casos por millón.",
      "full": "Jóvenes con enfermedad celíaca no diagnosticada"
     },
@@ -133,7 +133,7 @@
      "por": "No es el grupo típico."
     },
     {
-     "t": "Niños con ictiosis",
+     "t": "Niños con ictiosis congénita",
      "por": "No es el grupo típico."
     },
     {
@@ -153,7 +153,7 @@
    "enunciado": "¿Qué ocurre en la fisiopatología del pénfigo vulgar?",
    "opciones": [
     {
-     "t": "Autoanticuerpos IgG contra desmogleínas causan acantólisis",
+     "t": "IgG contra desmogleínas, con acantólisis",
      "por": "Los autoanticuerpos IgG contra las desmogleínas de los desmosomas producen acantólisis y ampollas flácidas intraepidérmicas.",
      "full": "Autoanticuerpos IgG contra desmogleínas con acantólisis"
     },
@@ -240,7 +240,7 @@
    "enunciado": "¿Qué causa la epidermólisis bullosa?",
    "opciones": [
     {
-     "t": "Mutaciones en genes de colágeno VII o queratinas",
+     "t": "Mutaciones de colágeno VII o queratinas",
      "por": "Es genética, con mutaciones en proteínas estructurales como colágeno VII o queratinas y unión dermoepidérmica defectuosa.",
      "full": "Mutaciones en genes de colágeno VII o queratinas"
     },
@@ -298,20 +298,20 @@
    "enunciado": "¿Cuál es el grupo de las ampollares hereditarias?",
    "opciones": [
     {
-     "t": "Epidermólisis bullosa simple, juntural y distrófica",
+     "t": "Epidermólisis bullosa simple, juntural, distrófica",
      "por": "Las hereditarias son la epidermólisis bullosa simple, juntural y distrófica; las tóxicas son la necrólisis epidérmica tóxica y el síndrome de Stevens-Johnson.",
      "full": "Epidermólisis bullosa simple, juntural y distrófica"
     },
     {
-     "t": "Pénfigo vulgar y foliáceo",
+     "t": "Pénfigo vulgar y pénfigo foliáceo",
      "por": "Son autoinmunes intraepidérmicas."
     },
     {
-     "t": "Necrólisis epidérmica tóxica",
+     "t": "Necrólisis epidérmica tóxica y SJS",
      "por": "Es tóxica o inducida."
     },
     {
-     "t": "Dermatitis herpetiforme",
+     "t": "Dermatitis herpetiforme y penfigoide",
      "por": "Es autoinmune subepidérmica."
     }
    ],
@@ -356,7 +356,7 @@
    "enunciado": "¿Cómo se presenta el penfigoide ampolloso? *",
    "opciones": [
     {
-     "t": "Ampollas tensas en piel, con mucosas casi siempre respetadas",
+     "t": "Ampollas tensas con mucosas casi siempre respetadas",
      "por": "Es la ampollar más común en adultos mayores, con ampollas tensas y rara afectación mucosa; los anticuerpos van contra hemidesmosomas.",
      "full": "Ampollas tensas en piel, casi siempre con mucosas respetadas"
     },
@@ -386,20 +386,20 @@
    "enunciado": "¿Qué lesiones tiene la dermatitis herpetiforme?",
    "opciones": [
     {
-     "t": "Lesiones agrupadas y muy pruriginosas, con relación a enfermedad celíaca",
+     "t": "Lesiones agrupadas, muy pruriginosas, con celiaquía",
      "por": "Se caracteriza por lesiones agrupadas y pruriginosas con depósitos de IgA en papilas dérmicas y relación con enfermedad celíaca.",
      "full": "Lesiones agrupadas muy pruriginosas, asociadas a enfermedad celíaca"
     },
     {
-     "t": "Ampollas flácidas en mucosa oral",
+     "t": "Ampollas flácidas en mucosa oral y piel",
      "por": "Es el pénfigo vulgar."
     },
     {
-     "t": "Ampollas tensas en mayores",
+     "t": "Ampollas tensas en adultos mayores",
      "por": "Es el penfigoide."
     },
     {
-     "t": "Ampollas congénitas por fragilidad",
+     "t": "Ampollas congénitas por fragilidad cutánea",
      "por": "Es la epidermólisis bullosa."
     }
    ],
@@ -444,7 +444,7 @@
    "enunciado": "¿Dónde se toma la biopsia para el estudio histológico de una ampolla?",
    "opciones": [
     {
-     "t": "En piel perilesional, zona sana adyacente a la ampolla",
+     "t": "En piel perilesional, sana, junto a la ampolla",
      "por": "La biopsia se toma en piel perilesional (zona sana adyacente a la ampolla).",
      "full": "Piel perilesional, zona sana adyacente a la ampolla"
     },
@@ -473,7 +473,7 @@
    "enunciado": "¿Qué muestra la histología del penfigoide ampolloso?",
    "opciones": [
     {
-     "t": "Ampolla subepidérmica con infiltrado eosinofílico",
+     "t": "Ampolla subepidérmica con eosinófilos",
      "por": "Se evidencian ampollas subepidérmicas con infiltrado eosinofílico.",
      "full": "Ampolla subepidérmica con infiltrado eosinofílico"
     },
@@ -502,7 +502,7 @@
    "enunciado": "¿Qué patrón muestra la inmunofluorescencia directa del pénfigo?",
    "opciones": [
     {
-     "t": "Depósitos de IgG en red alrededor de los queratinocitos",
+     "t": "IgG en red alrededor de los queratinocitos",
      "por": "En el pénfigo hay depósitos de IgG en red alrededor de los queratinocitos.",
      "full": "Depósitos de IgG en red alrededor de los queratinocitos"
     },
@@ -531,7 +531,7 @@
    "enunciado": "¿Qué patrón muestra la inmunofluorescencia directa del penfigoide?",
    "opciones": [
     {
-     "t": "Depósitos lineales de IgG y C3 a lo largo de la membrana basal",
+     "t": "IgG y C3 lineales en la membrana basal",
      "por": "En el penfigoide hay depósitos lineales de IgG y C3 en la membrana basal.",
      "full": "Depósitos lineales de IgG y C3 en la membrana basal"
     },
@@ -560,20 +560,20 @@
    "enunciado": "¿Qué pruebas adicionales se usan en pénfigo y penfigoide?",
    "opciones": [
     {
-     "t": "ELISA para desmogleínas 1 y 3 (pénfigo) y BP180 y BP230 (penfigoide)",
+     "t": "ELISA para Dsg 1 y 3 y para BP180 y BP230",
      "por": "Se usa ELISA para desmogleínas 1 y 3 en pénfigo y para BP180 y BP230 en penfigoide; en epidermólisis bullosa, pruebas genéticas.",
      "full": "ELISA para desmogleínas 1 y 3 y para BP180 y BP230"
     },
     {
-     "t": "Cultivo de Sabouraud",
+     "t": "Cultivo en medio de Sabouraud",
      "por": "Es para micosis."
     },
     {
-     "t": "Prueba de parche",
+     "t": "Prueba de parche con alérgenos",
      "por": "Es para dermatitis de contacto."
     },
     {
-     "t": "Frotis de Tzanck solamente",
+     "t": "Frotis de Tzanck de la base",
      "por": "No confirma estas enfermedades."
     }
    ],
@@ -618,20 +618,20 @@
    "enunciado": "¿Cómo se trata el penfigoide ampolloso localizado y el extenso?",
    "opciones": [
     {
-     "t": "Corticoides tópicos de alta potencia si es localizado; sistémicos si es extenso",
+     "t": "Tópicos potentes si es localizado; sistémicos si es extenso",
      "por": "En formas localizadas son efectivos los corticoides tópicos de alta potencia; en casos extensos se requieren esteroides sistémicos.",
      "full": "Corticoide tópico de alta potencia (localizado) o sistémico (extenso)"
     },
     {
-     "t": "Rituximab en todos",
+     "t": "Rituximab como primera línea en todos los casos",
      "por": "Es primera línea del pénfigo vulgar."
     },
     {
-     "t": "Dapsona y dieta sin gluten",
+     "t": "Dapsona y dieta libre de gluten estricta",
      "por": "Es de dermatitis herpetiforme."
     },
     {
-     "t": "Solo curas",
+     "t": "Solo curas locales y manejo del dolor, sin fármacos",
      "por": "Es soporte de epidermólisis bullosa."
     }
    ],
@@ -652,15 +652,15 @@
      "full": "Dieta libre de gluten más dapsona"
     },
     {
-     "t": "Rituximab en todos",
+     "t": "Rituximab como primera línea en todos",
      "por": "Es del pénfigo."
     },
     {
-     "t": "Corticoide tópico únicamente",
+     "t": "Corticoide tópico potente como único tratamiento",
      "por": "No es el tratamiento indicado."
     },
     {
-     "t": "Terapia génica",
+     "t": "Terapia génica dirigida al colágeno VII",
      "por": "Está en investigación para epidermólisis bullosa."
     }
    ],
@@ -676,20 +676,20 @@
    "enunciado": "¿Cuál es el tratamiento de la epidermólisis bullosa?",
    "opciones": [
     {
-     "t": "Principalmente de soporte: cuidado de heridas, dolor e infecciones",
+     "t": "Soporte: heridas, dolor y prevención de infecciones",
      "por": "El tratamiento es de soporte (heridas, dolor, prevención de infecciones); la terapia génica está en investigación.",
      "full": "De soporte: heridas, dolor y prevención de infecciones"
     },
     {
-     "t": "Rituximab",
+     "t": "Rituximab como primera línea",
      "por": "Es del pénfigo vulgar."
     },
     {
-     "t": "Dieta sin gluten",
+     "t": "Dieta libre de gluten más dapsona",
      "por": "Es de dermatitis herpetiforme."
     },
     {
-     "t": "Corticoides tópicos de alta potencia",
+     "t": "Corticoides tópicos potentes de por vida",
      "por": "Son del penfigoide."
     }
    ],
@@ -710,15 +710,15 @@
      "full": "Remisión en más del 80 % a los 24 meses"
     },
     {
-     "t": "Mortalidad inevitable",
+     "t": "Mortalidad inevitable pese al tratamiento",
      "por": "El rituximab mejoró la remisión."
     },
     {
-     "t": "Remisión espontánea en todos",
+     "t": "Remisión espontánea en todos los casos",
      "por": "Sin tratamiento puede ser potencialmente mortal."
     },
     {
-     "t": "Sin respuesta al tratamiento",
+     "t": "Sin respuesta a ningún tratamiento",
      "por": "Sí hay respuesta."
     }
    ],

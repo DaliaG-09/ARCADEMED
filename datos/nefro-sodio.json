@@ -8,7 +8,7 @@
    "enunciado": "¿Qué refleja casi siempre una hiponatremia?",
    "opciones": [
     {
-     "t": "Exceso de agua relativo al sodio, no pérdida de sodio",
+     "t": "Exceso de agua relativo al sodio",
      "por": "Casi siempre hay demasiada agua en relación con el sodio. Por eso la hiponatremia se corrige regulando el agua, y no solo dando sal.",
      "full": "Un exceso de agua en relación con el sodio, más que una pérdida absoluta de sodio"
     },
@@ -483,15 +483,15 @@
      "por": "Se controla el sodio de forma seriada y se valora la mejoría de los síntomas neurológicos."
     },
     {
-     "t": "20 mEq/L en 24 horas",
+     "t": "20 mEq/L en las primeras 24 horas",
      "por": "Bajar el sodio tan rápido hace entrar agua a las neuronas y causa edema cerebral."
     },
     {
-     "t": "Corregir en 1 hora",
+     "t": "Corregir completamente en 1 hora",
      "por": "Es muy rápido y peligroso."
     },
     {
-     "t": "No hay límite",
+     "t": "No existe límite de descenso",
      "por": "Sí hay un límite de seguridad."
     }
    ],

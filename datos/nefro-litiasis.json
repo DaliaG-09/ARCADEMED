@@ -42,15 +42,15 @@
      "por": "La mayoría de los coraliformes son de estruvita. Se forman con infecciones por bacterias que producen ureasa (Proteus mirabilis), que vuelve la orina alcalina."
     },
     {
-     "t": "Oxalato de calcio",
+     "t": "Oxalato de calcio, el más frecuente",
      "por": "Es el más frecuente en general, pero no es el típico del coraliforme."
     },
     {
-     "t": "Ácido úrico",
+     "t": "Ácido úrico, radiolúcido",
      "por": "Se forma en orina ácida, no con infección por bacterias con ureasa."
     },
     {
-     "t": "Cistina",
+     "t": "Cistina, de origen hereditario",
      "por": "Es un cálculo genético y raro; no es el típico coraliforme."
     }
    ],
@@ -183,7 +183,7 @@
    "enunciado": "¿Qué recomendación dietética corresponde a un paciente con litiasis?",
    "opciones": [
     {
-     "t": "Más de 2.5 L de líquido, calcio 800 mg a 1 g, sodio 2 a 3 g",
+     "t": "Más de 2.5 L de líquido y calcio 800 mg a 1 g",
      "por": "Los líquidos diluyen la orina. El calcio de la dieta se mantiene porque ayuda a que el oxalato se una en el intestino. Evitar espinaca, frutos secos y soja.",
      "full": "Más de 2.5 L de líquidos al día, calcio 800 mg a 1 g, sodio 2 a 3 g y evitar alimentos con oxalato"
     },
@@ -300,7 +300,7 @@
    "enunciado": "¿Qué es la uropatía obstructiva?",
    "opciones": [
     {
-     "t": "Obstáculo al flujo de orina con riesgo de fibrosis",
+     "t": "Obstáculo al flujo de orina",
      "por": "La obstrucción hace que la orina se acumule, dilate el riñón (hidronefrosis) y con el tiempo cause fibrosis.",
      "full": "Un cambio estructural o funcional que impide el flujo normal de la orina y puede causar ERC por fibrosis"
     },
@@ -334,15 +334,15 @@
      "por": "Agranda la próstata y comprime la uretra. También lo hacen el trauma uretral, la fimosis, algunos fármacos (anticolinérgicos, antidepresivos) y el cáncer de vejiga."
     },
     {
-     "t": "Aneurisma de aorta",
+     "t": "Aneurisma de aorta abdominal",
      "por": "Comprime desde fuera el uréter, es causa de vía alta."
     },
     {
-     "t": "Tumor ovárico",
+     "t": "Tumor de ovario voluminoso",
      "por": "Comprime el uréter desde fuera, es causa de vía alta."
     },
     {
-     "t": "Pancreatitis",
+     "t": "Pancreatitis aguda grave",
      "por": "La inflamación vecina puede comprimir el uréter; es causa extrínseca de vía alta."
     }
    ],
@@ -368,11 +368,11 @@
      "por": "Es causa de vía baja."
     },
     {
-     "t": "Estenosis uretral",
+     "t": "Estenosis uretral por infección previa",
      "por": "La uretra pertenece a la vía baja."
     },
     {
-     "t": "Fimosis",
+     "t": "Fimosis con balanitis a repetición",
      "por": "Obstruye la salida de la orina en el pene, vía baja."
     }
    ],

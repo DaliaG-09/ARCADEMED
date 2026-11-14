@@ -8,7 +8,7 @@
    "enunciado": "¿Cómo se caracteriza la dermatitis atópica?",
    "opciones": [
     {
-     "t": "Muy pruriginosa, con edema epidérmico, en cara y flexuras",
+     "t": "Muy pruriginosa, con edema epidérmico, en flexuras",
      "por": "Es un trastorno frecuente, extremadamente pruriginoso y de causa desconocida, con edema epidérmico, que suele afectar cara y zonas de flexión.",
      "full": "Muy pruriginosa, de causa desconocida, con edema epidérmico y afectación de cara y flexuras"
     },
@@ -37,19 +37,20 @@
    "enunciado": "¿Qué asociación tiene la dermatitis atópica con el asma?",
    "opciones": [
     {
-     "t": "Cerca del 30 % de los pacientes tiene asma",
-     "por": "La clase señala asma en 30 % de los pacientes con dermatitis atópica."
+     "t": "Cerca del 30 % tiene asma",
+     "por": "La clase señala asma en 30 % de los pacientes con dermatitis atópica.",
+     "full": "Cerca del 30 % de los pacientes tiene asma"
     },
     {
      "t": "Nunca se asocia con asma",
      "por": "Se asocia a otras enfermedades atópicas, entre ellas el asma."
     },
     {
-     "t": "Todos los pacientes tienen asma",
+     "t": "El 100 % de los pacientes tiene asma",
      "por": "La cifra es de 30 %, no del 100 %."
     },
     {
-     "t": "Solo en mayores de 65 años",
+     "t": "Solo aparece en mayores de 65 años",
      "por": "La dermatitis atópica es muy frecuente en lactantes y niños."
     }
    ],
@@ -94,20 +95,20 @@
    "enunciado": "¿Qué hallazgos tiene la biopsia en la dermatitis atópica?",
    "opciones": [
     {
-     "t": "Espongiosis, paraqueratosis y engrosamiento epidérmico",
+     "t": "Espongiosis, paraqueratosis y engrosamiento",
      "por": "La biopsia muestra espongiosis, engrosamiento epidérmico, paraqueratosis e infiltrado inflamatorio de linfocitos.",
      "full": "Espongiosis, engrosamiento epidérmico y paraqueratosis"
     },
     {
-     "t": "Atrofia epidérmica sin infiltrado",
+     "t": "Atrofia epidérmica sin infiltrado inflamatorio",
      "por": "Es lo contrario: hay engrosamiento epidérmico e infiltrado linfocitario."
     },
     {
-     "t": "Acantólisis suprabasal",
+     "t": "Acantólisis suprabasal con ampolla",
      "por": "Es del pénfigo vulgar."
     },
     {
-     "t": "Granulomas caseosos",
+     "t": "Granulomas caseosos con células gigantes",
      "por": "Son de la tuberculosis cutánea."
     }
    ],
@@ -186,15 +187,15 @@
      "por": "La tabla de segunda línea incluye azatioprina, metotrexato, micofenolato y dupilumab."
     },
     {
-     "t": "Isotretinoína 40 mg diarios",
+     "t": "Isotretinoína 40 mg diarios por 6 meses",
      "por": "No figura en la tabla de segunda línea de la dermatitis atópica."
     },
     {
-     "t": "Ivermectina oral única",
+     "t": "Ivermectina oral en dosis única",
      "por": "Es antiparasitario, no un fármaco de segunda línea de esta tabla."
     },
     {
-     "t": "Fluconazol semanal",
+     "t": "Fluconazol 150 mg una vez por semana",
      "por": "Es antifúngico, no corresponde al tratamiento sistémico de la dermatitis atópica."
     }
    ],
@@ -244,15 +245,15 @@
      "full": "En áreas con pelo, cuero cabelludo, flexuras y zona central del tronco"
     },
     {
-     "t": "En palmas y plantas únicamente",
+     "t": "Solo en palmas y plantas, con vesículas",
      "por": "Esa es la zona típica de la dermatitis dishidrótica."
     },
     {
-     "t": "En los dedos de las manos únicamente",
+     "t": "Solo en los dedos de las manos",
      "por": "No es la distribución de la seborreica."
     },
     {
-     "t": "Solo en los miembros inferiores",
+     "t": "Solo en los miembros inferiores, con edema",
      "por": "No es una localización típica."
     }
    ],
@@ -273,15 +274,15 @@
      "full": "Al varón de 40 años, con cara y cuero cabelludo"
     },
     {
-     "t": "A la mujer joven de 15 años",
+     "t": "Mujer joven de 15 años, en el tronco",
      "por": "No es el grupo de mayor frecuencia de la clase."
     },
     {
-     "t": "Solo a recién nacidos",
+     "t": "Solo recién nacidos, en la axila",
      "por": "Se observa en todas las edades, con prevalencia de 3 %."
     },
     {
-     "t": "Solo a deportistas",
+     "t": "Solo deportistas, por sudoración excesiva",
      "por": "No se relaciona con la actividad física."
     }
    ],
@@ -383,7 +384,7 @@
    "enunciado": "¿Qué es la dermatitis de contacto?",
    "opciones": [
     {
-     "t": "Exantema eccematoso por contacto con irritante o sensibilizante",
+     "t": "Exantema eccematoso por irritante o sensibilizante",
      "por": "Es un exantema eccematoso causado por el contacto directo con irritantes o sensibilizantes.",
      "full": "Exantema eccematoso por contacto directo con un irritante o sensibilizante"
     },
@@ -475,15 +476,15 @@
      "full": "Tipo IV; 12 a 48 horas tras el contacto"
     },
     {
-     "t": "Tipo I; en minutos",
+     "t": "Tipo I; en minutos tras el contacto",
      "por": "La tipo I es inmediata, como en la urticaria; la dermatitis de contacto es tardía."
     },
     {
-     "t": "Tipo II; en 7 días",
+     "t": "Tipo II; en 7 días tras el contacto",
      "por": "No es citotóxica."
     },
     {
-     "t": "Tipo III; en 3 semanas",
+     "t": "Tipo III; en 3 semanas tras el contacto",
      "por": "No es por inmunocomplejos."
     }
    ],
@@ -504,15 +505,15 @@
      "por": "El sulfato de níquel encabeza la tabla con 35.3 %; el cloruro de cobalto tiene 15.1 % y la mezcla de fragancias 14 %."
     },
     {
-     "t": "Cloruro de cobalto",
+     "t": "Cloruro de cobalto (15.1 %)",
      "por": "Está segundo, con 15.1 %."
     },
     {
-     "t": "Mezcla de fragancias",
+     "t": "Mezcla de fragancias (14 %)",
      "por": "Está tercero, con 14 %."
     },
     {
-     "t": "Bálsamo del Perú",
+     "t": "Bálsamo del Perú (8.5 %)",
      "por": "Tiene solo 8.5 % de reacciones positivas."
     }
    ],
@@ -565,11 +566,11 @@
      "por": "No es el esquema de la clase."
     },
     {
-     "t": "Orales por 6 meses",
+     "t": "Corticoides orales por 6 meses",
      "por": "Los corticoides orales no son la primera línea; la clase da tratamiento tópico."
     },
     {
-     "t": "Solo antihistamínicos",
+     "t": "Solo antihistamínicos orales",
      "por": "Tienen poca evidencia."
     }
    ],
@@ -647,15 +648,15 @@
      "full": "Esteroides orales de corta duración"
     },
     {
-     "t": "Rituximab semanal",
+     "t": "Rituximab semanal por 4 semanas",
      "por": "No figura en el tratamiento de la dermatitis dishidrótica."
     },
     {
-     "t": "Ketoconazol oral",
+     "t": "Ketoconazol oral por 6 semanas",
      "por": "No es tratamiento de esta dermatitis."
     },
     {
-     "t": "Isotretinoína oral",
+     "t": "Isotretinoína oral por 3 meses",
      "por": "No está indicada en la dermatitis dishidrótica."
     }
    ],

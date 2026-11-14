@@ -42,15 +42,15 @@
      "full": "Leishmania spp. (protozoario)"
     },
     {
-     "t": "Ancylostoma spp.",
+     "t": "Ancylostoma spp., un helminto",
      "por": "Produce larva migrans cutánea."
     },
     {
-     "t": "Sarcoptes scabiei",
+     "t": "Sarcoptes scabiei, un ácaro",
      "por": "Produce escabiosis."
     },
     {
-     "t": "Dermatobia hominis",
+     "t": "Dermatobia hominis, una mosca",
      "por": "Produce miasis."
     }
    ],
@@ -124,7 +124,7 @@
    "enunciado": "¿Cuál es un factor de riesgo de infección parasitaria cutánea?",
    "opciones": [
     {
-     "t": "Viaje a áreas endémicas o exposición a suelos y agua contaminados",
+     "t": "Viajes a zonas endémicas o agua contaminada",
      "por": "Son factores los viajes a áreas endémicas, malas condiciones sanitarias, contacto con portadores o vectores y exposición a suelos o agua contaminados.",
      "full": "Viajes a áreas endémicas, mala higiene y exposición a suelos o agua contaminados"
     },
@@ -133,7 +133,7 @@
      "por": "Los factores son lo contrario: clima cálido y mala higiene."
     },
     {
-     "t": "Uso de calzado cerrado",
+     "t": "Uso habitual de calzado cerrado",
      "por": "Es una medida preventiva."
     },
     {
@@ -211,7 +211,7 @@
    "enunciado": "¿Qué produce Leishmania en la piel?",
    "opciones": [
     {
-     "t": "Destruye macrófagos infectados y forma úlceras con granulomas",
+     "t": "Destruye macrófagos y forma úlceras con granulomas",
      "por": "Los protozoarios intracelulares destruyen macrófagos infectados y forman úlceras con infiltrado inflamatorio crónico y granulomas.",
      "full": "Destruye macrófagos y forma úlceras con granulomas"
     },
@@ -240,7 +240,7 @@
    "enunciado": "¿Qué produce la filariasis crónica?",
    "opciones": [
     {
-     "t": "Obstrucción linfática, fibrosis, linfedema y elefantiasis",
+     "t": "Obstrucción linfática, linfedema y elefantiasis",
      "por": "El depósito de microfilarias en los vasos linfáticos produce obstrucción, fibrosis y linfedema, que puede evolucionar a elefantiasis.",
      "full": "Obstrucción linfática con linfedema y elefantiasis"
     },
@@ -269,7 +269,7 @@
    "enunciado": "¿Cómo es la leishmaniasis cutánea?",
    "opciones": [
     {
-     "t": "Pápula que evoluciona a úlcera de bordes elevados y fondo necrótico",
+     "t": "Pápula que se ulcera: borde elevado, fondo necrótico",
      "por": "Son pápulas eritematosas que evolucionan a úlceras con bordes elevados y fondo necrótico, únicas o múltiples, en extremidades expuestas.",
      "full": "Pápula que se ulcera: borde elevado y fondo necrótico"
     },
@@ -298,20 +298,20 @@
    "enunciado": "¿Cómo se manifiesta la larva migrans cutánea?",
    "opciones": [
     {
-     "t": "Trayectos serpiginosos pruriginosos en pies o glúteos",
+     "t": "Trayecto serpiginoso pruriginoso en pies o glúteos",
      "por": "Las larvas migran bajo la epidermis y producen trayectos serpiginosos pruriginosos en pies o glúteos.",
      "full": "Trayectos serpiginosos pruriginosos en pies o glúteos"
     },
     {
-     "t": "Úlceras con fondo necrótico",
+     "t": "Úlceras con fondo necrótico en extremidades",
      "por": "Es la leishmaniasis."
     },
     {
-     "t": "Túneles en pliegues interdigitales",
+     "t": "Túneles interdigitales muy pruriginosos",
      "por": "Es la escabiosis."
     },
     {
-     "t": "Linfedema crónico",
+     "t": "Linfedema crónico de miembros inferiores",
      "por": "Es la filariasis."
     }
    ],
@@ -327,16 +327,16 @@
    "enunciado": "¿Cómo es la escabiosis?",
    "opciones": [
     {
-     "t": "Pápulas y túneles lineales muy pruriginosos en pliegues",
+     "t": "Pápulas y túneles pruriginosos en pliegues",
      "por": "Hay pápulas y túneles lineales muy pruriginosos en manos, axilas y genitales.",
      "full": "Pápulas y túneles lineales muy pruriginosos en pliegues (manos, axilas, genitales)"
     },
     {
-     "t": "Nódulos con larva visible",
+     "t": "Nódulos con larva visible y secreción",
      "por": "Es la miasis, no la escabiosis."
     },
     {
-     "t": "Úlceras de bordes elevados",
+     "t": "Úlceras de bordes elevados en extremidades",
      "por": "Es la leishmaniasis."
     },
     {
@@ -356,20 +356,20 @@
    "enunciado": "¿Cómo es la lesión de la miasis?",
    "opciones": [
     {
-     "t": "Nódulo doloroso con secreción seropurulenta y larva visible que se mueve",
+     "t": "Nódulo doloroso con larva visible que se mueve",
      "por": "La miasis se presenta como nódulos dolorosos con secreción seropurulenta y movimiento larval visible.",
      "full": "Nódulo doloroso con secreción seropurulenta y larva visible"
     },
     {
-     "t": "Túnel lineal pruriginoso",
+     "t": "Túnel lineal muy pruriginoso en pliegues",
      "por": "Es la escabiosis."
     },
     {
-     "t": "Placa ulcerada con granulomas",
+     "t": "Placa ulcerada con granulomas crónicos",
      "por": "Es la leishmaniasis."
     },
     {
-     "t": "Edema crónico de piernas",
+     "t": "Edema crónico de las piernas",
      "por": "Es la filariasis."
     }
    ],
@@ -390,15 +390,15 @@
      "full": "Raspado de piel con visualización del ácaro"
     },
     {
-     "t": "Cultivo en Sabouraud",
+     "t": "Cultivo en medio de Sabouraud",
      "por": "Es para micosis."
     },
     {
-     "t": "Prueba de parche",
+     "t": "Prueba de parche con alérgenos",
      "por": "Es para dermatitis de contacto."
     },
     {
-     "t": "Frotis de Tzanck",
+     "t": "Frotis de Tzanck de la base",
      "por": "Es para herpes."
     }
    ],
@@ -414,7 +414,7 @@
    "enunciado": "¿Cuál es el tratamiento de primera línea de la leishmaniasis cutánea?",
    "opciones": [
     {
-     "t": "Antimoniales pentavalentes IM o intralesionales por 20 días",
+     "t": "Antimoniales pentavalentes por 20 días",
      "por": "La primera línea son antimoniales pentavalentes por vía IM o intralesional por 20 días; alternativas: miltefosina oral y anfotericina B liposomal en casos graves, inmunosuprimidos o mucocutáneos.",
      "full": "Antimoniales pentavalentes IM o intralesionales por 20 días"
     },
@@ -423,11 +423,11 @@
      "por": "Es el tratamiento de la escabiosis."
     },
     {
-     "t": "Albendazol o ivermectina oral",
+     "t": "Albendazol o ivermectina por vía oral",
      "por": "Es para larva migrans."
     },
     {
-     "t": "Extracción mecánica de larvas",
+     "t": "Extracción mecánica de las larvas",
      "por": "Es para miasis."
     }
    ],
@@ -448,15 +448,15 @@
      "full": "Albendazol o ivermectina por vía oral"
     },
     {
-     "t": "Antimoniales pentavalentes",
+     "t": "Antimoniales pentavalentes por 20 días",
      "por": "Son de leishmaniasis."
     },
     {
-     "t": "Permetrina 5 % crema",
+     "t": "Permetrina 5 % crema en todo el cuerpo",
      "por": "Es de escabiosis."
     },
     {
-     "t": "Dietilcarbamazina",
+     "t": "Dietilcarbamazina por vía oral",
      "por": "Se usa en filariasis."
     }
    ],
@@ -472,20 +472,20 @@
    "enunciado": "¿Cómo se aplica la permetrina al 5 % en la escabiosis?",
    "opciones": [
     {
-     "t": "En todo el cuerpo por 8-14 horas y se repite a los 7 días",
+     "t": "Todo el cuerpo por 8-14 h; repetir a los 7 días",
      "por": "Se aplica crema en todo el cuerpo por 8-14 horas y se repite a los 7 días.",
      "full": "Crema en todo el cuerpo por 8-14 horas; repetir a los 7 días"
     },
     {
-     "t": "Solo en las lesiones por 1 hora",
+     "t": "Solo sobre las lesiones, por 1 hora",
      "por": "No es el esquema indicado."
     },
     {
-     "t": "Una vez al mes",
+     "t": "Una vez al mes en todo el cuerpo",
      "por": "No es el esquema."
     },
     {
-     "t": "Solo en cuero cabelludo",
+     "t": "Solo en cuero cabelludo, por 8 horas",
      "por": "Es para pediculosis, no el esquema de sarna."
     }
    ],
@@ -501,20 +501,20 @@
    "enunciado": "¿Cuándo se prefiere ivermectina oral en escabiosis?",
    "opciones": [
     {
-     "t": "Casos extensos, costrosos, brotes institucionales o mala adherencia al tópico",
+     "t": "Casos extensos, costrosos, brotes o mala adherencia",
      "por": "La ivermectina 200 μg/kg está indicada en casos extensos, costrosos o brotes institucionales, o con mala adherencia al tratamiento tópico.",
      "full": "Escabiosis extensa, costrosa, en brotes o con mala adherencia al tópico"
     },
     {
-     "t": "Siempre como primera línea",
+     "t": "Siempre, como primera línea en todos",
      "por": "La primera línea es permetrina tópica."
     },
     {
-     "t": "Solo en lesiones únicas",
+     "t": "Solo en lesiones únicas y pequeñas",
      "por": "No es la indicación."
     },
     {
-     "t": "Nunca se usa en escabiosis",
+     "t": "Nunca; está contraindicada",
      "por": "Sí está indicada en esos casos."
     }
    ],
@@ -559,20 +559,20 @@
    "enunciado": "¿Cuál es el tratamiento de la miasis?",
    "opciones": [
     {
-     "t": "Extracción mecánica de larvas, con ivermectina si son múltiples",
+     "t": "Extraer larvas; ivermectina si son múltiples",
      "por": "Se extraen las larvas, se da ivermectina si hay múltiples y profilaxis antibiótica local o sistémica.",
      "full": "Extracción mecánica de larvas; ivermectina si hay múltiples"
     },
     {
-     "t": "Permetrina al 5 % en todo el cuerpo",
+     "t": "Permetrina 5 % en todo el cuerpo",
      "por": "Es para escabiosis."
     },
     {
-     "t": "Antimoniales intralesionales",
+     "t": "Antimoniales por vía intralesional",
      "por": "Son para leishmaniasis."
     },
     {
-     "t": "Solo antihistamínicos",
+     "t": "Solo antihistamínicos orales",
      "por": "No tratan la larva."
     }
    ],
@@ -597,11 +597,11 @@
      "por": "Son para sarna."
     },
     {
-     "t": "Antimoniales pentavalentes",
+     "t": "Antimoniales pentavalentes y miltefosina",
      "por": "Son para leishmaniasis."
     },
     {
-     "t": "Nistatina y miconazol",
+     "t": "Nistatina y miconazol tópicos",
      "por": "Son antifúngicos."
     }
    ],
@@ -651,15 +651,15 @@
      "full": "Agua caliente por encima de 60 °C"
     },
     {
-     "t": "Agua fría",
+     "t": "Agua fría con jabón común",
      "por": "No elimina los parásitos."
     },
     {
-     "t": "A 30 °C",
+     "t": "Agua tibia a unos 30 °C",
      "por": "Es insuficiente."
     },
     {
-     "t": "No se lava, solo se airea",
+     "t": "No se lava; solo se airea al sol",
      "por": "No es la medida indicada."
     }
    ],
@@ -680,15 +680,15 @@
      "full": "Eclosiona el día 7-8; adulto el día 16-17 tras 3 mudas"
     },
     {
-     "t": "Eclosiona en 1 día y es adulto en 2",
+     "t": "Eclosiona al día 1 y es adulto al día 2",
      "por": "Es mucho más rápido que lo real."
     },
     {
-     "t": "Eclosiona a los 30 días y es adulto a los 60",
+     "t": "Eclosiona al día 30 y es adulto al día 60",
      "por": "Es mucho más lento que lo real."
     },
     {
-     "t": "No eclosiona nunca",
+     "t": "No eclosiona hasta contactar con otra persona",
      "por": "Sí eclosiona, a los 7-8 días."
     }
    ],
@@ -733,20 +733,20 @@
    "enunciado": "¿Cómo es el ciclo vital de la miasis?",
    "opciones": [
     {
-     "t": "Huevos en heridas; larvas en 1-2 días se alimentan 5-10 días y caen al suelo a pupar",
+     "t": "Huevos en heridas; larvas 5-10 días; luego pupan",
      "por": "Las moscas ponen huevos en heridas o piel intacta; las larvas emergen en 1-2 días, se alimentan 5-10 días y caen al suelo para pupar.",
      "full": "Huevos en heridas; larvas 5-10 días de alimentación; luego pupan en el suelo"
     },
     {
-     "t": "El parásito vive 1-2 meses en el estrato córneo",
+     "t": "Parásito de 1-2 meses en el estrato córneo",
      "por": "Es el ciclo de la sarna."
     },
     {
-     "t": "Las liendres se pegan al tallo del pelo",
+     "t": "Liendres pegadas al tallo del pelo",
      "por": "Es la pediculosis."
     },
     {
-     "t": "Se transmite solo por vía sexual",
+     "t": "Transmisión exclusivamente por vía sexual",
      "por": "No es lo descrito."
     }
    ],

@@ -8,7 +8,7 @@
    "enunciado": "¿Cuáles son las manifestaciones de la dispepsia?",
    "opciones": [
     {
-     "t": "Epigastralgia, saciedad precoz, plenitud, distensión y náuseas",
+     "t": "Epigastralgia, saciedad precoz y plenitud",
      "por": "Son los síntomas de un trastorno del tubo digestivo alto que agrupa la lámina.",
      "full": "Dolor o epigastralgia, saciedad precoz, plenitud posprandial, distensión abdominal y náuseas"
     },
@@ -94,7 +94,7 @@
    "enunciado": "¿Qué exigen los criterios de Roma IV para el síndrome de distrés posprandial (SDP)?",
    "opciones": [
     {
-     "t": "Plenitud o saciedad precoz molesta, al menos 3 días por semana",
+     "t": "Plenitud o saciedad precoz, 3 días por semana",
      "por": "El SDP se define por los síntomas relacionados con la comida.",
      "full": "Plenitud posprandial molesta o saciedad precoz que impide terminar una comida, al menos 3 días a la semana"
     },
@@ -221,7 +221,7 @@
    "enunciado": "Según Roma IV, ¿qué se necesita para diagnosticar SII con estreñimiento?",
    "opciones": [
     {
-     "t": "Dolor ≥1 día/semana por 3 meses, con 2 criterios de defecación",
+     "t": "Dolor ≥1 día/semana por 3 meses y 2 criterios",
      "por": "Son los criterios de la rama de dolor del algoritmo.",
      "full": "Dolor abdominal recurrente al menos 1 día por semana en los últimos 3 meses, con 2 o más: relacionado con la defecación, menos de 3 deposiciones por semana o heces duras"
     },
@@ -343,7 +343,7 @@
    "enunciado": "Mujer de 26 años con 3 años de dolor abdominal casi diario, diarrea (5 deposiciones) alternando con estreñimiento leve, meteorismo y distensión. Sin sangre ni moco en las heces, la diarrea no la despierta de noche, no baja de peso. Su padre tuvo cáncer de colon a los 33 años. ¿Qué plan corresponde?",
    "opciones": [
     {
-     "t": "Probable SII mixto, pero con colonoscopía antes por antecedente familiar",
+     "t": "Probable SII mixto, con colonoscopía previa",
      "por": "Los síntomas son típicos de SII, pero el antecedente familiar es un signo de alarma que obliga a descartar patología orgánica.",
      "full": "Pensar en SII (mixto), pero por el antecedente familiar de cáncer de colon hacer estudios, como colonoscopía, antes de confirmarlo"
     },

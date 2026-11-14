@@ -8,7 +8,7 @@
    "enunciado": "¿Cómo se manifiesta la urticaria superficial?",
    "opciones": [
     {
-     "t": "Placas eritematopapulosas pruriginosas, fugaces y migratorias",
+     "t": "Placas eritematopapulosas pruriginosas y migratorias",
      "por": "La urticaria superficial se manifiesta por placas eritematopapulosas, pruriginosas, fugaces y migratorias.",
      "full": "Placas eritematopapulosas, pruriginosas, fugaces y migratorias"
     },
@@ -37,7 +37,7 @@
    "enunciado": "¿Qué es el angioedema (urticaria profunda)?",
    "opciones": [
     {
-     "t": "Edema que suele localizarse en cara y extremidades",
+     "t": "Edema, sobre todo en cara y extremidades",
      "por": "La urticaria profunda o angioedema son edemas que se localizan casi siempre en la cara y las extremidades.",
      "full": "Edema que se localiza casi siempre en la cara y las extremidades"
     },
@@ -295,7 +295,7 @@
    "enunciado": "¿Cuál es el tratamiento estándar de la urticaria aguda o crónica?",
    "opciones": [
     {
-     "t": "Antihistamínico H1 selectivo, un comprimido al día",
+     "t": "Antihistamínico H1 selectivo, 1 comprimido al día",
      "por": "El tratamiento estándar es un antihistamínico H1 selectivo, 1 comprimido al día VO, al menos 15-20 días en agudos y meses o años en crónicos.",
      "full": "Antihistamínico H1 selectivo: 1 comprimido al día por 15-20 días en agudos, meses o años en crónicos"
     },
@@ -325,7 +325,7 @@
    "enunciado": "Un paciente con urticaria crónica sigue con síntomas pese a un antihistamínico H1 diario. ¿Qué indica el algoritmo?",
    "opciones": [
     {
-     "t": "Subir la dosis hasta un máximo de 4 comprimidos al día",
+     "t": "Subir el H1 hasta 4 comprimidos al día",
      "por": "En casos refractarios se sube la dosis del antihistamínico H1 hasta un máximo de 4 comprimidos al día.",
      "full": "Subir la dosis de antihistamínico H1 hasta 4 comprimidos al día"
     },
@@ -334,7 +334,7 @@
      "por": "No es parte del algoritmo."
     },
     {
-     "t": "Suspender todo tratamiento",
+     "t": "Suspender todo tratamiento y observar",
      "por": "No hay base para suspender; se escala."
     },
     {
@@ -359,15 +359,15 @@
      "full": "Metilprednisolona 1 mg/kg por vía IM"
     },
     {
-     "t": "Penicilina benzatínica IM",
+     "t": "Penicilina benzatínica 1.2 millones IM",
      "por": "No es parte del manejo de urgencias de la urticaria."
     },
     {
-     "t": "Rituximab endovenoso",
+     "t": "Rituximab endovenoso semanal",
      "por": "No está en el algoritmo de urgencias."
     },
     {
-     "t": "Ketoconazol oral",
+     "t": "Ketoconazol oral por 14 días",
      "por": "Es un antifúngico, no corresponde."
     }
    ],
@@ -383,12 +383,12 @@
    "enunciado": "¿Cuál de estos es un criterio de derivación a consulta especializada en urticaria?",
    "opciones": [
     {
-     "t": "Urticaria crónica refractaria a dosis no licenciadas de antihistamínicos",
+     "t": "Refractaria a dosis altas de antihistamínicos",
      "por": "Se deriva si es refractaria a dosis no licenciadas (máximo 4 comprimidos/día), si necesitó 2 o 3 tandas de corticoides o hay cuadro urticariforme atípico.",
      "full": "Urticaria crónica refractaria a dosis altas de antihistamínicos"
     },
     {
-     "t": "Un primer episodio agudo leve que cede",
+     "t": "Primer episodio agudo leve que cede",
      "por": "Se maneja de forma estándar sin derivar."
     },
     {
@@ -396,7 +396,7 @@
      "por": "Responde al tratamiento estándar."
     },
     {
-     "t": "Prurito leve sin placas",
+     "t": "Prurito leve sin placas visibles",
      "por": "No es criterio de derivación."
     }
    ],

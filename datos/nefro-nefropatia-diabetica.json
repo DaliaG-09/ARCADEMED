@@ -127,15 +127,15 @@
      "por": "Es la señal más precoz: aparece años antes de que suba la creatinina, y permite actuar a tiempo. En esta etapa la TFG suele estar normal o aumentada (hiperfiltración)."
     },
     {
-     "t": "Creatinina elevada",
+     "t": "Creatinina sérica elevada",
      "por": "Cuando sube la creatinina ya hay daño importante."
     },
     {
-     "t": "Edema generalizado",
+     "t": "Edema generalizado e HTA",
      "por": "Aparece en etapas intermedias, no en el diagnóstico precoz."
     },
     {
-     "t": "Uremia",
+     "t": "Uremia con síntomas digestivos",
      "por": "Es propia de etapas avanzadas."
     }
    ],
@@ -180,19 +180,20 @@
    "enunciado": "Proteinuria mayor de 300 mg/día, edema blando e HTA en un diabético: ¿qué etapa?",
    "opciones": [
     {
-     "t": "Intermedia (nefropatía incipiente o establecida)",
-     "por": "Hay proteinuria mayor de 300 mg/día, edema e hipertensión; el filtrado cae poco a poco. Suele coexistir con retinopatía y neuropatía."
+     "t": "Intermedia (incipiente o establecida)",
+     "por": "Hay proteinuria mayor de 300 mg/día, edema e hipertensión; el filtrado cae poco a poco. Suele coexistir con retinopatía y neuropatía.",
+     "full": "Intermedia (nefropatía incipiente o establecida)"
     },
     {
-     "t": "Fase silente",
+     "t": "Fase silente con hiperfiltración",
      "por": "La fase silente solo tiene microalbuminuria."
     },
     {
-     "t": "Avanzada (ERC 4 a 5)",
+     "t": "Avanzada (ERC estadio 4 a 5)",
      "por": "En la avanzada ya hay síntomas urémicos, y este paciente no los tiene."
     },
     {
-     "t": "Sin nefropatía",
+     "t": "Sin nefropatía diabética",
      "por": "Sí hay nefropatía: la proteinuria ya es clara."
     }
    ],
@@ -295,8 +296,9 @@
    "enunciado": "Primera línea en nefropatía diabética con TFG mayor o igual a 20-30:",
    "opciones": [
     {
-     "t": "iSGLT2 (empagliflozina, dapagliflozina)",
-     "por": "Los iSGLT2 retrasan la progresión de la enfermedad renal y reducen el riesgo cardiovascular, incluso en pacientes con TFG baja."
+     "t": "iSGLT2 (empagliflozina)",
+     "por": "Los iSGLT2 retrasan la progresión de la enfermedad renal y reducen el riesgo cardiovascular, incluso en pacientes con TFG baja.",
+     "full": "iSGLT2 (empagliflozina, dapagliflozina)"
     },
     {
      "t": "Metformina con TFG <30",

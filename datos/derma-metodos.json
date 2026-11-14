@@ -8,7 +8,7 @@
    "enunciado": "¿Qué característica define al dermatoscopio?",
    "opciones": [
     {
-     "t": "Técnica de imagen no invasiva que muestra estructuras invisibles a simple vista",
+     "t": "Técnica no invasiva que muestra estructuras profundas",
      "por": "Visualiza estructuras submacroscópicas, es económico y fácil de usar.",
      "full": "Es una técnica de imagen no invasiva que visualiza estructuras submacroscópicas invisibles a simple vista"
     },
@@ -150,8 +150,9 @@
    "enunciado": "¿Qué lesión se elige para una biopsia punch?",
    "opciones": [
     {
-     "t": "Una lesión primaria, reciente y no tratada previamente",
-     "por": "Se elige lesión primaria, no tratada, la más reciente y evitando lesiones secundarias como excoriaciones."
+     "t": "Una lesión primaria, reciente y sin tratar",
+     "por": "Se elige lesión primaria, no tratada, la más reciente y evitando lesiones secundarias como excoriaciones.",
+     "full": "Una lesión primaria, reciente y no tratada previamente"
     },
     {
      "t": "La más antigua y excoriada",
@@ -406,15 +407,15 @@
      "por": "Se tiñen con Wright, Giemsa y PMS tras raspar la base de la ampolla y extenderla en el portaobjetos."
     },
     {
-     "t": "Ziehl-Neelsen",
+     "t": "Ziehl-Neelsen o auramina",
      "por": "Se usa para bacilos ácido-alcohol resistentes, no en el Tzanck."
     },
     {
-     "t": "Gram",
+     "t": "Gram o Gram-Hucker",
      "por": "Se emplea para bacterias, no aparece en la técnica del Tzanck."
     },
     {
-     "t": "Rojo Congo",
+     "t": "Rojo Congo o PAS",
      "por": "Es la tinción para amiloide."
     }
    ],

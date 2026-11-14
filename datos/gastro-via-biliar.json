@@ -228,7 +228,7 @@
    "enunciado": "¿Por qué una obstrucción biliar puede llevar a sepsis?",
    "opciones": [
     {
-     "t": "La presión biliar alta pasa bacterias y toxinas a la sangre",
+     "t": "Presión biliar alta que pasa bacterias a la sangre",
      "por": "Puede causar abscesos hepáticos y sepsis graves.",
      "full": "Porque la presión elevada en la vía biliar hace los conductos permeables y pasan bacterias y toxinas a la sangre"
     },
@@ -257,19 +257,20 @@
    "enunciado": "Una paciente tiene dolor en hipocondrio derecho, fiebre e ictericia. ¿Cómo se llama esa tríada y qué sugiere?",
    "opciones": [
     {
-     "t": "Tríada de Charcot; sugiere colangitis aguda",
-     "por": "Aparece en 50 a 70 % de los casos de colangitis. Si además hay hipotensión y alteración del estado mental, es una colangitis grave (péntada de Reynolds)."
+     "t": "Tríada de Charcot: colangitis aguda",
+     "por": "Aparece en 50 a 70 % de los casos de colangitis. Si además hay hipotensión y alteración del estado mental, es una colangitis grave (péntada de Reynolds).",
+     "full": "Tríada de Charcot; sugiere colangitis aguda"
     },
     {
-     "t": "Tríada de Whipple",
+     "t": "Tríada de Whipple: hipoglucemia",
      "por": "Describe hipoglucemia con síntomas, que se alivian al dar glucosa; no es biliar."
     },
     {
-     "t": "Tríada de Beck",
+     "t": "Tríada de Beck: taponamiento",
      "por": "Es de taponamiento cardiaco."
     },
     {
-     "t": "Tríada de Virchow",
+     "t": "Tríada de Virchow: trombosis",
      "por": "Es de trombosis: estasis, lesión endotelial e hipercoagulabilidad."
     }
    ],
@@ -349,7 +350,7 @@
    "enunciado": "¿Qué define una colangitis de grado III (severa) en Tokio?",
    "opciones": [
     {
-     "t": "Disfunción orgánica, como hipotensión con vasopresores",
+     "t": "Disfunción orgánica, p. ej. hipotensión",
      "por": "Se acompaña de insuficiencia respiratoria (PaO2/FiO2 <300), renal (creatinina >2), hepática (INR >1,5) o plaquetas <100 000.",
      "full": "Disfunción de al menos un órgano o sistema, por ejemplo hipotensión con vasopresores o alteración de la conciencia"
     },
@@ -383,7 +384,7 @@
    "enunciado": "¿Cuál es el tratamiento inicial de una colangitis aguda?",
    "opciones": [
     {
-     "t": "Hidratación, antibióticos en 6 h y drenaje según gravedad",
+     "t": "Hidratación, antibióticos en 6 h y drenaje",
      "por": "Los antibióticos limitan la respuesta séptica y previenen abscesos; duran de 4 a 7 días.",
      "full": "Hidratación endovenosa, analgesia y antibióticos en las primeras 6 horas, y drenaje de la vía biliar según la gravedad"
     },
@@ -446,7 +447,7 @@
    "enunciado": "¿Cómo se manifiesta una coledocolitiasis no complicada?",
    "opciones": [
     {
-     "t": "Cólico biliar en HCD y epigastrio que cede al pasar el lito",
+     "t": "Cólico biliar en HCD que cede al pasar el lito",
      "por": "Con complicaciones puede aparecer pancreatitis o colangitis.",
      "full": "Cólico biliar en el cuadrante superior derecho y el epigastrio; cuando el dolor cede, el lito pasó al intestino"
     },
@@ -507,7 +508,7 @@
    "enunciado": "En el algoritmo de coledocolitiasis, ¿cuándo se indica una CPRE preoperatoria?",
    "opciones": [
     {
-     "t": "Alta: lito en imagen, bilirrubina >4 con colédoco dilatado o colangitis",
+     "t": "Alta: lito en imagen o colangitis",
      "por": "Con probabilidad intermedia (hepatograma anormal, edad >55 o colédoco dilatado) se hace antes una ecoendoscopía o colangio-RM.",
      "full": "Probabilidad alta: lito visto en imagen, bilirrubina >4 mg/dl con colédoco dilatado, o colangitis clínica"
     },

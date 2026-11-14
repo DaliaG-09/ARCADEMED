@@ -66,8 +66,9 @@
    "enunciado": "¿Cuál es la ruta más importante por la que la tuberculosis llega al tubo digestivo?",
    "opciones": [
     {
-     "t": "Deglución de esputo contaminado en una TBC pulmonar activa",
-     "por": "Es la ruta más importante. M. bovis, en cambio, se adquiere por leche contaminada."
+     "t": "Deglución de esputo en TBC pulmonar activa",
+     "por": "Es la ruta más importante. M. bovis, en cambio, se adquiere por leche contaminada.",
+     "full": "Deglución de esputo contaminado en una TBC pulmonar activa"
     },
     {
      "t": "Contacto sexual",
@@ -95,7 +96,7 @@
    "enunciado": "¿Por qué la tuberculosis abdominal compromete sobre todo la región ileocecal y el peritoneo?",
    "opciones": [
     {
-     "t": "Linfotrofismo del bacilo, tejido linfoide ileocecal y estasis",
+     "t": "Linfotrofismo del bacilo y tejido linfoide ileocecal",
      "por": "El bacilo se dirige al tejido linfoide. Allí el tránsito es lento, lo que favorece su permanencia.",
      "full": "Por el linfotrofismo del bacilo y la gran cantidad de tejido linfoide ileocecal, con estasis luminal y poca actividad digestiva"
     },
@@ -124,7 +125,7 @@
    "enunciado": "En la biopsia intestinal de un paciente con sospecha de TBC abdominal, ¿qué hallazgo es el típico y con qué enfermedad puede confundirse?",
    "opciones": [
     {
-     "t": "Granulomas submucosos caseosos y no caseosos; simula Crohn",
+     "t": "Granulomas submucosos caseosos; simula Crohn",
      "por": "Hay inflamación celular e hiperplasia linfática. Las ulceraciones se deben a endoarteritis de vasos submucosos.",
      "full": "Granulomas caseosos y no caseosos submucosos; puede simular enfermedad de Crohn"
     },
@@ -182,7 +183,7 @@
    "enunciado": "¿Cómo se presenta la tuberculosis entero-peritoneal?",
    "opciones": [
     {
-     "t": "Fiebre, sudoración nocturna, pérdida de peso y ascitis",
+     "t": "Fiebre, sudoración nocturna y pérdida de peso",
      "por": "La evolución es de 1 a 6 meses; en 20 % debuta con una complicación (ascitis, obstrucción intestinal, peritonismo).",
      "full": "Fiebre, astenia, diaforesis nocturna, dolor abdominal (80 %), diarrea crónica, pérdida de peso y ascitis; en la ileocecal, masa en fosa ilíaca derecha"
     },
@@ -298,7 +299,7 @@
    "enunciado": "¿Cuál es el esquema de tratamiento de la tuberculosis abdominal?",
    "opciones": [
     {
-     "t": "9 meses: 2 con HRZE y 7 con isoniacida y rifampicina",
+     "t": "9 meses: 2 de HRZE y 7 de HR",
      "por": "El 90 % de los pacientes responde al tratamiento médico.",
      "full": "9 meses: 2 meses con isoniacida, rifampicina, etambutol y pirazinamida, y luego 7 meses con isoniacida y rifampicina"
     },

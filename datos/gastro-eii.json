@@ -8,7 +8,7 @@
    "enunciado": "¿Qué trastornos engloba la enfermedad inflamatoria intestinal (EII)?",
    "opciones": [
     {
-     "t": "Colitis ulcerosa y enfermedad de Crohn, de causa desconocida",
+     "t": "Colitis ulcerosa y enfermedad de Crohn",
      "por": "Es la definición de la lámina: ambos son idiopáticos y crónicos.",
      "full": "Colitis ulcerosa (CU) y enfermedad de Crohn (EC), dos trastornos inflamatorios crónicos de causa desconocida"
     },
@@ -41,15 +41,15 @@
      "por": "Condicionan la susceptibilidad y una respuesta inmune exagerada."
     },
     {
-     "t": "BRCA1 y BRCA2",
+     "t": "BRCA1 y BRCA2 (mama y ovario)",
      "por": "Son genes de cáncer de mama y ovario."
     },
     {
-     "t": "HFE y ATP7B",
+     "t": "HFE y ATP7B (hierro y cobre)",
      "por": "Son genes de hemocromatosis y enfermedad de Wilson."
     },
     {
-     "t": "CFTR y PKD1",
+     "t": "CFTR y PKD1 (fibrosis y riñón)",
      "por": "Son genes de fibrosis quística y poliquistosis renal."
     }
    ],
@@ -65,7 +65,7 @@
    "enunciado": "¿Qué se dice de la epidemiología de la EII?",
    "opciones": [
     {
-     "t": "Cualquier edad, más entre 2.ª y 4.ª década; 5 a 20 % familiar",
+     "t": "Cualquier edad, más entre 2.ª y 4.ª década",
      "por": "Además, la incidencia es mayor en Norteamérica y el norte de Europa.",
      "full": "Aparece a cualquier edad, con más frecuencia entre la 2.ª y la 4.ª década; 5 a 20 % tiene un familiar afectado"
     },
@@ -94,8 +94,9 @@
    "enunciado": "¿Cómo influye el tabaco en la EII?",
    "opciones": [
     {
-     "t": "Es protector en la colitis ulcerosa y un factor de riesgo en la enfermedad de Crohn",
-     "por": "Es uno de los rasgos que diferencian ambas enfermedades."
+     "t": "Protector en CU; factor de riesgo en Crohn",
+     "por": "Es uno de los rasgos que diferencian ambas enfermedades.",
+     "full": "Es protector en la colitis ulcerosa y un factor de riesgo en la enfermedad de Crohn"
     },
     {
      "t": "Es factor de riesgo en la colitis ulcerosa y protector en el Crohn",
@@ -123,7 +124,7 @@
    "enunciado": "¿Qué diferencia la extensión de la colitis ulcerosa respecto de la enfermedad de Crohn?",
    "opciones": [
     {
-     "t": "CU continua desde el recto; Crohn discontinua, con lesiones en salto",
+     "t": "CU continua desde el recto; Crohn en salto",
      "por": "La CU afecta solo colon y recto; el Crohn puede afectar todo el tubo digestivo.",
      "full": "En la CU la inflamación es continua desde el recto; en el Crohn es discontinua con zonas sanas ('lesiones en salto')"
     },
@@ -484,7 +485,7 @@
    "enunciado": "¿Cómo actúa el vedolizumab?",
    "opciones": [
     {
-     "t": "Anti-integrina: impide el ingreso de linfocitos T al intestino",
+     "t": "Anti-integrina: bloquea el ingreso de linfocitos T",
      "por": "Bloquea la migración de linfocitos T de memoria al tejido intestinal.",
      "full": "Es una anti-integrina: impide que los linfocitos T entren al tejido inflamado del intestino"
     },

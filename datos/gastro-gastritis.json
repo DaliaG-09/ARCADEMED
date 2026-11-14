@@ -191,7 +191,7 @@
    "enunciado": "¿Qué gastritis crónica se llama tipo A y qué zona del estómago afecta?",
    "opciones": [
     {
-     "t": "Autoinmune; cuerpo y fundo, con pérdida de células parietales",
+     "t": "Autoinmune, de cuerpo y fundo",
      "por": "Es la forma autoinmune, que respeta el antro.",
      "full": "La autoinmune; afecta cuerpo y fundo, con pérdida de células parietales y principales"
     },
@@ -410,8 +410,9 @@
    "enunciado": "Varón de 38 años con dolor y quemazón en el epigastrio hace 2 semanas, que bebe agua del grifo sin hervir. ¿Cuál es la causa más frecuente de gastritis a nivel mundial?",
    "opciones": [
     {
-     "t": "Infección por Helicobacter pylori",
-     "por": "Es la causa más frecuente a nivel mundial; el agua no tratada es una vía de contagio."
+     "t": "Infección por H. pylori",
+     "por": "Es la causa más frecuente a nivel mundial; el agua no tratada es una vía de contagio.",
+     "full": "Infección por Helicobacter pylori"
     },
     {
      "t": "Uso de AINE",

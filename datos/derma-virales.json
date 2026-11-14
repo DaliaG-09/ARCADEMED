@@ -43,15 +43,15 @@
      "full": "Poxvirus, exclusivo del ser humano"
     },
     {
-     "t": "Herpesvirus",
+     "t": "Herpesvirus, de ADN bicatenario",
      "por": "Es el grupo del herpes simple y la varicela zóster."
     },
     {
-     "t": "Papilomavirus",
+     "t": "Papilomavirus, de ADN circular",
      "por": "Es el virus de las verrugas (VPH)."
     },
     {
-     "t": "Picornavirus",
+     "t": "Picornavirus, de ARN",
      "por": "No es el grupo del molusco."
     }
    ],
@@ -67,7 +67,7 @@
    "enunciado": "¿Qué opciones de manejo tiene el molusco en un paciente inmunocompetente?",
    "opciones": [
     {
-     "t": "Vigilancia activa o curetaje, crioterapia, imiquimod o cantaridina",
+     "t": "Vigilancia, curetaje, crioterapia o imiquimod",
      "por": "En inmunocompetentes puede optarse por vigilancia activa; si se trata: curetaje, crioterapia, imiquimod tópico o cantaridina.",
      "full": "Vigilancia activa; si se trata: curetaje, crioterapia, imiquimod o cantaridina"
     },
@@ -76,11 +76,11 @@
      "por": "Es una infección viral."
     },
     {
-     "t": "Cidofovir sistémico en todos",
+     "t": "Cidofovir sistémico en todos los casos",
      "por": "Se reserva para inmunosuprimidos."
     },
     {
-     "t": "Biopsia de rutina",
+     "t": "Biopsia de rutina en cada lesión",
      "por": "No se requiere salvo duda diagnóstica."
     }
    ],
@@ -154,20 +154,20 @@
    "enunciado": "¿Qué genotipos de VPH pueden causar carcinoma epidermoide anogenital y bucofaríngeo?",
    "opciones": [
     {
-     "t": "16, 18, 31 y 33",
+     "t": "Los tipos 16, 18, 31 y 33 de VPH",
      "por": "Los genotipos 16, 18, 31 y 33 son oncogénicos.",
      "full": "Genotipos 16, 18, 31 y 33"
     },
     {
-     "t": "6 y 11",
+     "t": "Los tipos 6 y 11 de VPH",
      "por": "Producen verrugas genitales benignas."
     },
     {
-     "t": "1, 2 y 4",
+     "t": "Los tipos 1, 2 y 4 de VPH",
      "por": "Producen verrugas plantares."
     },
     {
-     "t": "2 y 7",
+     "t": "Los tipos 2 y 7 de VPH",
      "por": "No son los oncogénicos descritos."
     }
    ],
@@ -183,7 +183,7 @@
    "enunciado": "¿Cómo es la verruga vulgar?",
    "opciones": [
     {
-     "t": "Pápula en domo, exofítica, hiperqueratósica, del color de la piel, de 1 a 10 mm",
+     "t": "Pápula en domo, hiperqueratósica, de 1 a 10 mm",
      "por": "Son pápulas en domo, exofíticas e hiperqueratósicas, del color de la piel, con tamaño de 1-10 mm, más a menudo en las manos.",
      "full": "Pápula en domo, hiperqueratósica, del color de la piel, de 1-10 mm"
     },
@@ -212,7 +212,7 @@
    "enunciado": "¿Qué hallazgo tiene la verruga plantar?",
    "opciones": [
     {
-     "t": "Puntos negros o marrones por trombosis capilares",
+     "t": "Puntos negros por trombosis capilares",
      "por": "Son pápulas verrugosas endofíticas en la planta, con puntos negros o marrones por trombosis capilares.",
      "full": "Puntos negros o marrones por trombosis capilares"
     },
@@ -221,7 +221,7 @@
      "por": "Es del molusco."
     },
     {
-     "t": "Vesículas agrupadas",
+     "t": "Vesículas agrupadas con eritema",
      "por": "Son del herpes."
     },
     {
@@ -250,11 +250,11 @@
      "por": "Esa localización es de las verrugas plantares."
     },
     {
-     "t": "En el área genital",
+     "t": "En el área genital y perianal",
      "por": "Son los condilomas acuminados."
     },
     {
-     "t": "En el cuero cabelludo",
+     "t": "En el cuero cabelludo y cuello",
      "por": "No es la localización típica."
     }
    ],
@@ -270,12 +270,12 @@
    "enunciado": "¿Cómo son los condilomas acuminados?",
    "opciones": [
     {
-     "t": "Papilomas exofíticos sésiles, a veces en placas, que pueden llegar a vagina, uretra o ano",
+     "t": "Papilomas exofíticos sésiles, a veces confluentes",
      "por": "Son papilomas exofíticos, sésiles, de superficie lisa, del color de la piel, marrones o blanquecinos; pueden extenderse a vagina, uretra o conducto anal.",
      "full": "Papilomas exofíticos sésiles que pueden extenderse a vagina, uretra o ano"
     },
     {
-     "t": "Pápulas umbilicadas de 2-5 mm",
+     "t": "Pápulas umbilicadas perladas de 2-5 mm",
      "por": "Son del molusco."
     },
     {
@@ -283,7 +283,7 @@
      "por": "Son de tiña corporis."
     },
     {
-     "t": "Vesículas dolorosas en racimo",
+     "t": "Vesículas dolorosas agrupadas en racimo",
      "por": "Son del herpes simple genital."
     }
    ],
@@ -299,12 +299,12 @@
    "enunciado": "¿Cómo se diagnostica una verruga?",
    "opciones": [
     {
-     "t": "Clínicamente; biopsia si hay duda o sospecha de carcinoma",
+     "t": "Clínico; biopsia si hay duda o sospecha de cáncer",
      "por": "El diagnóstico es clínico; la biopsia se hace si se sospecha carcinoma o si el diagnóstico no es claro.",
      "full": "Clínico; biopsia si hay duda o sospecha de carcinoma"
     },
     {
-     "t": "Con cultivo en Sabouraud",
+     "t": "Cultivo en medio de Sabouraud",
      "por": "Es para micosis."
     },
     {
@@ -312,7 +312,7 @@
      "por": "Es para herpes."
     },
     {
-     "t": "Con prueba de parche",
+     "t": "Con prueba de parche cutánea",
      "por": "Es para dermatitis de contacto."
     }
    ],
@@ -357,7 +357,7 @@
    "enunciado": "¿Cómo se usa el imiquimod 5 % en verrugas genitales? *",
    "opciones": [
     {
-     "t": "Tres veces por semana al acostarse, lavando a las 6-10 h, hasta 16 semanas",
+     "t": "Tres veces por semana, lavar a las 6-10 h",
      "por": "Se aplica una capa delgada tres veces a la semana al acostarse y se lava a las 6-10 h, por un máximo de 16 semanas.",
      "full": "Tres veces por semana al acostarse; lavar a las 6-10 h; máximo 16 semanas"
     },
@@ -366,11 +366,11 @@
      "por": "Es el esquema de podofilotoxina al 0,5 %."
     },
     {
-     "t": "Una vez cada 1-3 semanas por el médico",
+     "t": "Una vez cada 1-3 semanas, por el médico",
      "por": "Es la podofilina al 25 %."
     },
     {
-     "t": "Dosis única de 1 g",
+     "t": "Dosis única de 1 g por vía oral",
      "por": "No es un esquema de imiquimod."
     }
    ],
@@ -387,20 +387,20 @@
    "enunciado": "¿Cuál es la recomendación de vacunación contra VPH de la American Cancer Society?",
    "opciones": [
     {
-     "t": "Vacunación regular de los 9 a 12 años y de recuperación hasta los 26",
+     "t": "De rutina entre 9 y 12 años; recuperación hasta 26",
      "por": "Recomienda vacunar de rutina entre los 9 y 12 años y vacunación de recuperación hasta los 26 años.",
      "full": "De rutina entre los 9 y 12 años; recuperación hasta los 26 años"
     },
     {
-     "t": "Solo en mayores de 50 años",
+     "t": "Solo a mayores de 50 años",
      "por": "No es la recomendación."
     },
     {
-     "t": "Solo tras presentar verrugas",
+     "t": "Solo después de presentar verrugas",
      "por": "La vacuna previene la infección inicial."
     },
     {
-     "t": "Solo en varones sexualmente activos",
+     "t": "Solo a varones sexualmente activos",
      "por": "No se limita a ese grupo."
     }
    ],
@@ -416,7 +416,7 @@
    "enunciado": "¿Cuál es la diferencia de localización entre HSV-1 y HSV-2?",
    "opciones": [
     {
-     "t": "HSV-1: boca y labios; HSV-2: región genital",
+     "t": "HSV-1: boca y labios; HSV-2: genital",
      "por": "HSV-1 infecta cavidad bucal, labios y piel peribucal; HSV-2 infecta sobre todo la región genital, aunque HSV-1 es una causa cada vez más frecuente de herpes genital.",
      "full": "HSV-1 en boca y labios; HSV-2 en región genital"
     },
@@ -474,12 +474,12 @@
    "enunciado": "¿Cómo se presenta el herpes simple?",
    "opciones": [
     {
-     "t": "Vesículas agrupadas sobre base eritematosa que se erosionan y forman costras",
+     "t": "Vesículas agrupadas sobre eritema, con costras",
      "por": "Las vesículas se agrupan sobre eritema, son dolorosas, se erosionan y forman costras; se resuelven en 1-2 semanas.",
      "full": "Vesículas dolorosas agrupadas sobre base eritematosa, que se erosionan y forman costras"
     },
     {
-     "t": "Pápulas umbilicadas indoloras",
+     "t": "Pápulas umbilicadas indoloras y perladas",
      "por": "Es la lesión típica del molusco contagioso."
     },
     {
@@ -487,7 +487,7 @@
      "por": "Es tiña corporis."
     },
     {
-     "t": "Máculas hipopigmentadas",
+     "t": "Máculas hipopigmentadas descamativas",
      "por": "Es pitiriasis versicolor."
     }
    ],
@@ -537,15 +537,15 @@
      "full": "Células gigantes epiteliales multinucleadas"
     },
     {
-     "t": "Hifas ramificadas",
+     "t": "Hifas ramificadas y tabicadas",
      "por": "Se ven con KOH en micosis."
     },
     {
-     "t": "Cuerpos de molusco",
+     "t": "Cuerpos de inclusión de molusco",
      "por": "No es lo que muestra el Tzanck."
     },
     {
-     "t": "Acantólisis sin virus",
+     "t": "Acantólisis sin células gigantes",
      "por": "No es el hallazgo descrito."
     }
    ],
@@ -561,20 +561,20 @@
    "enunciado": "¿Cuándo deben iniciarse los antivirales en el herpes?",
    "opciones": [
     {
-     "t": "Dentro de las primeras 72 h del inicio de síntomas",
+     "t": "En las primeras 72 h del inicio de síntomas",
      "por": "Los antivirales (herpes simple y zóster) son más útiles si se administran en las 72 h tras el inicio de las manifestaciones.",
      "full": "Dentro de las primeras 72 h del inicio de síntomas"
     },
     {
-     "t": "Solo después de una semana",
+     "t": "Solo después de una semana de síntomas",
      "por": "Pierden utilidad si se retrasan."
     },
     {
-     "t": "Solo si hay fiebre",
+     "t": "Solo si el paciente tiene fiebre alta",
      "por": "No es el criterio."
     },
     {
-     "t": "Nunca se indican",
+     "t": "Nunca se indican en el herpes simple",
      "por": "Se indican en enfermedad moderada a grave y en zóster."
     }
    ],
@@ -590,16 +590,16 @@
    "enunciado": "¿Qué produce el herpes zóster?",
    "opciones": [
     {
-     "t": "Reactivación del virus varicela zóster latente en ganglios de raíces dorsales",
+     "t": "Reactivación del virus varicela zóster latente",
      "por": "El zóster es la reactivación de la varicela latente; el riesgo de vida es de 20-30 % y aumenta pasados los 60 años.",
      "full": "Reactivación del virus varicela zóster latente en ganglios de raíces dorsales"
     },
     {
-     "t": "Primoinfección por HSV-2",
+     "t": "Primoinfección por herpes simple 2",
      "por": "No es la causa."
     },
     {
-     "t": "Reactivación del VPH",
+     "t": "Reactivación del virus del papiloma",
      "por": "No es la causa del herpes zóster."
     },
     {
@@ -619,12 +619,12 @@
    "enunciado": "¿Cómo se presenta el herpes zóster?",
    "opciones": [
     {
-     "t": "Dolor previo y vesículas agrupadas en un dermatoma unilateral",
+     "t": "Dolor previo y vesículas agrupadas en un dermatoma",
      "por": "Suele comenzar con dolor intenso que precede la erupción; las vesículas se agrupan en un solo dermatoma unilateral, más a menudo en el tronco.",
      "full": "Dolor previo y vesículas agrupadas en un solo dermatoma unilateral"
     },
     {
-     "t": "Vesículas simétricas en palmas",
+     "t": "Vesículas simétricas en palmas y plantas",
      "por": "No es el patrón del zóster."
     },
     {
@@ -632,7 +632,7 @@
      "por": "Es la lesión típica del molusco contagioso."
     },
     {
-     "t": "Placas anulares descamativas",
+     "t": "Placas anulares descamativas con borde",
      "por": "Es tiña corporis."
     }
    ],
@@ -648,7 +648,7 @@
    "enunciado": "¿Qué indica el signo de Hutchinson?",
    "opciones": [
     {
-     "t": "Compromiso de la rama nasociliar; mayor riesgo de afectación ocular",
+     "t": "Rama nasociliar: riesgo de afectación ocular",
      "por": "Vesículas en la punta o el lado de la nariz indican compromiso de la rama nasociliar y es más probable que el ojo esté afectado, con riesgo de ceguera.",
      "full": "Vesículas en la punta de la nariz: riesgo de afectación ocular"
     },
@@ -735,20 +735,20 @@
    "enunciado": "¿Cuál es el tratamiento oral del herpes zóster en adulto inmunocompetente?",
    "opciones": [
     {
-     "t": "Valaciclovir 1000 mg tres veces al día por 7 días",
+     "t": "Valaciclovir 1000 mg cada 8 h por 7 días",
      "por": "Valaciclovir 1000 mg cada 8 h por 7 días; aciclovir 800 mg cinco veces al día por 7-10 días; famciclovir 500 mg cada 8 h por 7 días.",
      "full": "Valaciclovir 1000 mg cada 8 h por 7 días (o aciclovir o famciclovir)"
     },
     {
-     "t": "Fluconazol 150 mg semanal",
+     "t": "Fluconazol 150 mg una vez por semana",
      "por": "Es antifúngico."
     },
     {
-     "t": "Amoxicilina 500 mg cada 8 h",
+     "t": "Amoxicilina 500 mg cada 8 h por 7 días",
      "por": "Es antibiótico."
     },
     {
-     "t": "Prednisona sola",
+     "t": "Prednisona sola, sin antiviral",
      "por": "No sustituye al antiviral."
     }
    ],
@@ -769,15 +769,15 @@
      "full": "De 5 a 20 %; más en mayores de 60 años e inmunodeprimidos"
     },
     {
-     "t": "En casi todos",
+     "t": "En casi todos, sin importar la edad",
      "por": "La cifra es de 5-20 %."
     },
     {
-     "t": "En menos del 1 %",
+     "t": "En menos del 1 % de los casos",
      "por": "Es más frecuente."
     },
     {
-     "t": "Solo en niños",
+     "t": "Solo en niños menores de 10 años",
      "por": "Es rara en jóvenes."
     }
    ],
@@ -793,20 +793,20 @@
    "enunciado": "¿Qué vacuna contra el zóster es más eficaz?",
    "opciones": [
     {
-     "t": "Shingrix (recombinante con adyuvante), con eficacia de 97 %",
+     "t": "Shingrix (recombinante), con 97 % de eficacia",
      "por": "Shingrix, aprobada en 2017, es más eficaz que la vacuna viva Zostavax, que reduce el zóster 51 % y la neuralgia posherpética 67 %.",
      "full": "Shingrix (recombinante con adyuvante), eficacia de 97 %"
     },
     {
-     "t": "Zostavax (vacuna viva)",
+     "t": "Zostavax (vacuna viva atenuada)",
      "por": "Es menos eficaz."
     },
     {
-     "t": "Vacuna BCG",
+     "t": "Vacuna BCG intradérmica",
      "por": "No previene zóster."
     },
     {
-     "t": "Vacuna antineumocócica",
+     "t": "Vacuna antineumocócica conjugada",
      "por": "No previene zóster."
     }
    ],

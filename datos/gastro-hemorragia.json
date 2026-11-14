@@ -179,7 +179,7 @@
    "enunciado": "Un paciente con sospecha de HDA está hemodinámicamente estable (PAS >100 mmHg y FC <100 lat/min). ¿Cuál es la conducta inicial?",
    "opciones": [
     {
-     "t": "Vías periféricas, volumen, IBP 80 mg en bolo, transfusión restrictiva y endoscopía <24 h",
+     "t": "Vías periféricas, IBP en bolo, transfusión restrictiva y endoscopía",
      "por": "Esa es la secuencia de la lámina 15 para el paciente estable: reanimación, IBP en bolo y luego infusión, transfusión restrictiva y endoscopia digestiva alta antes de 24 h.",
      "full": "Colocar 1 o 2 catéteres periféricos, reponer volumen, dar bolo de 80 mg de IBP seguido de 8 mg/h, valorar transfusión restrictiva y hacer endoscopia en las primeras 24 horas"
     },
@@ -272,8 +272,9 @@
    "enunciado": "Una mujer de 68 años tiene episodios recurrentes de sangrado indoloro. En la colonoscopia se ven lesiones rojas y planas en el ciego. ¿Cuál es el diagnóstico y el manejo?",
    "opciones": [
     {
-     "t": "Angiodisplasia; tratamiento endoscópico con plasma de argón",
-     "por": "Son lesiones mucosas rojas y planas, más frecuentes en ciego y colon, en mayores de 60 años, con sangrado recurrente indoloro. Se tratan por vía endoscópica con plasma de argón."
+     "t": "Angiodisplasia; plasma de argón",
+     "por": "Son lesiones mucosas rojas y planas, más frecuentes en ciego y colon, en mayores de 60 años, con sangrado recurrente indoloro. Se tratan por vía endoscópica con plasma de argón.",
+     "full": "Angiodisplasia; tratamiento endoscópico con plasma de argón"
     },
     {
      "t": "Diverticulosis; cirugía",
@@ -328,7 +329,7 @@
    "enunciado": "Respecto de las hemorroides como causa de hemorragia digestiva baja, ¿qué afirmación es correcta?",
    "opciones": [
     {
-     "t": "Internas indoloras, externas dolorosas; sangrado con la evacuación",
+     "t": "Internas indoloras, externas dolorosas",
      "por": "Causan 5 a 10 % de las HDB y se presentan como rectorragia.",
      "full": "Las internas son indoloras y las externas son dolorosas; el sangrado se asocia al ritmo evacuatorio"
     },
@@ -391,7 +392,7 @@
    "enunciado": "Una mujer de 72 años se hizo una colonoscopia por anemia ferropénica y se le extirpó un pólipo pediculado de 12 mm del colon descendente. Esa noche reingresa con hemorragia rectal importante, hemodinámicamente estable, con sangre fresca al tacto rectal. ¿Cuál es el siguiente paso más apropiado?",
    "opciones": [
     {
-     "t": "Colonoscopia al día siguiente tras preparación nocturna con PEG",
+     "t": "Colonoscopia al día siguiente con preparación PEG",
      "por": "Es la opción (a). Estable, con sangrado posterior a polipectomía: la clase indica endoscopia en las primeras 24 horas después de preparar el colon con PEG, para ver el sitio y tratarlo con clips o coagulación.",
      "full": "Colonoscopia a la mañana siguiente, tras preparación intestinal nocturna con PEG"
     },

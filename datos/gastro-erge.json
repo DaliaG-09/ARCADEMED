@@ -37,8 +37,9 @@
    "enunciado": "Varón de 35 años con un mes de pirosis, regurgitación ácida y tos nocturna que aumenta con el café. Niega disfagia y pérdida de peso. IMC 35. ¿Cuál es el diagnóstico más probable?",
    "opciones": [
     {
-     "t": "Enfermedad por reflujo gastroesofágico",
-     "por": "Pirosis, regurgitación ácida, tos nocturna y el empeoramiento con café, junto con obesidad (IMC 35), son el cuadro típico de ERGE."
+     "t": "Enfermedad por reflujo",
+     "por": "Pirosis, regurgitación ácida, tos nocturna y el empeoramiento con café, junto con obesidad (IMC 35), son el cuadro típico de ERGE.",
+     "full": "Enfermedad por reflujo gastroesofágico"
     },
     {
      "t": "Acalasia",
@@ -65,7 +66,7 @@
    "enunciado": "¿En qué nivel está el estrechamiento broncoaórtico del esófago y cuánto mide?",
    "opciones": [
     {
-     "t": "Tras la bifurcación traqueal, a nivel D4, de 15 a 17 mm",
+     "t": "Tras la bifurcación traqueal, a nivel D4",
      "por": "Es el segundo estrechamiento anatómico que describe la lámina.",
      "full": "Detrás de la bifurcación traqueal, a la altura de D4, de 15 a 17 mm"
     },
@@ -94,8 +95,9 @@
    "enunciado": "¿Qué se dice del esfínter esofágico inferior (EEI)?",
    "opciones": [
     {
-     "t": "Es un esfínter fisiológico, no anatómico, con una presión en reposo de 10 a 25 mmHg",
-     "por": "La lámina lo explica así: no hay una estructura de esfínter, pero la zona mantiene una presión elevada que cierra el paso hacia el esófago."
+     "t": "Esfínter fisiológico de 10 a 25 mmHg en reposo",
+     "por": "La lámina lo explica así: no hay una estructura de esfínter, pero la zona mantiene una presión elevada que cierra el paso hacia el esófago.",
+     "full": "Es un esfínter fisiológico, no anatómico, con una presión en reposo de 10 a 25 mmHg"
     },
     {
      "t": "Es un anillo muscular anatómico bien definido con presión de 50 mmHg",
@@ -363,8 +365,9 @@
    "enunciado": "¿Cuál es una desventaja de la pH-metría esofágica?",
    "opciones": [
     {
-     "t": "Solo mide reflujo líquido y no el duodenogastroesofágico",
-     "por": "La lámina lista esto, junto con sensibilidad y especificidad de 80 % y corte en pH 4."
+     "t": "Solo mide el reflujo líquido",
+     "por": "La lámina lista esto, junto con sensibilidad y especificidad de 80 % y corte en pH 4.",
+     "full": "Solo mide reflujo líquido y no el duodenogastroesofágico"
     },
     {
      "t": "Tiene una sensibilidad de 100 %",
@@ -458,7 +461,7 @@
    "enunciado": "¿Cuál de estas medidas de estilo de vida se recomienda en ERGE?",
    "opciones": [
     {
-     "t": "Elevar cabecera 15 a 25 cm y no acostarse 2 a 3 h tras comer",
+     "t": "Elevar cabecera y no acostarse tras comer",
      "por": "Ambas reducen el reflujo nocturno.",
      "full": "Elevar la cabecera de la cama 15 a 25 cm y no acostarse hasta 2 a 3 horas después de comer"
     },

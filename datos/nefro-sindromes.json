@@ -37,8 +37,9 @@
    "enunciado": "¿con qué valor se considera hipoalbuminemia?",
    "opciones": [
     {
-     "t": "Albúmina sérica menor de 3.0 g/dL",
-     "por": "Es el valor de la lámina de definición y de las conclusiones."
+     "t": "Menor de 3.0 g/dL",
+     "por": "Es el valor de la lámina de definición y de las conclusiones.",
+     "full": "Albúmina sérica menor de 3.0 g/dL"
     },
     {
      "t": "Menor de 3.5 g/dL",
@@ -184,7 +185,7 @@
    "enunciado": "¿Qué diferencia a la proteinuria selectiva de la no selectiva?",
    "opciones": [
     {
-     "t": "Selectiva: casi solo albúmina; no selectiva: también globulinas",
+     "t": "Selectiva: casi solo albúmina",
      "por": "Cuanto más grande el daño de la barrera de filtración, más grandes son las proteínas que cruzan.",
      "full": "En la selectiva pasa sobre todo albúmina (proteínas pequeñas); en la no selectiva pasan también inmunoglobulinas y otras proteínas grandes"
     },
@@ -569,8 +570,9 @@
    "enunciado": "Mayor de 40 años con síndrome nefrítico. ¿Cuáles son las causas más frecuentes según la tabla por edad?",
    "opciones": [
     {
-     "t": "Nefropatía IgA, glomerulonefritis rápidamente progresiva, vasculitis y glomerulonefritis aguda postinfecciosa",
-     "por": "Son las causas listadas para mayores de 40 años."
+     "t": "Nefropatía IgA, GNRP, vasculitis y GN postinfecciosa",
+     "por": "Son las causas listadas para mayores de 40 años.",
+     "full": "Nefropatía IgA, glomerulonefritis rápidamente progresiva, vasculitis y glomerulonefritis aguda postinfecciosa"
     },
     {
      "t": "Púrpura de Schönlein-Henoch, enfermedad de membrana basal delgada y nefritis hereditarias",

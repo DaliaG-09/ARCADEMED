@@ -8,7 +8,7 @@
    "enunciado": "¿Qué micosis se consideran superficiales?",
    "opciones": [
     {
-     "t": "Las que afectan estrato córneo, pelo y uñas: tiñas, candidiasis cutánea y pitiriasis versicolor",
+     "t": "Las que afectan estrato córneo, pelo y uñas",
      "por": "Las micosis superficiales afectan el estrato córneo, el pelo o las uñas e incluyen dermatofitosis (tiñas), candidiasis cutánea y pitiriasis versicolor.",
      "full": "Las que afectan estrato córneo, pelo y uñas: tiñas, candidiasis y pitiriasis versicolor"
     },
@@ -21,7 +21,7 @@
      "por": "Son profundas o sistémicas, diseminadas desde vías respiratorias."
     },
     {
-     "t": "Solo las que producen granulomas fistulizados",
+     "t": "Las que producen granulomas con trayectos fistulosos",
      "por": "Eso describe micosis subcutáneas y profundas."
     }
    ],
@@ -71,15 +71,15 @@
      "full": "Trichophyton, Microsporum y Epidermophyton"
     },
     {
-     "t": "Candida y Malassezia",
+     "t": "Candida y Malassezia, que son levaduras",
      "por": "Son levaduras, no dermatofitos."
     },
     {
-     "t": "Sporothrix y Fonsecaea",
+     "t": "Sporothrix y Fonsecaea, de micosis subcutáneas",
      "por": "Son agentes de micosis subcutáneas."
     },
     {
-     "t": "Cryptococcus e Histoplasma",
+     "t": "Cryptococcus e Histoplasma, de micosis profundas",
      "por": "Son agentes de micosis profundas."
     }
    ],
@@ -95,20 +95,20 @@
    "enunciado": "¿Cómo daña la piel el hongo patógeno?",
    "opciones": [
     {
-     "t": "Se adhiere al estrato córneo y produce enzimas como queratinasas y lipasas",
+     "t": "Adhesión al estrato córneo y enzimas hidrolíticas",
      "por": "Primero se adhiere al estrato córneo o anexos, favorecido por humedad o maceración, y luego produce enzimas hidrolíticas (queratinasas, lipasas, fosfolipasas, proteasas) que degradan proteínas del epitelio.",
      "full": "Adhesión al estrato córneo y enzimas hidrolíticas (queratinasas, lipasas, proteasas)"
     },
     {
-     "t": "Produce autoanticuerpos contra desmogleínas",
+     "t": "Autoanticuerpos contra desmogleínas del desmosoma",
      "por": "Eso es del pénfigo."
     },
     {
-     "t": "Destruye melanocitos por autoinmunidad",
+     "t": "Destrucción autoinmune de melanocitos epidérmicos",
      "por": "Eso es del vitíligo."
     },
     {
-     "t": "Produce toxinas que forman ampollas subcórneas",
+     "t": "Toxinas exfoliativas que dividen la capa subcórnea",
      "por": "Es el mecanismo del impétigo ampolloso."
     }
    ],
@@ -183,7 +183,7 @@
    "enunciado": "¿Cómo es la tiña corporis?",
    "opciones": [
     {
-     "t": "Placas anulares eritematodescamativas con borde activo y centro más claro",
+     "t": "Placas anulares con borde activo y centro claro",
      "por": "La tiña corporis son placas anulares eritemato-descamativas, con borde activo y centro más claro, prurito leve a moderado, en tronco y extremidades.",
      "full": "Placas anulares eritematodescamativas con borde activo y centro más claro"
     },
@@ -212,7 +212,7 @@
    "enunciado": "¿Cuáles son los tipos clínicos de tiña pedis?",
    "opciones": [
     {
-     "t": "Erosivo interdigital, hiperqueratósico en mocasín y vesiculoso",
+     "t": "Interdigital erosiva, mocasín y vesiculosa",
      "por": "Se describen maceración interdigital, hiperqueratosis plantar difusa (mocasín) y vesículas plantares.",
      "full": "Erosivo interdigital, mocasín hiperqueratósico y vesiculoso"
     },
@@ -241,7 +241,7 @@
    "enunciado": "¿Qué formas clínicas tiene la tiña capitis?",
    "opciones": [
     {
-     "t": "Alopecia parcheada con puntos negros, querion y forma seca",
+     "t": "Tonsurante, querion y forma seca",
      "por": "Es frecuente en niños: alopecia parcheada con puntos negros (tonsurante), placas inflamatorias con supuración (querion) o escamas adheridas (seca).",
      "full": "Tonsurante con puntos negros, querion supurativo y forma seca"
     },
@@ -250,7 +250,7 @@
      "por": "Son tipos de tiña pedis."
     },
     {
-     "t": "Fija, linfática y diseminada",
+     "t": "Cutánea fija, linfática y diseminada",
      "por": "Son esporotricosis."
     },
     {
@@ -275,15 +275,15 @@
      "full": "Subungueal distal lateral"
     },
     {
-     "t": "Subungueal proximal",
+     "t": "Subungueal proximal, en inmunosuprimidos",
      "por": "No es la más frecuente."
     },
     {
-     "t": "Superficial blanca",
+     "t": "Superficial blanca, en uñas de los pies",
      "por": "No es la más frecuente."
     },
     {
-     "t": "Endonyx",
+     "t": "Endonyx, con invasión de la lámina",
      "por": "No es la más frecuente."
     }
    ],
@@ -299,7 +299,7 @@
    "enunciado": "¿Cómo se ve la candidiasis cutánea?",
    "opciones": [
     {
-     "t": "Placas eritematosas con borde activo, maceración y pústulas satélite en pliegues",
+     "t": "Placas rojas con borde activo y pústulas satélite",
      "por": "Afecta áreas húmedas e intertriginosas (ingles, axilas, pliegues submamarios) con eritema, borde activo y pústulas satélite; se asocia a obesidad, diabetes o inmunosupresión.",
      "full": "Eritema con borde activo, maceración y pústulas satélite en pliegues"
     },
@@ -328,7 +328,7 @@
    "enunciado": "¿Qué es la paroniquia candidiásica?",
    "opciones": [
     {
-     "t": "Inflamación dolorosa de los pliegues ungueales por Candida",
+     "t": "Inflamación dolorosa del pliegue ungueal por Candida",
      "por": "Es la candidiasis ungueal: inflamación dolorosa del pliegue ungueal, con engrosamiento y cambio de color, frecuente con humedad prolongada.",
      "full": "Inflamación dolorosa de los pliegues ungueales con cambio de color de la uña"
     },
@@ -357,7 +357,7 @@
    "enunciado": "¿Cómo es la pitiriasis versicolor?",
    "opciones": [
     {
-     "t": "Máculas hipo o hiperpigmentadas, finamente descamativas, en tronco y cuello",
+     "t": "Máculas hipo o hiperpigmentadas descamativas en tronco",
      "por": "Son máculas hipo o hiperpigmentadas, con fina descamación, en tronco, cuello y parte proximal de las extremidades, más evidentes con el sol.",
      "full": "Máculas hipo o hiperpigmentadas finamente descamativas en tronco y cuello"
     },
@@ -386,7 +386,7 @@
    "enunciado": "¿Qué caracteriza a la esporotricosis?",
    "opciones": [
     {
-     "t": "Nódulos ulcerados a lo largo de los vasos linfáticos por Sporothrix schenckii",
+     "t": "Nódulos ulcerados en trayecto linfático (Sporothrix)",
      "por": "Infección subcutánea por Sporothrix schenckii, con nódulos ulcerados a lo largo de los linfáticos, frecuente en jardineros y trabajadores agrícolas.",
      "full": "Nódulos que se ulceran siguiendo los vasos linfáticos; jardineros y agricultores"
     },
@@ -415,7 +415,7 @@
    "enunciado": "¿Cómo se presenta la cromomicosis?",
    "opciones": [
     {
-     "t": "Lesiones verrugosas de crecimiento lento en extremidades inferiores",
+     "t": "Lesiones verrugosas lentas en miembros inferiores",
      "por": "La cromomicosis tiene lesiones verrugosas de crecimiento lento en miembros inferiores y evolución crónica.",
      "full": "Lesiones verrugosas de crecimiento lento en miembros inferiores"
     },
@@ -449,15 +449,15 @@
      "full": "Examen directo con KOH"
     },
     {
-     "t": "Prueba de parche",
+     "t": "Prueba de parche con alérgenos",
      "por": "Es para dermatitis de contacto."
     },
     {
-     "t": "Dermatoscopia de la mucosa",
+     "t": "Dermatoscopia de la lesión",
      "por": "No es el examen directo."
     },
     {
-     "t": "Inmunofluorescencia directa",
+     "t": "Inmunofluorescencia directa de piel",
      "por": "Es para enfermedades ampollares."
     }
    ],
@@ -473,7 +473,7 @@
    "enunciado": "¿Qué antifúngico tópico y qué duración corresponden a una tiña leve?",
    "opciones": [
     {
-     "t": "Terbinafina 1 % crema, 1-2 veces al día por 1-2 semanas",
+     "t": "Terbinafina 1 % crema por 1-2 semanas",
      "por": "Terbinafina 1 % crema 1-2 veces al día por 1-2 semanas; clotrimazol o miconazol se aplican 2 veces al día por 2-4 semanas.",
      "full": "Terbinafina 1 % crema, 1-2 veces al día por 1-2 semanas"
     },
@@ -482,11 +482,11 @@
      "por": "Es sistémica y se usa sobre todo en tiña capitis."
     },
     {
-     "t": "Fluconazol 150 mg semanal",
+     "t": "Fluconazol oral 150 mg semanal",
      "por": "Es tratamiento de candidiasis extensa."
     },
     {
-     "t": "Anfotericina B liposomal IV",
+     "t": "Anfotericina B liposomal endovenosa",
      "por": "Es para esporotricosis grave."
     }
    ],
@@ -502,7 +502,7 @@
    "enunciado": "¿Qué antifúngico se usa sobre todo en la tiña capitis?",
    "opciones": [
     {
-     "t": "Griseofulvina oral, 10-20 mg/kg/día por 6-12 semanas",
+     "t": "Griseofulvina oral por 6-12 semanas",
      "por": "La griseofulvina oral se menciona especialmente en tiña capitis; la tiña capitis requiere terapia sistémica prolongada.",
      "full": "Griseofulvina oral 10-20 mg/kg/día por 6-12 semanas"
     },
@@ -515,7 +515,7 @@
      "por": "Se usa en candidiasis."
     },
     {
-     "t": "Amorolfina laca semanal",
+     "t": "Laca de amorolfina semanal",
      "por": "Es un tópico para uñas, no para la tiña capitis."
     }
    ],
@@ -536,15 +536,15 @@
      "full": "12 a 24 semanas (6 a 12 en uñas de manos)"
     },
     {
-     "t": "6 a 12 semanas",
+     "t": "6 a 12 semanas continuas",
      "por": "Es la duración para las uñas de las manos."
     },
     {
-     "t": "1 a 2 semanas",
+     "t": "1 a 2 semanas continuas",
      "por": "Corresponde a tiñas cutáneas tópicas."
     },
     {
-     "t": "7 días",
+     "t": "7 días de tratamiento único",
      "por": "Es el esquema de itraconazol en tiñas."
     }
    ],
@@ -589,16 +589,16 @@
    "enunciado": "¿Qué se usa en la candidiasis cutánea extensa o recurrente?",
    "opciones": [
     {
-     "t": "Fluconazol oral 150 mg semanales por 2-4 semanas",
+     "t": "Fluconazol 150 mg semanal por 2-4 semanas",
      "por": "Fluconazol 150 mg una vez por semana durante 2-4 semanas, o itraconazol 100 mg/día por 14 días.",
      "full": "Fluconazol 150 mg semanales por 2-4 semanas"
     },
     {
-     "t": "Nistatina cada 6 meses",
+     "t": "Nistatina oral cada 6 meses",
      "por": "No es el esquema indicado."
     },
     {
-     "t": "Griseofulvina por 12 semanas",
+     "t": "Griseofulvina oral por 12 semanas",
      "por": "Se usa en tiñas."
     },
     {
@@ -618,20 +618,20 @@
    "enunciado": "¿Qué consecuencia puede tener no tratar una micosis?",
    "opciones": [
     {
-     "t": "Sobreinfección bacteriana como celulitis o impétigo",
+     "t": "Sobreinfección bacteriana (celulitis, impétigo)",
      "por": "Las lesiones micóticas pueden ser puerta de entrada para celulitis o impétigo; además causan cronicidad, deformidad ungueal y, en inmunosuprimidos, candidiasis invasiva.",
      "full": "Sobreinfección bacteriana, cronicidad y deformidad ungueal"
     },
     {
-     "t": "Inmunidad permanente",
+     "t": "Inmunidad permanente contra el hongo",
      "por": "No es una consecuencia."
     },
     {
-     "t": "Curación espontánea siempre",
+     "t": "Curación espontánea en todos los casos",
      "por": "No se garantiza."
     },
     {
-     "t": "Pérdida de la sensibilidad",
+     "t": "Pérdida permanente de la sensibilidad",
      "por": "No es una complicación descrita."
     }
    ],

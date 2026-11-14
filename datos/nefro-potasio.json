@@ -125,15 +125,15 @@
      "por": "La insulina y los agonistas β2 (salbutamol) meten el potasio a la célula; el sodio sérico no cambia pero el potasio sí baja, aunque el cuerpo no lo haya perdido."
     },
     {
-     "t": "Diarrea y laxantes",
+     "t": "Diarrea y uso de laxantes",
      "por": "Es una pérdida por el tubo digestivo, no una redistribución."
     },
     {
-     "t": "Diuréticos de asa",
+     "t": "Diuréticos de asa o tiazidas",
      "por": "Es una pérdida por la orina, no una redistribución."
     },
     {
-     "t": "Baja ingesta",
+     "t": "Baja ingesta de potasio",
      "por": "Es un déficit de aporte, no una redistribución."
     }
    ],
@@ -322,19 +322,20 @@
    "enunciado": "¿Cuál es una causa de pseudohiperpotasemia?",
    "opciones": [
     {
-     "t": "Muestra hemolizada o torniquete muy apretado",
-     "por": "La salida de potasio ocurre en el tubo de ensayo, no en el paciente: el valor sale alto aunque el potasio real sea normal. También ocurre con leucocitosis o trombocitosis extremas."
+     "t": "Muestra hemolizada o torniquete",
+     "por": "La salida de potasio ocurre en el tubo de ensayo, no en el paciente: el valor sale alto aunque el potasio real sea normal. También ocurre con leucocitosis o trombocitosis extremas.",
+     "full": "Muestra hemolizada o torniquete muy apretado"
     },
     {
-     "t": "Insuficiencia renal aguda",
+     "t": "Insuficiencia renal aguda oligúrica",
      "por": "El riñón no elimina potasio y sube de verdad en el paciente: es hiperpotasemia verdadera."
     },
     {
-     "t": "Acidosis metabólica",
+     "t": "Acidosis metabólica con anion gap alto",
      "por": "Saca potasio de las células y lo sube de verdad en el paciente."
     },
     {
-     "t": "Espironolactona",
+     "t": "Espironolactona asociada a IECA",
      "por": "Bloquea la aldosterona y retiene potasio de verdad en el paciente."
     }
    ],

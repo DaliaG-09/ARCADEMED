@@ -66,7 +66,7 @@
    "enunciado": "¿Cómo evoluciona la lesión del impétigo ampolloso?",
    "opciones": [
     {
-     "t": "Ampolla subcórnea blanda que erosiona y forma costra melicérica",
+     "t": "Ampolla subcórnea que deja costra melicérica",
      "por": "La ampolla es superficial y frágil; se erosiona y deja costra melicérica de extensión centrífuga sin cicatriz.",
      "full": "Ampolla subcórnea blanda que erosiona y deja costra melicérica sin cicatriz"
     },
@@ -96,12 +96,12 @@
    "enunciado": "¿Qué distingue a la ectima del impétigo ampolloso?",
    "opciones": [
     {
-     "t": "Es una forma ulcerativa con costra negruzca y cicatriz",
+     "t": "Forma ulcerativa con costra negruzca y cicatriz",
      "por": "La ectima es la forma ulcerativa del impétigo: costra negruzca con halo eritematoso, suele estar en miembros inferiores y deja cicatriz indeleble.",
      "full": "Forma ulcerativa con costra negruzca, halo eritematoso y cicatriz indeleble"
     },
     {
-     "t": "Es una ampolla frágil sin cicatriz",
+     "t": "Es una ampolla frágil que cura sin cicatriz",
      "por": "Eso describe el impétigo ampolloso."
     },
     {
@@ -109,7 +109,7 @@
      "por": "Es la foliculitis."
     },
     {
-     "t": "Es un edema profundo en la cara",
+     "t": "Es un edema profundo localizado en la cara",
      "por": "Eso es angioedema, no ectima."
     }
    ],
@@ -125,7 +125,7 @@
    "enunciado": "¿Cuál es el tratamiento del impétigo localizado sin complicaciones y no ampolloso?",
    "opciones": [
     {
-     "t": "Antibiótico tópico: mupirocina o ácido fusídico",
+     "t": "Mupirocina o ácido fusídico tópicos",
      "por": "Si es localizado y no ampolloso se usan antibióticos tópicos como mupirocina o ácido fusídico.",
      "full": "Mupirocina o ácido fusídico tópicos"
     },
@@ -134,7 +134,7 @@
      "por": "Se reserva para el ampolloso o con más de 5 lesiones."
     },
     {
-     "t": "Corticoide tópico potente",
+     "t": "Corticoide tópico potente por 2 semanas",
      "por": "No trata la infección bacteriana."
     },
     {
@@ -154,20 +154,20 @@
    "enunciado": "Un niño tiene impétigo con más de 5 lesiones. ¿Qué tratamiento corresponde?",
    "opciones": [
     {
-     "t": "Antibiótico sistémico, por ejemplo cefalexina, por 10 días",
+     "t": "Antibiótico sistémico (cefalexina) por 10 días",
      "por": "Con ampollas o más de 5 lesiones se indican antibióticos sistémicos (cefalexina, amoxicilina-clavulánico) durante 10 días.",
      "full": "Cefalexina o amoxicilina-clavulánico VO por 10 días"
     },
     {
-     "t": "Solo mupirocina tópica por 3 días",
+     "t": "Mupirocina tópica sola por 3 días",
      "por": "El tópico es para casos localizados sin complicaciones."
     },
     {
-     "t": "Solo antisépticos y observación",
+     "t": "Solo antisépticos locales y observación",
      "por": "No es suficiente con tantas lesiones."
     },
     {
-     "t": "Corticoides orales",
+     "t": "Corticoides orales por 7 días",
      "por": "No tratan la infección."
     }
    ],
@@ -183,16 +183,16 @@
    "enunciado": "¿Qué es la foliculitis?",
    "opciones": [
     {
-     "t": "Infección superficial del folículo pilosebáceo, casi siempre por S. aureus",
+     "t": "Infección superficial del folículo, casi siempre por S. aureus",
      "por": "Es una infección superficial del folículo pilosebáceo causada casi siempre por S. aureus; se presenta como papulopústula centrada por un pelo.",
      "full": "Infección superficial del folículo pilosebáceo, casi siempre por S. aureus"
     },
     {
-     "t": "Infección de la dermis por estreptococo A",
+     "t": "Infección de la dermis por estreptococo del grupo A",
      "por": "Es la erisipela, que afecta la dermis."
     },
     {
-     "t": "Infección del tejido subcutáneo por clostridios",
+     "t": "Infección del subcutáneo por bacterias anaerobias",
      "por": "No es foliculitis."
     },
     {
@@ -212,7 +212,7 @@
    "enunciado": "¿Cómo se define un forúnculo?",
    "opciones": [
     {
-     "t": "Foliculitis profunda necrosante, papulonodular muy inflamatoria",
+     "t": "Foliculitis profunda necrosante, muy inflamatoria",
      "por": "El forúnculo es una foliculitis profunda y necrosante, papulonodular muy inflamatoria, que evoluciona en 5 a 10 días.",
      "full": "Foliculitis profunda necrosante, papulonodular muy inflamatoria (5-10 días)"
     },
@@ -241,7 +241,7 @@
    "enunciado": "¿Qué caracteriza al ántrax estafilocócico?",
    "opciones": [
     {
-     "t": "Conglomerado de forúnculos con placa hiperálgica, fístulas, fiebre y adenopatías",
+     "t": "Forúnculos confluentes con placa hiperálgica y fístulas",
      "por": "Es un conglomerado de forúnculos que forma una placa inflamatoria hiperálgica salpicada de pústulas, con fístulas purulentas, fiebre y adenopatías regionales.",
      "full": "Conglomerado de forúnculos: placa hiperálgica con fístulas, fiebre y adenopatías"
     },
@@ -270,20 +270,20 @@
    "enunciado": "¿Qué se debe buscar en un paciente con forunculosis recurrente?",
    "opciones": [
     {
-     "t": "Factor favorecedor (diabetes, déficit de hierro, inmunosupresión) y reservorio de S. aureus",
+     "t": "Factor predisponente y reservorio de S. aureus",
      "por": "La forunculosis cronifica por factores como DM, carencia de hierro e inmunosupresión y por reservorio cutáneo de S. aureus (fosas nasales, interglúteo, cavidad bucal).",
      "full": "Factor favorecedor (DM, déficit de hierro, inmunosupresión) y reservorio de S. aureus"
     },
     {
-     "t": "Solo el tipo de ropa interior",
+     "t": "Solo el tipo de ropa interior del paciente",
      "por": "No es la causa principal descrita."
     },
     {
-     "t": "Un tumor de piel",
+     "t": "Un tumor cutáneo subyacente en todos los casos",
      "por": "No es lo que se sospecha en forunculosis."
     },
     {
-     "t": "Una infección viral recurrente",
+     "t": "Una infección viral recurrente asociada",
      "por": "No es una enfermedad viral."
     }
    ],
@@ -300,20 +300,20 @@
    "enunciado": "¿Cuál es el tratamiento de la foliculitis simple?",
    "opciones": [
     {
-     "t": "Antibióticos locales por 5 a 7 días, sin antibiótico sistémico",
+     "t": "Antibióticos locales por 5 a 7 días",
      "por": "En la tabla de tratamiento la foliculitis no requiere tratamiento sistémico; se usa desinfección y antibióticos locales 5-7 días.",
      "full": "Desinfección y antibióticos locales 5-7 días"
     },
     {
-     "t": "Cloxacilina IV",
+     "t": "Cloxacilina endovenosa por 10 días",
      "por": "No se indica en foliculitis simple."
     },
     {
-     "t": "Drenaje quirúrgico",
+     "t": "Drenaje quirúrgico de la lesión",
      "por": "Se necesita a menudo en el ántrax, no en la foliculitis."
     },
     {
-     "t": "Baja laboral de rutina",
+     "t": "Baja laboral de rutina por 2 semanas",
      "por": "Se plantea en forúnculo o forunculosis de profesiones de riesgo."
     }
    ],
@@ -329,7 +329,7 @@
    "enunciado": "¿Qué estructura afecta la erisipela?",
    "opciones": [
     {
-     "t": "La dermis, con posible extensión a linfáticos superficiales",
+     "t": "La dermis, con extensión a linfáticos superficiales",
      "por": "Es una infección cutánea que afecta la dermis y puede extenderse a vasos linfáticos superficiales; el eritema es bien delimitado y elevado.",
      "full": "La dermis, con posible extensión a vasos linfáticos superficiales"
     },
@@ -387,20 +387,20 @@
    "enunciado": "¿Cómo comienza el cuadro clínico de la erisipela?",
    "opciones": [
     {
-     "t": "Fiebre de 39-40 °C con escalofríos y luego placa eritematosa dolorosa y edematosa",
+     "t": "Fiebre alta con escalofríos y luego placa dolorosa",
      "por": "El orden cronológico es fiebre de 39 a 40 °C con escalofríos y después placa cutánea eritematosa, dolorosa y edematosa.",
      "full": "Fiebre de 39-40 °C con escalofríos; luego placa eritematosa, dolorosa y edematosa"
     },
     {
-     "t": "Ampolla frágil sin fiebre",
+     "t": "Ampolla frágil sin fiebre ni dolor",
      "por": "Eso es impétigo ampolloso."
     },
     {
-     "t": "Pústula con pelo central sin fiebre",
+     "t": "Pústula centrada por un pelo, sin fiebre",
      "por": "Eso es foliculitis."
     },
     {
-     "t": "Prurito leve y escama fina",
+     "t": "Prurito leve con escama fina, sin fiebre",
      "por": "No es el cuadro de la erisipela."
     }
    ],
@@ -417,7 +417,7 @@
    "enunciado": "¿Cuál de estos hallazgos orienta a una infección grave o necrotizante?",
    "opciones": [
     {
-     "t": "Dolor desproporcionado no controlado con analgésicos",
+     "t": "Dolor desproporcionado, no controlado con analgésicos",
      "por": "Entre los signos locales de gravedad están dolor muy intenso no controlado, zonas equimóticas o purpúricas, hipoestesia, crepitación e induración hiperálgica.",
      "full": "Dolor intenso no controlado por analgésicos"
     },
@@ -426,7 +426,7 @@
      "por": "Es la presentación habitual de la erisipela."
     },
     {
-     "t": "Fiebre de 38 °C con buena respuesta",
+     "t": "Fiebre de 38 °C que cede con paracetamol",
      "por": "No es un signo de gravedad."
     },
     {
@@ -510,15 +510,15 @@
      "full": "Estreptococo β-hemolítico y S. aureus (más en formas purulentas)"
     },
     {
-     "t": "Pseudomonas aeruginosa",
+     "t": "Pseudomonas aeruginosa o Klebsiella spp.",
      "por": "No es el agente habitual."
     },
     {
-     "t": "Candida albicans",
+     "t": "Candida albicans o dermatofitos",
      "por": "Es una levadura, no una bacteria."
     },
     {
-     "t": "Treponema pallidum",
+     "t": "Treponema pallidum o Neisseria spp.",
      "por": "Es la sífilis, no la celulitis."
     }
    ],
@@ -535,7 +535,7 @@
    "enunciado": "¿Cómo se presenta la celulitis?",
    "opciones": [
     {
-     "t": "Dolor, calor y enrojecimiento mal definido de aparición aguda",
+     "t": "Dolor, calor y eritema mal definido, de inicio agudo",
      "por": "La celulitis aparece de forma aguda con dolor, calor y eritema mal definido; hay fiebre en 26-67 % de los casos.",
      "full": "Dolor, calor y eritema mal definido, de aparición aguda"
     },
@@ -548,7 +548,7 @@
      "por": "Es la foliculitis."
     },
     {
-     "t": "Ampolla con costra melicérica",
+     "t": "Ampolla frágil con costra melicérica",
      "por": "Es el impétigo ampolloso."
     }
    ],
@@ -564,12 +564,12 @@
    "enunciado": "¿Cómo se diagnostica la celulitis?",
    "opciones": [
     {
-     "t": "Clínicamente; el cultivo no es rutinario, solo en la forma purulenta",
+     "t": "Clínico; cultivo solo en la forma purulenta",
      "por": "El diagnóstico es clínico; los cultivos se hacen en celulitis purulenta; se piden hemograma y marcadores inflamatorios, y ecografía para descartar absceso.",
      "full": "Clínico; cultivo solo en celulitis purulenta; ecografía si se sospecha absceso"
     },
     {
-     "t": "Con cultivo en todos los casos",
+     "t": "Cultivo de rutina en todos los casos",
      "por": "No se hace de forma rutinaria."
     },
     {
@@ -577,7 +577,7 @@
      "por": "No es necesaria."
     },
     {
-     "t": "Con prueba de parche",
+     "t": "Con prueba de parche cutánea",
      "por": "Es para dermatitis de contacto."
     }
    ],
@@ -593,20 +593,20 @@
    "enunciado": "¿Cuándo está indicado el antibiótico endovenoso en la celulitis?",
    "opciones": [
     {
-     "t": "Celulitis grave, con signos sistémicos o falla del tratamiento oral",
+     "t": "Celulitis grave, signos sistémicos o falla oral",
      "por": "Se indica IV en celulitis grave, signos sistémicos, afectación de cara u ojo, propagación rápida, falla oral e infección profunda o necrotizante.",
      "full": "Celulitis grave, signos sistémicos, cara u ojo, falla oral o infección necrotizante"
     },
     {
-     "t": "En toda celulitis leve sin fiebre",
+     "t": "Toda celulitis leve sin fiebre ni signos",
      "por": "La leve se trata con antibiótico oral."
     },
     {
-     "t": "Solo si hay prurito",
+     "t": "Solo si hay prurito intenso asociado",
      "por": "No es criterio."
     },
     {
-     "t": "Nunca, siempre es oral",
+     "t": "Nunca; siempre se trata por vía oral",
      "por": "Hay criterios para vía IV."
     }
    ],

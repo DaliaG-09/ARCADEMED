@@ -37,11 +37,12 @@
    "enunciado": "Un adolescente de 17 años consulta por lesiones faciales. ¿Qué dato epidemiológico del acné es correcto?",
    "opciones": [
     {
-     "t": "Afecta al 79 a 95 % de los adolescentes de 16 a 18 años",
-     "por": "La frecuencia sube con la edad: 28 a 61 % a los 10 a 12 años y 79 a 95 % a los 16 a 18 años."
+     "t": "Afecta al 79-95 % de adolescentes",
+     "por": "La frecuencia sube con la edad: 28 a 61 % a los 10 a 12 años y 79 a 95 % a los 16 a 18 años.",
+     "full": "Afecta al 79 a 95 % de los adolescentes de 16 a 18 años"
     },
     {
-     "t": "Es raro antes de los 25 años",
+     "t": "Es rara antes de los 25 años",
      "por": "Al contrario: predomina entre los 12 y 25 años y casi todos los adolescentes de 16 a 18 años lo padecen."
     },
     {
@@ -49,7 +50,7 @@
      "por": "Es más severo en varones, por su dependencia de andrógenos."
     },
     {
-     "t": "Solo aparece en la edad adulta, tras los 40 años",
+     "t": "Aparece solo en adultos tras los 40 años",
      "por": "Hay un segundo pico entre los 25 y 35 años (acné de la mujer adulta), pero no empieza a los 40."
     }
    ],
@@ -206,8 +207,9 @@
    "enunciado": "¿Qué zonas se afectan con más frecuencia en el acné, según el esquema de la clase?",
    "opciones": [
     {
-     "t": "Cara, pecho, hombros y parte alta de la espalda",
-     "por": "El esquema marca cara, región preesternal, hombros y espalda alta, donde hay más folículos sebáceos."
+     "t": "Cara, pecho, hombros y espalda alta",
+     "por": "El esquema marca cara, región preesternal, hombros y espalda alta, donde hay más folículos sebáceos.",
+     "full": "Cara, pecho, hombros y parte alta de la espalda"
     },
     {
      "t": "Palmas, plantas y zonas de flexión",
@@ -264,8 +266,9 @@
    "enunciado": "Según esa escala, ¿cómo es el acné grado 2?",
    "opciones": [
     {
-     "t": "Menos de la mitad de la cara, con algunos comedones y papulopústulas",
-     "por": "El grado 2 es leve: menos de la mitad de la cara afectada, algunos comedones y algunas papulopústulas."
+     "t": "Menos de la mitad de la cara, con pocas pápulas",
+     "por": "El grado 2 es leve: menos de la mitad de la cara afectada, algunos comedones y algunas papulopústulas.",
+     "full": "Menos de la mitad de la cara, con algunos comedones y papulopústulas"
     },
     {
      "t": "Ausencia de lesiones con eritema residual",
@@ -355,15 +358,15 @@
      "por": "En el papulopustuloso grave o nodular moderado la 1.ª elección es antibiótico oral + retinoide/POB."
     },
     {
-     "t": "Solo retinoides tópicos",
+     "t": "Retinoide tópico como único tratamiento",
      "por": "Son la 1.ª elección del comedoniano, y la base del mantenimiento, pero aquí no bastan."
     },
     {
-     "t": "Isotretinoína oral de entrada",
+     "t": "Isotretinoína oral desde el primer momento",
      "por": "La derivación para isotretinoína aparece como 2.ª elección en este grupo."
     },
     {
-     "t": "Solo ácido salicílico",
+     "t": "Ácido salicílico tópico como único tratamiento",
      "por": "El ácido salicílico es 2.ª elección del acné comedoniano."
     }
    ],
@@ -384,15 +387,15 @@
      "por": "En el acné nodulo-quístico o cicatricial la 1.ª elección es derivar a dermatología para isotretinoína."
     },
     {
-     "t": "Solo ácido salicílico tópico",
+     "t": "Ácido salicílico tópico por 3 meses",
      "por": "Es una opción para el comedoniano, insuficiente en la forma nodulo-quística."
     },
     {
-     "t": "Observación sin tratamiento",
+     "t": "Observación sin tratamiento por 6 meses",
      "por": "La tendencia cicatricial exige tratamiento para evitar secuelas."
     },
     {
-     "t": "Solo peróxido de benzoílo",
+     "t": "Peróxido de benzoílo como único tratamiento",
      "por": "No controla una forma nodular grave con riesgo de cicatriz."
     }
    ],
@@ -408,7 +411,7 @@
    "enunciado": "¿Cómo se define la rosácea?",
    "opciones": [
     {
-     "t": "Trastorno inflamatorio crónico de las convexidades faciales con eritema persistente y telangiectasias",
+     "t": "Inflamación crónica facial con eritema y telangiectasias",
      "por": "Cursa con eritema persistente y telangiectasias, con episodios agudos de inflamación, pápulas y pústulas.",
      "full": "Trastorno inflamatorio crónico de las convexidades faciales, con eritema persistente y telangiectasias"
     },
@@ -437,15 +440,16 @@
    "enunciado": "¿Cuál es el perfil epidemiológico de la rosácea?",
    "opciones": [
     {
-     "t": "Aparece entre los 30 y 50 años, más en mujeres (3:1)",
-     "por": "La clase da inicio entre los 30 y 50 años y proporción mujer:hombre de 3:1."
+     "t": "Entre 30 y 50 años, más en mujeres",
+     "por": "La clase da inicio entre los 30 y 50 años y proporción mujer:hombre de 3:1.",
+     "full": "Aparece entre los 30 y 50 años, más en mujeres (3:1)"
     },
     {
      "t": "Aparece sobre todo en la adolescencia",
      "por": "El pico del acné es adolescente; la rosácea empieza entre los 30 y 50 años."
     },
     {
-     "t": "Predomina en varones 3:1",
+     "t": "Predomina en varones, en proporción 3:1",
      "por": "La proporción es 3:1, pero a favor de la mujer."
     },
     {
@@ -494,18 +498,19 @@
    "opciones": [
     {
      "t": "Cerca de la mitad de los pacientes",
-     "por": "La clase indica que los hallazgos oculares están presentes en el 50 % de los pacientes."
+     "por": "La clase indica que los hallazgos oculares están presentes en el 50 % de los pacientes.",
+     "full": "Cerca de la mitad de los pacientes"
     },
     {
-     "t": "Menos del 5 % de los casos",
+     "t": "Menos del 5 % de los pacientes",
      "por": "Es mucho más frecuente de lo que se cree."
     },
     {
-     "t": "Solo en la forma glandular",
+     "t": "Solo los de la forma glandular",
      "por": "Pueden verse en cualquier forma; existe además una variedad ocular."
     },
     {
-     "t": "Nunca ocurren",
+     "t": "Nunca ocurre afectación ocular",
      "por": "Hay blefaritis, hiperemia conjuntival, ardor y lagrimeo."
     }
    ],
@@ -525,15 +530,15 @@
      "por": "La timatosis o rosácea glandular da piel engrosada con poros sobresalientes, p. ej. rinofima en la nariz."
     },
     {
-     "t": "Eritemato-telangiectásica",
+     "t": "Eritemato-telangiectásica, con flushing",
      "por": "Se caracteriza por eritema central y telangiectasias, sin engrosamiento."
     },
     {
-     "t": "Pápulopustulosa",
+     "t": "Pápulopustulosa, con lesiones inflamatorias",
      "por": "Muestra pápulas en bóveda y pústulas pequeñas, sin hipertrofia glandular."
     },
     {
-     "t": "Ocular",
+     "t": "Ocular, con blefaritis y conjuntivitis",
      "por": "Predominan hiperemia conjuntival y cuerpo extraño ocular."
     }
    ],
@@ -553,15 +558,15 @@
      "por": "El lupus da exantema en áreas expuestas a la luz, artropatía, ANA positivos y hallazgos hematológicos."
     },
     {
-     "t": "Rosácea",
+     "t": "Rosácea eritemato-telangiectásica",
      "por": "No se acompaña de artropatía ni de anticuerpos antinucleares."
     },
     {
-     "t": "Policitemia vera",
+     "t": "Policitemia vera con eritema facial intenso",
      "por": "Cursa con enrojecimiento facial y sufusión, posible hepatoesplenomegalia."
     },
     {
-     "t": "Síndrome carcinoide",
+     "t": "Síndrome carcinoide con enrojecimiento y diarrea",
      "por": "Da telangiectasia notable y episodios de rubor, con hepatomegalia."
     }
    ],
@@ -578,14 +583,15 @@
    "opciones": [
     {
      "t": "Metronidazol, ivermectina o ácido azelaico",
-     "por": "La tabla lista metronidazol 0.75 a 1 %, ivermectina 1 % y ácido azelaico 15 % como opciones tópicas."
+     "por": "La tabla lista metronidazol 0.75 a 1 %, ivermectina 1 % y ácido azelaico 15 % como opciones tópicas.",
+     "full": "Metronidazol, ivermectina o ácido azelaico"
     },
     {
-     "t": "Retinoide oral de por vida",
+     "t": "Retinoide oral de por vida en todos",
      "por": "No es tratamiento inicial; la isotretinoína oral se reserva para casos seleccionados como la rosácea fimatosa."
     },
     {
-     "t": "Corticoide tópico potente",
+     "t": "Corticoide tópico potente de mantenimiento",
      "por": "Puede empeorar la rosácea; no figura en la tabla de tratamiento."
     },
     {

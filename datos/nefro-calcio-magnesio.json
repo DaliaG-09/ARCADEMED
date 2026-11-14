@@ -36,7 +36,7 @@
    "enunciado": "¿Qué hace la FGF23?",
    "opciones": [
     {
-     "t": "Aumenta fosfaturia, baja calcitriol e inhibe poco la PTH",
+     "t": "Aumenta fosfaturia y baja calcitriol",
      "por": "El resultado es que baja el fósforo sérico.",
      "full": "Aumenta la eliminación de fósforo por la orina, baja el calcitriol e inhibe débilmente la PTH"
     },
@@ -65,7 +65,7 @@
    "enunciado": "¿Qué hace el calcitriol?",
    "opciones": [
     {
-     "t": "Sube absorción de Ca y P intestinales y frena la PTH",
+     "t": "Sube la absorción de Ca y P; frena la PTH",
      "por": "Por eso sube el calcio y el fósforo sérico. También favorece la resorción ósea junto con la PTH.",
      "full": "Aumenta la absorción intestinal de calcio y fósforo y frena la PTH por retroalimentación negativa"
     },
@@ -181,19 +181,20 @@
    "enunciado": "¿Qué hallazgo en el ECG produce la hipocalcemia?",
    "opciones": [
     {
-     "t": "QT prolongado con ondas T normales",
-     "por": "Aumenta el riesgo de arritmias, fibrilación ventricular y muerte súbita."
+     "t": "QT prolongado, ondas T normales",
+     "por": "Aumenta el riesgo de arritmias, fibrilación ventricular y muerte súbita.",
+     "full": "QT prolongado con ondas T normales"
     },
     {
-     "t": "QT corto",
+     "t": "QT acortado, ondas T normales",
      "por": "Es el hallazgo de la hipercalcemia."
     },
     {
-     "t": "Ondas T picudas",
+     "t": "Ondas T picudas con QRS ancho",
      "por": "Son de la hiperpotasemia."
     },
     {
-     "t": "Onda U",
+     "t": "Onda U prominente con T aplanada",
      "por": "Es de la hipopotasemia."
     }
    ],
@@ -391,19 +392,20 @@
    "enunciado": "Un magnesio sérico de 0.9 mg/dL es:",
    "opciones": [
     {
-     "t": "Hipomagnesemia grave (menor de 1.0)",
-     "por": "Leve 1.2 a 1.7; moderada 1.0 a 1.2; grave menor de 1.0."
+     "t": "Hipomagnesemia grave",
+     "por": "Leve 1.2 a 1.7; moderada 1.0 a 1.2; grave menor de 1.0.",
+     "full": "Hipomagnesemia grave (menor de 1.0)"
     },
     {
-     "t": "Leve",
+     "t": "Hipomagnesemia leve",
      "por": "Leve corresponde a 1.2 a 1.7."
     },
     {
-     "t": "Moderada",
+     "t": "Hipomagnesemia moderada",
      "por": "Moderada corresponde a 1.0 a 1.2."
     },
     {
-     "t": "Normal",
+     "t": "Magnesio sérico normal",
      "por": "Está muy por debajo del rango normal."
     }
    ],
@@ -419,7 +421,7 @@
    "enunciado": "¿Cuál es una causa de hipomagnesemia?",
    "opciones": [
     {
-     "t": "Diuréticos de asa, aminoglucósidos, cisplatino o alcohol",
+     "t": "Diuréticos de asa o aminoglucósidos",
      "por": "Producen pérdida renal de magnesio o ingesta baja.",
      "full": "Diuréticos de asa, aminoglucósidos, cisplatino o alcoholismo"
     },

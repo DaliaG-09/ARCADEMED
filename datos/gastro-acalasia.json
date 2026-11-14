@@ -37,8 +37,9 @@
    "enunciado": "¿Qué infección es una causa secundaria de acalasia?",
    "opciones": [
     {
-     "t": "Trypanosoma cruzi (enfermedad de Chagas)",
-     "por": "Destruye las neuronas del plexo mientérico; es la causa secundaria que menciona la lámina."
+     "t": "Trypanosoma cruzi (Chagas)",
+     "por": "Destruye las neuronas del plexo mientérico; es la causa secundaria que menciona la lámina.",
+     "full": "Trypanosoma cruzi (enfermedad de Chagas)"
     },
     {
      "t": "Helicobacter pylori",
@@ -94,8 +95,9 @@
    "enunciado": "¿Por qué un paciente con acalasia puede tener pirosis?",
    "opciones": [
     {
-     "t": "Por la fermentación de los alimentos retenidos en el esófago",
-     "por": "No es reflujo ácido: el alimento estancado fermenta y produce ácido láctico."
+     "t": "Por fermentación de alimentos retenidos",
+     "por": "No es reflujo ácido: el alimento estancado fermenta y produce ácido láctico.",
+     "full": "Por la fermentación de los alimentos retenidos en el esófago"
     },
     {
      "t": "Porque el EEI está hipotónico y deja pasar ácido",
@@ -288,8 +290,9 @@
    "enunciado": "¿Cómo se aplica la toxina botulínica en la acalasia?",
    "opciones": [
     {
-     "t": "Se inyectan 100 unidades por encima de la unión escamocilíndrica por endoscopía",
-     "por": "Bloquea la liberación de acetilcolina y relaja el EEI, con efecto transitorio."
+     "t": "100 unidades sobre la unión escamocilíndrica",
+     "por": "Bloquea la liberación de acetilcolina y relaja el EEI, con efecto transitorio.",
+     "full": "Se inyectan 100 unidades por encima de la unión escamocilíndrica por endoscopía"
     },
     {
      "t": "Se aplica por vía intravenosa semanal",

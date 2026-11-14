@@ -156,7 +156,7 @@
    "enunciado": "¿Cuál es el estudio de imagen de primera elección en la pancreatitis aguda?",
    "opciones": [
     {
-     "t": "Ecografía abdominal, que muestra litiasis y líquido libre",
+     "t": "Ecografía abdominal (litiasis y líquido libre)",
      "por": "Es operador dependiente y se limita por el meteorismo.",
      "full": "La ecografía abdominal, que identifica litiasis, páncreas agrandado y líquido libre"
     },
@@ -185,8 +185,9 @@
    "enunciado": "¿Qué proporción de las pancreatitis agudas son leves?",
    "opciones": [
     {
-     "t": "80 a 85 %, sin daño de órgano ni necrosis",
-     "por": "La forma severa (15 a 20 %) tiene dos fases."
+     "t": "80 a 85 %",
+     "por": "La forma severa (15 a 20 %) tiene dos fases.",
+     "full": "80 a 85 %, sin daño de órgano ni necrosis"
     },
     {
      "t": "15 a 20 %",
@@ -331,8 +332,9 @@
    "enunciado": "¿Qué solución se prefiere para la hidratación en pancreatitis aguda?",
    "opciones": [
     {
-     "t": "Lactato de Ringer, por su mejor balance de electrolitos",
-     "por": "La hidratación agresiva se da en 5 a 10 ml/kg/h por 12 a 24 horas; la moderada, 1,5 a 2 ml/kg/h."
+     "t": "Lactato de Ringer, mejor balance electrolítico",
+     "por": "La hidratación agresiva se da en 5 a 10 ml/kg/h por 12 a 24 horas; la moderada, 1,5 a 2 ml/kg/h.",
+     "full": "Lactato de Ringer, por su mejor balance de electrolitos"
     },
     {
      "t": "Solución salina al 0,9 % en todos los casos",
@@ -427,7 +429,7 @@
    "enunciado": "¿Cuándo se dan antibióticos en la pancreatitis aguda?",
    "opciones": [
     {
-     "t": "Solo con infección demostrada, como necrosis infectada tardía",
+     "t": "Solo con infección demostrada",
      "por": "No se usan de forma rutinaria ni preventiva; se eligen carbapenémicos, quinolonas o metronidazol por su penetración al páncreas.",
      "full": "Solo ante evidencia de infección, por ejemplo necrosis con deterioro a los 7 a 10 días de hospitalización"
     },
@@ -460,7 +462,7 @@
    "enunciado": "¿Cómo se define la pancreatitis crónica?",
    "opciones": [
     {
-     "t": "Destrucción permanente con insuficiencia exo y endocrina",
+     "t": "Destrucción permanente del páncreas",
      "por": "Es irreversible; es más frecuente entre los 35 y 55 años.",
      "full": "Destrucción progresiva y permanente del páncreas, con insuficiencia endocrina y exocrina y dolor abdominal"
     },

@@ -104,8 +104,9 @@
    "enunciado": "Mujer joven con disuria y urgencia miccional desde ayer. No tiene fiebre, escalofríos ni dolor de flanco. ¿Cómo se clasifica su ITU?",
    "opciones": [
     {
-     "t": "No complicada: cistitis confinada a la vejiga",
-     "por": "La infección está limitada a la vejiga y no hay signos de infección por encima de ella. Eso es una ITU no complicada."
+     "t": "No complicada (cistitis)",
+     "por": "La infección está limitada a la vejiga y no hay signos de infección por encima de ella. Eso es una ITU no complicada.",
+     "full": "No complicada: cistitis confinada a la vejiga"
     },
     {
      "t": "Complicada",
@@ -368,8 +369,9 @@
    "enunciado": "Mujer con 4 episodios de cistitis en un año. ¿Qué incluye el manejo de ITU recurrente?",
    "opciones": [
     {
-     "t": "Aumentar la ingesta de líquidos, antibiótico poscoital y considerar estudios de imágenes",
-     "por": "Son las medidas del esquema de más de 3 episodios por año."
+     "t": "Más líquidos, antibiótico poscoital e imágenes",
+     "por": "Son las medidas del esquema de más de 3 episodios por año.",
+     "full": "Aumentar la ingesta de líquidos, antibiótico poscoital y considerar estudios de imágenes"
     },
     {
      "t": "Tomar jugo de arándano (cranberry) como tratamiento",

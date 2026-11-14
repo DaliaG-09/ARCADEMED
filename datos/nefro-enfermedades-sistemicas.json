@@ -247,7 +247,7 @@
    "enunciado": "¿Qué es la esclerodermia?",
    "opciones": [
     {
-     "t": "Colagenopatía vascular con exceso de colágeno en varios órganos",
+     "t": "Exceso de colágeno en varios órganos",
      "por": "En la piel hay Raynaud, edema de manos y pies, esclerodactilia y úlceras; en el tubo digestivo, pirosis y disfagia; también artralgias.",
      "full": "Una enfermedad del colágeno y vascular con proliferación excesiva de colágeno que afecta piel, tubo digestivo, riñón, pulmón y corazón"
     },
@@ -277,7 +277,7 @@
    "enunciado": "¿Qué es la crisis renal esclerodérmica?",
    "opciones": [
     {
-     "t": "HTA maligna con hemólisis microangiopática e IRA",
+     "t": "HTA maligna con hemólisis e IRA",
      "por": "Aparece unos 5 años después del diagnóstico, sobre todo con afectación cutánea difusa y anticuerpos anti-ARN polimerasa III. La afectación renal es indicador de mal pronóstico.",
      "full": "Complicación grave con hipertensión maligna, anemia hemolítica microangiopática, trombocitopenia e insuficiencia renal aguda"
     },
@@ -311,15 +311,15 @@
      "por": "La clase dice que a nivel renal el control de la presión con IECA es el tratamiento de elección. Para el resto: control de síntomas, D-penicilamina y colchicina (antifibróticos)."
     },
     {
-     "t": "Rituximab",
+     "t": "Rituximab endovenoso",
      "por": "No es el de elección renal."
     },
     {
-     "t": "Plasmaféresis",
+     "t": "Plasmaféresis diaria",
      "por": "No se indica de rutina."
     },
     {
-     "t": "Ciclofosfamida",
+     "t": "Ciclofosfamida endovenosa",
      "por": "No se menciona como elección renal."
     }
    ],
@@ -335,7 +335,7 @@
    "enunciado": "En el mieloma múltiple, ¿cuál es la afectación renal más frecuente?",
    "opciones": [
     {
-     "t": "Riñón de mieloma por cilindros de cadenas ligeras",
+     "t": "Riñón de mieloma (cilindros)",
      "por": "Se manifiesta como insuficiencia renal aguda o crónica. La hipercalcemia (vasoconstricción renal) y la hiperuricemia agravan el daño.",
      "full": "Riñón de mieloma: las cadenas ligeras precipitan en los túbulos y forman cilindros que los obstruyen y los lesionan"
     },
@@ -364,7 +364,7 @@
    "enunciado": "¿Qué estudios apoyan el diagnóstico de mieloma múltiple?",
    "opciones": [
     {
-     "t": "Inmunoelectroforesis y médula con >10 % plasmocitos",
+     "t": "Inmunoelectroforesis y médula ósea",
      "por": "Detectan el exceso de cadenas ligeras y confirman la proliferación plasmática.",
      "full": "Inmunoelectroforesis en sangre u orina, proteinuria de Bence Jones y aspirado de médula ósea con más de 10 % de células plasmáticas"
     },
@@ -482,7 +482,7 @@
    "enunciado": "Según los criterios SLICC 2012, ¿cuándo se clasifica a un paciente como portador de lupus?",
    "opciones": [
     {
-     "t": "Biopsia lúpica con ANA o anti-DNA, o 4 criterios",
+     "t": "Biopsia lúpica con ANA o anti-DNA",
      "por": "Es la forma de la tabla 3. Entre los criterios clínicos están el lupus cutáneo, las úlceras orales, la alopecia, la sinovitis, la serositis, el criterio renal y la anemia hemolítica; entre los inmunológicos, ANA, anti-DNA, anti-Sm, antifosfolípidos, hipocomplementemia y Coombs directo positivo.",
      "full": "Nefritis lúpica comprobada por biopsia con ANA o anti-DNA positivos, o 4 o más criterios con al menos uno clínico y uno inmunológico"
     },
@@ -542,7 +542,7 @@
    "enunciado": "¿Qué afectación renal se asocia a la hepatitis C y a la hepatitis B?",
    "opciones": [
     {
-     "t": "VHC: crioglobulinemia y GNMP; VHB: GN postinfecciosa",
+     "t": "VHC: crioglobulinemia y GNMP",
      "por": "La prevalencia exacta de GN por VHC se desconoce. El VIH produce nefropatía colapsante.",
      "full": "Hepatitis C: crioglobulinemia, GN membranoproliferativa y/o membranosa. Hepatitis B: GN postinfecciosa"
     },
@@ -605,15 +605,15 @@
      "por": "En la tabla 6, mayores de 70 años con aclaramiento menor de 25 mL/min reciben 50 %."
     },
     {
-     "t": "65 %",
+     "t": "65 % de la dosis",
      "por": "Es para mayores de 70 con aclaramiento >25, o para 60 a 70 con <25."
     },
     {
-     "t": "85 %",
+     "t": "85 % de la dosis",
      "por": "Es para menores de 60 con <25, o 60 a 70 con >25."
     },
     {
-     "t": "100 %",
+     "t": "100 % de la dosis",
      "por": "Es solo para menores de 60 con aclaramiento >25."
     }
    ],
@@ -630,7 +630,7 @@
    "enunciado": "Mujer de 68 años con otitis crónica e hipoacusia, 3 semanas de cansancio y malestar, creatinina 2 mg/dL y anemia. ¿Por qué sospechar vasculitis y qué tratamiento propones?",
    "opciones": [
     {
-     "t": "Vasculitis ANCA; glucocorticoides más ciclofosfamida o rituximab",
+     "t": "Vasculitis ANCA; esteroides y ciclofosfamida",
      "por": "La vasculitis afecta vías respiratorias altas, oído y riñón. El tratamiento debe empezar pronto.",
      "full": "Afectación crónica de oído más deterioro renal y anemia sugiere vasculitis ANCA (por ejemplo granulomatosis con poliangeítis). Glucocorticoides más ciclofosfamida o rituximab"
     },

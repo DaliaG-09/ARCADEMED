@@ -317,7 +317,7 @@
    "enunciado": "¿Qué se dice de la epidemiología de la úlcera péptica en el Perú?",
    "opciones": [
     {
-     "t": "Duodenal/gástrica 4:1, pero en la altura andina predomina la gástrica",
+     "t": "Duodenal 4:1; en altura andina predomina la gástrica",
      "por": "La altura modifica el patrón habitual.",
      "full": "La relación úlcera duodenal/gástrica es 4:1, pero en la población andina la gástrica es más frecuente por la poliglobulia"
     },
@@ -374,7 +374,7 @@
    "enunciado": "¿Cómo actúan los inhibidores de la bomba de protones (IBP) como el omeprazol?",
    "opciones": [
     {
-     "t": "Inhiben de forma no competitiva la bomba H⁺/K⁺ ATPasa",
+     "t": "Inhiben la bomba H⁺/K⁺ ATPasa",
      "por": "Así bloquean el paso final de la secreción ácida.",
      "full": "Inhiben de forma específica y no competitiva la bomba H⁺/K⁺ ATPasa de las células parietales"
     },

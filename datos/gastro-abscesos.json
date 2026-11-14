@@ -299,7 +299,7 @@
    "enunciado": "¿Qué prueba confirma el contacto con Entamoeba histolytica en un absceso amebiano?",
    "opciones": [
     {
-     "t": "Anticuerpos antiamebianos (hemaglutinación, ELISA)",
+     "t": "Anticuerpos antiamebianos",
      "por": "Aparecen entre el 7.º y el 10.º día en 90 a 100 % de los casos. ELISA tiene sensibilidad de 95 %.",
      "full": "Detección de anticuerpos antiamebianos (hemaglutinación indirecta, ELISA)"
     },
@@ -361,7 +361,7 @@
    "enunciado": "Un varón de 40 años acude por fiebre de 39 °C y dolor en el hipocondrio derecho. ¿Qué dato favorece el absceso amebiano sobre el piógeno?",
    "opciones": [
     {
-     "t": "Absceso único derecho, zona endémica, serología positiva",
+     "t": "Único, derecho, zona endémica, serología positiva",
      "por": "Son rasgos típicos del absceso amebiano, que se trata con metronidazol.",
      "full": "Edad menor de 40, absceso único en el lóbulo derecho, viaje a zona endémica y serología positiva"
     },

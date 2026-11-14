@@ -126,7 +126,7 @@
      "por": "Los queratinocitos se multiplican con un ritmo circadiano, con aumento nocturno."
     },
     {
-     "t": "Durante el mediodía solamente",
+     "t": "Solo durante el mediodía, con calor",
      "por": "No es el momento descrito en la clase."
     },
     {
@@ -155,11 +155,11 @@
      "full": "54: 28 ácidas (tipo I) y 26 básicas (tipo II)"
     },
     {
-     "t": "28 ácidas y 54 básicas",
+     "t": "28 ácidas y 54 básicas en total",
      "por": "Mezcla las cifras: en total son 54 y se reparten 28 y 26."
     },
     {
-     "t": "54 del tipo I únicamente",
+     "t": "54 del tipo I (ácidas) únicamente",
      "por": "Hay dos tipos: I (ácidas) y II (básicas)."
     },
     {
@@ -208,19 +208,20 @@
    "enunciado": "¿Qué función se atribuye a las células de Merkel?",
    "opciones": [
     {
-     "t": "Mecanorreceptores de adaptación lenta (discos táctiles)",
-     "por": "Actuarían como mecanorreceptores de adaptación lenta, en contacto con fibras amielínicas, formando los discos táctiles de la epidermis."
+     "t": "Mecanorreceptores de adaptación lenta",
+     "por": "Actuarían como mecanorreceptores de adaptación lenta, en contacto con fibras amielínicas, formando los discos táctiles de la epidermis.",
+     "full": "Mecanorreceptores de adaptación lenta (discos táctiles)"
     },
     {
-     "t": "Síntesis de melanina",
+     "t": "Síntesis de melanina del epitelio",
      "por": "Eso hacen los melanocitos."
     },
     {
-     "t": "Presentación de antígenos",
+     "t": "Presentación de antígenos a linfocitos T",
      "por": "Eso corresponde a las células de Langerhans."
     },
     {
-     "t": "Formación de la queratina dura de uñas",
+     "t": "Formación de la queratina dura de las uñas",
      "por": "La queratina dura viene de pelos y uñas, no de las células de Merkel."
     }
    ],
@@ -241,15 +242,15 @@
      "full": "Captan antígenos y los presentan a los linfocitos T"
     },
     {
-     "t": "Producen melanina",
+     "t": "Producen melanina para el queratinocito",
      "por": "La melanina viene de los melanocitos."
     },
     {
-     "t": "Sintetizan queratina",
+     "t": "Sintetizan queratina blanda en el estrato",
      "por": "La queratina la sintetizan los queratinocitos."
     },
     {
-     "t": "Almacenan grasa",
+     "t": "Almacenan grasa en la hipodermis",
      "por": "Eso es función de los adipocitos de la hipodermis."
     }
    ],
@@ -327,15 +328,15 @@
      "full": "Segunda línea de defensa frente a traumatismos"
     },
     {
-     "t": "Fabricar y almacenar grasa",
+     "t": "Fabricar y almacenar grasa de reserva",
      "por": "Esa es función de los lipocitos de la hipodermis."
     },
     {
-     "t": "Sintetizar melanina",
+     "t": "Sintetizar melanina para protegerse del sol",
      "por": "La sintetizan los melanocitos de la epidermis."
     },
     {
-     "t": "Formar la capa córnea",
+     "t": "Formar la capa córnea de la epidermis",
      "por": "La capa córnea pertenece a la epidermis."
     }
    ],
@@ -435,7 +436,7 @@
    "enunciado": "¿Qué diferencia a una lesión elemental primaria de una secundaria?",
    "opciones": [
     {
-     "t": "Primaria: sobre piel sana; secundaria: tras otra lesión",
+     "t": "Primaria: piel sana; secundaria: tras otra lesión",
      "por": "Las primarias aparecen directamente sobre piel sana; las secundarias aparecen por una lesión primaria o por su evolución.",
      "full": "La primaria aparece sobre piel sana; la secundaria deriva de una lesión previa"
     },
@@ -525,15 +526,15 @@
      "por": "El habón es edematoso, pruriginoso, de instauración rápida y carácter transitorio."
     },
     {
-     "t": "Placa",
+     "t": "Placa (lesión elevada mayor de 1 cm)",
      "por": "Es una lesión elevada y aplanada mayor de 1 cm, pero no es de aparición rápida y transitoria."
     },
     {
-     "t": "Pústula",
+     "t": "Pústula (lesión con contenido purulento)",
      "por": "Es una vesícula llena de leucocitos."
     },
     {
-     "t": "Nódulo",
+     "t": "Nódulo (lesión sólida y profunda)",
      "por": "Es una lesión firme de 0.5 a 5 cm y no desaparece en horas."
     }
    ],
@@ -639,15 +640,15 @@
      "full": "Signo de Nikolsky: pénfigo vulgar, SJS, NET y piel escaldada"
     },
     {
-     "t": "Signo de Darier: mastocitosis",
+     "t": "Signo de Darier: mastocitosis cutánea",
      "por": "El de Darier es eritema, edema o ampolla por liberación de histamina al frotar una lesión."
     },
     {
-     "t": "Dermografismo: urticaria",
+     "t": "Dermografismo: urticaria crónica",
      "por": "Es una roncha lineal tras raspar con objeto romo."
     },
     {
-     "t": "Test de Patergia: Behçet",
+     "t": "Test de Patergia: enfermedad de Behçet",
      "por": "Es una pústula o pápula tras punción con aguja estéril en 24 a 48 horas."
     }
    ],
@@ -691,15 +692,16 @@
    "enunciado": "Se raspa la piel con un objeto romo y aparece una marca roja, elevada y pruriginosa. ¿Cómo se llama y es siempre patológica?",
    "opciones": [
     {
-     "t": "Dermografismo; puede ser normal o estar presente en urticaria",
-     "por": "El dermografismo es la aparición de roncha tras estimular la piel con un objeto firme y puede ser normal."
+     "t": "Dermografismo; normal o presente en urticaria",
+     "por": "El dermografismo es la aparición de roncha tras estimular la piel con un objeto firme y puede ser normal.",
+     "full": "Dermografismo; puede ser normal o estar presente en urticaria"
     },
     {
      "t": "Dermografismo; siempre indica cáncer",
      "por": "Puede ser normal y no se relaciona con cáncer."
     },
     {
-     "t": "Signo de Nikolsky; es diagnóstico de pénfigo",
+     "t": "Signo de Nikolsky; diagnóstico de pénfigo",
      "por": "Nikolsky es desprendimiento de la epidermis, no una roncha."
     },
     {

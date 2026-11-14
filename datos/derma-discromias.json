@@ -8,7 +8,7 @@
    "enunciado": "¿Qué determina el grado de pigmentación racial de la piel?",
    "opciones": [
     {
-     "t": "La actividad metabólica de los melanocitos, no su número",
+     "t": "La actividad de los melanocitos, no su número",
      "por": "El grado de pigmentación racial no depende del número de melanocitos sino de su actividad metabólica.",
      "full": "La actividad metabólica de los melanocitos, no su número"
     },
@@ -66,7 +66,7 @@
    "enunciado": "¿Qué ocurre en el vitíligo?",
    "opciones": [
     {
-     "t": "Autoinmunidad que destruye los melanocitos y forma parches despigmentados",
+     "t": "Autoinmunidad con destrucción de melanocitos",
      "por": "El vitíligo es autoinmunitario, afecta al 1-2 % de la población y produce áreas definidas de despigmentación por destrucción de melanocitos.",
      "full": "Destrucción autoinmune de melanocitos con parches despigmentados bien definidos"
     },
@@ -158,15 +158,15 @@
      "full": "La hipopigmentación postinflamatoria"
     },
     {
-     "t": "El vitíligo",
+     "t": "El vitíligo, por su frecuencia en la población",
      "por": "Es importante, pero no la más frecuente."
     },
     {
-     "t": "El piebaldismo",
+     "t": "El piebaldismo, por su herencia",
      "por": "Es poco frecuente y genético."
     },
     {
-     "t": "El lupus eritematoso",
+     "t": "El lupus eritematoso sistémico",
      "por": "Puede causarla pero no es la más frecuente."
     }
    ],
@@ -182,7 +182,7 @@
    "enunciado": "¿Cómo es la pitiriasis alba?",
    "opciones": [
     {
-     "t": "Máculas redondas u ovaladas de 0,5-3 cm, secas, de bordes mal definidos, en la cara",
+     "t": "Máculas de 0,5-3 cm, secas, mal definidas, en la cara",
      "por": "Es un eccema benigno que suele afectar la cara, con máculas redondas u ovaladas de 0,5-3 cm, contornos mal definidos y superficie seca.",
      "full": "Máculas de 0,5-3 cm, secas, de bordes mal definidos, sobre todo en la cara"
     },
@@ -220,11 +220,11 @@
      "por": "Son de la hipomelanosis idiopática en gotas."
     },
     {
-     "t": "Mechón blanco con parches",
+     "t": "Mechón blanco con parches cutáneos",
      "por": "Es del piebaldismo."
     },
     {
-     "t": "Placas oscuras en los pliegues",
+     "t": "Placas oscuras en axilas e ingles",
      "por": "Es la acantosis nigricans."
     }
    ],
@@ -269,12 +269,12 @@
    "enunciado": "¿Cuál es la herencia y el cuadro del albinismo oculocutáneo?",
    "opciones": [
     {
-     "t": "Recesiva, con piel pálida, pelo claro y fotofobia",
+     "t": "Recesivo: piel pálida, pelo claro y fotofobia",
      "por": "El albinismo oculocutáneo es una forma recesiva por defecto genético de la síntesis de melanina: piel pálida, pelo rubio, blanco o amarillento y fotofobia.",
      "full": "Recesivo: piel pálida, pelo claro y fotofobia"
     },
     {
-     "t": "Dominante, con piel oscura y pelo negro",
+     "t": "Dominante, con piel y pelo muy oscuros",
      "por": "No es lo descrito."
     },
     {
@@ -282,7 +282,7 @@
      "por": "Eso es el vitíligo."
     },
     {
-     "t": "Ligado a hemocromatosis",
+     "t": "Ligado a depósito de hierro en vísceras",
      "por": "No tiene relación."
     }
    ],
@@ -298,7 +298,7 @@
    "enunciado": "¿Qué produce el aspecto bronceado en la hemocromatosis primaria?",
    "opciones": [
     {
-     "t": "Depósito de hierro en vísceras e hígado, con piel bronceada",
+     "t": "Depósito de hierro en vísceras e hígado",
      "por": "La hemocromatosis primaria da una apariencia bronceada, con depósito de hierro en vísceras e hígado.",
      "full": "Depósito de hierro en vísceras e hígado con apariencia bronceada"
     },
@@ -356,12 +356,12 @@
    "enunciado": "¿Qué características tiene el melasma?",
    "opciones": [
     {
-     "t": "Hiperpigmentación facial, sobre todo en mujeres, con 25 % en el embarazo",
+     "t": "Hiperpigmentación facial, 25 % en el embarazo",
      "por": "Es hiperpigmentación de la cara, usualmente en mujeres; 25 % aparece en el embarazo; factores genéticos, hormonales y ultravioleta.",
      "full": "Hiperpigmentación facial, sobre todo en mujeres; 25 % aparece en el embarazo"
     },
     {
-     "t": "Despigmentación de la cara en varones",
+     "t": "Despigmentación facial, sobre todo en varones",
      "por": "Eso es lo contrario."
     },
     {
@@ -369,7 +369,7 @@
      "por": "No describe el melasma."
     },
     {
-     "t": "Manchas en palmas y plantas",
+     "t": "Manchas oscuras en palmas y plantas",
      "por": "No es el patrón del melasma."
     }
    ],
@@ -414,7 +414,7 @@
    "enunciado": "¿Qué se observa en la mastocitosis cutánea?",
    "opciones": [
     {
-     "t": "Múltiples máculas oscuras de pocos milímetros que se urticarian al frotar",
+     "t": "Máculas oscuras pequeñas que se urticarian al frotar",
      "por": "Hay infiltración por mastocitos, con muchas máculas oscuras de pocos milímetros que se vuelven urticariformes con la fricción.",
      "full": "Máculas oscuras de pocos milímetros que se urticarian con la fricción"
     },
@@ -443,20 +443,20 @@
    "enunciado": "¿Cuánto dura la hiperpigmentación postinflamatoria?",
    "opciones": [
     {
-     "t": "De semanas a meses tras una dermatosis inflamatoria",
+     "t": "De semanas a meses tras una dermatosis",
      "por": "Cualquier dermatosis inflamatoria puede curar dejando manchas, que duran semanas o meses.",
      "full": "Semanas a meses tras una dermatosis inflamatoria"
     },
     {
-     "t": "Es siempre permanente",
+     "t": "Es siempre permanente, de por vida",
      "por": "La clase indica semanas y meses."
     },
     {
-     "t": "Solo unas horas",
+     "t": "Dura solo unas horas tras la lesión",
      "por": "No es tan breve."
     },
     {
-     "t": "Aparece solo en el embarazo",
+     "t": "Aparece solo durante el embarazo",
      "por": "Eso es del melasma."
     }
    ],
@@ -472,7 +472,7 @@
    "enunciado": "¿Qué es la acantosis nigricans y con qué se asocia?",
    "opciones": [
     {
-     "t": "Placas hiperpigmentadas en pliegues, asociadas a hiperinsulinismo o tumores",
+     "t": "Placas oscuras en pliegues, con hiperinsulinismo",
      "por": "Son placas hiperpigmentadas en axilas, ingle, cuello y cara; se asocian a hiperinsulinismo o tumores subyacentes; hay formas familiares benignas.",
      "full": "Placas hiperpigmentadas en pliegues; hiperinsulinismo o tumores subyacentes"
     },
@@ -481,11 +481,11 @@
      "por": "Es el vitíligo."
     },
     {
-     "t": "Manchas oscuras en el embarazo",
+     "t": "Manchas oscuras faciales en el embarazo",
      "por": "Es el melasma, no la acantosis nigricans."
     },
     {
-     "t": "Mechón blanco congénito",
+     "t": "Mechón blanco de pelo desde el nacimiento",
      "por": "Es el piebaldismo."
     }
    ],
@@ -501,20 +501,20 @@
    "enunciado": "¿Con qué enfermedad se asocian las manchas café con leche?",
    "opciones": [
     {
-     "t": "Neurofibromatosis (enfermedad de Von Recklinghausen)",
+     "t": "Neurofibromatosis (Von Recklinghausen)",
      "por": "Los parches café con leche son manifestación de neurofibromatosis; son manchas planas de 0,5-4 cm.",
      "full": "Neurofibromatosis (Von Recklinghausen)"
     },
     {
-     "t": "Síndrome de Addison",
+     "t": "Enfermedad de Addison, con hiperpigmentación",
      "por": "Da hiperpigmentación generalizada."
     },
     {
-     "t": "Albinismo",
+     "t": "Albinismo oculocutáneo recesivo",
      "por": "Es hipopigmentación."
     },
     {
-     "t": "Vitíligo",
+     "t": "Vitíligo autoinmune, con parches blancos",
      "por": "Produce despigmentación."
     }
    ],
@@ -530,7 +530,7 @@
    "enunciado": "¿Qué hallazgos tiene el síndrome de Peutz-Jeghers?",
    "opciones": [
     {
-     "t": "Manchas café en labios, boca y dedos, con pólipos intestinales",
+     "t": "Manchas en labios y dedos, con pólipos intestinales",
      "por": "Hay manchas café en labios, alrededor de la boca y en los dedos, acompañadas de pólipos en el intestino.",
      "full": "Manchas café en labios, boca y dedos, con pólipos intestinales"
     },

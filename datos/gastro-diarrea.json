@@ -37,7 +37,7 @@
    "enunciado": "¿Qué afirmación sobre la diarrea aguda es correcta?",
    "opciones": [
     {
-     "t": "Se autolimita con buen saneamiento y agua potable",
+     "t": "Se autolimita con buen saneamiento",
      "por": "Es más frecuente en edades extremas y es una de las principales causas de visita a emergencia (179 millones de visitas al año en EE. UU.).",
      "full": "Suele autolimitarse donde hay buen saneamiento y acceso a agua potable; la prevención es clave"
     },
@@ -125,7 +125,7 @@
    "enunciado": "¿En cuáles situaciones se solicitan exámenes auxiliares en la diarrea aguda?",
    "opciones": [
     {
-     "t": "Sangre o moco, fiebre, dolor intenso, sepsis o >7 días",
+     "t": "Sangre o moco, fiebre, dolor intenso o sepsis",
      "por": "Los exámenes no son de rutina. Se piden reacción inflamatoria en heces, hemograma, urea, creatinina, electrolitos, PCR y cultivos.",
      "full": "Con sangre o moco, fiebre, dolor abdominal intenso o sepsis, o diarrea de más de 7 días"
     },
@@ -195,15 +195,15 @@
      "por": "La alternativa es vancomicina oral."
     },
     {
-     "t": "Azitromicina",
+     "t": "Azitromicina por vía oral",
      "por": "Es la primera elección para Campylobacter y se usa también para Shigella."
     },
     {
-     "t": "Tinidazol",
+     "t": "Tinidazol por vía oral",
      "por": "Es la primera elección para Giardia, con nitazoxanida y metronidazol como alternativas."
     },
     {
-     "t": "Doxiciclina",
+     "t": "Doxiciclina por vía oral",
      "por": "Es la primera elección para Vibrio cholerae."
     }
    ],
@@ -223,8 +223,9 @@
    "enunciado": "Un paciente con diarrea aguda sin gravedad ni factores de riesgo de diarrea no benigna refiere un viaje reciente. ¿Qué indica el algoritmo?",
    "opciones": [
     {
-     "t": "Posible diarrea del viajero: valorar tratamiento antibiótico empírico",
-     "por": "Se llega a esta rama del algoritmo cuando no hay gravedad ni factores de riesgo y la respuesta a '¿viaje reciente?' es sí."
+     "t": "Posible diarrea del viajero; valorar antibiótico",
+     "por": "Se llega a esta rama del algoritmo cuando no hay gravedad ni factores de riesgo y la respuesta a '¿viaje reciente?' es sí.",
+     "full": "Posible diarrea del viajero: valorar tratamiento antibiótico empírico"
     },
     {
      "t": "Solo tratamiento de soporte, sin considerar antibióticos",
@@ -344,7 +345,7 @@
    "enunciado": "Una mujer de 50 años con hipertensión controlada llega a emergencia con 3 horas de dolor tipo cólico, malestar general, náuseas y dos vómitos alimentarios tras comer arroz chifa. ¿Cuál es la conducta inicial?",
    "opciones": [
     {
-     "t": "Ampliar anamnesis, evaluar hidratación y descartar abdomen agudo",
+     "t": "Ampliar anamnesis y evaluar hidratación",
      "por": "La clase insiste en empezar por la deshidratación y la hemodinamia. El tratamiento es de soporte, con hidratación.",
      "full": "Ampliar la anamnesis (fiebre, sangre o moco, viajes, otras personas con síntomas), evaluar hidratación y hemodinamia y descartar un abdomen agudo"
     },
