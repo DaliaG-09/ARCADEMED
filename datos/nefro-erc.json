@@ -369,15 +369,15 @@
      "full": "×0.742 en mujeres y ×1.21 en afroestadounidenses"
     },
     {
-     "t": "×0.85 en mujeres y ×1.21 en varones",
+     "t": "×1.86 en varones y ×1.21 en mujeres",
      "por": "El 0.85 es de Cockcroft-Gault, no de MDRD."
     },
     {
-     "t": "×1.86 en mujeres",
+     "t": "×0.85 en mujeres y ×1.21 en varones",
      "por": "El 1.86 es la constante inicial de la fórmula."
     },
     {
-     "t": "Ninguno, no depende del sexo",
+     "t": "Ninguno, la fórmula no depende del sexo ni de la etnia",
      "por": "Sí depende: tanto MDRD como Cockcroft-Gault corrigen para mujeres."
     }
    ],

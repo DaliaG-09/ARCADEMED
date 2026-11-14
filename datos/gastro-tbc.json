@@ -13,7 +13,7 @@
      "full": "Intestino delgado, peritoneo, mesenterio, hígado, bazo, ganglios linfáticos y páncreas"
     },
     {
-     "t": "Solo el pulmón",
+     "t": "Solo el pulmón y la pleura",
      "por": "La TBC pulmonar es la forma más frecuente, pero la clase habla del abdomen."
     },
     {
@@ -21,7 +21,7 @@
      "por": "Eso es tuberculosis genitourinaria, otra forma extrapulmonar."
     },
     {
-     "t": "Solo el sistema nervioso central",
+     "t": "Solo el sistema nervioso central y los huesos",
      "por": "Es la meningitis tuberculosa, otra forma extrapulmonar."
     }
    ],

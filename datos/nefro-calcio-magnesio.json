@@ -16,11 +16,11 @@
      "por": "Es lo contrario: la PTH se activa cuando el calcio está bajo, para subirlo."
     },
     {
-     "t": "Sube ambos",
+     "t": "Sube el calcio y el fósforo",
      "por": "El fósforo baja porque la PTH aumenta su eliminación por la orina."
     },
     {
-     "t": "No cambia ninguno",
+     "t": "No modifica ninguno de los dos",
      "por": "Es la hormona principal del equilibrio del calcio."
     }
    ],
@@ -281,7 +281,7 @@
      "por": "Aumenta la absorción de calcio."
     },
     {
-     "t": "Sarcoidosis",
+     "t": "Sarcoidosis con aumento de calcitriol",
      "por": "El granuloma produce calcitriol y sube la absorción intestinal."
     }
    ],
@@ -342,7 +342,7 @@
      "por": "El ibandronato dura unos 14 días, menos que el zoledronato."
     },
     {
-     "t": "Ninguno tiene duración definida",
+     "t": "Ninguno, todos duran el mismo tiempo",
      "por": "Sí tienen una duración aproximada."
     }
    ],
@@ -426,15 +426,15 @@
      "full": "Diuréticos de asa, aminoglucósidos, cisplatino o alcoholismo"
     },
     {
-     "t": "Hiperparatiroidismo",
+     "t": "Insuficiencia renal con oliguria",
      "por": "No está en la lista de causas de la lámina."
     },
     {
-     "t": "Deshidratación con sodio alto",
+     "t": "Deshidratación con hipernatremia",
      "por": "No es causa de magnesio bajo."
     },
     {
-     "t": "Ingesta alta de magnesio",
+     "t": "Ingesta alta de magnesio en antiácidos",
      "por": "Eso lleva a hipermagnesemia."
     }
    ],
@@ -455,15 +455,15 @@
      "full": "Sulfato de magnesio 1 a 2 g IV en bolo en 15 minutos"
     },
     {
-     "t": "Óxido de magnesio oral",
+     "t": "Óxido de magnesio oral por 2 semanas",
      "por": "Es para formas leves, y su efecto es lento."
     },
     {
-     "t": "Calcio oral",
+     "t": "Gluconato de calcio oral cada 8 h",
      "por": "No corrige el magnesio ni la arritmia."
     },
     {
-     "t": "Observación",
+     "t": "Observación con monitoreo ECG",
      "por": "Es una arritmia grave, con riesgo de muerte."
     }
    ],

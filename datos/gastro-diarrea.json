@@ -101,15 +101,15 @@
      "full": "Con el grado de deshidratación y la hemodinamia"
     },
     {
-     "t": "Con una colonoscopia",
+     "t": "Con una colonoscopia diagnóstica",
      "por": "No es un examen inicial en la diarrea aguda."
     },
     {
-     "t": "Con un coprocultivo en todos",
+     "t": "Con un coprocultivo en todos los casos",
      "por": "Los exámenes auxiliares no son de rutina."
     },
     {
-     "t": "Con antibióticos empíricos",
+     "t": "Con antibióticos empíricos de inicio",
      "por": "No toda diarrea necesita antibióticos."
     }
    ],

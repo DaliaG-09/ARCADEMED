@@ -42,7 +42,7 @@
      "full": "La ureasa, que descompone la urea en amoniaco y neutraliza el ácido"
     },
     {
-     "t": "Los flagelos",
+     "t": "Los flagelos para moverse en el moco",
      "por": "Le dan motilidad para llegar al epitelio gástrico, no neutralizan el ácido."
     },
     {
@@ -71,15 +71,15 @@
      "full": "Dolor epigástrico, en 80 a 90 % de los pacientes"
     },
     {
-     "t": "Disfagia progresiva",
+     "t": "Disfagia progresiva a sólidos",
      "por": "Sugiere un problema esofágico, no una úlcera."
     },
     {
-     "t": "Diarrea crónica sin dolor",
+     "t": "Diarrea crónica sin dolor abdominal",
      "por": "No es el cuadro típico de úlcera."
     },
     {
-     "t": "Ictericia",
+     "t": "Ictericia con prurito",
      "por": "Se relaciona con enfermedad hepatobiliar o pancreática."
     }
    ],
@@ -129,15 +129,15 @@
      "por": "Una úlcera gástrica puede ser un cáncer; en la duodenal el riesgo de malignidad es muy bajo."
     },
     {
-     "t": "Para medir el pH del estómago",
+     "t": "Para medir el pH gástrico en la úlcera",
      "por": "El pH se mide con otras pruebas, no con la biopsia."
     },
     {
-     "t": "Para tratar la hemorragia",
+     "t": "Para detener la hemorragia activa",
      "por": "La biopsia no es tratamiento."
     },
     {
-     "t": "Solo para clasificar el tamaño",
+     "t": "Solo para medir el tamaño de la lesión",
      "por": "El tamaño se ve en la endoscopía."
     }
    ],
@@ -263,11 +263,11 @@
      "por": "Incluye amoxicilina, que no se puede usar."
     },
     {
-     "t": "Terapia dual con amoxicilina",
+     "t": "Terapia dual con IBP y amoxicilina",
      "por": "Contiene amoxicilina."
     },
     {
-     "t": "Solo claritromicina",
+     "t": "Claritromicina sola por 14 días",
      "por": "Un antibiótico aislado no es un esquema de erradicación."
     }
    ],
@@ -412,11 +412,11 @@
      "por": "Corresponde a la úlcera duodenal grande, complicada o refractaria."
     },
     {
-     "t": "No requiere IBP",
+     "t": "No requiere IBP tras la erradicación",
      "por": "Corresponde a la úlcera duodenal sin esos criterios."
     },
     {
-     "t": "IBP de por vida",
+     "t": "IBP de por vida como profilaxis",
      "por": "Solo se valora largo plazo si no se puede suspender el AINE o hay antecedente de úlcera."
     }
    ],

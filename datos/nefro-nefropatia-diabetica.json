@@ -41,11 +41,11 @@
      "por": "Los nódulos de Kimmelstiel-Wilson son acúmulos de matriz mesangial en el glomérulo. Junto a ellos se ven engrosamiento de la membrana basal, expansión mesangial e hialinosis arteriolar."
     },
     {
-     "t": "Semilunas epiteliales",
+     "t": "Semilunas epiteliales extensas",
      "por": "Las semilunas son de la glomerulonefritis rápidamente progresiva."
     },
     {
-     "t": "Espigas subepiteliales",
+     "t": "Espigas subepiteliales en la MBG",
      "por": "Las espigas subepiteliales son de la nefropatía membranosa."
     },
     {
@@ -70,15 +70,15 @@
      "full": "Mal control glucémico sostenido (HbA1c elevada)"
     },
     {
-     "t": "Dieta baja en sal",
+     "t": "Dieta baja en sal y ejercicio",
      "por": "Reducir la sal protege al riñón."
     },
     {
-     "t": "Hipotensión",
+     "t": "Hipotensión sostenida",
      "por": "La hipotensión no daña el riñón diabético; el factor de riesgo es la hipertensión."
     },
     {
-     "t": "Control glucémico estricto",
+     "t": "Control glucémico estricto desde el inicio",
      "por": "Controlar bien la glucosa protege al riñón."
     }
    ],
@@ -301,15 +301,15 @@
      "full": "iSGLT2 (empagliflozina, dapagliflozina)"
     },
     {
-     "t": "Metformina con TFG <30",
+     "t": "Metformina a dosis plena con TFG <30",
      "por": "La metformina se usa con TFG mayor o igual a 30; no es la primera línea renal."
     },
     {
-     "t": "Corticoides",
+     "t": "Corticoides orales a dosis altas",
      "por": "No tratan la nefropatía diabética y empeoran la glucosa."
     },
     {
-     "t": "AINE",
+     "t": "AINE de uso crónico",
      "por": "Los AINE dañan el riñón y deben evitarse."
     }
    ],
@@ -400,15 +400,15 @@
      "full": "TFG <30, albuminuria >500 a 1000 mg/g persistente, progresión rápida o duda diagnóstica"
     },
     {
-     "t": "Solo si hay edema",
+     "t": "Solo si aparece edema de miembros",
      "por": "El edema es tardío; se deriva antes, según el filtrado y la albuminuria."
     },
     {
-     "t": "A todos con HbA1c 7 %",
+     "t": "A todo diabético con HbA1c de 7 %",
      "por": "Un diabético controlado y sin daño renal puede seguirse en atención primaria."
     },
     {
-     "t": "Nunca",
+     "t": "Nunca, se maneja en primer nivel",
      "por": "Hay criterios claros de derivación."
     }
    ],
@@ -432,15 +432,15 @@
      "por": "Veinte años de diabetes con retinopatía, edema generalizado, albúmina baja (1.9) y colesterol alto indican síndrome nefrótico por nefropatía diabética."
     },
     {
-     "t": "Insuficiencia cardiaca únicamente",
+     "t": "Insuficiencia cardiaca congestiva",
      "por": "La insuficiencia cardiaca no explica la hipoalbuminemia ni el colesterol alto."
     },
     {
-     "t": "IRA prerrenal",
+     "t": "IRA prerrenal por hipovolemia",
      "por": "La creatinina es casi normal."
     },
     {
-     "t": "Cirrosis",
+     "t": "Cirrosis hepática descompensada",
      "por": "No hay datos de enfermedad hepática crónica."
     }
    ],

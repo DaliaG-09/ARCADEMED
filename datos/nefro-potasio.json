@@ -105,7 +105,7 @@
      "por": "Grave es menor de 2.5; 2.8 está por encima."
     },
     {
-     "t": "Normal",
+     "t": "Normal (3.5 a 5.5)",
      "por": "Normal es 3.5 a 5.5 mEq/L; 2.8 está bajo."
     }
    ],
@@ -212,15 +212,15 @@
      "full": "Descenso del segmento ST, aplanamiento de T y onda U de mayor amplitud"
     },
     {
-     "t": "Ondas T picudas",
+     "t": "Ondas T picudas y QRS ancho",
      "por": "Es un cambio de hiperpotasemia, no de hipopotasemia."
     },
     {
-     "t": "Prolongación del QRS",
+     "t": "Prolongación del QRS y del PR",
      "por": "Es un cambio de hiperpotasemia, no de hipopotasemia."
     },
     {
-     "t": "Onda sinusoidal",
+     "t": "Onda sinusoidal con asistolia",
      "por": "Es un cambio de hiperpotasemia muy grave."
     }
    ],
@@ -355,15 +355,15 @@
      "por": "A medida que sube el potasio, la T se vuelve picuda, luego se aplana la P y se alargan PR y QRS (cerca de 8 mEq/L), y finalmente aparece onda sinusoidal."
     },
     {
-     "t": "Onda sinusoidal",
+     "t": "Onda sinusoidal con QRS ancho",
      "por": "Aparece con potasio mayor de 9 mEq/L."
     },
     {
-     "t": "Normal",
+     "t": "ECG normal sin cambios",
      "por": "Con potasio de 4 el ECG es normal."
     },
     {
-     "t": "Ondas U",
+     "t": "Ondas U con ST descendido",
      "por": "Es un hallazgo de hipopotasemia."
     }
    ],
@@ -388,15 +388,15 @@
      "full": "Gluconato de calcio al 10 % (10 mL en 2 a 5 min IV)"
     },
     {
-     "t": "Furosemida solo",
+     "t": "Furosemida sola y restricción de potasio",
      "por": "Actúa más lento y no protege el corazón de inmediato."
     },
     {
-     "t": "Resinas de intercambio",
+     "t": "Resinas de intercambio oral",
      "por": "Tardan horas en actuar."
     },
     {
-     "t": "Bicarbonato oral",
+     "t": "Bicarbonato oral y dieta pobre en K",
      "por": "No es la medida inicial."
     }
    ],

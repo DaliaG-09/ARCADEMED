@@ -101,11 +101,11 @@
      "full": "Etnia hispana o afroamericana, anticuerpos anti-DNA de doble cadena y anti-RNP"
     },
     {
-     "t": "Ser de raza blanca",
+     "t": "Raza blanca y anti-DNA negativo",
      "por": "Es al revés: la etnia hispana o afroamericana aumenta el riesgo."
     },
     {
-     "t": "Ser menor de 10 años",
+     "t": "Debut después de los 60 años",
      "por": "No aparece como factor de riesgo en la lámina."
     },
     {
@@ -221,15 +221,15 @@
      "full": "Bolos mensuales de metilprednisolona más ciclofosfamida"
     },
     {
-     "t": "Solo IECA o ARA II",
+     "t": "Solo IECA o ARA II y restricción de sal",
      "por": "Reducen la proteinuria, pero no controlan la inflamación autoinmune."
     },
     {
-     "t": "Antibióticos prolongados",
+     "t": "Antibióticos de amplio espectro por 6 semanas",
      "por": "El lupus no es infeccioso."
     },
     {
-     "t": "Plasmaféresis de rutina",
+     "t": "Plasmaféresis de rutina en todos los casos",
      "por": "No es parte del esquema base de la lámina."
     }
    ],
@@ -435,11 +435,11 @@
      "por": "Está invertido."
     },
     {
-     "t": "Solo Escherichia coli",
+     "t": "Aguda: E. coli; subaguda: Klebsiella",
      "por": "No es el germen típico de la endocarditis."
     },
     {
-     "t": "Solo virus",
+     "t": "Ambas por Candida y Aspergillus",
      "por": "La lámina habla de gérmenes bacterianos."
     }
    ],
@@ -494,11 +494,11 @@
      "por": "Están invertidos."
     },
     {
-     "t": "Ambas dan cambios mínimos",
+     "t": "Ambas dan cambios mínimos con proteinuria",
      "por": "No es lo descrito."
     },
     {
-     "t": "Ambas dan GEFS",
+     "t": "Ambas dan nefropatía por IgA",
      "por": "No es lo descrito."
     }
    ],
@@ -519,15 +519,15 @@
      "full": "Glomerulonefritis rápidamente progresiva secundaria a vasculitis"
     },
     {
-     "t": "Nefropatía diabética pura",
+     "t": "Nefropatía diabética pura sin otra causa",
      "por": "Lleva años y no explica la hematuria ni el deterioro rápido."
     },
     {
-     "t": "IRA postrenal",
+     "t": "IRA postrenal por obstrucción",
      "por": "La ecografía no muestra obstrucción."
     },
     {
-     "t": "IRA prerrenal",
+     "t": "IRA prerrenal por hipovolemia",
      "por": "No hay datos de hipovolemia ni de mala perfusión."
     }
    ],

@@ -70,15 +70,15 @@
      "full": "Gramnegativos aerobios, sobre todo E. coli y Klebsiella, junto con anaerobios"
     },
     {
-     "t": "Solo Entamoeba histolytica",
+     "t": "Solo Entamoeba histolytica (protozoo)",
      "por": "Esta ameba causa el absceso amebiano, no el piógeno, que es bacteriano."
     },
     {
-     "t": "Solo hongos",
+     "t": "Solo hongos como Candida",
      "por": "Los hongos son una causa menor del absceso piógeno."
     },
     {
-     "t": "Solo Staphylococcus aureus",
+     "t": "Solo Staphylococcus aureus en todos",
      "por": "Los grampositivos aerobios participan (Streptococcus, Enterococcus, Staphylococcus), pero no son los principales."
     }
    ],
@@ -333,15 +333,15 @@
      "full": "Metronidazol 750 mg por vía oral cada 8 horas por 7 a 10 días"
     },
     {
-     "t": "Ceftriaxona sola",
+     "t": "Ceftriaxona sola por 14 días",
      "por": "No cubre la ameba. Se usa para el absceso piógeno, en combinación con metronidazol."
     },
     {
-     "t": "Drenaje quirúrgico en todos",
+     "t": "Drenaje quirúrgico en todos los casos",
      "por": "Solo se indica ante ruptura, falla del tratamiento médico o complicaciones."
     },
     {
-     "t": "Amoxicilina",
+     "t": "Amoxicilina por 7 días",
      "por": "No es activa frente a E. histolytica."
     }
    ],

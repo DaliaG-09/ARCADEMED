@@ -133,11 +133,11 @@
      "por": "Son dermatofitos que no son microbiota normal."
     },
     {
-     "t": "Sporothrix schenckii",
+     "t": "Sporothrix schenckii y Fonsecaea",
      "por": "Se adquiere del ambiente por trauma."
     },
     {
-     "t": "Ninguno",
+     "t": "Ninguno, la piel normal es estéril",
      "por": "La clase señala dos que sí lo son."
     }
    ],
@@ -188,15 +188,15 @@
      "full": "Placas anulares eritematodescamativas con borde activo y centro más claro"
     },
     {
-     "t": "Maceración interdigital",
+     "t": "Maceración y fisuras interdigitales",
      "por": "Es la tiña pedis erosiva."
     },
     {
-     "t": "Alopecia con puntos negros",
+     "t": "Alopecia con puntos negros y descamación",
      "por": "Es la tiña capitis tonsurante."
     },
     {
-     "t": "Máculas hipopigmentadas finamente descamativas",
+     "t": "Máculas hipopigmentadas descamativas",
      "por": "Es la pitiriasis versicolor."
     }
    ],

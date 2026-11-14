@@ -104,7 +104,7 @@
      "full": "Corticoides (prednisona): respuesta excelente, sobre todo en niños"
     },
     {
-     "t": "Plasmaféresis",
+     "t": "Plasmaféresis más ciclofosfamida",
      "por": "Se usa en enfermedad por anticuerpos anti-MBG, no en cambios mínimos."
     },
     {
@@ -134,7 +134,7 @@
      "por": "La lámina la señala como la causa más común en adultos: inmunocomplejos que se depositan en el espacio subepitelial."
     },
     {
-     "t": "Cambios mínimos",
+     "t": "Enfermedad de cambios mínimos",
      "por": "Es la más común en niños."
     },
     {
@@ -142,7 +142,7 @@
      "por": "Se presenta como síndrome nefrítico recurrente, con hematuria."
     },
     {
-     "t": "GNRP",
+     "t": "Glomerulonefritis rápidamente progresiva",
      "por": "Es un síndrome nefrítico severo con pérdida rápida de función renal."
     }
    ],
@@ -164,7 +164,7 @@
      "por": "Es nefropatía membranosa primaria. La MBG se engrosa de forma difusa, sin proliferación de células."
     },
     {
-     "t": "Semilunas epiteliales",
+     "t": "Semilunas epiteliales con rotura de la cápsula",
      "por": "Son de la GNRP, un síndrome nefrítico rápido."
     },
     {
@@ -198,15 +198,15 @@
      "full": "Un tercio remite, un tercio persiste y un tercio progresa a ERC"
     },
     {
-     "t": "Todos remiten solos",
+     "t": "La mitad remite y la otra mitad progresa",
      "por": "No: hay una parte que persiste y otra que progresa."
     },
     {
-     "t": "Todos progresan a diálisis",
+     "t": "Casi todos remiten solos en 6 meses",
      "por": "No es lo habitual."
     },
     {
-     "t": "Todos curan con corticoides",
+     "t": "Casi todos progresan a diálisis en 5 años",
      "por": "Si la proteinuria persiste se usan corticoides con ciclosporina o ciclofosfamida; no todos curan."
     }
    ],
@@ -227,15 +227,15 @@
      "full": "Glomerulonefritis anti-MBG (enfermedad de Goodpasture si hay afectación pulmonar)"
     },
     {
-     "t": "Nefropatía por IgA",
+     "t": "Nefropatía por IgA con hematuria",
      "por": "Tiene depósitos mesangiales de IgA y no suele causar hemoptisis."
     },
     {
-     "t": "Nefropatía membranosa",
+     "t": "Nefropatía membranosa idiopática",
      "por": "Da síndrome nefrótico, con depósitos granulares."
     },
     {
-     "t": "GEFS",
+     "t": "Glomeruloesclerosis focal (GEFS)",
      "por": "La IF es negativa o inespecífica y no da hemorragia pulmonar."
     }
    ],
@@ -374,15 +374,15 @@
      "full": "Inmunosupresores como ciclosporina o micofenolato, y IECA o ARA II para la proteinuria"
     },
     {
-     "t": "Plasmaféresis",
+     "t": "Plasmaféresis más rituximab de inicio",
      "por": "Se usa en anti-MBG."
     },
     {
-     "t": "Observación sin tratamiento",
+     "t": "Observación sin tratamiento ni IECA",
      "por": "El riesgo de ERC es alto en las GEFS que no responden."
     },
     {
-     "t": "Antibióticos prolongados",
+     "t": "Aumentar prednisona a 2 mg/kg por un año",
      "por": "No es una causa infecciosa."
     }
    ],

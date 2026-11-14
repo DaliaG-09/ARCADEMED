@@ -455,11 +455,11 @@
      "por": "Es para impétigo localizado."
     },
     {
-     "t": "Fluconazol oral",
+     "t": "Fluconazol oral por 14 días",
      "por": "Es antifúngico."
     },
     {
-     "t": "Prednisona oral",
+     "t": "Prednisona oral en dosis altas",
      "por": "Los corticoides están contraindicados."
     }
    ],
@@ -573,11 +573,11 @@
      "por": "No se hace de forma rutinaria."
     },
     {
-     "t": "Solo con biopsia cutánea",
+     "t": "Solo con biopsia cutánea profunda",
      "por": "No es necesaria."
     },
     {
-     "t": "Con prueba de parche cutánea",
+     "t": "Con prueba de parche con alérgenos",
      "por": "Es para dermatitis de contacto."
     }
    ],

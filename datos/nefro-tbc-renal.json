@@ -108,7 +108,7 @@
      "por": "El pulmón puede ser el foco inicial, pero la llegada a la vejiga es por sangre, linfa o desde el riñón."
     },
     {
-     "t": "Solo ocurre en niños",
+     "t": "Solo ocurre en niños menores de 5 años",
      "por": "No se limita a niños; la lámina no la restringe por edad."
     }
    ],
@@ -217,15 +217,15 @@
      "full": "BAAR en orina con tinción de Ziehl-Neelsen, seguido de cultivo en medio especial"
     },
     {
-     "t": "Cultivo de orina común con E. coli",
+     "t": "Cultivo común con E. coli y nitritos",
      "por": "Un urocultivo común positivo para E. coli sugiere ITU bacteriana, no TBC."
     },
     {
-     "t": "Eosinofilia en el hemograma",
+     "t": "Eosinofilia con IgE elevada",
      "por": "No es un hallazgo de TBC renal."
     },
     {
-     "t": "Depósitos de IgA en la biopsia",
+     "t": "Depósitos de IgA en la biopsia renal",
      "por": "Eso es nefropatía por IgA, una glomerulopatía."
     }
    ],

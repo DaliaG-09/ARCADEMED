@@ -42,11 +42,11 @@
      "full": "Un ítem de A (inflamación local) más uno de B (inflamación sistémica) más hallazgos de imagen (C)"
     },
     {
-     "t": "Solo un ítem de A",
+     "t": "Un ítem de A y uno de B, sin imagen",
      "por": "La inflamación local sola no alcanza ni para sospechar, porque hace falta un signo sistémico (B)."
     },
     {
-     "t": "Solo la ecografía con litiasis",
+     "t": "Solo la ecografía con litiasis vesicular",
      "por": "La litiasis es frecuente y por sí sola no define colecistitis; falta la inflamación."
     },
     {
@@ -326,15 +326,15 @@
      "full": "Más de 6 mm; más de 10 mm si el paciente tiene colecistectomía previa"
     },
     {
-     "t": "Más de 2 mm",
+     "t": "Más de 3 mm en todos los casos",
      "por": "Es un diámetro normal."
     },
     {
-     "t": "Más de 4 mm en todos los casos",
+     "t": "Más de 4 mm incluso con colecistectomía",
      "por": "No es el punto de corte de la lámina."
     },
     {
-     "t": "Solo más de 20 mm",
+     "t": "Solo si supera los 20 mm",
      "por": "Es una dilatación extrema; el umbral es mucho menor."
     }
    ],

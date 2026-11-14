@@ -381,15 +381,15 @@
      "full": "Historia clínica y laboratorio básico (hemograma, bioquímico, electrolitos, pruebas hepáticas y tiroideas); si todo es negativo, SII"
     },
     {
-     "t": "Una biopsia de colon en todos los casos",
+     "t": "Colonoscopía con biopsia en todos los casos",
      "por": "No se requiere de rutina; se usa ante signos de alarma."
     },
     {
-     "t": "Una tomografía por emisión de positrones",
+     "t": "Tomografía de abdomen en todos los casos",
      "por": "No forma parte de la evaluación."
     },
     {
-     "t": "Un cultivo de médula ósea",
+     "t": "Prueba de aliento de hidrógeno obligatoria",
      "por": "No tiene papel en el SII."
     }
    ],

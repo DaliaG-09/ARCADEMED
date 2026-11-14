@@ -132,15 +132,15 @@
      "full": "Glucocorticoides más ciclofosfamida (se puede sustituir por rituximab en casos graves); plasmaféresis si hay diálisis o enfermedad pulmonar"
     },
     {
-     "t": "Solo IECA para bajar la presión",
+     "t": "Solo IECA y control de la presión",
      "por": "No frena la inflamación vascular."
     },
     {
-     "t": "Solo antibióticos",
+     "t": "Antibióticos y reposo hasta mejoría",
      "por": "La vasculitis no es infecciosa."
     },
     {
-     "t": "Observación hasta que aparezca diálisis",
+     "t": "Observación hasta que se requiera diálisis",
      "por": "Esperar deja lesiones irreversibles."
     }
    ],
@@ -166,11 +166,11 @@
      "por": "Es asociada a ANCA y afecta vías respiratorias y riñón."
     },
     {
-     "t": "Crioglobulinemia",
+     "t": "Crioglobulinemia mixta esencial",
      "por": "Da hipocomplementemia y suele ser por hepatitis C."
     },
     {
-     "t": "Esclerodermia",
+     "t": "Esclerodermia sistémica difusa",
      "por": "Es una enfermedad del colágeno con Raynaud y esclerosis de la piel."
     }
    ],
@@ -311,15 +311,15 @@
      "por": "La clase dice que a nivel renal el control de la presión con IECA es el tratamiento de elección. Para el resto: control de síntomas, D-penicilamina y colchicina (antifibróticos)."
     },
     {
-     "t": "Rituximab endovenoso",
+     "t": "Rituximab endovenoso semanal",
      "por": "No es el de elección renal."
     },
     {
-     "t": "Plasmaféresis diaria",
+     "t": "Plasmaféresis diaria por 2 semanas",
      "por": "No se indica de rutina."
     },
     {
-     "t": "Ciclofosfamida endovenosa",
+     "t": "Ciclofosfamida endovenosa mensual",
      "por": "No se menciona como elección renal."
     }
    ],
@@ -461,11 +461,11 @@
      "por": "Produce sobre todo IgG o IgA, y el riñón se afecta mucho."
     },
     {
-     "t": "Amiloidosis AA",
+     "t": "Amiloidosis AA secundaria",
      "por": "Es depósito de proteína amiloide en enfermedades inflamatorias."
     },
     {
-     "t": "Esclerodermia",
+     "t": "Esclerodermia con crisis renal",
      "por": "Es una enfermedad del colágeno, no una neoplasia."
     }
    ],

@@ -103,11 +103,11 @@
      "por": "El AG es 27, elevado; no es una acidosis por pérdida de bicarbonato."
     },
     {
-     "t": "Acidosis respiratoria aguda por hipoventilación",
+     "t": "Acidosis respiratoria aguda por hipoventilación, con retención de CO₂",
      "por": "La pCO₂ está baja (25), no alta: el paciente hiperventila."
     },
     {
-     "t": "Alcalosis metabólica con compensación respiratoria",
+     "t": "Alcalosis metabólica por vómitos, con hipoventilación compensadora",
      "por": "El pH está bajo y el HCO₃⁻ también: es acidosis."
     }
    ],
@@ -1005,11 +1005,11 @@
      "por": "La pCO₂ de 30 está fuera del rango esperado (24 a 28)."
     },
     {
-     "t": "Alcalosis respiratoria con hiponatremia hipovolémica",
+     "t": "Alcalosis respiratoria primaria con hiponatremia hipovolémica",
      "por": "El pH está bajo y el sodio alto."
     },
     {
-     "t": "Acidosis metabólica con anion gap normal e hiponatremia",
+     "t": "Acidosis metabólica con anion gap normal e hipernatremia leve compensada",
      "por": "El AG es 26 y el sodio es 168."
     }
    ],
@@ -1127,7 +1127,7 @@
      "por": "El pH está alto, no bajo."
     },
     {
-     "t": "Alcalosis respiratoria primaria con compensación renal",
+     "t": "Acidosis respiratoria crónica con compensación renal completa",
      "por": "El HCO₃⁻ está alto y la pCO₂ alta: el primario es metabólico."
     }
    ],
@@ -1742,11 +1742,11 @@
      "por": "No incluye el sodio de la solución infundida."
     },
     {
-     "t": "El anion gap corregido por albúmina",
+     "t": "El anion gap corregido por albúmina y lactato",
      "por": "Esa es otra fórmula, de la lámina 13 del taller de gases."
     },
     {
-     "t": "La osmolaridad plasmática",
+     "t": "La osmolaridad plasmática efectiva según sodio, glucosa y urea",
      "por": "Se calcula con otra fórmula."
     }
    ],

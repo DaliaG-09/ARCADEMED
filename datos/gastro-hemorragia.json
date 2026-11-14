@@ -97,15 +97,15 @@
      "por": "En la hipertensión portal el tratamiento indicado es endoscópico con ligaduras (bandas elásticas sobre las várices que sangran)."
     },
     {
-     "t": "Plasma de argón",
+     "t": "Coagulación con plasma de argón",
      "por": "Es una forma de coagulación térmica que se usa en la angiodisplasia, una lesión vascular plana, no en las várices."
     },
     {
-     "t": "Hemicolectomía",
+     "t": "Inyección de adrenalina diluida sola",
      "por": "Es una cirugía de colon (por ejemplo, en cáncer de colon). No tiene lugar en un sangrado variceal esofágico."
     },
     {
-     "t": "Solo tratar H. pylori con antibióticos",
+     "t": "Tratar H. pylori con antibióticos solamente",
      "por": "La erradicación de H. pylori se aplica a la úlcera péptica, no a las várices, que se originan por hipertensión portal."
     }
    ],
@@ -367,11 +367,11 @@
      "por": "Sin preparación del colon la visualización es mala y es difícil encontrar el punto de sangrado; por eso se indica PEG antes."
     },
     {
-     "t": "Cirugía como primera línea",
+     "t": "Cirugía de urgencia como primera línea",
      "por": "La cirugía se reserva para el fallo del tratamiento endoscópico, porque tiene mayor morbilidad y mortalidad."
     },
     {
-     "t": "Solo observación y alta a casa",
+     "t": "Observación y alta con control en un mes",
      "por": "Una hemorragia relevante requiere estudiar su origen y tratarlo, no tranquilizar al paciente."
     }
    ],

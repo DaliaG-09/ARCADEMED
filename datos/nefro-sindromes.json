@@ -248,15 +248,15 @@
      "por": "En el esquema aparecen al final de la línea de edad, hacia los 60 a 70 años."
     },
     {
-     "t": "Nefrosis congénita",
+     "t": "Nefrosis congénita de tipo finlandés",
      "por": "Aparece desde el nacimiento."
     },
     {
-     "t": "Enfermedad de cambios mínimos",
+     "t": "Enfermedad de cambios mínimos idiopática",
      "por": "Es sobre todo de niños, aunque el esquema la repite hacia los 40."
     },
     {
-     "t": "Nefropatía diabética tipo 1",
+     "t": "Nefropatía diabética del adulto joven",
      "por": "El esquema la ubica en adultos jóvenes, alrededor de los 30 a 40 años."
     }
    ],
@@ -398,15 +398,15 @@
      "por": "Sube la presión oncótica y facilita que el diurético elimine el exceso de agua."
     },
     {
-     "t": "Solo restricción de sal",
+     "t": "Solo restricción de sal y reposo en cama",
      "por": "Es útil en edema leve, pero aquí se necesita más."
     },
     {
-     "t": "Suspender todos los diuréticos",
+     "t": "Suspender los diuréticos y restringir proteínas",
      "por": "Los diuréticos son parte del tratamiento del edema."
     },
     {
-     "t": "Anticoagulación inmediata en todos",
+     "t": "Anticoagulación inmediata en todos los casos",
      "por": "La tromboprofilaxis se indica con albúmina baja y factores de riesgo; no en todos."
     }
    ],
@@ -491,11 +491,11 @@
      "por": "Es el mecanismo del nefrótico."
     },
     {
-     "t": "Obstrucción del flujo de orina",
+     "t": "Obstrucción del flujo urinario por litiasis",
      "por": "Eso es uropatía obstructiva."
     },
     {
-     "t": "Pérdida de volumen por diarrea",
+     "t": "Pérdida de volumen por diarrea y vómitos",
      "por": "Eso causa lesión renal prerrenal, no un síndrome nefrítico."
     }
    ],
@@ -545,15 +545,15 @@
      "por": "Aparece 1 a 3 semanas después de la infección con síndrome nefrítico típico y complemento bajo."
     },
     {
-     "t": "Enfermedad de cambios mínimos",
+     "t": "Enfermedad de cambios mínimos con síndrome nefrótico",
      "por": "Daría proteinuria masiva y edema con presión normal y orina sin sangre."
     },
     {
-     "t": "Nefropatía por IgA",
+     "t": "Nefropatía por IgA tras infección respiratoria",
      "por": "También da hematuria, pero tras la infección es inmediata (sinfaringítica) y el complemento es normal."
     },
     {
-     "t": "Pielonefritis aguda",
+     "t": "Pielonefritis aguda con fiebre y piuria",
      "por": "Tendría fiebre, dolor lumbar y piuria, no hipertensión con complemento bajo."
     }
    ],
@@ -636,11 +636,11 @@
      "por": "La sal empeora el edema y los AINE son nefrotóxicos: se suspenden."
     },
     {
-     "t": "Actividad física intensa",
+     "t": "Actividad física intensa y dieta libre",
      "por": "Se indica reposo relativo durante la fase aguda."
     },
     {
-     "t": "Aumentar la ingesta de líquidos",
+     "t": "Aumentar líquidos y suspender el diurético",
      "por": "Hay oliguria y sobrecarga de volumen: se restringe."
     }
    ],
@@ -666,11 +666,11 @@
      "por": "Controlan la presión, pero no frenan la enfermedad autoinmune."
     },
     {
-     "t": "Antibióticos",
+     "t": "Antibióticos por 14 días y reposo",
      "por": "No es una infección."
     },
     {
-     "t": "Antivirales directos",
+     "t": "Antivirales de acción directa por 12 semanas",
      "por": "Se usan en crioglobulinemia por virus de hepatitis C."
     }
    ],

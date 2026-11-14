@@ -551,11 +551,11 @@
      "por": "Es la vía de A y E."
     },
     {
-     "t": "Picadura de zancudo",
+     "t": "Picadura de zancudo en zonas endémicas",
      "por": "No es una vía conocida."
     },
     {
-     "t": "Compartir cubiertos",
+     "t": "Compartir cubiertos y vasos",
      "por": "La convivencia es poco eficaz como vía de transmisión."
     }
    ],
@@ -605,15 +605,15 @@
      "full": "Fármacos que inhiben directamente la replicación viral: inhibidores de entrada, de la proteasa NS3/NS4A y de la polimerasa NS5"
     },
     {
-     "t": "Vacunas de virus atenuados",
+     "t": "Vacunas de virus atenuados contra el VHC",
      "por": "No existe vacuna contra el VHC."
     },
     {
-     "t": "Inmunoglobulina hiperinmune",
+     "t": "Inmunoglobulina hiperinmune contra el VHC",
      "por": "La lámina señala que la prevención no es posible con gammaglobulina hiperinmune."
     },
     {
-     "t": "Corticoides de acción prolongada",
+     "t": "Corticoides de acción prolongada en hepatitis",
      "por": "No tratan la infección."
     }
    ],

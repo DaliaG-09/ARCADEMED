@@ -109,15 +109,15 @@
      "full": "No complicada: cistitis confinada a la vejiga"
     },
     {
-     "t": "Complicada",
+     "t": "Complicada, con signos sistémicos",
      "por": "Se llama complicada cuando hay signos de infección más arriba de la vejiga: fiebre, escalofríos, dolor de flanco o dolor en el ángulo costovertebral."
     },
     {
-     "t": "Pielonefritis",
+     "t": "Pielonefritis aguda",
      "por": "La pielonefritis cursa con fiebre y dolor lumbar. Aquí solo hay síntomas de vejiga."
     },
     {
-     "t": "Bacteriuria asintomática",
+     "t": "Bacteriuria asintomática sin síntomas",
      "por": "Tiene síntomas (disuria, urgencia), así que no es asintomática."
     }
    ],

@@ -70,15 +70,15 @@
      "full": "2 × Na⁺ + glucosa/18 + urea/6 (normal 275 a 290 mOsm/kg)"
     },
     {
-     "t": "Na⁺ + K⁺ + glucosa",
+     "t": "Na⁺ + K⁺ + glucosa/18 + urea/6",
      "por": "No incluye urea ni el factor 2."
     },
     {
-     "t": "2 × Na⁺ − glucosa/18",
+     "t": "2 × Na⁺ − glucosa/18 − urea/6",
      "por": "La glucosa suma."
     },
     {
-     "t": "Na⁺ × glucosa × urea",
+     "t": "Na⁺ × glucosa × urea / 100",
      "por": "No es producto."
     }
    ],
@@ -129,11 +129,11 @@
      "full": "Hipoosmolar (verdadera): puede ser eu, hipo o hipervolémica"
     },
     {
-     "t": "Isoosmolar",
+     "t": "Isoosmolar (pseudohiponatremia)",
      "por": "Osmolaridad normal (275 a 290): es la pseudohiponatremia, por hiperlipidemia o hiperproteinemia."
     },
     {
-     "t": "Hiperosmolar",
+     "t": "Hiperosmolar (por glucosa o manitol)",
      "por": "Osmolaridad mayor de 290: la hiponatremia hipertónica, por hiperglucemia o manitol, que sacan agua de las células."
     },
     {
@@ -165,7 +165,7 @@
      "por": "Grave es menor de 125; 127 está por encima."
     },
     {
-     "t": "Normal",
+     "t": "Normal (135 a 145)",
      "por": "El sodio normal es 135 a 145; 127 está bajo."
     }
    ],
@@ -189,11 +189,11 @@
      "por": "Los vómitos y la diarrea dan hiponatremia hipovolémica, que tiene signos de deshidratación."
     },
     {
-     "t": "Euvolemia por SIAD",
+     "t": "Euvolemia por SIAD o hipotiroidismo",
      "por": "La euvolemia por SIAD no corresponde a cirrosis ni insuficiencia cardiaca, que retienen agua y sodio (hipervolemia)."
     },
     {
-     "t": "Pseudohiponatremia",
+     "t": "Pseudohiponatremia por hiperlipidemia",
      "por": "La pseudohiponatremia es isoosmolar (por lípidos o proteínas); no es la hipoosmolar con edemas de la cirrosis o la insuficiencia cardiaca."
     }
    ],
@@ -217,11 +217,11 @@
      "por": "Es un síntoma moderadamente grave, no el más grave."
     },
     {
-     "t": "Confusión leve",
+     "t": "Confusión leve y letargia",
      "por": "Es un síntoma moderadamente grave, no el más grave."
     },
     {
-     "t": "Cefalea",
+     "t": "Cefalea y malestar general",
      "por": "Es un síntoma moderadamente grave, no el más grave."
     }
    ],
@@ -425,11 +425,11 @@
      "full": "Edad avanzada con sed disminuida y dificultad para acceder al agua"
     },
     {
-     "t": "Juventud",
+     "t": "Juventud con sed conservada",
      "por": "En la juventud la sed y la función renal están conservadas; no es un factor de riesgo característico."
     },
     {
-     "t": "Ingesta alta de agua",
+     "t": "Ingesta alta de agua libre",
      "por": "Una ingesta alta de agua tiende a bajar el sodio, no a subirlo."
     },
     {

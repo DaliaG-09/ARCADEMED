@@ -304,15 +304,15 @@
      "full": "Prueba terapéutica con inhibidor de la bomba de protones (IBP) de 2 a 4 semanas"
     },
     {
-     "t": "Endoscopía inmediata",
+     "t": "Endoscopía alta inmediata",
      "por": "Se reserva para signos de alarma, riesgo de Barrett o mala respuesta a IBP."
     },
     {
-     "t": "Esofagograma con bario",
+     "t": "Esofagograma baritado",
      "por": "La lámina dice explícitamente que NO se recomienda."
     },
     {
-     "t": "Manometría esofágica",
+     "t": "Manometría esofágica y pH-metría",
      "por": "No se recomienda para el diagnóstico; se hace a candidatos a cirugía antirreflujo."
     }
    ],
