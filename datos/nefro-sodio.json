@@ -170,7 +170,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Hiponatremia: Na⁺ menor de 135 mEq/L.",
+   "explicacion": "Hiponatremia: Na⁺ menor de 135 mEq/L. Leve 130 a 134, moderada 125 a 129 y grave menor de 125; 127 es moderada.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 13"
   },
   {
@@ -367,15 +367,15 @@
      "full": "Na⁺ mayor de 145 mEq/L; siempre refleja déficit relativo de agua"
     },
     {
-     "t": "Na⁺ mayor de 135",
+     "t": "Na⁺ >135 mEq/L por exceso de agua",
      "por": "135 es el límite inferior normal; la hipernatremia empieza sobre 145."
     },
     {
-     "t": "Exceso de sodio siempre",
+     "t": "Na⁺ >145 mEq/L con osmolaridad baja",
      "por": "A menudo se debe a pérdida de agua más que a exceso de sodio."
     },
     {
-     "t": "Osmolaridad baja",
+     "t": "Na⁺ <135 mEq/L por pérdida de sodio",
      "por": "La hipernatremia es siempre hiperosmolar, no baja."
     }
    ],
@@ -409,7 +409,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "ADH = hormona antidiurética.",
+   "explicacion": "En la diabetes insípida central falta ADH (hormona antidiurética), el riñón no concentra la orina y se pierde agua libre sin solutos, por eso sube el Na⁺.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 23"
   },
   {
@@ -466,7 +466,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Para bajar 4 mEq/L en 12 h: 1400 mL, unos 117 mL/h.",
+   "explicacion": "Cambio = (68 − 168) / (0.5 × 68 + 1) = −100 / 35 = −2.86 mEq/L por litro. Para bajar 4 mEq/L en 12 h hacen falta unos 1400 mL, es decir, unos 117 mL/h.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 29",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68; dextrosa 5 % no tiene sodio.",
    "nota": "La lámina obtiene −2.8 mEq/L, 1430 mL y 120 mL/h; con el valor exacto (−2.86) salen unos 1400 mL y 117 mL/h. El ritmo es muy similar."
@@ -516,15 +516,15 @@
      "full": "Hiponatremia hipotónica, euvolémica, grave y crónica"
     },
     {
-     "t": "Hiponatremia hipertónica",
+     "t": "Hipotónica, hipovolémica, moderada y aguda",
      "por": "Esa se ve con hiperglucemia o manitol; aquí no hay datos de eso."
     },
     {
-     "t": "Hiponatremia leve aguda",
+     "t": "Hipertónica, euvolémica, grave y crónica",
      "por": "El sodio llegó a 115, muy por debajo de 125: es grave, y se instaló en 5 días."
     },
     {
-     "t": "Hipernatremia",
+     "t": "Isotónica, hipervolémica, leve y aguda",
      "por": "El sodio bajó, no subió."
     }
    ],

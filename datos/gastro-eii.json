@@ -186,15 +186,15 @@
      "full": "En la CU la colectomía es curativa; en el Crohn no, porque la enfermedad puede reaparecer"
     },
     {
-     "t": "La cirugía cura el Crohn",
+     "t": "Colectomía cura el Crohn, no la CU",
      "por": "En el Crohn reaparece, sobre todo en la anastomosis."
     },
     {
-     "t": "La CU recidiva siempre tras colectomía",
+     "t": "La cirugía cura ambas enfermedades por igual",
      "por": "Si se quita el colon y el recto, la enfermedad se elimina."
     },
     {
-     "t": "Ninguna de las dos necesita cirugía",
+     "t": "La CU recidiva siempre tras colectomía",
      "por": "Las dos pueden necesitarla en urgencia o en refractariedad."
     }
    ],
@@ -304,15 +304,15 @@
      "full": "Colitis izquierda: la inflamación llega hasta el ángulo esplénico"
     },
     {
-     "t": "Proctitis ulcerosa",
+     "t": "Colitis limitada al recto (proctitis)",
      "por": "Es E1: la inflamación no supera el límite superior del recto."
     },
     {
-     "t": "Pancolitis",
+     "t": "Colitis extensa que pasa el ángulo esplénico",
      "por": "Es E3: la enfermedad se extiende más allá del ángulo esplénico."
     },
     {
-     "t": "Colitis en remisión",
+     "t": "Colitis grave con deposiciones sanguinolentas",
      "por": "Es la gravedad S0, no una extensión."
     }
    ],
@@ -424,15 +424,15 @@
      "full": "Corticoides orales (1 mg/kg, con o sin tratamiento tópico); sin respuesta, ingresar y tratar como brote grave con esteroides intravenosos"
     },
     {
-     "t": "Antibióticos por 7 días",
+     "t": "Mesalazina oral sola; sin respuesta, colectomía",
      "por": "No son tratamiento del brote de CU."
     },
     {
-     "t": "Solo dieta y observación",
+     "t": "Antibióticos; sin respuesta, anti-TNF de inicio",
      "por": "El brote moderado requiere tratamiento activo."
     },
     {
-     "t": "Colectomía inmediata",
+     "t": "Azatioprina sola; sin respuesta, ciclosporina",
      "por": "No está indicada en el brote moderado."
     }
    ],

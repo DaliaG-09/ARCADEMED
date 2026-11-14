@@ -56,7 +56,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Predomina en niños de 2 a 10 años.",
+   "explicacion": "El molusco contagioso lo produce un poxvirus exclusivo del ser humano. Predomina en niños de 2 a 10 años.",
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 9"
   },
   {
@@ -201,7 +201,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Puede haber eritema leve en los bordes.",
+   "explicacion": "La verruga vulgar es una pápula en domo, hiperqueratósica, producida por el virus del papiloma humano. Puede haber eritema leve en los bordes.",
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 12"
   },
   {
@@ -259,7 +259,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Las filiformes o digitales aparecen en cara y cuello.",
+   "explicacion": "Las verrugas planas se ven sobre todo en cara y dorso de manos; las filiformes o digitales aparecen en cara y cuello.",
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 13"
   },
   {
@@ -288,7 +288,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Se denominan también verrugas genitales o venéreas.",
+   "explicacion": "Los condilomas acuminados (verrugas genitales o venéreas) son papilomas exofíticos sésiles, producidos por el virus del papiloma humano.",
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 14"
   },
   {
@@ -304,20 +304,20 @@
      "full": "Clínico; biopsia si hay duda o sospecha de carcinoma"
     },
     {
-     "t": "Cultivo en medio de Sabouraud",
+     "t": "Cultivo en Sabouraud; biopsia siempre",
      "por": "Es para micosis."
     },
     {
-     "t": "Siempre con frotis de Tzanck",
+     "t": "Frotis de Tzanck; PCR en todos los casos",
      "por": "Es para herpes."
     },
     {
-     "t": "Con prueba de parche cutánea",
+     "t": "Prueba de parche; biopsia si hay prurito",
      "por": "Es para dermatitis de contacto."
     }
    ],
    "correcta": 0,
-   "explicacion": "La histología de una verruga activa es diagnóstica.",
+   "explicacion": "El diagnóstico es clínico; se biopsia ante duda o sospecha de cáncer. La histología de una verruga activa es diagnóstica.",
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 15"
   },
   {
@@ -392,15 +392,15 @@
      "full": "De rutina entre los 9 y 12 años; recuperación hasta los 26 años"
     },
     {
-     "t": "Solo a mayores de 50 años",
+     "t": "Solo a mujeres de 9 a 12 años, sin recuperación",
      "por": "No es la recomendación."
     },
     {
-     "t": "Solo después de presentar verrugas",
+     "t": "De rutina a partir de los 30 años",
      "por": "La vacuna previene la infección inicial."
     },
     {
-     "t": "Solo a varones sexualmente activos",
+     "t": "Solo tras iniciar la actividad sexual",
      "por": "No se limita a ese grupo."
     }
    ],
@@ -550,7 +550,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "El Tzanck no distingue herpes simple de zóster.",
+   "explicacion": "El frotis de Tzanck muestra células gigantes epiteliales multinucleadas por el efecto del virus. No distingue herpes simple de zóster.",
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 23"
   },
   {
@@ -695,7 +695,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Es una complicación del zóster.",
+   "explicacion": "El síndrome de Ramsay Hunt es una complicación del zóster en el oído: vesículas, parálisis facial y compromiso auditivo.",
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 29"
   },
   {
@@ -811,7 +811,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La RZV tiene eficacia de 97 %.",
+   "explicacion": "Shingrix es una vacuna recombinante (no viva) con eficacia de 97 %, mayor que la de la vacuna viva atenuada.",
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 32"
   }
  ],

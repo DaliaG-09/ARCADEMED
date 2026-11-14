@@ -26,7 +26,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Esto altera la integridad de la piel y de las mucosas.",
+   "explicacion": "Hay dos mecanismos: acantólisis (se pierde la unión entre queratinocitos, ampolla intraepidérmica) o desprendimiento entre epidermis y dermis (subepidérmica). Esto altera la integridad de la piel y de las mucosas.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 9"
   },
   {
@@ -55,7 +55,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Cada grupo tiene ejemplos propios.",
+   "explicacion": "Se agrupan en autoinmunes (pénfigos, penfigoide), hereditarias (epidermólisis bullosa) y tóxicas o inducidas por fármacos.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 10"
   },
   {
@@ -84,7 +84,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Su incidencia es de 2 a 22 casos por millón por año.",
+   "explicacion": "El penfigoide ampolloso es la ampollar autoinmune más común. Su incidencia es de 2 a 22 casos por millón por año.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 11"
   },
   {
@@ -142,7 +142,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Es más frecuente en Europa y América del Norte.",
+   "explicacion": "La dermatitis herpetiforme se asocia a enfermedad celíaca, por eso afecta a jóvenes con celiaquía no diagnosticada. Es más frecuente en Europa y América del Norte.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 11"
   },
   {
@@ -171,7 +171,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "En el pénfigo vulgar son las desmogleínas 1 y 3.",
+   "explicacion": "En el pénfigo vulgar hay IgG contra las desmogleínas 1 y 3, lo que produce acantólisis.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 12"
   },
   {
@@ -200,7 +200,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Las ampollas son tensas.",
+   "explicacion": "El penfigoide ampolloso es subepidérmico: los anticuerpos atacan los hemidesmosomas (BP180 y BP230), y por eso las ampollas son tensas. Las desmogleínas son el blanco de los pénfigos.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 13"
   },
   {
@@ -258,7 +258,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Se manifiesta con fragilidad cutánea extrema.",
+   "explicacion": "La epidermólisis bullosa es hereditaria: mutaciones de colágeno VII o de queratinas producen fragilidad cutánea extrema.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 13"
   },
   {
@@ -316,7 +316,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Se clasifican por el plano de separación y la etiología.",
+   "explicacion": "Se clasifican por el plano de separación: simple (intraepidérmica), juntural (unión dermoepidérmica) y distrófica (dérmica).",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 14"
   },
   {
@@ -345,7 +345,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Es una enfermedad autoinmune grave.",
+   "explicacion": "Las ampollas del pénfigo vulgar son flácidas porque son intraepidérmicas, y afectan piel y mucosas. Es una enfermedad autoinmune grave.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 16"
   },
   {
@@ -374,7 +374,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "En la lámina aparece rotulado como 'pénfigo ampollar'.",
+   "explicacion": "Las ampollas tensas son subepidérmicas, y las mucosas casi siempre se respetan; es típico de ancianos.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 18",
    "nota": "* El PPT titula esta enfermedad «pénfigo ampollar»; el nombre correcto es penfigoide ampolloso. El pénfigo es otra enfermedad (acantólisis, anticuerpos contra desmogleínas)."
   },
@@ -549,7 +549,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La IFI detecta autoanticuerpos circulantes en suero.",
+   "explicacion": "En el penfigoide la inmunofluorescencia directa muestra IgG y C3 lineales en la membrana basal. La IFI (indirecta) detecta autoanticuerpos circulantes en suero.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 22"
   },
   {
@@ -565,20 +565,20 @@
      "full": "ELISA para desmogleínas 1 y 3 y para BP180 y BP230"
     },
     {
-     "t": "Cultivo en medio de Sabouraud",
+     "t": "PCR para virus herpes simple",
      "por": "Es para micosis."
     },
     {
-     "t": "Prueba de parche con alérgenos",
+     "t": "Cultivo micológico en medio de Sabouraud",
      "por": "Es para dermatitis de contacto."
     },
     {
-     "t": "Frotis de Tzanck de la base",
+     "t": "Prueba de parche con alérgenos habituales",
      "por": "No confirma estas enfermedades."
     }
    ],
    "correcta": 0,
-   "explicacion": "En la epidermólisis bullosa se hacen pruebas genéticas.",
+   "explicacion": "El ELISA mide autoanticuerpos: anti-Dsg 1 y 3 en el pénfigo, y anti-BP180 y BP230 en el penfigoide. En la epidermólisis bullosa se hacen pruebas genéticas.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 22"
   },
   {
@@ -665,7 +665,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Hay riesgo de recaída si se abandona la dieta.",
+   "explicacion": "La dapsona controla las lesiones y la dieta sin gluten trata la causa de fondo. Hay riesgo de recaída si se abandona la dieta.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 24"
   },
   {
@@ -694,7 +694,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Requiere manejo multidisciplinario.",
+   "explicacion": "No hay cura: se da soporte con cuidado de heridas, control del dolor y prevención de infecciones, con manejo multidisciplinario.",
    "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 24"
   },
   {

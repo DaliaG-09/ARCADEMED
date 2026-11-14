@@ -83,7 +83,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Calcitriol = vitamina D activa (1,25-dihidroxivitamina D).",
+   "explicacion": "El calcitriol (vitamina D activa, 1,25-dihidroxivitamina D) aumenta la absorción intestinal de calcio y fósforo y frena la secreción de PT (paratohormona).",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 9"
   },
   {
@@ -170,7 +170,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Cardiovascular: prolongación del QT.",
+   "explicacion": "La hipocalcemia produce hiperexcitabilidad neuromuscular: signo de Chvostek (contracción facial al percutir el nervio facial) y de Trousseau (espasmo carpiano con el manguito). En el ECG prolonga el QT.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 12"
   },
   {
@@ -257,7 +257,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La hipercalcemia grave se maneja de forma urgente.",
+   "explicacion": "Se usa el calcio corregido por albúmina: mayor de 10.3 mg/dL define hipercalcemia. La hipercalcemia grave se maneja de forma urgente.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 17"
   },
   {
@@ -302,15 +302,15 @@
      "full": "Hidratación con suero salino, diuréticos de asa y bifosfonatos con calcitonina"
     },
     {
-     "t": "Calcio oral",
+     "t": "Calcio IV y vitamina D activa",
      "por": "Empeoraría la hipercalcemia."
     },
     {
-     "t": "Tiazidas",
+     "t": "Tiazidas y restricción de líquidos",
      "por": "Disminuyen la eliminación de calcio y lo elevan."
     },
     {
-     "t": "Solo observación",
+     "t": "Solo observación y control en 1 semana",
      "por": "Es una hipercalcemia grave y se trata de inmediato."
     }
    ],
@@ -368,15 +368,15 @@
      "full": "En la rama ascendente gruesa del asa de Henle (60 a 70 %)"
     },
     {
-     "t": "Túbulo proximal",
+     "t": "Túbulo contorneado proximal",
      "por": "Reabsorbe sobre todo sodio y agua, no la mayor parte del magnesio."
     },
     {
-     "t": "Túbulo colector",
+     "t": "Segmento descendente delgado del asa",
      "por": "Reabsorbe poco magnesio."
     },
     {
-     "t": "Rama descendente del asa",
+     "t": "Túbulo colector cortical y medular",
      "por": "Es permeable al agua, no al magnesio."
     }
    ],
@@ -439,7 +439,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "También las tubulopatías de Gitelman y Bartter.",
+   "explicacion": "La hipomagnesemia se debe a pérdidas renales (diuréticos de asa, aminoglucósidos, tubulopatías de Gitelman y Bartter) o digestivas.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 26"
   },
   {

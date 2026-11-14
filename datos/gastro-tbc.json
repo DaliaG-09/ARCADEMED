@@ -55,7 +55,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Datos epidemiológicos de la clase.",
+   "explicacion": "El VIH favorece la reactivación de la tuberculosis, y la TB es la principal causa de muerte en personas con VIH.",
    "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 7 y 8"
   },
   {
@@ -275,15 +275,15 @@
      "full": "Colonoscopia con ileoscopia terminal y biopsias; laparoscopia para TBC peritoneal y hepática"
     },
     {
-     "t": "Solo endoscopia alta",
+     "t": "Endoscopía alta con test de ureasa",
      "por": "No explora el íleon terminal ni el ciego."
     },
     {
-     "t": "Laparotomía en todos",
+     "t": "Radiografía de tórax como único estudio",
      "por": "Se reserva para pacientes con signos de peritonitis."
     },
     {
-     "t": "Solo radiografía de tórax",
+     "t": "Laparotomía exploradora en todos los casos",
      "por": "Puede mostrar TBC pulmonar, pero no confirma la abdominal."
     }
    ],
@@ -338,15 +338,15 @@
      "full": "Tuberculosis abdominal, con descarte de infección por VIH"
     },
     {
-     "t": "Gastroenteritis aguda viral",
+     "t": "Gastroenteritis viral; hidratar y observar",
      "por": "Dura días, no un mes con pérdida de peso."
     },
     {
-     "t": "Hemorroides internas",
+     "t": "Enfermedad celíaca; dieta sin gluten",
      "por": "No explican fiebre, pérdida de peso ni diarrea con moco."
     },
     {
-     "t": "Pancreatitis aguda",
+     "t": "Colon irritable; tratamiento sintomático",
      "por": "El dolor sería en epigastrio, constante, con lipasa elevada, y no un cuadro de un mes."
     }
    ],

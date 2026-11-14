@@ -13,15 +13,15 @@
      "full": "Litiasis biliar (90 a 95 %): un cálculo obstruye el conducto cístico"
     },
     {
-     "t": "Colecistitis alitiásica",
+     "t": "Isquemia vesicular por ayuno prolongado",
      "por": "Representa solo 3 a 14 % y aparece en UCI, grandes quemados, infección o trauma."
     },
     {
-     "t": "Infección por Ascaris",
+     "t": "Infección parasitaria por Ascaris o Giardia",
      "por": "Es una causa rara de patología biliar."
     },
     {
-     "t": "Tumor de la vesícula",
+     "t": "Tumor de la vesícula que obstruye el cístico",
      "por": "Es una causa poco frecuente de obstrucción."
     }
    ],
@@ -76,15 +76,15 @@
      "full": "Engrosamiento de la pared vesicular, litiasis con sombra acústica y signo de Murphy ecográfico"
     },
     {
-     "t": "Vesícula de pared fina y sin litos",
+     "t": "Vesícula contraída sin signo de Murphy",
      "por": "Corresponde a una vesícula normal."
     },
     {
-     "t": "Dilatación del conducto pancreático",
+     "t": "Dilatación del colédoco sin litos vesiculares",
      "por": "Sugiere patología pancreática."
     },
     {
-     "t": "Solo aire en la vía biliar",
+     "t": "Vesícula de pared fina con bilis sin litos",
      "por": "Puede verse tras una CPRE previa o con una fístula bilioentérica; no es el hallazgo habitual de la colecistitis."
     }
    ],
@@ -217,7 +217,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "CPRE = colangiopancreatografía retrógrada endoscópica.",
+   "explicacion": "La colangitis aguda es una infección de la vía biliar con estasis (obstrucción); se sospecha por fiebre, ictericia y dolor. Se resuelve drenando la vía biliar, p. ej. con CPRE (colangiopancreatografía retrógrada endoscópica).",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 15 y 16"
   },
   {
@@ -292,15 +292,15 @@
      "full": "Colangitis definitiva: cumple A (inflamación sistémica), B (colestasis) y C (imagen)"
     },
     {
-     "t": "Colangitis solo sospechosa",
+     "t": "Colangitis sospechosa: cumple solo A y B",
      "por": "La sospecha es con A más B o C. Aquí están los tres grupos."
     },
     {
-     "t": "Colecistitis aguda",
+     "t": "Colecistitis aguda con signo de Murphy",
      "por": "Faltan los signos de inflamación local de la vesícula."
     },
     {
-     "t": "Pancreatitis aguda",
+     "t": "Pancreatitis aguda biliar leve",
      "por": "Faltan dolor epigástrico típico y lipasa elevada."
     }
    ],

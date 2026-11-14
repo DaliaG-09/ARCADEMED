@@ -342,15 +342,15 @@
      "full": "Sangrado de várices gástricas, sangrado activo, albúmina baja, insuficiencia renal o HVPG mayor de 20"
     },
     {
-     "t": "Edad menor de 40 años",
+     "t": "Várices esofágicas pequeñas sin sangrado",
      "por": "No es un factor de la lámina."
     },
     {
-     "t": "Plaquetas elevadas",
+     "t": "Albúmina mayor de 4 g/dL",
      "por": "En cirrosis hay plaquetopenia, y no es un factor de la lámina."
     },
     {
-     "t": "Hemoglobina mayor de 14",
+     "t": "Función renal normal con HVPG <12 mmHg",
      "por": "No figura entre los factores."
     }
    ],

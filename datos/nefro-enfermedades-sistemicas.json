@@ -191,15 +191,15 @@
      "full": "Medidas de soporte; si hay afectación renal, bolos de glucocorticoides, ciclofosfamida y plasmaféresis; IECA o ARA II si hay proteinuria persistente"
     },
     {
-     "t": "Solo antibióticos",
+     "t": "Antibióticos de amplio espectro por 14 días",
      "por": "No es una infección activa."
     },
     {
-     "t": "Cirugía",
+     "t": "Rituximab desde el inicio en todos los casos",
      "por": "No es quirúrgica."
     },
     {
-     "t": "Solo diuréticos",
+     "t": "Anticoagulación con heparina y reposo",
      "por": "Controlan el edema, no la inflamación."
     }
    ],
@@ -295,7 +295,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "También puede haber proteinuria y microhematuria.",
+   "explicacion": "La crisis renal esclerodérmica es una emergencia: HTA de inicio brusco con IRA y anemia hemolítica microangiopática. También puede haber proteinuria leve y microhematuria.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 18",
    "contexto": "Microangiopática = hemólisis por daño de los vasos pequeños: los glóbulos rojos se rompen al pasar por ellos."
   },
@@ -324,7 +324,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Los inmunomoduladores se consideran terapias futuras.",
+   "explicacion": "Los IECA son el tratamiento de elección porque controlan la HTA y frenan la isquemia renal mediada por renina. Los inmunomoduladores se consideran terapias futuras.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 19"
   },
   {
@@ -369,15 +369,15 @@
      "full": "Inmunoelectroforesis en sangre u orina, proteinuria de Bence Jones y aspirado de médula ósea con más de 10 % de células plasmáticas"
     },
     {
-     "t": "Solo creatinina sérica",
+     "t": "Ecografía renal y creatinina sérica",
      "por": "Mide la función renal, no confirma el mieloma."
     },
     {
-     "t": "Ecografía renal",
+     "t": "Urocultivo y tira reactiva en orina",
      "por": "No confirma el diagnóstico."
     },
     {
-     "t": "Urocultivo",
+     "t": "Biopsia hepática y ANCA",
      "por": "Busca infección, no mieloma."
     }
    ],
@@ -487,15 +487,15 @@
      "full": "Nefritis lúpica comprobada por biopsia con ANA o anti-DNA positivos, o 4 o más criterios con al menos uno clínico y uno inmunológico"
     },
     {
-     "t": "Solo anti-DNA positivo",
+     "t": "Anti-DNA positivo sin otros criterios",
      "por": "El anti-DNA es solo un criterio inmunológico: hace falta además al menos un criterio clínico, o nefritis por biopsia con ANA o anti-DNA positivos."
     },
     {
-     "t": "Solo proteinuria",
+     "t": "Proteinuria aislada sin biopsia",
      "por": "Es parte del criterio renal, pero no clasifica por sí sola."
     },
     {
-     "t": "Solo fiebre persistente",
+     "t": "Fiebre persistente con ANA negativo",
      "por": "No es un criterio."
     }
    ],
@@ -517,15 +517,15 @@
      "full": "Glomerulonefritis membranosa, amiloidosis secundaria y GN proliferativa mesangial (a veces con IgA); además vasculitis reumatoide y nefropatía por analgésicos"
     },
     {
-     "t": "Solo cambios mínimos",
+     "t": "Cambios mínimos y glomeruloesclerosis focal",
      "por": "No es lo descrito."
     },
     {
-     "t": "Solo GNRP anti-MBG",
+     "t": "Nefritis anti-MBG y síndrome de Goodpasture",
      "por": "La GN anti-MBG no es una de las lesiones descritas en la artritis reumatoide; además la opción dice 'solo' y hay varias lesiones."
     },
     {
-     "t": "Ninguna lesión renal",
+     "t": "Necrosis tubular aguda y GN postestreptocócica",
      "por": "Sí las hay, y los analgésicos también dañan el riñón."
     }
    ],
@@ -560,7 +560,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "VHB, VHC = virus de hepatitis B y C.",
+   "explicacion": "Hepatitis C: crioglobulinemia y GN membranoproliferativa (a veces membranosa). Hepatitis B: GN postinfecciosa. VHB, VHC = virus de hepatitis B y C.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 34"
   },
   {
@@ -576,15 +576,15 @@
      "full": "PA <130/80, reducir la proteinuria con IECA o ARA II (meta <300 mg/día), LDL <100 mg/dL y HDL >40 mg/dL"
     },
     {
-     "t": "PA <160/100",
+     "t": "PA <150/90 y proteinuria <1 g/día",
      "por": "Es una meta demasiado alta."
     },
     {
-     "t": "LDL <200 mg/dL",
+     "t": "LDL <160 mg/dL y HDL >30 mg/dL",
      "por": "Es demasiado alto para esta meta."
     },
     {
-     "t": "Evitar IECA y ARA II",
+     "t": "PA <140/90 y evitar IECA y ARA II",
      "por": "Se prefieren por su efecto sobre la proteinuria."
     }
    ],
@@ -647,7 +647,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Se confirma con ANCA y biopsia renal.",
+   "explicacion": "Otitis crónica con hipoacusia más daño renal sugiere granulomatosis con poliangeítis, una vasculitis ANCA. Se confirma con ANCA y biopsia renal, y la inducción es con esteroides y ciclofosfamida.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 39",
    "nota": "La lámina solo plantea las preguntas; la respuesta es una interpretación basada en la clase."
   }

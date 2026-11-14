@@ -174,7 +174,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Clases: I mínima mesangial; II proliferativa mesangial; III focal (menos de 50 % de glomérulos con proliferación); IV difusa; V membranosa; VI esclerosante avanzada. En la clase III hay proliferación endocapilar y necrosis fibrinoide en segmentos.",
+   "explicacion": "En la clase IV (difusa) la proliferación abarca la mayoría de los glomérulos y hay depósitos subendoteliales extensos que forman asas de alambre. Clases: I mínima mesangial; II proliferativa mesangial; III focal (menos de 50 % de glomérulos); IV difusa; V membranosa; VI esclerosante avanzada.",
    "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 12 a 14",
    "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis lúpica, el compromiso renal del LES. Se clasifica en seis clases según la biopsia.",
    "nota": "La clasificación completa viene en un esquema de la lámina 12; los porcentajes de las clases III y IV son del estándar internacional (complemento)."
@@ -204,7 +204,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "C1q y C4 pertenecen a la vía clásica del complemento, que en el lupus se activa por complejos inmunes.",
+   "explicacion": "La clase V (membranosa) del lupus puede verse igual que la glomerulonefritis membranosa idiopática. En el lupus los complejos inmunes activan la vía clásica del complemento (C1q y C4).",
    "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 15",
    "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis lúpica, el compromiso renal del LES. Se clasifica en seis clases según la biopsia."
   },
@@ -343,15 +343,15 @@
      "full": "Factor reumatoide (positivo en 70 %) y depósitos de IgM en la IF, con microhematuria aislada"
     },
     {
-     "t": "ANCA",
+     "t": "Anti-MBG y depósitos lineales de IgG",
      "por": "Son marcadores de vasculitis."
     },
     {
-     "t": "Anticuerpos anti-MBG",
+     "t": "ANCA-MPO y glomérulos sin depósitos",
      "por": "Son de la enfermedad de Goodpasture."
     },
     {
-     "t": "Anticuerpos anti-PLA2R",
+     "t": "Anti-PLA2R y depósitos subepiteliales de IgG4",
      "por": "Son de la nefropatía membranosa primaria."
     }
    ],

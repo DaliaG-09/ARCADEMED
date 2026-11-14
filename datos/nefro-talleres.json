@@ -927,7 +927,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "ACT en hombres = 0.6 × peso = 0.6 × 70 = 42 L (lámina 11).",
+   "explicacion": "ACT en hombres = 0.6 × peso = 0.6 × 70 = 42 L.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 6 y 11",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
@@ -985,7 +985,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "AG = 168 − (130 + 12) = 168 − 142 = 26 mEq/L: elevado.",
+   "explicacion": "AG = Na⁺ − (Cl⁻ + HCO₃⁻) = 168 − (130 + 12) = 26 mEq/L. Es mayor que el normal (alrededor de 12): acidosis metabólica con AG elevado.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 5",
    "contexto": "Anion gap (AG, brecha aniónica) = Na⁺ − (Cl⁻ + HCO₃⁻); normal 8 a 12 mEq/L. Separa las acidosis metabólicas por acumulación de ácidos (AG elevado) de las que son por pérdida de bicarbonato (AG normal). Se usa cuando el HCO₃⁻ es menor de 22 mEq/L."
   },
@@ -1190,7 +1190,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "ACT en mujeres = 0.5 × peso = 0.5 × 65 = 32.5 L (lámina 11).",
+   "explicacion": "ACT en mujeres = 0.5 × peso = 0.5 × 65 = 32.5 L.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 10 y 11",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
@@ -1337,7 +1337,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "En ancianos (mayores de 65 años) el ACT es 0.5 × peso, sea hombre o mujer: 0.5 × 60 = 30 L (lámina 11).",
+   "explicacion": "En ancianos (mayores de 65 años) el ACT es 0.5 × peso, sea hombre o mujer: 0.5 × 60 = 30 L.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11 y 14",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
@@ -1543,7 +1543,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "ACT en hombres = 0.6 × peso = 0.6 × 80 = 48 L (lámina 11).",
+   "explicacion": "ACT en hombres = 0.6 × peso = 0.6 × 80 = 48 L.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11 y 17",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
@@ -1780,7 +1780,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Categoría: mujer. ACT = 0.5 × 58 = 29 L (lámina 11).",
+   "explicacion": "Categoría: mujer. ACT = 0.5 × 58 = 29 L.",
    "fuente": "Complemento: caso inventado para practicar con la fórmula de la lám. 11 del taller de electrolitos (no es del PPT)",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
@@ -1809,7 +1809,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Categoría: anciano (más de 65 años). ACT = 0.5 × 80 = 40 L (lámina 11).",
+   "explicacion": "Categoría: anciano (más de 65 años). ACT = 0.5 × 80 = 40 L.",
    "fuente": "Complemento: caso inventado para practicar con la fórmula de la lám. 11 del taller de electrolitos (no es del PPT)",
    "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
@@ -2124,7 +2124,7 @@
    "area": "nefro",
    "tema": "Taller gases arteriales",
    "f": "Cetoacidosis diabética en la AGA",
-   "b": "Acidosis metabólica con AG elevado (caso del taller: AG 27) y compensación respiratoria con pCO₂ baja (Kussmaul).",
+   "b": "Acidosis metabólica con AG elevado (p. ej., AG 27) y compensación respiratoria con pCO₂ baja (Kussmaul).",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 5 a 9"
   },
   {
@@ -2171,7 +2171,7 @@
    "id": "n-t-elec-caso1",
    "area": "nefro",
    "tema": "Taller electrolitos",
-   "f": "Caso 1 del taller: náufrago que tomó agua de mar",
+   "f": "Caso clínico: náufrago que tomó agua de mar",
    "b": "Hipernatremia extrema (Na⁺ 168) con acidosis metabólica de AG elevado (26). La pCO₂ de 30 supera la esperada (24 a 28), lo que indica además acidosis respiratoria agregada.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 5"
   }

@@ -176,7 +176,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "AKIN-KDIGO tiene tres estadios: AKI-I, AKI-II, AKI-III.",
+   "explicacion": "AKIN mantiene la lógica de RIFLE (creatinina y diuresis) pero exige que el cambio ocurra dentro de 48 horas, y reduce las categorías a tres estadios: AKI-I, AKI-II y AKI-III (luego unificados en KDIGO).",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 10",
    "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina.",
    "guia": {
@@ -348,15 +348,15 @@
      "por": "Ambas producen vasoconstricción renal y lesión tubular directa. Eso activa la mácula densa, forma cilindros intratubulares y causa retrodifusión de líquido, y todo baja el filtrado."
     },
     {
-     "t": "Infecciones y trasplante",
+     "t": "Obstrucción urinaria y reflujo vesicoureteral",
      "por": "No son los dos grupos del esquema."
     },
     {
-     "t": "Obstrucción y reflujo",
+     "t": "Autoanticuerpos y activación del complemento",
      "por": "Son causas postrenales."
     },
     {
-     "t": "Autoanticuerpos y complemento",
+     "t": "Infecciones virales y rechazo del injerto",
      "por": "Pertenecen a las glomerulonefritis."
     }
    ],
@@ -377,15 +377,15 @@
      "por": "Es una de las causas listadas: necrosis tubular, nefritis intersticial, glomerulonefritis y vasculitis."
     },
     {
-     "t": "Hemorragia grave",
+     "t": "Hipovolemia por hemorragia grave",
      "por": "Es prerrenal: baja el volumen y la perfusión."
     },
     {
-     "t": "Hipertrofia benigna de próstata",
+     "t": "Obstrucción por hipertrofia prostática",
      "por": "Es postrenal: obstruye la salida de orina."
     },
     {
-     "t": "Insuficiencia cardiaca",
+     "t": "Hipoperfusión por insuficiencia cardiaca",
      "por": "Es prerrenal: el corazón no perfunde suficiente."
     }
    ],
@@ -528,15 +528,15 @@
      "full": "IRA renal por necrosis tubular aguda (nefrotóxica e isquémica), estadio AKI-III"
     },
     {
-     "t": "IRA postrenal",
+     "t": "IRA postrenal por obstrucción",
      "por": "La ecografía es normal, sin dilatación pielocalicial."
     },
     {
-     "t": "IRA prerrenal pura",
+     "t": "IRA prerrenal pura por hipovolemia",
      "por": "La hipotensión participa, pero los cilindros granulosos indican que ya hay daño tubular."
     },
     {
-     "t": "Glomerulonefritis aguda",
+     "t": "Glomerulonefritis aguda postinfecciosa",
      "por": "No hay hematuria con cilindros hemáticos ni proteinuria marcada."
     }
    ],

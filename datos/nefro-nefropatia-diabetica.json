@@ -54,7 +54,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "MBG = membrana basal glomerular.",
+   "explicacion": "La esclerosis nodular (nódulos de Kimmelstiel-Wilson) es la lesión patognomónica. El engrosamiento de la MBG (membrana basal glomerular) aparece antes y es inespecífico.",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 8"
   },
   {
@@ -83,7 +83,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Más de 10 años en DM1; puede aparecer antes en DM2.",
+   "explicacion": "El mal control glucémico sostenido es el factor de riesgo principal. La duración también pesa: más de 10 años en DM1, aunque en DM2 puede aparecer antes.",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 10",
    "contexto": "HbA1c = hemoglobina glucosilada, refleja el control de glucosa de los últimos 3 meses. DM1 y DM2 = diabetes mellitus tipo 1 y 2."
   },
@@ -156,20 +156,20 @@
      "full": "En DM1 después de 5 años del diagnóstico; en DM2 puede estar desde el inicio"
     },
     {
-     "t": "En DM1 desde el inicio",
+     "t": "DM1 desde el inicio; DM2 tras 5 años",
      "por": "Eso corresponde a la DM2, donde el inicio es incierto."
     },
     {
-     "t": "A los 30 años en ambas",
+     "t": "DM1 tras 20 años; DM2 nunca antes",
      "por": "La aparición depende del tiempo de diabetes, no de una edad fija."
     },
     {
-     "t": "Nunca en DM2",
+     "t": "DM1 y DM2 solo después de 15 años",
      "por": "Sí aparece en DM2, y a veces ya está presente al diagnóstico."
     }
    ],
    "correcta": 0,
-   "explicacion": "En DM2 el inicio es de tiempo incierto.",
+   "explicacion": "En DM1 la albuminuria suele aparecer tras unos 5 años de enfermedad. En DM2 puede estar presente desde el diagnóstico, porque el inicio real de la diabetes es incierto.",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 12"
   },
   {
@@ -198,7 +198,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Puede coexistir con retinopatía y neuropatía periférica.",
+   "explicacion": "Proteinuria mayor de 300 mg/día con edema blando e HTA indica nefropatía ya establecida (etapa intermedia). Puede coexistir con retinopatía y neuropatía periférica.",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 13"
   },
   {
@@ -214,20 +214,20 @@
      "full": "Síntomas urémicos, anemia normocítica, acidosis, hiperpotasemia y HTA resistente"
     },
     {
-     "t": "Solo microalbuminuria",
+     "t": "Microalbuminuria con hiperfiltración",
      "por": "Es un hallazgo de la etapa inicial, no de la avanzada."
     },
     {
-     "t": "TFG aumentada",
+     "t": "Proteinuria aislada con TFG normal",
      "por": "Es un hallazgo de la etapa inicial, no de la avanzada."
     },
     {
-     "t": "Sin síntomas",
+     "t": "Poliglobulia y alcalosis metabólica",
      "por": "En la etapa avanzada sí hay síntomas urémicos."
     }
    ],
    "correcta": 0,
-   "explicacion": "Trastornos: hiponatremia, hiperpotasemia.",
+   "explicacion": "En la ERC 4 a 5 predominan los síntomas urémicos, la anemia y la acidosis, junto con trastornos como hiponatremia e hiperpotasemia.",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 14"
   },
   {
@@ -243,15 +243,15 @@
      "full": "Albuminuria persistente >30 mg/g (2 de 3 muestras en 3 a 6 meses), diabetes >5 años, HTA y ausencia de otras causas"
     },
     {
-     "t": "Una tira reactiva positiva",
+     "t": "Una tira reactiva positiva con DM >1 año",
      "por": "Una sola tira puede dar falsos positivos (fiebre, ejercicio, infección); se necesita confirmar."
     },
     {
-     "t": "Solo creatinina elevada",
+     "t": "Creatinina elevada con DM de cualquier duración",
      "por": "La creatinina sube tarde y no distingue la causa."
     },
     {
-     "t": "Retinopatía sola",
+     "t": "Retinopatía diabética sola, sin albuminuria",
      "por": "La retinopatía apoya el diagnóstico, pero no basta por sí sola."
     }
    ],
@@ -272,20 +272,20 @@
      "full": "Sedimento activo, hematuria, caída rápida de TFG, ausencia de retinopatía o duda diagnóstica"
     },
     {
-     "t": "En todos los diabéticos",
+     "t": "Albuminuria persistente con retinopatía",
      "por": "No hace falta: la mayoría tiene un cuadro típico que se diagnostica sin biopsia."
     },
     {
-     "t": "Cuando hay retinopatía",
+     "t": "Todo diabético con TFG menor de 60",
      "por": "Con retinopatía el diagnóstico de nefropatía diabética es más probable y no hace falta biopsia."
     },
     {
-     "t": "Nunca",
+     "t": "Proteinuria estable de más de 5 años",
      "por": "La biopsia sí se indica en los casos atípicos."
     }
    ],
    "correcta": 0,
-   "explicacion": "Ecografía: riñones normales o aumentados al inicio.",
+   "explicacion": "Se biopsia cuando el cuadro no es el típico: sedimento activo o caída rápida de la TFG sugieren otra glomerulopatía. En la nefropatía diabética típica la ecografía muestra riñones normales o aumentados al inicio.",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 18"
   },
   {
@@ -367,15 +367,15 @@
      "full": "Antagonista selectivo del receptor mineralocorticoide que reduce progresión renal y CV en DM2 con albuminuria"
     },
     {
-     "t": "iSGLT2",
+     "t": "Inhibidor del cotransportador SGLT2",
      "por": "Eso describe a los iSGLT2, que son otro grupo."
     },
     {
-     "t": "Agonista GLP-1",
+     "t": "Agonista del receptor de GLP-1",
      "por": "Eso describe a los agonistas de GLP-1."
     },
     {
-     "t": "Estatina",
+     "t": "Inhibidor de la HMG-CoA reductasa",
      "por": "Las estatinas se indican en todo diabético con ERC, pero no son lo que describe esta pregunta."
     }
    ],

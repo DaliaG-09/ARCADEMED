@@ -172,7 +172,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Cotrimoxazol es opción si se sospecha S. aureus.",
+   "explicacion": "Con más de 5 lesiones se usa antibiótico sistémico; los tópicos son para pocas lesiones. Cotrimoxazol es opción si se sospecha S. aureus.",
    "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 11"
   },
   {
@@ -230,7 +230,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La evolución es de 5 a 10 días.",
+   "explicacion": "El forúnculo es una foliculitis profunda con necrosis y mucha inflamación; evoluciona en 5 a 10 días hasta drenar el tapón necrótico.",
    "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 14"
   },
   {
@@ -405,7 +405,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La placa es bien delimitada y elevada.",
+   "explicacion": "La erisipela es una infección de la dermis superficial y los linfáticos. Empieza con fiebre alta y escalofríos, y luego aparece una placa bien delimitada y elevada.",
    "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 20"
   },
   {
@@ -540,11 +540,11 @@
      "full": "Dolor, calor y eritema mal definido, de aparición aguda"
     },
     {
-     "t": "Eritema muy elevado y bien delimitado",
+     "t": "Placa elevada de bordes netos y fiebre alta",
      "por": "Eso describe la erisipela."
     },
     {
-     "t": "Papulopústula centrada por un pelo",
+     "t": "Pústula centrada por un pelo, sin fiebre",
      "por": "Es la foliculitis."
     },
     {
@@ -553,7 +553,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "A diferencia de la erisipela, los bordes no son netos.",
+   "explicacion": "En la celulitis la infección es más profunda (dermis e hipodermis), por eso los bordes no son netos, a diferencia de la erisipela.",
    "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 27"
   },
   {
@@ -582,7 +582,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La ecografía ayuda a descartar absceso.",
+   "explicacion": "El diagnóstico es clínico; el cultivo se reserva para la forma purulenta. La ecografía ayuda a descartar un absceso.",
    "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 29"
   },
   {

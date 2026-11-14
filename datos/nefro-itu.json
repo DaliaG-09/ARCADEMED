@@ -282,15 +282,15 @@
      "full": "En el examen clínico, el uroanálisis, el cultivo y las imágenes"
     },
     {
-     "t": "Solo en los síntomas",
+     "t": "Solo síntomas y hemograma",
      "por": "Los síntomas orientan, pero hay ITU sin síntomas (bacteriuria asintomática) y síntomas sin ITU."
     },
     {
-     "t": "Solo en el hemograma",
+     "t": "Hemograma y ecografía renal sin cultivo",
      "por": "El hemograma puede mostrar leucocitos altos, pero no confirma una ITU."
     },
     {
-     "t": "Solo en una ecografía renal",
+     "t": "Síntomas y radiografía simple de abdomen",
      "por": "La ecografía sirve para descartar obstrucción o complicaciones, no para confirmar la infección."
     }
    ],
@@ -442,11 +442,11 @@
      "por": "La cistitis simple no da fiebre ni dolor lumbar con puño-percusión positiva."
     },
     {
-     "t": "Cólico renal por litiasis",
+     "t": "Cólico renal por litiasis sin infección",
      "por": "El cólico es dolor intenso y no explica por sí solo la fiebre, la leucocitosis ni los 500 leucocitos en orina."
     },
     {
-     "t": "Apendicitis",
+     "t": "Apendicitis aguda retrocecal",
      "por": "El abdomen está blando, sin irritación peritoneal; el dolor y la puño-percusión son lumbares."
     }
    ],

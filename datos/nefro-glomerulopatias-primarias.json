@@ -286,15 +286,15 @@
      "por": "La lámina lo recalca: NO es la vía clásica. Por eso el C3 y el C4 suelen ser normales."
     },
     {
-     "t": "La vía clásica",
+     "t": "La vía clásica, desde C1q y C4",
      "por": "La lámina dice expresamente que no."
     },
     {
-     "t": "Ninguna vía se activa",
+     "t": "Solo la vía final común (C5b-9)",
      "por": "Sí se activa el complemento, y eso contribuye al daño."
     },
     {
-     "t": "Solo la vía final común",
+     "t": "Ninguna, el complemento no participa",
      "por": "No describe así la activación."
     }
    ],

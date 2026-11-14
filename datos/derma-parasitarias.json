@@ -55,7 +55,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Se transmite por vectores hematófagos como los flebótomos.",
+   "explicacion": "La leishmaniasis cutánea la produce Leishmania spp., un protozoario transmitido por vectores hematófagos como los flebótomos.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 11"
   },
   {
@@ -84,7 +84,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Es un helminto.",
+   "explicacion": "La larva migrans cutánea la causan larvas de anquilostomas (Ancylostoma spp.), que son helmintos y penetran la piel desde suelo o arena contaminados.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 11"
   },
   {
@@ -113,7 +113,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Son ectoparásitos.",
+   "explicacion": "La miasis es la infestación de la piel por larvas de moscas, como Dermatobia hominis y Cochliomyia hominivorax.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 11"
   },
   {
@@ -229,7 +229,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Se dañan los macrófagos que albergan el parásito.",
+   "explicacion": "El parásito vive dentro de los macrófagos; al destruirlos provoca una respuesta granulomatosa y úlceras.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 14"
   },
   {
@@ -258,7 +258,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Se ve en miembros inferiores y genitales.",
+   "explicacion": "La filariasis crónica obstruye los linfáticos y produce linfedema y elefantiasis, en miembros inferiores y genitales.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 15"
   },
   {
@@ -316,7 +316,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Se previene usando calzado cerrado en zonas endémicas.",
+   "explicacion": "Las larvas migran bajo la piel y dejan un trayecto serpiginoso muy pruriginoso, típico en los pies. Se previene usando calzado cerrado en zonas endémicas.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 16"
   },
   {
@@ -345,7 +345,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "El prurito es intenso y empeora por la noche.",
+   "explicacion": "La escabiosis produce pápulas y túneles pruriginosos en los pliegues. El prurito es intenso y empeora por la noche.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 17"
   },
   {
@@ -390,15 +390,15 @@
      "full": "Raspado de piel con visualización del ácaro"
     },
     {
-     "t": "Cultivo en medio de Sabouraud",
+     "t": "Biopsia cutánea con tinción de PAS",
      "por": "Es para micosis."
     },
     {
-     "t": "Prueba de parche con alérgenos",
+     "t": "Prueba de parche con alérgenos habituales",
      "por": "Es para dermatitis de contacto."
     },
     {
-     "t": "Frotis de Tzanck de la base",
+     "t": "Frotis de Tzanck de una vesícula",
      "por": "Es para herpes."
     }
    ],
@@ -432,7 +432,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "En Perú la leishmaniasis es de notificación obligatoria.",
+   "explicacion": "El tratamiento de primera línea son los antimoniales pentavalentes por 20 días. En Perú la leishmaniasis es de notificación obligatoria.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 20"
   },
   {
@@ -461,7 +461,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Los antiinflamatorios alivian los síntomas.",
+   "explicacion": "Se trata con albendazol o ivermectina oral; los antiinflamatorios solo alivian los síntomas.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 20"
   },
   {
@@ -506,20 +506,20 @@
      "full": "Escabiosis extensa, costrosa, en brotes o con mala adherencia al tópico"
     },
     {
-     "t": "Siempre, como primera línea en todos",
+     "t": "Solo en lesiones únicas y localizadas",
      "por": "La primera línea es permetrina tópica."
     },
     {
-     "t": "Solo en lesiones únicas y pequeñas",
+     "t": "En lactantes menores de 2 meses",
      "por": "No es la indicación."
     },
     {
-     "t": "Nunca; está contraindicada",
+     "t": "Como primera línea en todos los casos",
      "por": "Sí está indicada en esos casos."
     }
    ],
    "correcta": 0,
-   "explicacion": "Dosis de 200 μg/kg.",
+   "explicacion": "La ivermectina oral (200 μg/kg) se prefiere cuando el tópico es difícil de usar o poco eficaz: casos extensos, costrosos, brotes o mala adherencia.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 20"
   },
   {
@@ -548,7 +548,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Se lavan ropa y sábanas con agua caliente (> 60 °C).",
+   "explicacion": "Los contactos pueden estar infestados sin síntomas y reinfestar al paciente, por eso se tratan a la vez. Se lavan ropa y sábanas con agua caliente (> 60 °C).",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 24"
   },
   {
@@ -577,7 +577,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "La profilaxis antibiótica previene la sobreinfección.",
+   "explicacion": "Se extraen las larvas; ivermectina si son múltiples. La profilaxis antibiótica previene la sobreinfección.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 21"
   },
   {
@@ -635,7 +635,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Se debe cuidar la piel y controlar el rascado.",
+   "explicacion": "Los antihistamínicos orales calman el prurito. También se debe cuidar la piel y controlar el rascado.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 22"
   },
   {
@@ -751,7 +751,7 @@
     }
    ],
    "correcta": 0,
-   "explicacion": "Después los adultos reinician el ciclo.",
+   "explicacion": "Las moscas ponen huevos en heridas, las larvas se alimentan 5 a 10 días, luego pupan en el suelo y los adultos reinician el ciclo.",
    "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 27"
   },
   {
