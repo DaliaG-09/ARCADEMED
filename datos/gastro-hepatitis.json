@@ -707,7 +707,7 @@
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
    "f": "¿Cómo se diagnostica la hepatitis A según IgM e IgG anti-VHA?",
-   "b": "IgM anti-VHA = aguda. IgG anti-VHA = inmunidad.",
+   "b": "IgM anti-VHA positiva: infección aguda. IgG anti-VHA positiva: inmunidad.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 21"
   },
   {
@@ -723,7 +723,7 @@
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
    "f": "¿Qué es el periodo ventana de la hepatitis B y cómo se diagnostica?",
-   "b": "HBsAg negativo con infección aguda: se diagnostica con IgM anti-HBc.",
+   "b": "Es la etapa de infección aguda con HBsAg ya negativo; en ese lapso el diagnóstico se hace con IgM anti-HBc.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 32"
   },
   {
@@ -739,7 +739,7 @@
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
    "f": "¿Qué características tiene la hepatitis C (ARN, cronificación, vacuna y tratamiento)?",
-   "b": "ARN; 80 % cronifica; sin vacuna; AAD: inhibidores NS3/NS4A y NS5.",
+   "b": "Es un virus ARN; cronifica en 80 %; no tiene vacuna; se trata con antivirales de acción directa (AAD: inhibidores de NS3/NS4A y de NS5).",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 50"
   },
   {

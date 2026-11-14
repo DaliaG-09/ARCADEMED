@@ -548,7 +548,7 @@
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
    "f": "¿Cómo se hace el diagnóstico definitivo de colecistitis según los criterios de Tokio?",
-   "b": "Definitivo: A (local) + B (sistémico) + C (imagen).",
+   "b": "Definitivo cuando hay A (signo local de inflamación) + B (signo sistémico de inflamación) + C (hallazgo en imagen).",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 8"
   },
   {
@@ -572,7 +572,7 @@
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
    "f": "¿Qué componentes tiene la tríada de Charcot y en qué patología aparece?",
-   "b": "Dolor, fiebre e ictericia (50 a 70 % de las colangitis).",
+   "b": "Dolor, fiebre e ictericia. Aparece en la colangitis aguda, aunque solo en 50 a 70 % de los casos.",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 19"
   },
   {
@@ -580,7 +580,7 @@
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
    "f": "¿Cómo se diagnostica la colangitis aguda según los criterios de Tokio?",
-   "b": "A inflamación sistémica + B colestasis + C imagen.",
+   "b": "Se diagnostica con A (inflamación sistémica) + B (colestasis) + C (hallazgo en imagen).",
    "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 20"
   },
   {

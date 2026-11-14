@@ -488,7 +488,7 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "f": "¿Cómo se define la hipocalcemia?",
-   "b": "Calcio corregido <8.4 o ionizado <4.2.",
+   "b": "Calcio corregido <8.4 mg/dL o calcio ionizado <4.2 mg/dL.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 10"
   },
   {
@@ -512,7 +512,7 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "f": "¿Cómo se define la hipercalcemia?",
-   "b": "Calcio corregido >10.3.",
+   "b": "Calcio corregido >10.3 mg/dL.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 17"
   },
   {
@@ -528,7 +528,7 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "f": "¿Cómo se trata la hipomagnesemia grave?",
-   "b": "Hipomagnesemia grave <1.0: sulfato de magnesio IV.",
+   "b": "Sulfato de magnesio IV (se considera grave con Mg <1.0 mg/dL).",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 28"
   },
   {

@@ -2100,7 +2100,7 @@
    "area": "nefro",
    "tema": "Taller gases arteriales",
    "f": "HCO₃⁻ esperado en acidosis respiratoria",
-   "b": "24 + [(pCO₂ − 40) / 10] × 1",
+   "b": "HCO₃⁻ esperado = 24 + [(pCO₂ − 40) / 10] × 1 (en la forma aguda).",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 4"
   },
   {
@@ -2108,7 +2108,7 @@
    "area": "nefro",
    "tema": "Taller gases arteriales",
    "f": "HCO₃⁻ esperado en alcalosis respiratoria",
-   "b": "24 − [(40 − pCO₂) / 10] × 2",
+   "b": "HCO₃⁻ esperado = 24 − [(40 − pCO₂) / 10] × 2 (en la forma aguda).",
    "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 4"
   },
   {
@@ -2140,7 +2140,7 @@
    "area": "nefro",
    "tema": "Taller electrolitos",
    "f": "¿Cómo se calcula el ACT (agua corporal total)?",
-   "b": "Hombres 0.6 × peso (kg)\nMujeres 0.5 × peso\nAncianos (más de 65 años) 0.5 × peso / En la clase de sodio, anciana 0.45 × peso.",
+   "b": "ACT = 0.6 × peso (kg) en hombres y 0.5 × peso en mujeres. En mayores de 65 años baja: 0.5 × peso en hombres y 0.45 × peso en mujeres.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11"
   },
   {
@@ -2172,7 +2172,7 @@
    "area": "nefro",
    "tema": "Taller electrolitos",
    "f": "Caso 1 del taller: náufrago que tomó agua de mar",
-   "b": "Hipernatremia extrema (Na⁺ 168), acidosis metabólica con AG elevado (26) y acidosis respiratoria agregada (pCO₂ 30 por encima de 24 a 28).",
+   "b": "Hipernatremia extrema (Na⁺ 168) con acidosis metabólica de AG elevado (26). La pCO₂ de 30 supera la esperada (24 a 28), lo que indica además acidosis respiratoria agregada.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 5"
   }
  ]

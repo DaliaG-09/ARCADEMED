@@ -455,7 +455,7 @@
    "area": "nefro",
    "tema": "Potasio",
    "f": "¿Qué cambios en el ECG produce la hipopotasemia?",
-   "b": "↓ST, T aplanada, onda U",
+   "b": "Descenso del ST, onda T aplanada y aparición de onda U.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 17"
   },
   {
@@ -471,7 +471,7 @@
    "area": "nefro",
    "tema": "Potasio",
    "f": "¿Cuál es el requerimiento basal de potasio y cómo se estima el déficit (PCT)?",
-   "b": "Basal 1 mEq/kg/día; PCT 50 × peso",
+   "b": "Requerimiento basal: 1 mEq/kg/día. El potasio corporal total (PCT) se estima como 50 × peso (kg) en mEq.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 18"
   },
   {
@@ -479,7 +479,7 @@
    "area": "nefro",
    "tema": "Potasio",
    "f": "¿Cómo progresan los cambios del ECG en la hiperpotasemia?",
-   "b": "T picuda → P plana/QRS largo → sinusoidal",
+   "b": "Primero T picuda; luego P aplanada y QRS ancho; al final patrón sinusoidal.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 22"
   },
   {
@@ -495,7 +495,7 @@
    "area": "nefro",
    "tema": "Potasio",
    "f": "¿Qué hace entrar el potasio a la célula?",
-   "b": "Insulina, β2, aldosterona, alcalosis",
+   "b": "Insulina, agonistas β2, aldosterona y alcalosis.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 10"
   },
   {

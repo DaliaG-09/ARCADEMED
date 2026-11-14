@@ -405,7 +405,7 @@
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
    "f": "Absceso hepático: ¿qué estudio de imagen se usa primero y qué muestra?",
-   "b": "Método de elección; lesión hipoecogénica; sensibilidad 85 a 95 % si mayor de 2 cm.",
+   "b": "Ecografía (método de elección): muestra una lesión hipoecogénica, con sensibilidad de 85 a 95 % si el absceso mide más de 2 cm.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 16"
   },
   {
@@ -413,7 +413,7 @@
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
    "f": "¿Cómo se trata un absceso piógeno según su tamaño?",
-   "b": "Antibióticos solos. Mayor y unilocular: drenaje percutáneo.",
+   "b": "Pequeño: antibióticos solos. Grande y unilocular: antibióticos más drenaje percutáneo.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 19"
   },
   {
@@ -421,7 +421,7 @@
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
    "f": "¿Qué perfil de paciente y de lesión sugiere absceso hepático amebiano?",
-   "b": "Menor de 40 años, varón, solitario, lóbulo derecho, serología positiva.",
+   "b": "Varón menor de 40 años, con lesión solitaria en el lóbulo derecho y serología positiva.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 40"
   },
   {
