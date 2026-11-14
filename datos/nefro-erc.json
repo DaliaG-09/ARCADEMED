@@ -230,8 +230,8 @@
      "por": "150 es menor de 300."
     },
     {
-     "t": "G2",
-     "por": "G es la categoría de TFG, no de albuminuria."
+     "t": "Normal: no se considera albuminuria",
+     "por": "150 mg/g está por encima del límite normal (30 mg/g), así que sí es albuminuria."
     }
    ],
    "correcta": 0,

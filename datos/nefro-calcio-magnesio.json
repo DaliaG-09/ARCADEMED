@@ -252,8 +252,8 @@
      "por": "Está dentro del rango normal."
     },
     {
-     "t": "Calcio mayor de 8.5 mg/dL",
-     "por": "Con 8.5 a 10.3 el calcio es normal."
+     "t": "Calcio corregido de 10.0 mg/dL",
+     "por": "Es un valor normal alto: la hipercalcemia empieza por encima de 10.3 mg/dL."
     }
    ],
    "correcta": 0,

@@ -166,8 +166,8 @@
      "por": "No es la respuesta descrita."
     },
     {
-     "t": "Ninguna respuesta inmune",
-     "por": "Sí hay respuesta Th1."
+     "t": "Una respuesta humoral con IgM como única defensa",
+     "por": "La defensa protectora en leishmaniasis es celular (Th1), no una respuesta humoral aislada."
     }
    ],
    "correcta": 0,
@@ -195,8 +195,8 @@
      "por": "No es la descrita."
     },
     {
-     "t": "Sin respuesta inmune",
-     "por": "Existe respuesta Th2."
+     "t": "Respuesta citotóxica CD8 exclusiva",
+     "por": "En escabiosis y larva migrans predomina la respuesta Th2 con IgE elevada."
     }
    ],
    "correcta": 0,
@@ -535,16 +535,16 @@
      "full": "Para evitar la reinfección"
     },
     {
-     "t": "Porque todos desarrollan úlceras",
-     "por": "No es la razón."
+     "t": "Porque todos desarrollan úlceras cutáneas",
+     "por": "La escabiosis no produce úlceras en todos los contactos; se trata para cortar la cadena de contagio."
     },
     {
      "t": "Porque la sarna es de origen bacteriano",
-     "por": "La sarna es producida por un ácaro, no una bacteria."
+     "por": "La sarna la produce el ácaro Sarcoptes scabiei, no una bacteria."
     },
     {
-     "t": "Porque la vacuna no existe",
-     "por": "No es la razón."
+     "t": "Porque se necesita una dosis profiláctica de ivermectina",
+     "por": "No se usa profilaxis específica: se trata a los contactos igual que al paciente."
     }
    ],
    "correcta": 0,
@@ -680,16 +680,16 @@
      "full": "Eclosiona el día 7-8; adulto el día 16-17 tras 3 mudas"
     },
     {
-     "t": "Eclosiona al día 1 y es adulto al día 2",
-     "por": "Es mucho más rápido que lo real."
+     "t": "Eclosiona al día 3 y es adulto al día 6",
+     "por": "El huevo tarda alrededor de 7-8 días en eclosionar y el piojo llega a adulto cerca del día 16-17."
     },
     {
-     "t": "Eclosiona al día 30 y es adulto al día 60",
-     "por": "Es mucho más lento que lo real."
+     "t": "Eclosiona al día 14 y es adulto al día 30",
+     "por": "Es más lento que el ciclo real: eclosión a los 7-8 días y adulto a los 16-17."
     },
     {
-     "t": "No eclosiona hasta contactar con otra persona",
-     "por": "Sí eclosiona, a los 7-8 días."
+     "t": "Eclosiona al día 7-8 y es adulto al día 30",
+     "por": "La eclosión es correcta, pero el piojo es adulto alrededor del día 16-17, no a los 30."
     }
    ],
    "correcta": 0,

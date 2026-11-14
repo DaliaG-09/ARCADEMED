@@ -487,7 +487,7 @@
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
    "dif": 2,
-   "enunciado": "¿Qué tasa de curación de la esofagitis erosiva logra el omeprazol (20 a 60 mg/día) a las 8 a 12 semanas, según la tabla?",
+   "enunciado": "¿Qué tasa de curación de la esofagitis erosiva logra el omeprazol (20 a 60 mg/día) a las 8 a 12 semanas?",
    "opciones": [
     {
      "t": "85 a 96 %",
@@ -498,8 +498,8 @@
      "por": "Es la cifra a las 4 semanas."
     },
     {
-     "t": "Más de 90 %",
-     "por": "Es la supresión ácida gástrica, no la tasa de curación."
+     "t": "100 %",
+     "por": "Ningún tratamiento cura al 100 % de los pacientes; la tasa del omeprazol es menor."
     },
     {
      "t": "50 %",

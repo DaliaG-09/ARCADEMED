@@ -378,7 +378,7 @@
    "correcta": 0,
    "explicacion": "Angio-TC (tomografía con contraste): no invasiva, rápida, detecta tasas de sangrado de 0,3 a 0,5 ml/min, sensibilidad de 85 %. Cirugía: falla del tratamiento endoscópico.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 25 y 26",
-   "contexto": "Algoritmo de HDB (lámina 25): primero reanimación hemodinámica; si la HDB es grave se hace gastroscopia diagnóstica, y si no hay origen alto se hace angio-TC cuando hay sangrado activo o inestabilidad; si es leve, colonoscopia precoz o manejo ambulatorio.",
+   "contexto": "Algoritmo de HDB: primero reanimación hemodinámica; si la HDB es grave se hace gastroscopia diagnóstica, y si no hay origen alto se hace angio-TC cuando hay sangrado activo o inestabilidad; si es leve, colonoscopia precoz o manejo ambulatorio.",
    "guia": {
     "t": "• En HDB hospitalizada que requiere colonoscopía, la ACG recomienda hacerla de forma no emergente: la colonoscopía urgente (<24 h) no mejoró desenlaces.\n• Si se encuentra sangrado activo o estigmas de alto riesgo, se hace hemostasia endoscópica.",
     "f": "ACG Clinical Guideline: Management of Patients With Acute Lower GI Bleeding (Am J Gastroenterol 2023;118:208-231)"

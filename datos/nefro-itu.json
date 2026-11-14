@@ -318,8 +318,8 @@
      "por": "Es un carbapenémico, reservado para pielonefritis con riesgo de gérmenes resistentes (BLEE). Sería exagerado en una cistitis."
     },
     {
-     "t": "Ciprofloxacino 500 mg cada 12 horas",
-     "por": "La clase advierte alta resistencia a ciprofloxacino en Perú; no está en el esquema de cistitis de la lámina."
+     "t": "Amikacina 15 mg/kg IM cada 24 horas",
+     "por": "Es un aminoglucósido parenteral que no se usa como tratamiento oral de la cistitis simple."
     }
    ],
    "correcta": 0,
@@ -336,7 +336,7 @@
    "area": "nefro",
    "tema": "Infección del tracto urinario",
    "dif": 3,
-   "enunciado": "Paciente con pielonefritis que tiene factores de riesgo de resistencia (por ejemplo, un germen productor de BLEE). ¿Qué esquema inicial propone la lámina de pielonefritis?",
+   "enunciado": "Paciente con pielonefritis que tiene factores de riesgo de resistencia (por ejemplo, un germen productor de BLEE). ¿Qué esquema inicial se recomienda?",
    "opciones": [
     {
      "t": "Carbapenémico IV (meropenem)",

@@ -63,7 +63,7 @@
    "area": "derma",
    "tema": "Acné y rosácea",
    "dif": 2,
-   "enunciado": "Mujer de 30 años con acné inflamatorio de inicio reciente. ¿Con qué entidad de la clase se relaciona?",
+   "enunciado": "Mujer de 30 años con acné inflamatorio de inicio reciente. ¿Con qué entidad se relaciona?",
    "opciones": [
     {
      "t": "Acné de la mujer adulta",
@@ -147,7 +147,7 @@
    "area": "derma",
    "tema": "Acné y rosácea",
    "dif": 2,
-   "enunciado": "¿Cuál de estos factores participa en la patogenia del acné según el esquema de la clase?",
+   "enunciado": "¿Cuál de estos factores participa en la patogenia del acné?",
    "opciones": [
     {
      "t": "Aumento de la secreción de sebo y de la microflora",
@@ -204,7 +204,7 @@
    "area": "derma",
    "tema": "Acné y rosácea",
    "dif": 1,
-   "enunciado": "¿Qué zonas se afectan con más frecuencia en el acné, según el esquema de la clase?",
+   "enunciado": "¿Qué zonas se afectan con más frecuencia en el acné,?",
    "opciones": [
     {
      "t": "Cara, pecho, hombros y espalda alta",
@@ -263,7 +263,7 @@
    "tema": "Acné y rosácea",
    "dif": 2,
    "contexto": "La escala de evaluación global del acné gradúa de 0 a 5 la gravedad según la extensión facial y el tipo de lesión.",
-   "enunciado": "Según esa escala, ¿cómo es el acné grado 2?",
+   "enunciado": "Según la escala de gravedad global del acné (0 a 5), ¿cómo es el grado 2?",
    "opciones": [
     {
      "t": "Menos de la mitad de la cara, con pocas pápulas",
@@ -292,7 +292,7 @@
    "area": "derma",
    "tema": "Acné y rosácea",
    "dif": 2,
-   "enunciado": "¿Qué tipo de acné se describe como pápulopustuloso grave o nodular moderado, según los tipos de la clase?",
+   "enunciado": "¿Qué tipo de acné se describe como pápulopustuloso grave o nodular moderado, según la clasificación por tipos?",
    "opciones": [
     {
      "t": "Tipo 3",
@@ -321,7 +321,7 @@
    "tema": "Acné y rosácea",
    "dif": 2,
    "contexto": "Este algoritmo ordena el tratamiento del acné por gravedad: 1.ª elección, 2.ª elección y mantenimiento. Se usa para decidir entre tópicos, antibióticos orales o derivar a isotretinoína.",
-   "enunciado": "Paciente con acné comedoniano. ¿Cuál es la primera elección del algoritmo de la clase?",
+   "enunciado": "Paciente con acné comedoniano. ¿Cuál es la primera elección del algoritmo de tratamiento?",
    "opciones": [
     {
      "t": "Retinoides tópicos, con o sin POB",
@@ -466,7 +466,7 @@
    "area": "derma",
    "tema": "Acné y rosácea",
    "dif": 2,
-   "enunciado": "Hombre de 45 años con eritema nasal persistente, telangiectasias y pústulas, sin comedones ni picor. ¿Qué diagnóstico plantea la clase?",
+   "enunciado": "Hombre de 45 años con eritema nasal persistente, telangiectasias y pústulas, sin comedones ni picor. ¿Qué diagnóstico plantea?",
    "opciones": [
     {
      "t": "Rosácea",
@@ -637,7 +637,7 @@
    "area": "derma",
    "tema": "Acné y rosácea",
    "dif": 3,
-   "enunciado": "¿Qué dosis de doxiciclina de liberación modificada indica la clase para la rosácea?",
+   "enunciado": "¿Qué dosis de doxiciclina de liberación modificada se indica para la rosácea?",
    "opciones": [
     {
      "t": "40 mg diarios por 4 a 8 semanas",

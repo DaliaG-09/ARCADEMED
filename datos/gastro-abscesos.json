@@ -91,24 +91,24 @@
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
    "dif": 2,
-   "enunciado": "Un paciente tiene un absceso hepático grande, único, de origen portal, traumático o criptogénico. ¿Qué dato lo confirma como patrón típico?",
+   "enunciado": "¿Qué origen tienen los abscesos hepáticos piógenos grandes y solitarios?",
    "opciones": [
     {
-     "t": "Grandes y solitarios: vía portal, trauma o criptogénicos",
+     "t": "Vía portal, traumatismo o criptogénico",
      "por": "Es el patrón de la lámina 12: el absceso es predecible según número, localización y tamaño.",
-     "full": "Los abscesos grandes y solitarios se deben a vía portal, trauma o criptogénicos"
+     "full": "La vía portal, un traumatismo o un origen criptogénico"
     },
     {
-     "t": "Los abscesos múltiples y pequeños de origen biliar",
-     "por": "Son otro patrón: los múltiples y pequeños son biliares (63 % en lóbulo derecho, 14 % en lóbulo izquierdo, 22 % bilobares)."
+     "t": "Vía biliar ascendente, con abscesos múltiples",
+     "por": "Los abscesos de origen biliar suelen ser múltiples y pequeños, no grandes y solitarios."
     },
     {
-     "t": "Los abscesos bilaterales de origen arterial o fúngico",
-     "por": "Los bilaterales se deben a la arteria hepática (90 %), a la vía biliar o a hongos."
+     "t": "Vía arterial o fúngica, con abscesos bilaterales",
+     "por": "La diseminación arterial o fúngica da lesiones múltiples y bilaterales."
     },
     {
-     "t": "Los abscesos solitarios del lóbulo derecho por ameba",
-     "por": "Es el patrón del absceso amebiano, no de la tabla piógena."
+     "t": "Amebiasis intestinal con lesión solitaria del lóbulo derecho",
+     "por": "Eso describe al absceso amebiano, que es otra entidad distinta del piógeno."
     }
    ],
    "correcta": 0,

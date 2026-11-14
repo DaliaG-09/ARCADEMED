@@ -221,7 +221,7 @@
    "enunciado": "Falló la primera línea de erradicación de H. pylori. ¿Qué se indica como segunda línea?",
    "opciones": [
     {
-     "t": "IBP, tetraciclina, metronidazol y bismuto cada 6 h",
+     "t": "IBP, tetraciclina, metronidazol y bismuto",
      "por": "Es la terapia de segunda línea; luego se controla a las 6 a 8 semanas.",
      "full": "IBP 20 mg, tetraciclina 500 mg, metronidazol 500 mg (cada 6 h) y bismuto 15 ml cada 6 h"
     },
@@ -254,7 +254,7 @@
    "enunciado": "¿Qué esquema se usa en el paciente con H. pylori ALÉRGICO a la amoxicilina?",
    "opciones": [
     {
-     "t": "IBP, tetraciclina, metronidazol y bismuto cada 8 h",
+     "t": "IBP, tetraciclina, metronidazol y bismuto",
      "por": "Reemplaza la amoxicilina por tetraciclina.",
      "full": "IBP, tetraciclina, metronidazol y subsalicilato de bismuto, cada 8 horas"
     },
@@ -277,7 +277,8 @@
    "guia": {
     "t": "• La ACG 2024 usa la cuádruple con bismuto (con tetraciclina, sin amoxicilina), y no contiene amoxicilina, así que es la opción natural en alérgicos a penicilina.\n• Dura 14 días: IBP a dosis estándar cada 12 h + bismuto + tetraciclina 500 mg cada 6 h + metronidazol 500 mg cada 6 a 8 h.\n• La triple con claritromicina ya no es de primera línea.",
     "f": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection (Chey et al., Am J Gastroenterol 2024;119:1730-1753)"
-   }
+   },
+   "nota": "Las láminas 18 y 19 del PPT dan dosis distintas para este esquema (IBP 20 mg con intervalo de 6 h y IBP 40 mg cada 8 h). Lo importante para responder es la combinación de fármacos, no el intervalo."
   },
   {
    "id": "g-eup-aine",

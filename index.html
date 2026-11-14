@@ -250,6 +250,7 @@ const dueCards = () => allC().filter(c => !S.c[c.id] || S.c[c.id].due <= Date.no
 
 /* ---------- navegación ---------- */
 let V = {name:'home'};
+let cargando = true, errorCarga = false;
 function go(v){ V = v; render(); window.scrollTo(0,0); }
 
 /* ---------- vistas ---------- */
@@ -261,9 +262,9 @@ function vHome(){
     const aq = qs.filter(q => q.area === a.id), ad = aq.filter(isDominada).length;
     const temas = new Set(aq.map(q => q.tema)).size;
     return '<div class="panel world" style="border-left-color:'+a.c+'">'+
-      '<div class="row"><h3 class="grow" style="color:'+a.c+'">'+esc(a.n)+'</h3><span class="src">'+(aq.length ? aq.length+' preguntas · '+temas+' temas' : 'sin preguntas aún')+'</span></div>'+
+      '<div class="row"><h3 class="grow" style="color:'+a.c+'">'+esc(a.n)+'</h3><span class="src">'+(aq.length ? aq.length+' preguntas · '+temas+' temas' : (cargando ? 'cargando…' : 'sin preguntas'))+'</span></div>'+
       segs(aq.length ? ad/aq.length : 0, 16, 'good')+
-      '<div class="row"><span class="src grow">'+(aq.length ? ad+' dominadas de '+aq.length : 'Próximamente: faltan las láminas de esta área')+'</span>'+(aq.length ? '<button class="btn small gold" data-act="setup" data-area="'+a.id+'">Jugar</button>' : '')+'</div></div>';
+      '<div class="row"><span class="src grow">'+(aq.length ? ad+' dominadas de '+aq.length : (cargando ? 'Cargando preguntas…' : (errorCarga ? 'No se pudieron cargar las preguntas. Abre la app con internet una vez.' : 'Sin preguntas')))+'</span>'+(aq.length ? '<button class="btn small gold" data-act="setup" data-area="'+a.id+'">Jugar</button>' : '')+'</div></div>';
   }).join('');
   return '<div class="stack">'+
     '<header><h1 class="logo">Arcade<span class="six">Med</span></h1><p class="sub">Continua 6 · Nefrología · Gastroenterología · Dermatología</p></header>'+
@@ -277,7 +278,7 @@ function vHome(){
       '<button class="btn act" data-act="cards"><b>FLASHCARDS</b><span>'+nDue+' por repasar hoy, repetición espaciada</span></button>'+
     '</div></div>'+
     '<div><p class="label">MUNDOS</p><div class="worlds">'+worlds+'</div></div>'+
-    '<p class="src">Has visto '+vistas+' de '+qs.length+' preguntas. Las marcadas DEMO son de prueba: se reemplazan con las de tus PPT. Las preguntas con * al final tienen un dato corregido porque el PPT lo trae mal; al responder te explico qué cambió.</p>'+
+    '<p class="src">Has visto '+vistas+' de '+qs.length+' preguntas. Las preguntas con * al final tienen un dato corregido porque el PPT lo trae mal; al responder te explico qué cambió.</p>'+
     '<div class="foot"><button class="btn small ghost" data-act="backup">Respaldo del progreso</button><button class="btn small ghost" data-act="import">Cargar preguntas</button></div>'+
   '</div>';
 }
@@ -529,8 +530,9 @@ async function cargarDatos(){
       const d = await (await fetch('datos/' + f, {cache:'no-cache'})).json();
       ps.push(...(d.preguntas || [])); ts.push(...(d.tarjetas || []));
     }
-    if(ps.length || ts.length){ BANCO.preguntas = ps; BANCO.tarjetas = ts; if(V.name === 'home') render(); }
-  }catch(e){}
+    if(ps.length || ts.length){ BANCO.preguntas = ps; BANCO.tarjetas = ts; }
+  }catch(e){ errorCarga = true; }
+  cargando = false; if(V.name === 'home') render();
 }
 render();
 cargarDatos();

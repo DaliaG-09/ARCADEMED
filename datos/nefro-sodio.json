@@ -322,7 +322,7 @@
    "correcta": 0,
    "explicacion": "Con la meta de 8 mEq/L en 24 h: 433 mL, es decir unos 18.0 mL/h por bomba de infusión y control de electrolitos cada 3 a 4 horas.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 20",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (mEq por ampolla de 20 mL, como en la lámina); dextrosa 5 % no tiene sodio.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (mEq por ampolla de 20 mL); dextrosa 5 % no tiene sodio.",
    "nota": "La lámina redondea el ACT a 21 y obtiene 18.2 mEq/L, 440 mL y 18.3 mL/h; con 20.7 el resultado cambia ligeramente."
   },
   {
@@ -330,7 +330,7 @@
    "area": "nefro",
    "tema": "Sodio",
    "dif": 3,
-   "enunciado": "En el mismo caso (cambio de unos 18 mEq/L por litro de NaCl 3 %; la lámina obtiene 18.2 al redondear el ACT a 21), ¿qué volumen se necesita para subir 8 mEq/L?",
+   "enunciado": "Mujer de 76 años, 46 kg, Na⁺ 112 mEq/L, tratada con NaCl 3 % (513 mEq/L). Con ACT = 0.45 × peso, el sodio sube unos 18 mEq/L por litro infundido. ¿Qué volumen se necesita para subir 8 mEq/L en 24 horas?",
    "opciones": [
     {
      "t": "≈ 440 mL en 24 horas (≈ 18 mL/h)",
@@ -352,7 +352,7 @@
    "correcta": 0,
    "explicacion": "Volumen = cambio deseado ÷ cambio por litro. Velocidad = volumen ÷ 24 h.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 20",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (mEq por ampolla de 20 mL, como en la lámina); dextrosa 5 % no tiene sodio."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (mEq por ampolla de 20 mL); dextrosa 5 % no tiene sodio."
   },
   {
    "id": "n-na-hn",
@@ -468,7 +468,7 @@
    "correcta": 0,
    "explicacion": "Para bajar 4 mEq/L en 12 h: 1400 mL, unos 117 mL/h.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 29",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68 (valor que da la lámina); dextrosa 5 % no tiene sodio.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado del Na⁺ sérico por cada litro infundido = (Na⁺ de la solución − Na⁺ sérico) / (agua corporal total + 1). ACT = agua corporal total: hombre 0.6 × peso, mujer 0.5 × peso, hombre anciano 0.5 × peso, mujer anciana 0.45 × peso. Sirve para saber cuánto sube o baja el sodio con una solución y cuánto volumen dar. NaCl 3 % tiene 513 mEq/L; NaCl 0.9 %, 154; NaCl 20 %, 68; dextrosa 5 % no tiene sodio.",
    "nota": "La lámina obtiene −2.8 mEq/L, 1430 mL y 120 mL/h; con el valor exacto (−2.86) salen unos 1400 mL y 117 mL/h. El ritmo es muy similar."
   },
   {

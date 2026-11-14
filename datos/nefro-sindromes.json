@@ -27,14 +27,14 @@
    "correcta": 0,
    "explicacion": "Definición (lám. 7): proteinuria ≥3.5 g/24 h en adultos (o ≥40 mg/m²/hora en niños); albúmina <3.0 g/dL; edema generalizado (anasarca); colesterol total elevado, sobre todo LDL; lipiduria opcional (cuerpos grasos ovales o cilindros grasos).",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 7",
-   "contexto": "Síndrome nefrótico = el glomérulo pierde proteínas en grandes cantidades por daño de la barrera de filtración (podocitos, membrana basal, endotelio). Los valores salen de la lámina de definición."
+   "contexto": "Síndrome nefrótico = el glomérulo pierde proteínas en grandes cantidades por daño de la barrera de filtración (podocitos, membrana basal, endotelio). Los valores salen de los criterios de definición."
   },
   {
    "id": "n-sn-alb",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
    "dif": 2,
-   "enunciado": "¿con qué valor se considera hipoalbuminemia?",
+   "enunciado": "¿Con qué valor se considera hipoalbuminemia en el síndrome nefrótico?",
    "opciones": [
     {
      "t": "Menor de 3.0 g/dL",
@@ -87,7 +87,7 @@
    "correcta": 0,
    "explicacion": "SRAA = sistema renina-angiotensina-aldosterona. ADH = hormona antidiurética (vasopresina). Por eso el manejo incluye restricción de sal y agua y diuréticos.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 16 y 20",
-   "contexto": "Síndrome nefrótico = el glomérulo pierde proteínas en grandes cantidades por daño de la barrera de filtración (podocitos, membrana basal, endotelio). Los valores salen de la lámina de definición."
+   "contexto": "Síndrome nefrótico = el glomérulo pierde proteínas en grandes cantidades por daño de la barrera de filtración (podocitos, membrana basal, endotelio). Los valores salen de los criterios de definición."
   },
   {
    "id": "n-sn-lip",
@@ -567,7 +567,7 @@
    "area": "nefro",
    "tema": "Síndrome nefrítico",
    "dif": 2,
-   "enunciado": "Mayor de 40 años con síndrome nefrítico. ¿Cuáles son las causas más frecuentes según la tabla por edad?",
+   "enunciado": "Mayor de 40 años con síndrome nefrítico. ¿Cuáles son las causas más frecuentes según la edad?",
    "opciones": [
     {
      "t": "Nefropatía IgA, GNRP, vasculitis y GN postinfecciosa",

@@ -188,7 +188,7 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 3,
-   "enunciado": "¿qué antibiótico es la primera elección para colitis por Clostridioides difficile?",
+   "enunciado": "¿Qué antibiótico es la primera elección para colitis por Clostridioides difficile?",
    "opciones": [
     {
      "t": "Fidaxomicina (Dificid)",
@@ -313,7 +313,7 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 3,
-   "enunciado": "En un paciente con diarrea crónica se sospecha enfermedad celíaca. ¿Qué pruebas indica la tabla de diagnóstico diferencial?",
+   "enunciado": "En un paciente con diarrea crónica se sospecha enfermedad celíaca. ¿Qué pruebas se indican?",
    "opciones": [
     {
      "t": "Transglutaminasa IgA y biopsia duodenal",
