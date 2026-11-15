@@ -1,64 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "d-mic-clas",
-   "area": "derma",
-   "tema": "Micosis en dermatología",
-   "dif": 1,
-   "enunciado": "¿Qué micosis se consideran superficiales?",
-   "opciones": [
-    {
-     "t": "Las que afectan estrato córneo, pelo y uñas",
-     "por": "Las micosis superficiales afectan el estrato córneo, el pelo o las uñas e incluyen dermatofitosis (tiñas), candidiasis cutánea y pitiriasis versicolor.",
-     "full": "Las que afectan estrato córneo, pelo y uñas: tiñas, candidiasis y pitiriasis versicolor"
-    },
-    {
-     "t": "Esporotricosis, cromomicosis y feohifomicosis",
-     "por": "Son subcutáneas: entran por traumatismo."
-    },
-    {
-     "t": "Histoplasmosis, criptococosis y paracoccidioidomicosis",
-     "por": "Son profundas o sistémicas, diseminadas desde vías respiratorias."
-    },
-    {
-     "t": "Las que producen granulomas con trayectos fistulosos",
-     "por": "Eso describe micosis subcutáneas y profundas."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Las subcutáneas entran por traumatismo; las profundas o sistémicas se diseminan desde las vías respiratorias hasta la piel.",
-   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 12"
-  },
-  {
-   "id": "d-mic-subc",
-   "area": "derma",
-   "tema": "Micosis en dermatología",
-   "dif": 2,
-   "enunciado": "¿Cuál de estas es una micosis subcutánea?",
-   "opciones": [
-    {
-     "t": "Esporotricosis",
-     "por": "Las subcutáneas se introducen por traumatismos: esporotricosis, cromomicosis y feohifomicosis.",
-     "full": "Esporotricosis"
-    },
-    {
-     "t": "Pitiriasis versicolor",
-     "por": "Es superficial."
-    },
-    {
-     "t": "Histoplasmosis",
-     "por": "Es una micosis profunda o sistémica."
-    },
-    {
-     "t": "Tiña pedis",
-     "por": "Es una dermatofitosis superficial."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Se adquieren por inoculación traumática y forman granulomas, abscesos o trayectos fistulosos.",
-   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 12"
-  },
-  {
    "id": "d-mic-agentes",
    "area": "derma",
    "tema": "Micosis en dermatología",
@@ -86,94 +28,6 @@
    "correcta": 0,
    "explicacion": "Los hongos patógenos pueden ser dermatofitos, levaduras o mohos.",
    "fuente": "PPT Micosis en dermatología (sem. 15), lám. 13"
-  },
-  {
-   "id": "d-mic-fisio",
-   "area": "derma",
-   "tema": "Micosis en dermatología",
-   "dif": 3,
-   "enunciado": "¿Cómo daña la piel el hongo patógeno?",
-   "opciones": [
-    {
-     "t": "Adhesión al estrato córneo y enzimas hidrolíticas",
-     "por": "Primero se adhiere al estrato córneo o anexos, favorecido por humedad o maceración, y luego produce enzimas hidrolíticas (queratinasas, lipasas, fosfolipasas, proteasas) que degradan proteínas del epitelio.",
-     "full": "Adhesión al estrato córneo y enzimas hidrolíticas (queratinasas, lipasas, proteasas)"
-    },
-    {
-     "t": "Autoanticuerpos contra desmogleínas del desmosoma",
-     "por": "Eso es del pénfigo."
-    },
-    {
-     "t": "Destrucción autoinmune de melanocitos epidérmicos",
-     "por": "Eso es del vitíligo."
-    },
-    {
-     "t": "Toxinas exfoliativas que dividen la capa subcórnea",
-     "por": "Es el mecanismo del impétigo ampolloso."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "En inmunocompetentes suele quedar en tejidos superficiales; en inmunosuprimidos hay más diseminación.",
-   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 13"
-  },
-  {
-   "id": "d-mic-micro",
-   "area": "derma",
-   "tema": "Micosis en dermatología",
-   "dif": 2,
-   "enunciado": "¿Qué hongos forman parte de la microbiota normal de la piel?",
-   "opciones": [
-    {
-     "t": "Candida albicans y Malassezia furfur",
-     "por": "Ambos son parte de la microbiota normal y se vuelven patógenos con antibióticos, cambios de pH o humedad excesiva.",
-     "full": "Candida albicans y Malassezia furfur"
-    },
-    {
-     "t": "Trichophyton rubrum y Microsporum canis",
-     "por": "Son dermatofitos que no son microbiota normal."
-    },
-    {
-     "t": "Sporothrix schenckii y Fonsecaea",
-     "por": "Se adquiere del ambiente por trauma."
-    },
-    {
-     "t": "Ninguno, la piel normal es estéril",
-     "por": "La piel normal tiene hongos como Candida y Malassezia."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Se vuelven patógenos con uso de antibióticos, alteración del pH cutáneo o humedad.",
-   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 14"
-  },
-  {
-   "id": "d-mic-lima",
-   "area": "derma",
-   "tema": "Micosis en dermatología",
-   "dif": 3,
-   "contexto": "Un estudio retrospectivo de 30 años en Lima analizó 7185 casos positivos de dermatomicosis.",
-   "enunciado": "En el estudio de Lima (1976-2005), ¿cuál fue la dermatomicosis más frecuente y su agente principal?",
-   "opciones": [
-    {
-     "t": "Onicomicosis, con Trichophyton rubrum",
-     "por": "Onicomicosis fue 43,6 % de los casos; el patógeno principal fue Trichophyton rubrum (33,2 %), seguido de Candida albicans (15,3 %).",
-     "full": "Onicomicosis (43,6 %), con Trichophyton rubrum (33,2 %)"
-    },
-    {
-     "t": "Pitiriasis versicolor, con Malassezia",
-     "por": "No fue la principal."
-    },
-    {
-     "t": "Tiña capitis, con Microsporum",
-     "por": "No fue la más frecuente."
-    },
-    {
-     "t": "Candidiasis del pañal, con Candida",
-     "por": "No fue la principal."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Se analizaron 7185 casos positivos en el Instituto de Medicina Tropical Daniel A. Carrión.",
-   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 11"
   },
   {
    "id": "d-mic-corp",
@@ -406,35 +260,6 @@
    "correcta": 0,
    "explicacion": "La forma cutáneo-linfática es la más frecuente; la fija suele estar en manos o cara.",
    "fuente": "PPT Micosis en dermatología (sem. 15), lám. 25"
-  },
-  {
-   "id": "d-mic-cromo",
-   "area": "derma",
-   "tema": "Micosis en dermatología",
-   "dif": 2,
-   "enunciado": "¿Cómo se presenta la cromomicosis?",
-   "opciones": [
-    {
-     "t": "Lesiones verrugosas lentas en miembros inferiores",
-     "por": "La cromomicosis tiene lesiones verrugosas de crecimiento lento en miembros inferiores y evolución crónica.",
-     "full": "Lesiones verrugosas de crecimiento lento en miembros inferiores"
-    },
-    {
-     "t": "Nódulos que siguen vasos linfáticos",
-     "por": "Es esporotricosis."
-    },
-    {
-     "t": "Placas con puntos negros en el cuero cabelludo",
-     "por": "Es tiña capitis."
-    },
-    {
-     "t": "Máculas con fina descamación",
-     "por": "Es pitiriasis versicolor."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La cromomicosis es una micosis subcutánea de evolución crónica, con lesiones verrugosas que crecen lento, sobre todo en miembros inferiores.",
-   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 26"
   },
   {
    "id": "d-mic-dx",

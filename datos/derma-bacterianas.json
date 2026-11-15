@@ -1,123 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "d-bac-germ",
-   "area": "derma",
-   "tema": "Enfermedades bacterianas de la piel",
-   "dif": 1,
-   "enunciado": "¿Cuáles son las principales bacterias de las infecciones cutáneas?",
-   "opciones": [
-    {
-     "t": "Staphylococcus aureus y Streptococcus pyogenes",
-     "por": "Las principales bacterias son S. aureus y S. pyogenes; la terapia antibiótica inicial es probabilística.",
-     "full": "Staphylococcus aureus y Streptococcus pyogenes"
-    },
-    {
-     "t": "Pseudomonas aeruginosa y Klebsiella pneumoniae",
-     "por": "No son las principales de la piel."
-    },
-    {
-     "t": "Escherichia coli y Proteus mirabilis",
-     "por": "Son típicas de infecciones urinarias."
-    },
-    {
-     "t": "Neisseria gonorrhoeae y Treponema pallidum",
-     "por": "Son agentes de infecciones de transmisión sexual."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El espectro clínico es amplio, el antibiótico se elige de forma empírica y hay que buscar la puerta de entrada.",
-   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 7"
-  },
-  {
-   "id": "d-bac-imp",
-   "area": "derma",
-   "tema": "Enfermedades bacterianas de la piel",
-   "dif": 1,
-   "enunciado": "¿Quiénes se afectan con más frecuencia por impétigo?",
-   "opciones": [
-    {
-     "t": "Lactantes y niños",
-     "por": "Es una infección superficial altamente contagiosa, más frecuente en lactantes y niños (10 % de las infecciones cutáneas en pediatría).",
-     "full": "Lactantes y niños"
-    },
-    {
-     "t": "Adultos mayores institucionalizados",
-     "por": "No es el grupo más frecuente."
-    },
-    {
-     "t": "Varones de mediana edad",
-     "por": "No es el grupo más afectado."
-    },
-    {
-     "t": "Gestantes en el tercer trimestre",
-     "por": "No es un grupo característico."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Los agentes son el estreptococo β-hemolítico del grupo A (S. pyogenes) y/o S. aureus.",
-   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 9"
-  },
-  {
-   "id": "d-bac-impamp",
-   "area": "derma",
-   "tema": "Enfermedades bacterianas de la piel",
-   "dif": 2,
-   "enunciado": "¿Cómo evoluciona la lesión del impétigo ampolloso?",
-   "opciones": [
-    {
-     "t": "Ampolla subcórnea que deja costra melicérica",
-     "por": "La ampolla es superficial y frágil; se erosiona y deja costra melicérica de extensión centrífuga sin cicatriz.",
-     "full": "Ampolla subcórnea blanda que erosiona y deja costra melicérica sin cicatriz"
-    },
-    {
-     "t": "Nódulo profundo que supura y deja cicatriz",
-     "por": "Es más propio de lesiones profundas como el forúnculo."
-    },
-    {
-     "t": "Úlcera con costra negruzca y cicatriz indeleble",
-     "por": "Esa es la ectima."
-    },
-    {
-     "t": "Placa eritematosa dolorosa con fiebre alta",
-     "por": "Es el cuadro de la erisipela."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El impétigo ampolloso se extiende de forma centrífuga y no deja cicatriz.",
-   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 10"
-  },
-  {
-   "id": "d-bac-ect",
-   "area": "derma",
-   "tema": "Enfermedades bacterianas de la piel",
-   "dif": 2,
-   "contexto": "La ectima y el impétigo ampolloso son formas clínicas del impétigo, pero tienen distinta profundidad.",
-   "enunciado": "¿Qué distingue a la ectima del impétigo ampolloso?",
-   "opciones": [
-    {
-     "t": "Forma ulcerativa con costra negruzca y cicatriz",
-     "por": "La ectima es la forma ulcerativa del impétigo: costra negruzca con halo eritematoso, suele estar en miembros inferiores y deja cicatriz indeleble.",
-     "full": "Forma ulcerativa con costra negruzca, halo eritematoso y cicatriz indeleble"
-    },
-    {
-     "t": "Es una ampolla frágil que cura sin cicatriz",
-     "por": "Eso describe el impétigo ampolloso."
-    },
-    {
-     "t": "Es una pústula centrada por un pelo",
-     "por": "Es la foliculitis."
-    },
-    {
-     "t": "Es un edema profundo localizado en la cara",
-     "por": "Eso es angioedema, no ectima."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Es una infección más profunda que el impétigo y suele aparecer en las piernas.",
-   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 10"
-  },
-  {
    "id": "d-bac-imptx",
    "area": "derma",
    "tema": "Enfermedades bacterianas de la piel",
@@ -174,93 +57,6 @@
    "correcta": 0,
    "explicacion": "Con más de 5 lesiones se usa antibiótico sistémico; los tópicos son para pocas lesiones. Cotrimoxazol es opción si se sospecha S. aureus.",
    "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 11"
-  },
-  {
-   "id": "d-bac-fol",
-   "area": "derma",
-   "tema": "Enfermedades bacterianas de la piel",
-   "dif": 1,
-   "enunciado": "¿Qué es la foliculitis?",
-   "opciones": [
-    {
-     "t": "Infección superficial del folículo, casi siempre por S. aureus",
-     "por": "Es una infección superficial del folículo pilosebáceo causada casi siempre por S. aureus; se presenta como papulopústula centrada por un pelo.",
-     "full": "Infección superficial del folículo pilosebáceo, casi siempre por S. aureus"
-    },
-    {
-     "t": "Infección de la dermis por estreptococo del grupo A",
-     "por": "Es la erisipela, que afecta la dermis."
-    },
-    {
-     "t": "Infección del subcutáneo por bacterias anaerobias",
-     "por": "No es foliculitis."
-    },
-    {
-     "t": "Infección micótica del cabello por dermatofitos",
-     "por": "Eso sería una tiña."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Sus formas clínicas son foliculitis, forúnculo, ántrax y forunculosis; en la barba se llama sicosis y en la pestaña, orzuelo.",
-   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 13"
-  },
-  {
-   "id": "d-bac-foru",
-   "area": "derma",
-   "tema": "Enfermedades bacterianas de la piel",
-   "dif": 2,
-   "enunciado": "¿Cómo se define un forúnculo?",
-   "opciones": [
-    {
-     "t": "Foliculitis profunda necrosante, muy inflamatoria",
-     "por": "El forúnculo es una foliculitis profunda y necrosante, papulonodular muy inflamatoria, que evoluciona en 5 a 10 días.",
-     "full": "Foliculitis profunda necrosante, papulonodular muy inflamatoria (5-10 días)"
-    },
-    {
-     "t": "Papulopústula superficial con un pelo en el centro",
-     "por": "Esa es la foliculitis simple."
-    },
-    {
-     "t": "Conglomerado de forúnculos con fístulas y fiebre",
-     "por": "Eso es el ántrax."
-    },
-    {
-     "t": "Sucesión crónica de forúnculos",
-     "por": "Eso es la forunculosis."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El forúnculo es una foliculitis profunda con necrosis y mucha inflamación; evoluciona en 5 a 10 días hasta drenar el tapón necrótico.",
-   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 14"
-  },
-  {
-   "id": "d-bac-antrax",
-   "area": "derma",
-   "tema": "Enfermedades bacterianas de la piel",
-   "dif": 2,
-   "enunciado": "¿Qué caracteriza al ántrax estafilocócico?",
-   "opciones": [
-    {
-     "t": "Forúnculos confluentes con placa hiperálgica y fístulas",
-     "por": "Es un conglomerado de forúnculos que forma una placa inflamatoria hiperálgica salpicada de pústulas, con fístulas purulentas, fiebre y adenopatías regionales.",
-     "full": "Conglomerado de forúnculos: placa hiperálgica con fístulas, fiebre y adenopatías"
-    },
-    {
-     "t": "Un único nódulo con pelo central",
-     "por": "No es un conglomerado."
-    },
-    {
-     "t": "Una ampolla frágil con costra melicérica",
-     "por": "Es el impétigo."
-    },
-    {
-     "t": "Placa eritematosa bien delimitada en la pierna",
-     "por": "Es la erisipela."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Suele requerir drenaje quirúrgico además de antibiótico antiestafilocócico.",
-   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 15"
   },
   {
    "id": "d-bac-foruncl",
@@ -322,35 +118,6 @@
    "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 16"
   },
   {
-   "id": "d-bac-eri",
-   "area": "derma",
-   "tema": "Enfermedades bacterianas de la piel",
-   "dif": 2,
-   "enunciado": "¿Qué estructura afecta la erisipela?",
-   "opciones": [
-    {
-     "t": "La dermis, con extensión a linfáticos superficiales",
-     "por": "Es una infección cutánea que afecta la dermis y puede extenderse a vasos linfáticos superficiales; el eritema es bien delimitado y elevado.",
-     "full": "La dermis, con posible extensión a vasos linfáticos superficiales"
-    },
-    {
-     "t": "El folículo piloso exclusivamente",
-     "por": "Eso es la foliculitis."
-    },
-    {
-     "t": "El tejido subcutáneo profundo sin eritema definido",
-     "por": "Eso se acerca más a la celulitis."
-    },
-    {
-     "t": "Solo la epidermis superficial",
-     "por": "Eso es impétigo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Suele afectar los miembros inferiores; incidencia de 10 a 100 casos por 100 000 habitantes.",
-   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 18"
-  },
-  {
    "id": "d-bac-erifr",
    "area": "derma",
    "tema": "Enfermedades bacterianas de la piel",
@@ -378,35 +145,6 @@
    "correcta": 0,
    "explicacion": "La puerta de entrada más frecuente es la ruptura cutánea, como la tiña interdigital.",
    "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 19"
-  },
-  {
-   "id": "d-bac-eriq",
-   "area": "derma",
-   "tema": "Enfermedades bacterianas de la piel",
-   "dif": 2,
-   "enunciado": "¿Cómo comienza el cuadro clínico de la erisipela?",
-   "opciones": [
-    {
-     "t": "Fiebre alta con escalofríos y luego placa dolorosa",
-     "por": "El orden cronológico es fiebre de 39 a 40 °C con escalofríos y después placa cutánea eritematosa, dolorosa y edematosa.",
-     "full": "Fiebre de 39-40 °C con escalofríos; luego placa eritematosa, dolorosa y edematosa"
-    },
-    {
-     "t": "Ampolla frágil sin fiebre ni dolor",
-     "por": "Eso es impétigo ampolloso."
-    },
-    {
-     "t": "Pústula centrada por un pelo, sin fiebre",
-     "por": "Eso es foliculitis."
-    },
-    {
-     "t": "Prurito leve con escama fina, sin fiebre",
-     "por": "No es el cuadro de la erisipela."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La erisipela es una infección de la dermis superficial y los linfáticos. Empieza con fiebre alta y escalofríos, y luego aparece una placa bien delimitada y elevada.",
-   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 20"
   },
   {
    "id": "d-bac-erisev",
@@ -526,35 +264,6 @@
    "explicacion": "Es la enfermedad bacteriana común de la piel, más en adultos de mediana edad, sin diferencia entre sexos.",
    "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 24",
    "nota": "* El PPT escribe «Streptococo A del grupo B hemolítico»; lo correcto es estreptococo β-hemolítico del grupo A (Streptococcus pyogenes)."
-  },
-  {
-   "id": "d-bac-celclin",
-   "area": "derma",
-   "tema": "Enfermedades bacterianas de la piel",
-   "dif": 2,
-   "enunciado": "¿Cómo se presenta la celulitis?",
-   "opciones": [
-    {
-     "t": "Dolor, calor y eritema mal definido, de inicio agudo",
-     "por": "La celulitis aparece de forma aguda con dolor, calor y eritema mal definido; hay fiebre en 26-67 % de los casos.",
-     "full": "Dolor, calor y eritema mal definido, de aparición aguda"
-    },
-    {
-     "t": "Placa elevada de bordes netos y fiebre alta",
-     "por": "Eso describe la erisipela."
-    },
-    {
-     "t": "Pústula centrada por un pelo, sin fiebre",
-     "por": "Es la foliculitis."
-    },
-    {
-     "t": "Ampolla frágil con costra melicérica",
-     "por": "Es el impétigo ampolloso."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "En la celulitis la infección es más profunda (dermis e hipodermis), por eso los bordes no son netos, a diferencia de la erisipela.",
-   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 27"
   },
   {
    "id": "d-bac-celdx",

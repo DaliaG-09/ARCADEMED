@@ -1,0 +1,760 @@
+{
+ "preguntas": [
+  {
+   "id": "x-dm-urt1",
+   "area": "derma",
+   "tema": "Urticaria",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 30 años con 8 semanas de placas rojas, elevadas y muy pruriginosas que aparecen en cualquier parte del cuerpo, cambian de sitio y desaparecen en menos de 24 horas sin dejar marca. Sin fiebre ni artralgias. Sin desencadenante claro. Toma ibuprofeno con frecuencia por cefalea.\n\n¿Cuál es el diagnóstico y cómo se clasifica? ¿Qué célula y qué mediador explican la lesión? ¿Cuál es el tratamiento escalonado? ¿Qué haces con el ibuprofeno?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Urticaria crónica (más de 6 semanas), probablemente espontánea (la más frecuente, 80 %).",
+     "w": 0.5
+    },
+    {
+     "t": "Activación del mastocito con liberación de histamina: causa eritema y edema.",
+     "w": 0.5
+    },
+    {
+     "t": "Antihistamínico H1 de segunda generación a diario; si persiste, subir la dosis hasta 4 veces la habitual.",
+     "w": 0.5
+    },
+    {
+     "t": "Si aún no responde o es grave: derivar (omalizumab); prednisona corta solo en cuadros muy extensos o con angioedema.",
+     "w": 0.25
+    },
+    {
+     "t": "Suspender el AINE (agravante).",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Las placas de urticaria duran menos de 24 horas; si una lesión dura más de 24 a 48 horas hay que pensar en vasculitis urticarial.",
+   "fuente": "PPT",
+   "contexto": "Urticaria: habones (placas rojas, elevadas y con picazón) que aparecen y desaparecen. Se clasifica en aguda (horas a días) y crónica (más de 6 semanas). Es el tema de dermatología que más se repitió en los exámenes pasados."
+  },
+  {
+   "id": "x-dm-urt2",
+   "area": "derma",
+   "tema": "Urticaria",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "concepto",
+   "enunciado": "Define la urticaria y el angioedema. ¿Cómo se clasifica según el tiempo y según el desencadenante?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Urticaria superficial: placas eritematopapulosas, pruriginosas, fugaces y migratorias.",
+     "w": 0.5
+    },
+    {
+     "t": "Angioedema (urticaria profunda): edema de cara y extremidades, sobre todo labios y párpados.",
+     "w": 0.5
+    },
+    {
+     "t": "Aguda: horas a días. Crónica: más de 6 semanas.",
+     "w": 0.5
+    },
+    {
+     "t": "Crónica espontánea (80 %, sin desencadenante) o inducible (por un estímulo físico, como frío, presión o dermografismo).",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "El 15 a 20 % de la población tiene un episodio agudo en la vida; el 0.5 a 3 % tiene urticaria crónica.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-urt3",
+   "area": "derma",
+   "tema": "Urticaria",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "escala",
+   "enunciado": "Describe cómo se mide la actividad de la urticaria (UAS7) y las categorías de severidad.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Cada día se suman puntos por número de placas (0 a 3) y por prurito (0 a 3): 0 a 6 al día.",
+     "w": 0.5
+    },
+    {
+     "t": "Se suma durante 7 días: puntaje semanal de 0 a 42.",
+     "w": 0.5
+    },
+    {
+     "t": "Controlada: 6 o menos; leve 7 a 15; moderada 16 a 27; grave 28 o más.",
+     "w": 0.75
+    },
+    {
+     "t": "Sirve para ver la gravedad y la respuesta al tratamiento.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "UAS7 = Urticaria Activity Score de 7 días. Se usa en la consulta para decidir si hay que subir el tratamiento.",
+   "fuente": "PPT",
+   "contexto": "UAS7: puntaje que el paciente anota cada día durante una semana para medir qué tan activa está su urticaria. Se usa para decidir si se escala el tratamiento."
+  },
+  {
+   "id": "x-dm-urt4",
+   "area": "derma",
+   "tema": "Urticaria",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 25 años llega a urgencias con ronchas extensas en el tronco, pruriginosas, desde hace 6 horas, y edema de párpados y labios. Sin dificultad respiratoria ni hipotensión. Tomó amoxicilina hace una hora.\n\n¿Qué diagnóstico plantea? ¿Cómo lo maneja en urgencias? ¿Qué signos le harían cambiar a adrenalina?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Urticaria aguda con angioedema, probable desencadenante medicamentoso.",
+     "w": 0.5
+    },
+    {
+     "t": "Antihistamínico H1 oral y corticoide (metilprednisolona 1 mg/kg IM).",
+     "w": 0.5
+    },
+    {
+     "t": "Observación y suspender el fármaco sospechoso.",
+     "w": 0.25
+    },
+    {
+     "t": "Anafilaxia (estridor, disnea, hipotensión, edema de lengua o glotis): adrenalina intramuscular inmediata.",
+     "w": 0.75
+    }
+   ],
+   "explicacion": "El angioedema con compromiso de la vía aérea o hipotensión es una urgencia: la adrenalina IM es el tratamiento de la anafilaxia.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la adrenalina en anafilaxia no está en el PPT."
+  },
+  {
+   "id": "x-dm-urt5",
+   "area": "derma",
+   "tema": "Urticaria",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona los criterios para derivar a un paciente con urticaria a un especialista.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Urticaria refractaria a dosis altas de antihistamínicos.",
+     "w": 0.75
+    },
+    {
+     "t": "Necesidad de más de 2 o 3 tandas cortas de corticoides.",
+     "w": 0.5
+    },
+    {
+     "t": "Cuadro urticariforme atípico (lesiones que duran más de 24 h, dolor, púrpura, síntomas sistémicos).",
+     "w": 0.5
+    },
+    {
+     "t": "Sospecha de causa sistémica, o angioedema recurrente sin habones.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Una urticaria que duele más que pica o deja manchas sugiere vasculitis.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: los dos últimos criterios no están en el PPT."
+  },
+  {
+   "id": "x-dm-bac1",
+   "area": "derma",
+   "tema": "Infecciones bacterianas de la piel",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Niño de 5 años con lesiones en la cara con costras melicéricas (color miel) y varias ampollas flácidas en el tronco. Más de 6 lesiones. Sin fiebre.\n\n¿Cuál es el diagnóstico y los agentes? ¿Cómo lo trata? ¿Qué cambia si fueran pocas lesiones? ¿Qué medidas de contagio indicas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Impétigo (ampolloso y no ampolloso), por Staphylococcus aureus y Streptococcus pyogenes.",
+     "w": 0.5
+    },
+    {
+     "t": "Con más de 5 lesiones o ampollas: antibiótico sistémico (cefalexina o amoxicilina-clavulánico) 10 días.",
+     "w": 0.5
+    },
+    {
+     "t": "Pocas lesiones sin complicación: mupirocina o ácido fusídico tópico.",
+     "w": 0.5
+    },
+    {
+     "t": "Higiene, cubrir lesiones, no compartir toallas; es muy contagioso.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "El impétigo es la infección bacteriana cutánea superficial más frecuente en niños.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-bac2",
+   "area": "derma",
+   "tema": "Infecciones bacterianas de la piel",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 62 años con insuficiencia venosa que consulta por fiebre de 38.5 °C, escalofríos y una placa roja, caliente y dolorosa en la pierna derecha, de bordes bien definidos y elevados, de 2 días de evolución.\n\n¿Cuál es el diagnóstico más probable y qué estructura compromete? ¿Qué factores de riesgo tiene? ¿Cómo la trata y qué fármacos evita? ¿Cuándo hospitalizas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Erisipela (compromete dermis y linfáticos superficiales); el agente es Streptococcus β-hemolítico.",
+     "w": 0.5
+    },
+    {
+     "t": "Factores de riesgo: insuficiencia venosa, linfedema, obesidad, lesiones en la piel.",
+     "w": 0.25
+    },
+    {
+     "t": "Penicilina o amoxicilina por 7 a 21 días y mejora en 48 horas.",
+     "w": 0.5
+    },
+    {
+     "t": "Evita AINEs y corticoides (empeoran las infecciones graves).",
+     "w": 0.25
+    },
+    {
+     "t": "Hospitalizar con antibiótico endovenoso si hay signos sistémicos graves, falla del oral o sospecha de necrosis.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Si la fiebre persiste más de 48 horas se reconsidera el antibiótico. La erisipela tiene bordes bien delimitados; la celulitis, difusos.",
+   "fuente": "PPT",
+   "contexto": "Erisipela: infección bacteriana de la capa superficial de la piel con placa roja de bordes nítidos, por estreptococos. Es parecida a la celulitis, que es más profunda.",
+   "nota": "+ Complemento: la penicilina como primera opción y el criterio de hospitalización se contrastaron con guías, no están completos en el PPT."
+  },
+  {
+   "id": "x-dm-bac3",
+   "area": "derma",
+   "tema": "Infecciones bacterianas de la piel",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Diferencia erisipela y celulitis en estructura afectada, bordes, agente y diagnóstico.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Erisipela: dermis y linfáticos superficiales; bordes nítidos y elevados; estreptococo; clínico.",
+     "w": 0.75
+    },
+    {
+     "t": "Celulitis: dermis profunda e hipodermis; bordes difusos; estreptococo del grupo A o S. aureus; clínico.",
+     "w": 0.75
+    },
+    {
+     "t": "Cultivo solo si la celulitis es purulenta; la ecografía ayuda a descartar absceso.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "En ambas se evita el tratamiento con AINEs y corticoides. Se eleva la zona y se da antibiótico oral en leves.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-bac4",
+   "area": "derma",
+   "tema": "Infecciones bacterianas de la piel",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 55 años con diabetes y una celulitis en el muslo que empeora a pesar de 24 horas de antibiótico. Dolor desproporcionado a los hallazgos, piel violácea con ampollas, crepitación, fiebre alta, PA 85/50. CPK y PCR elevadas.\n\n¿Qué sospechas y por qué es una urgencia? ¿Qué signos de alarma tiene? ¿Cómo lo manejas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Fascitis necrotizante (infección necrotizante de partes blandas).",
+     "w": 0.5
+    },
+    {
+     "t": "Alarma: dolor desproporcionado no controlado con analgésicos, extensión rápida, signos de shock séptico, CPK elevada, PCR mayor de 150 mg/L.",
+     "w": 0.75
+    },
+    {
+     "t": "Cirugía urgente (desbridamiento amplio) y antibióticos endovenosos de amplio espectro con cobertura anaerobia.",
+     "w": 0.5
+    },
+    {
+     "t": "Reposición de volumen y manejo en UCI.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "La fascitis necrotizante no se resuelve solo con antibiótico: el retraso del desbridamiento aumenta la mortalidad.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: el manejo de la fascitis necrotizante no está en el PPT; solo se mencionan los signos de gravedad."
+  },
+  {
+   "id": "x-dm-bac5",
+   "area": "derma",
+   "tema": "Infecciones bacterianas de la piel",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Define foliculitis, forúnculo y ántrax. ¿Qué buscas en un paciente con forunculosis recurrente y cómo la manejas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Foliculitis: infección superficial del folículo piloso.",
+     "w": 0.4
+    },
+    {
+     "t": "Forúnculo: infección profunda del folículo con nódulo y pus.",
+     "w": 0.4
+    },
+    {
+     "t": "Ántrax: varios forúnculos confluentes con múltiples orificios, más grave.",
+     "w": 0.4
+    },
+    {
+     "t": "Buscar factor predisponente (diabetes, inmunodeficiencia, obesidad) y portador nasal de S. aureus.",
+     "w": 0.4
+    },
+    {
+     "t": "Antibiótico antiestafilocócico 7 días, desinfección de focos e higiene rigurosa.",
+     "w": 0.4
+    }
+   ],
+   "explicacion": "El agente más frecuente es S. aureus.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-mic1",
+   "area": "derma",
+   "tema": "Micosis",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Un equipo médico quiere confirmar una micosis cutánea con un examen directo rápido. Desinfectan la zona con alcohol al 70 %, raspan con bisturí, recogen el material en un frasco estéril y lo pasan a un portaobjetos.\n\n¿Cómo se llama la prueba y qué reactivo se añade? ¿Qué se observa en positivo? ¿Para qué sirve confirmar antes de tratar?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Examen directo con KOH (hidróxido de potasio).",
+     "w": 0.5
+    },
+    {
+     "t": "Se añade una gota de KOH al 10 a 30 % que aclara la queratina; luego se cubre con un cubreobjetos.",
+     "w": 0.5
+    },
+    {
+     "t": "Se observan hifas, hifas tabicadas o levaduras con seudohifas.",
+     "w": 0.5
+    },
+    {
+     "t": "Confirmar la micosis antes de dar tratamiento sistémico.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "El KOH aclara las células de la piel y deja ver los hongos. Es la prueba rápida de elección en micosis superficiales.",
+   "fuente": "PPT",
+   "contexto": "KOH: hidróxido de potasio. Es una sustancia que disuelve la queratina de la muestra de piel, uñas o pelo para ver los hongos al microscopio."
+  },
+  {
+   "id": "x-dm-mic2",
+   "area": "derma",
+   "tema": "Micosis",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 30 años, jugador de fútbol, con placas anulares pruriginosas en el muslo y la ingle, con borde rojo y descamativo y centro más claro.\n\n¿Qué diagnóstico plantea y qué agentes lo causan? ¿Cómo confirmas? ¿Cómo la tratas si es leve y si es extensa?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Tiña corporis o cruris, por dermatofitos (Trichophyton, Microsporum, Epidermophyton).",
+     "w": 0.5
+    },
+    {
+     "t": "Examen directo con KOH.",
+     "w": 0.25
+    },
+    {
+     "t": "Leve: terbinafina 1 % crema 1 a 2 semanas (o azoles tópicos).",
+     "w": 0.5
+    },
+    {
+     "t": "Extensa o refractaria: terbinafina oral 250 mg/día por 2 a 6 semanas (o itraconazol, griseofulvina).",
+     "w": 0.5
+    },
+    {
+     "t": "Evitar corticoides tópicos (modifican la lesión y favorecen la tiña incógnita).",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Dato clave: el borde activo y el centro que aclara. Los dermatofitos viven en la queratina.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: tiña incógnita por corticoides no está en el PPT."
+  },
+  {
+   "id": "x-dm-mic3",
+   "area": "derma",
+   "tema": "Micosis",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Niño de 7 años con placa de alopecia con descamación y pelos cortados en el cuero cabelludo, con un hermano afectado. Con la luz de Wood hay fluorescencia verde brillante.\n\n¿Qué diagnóstico y qué agente fluoresce así? ¿Por qué no basta el tratamiento tópico? ¿Cuál es el tratamiento?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Tiña capitis (tiña del cuero cabelludo).",
+     "w": 0.5
+    },
+    {
+     "t": "Microsporum da la fluorescencia verde más brillante con luz de Wood.",
+     "w": 0.5
+    },
+    {
+     "t": "El antifúngico tópico no alcanza el folículo piloso.",
+     "w": 0.5
+    },
+    {
+     "t": "Griseofulvina oral por 6 a 12 semanas.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "El tratamiento oral es indispensable. Se tratan los contactos y se evitan fómites.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-mic4",
+   "area": "derma",
+   "tema": "Micosis",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona los tipos clínicos de tiña pedis, la forma más frecuente de onicomicosis y su tratamiento.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Tiña pedis: interdigital erosiva, en mocasín (hiperqueratosis) y vesiculosa.",
+     "w": 0.5
+    },
+    {
+     "t": "Onicomicosis más frecuente: subungueal distal lateral.",
+     "w": 0.5
+    },
+    {
+     "t": "Terbinafina oral 12 a 24 semanas en uñas de los pies.",
+     "w": 0.5
+    },
+    {
+     "t": "Alternativas: itraconazol y lacas ungueales (amorolfina 5 % o ciclopirox 8 %).",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Hace falta confirmar con KOH o cultivo antes de un tratamiento prolongado.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-mic5",
+   "area": "derma",
+   "tema": "Micosis",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 22 años con máculas hipopigmentadas y ligeramente descamativas en el tronco y la espalda, que se notan más en verano. Pruriginosas levemente.\n\n¿Qué diagnóstico y qué hongo lo causa? ¿Cómo lo confirmas y tratas? Menciona cómo manejas una candidiasis cutánea extensa o recurrente.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Pitiriasis versicolor, por Malassezia (levadura de la microbiota normal).",
+     "w": 0.5
+    },
+    {
+     "t": "Confirmar con KOH.",
+     "w": 0.25
+    },
+    {
+     "t": "Tratamiento tópico antifúngico (ketoconazol champú o azoles).",
+     "w": 0.5
+    },
+    {
+     "t": "Candidiasis extensa o recurrente: fluconazol 150 mg semanal por 2 a 4 semanas; leve: nistatina o azoles tópicos.",
+     "w": 0.5
+    },
+    {
+     "t": "Las manchas pueden tardar en repigmentar.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Malassezia convierte en ácido azelaico el sebo, que inhibe los melanocitos y blanquea la piel.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: el champú de ketoconazol y el ácido azelaico los añade el internista."
+  },
+  {
+   "id": "x-dm-mic6",
+   "area": "derma",
+   "tema": "Micosis",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Jardinero de 40 años con una pápula en el dorso de la mano que se ulceró y después nódulos que suben a lo largo del antebrazo. Tuvo un pinchazo con una espina.\n\n¿Qué diagnóstico y qué agente? ¿Cuál es la forma más frecuente? ¿Cuál es el tratamiento?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Esporotricosis (por Sporothrix).",
+     "w": 0.5
+    },
+    {
+     "t": "Forma cutáneo-linfática: nódulos ulcerados en trayecto linfático (la más frecuente).",
+     "w": 0.5
+    },
+    {
+     "t": "Itraconazol oral 200 mg/día por 3 a 6 meses.",
+     "w": 0.5
+    },
+    {
+     "t": "Anfotericina B liposomal en formas graves o resistentes.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Micosis subcutánea por inoculación traumática con plantas o tierra.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-vir1",
+   "area": "derma",
+   "tema": "Infecciones virales de la piel",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 68 años con 3 días de dolor ardiente en el hemitórax izquierdo y luego vesículas agrupadas sobre base eritematosa que siguen una banda sin pasar la línea media.\n\n¿Qué diagnóstico plantea? ¿Cómo lo confirma si hay duda? ¿Cuál es el tratamiento y en qué plazo? ¿Qué complicaciones teme?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Herpes zóster (reactivación del virus varicela-zóster), en un dermatoma.",
+     "w": 0.5
+    },
+    {
+     "t": "Clínico; PCR de lesión para confirmar; el frotis de Tzanck no distingue de herpes simple.",
+     "w": 0.5
+    },
+    {
+     "t": "Valaciclovir 1000 mg cada 8 horas por 7 días, idealmente en las primeras 72 horas.",
+     "w": 0.5
+    },
+    {
+     "t": "Neuralgia posherpética; si afecta la rama nasociliar (signo de Hutchinson), zóster oftálmico; Ramsay Hunt con parálisis facial.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Hay vacuna recombinante contra el zóster, la más eficaz. El antiviral se ajusta en insuficiencia renal.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-vir2",
+   "area": "derma",
+   "tema": "Infecciones virales de la piel",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Niño de 8 años con dermatitis atópica que desarrolla de repente fiebre, vesículas umbilicadas agrupadas y erosiones en las zonas de eccema.\n\n¿Qué diagnóstico plantea? ¿Qué muestra el frotis de Tzanck? ¿Por qué es urgente? ¿Cómo lo trata?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Eccema herpético (erupción variceliforme de Kaposi) por virus herpes simple.",
+     "w": 0.5
+    },
+    {
+     "t": "Tzanck: células gigantes epiteliales multinucleadas.",
+     "w": 0.5
+    },
+    {
+     "t": "Puede diseminarse y causar sobreinfección o afectar el ojo y el cerebro.",
+     "w": 0.5
+    },
+    {
+     "t": "Aciclovir (o valaciclovir) sistémico, en las primeras 72 horas.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "El herpes simple se caracteriza por vesículas agrupadas sobre base eritematosa. HSV-1 más oral y HSV-2 más genital.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: eccema herpético como urgencia pediátrica."
+  },
+  {
+   "id": "x-dm-vir3",
+   "area": "derma",
+   "tema": "Infecciones virales de la piel",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona los tipos de lesiones por VPH y su tratamiento, y los genotipos de bajo y alto riesgo.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Verruga vulgar, plantar y plana; condiloma acuminado en genitales.",
+     "w": 0.5
+    },
+    {
+     "t": "Tratamiento verrugas: ácido salicílico (eficacia respaldada) o crioterapia; muchas desaparecen solas.",
+     "w": 0.5
+    },
+    {
+     "t": "Condilomas: imiquimod 5 %, podofilotoxina (no en el embarazo) o crioterapia.",
+     "w": 0.5
+    },
+    {
+     "t": "Genotipos 6 y 11: benignos (verrugas genitales); 16 y 18: oncogénicos (cuello uterino, carcinoma epidermoide anal).",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La vacuna contra VPH previene las verrugas genitales y el cáncer de cuello uterino.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-vir4",
+   "area": "derma",
+   "tema": "Infecciones virales de la piel",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Niño de 4 años con pápulas rosadas y umbilicadas, de 3 mm, en axilas y flexuras, con eccema asociado.\n\n¿Qué diagnóstico plantea? ¿Cómo se diagnostica? ¿Qué opciones de manejo hay y qué cambia en un paciente inmunosuprimido?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Molusco contagioso (poxvirus).",
+     "w": 0.5
+    },
+    {
+     "t": "Diagnóstico clínico.",
+     "w": 0.25
+    },
+    {
+     "t": "Vigilancia, curetaje, crioterapia o imiquimod en inmunocompetentes (se resuelve solo en meses).",
+     "w": 0.5
+    },
+    {
+     "t": "En inmunosuprimidos (VIH) las lesiones son extensas y pueden requerir tratamientos más agresivos como cidofovir.",
+     "w": 0.75
+    }
+   ],
+   "explicacion": "Es autolimitado en niños sanos.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-urtm1",
+   "area": "derma",
+   "tema": "Urticaria",
+   "dif": 2,
+   "enunciado": "Paciente de 40 años con habones diarios desde hace 3 meses. Persisten a pesar de un antihistamínico H1 de segunda generación diario. ¿Cuál es el siguiente paso?",
+   "opciones": [
+    {
+     "t": "Subir la dosis del antihistamínico hasta 4 veces la habitual.",
+     "por": "Es el segundo escalón del tratamiento de la urticaria crónica."
+    },
+    {
+     "t": "Dar corticoide oral de forma prolongada.",
+     "por": "Los corticoides se limitan a tandas cortas por sus efectos adversos."
+    },
+    {
+     "t": "Añadir antibiótico.",
+     "por": "No hay infección."
+    },
+    {
+     "t": "Suspender el antihistamínico.",
+     "por": "Empeoraría los síntomas."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Escalones: H1 diario, H1 hasta 4 veces la dosis, y luego derivar para tratamiento especializado.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-bacm1",
+   "area": "derma",
+   "tema": "Infecciones bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "Un niño de 6 años tiene 2 lesiones de impétigo no ampolloso en la cara, sin fiebre. ¿Qué tratamiento corresponde?",
+   "opciones": [
+    {
+     "t": "Mupirocina o ácido fusídico tópico.",
+     "por": "En impétigo localizado, pocas lesiones y sin complicaciones basta el tratamiento tópico."
+    },
+    {
+     "t": "Cefalexina oral por 10 días.",
+     "por": "Se usa si hay más de 5 lesiones o es ampolloso."
+    },
+    {
+     "t": "Penicilina IM.",
+     "por": "No es el esquema habitual."
+    },
+    {
+     "t": "Corticoide tópico.",
+     "por": "Empeora la infección."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Con más de 5 lesiones o impétigo ampolloso se da antibiótico sistémico.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-micm1",
+   "area": "derma",
+   "tema": "Micosis",
+   "dif": 2,
+   "enunciado": "Niña de 6 años con placa de alopecia y descamación en el cuero cabelludo. ¿Qué antifúngico es el más adecuado?",
+   "opciones": [
+    {
+     "t": "Griseofulvina oral por 6 a 12 semanas.",
+     "por": "Los antifúngicos tópicos no penetran el folículo; en tiña capitis se necesita tratamiento oral."
+    },
+    {
+     "t": "Terbinafina crema.",
+     "por": "Un tópico solo no basta."
+    },
+    {
+     "t": "Nistatina oral.",
+     "por": "No es eficaz contra dermatofitos."
+    },
+    {
+     "t": "Corticoide tópico.",
+     "por": "Empeora la infección."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Alternativas orales: terbinafina e itraconazol.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-virm1",
+   "area": "derma",
+   "tema": "Infecciones virales de la piel",
+   "dif": 2,
+   "enunciado": "Varón de 70 años con dolor ardiente y vesículas agrupadas en banda en el hemitórax derecho desde hace 48 horas. ¿Cuándo debes iniciar el antiviral?",
+   "opciones": [
+    {
+     "t": "En las primeras 72 horas desde el inicio de los síntomas.",
+     "por": "El beneficio del antiviral es mayor si se inicia temprano."
+    },
+    {
+     "t": "Solo si aparece neuralgia posherpética.",
+     "por": "Es tarde: se busca prevenirla."
+    },
+    {
+     "t": "Después de 2 semanas.",
+     "por": "Está fuera de la ventana de eficacia."
+    },
+    {
+     "t": "No se trata en adultos mayores.",
+     "por": "Es la población de mayor riesgo de complicaciones."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Valaciclovir 1000 mg cada 8 horas por 7 días en inmunocompetentes.",
+   "fuente": "PPT"
+  }
+ ],
+ "tarjetas": []
+}

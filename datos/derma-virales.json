@@ -1,65 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "d-vir-mol",
-   "area": "derma",
-   "tema": "Enfermedades virales de la piel",
-   "dif": 1,
-   "enunciado": "¿Cómo son las lesiones del molusco contagioso?",
-   "opciones": [
-    {
-     "t": "Pápulas umbilicadas, perladas, indoloras, de 2 a 5 mm",
-     "por": "Son pápulas umbilicadas, perladas, de 2-5 mm, múltiples, indoloras y autolimitadas en 6-12 meses, en cara, tronco, genitales o extremidades.",
-     "full": "Pápulas umbilicadas, perladas, indoloras, de 2 a 5 mm"
-    },
-    {
-     "t": "Vesículas agrupadas sobre base eritematosa",
-     "por": "Son lesiones del herpes simple o zóster."
-    },
-    {
-     "t": "Pápulas hiperqueratósicas con puntos negros",
-     "por": "Son verrugas, con trombosis capilar."
-    },
-    {
-     "t": "Ampollas flácidas con costra melicérica",
-     "por": "Es el impétigo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El virus (MCV) es un poxvirus exclusivo del ser humano; predomina en niños de 2 a 10 años y también en adultos inmunosuprimidos o sexualmente activos.",
-   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 9",
-   "nota": "las conclusiones dicen 2-10 mm y 6-9 meses. Quédate con 'pápulas umbilicadas perladas, autolimitadas'."
-  },
-  {
-   "id": "d-vir-molag",
-   "area": "derma",
-   "tema": "Enfermedades virales de la piel",
-   "dif": 2,
-   "enunciado": "¿A qué grupo pertenece el virus del molusco contagioso?",
-   "opciones": [
-    {
-     "t": "Poxvirus, exclusivo del ser humano",
-     "por": "Es el Molluscum contagiosum virus (MCV), un poxvirus; es de ADN bicatenario.",
-     "full": "Poxvirus, exclusivo del ser humano"
-    },
-    {
-     "t": "Herpesvirus, de ADN bicatenario",
-     "por": "Es el grupo del herpes simple y la varicela zóster."
-    },
-    {
-     "t": "Papilomavirus, de ADN circular",
-     "por": "Es el virus de las verrugas (VPH)."
-    },
-    {
-     "t": "Picornavirus, de ARN",
-     "por": "No es el grupo del molusco."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El molusco contagioso lo produce un poxvirus exclusivo del ser humano. Predomina en niños de 2 a 10 años.",
-   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 9"
-  },
-  {
    "id": "d-vir-moltx",
    "area": "derma",
    "tema": "Enfermedades virales de la piel",
@@ -87,64 +28,6 @@
    "correcta": 0,
    "explicacion": "El diagnóstico es clínico; en inmunosuprimidos puede requerirse cidofovir o tratamientos sistémicos.",
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 10"
-  },
-  {
-   "id": "d-vir-vphg",
-   "area": "derma",
-   "tema": "Enfermedades virales de la piel",
-   "dif": 2,
-   "enunciado": "¿Qué virus causa las verrugas y qué infecta?",
-   "opciones": [
-    {
-     "t": "VPH, un virus ADN que infecta los queratinocitos",
-     "por": "Las verrugas se deben al virus del papiloma humano (más de 200 subtipos), que infecta queratinocitos de piel y mucosas por contacto directo.",
-     "full": "VPH, un virus ADN bicatenario que infecta queratinocitos"
-    },
-    {
-     "t": "Poxvirus que infecta células basales",
-     "por": "Es el molusco contagioso."
-    },
-    {
-     "t": "Varicela zóster que infecta ganglios",
-     "por": "Es el herpes zóster."
-    },
-    {
-     "t": "Herpes simple 1 que infecta nervios sensitivos",
-     "por": "Es el herpes simple."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Es frecuente la autoinoculación; también se contagia por fómites como los pisos.",
-   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 11"
-  },
-  {
-   "id": "d-vir-vphtipo",
-   "area": "derma",
-   "tema": "Enfermedades virales de la piel",
-   "dif": 3,
-   "enunciado": "¿Qué genotipos de VPH causan las verrugas genitales benignas?",
-   "opciones": [
-    {
-     "t": "Tipos 6 y 11",
-     "por": "Las verrugas genitales benignas se deben a los tipos 6 y 11; las plantares y acrales suelen ser 1, 2 y 4; los 16, 18, 31 y 33 son oncogénicos.",
-     "full": "Tipos 6 y 11"
-    },
-    {
-     "t": "Tipos 1, 2 y 4",
-     "por": "Son los de verrugas plantares y acrales."
-    },
-    {
-     "t": "Tipos 16, 18, 31 y 33",
-     "por": "Son oncogénicos."
-    },
-    {
-     "t": "Tipos 3 y 5",
-     "por": "No son los de verrugas genitales benignas."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Los oncogénicos pueden causar carcinoma epidermoide anogenital y bucofaríngeo.",
-   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 11"
   },
   {
    "id": "d-vir-vphonc",
@@ -438,35 +321,6 @@
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 19"
   },
   {
-   "id": "d-vir-hsvlat",
-   "area": "derma",
-   "tema": "Enfermedades virales de la piel",
-   "dif": 3,
-   "enunciado": "¿Dónde permanece latente el virus del herpes simple?",
-   "opciones": [
-    {
-     "t": "En los ganglios sensitivos",
-     "por": "Se propaga por los nervios sensitivos hasta los ganglios, donde queda latente; las recurrencias son reactivaciones.",
-     "full": "En los ganglios sensitivos"
-    },
-    {
-     "t": "En los queratinocitos basales",
-     "por": "No es el sitio de latencia."
-    },
-    {
-     "t": "En los melanocitos",
-     "por": "No es el sitio de latencia del virus."
-    },
-    {
-     "t": "En los mastocitos",
-     "por": "No es el sitio de latencia del virus."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Los mecanismos inmunitarios eliminan las lesiones en 1-2 semanas, pero la latencia persiste.",
-   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 19"
-  },
-  {
    "id": "d-vir-hsvclin",
    "area": "derma",
    "tema": "Enfermedades virales de la piel",
@@ -755,35 +609,6 @@
    "correcta": 0,
    "explicacion": "Se inicia en menos de 72 h y se ajusta en insuficiencia renal.",
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 31"
-  },
-  {
-   "id": "d-vir-nph",
-   "area": "derma",
-   "tema": "Enfermedades virales de la piel",
-   "dif": 3,
-   "enunciado": "¿En qué porcentaje de pacientes con zóster aparece neuralgia posherpética?",
-   "opciones": [
-    {
-     "t": "De 5 a 20 %, más en mayores de 60 años",
-     "por": "La neuralgia posherpética aparece en 5-20 %, es rara en menores de 40 y aumenta con la edad o la inmunosupresión.",
-     "full": "De 5 a 20 %; más en mayores de 60 años e inmunodeprimidos"
-    },
-    {
-     "t": "En casi todos, sin importar la edad",
-     "por": "La cifra es de 5-20 %."
-    },
-    {
-     "t": "En menos del 1 % de los casos",
-     "por": "Es más frecuente."
-    },
-    {
-     "t": "Solo en niños menores de 10 años",
-     "por": "Es rara en jóvenes."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Los síntomas se resuelven en 3 meses en 50 % y en un año en 75 %.",
-   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 32"
   },
   {
    "id": "d-vir-vaczos",

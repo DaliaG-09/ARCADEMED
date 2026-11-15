@@ -59,34 +59,6 @@
    "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 7"
   },
   {
-   "id": "d-urt-epi",
-   "area": "derma",
-   "tema": "Urticaria aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Qué proporción de la población presenta al menos un episodio de urticaria aguda en su vida?",
-   "opciones": [
-    {
-     "t": "Entre 15 y 20 %",
-     "por": "El 15-20 % de la población presenta al menos un episodio agudo durante horas o días a lo largo de su vida."
-    },
-    {
-     "t": "Menos de 1 %",
-     "por": "Esa cifra se parece más a la de la urticaria crónica (0,5-3 %)."
-    },
-    {
-     "t": "Más del 60 %",
-     "por": "Es una dermatosis frecuente, pero no afecta a la mayoría."
-    },
-    {
-     "t": "Alrededor del 40 %",
-     "por": "Se aleja de las cifras indicadas."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La urticaria crónica es mucho menos frecuente: afecta al 0,5-3 %, con lesiones que duran más de 6 semanas.",
-   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 8"
-  },
-  {
    "id": "d-urt-clas",
    "area": "derma",
    "tema": "Urticaria aguda y crónica",
@@ -144,92 +116,6 @@
    "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 9"
   },
   {
-   "id": "d-urt-fisio",
-   "area": "derma",
-   "tema": "Urticaria aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Qué célula y qué mediador son centrales en la fisiopatología de la urticaria?",
-   "opciones": [
-    {
-     "t": "Mastocito, con liberación de histamina",
-     "por": "La activación de los mastocitos libera mediadores, en especial la histamina, que causan eritema y edema.",
-     "full": "Mastocito, que libera histamina y otros mediadores"
-    },
-    {
-     "t": "Queratinocito, con liberación de desmogleínas",
-     "por": "Eso es del pénfigo, no de la urticaria."
-    },
-    {
-     "t": "Melanocito, con liberación de melanina",
-     "por": "Es la célula de las discromías."
-    },
-    {
-     "t": "Linfocito B, con liberación de IgG anti-BP180",
-     "por": "Es el mecanismo del penfigoide ampolloso."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La activación del mastocito puede ser específica de antígeno o no específica, y provoca eritema y edema cutáneos.",
-   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 10"
-  },
-  {
-   "id": "d-urt-fisio2",
-   "area": "derma",
-   "tema": "Urticaria aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Qué producen en la piel los mediadores liberados por el mastocito?",
-   "opciones": [
-    {
-     "t": "Eritema y edema",
-     "por": "La liberación de histamina y otros mediadores causa las manifestaciones cutáneas: eritema y edema."
-    },
-    {
-     "t": "Acantólisis y ampollas flácidas",
-     "por": "Es del pénfigo vulgar."
-    },
-    {
-     "t": "Hiperpigmentación permanente",
-     "por": "No es el resultado de la histamina en urticaria."
-    },
-    {
-     "t": "Comedones y pústulas",
-     "por": "Son lesiones del acné."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El edema es el mismo fenómeno que forma el habón superficial o el angioedema profundo.",
-   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 10"
-  },
-  {
-   "id": "d-urt-anular",
-   "area": "derma",
-   "tema": "Urticaria aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Cuál de estas es una forma clínica de urticaria descrita en dermatología?",
-   "opciones": [
-    {
-     "t": "Urticaria purpúrica",
-     "por": "Las formas incluyen superficial de placas, de placas pequeñas, anular, micropapulosa y purpúrica.",
-     "full": "Urticaria purpúrica"
-    },
-    {
-     "t": "Urticaria vesiculosa",
-     "por": "Esa forma no figura entre las descritas."
-    },
-    {
-     "t": "Urticaria verrugosa",
-     "por": "No es una forma clínica descrita."
-    },
-    {
-     "t": "Urticaria liquenificada",
-     "por": "No pertenece a las formas descritas."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Las otras son: superficial de placas eritematopapulosas de contornos bien limitados, de placas pequeñas, anular y micropapulosa.",
-   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 11"
-  },
-  {
    "id": "d-urt-sev",
    "area": "derma",
    "tema": "Urticaria aguda y crónica",
@@ -256,35 +142,6 @@
    ],
    "correcta": 0,
    "explicacion": "La puntuación diaria suma número de placas en 24 h y prurito; el UAS7 (7 días) va de 0 a 42.",
-   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 14"
-  },
-  {
-   "id": "d-urt-sev2",
-   "area": "derma",
-   "tema": "Urticaria aguda y crónica",
-   "dif": 3,
-   "contexto": "La escala de actividad de urticaria suma en cada día las placas (0 a 3) y el prurito (0 a 3).",
-   "enunciado": "En la escala de actividad, ¿cuántos puntos de placas se asignan a más de 50 placas en 24 h o placas grandes confluentes?",
-   "opciones": [
-    {
-     "t": "3 puntos",
-     "por": "La escala da 0 sin placas, 1 con menos de 20, 2 con 20-50 y 3 con más de 50 o placas confluentes."
-    },
-    {
-     "t": "1 punto",
-     "por": "Corresponde a menos de 20 placas en 24 h."
-    },
-    {
-     "t": "2 puntos",
-     "por": "Corresponde a 20-50 placas en 24 h."
-    },
-    {
-     "t": "0 puntos",
-     "por": "Significa ausencia de placas."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El prurito también puntúa de 0 (ausente) a 3 (intenso); el máximo diario es 6 y el UAS7 llega a 42.",
    "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 14"
   },
   {

@@ -30,93 +30,6 @@
    "fuente": "PPT Dermatitis (sem. 14), lám. 8"
   },
   {
-   "id": "d-dmt-adsint",
-   "area": "derma",
-   "tema": "Dermatitis",
-   "dif": 2,
-   "enunciado": "¿Qué asociación tiene la dermatitis atópica con el asma?",
-   "opciones": [
-    {
-     "t": "Cerca del 30 % tiene asma",
-     "full": "Cerca del 30 % de los pacientes tiene asma",
-     "por": "Cerca del 30 % de los pacientes con dermatitis atópica tiene asma."
-    },
-    {
-     "t": "Nunca se asocia con asma",
-     "por": "Se asocia a otras enfermedades atópicas, entre ellas el asma."
-    },
-    {
-     "t": "El 100 % de los pacientes tiene asma",
-     "por": "La cifra es de 30 %, no del 100 %."
-    },
-    {
-     "t": "Solo aparece en mayores de 65 años",
-     "por": "La dermatitis atópica es muy frecuente en lactantes y niños."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Signos y síntomas: prurito constante, liquenificación, xerodermia, fisuras en la piel y asma en 30 %.",
-   "fuente": "PPT Dermatitis (sem. 14), lám. 9"
-  },
-  {
-   "id": "d-dmt-adhall",
-   "area": "derma",
-   "tema": "Dermatitis",
-   "dif": 3,
-   "contexto": "Estos hallazgos clínicos no son patognomónicos: apoyan el diagnóstico de dermatitis atópica, pero ninguno la confirma por sí solo.",
-   "enunciado": "¿Cuál de estos hallazgos es de la dermatitis atópica?",
-   "opciones": [
-    {
-     "t": "Pliegue de Dennie-Morgan y palmas hiperlineales",
-     "por": "La tabla de hallazgos no patognomónicos incluye pliegue infraorbitario de Dennie-Morgan, oscurecimiento periocular y palmas y plantas hiperlineales."
-    },
-    {
-     "t": "Pápulas en bóveda con telangiectasias centrofaciales",
-     "por": "Corresponde a la rosácea pápulopustulosa, no a la dermatitis atópica."
-    },
-    {
-     "t": "Vesículas profundas como pudín de tapioca",
-     "por": "Es la dermatitis dishidrótica."
-    },
-    {
-     "t": "Comedones abiertos con seborrea",
-     "por": "Son lesiones del acné, no de la dermatitis atópica."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Los hallazgos más frecuentes son pliegue de Dennie-Morgan, color violeta-marrón periocular, palmas hiperlineales, xerodermia, pitiriasis alba y queratosis pilaris. Menos frecuentes: signo de Hertheghe (pérdida de cola de ceja), dermografismo blanco y eccema del pezón.",
-   "fuente": "PPT Dermatitis (sem. 14), lám. 10"
-  },
-  {
-   "id": "d-dmt-adbx",
-   "area": "derma",
-   "tema": "Dermatitis",
-   "dif": 2,
-   "enunciado": "¿Qué hallazgos tiene la biopsia en la dermatitis atópica?",
-   "opciones": [
-    {
-     "t": "Espongiosis, paraqueratosis y engrosamiento",
-     "por": "La biopsia muestra espongiosis, engrosamiento epidérmico, paraqueratosis e infiltrado inflamatorio de linfocitos.",
-     "full": "Espongiosis, engrosamiento epidérmico y paraqueratosis"
-    },
-    {
-     "t": "Atrofia epidérmica sin infiltrado inflamatorio",
-     "por": "Es lo contrario: hay engrosamiento epidérmico e infiltrado linfocitario."
-    },
-    {
-     "t": "Acantólisis suprabasal con ampolla",
-     "por": "Es del pénfigo vulgar."
-    },
-    {
-     "t": "Granulomas caseosos con células gigantes",
-     "por": "Son de la tuberculosis cutánea."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Los exámenes auxiliares incluyen biopsia y elevación sérica de IgE.",
-   "fuente": "PPT Dermatitis (sem. 14), lám. 11"
-  },
-  {
    "id": "d-dmt-adcrit",
    "area": "derma",
    "tema": "Dermatitis",
@@ -262,63 +175,6 @@
    "fuente": "PPT Dermatitis (sem. 14), lám. 16"
   },
   {
-   "id": "d-dmt-sebepi",
-   "area": "derma",
-   "tema": "Dermatitis",
-   "dif": 2,
-   "enunciado": "¿A quién afecta con mayor frecuencia la dermatitis seborreica?",
-   "opciones": [
-    {
-     "t": "Varón de 40 años: cara y cuero cabelludo",
-     "por": "Es más común en el varón de 40 años con afectación facial y de cuero cabelludo; aumenta en ancianos.",
-     "full": "Al varón de 40 años, con cara y cuero cabelludo"
-    },
-    {
-     "t": "Mujer joven de 15 años, en el tronco",
-     "por": "No es el grupo de mayor frecuencia."
-    },
-    {
-     "t": "Solo recién nacidos, en la axila",
-     "por": "Se observa en todas las edades, con prevalencia de 3 %."
-    },
-    {
-     "t": "Solo deportistas, por sudoración excesiva",
-     "por": "No se relaciona con la actividad física."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Prevalencia aproximada de 3 %. Se agrava en pacientes con VIH con CD4 < 500; se sospecha participación de la levadura Malassezia.",
-   "fuente": "PPT Dermatitis (sem. 14), lám. 17"
-  },
-  {
-   "id": "d-dmt-sebvih",
-   "area": "derma",
-   "tema": "Dermatitis",
-   "dif": 2,
-   "enunciado": "¿Qué se sospecha en la patogenia de la dermatitis seborreica?",
-   "opciones": [
-    {
-     "t": "Participación de la levadura Malassezia",
-     "por": "El mecanismo no se conoce bien y se sospecha participación de Malassezia."
-    },
-    {
-     "t": "Infección por virus del papiloma humano",
-     "por": "No se vincula con el VPH."
-    },
-    {
-     "t": "Autoanticuerpos contra desmogleínas",
-     "por": "Eso es el pénfigo vulgar."
-    },
-    {
-     "t": "Déficit de queratina",
-     "por": "No se propone un déficit de queratina como mecanismo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Es más grave en pacientes con VIH con CD4 < 500. La histopatología es inespecífica.",
-   "fuente": "PPT Dermatitis (sem. 14), lám. 17"
-  },
-  {
    "id": "d-dmt-sebclin",
    "area": "derma",
    "tema": "Dermatitis",
@@ -436,34 +292,6 @@
    "fuente": "PPT Dermatitis (sem. 14), lám. 25"
   },
   {
-   "id": "d-dmt-dcirri2",
-   "area": "derma",
-   "tema": "Dermatitis",
-   "dif": 2,
-   "enunciado": "¿Qué porcentaje de la dermatitis de contacto ocupacional y de amas de casa representa la irritativa?",
-   "opciones": [
-    {
-     "t": "80 %",
-     "por": "La dermatitis primaria irritante representa el 80 % de la dermatitis de contacto ocupacional y de amas de casa."
-    },
-    {
-     "t": "8 %",
-     "por": "Es una proporción mucho menor de la señalada."
-    },
-    {
-     "t": "30 %",
-     "por": "Esa cifra no corresponde a la irritativa."
-    },
-    {
-     "t": "100 %",
-     "por": "No son todas: existe la alérgica y las fotoinducidas."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Se debe a irritación física, mecánica o química por exposición repetida (jabones, alcohol, limpiadores). Es frecuente en peluqueros, cocineros y lavanderías; afecta sobre todo las manos.",
-   "fuente": "PPT Dermatitis (sem. 14), lám. 25"
-  },
-  {
    "id": "d-dmt-dcalerg",
    "area": "derma",
    "tema": "Dermatitis",
@@ -491,35 +319,6 @@
    "correcta": 0,
    "explicacion": "Los antígenos frecuentes son látex, jabón, resinas, antibióticos y metales. El diagnóstico se basa en la historia (busca el antígeno) y la prueba de parche.",
    "fuente": "PPT Dermatitis (sem. 14), lám. 26"
-  },
-  {
-   "id": "d-dmt-parche",
-   "area": "derma",
-   "tema": "Dermatitis",
-   "dif": 3,
-   "contexto": "La tabla de reactividad porcentual global por alérgenos muestra con qué frecuencia cada sustancia da una prueba de parche positiva; sirve para saber qué buscar en la dermatitis de contacto alérgica.",
-   "enunciado": "¿Cuál fue el alérgeno con más reacciones positivas en la tabla de prueba de parche?",
-   "opciones": [
-    {
-     "t": "Sulfato de níquel (35.3 %)",
-     "por": "El sulfato de níquel encabeza la tabla con 35.3 %; el cloruro de cobalto tiene 15.1 % y la mezcla de fragancias 14 %."
-    },
-    {
-     "t": "Cloruro de cobalto (15.1 %)",
-     "por": "Está segundo, con 15.1 %."
-    },
-    {
-     "t": "Mezcla de fragancias (14 %)",
-     "por": "Está tercero, con 14 %."
-    },
-    {
-     "t": "Bálsamo del Perú (8.5 %)",
-     "por": "Tiene solo 8.5 % de reacciones positivas."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Otros alérgenos: dicromato de potasio 8.7 %, bálsamo del Perú 8.5 %, parafenilendiamina 6.7 % (tintes de cabello), sulfato de neomicina 6.6 %.",
-   "fuente": "PPT Dermatitis (sem. 14), lám. 27"
   },
   {
    "id": "d-dmt-dcclin",
@@ -577,92 +376,6 @@
    "correcta": 0,
    "explicacion": "Objetivos: reducir la inflamación, restaurar la barrera epidérmica y prevenir la exposición. Alternativas: inhibidores tópicos de calcineurina (tacrolimus 0.03 a 0.1 %, pimecrolimus 1 %) 2 a 3 veces por semana, 3 a 12 semanas.",
    "fuente": "PPT Dermatitis (sem. 14), lám. 29"
-  },
-  {
-   "id": "d-dmt-dish",
-   "area": "derma",
-   "tema": "Dermatitis",
-   "dif": 2,
-   "enunciado": "¿En quién y dónde aparece la dermatitis dishidrótica?",
-   "opciones": [
-    {
-     "t": "Adultos de 20 a 40 años; manos y plantas",
-     "por": "Es una erupción vesicular crónica recurrente y pruriginosa en manos, plantas y caras laterales de los dedos, en adultos de 20 a 40 años.",
-     "full": "Adultos jóvenes de 20 a 40 años; manos, plantas y lados de los dedos"
-    },
-    {
-     "t": "Lactantes, en la cara y las flexuras",
-     "por": "Eso es dermatitis atópica infantil."
-    },
-    {
-     "t": "Ancianos con sobrepeso, en los pliegues",
-     "por": "Corresponde a la seborreica."
-    },
-    {
-     "t": "Peluqueros por tintes, en el cuello",
-     "por": "Sugiere dermatitis de contacto."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La causa es desconocida. Histopatología: espongiosis intraepidérmica con acumulación de edema que forma vesículas.",
-   "fuente": "PPT Dermatitis (sem. 14), lám. 32"
-  },
-  {
-   "id": "d-dmt-dish2",
-   "area": "derma",
-   "tema": "Dermatitis",
-   "dif": 2,
-   "enunciado": "¿Qué aspecto tienen las vesículas de la dermatitis dishidrótica?",
-   "opciones": [
-    {
-     "t": "Profundas, en 'pudín de tapioca'",
-     "por": "Las vesículas son profundas, con aspecto de pudín de tapioca."
-    },
-    {
-     "t": "Superficiales y flácidas que se rompen con el roce",
-     "por": "Eso sugiere pénfigo."
-    },
-    {
-     "t": "Con centro umbilicado y pequeñas",
-     "por": "Es el aspecto del molusco contagioso."
-    },
-    {
-     "t": "Con base eritematosa agrupadas sobre un dermatoma",
-     "por": "Son de herpes zóster."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Son vesículas profundas, como granos de tapioca, por espongiosis intradérmica (edema entre queratinocitos).",
-   "fuente": "PPT Dermatitis (sem. 14), lám. 32"
-  },
-  {
-   "id": "d-dmt-dishtx",
-   "area": "derma",
-   "tema": "Dermatitis",
-   "dif": 3,
-   "enunciado": "¿Cuál es la segunda línea en la dermatitis dishidrótica?",
-   "opciones": [
-    {
-     "t": "Esteroides orales de corta duración",
-     "por": "Primera línea: remojos y compresas frías, antihistamínicos para el prurito y corticoides tópicos de alta potencia; segunda línea: esteroides orales por poco tiempo.",
-     "full": "Esteroides orales de corta duración"
-    },
-    {
-     "t": "Rituximab semanal por 4 semanas",
-     "por": "No figura en el tratamiento de la dermatitis dishidrótica."
-    },
-    {
-     "t": "Ketoconazol oral por 6 semanas",
-     "por": "No es tratamiento de esta dermatitis."
-    },
-    {
-     "t": "Isotretinoína oral por 3 meses",
-     "por": "No está indicada en la dermatitis dishidrótica."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Los inhibidores de calcineurina pueden ser eficaces y también se usa luz ultravioleta.",
-   "fuente": "PPT Dermatitis (sem. 14), lám. 34"
   }
  ],
  "tarjetas": [

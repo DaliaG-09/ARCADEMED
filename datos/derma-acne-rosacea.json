@@ -1,64 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "d-acn-def",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 1,
-   "enunciado": "¿Qué lesión inicial define al acné?",
-   "opciones": [
-    {
-     "t": "Un tapón córneo que obstruye el folículo piloso",
-     "por": "El comedón es el tapón de queratina que obstruye el folículo. Después se inflama alrededor y puede destruir tejido y dejar cicatriz.",
-     "full": "Un tapón córneo (comedón) que obstruye el folículo piloso y luego se inflama"
-    },
-    {
-     "t": "Una infección primaria por hongos de la dermis",
-     "por": "Los hongos no son el origen del acné. La obstrucción folicular viene antes de cualquier colonización secundaria."
-    },
-    {
-     "t": "Una dilatación permanente de los vasos faciales",
-     "por": "Eso describe la telangiectasia de la rosácea, no una lesión del acné."
-    },
-    {
-     "t": "Una descamación de las zonas de flexión",
-     "por": "Eso corresponde a la dermatitis seborreica, que no es un trastorno de los folículos obstruidos."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El acné es el trastorno cutáneo más frecuente. Los folículos pilosos desarrollan tapones córneos obstructivos (comedones), luego hay inflamación alrededor de los folículos obstruidos, destrucción del tejido y cicatriz.",
-   "fuente": "PPT Acné y rosácea (sem. 14), lám. 8"
-  },
-  {
-   "id": "d-acn-epi",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 1,
-   "enunciado": "Un adolescente de 17 años consulta por lesiones faciales. ¿Qué dato epidemiológico del acné es correcto?",
-   "opciones": [
-    {
-     "t": "Afecta al 79-95 % de adolescentes",
-     "por": "La frecuencia sube con la edad: 28 a 61 % a los 10 a 12 años y 79 a 95 % a los 16 a 18 años.",
-     "full": "Afecta al 79 a 95 % de los adolescentes de 16 a 18 años"
-    },
-    {
-     "t": "Es rara antes de los 25 años",
-     "por": "Al contrario: predomina entre los 12 y 25 años y casi todos los adolescentes de 16 a 18 años lo padecen."
-    },
-    {
-     "t": "Es más grave en mujeres por los estrógenos",
-     "por": "Es más severo en varones, por su dependencia de andrógenos."
-    },
-    {
-     "t": "Aparece solo en adultos tras los 40 años",
-     "por": "Hay un segundo pico entre los 25 y 35 años (acné de la mujer adulta), pero no empieza a los 40."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Predomina entre los 12 y 25 años. En varones suele resolverse a los 20 a 25 años y en mujeres puede persistir hasta los 30 a 40. El segundo pico (25 a 35 años) es el acné de la mujer adulta, con etiología, presentación y tratamiento propios.",
-   "fuente": "PPT Acné y rosácea (sem. 14), lám. 9"
-  },
-  {
    "id": "d-acn-mujer",
    "area": "derma",
    "tema": "Acné y rosácea",
@@ -113,120 +55,6 @@
    "correcta": 0,
    "explicacion": "En el acné hay seborrea, comedones, pápulas inflamadas y, en casos graves, nódulos que se licúan en quistes fluctuantes. En la rosácea no hay comedones.",
    "fuente": "PPT Acné y rosácea (sem. 14), lám. 10"
-  },
-  {
-   "id": "d-acn-comedon",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 2,
-   "enunciado": "¿Por qué los comedones abiertos tienen la punta oscura?",
-   "opciones": [
-    {
-     "t": "La punta tiene melanina del epitelio folicular",
-     "por": "El pigmento de la punta del comedón es melanina del epitelio folicular, no suciedad."
-    },
-    {
-     "t": "Contiene suciedad acumulada del ambiente",
-     "por": "Es una idea frecuente, pero el color viene de la melanina folicular."
-    },
-    {
-     "t": "Es sangre seca de un vaso roto",
-     "por": "No hay hemorragia: la lesión es un tapón de queratina."
-    },
-    {
-     "t": "Es el pigmento de la bacteria que lo coloniza",
-     "por": "Las bacterias participan en la inflamación, pero no pigmentan el comedón."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Los comedones son tapones foliculares cuya punta está pigmentada por melanina en el epitelio folicular.",
-   "fuente": "PPT Acné y rosácea (sem. 14), lám. 10"
-  },
-  {
-   "id": "d-acn-patogenia",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 2,
-   "enunciado": "¿Cuál de estos factores participa en la patogenia del acné?",
-   "opciones": [
-    {
-     "t": "Aumento de la secreción de sebo y de la microflora",
-     "por": "El esquema muestra aumento de sebo, de microflora y de lipólisis, que irritan la pared folicular y la rompen."
-    },
-    {
-     "t": "Disminución de la secreción de sebo",
-     "por": "Es lo contrario: en el acné hay hipersecreción sebácea."
-    },
-    {
-     "t": "Ausencia de microflora folicular",
-     "por": "La proliferación de bacterias (Propionibacterium acnes) aparece en la formación del microcomedón y la fase inflamatoria."
-    },
-    {
-     "t": "Dilatación de la luz del folículo sin obstrucción",
-     "por": "Lo que ocurre es una obstrucción folicular con acumulación de sebo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Hay un comedón en la luz folicular; el aumento de sebo, de lipólisis y de microflora irrita la pared folicular, la pared se rompe y aparece la inflamación.",
-   "fuente": "PPT Acné y rosácea (sem. 14), lám. 15"
-  },
-  {
-   "id": "d-acn-histo",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 2,
-   "enunciado": "¿Qué se encuentra en la histología de una lesión tardía de acné?",
-   "opciones": [
-    {
-     "t": "Inflamación mixta con granulomas e histiocitos",
-     "por": "En etapas tardías hay inflamación mixta con polimorfonucleares, reacción granulomatosa e histiocitos.",
-     "full": "Inflamación mixta con PMN, reacción granulomatosa e histiocitos"
-    },
-    {
-     "t": "Solo un tapón folicular queratinizado",
-     "por": "Eso es la etapa inicial; las lesiones tardías añaden inflamación intensa."
-    },
-    {
-     "t": "Acantolisis con ampollas intraepidérmicas",
-     "por": "Es propia de enfermedades ampollares como el pénfigo, no del acné."
-    },
-    {
-     "t": "Epidermis atrófica sin folículos",
-     "por": "El acné es una foliculitis con inflamación considerable."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El acné es una foliculitis con inflamación considerable. Al inicio hay tapón folicular queratinizado; más tarde, inflamación mixta con PMN (polimorfonucleares), reacción granulomatosa e histiocitos.",
-   "fuente": "PPT Acné y rosácea (sem. 14), lám. 14"
-  },
-  {
-   "id": "d-acn-sitios",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 1,
-   "enunciado": "¿Qué zonas se afectan con más frecuencia en el acné,?",
-   "opciones": [
-    {
-     "t": "Cara, pecho, hombros y espalda alta",
-     "por": "El esquema marca cara, región preesternal, hombros y espalda alta, donde hay más folículos sebáceos.",
-     "full": "Cara, pecho, hombros y parte alta de la espalda"
-    },
-    {
-     "t": "Palmas, plantas y zonas de flexión",
-     "por": "Son sitios sin folículos pilosebáceos relevantes, o de otras dermatosis."
-    },
-    {
-     "t": "Solo los miembros inferiores",
-     "por": "No son zona típica del acné."
-    },
-    {
-     "t": "Pliegues inguinales y axilas únicamente",
-     "por": "Esa ubicación sugiere intertrigo o hidradenitis, no acné común."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El esquema muestra afectación en cara, tórax anterior, hombros y espalda alta.",
-   "fuente": "PPT Acné y rosácea (sem. 14), lám. 13"
   },
   {
    "id": "d-acn-escala",
@@ -286,34 +114,6 @@
    "correcta": 0,
    "explicacion": "Grado 0 sin lesión; 1 prácticamente sin lesión; 2 leve; 3 moderado; 4 grave; 5 muy grave.",
    "fuente": "PPT Acné y rosácea (sem. 14), lám. 12"
-  },
-  {
-   "id": "d-acn-tipos",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 2,
-   "enunciado": "¿Qué tipo de acné se describe como pápulopustuloso grave o nodular moderado, según la clasificación por tipos?",
-   "opciones": [
-    {
-     "t": "Tipo 3",
-     "por": "En la clasificación de 4 tipos, el 3 es el acné papulopustuloso grave o nodular moderado."
-    },
-    {
-     "t": "Tipo 1",
-     "por": "El tipo 1 es el acné comedoniano."
-    },
-    {
-     "t": "Tipo 2",
-     "por": "El tipo 2 es comedoniano leve o moderado."
-    },
-    {
-     "t": "Tipo 4",
-     "por": "El tipo 4 es nodular grave, quístico o con tendencia cicatricial."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Tipos: 1 comedoniano; 2 comedoniano leve o moderado; 3 papulopustuloso grave o nodular moderado; 4 nodular grave, quístico o con tendencia cicatricial.",
-   "fuente": "PPT Acné y rosácea (sem. 14), lám. 11"
   },
   {
    "id": "d-acn-tx1",
@@ -433,35 +233,6 @@
    "fuente": "PPT Acné y rosácea (sem. 14), lám. 18"
   },
   {
-   "id": "d-acn-rosepi",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 2,
-   "enunciado": "¿Cuál es el perfil epidemiológico de la rosácea?",
-   "opciones": [
-    {
-     "t": "Entre 30 y 50 años, más en mujeres",
-     "full": "Aparece entre los 30 y 50 años, más en mujeres (3:1)",
-     "por": "Inicia entre los 30 y 50 años y predomina en mujeres (3:1)."
-    },
-    {
-     "t": "Aparece sobre todo en la adolescencia",
-     "por": "El pico del acné es adolescente; la rosácea empieza entre los 30 y 50 años."
-    },
-    {
-     "t": "Predomina en varones, en proporción 3:1",
-     "por": "La proporción es 3:1, pero a favor de la mujer."
-    },
-    {
-     "t": "Es exclusiva de personas de piel muy oscura",
-     "por": "Es más frecuente en personas de origen celta y puede pasarse por alto en no blancos."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La rosácea afecta a 1 de cada 20 estadounidenses, suele aparecer entre los 30 y 50 años y es más frecuente en personas de origen celta; en no blancos puede pasar desapercibida por la pigmentación.",
-   "fuente": "PPT Acné y rosácea (sem. 14), lám. 19"
-  },
-  {
    "id": "d-acn-rosclin",
    "area": "derma",
    "tema": "Acné y rosácea",
@@ -488,63 +259,6 @@
    "correcta": 0,
    "explicacion": "En la rosácea predominan calor y enrojecimiento facial, sin picor y sin comedones. Las mujeres afectan mentón y mejillas; los hombres, la nariz.",
    "fuente": "PPT Acné y rosácea (sem. 14), lám. 20"
-  },
-  {
-   "id": "d-acn-rosocular",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 2,
-   "enunciado": "¿Qué frecuencia tienen los hallazgos oculares en la rosácea?",
-   "opciones": [
-    {
-     "t": "Cerca de la mitad de los pacientes",
-     "full": "Cerca de la mitad de los pacientes",
-     "por": "Los hallazgos oculares están presentes en cerca de la mitad de los pacientes."
-    },
-    {
-     "t": "Menos del 5 % de los pacientes",
-     "por": "Es mucho más frecuente de lo que se cree."
-    },
-    {
-     "t": "Solo los de la forma glandular",
-     "por": "Pueden verse en cualquier forma; existe además una variedad ocular."
-    },
-    {
-     "t": "Nunca ocurre afectación ocular",
-     "por": "Hay blefaritis, hiperemia conjuntival, ardor y lagrimeo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Los hallazgos oculares (sequedad, blefaritis, hiperemia conjuntival, ardor, escozor, lagrimeo) están presentes en el 50 % de los pacientes con rosácea.",
-   "fuente": "PPT Acné y rosácea (sem. 14), lám. 20"
-  },
-  {
-   "id": "d-acn-rosclas",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 2,
-   "enunciado": "Paciente con piel engrosada y poros prominentes en la nariz. ¿Qué subtipo de rosácea es?",
-   "opciones": [
-    {
-     "t": "Fimatosa (glandular), con rinofima",
-     "por": "La timatosis o rosácea glandular da piel engrosada con poros sobresalientes, p. ej. rinofima en la nariz."
-    },
-    {
-     "t": "Eritemato-telangiectásica, con flushing",
-     "por": "Se caracteriza por eritema central y telangiectasias, sin engrosamiento."
-    },
-    {
-     "t": "Pápulopustulosa, con lesiones inflamatorias",
-     "por": "Muestra pápulas en bóveda y pústulas pequeñas, sin hipertrofia glandular."
-    },
-    {
-     "t": "Ocular, con blefaritis y conjuntivitis",
-     "por": "Predominan hiperemia conjuntival y cuerpo extraño ocular."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Subtipos: 1 eritematotelangiectásica (vascular), 2 pápulopustulosa (inflamatoria), 3 timatosis o glandular (rinofima, gnatofima, metofima, blefarofima, otofima), 4 ocular.",
-   "fuente": "PPT Acné y rosácea (sem. 14), lám. 24"
   },
   {
    "id": "d-acn-rosdd",
@@ -602,63 +316,6 @@
    "correcta": 0,
    "explicacion": "Tópicos: metronidazol (una o dos veces al día), ivermectina 1 % (una vez al día), ácido azelaico 15 % (dos veces al día), entre otros. Sistémicos: doxiciclina (40 mg de liberación modificada) 4 a 8 semanas.",
    "fuente": "PPT Acné y rosácea (sem. 14), lám. 25"
-  },
-  {
-   "id": "d-acn-rosfim",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 2,
-   "enunciado": "¿Qué opciones reducen el volumen de un rinofima?",
-   "opciones": [
-    {
-     "t": "Isotretinoína, escisión o láser de CO₂",
-     "por": "La isotretinoína disminuye el volumen nasal y frena la progresión; la escisión, la electrocirugía y el láser de CO₂ lo resculpen.",
-     "full": "Isotretinoína, escisión quirúrgica, electrocirugía o láser de CO₂"
-    },
-    {
-     "t": "Solo metronidazol tópico en crema",
-     "por": "Sirve para lesiones inflamatorias, no para reducir el tejido hipertrófico."
-    },
-    {
-     "t": "Ivermectina tópica una vez al día",
-     "por": "Mejora pápulas y pústulas, no revierte el rinofima."
-    },
-    {
-     "t": "Doxiciclina 40 mg diarios por semanas",
-     "por": "Controla la inflamación, pero no reduce el volumen fimatoso."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "En la rosácea fimatosa, la isotretinoína oral puede disminuir el volumen nasal y detener el rinofima; la escisión quirúrgica puede reducir el volumen y resculpir la nariz, y la electrocirugía y el láser de CO₂ son otras opciones.",
-   "fuente": "PPT Acné y rosácea (sem. 14), lám. 26"
-  },
-  {
-   "id": "d-acn-rosdoxi",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 3,
-   "enunciado": "¿Qué dosis de doxiciclina de liberación modificada se indica para la rosácea?",
-   "opciones": [
-    {
-     "t": "40 mg diarios por 4 a 8 semanas",
-     "por": "La fórmula de 40 mg (30 de liberación inmediata y 10 de retardada) es tan eficaz como 100 mg, con menos efectos adversos."
-    },
-    {
-     "t": "100 mg cada 6 horas por 6 meses",
-     "por": "No es la dosis de la tabla; las dosis estándar son 50 a 100 mg una o dos veces al día."
-    },
-    {
-     "t": "500 mg diarios por 2 días",
-     "por": "No corresponde a ningún esquema de la tabla."
-    },
-    {
-     "t": "10 mg diarios por 1 semana",
-     "por": "Esa dosis es insuficiente."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La doxiciclina 40 mg diarios (30 mg de liberación inmediata y 10 mg retardada) por 4 a 8 semanas es tan eficaz como 100 mg, con menos efectos adversos.",
-   "fuente": "PPT Acné y rosácea (sem. 14), lám. 26"
   }
  ],
  "tarjetas": [

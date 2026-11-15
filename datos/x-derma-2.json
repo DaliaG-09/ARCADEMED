@@ -1,0 +1,659 @@
+{
+ "preguntas": [
+  {
+   "id": "x-dm-par1",
+   "area": "derma",
+   "tema": "Parasitosis cutáneas",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Joven de 22 años que vive en una residencia universitaria. Tiene 2 semanas de picazón intensa que empeora de noche, con pápulas y surcos en los espacios interdigitales, las muñecas, las axilas y el pene. Un compañero de cuarto y su pareja tienen síntomas parecidos.\n\n¿Cuál es el diagnóstico y el agente? ¿Cómo se confirma? ¿Cuál es el tratamiento completo (fármaco, aplicación, contactos y medidas del ambiente)?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Escabiosis por Sarcoptes scabiei.",
+     "w": 0.25
+    },
+    {
+     "t": "Raspado de piel con visualización del ácaro, huevos o heces al microscopio (la clínica es suficiente en la práctica).",
+     "w": 0.25
+    },
+    {
+     "t": "Permetrina 5 % en todo el cuerpo (del cuello hacia abajo) por 8 a 14 horas, repetir a los 7 días.",
+     "w": 0.5
+    },
+    {
+     "t": "Ivermectina oral 200 μg/kg si el caso es extenso, costroso, hay brote o mala adherencia.",
+     "w": 0.25
+    },
+    {
+     "t": "Tratar a todos los contactos cercanos aunque no tengan síntomas.",
+     "w": 0.5
+    },
+    {
+     "t": "Lavar ropa y sábanas con agua caliente (más de 60 °C).",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "La picazón puede persistir semanas tras el tratamiento (prurito posescabiótico) y no significa falla. Se trata a los contactos para evitar reinfestación.",
+   "fuente": "PPT",
+   "contexto": "Escabiosis (sarna): infestación de la piel por un ácaro que causa picazón intensa de noche, en la que se debe tratar a todos los convivientes. Salió en los exámenes pasados."
+  },
+  {
+   "id": "x-dm-par2",
+   "area": "derma",
+   "tema": "Parasitosis cutáneas",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Agricultor de 32 años que trabaja en el valle de un río de la selva. Tiene una úlcera indolora en el antebrazo de 6 semanas, con borde elevado y fondo limpio, sin respuesta a antibióticos comunes.\n\n¿Qué diagnóstico plantea y qué agente? ¿Cómo lo confirma? ¿Cuál es el tratamiento de primera línea? ¿Qué forma grave debe vigilarse?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Leishmaniasis cutánea, por Leishmania, transmitida por la picadura de flebótomos (Lutzomyia).",
+     "w": 0.5
+    },
+    {
+     "t": "Frotis o biopsia de la lesión con visualización del parásito.",
+     "w": 0.5
+    },
+    {
+     "t": "Antimoniales pentavalentes por 20 días.",
+     "w": 0.5
+    },
+    {
+     "t": "Forma mucocutánea (afecta nariz y boca) por diseminación; es de notificación obligatoria.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "En el Perú es endémica en valles andinos y selva. Se manifiesta como una pápula que se ulcera, indolora, con borde elevado.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la vía de transmisión y la mucocutánea se afirman por conocimiento general; el PPT enfatiza el tratamiento."
+  },
+  {
+   "id": "x-dm-par3",
+   "area": "derma",
+   "tema": "Parasitosis cutáneas",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Para cada parasitosis menciona su agente y su tratamiento: larva migrans cutánea, miasis, pediculosis.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Larva migrans cutánea: larvas de anquilostomas de animales; lesión serpiginosa pruriginosa; albendazol o ivermectina oral.",
+     "w": 0.75
+    },
+    {
+     "t": "Miasis: larvas de moscas en la piel; se extraen las larvas; ivermectina si son múltiples; antibiótico si se sobreinfecta.",
+     "w": 0.75
+    },
+    {
+     "t": "Pediculosis: piojos; permetrina tópica y retirar liendres; tratar contactos.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Los antiinflamatorios solo alivian síntomas de la larva migrans.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: el tratamiento de pediculosis no está desarrollado en el PPT."
+  },
+  {
+   "id": "x-dm-dmt1",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Niño de 6 años con prurito intenso desde lactante, piel seca y placas con liquenificación en los pliegues de codos y rodillas. Tiene asma. Su madre tuvo rinitis alérgica.\n\n¿Cuál es el diagnóstico? ¿Cuál es la característica esencial de los criterios de la AAD y cuáles son las importantes? ¿Cómo lo trata (general y farmacológico)? ¿Qué opciones existen en casos refractarios?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Dermatitis atópica.",
+     "w": 0.25
+    },
+    {
+     "t": "Esencial: prurito. Importantes: inicio temprano, xerosis e historia personal o familiar de atopia (IgE).",
+     "w": 0.5
+    },
+    {
+     "t": "General: hidratación diaria, evitar desencadenantes (jabones, alérgenos).",
+     "w": 0.5
+    },
+    {
+     "t": "Antiinflamatorio tópico: corticoides según gravedad o inhibidores de calcineurina.",
+     "w": 0.5
+    },
+    {
+     "t": "Refractaria: metotrexato (con ácido fólico), azatioprina, micofenolato o dupilumab.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "La marcha atópica: dermatitis atópica, luego rinitis alérgica y asma. El metotrexato exige control analítico y evitar AINEs y cotrimoxazol.",
+   "fuente": "PPT",
+   "contexto": "Dermatitis atópica: inflamación crónica de la piel con picazón intensa, piel seca y brotes; se asocia a asma y rinitis alérgica."
+  },
+  {
+   "id": "x-dm-dmt2",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 28 años con eccema en el lóbulo de las orejas, el cuello y la muñeca (bajo el reloj) desde que empezó a usar bisutería. Placas rojas y con vesículas.\n\n¿Qué diagnóstico plantea y qué tipo de hipersensibilidad es? ¿Cuál es el alérgeno más probable? ¿Cómo lo confirmas? ¿Cuál es el tratamiento?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Dermatitis de contacto alérgica.",
+     "w": 0.25
+    },
+    {
+     "t": "Hipersensibilidad tipo IV (retardada, mediada por linfocitos T).",
+     "w": 0.5
+    },
+    {
+     "t": "Alérgeno: níquel.",
+     "w": 0.25
+    },
+    {
+     "t": "Prueba de parche.",
+     "w": 0.5
+    },
+    {
+     "t": "Evitar el alérgeno y corticoide tópico potente 2 veces al día; alternativa: tacrolimus o pimecrolimus.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La irritativa se debe a un daño directo de la barrera y no requiere sensibilización previa. La alérgica requiere sensibilización.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-dmt3",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 35 años con VIH, con descamación grasosa y eritema en las cejas, los surcos nasogenianos y el cuero cabelludo.\n\n¿Qué diagnóstico plantea y qué se sospecha en su patogenia? ¿Cuál es el tratamiento tópico? ¿Qué otras condiciones se asocian?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Dermatitis seborreica.",
+     "w": 0.5
+    },
+    {
+     "t": "Se sospecha el papel de Malassezia y la respuesta inflamatoria del huésped.",
+     "w": 0.5
+    },
+    {
+     "t": "Ketoconazol 2 % gel o champú (2 veces por semana); también ciclopirox, sulfuro de selenio o piritiona de zinc.",
+     "w": 0.5
+    },
+    {
+     "t": "Se asocia a VIH, enfermedad de Parkinson y estrés.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La seborreica grave o refractaria en un adulto debe hacer pensar en VIH.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la asociación con Parkinson no está en el PPT."
+  },
+  {
+   "id": "x-dm-amp1",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 72 años con ampollas tensas, grandes, muy pruriginosas, en las axilas, la ingle y el abdomen, precedidas por placas eritematosas. Sin erosiones orales. Nikolsky negativo.\n\n¿Cuál es el diagnóstico más probable? ¿Qué muestra la biopsia y la inmunofluorescencia directa? ¿Dónde tomas la muestra para IFD? ¿Cómo la tratas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Penfigoide ampolloso (ampolla subepidérmica por autoanticuerpos contra la membrana basal).",
+     "w": 0.5
+    },
+    {
+     "t": "Biopsia con ampolla subepidérmica con infiltrado de eosinófilos.",
+     "w": 0.25
+    },
+    {
+     "t": "IFD: depósitos lineales de IgG y C3 en la membrana basal; tomada de piel perilesional.",
+     "w": 0.5
+    },
+    {
+     "t": "Corticoides tópicos potentes si es localizado; sistémicos (prednisona) si es extenso.",
+     "w": 0.5
+    },
+    {
+     "t": "Riesgo de infección y trombosis en el adulto mayor.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "En el penfigoide la ampolla es tensa y no tiene Nikolsky; en el pénfigo vulgar es flácida y con Nikolsky positivo.",
+   "fuente": "PPT",
+   "contexto": "Enfermedades ampollares autoinmunes: el sistema inmune ataca las uniones de la piel y se forman ampollas. Se diferencian por el nivel de la ampolla (intraepidérmica o subepidérmica)."
+  },
+  {
+   "id": "x-dm-amp2",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 45 años con erosiones dolorosas en la boca desde hace 2 meses y ampollas flácidas que se rompen en el tronco. Al frotar la piel sana se desprende la epidermis.\n\n¿Qué diagnóstico plantea y qué signo es? ¿Dónde está la ampolla? ¿Qué patrón muestra la IFD? ¿Cuál es el tratamiento de primera línea actual?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Pénfigo vulgar; signo de Nikolsky positivo.",
+     "w": 0.5
+    },
+    {
+     "t": "Ampolla intraepidérmica suprabasal por acantólisis (anticuerpos contra desmogleínas).",
+     "w": 0.5
+    },
+    {
+     "t": "IFD: IgG en red (panal de abeja) alrededor de los queratinocitos.",
+     "w": 0.5
+    },
+    {
+     "t": "Rituximab (con corticoides); azatioprina o micofenolato en refractarios.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "El pénfigo vulgar suele comenzar en la mucosa oral. Los autoanticuerpos atacan los desmosomas.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-amp3",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Compara el pénfigo vulgar y el penfigoide ampolloso en: nivel de la ampolla, aspecto, Nikolsky, edad, IFD y tratamiento.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Pénfigo: ampolla intraepidérmica, flácida, Nikolsky positivo, 40 a 60 años, IFD en red, rituximab.",
+     "w": 1
+    },
+    {
+     "t": "Penfigoide: ampolla subepidérmica, tensa, Nikolsky negativo, adultos mayores, IFD lineal en membrana basal, corticoides tópicos o sistémicos.",
+     "w": 1
+    }
+   ],
+   "explicacion": "La dermatitis herpetiforme es otra ampollar: vesículas agrupadas muy pruriginosas, asociada a celiaquía, tratada con dapsona y dieta sin gluten.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-acn1",
+   "area": "derma",
+   "tema": "Acné y rosácea",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Adolescente de 17 años con comedones y numerosas pápulas y pústulas en la cara y la espalda, algunos nódulos dolorosos y cicatrices.\n\n¿Qué diagnóstico plantea y cuál es la lesión inicial? ¿Cómo escalas el tratamiento según el tipo (comedoniano, papulopustuloso grave o nodular moderado, nodulo-quístico)? ¿Qué debes asegurar antes de la isotretinoína?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Acné vulgar; lesión inicial: el comedón.",
+     "w": 0.5
+    },
+    {
+     "t": "Comedoniano: retinoide tópico (con o sin peróxido de benzoílo).",
+     "w": 0.5
+    },
+    {
+     "t": "Papulopustuloso grave o nodular moderado: antibiótico oral más retinoide con peróxido de benzoílo.",
+     "w": 0.5
+    },
+    {
+     "t": "Nodulo-quístico o con cicatrices: derivar a dermatología para isotretinoína.",
+     "w": 0.25
+    },
+    {
+     "t": "Descartar embarazo y anticoncepción (isotretinoína es teratógena).",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Los antibióticos orales no se usan solos para evitar resistencia.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la teratogenia de la isotretinoína no está en el PPT."
+  },
+  {
+   "id": "x-dm-acn2",
+   "area": "derma",
+   "tema": "Acné y rosácea",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 45 años con eritema persistente en la nariz y mejillas, telangiectasias, pápulas y pústulas sin comedones, que empeora con el alcohol, el calor y el sol. Piel engrosada en la nariz.\n\n¿Qué diagnóstico plantea? ¿Qué lo distingue del acné? ¿Qué diagnóstico diferencial importante evalúas con eritema facial en mariposa? ¿Cuál es el tratamiento?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Rosácea (papulopustulosa), con rinofima por engrosamiento de la nariz.",
+     "w": 0.5
+    },
+    {
+     "t": "No hay comedones.",
+     "w": 0.25
+    },
+    {
+     "t": "Lupus eritematoso sistémico (ANA positivos, artropatía, fotosensibilidad).",
+     "w": 0.5
+    },
+    {
+     "t": "Tópicos: metronidazol, ivermectina 1 % o ácido azelaico 15 %.",
+     "w": 0.5
+    },
+    {
+     "t": "Doxiciclina de 40 mg de liberación modificada por 4 a 8 semanas.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Se evitan los desencadenantes (sol, alcohol, comidas picantes). El rinofima se trata con láser o cirugía.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-dis1",
+   "area": "derma",
+   "tema": "Discromías",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 24 años con manchas blancas, bien delimitadas, simétricas en dorso de manos, periorales y codos. Aparecieron nuevas manchas en una cicatriz reciente. Tiene tiroiditis de Hashimoto.\n\n¿Qué diagnóstico plantea y cuál es el mecanismo? ¿Qué es el fenómeno de Koebner? ¿Qué asociaciones sistémicas tiene?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Vitíligo.",
+     "w": 0.25
+    },
+    {
+     "t": "Autoinmunidad con destrucción de los melanocitos.",
+     "w": 0.5
+    },
+    {
+     "t": "Koebner: aparición de lesiones nuevas sobre zonas de trauma o cicatriz.",
+     "w": 0.5
+    },
+    {
+     "t": "Asociación con enfermedades autoinmunes (tiroiditis, diabetes tipo 1).",
+     "w": 0.5
+    },
+    {
+     "t": "Afecta al 1 a 2 % de la población.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Para el tratamiento: fotoprotección, corticoides tópicos y fototerapia.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: las asociaciones sistémicas y el tratamiento no están en el PPT."
+  },
+  {
+   "id": "x-dm-dis2",
+   "area": "derma",
+   "tema": "Discromías",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona cuatro causas de hiperpigmentación que pueden ser señal de una enfermedad sistémica.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Acantosis nigricans (cuello, axilas): resistencia a la insulina, diabetes tipo 2, obesidad; rara vez neoplasia.",
+     "w": 0.5
+    },
+    {
+     "t": "Hemocromatosis primaria: aspecto bronceado.",
+     "w": 0.5
+    },
+    {
+     "t": "Enfermedad de Addison: hiperpigmentación generalizada.",
+     "w": 0.5
+    },
+    {
+     "t": "Manchas café con leche: neurofibromatosis; lentigos periorales: síndrome de Peutz-Jeghers (con pólipos intestinales).",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "El melasma es una hiperpigmentación facial por embarazo, anticonceptivos o sol.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-sem1",
+   "area": "derma",
+   "tema": "Semiología y métodos",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Define con un ejemplo cada una de estas lesiones: mácula, pápula, habón, vesícula o ampolla, úlcera y erosión.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Mácula: cambio de color, sin relieve ni palpable.",
+     "w": 0.3
+    },
+    {
+     "t": "Pápula: lesión sólida, palpable, menor de 1 cm.",
+     "w": 0.3
+    },
+    {
+     "t": "Habón: elevación aplanada, rosada en la periferia con palidez central, fugaz (urticaria).",
+     "w": 0.4
+    },
+    {
+     "t": "Vesícula (menos de 1 cm) o ampolla (más de 1 cm): elevación circunscrita con líquido.",
+     "w": 0.4
+    },
+    {
+     "t": "Erosión: pérdida de la epidermis, cura sin cicatriz.",
+     "w": 0.3
+    },
+    {
+     "t": "Úlcera: pérdida que llega a la dermis o más, cura con cicatriz.",
+     "w": 0.3
+    }
+   ],
+   "explicacion": "Primarias: mácula, pápula, placa, nódulo, vesícula, ampolla, pústula, habón. Secundarias: escama, costra, erosión, úlcera, cicatriz.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-sem2",
+   "area": "derma",
+   "tema": "Semiología y métodos",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Explica qué indica cada signo: Nikolsky, Darier, dermografismo, Koebner y test de patergia.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Nikolsky: al frotar piel sana se desprende la epidermis; positivo en pénfigo.",
+     "w": 0.4
+    },
+    {
+     "t": "Darier: al rascar una lesión aparece eritema, edema y a veces habón; típico de mastocitosis.",
+     "w": 0.4
+    },
+    {
+     "t": "Dermografismo: al rascar con un objeto romo aparece una marca roja elevada; urticaria inducible.",
+     "w": 0.4
+    },
+    {
+     "t": "Koebner: aparición de lesiones nuevas en zonas de trauma (vitíligo, psoriasis).",
+     "w": 0.4
+    },
+    {
+     "t": "Patergia: pápula o pústula tras un pinchazo; positiva en la enfermedad de Behçet.",
+     "w": 0.4
+    }
+   ],
+   "explicacion": "Son signos que se buscan al examen físico y orientan el diagnóstico sin laboratorio.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-met1",
+   "area": "derma",
+   "tema": "Semiología y métodos",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Para qué sirve cada método: KOH, test de Tzanck, luz de Wood, biopsia punch y dermatoscopio.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "KOH: ver hongos en piel, pelo y uñas.",
+     "w": 0.4
+    },
+    {
+     "t": "Tzanck: células gigantes multinucleadas en herpes y para estudiar ampollas.",
+     "w": 0.4
+    },
+    {
+     "t": "Luz de Wood: fluorescencia (Microsporum verde brillante, eritrasma rojo coral).",
+     "w": 0.4
+    },
+    {
+     "t": "Biopsia punch: muestra cilíndrica de piel (3 a 4 mm) para histología; se toma de una lesión representativa y reciente.",
+     "w": 0.4
+    },
+    {
+     "t": "Dermatoscopio: lupa con luz para ver estructuras de la lesión (sobre todo lesiones pigmentadas y melanoma).",
+     "w": 0.4
+    }
+   ],
+   "explicacion": "La biopsia para IFD se toma de piel perilesional y se conserva en medio especial; para histología, en formol.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: eritrasma con Wood no está en el PPT."
+  },
+  {
+   "id": "x-dm-parm1",
+   "area": "derma",
+   "tema": "Parasitosis cutáneas",
+   "dif": 2,
+   "enunciado": "Un asilo tiene un brote de escabiosis. Un paciente con VIH presenta costras gruesas en las manos y los pies con intenso prurito. ¿Qué tratamiento es preferible?",
+   "opciones": [
+    {
+     "t": "Ivermectina oral más permetrina tópica.",
+     "por": "Escabiosis costrosa o brotes se tratan con ivermectina oral; es de muy alta carga parasitaria y muy contagiosa."
+    },
+    {
+     "t": "Solo emolientes.",
+     "por": "No elimina el ácaro."
+    },
+    {
+     "t": "Corticoide tópico.",
+     "por": "No trata la infestación."
+    },
+    {
+     "t": "Antibiótico oral.",
+     "por": "Se usa solo para sobreinfección bacteriana."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La escabiosis costrosa necesita tratamiento repetido y aislamiento.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la asociación con VIH y asilos no está en el PPT."
+  },
+  {
+   "id": "x-dm-dmtm1",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "enunciado": "Un paciente con eccema por contacto con níquel (dermatitis de contacto alérgica). ¿Cuál es el mecanismo inmunológico?",
+   "opciones": [
+    {
+     "t": "Hipersensibilidad tipo IV mediada por linfocitos T.",
+     "por": "Es una reacción retardada que aparece 24 a 72 horas después de la reexposición."
+    },
+    {
+     "t": "Hipersensibilidad tipo I por IgE.",
+     "por": "Es la de la urticaria y la anafilaxia."
+    },
+    {
+     "t": "Hipersensibilidad tipo II citotóxica.",
+     "por": "Es mediada por anticuerpos contra células."
+    },
+    {
+     "t": "Hipersensibilidad tipo III por inmunocomplejos.",
+     "por": "Es la de la vasculitis por inmunocomplejos."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se confirma con prueba de parche.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-acnm1",
+   "area": "derma",
+   "tema": "Acné y rosácea",
+   "dif": 2,
+   "enunciado": "Mujer de 25 años con eritema en mariposa en el rostro que empeora con el sol, artralgias y ANA positivos. ¿Cuál es el diagnóstico?",
+   "opciones": [
+    {
+     "t": "Lupus eritematoso sistémico.",
+     "por": "El eritema en mariposa con fotosensibilidad y ANA positivos orienta a lupus; la rosácea no tiene ANA positivo."
+    },
+    {
+     "t": "Rosácea.",
+     "por": "No cursa con artralgias ni ANA positivos."
+    },
+    {
+     "t": "Acné vulgar.",
+     "por": "Hay comedones y no eritema en mariposa."
+    },
+    {
+     "t": "Dermatitis seborreica.",
+     "por": "Es descamativa y grasosa."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Otros diagnósticos diferenciales de rosácea: dermatomiositis, síndrome carcinoide, policitemia vera.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-dm-metm1",
+   "area": "derma",
+   "tema": "Semiología y métodos",
+   "dif": 2,
+   "enunciado": "Se quiere estudiar un paciente con ampollas y evaluar la etiología por la citología de la base de la ampolla. ¿Qué prueba usas y qué hallazgo apoya herpes?",
+   "opciones": [
+    {
+     "t": "Test de Tzanck; células gigantes epiteliales multinucleadas.",
+     "por": "Orienta a herpes simple o zóster, pero no los distingue entre sí."
+    },
+    {
+     "t": "Luz de Wood; fluorescencia verde.",
+     "por": "Sirve para dermatofitos, no para herpes."
+    },
+    {
+     "t": "KOH; hifas.",
+     "por": "Es para micosis."
+    },
+    {
+     "t": "Prueba de parche.",
+     "por": "Es para dermatitis de contacto."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La PCR es la prueba más específica para confirmar herpes zóster.",
+   "fuente": "PPT"
+  }
+ ],
+ "tarjetas": []
+}
