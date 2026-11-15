@@ -1,0 +1,433 @@
+{
+ "preguntas": [
+  {
+   "id": "x-pan-1",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Según los criterios de Ranson, ¿cuál de los siguientes se evalúa AL INGRESO del paciente?",
+   "opciones": [
+    {
+     "t": "DHL sérica mayor de 350 UI/L",
+     "por": "Es criterio de Ranson al ingreso."
+    },
+    {
+     "t": "Calcio sérico menor de 8 mg/dL",
+     "por": "Es criterio de Ranson, pero a las 48 horas, no al ingreso."
+    },
+    {
+     "t": "Déficit de base mayor de 4 mEq/L",
+     "por": "Es criterio de Ranson, pero a las 48 horas, no al ingreso."
+    },
+    {
+     "t": "Secuestro de líquido mayor de 6 litros",
+     "por": "Es criterio de Ranson, pero a las 48 horas, no al ingreso."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Ingreso: edad >55, leucocitos >16 000, glucemia >11 mmol/L, DHL >350 y TGO >250. A las 48 h: hematocrito, urea, calcio, PaO₂, déficit de base y secuestro de líquido.",
+   "fuente": "PPT",
+   "slot": "pancreatitis",
+   "contexto": "Criterios de Ranson: sistema de 11 puntos para estimar la gravedad de la pancreatitis aguda; 5 datos se miden al ingreso y 6 a las 48 horas. Más criterios, más mortalidad."
+  },
+  {
+   "id": "x-pan-2",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Señale cuál de los siguientes es un criterio de Ranson a evaluar al ingreso:",
+   "opciones": [
+    {
+     "t": "Edad mayor de 55 años",
+     "por": "Es criterio de Ranson al ingreso."
+    },
+    {
+     "t": "Descenso del hematocrito mayor de 10 %",
+     "por": "Es criterio de Ranson, pero a las 48 horas, no al ingreso."
+    },
+    {
+     "t": "PaO₂ menor de 60 mmHg",
+     "por": "Es criterio de Ranson, pero a las 48 horas, no al ingreso."
+    },
+    {
+     "t": "Aumento de urea sérica mayor de 1.8 mmol/L",
+     "por": "Es criterio de Ranson, pero a las 48 horas, no al ingreso."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los cinco del ingreso son: edad, leucocitos, glucemia, DHL y TGO.",
+   "fuente": "PPT",
+   "slot": "pancreatitis",
+   "contexto": "Criterios de Ranson: sistema de 11 puntos para estimar la gravedad de la pancreatitis aguda; 5 datos se miden al ingreso y 6 a las 48 horas. Más criterios, más mortalidad."
+  },
+  {
+   "id": "x-pan-3",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Señale cuál de los siguientes NO es un criterio de Ranson a evaluar al ingreso:",
+   "opciones": [
+    {
+     "t": "Calcio sérico menor de 8 mg/dL",
+     "por": "Es criterio de Ranson, pero a las 48 horas, no al ingreso."
+    },
+    {
+     "t": "Edad mayor de 55 años",
+     "por": "Es criterio de Ranson al ingreso."
+    },
+    {
+     "t": "Leucocitos mayores de 16 000/mm³",
+     "por": "Es criterio de Ranson al ingreso."
+    },
+    {
+     "t": "TGO sérica mayor de 250 UI/L",
+     "por": "Es criterio de Ranson al ingreso."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El calcio bajo se mide a las 48 horas. Una forma de recordarlo: los datos del ingreso son edad y laboratorio de lesión (leucocitos, glucosa, DHL, TGO).",
+   "fuente": "PPT",
+   "slot": "pancreatitis",
+   "contexto": "Criterios de Ranson: sistema de 11 puntos para estimar la gravedad de la pancreatitis aguda; 5 datos se miden al ingreso y 6 a las 48 horas. Más criterios, más mortalidad."
+  },
+  {
+   "id": "x-pan-4",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Señale cuál de los siguientes es un criterio de Ranson a evaluar durante las primeras 48 horas:",
+   "opciones": [
+    {
+     "t": "Déficit de base mayor de 4 mEq/L",
+     "por": "Es criterio de Ranson, pero a las 48 horas, no al ingreso."
+    },
+    {
+     "t": "Glucemia mayor de 11 mmol/L (200 mg/dL)",
+     "por": "Es criterio de Ranson al ingreso."
+    },
+    {
+     "t": "DHL sérica mayor de 350 UI/L",
+     "por": "Es criterio de Ranson al ingreso."
+    },
+    {
+     "t": "Leucocitos mayores de 16 000/mm³",
+     "por": "Es criterio de Ranson al ingreso."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "A las 48 h: descenso de hematocrito >10 %, aumento de urea, calcio <8, PaO₂ <60, déficit de base >4 y secuestro >6 litros.",
+   "fuente": "PPT",
+   "slot": "pancreatitis",
+   "contexto": "Criterios de Ranson: sistema de 11 puntos para estimar la gravedad de la pancreatitis aguda; 5 datos se miden al ingreso y 6 a las 48 horas. Más criterios, más mortalidad."
+  },
+  {
+   "id": "x-pan-5",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Señale cuál de los siguientes NO es un parámetro del score de Marshall modificado:",
+   "opciones": [
+    {
+     "t": "Calcio sérico",
+     "por": "No es de Marshall: es un criterio de Ranson a las 48 horas."
+    },
+    {
+     "t": "Presión arterial sistólica",
+     "por": "Sí es parámetro de Marshall (sistema cardiovascular)."
+    },
+    {
+     "t": "PaO₂/FiO₂",
+     "por": "Sí es parámetro de Marshall (sistema respiratorio)."
+    },
+    {
+     "t": "Creatinina sérica",
+     "por": "Sí es parámetro de Marshall (sistema renal)."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Marshall evalúa tres sistemas: respiratorio (PaO₂/FiO₂), renal (creatinina) y cardiovascular (presión sistólica).",
+   "fuente": "PPT",
+   "slot": "pancreatitis",
+   "contexto": "Score de Marshall modificado: mide la disfunción de tres sistemas (respiratorio, renal, cardiovascular) de 0 a 4 puntos cada uno. Se usa para saber si hay falla de órgano en la pancreatitis aguda."
+  },
+  {
+   "id": "x-pan-6",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "En el score de Marshall modificado, ¿a partir de qué puntaje se considera que existe falla de órgano?",
+   "opciones": [
+    {
+     "t": "2 o más puntos en cualquier sistema",
+     "por": "Un puntaje de 2 o más en cualquiera de los tres sistemas indica falla de órgano."
+    },
+    {
+     "t": "1 punto en cualquier sistema",
+     "por": "Con 1 punto todavía no se considera falla de órgano."
+    },
+    {
+     "t": "3 o más puntos en el sistema respiratorio",
+     "por": "Es un criterio demasiado alto y limitado a un solo sistema."
+    },
+    {
+     "t": "Suma total de 5 puntos o más",
+     "por": "No se usa una suma total; el corte es por sistema."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Marshall: cada sistema va de 0 a 4. Con 2 o más en alguno hay falla de órgano.",
+   "fuente": "PPT",
+   "slot": "pancreatitis",
+   "contexto": "Score de Marshall modificado: mide la disfunción de tres sistemas (respiratorio, renal, cardiovascular) de 0 a 4 puntos cada uno. Se usa para saber si hay falla de órgano en la pancreatitis aguda."
+  },
+  {
+   "id": "x-pan-7",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Según la clasificación de Atlanta revisada, ¿cuál de los siguientes es un criterio de pancreatitis aguda severa?",
+   "opciones": [
+    {
+     "t": "Falla orgánica persistente por más de 48 horas",
+     "por": "Es el criterio de pancreatitis severa en Atlanta revisada."
+    },
+    {
+     "t": "Falla orgánica transitoria (menos de 48 horas) con complicaciones locales",
+     "por": "Eso es pancreatitis moderadamente severa, no severa."
+    },
+    {
+     "t": "Ausencia de falla de órgano y de complicaciones locales",
+     "por": "Eso es pancreatitis leve."
+    },
+    {
+     "t": "Necrosis estéril sin falla de órgano",
+     "por": "Es una complicación local sin falla de órgano: moderadamente severa."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Leve: sin falla de órgano ni complicaciones. Moderadamente severa: falla transitoria (<48 h) y/o complicaciones locales o sistémicas. Severa: falla orgánica persistente (>48 h).",
+   "fuente": "Complemento",
+   "slot": "pancreatitis",
+   "contexto": "Clasificación de Atlanta revisada: clasifica la pancreatitis aguda en leve, moderadamente severa y severa según la falla de órgano y las complicaciones locales o sistémicas.",
+   "nota": "+ La clasificación de Atlanta revisada no aparece en las láminas, pero se evalúa en los exámenes del curso."
+  },
+  {
+   "id": "x-pan-8",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Según la clasificación de Atlanta revisada, ¿cuál de los siguientes corresponde a una pancreatitis aguda LEVE?",
+   "opciones": [
+    {
+     "t": "Ausencia de falla de órgano y de complicaciones locales",
+     "por": "Es la definición de pancreatitis leve."
+    },
+    {
+     "t": "Falla orgánica persistente por más de 48 horas",
+     "por": "Eso es pancreatitis severa."
+    },
+    {
+     "t": "Falla orgánica transitoria (menos de 48 horas)",
+     "por": "Eso es pancreatitis moderadamente severa."
+    },
+    {
+     "t": "Necrosis pancreática infectada",
+     "por": "Es una complicación local: no corresponde a una pancreatitis leve."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La pancreatitis leve representa 80 a 85 % de los casos: no tiene falla de órgano ni necrosis.",
+   "fuente": "Complemento",
+   "slot": "pancreatitis",
+   "contexto": "Clasificación de Atlanta revisada: clasifica la pancreatitis aguda en leve, moderadamente severa y severa según la falla de órgano y las complicaciones locales o sistémicas.",
+   "nota": "+ La clasificación de Atlanta revisada no aparece en las láminas, pero se evalúa en los exámenes del curso."
+  },
+  {
+   "id": "x-pan-9",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "¿Cuál de los siguientes es un componente del puntaje BISAP?",
+   "opciones": [
+    {
+     "t": "BUN (nitrógeno ureico) mayor de 25 mg/dL",
+     "por": "Es uno de los 5 componentes del BISAP."
+    },
+    {
+     "t": "DHL sérica mayor de 350 UI/L",
+     "por": "Es criterio de Ranson, no de BISAP."
+    },
+    {
+     "t": "Calcio sérico menor de 8 mg/dL",
+     "por": "Es criterio de Ranson, no de BISAP."
+    },
+    {
+     "t": "Glucemia mayor de 11 mmol/L",
+     "por": "Es criterio de Ranson, no de BISAP."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "BISAP suma 1 punto por BUN >25, alteración del estado mental, SIRS, edad >60 y derrame pleural. Predice mortalidad: 0 puntos, menos de 1 %; 5 puntos, cerca de 22 %.",
+   "fuente": "PPT",
+   "slot": "pancreatitis",
+   "contexto": "Puntaje BISAP: predice la mortalidad de la pancreatitis aguda en las primeras 24 horas. Suma 1 punto por cada uno de cinco datos."
+  },
+  {
+   "id": "x-pan-r1",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "escala",
+   "enunciado": "Enumera los criterios de Ranson al ingreso y a las 48 horas.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Al ingreso (parte 1): edad mayor de 55 años; leucocitos mayores de 16 000/mm³; glucemia mayor de 11 mmol/L (200 mg/dL).",
+     "w": 0.6
+    },
+    {
+     "t": "Al ingreso (parte 2): DHL mayor de 350 UI/L; TGO mayor de 250 UI/L.",
+     "w": 0.4
+    },
+    {
+     "t": "A las 48 h (parte 1): descenso de hematocrito mayor de 10 %; aumento de urea mayor de 1.8 mmol/L; calcio menor de 8 mg/dL.",
+     "w": 0.6
+    },
+    {
+     "t": "A las 48 h (parte 2): PaO₂ menor de 60 mmHg; déficit de base mayor de 4 mEq/L; secuestro de líquido mayor de 6 litros.",
+     "w": 0.4
+    }
+   ],
+   "explicacion": "Son 11 criterios en total: 5 al ingreso y 6 a las 48 horas.",
+   "fuente": "PPT",
+   "contexto": "Criterios de Ranson: sistema de 11 puntos para estimar la gravedad de la pancreatitis aguda; 5 datos se miden al ingreso y 6 a las 48 horas. Más criterios, más mortalidad."
+  },
+  {
+   "id": "x-pan-r2",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "escala",
+   "enunciado": "¿Qué sistemas evalúa el score de Marshall modificado, qué parámetro mide cada uno y cuál es el punto de corte para falla de órgano?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Sistema respiratorio: PaO₂/FiO₂.",
+     "w": 0.5
+    },
+    {
+     "t": "Sistema renal: creatinina sérica.",
+     "w": 0.5
+    },
+    {
+     "t": "Sistema cardiovascular: presión arterial sistólica (y respuesta a fluidos).",
+     "w": 0.5
+    },
+    {
+     "t": "Cada sistema puntúa de 0 a 4; 2 o más puntos en cualquiera indica falla de órgano.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Marshall ayuda a definir si hay falla de órgano, la base de la pancreatitis severa.",
+   "fuente": "PPT",
+   "contexto": "Score de Marshall modificado: mide la disfunción de tres sistemas (respiratorio, renal, cardiovascular) de 0 a 4 puntos cada uno. Se usa para saber si hay falla de órgano en la pancreatitis aguda."
+  },
+  {
+   "id": "x-pan-r3",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "concepto",
+   "enunciado": "Clasifica la pancreatitis aguda según Atlanta revisada y señala qué la define en cada categoría.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Leve: sin falla de órgano ni complicaciones locales o sistémicas (80 a 85 % de los casos).",
+     "w": 0.5
+    },
+    {
+     "t": "Moderadamente severa: falla orgánica transitoria (menos de 48 horas) y/o complicaciones locales o sistémicas.",
+     "w": 0.75
+    },
+    {
+     "t": "Severa: falla orgánica persistente (más de 48 horas).",
+     "w": 0.75
+    }
+   ],
+   "explicacion": "La falla de órgano se define con Marshall (2 o más puntos).",
+   "fuente": "Complemento",
+   "contexto": "Clasificación de Atlanta revisada: clasifica la pancreatitis aguda en leve, moderadamente severa y severa según la falla de órgano y las complicaciones locales o sistémicas.",
+   "nota": "+ La clasificación de Atlanta revisada no aparece en las láminas, pero se evalúa en los exámenes del curso."
+  },
+  {
+   "id": "x-pan-r4",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 45 años con dolor epigástrico constante e intenso irradiado a la espalda, con náuseas y vómitos tras una comilona con alcohol. Hay distensión abdominal y dolor a la palpación. Lipasa 5 veces el valor normal.\n\nSustenta el diagnóstico, cómo lo confirmas y las medidas iniciales de manejo.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Diagnóstico: pancreatitis aguda.",
+     "w": 0.5
+    },
+    {
+     "t": "Se confirma con 2 de 3 criterios: dolor abdominal típico, amilasa o lipasa mayor de 3 veces lo normal, y hallazgos en imágenes. Aquí cumple dolor típico y lipasa elevada.",
+     "w": 0.5
+    },
+    {
+     "t": "Hidratación (se prefiere lactato de Ringer) y analgesia con opiáceos; se evitan los AINE.",
+     "w": 0.5
+    },
+    {
+     "t": "Reiniciar la vía oral a las 24 a 48 horas (dieta sólida baja en grasa) si es leve o moderada; sin antibióticos de rutina; ecografía abdominal como estudio inicial para buscar litiasis.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Las causas más frecuentes son la litiasis biliar (40 a 70 %) y el alcohol (25 a 45 %). La lipasa es más sensible que la amilasa y dura más elevada.",
+   "fuente": "PPT"
+  }
+ ],
+ "tarjetas": []
+}

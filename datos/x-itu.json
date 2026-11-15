@@ -1,0 +1,373 @@
+{
+ "preguntas": [
+  {
+   "id": "x-itu-1",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "enunciado": "La presencia de bacterias en la orina sin síntomas clínicos (urocultivo con más de 100 000 UFC de un germen) corresponde a:",
+   "opciones": [
+    {
+     "t": "Bacteriuria asintomática",
+     "por": "Es la presencia de bacterias en orina (más de 100 000 UFC de un germen) sin síntomas."
+    },
+    {
+     "t": "Bacteriuria sintomática",
+     "por": "No corresponde. Es la presencia de bacterias en orina con síntomas urinarios (disuria, urgencia, fiebre)."
+    },
+    {
+     "t": "ITU persistente",
+     "por": "No corresponde. Es el mismo microorganismo en orina después de un tratamiento adecuado (foco oculto o resistencia)."
+    },
+    {
+     "t": "ITU complicada",
+     "por": "No corresponde. Es la ITU con signos de afectación alta o sistémica: fiebre, escalofríos, dolor de flanco o pélvico."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta entre las anteriores."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Sin síntomas ni signos, el cultivo positivo es bacteriuria asintomática. Solo se trata en situaciones específicas.",
+   "fuente": "PPT",
+   "slot": "itu",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Estas definiciones sirven para clasificar un cuadro urinario y decidir si se trata y cómo."
+  },
+  {
+   "id": "x-itu-2",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "enunciado": "La presencia de bacterias en la orina con síntomas urinarios como disuria, urgencia, fiebre, entre otros, corresponde a:",
+   "opciones": [
+    {
+     "t": "Bacteriuria sintomática",
+     "por": "Es la presencia de bacterias en orina con síntomas urinarios (disuria, urgencia, fiebre)."
+    },
+    {
+     "t": "Bacteriuria asintomática",
+     "por": "No corresponde. Es la presencia de bacterias en orina (más de 100 000 UFC de un germen) sin síntomas."
+    },
+    {
+     "t": "ITU persistente",
+     "por": "No corresponde. Es el mismo microorganismo en orina después de un tratamiento adecuado (foco oculto o resistencia)."
+    },
+    {
+     "t": "Reinfección urinaria",
+     "por": "No corresponde. Es una nueva infección tras haber sido erradicada antes (urocultivo negativo entre episodios)."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta entre las anteriores."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Lo que separa la bacteriuria sintomática de la asintomática es la presencia de síntomas.",
+   "fuente": "PPT",
+   "slot": "itu",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Estas definiciones sirven para clasificar un cuadro urinario y decidir si se trata y cómo."
+  },
+  {
+   "id": "x-itu-3",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "enunciado": "Mujer de 33 años tratada por cistitis con nitrofurantoína. Al terminar el tratamiento, el urocultivo de control aún muestra el mismo germen. Esta situación corresponde a:",
+   "opciones": [
+    {
+     "t": "ITU persistente",
+     "por": "Es el mismo microorganismo en orina después de un tratamiento adecuado (foco oculto o resistencia)."
+    },
+    {
+     "t": "Reinfección urinaria",
+     "por": "No corresponde. Es una nueva infección tras haber sido erradicada antes (urocultivo negativo entre episodios)."
+    },
+    {
+     "t": "ITU recurrente",
+     "por": "No corresponde. Son 2 o más infecciones en 6 meses, o 3 o más en un año."
+    },
+    {
+     "t": "Bacteriuria asintomática",
+     "por": "No corresponde. Es la presencia de bacterias en orina (más de 100 000 UFC de un germen) sin síntomas."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta entre las anteriores."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Persistir es seguir con el mismo germen después de un tratamiento adecuado. Hay que pensar en foco oculto (litiasis, absceso) o resistencia al antibiótico.",
+   "fuente": "PPT",
+   "slot": "itu",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Estas definiciones sirven para clasificar un cuadro urinario y decidir si se trata y cómo."
+  },
+  {
+   "id": "x-itu-4",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "enunciado": "Mujer de 30 años con cistitis tratada, con urocultivo de control negativo. Cuatro meses después consulta por disuria y el urocultivo desarrolla Klebsiella pneumoniae. Este episodio corresponde a:",
+   "opciones": [
+    {
+     "t": "Reinfección urinaria",
+     "por": "Es una nueva infección tras haber sido erradicada antes (urocultivo negativo entre episodios)."
+    },
+    {
+     "t": "ITU persistente",
+     "por": "No corresponde. Es el mismo microorganismo en orina después de un tratamiento adecuado (foco oculto o resistencia)."
+    },
+    {
+     "t": "Bacteriuria asintomática",
+     "por": "No corresponde. Es la presencia de bacterias en orina (más de 100 000 UFC de un germen) sin síntomas."
+    },
+    {
+     "t": "ITU complicada",
+     "por": "No corresponde. Es la ITU con signos de afectación alta o sistémica: fiebre, escalofríos, dolor de flanco o pélvico."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta entre las anteriores."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hubo erradicación documentada (cultivo negativo) y luego una nueva infección: es reinfección, aunque el germen sea distinto o el mismo.",
+   "fuente": "PPT",
+   "slot": "itu",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Estas definiciones sirven para clasificar un cuadro urinario y decidir si se trata y cómo."
+  },
+  {
+   "id": "x-itu-5",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "enunciado": "Mujer de 38 años con 3 episodios de cistitis documentados en los últimos 10 meses. Este patrón corresponde a:",
+   "opciones": [
+    {
+     "t": "ITU recurrente",
+     "por": "Son 2 o más infecciones en 6 meses, o 3 o más en un año."
+    },
+    {
+     "t": "Bacteriuria asintomática",
+     "por": "No corresponde. Es la presencia de bacterias en orina (más de 100 000 UFC de un germen) sin síntomas."
+    },
+    {
+     "t": "ITU persistente",
+     "por": "No corresponde. Es el mismo microorganismo en orina después de un tratamiento adecuado (foco oculto o resistencia)."
+    },
+    {
+     "t": "ITU complicada",
+     "por": "No corresponde. Es la ITU con signos de afectación alta o sistémica: fiebre, escalofríos, dolor de flanco o pélvico."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta entre las anteriores."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "ITU recurrente: 2 o más en 6 meses o 3 o más en un año. Es común en mujeres e incluye recurrencias y reinfecciones.",
+   "fuente": "PPT",
+   "slot": "itu",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Estas definiciones sirven para clasificar un cuadro urinario y decidir si se trata y cómo."
+  },
+  {
+   "id": "x-itu-6",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "enunciado": "Mujer de 26 años con disuria, fiebre de 38.5 °C, escalofríos, dolor en el flanco derecho y puño-percusión lumbar positiva. La clasificación de su ITU es:",
+   "opciones": [
+    {
+     "t": "ITU complicada",
+     "por": "Es la ITU con signos de afectación alta o sistémica: fiebre, escalofríos, dolor de flanco o pélvico."
+    },
+    {
+     "t": "Cistitis (ITU no complicada)",
+     "por": "No corresponde. Es la infección solo de la vejiga: disuria, polaquiuria, urgencia y dolor suprapúbico, sin fiebre."
+    },
+    {
+     "t": "Bacteriuria asintomática",
+     "por": "No corresponde. Es la presencia de bacterias en orina (más de 100 000 UFC de un germen) sin síntomas."
+    },
+    {
+     "t": "ITU recurrente",
+     "por": "No corresponde. Son 2 o más infecciones en 6 meses, o 3 o más en un año."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta entre las anteriores."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Fiebre, escalofríos y dolor de flanco indican afectación alta (pielonefritis): se clasifica como ITU complicada.",
+   "fuente": "PPT",
+   "slot": "itu",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Estas definiciones sirven para clasificar un cuadro urinario y decidir si se trata y cómo."
+  },
+  {
+   "id": "x-itu-7",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "enunciado": "Mujer de 22 años con disuria, polaquiuria, urgencia y dolor suprapúbico desde ayer, sin fiebre ni dolor de flanco. La clasificación de su ITU es:",
+   "opciones": [
+    {
+     "t": "Cistitis (ITU no complicada)",
+     "por": "Es la infección solo de la vejiga: disuria, polaquiuria, urgencia y dolor suprapúbico, sin fiebre."
+    },
+    {
+     "t": "ITU complicada",
+     "por": "No corresponde. Es la ITU con signos de afectación alta o sistémica: fiebre, escalofríos, dolor de flanco o pélvico."
+    },
+    {
+     "t": "Bacteriuria asintomática",
+     "por": "No corresponde. Es la presencia de bacterias en orina (más de 100 000 UFC de un germen) sin síntomas."
+    },
+    {
+     "t": "ITU persistente",
+     "por": "No corresponde. Es el mismo microorganismo en orina después de un tratamiento adecuado (foco oculto o resistencia)."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta entre las anteriores."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La infección limitada a la vejiga, sin signos sistémicos, es ITU no complicada (cistitis).",
+   "fuente": "PPT",
+   "slot": "itu",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Estas definiciones sirven para clasificar un cuadro urinario y decidir si se trata y cómo."
+  },
+  {
+   "id": "x-itu-8",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "enunciado": "¿En cuál de las siguientes situaciones NO se trata la bacteriuria asintomática?",
+   "opciones": [
+    {
+     "t": "Mujer premenopáusica con diabetes mellitus",
+     "por": "En la diabetes no se trata. Tratar la bacteriuria asintomática no reduce complicaciones y favorece resistencias."
+    },
+    {
+     "t": "Gestante de 14 semanas",
+     "por": "Sí se trata: en el embarazo aumenta el riesgo de pielonefritis y de parto prematuro."
+    },
+    {
+     "t": "Paciente que será sometido a una intervención urológica",
+     "por": "Sí se trata antes de procedimientos urológicos que sangran."
+    },
+    {
+     "t": "Receptor de trasplante renal",
+     "por": "Sí se trata: se cuenta entre las situaciones específicas."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una situación en la que no se trata."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Se trata en embarazo, antes de una intervención urológica y en trasplante renal. No se trata en premenopáusicas, ancianos, diabetes, pacientes con sonda y lesión espinal.",
+   "fuente": "PPT",
+   "slot": "itu",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Estas definiciones sirven para clasificar un cuadro urinario y decidir si se trata y cómo."
+  },
+  {
+   "id": "x-itu-9",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "enunciado": "Mujer de 25 años con cistitis no complicada. ¿Cuál de estas es una opción oral de primera línea?",
+   "opciones": [
+    {
+     "t": "Fosfomicina 3 g en dosis única",
+     "por": "Es esquema de cistitis: fosfomicina 3 g por vía oral en una dosis."
+    },
+    {
+     "t": "Meropenem intravenoso por 7 días",
+     "por": "Es un carbapenémico, se reserva para infecciones con riesgo de BLEE (resistencia), no para una cistitis simple."
+    },
+    {
+     "t": "Vancomicina intravenosa",
+     "por": "Cubre cocos gram positivos, no es tratamiento de cistitis por E. coli."
+    },
+    {
+     "t": "Amikacina intramuscular por 14 días",
+     "por": "No es tratamiento de una cistitis no complicada."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Sí hay una opción correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Esquemas de cistitis: fosfomicina 3 g VO una dosis, nitrofurantoína 100 mg cada 12 h por 5 días, o trimetoprima-sulfametoxazol solo si la resistencia local es menor de 20 %.",
+   "fuente": "PPT",
+   "slot": "itu",
+   "contexto": "BLEE = betalactamasas de espectro extendido: enzimas de algunas bacterias que destruyen penicilinas y cefalosporinas; los carbapenémicos suelen resistir su efecto."
+  },
+  {
+   "id": "x-itu-r1",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "concepto",
+   "enunciado": "Define: bacteriuria asintomática, ITU persistente, reinfección urinaria e ITU recurrente.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Bacteriuria asintomática: bacterias en orina (más de 100 000 UFC de un germen) sin síntomas ni signos de ITU.",
+     "w": 0.5
+    },
+    {
+     "t": "ITU persistente: el mismo microorganismo sigue en la orina después de un tratamiento adecuado (foco oculto o resistencia).",
+     "w": 0.5
+    },
+    {
+     "t": "Reinfección: nueva infección, por la misma cepa u otra, tras haber sido erradicada (urocultivo negativo entre episodios).",
+     "w": 0.5
+    },
+    {
+     "t": "ITU recurrente: 2 o más infecciones en 6 meses o 3 o más en un año.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Son las definiciones que más se piden de este tema, con y sin caso clínico.",
+   "fuente": "PPT",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Estas definiciones sirven para clasificar un cuadro urinario y decidir si se trata y cómo."
+  },
+  {
+   "id": "x-itu-r2",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 46 años con fiebre de 38.7 °C, dolor lumbar bilateral (más en el izquierdo), orina de mal olor, disuria y náuseas. Puño-percusión lumbar positiva. Leucocitos 11 200/mm³ con desviación izquierda y 500 leucocitos por campo en la orina.\n\nSustenta el diagnóstico, la clasificación y el plan inicial de manejo.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Diagnóstico: pielonefritis aguda; se clasifica como ITU complicada (fiebre, dolor de flanco, afectación alta).",
+     "w": 0.5
+    },
+    {
+     "t": "Solicitar urocultivo antes de iniciar el antibiótico.",
+     "w": 0.5
+    },
+    {
+     "t": "Evaluar gravedad y riesgo de resistencia (BLEE) para elegir el esquema.",
+     "w": 0.5
+    },
+    {
+     "t": "Esquema: ceftriaxona si no hay riesgo de BLEE; carbapenémico si lo hay. Ajustar según urocultivo y antibiograma; imágenes si hay sospecha de obstrucción o no mejora.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "El antibiograma local manda: en Perú E. coli es el germen más frecuente.",
+   "fuente": "PPT",
+   "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Estas definiciones sirven para clasificar un cuadro urinario y decidir si se trata y cómo."
+  }
+ ],
+ "tarjetas": []
+}

@@ -140,6 +140,20 @@ h1,h2,h3{font-weight:400;line-height:1.55;letter-spacing:0}
 .q{line-height:1.55}
 @media (max-width:480px){.actions{grid-template-columns:1fr}}
 .case{font-size:15px;font-weight:500;line-height:1.55;margin:4px 0 12px}
+.rctxt{font:14px/1.5 var(--body);min-height:120px;margin-top:6px}
+.mine{background:#fff;border:3px dashed var(--ink);border-radius:12px;padding:8px 12px;margin:12px 0;font-size:14px}
+.mine p{margin:2px 0}
+.pts{display:flex;flex-direction:column;gap:8px;margin:8px 0}
+.pt{display:flex;gap:10px;align-items:flex-start;text-align:left;background:#fff;color:var(--text);border:3px solid var(--ink);border-radius:12px;padding:9px 11px;font:600 14px/1.45 var(--body);cursor:pointer;box-shadow:3px 3px 0 var(--ink)}
+.pt small{font-weight:800;opacity:.6;margin-left:4px}
+.pt .box{flex:none;width:22px;height:22px;border:3px solid var(--ink);border-radius:6px;display:flex;align-items:center;justify-content:center;font-weight:900;background:#fff}
+.pt.on{background:#d7f5c9}.pt.on .box{background:var(--good);color:#fff}
+.pt.ok{background:#d7f5c9}.pt.ok .box{background:var(--good);color:#fff}
+.pt.bad{background:#ffd6d6}.pt.bad .box{background:#fff;color:var(--bad)}
+.pt:disabled{cursor:default}
+.score{font-family:var(--display);font-size:14px;margin:10px 0 4px}
+.tagrc{font-family:var(--display);font-size:9px;background:var(--ink);color:var(--bg);padding:5px 7px;border-radius:6px}
+.note.comp{border-left-color:var(--derma)}
 .ctx{font-size:13.5px}
 .catbox{display:flex;align-items:center;gap:12px;margin-bottom:10px}
 .catbox svg{flex:none;animation:catpop .45s cubic-bezier(.3,1.6,.5,1) both}
@@ -182,6 +196,9 @@ function allQ(){ const m = new Map(); BANCO.preguntas.concat(S.custom.preguntas)
 function allC(){ const m = new Map(); BANCO.tarjetas.concat(S.custom.tarjetas).forEach(c => m.set(c.id, c)); return [...m.values()]; }
 const level = xp => 1 + Math.floor(Math.sqrt(xp/40));
 const xpFor = l => 40*(l-1)*(l-1);
+const isRC = q => q.tipo === 'rc';
+const ptsOf = q => isRC(q) ? (q.pts || 2) : 1.25;
+const fmt = n => String(Math.round(n*100)/100).replace('.', ',');
 const isFallada = q => { const s = S.q[q.id]; return !!s && s.bad > 0 && s.streak < 2; };
 const isDominada = q => { const s = S.q[q.id]; return !!s && s.streak >= 2; };
 function dayStreak(){
@@ -257,8 +274,9 @@ function vHome(){
     segs(pct, 20)+
     '<div class="stats"><div><b>'+S.xp+'</b><span>XP total</span></div><div><b>'+dayStreak()+'</b><span>días de racha</span></div><div><b>'+dom+'/'+qs.length+'</b><span>dominadas</span></div></div></div>'+
     '<div><p class="label">MODOS</p><div class="actions">'+
-      '<button class="btn act gold" data-act="quick"><b>RONDA RÁPIDA</b><span>10 preguntas mezcladas, con vidas</span></button>'+
+      '<button class="btn act gold" data-act="quick"><b>RONDA RÁPIDA</b><span>10 de opción múltiple, con vidas</span></button>'+
       '<button class="btn act" data-act="setup" data-area="all"><b>RONDA A MEDIDA</b><span>Elige área, tema y cantidad</span></button>'+
+      '<button class="btn act gold" data-act="sim"><b>SIMULACRO</b><span>11 preguntas, 20 puntos, como el examen</span></button>'+
       '<button class="btn act" data-act="falladas" '+(nFall ? '' : 'disabled')+'><b>REPASAR FALLADAS</b><span>'+nFall+' por dominar (necesitas 2 aciertos seguidos)</span></button>'+
       '<button class="btn act" data-act="cards"><b>FLASHCARDS</b><span>'+nDue+' por repasar hoy, repetición espaciada</span></button>'+
     '</div></div>'+
@@ -271,6 +289,7 @@ function vHome(){
 function vSetup(){
   const qs = allQ();
   const temas = [...new Set(qs.filter(q => V.area === 'all' || q.area === V.area).map(q => q.tema))];
+  const bq = filt({area:V.area, tema:V.tema, src:V.src}), nRc = bq.filter(isRC).length, nOm = bq.length - nRc;
   const chip = (act, key, val, label) => '<button class="chip '+(V[key] === val ? 'on' : '')+'" data-act="'+act+'" data-k="'+key+'" data-v="'+esc(val)+'">'+esc(label)+'</button>';
   return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button></div>'+
    '<h2 style="font-size:15px">RONDA A MEDIDA</h2>'+
@@ -278,17 +297,53 @@ function vSetup(){
     '<div><p class="label">ÁREA</p><div class="chips">'+chip('opt','area','all','Todas')+AREAS.map(a => chip('opt','area',a.id,a.n)).join('')+'</div></div>'+
     '<div><p class="label">TEMA</p><div class="chips">'+chip('opt','tema','all','Todos')+temas.map(t => chip('opt','tema',t,t)).join('')+'</div></div>'+
     '<div><p class="label">PREGUNTAS</p><div class="chips">'+[10,20,50,100].map(n => chip('opt','n',String(n),String(n))).join('')+chip('opt','n','0','Todas')+'</div></div>'+
+    '<div><p class="label">TIPO DE PREGUNTA</p><div class="chips">'+chip('opt','tipo','mixto','Mixto')+chip('opt','tipo','om','Solo opción múltiple ('+nOm+')')+chip('opt','tipo','rc','Solo respuesta corta ('+nRc+')')+'</div></div>'+
+    (V.tipo === 'mixto' ? '<div><p class="label">PROPORCIÓN</p><div class="chips">'+chip('opt','mezcla','examen','Como el examen (2 de 11 de opción múltiple)')+chip('opt','mezcla','libre','Libre')+'</div></div>'+
+      (V.mezcla === 'libre' ? '<div><p class="label">OPCIÓN MÚLTIPLE EN LA MEZCLA</p><div class="chips">'+['25','50','75'].map(n => chip('opt','pct',n,n+' %')).join('')+'</div></div>' : '') : '')+
     '<div><p class="label">QUÉ PREGUNTAS</p><div class="chips">'+chip('opt','src','todas','Todas')+chip('opt','src','nuevas','Solo nuevas')+chip('opt','src','falladas','Solo falladas')+'</div></div>'+
     '<div><p class="label">MODO</p><div class="chips">'+chip('opt','modo','practica','Práctica libre')+chip('opt','modo','boss','Boss: 3 vidas')+'</div></div>'+
     '<button class="btn gold" data-act="start">Empezar ronda</button>'+
    '</div></div>';
 }
 
-function buildOpts(q){ return shuffle(q.opciones.map((o, i) => ({t:o.t, full:o.full, por:o.por, ok:i === q.correcta}))); }
+function buildOpts(q){
+  if(isRC(q)) return [];
+  const all = q.opciones.map((o, i) => ({t:o.t, full:o.full, por:o.por, ok:i === q.correcta}));
+  const nin = all.filter(o => /^ninguna de las anteriores/i.test(o.t));
+  return shuffle(all.filter(o => nin.indexOf(o) < 0)).concat(nin);
+}
+function noteHtml(q){
+  if(!q.nota) return '';
+  const c = q.nota.charAt(0);
+  if(c === '*') return '<p class="note"><b>* Corregido, no es igual al PPT:</b> '+nl(q.nota.replace(/^\*\s*/, ''))+'</p>';
+  if(c === '+') return '<p class="note comp"><b>Complemento, no está en el PPT:</b> '+nl(q.nota.replace(/^\+\s*/, ''))+'</p>';
+  return '<p class="note"><b>Para tu práctica, no para el examen:</b> '+nl(q.nota)+'</p>';
+}
+const curQ = () => allQ().find(x => x.id === V.ids[V.i]);
+function rcReset(){ V.rc = {txt:'', rev:false, chk:[]}; }
+function rcBody(q){
+  const P = q.puntos || [], pts = ptsOf(q); let h = '';
+  if(!V.rc.rev){
+    return '<label class="label" for="rctxt">TU RESPUESTA (opcional)</label><textarea id="rctxt" class="rctxt" placeholder="Escríbela aquí o piénsala, y luego mira la respuesta modelo">'+esc(V.rc.txt)+'</textarea>'+
+      '<div class="row" style="margin-top:12px"><button class="btn gold grow" data-act="rcrev">Ver respuesta modelo</button></div>';
+  }
+  const earned = P.reduce((t, p, i) => t + (V.rc.chk[i] ? p.w : 0), 0);
+  if(V.rc.txt.trim()) h += '<div class="mine"><p class="label">TU RESPUESTA</p><p>'+nl(V.rc.txt)+'</p></div>';
+  h += '<p class="label">RESPUESTA MODELO · '+(V.answered ? 'LO QUE CUBRISTE' : 'MARCA LO QUE CUBRISTE')+'</p><div class="pts">'+
+    P.map((p, i) => { const on = !!V.rc.chk[i]; const cls = V.answered ? (on ? 'ok' : 'bad') : (on ? 'on' : '');
+      return '<button class="pt '+cls+'" data-act="rctoggle" data-i="'+i+'" '+(V.answered ? 'disabled' : '')+'><span class="box">'+(on ? '✓' : (V.answered ? '✗' : ''))+'</span><span>'+esc(p.t)+'<small>'+fmt(p.w)+' pt</small></span></button>'; }).join('')+'</div>'+
+    '<p class="score">'+fmt(earned)+' / '+fmt(pts)+' puntos</p>';
+  if(!V.answered) return h + '<div class="row"><button class="btn gold grow" data-act="rcdone">Confirmar mi puntaje</button></div>';
+  const ok = V.rcFrac >= 0.7;
+  return h + '<div class="fb '+(ok ? 'ok' : 'bad')+'">'+catBox(ok ? 'ok' : 'bad', V.catMsg || '')+'<h3>'+(ok ? '¡MUY BIEN! +'+V.lastXp+' XP' : 'PARA REPASAR'+(V.lastXp ? ' · +'+V.lastXp+' XP' : ''))+'</h3>'+
+    (q.explicacion ? '<p>'+nl(q.explicacion)+'</p>' : '')+noteHtml(q)+'</div>'+
+    '<div class="row" style="margin-top:14px"><button class="btn gold grow" data-act="next">'+(V.lives <= 0 && V.modo === 'boss' ? 'Ver resultado' : (V.i+1 >= V.ids.length ? 'Terminar ronda' : 'Siguiente'))+'</button></div>';
+}
 
 function vPlay(){
   const q = allQ().find(x => x.id === V.ids[V.i]); const a = areaOf(q.area);
-  const hearts = V.modo === 'boss' ? '<div class="hearts" aria-label="Vidas">'+[0,1,2].map(i => heart(i < V.lives)).join('')+'</div>' : '<span class="src">Práctica</span>';
+  const isrc = isRC(q);
+  const hearts = V.modo === 'boss' ? '<div class="hearts" aria-label="Vidas">'+[0,1,2].map(i => heart(i < V.lives)).join('')+'</div>' : '<span class="src">'+(V.modo === 'sim' ? 'Simulacro' : 'Práctica')+'</span>';
   const letters = 'ABCDEFGH';
   const opts = V.opts.map((o, i) => {
     let cls = '';
@@ -296,11 +351,11 @@ function vPlay(){
     return '<button class="opt '+cls+'" data-act="pick" data-i="'+i+'" '+(V.answered ? 'disabled' : '')+'><span class="k">'+letters[i]+'</span><span>'+esc(V.answered && o.ok && o.full ? o.full : o.t)+(V.answered && o.por ? '<span class="why">'+esc(o.por)+'</span>' : '')+'</span></button>';
   }).join('');
   let fb = '';
-  if(V.answered){
+  if(V.answered && !isrc){
     const ok = V.opts[V.picked].ok;
     fb = '<div class="fb '+(ok ? 'ok' : 'bad')+'">'+catBox(ok ? 'ok' : 'bad', V.catMsg || '')+'<h3>'+(ok ? '¡CORRECTO! +'+V.lastXp+' XP' : 'FALLASTE')+'</h3>'+
       (ok ? '' : '<p class="miss"><b>Dónde fallaste:</b> elegiste «'+esc(V.opts[V.picked].t)+'». '+esc(V.opts[V.picked].por || '')+'</p>')+'<p>'+nl(q.explicacion || '')+'</p>'+
-      (q.nota ? (q.nota.charAt(0) === '*' ? '<p class="note"><b>* Corregido, no es igual al PPT:</b> '+nl(q.nota.replace(/^\*\s*/, ''))+'</p>' : '<p class="note"><b>Para tu práctica, no para el examen:</b> '+nl(q.nota)+'</p>') : '')+
+      noteHtml(q)+
       (q.guia ? '<details class="guia"><summary>Lo que dicen las guías</summary><p>'+nl(q.guia.t)+'</p><p class="gsrc">Guía: '+esc(q.guia.f)+'</p></details>' : '')+
       '</div>'+
       '<div class="row" style="margin-top:14px"><button class="btn gold grow" data-act="next">'+(V.lives <= 0 && V.modo === 'boss' ? 'Ver resultado' : (V.i+1 >= V.ids.length ? 'Terminar ronda' : 'Siguiente'))+'</button></div>';
@@ -308,11 +363,12 @@ function vPlay(){
   return '<div>'+
     '<div class="hud"><button class="btn small ghost" data-act="home">Salir</button><div class="grow">'+segs((V.i + (V.answered ? 1 : 0))/V.ids.length, Math.min(V.ids.length, 20))+'</div><span class="src">'+(V.i+1)+'/'+V.ids.length+'</span>'+hearts+'<span class="combo">'+(V.combo > 1 ? 'x'+V.combo : '')+'</span></div>'+
     '<div class="panel">'+
-      '<div class="row" style="margin-bottom:10px"><span class="pill" style="color:'+a.c+'">'+esc(a.n)+'</span><span class="src grow">'+esc(q.tema)+'</span>'+(q.demo ? '<span class="demo">DEMO</span>' : '')+'</div>'+
+      '<div class="row" style="margin-bottom:10px"><span class="pill" style="color:'+a.c+'">'+esc(a.n)+'</span><span class="src grow">'+esc(q.tema)+'</span>'+(isrc ? '<span class="tagrc">'+({caso:'CASO', concepto:'CONCEPTO', escala:'ESCALA', lista:'LISTA'}[q.sub] || 'RESPUESTA CORTA')+'</span>' : '')+(q.demo ? '<span class="demo">DEMO</span>' : '')+'</div>'+
       (q.contexto ? '<div class="ctx">'+nl(q.contexto)+'</div>' : '')+
       (q.img ? '<img class="qimg" alt="Imagen de la pregunta" src="'+esc(q.img)+'">' : '')+
+      (isrc || V.modo === 'sim' ? '<div class="row" style="margin-bottom:6px"><span class="src">Vale '+fmt(ptsOf(q))+' puntos</span></div>' : '')+
       (q.enunciado.includes('\n\n') ? '<p class="case">'+nl(q.enunciado.split('\n\n').slice(0,-1).join('\n\n'))+'</p>' : '')+'<p class="q">'+nl(q.enunciado.split('\n\n').pop())+'</p>'+
-      '<div class="opts">'+opts+'</div>'+fb+
+      (isrc ? rcBody(q) : '<div class="opts">'+opts+'</div>'+fb)+
     '</div></div>';
 }
 
@@ -320,8 +376,9 @@ function vResult(){
   const qs = allQ(); const byId = id => qs.find(q => q.id === id);
   const acc = V.ids.length ? Math.round(100*V.ok/V.answeredN) : 0;
   const fails = V.fails.map(byId).filter(Boolean).map(q => {
-    const c = q.opciones[q.correcta];
     const e = q.enunciado.split('\n\n').pop();
+    if(isRC(q)){ const m = (V.missMap[q.id] || []).map(i => q.puntos[i] && q.puntos[i].t).filter(Boolean); return '<div class="res-item">'+esc(e.length > 170 ? e.slice(0,170)+'…' : e)+'<br><b>Te faltó: '+esc(m.join(' · '))+'</b></div>'; }
+    const c = q.opciones[q.correcta];
     return '<div class="res-item">'+esc(e.length > 170 ? e.slice(0,170)+'…' : e)+'<br><b>Respuesta: '+esc(c.t)+'</b></div>';
   }).join('');
   const lvUp = level(S.xp) > V.lvStart;
@@ -330,6 +387,7 @@ function vResult(){
       '<div style="display:flex;justify-content:center">'+catBox((V.dead || acc < 50) ? 'bad' : 'ok', V.dead ? '¡Perdimos, pero repasamos y volvemos!' : (acc >= 80 ? '¡Ganaste! ¡Miau-ravilloso!' : acc >= 50 ? '¡Buena ronda! Repasa las falladas.' : 'Ánimo, repasa y vuelve a intentar.'), 5)+'</div>'+
       '<div class="big">'+V.ok+' / '+V.answeredN+'</div>'+
       '<p class="sub">'+acc+'% de aciertos · mejor combo x'+V.maxCombo+'</p>'+
+      (V.hasRC || V.sim ? '<p class="score" style="margin-top:12px">Puntaje: '+fmt(V.earn)+' / '+fmt(V.max)+(V.sim && V.max ? ' · nota '+fmt(V.earn/V.max*20)+' / 20' : '')+'</p>' : '')+
       '<p style="font-family:var(--display);font-size:16px;color:var(--ink);margin:14px 0 4px">+<span id="xpcount" data-t="'+V.xp+'">'+V.xp+'</span> XP</p>'+
       (V.bonus ? '<p class="src">Incluye bonus de 20 XP por superar 80%.</p>' : '')+
       (lvUp ? '<p class="lvl" style="margin-top:10px">¡SUBISTE AL NIVEL '+level(S.xp)+'!</p>' : '')+
@@ -398,21 +456,44 @@ function render(){
 function startRound(ids, modo, redo){
   if(!ids.length){ toast('No hay preguntas con ese filtro.'); return; }
   const qs = allQ();
-  V = {name:'play', ids, i:0, modo, lives:3, combo:0, maxCombo:0, ok:0, answeredN:0, xp:0, fails:[], answered:false, picked:null, lastXp:0, lvStart:level(S.xp), dead:false, bonus:false};
-  V.opts = buildOpts(qs.find(q => q.id === ids[0]));
+  V = {name:'play', sim:modo === 'sim', earn:0, max:0, hasRC:false, missMap:{}, rcFrac:0, ids, i:0, modo, lives:3, combo:0, maxCombo:0, ok:0, answeredN:0, xp:0, fails:[], answered:false, picked:null, lastXp:0, lvStart:level(S.xp), dead:false, bonus:false};
+  V.opts = buildOpts(qs.find(q => q.id === ids[0])); rcReset();
   render(); window.scrollTo(0,0);
 }
-function pool(cfg){
+function filt(cfg){
   let p = allQ().filter(q => (cfg.area === 'all' || q.area === cfg.area) && (cfg.tema === 'all' || q.tema === cfg.tema));
   if(cfg.src === 'nuevas') p = p.filter(q => !S.q[q.id]);
   if(cfg.src === 'falladas') p = p.filter(isFallada);
-  p = shuffle(p);
-  return cfg.n > 0 ? p.slice(0, cfg.n) : p;
+  return p;
+}
+function pool(cfg){
+  const base = filt(cfg), om = shuffle(base.filter(q => !isRC(q))), rc = shuffle(base.filter(isRC));
+  const tipo = cfg.tipo || 'om';
+  if(tipo === 'om') return cfg.n > 0 ? om.slice(0, cfg.n) : om;
+  if(tipo === 'rc') return cfg.n > 0 ? rc.slice(0, cfg.n) : rc;
+  if(!(cfg.n > 0)) return shuffle(om.concat(rc));
+  const frac = cfg.mezcla === 'libre' ? (+cfg.pct || 50)/100 : 2/11;
+  let nOm = Math.min(om.length, Math.round(cfg.n*frac)), nRc = Math.min(rc.length, cfg.n - nOm);
+  nOm = Math.min(om.length, cfg.n - nRc);
+  return shuffle(om.slice(0, nOm).concat(rc.slice(0, nRc)));
+}
+const SIM_TPL = [['nefro','rc'],['nefro','rc'],['nefro','rc','gasometria'],['nefro','rc'],['nefro','om','itu'],['gastro','rc'],['gastro','rc'],['gastro','om','pancreatitis'],['gastro','rc'],['derma','rc'],['derma','rc']];
+function simIds(){
+  const qs = allQ(), used = new Set(), out = [];
+  const take = (f) => { const c = shuffle(qs.filter(q => !used.has(q.id) && f(q))); return c[0] || null; };
+  SIM_TPL.forEach(([area, tipo, slot]) => {
+    const wantRC = tipo === 'rc';
+    const q = take(q => q.area === area && isRC(q) === wantRC && (!slot || q.slot === slot)) ||
+              take(q => q.area === area && (!slot || q.slot === slot)) ||
+              take(q => q.area === area && isRC(q) === wantRC) || take(q => q.area === area);
+    if(q){ used.add(q.id); out.push(q.id); }
+  });
+  return out;
 }
 function pick(i){
   if(V.name !== 'play' || V.answered) return;
   const q = allQ().find(x => x.id === V.ids[V.i]); const o = V.opts[i]; if(!o) return;
-  V.answered = true; V.picked = i; V.answeredN++;
+  V.answered = true; V.picked = i; V.answeredN++; V.max += 1.25; if(o.ok) V.earn += 1.25;
   const st = S.q[q.id] || {ok:0, bad:0, streak:0};
   if(o.ok){
     st.ok++; st.streak++; V.ok++; V.combo++; V.maxCombo = Math.max(V.maxCombo, V.combo);
@@ -432,7 +513,7 @@ function next(){
     if(!V.dead && V.answeredN >= 5 && acc >= 0.8){ S.xp += 20; V.xp += 20; V.bonus = true; save(); }
     const keep = V; V = Object.assign({}, keep, {name:'result'}); render(); window.scrollTo(0,0); return;
   }
-  V.i++; V.answered = false; V.picked = null;
+  V.i++; V.answered = false; V.picked = null; rcReset();
   V.opts = buildOpts(allQ().find(q => q.id === V.ids[V.i]));
   render(); window.scrollTo(0,0);
 }
@@ -450,18 +531,38 @@ function rate(r){
 }
 
 /* ---------- acciones ---------- */
-const OPT = {area:'all', tema:'all', n:'10', src:'todas', modo:'practica'};
+const OPT = {area:'all', tema:'all', n:'10', src:'todas', modo:'practica', tipo:'mixto', mezcla:'examen', pct:'50'};
 const A = {
   home: () => go({name:'home'}),
-  quick: () => startRound(pool({area:'all', tema:'all', n:10, src:'todas'}).map(q => q.id), 'boss'),
+  quick: () => startRound(pool({area:'all', tema:'all', n:10, src:'todas', tipo:'om'}).map(q => q.id), 'boss'),
+  sim: () => { const ids = simIds(); if(ids.length < 11){ toast('Aún no hay suficientes preguntas para un simulacro completo.'); } startRound(ids, 'sim'); },
   falladas: () => startRound(shuffle(allQ().filter(isFallada)).map(q => q.id), 'practica'),
   setup: d => go(Object.assign({name:'setup'}, OPT, {area:d.area || 'all', tema:'all'})),
-  opt: d => { V[d.k] = d.v; if(d.k === 'area') V.tema = 'all'; ['area','tema','n','src','modo'].forEach(k => OPT[k] = V[k]); render(); },
-  start: () => startRound(pool({area:V.area, tema:V.tema, n:+V.n, src:V.src}).map(q => q.id), V.modo),
+  opt: d => { V[d.k] = d.v; if(d.k === 'area') V.tema = 'all'; ['area','tema','n','src','modo','tipo','mezcla','pct'].forEach(k => OPT[k] = V[k]); render(); },
+  start: () => {
+    const cfg = {area:V.area, tema:V.tema, n:+V.n, src:V.src, tipo:V.tipo, mezcla:V.mezcla, pct:V.pct};
+    const ids = pool(cfg).map(q => q.id);
+    if(V.tipo === 'mixto' && +V.n > 0){ const b = filt(cfg), r = b.filter(isRC).length; const wantRc = +V.n - Math.round(+V.n*(V.mezcla === 'libre' ? (+V.pct)/100 : 2/11)); if(r < wantRc) toast('Con este filtro solo hay '+r+' de respuesta corta; completé con opción múltiple.'); }
+    startRound(ids, V.modo);
+  },
+  rcrev: () => { const t = document.getElementById('rctxt'); V.rc.txt = t ? t.value : ''; V.rc.rev = true; render(); },
+  rctoggle: d => { if(V.answered) return; V.rc.chk[+d.i] = !V.rc.chk[+d.i]; render(); },
+  rcdone: () => {
+    const q = curQ(); if(!q || !isRC(q) || V.answered) return;
+    const P = q.puntos || [], pts = ptsOf(q);
+    const earned = P.reduce((t, p, i) => t + (V.rc.chk[i] ? p.w : 0), 0), frac = pts ? earned/pts : 0, ok = frac >= 0.7;
+    V.answered = true; V.answeredN++; V.earn += earned; V.max += pts; V.hasRC = true; V.rcFrac = frac;
+    const st = S.q[q.id] || {ok:0, bad:0, streak:0};
+    if(ok){ st.ok++; st.streak++; V.ok++; V.combo++; V.maxCombo = Math.max(V.maxCombo, V.combo); V.lastXp = 10 + Math.min(V.combo-1, 5)*2; }
+    else { st.bad++; st.streak = 0; V.combo = 0; V.lastXp = Math.round(6*frac); V.fails.push(q.id); if(V.modo === 'boss' && frac < 0.5) V.lives--; }
+    st.miss = P.map((p, i) => V.rc.chk[i] ? -1 : i).filter(i => i >= 0); V.missMap[q.id] = st.miss;
+    V.catMsg = ok ? (V.combo >= 3 ? '¡Racha de '+V.combo+'! ¡Miau-gnífico!' : catPick(CAT_OK)) : catPick(CAT_BAD);
+    S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; markDay(); save(); render();
+  },
   pick: d => pick(+d.i),
   next: () => next(),
   retryfails: () => startRound(shuffle(V.fails), 'practica'),
-  replay: () => startRound(shuffle(V.ids), V.modo),
+  replay: () => V.sim ? A.sim() : startRound(shuffle(V.ids), V.modo),
   cards: () => startCards(false),
   cardsall: () => startCards(true),
   flip: () => { V.flipped = !V.flipped; render(); },
@@ -478,7 +579,9 @@ const A = {
       const o = JSON.parse(document.getElementById('imp').value); let np = 0, nt = 0;
       const clean = s => String(s).replace(/[^\w-]/g, '_');
       (o.preguntas || []).forEach(q => {
-        if(!q.id || !q.enunciado || !Array.isArray(q.opciones) || q.opciones.length < 2 || !Number.isInteger(q.correcta) || !q.opciones[q.correcta] || !AREAS.some(a => a.id === q.area)) return;
+        if(!q.id || !q.enunciado || !AREAS.some(a => a.id === q.area)) return;
+        if(q.tipo === 'rc'){ if(!Array.isArray(q.puntos) || !q.puntos.length || !(q.pts > 0)) return; }
+        else if(!Array.isArray(q.opciones) || q.opciones.length < 2 || !Number.isInteger(q.correcta) || !q.opciones[q.correcta]) return;
         q.id = clean(q.id); q.tema = q.tema || 'General';
         S.custom.preguntas = S.custom.preguntas.filter(x => x.id !== q.id).concat([q]); np++;
       });
