@@ -274,7 +274,7 @@ function vHome(){
     segs(pct, 20)+
     '<div class="stats"><div><b>'+S.xp+'</b><span>XP total</span></div><div><b>'+dayStreak()+'</b><span>días de racha</span></div><div><b>'+dom+'/'+qs.length+'</b><span>dominadas</span></div></div></div>'+
     '<div><p class="label">MODOS</p><div class="actions">'+
-      '<button class="btn act gold" data-act="quick"><b>RONDA RÁPIDA</b><span>10 de opción múltiple, con vidas</span></button>'+
+      '<button class="btn act gold" data-act="quick"><b>RONDA RÁPIDA</b><span>10 preguntas: casi todas de opción múltiple y 2 de respuesta corta, con vidas</span></button>'+
       '<button class="btn act" data-act="setup" data-area="all"><b>RONDA A MEDIDA</b><span>Elige área, tema y cantidad</span></button>'+
       '<button class="btn act gold" data-act="sim"><b>SIMULACRO</b><span>11 preguntas, 20 puntos, como el examen</span></button>'+
       '<button class="btn act" data-act="falladas" '+(nFall ? '' : 'disabled')+'><b>REPASAR FALLADAS</b><span>'+nFall+' por dominar (necesitas 2 aciertos seguidos)</span></button>'+
@@ -534,7 +534,7 @@ function rate(r){
 const OPT = {area:'all', tema:'all', n:'10', src:'todas', modo:'practica', tipo:'mixto', mezcla:'examen', pct:'50'};
 const A = {
   home: () => go({name:'home'}),
-  quick: () => startRound(pool({area:'all', tema:'all', n:10, src:'todas', tipo:'om'}).map(q => q.id), 'boss'),
+  quick: () => startRound(pool({area:'all', tema:'all', n:10, src:'todas', tipo:'mixto', mezcla:'libre', pct:'80'}).map(q => q.id), 'boss'),
   sim: () => { const ids = simIds(); if(ids.length < 11){ toast('Aún no hay suficientes preguntas para un simulacro completo.'); } startRound(ids, 'sim'); },
   falladas: () => startRound(shuffle(allQ().filter(isFallada)).map(q => q.id), 'practica'),
   setup: d => go(Object.assign({name:'setup'}, OPT, {area:d.area || 'all', tema:'all'})),
