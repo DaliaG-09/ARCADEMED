@@ -371,37 +371,6 @@
    }
   },
   {
-   "id": "n-ira-case2",
-   "area": "nefro",
-   "tema": "Injuria renal aguda",
-   "dif": 3,
-   "enunciado": "Varón de 43 años con neumonía, tratado con vancomicina y piperacilina-tazobactam. Al día 5: hipotensión (85/50), diuresis de 50 mL en 14 h, creatinina 1.1 → 4.5 mg/dL, K⁺ 5.9, HCO₃⁻ 15, cilindros granulosos y ecografía renal normal. ¿Diagnóstico?",
-   "opciones": [
-    {
-     "t": "NTA nefrotóxica e isquémica, AKI-III",
-     "por": "Hay dos agresores sobre el túbulo: hipotensión (isquemia) y fármacos nefrotóxicos. Los cilindros granulosos indican daño tubular, y la ecografía normal descarta obstrucción.",
-     "full": "IRA renal por necrosis tubular aguda (nefrotóxica e isquémica), estadio AKI-III"
-    },
-    {
-     "t": "IRA postrenal por obstrucción",
-     "por": "La ecografía es normal, sin dilatación pielocalicial."
-    },
-    {
-     "t": "IRA prerrenal pura por hipovolemia",
-     "por": "La hipotensión participa, pero los cilindros granulosos indican que ya hay daño tubular."
-    },
-    {
-     "t": "Glomerulonefritis aguda postinfecciosa",
-     "por": "No hay hematuria con cilindros hemáticos ni proteinuria marcada."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "K⁺ 5.9 (hiperpotasemia) y HCO₃⁻ 15 (acidosis metabólica) son las alteraciones hidroelectrolíticas y ácido-base de la definición.",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 22 a 24",
-   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina.",
-   "nota": "Que sea necrosis tubular aguda es la interpretación a partir de los datos."
-  },
-  {
    "id": "n-ira-oligo",
    "area": "nefro",
    "tema": "Injuria renal aguda",

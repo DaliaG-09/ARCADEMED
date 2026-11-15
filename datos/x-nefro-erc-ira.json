@@ -93,7 +93,8 @@
     }
    ],
    "explicacion": "En G1 y G2 solo se habla de ERC si hay otro marcador de daño renal.",
-   "fuente": "PPT"
+   "fuente": "PPT",
+   "contexto": "Clasificación KDIGO de la ERC: combina la TFG (G1 a G5) y la albuminuria (A1 a A3) para estadiar la enfermedad y estimar el riesgo de progresión y de eventos cardiovasculares."
   },
   {
    "id": "x-nf-erc4",
@@ -360,7 +361,8 @@
    ],
    "correcta": 0,
    "explicacion": "G3a = TFG 45 a 59; A2 = albuminuria 30 a 300 mg/g.",
-   "fuente": "PPT"
+   "fuente": "PPT",
+   "contexto": "Clasificación KDIGO de la ERC: combina la TFG (G1 a G5) y la albuminuria (A1 a A3) para estadiar la enfermedad y estimar el riesgo."
   },
   {
    "id": "x-nf-ira1",
@@ -417,7 +419,8 @@
     }
    ],
    "explicacion": "AKIN/KDIGO añadió la ventana de 48 horas a la antigua clasificación RIFLE.",
-   "fuente": "PPT"
+   "fuente": "PPT",
+   "contexto": "KDIGO para injuria renal aguda: clasifica la gravedad (estadios 1 a 3) según cuánto sube la creatinina y cuánto baja la diuresis. Sirve para decidir vigilancia, manejo y diálisis."
   },
   {
    "id": "x-nf-ira3",
@@ -508,7 +511,7 @@
    ],
    "explicacion": "Si la función no mejora tras reponer volumen, se piensa en necrosis tubular establecida.",
    "fuente": "PPT",
-   "nota": "+ Complemento: FeNa e índices urinarios no están en el PPT; son clave para la IRA prerrenal."
+   "nota": "+ Complemento: FeNa e índices urinarios no están en el PPT; son lo más útil en la IRA prerrenal."
   },
   {
    "id": "x-nf-iram1",

@@ -350,35 +350,6 @@
    "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 20"
   },
   {
-   "id": "d-vir-ecz",
-   "area": "derma",
-   "tema": "Enfermedades virales de la piel",
-   "dif": 3,
-   "enunciado": "Un niño con dermatitis atópica desarrolla vesículas y erosiones diseminadas con costras hemorrágicas. ¿Qué es probable?",
-   "opciones": [
-    {
-     "t": "Eccema herpético",
-     "por": "Los pacientes con dermatitis atópica tienen riesgo de eccema herpético: infección cutánea diseminada por HSV.",
-     "full": "Eccema herpético (infección diseminada por HSV)"
-    },
-    {
-     "t": "Molusco contagioso",
-     "por": "Son pápulas umbilicadas, no costras hemorrágicas."
-    },
-    {
-     "t": "Verrugas planas",
-     "por": "No son erosiones con costras."
-    },
-    {
-     "t": "Pitiriasis alba",
-     "por": "No son vesículas."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El panadizo herpético afecta dedos de niños que se chupan los dedos o de personal de salud.",
-   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 22"
-  },
-  {
    "id": "d-vir-tzanck",
    "area": "derma",
    "tema": "Enfermedades virales de la piel",

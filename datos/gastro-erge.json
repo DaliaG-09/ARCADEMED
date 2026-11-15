@@ -30,35 +30,6 @@
    "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 7"
   },
   {
-   "id": "g-erge-caso",
-   "area": "gastro",
-   "tema": "ERGE (reflujo gastroesofágico)",
-   "dif": 1,
-   "enunciado": "Varón de 35 años con un mes de pirosis, regurgitación ácida y tos nocturna que aumenta con el café. Niega disfagia y pérdida de peso. IMC 35. ¿Cuál es el diagnóstico más probable?",
-   "opciones": [
-    {
-     "t": "Enfermedad por reflujo",
-     "por": "Pirosis, regurgitación ácida, tos nocturna y el empeoramiento con café, junto con obesidad (IMC 35), son el cuadro típico de ERGE.",
-     "full": "Enfermedad por reflujo gastroesofágico"
-    },
-    {
-     "t": "Acalasia",
-     "por": "Se manifiesta con disfagia (para sólidos y líquidos) y regurgitación de alimento sin digerir; este paciente niega disfagia."
-    },
-    {
-     "t": "Divertículo de Zenker",
-     "por": "Produce disfagia alta, halitosis y regurgitación de alimento retenido, no pirosis. Además suele ser de adultos mayores."
-    },
-    {
-     "t": "Espasmo esofágico distal",
-     "por": "Causa dolor torácico y disfagia intermitente, no la pirosis con regurgitación ácida que aquí domina."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El caso: la pirosis y la regurgitación ácida son los síntomas típicos de ERGE. La obesidad aumenta la presión intraabdominal y favorece el reflujo; el café relaja el EEI. La ausencia de disfagia y de pérdida de peso es dato de que no hay signos de alarma.",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 3 y 38"
-  },
-  {
    "id": "g-erge-riesgo",
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",

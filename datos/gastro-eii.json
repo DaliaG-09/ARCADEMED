@@ -202,38 +202,6 @@
    "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 14, 18 y 19"
   },
   {
-   "id": "g-eii-crohn",
-   "area": "gastro",
-   "tema": "Enfermedad inflamatoria intestinal",
-   "dif": 2,
-   "enunciado": "Mujer de 28 años con dolor abdominal crónico en fosa ilíaca derecha, diarrea, pérdida de peso, fiebre y una fístula perianal. ¿Qué enfermedad sugiere y qué estudio de imagen se prefiere?",
-   "opciones": [
-    {
-     "t": "Enfermedad de Crohn; la enterorresonancia magnética",
-     "por": "Dolor, pérdida de peso, masa o fístulas apuntan al Crohn; la RM enterográfica es el estudio de elección."
-    },
-    {
-     "t": "Colitis ulcerosa; la colonoscopía",
-     "por": "La CU casi no produce fístulas ni compromete el íleon."
-    },
-    {
-     "t": "Apendicitis; la ecografía",
-     "por": "El curso crónico y la fístula perianal no corresponden."
-    },
-    {
-     "t": "Síndrome de intestino irritable; ninguna imagen",
-     "por": "El SII no tiene fiebre ni fístulas."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Crohn: cualquier segmento (sobre todo íleon terminal y colon), inflamación segmentaria y transmural con granulomas, úlceras profundas en 'empedrado'. Complicaciones: fístulas, abscesos, estenosis, obstrucción, perforación. Fístulas perianales en 15 a 35 %. Imagen de elección: RM enterográfica (TAC enterográfico si no hay RM).",
-   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 15 y 16",
-   "guia": {
-    "t": "• En Crohn moderado a grave de reciente diagnóstico, la guía 2025 favorece empezar pronto con terapia avanzada (biológicos o moléculas pequeñas) en lugar de escalar paso a paso.\n• Para enfermedad localizada, la resección ileocecal temprana es una alternativa razonable a anti-TNF.\n• Los síntomas deben confirmarse con evidencia objetiva (endoscopía, imagen o calprotectina) antes de atribuirlos a actividad.",
-    "f": "ACG Clinical Guideline: Management of Crohn's Disease in Adults (Lichtenstein et al., Am J Gastroenterol 2025;120:1225-1264)"
-   }
-  },
-  {
    "id": "g-eii-extra",
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",

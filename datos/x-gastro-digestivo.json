@@ -3,7 +3,7 @@
   {
    "id": "x-gd-eup1",
    "area": "gastro",
-   "tema": "Enfermedad úlcero péptica",
+   "tema": "Enfermedad ulcero péptica",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -30,12 +30,12 @@
    "explicacion": "Los IBP pueden dar falsos negativos en las pruebas no invasoras. La relación úlcera duodenal:gástrica es 4:1.",
    "fuente": "PPT",
    "contexto": "H. pylori: bacteria que vive en el estómago y es la principal causa de úlcera péptica. Se busca con test de urea, antígeno fecal o biopsia.",
-   "nota": "+ Complemento: el control a 6 a 8 semanas y el requisito de suspender IBP los añadió el internista."
+   "nota": "+ Complemento: suspender el IBP 2 semanas antes del control de erradicación no está en el PPT."
   },
   {
    "id": "x-gh-eup2",
    "area": "gastro",
-   "tema": "Enfermedad úlcero péptica",
+   "tema": "Enfermedad ulcero péptica",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -65,7 +65,7 @@
   {
    "id": "x-gd-eup3",
    "area": "gastro",
-   "tema": "Enfermedad úlcero péptica",
+   "tema": "Enfermedad ulcero péptica",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -239,7 +239,7 @@
   {
    "id": "x-gd-aca1",
    "area": "gastro",
-   "tema": "Acalasia",
+   "tema": "Acalasia (trastornos motores del esófago)",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -274,11 +274,11 @@
   {
    "id": "x-gd-aca2",
    "area": "gastro",
-   "tema": "Acalasia",
+   "tema": "Acalasia (trastornos motores del esófago)",
    "dif": 2,
    "tipo": "rc",
    "sub": "escala",
-   "enunciado": "Describe la clasificación de Chicago de la acalasia por manometría de alta resolución.",
+   "enunciado": "Describe la clasificación de Chicago de la acalasia por manometría de alta resolución. *",
    "pts": 2,
    "puntos": [
     {
@@ -300,12 +300,13 @@
    ],
    "explicacion": "El tipo III suele requerir miotomía más larga o enfoque diferente. Las tres variantes comparten la falla de relajación del EEI.",
    "fuente": "PPT",
-   "nota": "* Corregido, no es igual al PPT: el PPT describe el tipo II como \"presión esofágica panesofágica\"; lo correcto es panpresurización."
+   "nota": "* Corregido, no es igual al PPT: el PPT describe el tipo II como \"presión esofágica panesofágica\"; lo correcto es panpresurización.",
+   "contexto": "Clasificación de Chicago: divide la acalasia en tres tipos según la manometría de alta resolución (cómo se mueve y presuriza el esófago). Sirve para elegir el tratamiento y predecir la respuesta."
   },
   {
    "id": "x-gd-dia1",
    "area": "gastro",
-   "tema": "Diarrea y celiaquía",
+   "tema": "Diarrea aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -335,7 +336,7 @@
   {
    "id": "x-gd-dia2",
    "area": "gastro",
-   "tema": "Diarrea y celiaquía",
+   "tema": "Diarrea aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -365,7 +366,7 @@
   {
    "id": "x-gd-dia3",
    "area": "gastro",
-   "tema": "Diarrea y celiaquía",
+   "tema": "Diarrea aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -395,7 +396,7 @@
   {
    "id": "x-gd-dia4",
    "area": "gastro",
-   "tema": "Diarrea y celiaquía",
+   "tema": "Diarrea aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -426,7 +427,7 @@
   {
    "id": "x-gd-hd1",
    "area": "gastro",
-   "tema": "Hemorragia digestiva",
+   "tema": "Hemorragia digestiva alta y baja",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -456,7 +457,7 @@
   {
    "id": "x-gd-hd2",
    "area": "gastro",
-   "tema": "Hemorragia digestiva",
+   "tema": "Hemorragia digestiva alta y baja",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -487,7 +488,7 @@
   {
    "id": "x-gd-erge1",
    "area": "gastro",
-   "tema": "ERGE y gastritis",
+   "tema": "ERGE (reflujo gastroesofágico)",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -519,7 +520,7 @@
   {
    "id": "x-gd-gast1",
    "area": "gastro",
-   "tema": "ERGE y gastritis",
+   "tema": "Gastritis aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "concepto",
@@ -549,7 +550,7 @@
   {
    "id": "x-gd-tbc1",
    "area": "gastro",
-   "tema": "Tuberculosis intestinal",
+   "tema": "Tuberculosis enteroperitoneal",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -579,7 +580,7 @@
   {
    "id": "x-gb-1",
    "area": "gastro",
-   "tema": "Vía biliar",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -610,7 +611,7 @@
   {
    "id": "x-gb-2",
    "area": "gastro",
-   "tema": "Vía biliar",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -640,7 +641,7 @@
   {
    "id": "x-gb-3",
    "area": "gastro",
-   "tema": "Vía biliar",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -671,7 +672,7 @@
   {
    "id": "x-gd-eupm1",
    "area": "gastro",
-   "tema": "Enfermedad úlcero péptica",
+   "tema": "Enfermedad ulcero péptica",
    "dif": 2,
    "enunciado": "Mujer de 70 años con artrosis que toma diclofenaco a diario, con epigastralgia y anemia. Endoscopía: úlcera gástrica. ¿Cuál es la conducta?",
    "opciones": [
@@ -767,7 +768,7 @@
   {
    "id": "x-gd-diam1",
    "area": "gastro",
-   "tema": "Diarrea y celiaquía",
+   "tema": "Diarrea aguda y crónica",
    "dif": 2,
    "enunciado": "Varón de 40 años con fiebre, 8 deposiciones al día con sangre y moco, tenesmo y dolor abdominal después de viajar. ¿Qué tipo de diarrea es?",
    "opciones": [
@@ -799,7 +800,7 @@
   {
    "id": "x-gd-hdm1",
    "area": "gastro",
-   "tema": "Hemorragia digestiva",
+   "tema": "Hemorragia digestiva alta y baja",
    "dif": 2,
    "enunciado": "Varón de 72 años con episodios de hematoquecia indolora de gran volumen, hemodinámicamente estable, que cesó solo. Tiene dolor leve en fosa ilíaca izquierda previo. ¿Cuál es la causa más probable?",
    "opciones": [
@@ -831,7 +832,7 @@
   {
    "id": "x-gb-m1",
    "area": "gastro",
-   "tema": "Vía biliar",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
    "dif": 2,
    "enunciado": "Varón de 58 años en la UCI por quemaduras extensas, con fiebre y dolor en hipocondrio derecho. La ecografía muestra una vesícula distendida con pared engrosada sin litos. ¿Cuál es el diagnóstico?",
    "opciones": [

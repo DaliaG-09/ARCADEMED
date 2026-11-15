@@ -64,7 +64,8 @@
    ],
    "explicacion": "Child-Pugh incluye datos subjetivos (ascitis, encefalopatía); el MELD solo usa laboratorio y es el que ordena la lista de trasplante.",
    "fuente": "PPT",
-   "nota": "+ Complemento: el MELD no está en el PPT."
+   "nota": "+ Complemento: el MELD no está en el PPT.",
+   "contexto": "Child-Pugh: puntaje de 5 a 15 que mide la gravedad de la cirrosis con laboratorio y clínica. MELD: puntaje con laboratorio (bilirrubina, INR, creatinina) que ordena la lista de trasplante hepático."
   },
   {
    "id": "x-gh-cir3",
@@ -131,7 +132,8 @@
    ],
    "explicacion": "SAAG de 1.1 o más: hipertensión portal (cirrosis, insuficiencia cardiaca, Budd-Chiari). SAAG menor de 1.1: peritonitis tuberculosa, carcinomatosis, síndrome nefrótico.",
    "fuente": "PPT",
-   "nota": "+ Complemento: el SAAG y el manejo de la ascitis no están detallados en el PPT."
+   "nota": "+ Complemento: el SAAG y el manejo de la ascitis no están detallados en el PPT.",
+   "contexto": "SAAG (gradiente de albúmina suero-ascitis): resta entre la albúmina en sangre y en el líquido ascítico. Se calcula en toda paracentesis para saber si la ascitis se debe a hipertensión portal."
   },
   {
    "id": "x-gh-cir5",
@@ -176,7 +178,7 @@
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
-   "enunciado": "Menciona las complicaciones de la cirrosis y un hallazgo o tratamiento clave de cada una.",
+   "enunciado": "Menciona las complicaciones de la cirrosis y un hallazgo o tratamiento principal de cada una.",
    "pts": 2,
    "puntos": [
     {
@@ -236,7 +238,7 @@
   {
    "id": "x-gh-hep1",
    "area": "gastro",
-   "tema": "Hepatitis viral",
+   "tema": "Hepatitis viral aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -267,7 +269,7 @@
   {
    "id": "x-gh-hep2",
    "area": "gastro",
-   "tema": "Hepatitis viral",
+   "tema": "Hepatitis viral aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -297,7 +299,7 @@
   {
    "id": "x-gh-hep3",
    "area": "gastro",
-   "tema": "Hepatitis viral",
+   "tema": "Hepatitis viral aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -324,7 +326,7 @@
   {
    "id": "x-gh-hep4",
    "area": "gastro",
-   "tema": "Hepatitis viral",
+   "tema": "Hepatitis viral aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "concepto",
@@ -417,7 +419,7 @@
   {
    "id": "x-gh-abs1",
    "area": "gastro",
-   "tema": "Abscesos hepáticos",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -447,7 +449,7 @@
   {
    "id": "x-gh-abs2",
    "area": "gastro",
-   "tema": "Abscesos hepáticos",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -610,7 +612,7 @@
   {
    "id": "x-gh-hepm1",
    "area": "gastro",
-   "tema": "Hepatitis viral",
+   "tema": "Hepatitis viral aguda y crónica",
    "dif": 2,
    "enunciado": "Una gestante de 30 semanas tiene HBsAg positivo. ¿Qué indicas al recién nacido?",
    "opciones": [
@@ -642,7 +644,7 @@
   {
    "id": "x-gh-hepm2",
    "area": "gastro",
-   "tema": "Hepatitis viral",
+   "tema": "Hepatitis viral aguda y crónica",
    "dif": 2,
    "enunciado": "Mujer de 30 años con ictericia hace 2 semanas. HBsAg negativo, anti-HBs negativo, IgM anti-HBc positivo. ¿Qué indica?",
    "opciones": [
@@ -674,7 +676,7 @@
   {
    "id": "x-gh-absm1",
    "area": "gastro",
-   "tema": "Abscesos hepáticos",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
    "dif": 2,
    "enunciado": "Varón de 35 años con colangitis por coledocolitiasis hace 3 semanas. Ahora fiebre, escalofríos y dolor en hipocondrio derecho. Ecografía: dos lesiones hipoecoicas. ¿Cuál es el diagnóstico más probable?",
    "opciones": [

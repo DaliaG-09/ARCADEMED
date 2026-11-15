@@ -56,7 +56,7 @@
    ],
    "explicacion": "Antes se confirma que la osmolaridad es baja: la hiponatremia con osmolaridad alta (hiperglucemia) o normal (pseudohiponatremia) no es hipoosmolar.",
    "fuente": "PPT",
-   "nota": "+ Complemento: SIADH y la clasificación por volemia son parte del abordaje diagnóstico, no están detalladas en el PPT."
+   "nota": "+ Complemento: SIADH y la clasificación por volemia son parte del estudio diagnóstico, no están detalladas en el PPT."
   },
   {
    "id": "x-nf-na3",
@@ -65,7 +65,7 @@
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
-   "enunciado": "¿Qué evalúas ante una hiponatremia? Menciona cuatro pasos del abordaje.",
+   "enunciado": "¿Qué evalúas ante una hiponatremia? Menciona cuatro pasos del estudio.",
    "pts": 2,
    "puntos": [
     {

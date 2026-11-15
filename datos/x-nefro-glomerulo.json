@@ -3,7 +3,7 @@
   {
    "id": "x-nf-sn1",
    "area": "nefro",
-   "tema": "Síndrome nefrótico y nefrítico",
+   "tema": "Síndrome nefrótico",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -38,7 +38,7 @@
   {
    "id": "x-nf-sn2",
    "area": "nefro",
-   "tema": "Síndrome nefrótico y nefrítico",
+   "tema": "Síndrome nefrótico",
    "dif": 2,
    "tipo": "rc",
    "sub": "concepto",
@@ -72,7 +72,7 @@
   {
    "id": "x-nf-sn3",
    "area": "nefro",
-   "tema": "Síndrome nefrótico y nefrítico",
+   "tema": "Síndrome nefrótico",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -102,7 +102,7 @@
   {
    "id": "x-nf-sn4",
    "area": "nefro",
-   "tema": "Síndrome nefrótico y nefrítico",
+   "tema": "Síndrome nefrítico",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -134,7 +134,7 @@
   {
    "id": "x-nf-sn5",
    "area": "nefro",
-   "tema": "Síndrome nefrótico y nefrítico",
+   "tema": "Síndrome nefrítico",
    "dif": 2,
    "tipo": "rc",
    "sub": "concepto",
@@ -188,7 +188,7 @@
      "w": 0.5
     }
    ],
-   "explicacion": "La membranosa tiene depósitos subepiteliales en espigas y la mitad de los casos tiene riesgo de trombosis. 1/3 remite, 1/3 persiste y 1/3 progresa a ERC.",
+   "explicacion": "La membranosa tiene depósitos subepiteliales en espigas y alrededor de 40 % desarrolla trombosis. 1/3 remite, 1/3 persiste y 1/3 progresa a ERC.",
    "fuente": "PPT",
    "contexto": "Síndrome nefrótico: el glomérulo pierde mucha proteína por la orina. Síndrome nefrítico: el glomérulo se inflama y deja pasar sangre. Reconocer cuál es cuál orienta la causa y el tratamiento."
   },
@@ -199,7 +199,7 @@
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
-   "enunciado": "Relaciona cada glomerulopatía con su hallazgo clave: cambios mínimos, membranosa, GEFS, IgA, anti-MBG (Goodpasture).",
+   "enunciado": "Relaciona cada glomerulopatía con su hallazgo principal: cambios mínimos, membranosa, GEFS, IgA, anti-MBG (Goodpasture).",
    "pts": 2,
    "puntos": [
     {
@@ -260,7 +260,7 @@
   {
    "id": "x-nf-gs1",
    "area": "nefro",
-   "tema": "Glomerulopatías secundarias y enfermedades sistémicas",
+   "tema": "Glomerulopatías secundarias",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -295,7 +295,7 @@
   {
    "id": "x-nf-gs2",
    "area": "nefro",
-   "tema": "Glomerulopatías secundarias y enfermedades sistémicas",
+   "tema": "Glomerulopatías secundarias",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -326,7 +326,7 @@
   {
    "id": "x-nf-gs3",
    "area": "nefro",
-   "tema": "Glomerulopatías secundarias y enfermedades sistémicas",
+   "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -358,7 +358,7 @@
   {
    "id": "x-nf-gs4",
    "area": "nefro",
-   "tema": "Glomerulopatías secundarias y enfermedades sistémicas",
+   "tema": "Enfermedades sistémicas y riñón",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -489,7 +489,7 @@
   {
    "id": "x-nf-gsm1",
    "area": "nefro",
-   "tema": "Glomerulopatías secundarias y enfermedades sistémicas",
+   "tema": "Glomerulopatías secundarias",
    "dif": 2,
    "enunciado": "Mujer de 30 años con lupus y proteinuria nueva. ¿Cuál es el hallazgo de laboratorio que sugiere actividad lúpica renal?",
    "opciones": [
@@ -516,38 +516,6 @@
    ],
    "correcta": 0,
    "explicacion": "En nefritis lúpica activa: anti-dsDNA alto, C3 y C4 bajos y sedimento activo.",
-   "fuente": "PPT"
-  },
-  {
-   "id": "x-nf-gsm2",
-   "area": "nefro",
-   "tema": "Glomerulopatías secundarias y enfermedades sistémicas",
-   "dif": 2,
-   "enunciado": "Niño de 7 años con púrpura palpable en piernas, dolor abdominal, artralgias y hematuria dos semanas después de una infección respiratoria. ¿Qué muestra la inmunofluorescencia renal?",
-   "opciones": [
-    {
-     "t": "Depósitos mesangiales de IgA.",
-     "por": "Es la vasculitis por IgA (Schönlein-Henoch), que afecta piel, articulaciones, intestino y riñón."
-    },
-    {
-     "t": "Fluorescencia lineal de IgG.",
-     "por": "Corresponde a anti-MBG."
-    },
-    {
-     "t": "Fluorescencia negativa.",
-     "por": "Es lo típico de cambios mínimos o pauciinmune."
-    },
-    {
-     "t": "Depósitos subepiteliales granulares de IgG.",
-     "por": "Es típico de membranosa."
-    },
-    {
-     "t": "Ninguna de las anteriores",
-     "por": "Hay una respuesta correcta."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Schönlein-Henoch y nefropatía por IgA comparten los depósitos de IgA con glucosilación anormal.",
    "fuente": "PPT"
   }
  ],

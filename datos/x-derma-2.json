@@ -3,7 +3,7 @@
   {
    "id": "x-dm-par1",
    "area": "derma",
-   "tema": "Parasitosis cutáneas",
+   "tema": "Enfermedades parasitarias de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -42,7 +42,7 @@
   {
    "id": "x-dm-par2",
    "area": "derma",
-   "tema": "Parasitosis cutáneas",
+   "tema": "Enfermedades parasitarias de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -73,7 +73,7 @@
   {
    "id": "x-dm-par3",
    "area": "derma",
-   "tema": "Parasitosis cutáneas",
+   "tema": "Enfermedades parasitarias de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -356,7 +356,7 @@
   {
    "id": "x-dm-dis1",
    "area": "derma",
-   "tema": "Discromías",
+   "tema": "Discromías de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -391,7 +391,7 @@
   {
    "id": "x-dm-dis2",
    "area": "derma",
-   "tema": "Discromías",
+   "tema": "Discromías de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -421,7 +421,7 @@
   {
    "id": "x-dm-sem1",
    "area": "derma",
-   "tema": "Semiología y métodos",
+   "tema": "Anatomofisiología y semiología de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -459,7 +459,7 @@
   {
    "id": "x-dm-sem2",
    "area": "derma",
-   "tema": "Semiología y métodos",
+   "tema": "Anatomofisiología y semiología de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -493,7 +493,7 @@
   {
    "id": "x-dm-met1",
    "area": "derma",
-   "tema": "Semiología y métodos",
+   "tema": "Métodos diagnósticos en dermatología",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -528,7 +528,7 @@
   {
    "id": "x-dm-parm1",
    "area": "derma",
-   "tema": "Parasitosis cutáneas",
+   "tema": "Enfermedades parasitarias de la piel",
    "dif": 2,
    "enunciado": "Un asilo tiene un brote de escabiosis. Un paciente con VIH presenta costras gruesas en las manos y los pies con intenso prurito. ¿Qué tratamiento es preferible?",
    "opciones": [
@@ -591,41 +591,9 @@
    "fuente": "PPT"
   },
   {
-   "id": "x-dm-acnm1",
-   "area": "derma",
-   "tema": "Acné y rosácea",
-   "dif": 2,
-   "enunciado": "Mujer de 25 años con eritema en mariposa en el rostro que empeora con el sol, artralgias y ANA positivos. ¿Cuál es el diagnóstico?",
-   "opciones": [
-    {
-     "t": "Lupus eritematoso sistémico.",
-     "por": "El eritema en mariposa con fotosensibilidad y ANA positivos orienta a lupus; la rosácea no tiene ANA positivo."
-    },
-    {
-     "t": "Rosácea.",
-     "por": "No cursa con artralgias ni ANA positivos."
-    },
-    {
-     "t": "Acné vulgar.",
-     "por": "Hay comedones y no eritema en mariposa."
-    },
-    {
-     "t": "Dermatitis seborreica.",
-     "por": "Es descamativa y grasosa."
-    },
-    {
-     "t": "Ninguna de las anteriores",
-     "por": "Hay una respuesta correcta."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Otros diagnósticos diferenciales de rosácea: dermatomiositis, síndrome carcinoide, policitemia vera.",
-   "fuente": "PPT"
-  },
-  {
    "id": "x-dm-metm1",
    "area": "derma",
-   "tema": "Semiología y métodos",
+   "tema": "Métodos diagnósticos en dermatología",
    "dif": 2,
    "enunciado": "Se quiere estudiar un paciente con ampollas y evaluar la etiología por la citología de la base de la ampolla. ¿Qué prueba usas y qué hallazgo apoya herpes?",
    "opciones": [

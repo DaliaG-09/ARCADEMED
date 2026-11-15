@@ -306,39 +306,6 @@
    "correcta": 0,
    "explicacion": "Otros ítems: colitis microscópica (colonoscopia con biopsia), Crohn (calprotectina y colonoscopia), SIBO (aliento o aspirado yeyunal), parásitos (antígeno en heces) y síndrome de intestino irritable (criterios de Roma IV con hemograma, PCR y calprotectina).",
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 22 y 23"
-  },
-  {
-   "id": "g-dia-caso",
-   "area": "gastro",
-   "tema": "Diarrea aguda y crónica",
-   "dif": 3,
-   "enunciado": "Una mujer de 50 años con hipertensión controlada llega a emergencia con 3 horas de dolor tipo cólico, malestar general, náuseas y dos vómitos alimentarios tras comer arroz chifa. ¿Cuál es la conducta inicial?",
-   "opciones": [
-    {
-     "t": "Ampliar anamnesis y evaluar hidratación",
-     "por": "El tratamiento es de soporte, con hidratación.",
-     "full": "Ampliar la anamnesis (fiebre, sangre o moco, viajes, otras personas con síntomas), evaluar hidratación y hemodinamia y descartar un abdomen agudo"
-    },
-    {
-     "t": "Iniciar antibióticos de amplio espectro de entrada",
-     "por": "La mayoría de las diarreas se autolimita y los antibióticos se reservan para casos inflamatorios, con fiebre, sepsis o shock."
-    },
-    {
-     "t": "Hacer una colonoscopia urgente",
-     "por": "No es un estudio inicial en un cuadro agudo de 3 horas."
-    },
-    {
-     "t": "Dar de alta sin evaluar",
-     "por": "Primero se evalúa la gravedad, la deshidratación y se descarta un abdomen agudo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Se plantea con preguntas abiertas: anamnesis, examen físico y plan de trabajo.",
-   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 26 y 29",
-   "guia": {
-    "t": "• La base del tratamiento es la rehidratación oral con agua y sal.\n• No se recomiendan antibióticos empíricos en diarrea aguda de rutina ni en diarrea del viajero leve.\n• Se estudian las heces si hay disentería, enfermedad moderada a grave, síntomas >7 días, alto riesgo de contagio o brote.\n• En diarrea del viajero discapacitante con fiebre: azitromicina; la loperamida se añade al antibiótico para acortar la diarrea.\n• Probióticos no recomendados para el tratamiento de la diarrea aguda; no se pide sensibilidad antibiótica de rutina.",
-    "f": "ACG Clinical Guideline: Diagnosis, Treatment and Prevention of Acute Diarrheal Infections in Adults (Riddle et al., Am J Gastroenterol 2016;111:602-622)"
-   }
   }
  ],
  "tarjetas": [

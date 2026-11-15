@@ -33,34 +33,6 @@
    }
   },
   {
-   "id": "g-pan-clinica",
-   "area": "gastro",
-   "tema": "Pancreatitis aguda y crónica",
-   "dif": 1,
-   "enunciado": "Varón de 45 años con dolor epigástrico constante e intenso, irradiado a la espalda, con náuseas y vómitos tras una comilona con alcohol. ¿Qué diagnóstico sugiere?",
-   "opciones": [
-    {
-     "t": "Pancreatitis aguda",
-     "por": "El dolor epigástrico constante en faja con náuseas y vómitos es la presentación típica."
-    },
-    {
-     "t": "Gastritis aguda",
-     "por": "Suele ser menos intenso y sin irradiación a la espalda."
-    },
-    {
-     "t": "Cólico biliar simple",
-     "por": "Dura menos de 6 horas y se localiza en el hipocondrio derecho."
-    },
-    {
-     "t": "Enfermedad por reflujo",
-     "por": "Produce ardor retroesternal, no dolor constante en faja."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Clínica: dolor epigástrico constante, irradiado a espalda, pecho o flancos, severo (10/10), con náuseas y vómitos. Examen: distensión, ruidos hidroaéreos disminuidos, dolor y rebote, fiebre, ictericia y alteración hemodinámica.",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 11 y 12"
-  },
-  {
    "id": "g-pan-dx",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
@@ -118,95 +90,6 @@
    "correcta": 0,
    "explicacion": "Imágenes: ecografía (estudio de elección; litiasis, páncreas agrandado, líquido libre), TAC (sensibilidad 90 %; útil con duda diagnóstica y a las 48 a 72 h para complicaciones) y colangio-RMN (colédocolitiasis, conducto pancreático).",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 15 y 16"
-  },
-  {
-   "id": "g-pan-bisap",
-   "area": "gastro",
-   "tema": "Pancreatitis aguda y crónica",
-   "dif": 3,
-   "enunciado": "¿Cuál de estos es un componente del puntaje BISAP?",
-   "opciones": [
-    {
-     "t": "BUN mayor de 25 mg/dl",
-     "por": "También: alteración del estado mental (Glasgow <15), SIRS, edad mayor de 60 años y derrame pleural."
-    },
-    {
-     "t": "Edad mayor de 55 años",
-     "por": "Es un criterio de Ranson; en BISAP el punto de corte es 60."
-    },
-    {
-     "t": "Calcio sérico menor de 8 mg/dl",
-     "por": "Es un criterio de Ranson a las 48 horas."
-    },
-    {
-     "t": "Lipasa mayor de 3 veces el normal",
-     "por": "Es criterio diagnóstico, no de severidad."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "BISAP: BUN >25, alteración del estado mental, SIRS (≥2: temperatura <36 o >38 °C, frecuencia respiratoria >20, frecuencia cardiaca >90, leucocitos <4000 o >12 000), edad >60 y derrame pleural. Sensibilidad 72 %, especificidad 99 %; 0 puntos: mortalidad <1 %; 5 puntos: 22 %.",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 18",
-   "contexto": "Puntaje BISAP: predice la mortalidad de la pancreatitis aguda en las primeras 24 horas. Suma 1 punto por cada uno de cinco datos: BUN (nitrógeno ureico) mayor de 25 mg/dl, alteración del estado mental, SIRS, edad mayor de 60 años y derrame pleural."
-  },
-  {
-   "id": "g-pan-marshall",
-   "area": "gastro",
-   "tema": "Pancreatitis aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿A partir de qué puntaje de Marshall se considera que hay falla de órgano?",
-   "opciones": [
-    {
-     "t": "2 puntos o más",
-     "por": "Se evalúan los sistemas respiratorio (PaO2/FiO2), renal (creatinina) y cardiovascular (presión sistólica)."
-    },
-    {
-     "t": "1 punto",
-     "por": "Es disfunción mínima; no llega al umbral."
-    },
-    {
-     "t": "4 puntos o más",
-     "por": "Es una disfunción grave, pero el umbral es 2."
-    },
-    {
-     "t": "Cualquier valor, si hay dolor intenso",
-     "por": "El puntaje depende de la función de órganos, no del dolor."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Marshall: respiratorio (PaO2/FiO2 >400 = 0; <101 = 4), renal (creatinina <1,4 = 0; >4,9 = 4) y cardiovascular (PAS >90 = 0; con respuesta a fluidos = 1, sin respuesta = 2 o más). Un puntaje de 2 o más en cualquier sistema indica falla de órgano.",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 19",
-   "contexto": "Puntaje de Marshall modificado: mide la disfunción de tres sistemas (respiratorio, renal y cardiovascular) de 0 a 4 puntos cada uno. Se usa para saber si hay falla de órgano en una pancreatitis aguda."
-  },
-  {
-   "id": "g-pan-ranson",
-   "area": "gastro",
-   "tema": "Pancreatitis aguda y crónica",
-   "dif": 3,
-   "enunciado": "¿Cuál de estos es un criterio de Ranson al INGRESO?",
-   "opciones": [
-    {
-     "t": "Edad >55 años o leucocitos >16 000",
-     "por": "Son los cinco criterios iniciales.",
-     "full": "Edad mayor de 55 años, leucocitos mayores de 16 000, glucosa elevada, LDH mayor de 350 o TGO mayor de 250"
-    },
-    {
-     "t": "Descenso del hematocrito mayor de 10 %",
-     "por": "Es un criterio de las primeras 48 horas."
-    },
-    {
-     "t": "Calcio sérico menor de 8 mg/dl",
-     "por": "Es un criterio de las 48 horas."
-    },
-    {
-     "t": "PaO2 menor de 60 mmHg",
-     "por": "También se evalúa a las 48 horas."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Ranson al ingreso: edad >55, leucocitos >16 000, glucosa >11 mmol/L, LDH >350 UI/L, TGO >250 UI/L. A las 48 horas: caída de hematocrito >10 %, aumento de urea, calcio <8 mg/dl, PaO2 <60 mmHg, déficit de bases >4 mEq/L, secuestro de líquido >6 L.",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 20",
-   "contexto": "Criterios de Ranson: sistema de 11 puntos para estimar la gravedad de la pancreatitis aguda, con 5 datos al ingreso y 6 a las 48 horas. Cuantos más criterios, mayor la mortalidad.",
-   "nota": "aquí se interpretan en el orden estándar de Ranson."
   },
   {
    "id": "g-pan-hidrata",

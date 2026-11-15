@@ -126,34 +126,6 @@
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 10"
   },
   {
-   "id": "n-itu-comp2",
-   "area": "nefro",
-   "tema": "Infección del tracto urinario",
-   "dif": 2,
-   "enunciado": "Mujer de 28 años con disuria, fiebre de 38.5 °C, escalofríos y dolor en el flanco derecho. ¿Cómo se clasifica su ITU?",
-   "opciones": [
-    {
-     "t": "Complicada (sugiere infección alta, pielonefritis)",
-     "por": "La fiebre, los escalofríos y el dolor de flanco indican que la infección pasó de la vejiga hacia arriba."
-    },
-    {
-     "t": "No complicada, porque la mayoría de las ITU en mujeres jóvenes lo son",
-     "por": "Que sea frecuente en mujeres jóvenes no cambia la clasificación: aquí hay signos de infección alta."
-    },
-    {
-     "t": "Cistitis simple",
-     "por": "La cistitis simple no tiene fiebre ni dolor de flanco."
-    },
-    {
-     "t": "Bacteriuria asintomática",
-     "por": "Hay síntomas intensos; no puede ser asintomática."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Los signos que hacen pensar en infección por encima de la vejiga son fiebre, escalofríos, fatiga o malestar, dolor de flanco, dolor en el ángulo costovertebral y dolor pélvico o perineal.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 10"
-  },
-  {
    "id": "n-itu-germ",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
@@ -270,39 +242,6 @@
    "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 17 y 29"
   },
   {
-   "id": "n-itu-tx",
-   "area": "nefro",
-   "tema": "Infección del tracto urinario",
-   "dif": 2,
-   "enunciado": "Mujer de 25 años con cistitis no complicada. ¿Cuál de estas es una opción oral?",
-   "opciones": [
-    {
-     "t": "Fosfomicina 3 g por vía oral, dosis única",
-     "por": "Es una de las tres opciones para cistitis: fosfomicina 3 g en una dosis, nitrofurantoína 100 mg cada 12 horas por 5 días, o trimetoprima-sulfametoxazol cada 8 horas si la resistencia local es menor de 20 %."
-    },
-    {
-     "t": "Ceftriaxona 1 g IV cada 24 horas",
-     "por": "Es una opción para pielonefritis sin riesgo de BLEE, por vía intravenosa. Para una cistitis simple no hace falta."
-    },
-    {
-     "t": "Meropenem 1 g IV cada 8 horas",
-     "por": "Es un carbapenémico, reservado para pielonefritis con riesgo de gérmenes resistentes (BLEE). Sería exagerado en una cistitis."
-    },
-    {
-     "t": "Amikacina 15 mg/kg IM cada 24 horas",
-     "por": "Es un aminoglucósido parenteral que no se usa como tratamiento oral de la cistitis simple."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Esquema de cistitis: fosfomicina 3 g VO en 1 dosis; nitrofurantoína 100 mg VO cada 12 h por 5 días; trimetoprima-sulfametoxazol (Trim-Sulf) cada 8 h solo si la resistencia es menor de 20 %.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 20",
-   "contexto": "Trimetoprima-sulfametoxazol es un antibiótico oral muy usado en ITU. Solo se recomienda si menos de 20 de cada 100 gérmenes locales son resistentes.",
-   "guia": {
-    "t": "• Según el resumen AHRQ de IDSA/ESCMID 2010, en cistitis no complicada las opciones son nitrofurantoína, TMP-SMX (trimetoprima-sulfametoxazol) y cefalosporinas orales; las fluoroquinolonas no se recomiendan como primera línea por sus efectos adversos.\n• Duración típica de la cistitis: 3 a 5 días.\n• La fosfomicina 3 g en dosis única aparece en protocolos hospitalarios, no en el resumen original.\n• Ojo: en pielonefritis se evitan nitrofurantoína y fosfomicina porque no alcanzan buenos niveles fuera de la orina (protocolo hospitalario).\n• La elección real depende de la resistencia local.",
-    "f": "IDSA/ESCMID 2010 – Cistitis y pielonefritis no complicadas (Gupta et al., Clin Infect Dis 2011;52:e103), según resumen AHRQ; la fosfomicina viene de protocolos hospitalarios (no es la guía original)"
-   }
-  },
-  {
    "id": "n-itu-blee",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
@@ -364,67 +303,6 @@
     "t": "• AUA: ITU recurrente = 2 episodios con cultivo en 6 meses o 3 en 1 año.\n• Pedir uroanálisis y urocultivo en cada episodio sintomático antes del tratamiento.\n• No hacer cultivos de vigilancia ni de control en pacientes sin síntomas.\n• Cistoscopia e imágenes de vía urinaria alta NO se piden de rutina en la paciente típica. Ojo: tu PPT incluye estudios de imágenes; para el examen manda la PPT.\n• Se puede ofrecer profilaxis antibiótica, arándano y estrógeno vaginal en posmenopáusicas.",
     "f": "AUA/CUA/SUFU – ITU recurrente no complicada en mujeres (2019, actualizada 2022)"
    }
-  },
-  {
-   "id": "n-itu-asin",
-   "area": "nefro",
-   "tema": "Infección del tracto urinario",
-   "dif": 3,
-   "enunciado": "¿En cuál de estas situaciones SÍ se trata una bacteriuria asintomática?",
-   "opciones": [
-    {
-     "t": "Embarazo",
-     "por": "Tratar la bacteriuria asintomática en el embarazo previene la pielonefritis. También se trata antes de una intervención urológica y en el trasplante renal."
-    },
-    {
-     "t": "Mujer premenopáusica no embarazada",
-     "por": "No se trata: no mejora los resultados y favorece resistencia."
-    },
-    {
-     "t": "Paciente con diabetes mellitus",
-     "por": "Un diabético con bacteriuria asintomática tampoco se trata."
-    },
-    {
-     "t": "Paciente con sonda vesical (cateterizado)",
-     "por": "Tampoco se trata. Se trata solo si hay síntomas."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Sí tratar: embarazo, intervención urológica, trasplante renal. No tratar: premenopáusicas, ancianos, diabetes, cateterizados y lesión espinal. Definición: cultivo positivo (10⁵) sin síntomas ni signos de ITU.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 23",
-   "guia": {
-    "t": "• IDSA 2019: no pedir urocultivo ni tratar la bacteriuria asintomática, salvo en el embarazo y antes de procedimientos urológicos con sangrado mucoso.\n• Coincide con tu PPT.",
-    "f": "IDSA 2019 – Bacteriuria asintomática (Nicolle et al., Clin Infect Dis 2019;68:e83) y resumen AHRQ"
-   }
-  },
-  {
-   "id": "n-itu-case",
-   "area": "nefro",
-   "tema": "Infección del tracto urinario",
-   "dif": 3,
-   "enunciado": "Mujer de 46 años, fiebre de 38.7 °C, dolor lumbar bilateral (más en el izquierdo), orina con mal olor, disuria y náuseas. Puño-percusión lumbar positiva. Leucocitos 11 200 con desviación izquierda; orina con 500 leucocitos por campo. ¿Diagnóstico más probable?",
-   "opciones": [
-    {
-     "t": "Pielonefritis aguda (ITU complicada)",
-     "por": "Fiebre, dolor lumbar con puño-percusión positiva, leucocitosis con desviación izquierda y leucocituria intensa indican infección del riñón."
-    },
-    {
-     "t": "Cistitis no complicada",
-     "por": "La cistitis simple no da fiebre ni dolor lumbar con puño-percusión positiva."
-    },
-    {
-     "t": "Cólico renal por litiasis sin infección",
-     "por": "El cólico es dolor intenso y no explica por sí solo la fiebre, la leucocitosis ni los 500 leucocitos en orina."
-    },
-    {
-     "t": "Apendicitis aguda retrocecal",
-     "por": "El abdomen está blando, sin irritación peritoneal; el dolor y la puño-percusión son lumbares."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Plan: urocultivo antes del antibiótico, evaluar gravedad y riesgo de resistencia, y elegir esquema (sin riesgo de BLEE, ceftriaxona; con riesgo, un carbapenémico). Considera imágenes si no mejora o hay sospecha de obstrucción.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 26",
-   "nota": "el diagnóstico es una interpretación a partir de los datos del caso."
   }
  ],
  "tarjetas": [

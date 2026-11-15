@@ -176,36 +176,6 @@
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 9 y 13"
   },
   {
-   "id": "n-sn-case",
-   "area": "nefro",
-   "tema": "Síndrome nefrótico",
-   "dif": 3,
-   "enunciado": "Niño de 7 años con 2 semanas de edema en la cara y las piernas, fatiga, presión arterial normal. Orina con proteinuria +++, albúmina 2.0 g/dL, colesterol elevado y creatinina normal. ¿Cuál es el diagnóstico presuntivo?",
-   "opciones": [
-    {
-     "t": "Nefrótico por cambios mínimos",
-     "por": "Hay proteinuria intensa, albúmina baja, edema y colesterol alto. La edad lo hace compatible con cambios mínimos, la causa principal en niños.",
-     "full": "Síndrome nefrótico, más probable por enfermedad de cambios mínimos"
-    },
-    {
-     "t": "Síndrome nefrítico",
-     "por": "No hay hipertensión, hematuria ni creatinina alterada, y la proteinuria es muy intensa."
-    },
-    {
-     "t": "Enfermedad renal crónica",
-     "por": "La creatinina es normal y el cuadro es de 2 semanas."
-    },
-    {
-     "t": "Lesión renal aguda prerrenal",
-     "por": "La creatinina es normal, y no explica la proteinuria ni la dislipidemia."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Plan: confirmar con orina de 24 horas o cociente proteína/creatinina, perfil lipídico y función renal, y tratar con prednisona 2 mg/kg/día.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 3 y 24",
-   "nota": "El diagnóstico es la interpretación esperada."
-  },
-  {
    "id": "n-sn-tx",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
@@ -383,34 +353,6 @@
    "correcta": 0,
    "explicacion": "Puede acompañarse de anorexia, fiebre, dolor abdominal y cefalea. En el laboratorio se esperan complemento bajo y anticuerpos antiestreptolisina elevados.",
    "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 12 y 15"
-  },
-  {
-   "id": "n-sn-caso2",
-   "area": "nefro",
-   "tema": "Síndrome nefrítico",
-   "dif": 3,
-   "enunciado": "Niño de 8 años con orina color Coca-Cola, edema palpebral y PA 140/90, 2 semanas después de una faringitis. El complemento sérico está bajo. ¿Cuál es el diagnóstico más probable?",
-   "opciones": [
-    {
-     "t": "Glomerulonefritis aguda postestreptocócica",
-     "por": "Aparece 1 a 3 semanas después de la infección con síndrome nefrítico típico y complemento bajo."
-    },
-    {
-     "t": "Enfermedad de cambios mínimos con síndrome nefrótico",
-     "por": "Daría proteinuria masiva y edema con presión normal y orina sin sangre."
-    },
-    {
-     "t": "Nefropatía por IgA tras infección respiratoria",
-     "por": "También da hematuria, pero tras la infección es inmediata (sinfaringítica) y el complemento es normal."
-    },
-    {
-     "t": "Pielonefritis aguda con fiebre y piuria",
-     "por": "Tendría fiebre, dolor lumbar y piuria, no hipertensión con complemento bajo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Tratamiento: soporte con restricción de sal y líquidos, diurético de asa para el edema y control de la presión arterial; se trata el foco infeccioso si persiste.",
-   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 12, 15 y 18"
   },
   {
    "id": "n-sn-age2",

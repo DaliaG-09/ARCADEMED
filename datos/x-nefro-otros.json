@@ -95,7 +95,7 @@
   {
    "id": "x-nf-lit1",
    "area": "nefro",
-   "tema": "Litiasis renal y uropatía obstructiva",
+   "tema": "Litiasis y uropatía obstructiva",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -126,7 +126,7 @@
   {
    "id": "x-nf-lit2",
    "area": "nefro",
-   "tema": "Litiasis renal y uropatía obstructiva",
+   "tema": "Litiasis y uropatía obstructiva",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -226,7 +226,7 @@
   {
    "id": "x-nf-tbc1",
    "area": "nefro",
-   "tema": "Tuberculosis renal",
+   "tema": "Tuberculosis renal y de vías urinarias",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -253,38 +253,6 @@
    "explicacion": "El cultivo tarda hasta 6 semanas; la PCR es sensible pero no distingue activa de latente.",
    "fuente": "PPT",
    "nota": "+ Complemento: el número de muestras de BAAR en orina no está en el PPT."
-  },
-  {
-   "id": "x-nf-ndm1",
-   "area": "nefro",
-   "tema": "Nefropatía diabética",
-   "dif": 2,
-   "enunciado": "Varón de 60 años con diabetes de 20 años, retinopatía, edemas y PA 160/100. Proteinuria 6 g/día, albúmina 2.5 g/dL, creatinina 2.2 mg/dL. Sedimento sin hematuria. ¿Cuál es el diagnóstico más probable?",
-   "opciones": [
-    {
-     "t": "Nefropatía diabética en fase avanzada con síndrome nefrótico.",
-     "por": "Diabetes larga con retinopatía y proteinuria persistente sin sedimento activo: la causa más probable es la diabética."
-    },
-    {
-     "t": "Glomerulonefritis posestreptocócica.",
-     "por": "Es una enfermedad nefrítica de niños con C3 bajo."
-    },
-    {
-     "t": "Nefritis lúpica.",
-     "por": "Sin lupus ni sedimento activo."
-    },
-    {
-     "t": "Nefropatía por IgA.",
-     "por": "Se presenta con hematuria recurrente."
-    },
-    {
-     "t": "Ninguna de las anteriores",
-     "por": "Hay una respuesta correcta."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La retinopatía junto con proteinuria en un diabético largo refuerza el diagnóstico.",
-   "fuente": "PPT"
   },
   {
    "id": "x-nf-ndm2",
@@ -321,7 +289,7 @@
   {
    "id": "x-nf-litm1",
    "area": "nefro",
-   "tema": "Litiasis renal y uropatía obstructiva",
+   "tema": "Litiasis y uropatía obstructiva",
    "dif": 2,
    "enunciado": "Mujer con infecciones urinarias recurrentes por Proteus y un cálculo que ocupa pelvis y cálices renales. Orina alcalina. ¿Cuál es el tipo de cálculo?",
    "opciones": [

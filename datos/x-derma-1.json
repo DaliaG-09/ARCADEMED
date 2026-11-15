@@ -3,7 +3,7 @@
   {
    "id": "x-dm-urt1",
    "area": "derma",
-   "tema": "Urticaria",
+   "tema": "Urticaria aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -38,7 +38,7 @@
   {
    "id": "x-dm-urt2",
    "area": "derma",
-   "tema": "Urticaria",
+   "tema": "Urticaria aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "concepto",
@@ -68,7 +68,7 @@
   {
    "id": "x-dm-urt3",
    "area": "derma",
-   "tema": "Urticaria",
+   "tema": "Urticaria aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "escala",
@@ -99,7 +99,7 @@
   {
    "id": "x-dm-urt4",
    "area": "derma",
-   "tema": "Urticaria",
+   "tema": "Urticaria aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -130,7 +130,7 @@
   {
    "id": "x-dm-urt5",
    "area": "derma",
-   "tema": "Urticaria",
+   "tema": "Urticaria aguda y crónica",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -161,7 +161,7 @@
   {
    "id": "x-dm-bac1",
    "area": "derma",
-   "tema": "Infecciones bacterianas de la piel",
+   "tema": "Enfermedades bacterianas de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -191,7 +191,7 @@
   {
    "id": "x-dm-bac2",
    "area": "derma",
-   "tema": "Infecciones bacterianas de la piel",
+   "tema": "Enfermedades bacterianas de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -227,7 +227,7 @@
   {
    "id": "x-dm-bac3",
    "area": "derma",
-   "tema": "Infecciones bacterianas de la piel",
+   "tema": "Enfermedades bacterianas de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -253,7 +253,7 @@
   {
    "id": "x-dm-bac4",
    "area": "derma",
-   "tema": "Infecciones bacterianas de la piel",
+   "tema": "Enfermedades bacterianas de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -284,7 +284,7 @@
   {
    "id": "x-dm-bac5",
    "area": "derma",
-   "tema": "Infecciones bacterianas de la piel",
+   "tema": "Enfermedades bacterianas de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -318,7 +318,7 @@
   {
    "id": "x-dm-mic1",
    "area": "derma",
-   "tema": "Micosis",
+   "tema": "Micosis en dermatología",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -349,7 +349,7 @@
   {
    "id": "x-dm-mic2",
    "area": "derma",
-   "tema": "Micosis",
+   "tema": "Micosis en dermatología",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -377,14 +377,14 @@
      "w": 0.25
     }
    ],
-   "explicacion": "Dato clave: el borde activo y el centro que aclara. Los dermatofitos viven en la queratina.",
+   "explicacion": "Dato que orienta: el borde activo y el centro que aclara. Los dermatofitos viven en la queratina.",
    "fuente": "PPT",
    "nota": "+ Complemento: tiña incógnita por corticoides no está en el PPT."
   },
   {
    "id": "x-dm-mic3",
    "area": "derma",
-   "tema": "Micosis",
+   "tema": "Micosis en dermatología",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -414,7 +414,7 @@
   {
    "id": "x-dm-mic4",
    "area": "derma",
-   "tema": "Micosis",
+   "tema": "Micosis en dermatología",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -444,7 +444,7 @@
   {
    "id": "x-dm-mic5",
    "area": "derma",
-   "tema": "Micosis",
+   "tema": "Micosis en dermatología",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -472,14 +472,14 @@
      "w": 0.25
     }
    ],
-   "explicacion": "Malassezia convierte en ácido azelaico el sebo, que inhibe los melanocitos y blanquea la piel.",
+   "explicacion": "Malassezia produce ácido azelaico, que inhibe a los melanocitos y explica la hipopigmentación.",
    "fuente": "PPT",
-   "nota": "+ Complemento: el champú de ketoconazol y el ácido azelaico los añade el internista."
+   "nota": "+ Complemento: el champú de ketoconazol y el mecanismo de la hipopigmentación no están en el PPT."
   },
   {
    "id": "x-dm-mic6",
    "area": "derma",
-   "tema": "Micosis",
+   "tema": "Micosis en dermatología",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -509,7 +509,7 @@
   {
    "id": "x-dm-vir1",
    "area": "derma",
-   "tema": "Infecciones virales de la piel",
+   "tema": "Enfermedades virales de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -539,7 +539,7 @@
   {
    "id": "x-dm-vir2",
    "area": "derma",
-   "tema": "Infecciones virales de la piel",
+   "tema": "Enfermedades virales de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -570,7 +570,7 @@
   {
    "id": "x-dm-vir3",
    "area": "derma",
-   "tema": "Infecciones virales de la piel",
+   "tema": "Enfermedades virales de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
@@ -600,7 +600,7 @@
   {
    "id": "x-dm-vir4",
    "area": "derma",
-   "tema": "Infecciones virales de la piel",
+   "tema": "Enfermedades virales de la piel",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -630,7 +630,7 @@
   {
    "id": "x-dm-urtm1",
    "area": "derma",
-   "tema": "Urticaria",
+   "tema": "Urticaria aguda y crónica",
    "dif": 2,
    "enunciado": "Paciente de 40 años con habones diarios desde hace 3 meses. Persisten a pesar de un antihistamínico H1 de segunda generación diario. ¿Cuál es el siguiente paso?",
    "opciones": [
@@ -660,41 +660,9 @@
    "fuente": "PPT"
   },
   {
-   "id": "x-dm-bacm1",
-   "area": "derma",
-   "tema": "Infecciones bacterianas de la piel",
-   "dif": 2,
-   "enunciado": "Un niño de 6 años tiene 2 lesiones de impétigo no ampolloso en la cara, sin fiebre. ¿Qué tratamiento corresponde?",
-   "opciones": [
-    {
-     "t": "Mupirocina o ácido fusídico tópico.",
-     "por": "En impétigo localizado, pocas lesiones y sin complicaciones basta el tratamiento tópico."
-    },
-    {
-     "t": "Cefalexina oral por 10 días.",
-     "por": "Se usa si hay más de 5 lesiones o es ampolloso."
-    },
-    {
-     "t": "Penicilina IM.",
-     "por": "No es el esquema habitual."
-    },
-    {
-     "t": "Corticoide tópico.",
-     "por": "Empeora la infección."
-    },
-    {
-     "t": "Ninguna de las anteriores",
-     "por": "Hay una respuesta correcta."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Con más de 5 lesiones o impétigo ampolloso se da antibiótico sistémico.",
-   "fuente": "PPT"
-  },
-  {
    "id": "x-dm-micm1",
    "area": "derma",
-   "tema": "Micosis",
+   "tema": "Micosis en dermatología",
    "dif": 2,
    "enunciado": "Niña de 6 años con placa de alopecia y descamación en el cuero cabelludo. ¿Qué antifúngico es el más adecuado?",
    "opciones": [
@@ -726,7 +694,7 @@
   {
    "id": "x-dm-virm1",
    "area": "derma",
-   "tema": "Infecciones virales de la piel",
+   "tema": "Enfermedades virales de la piel",
    "dif": 2,
    "enunciado": "Varón de 70 años con dolor ardiente y vesículas agrupadas en banda en el hemitórax derecho desde hace 48 horas. ¿Cuándo debes iniciar el antiviral?",
    "opciones": [

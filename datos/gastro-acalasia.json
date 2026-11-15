@@ -30,34 +30,6 @@
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 7"
   },
   {
-   "id": "g-aca-clinica",
-   "area": "gastro",
-   "tema": "Acalasia (trastornos motores del esófago)",
-   "dif": 1,
-   "enunciado": "Varón de 45 años con disfagia progresiva para sólidos y líquidos, regurgitación de alimentos sin digerir y pérdida de peso. ¿Cuál es el diagnóstico más probable?",
-   "opciones": [
-    {
-     "t": "Acalasia",
-     "por": "La disfagia para sólidos Y líquidos desde el inicio, con regurgitación de alimento no digerido, es lo característico."
-    },
-    {
-     "t": "ERGE",
-     "por": "Predomina la pirosis; la disfagia solo aparece si hay una estenosis."
-    },
-    {
-     "t": "Cáncer de esófago",
-     "por": "Es posible (por eso se hace endoscopía), pero la disfagia empieza por sólidos y progresa, y el curso insidioso con líquidos desde el inicio orienta a acalasia."
-    },
-    {
-     "t": "Espasmo esofágico difuso",
-     "por": "Causa dolor torácico y disfagia intermitente, no regurgitación progresiva con pérdida de peso."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Clínica: disfagia progresiva (sólidos y líquidos), regurgitación de alimentos no digeridos, pérdida de peso, dolor torácico y pirosis (por fermentación del alimento retenido) en 27 a 42 %, y neumonía por aspiración en casos avanzados.",
-   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 8"
-  },
-  {
    "id": "g-aca-eckardt",
    "area": "gastro",
    "tema": "Acalasia (trastornos motores del esófago)",
