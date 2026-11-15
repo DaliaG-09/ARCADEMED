@@ -31,35 +31,6 @@
    "contexto": "Glomerulopatía secundaria = el glomérulo se daña como consecuencia de otra enfermedad (lupus, vasculitis, infecciones, artritis reumatoide...)."
   },
   {
-   "id": "n-gp2-nl1",
-   "area": "nefro",
-   "tema": "Glomerulopatías secundarias",
-   "dif": 1,
-   "enunciado": "¿En qué porcentaje de pacientes con lupus aparece nefritis lúpica?",
-   "opciones": [
-    {
-     "t": "En 30 a 70 %",
-     "por": "En una cohorte latinoamericana de 1214 pacientes, el compromiso renal fue de 51.7 %."
-    },
-    {
-     "t": "Menos de 5 %",
-     "por": "Es muy bajo: el riñón es uno de los órganos más afectados en lupus."
-    },
-    {
-     "t": "Cerca del 100 %",
-     "por": "Es demasiado alto."
-    },
-    {
-     "t": "Cerca del 10 %",
-     "por": "Es menor que el rango real: el compromiso renal es frecuente en el lupus."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La nefritis lúpica es la glomerulopatía secundaria más frecuente después de las vasculitis sistémicas.",
-   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 9",
-   "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis lúpica, el compromiso renal del LES. Se clasifica en seis clases según la biopsia."
-  },
-  {
    "id": "n-gp2-nl2",
    "area": "nefro",
    "tema": "Glomerulopatías secundarias",
@@ -86,66 +57,6 @@
    "correcta": 0,
    "explicacion": "Otros datos: síndrome nefrótico 45 a 65 %; cilindros granulares 30 %; disminución de la función renal 40 a 80 %; hipertensión 15 a 50 %.",
    "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 9",
-   "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis lúpica, el compromiso renal del LES. Se clasifica en seis clases según la biopsia."
-  },
-  {
-   "id": "n-gp2-nlrf",
-   "area": "nefro",
-   "tema": "Glomerulopatías secundarias",
-   "dif": 2,
-   "enunciado": "¿Cuál es un factor de riesgo para desarrollar nefritis en un paciente con lupus?",
-   "opciones": [
-    {
-     "t": "Etnia hispana o afro y anti-DNA bicatenario",
-     "full": "Etnia hispana o afroamericana, anticuerpos anti-DNA de doble cadena y anti-RNP",
-     "por": "Son los factores de riesgo para NL listados."
-    },
-    {
-     "t": "Raza blanca y anti-DNA negativo",
-     "por": "Es al revés: la etnia hispana o afroamericana aumenta el riesgo."
-    },
-    {
-     "t": "Debut después de los 60 años",
-     "por": "No aparece como factor de riesgo."
-    },
-    {
-     "t": "Tener lupus con síntomas solo en la piel",
-     "por": "No se menciona; los factores son étnicos y serológicos."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Predictores de ERC en NL: creatinina >1.5 mg/dL, anemia, hipertensión. Pobre desenlace renal: sexo masculino, raza negra, hipertensión, tabaquismo, proteinuria, hipocomplementemia.",
-   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 11",
-   "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis lúpica, el compromiso renal del LES. Se clasifica en seis clases según la biopsia. Anti-DNA de doble cadena y anti-RNP son autoanticuerpos del lupus."
-  },
-  {
-   "id": "n-gp2-nlpat",
-   "area": "nefro",
-   "tema": "Glomerulopatías secundarias",
-   "dif": 3,
-   "enunciado": "¿Cómo se origina el daño en la nefritis lúpica?",
-   "opciones": [
-    {
-     "t": "ANA y mala depuración de restos apoptóticos",
-     "por": "Los restos de células que mueren no se limpian bien. El sistema inmune los reconoce como extraños y arma una respuesta autoinmune.",
-     "full": "Se producen anticuerpos antinucleares, hay apoptosis alterada y menos eliminación de restos celulares; esos restos estimulan la respuesta inmune"
-    },
-    {
-     "t": "Un germen infecta el glomérulo directamente",
-     "por": "El lupus es autoinmune, no una infección."
-    },
-    {
-     "t": "Un cálculo obstruye el flujo de orina",
-     "por": "Eso es uropatía obstructiva."
-    },
-    {
-     "t": "El podocito pierde su carga eléctrica sin inflamación",
-     "por": "Eso describe los cambios mínimos."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "ANAS = anticuerpos antinucleares (anticuerpos contra el núcleo de las propias células).",
-   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 10",
    "contexto": "LES = lupus eritematoso sistémico, enfermedad autoinmune que puede afectar piel, articulaciones, riñón y otros órganos. NL = nefritis lúpica, el compromiso renal del LES. Se clasifica en seis clases según la biopsia."
   },
   {
@@ -361,64 +272,6 @@
    "contexto": "Glomerulopatía secundaria = el glomérulo se daña como consecuencia de otra enfermedad (lupus, vasculitis, infecciones, artritis reumatoide...)."
   },
   {
-   "id": "n-gp2-ea",
-   "area": "nefro",
-   "tema": "Glomerulopatías secundarias",
-   "dif": 3,
-   "enunciado": "¿Qué glomerulopatía se asocia ocasionalmente a la espondilitis anquilosante?",
-   "opciones": [
-    {
-     "t": "GN por IgA y amiloidosis",
-     "por": "La espondilitis anquilosante es una enfermedad inflamatoria crónica del esqueleto axial que afecta sobre todo a varones jóvenes.",
-     "full": "Glomerulonefritis por IgA, y también amiloidosis renal secundaria"
-    },
-    {
-     "t": "Glomerulonefritis postestreptocócica",
-     "por": "La glomerulonefritis postestreptocócica sigue a una infección por estreptococo."
-    },
-    {
-     "t": "Nefropatía membranosa",
-     "por": "No se menciona."
-    },
-    {
-     "t": "Cambios mínimos",
-     "por": "Los cambios mínimos no son la glomerulopatía asociada a la espondilitis anquilosante."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "En la biopsia se ve hipercelularidad mesangial leve y depósitos mesangiales difusos de IgA.",
-   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 24 y 25"
-  },
-  {
-   "id": "n-gp2-sj",
-   "area": "nefro",
-   "tema": "Glomerulopatías secundarias",
-   "dif": 3,
-   "enunciado": "¿Qué afectación renal produce principalmente el síndrome de Sjögren?",
-   "opciones": [
-    {
-     "t": "Nefritis intersticial con ATR tipo I",
-     "por": "El infiltrado de linfocitos y plasmocitos destruye glándulas y también afecta el intersticio renal. Rara vez causa GN membranosa o membranoproliferativa.",
-     "full": "Nefritis intersticial con acidosis tubular tipo I (distal)"
-    },
-    {
-     "t": "Síndrome nefrótico por cambios mínimos",
-     "por": "No es lo típico."
-    },
-    {
-     "t": "GNRP por anticuerpos anti-MBG",
-     "por": "No se asocia a Sjögren."
-    },
-    {
-     "t": "Nefropatía por IgA",
-     "por": "No es la afectación típica."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Acidosis tubular tipo I o distal: el túbulo distal no puede eliminar ácido, y la sangre queda acidótica.",
-   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 26"
-  },
-  {
    "id": "n-gp2-ee",
    "area": "nefro",
    "tema": "Glomerulopatías secundarias",
@@ -475,35 +328,6 @@
    "correcta": 0,
    "explicacion": "Tratamiento: erradicar el foco infeccioso, retirando o cambiando el shunt si hace falta. La GN por abscesos viscerales cursa con hematuria, proteinuria e insuficiencia renal oligúrica.",
    "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 32"
-  },
-  {
-   "id": "n-gp2-sif",
-   "area": "nefro",
-   "tema": "Glomerulopatías secundarias",
-   "dif": 2,
-   "enunciado": "¿Cuál es la presentación renal más frecuente de la sífilis y de la lepra?",
-   "opciones": [
-    {
-     "t": "Sífilis: nefrótico membranoso; lepra: GN difusa",
-     "por": "En sífilis hay depósitos subepiteliales de IgG y C3. En lepra la IF muestra IgM, IgG y C3.",
-     "full": "Sífilis: síndrome nefrótico con GN membranosa; lepra: GN proliferativa difusa"
-    },
-    {
-     "t": "Sífilis: síndrome nefrítico; lepra: nefrótico",
-     "por": "Están invertidos."
-    },
-    {
-     "t": "Ambas dan cambios mínimos con proteinuria",
-     "por": "No es lo descrito."
-    },
-    {
-     "t": "Ambas dan nefropatía por IgA",
-     "por": "No es lo descrito."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Otras infecciones: Plasmodium falciparum puede dar proteinuria moderada, alteraciones electrolíticas y hemólisis intravascular.",
-   "fuente": "PPT Glomerulopatías II: secundarias (sem. 9), lám. 33 y 34"
   },
   {
    "id": "n-gp2-case",

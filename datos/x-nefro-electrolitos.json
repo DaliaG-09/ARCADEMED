@@ -1,0 +1,447 @@
+{
+ "preguntas": [
+  {
+   "id": "x-nf-na1",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 78 años que toma hidroclorotiazida. Desde hace 3 días está confusa y con náuseas. Mucosas secas, PA 100/60 al estar acostada, hipotensión ortostática. Na⁺ 118 mEq/L, osmolaridad plasmática baja, Na⁺ urinario mayor de 30 mEq/L.\n\n¿Qué trastorno tiene y cuál es su causa? ¿Cómo lo trata? ¿Qué velocidad máxima de corrección aplicas y qué complicación evitas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Hiponatremia hipoosmolar hipovolémica por diuréticos tiazídicos.",
+     "w": 0.5
+    },
+    {
+     "t": "Suspender la tiazida; reponer volumen con solución salina isotónica (y suero hipertónico si hay síntomas graves).",
+     "w": 0.5
+    },
+    {
+     "t": "No subir el sodio más de 8 a 10 mEq/L en las primeras 24 horas.",
+     "w": 0.5
+    },
+    {
+     "t": "Evita el síndrome de desmielinización osmótica (mielinólisis pontina): disartria, disfagia, tetraparesia días después.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Los diuréticos tiazídicos son causa clásica de hiponatremia hipovolémica en ancianos. Corregir muy rápido daña el cerebro.",
+   "fuente": "PPT",
+   "contexto": "Hiponatremia: sodio en sangre menor de 135 mEq/L; casi siempre es exceso de agua respecto al sodio. Se evalúa con osmolaridad, volumen extracelular y sodio urinario."
+  },
+  {
+   "id": "x-nf-na2",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Clasifica la hiponatremia hipoosmolar según el estado de volumen y da un ejemplo de causa en cada grupo.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Hipovolémica: diuréticos (sobre todo tiazidas), vómitos, diarrea, hemorragia.",
+     "w": 0.75
+    },
+    {
+     "t": "Euvolémica: SIADH, hipotiroidismo, polidipsia primaria, déficit de cortisol.",
+     "w": 0.75
+    },
+    {
+     "t": "Hipervolémica: insuficiencia cardiaca, cirrosis, síndrome nefrótico, insuficiencia renal.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Antes se confirma que la osmolaridad es baja: la hiponatremia con osmolaridad alta (hiperglucemia) o normal (pseudohiponatremia) no es hipoosmolar.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: SIADH y la clasificación por volemia son parte del abordaje diagnóstico, no están detalladas en el PPT."
+  },
+  {
+   "id": "x-nf-na3",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "¿Qué evalúas ante una hiponatremia? Menciona cuatro pasos del abordaje.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Osmolaridad plasmática (para confirmar que es hipoosmolar).",
+     "w": 0.5
+    },
+    {
+     "t": "Estado de volumen extracelular: hipo, eu o hipervolémico.",
+     "w": 0.5
+    },
+    {
+     "t": "Osmolaridad y sodio en orina.",
+     "w": 0.5
+    },
+    {
+     "t": "Velocidad segura de corrección para evitar la desmielinización osmótica.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Osmolaridad plasmática ≈ 2 × Na⁺ + glucosa/18 + urea/5.6 (en mg/dL).",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-na4",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 25 años con traumatismo craneal hace 1 semana. Orina 6 litros al día, sed intensa. Na⁺ 156 mEq/L, osmolaridad plasmática alta, osmolaridad urinaria baja.\n\n¿Qué trastorno tiene y cuál es el mecanismo? ¿Qué dos diagnósticos diferenciales evalúas y cómo los distingues? ¿Cómo lo manejas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Hipernatremia por pérdida de agua libre: diabetes insípida.",
+     "w": 0.5
+    },
+    {
+     "t": "Diabetes insípida central (falta de ADH) vs nefrogénica (el riñón no responde a la ADH).",
+     "w": 0.5
+    },
+    {
+     "t": "Se distingue con la prueba de desmopresina: la orina se concentra en la central y no en la nefrogénica.",
+     "w": 0.5
+    },
+    {
+     "t": "Reponer agua libre (vía oral o suero hipotónico) con descenso lento; desmopresina en la central.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La hipernatremia siempre refleja déficit relativo de agua. El sodio no debe bajar más de 10 mEq/L por día para evitar edema cerebral.",
+   "fuente": "PPT",
+   "contexto": "Diabetes insípida: el cuerpo pierde mucha agua por orina diluida; puede faltar la hormona antidiurética (central) o el riñón no responde (nefrogénica).",
+   "nota": "+ Complemento: la prueba de desmopresina no está en el PPT."
+  },
+  {
+   "id": "x-nf-k1",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 65 años con ERC G4 que toma enalapril. Llega con debilidad y palpitaciones. K⁺ 7.2 mEq/L, creatinina 4.1 mg/dL. ECG: ondas T picudas y QRS ancho.\n\n¿Qué cambios del ECG buscas en hiperpotasemia? ¿Cuál es el manejo escalonado? ¿Cuándo dializas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "ECG: onda T picuda, pérdida de la onda P, QRS ancho y arritmias.",
+     "w": 0.5
+    },
+    {
+     "t": "Primero gluconato de calcio IV para estabilizar la membrana.",
+     "w": 0.5
+    },
+    {
+     "t": "Luego mover el potasio dentro de la célula: insulina con glucosa, salbutamol nebulizado, bicarbonato si hay acidosis.",
+     "w": 0.5
+    },
+    {
+     "t": "Eliminarlo: furosemida, resinas; diálisis si hay ERC grave, oligoanuria o refractariedad.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "El calcio protege el corazón (efecto en minutos) pero no baja el potasio. Se suspenden los fármacos que lo suben (IECA).",
+   "fuente": "PPT",
+   "contexto": "Hiperpotasemia: potasio alto, mayor de 5.5 mEq/L. Es peligrosa por el riesgo de arritmia y paro cardiaco.",
+   "nota": "+ Complemento: el esquema escalonado detallado no está en el PPT."
+  },
+  {
+   "id": "x-nf-k2",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona causas frecuentes de hipopotasemia y cambios del ECG.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Pérdidas renales: diuréticos (asa, tiazidas), hiperaldosteronismo.",
+     "w": 0.5
+    },
+    {
+     "t": "Pérdidas digestivas: diarrea, vómitos, laxantes.",
+     "w": 0.5
+    },
+    {
+     "t": "Redistribución: insulina, β2-agonistas, alcalosis.",
+     "w": 0.5
+    },
+    {
+     "t": "ECG: descenso del ST, aplanamiento de la onda T y onda U prominente.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Si el potasio no sube hay que revisar el magnesio: la hipomagnesemia hace refractaria la hipopotasemia.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la asociación con hipomagnesemia no está en el PPT."
+  },
+  {
+   "id": "x-nf-ca1",
+   "area": "nefro",
+   "tema": "Calcio y magnesio",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 45 años, 2 días después de una tiroidectomía total. Tiene parestesias alrededor de la boca y espasmo de la mano al inflar el manguito. Chvostek positivo. Ca²⁺ 6.2 mg/dL, QT prolongado.\n\n¿Qué trastorno tiene y cuál es la causa probable? ¿Qué signos clásicos se describen? ¿Cómo la tratas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Hipocalcemia sintomática por hipoparatiroidismo posquirúrgico.",
+     "w": 0.5
+    },
+    {
+     "t": "Signos de Chvostek (espasmo facial) y de Trousseau (espasmo carpiano con el manguito).",
+     "w": 0.5
+    },
+    {
+     "t": "ECG: QT prolongado con riesgo de arritmias.",
+     "w": 0.25
+    },
+    {
+     "t": "Gluconato de calcio al 10 % IV, 10 mL diluidos, en 10 a 20 min; luego infusión si persiste.",
+     "w": 0.5
+    },
+    {
+     "t": "Calcio oral más calcitriol para mantener.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Con tetania, convulsiones o arritmias se usa calcio IV.",
+   "fuente": "PPT",
+   "contexto": "Hipocalcemia: calcio bajo; produce hormigueo, calambres y tetania por hiperexcitabilidad de nervios y músculos."
+  },
+  {
+   "id": "x-nf-ca2",
+   "area": "nefro",
+   "tema": "Calcio y magnesio",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 62 años con cáncer de mama, polidipsia, estreñimiento y confusión. Ca 15.8 mg/dL, albúmina 3.0 g/dL.\n\n¿Qué trastorno tiene y cuál es su causa más probable? ¿Cómo corriges el calcio por albúmina? ¿Cómo la tratas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Hipercalcemia maligna (metástasis óseas o PTHrP).",
+     "w": 0.5
+    },
+    {
+     "t": "Calcio corregido = Ca + 0.8 × (4 − albúmina) = 15.8 + 0.8 = 16.6 mg/dL.",
+     "w": 0.5
+    },
+    {
+     "t": "Hidratación con solución salina y diuréticos de asa (si hay sobrecarga).",
+     "w": 0.5
+    },
+    {
+     "t": "Mayor de 15: bifosfonatos y calcitonina; mayor de 18: considerar hemodiálisis; tratar la causa.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Causas: hiperparatiroidismo primario (ambulatorios) y neoplasias (hospitalizados). Moderada 11.5 a 15: salino y diuréticos de asa.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la fórmula de calcio corregido no está en el PPT."
+  },
+  {
+   "id": "x-nf-nam1",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "enunciado": "Mujer de 70 años con náuseas y convulsión generalizada. Na⁺ 112 mEq/L. ¿Cuál es el tratamiento inicial?",
+   "opciones": [
+    {
+     "t": "Solución salina hipertónica al 3 % en bolo.",
+     "por": "Hiponatremia grave con convulsiones: hay edema cerebral y se sube rápido unos 4 a 6 mEq/L con salino al 3 %."
+    },
+    {
+     "t": "Restricción de agua y observar.",
+     "por": "Es insuficiente cuando hay síntomas graves."
+    },
+    {
+     "t": "Solución salina isotónica en infusión lenta.",
+     "por": "Es demasiado lento para una urgencia neurológica."
+    },
+    {
+     "t": "Dextrosa al 5 %.",
+     "por": "Aporta agua libre y empeora la hiponatremia."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Con síntomas graves (convulsiones, coma) se usa salino al 3 % en bolos; después se corrige lento.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-nam2",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "enunciado": "Un paciente con hiponatremia de 108 mEq/L se corrige en 24 horas hasta 128 mEq/L. Tres días después presenta disartria, disfagia y tetraparesia. ¿Cuál es la complicación?",
+   "opciones": [
+    {
+     "t": "Síndrome de desmielinización osmótica.",
+     "por": "Por corregir el sodio más de 8 a 10 mEq/L por día; las neuronas pierden mielina."
+    },
+    {
+     "t": "Edema cerebral por hiponatremia.",
+     "por": "Ocurre al empeorar la hiponatremia, no al corregirla."
+    },
+    {
+     "t": "Hemorragia intracerebral.",
+     "por": "No tiene relación con la corrección."
+    },
+    {
+     "t": "Mielinólisis por déficit de B12.",
+     "por": "No tiene relación."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Hay que corregir el sodio máximo 8 a 10 mEq/L en 24 horas, más lento si el riesgo es alto.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-nam3",
+   "area": "nefro",
+   "tema": "Sodio",
+   "dif": 2,
+   "enunciado": "Varón de 80 años en cama, con fiebre y sin acceso a agua. Na⁺ 168 mEq/L, deshidratado. ¿Qué tipo de solución usas para corregir el déficit de agua libre?",
+   "opciones": [
+    {
+     "t": "Hipotónica (dextrosa 5 % o NaCl 0.45 %), tras corregir el shock si lo hay.",
+     "por": "La hipernatremia es déficit de agua libre; se repone agua con descenso lento del sodio."
+    },
+    {
+     "t": "Salino hipertónico al 3 %.",
+     "por": "Subiría más el sodio."
+    },
+    {
+     "t": "Salino isotónico en todos los casos.",
+     "por": "Se usa solo si hay inestabilidad hemodinámica."
+    },
+    {
+     "t": "Restricción de líquidos.",
+     "por": "Empeora la hipernatremia."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El factor de riesgo más característico en hospital es el paciente que no puede tomar agua (ancianos, delirio, intubados).",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-km1",
+   "area": "nefro",
+   "tema": "Potasio",
+   "dif": 2,
+   "enunciado": "Mujer de 55 años en tratamiento con furosemida. K⁺ 2.4 mEq/L, calambres y debilidad. ECG con onda U. ¿Cuál es la vía de reposición más segura por una vena periférica?",
+   "opciones": [
+    {
+     "t": "Hasta 10 mEq/h de potasio por vía periférica.",
+     "por": "Más rápido irrita la vena y puede causar arritmias; por vía central se tolera hasta 40 mEq/h con monitoreo."
+    },
+    {
+     "t": "Bolo rápido de 40 mEq.",
+     "por": "Peligroso: causa arritmias fatales."
+    },
+    {
+     "t": "40 mEq/h por vía periférica.",
+     "por": "Solo se tolera por vía central con monitoreo."
+    },
+    {
+     "t": "Solo dieta rica en potasio.",
+     "por": "Insuficiente para una hipopotasemia grave."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Vía periférica: máximo 10 mEq/h. Vía central: máximo 40 mEq/h con monitoreo cardiaco.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-cam1",
+   "area": "nefro",
+   "tema": "Calcio y magnesio",
+   "dif": 2,
+   "enunciado": "Paciente con calcio de 13 mg/dL, náuseas y poliuria. ¿Cuál es la primera medida terapéutica?",
+   "opciones": [
+    {
+     "t": "Hidratación con solución salina isotónica.",
+     "por": "Corrige la deshidratación y aumenta la excreción renal de calcio."
+    },
+    {
+     "t": "Suplementar calcio.",
+     "por": "Empeora la hipercalcemia."
+    },
+    {
+     "t": "Furosemida sin hidratar.",
+     "por": "Los diuréticos de asa se dan después de reponer volumen."
+    },
+    {
+     "t": "Hemodiálisis inmediata.",
+     "por": "Se reserva para calcio mayor de 18 o refractaria."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Primero salino; en hipercalcemia grave, bifosfonatos y calcitonina.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-cam2",
+   "area": "nefro",
+   "tema": "Calcio y magnesio",
+   "dif": 2,
+   "enunciado": "Paciente con hipocalcemia refractaria al calcio; tiene alcoholismo y diarrea crónica y usa furosemida. ¿Qué otro electrolito revisas?",
+   "opciones": [
+    {
+     "t": "Magnesio.",
+     "por": "La hipomagnesemia bloquea la PTH y hace refractarias la hipocalcemia y la hipopotasemia."
+    },
+    {
+     "t": "Cloro.",
+     "por": "No explica la refractariedad."
+    },
+    {
+     "t": "Sodio.",
+     "por": "No causa refractariedad al calcio."
+    },
+    {
+     "t": "Bicarbonato.",
+     "por": "No es la causa."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La hipomagnesemia se corrige con magnesio, oral o IV.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: refractariedad por magnesio no está en el PPT."
+  }
+ ],
+ "tarjetas": []
+}

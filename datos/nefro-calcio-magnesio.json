@@ -29,64 +29,6 @@
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 9"
   },
   {
-   "id": "n-ca-fgf",
-   "area": "nefro",
-   "tema": "Calcio y magnesio",
-   "dif": 3,
-   "enunciado": "¿Qué hace la FGF23?",
-   "opciones": [
-    {
-     "t": "Aumenta fosfaturia y baja calcitriol",
-     "por": "El resultado es que baja el fósforo sérico.",
-     "full": "Aumenta la eliminación de fósforo por la orina, baja el calcitriol e inhibe débilmente la PTH"
-    },
-    {
-     "t": "Aumenta la absorción intestinal de calcio",
-     "por": "Eso lo hace el calcitriol."
-    },
-    {
-     "t": "Estimula la resorción ósea",
-     "por": "Eso lo hace la PTH."
-    },
-    {
-     "t": "Aumenta la reabsorción renal de fósforo",
-     "por": "Es lo contrario: aumenta la fosfaturia."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "FGF23 = factor de crecimiento de fibroblastos 23, producido por el hueso.",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 9"
-  },
-  {
-   "id": "n-ca-cal",
-   "area": "nefro",
-   "tema": "Calcio y magnesio",
-   "dif": 2,
-   "enunciado": "¿Qué hace el calcitriol?",
-   "opciones": [
-    {
-     "t": "Sube la absorción de Ca y P; frena la PTH",
-     "por": "Por eso sube el calcio y el fósforo sérico. También favorece la resorción ósea junto con la PTH.",
-     "full": "Aumenta la absorción intestinal de calcio y fósforo y frena la PTH por retroalimentación negativa"
-    },
-    {
-     "t": "Baja el calcio sérico",
-     "por": "El calcitriol sube el calcio sérico, no lo baja."
-    },
-    {
-     "t": "Aumenta la eliminación renal de fósforo",
-     "por": "Eso lo hace la FGF23."
-    },
-    {
-     "t": "Reduce la absorción intestinal de calcio",
-     "por": "Es lo contrario: la aumenta."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El calcitriol (vitamina D activa, 1,25-dihidroxivitamina D) aumenta la absorción intestinal de calcio y fósforo y frena la secreción de PT (paratohormona).",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 9"
-  },
-  {
    "id": "n-ca-hipoCa",
    "area": "nefro",
    "tema": "Calcio y magnesio",
@@ -321,68 +263,6 @@
     "t": "• Primer paso: hidratación con solución salina isotónica (por ejemplo, bolo de 1 a 2 L y luego 100 a 300 mL/h según tolerancia).\n• Los diuréticos de asa no han demostrado bajar el calcio más rápido que la hidratación sola; se usan con cautela y solo tras reponer volumen. Ojo: tu PPT los incluye; para el examen manda la PPT.\n• El ácido zoledrónico 4 mg IV es el tratamiento de primera línea; tarda 2 a 3 días y dura unas 4 semanas.\n• La calcitonina actúa en horas y sirve de puente; el denosumab se usa si hay resistencia a bifosfonatos.",
     "f": "Revisión de Chakhtoura y El-Hajj Fuleihan (Endocrinol Metab Clin N Am 2021) y algoritmo MD Anderson; no es una guía única de sociedad"
    }
-  },
-  {
-   "id": "n-ca-bif",
-   "area": "nefro",
-   "tema": "Calcio y magnesio",
-   "dif": 3,
-   "enunciado": "¿Qué bifosfonato tiene efecto más largo en hipercalcemia?",
-   "opciones": [
-    {
-     "t": "Zoledronato (alrededor de 28 días)",
-     "por": "Es el de mayor duración; el pamidronato dura 21 a 28 días."
-    },
-    {
-     "t": "Clodronato (14 días)",
-     "por": "El clodronato dura unos 14 días, menos que el zoledronato."
-    },
-    {
-     "t": "Ibandronato (14 días)",
-     "por": "El ibandronato dura unos 14 días, menos que el zoledronato."
-    },
-    {
-     "t": "Ninguno, todos duran el mismo tiempo",
-     "por": "Sí tienen una duración aproximada."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Duración aproximada de los bifosfonatos: zoledronato unos 28 días, pamidronato 21 a 28 días, clodronato e ibandronato unos 14 días. Efectos adversos: síndrome gripal y nefrotoxicidad.",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 21",
-   "nota": "La tabla da duraciones aproximadas; zoledronato 28 días y pamidronato de 21 a 28 días son muy cercanas.",
-   "guia": {
-    "t": "• Primer paso: hidratación con solución salina isotónica (por ejemplo, bolo de 1 a 2 L y luego 100 a 300 mL/h según tolerancia).\n• Los diuréticos de asa no han demostrado bajar el calcio más rápido que la hidratación sola; se usan con cautela y solo tras reponer volumen. Ojo: tu PPT los incluye; para el examen manda la PPT.\n• El ácido zoledrónico 4 mg IV es el tratamiento de primera línea; tarda 2 a 3 días y dura unas 4 semanas.\n• La calcitonina actúa en horas y sirve de puente; el denosumab se usa si hay resistencia a bifosfonatos.",
-    "f": "Revisión de Chakhtoura y El-Hajj Fuleihan (Endocrinol Metab Clin N Am 2021) y algoritmo MD Anderson; no es una guía única de sociedad"
-   }
-  },
-  {
-   "id": "n-ca-mgf",
-   "area": "nefro",
-   "tema": "Calcio y magnesio",
-   "dif": 2,
-   "enunciado": "¿Dónde se reabsorbe la mayor parte del magnesio filtrado?",
-   "opciones": [
-    {
-     "t": "Rama ascendente gruesa del asa de Henle",
-     "por": "Otra parte, menor, se reabsorbe en el túbulo contorneado distal.",
-     "full": "En la rama ascendente gruesa del asa de Henle (60 a 70 %)"
-    },
-    {
-     "t": "Túbulo contorneado proximal",
-     "por": "Reabsorbe sobre todo sodio y agua, no la mayor parte del magnesio."
-    },
-    {
-     "t": "Segmento descendente delgado del asa",
-     "por": "Reabsorbe poco magnesio."
-    },
-    {
-     "t": "Túbulo colector cortical y medular",
-     "por": "Es permeable al agua, no al magnesio."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Cerca de un tercio del magnesio ingerido se absorbe en el intestino. Por eso los diuréticos de asa causan hipomagnesemia.",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 24"
   },
   {
    "id": "n-ca-mg1",

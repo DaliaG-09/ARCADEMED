@@ -41,6 +41,10 @@
   "derma-ampollares.json",
   "x-gasometria.json",
   "x-itu.json",
-  "x-pancreatitis.json"
+  "x-pancreatitis.json",
+  "x-nefro-erc-ira.json",
+  "x-nefro-glomerulo.json",
+  "x-nefro-electrolitos.json",
+  "x-nefro-otros.json"
  ]
 }

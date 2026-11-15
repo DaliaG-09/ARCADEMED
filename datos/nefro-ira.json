@@ -35,34 +35,6 @@
    }
   },
   {
-   "id": "n-ira-prem",
-   "area": "nefro",
-   "tema": "Injuria renal aguda",
-   "dif": 2,
-   "enunciado": "¿Cuál NO es una de las tres condiciones para que el riñón funcione normalmente?",
-   "opciones": [
-    {
-     "t": "Ausencia de proteínas en la orina",
-     "por": "No es una premisa. Las tres son perfusión sanguínea adecuada, integridad del parénquima renal y permeabilidad de las vías excretoras."
-    },
-    {
-     "t": "Perfusión sanguínea adecuada",
-     "por": "Sí es premisa: sin sangre suficiente no hay filtrado. Si falla, la IRA es prerrenal."
-    },
-    {
-     "t": "Integridad del parénquima renal",
-     "por": "Sí es premisa: si el tejido se daña (túbulos, glomérulos), la IRA es renal."
-    },
-    {
-     "t": "Permeabilidad de las vías excretoras",
-     "por": "Sí es premisa: si la orina no puede salir, la IRA es postrenal."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Cada tipo de IRA rompe una premisa: perfusión (prerrenal), parénquima (renal), vía excretora (postrenal).",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 8"
-  },
-  {
    "id": "n-ira-tipos",
    "area": "nefro",
    "tema": "Injuria renal aguda",
@@ -117,36 +89,6 @@
    ],
    "correcta": 0,
    "explicacion": "Memoriza: R ×1.5 (6 h), I ×2 (12 h), F ×3 (24 h o anuria 12 h). Los tres primeros tienen alta sensibilidad; L y E tienen alta especificidad.",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 9",
-   "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
-  },
-  {
-   "id": "n-ira-rifle2",
-   "area": "nefro",
-   "tema": "Injuria renal aguda",
-   "dif": 2,
-   "enunciado": "En RIFLE, ¿cuánto tiempo de pérdida completa de la función renal define 'Loss' y 'ESKD'?",
-   "opciones": [
-    {
-     "t": "Loss >4 semanas; ESKD >3 meses",
-     "por": "Son los estadios de desenlace: miden cuánto dura la pérdida de función.",
-     "full": "Loss: más de 4 semanas; ESKD (enfermedad renal terminal): más de 3 meses"
-    },
-    {
-     "t": "Loss: más de 1 semana; ESKD: más de 4 semanas",
-     "por": "Los tiempos son más largos: Loss es más de 4 semanas."
-    },
-    {
-     "t": "Loss: más de 3 meses; ESKD: más de 6 meses",
-     "por": "Son tiempos demasiado largos para Loss y ESKD."
-    },
-    {
-     "t": "Loss: más de 48 horas; ESKD: más de 7 días",
-     "por": "La ventana de 48 horas es de AKIN para el diagnóstico, no de estos estadios."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "ESKD = end-stage kidney disease. Los estadios Risk, Injury y Failure son los agudos.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 9",
    "contexto": "IRA = injuria renal aguda (antes insuficiencia renal aguda). FG = filtrado glomerular. Cr = creatinina sérica. RIFLE y AKIN-KDIGO son escalas para estadiar la gravedad de la IRA según cuánto sube la creatinina y cuánto baja la orina."
   },
@@ -277,92 +219,6 @@
    "correcta": 0,
    "explicacion": "La disminución marcada del flujo sanguíneo hace que la arteriola aferente se contraiga para compensar, y el FG cae.",
    "fuente": "PPT Injuria renal aguda (sem. 9), lám. 12"
-  },
-  {
-   "id": "n-ira-pre2",
-   "area": "nefro",
-   "tema": "Injuria renal aguda",
-   "dif": 2,
-   "enunciado": "¿Cómo disminuye el filtrado glomerular en la IRA prerrenal?",
-   "opciones": [
-    {
-     "t": "Vasoconstricción por isquemia y menor flujo glomerular",
-     "por": "Menos sangre al glomérulo significa menos presión para filtrar. Si la isquemia sigue, también baja el oxígeno en la médula renal y aparece daño tubular.",
-     "full": "La isquemia causa vasoconstricción y congestión medular; baja el flujo plasmático glomerular y la presión de ultrafiltración"
-    },
-    {
-     "t": "Una obstrucción en el uréter bloquea la orina",
-     "por": "Eso es postrenal."
-    },
-    {
-     "t": "Depósito de inmunocomplejos en el glomérulo",
-     "por": "Eso es glomerulonefritis, causa renal."
-    },
-    {
-     "t": "Inflamación del intersticio por fármacos",
-     "por": "Eso es nefritis intersticial, causa renal."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Si la isquemia es prolongada, la IRA prerrenal puede pasar a renal (necrosis tubular).",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 13"
-  },
-  {
-   "id": "n-ira-ntn",
-   "area": "nefro",
-   "tema": "Injuria renal aguda",
-   "dif": 2,
-   "enunciado": "En la necrosis tubular, ¿qué produce la obstrucción tubular y la 'retrodifusión' (backleak)?",
-   "opciones": [
-    {
-     "t": "Descamación de células tubulares necróticas",
-     "por": "Las células muertas se desprenden y tapan el túbulo. El filtrado se escapa de vuelta al intersticio (backleak), y el FG cae.",
-     "full": "La descamación de células tubulares tras apoptosis y necrosis"
-    },
-    {
-     "t": "Depósitos de anticuerpos en la membrana basal glomerular",
-     "por": "Eso ocurre en glomerulonefritis, no en necrosis tubular."
-    },
-    {
-     "t": "Una estenosis ureteral con hidronefrosis",
-     "por": "Es una causa postrenal."
-    },
-    {
-     "t": "Hipervolemia con edema intersticial",
-     "por": "No es mecanismo de esta lesión."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Isquemia → lesión del endotelio y vasoconstricción; inflamación; lesión tubular con pérdida del citoesqueleto y de la polaridad celular; apoptosis y necrosis; descamación; obstrucción.",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 15 y 16"
-  },
-  {
-   "id": "n-ira-mixto",
-   "area": "nefro",
-   "tema": "Injuria renal aguda",
-   "dif": 3,
-   "enunciado": "En la IRA por necrosis tubular, ¿qué dos grupos de agresores actúan sobre el riñón?",
-   "opciones": [
-    {
-     "t": "Alteraciones hemodinámicas y nefrotoxinas",
-     "por": "Ambas producen vasoconstricción renal y lesión tubular directa. Eso activa la mácula densa, forma cilindros intratubulares y causa retrodifusión de líquido, y todo baja el filtrado."
-    },
-    {
-     "t": "Obstrucción urinaria y reflujo vesicoureteral",
-     "por": "No son los dos grupos del esquema."
-    },
-    {
-     "t": "Autoanticuerpos y activación del complemento",
-     "por": "Son causas postrenales."
-    },
-    {
-     "t": "Infecciones virales y rechazo del injerto",
-     "por": "Pertenecen a las glomerulonefritis."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Los cilindros granulosos en la orina son un signo típico de necrosis tubular.",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 16"
   },
   {
    "id": "n-ira-renal",

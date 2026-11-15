@@ -1,36 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "n-gp1-def",
-   "area": "nefro",
-   "tema": "Glomerulopatías primarias",
-   "dif": 1,
-   "enunciado": "¿Qué son las glomerulopatías?",
-   "opciones": [
-    {
-     "t": "Enfermedades heterogéneas del glomérulo",
-     "por": "Se clasifican en primarias (la enfermedad nace en el riñón) y secundarias (el riñón se afecta por una enfermedad sistémica).",
-     "full": "Enfermedades que afectan la estructura y la función del glomérulo; son heterogéneas en etiología, clínica y evolución"
-    },
-    {
-     "t": "Infecciones de la vejiga o la uretra",
-     "por": "Eso son ITU bajas; no comprometen el glomérulo."
-    },
-    {
-     "t": "Alteraciones solo del túbulo proximal",
-     "por": "Las glomerulopatías afectan al glomérulo, el filtro del riñón."
-    },
-    {
-     "t": "Cálculos que obstruyen la vía urinaria",
-     "por": "Eso es litiasis, un problema obstructivo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Entidades heterogéneas: cambian la causa, las manifestaciones clínicas y la evolución.",
-   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 8",
-   "contexto": "MO = microscopía óptica; ME = microscopía electrónica; IF = inmunofluorescencia; MBG = membrana basal glomerular. Son los tres estudios de la biopsia renal que permiten distinguir cada glomerulopatía."
-  },
-  {
    "id": "n-gp1-cm1",
    "area": "nefro",
    "tema": "Glomerulopatías primarias",

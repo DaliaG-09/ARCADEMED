@@ -88,34 +88,6 @@
    "contexto": "HbA1c = hemoglobina glucosilada, refleja el control de glucosa de los últimos 3 meses. DM1 y DM2 = diabetes mellitus tipo 1 y 2."
   },
   {
-   "id": "n-nd-epi",
-   "area": "nefro",
-   "tema": "Nefropatía diabética",
-   "dif": 1,
-   "enunciado": "En Perú, ¿qué porcentaje de pacientes en hemodiálisis crónica tiene nefropatía diabética como diagnóstico principal?",
-   "opciones": [
-    {
-     "t": "Más de 30 %",
-     "por": "Los estudios locales señalan que más de 30 % de los pacientes en hemodiálisis crónica tiene diabetes como causa principal."
-    },
-    {
-     "t": "Menos de 5 %",
-     "por": "Es un porcentaje demasiado bajo para la realidad local."
-    },
-    {
-     "t": "10 %",
-     "por": "Es menor que lo que muestran los estudios locales."
-    },
-    {
-     "t": "Casi 100 %",
-     "por": "Es exagerado: hay otras causas de enfermedad renal terminal."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Aumentan la obesidad, el sedentarismo y el mal control de la diabetes.",
-   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 11"
-  },
-  {
    "id": "n-nd-temp",
    "area": "nefro",
    "tema": "Nefropatía diabética",
@@ -141,35 +113,6 @@
    ],
    "correcta": 0,
    "explicacion": "En esta fase la TFG suele ser normal o aumentada (hiperfiltración).",
-   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 12"
-  },
-  {
-   "id": "n-nd-tiempo",
-   "area": "nefro",
-   "tema": "Nefropatía diabética",
-   "dif": 2,
-   "enunciado": "¿Cuándo suele aparecer la albuminuria en DM1 y en DM2?",
-   "opciones": [
-    {
-     "t": "DM1 tras 5 años; DM2 desde el inicio",
-     "por": "En DM2, como no se sabe cuándo empezó, puede estar desde el inicio.",
-     "full": "En DM1 después de 5 años del diagnóstico; en DM2 puede estar desde el inicio"
-    },
-    {
-     "t": "DM1 desde el inicio; DM2 tras 5 años",
-     "por": "Eso corresponde a la DM2, donde el inicio es incierto."
-    },
-    {
-     "t": "DM1 tras 20 años; DM2 nunca antes",
-     "por": "La aparición depende del tiempo de diabetes, no de una edad fija."
-    },
-    {
-     "t": "DM1 y DM2 solo después de 15 años",
-     "por": "Sí aparece en DM2, y a veces ya está presente al diagnóstico."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "En DM1 la albuminuria suele aparecer tras unos 5 años de enfermedad. En DM2 puede estar presente desde el diagnóstico, porque el inicio real de la diabetes es incierto.",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 12"
   },
   {

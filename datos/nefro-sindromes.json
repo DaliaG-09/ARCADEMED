@@ -30,36 +30,6 @@
    "contexto": "Síndrome nefrótico = el glomérulo pierde proteínas en grandes cantidades por daño de la barrera de filtración (podocitos, membrana basal, endotelio). Los valores salen de los criterios de definición."
   },
   {
-   "id": "n-sn-alb",
-   "area": "nefro",
-   "tema": "Síndrome nefrótico",
-   "dif": 2,
-   "enunciado": "¿Con qué valor se considera hipoalbuminemia en el síndrome nefrótico?",
-   "opciones": [
-    {
-     "t": "Menor de 3.0 g/dL",
-     "full": "Albúmina sérica menor de 3.0 g/dL",
-     "por": "La hipoalbuminemia del síndrome nefrótico se define como albúmina menor de 3.0 g/dL."
-    },
-    {
-     "t": "Menor de 3.5 g/dL",
-     "por": "Es el límite inferior normal de albúmina, no el criterio."
-    },
-    {
-     "t": "Menor de 2.5 g/dL",
-     "por": "La definición de nefrótico usa 3.0."
-    },
-    {
-     "t": "Menor de 4.0 g/dL",
-     "por": "Es demasiado alto; la mayoría de personas sanas está cerca de ese valor."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Para tromboprofilaxis se habla de albúmina menor de 2 a 2.5 g/dL con factores de riesgo. Son dos usos distintos del valor.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 7 y 20",
-   "nota": "Algunas imágenes usan <2.5 g/dL. Para el examen, usa <3.0 g/dL para definir el síndrome."
-  },
-  {
    "id": "n-sn-edema",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
@@ -88,35 +58,6 @@
    "explicacion": "SRAA = sistema renina-angiotensina-aldosterona. ADH = hormona antidiurética (vasopresina). Por eso el manejo incluye restricción de sal y agua y diuréticos.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 16 y 20",
    "contexto": "Síndrome nefrótico = el glomérulo pierde proteínas en grandes cantidades por daño de la barrera de filtración (podocitos, membrana basal, endotelio). Los valores salen de los criterios de definición."
-  },
-  {
-   "id": "n-sn-lip",
-   "area": "nefro",
-   "tema": "Síndrome nefrótico",
-   "dif": 2,
-   "enunciado": "¿Por qué se eleva el colesterol en el síndrome nefrótico?",
-   "opciones": [
-    {
-     "t": "El hígado sintetiza más lipoproteínas y se depuran menos",
-     "por": "El hígado intenta compensar la caída de albúmina fabricando más proteínas, y entre ellas lipoproteínas. Además se dañan enzimas que eliminan lípidos.",
-     "full": "El hígado aumenta la síntesis de lipoproteínas en respuesta a la hipoalbuminemia y además se depuran menos los lípidos"
-    },
-    {
-     "t": "El intestino absorbe más grasa",
-     "por": "La hiperlipidemia nefrótica se debe a mayor síntesis hepática, no a mayor absorción intestinal."
-    },
-    {
-     "t": "Se pierde colesterol por la orina y el cuerpo lo compensa",
-     "por": "El colesterol no se pierde por la orina de esa forma; lo que sube es la producción."
-    },
-    {
-     "t": "El hígado fabrica menos lipoproteínas",
-     "por": "Es lo contrario: fabrica más."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Sube el colesterol total, el LDL y los triglicéridos. En el tratamiento se dan estatinas si la dislipidemia persiste más de 6 meses.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 18 y 20"
   },
   {
    "id": "n-sn-trombo",
@@ -178,35 +119,6 @@
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 18, 19 y 20"
   },
   {
-   "id": "n-sn-sel",
-   "area": "nefro",
-   "tema": "Síndrome nefrótico",
-   "dif": 2,
-   "enunciado": "¿Qué diferencia a la proteinuria selectiva de la no selectiva?",
-   "opciones": [
-    {
-     "t": "Selectiva: casi solo albúmina",
-     "por": "Cuanto más grande el daño de la barrera de filtración, más grandes son las proteínas que cruzan.",
-     "full": "En la selectiva pasa sobre todo albúmina (proteínas pequeñas); en la no selectiva pasan también inmunoglobulinas y otras proteínas grandes"
-    },
-    {
-     "t": "En la selectiva pasan inmunoglobulinas y proteínas grandes",
-     "por": "Eso es la no selectiva."
-    },
-    {
-     "t": "En la selectiva no pasa ninguna proteína",
-     "por": "Sí pasa albúmina y proteínas de bajo peso molecular."
-    },
-    {
-     "t": "Ambas dejan pasar solo albúmina",
-     "por": "La no selectiva incluye proteínas de alto peso molecular."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Selectiva: típica de cambios mínimos (daño más leve). No selectiva: daño estructural mayor.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 15"
-  },
-  {
    "id": "n-sn-ped",
    "area": "nefro",
    "tema": "Síndrome nefrótico",
@@ -234,35 +146,6 @@
    "explicacion": "Niños: 2 a 7 casos por 100 000 al año. Adultos: mesangiocapilar 30 a 40 %, GEFS 15 a 25 %, cambios mínimos cerca de 20 %. En adultos de Lima (biopsias), 67 % es GEFS.",
    "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 12 y 13",
    "nota": "Los porcentajes de adultos de esta tabla no coinciden con lo que enseñan otros textos (la membranosa suele ser primera en adultos). Para el examen usa esta tabla."
-  },
-  {
-   "id": "n-sn-edad",
-   "area": "nefro",
-   "tema": "Síndrome nefrótico",
-   "dif": 2,
-   "enunciado": "Según el esquema de etiología por edad, ¿qué causa de síndrome nefrótico se asocia con adultos mayores?",
-   "opciones": [
-    {
-     "t": "Amiloidosis y causas paraneoplásicas",
-     "por": "En el esquema aparecen al final de la línea de edad, hacia los 60 a 70 años."
-    },
-    {
-     "t": "Nefrosis congénita de tipo finlandés",
-     "por": "Aparece desde el nacimiento."
-    },
-    {
-     "t": "Enfermedad de cambios mínimos idiopática",
-     "por": "Es sobre todo de niños, aunque el esquema la repite hacia los 40."
-    },
-    {
-     "t": "Nefropatía diabética del adulto joven",
-     "por": "El esquema la ubica en adultos jóvenes, alrededor de los 30 a 40 años."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Orden aproximado: nefrosis congénita, cambios mínimos, GEFS, diabetes tipo 1, nefropatía membranosa (50 a 60 años), diabetes tipo 2, amiloidosis, paraneoplásico.",
-   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 11",
-   "nota": "las edades son aproximadas."
   },
   {
    "id": "n-sn-neo",
@@ -472,36 +355,6 @@
    "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 8",
    "contexto": "Síndrome nefrítico = inflamación aguda del glomérulo. Deja pasar sangre (hematuria) y poca proteína, y se acompaña de hipertensión y menos orina.",
    "nota": "El síndrome nefrótico puede mezclarse con hallazgos nefríticos."
-  },
-  {
-   "id": "n-sn-fis",
-   "area": "nefro",
-   "tema": "Síndrome nefrítico",
-   "dif": 2,
-   "enunciado": "¿Qué mecanismo produce el síndrome nefrítico?",
-   "opciones": [
-    {
-     "t": "Inflamación glomerular aguda con proliferación celular",
-     "por": "El daño de la pared del capilar glomerular deja salir sangre y reduce la filtración.",
-     "full": "Inflamación glomerular aguda con infiltrado de leucocitos y proliferación endotelial o mesangial, por depósitos inmunes"
-    },
-    {
-     "t": "Lesión de los podocitos con pérdida masiva de proteínas",
-     "por": "Es el mecanismo del nefrótico."
-    },
-    {
-     "t": "Obstrucción del flujo urinario por litiasis",
-     "por": "Eso es uropatía obstructiva."
-    },
-    {
-     "t": "Pérdida de volumen por diarrea y vómitos",
-     "por": "Eso causa lesión renal prerrenal, no un síndrome nefrítico."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Causas primarias frecuentes: glomerulonefritis postinfecciosa, GN rápidamente progresiva, nefropatía IgA. Secundarias: lupus, vasculitis (ANCA).",
-   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 8 y 11",
-   "contexto": "ANCA = anticuerpos anticitoplasma de neutrófilos. GN = glomerulonefritis."
   },
   {
    "id": "n-sn-post",

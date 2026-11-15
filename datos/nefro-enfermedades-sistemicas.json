@@ -238,36 +238,6 @@
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 15 y 16"
   },
   {
-   "id": "n-sis-esc0",
-   "area": "nefro",
-   "tema": "Enfermedades sistémicas y riñón",
-   "dif": 2,
-   "enunciado": "¿Qué es la esclerodermia?",
-   "opciones": [
-    {
-     "t": "Exceso de colágeno en varios órganos",
-     "por": "En la piel hay Raynaud, edema de manos y pies, esclerodactilia y úlceras; en el tubo digestivo, pirosis y disfagia; también artralgias.",
-     "full": "Una enfermedad del colágeno y vascular con proliferación excesiva de colágeno que afecta piel, tubo digestivo, riñón, pulmón y corazón"
-    },
-    {
-     "t": "Una vasculitis de grandes vasos",
-     "por": "No: es una enfermedad del colágeno."
-    },
-    {
-     "t": "Una enfermedad por depósito de cadenas ligeras",
-     "por": "Eso es otra entidad (disproteinemia)."
-    },
-    {
-     "t": "Una glomerulopatía primaria",
-     "por": "Afecta varios órganos; el riñón es uno de ellos."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Cardiopulmonares: fibrosis pulmonar, arritmias, miocardiopatía.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 17 y 18",
-   "contexto": "Esclerodactilia = piel de los dedos tensa y engrosada. Raynaud = dedos que cambian de color con el frío."
-  },
-  {
    "id": "n-sis-esc1",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
@@ -415,35 +385,6 @@
    "contexto": "AL = amiloidosis de cadenas ligeras. AA = amiloide A (en inflamación crónica)."
   },
   {
-   "id": "n-sis-dep",
-   "area": "nefro",
-   "tema": "Enfermedades sistémicas y riñón",
-   "dif": 3,
-   "enunciado": "¿En qué se diferencia la enfermedad de depósito de cadenas ligeras de la amiloidosis primaria?",
-   "opciones": [
-    {
-     "t": "Depósitos granulares, no fibrilares",
-     "por": "En amiloidosis los depósitos son fibrilares y dan proteinuria nefrótica.",
-     "full": "Los depósitos son granulares, no fibrilares; se ubican más en la membrana basal y cápsula de Bowman; hay falla renal con proteinuria no nefrótica"
-    },
-    {
-     "t": "Los depósitos son fibrilares",
-     "por": "Eso es amiloide."
-    },
-    {
-     "t": "Siempre da proteinuria masiva",
-     "por": "Es no nefrótica en esta enfermedad."
-    },
-    {
-     "t": "Nunca produce falla renal",
-     "por": "Sí produce falla renal: es una de sus manifestaciones principales."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La enfermedad por depósito de cadenas pesadas (cadena alfa anómala) se ve en la IF como depósito tubular o granular; el cuadro es parecido y se trata con quimioterapia.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 28 y 29"
-  },
-  {
    "id": "n-sis-wm",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
@@ -501,36 +442,6 @@
    "explicacion": "La afectación renal aparece en 40 a 60 % de los casos y es una causa importante de morbimortalidad. El criterio renal incluye cociente proteína/creatinina o proteinuria de 24 h ≥500 mg, o cilindros hemáticos.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 30 y 31",
    "contexto": "SLICC = Systemic Lupus International Collaborating Clinics. ANA = anticuerpos antinucleares. LES = lupus eritematoso sistémico."
-  },
-  {
-   "id": "n-sis-ar",
-   "area": "nefro",
-   "tema": "Enfermedades sistémicas y riñón",
-   "dif": 2,
-   "enunciado": "¿Qué lesiones renales se asocian a la artritis reumatoide?",
-   "opciones": [
-    {
-     "t": "GN membranosa y amiloidosis secundaria",
-     "por": "La artritis reumatoide es una poliartritis crónica simétrica de articulaciones periféricas. Su tratamiento usa metotrexato y terapias biológicas, como anti-TNF.",
-     "full": "Glomerulonefritis membranosa, amiloidosis secundaria y GN proliferativa mesangial (a veces con IgA); además vasculitis reumatoide y nefropatía por analgésicos"
-    },
-    {
-     "t": "Cambios mínimos y glomeruloesclerosis focal",
-     "por": "No es lo descrito."
-    },
-    {
-     "t": "Nefritis anti-MBG y síndrome de Goodpasture",
-     "por": "La GN anti-MBG no es una de las lesiones descritas en la artritis reumatoide; además la opción dice 'solo' y hay varias lesiones."
-    },
-    {
-     "t": "Necrosis tubular aguda y GN postestreptocócica",
-     "por": "Sí las hay, y los analgésicos también dañan el riñón."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La vasculitis reumatoide se acompaña de ANCA positivo con hipocomplementemia.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 32 a 34",
-   "contexto": "Anti-TNF = fármacos que bloquean el factor de necrosis tumoral (por ejemplo infliximab)."
   },
   {
    "id": "n-sis-vir",

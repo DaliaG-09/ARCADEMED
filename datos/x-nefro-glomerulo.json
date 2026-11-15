@@ -1,0 +1,555 @@
+{
+ "preguntas": [
+  {
+   "id": "x-nf-sn1",
+   "area": "nefro",
+   "tema": "Síndrome nefrótico y nefrítico",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Niño de 7 años con 2 semanas de edema en la cara y las piernas, fatiga y pérdida de apetito. Sin fiebre ni dolor abdominal. PA normal. Tira reactiva: proteinuria +++. Albúmina 2.0 g/dL, colesterol elevado, creatinina normal.\n\n¿Qué síndrome presenta y qué datos lo apoyan? ¿Cuál es la causa más probable? ¿Cómo lo tratas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Síndrome nefrótico: edema, proteinuria masiva, hipoalbuminemia e hiperlipidemia.",
+     "w": 0.5
+    },
+    {
+     "t": "Sin hematuria, HTA ni deterioro de función renal: orienta a nefrótico puro.",
+     "w": 0.25
+    },
+    {
+     "t": "Causa más probable: nefropatía por cambios mínimos (la más frecuente en niños).",
+     "w": 0.5
+    },
+    {
+     "t": "Prednisona 2 mg/kg/día por 4 a 6 semanas con descenso gradual; el 90 % remite en 2 a 3 semanas.",
+     "w": 0.5
+    },
+    {
+     "t": "Medidas de apoyo: restricción de sal, diurético si hay edema importante, vacunas.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "En un niño con síndrome nefrótico puro se trata con esteroides sin biopsia; se biopsia si no responde.",
+   "fuente": "PPT",
+   "contexto": "Síndrome nefrótico: el glomérulo pierde mucha proteína por la orina. Síndrome nefrítico: el glomérulo se inflama y deja pasar sangre. Reconocer cuál es cuál orienta la causa y el tratamiento."
+  },
+  {
+   "id": "x-nf-sn2",
+   "area": "nefro",
+   "tema": "Síndrome nefrótico y nefrítico",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "concepto",
+   "enunciado": "¿Cuáles son los criterios que definen el síndrome nefrótico?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Proteinuria en rango nefrótico: 3.5 g/24 h o más en adultos (o 40 mg/m²/h o más en niños).",
+     "w": 0.75
+    },
+    {
+     "t": "Hipoalbuminemia: albúmina sérica menor de 3.0 g/dL.",
+     "w": 0.5
+    },
+    {
+     "t": "Edema generalizado (anasarca).",
+     "w": 0.25
+    },
+    {
+     "t": "Hiperlipidemia (colesterol total y LDL altos).",
+     "w": 0.25
+    },
+    {
+     "t": "Lipiduria (cuerpos grasos ovales) como hallazgo opcional.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Edema, proteinuria, hipoalbuminemia e hiperlipidemia son la tétrada.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-sn3",
+   "area": "nefro",
+   "tema": "Síndrome nefrótico y nefrítico",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona tres complicaciones del síndrome nefrótico y el mecanismo de cada una.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Trombosis (vena renal, TVP, TEP): pérdida urinaria de antitrombina III y proteínas C y S, más fibrinógeno alto.",
+     "w": 0.75
+    },
+    {
+     "t": "Infecciones por gérmenes encapsulados (neumococo), peritonitis en niños: pérdida urinaria de IgG y complemento.",
+     "w": 0.75
+    },
+    {
+     "t": "Dislipidemia: el hígado aumenta la síntesis de lipoproteínas y baja su depuración.",
+     "w": 0.25
+    },
+    {
+     "t": "Desnutrición o déficit de vitamina D por pérdida de proteínas.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Se previene con vacunas (neumococo, influenza, hepatitis B) y tromboprofilaxis si la albúmina es menor de 2 a 2.5 g/dL con factores de riesgo.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-sn4",
+   "area": "nefro",
+   "tema": "Síndrome nefrótico y nefrítico",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Niño de 8 años con orina color coca-cola, edema palpebral y PA 140/90, 2 semanas después de una faringitis. Orina: hematuria con eritrocitos dismórficos y cilindros hemáticos, proteinuria leve. Creatinina algo elevada.\n\n¿Qué síndrome y qué diagnóstico etiológico plantea? ¿Qué estudios pides para confirmar? ¿Cómo lo manejas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Síndrome nefrítico agudo; glomerulonefritis posestreptocócica.",
+     "w": 0.5
+    },
+    {
+     "t": "Complemento: C3 bajo (se normaliza en 6 a 8 semanas).",
+     "w": 0.5
+    },
+    {
+     "t": "Evidencia de infección estreptocócica previa: ASLO elevado (o cultivo de faringe).",
+     "w": 0.5
+    },
+    {
+     "t": "Manejo de soporte: restricción de sal y líquidos, diurético y antihipertensivo; la mayoría se recupera sola.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La triada hematuria, edema e hipertensión con sedimento activo es el síndrome nefrítico. Los eritrocitos dismórficos y los cilindros hemáticos indican origen glomerular.",
+   "fuente": "PPT",
+   "contexto": "Síndrome nefrótico: el glomérulo pierde mucha proteína por la orina. Síndrome nefrítico: el glomérulo se inflama y deja pasar sangre. Reconocer cuál es cuál orienta la causa y el tratamiento.",
+   "nota": "+ Complemento: el manejo detallado de GNPE (antibiótico si hay infección activa) no está desarrollado en el PPT."
+  },
+  {
+   "id": "x-nf-sn5",
+   "area": "nefro",
+   "tema": "Síndrome nefrótico y nefrítico",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "concepto",
+   "enunciado": "Describe el síndrome nefrítico: tríada clínica, hallazgos del sedimento y mecanismo.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Tríada: hematuria, hipertensión y edema, con oliguria y proteinuria leve a moderada.",
+     "w": 0.5
+    },
+    {
+     "t": "Sedimento activo: eritrocitos dismórficos, acantocitos y cilindros hemáticos.",
+     "w": 0.5
+    },
+    {
+     "t": "Mecanismo: inflamación glomerular por inmunocomplejos o autoanticuerpos, con activación del complemento.",
+     "w": 0.5
+    },
+    {
+     "t": "Puede evolucionar a insuficiencia renal (glomerulonefritis rápidamente progresiva).",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La retención de sodio y agua explica el edema y la hipertensión.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-gp1",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 52 años con edema progresivo de 2 meses. Proteinuria de 7 g/día, albúmina 2.2 g/dL, colesterol alto, creatinina normal, complemento normal y anticuerpos anti-PLA2R positivos. Hoy consulta por dolor en el flanco izquierdo y hematuria macroscópica de inicio brusco.\n\n¿Cuál es el diagnóstico? ¿Qué complicación sospechas hoy? ¿Qué causas secundarias descartas? ¿Cuál es el tratamiento?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Glomerulopatía (nefropatía) membranosa primaria: anti-PLA2R positivo, causa más común de nefrótico en adultos.",
+     "w": 0.5
+    },
+    {
+     "t": "Trombosis de la vena renal (dolor en flanco y hematuria brusca), complicación típica.",
+     "w": 0.5
+    },
+    {
+     "t": "Causas secundarias: lupus, hepatitis B o C, neoplasias, fármacos (AINEs).",
+     "w": 0.5
+    },
+    {
+     "t": "Si la función renal es normal: manejo conservador (IECA/ARA II); inmunosupresión (corticoides con ciclofosfamida, ciclosporina o rituximab) si es persistente o grave; anticoagulación si hay trombosis.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La membranosa tiene depósitos subepiteliales en espigas y la mitad de los casos tiene riesgo de trombosis. 1/3 remite, 1/3 persiste y 1/3 progresa a ERC.",
+   "fuente": "PPT",
+   "contexto": "Síndrome nefrótico: el glomérulo pierde mucha proteína por la orina. Síndrome nefrítico: el glomérulo se inflama y deja pasar sangre. Reconocer cuál es cuál orienta la causa y el tratamiento."
+  },
+  {
+   "id": "x-nf-gp2",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Relaciona cada glomerulopatía con su hallazgo clave: cambios mínimos, membranosa, GEFS, IgA, anti-MBG (Goodpasture).",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Cambios mínimos: microscopía óptica normal, borramiento de pedicelos en ME, inmunofluorescencia negativa; niños; responde a esteroides.",
+     "w": 0.5
+    },
+    {
+     "t": "Membranosa: engrosamiento difuso de la membrana basal, depósitos subepiteliales, anti-PLA2R; adultos.",
+     "w": 0.5
+    },
+    {
+     "t": "GEFS: esclerosis de parte de algunos glomérulos; asociada a VIH, heroína, obesidad; HTA y evolución a ERC.",
+     "w": 0.4
+    },
+    {
+     "t": "IgA (Berger): depósitos mesangiales de IgA; hematuria macroscópica recurrente tras infección respiratoria; complemento normal.",
+     "w": 0.3
+    },
+    {
+     "t": "Anti-MBG: semilunas y fluorescencia lineal de IgG; hemorragia pulmonar más IRA.",
+     "w": 0.3
+    }
+   ],
+   "explicacion": "La inmunofluorescencia permite separar: negativa (cambios mínimos, GEFS), granular (membranosa), mesangial IgA, lineal (anti-MBG).",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-gp3",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 24 años, fumador, con 5 días de hemoptisis y disnea. Creatinina 5.2 mg/dL (era normal), hematuria con cilindros hemáticos y proteinuria. Radiografía con infiltrados alveolares bilaterales.\n\n¿Qué síndrome presenta y cuáles son los diagnósticos principales? ¿Qué estudios pides? ¿Cómo lo tratas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Síndrome pulmón-riñón: glomerulonefritis rápidamente progresiva con hemorragia alveolar.",
+     "w": 0.5
+    },
+    {
+     "t": "Enfermedad anti-MBG (Goodpasture) o vasculitis asociada a ANCA (también lupus).",
+     "w": 0.5
+    },
+    {
+     "t": "Anticuerpos anti-MBG y ANCA; biopsia renal con inmunofluorescencia lineal de IgG en anti-MBG.",
+     "w": 0.5
+    },
+    {
+     "t": "Plasmaféresis más corticoides y ciclofosfamida (urgente).",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Es una urgencia: sin tratamiento precoz se pierde el riñón. Pronóstico peor con más de 80 % de semilunas o creatinina mayor de 6 mg/dL.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: el diagnóstico diferencial pulmón-riñón completo no está en el PPT."
+  },
+  {
+   "id": "x-nf-gs1",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias y enfermedades sistémicas",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 24 años con lupus eritematoso sistémico en tratamiento irregular. Consulta por edema, espuma en la orina, PA 150/95 y creatinina 1.8 mg/dL (antes 0.8). Orina: hematuria dismórfica, cilindros hemáticos, proteinuria de 4 g/día.\n\n¿Qué diagnóstico plantea? ¿Qué exámenes pides para evaluar actividad lúpica? ¿Qué estudio da la clase histológica y qué hallazgo caracteriza la clase IV? ¿Cómo la tratas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Nefritis lúpica.",
+     "w": 0.25
+    },
+    {
+     "t": "ANA y anti-DNA de doble cadena positivos; C3 y C4 bajos.",
+     "w": 0.5
+    },
+    {
+     "t": "Biopsia renal para definir la clase.",
+     "w": 0.25
+    },
+    {
+     "t": "Clase IV (proliferativa difusa): asas de alambre por depósitos subendoteliales.",
+     "w": 0.5
+    },
+    {
+     "t": "Pulsos de metilprednisolona más ciclofosfamida (Euro-Lupus) o micofenolato; azatioprina de mantenimiento; IECA/ARA II para la proteinuria y la HTA.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Se sospecha nefritis lúpica ante proteinuria, hematuria o deterioro renal en un paciente con LES. La biopsia guía el tratamiento.",
+   "fuente": "PPT",
+   "contexto": "Nefritis lúpica: daño de los glomérulos por el lupus. Es la complicación grave del lupus; se clasifica por biopsia en clases I a VI."
+  },
+  {
+   "id": "x-nf-gs2",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias y enfermedades sistémicas",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona las clases de nefritis lúpica y el tratamiento general.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Clase I mesangial mínima y clase II mesangial proliferativa: sin tratamiento específico renal o leve.",
+     "w": 0.5
+    },
+    {
+     "t": "Clase III focal y clase IV difusa: proliferativas, las más graves; necesitan inmunosupresión intensa.",
+     "w": 0.5
+    },
+    {
+     "t": "Clase V membranosa: nefrótico; se parece a la membranosa idiopática.",
+     "w": 0.5
+    },
+    {
+     "t": "Inducción: metilprednisolona en pulsos más ciclofosfamida o micofenolato; luego azatioprina o micofenolato de mantenimiento.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Las clases III y IV son las que más se tratan con pulsos de corticoide y ciclofosfamida.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la clase VI (esclerosis avanzada) no se detalla en el PPT."
+  },
+  {
+   "id": "x-nf-gs3",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias y enfermedades sistémicas",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 68 años con dolor lumbar de 3 meses, astenia, anemia y calcio de 13.5 mg/dL. Creatinina 3.2 mg/dL, tira reactiva de orina con poca proteína. Radiografía de cráneo con lesiones líticas.\n\n¿Qué diagnóstico sospechas y qué lesión renal es la más frecuente? ¿Qué estudios pides? ¿Qué factores agravan el daño?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Mieloma múltiple con \"riñón de mieloma\": nefropatía por cilindros de cadenas ligeras.",
+     "w": 0.5
+    },
+    {
+     "t": "Es la afectación renal más frecuente: obstrucción tubular por cilindros de cadenas ligeras.",
+     "w": 0.25
+    },
+    {
+     "t": "Electroforesis e inmunofijación de proteínas en suero y orina, cadenas ligeras libres, biopsia de médula ósea.",
+     "w": 0.75
+    },
+    {
+     "t": "Hipercalcemia, deshidratación e hiperuricemia agravan el daño.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La tira reactiva detecta albúmina, pero no cadenas ligeras: por eso la proteinuria puede pasar desapercibida.",
+   "fuente": "PPT",
+   "contexto": "Mieloma múltiple: cáncer de las células plasmáticas que produce cadenas ligeras de inmunoglobulinas; pueden dañar el riñón.",
+   "nota": "+ Complemento: la tira reactiva que no detecta cadenas ligeras no está en el PPT."
+  },
+  {
+   "id": "x-nf-gs4",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias y enfermedades sistémicas",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona cinco enfermedades sistémicas o infecciones que pueden causar glomerulopatía.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Lupus eritematoso sistémico.",
+     "w": 0.4
+    },
+    {
+     "t": "Vasculitis asociadas a ANCA (granulomatosis con poliangeítis, poliangeítis microscópica, Churg-Strauss).",
+     "w": 0.4
+    },
+    {
+     "t": "Mieloma múltiple y amiloidosis.",
+     "w": 0.4
+    },
+    {
+     "t": "Infecciones: hepatitis B y C, VIH, endocarditis bacteriana.",
+     "w": 0.4
+    },
+    {
+     "t": "Fármacos (AINEs, sales de oro) y diabetes mellitus.",
+     "w": 0.4
+    }
+   ],
+   "explicacion": "Ante un síndrome nefrótico o nefrítico siempre se buscan causas secundarias antes de rotularlo como primario.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-gpm1",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "Varón de 28 años con episodios de orina oscura 1 a 2 días después de cada infección respiratoria. Entre episodios tiene hematuria microscópica. Complemento normal. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "Nefropatía por IgA (enfermedad de Berger).",
+     "por": "Hematuria macroscópica recurrente poco después de una infección de vías altas, con complemento normal; los depósitos son de IgA en el mesangio."
+    },
+    {
+     "t": "Glomerulonefritis posestreptocócica.",
+     "por": "Aparece 1 a 3 semanas después de la infección y baja el C3; no es recurrente."
+    },
+    {
+     "t": "Nefropatía por cambios mínimos.",
+     "por": "Es un síndrome nefrótico puro sin hematuria."
+    },
+    {
+     "t": "Nefropatía membranosa.",
+     "por": "Cursa con proteinuria nefrótica en adultos."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La hematuria sincrónica con la infección (1 a 2 días) es típica de IgA; en la posestreptocócica hay latencia de 1 a 3 semanas.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la diferencia de latencia entre IgA y posestreptocócica no está en el PPT."
+  },
+  {
+   "id": "x-nf-gpm2",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "Niño de 5 años con síndrome nefrótico por cambios mínimos que recae cada vez que se baja la prednisona. ¿Cómo se define una recaída?",
+   "opciones": [
+    {
+     "t": "Reaparición de proteinuria significativa después de haber estado en remisión.",
+     "por": "Remisión = proteinuria negativa o trazas; recaída = vuelve la proteinuria."
+    },
+    {
+     "t": "Aumento de la creatinina.",
+     "por": "Los cambios mínimos no suelen alterar la función renal."
+    },
+    {
+     "t": "Aparición de hematuria macroscópica.",
+     "por": "No define la recaída."
+    },
+    {
+     "t": "Disminución del colesterol.",
+     "por": "No es un criterio."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Si hay recaídas frecuentes o dependencia a esteroides se añaden otros inmunosupresores (ciclofosfamida, tacrolimus, rituximab).",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-gpm3",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "Varón de 45 años con síndrome nefrótico y creatinina que sube rápidamente, HTA y hematuria. Se plantea biopsia renal. ¿Cuál de estas situaciones es una contraindicación?",
+   "opciones": [
+    {
+     "t": "Hipertensión arterial no controlada.",
+     "por": "El sangrado es el principal riesgo de la biopsia percutánea; primero se controla la presión."
+    },
+    {
+     "t": "Proteinuria nefrótica.",
+     "por": "Es una indicación, no contraindicación."
+    },
+    {
+     "t": "Hematuria de origen glomerular.",
+     "por": "Es una indicación."
+    },
+    {
+     "t": "Deterioro inexplicado de la función renal.",
+     "por": "Es una indicación."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Contraindicaciones: riñón pequeño, monorreno, coagulopatía o HTA no controlada, infección.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-gsm1",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias y enfermedades sistémicas",
+   "dif": 2,
+   "enunciado": "Mujer de 30 años con lupus y proteinuria nueva. ¿Cuál es el hallazgo de laboratorio que sugiere actividad lúpica renal?",
+   "opciones": [
+    {
+     "t": "Anti-DNA de doble cadena elevado con C3 y C4 bajos.",
+     "por": "El complemento se consume por los inmunocomplejos y el anti-dsDNA suele subir con la actividad."
+    },
+    {
+     "t": "ANA negativos.",
+     "por": "En lupus los ANA suelen ser positivos; su valor no mide actividad."
+    },
+    {
+     "t": "Complemento normal con anti-dsDNA bajo.",
+     "por": "Sugiere inactividad."
+    },
+    {
+     "t": "Eosinofilia con IgE alta.",
+     "por": "Orienta a Churg-Strauss."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En nefritis lúpica activa: anti-dsDNA alto, C3 y C4 bajos y sedimento activo.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-gsm2",
+   "area": "nefro",
+   "tema": "Glomerulopatías secundarias y enfermedades sistémicas",
+   "dif": 2,
+   "enunciado": "Niño de 7 años con púrpura palpable en piernas, dolor abdominal, artralgias y hematuria dos semanas después de una infección respiratoria. ¿Qué muestra la inmunofluorescencia renal?",
+   "opciones": [
+    {
+     "t": "Depósitos mesangiales de IgA.",
+     "por": "Es la vasculitis por IgA (Schönlein-Henoch), que afecta piel, articulaciones, intestino y riñón."
+    },
+    {
+     "t": "Fluorescencia lineal de IgG.",
+     "por": "Corresponde a anti-MBG."
+    },
+    {
+     "t": "Fluorescencia negativa.",
+     "por": "Es lo típico de cambios mínimos o pauciinmune."
+    },
+    {
+     "t": "Depósitos subepiteliales granulares de IgG.",
+     "por": "Es típico de membranosa."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Schönlein-Henoch y nefropatía por IgA comparten los depósitos de IgA con glucosilación anormal.",
+   "fuente": "PPT"
+  }
+ ],
+ "tarjetas": []
+}

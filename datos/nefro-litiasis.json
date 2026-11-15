@@ -118,35 +118,6 @@
    "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 12"
   },
   {
-   "id": "n-lit-fis",
-   "area": "nefro",
-   "tema": "Litiasis y uropatía obstructiva",
-   "dif": 2,
-   "enunciado": "¿Cuál es el primer paso en la formación de un cálculo?",
-   "opciones": [
-    {
-     "t": "Supersaturación urinaria",
-     "por": "Hay tanto soluto (calcio, oxalato, ácido úrico o cistina) que excede su solubilidad. Es el primer paso esencial para que se formen cristales."
-    },
-    {
-     "t": "Nucleación",
-     "por": "Es el segundo paso: se forman cristales pequeños, sobre un núcleo externo (heterogénea) o sin él (homogénea)."
-    },
-    {
-     "t": "Crecimiento y agregación",
-     "por": "Es el tercer paso: los cristales pequeños se juntan y forman la piedra."
-    },
-    {
-     "t": "Retención en el túbulo o urotelio",
-     "por": "Es el cuarto paso: los cristales no eliminados se adhieren al epitelio y siguen creciendo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Orden: 1) supersaturación, 2) nucleación, 3) crecimiento y agregación, 4) retención.",
-   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 9",
-   "contexto": "Litiasis = cálculos (piedras) en el tracto urinario. Radioopaco = se ve blanco en la radiografía; radiolúcido = no se ve."
-  },
-  {
    "id": "n-lit-rx",
    "area": "nefro",
    "tema": "Litiasis y uropatía obstructiva",

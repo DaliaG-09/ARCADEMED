@@ -1,0 +1,387 @@
+{
+ "preguntas": [
+  {
+   "id": "x-nf-nd1",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 55 años con diabetes tipo 2 de 12 años e hipertensión. En dos controles separados por 4 meses tiene albuminuria de 120 mg/g de creatinina; TFG 75 mL/min/1.73 m². Fondo de ojo con retinopatía diabética leve. HbA1c 8.4 %.\n\n¿Qué diagnóstico plantea y qué categoría de albuminuria tiene? ¿Cuál es el tratamiento?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Nefropatía diabética incipiente (albuminuria persistente en 2 de 3 muestras en 3 a 6 meses).",
+     "w": 0.5
+    },
+    {
+     "t": "Albuminuria A2 (30 a 300 mg/g): moderadamente aumentada.",
+     "w": 0.25
+    },
+    {
+     "t": "IECA o ARA II (titular a dosis máxima tolerada) y un inhibidor de SGLT2.",
+     "w": 0.5
+    },
+    {
+     "t": "Control glucémico y de la PA (meta menor de 130/80), estatina y dejar de fumar.",
+     "w": 0.5
+    },
+    {
+     "t": "Finerenona si persiste la albuminuria; evitar nefrotóxicos; tamizaje anual.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Los IECA/ARA II y los iSGLT2 reducen la progresión de la nefropatía diabética.",
+   "fuente": "PPT",
+   "contexto": "Nefropatía diabética: daño del riñón por años de diabetes. El primer signo es la albuminuria; después baja la TFG. Es la primera causa de diálisis."
+  },
+  {
+   "id": "x-nf-nd2",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "¿Cómo se tamiza la nefropatía diabética y cuándo debes sospechar otra causa de enfermedad renal en un diabético?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Tamizaje: albuminuria y TFG estimada al menos una vez al año (en DM2 desde el diagnóstico, en DM1 desde los 5 años).",
+     "w": 0.75
+    },
+    {
+     "t": "Sospechar otra causa si no hay retinopatía.",
+     "w": 0.5
+    },
+    {
+     "t": "Si hay hematuria o sedimento activo.",
+     "w": 0.25
+    },
+    {
+     "t": "Si la TFG cae rápido o hay síndrome nefrótico de inicio brusco.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La retinopatía acompaña a la nefropatía diabética por la misma microangiopatía; su ausencia sugiere otra causa y la biopsia puede ser necesaria.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la frecuencia del tamizaje no está en el PPT."
+  },
+  {
+   "id": "x-nf-nd3",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "concepto",
+   "enunciado": "Describe la progresión clínica de la nefropatía diabética: fase silente, incipiente y avanzada.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Silente: asintomática, TFG normal o aumentada (hiperfiltración), microalbuminuria 30 a 300 mg/día.",
+     "w": 0.75
+    },
+    {
+     "t": "Intermedia: albuminuria mayor de 300 mg/día, edema, HTA, TFG que baja.",
+     "w": 0.75
+    },
+    {
+     "t": "Avanzada (ERC 4 a 5): uremia, anemia, acidosis, hiperpotasemia; necesita diálisis.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La lesión patognomónica en la biopsia es la esclerosis nodular de Kimmelstiel-Wilson.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-lit1",
+   "area": "nefro",
+   "tema": "Litiasis renal y uropatía obstructiva",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 38 años con dolor lumbar izquierdo cólico de inicio brusco que irradia a la ingle, náuseas y hematuria. Ahora tiene fiebre de 39 °C y escalofríos. Ecografía: hidronefrosis izquierda con cálculo en el uréter.\n\n¿Cuál es el diagnóstico? ¿Por qué es una urgencia? ¿Cuál es el manejo?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Cólico renal por litiasis ureteral, complicado con infección: pielonefritis obstructiva.",
+     "w": 0.5
+    },
+    {
+     "t": "Obstrucción más infección = riesgo de urosepsis, es una urgencia.",
+     "w": 0.5
+    },
+    {
+     "t": "Antibióticos IV de amplio espectro tras cultivos y fluidos.",
+     "w": 0.5
+    },
+    {
+     "t": "Drenaje urgente de la vía urinaria (catéter doble J o nefrostomía percutánea); el cálculo se trata después.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Una vía urinaria obstruida e infectada no se trata solo con antibióticos: hay que drenar.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: esta urgencia no está desarrollada en el PPT."
+  },
+  {
+   "id": "x-nf-lit2",
+   "area": "nefro",
+   "tema": "Litiasis renal y uropatía obstructiva",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Un paciente con cólico renal por un cálculo ureteral de 4 mm sin fiebre. ¿Qué estudios y qué tratamiento indicas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Examen de orina, creatinina y ecografía; tomografía sin contraste si hay duda (es la prueba ideal).",
+     "w": 0.5
+    },
+    {
+     "t": "Analgesia con AINEs.",
+     "w": 0.5
+    },
+    {
+     "t": "Tratamiento expulsivo con tamsulosina o nifedipino.",
+     "w": 0.5
+    },
+    {
+     "t": "Hidratación (más de 2.5 L al día), dieta con calcio 800 a 1000 mg, sodio 2 a 3 g, y evitar oxalato.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Si no sale, tiene más de 10 mm, o hay infección u obstrucción, se usa litotricia extracorpórea, ureteroscopía o nefrolitotomía.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-itu1",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 24 años, gestante de 14 semanas, asintomática. En su control prenatal el urocultivo muestra más de 100 000 UFC/mL de E. coli.\n\n¿Qué diagnóstico tiene? ¿Se trata? ¿Por qué? ¿Qué antibiótico y qué control indicas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Bacteriuria asintomática.",
+     "w": 0.25
+    },
+    {
+     "t": "Sí se trata en la gestación.",
+     "w": 0.5
+    },
+    {
+     "t": "Riesgo de pielonefritis, parto prematuro y bajo peso al nacer.",
+     "w": 0.5
+    },
+    {
+     "t": "Antibiótico seguro en el embarazo (cefalexina, amoxicilina-clavulánico, nitrofurantoína), según antibiograma; evitar fluoroquinolonas.",
+     "w": 0.5
+    },
+    {
+     "t": "Urocultivo de control tras el tratamiento.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "La bacteriuria asintomática solo se trata en gestantes y antes de procedimientos urológicos.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: manejo de la gestante no está en el PPT."
+  },
+  {
+   "id": "x-nf-itu2",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 46 años con fiebre de 38.7 °C, dolor lumbar izquierdo y disuria. Puño percusión positiva. Tuvo un tratamiento antibiótico hace 2 meses y estuvo hospitalizada hace 3 meses. Orina con leucocitos y nitritos.\n\n¿Qué diagnóstico plantea? ¿Qué estudios pides? ¿Qué riesgo de resistencia tiene y cómo influye en el antibiótico?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Pielonefritis aguda.",
+     "w": 0.25
+    },
+    {
+     "t": "Urocultivo con antibiograma y hemocultivos; ecografía si hay mala evolución.",
+     "w": 0.5
+    },
+    {
+     "t": "Factores de riesgo de BLEE: antibiótico previo y hospitalización reciente.",
+     "w": 0.5
+    },
+    {
+     "t": "Con riesgo de BLEE se usa un carbapenem (ertapenem o meropenem) y se ajusta según el cultivo.",
+     "w": 0.5
+    },
+    {
+     "t": "Hospitalizar si hay mala tolerancia oral o sepsis.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Las BLEE son bacterias resistentes a cefalosporinas; los carbapenems son la opción.",
+   "fuente": "PPT",
+   "contexto": "BLEE = betalactamasa de espectro extendido: enzima de algunas bacterias que inactiva penicilinas y cefalosporinas."
+  },
+  {
+   "id": "x-nf-tbc1",
+   "area": "nefro",
+   "tema": "Tuberculosis renal",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 45 años con 3 meses de disuria, polaquiuria y hematuria. Tuvo múltiples urocultivos negativos y varios tratamientos con quinolonas sin mejoría. Piuria. Antecedente de tuberculosis pulmonar hace 10 años.\n\n¿Qué diagnóstico sospechas? ¿Cómo lo confirmas? ¿Qué esquema usas y qué secuelas puede dejar?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Tuberculosis renal y de vías urinarias (piuria estéril).",
+     "w": 0.5
+    },
+    {
+     "t": "BAAR en orina (3 a 6 muestras matutinas), cultivo para micobacterias, PCR e histología con granulomas caseosos.",
+     "w": 0.5
+    },
+    {
+     "t": "Tratamiento antituberculoso: 2 meses de cuatro fármacos y luego 4 meses de dos (rifampicina e isoniacida).",
+     "w": 0.5
+    },
+    {
+     "t": "Secuelas: estenosis ureteral, hidronefrosis, vejiga pequeña fibrosa y ERC.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "El cultivo tarda hasta 6 semanas; la PCR es sensible pero no distingue activa de latente.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: el número de muestras de BAAR en orina no está en el PPT."
+  },
+  {
+   "id": "x-nf-ndm1",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "enunciado": "Varón de 60 años con diabetes de 20 años, retinopatía, edemas y PA 160/100. Proteinuria 6 g/día, albúmina 2.5 g/dL, creatinina 2.2 mg/dL. Sedimento sin hematuria. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "Nefropatía diabética en fase avanzada con síndrome nefrótico.",
+     "por": "Diabetes larga con retinopatía y proteinuria persistente sin sedimento activo: la causa más probable es la diabética."
+    },
+    {
+     "t": "Glomerulonefritis posestreptocócica.",
+     "por": "Es una enfermedad nefrítica de niños con C3 bajo."
+    },
+    {
+     "t": "Nefritis lúpica.",
+     "por": "Sin lupus ni sedimento activo."
+    },
+    {
+     "t": "Nefropatía por IgA.",
+     "por": "Se presenta con hematuria recurrente."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La retinopatía junto con proteinuria en un diabético largo refuerza el diagnóstico.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-ndm2",
+   "area": "nefro",
+   "tema": "Nefropatía diabética",
+   "dif": 2,
+   "enunciado": "Diabético tipo 2 de 6 años con hematuria macroscópica, cilindros hemáticos y caída de la TFG en 3 meses, sin retinopatía. ¿Qué haces?",
+   "opciones": [
+    {
+     "t": "Plantear otra causa y considerar biopsia renal.",
+     "por": "Sedimento activo, caída rápida y ausencia de retinopatía no son típicos de nefropatía diabética."
+    },
+    {
+     "t": "Asumir nefropatía diabética y subir la metformina.",
+     "por": "Se pasaría por alto una glomerulonefritis tratable."
+    },
+    {
+     "t": "Solo control de glucosa.",
+     "por": "No resuelve el problema."
+    },
+    {
+     "t": "Pedir solo ecografía anual.",
+     "por": "Es insuficiente."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Las indicaciones de biopsia en un diabético son sedimento activo, hematuria, caída rápida de la TFG, ausencia de retinopatía o duda diagnóstica.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-litm1",
+   "area": "nefro",
+   "tema": "Litiasis renal y uropatía obstructiva",
+   "dif": 2,
+   "enunciado": "Mujer con infecciones urinarias recurrentes por Proteus y un cálculo que ocupa pelvis y cálices renales. Orina alcalina. ¿Cuál es el tipo de cálculo?",
+   "opciones": [
+    {
+     "t": "Estruvita (coraliforme).",
+     "por": "Las bacterias que producen ureasa (Proteus) alcalinizan la orina y precipitan fosfato amónico magnésico."
+    },
+    {
+     "t": "Ácido úrico.",
+     "por": "Se forma en orina ácida."
+    },
+    {
+     "t": "Oxalato de calcio.",
+     "por": "Es el más frecuente pero no se asocia con ureasa."
+    },
+    {
+     "t": "Cistina.",
+     "por": "Es hereditario y poco frecuente."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El cálculo coraliforme suele requerir nefrolitotomía percutánea.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-itum1",
+   "area": "nefro",
+   "tema": "Infección del tracto urinario",
+   "dif": 2,
+   "enunciado": "Varón de 70 años con piuria persistente, urocultivos comunes repetidamente negativos y hematuria microscópica. ¿Qué infección debes sospechar?",
+   "opciones": [
+    {
+     "t": "Tuberculosis genitourinaria.",
+     "por": "La piuria estéril con urocultivos negativos obliga a buscar Mycobacterium tuberculosis."
+    },
+    {
+     "t": "Cistitis por E. coli.",
+     "por": "Daría urocultivo positivo."
+    },
+    {
+     "t": "Litiasis por ácido úrico.",
+     "por": "No causa piuria estéril."
+    },
+    {
+     "t": "Nefropatía diabética.",
+     "por": "No explica la piuria."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Piuria estéril = leucocitos en orina con cultivo común negativo.",
+   "fuente": "PPT"
+  }
+ ],
+ "tarjetas": []
+}

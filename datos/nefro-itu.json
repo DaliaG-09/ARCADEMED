@@ -184,34 +184,6 @@
    "contexto": "ITU = infección del tracto urinario. UFC = unidades formadoras de colonias (cuántas bacterias crecen en el cultivo). Cistitis = infección de la vejiga; pielonefritis = infección de uréteres y riñón. Antibiograma = informe del laboratorio que dice a qué antibióticos es sensible el germen."
   },
   {
-   "id": "n-itu-via",
-   "area": "nefro",
-   "tema": "Infección del tracto urinario",
-   "dif": 2,
-   "enunciado": "¿Por cuántas vías pueden llegar los microorganismos al tracto urinario?",
-   "opciones": [
-    {
-     "t": "Tres: ascendente, hematógena y linfática",
-     "por": "Las tres vías son ascendente, hematógena y linfática."
-    },
-    {
-     "t": "Una sola: la ascendente desde la uretra",
-     "por": "La ascendente es la más frecuente, pero existen tres vías."
-    },
-    {
-     "t": "Dos: ascendente y hematógena",
-     "por": "Falta la vía linfática, que también aparece."
-    },
-    {
-     "t": "Cuatro, incluida la inhalatoria",
-     "por": "La vía inhalatoria no se describe para las ITU."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Vía ascendente: el germen sube por la uretra hasta vejiga y riñón (típica de E. coli). Hematógena: llega por la sangre. Linfática: por los vasos linfáticos.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 12"
-  },
-  {
    "id": "n-itu-cli1",
    "area": "nefro",
    "tema": "Infección del tracto urinario",

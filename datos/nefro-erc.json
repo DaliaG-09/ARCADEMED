@@ -153,35 +153,6 @@
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 13"
   },
   {
-   "id": "n-erc-fibrosis",
-   "area": "nefro",
-   "tema": "ERC",
-   "dif": 2,
-   "enunciado": "¿Qué molécula y qué células se asocian a la fibrosis renal en la ERC?",
-   "opciones": [
-    {
-     "t": "TGF-β con miofibroblastos y colágeno",
-     "full": "TGF-β (factor de crecimiento transformante beta) y miofibroblastos con depósito de colágeno",
-     "por": "Esa es la fase 'fibrosis y pérdida'."
-    },
-    {
-     "t": "Aldosterona y células mesangiales",
-     "por": "La aldosterona participa en el SRAA de la progresión, no es el mediador de la fibrosis."
-    },
-    {
-     "t": "Citocinas y células inmunes",
-     "por": "Corresponden a la fase de inflamación crónica."
-    },
-    {
-     "t": "Insulina y podocitos",
-     "por": "No son los protagonistas de la fibrosis."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Inflamación crónica: células inmunes, citocinas, estrés oxidativo. Fibrosis: TGF-β, miofibroblastos y colágeno.",
-   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 13"
-  },
-  {
    "id": "n-erc-stage",
    "area": "nefro",
    "tema": "ERC",
@@ -355,37 +326,6 @@
    "explicacion": "Cockcroft-Gault con factor 0.85 para mujeres: 37.0 mL/min, G3b.",
    "fuente": "Complemento: caso inventado para practicar la fórmula de la lám. 9",
    "contexto": "Cockcroft-Gault: (140 − edad) × peso (kg) / (72 × creatinina en mg/dL); en mujeres × 0.85."
-  },
-  {
-   "id": "n-erc-mdrd",
-   "area": "nefro",
-   "tema": "ERC",
-   "dif": 2,
-   "enunciado": "En la fórmula MDRD, ¿qué factores se aplican según sexo y etnia? *",
-   "opciones": [
-    {
-     "t": "×0.742 mujeres y ×1.21 afroestadounidenses",
-     "full": "×0.742 en mujeres y ×1.21 en afroestadounidenses",
-     "por": "La fórmula multiplica ×0.742 en mujeres y ×1.21 en afroestadounidenses."
-    },
-    {
-     "t": "×1.86 en varones y ×1.21 en mujeres",
-     "por": "El 0.85 es de Cockcroft-Gault, no de MDRD."
-    },
-    {
-     "t": "×0.85 en mujeres y ×1.21 en varones",
-     "por": "El 1.86 es la constante inicial de la fórmula."
-    },
-    {
-     "t": "Ninguno, la fórmula no depende del sexo ni de la etnia",
-     "por": "Sí depende: tanto MDRD como Cockcroft-Gault corrigen para mujeres."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "MDRD: 186 × (Pcr)^−1.154 × (edad)^−0.203 × 0.742 (mujeres) × 1.21 (afroestadounidenses). Cockcroft-Gault ×0.85 en mujeres.",
-   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 9",
-   "nota": "* El PPT escribe la constante como 1.86; la fórmula MDRD correcta usa 186 (con 1.86 la TFG saldría 100 veces menor). Los factores por sexo y etnia sí coinciden.",
-   "contexto": "MDRD = Modification of Diet in Renal Disease. Es una ecuación que estima la tasa de filtración glomerular (TFG) a partir de la creatinina, la edad, el sexo y la etnia; se usa para estadificar la ERC."
   },
   {
    "id": "n-erc-alb2",
@@ -622,39 +562,6 @@
    "correcta": 0,
    "explicacion": "La uremia es el conjunto de síntomas por acumulación de toxinas que el riñón ya no elimina. Los graves (vómitos incoercibles, encefalopatía, pericarditis, neuropatía) son indicación de terapia de reemplazo renal (TRR): diálisis o trasplante.",
    "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 18"
-  },
-  {
-   "id": "n-erc-cons",
-   "area": "nefro",
-   "tema": "ERC",
-   "dif": 1,
-   "enunciado": "¿Qué TFG sostenida por más de 3 meses basta para definir ERC?",
-   "opciones": [
-    {
-     "t": "TFG menor de 60 por más de 3 meses",
-     "por": "Es el criterio de la conclusión: por debajo de 60 ya hay pérdida de función (G3 o peor) y la cronicidad se define por más de 3 meses."
-    },
-    {
-     "t": "TFG menor de 90 por 1 mes",
-     "por": "Falla en ambos puntos: 90 es el límite de G1 (aún normal) y 1 mes no es cronicidad."
-    },
-    {
-     "t": "TFG menor de 15 por 3 meses",
-     "por": "Es G5, un estadio avanzado; el criterio mínimo de ERC es TFG <60."
-    },
-    {
-     "t": "TFG menor de 30 por 6 meses",
-     "por": "Es G4; el umbral para definir ERC es más alto (<60)."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "ERC = TFG <60 mL/min/1.73 m² por más de 3 meses, o marcadores de daño renal (como albuminuria) aunque la TFG sea normal. Luego se estadía con KDIGO.",
-   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 24",
-   "contexto": "KDIGO (Kidney Disease: Improving Global Outcomes): organización internacional que publica las guías para clasificar y tratar las enfermedades renales. TFG = tasa de filtrado glomerular, el volumen de sangre que los riñones filtran por minuto.",
-   "guia": {
-    "t": "• KDIGO define la ERC como anormalidades de la estructura o función del riñón presentes por más de 3 meses y con implicancias para la salud.\n• Se diagnostica con TFG (tasa de filtración glomerular) <60 mL/min/1.73 m² o con marcadores de daño, por ejemplo cociente albúmina/creatinina (ACR) ≥30 mg/g, por más de 3 meses.\n• Si se detecta por casualidad un ACR alto, hematuria o TFG baja, KDIGO pide repetir las pruebas para confirmar.\n• Coincide con tu PPT.",
-    "f": "KDIGO 2024 – Evaluación y manejo de la ERC (Kidney Int 2024;105(4S):S117-S314)"
-   }
   }
  ],
  "tarjetas": [

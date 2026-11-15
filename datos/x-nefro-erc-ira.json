@@ -1,0 +1,580 @@
+{
+ "preguntas": [
+  {
+   "id": "x-nf-erc1",
+   "area": "nefro",
+   "tema": "Enfermedad renal crónica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 62 años con diabetes tipo 2 de 15 años e hipertensión mal controlada. En controles de los últimos 5 meses su creatinina es 1.6 mg/dL (TFG estimada 38 mL/min/1.73 m²) y la albuminuria 450 mg/g de creatinina. Ecografía: riñones de tamaño normal, ecogenicidad aumentada.\n\n¿Cumple criterios de enfermedad renal crónica? ¿Qué estadio KDIGO tiene (TFG y albuminuria)? ¿Cuál es la causa más probable?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Sí: hay alteración renal (TFG menor de 60 y albuminuria) por más de 3 meses.",
+     "w": 0.5
+    },
+    {
+     "t": "Estadio de TFG: G3b (30 a 44 mL/min/1.73 m²).",
+     "w": 0.5
+    },
+    {
+     "t": "Categoría de albuminuria: A3 (más de 300 mg/g), o sea riesgo muy alto.",
+     "w": 0.5
+    },
+    {
+     "t": "Causa más probable: nefropatía diabética (con aporte de la HTA).",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "ERC = anormalidad estructural o funcional del riñón por más de 3 meses. El estadio combina TFG (G1 a G5) y albuminuria (A1 a A3).",
+   "fuente": "PPT",
+   "contexto": "ERC = enfermedad renal crónica. TFG = tasa de filtración glomerular (cuánto filtran los riñones por minuto). Se clasifica con KDIGO por TFG y albuminuria; sirve para estimar riesgo y decidir seguimiento."
+  },
+  {
+   "id": "x-nf-erc2",
+   "area": "nefro",
+   "tema": "Enfermedad renal crónica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "concepto",
+   "enunciado": "Define enfermedad renal crónica e indica qué hallazgos permiten diagnosticarla.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Anormalidad estructural o funcional del riñón con implicancia para la salud.",
+     "w": 0.5
+    },
+    {
+     "t": "Que persiste por más de 3 meses.",
+     "w": 0.5
+    },
+    {
+     "t": "Se demuestra por TFG menor de 60 mL/min/1.73 m², o por marcadores de daño (albuminuria, sedimento anormal, alteraciones en imagen o biopsia).",
+     "w": 1
+    }
+   ],
+   "explicacion": "Una TFG menor de 60 por más de 3 meses basta; si la TFG es mayor, se necesita algún otro marcador de daño renal.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-erc3",
+   "area": "nefro",
+   "tema": "Enfermedad renal crónica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "escala",
+   "enunciado": "Enumera las categorías de TFG (G1 a G5) y de albuminuria (A1 a A3) de la clasificación KDIGO con sus puntos de corte.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "G1 ≥ 90; G2 60 a 89; G3a 45 a 59.",
+     "w": 0.5
+    },
+    {
+     "t": "G3b 30 a 44; G4 15 a 29; G5 menor de 15 (falla renal).",
+     "w": 0.5
+    },
+    {
+     "t": "A1 menor de 30 mg/g (normal a levemente elevada).",
+     "w": 0.25
+    },
+    {
+     "t": "A2 30 a 300 mg/g (moderada).",
+     "w": 0.25
+    },
+    {
+     "t": "A3 mayor de 300 mg/g (severa).",
+     "w": 0.25
+    },
+    {
+     "t": "Más TFG baja y más albuminuria = más riesgo (mapa de calor).",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "En G1 y G2 solo se habla de ERC si hay otro marcador de daño renal.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-erc4",
+   "area": "nefro",
+   "tema": "Enfermedad renal crónica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Un paciente con hipertensión y diabetes tiene creatinina elevada. ¿Qué estudios inicias para evaluar una posible ERC?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Examen de orina (proteinuria, hematuria, sedimento, glucosa, nitritos).",
+     "w": 0.5
+    },
+    {
+     "t": "Albuminuria o proteinuria de 24 h (confirmar en dos mediciones separadas por 3 a 6 meses).",
+     "w": 0.5
+    },
+    {
+     "t": "Urea, creatinina con TFG estimada, y electrolitos.",
+     "w": 0.5
+    },
+    {
+     "t": "Hemograma.",
+     "w": 0.25
+    },
+    {
+     "t": "Ecografía renal: tamaño, ecogenicidad, asimetría, hidronefrosis, cálculos; ayuda a distinguir aguda de crónica.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "La biopsia no es de entrada: se reserva para hematuria de origen renal, proteinuria, masa renal o pérdida inexplicable de la función.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-erc5",
+   "area": "nefro",
+   "tema": "Enfermedad renal crónica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona las medidas del tratamiento de una persona con ERC.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Estilo de vida: dieta renal, ejercicio, bajar de peso.",
+     "w": 0.5
+    },
+    {
+     "t": "Controlar las comorbilidades (HTA, diabetes, dislipidemia).",
+     "w": 0.5
+    },
+    {
+     "t": "Evitar nefrotóxicos (AINEs, contrastes innecesarios); paracetamol como analgésico de elección.",
+     "w": 0.5
+    },
+    {
+     "t": "IECA o ARA II para reducir la albuminuria (no usar si TFG menor de 30); bloqueadores de calcio y tiazidas (en estadios tempranos) como apoyo en HTA.",
+     "w": 0.25
+    },
+    {
+     "t": "Terapia de reemplazo renal (diálisis o trasplante) cuando corresponda.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "El objetivo es diagnosticar temprano y frenar la progresión y las complicaciones.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-erc6",
+   "area": "nefro",
+   "tema": "Enfermedad renal crónica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona cuatro complicaciones de la ERC avanzada y cómo se manejan.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Anemia (menos eritropoyetina): suplementar hierro y agentes estimulantes de eritropoyesis.",
+     "w": 0.5
+    },
+    {
+     "t": "Hiperpotasemia: dieta baja en potasio, evitar IECA/ARA II o fármacos que la empeoren, resinas o fijadores de potasio.",
+     "w": 0.5
+    },
+    {
+     "t": "Acidosis metabólica: bicarbonato oral.",
+     "w": 0.5
+    },
+    {
+     "t": "Hiperfosfatemia con hiperparatiroidismo secundario e hipocalcemia: restringir fósforo, quelantes de fósforo, vitamina D activa.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Otras: HTA y sobrecarga de volumen (diuréticos), enfermedad cardiovascular, enfermedad mineral ósea.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: este manejo de complicaciones no está detallado en el PPT, pero es lo esperable de un internista."
+  },
+  {
+   "id": "x-nf-erc7",
+   "area": "nefro",
+   "tema": "Enfermedad renal crónica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Indica las situaciones en las que un paciente con ERC o IRA necesita diálisis de urgencia.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Acidosis metabólica grave que no corrige con tratamiento.",
+     "w": 0.4
+    },
+    {
+     "t": "Hiperpotasemia grave o con cambios en el ECG, refractaria al tratamiento médico.",
+     "w": 0.4
+    },
+    {
+     "t": "Sobrecarga de volumen (edema agudo de pulmón) que no responde a diuréticos.",
+     "w": 0.4
+    },
+    {
+     "t": "Síntomas urémicos: pericarditis, encefalopatía, sangrado urémico.",
+     "w": 0.4
+    },
+    {
+     "t": "Intoxicación por una sustancia dializable.",
+     "w": 0.4
+    }
+   ],
+   "explicacion": "Regla útil: AEIOU = Acidosis, Electrolitos, Intoxicación, sobrecarga de volumen (Overload), Uremia.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la regla AEIOU no está en el PPT."
+  },
+  {
+   "id": "x-nf-erc8",
+   "area": "nefro",
+   "tema": "Enfermedad renal crónica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "¿Cuándo se indica y cuándo se contraindica una biopsia renal?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Indicaciones: hematuria de origen renal.",
+     "w": 0.4
+    },
+    {
+     "t": "Proteinuria (sobre todo nefrótica o con sedimento activo).",
+     "w": 0.4
+    },
+    {
+     "t": "Masa renal.",
+     "w": 0.4
+    },
+    {
+     "t": "Disminución inexplicable de la función renal.",
+     "w": 0.4
+    },
+    {
+     "t": "Contraindicaciones: riñón pequeño (menor de 9 cm), monorreno, coagulopatía o HTA no controlada, infección renal o en el sitio de punción.",
+     "w": 0.4
+    }
+   ],
+   "explicacion": "Un riñón pequeño suele indicar daño crónico irreversible: la biopsia ya no aporta.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-ercm1",
+   "area": "nefro",
+   "tema": "Enfermedad renal crónica",
+   "dif": 2,
+   "enunciado": "Varón de 70 años con diabetes, hipertensión y ERC. Consulta por debilidad. Creatinina 3.4 mg/dL (antes 2.0) tras iniciar naproxeno por dolor de rodilla. K⁺ 6.8 mEq/L, ECG con ondas T picudas y QRS ancho. ¿Qué haces primero?",
+   "opciones": [
+    {
+     "t": "Gluconato de calcio endovenoso para proteger el miocardio.",
+     "por": "El calcio estabiliza la membrana del miocardio en minutos; no baja el potasio, pero evita la arritmia mientras actúan los demás tratamientos."
+    },
+    {
+     "t": "Furosemida por vía oral y control en 24 horas.",
+     "por": "Con cambios en el ECG es una urgencia: no se espera. La furosemida sola es lenta."
+    },
+    {
+     "t": "Resina de intercambio y repetir el potasio mañana.",
+     "por": "Las resinas actúan en horas; no protegen el corazón ahora."
+    },
+    {
+     "t": "Suspender el naproxeno y observar.",
+     "por": "Hay que suspenderlo, pero con ECG alterado primero se protege el corazón."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Con hiperpotasemia y cambios de ECG se da primero gluconato de calcio IV; luego insulina con glucosa, β2-agonista nebulizado, bicarbonato si hay acidosis, y se elimina el potasio (diurético, resinas, diálisis).",
+   "fuente": "PPT",
+   "contexto": "Hiperpotasemia: potasio alto en sangre. Es peligrosa porque causa arritmias; las ondas T picudas y el ensanchamiento del QRS en el ECG indican riesgo alto.",
+   "nota": "+ Complemento: el esquema escalonado no está en el PPT."
+  },
+  {
+   "id": "x-nf-ercm2",
+   "area": "nefro",
+   "tema": "Enfermedad renal crónica",
+   "dif": 2,
+   "enunciado": "Varón de 58 años con ERC estadio G4 por nefropatía diabética, hemoglobina 8.5 g/dL normocítica, ferritina normal. ¿Cuál es el mecanismo principal de su anemia?",
+   "opciones": [
+    {
+     "t": "Menor producción de eritropoyetina por el riñón enfermo.",
+     "por": "Las células intersticiales renales producen EPO; al perderse, baja la producción de glóbulos rojos."
+    },
+    {
+     "t": "Hemólisis autoinmune.",
+     "por": "No hay datos de hemólisis y no es la causa típica."
+    },
+    {
+     "t": "Déficit de vitamina B12 por la metformina.",
+     "por": "Posible, pero daría anemia macrocítica y no explica la anemia típica de ERC."
+    },
+    {
+     "t": "Pérdida de hierro por la orina.",
+     "por": "La orina no pierde hierro de forma significativa en ERC."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La anemia de la ERC es normocítica y normocrómica, por déficit de eritropoyetina; se trata con agentes estimulantes y hierro si hay déficit.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la anemia de la ERC no está desarrollada en el PPT."
+  },
+  {
+   "id": "x-nf-ercm3",
+   "area": "nefro",
+   "tema": "Enfermedad renal crónica",
+   "dif": 2,
+   "enunciado": "Mujer de 55 años con creatinina 1.4 mg/dL desde hace 6 meses, TFG 45 mL/min/1.73 m² y albuminuria 180 mg/g de creatinina. ¿Cómo la clasificas según KDIGO?",
+   "opciones": [
+    {
+     "t": "G3a A2.",
+     "por": "TFG de 45 a 59 es G3a; albuminuria de 30 a 300 mg/g es A2."
+    },
+    {
+     "t": "G2 A2.",
+     "por": "G2 es TFG de 60 a 89."
+    },
+    {
+     "t": "G3b A3.",
+     "por": "G3b es de 30 a 44 y A3 es más de 300 mg/g."
+    },
+    {
+     "t": "G3a A1.",
+     "por": "A1 es menos de 30 mg/g."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una clasificación correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "G3a = TFG 45 a 59; A2 = albuminuria 30 a 300 mg/g.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-ira1",
+   "area": "nefro",
+   "tema": "Injuria renal aguda",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 70 años con hiperplasia prostática, creatinina basal 1.0 mg/dL. Hace 7 días tiene orina escasa y tos. Hoy: creatinina 9.8 mg/dL, diuresis 80 mL en 24 horas, hidronefrosis bilateral en la ecografía. Sin hipotensión ni uso de nefrotóxicos.\n\n¿Cuál es el tipo de injuria renal aguda? ¿Qué estadio KDIGO tiene? ¿Cuál es el siguiente paso?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Injuria renal aguda postrenal (obstructiva).",
+     "w": 0.5
+    },
+    {
+     "t": "Estadio 3 de KDIGO (creatinina más de 3 veces la basal y diuresis menor de 0.3 mL/kg/h o menor de 100 mL al día).",
+     "w": 0.5
+    },
+    {
+     "t": "Aliviar la obstrucción: sonda vesical (si hay globo) o nefrostomía/catéter doble J según el nivel.",
+     "w": 0.5
+    },
+    {
+     "t": "Vigilar diuresis posobstructiva, electrolitos y valorar diálisis si hay indicación.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Hidronefrosis bilateral con oligoanuria en un varón con próstata grande = obstrucción de salida vesical hasta que se demuestre lo contrario. Resolver la obstrucción es el tratamiento.",
+   "fuente": "PPT",
+   "contexto": "Injuria renal aguda (IRA): caída rápida de la función del riñón en horas a días, con aumento de creatinina o baja de la diuresis. Se clasifica por causa (prerrenal, renal, postrenal) y por gravedad (KDIGO)."
+  },
+  {
+   "id": "x-nf-ira2",
+   "area": "nefro",
+   "tema": "Injuria renal aguda",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "escala",
+   "enunciado": "Describe la clasificación KDIGO de gravedad de la injuria renal aguda (estadios 1 a 3) según creatinina y diuresis.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Estadio 1: creatinina 1.5 a 1.9 veces la basal, o aumento de 0.3 mg/dL o más en 48 h; diuresis menor de 0.5 mL/kg/h por 6 a 12 h.",
+     "w": 0.75
+    },
+    {
+     "t": "Estadio 2: creatinina 2.0 a 2.9 veces la basal; diuresis menor de 0.5 mL/kg/h por 12 h o más.",
+     "w": 0.5
+    },
+    {
+     "t": "Estadio 3: creatinina 3 veces o más, o 4.0 mg/dL o más, o inicio de diálisis; diuresis menor de 0.3 mL/kg/h por 24 h o anuria 12 h.",
+     "w": 0.75
+    }
+   ],
+   "explicacion": "AKIN/KDIGO añadió la ventana de 48 horas a la antigua clasificación RIFLE.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-ira3",
+   "area": "nefro",
+   "tema": "Injuria renal aguda",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona dos causas de cada tipo de injuria renal aguda: prerrenal, renal (intrínseca) y postrenal.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Prerrenal (60 a 70 %): hipovolemia (deshidratación, hemorragia, diarrea), bajo gasto cardiaco, cirrosis o sepsis, fármacos como AINEs o IECA.",
+     "w": 0.75
+    },
+    {
+     "t": "Renal: necrosis tubular aguda (isquemia o nefrotóxicos como aminoglucósidos, contraste), nefritis intersticial (fármacos), glomerulonefritis, vasculitis.",
+     "w": 0.75
+    },
+    {
+     "t": "Postrenal: cálculos, coágulos, hiperplasia o cáncer de próstata, tumores pélvicos, vejiga neurogénica, estenosis uretral.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Siempre se descartan primero las causas prerrenal y postrenal, porque son reversibles.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-ira4",
+   "area": "nefro",
+   "tema": "Injuria renal aguda",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 43 años hospitalizado por neumonía, tratado con vancomicina y piperacilina-tazobactam. Creatinina de ingreso 1.1 mg/dL; al 5.º día 3.8 mg/dL. Diuresis 400 mL/día. PA 110/70, sin deshidratación. Sedimento urinario: cilindros granulosos \"café\".\n\n¿Cuál es el diagnóstico más probable? ¿Cuál es el mecanismo? ¿Qué manejo indicas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Injuria renal aguda por necrosis tubular aguda (renal).",
+     "w": 0.5
+    },
+    {
+     "t": "Causa nefrotóxica (vancomicina más piperacilina-tazobactam), con eventual componente isquémico por sepsis.",
+     "w": 0.5
+    },
+    {
+     "t": "Cilindros granulosos pigmentados: apoyan daño tubular.",
+     "w": 0.25
+    },
+    {
+     "t": "Suspender los nefrotóxicos, optimizar volumen y presión, evitar nuevos daños, ajustar fármacos y vigilar electrolitos.",
+     "w": 0.5
+    },
+    {
+     "t": "Diálisis solo si hay una indicación (acidosis, hiperpotasemia, sobrecarga, uremia).",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "La necrosis tubular es la causa renal más frecuente (isquémica o nefrotóxica) y se recupera en días a semanas si se retira el agresor.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-nf-ira5",
+   "area": "nefro",
+   "tema": "Injuria renal aguda",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 74 años con 4 días de vómitos y diarrea. Mucosas secas, PA 90/55, creatinina 2.4 mg/dL (basal 0.9), urea alta, urea/creatinina mayor de 20. Sodio urinario bajo y FeNa menor de 1 %.\n\n¿Qué tipo de IRA tiene? ¿Cómo la diferencias de una necrosis tubular? ¿Qué indicas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "IRA prerrenal por hipovolemia.",
+     "w": 0.5
+    },
+    {
+     "t": "En prerrenal: sodio urinario bajo, FeNa menor de 1 %, urea/creatinina elevada, sedimento sin cilindros granulosos.",
+     "w": 0.5
+    },
+    {
+     "t": "En necrosis tubular: FeNa mayor de 2 %, sodio urinario alto, cilindros granulosos.",
+     "w": 0.5
+    },
+    {
+     "t": "Reponer volumen con cristaloides y suspender fármacos agravantes (diuréticos, AINEs, IECA); la creatinina debe mejorar en 24 a 72 h.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Si la función no mejora tras reponer volumen, se piensa en necrosis tubular establecida.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: FeNa e índices urinarios no están en el PPT; son clave para la IRA prerrenal."
+  },
+  {
+   "id": "x-nf-iram1",
+   "area": "nefro",
+   "tema": "Injuria renal aguda",
+   "dif": 2,
+   "enunciado": "Mujer de 78 años con 3 días de diarrea y vómitos, mucosas secas y PA 88/50. Creatinina 2.1 mg/dL (basal 0.8), sodio urinario 10 mEq/L, FeNa 0.6 %. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "IRA prerrenal.",
+     "por": "Hipovolemia y sodio urinario bajo con FeNa menor de 1 %: el riñón retiene sodio y agua."
+    },
+    {
+     "t": "Necrosis tubular aguda establecida.",
+     "por": "En NTA el FeNa suele ser mayor de 2 %."
+    },
+    {
+     "t": "IRA postrenal.",
+     "por": "No hay datos de obstrucción ni hidronefrosis."
+    },
+    {
+     "t": "Glomerulonefritis rápidamente progresiva.",
+     "por": "Esperarías hematuria y cilindros hemáticos."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Prerrenal: ↓ perfusión, riñón conservado que retiene sodio (FeNa menor de 1 %), mejora al reponer volumen.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: FeNa no está en el PPT."
+  },
+  {
+   "id": "x-nf-iram2",
+   "area": "nefro",
+   "tema": "Injuria renal aguda",
+   "dif": 2,
+   "enunciado": "En un paciente con creatinina en aumento y oliguria, ¿cuál es el primer estudio de imagen a solicitar?",
+   "opciones": [
+    {
+     "t": "Ecografía renal y de vías urinarias.",
+     "por": "Es rápida, no usa contraste y descarta obstrucción (hidronefrosis) y evalúa tamaño renal."
+    },
+    {
+     "t": "Tomografía con contraste.",
+     "por": "El contraste puede empeorar la función renal; no es lo primero."
+    },
+    {
+     "t": "Resonancia con gadolinio.",
+     "por": "El gadolinio se evita en insuficiencia renal grave."
+    },
+    {
+     "t": "Gammagrafía renal.",
+     "por": "No es el estudio inicial."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La ecografía distingue obstrucción y ayuda a separar aguda de crónica (riñones pequeños).",
+   "fuente": "PPT"
+  }
+ ],
+ "tarjetas": []
+}
