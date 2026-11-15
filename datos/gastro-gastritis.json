@@ -1,63 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "g-gastritis-def",
-   "area": "gastro",
-   "tema": "Gastritis aguda y crónica",
-   "dif": 1,
-   "enunciado": "¿Cómo se define la gastritis?",
-   "opciones": [
-    {
-     "t": "Un proceso inflamatorio que provoca lesiones en la mucosa gástrica",
-     "por": "Es la definición. Según la causa y los hallazgos al microscopio se divide en aguda, crónica y eosinofílica."
-    },
-    {
-     "t": "Una ulceración profunda que atraviesa la muscular de la mucosa",
-     "por": "Eso describe una úlcera, no una gastritis: la gastritis compromete la mucosa."
-    },
-    {
-     "t": "Una dilatación de las venas del fondo gástrico por hipertensión portal",
-     "por": "Son las várices gástricas, una complicación de la cirrosis."
-    },
-    {
-     "t": "Un trastorno funcional sin lesión de la mucosa",
-     "por": "Eso es la dispepsia funcional, en la que la endoscopía es normal."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Gastritis = inflamación de la mucosa gástrica. Según la etiología y la anatomía patológica se distingue la aguda, la crónica (por Helicobacter pylori, por degeneración con metaplasia, o autoinmune) y la eosinofílica.",
-   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 7"
-  },
-  {
-   "id": "g-gastritis-causas",
-   "area": "gastro",
-   "tema": "Gastritis aguda y crónica",
-   "dif": 1,
-   "enunciado": "¿Cuál es una causa de gastritis aguda?",
-   "opciones": [
-    {
-     "t": "AINE, alcohol o cáusticos",
-     "full": "Uso de antiinflamatorios no esteroideos (AINE), alcohol o cáusticos",
-     "por": "Los AINE, el alcohol y los cáusticos dañan la mucosa y causan gastritis aguda."
-    },
-    {
-     "t": "Déficit de ácido fólico",
-     "por": "Está en el diagnóstico diferencial de la gastritis crónica, no es una causa de gastritis aguda."
-    },
-    {
-     "t": "Dieta vegetariana estricta",
-     "por": "Es un diagnóstico diferencial de la forma crónica (por déficit de vitamina B12), no causa gastritis aguda."
-    },
-    {
-     "t": "Gastrectomía total",
-     "por": "No se puede inflamar un estómago que ya no existe; aparece en el diferencial de la gastritis crónica."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Gastritis aguda: secundaria a fármacos (principalmente AINE), alcohol o cáusticos (voluntarios o accidentales), o a enfermedad grave (trauma, sepsis, grandes quemados).",
-   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 9"
-  },
-  {
    "id": "g-gastritis-erosiva",
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
@@ -210,71 +153,6 @@
    "correcta": 0,
    "explicacion": "Tipo A: autoinmune, cuerpo y fundo, destruye células parietales (que producen ácido y factor intrínseco) y principales. Tipo B: infecciosa por H. pylori, no atrófica o superficial, sin atrofia al inicio. Tipo C: biliar reactiva, con hiperplasia epitelial.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 14 y 15"
-  },
-  {
-   "id": "g-gastritis-atrofica",
-   "area": "gastro",
-   "tema": "Gastritis aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Cómo se establece el diagnóstico de gastritis atrófica?",
-   "opciones": [
-    {
-     "t": "Por histopatología (biopsia)",
-     "por": "La atrofia (pérdida de glándulas, con o sin metaplasia) se confirma al microscopio."
-    },
-    {
-     "t": "Por los síntomas clínicos únicamente",
-     "por": "La clínica es inespecífica (dolor, náuseas, llenura precoz)."
-    },
-    {
-     "t": "Por el test de aliento",
-     "por": "Detecta infección por H. pylori, no atrofia."
-    },
-    {
-     "t": "Por radiografía contrastada",
-     "por": "No se usa: no muestra la histología de la mucosa."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Gastritis atrófica: pérdida de glándulas gástricas con o sin metaplasia en un contexto de inflamación crónica, por H. pylori o enfermedad autoinmune. Prevalencia 15 %. El diagnóstico es histopatológico.",
-   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 16",
-   "guia": {
-    "t": "• Los pacientes con gastritis crónica atrófica o metaplasia intestinal tienen riesgo de adenocarcinoma gástrico.\n• La biopsia debe tomarse al menos de antro y cuerpo, en frascos separados, y buscar H. pylori.\n• En atrofia avanzada, seguimiento con endoscopía de alta calidad cada 3 años.\n• La erradicación de H. pylori cura la gastritis no atrófica, puede hacer regresar la atrofia y reduce el riesgo de cáncer.\n• Pepsinógeno I bajo o relación pepsinógeno I/II baja identifica atrofia avanzada.",
-    "f": "MAPS II, guía ESGE/EHMSG/ESP/SPED sobre condiciones precancerosas del estómago (Pimentel-Nunes et al., Endoscopy 2019;51:365-388)"
-   }
-  },
-  {
-   "id": "g-gastritis-endoscopica",
-   "area": "gastro",
-   "tema": "Gastritis aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Qué hallazgos endoscópicos caracterizan la gastritis atrófica?",
-   "opciones": [
-    {
-     "t": "Mucosa pálida, pliegues perdidos y vasos visibles",
-     "por": "Al adelgazarse el epitelio, los vasos se ven a través de la mucosa.",
-     "full": "Mucosa pálida, pérdida de pliegues rugosos y vasos sanguíneos prominentes"
-    },
-    {
-     "t": "Mucosa enrojecida con múltiples erosiones y sangrado",
-     "por": "Corresponde a la gastritis erosiva aguda (por AINE o alcohol)."
-    },
-    {
-     "t": "Pliegues gruesos y aumentados de tamaño",
-     "por": "Es lo contrario: en la atrofia los pliegues se pierden."
-    },
-    {
-     "t": "Una úlcera con fondo limpio",
-     "por": "Sugiere úlcera péptica, no gastritis atrófica."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Endoscopía de la atrofia: mucosa pálida, pérdida de pliegues y vasos sanguíneos evidentes por adelgazamiento del epitelio.",
-   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 18",
-   "guia": {
-    "t": "• Los pacientes con gastritis crónica atrófica o metaplasia intestinal tienen riesgo de adenocarcinoma gástrico.\n• La biopsia debe tomarse al menos de antro y cuerpo, en frascos separados, y buscar H. pylori.\n• En atrofia avanzada, seguimiento con endoscopía de alta calidad cada 3 años.\n• La erradicación de H. pylori cura la gastritis no atrófica, puede hacer regresar la atrofia y reduce el riesgo de cáncer.\n• Pepsinógeno I bajo o relación pepsinógeno I/II baja identifica atrofia avanzada.",
-    "f": "MAPS II, guía ESGE/EHMSG/ESP/SPED sobre condiciones precancerosas del estómago (Pimentel-Nunes et al., Endoscopy 2019;51:365-388)"
-   }
   },
   {
    "id": "g-gastritis-clinica",

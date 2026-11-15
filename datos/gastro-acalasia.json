@@ -1,35 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "g-aca-def",
-   "area": "gastro",
-   "tema": "Acalasia (trastornos motores del esófago)",
-   "dif": 1,
-   "enunciado": "¿Cómo se define la acalasia?",
-   "opciones": [
-    {
-     "t": "Peristalsis aberrante y relajación insuficiente del EEI",
-     "por": "Es la definición: el EEI no se relaja bien y el esófago no empuja el alimento.",
-     "full": "Un trastorno de la motilidad esofágica con peristalsis aberrante y relajación insuficiente del esfínter esofágico inferior (EEI)"
-    },
-    {
-     "t": "Un reflujo del contenido gástrico al esófago por un EEI hipotónico",
-     "por": "Eso es la ERGE, que es lo contrario: el EEI cierra mal en vez de relajarse mal."
-    },
-    {
-     "t": "Una bolsa mucosa en la unión faringoesofágica",
-     "por": "Es el divertículo de Zenker."
-    },
-    {
-     "t": "Una contracción esofágica vigorosa con peristalsis normal",
-     "por": "Eso describe el esófago en cascanueces; en la acalasia no hay peristalsis normal."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Acalasia: peristalsis aberrante y relajación insuficiente del EEI. Incidencia de 0,03 a 1,63 por 100 mil personas al año, igual en hombres y mujeres, sin predilección racial, con pico entre los 30 y 60 años.",
-   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 6"
-  },
-  {
    "id": "g-aca-causa",
    "area": "gastro",
    "tema": "Acalasia (trastornos motores del esófago)",
@@ -84,35 +55,6 @@
    ],
    "correcta": 0,
    "explicacion": "Clínica: disfagia progresiva (sólidos y líquidos), regurgitación de alimentos no digeridos, pérdida de peso, dolor torácico y pirosis (por fermentación del alimento retenido) en 27 a 42 %, y neumonía por aspiración en casos avanzados.",
-   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 8"
-  },
-  {
-   "id": "g-aca-pirosis",
-   "area": "gastro",
-   "tema": "Acalasia (trastornos motores del esófago)",
-   "dif": 2,
-   "enunciado": "¿Por qué un paciente con acalasia puede tener pirosis?",
-   "opciones": [
-    {
-     "t": "Por fermentación de alimentos retenidos",
-     "por": "No es reflujo ácido: el alimento estancado fermenta y produce ácido láctico.",
-     "full": "Por la fermentación de los alimentos retenidos en el esófago"
-    },
-    {
-     "t": "Porque el EEI está hipotónico y deja pasar ácido",
-     "por": "Es lo contrario: el EEI está hipertónico y no se relaja."
-    },
-    {
-     "t": "Porque hay una úlcera duodenal asociada",
-     "por": "La acalasia no se asocia a úlcera duodenal."
-    },
-    {
-     "t": "Porque la bilis refluye al esófago",
-     "por": "La bilis no es el mecanismo en la acalasia."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La pirosis de la acalasia (27 a 42 %) se debe a la fermentación del alimento retenido. Por eso un tratamiento con IBP no resuelve el síntoma y puede retrasar el diagnóstico.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 8"
   },
   {
@@ -272,39 +214,6 @@
    "explicacion": "Tratamiento: el objetivo es mejorar los síntomas. Farmacológico: nifedipino, isosorbida (liberación de óxido nítrico y reducción del calcio intracelular), atropina, terbutalina. Endoscópico: toxina botulínica 100 UI sobre la unión escamocilíndrica. Dilatación neumática (riesgo de perforación). Quirúrgico: miotomía.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14",
    "nota": "Que se reservan a pacientes no aptos para el tratamiento definitivo está en el algoritmo.",
-   "guia": {
-    "t": "• Tipos I y II: dilatación neumática, miotomía de Heller laparoscópica y POEM tienen eficacia comparable.\n• Tipo III: se recomienda POEM o Heller 'a medida', más eficaces que la dilatación neumática.\n• La toxina botulínica se reserva para quienes no pueden recibir un tratamiento definitivo; los fármacos orales son la opción menos eficaz.\n• La dilatación neumática seriada es el tratamiento no quirúrgico más eficaz; no se pide gastrografin de rutina tras dilatar, solo ante sospecha de perforación.",
-    "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"
-   }
-  },
-  {
-   "id": "g-aca-botox",
-   "area": "gastro",
-   "tema": "Acalasia (trastornos motores del esófago)",
-   "dif": 2,
-   "enunciado": "¿Cómo se aplica la toxina botulínica en la acalasia?",
-   "opciones": [
-    {
-     "t": "100 unidades sobre la unión escamocilíndrica",
-     "por": "Bloquea la liberación de acetilcolina y relaja el EEI, con efecto transitorio.",
-     "full": "Se inyectan 100 unidades por encima de la unión escamocilíndrica por endoscopía"
-    },
-    {
-     "t": "Se aplica por vía intravenosa semanal",
-     "por": "No es la vía de aplicación."
-    },
-    {
-     "t": "Se inyecta en el cuerpo del esófago a 5 cm del cardias",
-     "por": "La toxina se inyecta en el EEI, por encima de la unión escamocilíndrica."
-    },
-    {
-     "t": "Se usa como tratamiento definitivo en todos los pacientes jóvenes",
-     "por": "Su efecto dura pocos meses; es una opción para pacientes no aptos para cirugía."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Toxina botulínica: 100 unidades endoscópicas por encima de la unión escamocilíndrica. El efecto es temporal, por eso se usa en pacientes que no pueden recibir tratamiento definitivo.",
-   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14",
    "guia": {
     "t": "• Tipos I y II: dilatación neumática, miotomía de Heller laparoscópica y POEM tienen eficacia comparable.\n• Tipo III: se recomienda POEM o Heller 'a medida', más eficaces que la dilatación neumática.\n• La toxina botulínica se reserva para quienes no pueden recibir un tratamiento definitivo; los fármacos orales son la opción menos eficaz.\n• La dilatación neumática seriada es el tratamiento no quirúrgico más eficaz; no se pide gastrografin de rutina tras dilatar, solo ante sospecha de perforación.",
     "f": "ACG Clinical Guidelines: Diagnosis and Management of Achalasia (Vaezi et al., Am J Gastroenterol 2020;115:1393-1411)"

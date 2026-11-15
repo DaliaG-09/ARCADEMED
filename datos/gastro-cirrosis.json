@@ -1,35 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "g-cir-def",
-   "area": "gastro",
-   "tema": "Cirrosis hepática",
-   "dif": 1,
-   "enunciado": "¿Cómo se define la cirrosis hepática?",
-   "opciones": [
-    {
-     "t": "Fibrosis difusa con nódulos y arquitectura hepática alterada",
-     "por": "Es la definición: la fibrosis es por acúmulo de colágeno en la matriz extracelular.",
-     "full": "Enfermedad crónica y difusa con fibrosis, nódulos de regeneración y trastorno de la arquitectura hepática y de la circulación intrahepática"
-    },
-    {
-     "t": "Inflamación aguda y reversible del hígado por un virus",
-     "por": "Eso es la hepatitis viral aguda."
-    },
-    {
-     "t": "Acúmulo de grasa en el hígado sin fibrosis",
-     "por": "Es la esteatosis; en la cirrosis ya hay fibrosis y nódulos."
-    },
-    {
-     "t": "Dilatación de los conductos biliares por obstrucción",
-     "por": "Es una colestasis obstructiva, no una cirrosis."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Cirrosis: enfermedad crónica y difusa con fibrosis (colágeno en la matriz extracelular), nódulos de regeneración, inflamación crónica y alteración de la arquitectura hepática y de la circulación. En la fisiopatología participan las células estrelladas hepáticas activadas (HSC) que depositan matriz.",
-   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 8 y 10"
-  },
-  {
    "id": "g-cir-etio",
    "area": "gastro",
    "tema": "Cirrosis hepática",
@@ -56,34 +27,6 @@
    "correcta": 0,
    "explicacion": "Etiología: esteatohepatitis no alcohólica, alcohol (30 a 50 %), VHC (35 %), VHB y VHD (10 %), biliar (cirrosis biliar primaria, colangitis esclerosante primaria), hemocromatosis, Wilson, déficit de A1AT (alfa-1-antitripsina), autoinmune, vascular (Budd-Chiari, enfermedad venooclusiva) y criptogenética (<10 %).",
    "fuente": "PPT Cirrosis hepática (sem. 13), lám. 9"
-  },
-  {
-   "id": "g-cir-signos",
-   "area": "gastro",
-   "tema": "Cirrosis hepática",
-   "dif": 2,
-   "enunciado": "¿Cuál de estos es un estigma de hepatopatía crónica?",
-   "opciones": [
-    {
-     "t": "Arañas vasculares y eritema palmar",
-     "por": "También: ictericia, leuconiquia, ginecomastia, contractura de Dupuytren, hipertrofia parotídea y dedos en palillo de tambor."
-    },
-    {
-     "t": "Fiebre y tos productiva",
-     "por": "Son síntomas respiratorios o infecciosos, no estigmas hepáticos."
-    },
-    {
-     "t": "Bocio y exoftalmos",
-     "por": "Son signos de enfermedad tiroidea."
-    },
-    {
-     "t": "Estrías violáceas y acantosis nigricans",
-     "por": "Son signos de síndrome de Cushing y de resistencia a la insulina."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Signos: piel fina, menos masa muscular, arañas vasculares, telangiectasias, eritema palmar, ictericia, púrpura, leuconiquia; abdomen con ascitis, circulación colateral y hernia umbilical; hipertrofia parotídea, contractura de Dupuytren, dedos en palillo de tambor, ginecomastia y edemas.",
-   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 12 a 15"
   },
   {
    "id": "g-cir-ascitis",
@@ -266,101 +209,6 @@
    "fuente": "PPT Cirrosis hepática (sem. 13), lám. 21"
   },
   {
-   "id": "g-cir-hp",
-   "area": "gastro",
-   "tema": "Cirrosis hepática",
-   "dif": 2,
-   "enunciado": "¿Cómo se origina la hipertensión portal en la cirrosis?",
-   "opciones": [
-    {
-     "t": "Fibrosis que eleva la resistencia y la presión portal",
-     "por": "Luego se forman vasos colaterales que empeoran el síndrome hiperdinámico.",
-     "full": "La fibrosis aumenta la resistencia al flujo de sangre en el hígado y eleva la presión en la vena porta"
-    },
-    {
-     "t": "Por una disminución del flujo sanguíneo esplácnico",
-     "por": "El flujo esplácnico aumenta, lo que agrava la presión."
-    },
-    {
-     "t": "Por una obstrucción de la vena cava inferior",
-     "por": "Es otra causa de congestión, no el mecanismo habitual de la cirrosis."
-    },
-    {
-     "t": "Por aumento de la albúmina plasmática",
-     "por": "Lo que ocurre es hipoalbuminemia."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Hipertensión portal: la cicatrización y los cambios estructurales estrechan los vasos, suben el tono vascular y la resistencia; aumenta la presión en la porta, se ensanchan vasos y se forman colaterales, con mayor flujo y complicaciones: varices esofágicas y ascitis. Las varices pueden formarse con gradiente de presión (HVPG) sobre 10 a 12 mmHg.",
-   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 22 a 24"
-  },
-  {
-   "id": "g-cir-hvpg",
-   "area": "gastro",
-   "tema": "Cirrosis hepática",
-   "dif": 3,
-   "enunciado": "¿Qué gradiente de presión portal (HVPG) se asocia con la aparición de várices y sangrado?",
-   "opciones": [
-    {
-     "t": "Por encima de 10 a 12 mmHg",
-     "por": "Con un HVPG por encima de 10 a 12 mmHg aparecen várices y sangrado."
-    },
-    {
-     "t": "Por encima de 3 mmHg",
-     "por": "Los valores normales llegan hasta 5 mmHg."
-    },
-    {
-     "t": "Por encima de 5 mmHg",
-     "por": "Es el límite superior de lo normal; la hipertensión portal clínicamente significativa empieza en 10."
-    },
-    {
-     "t": "Menos de 5 mmHg",
-     "por": "Menos de 5 mmHg es el rango normal, sin hipertensión portal."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "HVPG = gradiente de presión venosa hepática. Más de 10 a 12 mmHg: várices y sangrado. Resangrado temprano: sangrado de várices gástricas, sangrado activo, albúmina baja, insuficiencia renal y HVPG >20 mmHg.",
-   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 24 y 25",
-   "contexto": "El HVPG es la diferencia entre la presión de la vena porta y la de la vena cava, medida con un catéter en las venas hepáticas. Se usa para saber qué tan alta es la hipertensión portal.",
-   "guia": {
-    "t": "• La hipertensión portal clínicamente significativa (CSPH) se define con HVPG ≥10 mmHg; es el umbral desde el que aparecen várices y otras complicaciones.\n• AASLD 2024 y Baveno VII recomiendan betabloqueadores no selectivos (carvedilol) en pacientes con CSPH, para disminuir la presión portal y prevenir la descompensación (por ejemplo, ascitis).",
-    "f": "AASLD Practice Guidance 2024 sobre hipertensión portal y várices (Kaplan et al., Hepatology 2024;79:1180-1211) y consenso Baveno VII (de Franchis et al., J Hepatol 2022;76:959-974)"
-   }
-  },
-  {
-   "id": "g-cir-resangrado",
-   "area": "gastro",
-   "tema": "Cirrosis hepática",
-   "dif": 2,
-   "enunciado": "¿Cuál de estos se asocia a mayor riesgo de resangrado temprano de várices?",
-   "opciones": [
-    {
-     "t": "Várices gástricas o sangrado activo",
-     "full": "Sangrado de várices gástricas, sangrado activo, albúmina baja, insuficiencia renal o HVPG mayor de 20",
-     "por": "Las várices gástricas y el sangrado activo aumentan el riesgo de resangrado."
-    },
-    {
-     "t": "Várices esofágicas pequeñas sin sangrado",
-     "por": "Várices pequeñas sin sangrado no aumentan ese riesgo."
-    },
-    {
-     "t": "Albúmina mayor de 4 g/dL",
-     "por": "En cirrosis hay plaquetopenia, y no es un factor."
-    },
-    {
-     "t": "Función renal normal con HVPG <12 mmHg",
-     "por": "No figura entre los factores."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Factores de resangrado temprano: (1) várices gástricas, (2) sangrado activo, (3) albúmina baja, (4) insuficiencia renal, (5) HVPG >20 mmHg.",
-   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 25",
-   "guia": {
-    "t": "• Hemorragia aguda por várices: reanimación cuidadosa con transfusión restrictiva (Hb objetivo 7 a 8 g/dl).\n• Vasoactivos (terlipressina u octreótido) lo antes posible y antibiótico profiláctico (p. ej. ceftriaxona), por el riesgo de infecciones bacterianas.\n• Endoscopía en las primeras 12 h con ligadura de várices como primera opción.\n• TIPS precoz (preventivo) en pacientes de alto riesgo de resangrado; AASLD 2024 precisó su rol.",
-    "f": "AASLD Practice Guidance 2024 sobre hipertensión portal y várices (Kaplan et al., Hepatology 2024;79:1180-1211) y consenso Baveno VII (de Franchis et al., J Hepatol 2022;76:959-974)"
-   }
-  },
-  {
    "id": "g-cir-algoritmo",
    "area": "gastro",
    "tema": "Cirrosis hepática",
@@ -391,39 +239,6 @@
    "nota": "En Perú se usa mucho el octreótido y la ligadura endoscópica;",
    "guia": {
     "t": "• Hemorragia aguda por várices: reanimación cuidadosa con transfusión restrictiva (Hb objetivo 7 a 8 g/dl).\n• Vasoactivos (terlipressina u octreótido) lo antes posible y antibiótico profiláctico (p. ej. ceftriaxona), por el riesgo de infecciones bacterianas.\n• Endoscopía en las primeras 12 h con ligadura de várices como primera opción.\n• TIPS precoz (preventivo) en pacientes de alto riesgo de resangrado; AASLD 2024 precisó su rol.",
-    "f": "AASLD Practice Guidance 2024 sobre hipertensión portal y várices (Kaplan et al., Hepatology 2024;79:1180-1211) y consenso Baveno VII (de Franchis et al., J Hepatol 2022;76:959-974)"
-   }
-  },
-  {
-   "id": "g-cir-tips",
-   "area": "gastro",
-   "tema": "Cirrosis hepática",
-   "dif": 3,
-   "enunciado": "¿Qué es el TIPS y cuál es su principal complicación?",
-   "opciones": [
-    {
-     "t": "Derivación portosistémica intrahepática",
-     "por": "Controla la hemorragia en 95 %, con resangrado de 18 % y mortalidad de 38 %.",
-     "full": "Una derivación portosistémica intrahepática transyugular que comunica la porta con una vena hepática; puede causar encefalopatía"
-    },
-    {
-     "t": "Una cirugía que extirpa el bazo",
-     "por": "Es una esplenectomía, no un TIPS."
-    },
-    {
-     "t": "Una endoscopía con bandas elásticas",
-     "por": "Es la ligadura de várices."
-    },
-    {
-     "t": "Un trasplante de hígado parcial",
-     "por": "El TIPS no reemplaza el hígado, solo desvía sangre."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "TIPS = shunt portosistémico intrahepático transyugular: comunica el sistema portal (alta presión) con el sistémico (baja presión), reduciendo la hipertensión portal. Pasa sangre de la porta al torrente sistémico sin ser filtrada, por eso causa encefalopatía.",
-   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 27 a 29",
-   "guia": {
-    "t": "• AASLD 2024 aclara el papel del TIPS preventivo (precoz) en la hemorragia aguda por várices de alto riesgo de resangrado.\n• TIPS también está listado como opción en ascitis refractaria.\n• Todo paciente con ascitis clínicamente significativa y complicaciones debe considerarse para evaluación de trasplante hepático.",
     "f": "AASLD Practice Guidance 2024 sobre hipertensión portal y várices (Kaplan et al., Hepatology 2024;79:1180-1211) y consenso Baveno VII (de Franchis et al., J Hepatol 2022;76:959-974)"
    }
   },

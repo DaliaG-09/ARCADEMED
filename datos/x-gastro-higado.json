@@ -1,0 +1,708 @@
+{
+ "preguntas": [
+  {
+   "id": "x-gh-cir1",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "escala",
+   "enunciado": "Escribe los cinco parámetros del puntaje de Child-Pugh con sus puntos de corte y cómo se clasifica la cirrosis según la suma.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Bilirrubina: menos de 2 mg/dL = 1; 2 a 3 = 2; más de 3 = 3.",
+     "w": 0.4
+    },
+    {
+     "t": "Albúmina: más de 3.5 g/dL = 1; 2.8 a 3.5 = 2; menos de 2.8 = 3.",
+     "w": 0.4
+    },
+    {
+     "t": "Tiempo de protrombina prolongado (o INR): menos de 4 s = 1; 4 a 6 s = 2; más de 6 s = 3.",
+     "w": 0.4
+    },
+    {
+     "t": "Ascitis: ausente = 1; leve = 2; moderada a grave = 3. Encefalopatía: ausente = 1; grado 1 a 2 = 2; grado 3 a 4 = 3.",
+     "w": 0.4
+    },
+    {
+     "t": "Child A: 5 a 6 puntos; B: 7 a 9; C: 10 a 15.",
+     "w": 0.4
+    }
+   ],
+   "explicacion": "Child-Pugh mide la reserva funcional del hígado cirrótico y el pronóstico. Child C = peor sobrevida; se usa para decidir riesgo quirúrgico y derivar a trasplante.",
+   "fuente": "PPT",
+   "contexto": "Child-Pugh: puntaje de 5 a 15 que estima la gravedad de la cirrosis con laboratorio (bilirrubina, albúmina, coagulación) y clínica (ascitis, encefalopatía). Se usa para pronóstico y para decidir cirugías o trasplante."
+  },
+  {
+   "id": "x-gh-cir2",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 58 años con cirrosis por alcohol. Bilirrubina 2.6 mg/dL, albúmina 3.1 g/dL, tiempo de protrombina prolongado en 5 segundos, ascitis leve controlada con diuréticos y sin encefalopatía.\n\nCalcula el puntaje de Child-Pugh por parámetro y clasifica. ¿Qué otro puntaje se usa para priorizar el trasplante y qué variables incluye?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Bilirrubina 2.6 = 2; albúmina 3.1 = 2; protrombina +5 s = 2; ascitis leve = 2; sin encefalopatía = 1.",
+     "w": 0.75
+    },
+    {
+     "t": "Suma 9 puntos: Child-Pugh B.",
+     "w": 0.5
+    },
+    {
+     "t": "MELD (o MELD-Na) es el puntaje para priorizar trasplante.",
+     "w": 0.25
+    },
+    {
+     "t": "Variables del MELD: bilirrubina, INR y creatinina (más sodio en MELD-Na).",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Child-Pugh incluye datos subjetivos (ascitis, encefalopatía); el MELD solo usa laboratorio y es el que ordena la lista de trasplante.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: el MELD no está en el PPT."
+  },
+  {
+   "id": "x-gh-cir3",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 55 años con cirrosis por alcohol y ascitis. Ingresa con fiebre de 38.5 °C, dolor abdominal difuso y confusión leve. Abdomen doloroso a la palpación, sin signos de perforación.\n\n¿Qué complicación sospechas? ¿Qué examen confirma el diagnóstico y con qué criterio? ¿Cómo lo tratas y qué le das para proteger el riñón? ¿Qué haces después para prevenir recurrencias?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Peritonitis bacteriana espontánea (PBE).",
+     "w": 0.25
+    },
+    {
+     "t": "Paracentesis diagnóstica con recuento de neutrófilos (PMN) en líquido ascítico: 250 o más por mm³ confirma la PBE; también cultivo.",
+     "w": 0.5
+    },
+    {
+     "t": "Antibiótico empírico (ceftriaxona 2 g IV al día, 5 a 7 días).",
+     "w": 0.5
+    },
+    {
+     "t": "Albúmina IV (1.5 g/kg el día 1 y 1 g/kg el día 3) para prevenir síndrome hepatorrenal.",
+     "w": 0.5
+    },
+    {
+     "t": "Profilaxis secundaria con antibiótico oral continuo (norfloxacino o ciprofloxacino).",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Todo cirrótico con ascitis que ingresa por cualquier motivo necesita paracentesis diagnóstica. La PBE puede presentarse solo con confusión o deterioro renal.",
+   "fuente": "PPT",
+   "contexto": "Cirrosis: el hígado se llena de fibrosis y nódulos y pierde su arquitectura y su circulación. Las complicaciones (ascitis, várices, encefalopatía) marcan la gravedad y se vigilan con escalas como Child-Pugh.",
+   "nota": "+ Complemento: la PBE no está desarrollada en el PPT, pero es de las complicaciones que más se preguntan."
+  },
+  {
+   "id": "x-gh-cir4",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 60 años con cirrosis, ascitis a tensión y edema de miembros inferiores. Paracentesis: albúmina sérica 3.0 g/dL y albúmina del líquido ascítico 1.2 g/dL, proteínas 1.0 g/dL.\n\nCalcula el gradiente de albúmina suero-ascitis (SAAG) e interprétalo. ¿Cómo manejas la ascitis (medidas generales, diuréticos y ascitis a tensión)?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "SAAG = 3.0 − 1.2 = 1.8 g/dL (más de 1.1): ascitis por hipertensión portal.",
+     "w": 0.5
+    },
+    {
+     "t": "Restricción de sodio en la dieta (2 g al día); evitar AINEs.",
+     "w": 0.5
+    },
+    {
+     "t": "Diuréticos: espironolactona con o sin furosemida (proporción 100:40) y control de electrolitos y creatinina.",
+     "w": 0.5
+    },
+    {
+     "t": "Ascitis a tensión: paracentesis de gran volumen con reposición de albúmina.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "SAAG de 1.1 o más: hipertensión portal (cirrosis, insuficiencia cardiaca, Budd-Chiari). SAAG menor de 1.1: peritonitis tuberculosa, carcinomatosis, síndrome nefrótico.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: el SAAG y el manejo de la ascitis no están detallados en el PPT."
+  },
+  {
+   "id": "x-gh-cir5",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 62 años con cirrosis por VHC, hematemesis en 3 oportunidades y somnolencia. Examen: ictericia, matidez desplazable, PA 90/55, FC 120. Bradilálico y bradipsíquico. Durante el examen vomita sangre.\n\n¿Cuál es el diagnóstico más probable del sangrado? ¿Qué medidas inmediatas tomas? ¿Qué tratamiento específico y qué prevención de complicaciones indicas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Hemorragia por várices esofágicas (hipertensión portal) con encefalopatía hepática.",
+     "w": 0.5
+    },
+    {
+     "t": "Estabilizar: vías gruesas, reposición cautelosa de volumen, transfusión con meta de hemoglobina 7 a 8 g/dL, proteger la vía aérea.",
+     "w": 0.5
+    },
+    {
+     "t": "Fármaco vasoactivo (terlipresina u octreótido) lo antes posible y endoscopía en las primeras 12 horas con ligadura de várices.",
+     "w": 0.5
+    },
+    {
+     "t": "Antibiótico profiláctico (ceftriaxona) y manejo de la encefalopatía (lactulosa).",
+     "w": 0.25
+    },
+    {
+     "t": "Si falla: TIPS de rescate o balón; luego prevención secundaria con β-bloqueador más ligaduras.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Mortalidad de 15 a 40 % por episodio. Sobretransfundir aumenta la presión portal y el resangrado. TIPS controla el sangrado en 95 %, pero puede provocar encefalopatía.",
+   "fuente": "PPT",
+   "contexto": "Várices esofágicas: venas dilatadas del esófago por hipertensión portal. Sangran cuando el gradiente de presión supera 10 a 12 mmHg.",
+   "nota": "+ Complemento: el manejo específico (vasoactivos, ligadura, antibiótico) no está detallado en el PPT."
+  },
+  {
+   "id": "x-gh-cir6",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona las complicaciones de la cirrosis y un hallazgo o tratamiento clave de cada una.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Hipertensión portal con várices esofágicas y hemorragia digestiva.",
+     "w": 0.4
+    },
+    {
+     "t": "Ascitis y peritonitis bacteriana espontánea.",
+     "w": 0.4
+    },
+    {
+     "t": "Encefalopatía hepática: lactulosa; buscar precipitantes (sangrado, infección, estreñimiento, sedantes).",
+     "w": 0.4
+    },
+    {
+     "t": "Síndrome hepatorrenal e insuficiencia renal.",
+     "w": 0.4
+    },
+    {
+     "t": "Hepatocarcinoma, coagulopatía y desnutrición.",
+     "w": 0.4
+    }
+   ],
+   "explicacion": "Cuando aparece cualquier descompensación (ascitis, hemorragia, encefalopatía) la cirrosis deja de ser compensada y empeora el pronóstico.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gh-cir7",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "¿Qué medidas generales indicas a un paciente con cirrosis?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Tratamiento etiológico (virus B o C, abstinencia de alcohol, autoinmune, etc.).",
+     "w": 0.5
+    },
+    {
+     "t": "Nutrición adecuada y no beber alcohol.",
+     "w": 0.5
+    },
+    {
+     "t": "Vacunación contra hepatitis A y B.",
+     "w": 0.5
+    },
+    {
+     "t": "Evitar AINEs, sedantes y fármacos hepatotóxicos; tratar bien las descompensaciones; evaluar trasplante.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Los AINEs en cirróticos provocan sangrado digestivo y falla renal.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gh-hep1",
+   "area": "gastro",
+   "tema": "Hepatitis viral",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Interpreta cada perfil serológico de hepatitis B: (a) HBsAg positivo e IgM anti-HBc positivo; (b) HBsAg positivo e IgM anti-HBc negativo con IgG anti-HBc positivo; (c) HBsAg negativo, anti-HBs positivo y anti-HBc positivo; (d) solo anti-HBs positivo.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "(a) Infección aguda por VHB.",
+     "w": 0.5
+    },
+    {
+     "t": "(b) Infección crónica por VHB (HBsAg por más de 6 meses).",
+     "w": 0.5
+    },
+    {
+     "t": "(c) Infección pasada resuelta, con inmunidad natural.",
+     "w": 0.5
+    },
+    {
+     "t": "(d) Inmunidad por vacuna.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "HBsAg = infección; anti-HBc = exposición; IgM anti-HBc = infección aguda; anti-HBs = inmunidad o resolución. En el periodo ventana el HBsAg aún no se detecta y solo se ve IgM anti-HBc.",
+   "fuente": "PPT",
+   "contexto": "Marcadores de hepatitis B: HBsAg (antígeno de superficie), anti-HBc (anticuerpo contra el core), anti-HBs (anticuerpo contra la superficie). Se usan para saber si hay infección aguda, crónica, curada o vacunación."
+  },
+  {
+   "id": "x-gh-hep2",
+   "area": "gastro",
+   "tema": "Hepatitis viral",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 28 años de Ayacucho con náuseas, vómitos, fiebre baja, astenia, coluria y luego ictericia durante 5 días. Comió mariscos crudos hace 4 semanas. Hepatomegalia dolorosa. ALT 1800 U/L.\n\n¿Qué diagnóstico plantea y qué prueba lo confirma? ¿Cuál es el tratamiento? ¿Qué complicación debes vigilar?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Hepatitis viral aguda A (transmisión fecal-oral).",
+     "w": 0.5
+    },
+    {
+     "t": "IgM anti-VHA positivo (IgG anti-VHA solo indica inmunidad previa).",
+     "w": 0.5
+    },
+    {
+     "t": "Soporte: hidratación, nutrición, reposo, evitar alcohol y hepatotóxicos.",
+     "w": 0.5
+    },
+    {
+     "t": "Vigilar hepatitis fulminante (encefalopatía, INR alto).",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La hepatitis A no cronifica. Se previene con vacuna e higiene del agua y los alimentos.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gh-hep3",
+   "area": "gastro",
+   "tema": "Hepatitis viral",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Compara las hepatitis A, B y C en: vía de transmisión, riesgo de cronicidad y prevención o tratamiento.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "A: fecal-oral; no cronifica; vacuna e higiene; tratamiento de soporte.",
+     "w": 0.5
+    },
+    {
+     "t": "B: sangre, sexual y perinatal; cronifica en 5 a 10 % de adultos y más en neonatos; vacuna (y inmunoglobulina en exposición); antivirales si hay indicación.",
+     "w": 0.75
+    },
+    {
+     "t": "C: sangre (drogas inyectables, transfusiones); cronifica en 70 a 85 %; no hay vacuna; antivirales de acción directa curativos.",
+     "w": 0.75
+    }
+   ],
+   "explicacion": "La hepatitis B y C son causas importantes de cirrosis y carcinoma hepatocelular.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: la tasa de cronicidad exacta no está en el PPT."
+  },
+  {
+   "id": "x-gh-hep4",
+   "area": "gastro",
+   "tema": "Hepatitis viral",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "concepto",
+   "enunciado": "Define insuficiencia hepática aguda grave (hepatitis fulminante) y menciona su manejo inicial.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Encefalopatía y coagulopatía (INR de 1.5 o más) en un paciente sin cirrosis previa, con evolución de días a pocas semanas.",
+     "w": 0.75
+    },
+    {
+     "t": "Causas: virus (A, B, E), paracetamol, fármacos, hongos.",
+     "w": 0.25
+    },
+    {
+     "t": "Manejo en UCI, medir INR y glucosa, tratar la causa (N-acetilcisteína en paracetamol).",
+     "w": 0.5
+    },
+    {
+     "t": "Evaluar derivación a trasplante hepático urgente.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Se sospecha ante un paciente con hepatitis aguda que se vuelve somnoliento o con INR en aumento.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: no está desarrollado en el PPT."
+  },
+  {
+   "id": "x-gh-chc1",
+   "area": "gastro",
+   "tema": "Hepatocarcinoma",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 61 años con cirrosis por VHB, Child A. Ecografía de control: nódulo de 3 cm en el lóbulo derecho. AFP 450 ng/mL.\n\n¿Qué sospechas? ¿A quién y cómo se hace tamizaje? ¿Cómo se confirma el diagnóstico? ¿Qué opciones terapéuticas existen?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Carcinoma hepatocelular (CHC).",
+     "w": 0.25
+    },
+    {
+     "t": "Tamizaje en todo cirrótico (y algunos con VHB): ecografía más AFP cada 6 meses.",
+     "w": 0.5
+    },
+    {
+     "t": "Confirmación por imagen trifásica (TC o RM): captación en fase arterial y lavado en fase venosa; no requiere biopsia si el patrón es típico.",
+     "w": 0.75
+    },
+    {
+     "t": "Tratamiento según estadio: resección, ablación, trasplante, quimioembolización (TACE) o terapia sistémica.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "El CHC se diagnostica sin biopsia en el cirrótico si la imagen es típica. La cirrosis y el VHB o VHC son los principales factores de riesgo.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: el CHC no está en el PPT. La cirrosis menciona solo descartarlo."
+  },
+  {
+   "id": "x-gh-chc2",
+   "area": "gastro",
+   "tema": "Hepatocarcinoma",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona cuatro factores de riesgo de carcinoma hepatocelular.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Cirrosis de cualquier causa.",
+     "w": 0.5
+    },
+    {
+     "t": "Hepatitis B crónica (incluso sin cirrosis).",
+     "w": 0.5
+    },
+    {
+     "t": "Hepatitis C crónica.",
+     "w": 0.5
+    },
+    {
+     "t": "Alcohol, esteatohepatitis, aflatoxinas, hemocromatosis.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Por eso se vacuna contra hepatitis B y se trata la hepatitis C.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: no está en el PPT."
+  },
+  {
+   "id": "x-gh-abs1",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Compara el absceso hepático piógeno y el amebiano: frecuencia, epidemiología, número y localización, microbiología y tratamiento.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Piógeno: 80 a 90 % de los abscesos; diabéticos, inmunodeprimidos, enfermedad biliar; suele ser múltiple y grande; E. coli, Klebsiella y anaerobios.",
+     "w": 0.75
+    },
+    {
+     "t": "Amebiano: 5 a 10 %; hombre joven que viaja o proviene de zona endémica; único, lóbulo derecho; Entamoeba histolytica; contenido como \"pasta de anchoas\".",
+     "w": 0.75
+    },
+    {
+     "t": "Tratamiento piógeno: antibióticos más drenaje percutáneo.",
+     "w": 0.25
+    },
+    {
+     "t": "Tratamiento amebiano: metronidazol (el drenaje solo si es grande o no responde).",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "El amebiano se confirma con serología de E. histolytica. El piógeno necesita antibiótico de amplio espectro y drenaje.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gh-abs2",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 40 años de Lima con fiebre de 39 °C, dolor en hipocondrio derecho y malestar de 8 días. Leucocitosis, fosfatasa alcalina alta. Ecografía: lesión hipoecoica única de 6 cm en el lóbulo derecho.\n\n¿Qué dos diagnósticos principales plantea? ¿Qué estudios pides para distinguirlos? ¿Cómo trata el amebiano? ¿Cuándo drenas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Absceso hepático piógeno o amebiano.",
+     "w": 0.5
+    },
+    {
+     "t": "Serología para E. histolytica, hemocultivos y cultivo del pus si se drena.",
+     "w": 0.5
+    },
+    {
+     "t": "Metronidazol (7 a 10 días) en el amebiano.",
+     "w": 0.5
+    },
+    {
+     "t": "Drenaje si es grande (más de 5 a 10 cm), hay riesgo de ruptura, no responde en 3 a 5 días o es piógeno.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La causa más frecuente de absceso hepático es la colangitis y la enfermedad biliar en el piógeno.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: los criterios de drenaje no están detallados en el PPT."
+  },
+  {
+   "id": "x-gh-cirm1",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "enunciado": "Varón de 55 años con cirrosis por alcohol y ascitis ingresa por fiebre y dolor abdominal. El líquido ascítico tiene 480 PMN/mm³. ¿Cuál es el diagnóstico?",
+   "opciones": [
+    {
+     "t": "Peritonitis bacteriana espontánea.",
+     "por": "Con 250 PMN/mm³ o más en líquido ascítico, aunque el cultivo sea negativo, se trata como PBE."
+    },
+    {
+     "t": "Ascitis no complicada.",
+     "por": "Con PMN menores de 250 no hay infección."
+    },
+    {
+     "t": "Peritonitis tuberculosa.",
+     "por": "Se esperaría predominio de linfocitos y ADA elevada."
+    },
+    {
+     "t": "Peritonitis secundaria a perforación.",
+     "por": "Se sospecha con múltiples gérmenes, proteínas altas y glucosa baja."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "PBE: PMN en líquido ascítico de 250 o más por mm³. Tratar con ceftriaxona y albúmina IV.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: PBE no está en el PPT."
+  },
+  {
+   "id": "x-gh-cirm2",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "enunciado": "Mujer de 58 años con cirrosis por esteatohepatitis, Child B, sin sangrado previo. La endoscopía muestra várices esofágicas grandes. ¿Qué indicas para prevenir el primer sangrado?",
+   "opciones": [
+    {
+     "t": "β-bloqueador no selectivo (carvedilol o propranolol) o ligadura endoscópica.",
+     "por": "Reducen la presión portal y el riesgo de sangrado."
+    },
+    {
+     "t": "Anticoagulación.",
+     "por": "Aumenta el riesgo de sangrado."
+    },
+    {
+     "t": "Solo observar.",
+     "por": "Las várices grandes necesitan profilaxis primaria."
+    },
+    {
+     "t": "AINEs para el dolor.",
+     "por": "Están contraindicados en cirrosis."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La profilaxis primaria disminuye el sangrado en varices medianas o grandes. Tras un sangrado se asocian β-bloqueador y ligadura.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: profilaxis primaria no está en el PPT."
+  },
+  {
+   "id": "x-gh-cirm3",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "enunciado": "Varón de 60 años con cirrosis, ascitis y creatinina de 2.4 mg/dL (antes 1.0) tras iniciar diuréticos. Sedimento urinario normal y poca proteinuria. No mejora al suspender diuréticos y dar albúmina. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "Síndrome hepatorrenal.",
+     "por": "Falla renal funcional por vasodilatación esplácnica en cirrosis, sin daño estructural, que no responde a volumen."
+    },
+    {
+     "t": "Necrosis tubular aguda por contraste.",
+     "por": "No hay antecedente y el sedimento sería patológico."
+    },
+    {
+     "t": "Glomerulonefritis rápidamente progresiva.",
+     "por": "Esperarías hematuria y proteinuria."
+    },
+    {
+     "t": "Nefropatía obstructiva.",
+     "por": "No hay datos de obstrucción."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tratamiento: retirar diuréticos, albúmina, vasoconstrictor (terlipresina) y valorar trasplante.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: síndrome hepatorrenal no está en el PPT."
+  },
+  {
+   "id": "x-gh-cirm4",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "enunciado": "Mujer de 52 años con cirrosis por VHC, desorientada, con asterixis. Dos días de estreñimiento y sangre en las heces hoy. ¿Cuál es el tratamiento base?",
+   "opciones": [
+    {
+     "t": "Lactulosa y tratar el precipitante (hemorragia, infección, estreñimiento).",
+     "por": "Disminuye la absorción de amonio; siempre se busca y corrige la causa desencadenante."
+    },
+    {
+     "t": "Dieta rica en proteínas animales.",
+     "por": "La restricción proteica ya no se recomienda, pero tampoco se aumenta en exceso."
+    },
+    {
+     "t": "Benzodiacepinas para la agitación.",
+     "por": "Empeoran la encefalopatía."
+    },
+    {
+     "t": "Solo observar.",
+     "por": "Es una urgencia que requiere tratamiento."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Encefalopatía hepática: lactulosa; añadir rifaximina si recurre. Grados de West Haven del 1 al 4.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: encefalopatía hepática no está en el PPT."
+  },
+  {
+   "id": "x-gh-hepm1",
+   "area": "gastro",
+   "tema": "Hepatitis viral",
+   "dif": 2,
+   "enunciado": "Una gestante de 30 semanas tiene HBsAg positivo. ¿Qué indicas al recién nacido?",
+   "opciones": [
+    {
+     "t": "Vacuna contra hepatitis B e inmunoglobulina anti-VHB en las primeras 12 horas.",
+     "por": "Previene la transmisión perinatal, que es la forma más frecuente en países de alta prevalencia."
+    },
+    {
+     "t": "Solo lactancia materna exclusiva.",
+     "por": "No previene la infección."
+    },
+    {
+     "t": "Vacuna a los 6 meses.",
+     "por": "Es tarde: la inmunoprofilaxis es inmediata."
+    },
+    {
+     "t": "Antibiótico profiláctico.",
+     "por": "No actúa sobre un virus."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La inmunoglobulina más la vacuna reducen la transmisión vertical más de 90 %.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gh-hepm2",
+   "area": "gastro",
+   "tema": "Hepatitis viral",
+   "dif": 2,
+   "enunciado": "Mujer de 30 años con ictericia hace 2 semanas. HBsAg negativo, anti-HBs negativo, IgM anti-HBc positivo. ¿Qué indica?",
+   "opciones": [
+    {
+     "t": "Hepatitis B aguda en periodo ventana.",
+     "por": "El HBsAg ya desapareció pero aún no aparece el anti-HBs: solo se detecta IgM anti-HBc."
+    },
+    {
+     "t": "Inmunidad por vacuna.",
+     "por": "Sería solo anti-HBs positivo."
+    },
+    {
+     "t": "Hepatitis B crónica.",
+     "por": "El HBsAg sería positivo por más de 6 meses."
+    },
+    {
+     "t": "Hepatitis A aguda.",
+     "por": "Se diagnostica con IgM anti-VHA."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la ventana inmunológica de la hepatitis B el único marcador es IgM anti-HBc.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gh-absm1",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos",
+   "dif": 2,
+   "enunciado": "Varón de 35 años con colangitis por coledocolitiasis hace 3 semanas. Ahora fiebre, escalofríos y dolor en hipocondrio derecho. Ecografía: dos lesiones hipoecoicas. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "Absceso hepático piógeno por vía biliar.",
+     "por": "La vía biliar es la causa más frecuente de abscesos piógenos múltiples."
+    },
+    {
+     "t": "Absceso amebiano.",
+     "por": "Suele ser único, en lóbulo derecho, en pacientes que viajan a zonas endémicas."
+    },
+    {
+     "t": "Quiste hidatídico.",
+     "por": "Es un quiste con membrana, sin fiebre alta."
+    },
+    {
+     "t": "Hepatocarcinoma.",
+     "por": "No explica la fiebre ni el antecedente."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Tratamiento: antibióticos de amplio espectro y drenaje percutáneo, más resolver la causa biliar.",
+   "fuente": "PPT"
+  }
+ ],
+ "tarjetas": []
+}

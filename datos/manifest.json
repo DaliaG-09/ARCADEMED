@@ -45,6 +45,8 @@
   "x-nefro-erc-ira.json",
   "x-nefro-glomerulo.json",
   "x-nefro-electrolitos.json",
-  "x-nefro-otros.json"
+  "x-nefro-otros.json",
+  "x-gastro-higado.json",
+  "x-gastro-digestivo.json"
  ]
 }

@@ -1,35 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "g-func-disp",
-   "area": "gastro",
-   "tema": "Dispepsia y síndrome de intestino irritable",
-   "dif": 1,
-   "enunciado": "¿Cuáles son las manifestaciones de la dispepsia?",
-   "opciones": [
-    {
-     "t": "Epigastralgia, saciedad precoz y plenitud",
-     "full": "Dolor o epigastralgia, saciedad precoz, plenitud posprandial, distensión abdominal y náuseas",
-     "por": "Son los síntomas de un trastorno del tubo digestivo alto."
-    },
-    {
-     "t": "Diarrea crónica con pérdida de peso y anemia",
-     "por": "Orientan a malabsorción o enfermedad inflamatoria, no a dispepsia."
-    },
-    {
-     "t": "Ictericia, coluria y acolia",
-     "por": "Son signos de colestasis, no de dispepsia."
-    },
-    {
-     "t": "Hematoquecia y tenesmo",
-     "por": "Son síntomas del tubo digestivo bajo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Dispepsia: conjunto de signos y síntomas de un trastorno del tubo digestivo (TGI): dolor o epigastralgia, saciedad precoz, plenitud posprandial, distensión abdominal, náuseas.",
-   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 8"
-  },
-  {
    "id": "g-func-clasif",
    "area": "gastro",
    "tema": "Dispepsia y síndrome de intestino irritable",
@@ -56,65 +27,6 @@
    "correcta": 0,
    "explicacion": "Clasificación: (1) no estudiada, sin EDA; (2) funcional, EDA sin alteraciones, según Roma IV (síndrome de distrés posprandial, síndrome de dolor epigástrico o superposición); (3) orgánica, con causa identificada. La dispepsia no estudiada puede ser por dispepsia funcional, ERGE, gastritis o duodenitis, o AINE.",
    "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 9 y 10"
-  },
-  {
-   "id": "g-func-etio",
-   "area": "gastro",
-   "tema": "Dispepsia y síndrome de intestino irritable",
-   "dif": 2,
-   "enunciado": "¿Cuál de estos factores se asocia a la dispepsia funcional?",
-   "opciones": [
-    {
-     "t": "Hipersensibilidad visceral y dismotilidad",
-     "full": "Hipersensibilidad visceral, alteraciones de la motilidad, H. pylori y factores psicosociales",
-     "por": "La hipersensibilidad visceral y la dismotilidad se asocian a la dispepsia funcional."
-    },
-    {
-     "t": "Obstrucción biliar por un cálculo",
-     "por": "Es una causa orgánica de dolor, no de dispepsia funcional."
-    },
-    {
-     "t": "Úlcera péptica activa",
-     "por": "Es una causa orgánica: la endoscopía la mostraría."
-    },
-    {
-     "t": "Cáncer gástrico",
-     "por": "Es una causa orgánica; por eso se buscan signos de alarma."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Dispepsia funcional: hipersensibilidad intestinal (visceral), alteraciones de motilidad, infección por H. pylori y factores psicosociales.",
-   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 10"
-  },
-  {
-   "id": "g-func-roma_df",
-   "area": "gastro",
-   "tema": "Dispepsia y síndrome de intestino irritable",
-   "dif": 3,
-   "enunciado": "¿Qué exigen los criterios de Roma IV para el síndrome de distrés posprandial (SDP)?",
-   "opciones": [
-    {
-     "t": "Plenitud o saciedad precoz, 3 días por semana",
-     "por": "El SDP se define por los síntomas relacionados con la comida.",
-     "full": "Plenitud posprandial molesta o saciedad precoz que impide terminar una comida, al menos 3 días a la semana"
-    },
-    {
-     "t": "Dolor o ardor epigástrico al menos 1 día a la semana",
-     "por": "Es el síndrome de dolor epigástrico (SDE)."
-    },
-    {
-     "t": "Pirosis y regurgitación al menos 2 días a la semana",
-     "por": "Son criterios de ERGE, no de dispepsia funcional."
-    },
-    {
-     "t": "Vómitos persistentes sin causa",
-     "por": "No es un criterio del SDP; los vómitos persistentes obligan a descartar otra causa."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Roma IV, dispepsia funcional: uno o más de plenitud posprandial, saciedad precoz, dolor epigástrico o ardor epigástrico, sin enfermedad orgánica en la endoscopía, con inicio hace al menos 6 meses y síntomas en los últimos 3 meses. SDP: plenitud o saciedad precoz (≥3 días/semana). SDE: dolor o ardor epigástrico (≥1 día/semana). Pueden superponerse.",
-   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 11",
-   "contexto": "Criterios de Roma IV: consenso internacional que define los trastornos funcionales digestivos (sin lesión visible en las pruebas) a partir de los síntomas, su frecuencia y su duración. Se usan para diagnosticar la dispepsia funcional y el síndrome de intestino irritable."
   },
   {
    "id": "g-func-alarma",

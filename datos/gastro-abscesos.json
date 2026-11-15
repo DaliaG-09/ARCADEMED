@@ -1,63 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "g-abs-def",
-   "area": "gastro",
-   "tema": "Abscesos hepáticos (piógeno y amebiano)",
-   "dif": 1,
-   "enunciado": "¿Qué tipo de absceso hepático es el más frecuente?",
-   "opciones": [
-    {
-     "t": "Absceso piógeno (bacteriano), 80 a 90 %",
-     "por": "Es el más común. Ocurre sobre todo en diabéticos, trasplantados de hígado, personas con tumores malignos o con inmunodepresión. Incidencia de 2,3 casos por 100 000 habitantes al año.",
-     "full": "El absceso hepático piógeno (bacteriano), 80 a 90 %"
-    },
-    {
-     "t": "Absceso amebiano, por Entamoeba histolytica",
-     "por": "Es solo 5 a 10 %, con 0,1 casos por 100 000 habitantes al año. En países occidentales aparece sobre todo en inmigrantes y viajeros de zonas con amebiasis."
-    },
-    {
-     "t": "Absceso micótico, por Candida",
-     "por": "Los hongos son una causa menor."
-    },
-    {
-     "t": "Absceso mixto, bacteriano y amebiano",
-     "por": "Es la superinfección piógena de un absceso parasitario, una situación poco habitual."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Absceso hepático: colección de material supurativo dentro del parénquima hepático, causada por invasión y multiplicación de microorganismos. Es poco habitual, con mortalidad de 2 a 12 %.",
-   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 6"
-  },
-  {
-   "id": "g-abs-via",
-   "area": "gastro",
-   "tema": "Abscesos hepáticos (piógeno y amebiano)",
-   "dif": 2,
-   "enunciado": "Un paciente con coledocolitiasis y colangitis ascendente desarrolla un absceso hepático. ¿Qué vía de infección explica el cuadro?",
-   "opciones": [
-    {
-     "t": "La vía biliar",
-     "por": "La obstrucción biliar benigna (coledocolitiasis, estenosis, colangitis esclerosante) o maligna favorece la colangitis ascendente. La patología biliar origina 35 a 45 % de los abscesos y la colangitis está presente en 50 %."
-    },
-    {
-     "t": "La vía portal (pileflebitis)",
-     "por": "Ocurre en 20 % de los casos, desde focos abdominales como apendicitis, diverticulitis o enfermedad inflamatoria intestinal. El paciente no tiene ese foco."
-    },
-    {
-     "t": "La arteria hepática",
-     "por": "Es la bacteriemia sistémica (endocarditis, osteomielitis, neumonía). No hay un foco a distancia en este caso."
-    },
-    {
-     "t": "Un traumatismo abdominal",
-     "por": "Un trauma hepático produce hemorragia, extravasación de bilis y tejido desvitalizado, que puede infectarse y formar un absceso solitario. No es el mecanismo en este paciente."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Vías principales: biliar, portal (20 %), arteria hepática y traumatismo. Cuando no se encuentra foco primario el absceso es criptogénico (35 % de los casos). Otros factores: inmunosupresión, deterioro nutricional.",
-   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 9 y 10"
-  },
-  {
    "id": "g-abs-micro",
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
@@ -85,36 +28,6 @@
    "correcta": 0,
    "explicacion": "Los agentes provienen del cuadro de microorganismos: gramnegativos aerobios, grampositivos aerobios, anaerobios y hongos.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 11"
-  },
-  {
-   "id": "g-abs-carac",
-   "area": "gastro",
-   "tema": "Abscesos hepáticos (piógeno y amebiano)",
-   "dif": 2,
-   "enunciado": "¿Qué origen tienen los abscesos hepáticos piógenos grandes y solitarios?",
-   "opciones": [
-    {
-     "t": "Vía portal, traumatismo o criptogénico",
-     "por": "Es el patrón: el absceso es predecible según número, localización y tamaño.",
-     "full": "La vía portal, un traumatismo o un origen criptogénico"
-    },
-    {
-     "t": "Vía biliar ascendente, con abscesos múltiples",
-     "por": "Los abscesos de origen biliar suelen ser múltiples y pequeños, no grandes y solitarios."
-    },
-    {
-     "t": "Vía arterial o fúngica, con abscesos bilaterales",
-     "por": "La diseminación arterial o fúngica da lesiones múltiples y bilaterales."
-    },
-    {
-     "t": "Amebiasis intestinal con lesión solitaria del lóbulo derecho",
-     "por": "Eso describe al absceso amebiano, que es otra entidad distinta del piógeno."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Grandes y solitarios: portal, traumático, criptogénico. Múltiples y pequeños: biliar. Bilateral: arterial (90 %), biliar, fúngico.",
-   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 12",
-   "nota": "la relación entre tamaño y origen es una regla de apoyo, no una norma absoluta."
   },
   {
    "id": "g-abs-clin",

@@ -1,35 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "g-pan-def",
-   "area": "gastro",
-   "tema": "Pancreatitis aguda y crónica",
-   "dif": 1,
-   "enunciado": "¿Cómo se define la pancreatitis aguda?",
-   "opciones": [
-    {
-     "t": "Inflamación pancreática con lesión local, SIRS y posible falla orgánica",
-     "por": "Su mortalidad va de 3 a 17 % y su incidencia de 4,9 a 73 casos por 100 000 habitantes.",
-     "full": "Una condición inflamatoria del páncreas que puede causar lesión local, síndrome de respuesta inflamatoria sistémica, falla orgánica y muerte"
-    },
-    {
-     "t": "Una destrucción progresiva y permanente del páncreas con insuficiencia endocrina y exocrina",
-     "por": "Eso es la pancreatitis crónica."
-    },
-    {
-     "t": "Un tumor del páncreas que produce dolor en faja",
-     "por": "Es el cáncer de páncreas, otra entidad."
-    },
-    {
-     "t": "Una infección bacteriana primaria del páncreas",
-     "por": "La pancreatitis aguda es una inflamación, y solo se infecta en las complicaciones."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Pancreatitis aguda: inflamación del páncreas que puede ser leve o mortal. Puede producir lesión local, SIRS (síndrome de respuesta inflamatoria sistémica), falla orgánica y muerte.",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 8"
-  },
-  {
    "id": "g-pan-etio",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
@@ -120,35 +91,6 @@
    "contexto": "Criterios diagnósticos de pancreatitis aguda: regla de 2 de 3 que se usa al evaluar a un paciente con dolor abdominal agudo para confirmar el diagnóstico."
   },
   {
-   "id": "g-pan-lipasa",
-   "area": "gastro",
-   "tema": "Pancreatitis aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Por qué la lipasa se prefiere a la amilasa para diagnosticar pancreatitis aguda?",
-   "opciones": [
-    {
-     "t": "Más sensible (82 a 100 %) y elevada por más tiempo",
-     "por": "La amilasa tiene sensibilidad de 67 a 83 %, vida media de 10 horas y se normaliza en 3 a 5 días.",
-     "full": "Tiene mayor sensibilidad (82 a 100 %) y se mantiene elevada más tiempo (hasta 8 a 14 días)"
-    },
-    {
-     "t": "Se eleva más tarde que la amilasa",
-     "por": "Se eleva más pronto: a las 4 a 8 horas, frente a las 6 a 12 horas de la amilasa."
-    },
-    {
-     "t": "Se eleva menos que la amilasa y se normaliza en 24 horas",
-     "por": "Es lo contrario: la lipasa es más específica, se eleva desde las 4 a 8 horas y tarda de 8 a 14 días en normalizarse, lo que da una ventana diagnóstica más larga."
-    },
-    {
-     "t": "Se normaliza en 24 horas",
-     "por": "Se mantiene elevada de 8 a 14 días."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Amilasa: elevación a las 6 a 12 h, vida media 10 h, normaliza a los 3 a 5 días, sensibilidad 67 a 83 %, especificidad 85 a 89 %. Lipasa: elevación a las 4 a 8 h, pico a las 24 h, normaliza a los 8 a 14 días, sensibilidad 82 a 100 %. El diagnóstico exige elevación mayor de 3 veces el valor normal.",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 14"
-  },
-  {
    "id": "g-pan-imagenes",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
@@ -176,35 +118,6 @@
    "correcta": 0,
    "explicacion": "Imágenes: ecografía (estudio de elección; litiasis, páncreas agrandado, líquido libre), TAC (sensibilidad 90 %; útil con duda diagnóstica y a las 48 a 72 h para complicaciones) y colangio-RMN (colédocolitiasis, conducto pancreático).",
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 15 y 16"
-  },
-  {
-   "id": "g-pan-severidad",
-   "area": "gastro",
-   "tema": "Pancreatitis aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Qué proporción de las pancreatitis agudas son leves?",
-   "opciones": [
-    {
-     "t": "80 a 85 %",
-     "por": "La forma severa (15 a 20 %) tiene dos fases.",
-     "full": "80 a 85 %, sin daño de órgano ni necrosis"
-    },
-    {
-     "t": "15 a 20 %",
-     "por": "Es la proporción de casos severos."
-    },
-    {
-     "t": "50 %",
-     "por": "La mayoría son leves, mucho más que la mitad."
-    },
-    {
-     "t": "100 %",
-     "por": "Una parte importante evoluciona a severa."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Severidad: leve 80 a 85 % (sin falla de órgano ni necrosis); severa 15 a 20 %, con dos fases (SIRS temprano y complicaciones locales tardías).",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 17"
   },
   {
    "id": "g-pan-bisap",
@@ -294,35 +207,6 @@
    "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 20",
    "contexto": "Criterios de Ranson: sistema de 11 puntos para estimar la gravedad de la pancreatitis aguda, con 5 datos al ingreso y 6 a las 48 horas. Cuantos más criterios, mayor la mortalidad.",
    "nota": "aquí se interpretan en el orden estándar de Ranson."
-  },
-  {
-   "id": "g-pan-balthazar",
-   "area": "gastro",
-   "tema": "Pancreatitis aguda y crónica",
-   "dif": 3,
-   "enunciado": "En el índice tomográfico de severidad, ¿qué grado indica 2 o más colecciones líquidas peripancreáticas o aire retroperitoneal?",
-   "opciones": [
-    {
-     "t": "Grado E (4 puntos)",
-     "por": "Los grados van de A (páncreas normal, 0 puntos) a E (4 puntos)."
-    },
-    {
-     "t": "Grado B (1 punto)",
-     "por": "Es el aumento de tamaño focal o difuso del páncreas."
-    },
-    {
-     "t": "Grado C (2 puntos)",
-     "por": "Hay inflamación pancreática o de la grasa peripancreática."
-    },
-    {
-     "t": "Grado D (3 puntos)",
-     "por": "Es una colección líquida única."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Índice tomográfico (Balthazar): grado A 0, B 1, C 2, D 3, E 4; necrosis: ninguna 0, <30 % 2, 30 a 50 % 4, >50 % 6. Total 0 a 1: morbilidad 0; 2 a 3: 8 % y mortalidad 3 %; 4 a 6: 35 % y 6 %; 7 a 10: 92 % y 17 %.",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 21 y 22",
-   "contexto": "El índice tomográfico de severidad suma el grado de inflamación (A a E) y el porcentaje de necrosis visto en la tomografía con contraste. Un puntaje alto predice más complicaciones y mortalidad."
   },
   {
    "id": "g-pan-hidrata",
@@ -452,35 +336,6 @@
     "t": "• La ACG 2024 sugiere no dar antibióticos profilácticos en pancreatitis grave ni en necrosis estéril.\n• Los antibióticos se reservan para necrosis infectada, junto con desbridamiento o necrosectomía cuando corresponda.\n• Tampoco se necesita antifúngico de rutina.\n• La punción con aguja fina para confirmar infección no se sugiere de rutina.",
     "f": "ACG Guidelines: Management of Acute Pancreatitis (Tenner et al., Am J Gastroenterol 2024;119:419-437)"
    }
-  },
-  {
-   "id": "g-pan-cronica",
-   "area": "gastro",
-   "tema": "Pancreatitis aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Cómo se define la pancreatitis crónica?",
-   "opciones": [
-    {
-     "t": "Destrucción permanente del páncreas",
-     "por": "Es irreversible; es más frecuente entre los 35 y 55 años.",
-     "full": "Destrucción progresiva y permanente del páncreas, con insuficiencia endocrina y exocrina y dolor abdominal"
-    },
-    {
-     "t": "Una inflamación aguda reversible de 6 semanas",
-     "por": "La pancreatitis crónica es irreversible."
-    },
-    {
-     "t": "Un quiste de páncreas",
-     "por": "Es una complicación posible, no la definición."
-    },
-    {
-     "t": "Un estado de dolor sin daño estructural",
-     "por": "Hay daño progresivo (fibrosis, calcificaciones)."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Pancreatitis crónica: destrucción progresiva y permanente, causas multifactoriales (alcohol, tabaco, genes), 50 por 100 000 habitantes. Clasificación: calcificante, obstructiva, autoinmune (5 %) y paraduodenal. El dolor abdominal es el síntoma más frecuente (85 a 97 %).",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 30 a 32"
   }
  ],
  "tarjetas": [

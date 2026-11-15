@@ -29,35 +29,6 @@
    "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 8"
   },
   {
-   "id": "g-dia-gen",
-   "area": "gastro",
-   "tema": "Diarrea aguda y crónica",
-   "dif": 1,
-   "enunciado": "¿Qué afirmación sobre la diarrea aguda es correcta?",
-   "opciones": [
-    {
-     "t": "Se autolimita con buen saneamiento",
-     "por": "Es más frecuente en edades extremas y es una de las principales causas de visita a emergencia (179 millones de visitas al año en EE. UU.).",
-     "full": "Suele autolimitarse donde hay buen saneamiento y acceso a agua potable; la prevención es clave"
-    },
-    {
-     "t": "Es más frecuente en adultos jóvenes",
-     "por": "Predomina en edades extremas (niños pequeños y ancianos)."
-    },
-    {
-     "t": "Casi siempre requiere antibióticos",
-     "por": "No toda diarrea necesita antibióticos; la mayoría se autolimita."
-    },
-    {
-     "t": "Solo tiene causas inflamatorias",
-     "por": "Se divide en causas inflamatorias y no inflamatorias."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La enfermedad diarreica es una de las causas más frecuentes de morbilidad y mortalidad en el mundo, la tercera causa de muerte infantil, y es prevenible.",
-   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 9 y 29"
-  },
-  {
    "id": "g-dia-clasif",
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",

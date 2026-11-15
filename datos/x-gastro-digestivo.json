@@ -1,0 +1,865 @@
+{
+ "preguntas": [
+  {
+   "id": "x-gd-eup1",
+   "area": "gastro",
+   "tema": "Enfermedad úlcero péptica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 48 años con dolor epigástrico urente de 3 meses que mejora con la comida y lo despierta en la noche. Antígeno fecal para H. pylori positivo. Toma ibuprofeno ocasional por lumbalgia.\n\n¿Cuál es el diagnóstico más probable? ¿Qué examen es el estándar de oro? ¿Cómo lo trata? ¿Cuándo controlas la erradicación?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Úlcera duodenal asociada a H. pylori (con AINE como cofactor).",
+     "w": 0.5
+    },
+    {
+     "t": "Endoscopía digestiva alta con biopsia (para H. pylori y, en úlcera gástrica, descartar malignidad).",
+     "w": 0.5
+    },
+    {
+     "t": "Erradicación con cuadriterapia (IBP, amoxicilina, metronidazol y bismuto) y suspender AINEs; si es alérgico a amoxicilina: IBP, tetraciclina, metronidazol y bismuto.",
+     "w": 0.5
+    },
+    {
+     "t": "Control de erradicación 6 a 8 semanas después, con test de aliento o antígeno fecal (sin IBP las 2 semanas previas).",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Los IBP pueden dar falsos negativos en las pruebas no invasoras. La relación úlcera duodenal:gástrica es 4:1.",
+   "fuente": "PPT",
+   "contexto": "H. pylori: bacteria que vive en el estómago y es la principal causa de úlcera péptica. Se busca con test de urea, antígeno fecal o biopsia.",
+   "nota": "+ Complemento: el control a 6 a 8 semanas y el requisito de suspender IBP los añadió el internista."
+  },
+  {
+   "id": "x-gh-eup2",
+   "area": "gastro",
+   "tema": "Enfermedad úlcero péptica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona cuatro complicaciones de la úlcera péptica y cómo se manifiesta cada una.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Hemorragia digestiva alta: hematemesis o melena (causa más frecuente de HDA, 40 %).",
+     "w": 0.5
+    },
+    {
+     "t": "Perforación: dolor súbito, abdomen en tabla, aire subdiafragmático en la radiografía.",
+     "w": 0.5
+    },
+    {
+     "t": "Penetración (al páncreas): dolor constante que irradia al dorso.",
+     "w": 0.5
+    },
+    {
+     "t": "Obstrucción pilórica: vómitos de retención, saciedad precoz.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La perforación y el sangrado de alto riesgo (Forrest I, IIa o IIb) son urgencias.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gd-eup3",
+   "area": "gastro",
+   "tema": "Enfermedad úlcero péptica",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 66 años con dolor epigástrico que empeora al comer, pérdida de peso de 5 kg y saciedad precoz. Endoscopía: úlcera gástrica de 2 cm en la curvatura menor.\n\n¿Qué conducta tomas con la úlcera gástrica y por qué? ¿Qué más haces? ¿Qué cambia respecto de una úlcera duodenal?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Tomar biopsias del borde y fondo de la úlcera para descartar cáncer gástrico.",
+     "w": 0.75
+    },
+    {
+     "t": "Biopsia o prueba para H. pylori y tratar si es positivo.",
+     "w": 0.5
+    },
+    {
+     "t": "Repetir la endoscopía a las 8 a 12 semanas para confirmar cicatrización.",
+     "w": 0.5
+    },
+    {
+     "t": "Úlcera duodenal casi nunca es maligna; la gástrica sí puede serlo.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Una úlcera gástrica que no cicatriza o con bordes irregulares obliga a descartar adenocarcinoma.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: el control de cicatrización no está en el PPT."
+  },
+  {
+   "id": "x-gd-eii1",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Compara colitis ulcerosa y enfermedad de Crohn en: localización, extensión, profundidad, tabaco, cirugía, fístulas y anticuerpos.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Localización: CU solo colon y recto, empieza en el recto; Crohn cualquier segmento, sobre todo íleon terminal y colon.",
+     "w": 0.4
+    },
+    {
+     "t": "Extensión: CU continua; Crohn con zonas sanas (\"lesiones en salto\").",
+     "w": 0.3
+    },
+    {
+     "t": "Profundidad: CU mucosa y submucosa; Crohn transmural.",
+     "w": 0.3
+    },
+    {
+     "t": "Tabaco: protector en CU; factor de riesgo en Crohn.",
+     "w": 0.3
+    },
+    {
+     "t": "Cirugía: curativa en CU (colectomía); no curativa en Crohn.",
+     "w": 0.3
+    },
+    {
+     "t": "Fístulas y abscesos: raros en CU; frecuentes en Crohn.",
+     "w": 0.2
+    },
+    {
+     "t": "Anticuerpos: CU p-ANCA positivo; Crohn ASCA positivo.",
+     "w": 0.2
+    }
+   ],
+   "explicacion": "La diferencia clínica más útil: CU = diarrea con sangre y tenesmo, rectal. Crohn = dolor, masa en fosa ilíaca derecha, pérdida de peso, enfermedad perianal.",
+   "fuente": "PPT",
+   "contexto": "Enfermedad inflamatoria intestinal (EII): inflamación crónica del intestino. Incluye colitis ulcerosa (CU) y enfermedad de Crohn (EC). Hay que distinguirlas porque cambia el tratamiento y la cirugía."
+  },
+  {
+   "id": "x-gd-eii2",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 28 años con 8 meses de dolor abdominal en fosa ilíaca derecha, diarrea crónica sin sangre, pérdida de 6 kg y fiebre ocasional. Aftas orales, dolor en rodillas y una fístula perianal. Masa palpable en fosa ilíaca derecha.\n\n¿Cuál es el diagnóstico más probable? ¿Cómo lo confirmas (endoscopía, histología e imagen de elección)? ¿Qué complicaciones teme? ¿Qué manifestaciones extraintestinales presenta?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Enfermedad de Crohn (ileocecal).",
+     "w": 0.25
+    },
+    {
+     "t": "Ileocolonoscopía con biopsia: inflamación transmural y granulomas; úlceras profundas en \"empedrado\".",
+     "w": 0.5
+    },
+    {
+     "t": "Imagen de elección: enterorresonancia (o entero-TC).",
+     "w": 0.25
+    },
+    {
+     "t": "Complicaciones: estenosis y obstrucción, fístulas, abscesos, perforación.",
+     "w": 0.5
+    },
+    {
+     "t": "Extraintestinales: aftas, artritis; también uveítis, eritema nodoso y litiasis renal.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "En Crohn la enfermedad perianal y la masa en fosa ilíaca derecha orientan. El tabaco empeora el curso.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gd-eii3",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 25 años con 3 semanas de diarrea con sangre y moco, 8 deposiciones al día, tenesmo y urgencia. Fiebre de 38.2 °C, FC 112, hemoglobina 9 g/dL, PCR elevada. Dolor abdominal bajo.\n\n¿Qué diagnóstico y qué gravedad? ¿Qué descartas primero? ¿Qué tratamiento hospitalario indicas si no responde y qué complicación urgente temes?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Colitis ulcerosa, brote grave (criterios de Truelove-Witts: 6 o más deposiciones sanguinolentas, fiebre, taquicardia, anemia, VSG o PCR altas).",
+     "w": 0.5
+    },
+    {
+     "t": "Descartar infección (coprocultivo, Clostridioides difficile) antes de inmunosuprimir.",
+     "w": 0.5
+    },
+    {
+     "t": "Corticoide intravenoso; si no mejora en 3 días, terapia de rescate (infliximab o ciclosporina); si falla, colectomía.",
+     "w": 0.5
+    },
+    {
+     "t": "Megacolon tóxico (colon dilatado más de 6 cm con toxicidad sistémica); también perforación.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Megacolon tóxico y perforación son urgencia quirúrgica. Se evita la colonoscopía completa y los antidiarreicos en el brote grave.",
+   "fuente": "PPT",
+   "contexto": "Truelove-Witts: criterios para clasificar el brote de colitis ulcerosa en leve, moderado o grave y decidir si se hospitaliza.",
+   "nota": "+ Complemento: el esquema del brote grave no está detallado en el PPT."
+  },
+  {
+   "id": "x-gd-eii4",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Menciona cinco manifestaciones extraintestinales de la enfermedad inflamatoria intestinal.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Artritis periférica y espondilitis.",
+     "w": 0.4
+    },
+    {
+     "t": "Uveítis o epiescleritis.",
+     "w": 0.4
+    },
+    {
+     "t": "Eritema nodoso y pioderma gangrenoso.",
+     "w": 0.4
+    },
+    {
+     "t": "Colangitis esclerosante primaria (más con CU).",
+     "w": 0.4
+    },
+    {
+     "t": "Aftas orales; litiasis renal y biliar.",
+     "w": 0.4
+    }
+   ],
+   "explicacion": "Algunas siguen la actividad intestinal (artritis, eritema nodoso) y otras no (colangitis, espondilitis).",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gd-aca1",
+   "area": "gastro",
+   "tema": "Acalasia",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 45 años con 8 meses de disfagia progresiva para sólidos y líquidos, regurgitación de alimentos no digeridos, pérdida de 8 kg y tos nocturna. Viene de una zona rural endémica.\n\n¿Cuál es el diagnóstico y cuál es el hallazgo clásico en el esofagograma? ¿Cuál es el estándar de oro diagnóstico y qué muestra? ¿Qué otra causa secundaria debes descartar? ¿Cómo lo tratas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Acalasia (relajación incompleta del esfínter esofágico inferior con ausencia de peristalsis).",
+     "w": 0.5
+    },
+    {
+     "t": "Esofagograma con bario: dilatación esofágica con estrechamiento distal en \"pico de pájaro\".",
+     "w": 0.25
+    },
+    {
+     "t": "Manometría de alta resolución: EEI hipertónico sin relajación y sin peristalsis (tipos I, II y III de Chicago).",
+     "w": 0.5
+    },
+    {
+     "t": "Descartar Chagas (serología T. cruzi) y cáncer o pseudoacalasia con endoscopía.",
+     "w": 0.5
+    },
+    {
+     "t": "Dilatación neumática o miotomía de Heller (con fundoplicatura); toxina botulínica o fármacos si no es candidato.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "La endoscopía se hace para descartar cáncer de esófago. La miotomía tiene riesgo de ERGE posterior; la dilatación, de perforación.",
+   "fuente": "PPT",
+   "contexto": "Acalasia: trastorno motor del esófago en que el esfínter inferior no se relaja y el esófago pierde su movimiento; el alimento se queda retenido."
+  },
+  {
+   "id": "x-gd-aca2",
+   "area": "gastro",
+   "tema": "Acalasia",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "escala",
+   "enunciado": "Describe la clasificación de Chicago de la acalasia por manometría de alta resolución.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Tipo I: ausencia de peristalsis y de presurización.",
+     "w": 0.5
+    },
+    {
+     "t": "Tipo II: panpresurización esofágica (presurización de todo el cuerpo esofágico).",
+     "w": 0.5
+    },
+    {
+     "t": "Tipo III: contracciones espásticas prematuras.",
+     "w": 0.5
+    },
+    {
+     "t": "En todos los tipos la relajación del esfínter esofágico inferior está alterada; el tipo II responde mejor al tratamiento.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "El tipo III suele requerir miotomía más larga o enfoque diferente. Las tres variantes comparten la falla de relajación del EEI.",
+   "fuente": "PPT",
+   "nota": "* Corregido, no es igual al PPT: el PPT describe el tipo II como \"presión esofágica panesofágica\"; lo correcto es panpresurización."
+  },
+  {
+   "id": "x-gd-dia1",
+   "area": "gastro",
+   "tema": "Diarrea y celiaquía",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "¿Cuándo solicitas exámenes auxiliares en un paciente con diarrea aguda y cuáles pides?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "No de rutina: se piden si hay sangre o moco, fiebre, dolor abdominal intenso o sepsis, o diarrea de más de 7 días.",
+     "w": 0.75
+    },
+    {
+     "t": "Reacción inflamatoria en heces y coprocultivo.",
+     "w": 0.5
+    },
+    {
+     "t": "Hemograma, urea, creatinina, electrolitos y PCR.",
+     "w": 0.5
+    },
+    {
+     "t": "Primero evaluar el grado de deshidratación y la hemodinamia.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "La mayoría de las diarreas agudas son autolimitadas: hidratación; no se da antibiótico de rutina.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gd-dia2",
+   "area": "gastro",
+   "tema": "Diarrea y celiaquía",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 50 años con hipertensión controlada llega por dolor abdominal cólico, náuseas y 2 vómitos alimentarios, 3 horas después de comer arroz chaufa. Afebril, hemodinámicamente estable. Mucosas húmedas.\n\n¿Qué ampliarías en la anamnesis? ¿Qué buscarías en el examen? ¿Cómo la manejas y por qué no das antibiótico?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Anamnesis: tiempo desde la comida, otras personas enfermas, fiebre, sangre en heces, alimentos y agua consumidos, viajes, fármacos.",
+     "w": 0.5
+    },
+    {
+     "t": "Examen: signos de deshidratación (mucosas, taquicardia, llenado capilar), abdomen (descartar abdomen agudo).",
+     "w": 0.5
+    },
+    {
+     "t": "Hidratación oral (o IV si no tolera), antieméticos; los exámenes no son necesarios si es leve.",
+     "w": 0.5
+    },
+    {
+     "t": "Sin antibiótico: intoxicación por toxina preformada (Bacillus cereus), autolimitada en horas.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Vómitos a las 1 a 6 horas tras arroz recalentado = B. cereus. No toda diarrea necesita antibiótico.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gd-dia3",
+   "area": "gastro",
+   "tema": "Diarrea y celiaquía",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 71 años hospitalizada por neumonía y tratada con clindamicina. Al 6.º día tiene diarrea acuosa 8 veces al día, fiebre de 38.4 °C, leucocitos 18 000 y dolor abdominal difuso.\n\n¿Qué infección sospechas? ¿Cómo la confirmas? ¿Cómo la tratas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Colitis por Clostridioides difficile (asociada a antibióticos).",
+     "w": 0.5
+    },
+    {
+     "t": "Detección de toxina (o PCR del gen de la toxina) en heces.",
+     "w": 0.5
+    },
+    {
+     "t": "Vancomicina oral (o fidaxomicina) 10 días.",
+     "w": 0.5
+    },
+    {
+     "t": "Suspender el antibiótico causal y reponer volumen; aislamiento de contacto.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Los antibióticos que más lo causan: clindamicina, cefalosporinas y quinolonas. No se dan antidiarreicos.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gd-dia4",
+   "area": "gastro",
+   "tema": "Diarrea y celiaquía",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 32 años con 2 años de diarrea crónica voluminosa, distensión, pérdida de peso, anemia ferropénica y ampollas pruriginosas en codos. Tiene diabetes tipo 1.\n\n¿Qué enfermedad sospechas? ¿Qué estudios confirman el diagnóstico y en qué condición? ¿Cuál es el tratamiento? ¿Qué complicación a largo plazo temes?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Enfermedad celíaca (con dermatitis herpetiforme).",
+     "w": 0.5
+    },
+    {
+     "t": "Anticuerpos anti-transglutaminasa IgA (con IgA total) y biopsia duodenal: atrofia de vellosidades y linfocitos intraepiteliales.",
+     "w": 0.75
+    },
+    {
+     "t": "Dieta estricta sin gluten de por vida; se hacen las pruebas mientras come gluten.",
+     "w": 0.5
+    },
+    {
+     "t": "Linfoma intestinal y osteoporosis, déficit de hierro.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "La diabetes tipo 1 y la tiroiditis autoinmune se asocian a celiaquía. Una dieta sin gluten previa puede dar pruebas falsamente negativas.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: el detalle de la enfermedad celíaca no está en el PPT."
+  },
+  {
+   "id": "x-gd-hd1",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Define hemorragia digestiva alta y baja y menciona tres causas de cada una.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "HDA: sangrado proximal al ángulo de Treitz (se presenta con hematemesis, melena).",
+     "w": 0.5
+    },
+    {
+     "t": "Causas de HDA: úlcera péptica (la más frecuente), várices esofágicas, esofagitis erosiva, Mallory-Weiss, neoplasia, angiodisplasia.",
+     "w": 0.5
+    },
+    {
+     "t": "HDB: sangrado distal al ángulo de Treitz, 95 % del colon (hematoquecia, rectorragia).",
+     "w": 0.5
+    },
+    {
+     "t": "Causas de HDB: diverticulosis, angiodisplasia, hemorroides, colitis isquémica o infecciosa, cáncer de colon.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La diverticulosis es la causa más frecuente de HDB (sangrado indoloro, de gran volumen, que cede solo en 80 %).",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gd-hd2",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 68 años con cirrosis y antecedente de AINEs. Vómito con sangre, PA 85/50, FC 125. Hemoglobina 7.2 g/dL.\n\n¿Cuál es tu conducta en las primeras horas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Evaluar vía aérea y estabilizar: 2 vías periféricas gruesas y cristaloides.",
+     "w": 0.5
+    },
+    {
+     "t": "Transfusión restrictiva (meta de hemoglobina 7 a 8 g/dL).",
+     "w": 0.5
+    },
+    {
+     "t": "IBP intravenoso y, si hay cirrosis, vasoactivo y antibiótico profiláctico.",
+     "w": 0.5
+    },
+    {
+     "t": "Endoscopía digestiva alta precoz (12 a 24 horas) con tratamiento endoscópico según Forrest.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Hemodinámicamente inestable: primero reanimar. La endoscopía es diagnóstica y terapéutica.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: reanimación inicial no está detallada en el PPT."
+  },
+  {
+   "id": "x-gd-erge1",
+   "area": "gastro",
+   "tema": "ERGE y gastritis",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 35 años con 1 mes de pirosis y regurgitación ácida después de las comidas, que empeora al acostarse. Sin disfagia ni pérdida de peso. Obeso.\n\n¿Qué diagnóstico plantea y cuál es la manifestación más frecuente? ¿Qué tratamiento inicial indicas? ¿Cuándo pides endoscopía? ¿Qué complicación crónica temes?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "ERGE: pirosis es el síntoma más frecuente.",
+     "w": 0.5
+    },
+    {
+     "t": "Cambios de estilo de vida (bajar de peso, elevar la cabecera, evitar comidas copiosas) y prueba con IBP por 8 semanas.",
+     "w": 0.5
+    },
+    {
+     "t": "Endoscopía si hay signos de alarma (disfagia, odinofagia, pérdida de peso, anemia, vómitos, sangrado, edad mayor de 50), o falta de respuesta.",
+     "w": 0.5
+    },
+    {
+     "t": "Esófago de Barrett (metaplasia intestinal) con riesgo de adenocarcinoma; también estenosis.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Los IBP son el tratamiento más eficaz. La clasificación de Los Ángeles gradúa la esofagitis erosiva (A a D).",
+   "fuente": "PPT",
+   "contexto": "ERGE: el contenido del estómago sube al esófago y causa síntomas o lesiones. Barrett: el esófago cambia de epitelio por el ácido y puede derivar en cáncer.",
+   "nota": "+ Complemento: Barrett y la edad de alarma son complemento."
+  },
+  {
+   "id": "x-gd-gast1",
+   "area": "gastro",
+   "tema": "ERGE y gastritis",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "concepto",
+   "enunciado": "Compara la gastritis crónica tipo A y tipo B: causa, localización, consecuencia y qué relación tienen con la cascada de Correa.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Tipo A: autoinmune, afecta cuerpo y fondo; produce déficit de vitamina B12 (anemia perniciosa) por falta de factor intrínseco.",
+     "w": 0.75
+    },
+    {
+     "t": "Tipo B: asociada a Helicobacter pylori, afecta el antro.",
+     "w": 0.5
+    },
+    {
+     "t": "Cascada de Correa: gastritis crónica, atrofia, metaplasia intestinal, displasia y cáncer gástrico.",
+     "w": 0.5
+    },
+    {
+     "t": "Erradicar H. pylori disminuye la progresión.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "La atrofia gástrica se sospecha por glositis, anorexia, y déficit de B12 o de hierro.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gd-tbc1",
+   "area": "gastro",
+   "tema": "Tuberculosis intestinal",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 28 años con VIH, 1 mes de fiebre, sudoración nocturna, dolor en fosa ilíaca derecha, diarrea y pérdida de peso. Masa en fosa ilíaca derecha y ascitis. Líquido ascítico turbio: proteínas 3.5 g/dL, gradiente suero-ascitis menor de 1.1, mononucleares, ADA elevada.\n\n¿Qué diagnóstico plantea y qué zona se afecta más? ¿Cómo lo confirmas? ¿Cuál es el tratamiento? ¿Qué enfermedad puede simular?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Tuberculosis abdominal (entero-peritoneal); región ileocecal y peritoneo, por abundancia de tejido linfoide.",
+     "w": 0.5
+    },
+    {
+     "t": "Colonoscopía con ileoscopía y biopsia: granulomas caseosos; BAAR, cultivo y PCR; ADA en el líquido ascítico.",
+     "w": 0.5
+    },
+    {
+     "t": "Tratamiento antituberculoso: 2 meses de HRZE seguidos de 7 meses de HR (9 meses).",
+     "w": 0.5
+    },
+    {
+     "t": "Puede simular enfermedad de Crohn.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "La TBC abdominal es paucibacilar: la tinción de BAAR tiene baja sensibilidad. La cirugía se reserva para obstrucción, perforación, fístulas o hemorragia masiva.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gb-1",
+   "area": "gastro",
+   "tema": "Vía biliar",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 52 años con dolor en hipocondrio derecho de 2 días, fiebre de 38.5 °C y náuseas. Murphy positivo. Leucocitos 15 000. Ecografía: litiasis con pared vesicular engrosada y Murphy ecográfico.\n\n¿Qué diagnóstico plantea? ¿Cómo se diagnostica según Tokio? ¿Cuál es el tratamiento (antibiótico y quirúrgico) en un cuadro leve? ¿Qué cambia si es grave?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Colecistitis aguda litiásica (90 a 95 % litiásica).",
+     "w": 0.25
+    },
+    {
+     "t": "Tokio: signos locales (Murphy, dolor o masa en HD) más signos sistémicos (fiebre, leucocitosis, PCR) y hallazgos por imagen.",
+     "w": 0.75
+    },
+    {
+     "t": "Leve: ceftriaxona y colecistectomía temprana (laparoscópica).",
+     "w": 0.5
+    },
+    {
+     "t": "Grave (con disfunción orgánica): priorizar tratar la disfunción, drenar la vesícula (colecistostomía) y colecistectomía electiva tardía.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Si hay riesgo de BLEE se usa ertapenem; en moderado a grave, piperacilina-tazobactam.",
+   "fuente": "PPT",
+   "contexto": "Criterios de Tokio: guía internacional para diagnosticar y graduar la gravedad (I leve, II moderada, III grave) de la colecistitis y la colangitis aguda."
+  },
+  {
+   "id": "x-gb-2",
+   "area": "gastro",
+   "tema": "Vía biliar",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 63 años con dolor en hipocondrio derecho, fiebre de 39 °C e ictericia desde hace 2 días. Ahora confuso, PA 85/50. Bilirrubina total 6 mg/dL, leucocitos 20 000. Ecografía: colédoco de 11 mm con litos.\n\n¿Qué tríada presenta y qué diagnóstico? ¿Qué más indica gravedad? ¿Qué criterios diagnósticos se usan? ¿Cómo lo manejas?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Tríada de Charcot: dolor, fiebre e ictericia; colangitis aguda.",
+     "w": 0.5
+    },
+    {
+     "t": "Hipotensión y alteración del estado mental: gravedad (colangitis grave o grado III).",
+     "w": 0.25
+    },
+    {
+     "t": "Criterios de Tokio: A inflamación sistémica, B colestasis, C imagen (dilatación mayor de 6 mm o lito); sospecha A más B o C; definitivo A más B más C.",
+     "w": 0.5
+    },
+    {
+     "t": "Hidratación, antibióticos en las primeras 6 horas (4 a 7 días) y drenaje biliar urgente (CPRE) por la gravedad.",
+     "w": 0.75
+    }
+   ],
+   "explicacion": "La colangitis grave es una emergencia: sin drenaje biliar la mortalidad es alta. Se solicita ecografía y colangiorresonancia según el caso.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gb-3",
+   "area": "gastro",
+   "tema": "Vía biliar",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "lista",
+   "enunciado": "Un paciente tiene coledocolitiasis sospechada. ¿Cuándo vas directo a CPRE y cuándo pides otra prueba antes?",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "CPRE directa si hay lito visto en la imagen, colangitis, o bilirrubina mayor de 4 mg/dL con colédoco dilatado (alto riesgo).",
+     "w": 0.75
+    },
+    {
+     "t": "Riesgo intermedio (colédoco dilatado, bilirrubina o enzimas alteradas): ecoendoscopía o colangiorresonancia primero.",
+     "w": 0.5
+    },
+    {
+     "t": "Bajo riesgo: colecistectomía con colangiografía intraoperatoria.",
+     "w": 0.5
+    },
+    {
+     "t": "Riesgos de la CPRE: pancreatitis, sangrado, perforación y colangitis.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "La CPRE es diagnóstica y terapéutica, pero tiene riesgo; por eso se estratifica antes.",
+   "fuente": "PPT",
+   "nota": "+ Complemento: este algoritmo no está en el PPT."
+  },
+  {
+   "id": "x-gd-eupm1",
+   "area": "gastro",
+   "tema": "Enfermedad úlcero péptica",
+   "dif": 2,
+   "enunciado": "Mujer de 70 años con artrosis que toma diclofenaco a diario, con epigastralgia y anemia. Endoscopía: úlcera gástrica. ¿Cuál es la conducta?",
+   "opciones": [
+    {
+     "t": "Suspender el AINE, dar IBP y buscar H. pylori.",
+     "por": "El AINE es la causa; los IBP cicatrizan y protegen. Se trata H. pylori si es positivo."
+    },
+    {
+     "t": "Mantener el AINE y añadir antiácido.",
+     "por": "Los antiácidos no previenen la lesión."
+    },
+    {
+     "t": "Cambiar a aspirina.",
+     "por": "La aspirina también daña la mucosa."
+    },
+    {
+     "t": "Solo dieta blanda.",
+     "por": "No cicatriza la úlcera."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "AINEs y aspirina inhiben la COX-1 y reducen el moco protector. La aspirina duplica el riesgo de sangrado.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gd-eiim1",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "Varón de 22 años con diarrea sanguinolenta de 2 meses, tenesmo y colonoscopía con inflamación continua desde el recto hasta el ángulo esplénico. Es no fumador. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "Colitis ulcerosa.",
+     "por": "Inflamación continua que empieza en el recto, sangre y tenesmo: típico de CU; los no fumadores tienen más riesgo."
+    },
+    {
+     "t": "Enfermedad de Crohn.",
+     "por": "Sería segmentaria, transmural, con fístulas y menos sangrado."
+    },
+    {
+     "t": "Colitis isquémica.",
+     "por": "Es de adulto mayor con arteriopatía."
+    },
+    {
+     "t": "Síndrome de intestino irritable.",
+     "por": "No causa sangrado ni inflamación."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En CU se prefiere la colonoscopía; la TC se usa solo para complicaciones.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gd-eiim2",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "Un paciente con colitis ulcerosa tiene fiebre, distensión abdominal, taquicardia y el colon transverso dilatado a 7 cm en la radiografía. ¿Cuál es la complicación?",
+   "opciones": [
+    {
+     "t": "Megacolon tóxico.",
+     "por": "Dilatación colónica con toxicidad sistémica: riesgo de perforación; requiere cirugía urgente si no mejora."
+    },
+    {
+     "t": "Obstrucción mecánica.",
+     "por": "Se ve en estenosis de Crohn o tumor."
+    },
+    {
+     "t": "Íleo biliar.",
+     "por": "Se asocia a litiasis biliar."
+    },
+    {
+     "t": "Vólvulo.",
+     "por": "Es una torsión del colon en ancianos."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En megacolon tóxico: dieta absoluta, corticoides IV, antibióticos y cirujano de inmediato.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gd-diam1",
+   "area": "gastro",
+   "tema": "Diarrea y celiaquía",
+   "dif": 2,
+   "enunciado": "Varón de 40 años con fiebre, 8 deposiciones al día con sangre y moco, tenesmo y dolor abdominal después de viajar. ¿Qué tipo de diarrea es?",
+   "opciones": [
+    {
+     "t": "Inflamatoria (disentérica).",
+     "por": "Fiebre, sangre y moco indican invasión o inflamación de la mucosa; se piden exámenes y puede ser necesario antibiótico."
+    },
+    {
+     "t": "Secretora acuosa (no inflamatoria).",
+     "por": "Cursa sin sangre ni fiebre alta."
+    },
+    {
+     "t": "Osmótica.",
+     "por": "Mejora con el ayuno y no tiene sangre."
+    },
+    {
+     "t": "Funcional.",
+     "por": "No cursa con sangre ni fiebre."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Diarrea inflamatoria: fiebre, sangre, moco, leucocitos fecales. En ella se justifican coprocultivo y, según gravedad, antibióticos.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gd-hdm1",
+   "area": "gastro",
+   "tema": "Hemorragia digestiva",
+   "dif": 2,
+   "enunciado": "Varón de 72 años con episodios de hematoquecia indolora de gran volumen, hemodinámicamente estable, que cesó solo. Tiene dolor leve en fosa ilíaca izquierda previo. ¿Cuál es la causa más probable?",
+   "opciones": [
+    {
+     "t": "Diverticulosis.",
+     "por": "Es la causa más frecuente de HDB; sangrado indoloro, abundante y autolimitado en 80 %."
+    },
+    {
+     "t": "Hemorroides internas.",
+     "por": "Dan sangre roja con evacuación y volumen pequeño."
+    },
+    {
+     "t": "Cáncer de colon.",
+     "por": "Se presenta con sangrado oculto o recurrente y cambio del ritmo evacuatorio."
+    },
+    {
+     "t": "Colitis isquémica.",
+     "por": "Cursa con dolor abdominal y es de anciano con arteriopatía."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Colonoscopía previa preparación con PEG en las primeras 24 horas en pacientes estables.",
+   "fuente": "PPT"
+  },
+  {
+   "id": "x-gb-m1",
+   "area": "gastro",
+   "tema": "Vía biliar",
+   "dif": 2,
+   "enunciado": "Varón de 58 años en la UCI por quemaduras extensas, con fiebre y dolor en hipocondrio derecho. La ecografía muestra una vesícula distendida con pared engrosada sin litos. ¿Cuál es el diagnóstico?",
+   "opciones": [
+    {
+     "t": "Colecistitis alitiásica.",
+     "por": "Se da en UCI, gran quemado, sepsis o trauma por isquemia y estasis."
+    },
+    {
+     "t": "Colecistitis litiásica.",
+     "por": "No hay litos."
+    },
+    {
+     "t": "Colangitis aguda.",
+     "por": "No hay ictericia ni dilatación de la vía biliar."
+    },
+    {
+     "t": "Pancreatitis aguda.",
+     "por": "Daría dolor epigástrico con lipasa alta."
+    },
+    {
+     "t": "Ninguna de las anteriores",
+     "por": "Hay una respuesta correcta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La alitiásica (3 a 14 %) es más grave y se trata con colecistostomía percutánea si el paciente es de alto riesgo.",
+   "fuente": "PPT"
+  }
+ ],
+ "tarjetas": []
+}

@@ -30,63 +30,6 @@
    "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 7"
   },
   {
-   "id": "g-eii-etio",
-   "area": "gastro",
-   "tema": "Enfermedad inflamatoria intestinal",
-   "dif": 2,
-   "enunciado": "¿Qué genes se relacionan con la susceptibilidad a la EII?",
-   "opciones": [
-    {
-     "t": "NOD2/CARD15, TLR4 e IL-23R",
-     "por": "Condicionan la susceptibilidad y una respuesta inmune exagerada."
-    },
-    {
-     "t": "BRCA1 y BRCA2 (mama y ovario)",
-     "por": "Son genes de cáncer de mama y ovario."
-    },
-    {
-     "t": "HFE y ATP7B (hierro y cobre)",
-     "por": "Son genes de hemocromatosis y enfermedad de Wilson."
-    },
-    {
-     "t": "CFTR y PKD1 (fibrosis y riñón)",
-     "por": "Son genes de fibrosis quística y poliquistosis renal."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Etiopatogenia: factores genéticos (NOD2/CARD15, TLR4, IL-23R) + respuesta inmune alterada (pérdida de tolerancia, barrera epitelial) + microflora y ambiente (disbiosis, infecciones, tabaco, AINE, estrés).",
-   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 7"
-  },
-  {
-   "id": "g-eii-epi",
-   "area": "gastro",
-   "tema": "Enfermedad inflamatoria intestinal",
-   "dif": 1,
-   "enunciado": "¿Qué se dice de la epidemiología de la EII?",
-   "opciones": [
-    {
-     "t": "Cualquier edad, más entre 2.ª y 4.ª década",
-     "por": "Además, la incidencia es mayor en Norteamérica y el norte de Europa.",
-     "full": "Aparece a cualquier edad, con más frecuencia entre la 2.ª y la 4.ª década; 5 a 20 % tiene un familiar afectado"
-    },
-    {
-     "t": "Aparece solo en ancianos",
-     "por": "Puede aparecer a cualquier edad y es más frecuente en adultos jóvenes."
-    },
-    {
-     "t": "Es más frecuente en poblaciones asiáticas y africanas",
-     "por": "Es más frecuente en población blanca y judíos."
-    },
-    {
-     "t": "No tiene componente familiar",
-     "por": "Hasta 20 % de los pacientes tiene un familiar con EII."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "EII: 2.ª a 4.ª década, mayor incidencia en Norteamérica, Reino Unido y norte de Europa; CU 19/100 000, EC 13 a 20/100 000; 5 a 20 % con familiar afectado, riesgo 10 a 15 % mayor en primer grado; más de 200 locus de susceptibilidad; asociada a espondilitis anquilosante, psoriasis, etc.",
-   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 8"
-  },
-  {
    "id": "g-eii-tabaco",
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
@@ -291,36 +234,6 @@
    }
   },
   {
-   "id": "g-eii-montreal",
-   "area": "gastro",
-   "tema": "Enfermedad inflamatoria intestinal",
-   "dif": 3,
-   "enunciado": "En la clasificación de Montreal, ¿qué indica E2?",
-   "opciones": [
-    {
-     "t": "Colitis izquierda, hasta el ángulo esplénico",
-     "por": "E1 es proctitis (solo recto) y E3 es colitis extensa o pancolitis.",
-     "full": "Colitis izquierda: la inflamación llega hasta el ángulo esplénico"
-    },
-    {
-     "t": "Colitis limitada al recto (proctitis)",
-     "por": "Es E1: la inflamación no supera el límite superior del recto."
-    },
-    {
-     "t": "Colitis extensa que pasa el ángulo esplénico",
-     "por": "Es E3: la enfermedad se extiende más allá del ángulo esplénico."
-    },
-    {
-     "t": "Colitis grave con deposiciones sanguinolentas",
-     "por": "Es la gravedad S0, no una extensión."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Montreal: extensión E1 proctitis, E2 colitis izquierda (hasta el ángulo esplénico), E3 extensa o pancolitis. Gravedad: S0 remisión, S1 leve (≤4 deposiciones al día, sin síntomas sistémicos), S2 moderada, S3 grave (≥6 deposiciones con sangre, fiebre >37,5 °C, taquicardia >90, Hb <10,5 g/dl, VSG >30).",
-   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 25",
-   "contexto": "Clasificación de Montreal de la colitis ulcerosa: describe la extensión de la enfermedad (E1 a E3) y su gravedad (S0 a S3) para elegir el tratamiento. La extensión se define por hasta dónde llega la inflamación vista en la colonoscopía."
-  },
-  {
    "id": "g-eii-extra",
    "area": "gastro",
    "tema": "Enfermedad inflamatoria intestinal",
@@ -473,39 +386,6 @@
    "guia": {
     "t": "• CU: la ACG 2025 no recomienda tiopurinas ni metotrexato para inducir remisión.\n• Crohn: azatioprina y 6-mercaptopurina son eficaces para mantener la remisión (recomendación fuerte).\n• Ojo: el uso de tu PPT puede ser más amplio; para el examen manda la PPT.",
     "f": "ACG Clinical Guideline: Management of Crohn's Disease in Adults (Lichtenstein et al., Am J Gastroenterol 2025;120:1225-1264)"
-   }
-  },
-  {
-   "id": "g-eii-biologicos",
-   "area": "gastro",
-   "tema": "Enfermedad inflamatoria intestinal",
-   "dif": 2,
-   "enunciado": "¿Cómo actúa el vedolizumab?",
-   "opciones": [
-    {
-     "t": "Anti-integrina: bloquea el ingreso de linfocitos T",
-     "por": "Bloquea la migración de linfocitos T de memoria al tejido intestinal.",
-     "full": "Es una anti-integrina: impide que los linfocitos T entren al tejido inflamado del intestino"
-    },
-    {
-     "t": "Es un anti-TNF-α que neutraliza el factor de necrosis tumoral",
-     "por": "Eso hacen infliximab y adalimumab."
-    },
-    {
-     "t": "Es un corticoide de liberación en el colon",
-     "por": "Eso es la budesonida."
-    },
-    {
-     "t": "Es un antibiótico contra Clostridioides",
-     "por": "No es un antibiótico."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Biológicos: infliximab, adalimumab, golimumab, certolizumab (anti-TNF-α); natalizumab y vedolizumab (anti-integrinas); ustekinumab (anti-IL-12/23); risankizumab. El vedolizumab inhibe la integrina α4β7 y actúa solo en el intestino.",
-   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 35 y 36",
-   "guia": {
-    "t": "• Vedolizumab (anti-integrina α4β7) está recomendado por la ACG para inducción y mantenimiento en CU moderada a grave, y se prefiere sobre adalimumab.\n• La guía 2025 también incluye anti-TNF, JAK, S1P e inhibidores de IL-23 como opciones.",
-    "f": "ACG Clinical Guideline Update: Ulcerative Colitis in Adults (Rubin et al., Am J Gastroenterol 2025;120:1187-1224)"
    }
   },
   {

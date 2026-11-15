@@ -30,35 +30,6 @@
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 7 y 8"
   },
   {
-   "id": "g-eup-hp",
-   "area": "gastro",
-   "tema": "Enfermedad ulcero péptica",
-   "dif": 2,
-   "enunciado": "¿Qué factor de virulencia de Helicobacter pylori le permite sobrevivir en el ácido del estómago?",
-   "opciones": [
-    {
-     "t": "Ureasa, que neutraliza el ácido",
-     "por": "El amoniaco alcaliniza el entorno inmediato de la bacteria.",
-     "full": "La ureasa, que descompone la urea en amoniaco y neutraliza el ácido"
-    },
-    {
-     "t": "Los flagelos para moverse en el moco",
-     "por": "Le dan motilidad para llegar al epitelio gástrico, no neutralizan el ácido."
-    },
-    {
-     "t": "Las toxinas CagA y VacA",
-     "por": "Producen inflamación de la mucosa y daño del tejido."
-    },
-    {
-     "t": "La cápsula polisacárida",
-     "por": "La cápsula no es lo que permite sobrevivir en el ácido: es la ureasa."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "H. pylori: ureasa (urea → amoniaco, neutraliza el ácido), flagelos (motilidad hacia el epitelio), toxinas CagA y VacA (inflamación y daño). Solo 10 % de los infectados desarrollan úlcera; 70 a 90 % de las úlceras duodenales se asocian a la bacteria. Recidiva de 5 a 20 %.",
-   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 10"
-  },
-  {
    "id": "g-eup-clinica",
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
@@ -310,35 +281,6 @@
    "nota": "la cifra de 10 a 20 % es la que figura."
   },
   {
-   "id": "g-eup-epi",
-   "area": "gastro",
-   "tema": "Enfermedad ulcero péptica",
-   "dif": 2,
-   "enunciado": "¿Qué se dice de la epidemiología de la úlcera péptica en el Perú?",
-   "opciones": [
-    {
-     "t": "Duodenal 4:1; en altura andina predomina la gástrica",
-     "por": "La altura modifica el patrón habitual.",
-     "full": "La relación úlcera duodenal/gástrica es 4:1, pero en la población andina la gástrica es más frecuente por la poliglobulia"
-    },
-    {
-     "t": "La úlcera gástrica es siempre 4 veces más frecuente que la duodenal",
-     "por": "Es al revés en general: duodenal 4 a 1."
-    },
-    {
-     "t": "No hay diferencias regionales",
-     "por": "Sí hay variaciones regionales en el Perú."
-    },
-    {
-     "t": "Afecta solo a varones jóvenes",
-     "por": "El consumo de AINE y aspirina es más frecuente en mujeres de edad avanzada."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "10 a 15 % de la población padece úlcera alguna vez. UD/UG 4:1. Consumo indiscriminado de AINE y aspirina más frecuente en mujeres de edad avanzada.",
-   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 22"
-  },
-  {
    "id": "g-eup-dolor",
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
@@ -365,35 +307,6 @@
    "correcta": 0,
    "explicacion": "Dolor: ardor, quemazón, languidez epigástrica en 80 %, irradiado al hipocondrio derecho (UD) o izquierdo (UG). Si es constante y va al dorso, se sospecha penetración al páncreas.",
    "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 22"
-  },
-  {
-   "id": "g-eup-trat_med",
-   "area": "gastro",
-   "tema": "Enfermedad ulcero péptica",
-   "dif": 2,
-   "enunciado": "¿Cómo actúan los inhibidores de la bomba de protones (IBP) como el omeprazol?",
-   "opciones": [
-    {
-     "t": "Inhiben la bomba H⁺/K⁺ ATPasa",
-     "por": "Así bloquean el paso final de la secreción ácida.",
-     "full": "Inhiben de forma específica y no competitiva la bomba H⁺/K⁺ ATPasa de las células parietales"
-    },
-    {
-     "t": "Neutralizan el ácido ya secretado",
-     "por": "Eso hacen los antiácidos (magaldrato, sucralfato), con efecto corto."
-    },
-    {
-     "t": "Bloquean los receptores H2 de la histamina",
-     "por": "Eso hacen los anti-H2 como la ranitidina."
-    },
-    {
-     "t": "Eliminan la bacteria H. pylori por sí solos",
-     "por": "Los IBP reducen el ácido; para erradicar se necesitan antibióticos."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Tratamiento: régimen higiénico dietético; antiácidos (magaldrato, sucralfato, bismuto) con efecto sintomático corto; IBP (omeprazol, lansoprazol, esomeprazol) que inhiben la bomba H⁺/K⁺ ATPasa.",
-   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 23"
   },
   {
    "id": "g-eup-algoritmo",

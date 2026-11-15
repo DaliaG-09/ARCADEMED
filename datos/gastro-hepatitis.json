@@ -1,122 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "g-hep-def",
-   "area": "gastro",
-   "tema": "Hepatitis viral aguda y crónica",
-   "dif": 1,
-   "enunciado": "¿Cómo se explica el daño del hígado en las hepatitis virales?",
-   "opciones": [
-    {
-     "t": "El virus no es citopático; el sistema inmune destruye hepatocitos",
-     "por": "Es la idea central: la lesión es inmunomediada.",
-     "full": "El virus no es citopático: el sistema inmune destruye los hepatocitos infectados para erradicarlo"
-    },
-    {
-     "t": "El virus destruye directamente los hepatocitos al replicarse",
-     "por": "Es lo que no ocurre con la mayoría de estos virus, que no son citopáticos (el virus D es la posible excepción)."
-    },
-    {
-     "t": "Las toxinas bacterianas intestinales dañan el hígado",
-     "por": "No hay toxina bacteriana en las hepatitis virales."
-    },
-    {
-     "t": "La obstrucción de la vía biliar daña el hepatocito",
-     "por": "Es el mecanismo de una colestasis obstructiva, no de la hepatitis viral."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Hepatitis viral: lesión inflamatoria difusa y primaria del hígado con respuesta necroinflamatoria, que puede ser asintomática o llegar a insuficiencia hepática. El daño lo produce el sistema inmune al destruir los hepatocitos infectados.",
-   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 7"
-  },
-  {
-   "id": "g-hep-virus",
-   "area": "gastro",
-   "tema": "Hepatitis viral aguda y crónica",
-   "dif": 1,
-   "enunciado": "¿Qué virus de hepatitis se transmiten por vía fecal-oral? *",
-   "opciones": [
-    {
-     "t": "A y E",
-     "por": "Son los dos virus de transmisión fecal-oral por agua y alimentos contaminados."
-    },
-    {
-     "t": "B y C",
-     "por": "Se transmiten por sangre y otros líquidos corporales."
-    },
-    {
-     "t": "B y D",
-     "por": "Son de transmisión parenteral; el D solo infecta si hay hepatitis B."
-    },
-    {
-     "t": "C y D",
-     "por": "Son de transmisión parenteral."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Seis virus pueden causar hepatitis aguda; A y E son fecal-orales; B, C, D y G son por exposición percutánea o mucosa a sangre o líquidos. Solo B, C, D (y G) pueden cronificar; A y E no.",
-   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 8",
-   "nota": "* El PPT dice que 5 de los 6 virus causan infección crónica; lo correcto es que cronifican B, C y D (y G), no A ni E (E solo en inmunosuprimidos)."
-  },
-  {
-   "id": "g-hep-hav",
-   "area": "gastro",
-   "tema": "Hepatitis viral aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Qué virus es el de la hepatitis A?",
-   "opciones": [
-    {
-     "t": "Virus ARN de cadena simple, Picornaviridae",
-     "por": "El daño lo producen las células T citotóxicas y las NK, no el virus.",
-     "full": "Un virus ARN de cadena simple, de la familia Picornaviridae"
-    },
-    {
-     "t": "Un virus ADN de la familia Hepadnaviridae",
-     "por": "Es el virus de la hepatitis B."
-    },
-    {
-     "t": "Un virus ARN de la familia Flaviviridae",
-     "por": "Es el virus de la hepatitis C."
-    },
-    {
-     "t": "Un virus ARN circular defectuoso",
-     "por": "Es el virus de la hepatitis D, que necesita al VHB."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "VHA: ARN de cadena simple, Picornavirus, transmisión fecal-oral (alimentos, agua, heces). Incubación 4 a 6 semanas con eliminación fecal masiva incluso antes de los síntomas.",
-   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 9 y 10"
-  },
-  {
-   "id": "g-hep-hav_hist",
-   "area": "gastro",
-   "tema": "Hepatitis viral aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Cuál es el orden de la historia natural de la hepatitis A?",
-   "opciones": [
-    {
-     "t": "Incubación, pródromo, ictérico y convalecencia",
-     "por": "Duran respectivamente 2 a 6 semanas, 2 a 3 días, 3 a 6 semanas y hasta 3 a 6 meses.",
-     "full": "Incubación, periodo prodrómico, periodo de estado (ictérico) y convalecencia"
-    },
-    {
-     "t": "Prodrómico, incubación, convalecencia y estado",
-     "por": "Invierte el orden: la incubación va primero."
-    },
-    {
-     "t": "Estado, incubación, prodrómico y convalecencia",
-     "por": "El periodo ictérico no puede preceder a los síntomas inespecíficos."
-    },
-    {
-     "t": "Incubación, convalecencia, prodrómico y estado",
-     "por": "La convalecencia es el último periodo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Hepatitis A: la excreción fecal ocurre desde al menos 2 semanas antes de los síntomas (contagio) y los 8 a 10 días después. Prodrómico: astenia, fiebre, anorexia, coluria. Ictérico: hepatomegalia en 80 %, pico de ALT. Convalecencia: curación en 2 a 3 semanas (hasta 6); 4 a 20 % recae.",
-   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 15 a 19"
-  },
-  {
    "id": "g-hep-hav_dx",
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
@@ -172,35 +56,6 @@
    "correcta": 0,
    "explicacion": "Hepatitis A: soporte, hidratación y nutrición, evitar alcohol y fármacos hepatotóxicos y vigilar para detectar hepatitis fulminante (<1 % en adultos). La vacuna previene la enfermedad (2 dosis, a los 0 y 6 a 12 meses).",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 22 y 23"
-  },
-  {
-   "id": "g-hep-hbv",
-   "area": "gastro",
-   "tema": "Hepatitis viral aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Qué se sabe del virus de la hepatitis B (VHB)?",
-   "opciones": [
-    {
-     "t": "Virus ADN Hepadnaviridae; gen X en el cáncer",
-     "por": "Tiene cuatro genes: core, superficie, X y polimerasa.",
-     "full": "Es un virus ADN de la familia Hepadnaviridae; el gen X participa en la carcinogénesis hepática"
-    },
-    {
-     "t": "Es un virus ARN de cadena simple",
-     "por": "Eso corresponde al VHC."
-    },
-    {
-     "t": "Se transmite principalmente por vía fecal-oral",
-     "por": "Se transmite por sangre, sexual y perinatal."
-    },
-    {
-     "t": "Solo infecta a personas inmunodeprimidas",
-     "por": "Infecta a cualquier persona expuesta."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "VHB: ADN, Hepadnaviridae. Genes: core (proteína del core y HBeAg), superficie (pre-S1, pre-S2, S), X (proteína X, transactivadora, carcinogénesis) y polimerasa (replicación del ADN).",
-   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 24"
   },
   {
    "id": "g-hep-hbv_trans",
@@ -440,39 +295,6 @@
    "nota": "son criterios de fuentes distintas.",
    "guia": {
     "t": "• Se trata a los adultos en fase inmunoactiva: HBeAg positivo con ALT ≥2×LSN y ADN-VHB ≥20 000 UI/ml; HBeAg negativo con ALT ≥2×LSN y ADN-VHB ≥2000 UI/ml.\n• Cirrosis descompensada con ADN-VHB detectable: tratar de inmediato, sin importar la carga viral.\n• Inmunotolerantes: se recomienda no tratar (se considera solo si >40 años con fibrosis o inflamación significativas).\n• Preferidos: peg-interferón, entecavir, tenofovir disoproxil (TDF) o tenofovir alafenamida (TAF).\n• Existe una guía nueva AASLD/ISDA 2025; los umbrales de arriba son de la guía 2018.",
-    "f": "AASLD Hepatitis B Guidance 2018 (Terrault et al., Hepatology 2018;67:1560-1599)"
-   }
-  },
-  {
-   "id": "g-hep-antivirales",
-   "area": "gastro",
-   "tema": "Hepatitis viral aguda y crónica",
-   "dif": 2,
-   "enunciado": "¿Qué ventaja tiene el tenofovir alafenamida (TAF) sobre el tenofovir disoproxil fumarato (TDF)?",
-   "opciones": [
-    {
-     "t": "Menos toxicidad renal y ósea",
-     "por": "El nivel plasmático de TAF es 91 % menor que el de TDF.",
-     "full": "Logra eficacia antiviral con una dosis menor y menor toxicidad renal y ósea"
-    },
-    {
-     "t": "Se administra una vez por semana",
-     "por": "Se toma a diario."
-    },
-    {
-     "t": "Es un interferón de acción larga",
-     "por": "TAF y TDF son análogos nucleótidos orales."
-    },
-    {
-     "t": "Es útil solo contra el virus C",
-     "por": "Es un fármaco anti-VHB."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "TFV = tenofovir. TDF 300 mg y TAF 25 mg son profármacos del mismo tenofovir; TAF llega mejor al hepatocito con menos tenofovir circulante. Adefovir: nefrotoxicidad. Lamivudina: resistencia de 20 % al año y 60 % a los 4 años; se puede agregar tenofovir.",
-   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 41 y 43",
-   "guia": {
-    "t": "• Los análogos preferidos para hepatitis B crónica son entecavir, TDF y TAF (todos con alta barrera a la resistencia), además del peg-interferón.\n• La elección entre ellos depende de las características del paciente, como función renal y salud ósea.",
     "f": "AASLD Hepatitis B Guidance 2018 (Terrault et al., Hepatology 2018;67:1560-1599)"
    }
   },

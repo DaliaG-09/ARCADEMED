@@ -1,63 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "g-hd-def",
-   "area": "gastro",
-   "tema": "Hemorragia digestiva alta y baja",
-   "dif": 1,
-   "enunciado": "Una paciente tiene un sangrado cuyo origen está en una lesión situada entre el esfínter esofágico superior y el ángulo de Treitz. ¿Cómo se llama esta hemorragia?",
-   "opciones": [
-    {
-     "t": "Hemorragia digestiva alta (HDA)",
-     "por": "Por definición, la HDA es la pérdida de sangre por cualquier lesión entre el esfínter esofágico superior y el ángulo de Treitz (unión duodenoyeyunal). Se presenta con hematemesis, melena o hematoquecia."
-    },
-    {
-     "t": "Hemorragia digestiva baja (HDB)",
-     "por": "La HDB se origina distal al ángulo de Treitz, casi siempre en el colon (95 %). Aquí la lesión está antes de ese punto."
-    },
-    {
-     "t": "Rectorragia",
-     "por": "Es la salida de sangre roja por el recto, con origen en ano y recto. No describe un sangrado del esófago, estómago o duodeno."
-    },
-    {
-     "t": "Hemorragia variceal",
-     "por": "Es solo un tipo de HDA (la causada por várices por hipertensión portal), no el nombre general del sangrado alto. La HDA se divide en variceal y no variceal."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "HDA: pérdida de sangre por cualquier lesión entre el esfínter esofágico superior y el ángulo de Treitz. Incidencia de 61 a 78 por 100 000 adultos y mortalidad de 2 a 10 %. Se clasifica en variceal y no variceal. Ángulo de Treitz: punto donde el duodeno pasa al yeyuno; es el límite entre sangrado alto y bajo.",
-   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 8 y 9"
-  },
-  {
-   "id": "g-hd-term",
-   "area": "gastro",
-   "tema": "Hemorragia digestiva alta y baja",
-   "dif": 1,
-   "enunciado": "Un paciente refiere heces negras, brillantes, pegajosas y de olor muy fétido. ¿Cómo se llama este signo y qué localización sugiere?",
-   "opciones": [
-    {
-     "t": "Melena; sangrado de tramos altos",
-     "por": "La sangre se degrada al mezclarse con el contenido digestivo (jugo gástrico y bacterias) y las heces salen negras, pegajosas y fétidas. Suele indicar sangrado alto.",
-     "full": "Melena; sugiere un sangrado de tramos altos del tubo digestivo"
-    },
-    {
-     "t": "Hematemesis; sangrado alto",
-     "por": "Hematemesis es el vómito de sangre (roja o en 'posos de café'), no una alteración de las heces."
-    },
-    {
-     "t": "Rectorragia; sangrado del recto o ano",
-     "por": "La rectorragia es sangre roja fresca que sale por el recto. Las heces de la melena son negras porque la sangre fue digerida, algo que no ocurre con un sangrado cercano al ano."
-    },
-    {
-     "t": "Hematoquecia; sangrado de colon distal",
-     "por": "La hematoquecia son deposiciones con sangre roja fresca, que suele venir de lesiones distales (aunque también de un sangrado alto muy abundante). El color negro y el olor fétido son de melena."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Hematemesis: vómito de sangre roja o en posos de café. Melena: heces negras, brillantes, pegajosas y malolientes. Hematoquecia: deposiciones con sangre roja fresca. Rectorragia: sangre roja por el recto. Sangre oculta en heces: se manifiesta con cansancio, palidez, ferropenia y anemia, sin sangre visible.",
-   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 32"
-  },
-  {
    "id": "g-hd-causas",
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
@@ -113,35 +56,6 @@
    "explicacion": "Hipertensión portal: causa 10 a 20 % de las HDA; las várices esofágicas son más frecuentes que las duodenales. 30 % de los cirróticos presenta sangrado variceal y la mortalidad del episodio es de 15 a 40 %.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 10",
    "nota": "Para tu práctica, no para el examen: en el manejo real del sangrado variceal también se añaden vasoconstrictores (octreotide) y antibiótico profiláctico;"
-  },
-  {
-   "id": "g-hd-dieu",
-   "area": "gastro",
-   "tema": "Hemorragia digestiva alta y baja",
-   "dif": 2,
-   "enunciado": "¿Qué es la lesión de Dieulafoy, una causa vascular de HDA?",
-   "opciones": [
-    {
-     "t": "Arteria submucosa gástrica aberrante y de gran calibre",
-     "por": "Es una anomalía vascular: un vaso anormalmente grande en la submucosa del estómago. Las anomalías vasculares causan 7 % de las HDA y la angiodisplasia es la más común.",
-     "full": "Una arteria submucosa gástrica aberrante, de gran calibre, que puede sangrar"
-    },
-    {
-     "t": "Una úlcera duodenal asociada a H. pylori",
-     "por": "La Dieulafoy no es una úlcera. Es un vaso anómalo; la úlcera péptica es otra causa, la más frecuente (40 %)."
-    },
-    {
-     "t": "Una neoplasia gástrica que produce síndrome consuntivo",
-     "por": "Las neoplasias causan solo 1 % de las HDA y se acompañan de síndrome consuntivo, pilórico y anémico. La Dieulafoy es un vaso, no un tumor."
-    },
-    {
-     "t": "Una várice esofágica por hipertensión portal",
-     "por": "Las várices se forman por hipertensión portal. La Dieulafoy es un defecto arterial aislado y no depende de ella."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Anomalías vasculares: 7 % de las HDA. Angiodisplasia es lo más común. Dieulafoy: arteria submucosa gástrica aberrante de gran calibre.",
-   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 12"
   },
   {
    "id": "g-hd-neo",

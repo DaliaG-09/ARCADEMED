@@ -59,93 +59,6 @@
    "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 3 y 38"
   },
   {
-   "id": "g-erge-estrech",
-   "area": "gastro",
-   "tema": "ERGE (reflujo gastroesofágico)",
-   "dif": 2,
-   "enunciado": "¿En qué nivel está el estrechamiento broncoaórtico del esófago y cuánto mide?",
-   "opciones": [
-    {
-     "t": "Tras la bifurcación traqueal, a nivel D4",
-     "full": "Detrás de la bifurcación traqueal, a la altura de D4, de 15 a 17 mm",
-     "por": "El estrechamiento broncoaórtico está detrás de la bifurcación traqueal, a nivel D4."
-    },
-    {
-     "t": "A la altura del cricoides, de 14 mm",
-     "por": "Ese es el estrechamiento cervical (cricofaríngeo), el punto más estrecho del tubo digestivo."
-    },
-    {
-     "t": "En el hiato diafragmático, de 16 a 19 mm",
-     "por": "Ese es el estrechamiento diafragmático, donde el esófago atraviesa el diafragma."
-    },
-    {
-     "t": "En la unión con el estómago, de 25 mm",
-     "por": "Esa es la unión con el estómago, otro estrechamiento distinto."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "El esófago mide 2 a 2,5 cm de diámetro y tiene tres estrechamientos: cervical (14 mm, esfínter cricofaríngeo), broncoaórtico (15 a 17 mm, D4, detrás de la bifurcación traqueal) y diafragmático (16 a 19 mm, paso por el diafragma).",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 8"
-  },
-  {
-   "id": "g-erge-eei",
-   "area": "gastro",
-   "tema": "ERGE (reflujo gastroesofágico)",
-   "dif": 2,
-   "enunciado": "¿Qué se dice del esfínter esofágico inferior (EEI)?",
-   "opciones": [
-    {
-     "t": "Esfínter fisiológico de 10 a 25 mmHg en reposo",
-     "full": "Es un esfínter fisiológico, no anatómico, con una presión en reposo de 10 a 25 mmHg",
-     "por": "El EEI es un esfínter fisiológico, no anatómico, con presión de reposo de 10 a 25 mmHg."
-    },
-    {
-     "t": "Es un anillo muscular anatómico bien definido con presión de 50 mmHg",
-     "por": "No es una estructura anatómica definida y la presión es mucho menor."
-    },
-    {
-     "t": "Está formado por el músculo cricofaríngeo",
-     "por": "El cricofaríngeo forma el esfínter esofágico superior (EES), que separa la faringe del esófago e inicia la deglución."
-    },
-    {
-     "t": "Tiene presión negativa para permitir el paso del bolo",
-     "por": "La presión intratorácica es negativa, pero el EEI tiene presión positiva de reposo; solo se relaja al deglutir."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "EES = esfínter esofágico superior (cricofaríngeo, inicia la deglución). EEI = esfínter esofágico inferior: separa el esófago del estómago, es fisiológico y mantiene 10 a 25 mmHg en reposo. Su incompetencia es clave en la ERGE.",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 12 y 13"
-  },
-  {
-   "id": "g-erge-plexos",
-   "area": "gastro",
-   "tema": "ERGE (reflujo gastroesofágico)",
-   "dif": 2,
-   "enunciado": "¿Qué plexo de la inervación intrínseca del esófago es el de Auerbach?",
-   "opciones": [
-    {
-     "t": "Plexo mientérico",
-     "full": "El plexo mientérico, entre las capas muscular circular y longitudinal",
-     "por": "El plexo de Auerbach es el mientérico."
-    },
-    {
-     "t": "El plexo submucoso",
-     "por": "Ese es el de Meissner."
-    },
-    {
-     "t": "Los nervios vagos",
-     "por": "Son la inervación extrínseca, igual que el tronco simpático."
-    },
-    {
-     "t": "El plexo celíaco",
-     "por": "El plexo celíaco no forma parte de la inervación intrínseca del esófago."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Inervación extrínseca: nervios vagos y tronco simpático. Intrínseca: plexo mientérico (Auerbach) y submucoso (Meissner). Este esquema se repite en acalasia, donde se pierden las neuronas del plexo mientérico.",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 9"
-  },
-  {
    "id": "g-erge-riesgo",
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
@@ -173,34 +86,6 @@
    "explicacion": "Factores de riesgo: bebidas carbonatadas y comidas copiosas, alcohol, tabaco y AINE, ejercicio abdominal extremo, estrés y enfermedades psiquiátricas, mayor nivel educacional, obesidad, embarazo y hernia de hiato.",
    "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 14",
    "nota": "La fibra y las frutas no figuran; es un distractor construido para esta pregunta."
-  },
-  {
-   "id": "g-erge-defensa",
-   "area": "gastro",
-   "tema": "ERGE (reflujo gastroesofágico)",
-   "dif": 2,
-   "enunciado": "¿Cuáles son los tres mecanismos de defensa antirreflujo?",
-   "opciones": [
-    {
-     "t": "Barrera antirreflujo, aclaramiento esofágico y barrera esofágica",
-     "por": "Son los tres factores protectores."
-    },
-    {
-     "t": "Vaciamiento gástrico, secreción de gastrina y peristalsis colónica",
-     "por": "Mezcla elementos que no son los tres mecanismos de defensa del esófago."
-    },
-    {
-     "t": "Producción de HCl, pepsina y bilis",
-     "por": "Son agentes agresores del reflujo, no protectores."
-    },
-    {
-     "t": "Barrera antirreflujo, hiperfiltración y fibrosis",
-     "por": "La hiperfiltración y la fibrosis no pertenecen a la ERGE."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Defensa antirreflujo: (1) barrera antirreflujo (EEI, pinzamiento diafragmático), (2) aclaramiento esofágico (peristalsis y saliva barren el ácido), (3) barrera esofágica (resistencia de la mucosa). Los agresores son el ácido, la pepsina y la bilis.",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 15"
   },
   {
    "id": "g-erge-clinica",
@@ -356,39 +241,6 @@
    }
   },
   {
-   "id": "g-erge-ph",
-   "area": "gastro",
-   "tema": "ERGE (reflujo gastroesofágico)",
-   "dif": 3,
-   "enunciado": "¿Cuál es una desventaja de la pH-metría esofágica?",
-   "opciones": [
-    {
-     "t": "Solo mide el reflujo líquido",
-     "full": "Solo mide reflujo líquido y no el duodenogastroesofágico",
-     "por": "La pH-metría mide solo el reflujo ácido líquido."
-    },
-    {
-     "t": "Tiene una sensibilidad de 100 %",
-     "por": "No: es de alrededor de 80 %."
-    },
-    {
-     "t": "Mide únicamente el reflujo gaseoso",
-     "por": "Es lo contrario: mide solo el líquido."
-    },
-    {
-     "t": "Evalúa todo el esófago incluida la zona proximal",
-     "por": "Está limitada a la porción distal del esófago."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "pH-metría: S y E de 80 %, solo reflujo líquido, no evalúa el duodenogastroesofágico (con bilis), limitada al esófago distal, corte pH 4. S = sensibilidad, E = especificidad.",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 24",
-   "guia": {
-    "t": "• En síntomas refractarios, primero se optimiza el IBP.\n• Si nunca hubo diagnóstico objetivo de ERGE: pH-metría SIN IBP.\n• Si la ERGE ya está demostrada: pH-impedancia CON IBP, para ver si el síntoma persiste por reflujo.\n• Ante síntomas extraesofágicos, la ACG pide estudiar (endoscopía y/o pH) antes de dar IBP de forma empírica.",
-    "f": "ACG Clinical Guideline: Diagnosis and Management of GERD (Katz et al., Am J Gastroenterol 2022;117:27-56)"
-   }
-  },
-  {
    "id": "g-erge-la",
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
@@ -481,35 +333,6 @@
    "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 27 y 28"
   },
   {
-   "id": "g-erge-ibp",
-   "area": "gastro",
-   "tema": "ERGE (reflujo gastroesofágico)",
-   "dif": 2,
-   "enunciado": "¿Qué tasa de curación de la esofagitis erosiva logra el omeprazol (20 a 60 mg/día) a las 8 a 12 semanas?",
-   "opciones": [
-    {
-     "t": "85 a 96 %",
-     "por": "A las 4 semanas es 67 a 85 %; a las 8 a 12 semanas sube a 85 a 96 %."
-    },
-    {
-     "t": "67 a 85 %",
-     "por": "Es la cifra a las 4 semanas."
-    },
-    {
-     "t": "100 %",
-     "por": "Ningún tratamiento cura al 100 % de los pacientes; la tasa del omeprazol es menor."
-    },
-    {
-     "t": "50 %",
-     "por": "No corresponde a ninguna cifra de la tabla."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Omeprazol 20 a 60 mg/día: supresión ácida gástrica >90 %; curación de esofagitis 67 a 85 % a las 4 semanas y 85 a 96 % a las 8 a 12 semanas. La dosis estándar se toma 30 minutos antes del desayuno.",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 30",
-   "nota": "Para tu práctica: en Perú se usan omeprazol y esomeprazol, pero para el examen guíate por la tabla."
-  },
-  {
    "id": "g-erge-cx",
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
@@ -537,35 +360,6 @@
    "correcta": 0,
    "explicacion": "Fundoplicatura laparoscópica: se envuelve el fondo gástrico alrededor del esófago distal para restaurar el EEI. Indicaciones: ERGE complicada, jóvenes con supresión ácida de por vida, quienes no pueden pagar el tratamiento. Contraindicaciones: hernia hiatal gigante, íleo, gastroparesia no controlada. No controla síntomas en 10 a 15 % y más de 30 % necesita IBP a largo plazo.",
    "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 34 y 35"
-  },
-  {
-   "id": "g-erge-endoter",
-   "area": "gastro",
-   "tema": "ERGE (reflujo gastroesofágico)",
-   "dif": 3,
-   "enunciado": "¿Cómo actúa la radiofrecuencia (procedimiento de Stretta) en el tratamiento endoscópico de la ERGE?",
-   "opciones": [
-    {
-     "t": "Corriente oscilante en la muscular 2 cm arriba y abajo del EEI",
-     "full": "Aplica corriente oscilante en la muscular externa 2 cm arriba y abajo del EEI; el mecanismo exacto se desconoce",
-     "por": "La radiofrecuencia aplica corriente oscilante en la muscular 2 cm arriba y abajo del EEI."
-    },
-    {
-     "t": "Crea de una a tres plicas con una máquina de coser endoscópica",
-     "por": "Eso es la plicación intraluminal, otra técnica."
-    },
-    {
-     "t": "Envuelve el fondo gástrico alrededor del esófago",
-     "por": "Es la fundoplicatura, cirugía."
-    },
-    {
-     "t": "Libera el EEI cortando sus fibras musculares",
-     "por": "Eso se hace en la miotomía de la acalasia, no en el reflujo."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Tratamiento endoscópico: plicación intraluminal (una a tres plicas a la altura del EEI, tipo EndoCinch) y cauterización por radiofrecuencia (corriente oscilante, mecanismo desconocido: ¿polimerización de colágena, cicatrización o destrucción de neuronas?).",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 31 y 32"
   }
  ],
  "tarjetas": [

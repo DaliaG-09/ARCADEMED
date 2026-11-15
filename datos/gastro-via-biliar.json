@@ -1,35 +1,6 @@
 {
  "preguntas": [
   {
-   "id": "g-bil-def",
-   "area": "gastro",
-   "tema": "Colecistitis, colangitis y coledocolitiasis",
-   "dif": 1,
-   "enunciado": "¿Cuál es la causa más frecuente de colecistitis aguda?",
-   "opciones": [
-    {
-     "t": "Litiasis (90 a 95 %) que obstruye el cístico",
-     "por": "La obstrucción distiende la vesícula y reduce su flujo sanguíneo, con isquemia e inflamación.",
-     "full": "Litiasis biliar (90 a 95 %): un cálculo obstruye el conducto cístico"
-    },
-    {
-     "t": "Isquemia vesicular por ayuno prolongado",
-     "por": "Representa solo 3 a 14 % y aparece en UCI, grandes quemados, infección o trauma."
-    },
-    {
-     "t": "Infección parasitaria por Ascaris o Giardia",
-     "por": "Es una causa rara de patología biliar."
-    },
-    {
-     "t": "Tumor de la vesícula que obstruye el cístico",
-     "por": "Es una causa poco frecuente de obstrucción."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Colecistitis aguda: inflamación aguda de la vesícula biliar. Litiásica 90 a 95 %; alitiásica 3 a 14 %.",
-   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 6 y 7"
-  },
-  {
    "id": "g-bil-dx_cole",
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
@@ -192,64 +163,6 @@
    }
   },
   {
-   "id": "g-bil-col_def",
-   "area": "gastro",
-   "tema": "Colecistitis, colangitis y coledocolitiasis",
-   "dif": 1,
-   "enunciado": "¿Cómo se define la colangitis aguda?",
-   "opciones": [
-    {
-     "t": "Fiebre, ictericia y dolor por estasis e infección biliar",
-     "por": "Es una infección de la vía biliar con obstrucción. Causas: cálculo (28 a 70 %), estenosis benigna (5 a 28 %), malignidad (10 a 57 %), infecciones (Fasciola, Ascaris) y post-CPRE (0,5 a 1,7 %).",
-     "full": "Síndrome con fiebre, ictericia y dolor abdominal, por estasis e infección de la vía biliar"
-    },
-    {
-     "t": "Inflamación aguda de la vesícula por un lito en el cístico",
-     "por": "Es la colecistitis aguda."
-    },
-    {
-     "t": "Destrucción crónica de los conductos biliares intrahepáticos",
-     "por": "Corresponde a colangitis biliar primaria o colangitis esclerosante, enfermedades crónicas."
-    },
-    {
-     "t": "Presencia de litos en la vesícula sin síntomas",
-     "por": "Es la colelitiasis asintomática."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "La colangitis aguda es una infección de la vía biliar con estasis (obstrucción); se sospecha por fiebre, ictericia y dolor. Se resuelve drenando la vía biliar, p. ej. con CPRE (colangiopancreatografía retrógrada endoscópica).",
-   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 15 y 16"
-  },
-  {
-   "id": "g-bil-col_fisio",
-   "area": "gastro",
-   "tema": "Colecistitis, colangitis y coledocolitiasis",
-   "dif": 2,
-   "enunciado": "¿Por qué una obstrucción biliar puede llevar a sepsis?",
-   "opciones": [
-    {
-     "t": "Presión biliar alta que pasa bacterias a la sangre",
-     "por": "Puede causar abscesos hepáticos y sepsis graves.",
-     "full": "Porque la presión elevada en la vía biliar hace los conductos permeables y pasan bacterias y toxinas a la sangre"
-    },
-    {
-     "t": "Porque la bilis estéril se vuelve tóxica por sí sola",
-     "por": "El problema es la infección y la translocación bacteriana."
-    },
-    {
-     "t": "Porque el páncreas libera enzimas a la sangre",
-     "por": "Eso ocurre en la pancreatitis."
-    },
-    {
-     "t": "Porque disminuye la producción de bilis",
-     "por": "Eso no explica la sepsis."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Fisiopatología: la hipertensión biliar aumenta la permeabilidad de los conductos y favorece la translocación de bacterias y toxinas.",
-   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 17"
-  },
-  {
    "id": "g-bil-charcot",
    "area": "gastro",
    "tema": "Colecistitis, colangitis y coledocolitiasis",
@@ -311,35 +224,6 @@
     "t": "• Al diagnosticar colangitis (cualquier grado): antibióticos, hidratación, corrección de electrolitos y analgesia.\n• Grado I (leve): suele bastar el tratamiento inicial; drenaje si no responde en 24 h.\n• Grado II (moderada): drenaje biliar temprano (endoscópico o percutáneo), dentro de ~48 h; tomar hemocultivos y cultivo de bilis.\n• Grado III (grave): soporte respiratorio y circulatorio y drenaje urgente en cuanto el paciente se estabiliza.\n• Tras un drenaje exitoso, antibióticos por 4 a 7 días.",
     "f": "Tokyo Guidelines 2018 (TG18), manejo inicial y flujograma de colangitis aguda (Miura et al., J Hepatobiliary Pancreat Sci 2018;25:31-40)"
    }
-  },
-  {
-   "id": "g-bil-dilat",
-   "area": "gastro",
-   "tema": "Colecistitis, colangitis y coledocolitiasis",
-   "dif": 2,
-   "enunciado": "¿Qué diámetro del colédoco se considera dilatado en la ecografía?",
-   "opciones": [
-    {
-     "t": "Más de 6 mm (10 con colecistectomía)",
-     "por": "Entre 8 y 10 mm se valora el caso. Un lito visible también cuenta como hallazgo de imagen.",
-     "full": "Más de 6 mm; más de 10 mm si el paciente tiene colecistectomía previa"
-    },
-    {
-     "t": "Más de 3 mm en todos los casos",
-     "por": "Es un diámetro normal."
-    },
-    {
-     "t": "Más de 4 mm incluso con colecistectomía",
-     "por": "Ese no es el punto de corte: es más de 6 mm."
-    },
-    {
-     "t": "Solo si supera los 20 mm",
-     "por": "Es una dilatación extrema; el umbral es mucho menor."
-    }
-   ],
-   "correcta": 0,
-   "explicacion": "Ecografía: accesible; ve litos, dilatación, tumores. TAC: litos, neoplasia, complicaciones. Resonancia: conducto biliar y malignidad.",
-   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 21 y 22"
   },
   {
    "id": "g-bil-sev_col",
