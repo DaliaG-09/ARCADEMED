@@ -97,12 +97,12 @@
    "enunciado": "¿Por qué hay más infecciones en el síndrome nefrótico y a qué gérmenes se tiene más riesgo?",
    "opciones": [
     {
-     "t": "Pérdida de IgG y complemento; más riesgo con encapsulados como neumococo",
+     "t": "Pérdida de IgG y complemento: riesgo por encapsulados",
      "por": "Sin esas defensas el cuerpo elimina mal las bacterias con cápsula. En niños puede dar sepsis y peritonitis.",
      "full": "Se pierden inmunoglobulinas (IgG) y complemento por la orina; hay más riesgo con gérmenes encapsulados como el neumococo"
     },
     {
-     "t": "Se pierden glóbulos blancos por la orina; hay más riesgo con virus respiratorios",
+     "t": "Pérdida de leucocitos: riesgo por virus respiratorios",
      "por": "No se pierden glóbulos blancos; lo que se pierde son inmunoglobulinas y complemento."
     },
     {
@@ -367,7 +367,7 @@
      "full": "Nefropatía IgA, glomerulonefritis rápidamente progresiva, vasculitis y glomerulonefritis aguda postinfecciosa"
     },
     {
-     "t": "Púrpura de Schönlein-Henoch, enfermedad de membrana basal delgada y nefritis hereditarias",
+     "t": "Púrpura de Schönlein-Henoch y nefritis hereditarias",
      "por": "Son causas de menores de 15 años (y en parte de 15 a 40)."
     },
     {

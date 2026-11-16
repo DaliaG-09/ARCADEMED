@@ -491,7 +491,7 @@
      "full": "Recaída: proteinuria mayor de 40 mg/m²/h en tres días no consecutivos. Remisión: menor de 4 mg/m²/h"
     },
     {
-     "t": "Recaída: proteinuria menor de 4 mg/m²/h; remisión: mayor de 40",
+     "t": "Recaída: <4 mg/m²/h; remisión: >40",
      "por": "Están invertidas."
     },
     {

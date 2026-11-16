@@ -93,7 +93,7 @@
    "enunciado": "Un paciente con sospecha de HDA está hemodinámicamente estable (PAS >100 mmHg y FC <100 lat/min). ¿Cuál es la conducta inicial?",
    "opciones": [
     {
-     "t": "Vías periféricas, IBP en bolo, transfusión restrictiva y endoscopía",
+     "t": "Vía periférica, IBP, transfusión restrictiva y endoscopía",
      "full": "Colocar 1 o 2 catéteres periféricos, reponer volumen, dar bolo de 80 mg de IBP seguido de 8 mg/h, valorar transfusión restrictiva y hacer endoscopia en las primeras 24 horas",
      "por": "Esa es la secuencia en el paciente estable: reanimación, IBP en bolo, transfusión restrictiva y endoscopía temprana."
     },
@@ -106,7 +106,7 @@
      "por": "La endoscopia se hace antes de 24 horas y se acompaña de IBP. Las 72 horas son la duración del IBP intravenoso después del tratamiento endoscópico, si la lesión es de alto riesgo."
     },
     {
-     "t": "Transfundir de forma liberal a todos para mantener hemoglobina alta",
+     "t": "Transfundir a todos para mantener hemoglobina alta",
      "por": "El algoritmo indica transfusión restrictiva: transfundir solo cuando hace falta y no a todos."
     }
    ],
@@ -132,7 +132,7 @@
      "full": "Origen distal al ángulo de Treitz; 20 % de las hemorragias digestivas, con 95 % originado en el colon"
     },
     {
-     "t": "Origen proximal al ángulo de Treitz; 80 % de las hemorragias digestivas",
+     "t": "Origen proximal al ángulo de Treitz",
      "por": "Esa es la ubicación de la HDA, que representa la mayor parte de las hemorragias digestivas."
     },
     {
@@ -248,7 +248,7 @@
      "full": "Las internas son indoloras y las externas son dolorosas; el sangrado se asocia al ritmo evacuatorio"
     },
     {
-     "t": "Las hemorroides internas son dolorosas y las externas indoloras",
+     "t": "Internas dolorosas y externas indoloras",
      "por": "Es lo contrario: las internas no duelen y las externas duelen."
     },
     {

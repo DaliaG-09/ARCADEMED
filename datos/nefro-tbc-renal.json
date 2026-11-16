@@ -37,12 +37,12 @@
    "enunciado": "¿Cómo llega el bacilo de la tuberculosis al riñón y qué lesión produce?",
    "opciones": [
     {
-     "t": "Vía sanguínea o linfática; granulomas caseosos y nefritis crónica",
+     "t": "Vía hematógena o linfática; granulomas caseosos",
      "por": "El riñón se siembra durante la diseminación de la primoinfección. El bacilo puede quedar latente y reactivarse años después, sobre todo con inmunosupresión.",
      "full": "Por la sangre o la linfa; produce granulomas con necrosis caseosa y nefritis tubulointersticial crónica"
     },
     {
-     "t": "Por la vía ascendente desde la uretra; produce un absceso agudo",
+     "t": "Vía ascendente desde la uretra; absceso agudo",
      "por": "Esa es la vía de la ITU bacteriana común. La TBC renal llega desde otro foco, por sangre o linfa."
     },
     {

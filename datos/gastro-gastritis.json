@@ -99,16 +99,16 @@
    "enunciado": "Según la cascada de Correa, ¿qué secuencia lleva de la gastritis por H. pylori al cáncer?",
    "opciones": [
     {
-     "t": "Gastritis no atrófica, atrófica, metaplasia, hipoclorhidria, displasia, cáncer",
+     "t": "Gastritis atrófica, metaplasia, displasia y cáncer",
      "full": "Gastritis crónica no atrófica, gastritis atrófica, metaplasia intestinal, estómago hipo o aclorhídrico, displasia y cáncer",
      "por": "Ese es el orden de la cascada de Correa."
     },
     {
-     "t": "Metaplasia intestinal, gastritis atrófica, gastritis crónica y cáncer",
+     "t": "Metaplasia, gastritis atrófica y cáncer",
      "por": "Invierte el orden: la metaplasia viene después de la atrofia."
     },
     {
-     "t": "Gastritis aguda, úlcera péptica y cáncer sin pasos intermedios",
+     "t": "Gastritis aguda, úlcera y cáncer, sin pasos intermedios",
      "por": "Omite la atrofia, la metaplasia y la displasia."
     },
     {
@@ -224,7 +224,7 @@
    "enunciado": "Paciente con gastritis aguda por uso crónico de AINE. ¿Qué tratamiento se indica?",
    "opciones": [
     {
-     "t": "Suspender el AINE y dar IBP mientras dure el tratamiento con AINE",
+     "t": "Suspender el AINE y dar IBP",
      "por": "Se repone sangre solo si hace falta."
     },
     {

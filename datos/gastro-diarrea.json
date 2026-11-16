@@ -8,7 +8,7 @@
    "enunciado": "¿Cómo se clasifica la diarrea por su duración?",
    "opciones": [
     {
-     "t": "Aguda menor de 14 días, subaguda de 14 a 30 días y crónica de más de 30 días",
+     "t": "Aguda <14 días, subaguda 14 a 30, crónica >30",
      "por": "Esa es la clasificación de la diarrea por su duración."
     },
     {
@@ -20,7 +20,7 @@
      "por": "La diarrea aguda dura menos de 14 días; entre 14 y 30 días ya es subaguda."
     },
     {
-     "t": "Aguda menor de 7 días, subaguda de 7 a 14 días y crónica mayor de 14 días",
+     "t": "Aguda <7 días, subaguda 7 a 14, crónica >14",
      "por": "La crónica es la que supera los 30 días, no los 14."
     }
    ],
@@ -36,12 +36,12 @@
    "enunciado": "Un paciente presenta fiebre, tenesmo, heces con sangre y moco, y calprotectina fecal positiva. ¿Qué tipo de diarrea es más probable?",
    "opciones": [
     {
-     "t": "Inflamatoria: Shigella, Salmonella, Campylobacter, E. coli invasiva",
+     "t": "Inflamatoria: Shigella, Salmonella, Campylobacter",
      "por": "La diarrea inflamatoria cursa con fiebre, dolor abdominal, tenesmo y síntomas sistémicos, con PCR o NAAT positivas y calprotectina fecal positiva. Las causas no infecciosas incluyen Crohn, colitis ulcerativa y enteritis por radiación.",
      "full": "Diarrea inflamatoria, por ejemplo por Shigella, Salmonella, Campylobacter o E. coli enteroinvasiva"
     },
     {
-     "t": "Diarrea no inflamatoria viral, por ejemplo por Rotavirus o Norovirus",
+     "t": "No inflamatoria: virus (Rotavirus, Norovirus)",
      "por": "Es una diarrea con náuseas, vómitos y dolor abdominal, pero sin fiebre alta, sangre ni tenesmo."
     },
     {

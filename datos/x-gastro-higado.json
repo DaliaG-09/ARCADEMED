@@ -518,7 +518,7 @@
    "enunciado": "Mujer de 58 años con cirrosis por esteatohepatitis, Child B, sin sangrado previo. La endoscopía muestra várices esofágicas grandes. ¿Qué indicas para prevenir el primer sangrado?",
    "opciones": [
     {
-     "t": "β-bloqueador no selectivo (carvedilol o propranolol) o ligadura endoscópica.",
+     "t": "β-bloqueador no selectivo o ligadura endoscópica",
      "por": "Reducen la presión portal y el riesgo de sangrado."
     },
     {
@@ -584,7 +584,7 @@
    "enunciado": "Mujer de 52 años con cirrosis por VHC, desorientada, con asterixis. Dos días de estreñimiento y sangre en las heces hoy. ¿Cuál es el tratamiento base?",
    "opciones": [
     {
-     "t": "Lactulosa y tratar el precipitante (hemorragia, infección, estreñimiento).",
+     "t": "Lactulosa y tratar el precipitante",
      "por": "Disminuye la absorción de amonio; siempre se busca y corrige la causa desencadenante."
     },
     {
@@ -617,7 +617,7 @@
    "enunciado": "Una gestante de 30 semanas tiene HBsAg positivo. ¿Qué indicas al recién nacido?",
    "opciones": [
     {
-     "t": "Vacuna contra hepatitis B e inmunoglobulina anti-VHB en las primeras 12 horas.",
+     "t": "Vacuna e inmunoglobulina anti-VHB en las primeras 12 horas",
      "por": "Previene la transmisión perinatal, que es la forma más frecuente en países de alta prevalencia."
     },
     {

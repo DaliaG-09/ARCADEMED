@@ -95,19 +95,19 @@
    "enunciado": "Hombre de 24 años, diabético tipo 1, suspendió su insulina hace 3 días. Llega con somnolencia, náuseas, vómitos, respiración rápida y profunda (Kussmaul), aliento cetónico y deshidratación.\nAGA: pH 7.18, pCO₂ 25 mmHg, HCO₃⁻ 9 mEq/L.\nElectrolitos: Na⁺ 132, K⁺ 5.5, Cl⁻ 96 mEq/L. Glucosa 480 mg/dL.\n\n¿Cuál es el diagnóstico final?",
    "opciones": [
     {
-     "t": "Cetoacidosis diabética: acidosis metabólica con anion gap elevado y compensación respiratoria parcial",
+     "t": "Cetoacidosis diabética: acidosis metabólica con AG elevado",
      "por": "pH bajo, HCO₃⁻ bajo y AG elevado (27) con glucosa 480 y respiración de Kussmaul: cetoacidosis con compensación parcial."
     },
     {
-     "t": "Acidosis metabólica con anion gap normal por pérdida de bicarbonato, con compensación adecuada",
+     "t": "Acidosis metabólica con AG normal por pérdida de bicarbonato",
      "por": "El AG es 27, elevado; no es una acidosis por pérdida de bicarbonato."
     },
     {
-     "t": "Acidosis respiratoria aguda por hipoventilación, con retención de CO₂",
+     "t": "Acidosis respiratoria aguda por hipoventilación",
      "por": "La pCO₂ está baja (25), no alta: el paciente hiperventila."
     },
     {
-     "t": "Alcalosis metabólica por vómitos, con hipoventilación compensadora",
+     "t": "Alcalosis metabólica por vómitos",
      "por": "El pH está bajo y el HCO₃⁻ también: es acidosis."
     }
    ],
@@ -154,7 +154,7 @@
    "enunciado": "Hombre de 65 años con cirrosis por alcohol, somnolencia, debilidad y menor alerta de 24 horas. PA 90/55, FC 110, FR 28, deshidratado.\nAGA: pH 7.30, pCO₂ 30 mmHg, HCO₃⁻ 15 mEq/L.\nElectrolitos: Na⁺ 138, K⁺ 4.8, Cl⁻ 110 mEq/L. Albúmina 2.0 g/dL. Lactato elevado.\n\n¿Por qué en este paciente se corrige el anion gap?",
    "opciones": [
     {
-     "t": "Porque la hipoalbuminemia baja el AG y puede esconder un AG elevado",
+     "t": "La hipoalbuminemia baja el AG y puede esconder uno elevado",
      "por": "La albúmina es un anión no medido: si baja, el AG calculado sale más bajo de lo real."
     },
     {
@@ -392,7 +392,7 @@
      "por": "Con AG normal la acidosis se debe a pérdida de bicarbonato (por ejemplo, diarrea)."
     },
     {
-     "t": "Acumulación de ácidos, como cetoacidosis diabética o acidosis láctica",
+     "t": "Acumulación de ácidos (cetoacidosis, acidosis láctica)",
      "por": "Eso produce AG elevado."
     },
     {
@@ -997,11 +997,11 @@
    "enunciado": "Varón de 30 años, 70 kg, náufrago rescatado tras 2 días a la deriva; bebió abundante agua de mar. Obnubilación severa, hiperreflexia, mioclonías, llanto sin lágrimas y signos de depleción de volumen intracelular.\nAGA: pH 7.22, pCO₂ 30 mmHg, HCO₃⁻ 12 mEq/L.\nElectrolitos: Na⁺ 168, Cl⁻ 130 mEq/L. Glucosa 480 mg/dL.\n\n¿Cuál es el resumen diagnóstico de este caso?",
    "opciones": [
     {
-     "t": "Acidosis metabólica con anion gap elevado, acidosis respiratoria agregada e hipernatremia extrema",
+     "t": "Acidosis metabólica con AG elevado, acidosis respiratoria agregada e hipernatremia",
      "por": "AG elevado, pCO₂ por encima de lo esperado y Na⁺ de 168 resumen el caso."
     },
     {
-     "t": "Acidosis metabólica con anion gap elevado, con compensación respiratoria adecuada e hipernatremia",
+     "t": "Acidosis metabólica con AG elevado, compensación adecuada e hipernatremia",
      "por": "La pCO₂ de 30 está fuera del rango esperado (24 a 28)."
     },
     {
@@ -1734,11 +1734,11 @@
    "enunciado": "¿Qué calcula la fórmula de Adrogué-Madias?",
    "opciones": [
     {
-     "t": "El cambio esperado en el sodio sérico por cada litro de solución infundida",
+     "t": "Cambio esperado del sodio por litro infundido",
      "por": "(Na infundido − Na sérico) / (ACT + 1)."
     },
     {
-     "t": "El déficit de agua libre en la hipernatremia, sin considerar la solución",
+     "t": "Déficit de agua libre en la hipernatremia",
      "por": "No incluye el sodio de la solución infundida."
     },
     {
@@ -1746,7 +1746,7 @@
      "por": "Esa es la fórmula del AG corregido, no la de Adrogué-Madias."
     },
     {
-     "t": "La osmolaridad plasmática efectiva según sodio, glucosa y urea",
+     "t": "Osmolaridad efectiva según sodio, glucosa y urea",
      "por": "Se calcula con otra fórmula."
     }
    ],

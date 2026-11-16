@@ -42,7 +42,7 @@
      "full": "Es protector en la colitis ulcerosa y un factor de riesgo en la enfermedad de Crohn"
     },
     {
-     "t": "Es factor de riesgo en la colitis ulcerosa y protector en el Crohn",
+     "t": "Riesgo en colitis ulcerosa, protector en Crohn",
      "por": "Es al revés: en la colitis ulcerosa el tabaco protege y en el Crohn empeora la enfermedad."
     },
     {
@@ -181,11 +181,11 @@
    "enunciado": "¿Qué imagen radiológica se asocia a la colitis ulcerosa crónica y cuál es el estudio de elección?",
    "opciones": [
     {
-     "t": "Colon sin haustras, en 'tubo de plomo'; el estudio de elección es la colonoscopía con biopsia",
+     "t": "Colon sin haustras en 'tubo de plomo'; colonoscopía con biopsia",
      "por": "La TAC solo se usa para evaluar complicaciones."
     },
     {
-     "t": "Mucosa en 'empedrado' y signo del cordón; el estudio de elección es la enterorresonancia",
+     "t": "Mucosa en 'empedrado'; enterorresonancia",
      "por": "Son hallazgos del Crohn."
     },
     {

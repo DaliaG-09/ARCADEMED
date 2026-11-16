@@ -8,7 +8,7 @@
    "enunciado": "¿Cómo se define la enfermedad por reflujo gastroesofágico (ERGE)?",
    "opciones": [
     {
-     "t": "Trastorno de motilidad con reflujo gástrico a esófago y síntomas",
+     "t": "Reflujo gástrico al esófago con síntomas o lesión",
      "por": "Es la definición: lo importante es que el reflujo cause síntomas o complicaciones, no que exista reflujo aislado.",
      "full": "Un desorden de la motilidad en el que el contenido gástrico regresa al esófago o a la cavidad oral y produce síntomas y complicaciones"
     },
@@ -17,7 +17,7 @@
      "por": "H. pylori vive en el estómago y se asocia a gastritis y úlcera, no define la ERGE."
     },
     {
-     "t": "Un trastorno por falta de relajación del esfínter esofágico inferior (EEI)",
+     "t": "Falta de relajación del esfínter esofágico inferior (EEI)",
      "por": "Eso describe la acalasia, en la que el alimento no pasa al estómago. En la ERGE el EEI está insuficiente y el contenido sube."
     },
     {

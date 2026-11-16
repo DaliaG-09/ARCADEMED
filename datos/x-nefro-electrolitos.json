@@ -321,7 +321,7 @@
    "enunciado": "Varón de 80 años en cama, con fiebre y sin acceso a agua. Na⁺ 168 mEq/L, deshidratado. ¿Qué tipo de solución usas para corregir el déficit de agua libre?",
    "opciones": [
     {
-     "t": "Hipotónica (dextrosa 5 % o NaCl 0.45 %), tras corregir el shock si lo hay.",
+     "t": "Solución hipotónica, tras corregir el shock",
      "por": "La hipernatremia es déficit de agua libre; se repone agua con descenso lento del sodio."
     },
     {
