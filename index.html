@@ -418,6 +418,15 @@ body[data-scene=derma]::before{background-image:url("data:image/svg+xml,%3Csvg x
 #rcat{transition:transform 1.8s steps(14);cursor:pointer}
 .item .pv.rv{background:#f4ead2;padding:4px;min-height:0}
 .item .pv.rv svg{width:100%;height:64px}
+
+/* Mundo E: personajes, tesoros, música */
+.wtre{cursor:pointer}.wtre .tw{animation:wtw 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes wtw{0%,100%{opacity:.25;transform:scale(.6)}50%{opacity:1;transform:scale(1.1)}}
+.wchar{cursor:pointer}.wchar .cb2{animation:wbob2 1.8s ease-in-out infinite alternate}
+@keyframes wbob2{to{transform:translateY(-3px)}}
+.wchar .tag{animation:wbob2 1s ease-in-out infinite alternate}
+.csheet .pv{display:inline-block;margin:6px 0}
+.cdato{background:#fff6bd;border:3px solid var(--ink);border-radius:12px;padding:10px;margin:8px 0;font-size:14px}
 </style>
 </head>
 <body>
@@ -660,6 +669,8 @@ function cardInit(){
   buildCard().then(u => { const im = document.getElementById('cardimg'), a = document.getElementById('cardlink'); if(im) im.src = u; if(a) a.href = u; V.cardUrl = u; }).catch(() => toast('No se pudo armar la tarjeta'));
 }
 
+const R = (x, y, w, h, c) => '<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" fill="'+c+'"/>';
+
 /* ---------- mundo B: día, noche, clima, eventos ---------- */
 function todNow(){
   if(S.set.sky === 'dia') return 'day'; if(S.set.sky === 'noche') return 'night';
@@ -782,6 +793,65 @@ function roomInit(){
   }, 4200);
 }
 
+/* ---------- mundo E: personajes, tesoros, música ---------- */
+const dnum = () => Number(fmtD(new Date()).replace(/-/g, ''));
+const CRAB = '<g>'+R(-7,-1,14,6,'#e02a1f')+R(-5,-3,10,2,'#e02a1f')+R(-10,-6,4,5,'#e02a1f')+R(-11,-8,3,3,'#e02a1f')+R(6,-6,4,5,'#e02a1f')+R(8,-8,3,3,'#e02a1f')+R(-4,-6,2,3,'#fff')+R(2,-6,2,3,'#fff')+R(-4,-5,1,1,'#14110f')+R(3,-5,1,1,'#14110f')+R(-6,5,2,2,'#c01f18')+R(4,5,2,2,'#c01f18')+R(-2,1,4,1,'#14110f')+'</g>';
+const OWL = '<g>'+R(-6,-10,12,15,'#8a5a30')+R(-7,-12,3,3,'#8a5a30')+R(4,-12,3,3,'#8a5a30')+R(-5,-7,4,4,'#fff')+R(1,-7,4,4,'#fff')+R(-4,-6,2,2,'#14110f')+R(2,-6,2,2,'#14110f')+R(-1,-3,2,2,'#ffb02e')+R(-4,0,8,4,'#d9a56a')+R(-4,5,3,2,'#ffb02e')+R(1,5,3,2,'#ffb02e')+'</g>';
+const FISHC = '<g>'+R(-7,-3,12,7,'#ff8c3a')+R(5,-5,4,11,'#ff8c3a')+R(-5,-5,6,2,'#ffb070')+R(-5,-1,2,2,'#14110f')+R(-2,2,5,1,'#e0661a')+'</g>';
+const CHARS = {crab:{n:'Cangrejo vendedor', svg:CRAB}, owl:{n:'Búho sabio', svg:OWL}, fish:{n:'Pez de misiones', svg:FISHC}};
+function worldChars(W){
+  const a = W.isl[0], b = W.isl[1] || W.isl[0], g = a.y0 + a.h + WORLD.GAP/2;
+  return {crab:{x:306, y:a.y0 + WORLD.HEAD + 150}, owl:{x:52, y:b.y0 + WORLD.HEAD + 230}, fish:{x:180, y:g + 4}};
+}
+function worldTreasures(W){
+  const out = [];
+  W.isl.forEach(is => { const span = is.T.length*WORLD.STEP; for(let j = 0; j < 4; j++) out.push({id:'t'+is.k+j, x:j % 2 ? 60 : 300, y:Math.round(is.y0 + WORLD.HEAD + 20 + (j + .55)*span/4 + wr(is.k*4 + j)*14)}); });
+  for(let k = 0; k < W.isl.length - 1; k++){ const is = W.isl[k]; out.push({id:'b'+k, x:Math.round(70 + wr(k + 40)*220), y:is.y0 + is.h + WORLD.GAP/2 + 28, bottle:true}); }
+  return out;
+}
+const treVal = id => 10 + 10*Math.floor(wr(id.split('').reduce((n, c) => n + c.charCodeAt(0), 0))*3);
+function charSheet(k){
+  closeSheet(); const d = document.createElement('div'); d.id = 'wsheet'; let body = '';
+  if(k === 'crab'){
+    const own = S.crab === fmtD(new Date());
+    const pool = ITEMS.filter(i => !i.th && !S.owned[i.id]).map(i => ({k:'i', o:i})).concat(FURN.filter(f => !S.owned[f.id]).map(f => ({k:'f', o:f}))), pick = pool.length ? pool[Math.floor(wr(dnum())*pool.length)] : null;
+    if(own) body = '<p>Hoy ya me compraste. Vuelve mañana, tengo otra oferta.</p>';
+    else if(!pick) body = '<p>Ya tienes todo lo que vendo. ¡Qué coleccionista!</p>';
+    else { const price = Math.round(pick.o.p*.7), pv = pick.k === 'i' ? '<div class="pv">'+catSvg('ok', 3.4, {[pick.o.slot]:pick.o.id})+'</div>' : '<div class="pv rv" style="width:140px"><svg viewBox="'+FPV[pick.o.slot]+'" shape-rendering="crispEdges">'+(pick.o.slot === 'paper' ? '' : R(0,0,120,80,'#f6ead0'))+pick.o.d()+'</svg></div>';
+      body = '<p>Oferta del día con 30 % de descuento:</p>'+pv+'<p><b>'+esc(pick.o.n)+'</b> <s class="src">'+pick.o.p+'</s> '+price+' monedas</p><div class="row"><button class="btn gold grow" data-act="crabbuy" data-k="'+pick.k+'" data-id="'+pick.o.id+'" '+(S.coins < price ? 'disabled' : '')+'>Comprar por '+price+'</button></div>'+(S.coins < price ? '<p class="src">Te faltan '+(price - S.coins)+' monedas.</p>' : ''); }
+  } else if(k === 'owl'){
+    const ts = temasStatsSafe(), w = ts.length ? ts[ts.length-1] : null;
+    let tema = w ? {a:w.a, t:w.t, why:Math.round(w.p*100)+' % de acierto'} : null;
+    if(!tema){ const q0 = allQ().find(q => !S.q[q.id]); if(q0) tema = {a:q0.area, t:q0.tema, why:'aún no lo has practicado'}; }
+    if(!tema) body = '<p>No tengo pistas todavía. Responde unas preguntas y vuelve.</p>';
+    else {
+      const Q = tq(tema.a, tema.t).filter(q => !isRC(q) && q.explicacion).sort((x, y) => (isFallada(y) ? 1 : 0) - (isFallada(x) ? 1 : 0) || Math.random() - .5), q = Q[0];
+      const fact = q ? String(q.explicacion).replace(/\s+/g, ' ').split(/(?<=\.)\s/)[0].slice(0, 180) : '';
+      body = '<p>Te conviene repasar <b>'+esc(tema.t)+'</b> ('+esc(tema.why)+').</p>'+(fact ? '<div class="cdato"><b>Dato:</b> '+esc(fact)+'</div>' : '')+'<div class="row"><button class="btn gold grow" data-act="reforzar" data-a="'+tema.a+'" data-t="'+esc(tema.t)+'">Reforzar este tema</button></div>';
+    }
+  } else {
+    const L = S.log.find(l => l.d === fmtD(new Date())), n = L ? L.n : 0, done = S.fish === fmtD(new Date());
+    body = done ? '<p>¡Misión cumplida hoy! Vuelve mañana.</p>' : '<p>Misión de hoy: responde 10 preguntas.</p><p class="src">Llevas '+Math.min(n, 10)+' de 10.</p>'+(n >= 10 ? '<div class="row"><button class="btn gold grow" data-act="fishclaim">Reclamar 20 monedas</button></div>' : '');
+  }
+  d.className = 'csheet'; d.innerHTML = '<div class="wsback" data-act="wclose"></div><div class="wscard"><p class="label">'+esc(CHARS[k].n.toUpperCase())+'</p>'+body+'<div class="row"><button class="btn small ghost grow" data-act="wclose">Cerrar</button></div></div>';
+  document.body.appendChild(d);
+}
+function temasStatsSafe(){ return temaStats().sort((a, b) => b.p - a.p); }
+/* música */
+const MUSC = {home:[[262,294,330,392,440,523],[0,2,4,2,3,1,4,5,4,2,3,1,0,2,1,3]], nefro:[[262,294,330,392,440,523],[0,1,2,4,2,1,0,3,2,4,5,4,2,1,3,0]], gastro:[[220,262,294,330,392,440],[0,2,3,2,0,4,3,2,1,3,5,3,2,0,1,2]], derma:[[294,330,370,440,494,587],[0,2,4,5,4,2,3,1,0,2,4,2,1,3,5,4]], room:[[262,330,392,440,523,659],[0,3,2,1,4,2,3,0,1,3,5,3,2,1,0,2]]};
+let MUS = {id:0, tune:'', i:0};
+function musStop(){ clearInterval(MUS.id); MUS.id = 0; MUS.tune = ''; }
+function mnote(f, t, d, v, type){ const o = AC.createOscillator(), g = AC.createGain(); o.type = type; o.frequency.value = f; g.gain.setValueAtTime(.0001, t); g.gain.linearRampToValueAtTime(v, t+.04); g.gain.exponentialRampToValueAtTime(.0005, t+d); o.connect(g); g.connect(AC.destination); o.start(t); o.stop(t+d+.05); }
+function musSync(){
+  const ok = S.set.mus === true && !document.hidden && ['home','mapa','cuarto','logros','tienda','resumen','tarjeta','ajustes'].includes(V.name);
+  const ar = S.mapcat ? S.mapcat.split('|')[0] : '', tune = !ok ? '' : V.name === 'mapa' ? (MUSC[ar] && ar !== 'c' ? ar : 'nefro') : V.name === 'cuarto' ? 'room' : 'home';
+  if(tune === MUS.tune) return; musStop(); if(!tune) return;
+  try{ AC = AC || new (window.AudioContext || window.webkitAudioContext)(); if(AC.state === 'suspended') AC.resume(); }catch(e){ return; }
+  MUS.tune = tune; MUS.i = 0; const sc = MUSC[tune][0], seq = MUSC[tune][1];
+  MUS.id = setInterval(() => { try{ if(AC.state !== 'running') return; const t = AC.currentTime, i = MUS.i++ % seq.length; mnote(sc[seq[i]], t, .55, .03, 'triangle'); if(i % 4 === 0) mnote(sc[0]/2, t, 1.2, .04, 'sine'); }catch(e){} }, 380);
+}
+document.addEventListener('visibilitychange', () => musSync());
+
 /* ---------- mundo A: mapa-mundo ---------- */
 const WORLD = {HEAD:104, STEP:76, FOOT:120, GAP:130};
 const wr = n => { const x = Math.sin(n*127.1+311.7)*43758.5453; return x - Math.floor(x); };
@@ -869,6 +939,10 @@ function worldSvg(){
   if(tod === 'night' || tod === 'dusk'){ for(let i = 0; i < 26; i++){ const is = W.isl[i % W.isl.length]; o += '<rect class="ff" style="position:static;animation-delay:'+(-(i%7)*.5)+'s;transform-box:fill-box" x="'+Math.round(40 + wr(i*3)*280)+'" y="'+Math.round(is.y0 + 110 + wr(i*7)*(is.h - 200))+'" width="3" height="3" fill="#ffe36b"/>'; } }
   const key = S.mapcat && pos[S.mapcat.replace(/\|(\d+)$/, '|$1')] ? S.mapcat : AREAS[0].id+'|0', cp = pos[key] || {x:180, y:100};
   o += wBoat(W.isl[0].y0 + W.isl[0].h + 50, '')+wBoat(W.isl[1] ? W.isl[1].y0 + W.isl[1].h + 62 : 400, 'b')+wFish(60, W.isl[0].y0 + W.isl[0].h + 70, '')+wFish(250, W.isl[1] ? W.isl[1].y0 + W.isl[1].h + 84 : 500, 'b');
+  S.found = S.found || {};
+  worldTreasures(W).forEach(t => { if(S.found[t.id]) return; o += '<g class="wtre" data-act="wtre" data-id="'+t.id+'" transform="translate('+t.x+','+t.y+')" role="button" aria-label="'+(t.bottle ? 'Botella con mensaje' : 'Algo brilla en el suelo')+'"><rect x="-16" y="-16" width="32" height="32" fill="transparent"/><g class="tw">'+(t.bottle ? R(-2,-6,4,3,'#7a4b24')+R(-3,-3,6,8,'#8fe0c8')+R(-1,-1,2,4,'#fff')+R(-2,5,4,1,'#5ab89c') : R(-1,-5,2,10,'#fff8c0')+R(-5,-1,10,2,'#fff8c0')+R(-1,-1,2,2,'#ffd93b'))+'</g></g>'; });
+  const CH = worldChars(W); pos['c|crab'] = {x:CH.crab.x - 14, y:CH.crab.y}; pos['c|owl'] = {x:CH.owl.x + 14, y:CH.owl.y};
+  Object.keys(CH).forEach(k => { const c = CH[k]; o += '<g class="wchar" data-act="wchar" data-k="'+k+'" transform="translate('+c.x+','+c.y+')" role="button" tabindex="0" aria-label="'+esc(CHARS[k].n)+'"><rect x="-20" y="-24" width="40" height="40" fill="transparent"/><g class="cb2">'+CHARS[k].svg+'</g><g class="tag" transform="translate(0,-18)">'+R(-4,-4,8,7,'#fff')+R(-4,-4,8,1,'#14110f')+R(-4,2,8,1,'#14110f')+R(-4,-4,1,7,'#14110f')+R(3,-4,1,7,'#14110f')+R(-1,-3,2,3,'#e02a1f')+R(-1,1,2,1,'#e02a1f')+'</g></g>'; });
   const cat = catSvg('ok', 3, S.worn, stageOf(level(S.xp)).halo).replace('<svg ', '<svg x="-24" y="-52" ');
   o += '<g id="wcat" style="transform:translate('+cp.x+'px,'+cp.y+'px);pointer-events:none" data-pos="'+key+'"><g class="cb">'+cat+'</g></g>';
   if(newly) setTimeout(save, 0);
@@ -979,7 +1053,6 @@ function vMapaLista(){
 }
 
 /* ---------- fase 3: tienda, accesorios y evolución ---------- */
-const R = (x, y, w, h, c) => '<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" fill="'+c+'"/>';
 const ITEMS = [
  {id:'hat_doc', n:'Gorro de doctora', slot:'hat', p:40, d:() => R(5,2,14,1,'#d9d9d9')+R(6,1,12,1,'#fff')+R(7,0,10,1,'#fff')+R(11,0,2,3,'#e02a1f')+R(10,1,4,1,'#e02a1f')},
  {id:'hat_surg', n:'Gorro quirúrgico', slot:'hat', p:40, d:() => R(5,2,14,1,'#0e8b79')+R(6,1,12,1,'#19b5a0')+R(7,0,10,1,'#19b5a0')+R(12,0,1,2,'#7ff0c0')},
@@ -1049,6 +1122,7 @@ const ACH = [
  {id:'q5', n:'Cumplidora', d:'Completa 5 misiones diarias', g:'M5', c:'#19d27f', r:40, f:() => S.cnt.qdone >= 5},
  {id:'rich', n:'Alcancía', d:'Junta 500 monedas en total', g:'500', c:'#ffd93b', r:50, f:() => S.cnt.earned >= 500},
  {id:'cuarto5', n:'Decoradora', d:'Pon 5 muebles en tu cuarto', g:'CASA', c:'#0e8b79', r:50, f:() => Object.keys(S.room || {}).length >= 5},
+ {id:'tesoro5', n:'Exploradora', d:'Encuentra 5 tesoros escondidos en el mapa', g:'MAPA', c:'#c85f00', r:50, f:() => Object.keys(S.found || {}).length >= 5},
  {id:'reto1', n:'Contrarreloj', d:'Termina un reto contrarreloj con vidas', g:'20s', c:'#e02a1f', r:50, f:() => S.cnt.reto >= 1},
  {id:'chest5', n:'Cazatesoros', d:'Abre 5 cofres', g:'x5', c:'#b8651f', r:50, f:() => S.cnt.chests >= 5}
 ];
@@ -1478,6 +1552,7 @@ function vAjustes(){
    '<div class="panel stack">'+
     '<div><p class="label">TU NOMBRE (sale en el gatito y en tu tarjeta)</p><input id="nm" class="field" maxlength="18" value="'+esc(S.set.name)+'" placeholder="doctora"></div>'+
     '<div><p class="label">SONIDOS 8 BITS</p><div class="chips">'+chip('snd','1','Activados',S.set.snd)+chip('snd','0','Silencio',!S.set.snd)+'<button class="chip" data-act="testsnd">Probar</button></div></div>'+
+    '<div><p class="label">MÚSICA DE AMBIENTE (EN EL MAPA, EL CUARTO Y LA PORTADA)</p><div class="chips">'+chip('mus','1','Activada',S.set.mus === true)+chip('mus','0','Silencio',S.set.mus !== true)+'</div></div>'+
     '<div><p class="label">VIBRACIÓN</p><div class="chips">'+chip('vib','1','Activada',S.set.vib)+chip('vib','0','Apagada',!S.set.vib)+'</div></div>'+
     '<div><p class="label">CIELO DEL JUEGO</p><div class="chips">'+chip('sky','auto','Según mi hora',!S.set.sky || S.set.sky === 'auto')+chip('sky','dia','Siempre día',S.set.sky === 'dia')+chip('sky','noche','Siempre noche',S.set.sky === 'noche')+'</div></div>'+
     '<div><p class="label">CLIMA (LLUVIA, NIEBLA, HOJAS)</p><div class="chips">'+chip('weather','auto','Automático',S.set.weather !== 'off')+chip('weather','off','Sin clima',S.set.weather === 'off')+'</div><p class="src" style="margin-top:6px">Con racha de 3 días o más siempre hay buen clima.</p></div>'+
@@ -1492,7 +1567,7 @@ function render(){
   sceneSet();
   if(V.name === 'play' && V.timed) runTimer();
   if(V.name === 'tarjeta') cardInit();
-  closeSheet(); if(V.name === 'mapa') mapInit(); applySky(); roomInit();
+  closeSheet(); if(V.name === 'mapa') mapInit(); applySky(); roomInit(); musSync();
   if(V.name === 'result' && !V.dead && V.answeredN && V.ok/V.answeredN >= 0.8) setTimeout(() => { confetti(40); burstAt(document.querySelector('.catbox svg'), 'ok'); }, 300);
   if(V.name === 'result'){
     const el = document.getElementById('xpcount');
@@ -1674,10 +1749,30 @@ const A = {
   },
   maplista: () => { S.set.maplist = !S.set.maplist; save(); render(); },
   wclose: () => closeSheet(),
+  wtre: d => {
+    S.found = S.found || {}; if(S.found[d.id]) return; const v = treVal(d.id); S.found[d.id] = 1; const el = document.querySelector('[data-act=wtre][data-id="'+d.id+'"]');
+    addCoins(v); sfx('coin'); buzz(25); toast((d.id[0] === 'b' ? '¡Mensaje en una botella! ' : '¡Encontraste un tesoro! ')+'+'+v+' monedas'); if(el){ burstAt(el, 'coin'); el.remove(); } save(); checkAch();
+  },
+  wchar: d => {
+    closeSheet(); sfx('click');
+    if(d.k === 'fish'){ charSheet('fish'); return; }
+    const key = 'c|'+d.k; S.mapcat = key; save(); const dur = walkTo(key); setTimeout(() => { if(V.name === 'mapa') charSheet(d.k); }, dur + 80);
+  },
+  crabbuy: d => {
+    const price = d.k === 'i' ? Math.round(ITEMS.find(i => i.id === d.id).p*.7) : Math.round(FURN.find(f => f.id === d.id).p*.7), it = d.k === 'i' ? ITEMS.find(i => i.id === d.id) : FURN.find(f => f.id === d.id);
+    if(!it || S.owned[it.id] || S.crab === fmtD(new Date())) return; if(S.coins < price){ toast('Te faltan monedas'); return; }
+    S.coins -= price; S.owned[it.id] = 1; S.crab = fmtD(new Date()); S.cnt.buys = (S.cnt.buys || 0) + 1;
+    if(d.k === 'i') S.worn[it.slot] = it.id; else { S.room = S.room || {}; S.room[it.slot] = it.id; }
+    save(); sfx('buy'); buzz(30); checkAch(); charSheet('crab'); toast('¡Compraste '+it.n+'!');
+  },
+  fishclaim: () => {
+    const L = S.log.find(l => l.d === fmtD(new Date())); if(S.fish === fmtD(new Date()) || !L || L.n < 10) return;
+    S.fish = fmtD(new Date()); addCoins(20); save(); sfx('coin'); charSheet('fish'); toast('+20 monedas del pez');
+  },
   wnode: d => {
     const i = +d.i, t = temasOf(d.a)[i]; if(!t) return;
     if(!nodeOpen(d.a, i)){ toast('Consigue 1 estrella en el tema anterior para abrir este.'); sfx('bad'); return; }
-    closeSheet(); sfx('click'); const key = d.a+'|'+i; S.mapcat = key; save();
+    closeSheet(); sfx('click'); const key = d.a+'|'+i; S.mapcat = key; save(); musSync();
     const dur = walkTo(key); setTimeout(() => { if(V.name === 'mapa') showSheet(d.a, i); }, dur + 80);
   },
   nivel: d => { const t = temasOf(d.a)[+d.i]; if(!t || !nodeOpen(d.a, +d.i)) return; const ids = nivelIds(d.a, t); startRound(ids, 'practica'); if(V.name === 'play') V.nivel = {a:d.a, t}; },
@@ -1732,6 +1827,7 @@ const A = {
 document.addEventListener('click', e => {
   const t = e.target.closest('[data-act]'); if(!t || t.disabled) return;
   if(!t.classList.contains('opt') && !t.classList.contains('pt') && t.dataset.act !== 'sndtog') sfx('click');
+  if(AC && AC.state === 'suspended' && S.set.mus) AC.resume();
   const f = A[t.dataset.act]; if(f) f(t.dataset);
 });
 document.addEventListener('change', e => { if(e.target.id === 'nm'){ S.set.name = e.target.value.trim().slice(0, 18); save(); } });
