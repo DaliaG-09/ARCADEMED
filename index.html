@@ -411,6 +411,13 @@ body[data-scene=derma]::before{background-image:url("data:image/svg+xml,%3Csvg x
 .orb,.starbg{transform:translateX(calc(var(--px,0)*-5px));transition:transform .25s ease-out}
 .flame{animation:flame .5s steps(2) infinite}
 @keyframes flame{50%{transform:translateY(-2px) scaleY(1.15)}}
+
+/* Mundo D: cuarto */
+.room{border:3px solid var(--ink);border-radius:14px;box-shadow:6px 6px 0 var(--ink);overflow:hidden;line-height:0;background:#fff}
+.room svg{width:100%;height:auto;display:block}
+#rcat{transition:transform 1.8s steps(14);cursor:pointer}
+.item .pv.rv{background:#f4ead2;padding:4px;min-height:0}
+.item .pv.rv svg{width:100%;height:64px}
 </style>
 </head>
 <body>
@@ -705,6 +712,76 @@ function parallaxInit(){
   }
 }
 
+/* ---------- mundo D: cuarto del gatito ---------- */
+const FURN = [
+ {id:'f_pap_menta', n:'Pared menta', tab:'wall', slot:'paper', p:30, d:() => R(0,0,120,52,'#cdf5e1')},
+ {id:'f_pap_rosa', n:'Pared rosa', tab:'wall', slot:'paper', p:30, d:() => R(0,0,120,52,'#ffd3e6')},
+ {id:'f_pap_azul', n:'Pared azul', tab:'wall', slot:'paper', p:30, d:() => R(0,0,120,52,'#cfe6ff')},
+ {id:'f_pap_noche', n:'Pared de noche', tab:'wall', slot:'paper', p:45, d:() => R(0,0,120,52,'#3a3f8f')+[[8,6],[30,22],[44,4],[78,28],[96,8],[112,30],[20,40],[100,44]].map(q => R(q[0],q[1],2,2,'#fff')).join('')},
+ {id:'f_pos_nefro', n:'Póster de riñón', tab:'wall', slot:'wall1', p:30, d:() => R(11,9,16,20,'#14110f')+R(12,10,14,18,'#cfe6ff')+R(16,14,6,3,'#e02a1f')+R(15,17,8,6,'#c01f18')+R(17,23,4,2,'#e02a1f')+R(14,25,10,1,'#1d5fe0')},
+ {id:'f_pos_gastro', n:'Póster de estómago', tab:'wall', slot:'wall1', p:30, d:() => R(11,9,16,20,'#14110f')+R(12,10,14,18,'#ffe3c2')+R(15,13,8,3,'#e8892b')+R(14,16,10,7,'#e8892b')+R(16,23,6,2,'#c8561f')+R(14,26,10,1,'#c85f00')},
+ {id:'f_pos_derma', n:'Póster de flor', tab:'wall', slot:'wall1', p:30, d:() => R(11,9,16,20,'#14110f')+R(12,10,14,18,'#f1deff')+R(17,13,4,4,'#a02ee0')+R(15,15,8,4,'#a02ee0')+R(18,15,2,2,'#ffd93b')+R(18,19,2,6,'#2c8a3c')+R(14,26,10,1,'#a02ee0')},
+ {id:'f_pos_gato', n:'Póster de gatito', tab:'wall', slot:'wall1', p:40, d:() => R(11,9,16,20,'#14110f')+R(12,10,14,18,'#ffd93b')+R(14,15,10,8,'#2a2a2e')+R(14,13,2,2,'#2a2a2e')+R(22,13,2,2,'#2a2a2e')+R(16,18,2,2,'#7ff0c0')+R(20,18,2,2,'#7ff0c0')},
+ {id:'f_reloj', n:'Reloj de pared', tab:'wall', slot:'wall2', p:30, d:() => R(92,10,14,14,'#14110f')+R(93,11,12,12,'#fff')+R(99,12,1,6,'#14110f')+R(99,17,4,1,'#e02a1f')},
+ {id:'f_estante', n:'Estante de libros', tab:'wall', slot:'wall2', p:55, d:() => R(84,22,30,2,'#7a4b24')+R(86,14,3,8,'#e02a1f')+R(89,16,3,6,'#1d5fe0')+R(92,13,3,9,'#19d27f')+R(96,15,3,7,'#ffd93b')+R(100,14,3,8,'#a02ee0')+R(106,18,6,4,'#ff5fa2')},
+ {id:'f_titulo', n:'Título de doctora', tab:'wall', slot:'wall2', p:80, d:() => R(88,10,22,15,'#7a4b24')+R(89,11,20,13,'#fff7d6')+R(91,14,16,1,'#8a8578')+R(91,17,12,1,'#8a8578')+R(104,19,4,4,'#e02a1f')+R(105,20,2,2,'#ffd93b')},
+ {id:'f_cama', n:'Cama', tab:'bed', slot:'bed', p:70, d:() => R(4,64,34,8,'#7a4b24')+R(5,58,32,8,'#fff')+R(6,58,9,5,'#ffd3e6')+R(16,59,20,7,'#4cc3ff')+R(16,59,20,2,'#8fd8ff')+R(4,72,3,3,'#5a3516')+R(35,72,3,3,'#5a3516')},
+ {id:'f_cama_real', n:'Cama real', tab:'bed', slot:'bed', p:140, d:() => R(3,50,3,24,'#ffd93b')+R(36,50,3,24,'#ffd93b')+R(2,48,5,3,'#ffd93b')+R(35,48,5,3,'#ffd93b')+R(4,64,34,8,'#a02ee0')+R(5,58,32,8,'#fff')+R(6,58,9,5,'#ffd93b')+R(16,59,20,7,'#c06bff')+R(16,59,20,2,'#e0b0ff')},
+ {id:'f_alf_roja', n:'Alfombra roja', tab:'rug', slot:'rug', p:40, d:() => R(42,68,40,8,'#e02a1f')+R(44,69,36,6,'#ff7a6a')+R(46,71,32,2,'#e02a1f')},
+ {id:'f_alf_huellas', n:'Alfombra de huellas', tab:'rug', slot:'rug', p:60, d:() => R(42,68,40,8,'#ffd93b')+[[50,70],[58,72],[66,70],[74,72]].map(q => R(q[0],q[1],3,3,'#14110f')+R(q[0]-1,q[1]-2,1,1,'#14110f')+R(q[0]+3,q[1]-2,1,1,'#14110f')).join('')},
+ {id:'f_escritorio', n:'Escritorio', tab:'desk', slot:'desk', p:90, d:() => R(86,48,32,4,'#a06a3a')+R(88,52,3,18,'#8a5530')+R(113,52,3,18,'#8a5530')+R(100,52,12,10,'#8a5530')+R(104,56,4,2,'#ffd93b')+R(92,41,12,7,'#5a5a6a')+R(93,42,10,5,'#8fd8ff')+R(108,42,3,6,'#e02a1f')+R(111,44,3,4,'#19d27f')},
+ {id:'f_lampara', n:'Lámpara amarilla', tab:'light', slot:'lamp', p:35, d:() => R(47,40,2,28,'#5a5a6a')+R(43,67,10,2,'#5a5a6a')+R(42,33,12,8,'#ffd93b')+R(44,31,8,2,'#ffe98a')},
+ {id:'f_lampara_rosa', n:'Lámpara rosa', tab:'light', slot:'lamp', p:35, d:() => R(47,40,2,28,'#5a5a6a')+R(43,67,10,2,'#5a5a6a')+R(42,33,12,8,'#ff5fa2')+R(44,31,8,2,'#ffb0d0')},
+ {id:'f_planta', n:'Planta', tab:'light', slot:'plant', p:25, d:() => R(76,62,8,7,'#c8523a')+R(77,60,6,2,'#a8402a')+R(79,50,2,10,'#2f9e5a')+R(75,52,4,3,'#3fb86d')+R(81,50,4,3,'#3fb86d')+R(77,47,3,3,'#3fb86d')},
+ {id:'f_cactus', n:'Cactus', tab:'light', slot:'plant', p:25, d:() => R(76,62,8,7,'#d98a3a')+R(77,52,5,10,'#3fb86d')+R(74,55,3,2,'#3fb86d')+R(74,52,2,5,'#3fb86d')+R(82,56,3,2,'#3fb86d')+R(84,53,2,5,'#3fb86d')+R(79,50,1,1,'#ff5fa2')},
+ {id:'f_tazon', n:'Tazón de comida', tab:'extra', slot:'bowl', p:20, d:() => R(58,72,12,4,'#e02a1f')+R(59,71,10,1,'#c01f18')+R(60,70,8,1,'#8a5530')},
+ {id:'f_pelota', n:'Pelota de estambre', tab:'extra', slot:'toy', p:15, d:() => R(46,71,6,6,'#ff5fa2')+R(47,72,2,1,'#fff')+R(49,74,3,1,'#c0306f')}
+];
+const FTABS = [['wall','Paredes'],['bed','Cama'],['rug','Alfombra'],['desk','Escritorio'],['light','Luz y plantas'],['extra','Extras']];
+const FPV = {paper:'0 0 40 30', wall1:'8 6 22 26', wall2:'82 8 34 20', bed:'0 46 42 32', rug:'38 64 48 14', desk:'82 36 40 36', lamp:'38 28 20 44', plant:'70 44 22 28', bowl:'54 66 20 12', toy:'42 66 14 14'};
+const ROOM_SPOTS = [{x:22,y:63,m:'sleep',need:'bed'},{x:62,y:74},{x:52,y:68},{x:96,y:74},{x:36,y:75},{x:70,y:76}];
+let RT = 0, RSPOT = -1;
+function roomSvg(){
+  const t = todNow(), night = t === 'night', R_ = S.room || {}, own = id => FURN.find(f => f.id === id);
+  let o = R(0,0,120,52,'#f6ead0');
+  const paper = own(R_.paper); if(paper) o += paper.d();
+  o += R(0,50,120,2,'#8a5530')+R(0,52,120,28,'#c8935a');
+  for(let y = 58; y < 80; y += 8) o += R(0,y,120,1,'#b07a46');
+  [[14,52],[34,60],[60,52],[88,60],[104,68],[24,68]].forEach(q => o += R(q[0],q[1],1,8,'#b07a46'));
+  o += R(47,9,28,26,'#fff')+'<rect x="49" y="11" width="24" height="12" style="fill:var(--sk1)"/><rect x="49" y="23" width="24" height="12" style="fill:var(--sk2)"/>'+R(60,11,1,24,'#fff')+R(49,22,24,1,'#fff')+R(45,35,32,2,'#d9c9a0');
+  o += night ? R(52,14,5,5,'#f4f1d0')+R(65,16,1,1,'#fff')+R(54,26,1,1,'#fff')+R(68,28,1,1,'#fff') : R(64,14,6,6,'#ffd93b');
+  ['wall1','wall2','bed','desk','plant','lamp','rug','bowl','toy'].forEach(sl => { const f = own(R_[sl]); if(f) o += f.d(); });
+  if(night){ o += '<rect width="120" height="80" fill="#0a1040" opacity=".28"/>'; if(R_.lamp) o += '<circle cx="48" cy="40" r="22" fill="#ffe36b" opacity=".3"/>'; }
+  const hasBed = !!R_.bed, mk = m => { const svg = catSvg(m, 1.5, S.worn), h = +(/viewBox="0 -?\d+ 24 (\d+)"/.exec(svg) || [0,0,14])[1], up = +(/viewBox="0 (-?\d+) /.exec(svg) || [0,0])[1]; return svg.replace(/ width="[\d.]+" height="[\d.]+"/, ' width="24" height="'+h+'"').replace('<svg ', '<svg x="-12" y="'+(-h - up)+'" '); };
+  const sp = ROOM_SPOTS[RSPOT >= 0 && (ROOM_SPOTS[RSPOT].need !== 'bed' || hasBed) ? RSPOT : 1];
+  o += '<g id="rcat" data-act="rcat" style="transform:translate('+sp.x+'px,'+sp.y+'px)"><g id="rc-ok" style="'+(sp.m === 'sleep' ? 'display:none' : '')+'">'+mk('ok')+'</g><g id="rc-zz" style="'+(sp.m === 'sleep' ? '' : 'display:none')+'">'+mk('sleep')+'</g></g>';
+  return '<svg viewBox="0 0 120 80" shape-rendering="crispEdges" role="img" aria-label="Cuarto del gatito">'+o+'</svg>';
+}
+function vCuarto(){
+  const tab = V.tab || 'wall', its = FURN.filter(f => f.tab === tab), R_ = S.room || {}, cnt = Object.keys(R_).length;
+  const card = f => {
+    const own = !!S.owned[f.id], on = R_[f.slot] === f.id;
+    const btn = !own ? '<button class="btn small gold" data-act="fbuy" data-id="'+f.id+'" '+(S.coins < f.p ? 'disabled' : '')+'>Comprar '+f.p+'</button>' : on ? '<button class="btn small" data-act="fput" data-id="'+f.id+'">Quitar</button>' : '<button class="btn small gold" data-act="fput" data-id="'+f.id+'">Poner</button>';
+    return '<div class="item"><div class="pv rv"><svg viewBox="'+FPV[f.slot]+'" shape-rendering="crispEdges">'+(f.slot === 'paper' ? '' : R(0,0,120,80,'#f6ead0'))+f.d()+'</svg></div><b>'+esc(f.n)+'</b>'+btn+'</div>';
+  };
+  return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button><span class="grow"></span><span class="coinct" style="font-size:14px">'+COIN+S.coins+'</span></div>'+
+   '<h2 style="font-size:15px">TU CUARTO</h2><p class="src">Compra muebles con tus monedas y ponlos en el cuarto. Toca al gatito. '+cnt+' muebles puestos.</p>'+
+   '<div class="room">'+roomSvg()+'</div>'+
+   '<div class="chips">'+FTABS.map(t => '<button class="chip '+(tab === t[0] ? 'on' : '')+'" data-act="tab" data-v="'+t[0]+'">'+t[1]+'</button>').join('')+'</div>'+
+   '<div class="shopgrid">'+its.map(card).join('')+'</div></div>';
+}
+function roomInit(){
+  clearInterval(RT); if(V.name !== 'cuarto') return;
+  if(REDUCE()) return;
+  RT = setInterval(() => {
+    if(V.name !== 'cuarto'){ clearInterval(RT); return; }
+    const c = document.getElementById('rcat'); if(!c) return;
+    const hasBed = !!(S.room && S.room.bed), opts = ROOM_SPOTS.map((q, i) => i).filter(i => i !== RSPOT && (ROOM_SPOTS[i].need !== 'bed' || hasBed)), i = opts[Math.floor(Math.random()*opts.length)], sp = ROOM_SPOTS[i];
+    RSPOT = i; c.style.transform = 'translate('+sp.x+'px,'+sp.y+'px)';
+    const a = document.getElementById('rc-ok'), z = document.getElementById('rc-zz'); if(a && z){ setTimeout(() => { a.style.display = sp.m === 'sleep' ? 'none' : ''; z.style.display = sp.m === 'sleep' ? '' : 'none'; }, 1800); }
+  }, 4200);
+}
+
 /* ---------- mundo A: mapa-mundo ---------- */
 const WORLD = {HEAD:104, STEP:76, FOOT:120, GAP:130};
 const wr = n => { const x = Math.sin(n*127.1+311.7)*43758.5453; return x - Math.floor(x); };
@@ -971,6 +1048,7 @@ const ACH = [
  {id:'shop5', n:'Coleccionista', d:'Compra 5 objetos en la tienda', g:'5', c:'#ff5fa2', r:40, f:() => S.cnt.buys >= 5},
  {id:'q5', n:'Cumplidora', d:'Completa 5 misiones diarias', g:'M5', c:'#19d27f', r:40, f:() => S.cnt.qdone >= 5},
  {id:'rich', n:'Alcancía', d:'Junta 500 monedas en total', g:'500', c:'#ffd93b', r:50, f:() => S.cnt.earned >= 500},
+ {id:'cuarto5', n:'Decoradora', d:'Pon 5 muebles en tu cuarto', g:'CASA', c:'#0e8b79', r:50, f:() => Object.keys(S.room || {}).length >= 5},
  {id:'reto1', n:'Contrarreloj', d:'Termina un reto contrarreloj con vidas', g:'20s', c:'#e02a1f', r:50, f:() => S.cnt.reto >= 1},
  {id:'chest5', n:'Cazatesoros', d:'Abre 5 cofres', g:'x5', c:'#b8651f', r:50, f:() => S.cnt.chests >= 5}
 ];
@@ -1071,7 +1149,7 @@ function openChest(loot, title){
 }
 const minisHtml = () => '<div><p class="label">TU JUEGO</p><div class="minis">'+MINIS.map(m => '<button class="btn" data-act="'+m[0]+'">'+m[2]+'<span>'+m[1]+'</span></button>').join('')+'</div></div>';
 const ICO_COIN = COIN.replace('width="30" height="30"', 'width="22" height="22"');
-const MINIS = [['tarjeta', 'TARJETA', '<svg viewBox="0 0 12 12" width="22" height="22" shape-rendering="crispEdges"><path fill="#14110f" d="M1 1h10v10H1z"/><path fill="#fff" d="M2 2h8v8H2z"/><path fill="#ff5fa2" d="M3 3h3v3H3z"/><path fill="#14110f" d="M7 3h2v1H7zM7 5h2v1H7zM3 7h6v1H3z"/></svg>'], ['resumen', 'RESUMEN', '<svg viewBox="0 0 12 12" width="22" height="22" shape-rendering="crispEdges"><path fill="#14110f" d="M1 1h1v10h9v1H1z"/><path fill="#ff5fa2" d="M3 7h2v4H3z"/><path fill="#ffd93b" d="M6 4h2v7H6z"/><path fill="#19d27f" d="M9 2h2v9H9z"/></svg>'], ['mapa', 'MAPA', '<svg viewBox="0 0 12 12" width="22" height="22" shape-rendering="crispEdges"><path fill="#14110f" d="M0 2h4l4 1 4-1v9H8L4 11 0 12z"/><path fill="#4fcf7e" d="M1 3h3v7H1zM8 4h3v7H8z"/><path fill="#ffd93b" d="M4 4h4v6H4z"/></svg>'], ['logros', 'LOGROS', '<svg viewBox="0 0 12 12" width="22" height="22" shape-rendering="crispEdges"><path fill="#14110f" d="M2 0h8v1h2v3h-1v2h-2v1H8v1h1v1h1v2H2v-2h1V8h1V7H3V6H1V4H0V1h2z"/><path fill="#ffd93b" d="M3 1h6v4H8v1H4V5H3z"/></svg>'], ['tienda', 'TIENDA', ICO_COIN]];
+const MINIS = [['cuarto', 'CUARTO', '<svg viewBox="0 0 12 12" width="22" height="22" shape-rendering="crispEdges"><path fill="#14110f" d="M1 1h10v10H1z"/><path fill="#ffd3e6" d="M2 2h8v5H2z"/><path fill="#c8935a" d="M2 7h8v3H2z"/><path fill="#8fd8ff" d="M4 3h3v2H4z"/><path fill="#e02a1f" d="M2 6h3v2H2z"/></svg>'], ['tarjeta', 'TARJETA', '<svg viewBox="0 0 12 12" width="22" height="22" shape-rendering="crispEdges"><path fill="#14110f" d="M1 1h10v10H1z"/><path fill="#fff" d="M2 2h8v8H2z"/><path fill="#ff5fa2" d="M3 3h3v3H3z"/><path fill="#14110f" d="M7 3h2v1H7zM7 5h2v1H7zM3 7h6v1H3z"/></svg>'], ['resumen', 'RESUMEN', '<svg viewBox="0 0 12 12" width="22" height="22" shape-rendering="crispEdges"><path fill="#14110f" d="M1 1h1v10h9v1H1z"/><path fill="#ff5fa2" d="M3 7h2v4H3z"/><path fill="#ffd93b" d="M6 4h2v7H6z"/><path fill="#19d27f" d="M9 2h2v9H9z"/></svg>'], ['mapa', 'MAPA', '<svg viewBox="0 0 12 12" width="22" height="22" shape-rendering="crispEdges"><path fill="#14110f" d="M0 2h4l4 1 4-1v9H8L4 11 0 12z"/><path fill="#4fcf7e" d="M1 3h3v7H1zM8 4h3v7H8z"/><path fill="#ffd93b" d="M4 4h4v6H4z"/></svg>'], ['logros', 'LOGROS', '<svg viewBox="0 0 12 12" width="22" height="22" shape-rendering="crispEdges"><path fill="#14110f" d="M2 0h8v1h2v3h-1v2h-2v1H8v1h1v1h1v2H2v-2h1V8h1V7H3V6H1V4H0V1h2z"/><path fill="#ffd93b" d="M3 1h6v4H8v1H4V5H3z"/></svg>'], ['tienda', 'TIENDA', ICO_COIN]];
 function questsHtml(){
   ensureQuests(); const Q = S.quests, all = Q.list.every(q => q.c);
   const rows = Q.list.map((q, i) => '<div class="qrow"><div class="grow"><div class="qt">'+esc(q.tx)+'</div>'+segs(q.p/q.g, Math.min(q.g, 10))+'<span class="src">'+q.p+' / '+q.g+'</span></div>'+
@@ -1408,13 +1486,13 @@ function vAjustes(){
 }
 
 function render(){
-  const f = {home:vHome, setup:vSetup, play:vPlay, result:vResult, cards:vCards, backup:vBackup, import:vImport, ajustes:vAjustes, logros:vLogros, tienda:vTienda, mapa:vMapa, resumen:vResumen, tarjeta:vTarjeta}[V.name];
+  const f = {home:vHome, setup:vSetup, play:vPlay, result:vResult, cards:vCards, backup:vBackup, import:vImport, ajustes:vAjustes, logros:vLogros, tienda:vTienda, mapa:vMapa, resumen:vResumen, tarjeta:vTarjeta, cuarto:vCuarto}[V.name];
   document.getElementById('app').innerHTML = f();
   if(V.name === 'home'){ initHero(); parallaxInit(); }
   sceneSet();
   if(V.name === 'play' && V.timed) runTimer();
   if(V.name === 'tarjeta') cardInit();
-  closeSheet(); if(V.name === 'mapa') mapInit(); applySky();
+  closeSheet(); if(V.name === 'mapa') mapInit(); applySky(); roomInit();
   if(V.name === 'result' && !V.dead && V.answeredN && V.ok/V.answeredN >= 0.8) setTimeout(() => { confetti(40); burstAt(document.querySelector('.catbox svg'), 'ok'); }, 300);
   if(V.name === 'result'){
     const el = document.getElementById('xpcount');
@@ -1555,6 +1633,19 @@ const A = {
   backup: () => go({name:'backup'}),
   ajustes: () => go({name:'ajustes'}),
   logros: () => go({name:'logros'}),
+  cuarto: () => go({name:'cuarto', tab:'wall'}),
+  rcat: () => { const c = document.getElementById('rcat'); if(c){ sfx('ok'); burstAt(c, 'heart'); } },
+  fbuy: d => {
+    const f = FURN.find(x => x.id === d.id); if(!f || S.owned[f.id]) return;
+    if(S.coins < f.p){ toast('Te faltan '+(f.p - S.coins)+' monedas'); return; }
+    S.coins -= f.p; S.owned[f.id] = 1; S.room = S.room || {}; S.room[f.slot] = f.id; S.cnt.buys = (S.cnt.buys || 0) + 1;
+    save(); sfx('buy'); buzz(30); checkAch(); render();
+  },
+  fput: d => {
+    const f = FURN.find(x => x.id === d.id); if(!f || !S.owned[f.id]) return; S.room = S.room || {};
+    if(S.room[f.slot] === f.id) delete S.room[f.slot]; else S.room[f.slot] = f.id;
+    save(); sfx('click'); checkAch(); render();
+  },
   resumen: () => go({name:'resumen'}),
   tarjeta: () => go({name:'tarjeta'}),
   sharecard: async () => {
