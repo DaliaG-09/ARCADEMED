@@ -228,6 +228,16 @@ h1,h2,h3{font-weight:400;line-height:1.55;letter-spacing:0}
 @keyframes boxpop{from{transform:scale(.4) rotate(-6deg);opacity:0}}
 .conf{position:fixed;top:-14px;width:10px;height:10px;z-index:41;pointer-events:none;animation:confall var(--t) linear var(--d) forwards}
 @keyframes confall{to{transform:translate(var(--x),105vh) rotate(540deg)}}
+
+/* Fase 1: ajustes, monedas, sonido */
+.coinct{display:inline-flex;align-items:center;gap:5px;font-family:var(--display);font-size:11px}
+.coinct svg{width:18px;height:18px}
+.sndbtn{position:absolute;top:8px;right:8px;z-index:5;background:#fff;border:3px solid var(--ink);border-radius:10px;padding:4px 6px;box-shadow:3px 3px 0 var(--ink);line-height:0}
+.sndbtn.off .wave{display:none}
+.sndbtn:not(.off) .x{display:none}
+.sndbtn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.field{width:100%;background:#fff;border:3px solid var(--ink);border-radius:12px;padding:10px 12px;font:600 16px var(--body)}
+.chip.lock{opacity:.55}
 </style>
 </head>
 <body>
@@ -244,9 +254,10 @@ const RANKS = ['Ciclo básico','Internado','Residente','Asistente','Jefe de serv
 
 /* ---------- estado y guardado ---------- */
 let mem = null;
-function fresh(){ return {xp:0, days:[], q:{}, c:{}, custom:{preguntas:[], tarjetas:[]}}; }
+function fresh(){ return {xp:0, days:[], q:{}, c:{}, custom:{preguntas:[], tarjetas:[]}, coins:0, set:{snd:false, vib:true, theme:'sol', name:''}, owned:{}, worn:{}, ach:{}, quests:null, stars:{}, bosses:{}, log:[], cnt:{ok:0, n:0, rounds:0, rcok:0, best:0, chests:0, boss:0, wins:0}}; }
+function norm(o){ const f = fresh(), r = Object.assign(f, o); r.set = Object.assign(fresh().set, o && o.set); r.cnt = Object.assign(fresh().cnt, o && o.cnt); return r; }
 function load(){
-  try{ const r = localStorage.getItem(KEY); if(r){ const o = JSON.parse(r); return Object.assign(fresh(), o); } }catch(e){}
+  try{ const r = localStorage.getItem(KEY); if(r){ const o = JSON.parse(r); return norm(o); } }catch(e){}
   return mem || fresh();
 }
 let S = load();
@@ -327,9 +338,41 @@ const dueCards = () => allC().filter(c => !S.c[c.id] || S.c[c.id].due <= Date.no
 
 /* ---------- navegación ---------- */
 
+/* ---------- fase 1: sonido 8 bits, vibración, estilos de color, monedas ---------- */
+let AC = null;
+const SFX = {
+  ok:[[660,0,.07],[880,.07,.13]], bad:[[233,0,.12],[175,.12,.22]], coin:[[988,0,.06],[1319,.06,.14]], click:[[520,0,.035]],
+  lvl:[[523,0,.1],[659,.1,.1],[784,.2,.1],[1047,.3,.35]], chest:[[392,0,.08],[523,.08,.08],[659,.16,.08],[784,.24,.08],[1047,.32,.3]],
+  ach:[[784,0,.09],[988,.09,.09],[1175,.18,.28]], start:[[392,0,.07],[523,.07,.07],[659,.14,.16]], win:[[523,0,.1],[523,.12,.1],[523,.24,.1],[698,.36,.3]],
+  buy:[[880,0,.05],[1175,.05,.05],[1568,.1,.14]], tick:[[1200,0,.03]], boss:[[196,0,.14],[196,.16,.14],[233,.32,.3]]
+};
+function sfx(n){
+  if(!S.set.snd) return;
+  try{
+    AC = AC || new (window.AudioContext || window.webkitAudioContext)(); if(AC.state === 'suspended') AC.resume();
+    const t = AC.currentTime;
+    (SFX[n] || []).forEach(([f, d0, d]) => {
+      const o = AC.createOscillator(), g = AC.createGain(); o.type = 'square'; o.frequency.value = f;
+      g.gain.setValueAtTime(.06, t+d0); g.gain.exponentialRampToValueAtTime(.0008, t+d0+d);
+      o.connect(g); g.connect(AC.destination); o.start(t+d0); o.stop(t+d0+d+.02);
+    });
+  }catch(e){}
+}
+function buzz(p){ if(S.set.vib && navigator.vibrate){ try{ navigator.vibrate(p); }catch(e){} } }
+const THEMES = {sol:['Sol','#ffd93b','#ff5fa2'], menta:['Menta','#7ff0c0','#ff5fa2'], galaxia:['Galaxia','#b8a2ff','#ffd93b'], chicle:['Chicle','#ff9ec7','#ffd93b']};
+function applyTheme(){
+  const t = THEMES[S.set.theme] || THEMES.sol, r = document.documentElement.style;
+  r.setProperty('--bg', t[1]); r.setProperty('--pink', t[2]);
+  const m = document.querySelector('meta[name=theme-color]'); if(m) m.setAttribute('content', t[1]);
+}
+const ownsTheme = id => id === 'sol' || !!S.owned['th_'+id];
+const addCoins = n => { S.coins = (S.coins || 0) + n; };
+const playerName = () => S.set.name || 'doctora';
+
 /* ---------- vida arcade: efectos, portada con gatito, nivel arriba ---------- */
 const REDUCE = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 function burstAt(el, kind){
+  if(kind === 'coin') sfx('coin');
   if(REDUCE() || !el) return;
   const r = el.getBoundingClientRect(), cx = r.left + r.width/2, cy = r.top + r.height/2;
   const cols = {heart:['#ff5fa2','#ff8fb1','#fff'], coin:['#ffd93b','#fff3a0','#14110f'], ok:['#ffd93b','#ff5fa2','#19d27f','#fff'], bad:['#4cc3ff','#8fd8ff']}[kind] || ['#ffd93b'];
@@ -362,12 +405,13 @@ function levelUp(l){
   if(document.getElementById('lvlup')) return;
   const d = document.createElement('div'); d.id = 'lvlup'; d.className = 'lvlup';
   d.innerHTML = '<div class="lvbox"><p class="label">¡SUBISTE DE NIVEL!</p><div class="big">NIVEL '+l+'</div><p class="rk">'+esc(RANKS[Math.min(l-1, RANKS.length-1)])+'</p><div style="display:flex;justify-content:center">'+catSvg('ok', 9)+'</div></div>';
-  document.body.appendChild(d); confetti(70);
+  document.body.appendChild(d); confetti(70); sfx('lvl'); buzz([60,40,60,40,120]);
   const close = () => { d.classList.add('out'); setTimeout(() => d.remove(), 380); document.removeEventListener('pointerdown', close, true); };
   document.addEventListener('pointerdown', close, true); setTimeout(close, 3000);
 }
-const chkLevel = before => { const l = level(S.xp); if(l > before) setTimeout(() => levelUp(l), 300); };
+const chkLevel = before => { const l = level(S.xp); if(l > before){ addCoins(25*(l-before)); save(); setTimeout(() => levelUp(l), 300); } };
 function afterPick(ok, xp){
+  if(ok){ sfx('ok'); buzz(15); } else { sfx('bad'); buzz([50,40,50]); }
   const cat = document.querySelector('.fb .catbox svg'), h = document.querySelector('.fb h3');
   if(cat) burstAt(cat, ok ? 'ok' : 'bad');
   if(ok && h){ floatText(h, '+'+xp+' XP'); if(V.combo >= 3) setTimeout(() => floatText(h, 'COMBO x'+V.combo, 'combo'), 250); }
@@ -378,16 +422,17 @@ function petState(){
   const last = S.days.length ? S.days[S.days.length-1] : null;
   let gap = 0; if(last){ gap = Math.round((new Date(today()+'T00:00:00') - new Date(last+'T00:00:00'))/864e5); }
   const st = dayStreak();
-  if(!S.xp) return {mood:'ok', cls:'idle', msg:'¡Hola, doctora! Elige un modo y empezamos.'};
+  if(!S.xp) return {mood:'ok', cls:'idle', msg:'¡Hola, '+playerName()+'! Elige un modo y empezamos.'};
   if(gap >= 2 && !PET.awake) return {mood:'sleep', cls:'sleep', msg:'Zzz... tócame para despertarme.'};
   if(st >= 3) return {mood:'ok', cls:'party', msg:'¡Racha de '+st+' días! ¡Purr-fecto!'};
   return {mood:'ok', cls:'idle', msg: gap === 0 ? '¡Hoy ya estudiaste! ¿Una más?' : '¡Hoy toca estudiar!'};
 }
 const COIN = '<svg viewBox="0 0 8 8" width="30" height="30" shape-rendering="crispEdges"><path fill="#14110f" d="M2 0h4v1h1v1h1v4H7v1H6v1H2V7H1V6H0V2h1V1h1z"/><path fill="#ffd93b" d="M2 1h4v1h1v4H6v1H2V6H1V2h1z"/><path fill="#fff3a0" d="M2 2h1v1H2z"/><path fill="#c98f00" d="M4 2h1v4H4z"/></svg>';
+const SPK = '<svg viewBox="0 0 12 10" width="24" height="20" shape-rendering="crispEdges"><path fill="#14110f" d="M1 3h2l3-3v10L3 7H1z"/><path class="wave" fill="#14110f" d="M7 3h1v4H7zM9 1h1v8H9z"/><path class="x" fill="#e02a1f" d="M8 3h1v1H8zM9 4h1v1H9zM10 5h1v1h-1zM9 6h1v1H9zM8 7h1v1H8zM10 3h1v1h-1zM10 7h1v1h-1z"/></svg>';
 const CLOUD = '<svg viewBox="0 0 12 5" width="72" height="30" shape-rendering="crispEdges"><path fill="#fff" d="M2 2h2V1h3v1h1V1h2v1h1v2H1V3h1z M3 0h2v1H3z"/></svg>';
 function heroHtml(){
   const st = petState(), say = PET.say || st.msg; PET.say = null;
-  return '<div class="hero" id="hero">'+
+  return '<div class="hero" id="hero">'+'<button class="sndbtn '+(S.set.snd ? '' : 'off')+'" data-act="sndtog" aria-label="Sonido">'+SPK+'</button>'+
     '<span class="cloud" style="top:44px">'+CLOUD+'</span><span class="cloud c2" style="top:78px;transform:scale(.7)">'+CLOUD+'</span>'+
     '<button class="coin" aria-label="Moneda decorativa" style="left:62%;top:50px;animation-delay:-.4s">'+COIN+'</button>'+
     '<button class="coin" aria-label="Moneda decorativa" style="left:80%;top:96px;animation-delay:-1.3s">'+COIN+'</button>'+
@@ -459,7 +504,7 @@ function vHome(){
   }).join('');
   return '<div class="stack">'+
     '<header><h1 class="logo">Arcade<span class="six">Med</span></h1><p class="sub">Continua 6 · Nefrología · Gastroenterología · Dermatología</p></header>'+heroHtml()+
-    '<div class="panel"><div class="row"><span class="lvl">NIVEL '+lv+'</span><span class="grow" style="font-weight:600">'+RANKS[Math.min(lv-1, RANKS.length-1)]+'</span><span class="src">'+(S.xp-cur)+' / '+(nxt-cur)+' XP</span></div>'+
+    '<div class="panel"><div class="row"><span class="lvl">NIVEL '+lv+'</span><span class="grow" style="font-weight:600">'+RANKS[Math.min(lv-1, RANKS.length-1)]+'</span><span class="coinct">'+COIN+S.coins+'</span><span class="src">'+(S.xp-cur)+' / '+(nxt-cur)+' XP</span></div>'+
     segs(pct, 20, 'anim')+
     '<div class="stats"><div><b>'+S.xp+'</b><span>XP total</span></div><div><b>'+dayStreak()+'</b><span>días de racha</span></div><div><b>'+dom+'/'+qs.length+'</b><span>dominadas</span></div></div></div>'+
     '<div><p class="label">MODOS <span class="press">&gt; PRESS START</span></p><div class="actions">'+
@@ -471,7 +516,7 @@ function vHome(){
     '</div></div>'+
     '<div><p class="label">MUNDOS</p><div class="worlds">'+worlds+'</div></div>'+
     '<p class="src">Has visto '+vistas+' de '+qs.length+' preguntas. Las preguntas con * al final tienen un dato corregido porque el PPT lo trae mal; al responder te explico qué cambió.</p>'+
-    '<div class="foot"><button class="btn small ghost" data-act="backup">Respaldo del progreso</button><button class="btn small ghost" data-act="import">Cargar preguntas</button></div>'+
+    '<div class="foot"><button class="btn small" data-act="ajustes">Ajustes</button><button class="btn small ghost" data-act="backup">Respaldo del progreso</button><button class="btn small ghost" data-act="import">Cargar preguntas</button></div>'+
   '</div>';
 }
 
@@ -524,7 +569,7 @@ function rcBody(q){
     '<p class="score">'+fmt(earned)+' / '+fmt(pts)+' puntos</p>';
   if(!V.answered) return h + '<div class="row"><button class="btn gold grow" data-act="rcdone">Confirmar mi puntaje</button></div>';
   const ok = V.rcFrac >= 0.7;
-  return h + '<div class="fb '+(ok ? 'ok' : 'bad')+'">'+catBox(ok ? 'ok' : 'bad', V.catMsg || '')+'<h3>'+(ok ? '¡MUY BIEN! +'+V.lastXp+' XP' : 'PARA REPASAR'+(V.lastXp ? ' · +'+V.lastXp+' XP' : ''))+'</h3>'+
+  return h + '<div class="fb '+(ok ? 'ok' : 'bad')+'">'+catBox(ok ? 'ok' : 'bad', V.catMsg || '')+'<h3>'+(ok ? '¡MUY BIEN! +'+V.lastXp+' XP · +'+V.lastCoin+' monedas' : 'PARA REPASAR'+(V.lastXp ? ' · +'+V.lastXp+' XP' : ''))+'</h3>'+
     (q.explicacion ? '<p>'+nl(q.explicacion)+'</p>' : '')+noteHtml(q)+'</div>'+
     '<div class="row" style="margin-top:14px"><button class="btn gold grow" data-act="next">'+(V.lives <= 0 && V.modo === 'boss' ? 'Ver resultado' : (V.i+1 >= V.ids.length ? 'Terminar ronda' : 'Siguiente'))+'</button></div>';
 }
@@ -542,7 +587,7 @@ function vPlay(){
   let fb = '';
   if(V.answered && !isrc){
     const ok = V.opts[V.picked].ok;
-    fb = '<div class="fb '+(ok ? 'ok' : 'bad')+'">'+catBox(ok ? 'ok' : 'bad', V.catMsg || '')+'<h3>'+(ok ? '¡CORRECTO! +'+V.lastXp+' XP' : 'FALLASTE')+'</h3>'+
+    fb = '<div class="fb '+(ok ? 'ok' : 'bad')+'">'+catBox(ok ? 'ok' : 'bad', V.catMsg || '')+'<h3>'+(ok ? '¡CORRECTO! +'+V.lastXp+' XP · +'+V.lastCoin+' monedas' : 'FALLASTE')+'</h3>'+
       (ok ? '' : '<p class="miss"><b>Dónde fallaste:</b> elegiste «'+esc(V.opts[V.picked].t)+'». '+esc(V.opts[V.picked].por || '')+'</p>')+'<p>'+nl(q.explicacion || '')+'</p>'+
       noteHtml(q)+
       (q.guia ? '<details class="guia"><summary>Lo que dicen las guías</summary><p>'+nl(q.guia.t)+'</p><p class="gsrc">Guía: '+esc(q.guia.f)+'</p></details>' : '')+
@@ -578,7 +623,7 @@ function vResult(){
       '<p class="sub">'+acc+'% de aciertos · mejor combo x'+V.maxCombo+'</p>'+
       (V.hasRC || V.sim ? '<p class="score" style="margin-top:12px">Puntaje: '+fmt(V.earn)+' / '+fmt(V.max)+(V.sim && V.max ? ' · nota '+fmt(V.earn/V.max*20)+' / 20' : '')+'</p>' : '')+
       '<p style="font-family:var(--display);font-size:16px;color:var(--ink);margin:14px 0 4px">+<span id="xpcount" data-t="'+V.xp+'">'+V.xp+'</span> XP</p>'+
-      (V.bonus ? '<p class="src">Incluye bonus de 20 XP por superar 80%.</p>' : '')+
+      '<p class="coinct" style="justify-content:center;margin:2px 0">'+COIN+'+'+(V.coins || 0)+' monedas</p>'+(V.bonus ? '<p class="src">Incluye bonus de 20 XP y 5 monedas por superar 80%.</p>' : '')+
       (lvUp ? '<p class="lvl" style="margin-top:10px">¡SUBISTE AL NIVEL '+level(S.xp)+'!</p>' : '')+
     '</div>'+
     (V.fails.length ? '<div><p class="label">PARA REPASAR ('+V.fails.length+')</p><div class="res-list">'+fails+'</div></div>' : '<p class="sub" style="text-align:center">Ronda limpia, sin falladas.</p>')+
@@ -629,8 +674,20 @@ function vImport(){
    '<div class="row"><button class="btn gold" data-act="doimport">Cargar</button></div></div>';
 }
 
+function vAjustes(){
+  const chip = (k, v, label, on, lock) => '<button class="chip '+(on ? 'on' : '')+(lock ? ' lock' : '')+'" data-act="set" data-k="'+k+'" data-v="'+esc(v)+'">'+esc(label)+'</button>';
+  return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button></div>'+
+   '<h2 style="font-size:15px">AJUSTES</h2>'+
+   '<div class="panel stack">'+
+    '<div><p class="label">TU NOMBRE (sale en el gatito y en tu tarjeta)</p><input id="nm" class="field" maxlength="18" value="'+esc(S.set.name)+'" placeholder="doctora"></div>'+
+    '<div><p class="label">SONIDOS 8 BITS</p><div class="chips">'+chip('snd','1','Activados',S.set.snd)+chip('snd','0','Silencio',!S.set.snd)+'<button class="chip" data-act="testsnd">Probar</button></div></div>'+
+    '<div><p class="label">VIBRACIÓN</p><div class="chips">'+chip('vib','1','Activada',S.set.vib)+chip('vib','0','Apagada',!S.set.vib)+'</div></div>'+
+    '<div><p class="label">ESTILO DE COLOR</p><div class="chips">'+Object.keys(THEMES).map(k => chip('theme', k, THEMES[k][0]+(ownsTheme(k) ? '' : ' (tienda)'), S.set.theme === k, !ownsTheme(k))).join('')+'</div></div>'+
+   '</div></div>';
+}
+
 function render(){
-  const f = {home:vHome, setup:vSetup, play:vPlay, result:vResult, cards:vCards, backup:vBackup, import:vImport}[V.name];
+  const f = {home:vHome, setup:vSetup, play:vPlay, result:vResult, cards:vCards, backup:vBackup, import:vImport, ajustes:vAjustes}[V.name];
   document.getElementById('app').innerHTML = f();
   if(V.name === 'home') initHero();
   if(V.name === 'result' && !V.dead && V.answeredN && V.ok/V.answeredN >= 0.8) setTimeout(() => { confetti(40); burstAt(document.querySelector('.catbox svg'), 'ok'); }, 300);
@@ -647,6 +704,7 @@ function render(){
 function startRound(ids, modo, redo){
   if(!ids.length){ toast('No hay preguntas con ese filtro.'); return; }
   const qs = allQ();
+  sfx('start');
   V = {name:'play', sim:modo === 'sim', earn:0, max:0, hasRC:false, missMap:{}, rcFrac:0, ids, i:0, modo, lives:3, combo:0, maxCombo:0, ok:0, answeredN:0, xp:0, fails:[], answered:false, picked:null, lastXp:0, lvStart:level(S.xp), dead:false, bonus:false};
   V.opts = buildOpts(qs.find(q => q.id === ids[0])); rcReset();
   render(); window.scrollTo(0,0);
@@ -689,13 +747,13 @@ function pick(i){
   const st = S.q[q.id] || {ok:0, bad:0, streak:0};
   if(o.ok){
     st.ok++; st.streak++; V.ok++; V.combo++; V.maxCombo = Math.max(V.maxCombo, V.combo);
-    V.lastXp = 10 + Math.min(V.combo-1, 5)*2;
+    V.lastXp = 10 + Math.min(V.combo-1, 5)*2; V.lastCoin = V.combo >= 3 ? 3 : 2;
   } else {
-    st.bad++; st.streak = 0; V.combo = 0; V.lastXp = 0; V.fails.push(q.id);
+    st.bad++; st.streak = 0; V.combo = 0; V.lastXp = 0; V.lastCoin = 0; V.fails.push(q.id);
     if(V.modo === 'boss') V.lives--;
   }
   V.catMsg = o.ok ? (V.combo >= 3 ? '¡Racha de '+V.combo+'! ¡Miau-gnífico!' : catPick(CAT_OK)) : (V.modo === 'boss' && V.lives <= 0 ? 'Se acabaron las vidas... ¡a la revancha!' : catPick(CAT_BAD));
-  S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; markDay(); save(); render(); afterPick(o.ok, V.lastXp); chkLevel(lv0);
+  S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; addCoins(V.lastCoin); V.coins = (V.coins || 0) + V.lastCoin; markDay(); save(); render(); afterPick(o.ok, V.lastXp); chkLevel(lv0);
 }
 function next(){
   const lv0 = level(S.xp);
@@ -703,7 +761,7 @@ function next(){
   if(over){
     V.dead = V.modo === 'boss' && V.lives <= 0;
     const acc = V.ok / Math.max(1, V.answeredN);
-    if(!V.dead && V.answeredN >= 5 && acc >= 0.8){ S.xp += 20; V.xp += 20; V.bonus = true; save(); }
+    if(!V.dead && V.answeredN >= 5 && acc >= 0.8){ S.xp += 20; V.xp += 20; V.bonus = true; addCoins(5); V.coins = (V.coins || 0) + 5; save(); }
     const keep = V; V = Object.assign({}, keep, {name:'result'}); render(); window.scrollTo(0,0); chkLevel(lv0); return;
   }
   V.i++; V.answered = false; V.picked = null; rcReset();
@@ -748,11 +806,11 @@ const A = {
     const earned = P.reduce((t, p, i) => t + (V.rc.chk[i] ? p.w : 0), 0), frac = pts ? earned/pts : 0, ok = frac >= 0.7;
     V.answered = true; V.answeredN++; V.earn += earned; V.max += pts; V.hasRC = true; V.rcFrac = frac;
     const st = S.q[q.id] || {ok:0, bad:0, streak:0};
-    if(ok){ st.ok++; st.streak++; V.ok++; V.combo++; V.maxCombo = Math.max(V.maxCombo, V.combo); V.lastXp = 10 + Math.min(V.combo-1, 5)*2; }
-    else { st.bad++; st.streak = 0; V.combo = 0; V.lastXp = Math.round(6*frac); V.fails.push(q.id); if(V.modo === 'boss' && frac < 0.5) V.lives--; }
+    if(ok){ st.ok++; st.streak++; V.ok++; V.combo++; V.maxCombo = Math.max(V.maxCombo, V.combo); V.lastXp = 10 + Math.min(V.combo-1, 5)*2; V.lastCoin = V.combo >= 3 ? 4 : 3; }
+    else { st.bad++; st.streak = 0; V.combo = 0; V.lastXp = Math.round(6*frac); V.lastCoin = 0; V.fails.push(q.id); if(V.modo === 'boss' && frac < 0.5) V.lives--; }
     st.miss = P.map((p, i) => V.rc.chk[i] ? -1 : i).filter(i => i >= 0); V.missMap[q.id] = st.miss;
     V.catMsg = ok ? (V.combo >= 3 ? '¡Racha de '+V.combo+'! ¡Miau-gnífico!' : catPick(CAT_OK)) : catPick(CAT_BAD);
-    S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; markDay(); save(); render(); afterPick(ok, V.lastXp); chkLevel(lv0);
+    S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; addCoins(V.lastCoin); V.coins = (V.coins || 0) + V.lastCoin; markDay(); save(); render(); afterPick(ok, V.lastXp); chkLevel(lv0);
   },
   pick: d => pick(+d.i),
   next: () => next(),
@@ -763,10 +821,14 @@ const A = {
   flip: () => { V.flipped = !V.flipped; render(); },
   rate: d => rate(d.r),
   backup: () => go({name:'backup'}),
+  ajustes: () => go({name:'ajustes'}),
+  set: d => { if(d.k === 'theme' && !ownsTheme(d.v)){ toast('Se compra en la tienda'); return; } S.set[d.k] = (d.v === '1' ? true : d.v === '0' ? false : d.v); save(); applyTheme(); render(); if(d.k === 'snd' && S.set.snd) sfx('ok'); },
+  testsnd: () => { const w = S.set.snd; S.set.snd = true; sfx('lvl'); buzz(60); S.set.snd = w; },
+  sndtog: d => { S.set.snd = !S.set.snd; save(); const b = document.querySelector('.sndbtn'); if(b) b.classList.toggle('off', !S.set.snd); if(S.set.snd) sfx('ok'); },
   import: () => go({name:'import'}),
   copybk: () => { const t = document.getElementById('bk'); t.select(); try{ navigator.clipboard.writeText(t.value).then(() => toast('Código copiado'), () => toast('Selecciona el texto y cópialo a mano')); }catch(e){ toast('Selecciona el texto y cópialo a mano'); } },
   restore: () => {
-    try{ const o = JSON.parse(document.getElementById('bkin').value); if(typeof o.xp !== 'number' || !o.q) throw 0; S = Object.assign(fresh(), o); save(); toast('Progreso restaurado'); go({name:'home'}); }
+    try{ const o = JSON.parse(document.getElementById('bkin').value); if(typeof o.xp !== 'number' || !o.q) throw 0; S = norm(o); save(); applyTheme(); toast('Progreso restaurado'); go({name:'home'}); }
     catch(e){ toast('Ese código no es válido'); }
   },
   doimport: () => {
@@ -791,8 +853,10 @@ const A = {
 };
 document.addEventListener('click', e => {
   const t = e.target.closest('[data-act]'); if(!t || t.disabled) return;
+  if(!t.classList.contains('opt') && !t.classList.contains('pt') && t.dataset.act !== 'sndtog') sfx('click');
   const f = A[t.dataset.act]; if(f) f(t.dataset);
 });
+document.addEventListener('change', e => { if(e.target.id === 'nm'){ S.set.name = e.target.value.trim().slice(0, 18); save(); } });
 document.addEventListener('keydown', e => {
   if(e.target.tagName === 'TEXTAREA') return;
   if(V.name === 'play'){
@@ -817,6 +881,7 @@ async function cargarDatos(){
   }catch(e){ errorCarga = true; }
   cargando = false; if(V.name === 'home') render();
 }
+applyTheme();
 render();
 cargarDatos();
 if('serviceWorker' in navigator){ window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => {}); }); }
