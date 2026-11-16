@@ -29,6 +29,7 @@
 html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:16px;line-height:1.5}
 body{min-height:100%;background:radial-gradient(rgba(20,17,15,.13) 1.6px, transparent 1.8px) 0 0/22px 22px, var(--bg)}
 #app{max-width:720px;margin:0 auto;padding:22px 16px 72px}
+#app.wide{max-width:1500px}
 h1,h2,h3{margin:0;font-family:var(--display);font-weight:800;line-height:1.1;text-wrap:balance;text-transform:uppercase;letter-spacing:-.01em}
 button{font:inherit;color:inherit;cursor:pointer}
 button:focus-visible,input:focus-visible,textarea:focus-visible{outline:4px solid var(--ink);outline-offset:3px}
@@ -336,8 +337,8 @@ h1,h2,h3{font-weight:400;line-height:1.55;letter-spacing:0}
 .kpis span{font-size:12px;font-weight:700}
 
 /* Mundo A: mapa-mundo */
-.world{border:3px solid var(--ink);border-radius:16px;box-shadow:6px 6px 0 var(--ink);overflow:hidden;background:#4cc3ff;line-height:0}
-.world svg{width:100%;height:auto;display:block}
+.wmap{border:3px solid var(--ink);border-radius:16px;box-shadow:6px 6px 0 var(--ink);overflow:hidden;background:#4cc3ff;line-height:0}
+.wmap svg{width:100%;height:auto;display:block}
 .wt{font-family:var(--display);font-weight:400}
 .wnode{cursor:pointer}.wnode:focus{outline:none}
 .wnode:active rect.wn{transform:translate(2px,2px)}
@@ -349,10 +350,10 @@ h1,h2,h3{font-weight:400;line-height:1.55;letter-spacing:0}
 @keyframes wwave{from{transform:translateX(-9px)}to{transform:translateX(9px)}}
 .wcloud{animation:wcloud 70s linear infinite}
 .wcloud.b{animation-duration:95s;animation-delay:-40s}.wcloud.c{animation-duration:55s;animation-delay:-20s}
-@keyframes wcloud{from{transform:translateX(-140px)}to{transform:translateX(520px)}}
+@keyframes wcloud{from{transform:translateX(-140px)}to{transform:translateX(var(--cw,520px))}}
 .wboat{animation:wboat 38s linear infinite}
 .wboat.b{animation-duration:52s;animation-delay:-22s}
-@keyframes wboat{0%{transform:translateX(-60px)}50%{transform:translateX(430px)}100%{transform:translateX(-60px)}}
+@keyframes wboat{0%{transform:translateX(-60px)}50%{transform:translateX(var(--bw,430px))}100%{transform:translateX(-60px)}}
 .wboat i,.wboat .bob{animation:wbob 2.2s ease-in-out infinite alternate}
 @keyframes wbob{from{transform:translateY(0)}to{transform:translateY(3px)}}
 .wfish{opacity:0;animation:wfish 7s ease-in-out infinite}
@@ -395,8 +396,8 @@ html[data-tod=night]{--sk1:#141d4a;--sk2:#34408f;--gr1:#2c7a52;--gr2:#236444;--s
 @keyframes wxleaf{to{background-position:90px 90px}}
 .wx.fog{background:linear-gradient(90deg,rgba(255,255,255,.0),rgba(255,255,255,.35) 30%,rgba(255,255,255,.0) 60%,rgba(255,255,255,.3) 85%,rgba(255,255,255,0));background-size:200% 100%;animation:wxfog 18s linear infinite}
 @keyframes wxfog{to{background-position:200% 0}}
-.world{position:relative;overflow:clip!important}
-.world .wx{position:sticky;top:0;height:100vh;margin-bottom:-100vh;inset:auto}
+.wmap{position:relative;overflow:clip!important}
+.wmap .wx{position:sticky;top:0;height:100vh;margin-bottom:-100vh;inset:auto}
 .fw{position:absolute;inset:0;pointer-events:none;z-index:2}
 .fw i{position:absolute;width:4px;height:4px;background:#fff;animation:fwb 2.6s ease-out infinite;box-shadow:0 -22px #ffd93b,16px -16px #ff5fa2,22px 0 #4cc3ff,16px 16px #19d27f,0 22px #ffd93b,-16px 16px #ff5fa2,-22px 0 #4cc3ff,-16px -16px #19d27f}
 @keyframes fwb{0%{transform:scale(.1);opacity:1}70%{transform:scale(1);opacity:1}100%{transform:scale(1.25);opacity:0}}
@@ -801,12 +802,12 @@ const FISHC = '<g>'+R(-7,-3,12,7,'#ff8c3a')+R(5,-5,4,11,'#ff8c3a')+R(-5,-5,6,2,'
 const CHARS = {crab:{n:'Cangrejo vendedor', svg:CRAB}, owl:{n:'Búho sabio', svg:OWL}, fish:{n:'Pez de misiones', svg:FISHC}};
 function worldChars(W){
   const a = W.isl[0], b = W.isl[1] || W.isl[0], g = a.y0 + a.h + WORLD.GAP/2;
-  return {crab:{x:306, y:a.y0 + WORLD.HEAD + 150}, owl:{x:52, y:b.y0 + WORLD.HEAD + 230}, fish:{x:180, y:g + 4}};
+  return {crab:{x:306 + a.xo, y:a.y0 + WORLD.HEAD + 150}, owl:{x:52 + b.xo, y:b.y0 + WORLD.HEAD + 230}, fish:W.wide ? {x:344, y:520} : {x:180, y:g + 4}};
 }
 function worldTreasures(W){
   const out = [];
-  W.isl.forEach(is => { const span = is.T.length*WORLD.STEP; for(let j = 0; j < 4; j++) out.push({id:'t'+is.k+j, x:j % 2 ? 60 : 300, y:Math.round(is.y0 + WORLD.HEAD + 20 + (j + .55)*span/4 + wr(is.k*4 + j)*14)}); });
-  for(let k = 0; k < W.isl.length - 1; k++){ const is = W.isl[k]; out.push({id:'b'+k, x:Math.round(70 + wr(k + 40)*220), y:is.y0 + is.h + WORLD.GAP/2 + 28, bottle:true}); }
+  W.isl.forEach(is => { const span = is.T.length*WORLD.STEP; for(let j = 0; j < 4; j++) out.push({id:'t'+is.k+j, x:(j % 2 ? 60 : 300) + is.xo, y:Math.round(is.y0 + WORLD.HEAD + 20 + (j + .55)*span/4 + wr(is.k*4 + j)*14)}); });
+  for(let k = 0; k < W.isl.length - 1; k++){ const is = W.isl[k]; out.push(W.wide ? {id:'b'+k, x:is.xo + 344, y:Math.round(260 + wr(k + 40)*500), bottle:true} : {id:'b'+k, x:Math.round(70 + wr(k + 40)*220), y:is.y0 + is.h + WORLD.GAP/2 + 28, bottle:true}); }
   return out;
 }
 const treVal = id => 10 + 10*Math.floor(wr(id.split('').reduce((n, c) => n + c.charCodeAt(0), 0))*3);
@@ -851,20 +852,22 @@ function musSync(){
   MUS.id = setInterval(() => { try{ if(AC.state !== 'running') return; const t = AC.currentTime, i = MUS.i++ % seq.length; mnote(sc[seq[i]], t, .55, .03, 'triangle'); if(i % 4 === 0) mnote(sc[0]/2, t, 1.2, .04, 'sine'); }catch(e){} }, 380);
 }
 document.addEventListener('visibilitychange', () => musSync());
+let WIDEWAS = null; addEventListener('resize', () => { const w = isWide(); if(WIDEWAS !== null && w !== WIDEWAS && V.name === 'mapa' && !S.set.maplist) render(); WIDEWAS = w; });
 
 /* ---------- mundo A: mapa-mundo ---------- */
 const WORLD = {HEAD:104, STEP:76, FOOT:120, GAP:130};
 const wr = n => { const x = Math.sin(n*127.1+311.7)*43758.5453; return x - Math.floor(x); };
 const ARC = {nefro:'#1d5fe0', gastro:'#c85f00', derma:'#a02ee0'};
 const ISLE = {nefro:['#7fd1a0','#e9d9a0'], gastro:['#d8905a','#c9b48a'], derma:['#8ad46a','#f0d9a0']};
+const isWide = () => innerWidth >= 900;
 function worldLayout(){
-  let y = 24; const isl = [];
+  const wide = isWide(); let y = 24, mh = 0; const isl = [];
   AREAS.forEach((ar, k) => {
-    const T = temasOf(ar.id), h = WORLD.HEAD + T.length*WORLD.STEP + WORLD.FOOT;
-    isl.push({a:ar.id, ar, k, y0:y, h, T, nodes:T.map((t, i) => ({x:Math.round(180 + 90*Math.sin(i*1.05 + k*1.7)), y:y + WORLD.HEAD + 24 + i*WORLD.STEP}))});
-    y += h + WORLD.GAP;
+    const T = temasOf(ar.id), h = WORLD.HEAD + T.length*WORLD.STEP + WORLD.FOOT, y0 = wide ? 24 : y, xo = wide ? k*360 : 0;
+    isl.push({a:ar.id, ar, k, y0, xo, h, T, nodes:T.map((t, i) => ({x:Math.round(180 + 90*Math.sin(i*1.05 + k*1.7)), y:y0 + WORLD.HEAD + 24 + i*WORLD.STEP}))});
+    y += h + WORLD.GAP; mh = Math.max(mh, h);
   });
-  return {isl, H:y - WORLD.GAP + 30};
+  return wide ? {isl, H:mh + 60, TW:360*AREAS.length, wide} : {isl, H:y - WORLD.GAP + 30, TW:360, wide};
 }
 function islandPath(y0, h, k){
   const L = [], Rr = [], cap = 60;
@@ -896,12 +899,14 @@ function wStar(x, y, on){ return '<polygon transform="translate('+x+','+y+') sca
 const wShort = (t, n) => t.length > n ? t.slice(0, n-1)+'…' : t;
 function worldSvg(){
   const W = worldLayout(), pos = {}; S.seen = S.seen || {}; let newly = false;
-  let o = '<defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--se1)"/><stop offset="1" style="stop-color:var(--se2)"/></linearGradient><linearGradient id="fogg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity=".8"/></linearGradient></defs><rect width="360" height="'+W.H+'" fill="url(#sea)"/>';
-  for(let i = 0; i < W.H/38; i++){ const y = 20 + i*38 + wr(i)*12, x = wr(i*3)*300; o += '<g class="wave '+['','b','c'][i%3]+'"><rect x="'+x+'" y="'+y+'" width="22" height="2" fill="#fff" opacity=".5"/><rect x="'+(x+7)+'" y="'+(y+4)+'" width="14" height="2" fill="#fff" opacity=".35"/></g>'; }
+  const TW = W.TW; let o = '<defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--se1)"/><stop offset="1" style="stop-color:var(--se2)"/></linearGradient><linearGradient id="fogg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity=".8"/></linearGradient></defs><rect width="'+TW+'" height="'+W.H+'" fill="url(#sea)"/>';
+  for(let i = 0; i < W.H/38*(TW/360); i++){ const y = 20 + (i % Math.ceil(W.H/38))*38 + wr(i)*12, x = wr(i*3)*(TW - 60); o += '<g class="wave '+['','b','c'][i%3]+'"><rect x="'+x+'" y="'+y+'" width="22" height="2" fill="#fff" opacity=".5"/><rect x="'+(x+7)+'" y="'+(y+4)+'" width="14" height="2" fill="#fff" opacity=".35"/></g>'; }
   const tod = todNow();
-  if(tod === 'night' || tod === 'dusk'){ for(let i = 0; i < W.H/28; i++) o += '<rect x="'+Math.round(wr(i*2+1)*356)+'" y="'+Math.round(i*28 + wr(i)*20)+'" width="2" height="2" fill="#fff" opacity="'+(.5 + wr(i*5)*.5).toFixed(2)+'"/>'; }
+  if(tod === 'night' || tod === 'dusk'){ for(let i = 0; i < W.H/28*(TW/360); i++) o += '<rect x="'+Math.round(wr(i*2+1)*(TW - 4))+'" y="'+Math.round(i*28 + wr(i)*20)+'" width="2" height="2" fill="#fff" opacity="'+(.5 + wr(i*5)*.5).toFixed(2)+'"/>'; }
   o += wCloud(0, 40, '')+wCloud(40, W.H*.35, 'b')+wCloud(-20, W.H*.62, 'c')+wCloud(10, W.H*.86, 'b');
+  if(W.wide) o += wCloud(300, 120, 'c')+wCloud(120, W.H*.5, '')+wCloud(500, W.H*.75, 'b');
   W.isl.forEach(is => {
+    o += '<g transform="translate('+is.xo+',0)">';
     const ar = is.ar, pal = ISLE[ar.id] || ISLE.nefro, d = islandPath(is.y0, is.h, is.k), T = is.T;
     o += '<g transform="translate(4,6)"><path d="'+d+'" fill="#14110f" stroke="#14110f" stroke-width="18" stroke-linejoin="round" opacity=".35"/></g>'+
       '<path d="'+d+'" fill="#14110f" stroke="#14110f" stroke-width="20" stroke-linejoin="round"/><path d="'+d+'" fill="'+pal[1]+'" stroke="'+pal[1]+'" stroke-width="12" stroke-linejoin="round"/><path d="'+d+'" fill="'+pal[0]+'"/>'+wDecor(is);
@@ -914,7 +919,7 @@ function worldSvg(){
     o += '<path d="'+dp+'" fill="none" stroke="#14110f" stroke-width="14" stroke-linecap="round" opacity=".25"/><path d="'+dp+'" fill="none" stroke="#f6e3a8" stroke-width="10" stroke-linecap="round"/><path d="'+dp+'" fill="none" stroke="#c9a45c" stroke-width="2.5" stroke-dasharray="6 7" stroke-linecap="round"/>';
     pts.forEach((q, i) => {
       const t = T[i], op = open[i], st = starsOf(ar.id, t), bd = !!S.bosses[ar.id+'|'+t], bo = bossOk(ar.id, t), key = ar.id+'|'+t;
-      pos[ar.id+'|'+i] = q;
+      pos[ar.id+'|'+i] = {x:q.x + is.xo, y:q.y};
       const gold = st >= 3, right = q.x < 200, label = '<text x="'+(right ? 30 : -30)+'" y="-2" text-anchor="'+(right ? 'start' : 'end')+'" font-family="Courier New,monospace" font-weight="700" font-size="10.5" fill="#14110f" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">'+esc(wShort(t, Math.floor((right ? 340 - q.x - 30 : q.x - 30 - 14)/6.4)))+'</text>'+
         '<text x="'+(right ? 30 : -30)+'" y="11" text-anchor="'+(right ? 'start' : 'end')+'" font-family="Courier New,monospace" font-weight="700" font-size="9" fill="#5a5444" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">'+tq(ar.id, t).length+' preguntas</text>';
       o += '<g class="wnode '+(op ? '' : 'lock')+(op && st === 0 ? ' pulse' : '')+'" data-act="wnode" data-a="'+ar.id+'" data-i="'+i+'" role="button" tabindex="0" aria-label="'+esc(t)+(op ? ', '+st+' de 3 estrellas' : ', bloqueado')+'" transform="translate('+q.x+','+q.y+')">'+
@@ -934,11 +939,13 @@ function worldSvg(){
     const gy = is.y0 + is.h - 92, bs = bossSvg(ARC[ar.id], 1).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '');
     o += '<g transform="translate(180,'+gy+')"><rect x="-58" y="14" width="116" height="40" rx="6" fill="#14110f" opacity=".85"/><rect x="-46" y="10" width="92" height="40" rx="4" fill="#5a5444" stroke="#14110f" stroke-width="3"/><rect x="-12" y="26" width="24" height="24" fill="#14110f"/>'+
       '<svg x="-18" y="-34" width="36" height="36" viewBox="-1 -1 14 14" shape-rendering="crispEdges">'+bs+'</svg><text y="68" text-anchor="middle" class="wt" font-size="8" fill="#14110f" stroke="#fff" stroke-width="3" paint-order="stroke">GUARIDA DE LOS JEFES</text></g>';
+    o += '</g>';
   });
-  if(tod !== 'day') o += '<rect width="360" height="'+W.H+'" fill="'+({night:'#0a1040', dusk:'#ff7a3a', dawn:'#ff9f7a'}[tod])+'" opacity="'+({night:.3, dusk:.14, dawn:.1}[tod])+'" style="pointer-events:none"/>';
-  if(tod === 'night' || tod === 'dusk'){ for(let i = 0; i < 26; i++){ const is = W.isl[i % W.isl.length]; o += '<rect class="ff" style="position:static;animation-delay:'+(-(i%7)*.5)+'s;transform-box:fill-box" x="'+Math.round(40 + wr(i*3)*280)+'" y="'+Math.round(is.y0 + 110 + wr(i*7)*(is.h - 200))+'" width="3" height="3" fill="#ffe36b"/>'; } }
+  if(tod !== 'day') o += '<rect width="'+TW+'" height="'+W.H+'" fill="'+({night:'#0a1040', dusk:'#ff7a3a', dawn:'#ff9f7a'}[tod])+'" opacity="'+({night:.3, dusk:.14, dawn:.1}[tod])+'" style="pointer-events:none"/>';
+  if(tod === 'night' || tod === 'dusk'){ for(let i = 0; i < 26; i++){ const is = W.isl[i % W.isl.length]; o += '<rect class="ff" style="position:static;animation-delay:'+(-(i%7)*.5)+'s;transform-box:fill-box" x="'+Math.round(40 + wr(i*3)*280 + is.xo)+'" y="'+Math.round(is.y0 + 110 + wr(i*7)*(is.h - 200))+'" width="3" height="3" fill="#ffe36b"/>'; } }
   const key = S.mapcat && pos[S.mapcat.replace(/\|(\d+)$/, '|$1')] ? S.mapcat : AREAS[0].id+'|0', cp = pos[key] || {x:180, y:100};
-  o += wBoat(W.isl[0].y0 + W.isl[0].h + 50, '')+wBoat(W.isl[1] ? W.isl[1].y0 + W.isl[1].h + 62 : 400, 'b')+wFish(60, W.isl[0].y0 + W.isl[0].h + 70, '')+wFish(250, W.isl[1] ? W.isl[1].y0 + W.isl[1].h + 84 : 500, 'b');
+  if(W.wide) o += wBoat(W.H*.3, '')+wBoat(W.H*.7, 'b')+wFish(W.isl[1].xo - 20, W.H*.45, '');
+  else o += wBoat(W.isl[0].y0 + W.isl[0].h + 50, '')+wBoat(W.isl[1] ? W.isl[1].y0 + W.isl[1].h + 62 : 400, 'b')+wFish(60, W.isl[0].y0 + W.isl[0].h + 70, '')+wFish(250, W.isl[1] ? W.isl[1].y0 + W.isl[1].h + 84 : 500, 'b');
   S.found = S.found || {};
   worldTreasures(W).forEach(t => { if(S.found[t.id]) return; o += '<g class="wtre" data-act="wtre" data-id="'+t.id+'" transform="translate('+t.x+','+t.y+')" role="button" aria-label="'+(t.bottle ? 'Botella con mensaje' : 'Algo brilla en el suelo')+'"><rect x="-16" y="-16" width="32" height="32" fill="transparent"/><g class="tw">'+(t.bottle ? R(-2,-6,4,3,'#7a4b24')+R(-3,-3,6,8,'#8fe0c8')+R(-1,-1,2,4,'#fff')+R(-2,5,4,1,'#5ab89c') : R(-1,-5,2,10,'#fff8c0')+R(-5,-1,10,2,'#fff8c0')+R(-1,-1,2,2,'#ffd93b'))+'</g></g>'; });
   const CH = worldChars(W); pos['c|crab'] = {x:CH.crab.x - 14, y:CH.crab.y}; pos['c|owl'] = {x:CH.owl.x + 14, y:CH.owl.y};
@@ -947,7 +954,7 @@ function worldSvg(){
   o += '<g id="wcat" style="transform:translate('+cp.x+'px,'+cp.y+'px);pointer-events:none" data-pos="'+key+'"><g class="cb">'+cat+'</g></g>';
   if(newly) setTimeout(save, 0);
   WPOS = pos;
-  return '<svg viewBox="0 0 360 '+W.H+'" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="Mapa del juego">'+o+'</svg>';
+  return '<svg viewBox="0 0 '+TW+' '+W.H+'" style="--cw:'+(TW + 160)+'px;--bw:'+(TW + 70)+'px" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="Mapa del juego">'+o+'</svg>';
 }
 let WPOS = {};
 function vMapa(){
@@ -956,7 +963,7 @@ function vMapa(){
    '<h2 style="font-size:15px">MAPA DEL JUEGO</h2>'+
    '<div class="chips">'+AREAS.map(x => '<button class="chip" data-act="isla" data-v="'+x.id+'">'+esc(x.n)+'</button>').join('')+'</div>'+
    '<p class="src">Toca un tema para que tu gatito camine hasta allí. 1 estrella abre el siguiente tema; con 2 estrellas se abre el jefe.</p>'+
-   '<div class="world">'+wxHtml()+worldSvg()+'</div></div>';
+   '<div class="wmap">'+wxHtml()+worldSvg()+'</div></div>';
 }
 function mapInit(){
   if(V.name !== 'mapa' || S.set.maplist) return;
@@ -1567,6 +1574,7 @@ function render(){
   sceneSet();
   if(V.name === 'play' && V.timed) runTimer();
   if(V.name === 'tarjeta') cardInit();
+  document.getElementById('app').classList.toggle('wide', V.name === 'mapa' && !S.set.maplist && isWide());
   closeSheet(); if(V.name === 'mapa') mapInit(); applySky(); roomInit(); musSync();
   if(V.name === 'result' && !V.dead && V.answeredN && V.ok/V.answeredN >= 0.8) setTimeout(() => { confetti(40); burstAt(document.querySelector('.catbox svg'), 'ok'); }, 300);
   if(V.name === 'result'){
