@@ -357,7 +357,7 @@
   {
    "id": "x-gh-chc1",
    "area": "gastro",
-   "tema": "Hepatocarcinoma",
+   "tema": "Cirrosis hepática",
    "dif": 2,
    "tipo": "rc",
    "sub": "caso",
@@ -388,7 +388,7 @@
   {
    "id": "x-gh-chc2",
    "area": "gastro",
-   "tema": "Hepatocarcinoma",
+   "tema": "Cirrosis hepática",
    "dif": 2,
    "tipo": "rc",
    "sub": "lista",
