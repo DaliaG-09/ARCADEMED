@@ -238,6 +238,35 @@ h1,h2,h3{font-weight:400;line-height:1.55;letter-spacing:0}
 .sndbtn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
 .field{width:100%;background:#fff;border:3px solid var(--ink);border-radius:12px;padding:10px 12px;font:600 16px var(--body)}
 .chip.lock{opacity:.55}
+
+/* Fase 2: logros, misiones, cofres */
+.minis{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.minis .btn{display:flex;align-items:center;gap:10px;justify-content:flex-start;font-family:var(--display);font-weight:400;font-size:11px;padding:12px}
+.minis .btn svg{flex:none}
+.qrow{display:flex;gap:10px;align-items:center}
+.qrow .qt{font-weight:700;font-size:14px;line-height:1.35}
+.qrow .segs{margin-top:4px}
+.qdone{font-family:var(--display);font-size:9px;color:var(--good)}
+.achgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.ach{background:#fff;border:3px solid var(--ink);border-radius:14px;padding:12px 8px;text-align:center;box-shadow:4px 4px 0 var(--ink);font-size:13px;line-height:1.3}
+.ach b{display:block;font-size:14px;margin-top:6px}
+.ach.lock{background:#e9e4d2}
+.ach.lock svg{filter:grayscale(1);opacity:.5}
+.ach small{display:block;color:var(--mut);margin-top:3px}
+.achpop{position:fixed;top:12px;left:50%;transform:translateX(-50%);z-index:50;pointer-events:none;background:var(--ink);color:#fff;border:3px solid #fff;border-radius:14px;padding:8px 14px 8px 8px;display:flex;align-items:center;gap:10px;max-width:92%;box-shadow:0 6px 0 rgba(0,0,0,.3);animation:achin .5s cubic-bezier(.3,1.6,.5,1) both}
+.achpop .l{font-family:var(--display);font-size:8px;color:var(--bg)}
+.achpop b{display:block;font-size:15px}
+.achpop.out{animation:achout .4s both}
+@keyframes achin{from{transform:translate(-50%,-90px)}}
+@keyframes achout{to{transform:translate(-50%,-90px);opacity:0}}
+.chestov{position:fixed;inset:0;z-index:45;background:rgba(20,17,15,.78);display:flex;align-items:center;justify-content:center;animation:fadein .25s both}
+.chestbox{background:var(--bg);border:4px solid var(--ink);border-radius:18px;padding:18px 22px;text-align:center;box-shadow:8px 8px 0 #fff;max-width:88%;min-width:240px}
+.chestbox .label{display:inline-block;margin-bottom:6px}
+.chestbox .chest{cursor:pointer;display:block;width:112px;margin:10px auto;animation:chestshake 1s ease-in-out infinite}
+.chestbox .chest svg{display:block}
+.chestbox.open .chest{animation:hop .6s ease-out 1}
+@keyframes chestshake{0%,60%,100%{transform:rotate(0)}70%{transform:rotate(-6deg)}80%{transform:rotate(6deg)}90%{transform:rotate(-3deg)}}
+.loot{font-family:var(--display);font-size:13px;line-height:1.7;margin:8px 0;animation:boxpop .5s cubic-bezier(.3,1.6,.5,1) both}
 </style>
 </head>
 <body>
@@ -366,8 +395,151 @@ function applyTheme(){
   const m = document.querySelector('meta[name=theme-color]'); if(m) m.setAttribute('content', t[1]);
 }
 const ownsTheme = id => id === 'sol' || !!S.owned['th_'+id];
-const addCoins = n => { S.coins = (S.coins || 0) + n; };
+const addCoins = n => { S.coins = (S.coins || 0) + n; if(n > 0) S.cnt.earned = (S.cnt.earned || 0) + n; };
 const playerName = () => S.set.name || 'doctora';
+
+/* ---------- fase 2: logros, misiones diarias, cofres ---------- */
+const domArea = a => allQ().filter(q => q.area === a && isDominada(q)).length;
+const ACH = [
+ {id:'first', n:'Primera sangre', d:'Responde tu primera pregunta', g:'1', c:'#ff5fa2', r:10, f:() => S.cnt.n >= 1},
+ {id:'n100', n:'Cien al hilo', d:'Responde 100 preguntas', g:'100', c:'#4cc3ff', r:30, f:() => S.cnt.n >= 100},
+ {id:'n500', n:'Medio millar', d:'Responde 500 preguntas', g:'500', c:'#a02ee0', r:80, f:() => S.cnt.n >= 500},
+ {id:'n1500', n:'Maratonista', d:'Responde 1500 preguntas', g:'1.5K', c:'#e02a1f', r:200, f:() => S.cnt.n >= 1500},
+ {id:'c5', n:'Racha caliente', d:'5 aciertos seguidos', g:'x5', c:'#ff8a00', r:15, f:() => S.cnt.best >= 5},
+ {id:'c10', n:'Intocable', d:'10 aciertos seguidos', g:'x10', c:'#ff5fa2', r:40, f:() => S.cnt.best >= 10},
+ {id:'c20', n:'Imparable', d:'20 aciertos seguidos', g:'x20', c:'#e02a1f', r:100, f:() => S.cnt.best >= 20},
+ {id:'d3', n:'Constante', d:'3 días seguidos estudiando', g:'3d', c:'#19d27f', r:20, f:() => dayStreak() >= 3},
+ {id:'d7', n:'Semana completa', d:'7 días seguidos', g:'7d', c:'#19d27f', r:60, f:() => dayStreak() >= 7},
+ {id:'d14', n:'Hábito de hierro', d:'14 días seguidos', g:'14d', c:'#008f4c', r:150, f:() => dayStreak() >= 14},
+ {id:'l5', n:'Residente', d:'Llega al nivel 5', g:'N5', c:'#4cc3ff', r:40, f:() => level(S.xp) >= 5},
+ {id:'l10', n:'Jefe de servicio', d:'Llega al nivel 10', g:'N10', c:'#a02ee0', r:120, f:() => level(S.xp) >= 10},
+ {id:'dn', n:'Nefrólogo en formación', d:'Domina 20 preguntas de Nefrología', g:'NF', c:'#1d5fe0', r:50, f:() => domArea('nefro') >= 20},
+ {id:'dg', n:'Gastro en formación', d:'Domina 20 preguntas de Gastroenterología', g:'GA', c:'#c85f00', r:50, f:() => domArea('gastro') >= 20},
+ {id:'dd', n:'Dermatóloga en formación', d:'Domina 20 preguntas de Dermatología', g:'DE', c:'#a02ee0', r:50, f:() => domArea('derma') >= 20},
+ {id:'perf', n:'Ronda perfecta', d:'10 preguntas o más sin fallar en una ronda', g:'100%', c:'#ffd93b', r:50, f:() => S.cnt.perfect >= 1},
+ {id:'rc10', n:'Escritora', d:'Acierta 10 respuestas cortas', g:'RC', c:'#ff5fa2', r:30, f:() => S.cnt.rcok >= 10},
+ {id:'early', n:'Madrugadora', d:'Estudia antes de las 7 a. m.', g:'AM', c:'#ffd93b', r:25, f:() => !!S.cnt.early},
+ {id:'late', n:'Búho de guardia', d:'Estudia después de las 11 p. m.', g:'PM', c:'#2a2a5e', r:25, f:() => !!S.cnt.late},
+ {id:'sim', n:'Primer simulacro', d:'Termina un simulacro', g:'SIM', c:'#4cc3ff', r:30, f:() => S.cnt.simn >= 1},
+ {id:'s14', n:'Aprobada', d:'Nota de 14 o más en un simulacro', g:'14', c:'#19d27f', r:60, f:() => S.cnt.sim >= 14},
+ {id:'s18', n:'Matrícula de honor', d:'Nota de 18 o más en un simulacro', g:'18', c:'#ffd93b', r:150, f:() => S.cnt.sim >= 18},
+ {id:'cards', n:'Memoria de gato', d:'Repasa 50 flashcards', g:'50', c:'#ff8fb1', r:30, f:() => S.cnt.cards >= 50},
+ {id:'boss1', n:'Cazajefes', d:'Vence a tu primer jefe', g:'BOSS', c:'#e02a1f', r:60, f:() => Object.keys(S.bosses).length >= 1},
+ {id:'bossall', n:'Reina del arcade', d:'Vence a todos los jefes', g:'ALL', c:'#ffd93b', r:300, f:() => typeof bossTotal === 'function' && bossTotal() > 0 && Object.keys(S.bosses).length >= bossTotal()},
+ {id:'shop5', n:'Coleccionista', d:'Compra 5 objetos en la tienda', g:'5', c:'#ff5fa2', r:40, f:() => S.cnt.buys >= 5},
+ {id:'q5', n:'Cumplidora', d:'Completa 5 misiones diarias', g:'M5', c:'#19d27f', r:40, f:() => S.cnt.qdone >= 5},
+ {id:'rich', n:'Alcancía', d:'Junta 500 monedas en total', g:'500', c:'#ffd93b', r:50, f:() => S.cnt.earned >= 500},
+ {id:'chest5', n:'Cazatesoros', d:'Abre 5 cofres', g:'x5', c:'#b8651f', r:50, f:() => S.cnt.chests >= 5}
+];
+function medalSvg(c, g, sz, lock){
+  const t = lock ? '?' : g;
+  return '<svg viewBox="0 0 24 28" width="'+(sz || 48)+'" height="'+Math.round((sz || 48)*28/24)+'" shape-rendering="crispEdges"><path fill="#14110f" d="M5 0h5l2 8h-3zM19 0h-5l-2 8h3z"/><path fill="#ff5fa2" d="M6 0h3l1 6H8zM18 0h-3l-1 6h2z"/>'+
+    '<circle cx="12" cy="18" r="9.5" fill="#14110f"/><circle cx="12" cy="18" r="7.6" fill="'+(lock ? '#bdb6a0' : c)+'"/><circle cx="12" cy="18" r="5.6" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width=".8"/>'+
+    '<text x="12" y="'+(t.length > 3 ? 19.6 : 19.8)+'" text-anchor="middle" font-family="Press Start 2P,monospace" font-size="'+(t.length > 3 ? 3 : t.length > 2 ? 3.8 : 5)+'" fill="'+(lock ? '#14110f' : '#fff')+'" stroke="#14110f" stroke-width=".5" paint-order="stroke">'+esc(t)+'</text></svg>';
+}
+let achQ = [], achBusy = false;
+function achPop(a){
+  achQ.push(a); if(achBusy) return; achBusy = true;
+  const show = () => {
+    const x = achQ.shift(); if(!x){ achBusy = false; return; }
+    const d = document.createElement('div'); d.className = 'achpop';
+    d.innerHTML = medalSvg(x.c, x.g, 38)+'<div><span class="l">LOGRO DESBLOQUEADO</span><b>'+esc(x.n)+'</b><span style="font-size:12px">+'+x.r+' monedas</span></div>';
+    document.body.appendChild(d); sfx('ach'); buzz([40,30,40]);
+    setTimeout(() => d.classList.add('out'), 2800); setTimeout(() => { d.remove(); show(); }, 3250);
+  };
+  show();
+}
+function checkAch(){
+  let got = false;
+  ACH.forEach(a => { if(!S.ach[a.id]){ let ok = false; try{ ok = a.f(); }catch(e){} if(ok){ S.ach[a.id] = Date.now(); addCoins(a.r); got = true; achPop(a); } } });
+  if(got) save();
+}
+function addCoinsTracked(){ }
+/* misiones */
+const QPOOL = [
+ {k:'ans', t:g => 'Responde '+g+' preguntas', g:[10,15,20], r:15},
+ {k:'okn', t:g => 'Acierta '+g+' preguntas', g:[8,10,12], r:18},
+ {k:'area', t:(g, a) => 'Acierta '+g+' de '+areaOf(a).n, g:[3,4,5], r:18, area:true},
+ {k:'rc', t:g => 'Acierta '+g+' respuestas cortas', g:[2,3], r:20},
+ {k:'fall', t:g => 'Acierta '+g+' preguntas que habías fallado', g:[2,3], r:20},
+ {k:'cards', t:g => 'Repasa '+g+' flashcards', g:[5,8,10], r:15},
+ {k:'combo', t:g => 'Logra un combo de '+g, g:[4,5], r:20},
+ {k:'round', t:g => 'Termina una ronda con 80 % o más', g:[1], r:25}
+];
+function hashStr(x){ let h = 0; for(let i = 0; i < x.length; i++) h = (h*31 + x.charCodeAt(i)) >>> 0; return h; }
+function ensureQuests(){
+  const d = today(); if(S.quests && S.quests.d === d) return;
+  let h = hashStr(d), pool = QPOOL.slice(), list = [];
+  for(let i = 0; i < 3; i++){
+    const j = h % pool.length; h = Math.floor(h/7) + 13*i + 5; const t = pool.splice(j, 1)[0];
+    const g = t.g[h % t.g.length], a = t.area ? AREAS[h % AREAS.length].id : '';
+    list.push({k:t.k, g, a, p:0, c:false, r:t.r, tx:t.t(g, a)});
+  }
+  S.quests = {d, list, chest:false}; save();
+}
+function qProg(kind, n, area, abs){
+  ensureQuests();
+  S.quests.list.forEach(q => {
+    if(q.c || q.p >= q.g) return;
+    if(q.k !== kind) return; if(q.k === 'area' && q.a !== area) return;
+    q.p = Math.min(q.g, abs ? Math.max(q.p, n) : q.p + n);
+    if(q.p >= q.g){ toast('Misión lista: '+q.tx); sfx('coin'); }
+  });
+}
+function onAnswer(q, ok, was){
+  const c = S.cnt; c.n++; if(ok){ c.ok++; if(isRC(q)) c.rcok++; }
+  c.best = Math.max(c.best, V.combo || 0);
+  const h = new Date().getHours(); if(h < 7) c.early = 1; if(h >= 23) c.late = 1;
+  const d = today(); let L = S.log[S.log.length-1];
+  if(!L || L.d !== d){ L = {d, n:0, ok:0, A:{}}; S.log.push(L); S.log = S.log.slice(-60); }
+  L.n++; if(ok) L.ok++; const A = L.A[q.area] || (L.A[q.area] = [0, 0]); A[0]++; if(ok) A[1]++;
+  qProg('ans', 1); if(ok){ qProg('okn', 1); qProg('area', 1, q.area); if(isRC(q)) qProg('rc', 1); if(was) qProg('fall', 1); qProg('combo', V.combo || 0, null, true); }
+}
+function onRoundEnd(acc){
+  const c = S.cnt; c.rounds++;
+  if(!V.dead && V.answeredN >= 5 && acc >= .8){ c.wins++; qProg('round', 1); }
+  if(V.answeredN >= 10 && V.ok === V.answeredN) c.perfect = (c.perfect || 0) + 1;
+  if(V.sim && V.max){ c.simn = (c.simn || 0) + 1; c.sim = Math.max(c.sim || 0, V.earn/V.max*20); }
+}
+function lootRoll(big){
+  const r = Math.random(), k = big ? 1.6 : 1;
+  const free = typeof ITEMS !== 'undefined' ? ITEMS.filter(i => !i.th && !S.owned[i.id]) : [];
+  if(free.length && r < (big ? .3 : .12)){ const it = catPick(free); S.owned[it.id] = 1; return {item:it, tx:'Objeto nuevo: '+it.n}; }
+  if(r < .35) { const x = Math.round((15 + Math.random()*15)*k); S.xp += x; return {xp:x, tx:'+'+x+' XP'}; }
+  const c = Math.round((15 + Math.random()*25)*k); addCoins(c); return {coins:c, tx:'+'+c+' monedas'};
+}
+const CHEST_C = '<svg viewBox="0 0 16 14" width="112" height="98" shape-rendering="crispEdges"><path fill="#14110f" d="M2 1h12v1h1v5h1v6H0V7h1V2h1z"/><path fill="#c97a2c" d="M3 2h10v4H3z"/><path fill="#8a4b1a" d="M1 8h14v4H1z"/><path fill="#14110f" d="M1 7h14v1H1z"/><path fill="#ffd93b" d="M7 6h2v3H7z"/><path fill="#fff3a0" d="M3 3h4v1H3z"/></svg>';
+const CHEST_O = '<svg viewBox="0 0 16 16" width="112" height="112" shape-rendering="crispEdges"><path fill="#14110f" d="M1 0h14v1h1v4h-1v1H1V5H0V1h1z"/><path fill="#c97a2c" d="M2 1h12v4H2z"/><path fill="#14110f" d="M1 6h14v4H1z"/><path fill="#ffd93b" d="M2 7h12v2H2z"/><path fill="#fff" d="M4 7h2v1H4zM9 7h3v1H9z"/><path fill="#14110f" d="M1 9h14v1h1v5H0v-5h1z"/><path fill="#8a4b1a" d="M1 10h14v4H1z"/><path fill="#ffd93b" d="M7 10h2v2H7z"/></svg>';
+function openChest(loot, title){
+  if(document.getElementById('chestov')) return;
+  S.cnt.chests++; save();
+  const d = document.createElement('div'); d.id = 'chestov'; d.className = 'chestov';
+  d.innerHTML = '<div class="chestbox"><p class="label">'+esc(title || '¡COFRE!')+'</p><div class="chest" id="chestbtn" role="button" aria-label="Abrir cofre">'+CHEST_C+'</div><p class="src" id="chesthint">Toca el cofre para abrirlo</p></div>';
+  document.body.appendChild(d);
+  const open = () => {
+    const b = d.querySelector('.chestbox'); if(b.classList.contains('open')) return; b.classList.add('open');
+    d.querySelector('.chest').innerHTML = CHEST_O; sfx('chest'); buzz([40,30,80]); confetti(50);
+    d.querySelector('#chesthint').outerHTML = '<p class="loot">'+esc(loot.tx)+'</p><button class="btn gold" id="chestok">Genial</button>';
+    d.querySelector('#chestok').addEventListener('click', () => { d.remove(); checkAch(); if(V.name === 'home') render(); });
+    checkAch();
+  };
+  d.querySelector('#chestbtn').addEventListener('click', open);
+}
+const minisHtml = () => '<div><p class="label">TU JUEGO</p><div class="minis">'+MINIS.map(m => '<button class="btn" data-act="'+m[0]+'">'+m[2]+'<span>'+m[1]+'</span></button>').join('')+'</div></div>';
+const MINIS = [['logros', 'LOGROS', '<svg viewBox="0 0 12 12" width="22" height="22" shape-rendering="crispEdges"><path fill="#14110f" d="M2 0h8v1h2v3h-1v2h-2v1H8v1h1v1h1v2H2v-2h1V8h1V7H3V6H1V4H0V1h2z"/><path fill="#ffd93b" d="M3 1h6v4H8v1H4V5H3z"/></svg>']];
+function questsHtml(){
+  ensureQuests(); const Q = S.quests, all = Q.list.every(q => q.c);
+  const rows = Q.list.map((q, i) => '<div class="qrow"><div class="grow"><div class="qt">'+esc(q.tx)+'</div>'+segs(q.p/q.g, Math.min(q.g, 10))+'<span class="src">'+q.p+' / '+q.g+'</span></div>'+
+    (q.c ? '<span class="qdone">LISTA</span>' : (q.p >= q.g ? '<button class="btn small gold" data-act="qclaim" data-i="'+i+'">+'+q.r+' '+'</button>' : '<span class="coinct">'+COIN+q.r+'</span>'))+'</div>').join('');
+  const chest = all ? (Q.chest ? '<p class="src">Cofre del día abierto. Mañana hay misiones nuevas.</p>' : '<button class="btn gold" data-act="qchest">ABRIR COFRE DEL DÍA</button>') : '<p class="src">Completa las 3 para abrir el cofre del día.</p>';
+  return '<div><p class="label">MISIONES DEL DÍA</p><div class="panel stack" style="gap:12px">'+rows+chest+'</div></div>';
+}
+function vLogros(){
+  const n = ACH.filter(a => S.ach[a.id]).length;
+  return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button></div>'+
+   '<h2 style="font-size:15px">LOGROS '+n+' / '+ACH.length+'</h2>'+segs(n/ACH.length, 20)+
+   '<div class="achgrid">'+ACH.map(a => { const on = !!S.ach[a.id]; return '<div class="ach '+(on ? '' : 'lock')+'">'+medalSvg(a.c, a.g, 52, !on)+'<b>'+esc(a.n)+'</b><small>'+esc(a.d)+(on ? '' : ' · +'+a.r+' monedas')+'</small></div>'; }).join('')+'</div></div>';
+}
 
 /* ---------- vida arcade: efectos, portada con gatito, nivel arriba ---------- */
 const REDUCE = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -409,7 +581,7 @@ function levelUp(l){
   const close = () => { d.classList.add('out'); setTimeout(() => d.remove(), 380); document.removeEventListener('pointerdown', close, true); };
   document.addEventListener('pointerdown', close, true); setTimeout(close, 3000);
 }
-const chkLevel = before => { const l = level(S.xp); if(l > before){ addCoins(25*(l-before)); save(); setTimeout(() => levelUp(l), 300); } };
+const chkLevel = before => { const l = level(S.xp); if(l > before){ addCoins(25*(l-before)); save(); setTimeout(() => levelUp(l), 300); } checkAch(); };
 function afterPick(ok, xp){
   if(ok){ sfx('ok'); buzz(15); } else { sfx('bad'); buzz([50,40,50]); }
   const cat = document.querySelector('.fb .catbox svg'), h = document.querySelector('.fb h3');
@@ -507,6 +679,7 @@ function vHome(){
     '<div class="panel"><div class="row"><span class="lvl">NIVEL '+lv+'</span><span class="grow" style="font-weight:600">'+RANKS[Math.min(lv-1, RANKS.length-1)]+'</span><span class="coinct">'+COIN+S.coins+'</span><span class="src">'+(S.xp-cur)+' / '+(nxt-cur)+' XP</span></div>'+
     segs(pct, 20, 'anim')+
     '<div class="stats"><div><b>'+S.xp+'</b><span>XP total</span></div><div><b>'+dayStreak()+'</b><span>días de racha</span></div><div><b>'+dom+'/'+qs.length+'</b><span>dominadas</span></div></div></div>'+
+    questsHtml()+
     '<div><p class="label">MODOS <span class="press">&gt; PRESS START</span></p><div class="actions">'+
       '<button class="btn act gold" data-act="quick"><b>RONDA RÁPIDA</b><span>10 preguntas: casi todas de opción múltiple y 2 de respuesta corta, con vidas</span></button>'+
       '<button class="btn act" data-act="setup" data-area="all"><b>RONDA A MEDIDA</b><span>Elige área, tema y cantidad</span></button>'+
@@ -514,7 +687,7 @@ function vHome(){
       '<button class="btn act" data-act="falladas" '+(nFall ? '' : 'disabled')+'><b>REPASAR FALLADAS</b><span>'+nFall+' por dominar (necesitas 2 aciertos seguidos)</span></button>'+
       '<button class="btn act" data-act="cards"><b>FLASHCARDS</b><span>'+nDue+' por repasar hoy, repetición espaciada</span></button>'+
     '</div></div>'+
-    '<div><p class="label">MUNDOS</p><div class="worlds">'+worlds+'</div></div>'+
+    '<div><p class="label">MUNDOS</p><div class="worlds">'+worlds+'</div></div>'+minisHtml()+
     '<p class="src">Has visto '+vistas+' de '+qs.length+' preguntas. Las preguntas con * al final tienen un dato corregido porque el PPT lo trae mal; al responder te explico qué cambió.</p>'+
     '<div class="foot"><button class="btn small" data-act="ajustes">Ajustes</button><button class="btn small ghost" data-act="backup">Respaldo del progreso</button><button class="btn small ghost" data-act="import">Cargar preguntas</button></div>'+
   '</div>';
@@ -625,6 +798,7 @@ function vResult(){
       '<p style="font-family:var(--display);font-size:16px;color:var(--ink);margin:14px 0 4px">+<span id="xpcount" data-t="'+V.xp+'">'+V.xp+'</span> XP</p>'+
       '<p class="coinct" style="justify-content:center;margin:2px 0">'+COIN+'+'+(V.coins || 0)+' monedas</p>'+(V.bonus ? '<p class="src">Incluye bonus de 20 XP y 5 monedas por superar 80%.</p>' : '')+
       (lvUp ? '<p class="lvl" style="margin-top:10px">¡SUBISTE AL NIVEL '+level(S.xp)+'!</p>' : '')+
+      (V.loot ? '<div style="margin-top:14px"><button class="btn gold" data-act="resultchest">ABRIR COFRE DE LA RONDA</button></div>' : '')+
     '</div>'+
     (V.fails.length ? '<div><p class="label">PARA REPASAR ('+V.fails.length+')</p><div class="res-list">'+fails+'</div></div>' : '<p class="sub" style="text-align:center">Ronda limpia, sin falladas.</p>')+
     '<div class="row">'+
@@ -687,7 +861,7 @@ function vAjustes(){
 }
 
 function render(){
-  const f = {home:vHome, setup:vSetup, play:vPlay, result:vResult, cards:vCards, backup:vBackup, import:vImport, ajustes:vAjustes}[V.name];
+  const f = {home:vHome, setup:vSetup, play:vPlay, result:vResult, cards:vCards, backup:vBackup, import:vImport, ajustes:vAjustes, logros:vLogros}[V.name];
   document.getElementById('app').innerHTML = f();
   if(V.name === 'home') initHero();
   if(V.name === 'result' && !V.dead && V.answeredN && V.ok/V.answeredN >= 0.8) setTimeout(() => { confetti(40); burstAt(document.querySelector('.catbox svg'), 'ok'); }, 300);
@@ -744,6 +918,7 @@ function pick(i){
   const q = allQ().find(x => x.id === V.ids[V.i]); const o = V.opts[i]; if(!o) return;
   const lv0 = level(S.xp);
   V.answered = true; V.picked = i; V.answeredN++; V.max += 1.25; if(o.ok) V.earn += 1.25;
+  const wasF = isFallada(q);
   const st = S.q[q.id] || {ok:0, bad:0, streak:0};
   if(o.ok){
     st.ok++; st.streak++; V.ok++; V.combo++; V.maxCombo = Math.max(V.maxCombo, V.combo);
@@ -753,7 +928,7 @@ function pick(i){
     if(V.modo === 'boss') V.lives--;
   }
   V.catMsg = o.ok ? (V.combo >= 3 ? '¡Racha de '+V.combo+'! ¡Miau-gnífico!' : catPick(CAT_OK)) : (V.modo === 'boss' && V.lives <= 0 ? 'Se acabaron las vidas... ¡a la revancha!' : catPick(CAT_BAD));
-  S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; addCoins(V.lastCoin); V.coins = (V.coins || 0) + V.lastCoin; markDay(); save(); render(); afterPick(o.ok, V.lastXp); chkLevel(lv0);
+  S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; addCoins(V.lastCoin); V.coins = (V.coins || 0) + V.lastCoin; onAnswer(q, o.ok, wasF); markDay(); save(); render(); afterPick(o.ok, V.lastXp); chkLevel(lv0);
 }
 function next(){
   const lv0 = level(S.xp);
@@ -762,6 +937,7 @@ function next(){
     V.dead = V.modo === 'boss' && V.lives <= 0;
     const acc = V.ok / Math.max(1, V.answeredN);
     if(!V.dead && V.answeredN >= 5 && acc >= 0.8){ S.xp += 20; V.xp += 20; V.bonus = true; addCoins(5); V.coins = (V.coins || 0) + 5; save(); }
+    onRoundEnd(acc); if(V.bonus) V.loot = lootRoll(false);
     const keep = V; V = Object.assign({}, keep, {name:'result'}); render(); window.scrollTo(0,0); chkLevel(lv0); return;
   }
   V.i++; V.answered = false; V.picked = null; rcReset();
@@ -779,6 +955,7 @@ function rate(r){
   S.c[id] = {ef:nxt.ef, int:nxt.int, reps:nxt.reps, due:nxt.due};
   if(r !== 'again') S.xp += 3;
   if(r === 'again') V.queue.push(id);
+  S.cnt.cards = (S.cnt.cards || 0) + 1; qProg('cards', 1); addCoins(1);
   V.done++; V.i++; V.flipped = false; markDay(); save(); render(); chkLevel(lv0);
 }
 
@@ -805,12 +982,13 @@ const A = {
     const lv0 = level(S.xp);
     const earned = P.reduce((t, p, i) => t + (V.rc.chk[i] ? p.w : 0), 0), frac = pts ? earned/pts : 0, ok = frac >= 0.7;
     V.answered = true; V.answeredN++; V.earn += earned; V.max += pts; V.hasRC = true; V.rcFrac = frac;
+    const wasF = isFallada(q);
     const st = S.q[q.id] || {ok:0, bad:0, streak:0};
     if(ok){ st.ok++; st.streak++; V.ok++; V.combo++; V.maxCombo = Math.max(V.maxCombo, V.combo); V.lastXp = 10 + Math.min(V.combo-1, 5)*2; V.lastCoin = V.combo >= 3 ? 4 : 3; }
     else { st.bad++; st.streak = 0; V.combo = 0; V.lastXp = Math.round(6*frac); V.lastCoin = 0; V.fails.push(q.id); if(V.modo === 'boss' && frac < 0.5) V.lives--; }
     st.miss = P.map((p, i) => V.rc.chk[i] ? -1 : i).filter(i => i >= 0); V.missMap[q.id] = st.miss;
     V.catMsg = ok ? (V.combo >= 3 ? '¡Racha de '+V.combo+'! ¡Miau-gnífico!' : catPick(CAT_OK)) : catPick(CAT_BAD);
-    S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; addCoins(V.lastCoin); V.coins = (V.coins || 0) + V.lastCoin; markDay(); save(); render(); afterPick(ok, V.lastXp); chkLevel(lv0);
+    S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; addCoins(V.lastCoin); V.coins = (V.coins || 0) + V.lastCoin; onAnswer(q, ok, wasF); markDay(); save(); render(); afterPick(ok, V.lastXp); chkLevel(lv0);
   },
   pick: d => pick(+d.i),
   next: () => next(),
@@ -822,6 +1000,10 @@ const A = {
   rate: d => rate(d.r),
   backup: () => go({name:'backup'}),
   ajustes: () => go({name:'ajustes'}),
+  logros: () => go({name:'logros'}),
+  qclaim: d => { ensureQuests(); const q = S.quests.list[+d.i]; if(!q || q.c || q.p < q.g) return; q.c = true; addCoins(q.r); S.cnt.qdone = (S.cnt.qdone || 0) + 1; save(); burstAt(document.querySelector('[data-act=qclaim][data-i="'+d.i+'"]'), 'coin'); checkAch(); render(); },
+  qchest: () => { ensureQuests(); if(S.quests.chest || !S.quests.list.every(q => q.c)) return; S.quests.chest = true; const l = lootRoll(true); save(); openChest(l, 'COFRE DEL DÍA'); },
+  resultchest: () => { if(V.loot && !V.lootOpened){ V.lootOpened = true; const l = V.loot; openChest(l, 'COFRE DE LA RONDA'); const b = document.querySelector('[data-act=resultchest]'); if(b) b.outerHTML = '<p class="src">Cofre abierto: '+esc(l.tx)+'</p>'; } },
   set: d => { if(d.k === 'theme' && !ownsTheme(d.v)){ toast('Se compra en la tienda'); return; } S.set[d.k] = (d.v === '1' ? true : d.v === '0' ? false : d.v); save(); applyTheme(); render(); if(d.k === 'snd' && S.set.snd) sfx('ok'); },
   testsnd: () => { const w = S.set.snd; S.set.snd = true; sfx('lvl'); buzz(60); S.set.snd = w; },
   sndtog: d => { S.set.snd = !S.set.snd; save(); const b = document.querySelector('.sndbtn'); if(b) b.classList.toggle('off', !S.set.snd); if(S.set.snd) sfx('ok'); },
