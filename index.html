@@ -301,6 +301,16 @@ h1,h2,h3{font-weight:400;line-height:1.55;letter-spacing:0}
 .starsbig{display:flex;justify-content:center;gap:8px;margin:10px 0}
 .starsbig svg{width:44px;height:44px;animation:catpop .5s cubic-bezier(.3,1.6,.5,1) both}
 .starsbig svg:nth-child(2){animation-delay:.2s}.starsbig svg:nth-child(3){animation-delay:.4s}
+
+/* Fase 5: contrarreloj, corazones, continuar */
+.timebar{height:16px;border:3px solid var(--ink);border-radius:8px;background:#fff;margin:10px 0 0;overflow:hidden}
+.timebar i{display:block;height:100%;width:100%;background:#19d27f}
+.timebar i.mid{background:#ffd93b}.timebar i.low{background:var(--bad)}
+.hrt{position:relative;display:inline-block;line-height:0}
+.hbrk{position:absolute;inset:0;animation:hbreak .9s both}
+@keyframes hbreak{0%{transform:scale(1)}15%{transform:scale(1.35) rotate(-12deg)}30%{transform:scale(1.25) rotate(12deg)}50%{transform:scale(1.3) rotate(-8deg)}100%{transform:translateY(20px) scale(.2) rotate(40deg);opacity:0}}
+.rowbtns{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.rowbtns .btn{flex:1 1 140px}
 </style>
 </head>
 <body>
@@ -440,6 +450,26 @@ const COIN = '<svg viewBox="0 0 8 8" width="30" height="30" shape-rendering="cri
 const SPK = '<svg viewBox="0 0 12 10" width="24" height="20" shape-rendering="crispEdges"><path fill="#14110f" d="M1 3h2l3-3v10L3 7H1z"/><path class="wave" fill="#14110f" d="M7 3h1v4H7zM9 1h1v8H9z"/><path class="x" fill="#e02a1f" d="M8 3h1v1H8zM9 4h1v1H9zM10 5h1v1h-1zM9 6h1v1H9zM8 7h1v1H8zM10 3h1v1h-1zM10 7h1v1h-1z"/></svg>';
 const CLOUD = '<svg viewBox="0 0 12 5" width="72" height="30" shape-rendering="crispEdges"><path fill="#fff" d="M2 2h2V1h3v1h1V1h2v1h1v2H1V3h1z M3 0h2v1H3z"/></svg>';
 
+function contCost(){ return 30*((V.cont || 0)+1); }
+function nextRow(){
+  const dead = V.lives <= 0 && V.modo === 'boss', canCont = dead && V.i+1 < V.ids.length && (V.cont || 0) < 2 && S.coins >= contCost();
+  return '<div class="rowbtns"><button class="btn gold" data-act="next">'+(dead ? 'Ver resultado' : (V.i+1 >= V.ids.length ? 'Terminar ronda' : 'Siguiente'))+'</button>'+
+    (canCont ? '<button class="btn" data-act="cont">Continuar con 1 vida ('+contCost()+' monedas)</button>' : '')+'</div>';
+}
+let TMR = 0;
+function runTimer(){
+  clearInterval(TMR); if(V.name !== 'play' || !V.timed || V.answered) return;
+  const max = 20000;
+  TMR = setInterval(() => {
+    if(V.name !== 'play' || V.answered || !V.timed){ clearInterval(TMR); return; }
+    const left = max - (Date.now() - V.tStart), pct = Math.max(0, left/max*100), el = document.getElementById('tb');
+    if(el){ el.style.width = pct+'%'; el.className = pct < 25 ? 'low' : pct < 55 ? 'mid' : ''; }
+    if(pct < 25 && pct > 0 && Math.floor(left/1000) !== runTimer.last){ runTimer.last = Math.floor(left/1000); sfx('tick'); }
+    if(left <= 0){ clearInterval(TMR); timeUp(); }
+  }, 100);
+}
+function timeUp(){ if(V.name !== 'play' || V.answered) return; V.timeout = true; const wi = V.opts.findIndex(o => !o.ok); if(wi >= 0) pick(wi); }
+
 /* ---------- fase 4: mapa de islas, estrellas, jefes, insignias ---------- */
 const temasOf = a => { const seen = []; allQ().forEach(q => { if(q.area === a && !seen.includes(q.tema)) seen.push(q.tema); }); return seen; };
 const tq = (a, t) => allQ().filter(q => q.area === a && q.tema === t);
@@ -475,6 +505,7 @@ function jefeIds(a, t){
   return shuffle(out);
 }
 function onSpecialEnd(acc){
+  if(V.reto && !V.dead){ V.retoBonus = true; S.xp += 15; V.xp += 15; addCoins(15); V.coins = (V.coins || 0) + 15; S.cnt.reto = (S.cnt.reto || 0) + 1; }
   if(V.jefe && !V.dead){
     const k = V.jefe.a+'|'+V.jefe.t, first = !S.bosses[k]; S.bosses[k] = Date.now(); S.cnt.boss = (S.cnt.boss || 0) + 1;
     V.bossWin = true; const cn = first ? 40 : 15; addCoins(cn); V.coins = (V.coins || 0) + cn; V.loot = lootRoll(first);
@@ -576,6 +607,7 @@ const ACH = [
  {id:'shop5', n:'Coleccionista', d:'Compra 5 objetos en la tienda', g:'5', c:'#ff5fa2', r:40, f:() => S.cnt.buys >= 5},
  {id:'q5', n:'Cumplidora', d:'Completa 5 misiones diarias', g:'M5', c:'#19d27f', r:40, f:() => S.cnt.qdone >= 5},
  {id:'rich', n:'Alcancía', d:'Junta 500 monedas en total', g:'500', c:'#ffd93b', r:50, f:() => S.cnt.earned >= 500},
+ {id:'reto1', n:'Contrarreloj', d:'Termina un reto contrarreloj con vidas', g:'20s', c:'#e02a1f', r:50, f:() => S.cnt.reto >= 1},
  {id:'chest5', n:'Cazatesoros', d:'Abre 5 cofres', g:'x5', c:'#b8651f', r:50, f:() => S.cnt.chests >= 5}
 ];
 function medalSvg(c, g, sz, lock){
@@ -828,6 +860,7 @@ function vHome(){
     '<div><p class="label">MODOS <span class="press">&gt; PRESS START</span></p><div class="actions">'+
       '<button class="btn act gold" data-act="quick"><b>RONDA RÁPIDA</b><span>10 preguntas: casi todas de opción múltiple y 2 de respuesta corta, con vidas</span></button>'+
       '<button class="btn act" data-act="setup" data-area="all"><b>RONDA A MEDIDA</b><span>Elige área, tema y cantidad</span></button>'+
+      '<button class="btn act" data-act="reto"><b>RETO CONTRARRELOJ</b><span>12 preguntas de opción múltiple, 20 segundos cada una, 3 vidas y bonus por rapidez</span></button>'+
       '<button class="btn act gold" data-act="sim"><b>SIMULACRO</b><span>11 preguntas, 20 puntos, como el examen</span></button>'+
       '<button class="btn act" data-act="falladas" '+(nFall ? '' : 'disabled')+'><b>REPASAR FALLADAS</b><span>'+nFall+' por dominar (necesitas 2 aciertos seguidos)</span></button>'+
       '<button class="btn act" data-act="cards"><b>FLASHCARDS</b><span>'+nDue+' por repasar hoy, repetición espaciada</span></button>'+
@@ -889,31 +922,32 @@ function rcBody(q){
   const ok = V.rcFrac >= 0.7;
   return h + '<div class="fb '+(ok ? 'ok' : 'bad')+'">'+catBox(ok ? 'ok' : 'bad', V.catMsg || '')+'<h3>'+(ok ? '¡MUY BIEN! +'+V.lastXp+' XP · +'+V.lastCoin+' monedas' : 'PARA REPASAR'+(V.lastXp ? ' · +'+V.lastXp+' XP' : ''))+'</h3>'+
     (q.explicacion ? '<p>'+nl(q.explicacion)+'</p>' : '')+noteHtml(q)+'</div>'+
-    '<div class="row" style="margin-top:14px"><button class="btn gold grow" data-act="next">'+(V.lives <= 0 && V.modo === 'boss' ? 'Ver resultado' : (V.i+1 >= V.ids.length ? 'Terminar ronda' : 'Siguiente'))+'</button></div>';
+    nextRow();
 }
 
 function vPlay(){
   const q = allQ().find(x => x.id === V.ids[V.i]); const a = areaOf(q.area);
   const isrc = isRC(q);
-  const hearts = V.modo === 'boss' ? '<div class="hearts" aria-label="Vidas">'+[0,1,2].map(i => heart(i < V.lives)).join('')+'</div>' : '<span class="src">'+(V.modo === 'sim' ? 'Simulacro' : 'Práctica')+'</span>';
+  const hearts = V.modo === 'boss' ? '<div class="hearts" aria-label="Vidas">'+[0,1,2].map(i => (V.lostNow && i === V.lives) ? '<span class="hrt">'+heart(false)+'<span class="hbrk">'+heart(true)+'</span></span>' : '<span class="hrt">'+heart(i < V.lives)+'</span>').join('')+'</div>' : '<span class="src">'+(V.modo === 'sim' ? 'Simulacro' : 'Práctica')+'</span>';
   const letters = 'ABCDEFGH';
   const opts = V.opts.map((o, i) => {
     let cls = '';
-    if(V.answered){ cls = o.ok ? 'ok' : (i === V.picked ? 'bad' : 'dim'); }
+    if(V.answered){ cls = o.ok ? 'ok' : (i === V.picked && !V.timeout ? 'bad' : 'dim'); }
     return '<button class="opt '+cls+'" data-act="pick" data-i="'+i+'" '+(V.answered ? 'disabled' : '')+'><span class="k">'+letters[i]+'</span><span>'+esc(V.answered && o.ok && o.full ? o.full : o.t)+(V.answered && o.por ? '<span class="why">'+esc(o.por)+'</span>' : '')+'</span></button>';
   }).join('');
   let fb = '';
   if(V.answered && !isrc){
     const ok = V.opts[V.picked].ok;
-    fb = '<div class="fb '+(ok ? 'ok' : 'bad')+'">'+catBox(ok ? 'ok' : 'bad', V.catMsg || '')+'<h3>'+(ok ? '¡CORRECTO! +'+V.lastXp+' XP · +'+V.lastCoin+' monedas' : 'FALLASTE')+'</h3>'+
-      (ok ? '' : '<p class="miss"><b>Dónde fallaste:</b> elegiste «'+esc(V.opts[V.picked].t)+'». '+esc(V.opts[V.picked].por || '')+'</p>')+'<p>'+nl(q.explicacion || '')+'</p>'+
+    fb = '<div class="fb '+(ok ? 'ok' : 'bad')+'">'+catBox(ok ? 'ok' : 'bad', V.catMsg || '')+'<h3>'+(ok ? '¡CORRECTO! +'+V.lastXp+' XP · +'+V.lastCoin+' monedas'+(V.fast ? ' · ¡RÁPIDA!' : '') : (V.timeout ? '¡TIEMPO!' : 'FALLASTE'))+'</h3>'+
+      (ok ? '' : (V.timeout ? '<p class="miss"><b>Se acabó el tiempo.</b> La respuesta correcta está marcada en verde.</p>' : '<p class="miss"><b>Dónde fallaste:</b> elegiste «'+esc(V.opts[V.picked].t)+'». '+esc(V.opts[V.picked].por || '')+'</p>'))+'<p>'+nl(q.explicacion || '')+'</p>'+
       noteHtml(q)+
       (q.guia ? '<details class="guia"><summary>Lo que dicen las guías</summary><p>'+nl(q.guia.t)+'</p><p class="gsrc">Guía: '+esc(q.guia.f)+'</p></details>' : '')+
       '</div>'+
-      '<div class="row" style="margin-top:14px"><button class="btn gold grow" data-act="next">'+(V.lives <= 0 && V.modo === 'boss' ? 'Ver resultado' : (V.i+1 >= V.ids.length ? 'Terminar ronda' : 'Siguiente'))+'</button></div>';
+      nextRow();
   }
   return '<div>'+
     '<div class="hud"><button class="btn small ghost" data-act="home">Salir</button><div class="grow">'+segs((V.i + (V.answered ? 1 : 0))/V.ids.length, Math.min(V.ids.length, 20))+'</div><span class="src">'+(V.i+1)+'/'+V.ids.length+'</span>'+hearts+'<span class="combo">'+(V.combo > 1 ? 'x'+V.combo : '')+'</span></div>'+
+    (V.timed ? '<div class="timebar"><i id="tb" class="'+((V.tPct || 0) < 25 ? 'low' : '')+'" style="width:'+(V.answered ? (V.tPct || 0) : 100)+'%"></i></div>' : '')+
     (V.jefe ? bossBar() : '')+
     '<div class="panel">'+
       '<div class="row" style="margin-bottom:10px"><span class="pill" style="color:'+a.c+'">'+esc(a.n)+'</span><span class="src grow">'+esc(q.tema)+'</span>'+(isrc ? '<span class="tagrc">'+({caso:'CASO', concepto:'CONCEPTO', escala:'ESCALA', lista:'LISTA'}[q.sub] || 'RESPUESTA CORTA')+'</span>' : '')+(q.demo ? '<span class="demo">DEMO</span>' : '')+'</div>'+
@@ -936,13 +970,13 @@ function vResult(){
   }).join('');
   const lvUp = level(S.xp) > V.lvStart;
   return '<div class="stack">'+
-    '<div class="panel" style="text-align:center"><p class="label">'+(V.jefe ? (V.dead ? 'EL JEFE GANÓ' : '¡JEFE DERROTADO!') : V.nivel ? 'NIVEL '+(V.stars ? 'SUPERADO' : 'SIN ESTRELLAS') : (V.dead ? 'SIN VIDAS' : 'RONDA COMPLETA'))+'</p>'+(V.nivel ? '<div class="starsbig">'+[0,1,2].map(i => STAR(i < V.stars).replace('width="16" height="16"', 'width="44" height="44"')).join('')+'</div>' : '')+
+    '<div class="panel" style="text-align:center"><p class="label">'+(V.reto ? (V.dead ? 'RETO PERDIDO' : 'RETO COMPLETADO') : V.jefe ? (V.dead ? 'EL JEFE GANÓ' : '¡JEFE DERROTADO!') : V.nivel ? 'NIVEL '+(V.stars ? 'SUPERADO' : 'SIN ESTRELLAS') : (V.dead ? 'SIN VIDAS' : 'RONDA COMPLETA'))+'</p>'+(V.nivel ? '<div class="starsbig">'+[0,1,2].map(i => STAR(i < V.stars).replace('width="16" height="16"', 'width="44" height="44"')).join('')+'</div>' : '')+
       '<div style="display:flex;justify-content:center">'+catBox((V.dead || acc < 50) ? 'bad' : (acc >= 80 ? 'party' : 'ok'), V.dead ? '¡Perdimos, pero repasamos y volvemos!' : (acc >= 80 ? '¡Ganaste! ¡Miau-ravilloso!' : acc >= 50 ? '¡Buena ronda! Repasa las falladas.' : 'Ánimo, repasa y vuelve a intentar.'), 5)+'</div>'+
       '<div class="big">'+V.ok+' / '+V.answeredN+'</div>'+
       '<p class="sub">'+acc+'% de aciertos · mejor combo x'+V.maxCombo+'</p>'+
       (V.hasRC || V.sim ? '<p class="score" style="margin-top:12px">Puntaje: '+fmt(V.earn)+' / '+fmt(V.max)+(V.sim && V.max ? ' · nota '+fmt(V.earn/V.max*20)+' / 20' : '')+'</p>' : '')+
       '<p style="font-family:var(--display);font-size:16px;color:var(--ink);margin:14px 0 4px">+<span id="xpcount" data-t="'+V.xp+'">'+V.xp+'</span> XP</p>'+
-      '<p class="coinct" style="justify-content:center;margin:2px 0">'+COIN+'+'+(V.coins || 0)+' monedas</p>'+(V.bonus ? '<p class="src">Incluye bonus de 20 XP y 5 monedas por superar 80%.</p>' : '')+
+      '<p class="coinct" style="justify-content:center;margin:2px 0">'+COIN+'+'+(V.coins || 0)+' monedas</p>'+(V.retoBonus ? '<p class="src">Bonus del reto: 15 XP y 15 monedas por terminarlo con vidas.</p>' : '')+(V.bonus ? '<p class="src">Incluye bonus de 20 XP y 5 monedas por superar 80%.</p>' : '')+
       (lvUp ? '<p class="lvl" style="margin-top:10px">¡SUBISTE AL NIVEL '+level(S.xp)+'!</p>' : '')+
       (V.loot ? '<div style="margin-top:14px"><button class="btn gold" data-act="resultchest">ABRIR COFRE DE LA RONDA</button></div>' : '')+
     '</div>'+
@@ -1010,6 +1044,7 @@ function render(){
   const f = {home:vHome, setup:vSetup, play:vPlay, result:vResult, cards:vCards, backup:vBackup, import:vImport, ajustes:vAjustes, logros:vLogros, tienda:vTienda, mapa:vMapa}[V.name];
   document.getElementById('app').innerHTML = f();
   if(V.name === 'home') initHero();
+  if(V.name === 'play' && V.timed) runTimer();
   if(V.name === 'result' && !V.dead && V.answeredN && V.ok/V.answeredN >= 0.8) setTimeout(() => { confetti(40); burstAt(document.querySelector('.catbox svg'), 'ok'); }, 300);
   if(V.name === 'result'){
     const el = document.getElementById('xpcount');
@@ -1065,13 +1100,16 @@ function pick(i){
   const lv0 = level(S.xp);
   V.answered = true; V.picked = i; V.answeredN++; V.max += 1.25; if(o.ok) V.earn += 1.25;
   const wasF = isFallada(q);
+  if(V.timed) V.tPct = Math.max(0, 100 - (Date.now() - V.tStart)/200);
   const st = S.q[q.id] || {ok:0, bad:0, streak:0};
   if(o.ok){
     st.ok++; st.streak++; V.ok++; V.combo++; V.maxCombo = Math.max(V.maxCombo, V.combo);
     V.lastXp = 10 + Math.min(V.combo-1, 5)*2; V.lastCoin = V.combo >= 3 ? 3 : 2;
+    V.fast = !!(V.timed && Date.now() - V.tStart < 8000); if(V.fast) V.lastXp += 3;
   } else {
+    V.fast = false;
     st.bad++; st.streak = 0; V.combo = 0; V.lastXp = 0; V.lastCoin = 0; V.fails.push(q.id);
-    if(V.modo === 'boss') V.lives--;
+    if(V.modo === 'boss'){ V.lives--; V.lostNow = true; }
   }
   V.catMsg = o.ok ? (V.combo >= 3 ? '¡Racha de '+V.combo+'! ¡Miau-gnífico!' : catPick(CAT_OK)) : (V.modo === 'boss' && V.lives <= 0 ? 'Se acabaron las vidas... ¡a la revancha!' : catPick(CAT_BAD));
   S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; addCoins(V.lastCoin); V.coins = (V.coins || 0) + V.lastCoin; onAnswer(q, o.ok, wasF); markDay(); save(); render(); afterPick(o.ok, V.lastXp); chkLevel(lv0);
@@ -1086,7 +1124,7 @@ function next(){
     onRoundEnd(acc); onSpecialEnd(acc); if(V.bonus && !V.loot) V.loot = lootRoll(false); save();
     const keep = V; V = Object.assign({}, keep, {name:'result'}); render(); window.scrollTo(0,0); chkLevel(lv0); return;
   }
-  V.i++; V.answered = false; V.picked = null; rcReset();
+  V.i++; V.answered = false; V.picked = null; V.tStart = Date.now(); V.timeout = false; V.lostNow = false; V.fast = false; rcReset();
   V.opts = buildOpts(allQ().find(q => q.id === V.ids[V.i]));
   render(); window.scrollTo(0,0);
 }
@@ -1131,7 +1169,7 @@ const A = {
     const wasF = isFallada(q);
     const st = S.q[q.id] || {ok:0, bad:0, streak:0};
     if(ok){ st.ok++; st.streak++; V.ok++; V.combo++; V.maxCombo = Math.max(V.maxCombo, V.combo); V.lastXp = 10 + Math.min(V.combo-1, 5)*2; V.lastCoin = V.combo >= 3 ? 4 : 3; }
-    else { st.bad++; st.streak = 0; V.combo = 0; V.lastXp = Math.round(6*frac); V.lastCoin = 0; V.fails.push(q.id); if(V.modo === 'boss' && frac < 0.5) V.lives--; }
+    else { st.bad++; st.streak = 0; V.combo = 0; V.lastXp = Math.round(6*frac); V.lastCoin = 0; V.fails.push(q.id); if(V.modo === 'boss' && frac < 0.5){ V.lives--; V.lostNow = true; } }
     st.miss = P.map((p, i) => V.rc.chk[i] ? -1 : i).filter(i => i >= 0); V.missMap[q.id] = st.miss;
     V.catMsg = ok ? (V.combo >= 3 ? '¡Racha de '+V.combo+'! ¡Miau-gnífico!' : catPick(CAT_OK)) : catPick(CAT_BAD);
     S.q[q.id] = st; S.xp += V.lastXp; V.xp += V.lastXp; addCoins(V.lastCoin); V.coins = (V.coins || 0) + V.lastCoin; onAnswer(q, ok, wasF); markDay(); save(); render(); afterPick(ok, V.lastXp); chkLevel(lv0);
@@ -1139,7 +1177,7 @@ const A = {
   pick: d => pick(+d.i),
   next: () => next(),
   retryfails: () => startRound(shuffle(V.fails), 'practica'),
-  replay: () => V.sim ? A.sim() : V.jefe ? A.jefe({a:V.jefe.a, i:temasOf(V.jefe.a).indexOf(V.jefe.t)}) : V.nivel ? A.nivel({a:V.nivel.a, i:temasOf(V.nivel.a).indexOf(V.nivel.t)}) : startRound(shuffle(V.ids), V.modo),
+  replay: () => V.sim ? A.sim() : V.reto ? A.reto() : V.jefe ? A.jefe({a:V.jefe.a, i:temasOf(V.jefe.a).indexOf(V.jefe.t)}) : V.nivel ? A.nivel({a:V.nivel.a, i:temasOf(V.nivel.a).indexOf(V.nivel.t)}) : startRound(shuffle(V.ids), V.modo),
   cards: () => startCards(false),
   cardsall: () => startCards(true),
   flip: () => { V.flipped = !V.flipped; render(); },
@@ -1147,6 +1185,12 @@ const A = {
   backup: () => go({name:'backup'}),
   ajustes: () => go({name:'ajustes'}),
   logros: () => go({name:'logros'}),
+  reto: () => {
+    const ids = pool({area:'all', tema:'all', n:12, src:'todas', tipo:'om', mezcla:'libre', pct:'100'}).map(q => q.id);
+    if(ids.length < 6){ toast('Aún no hay suficientes preguntas de opción múltiple.'); return; }
+    startRound(ids, 'boss'); if(V.name === 'play'){ V.timed = true; V.reto = true; V.tStart = Date.now(); sfx('boss'); render(); }
+  },
+  cont: () => { if(V.lives > 0 || (V.cont || 0) >= 2) return; const c = contCost(); if(S.coins < c){ toast('Te faltan monedas'); return; } S.coins -= c; V.cont = (V.cont || 0) + 1; V.lives = 1; V.lostNow = false; save(); sfx('buy'); next(); },
   mapa: () => go({name:'mapa', area:(V.area || V.jefe && V.jefe.a || V.nivel && V.nivel.a || AREAS[0].id)}),
   isla: d => { V.area = d.v; render(); },
   nivel: d => { const t = temasOf(d.a)[+d.i]; if(!t || !nodeOpen(d.a, +d.i)) return; const ids = nivelIds(d.a, t); startRound(ids, 'practica'); if(V.name === 'play') V.nivel = {a:d.a, t}; },
