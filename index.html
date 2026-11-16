@@ -334,6 +334,44 @@ h1,h2,h3{font-weight:400;line-height:1.55;letter-spacing:0}
 .kpis div{background:#fff6bd;border:3px solid var(--ink);border-radius:12px;padding:8px;text-align:center}
 .kpis b{display:block;font-family:var(--display);font-weight:400;font-size:15px}
 .kpis span{font-size:12px;font-weight:700}
+
+/* Mundo A: mapa-mundo */
+.world{border:3px solid var(--ink);border-radius:16px;box-shadow:6px 6px 0 var(--ink);overflow:hidden;background:#4cc3ff;line-height:0}
+.world svg{width:100%;height:auto;display:block}
+.wt{font-family:var(--display);font-weight:400}
+.wnode{cursor:pointer}.wnode:focus{outline:none}
+.wnode:active rect.wn{transform:translate(2px,2px)}
+.wnode .wn{transition:transform .1s}
+.wnode.pulse .wn{animation:wpulse 1.2s ease-in-out infinite}
+@keyframes wpulse{50%{transform:translateY(-3px)}}
+.wave{animation:wwave 3.6s ease-in-out infinite alternate}
+.wave.b{animation-duration:4.6s;animation-delay:-1.4s}.wave.c{animation-duration:5.4s;animation-delay:-2.6s}
+@keyframes wwave{from{transform:translateX(-9px)}to{transform:translateX(9px)}}
+.wcloud{animation:wcloud 70s linear infinite}
+.wcloud.b{animation-duration:95s;animation-delay:-40s}.wcloud.c{animation-duration:55s;animation-delay:-20s}
+@keyframes wcloud{from{transform:translateX(-140px)}to{transform:translateX(520px)}}
+.wboat{animation:wboat 38s linear infinite}
+.wboat.b{animation-duration:52s;animation-delay:-22s}
+@keyframes wboat{0%{transform:translateX(-60px)}50%{transform:translateX(430px)}100%{transform:translateX(-60px)}}
+.wboat i,.wboat .bob{animation:wbob 2.2s ease-in-out infinite alternate}
+@keyframes wbob{from{transform:translateY(0)}to{transform:translateY(3px)}}
+.wfish{opacity:0;animation:wfish 7s ease-in-out infinite}
+.wfish.b{animation-delay:-3.4s}
+@keyframes wfish{0%,60%{opacity:0;transform:translate(0,6px)}66%{opacity:1;transform:translate(10px,-10px)}72%{opacity:1;transform:translate(22px,-2px)}78%,100%{opacity:0;transform:translate(30px,8px)}}
+.fogc{animation:wfog 6s ease-in-out infinite alternate}
+@keyframes wfog{from{transform:translateX(-5px)}to{transform:translateX(5px)}}
+.fogout{animation:wfogout 1.6s ease-out both}
+@keyframes wfogout{to{opacity:0;transform:scale(1.6)}}
+#wcat{transition:transform .8s linear}
+#wcat.walk .cb{animation:wcatbob .25s steps(2) infinite}
+@keyframes wcatbob{50%{transform:translateY(-4px)}}
+.mapbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+#wsheet{position:fixed;inset:0;z-index:50;display:flex;align-items:flex-end;justify-content:center}
+.wsback{position:absolute;inset:0;background:rgba(20,17,15,.45);animation:fadein .2s both}
+.wscard{position:relative;width:100%;max-width:560px;background:#fff;border:3px solid var(--ink);border-bottom:none;border-radius:20px 20px 0 0;padding:16px 16px 24px;box-shadow:0 -6px 0 var(--ink);animation:wsup .25s cubic-bezier(.3,1.3,.5,1) both;line-height:1.3}
+@keyframes wsup{from{transform:translateY(100%)}}
+.wscard h3{margin:0 0 2px;font-size:17px}
+.wscard .row{margin-top:12px}
 </style>
 </head>
 <body>
@@ -575,6 +613,131 @@ function cardInit(){
   buildCard().then(u => { const im = document.getElementById('cardimg'), a = document.getElementById('cardlink'); if(im) im.src = u; if(a) a.href = u; V.cardUrl = u; }).catch(() => toast('No se pudo armar la tarjeta'));
 }
 
+/* ---------- mundo A: mapa-mundo ---------- */
+const WORLD = {HEAD:104, STEP:76, FOOT:120, GAP:130};
+const wr = n => { const x = Math.sin(n*127.1+311.7)*43758.5453; return x - Math.floor(x); };
+const ARC = {nefro:'#1d5fe0', gastro:'#c85f00', derma:'#a02ee0'};
+const ISLE = {nefro:['#7fd1a0','#e9d9a0'], gastro:['#d8905a','#c9b48a'], derma:['#8ad46a','#f0d9a0']};
+function worldLayout(){
+  let y = 24; const isl = [];
+  AREAS.forEach((ar, k) => {
+    const T = temasOf(ar.id), h = WORLD.HEAD + T.length*WORLD.STEP + WORLD.FOOT;
+    isl.push({a:ar.id, ar, k, y0:y, h, T, nodes:T.map((t, i) => ({x:Math.round(180 + 90*Math.sin(i*1.05 + k*1.7)), y:y + WORLD.HEAD + 24 + i*WORLD.STEP}))});
+    y += h + WORLD.GAP;
+  });
+  return {isl, H:y - WORLD.GAP + 30};
+}
+function islandPath(y0, h, k){
+  const L = [], Rr = [], cap = 60;
+  for(let d = 0; d <= h; d += 12){
+    const m = Math.min(d, h-d), e = m < cap ? cap - Math.sqrt(cap*cap - (cap-m)*(cap-m)) : 0, wob = 11*Math.sin(d*.05 + k*2) + 6*Math.sin(d*.13 + k);
+    L.push([Math.round(32 + wob + e*1.15), y0 + d]); Rr.push([Math.round(328 - wob*.8 - e*1.15 + 5*Math.sin(d*.09 + k)), y0 + d]);
+  }
+  return 'M'+L.map(q => q.join(',')).join('L')+'L'+Rr.reverse().map(q => q.join(',')).join('L')+'Z';
+}
+const wtree = (x, y, c) => '<g transform="translate('+x+','+y+')">'+R(-1,0,3,8,'#7a4b24')+R(-6,-9,13,5,c)+R(-9,-5,19,5,c)+R(-4,-13,9,4,c)+R(-7,-6,3,2,'rgba(255,255,255,.35)')+'</g>';
+const wpond = (x, y) => '<g transform="translate('+x+','+y+')">'+R(-12,0,24,8,'#2b8fe0')+R(-9,-3,18,3,'#2b8fe0')+R(-9,8,18,3,'#2b8fe0')+R(-6,1,8,2,'#8fd8ff')+'</g>';
+const wflower = (x, y, c) => '<g transform="translate('+x+','+y+')">'+R(0,3,2,7,'#2c8a3c')+R(-3,0,3,3,c)+R(2,0,3,3,c)+R(-1,-3,3,3,c)+R(-1,3,3,3,c)+R(0,0,2,3,'#ffd93b')+'</g>';
+const wrock = (x, y) => '<g transform="translate('+x+','+y+')">'+R(-8,0,16,7,'#8a8578')+R(-5,-4,10,4,'#a39e90')+R(-8,5,16,2,'#6c675c')+'</g>';
+const wvolc = (x, y) => '<g transform="translate('+x+','+y+')">'+R(-6,-24,12,6,'#7a3a22')+R(-12,-18,24,6,'#8a4528')+R(-18,-12,36,6,'#9a5230')+R(-24,-6,48,6,'#a95c36')+R(-6,-26,12,2,'#ff5a1f')+R(-3,-30,6,4,'#ffb02e')+'</g>';
+function wDecor(isl){
+  const out = [];
+  for(let j = 0; j < isl.T.length*1.4; j++){
+    const y = isl.y0 + WORLD.HEAD + 20 + j*54 + wr(j + isl.k*9)*22, left = (j + isl.k) % 2 === 0, x = left ? 44 + wr(j*3)*10 : 316 - wr(j*5)*10, r = wr(j*7 + isl.k);
+    if(isl.a === 'nefro') out.push(r < .45 ? wtree(x, y, '#2f9e5a') : r < .8 ? wpond(x, y) : wrock(x, y));
+    else if(isl.a === 'gastro') out.push(r < .3 ? wvolc(x, y + 14) : r < .7 ? wrock(x, y) : wtree(x, y, '#9c7a3a'));
+    else out.push(r < .5 ? wflower(x, y, ['#ff5fa2','#a02ee0','#ffd93b'][j % 3]) : r < .8 ? wtree(x, y, '#2f9e3c') : wpond(x, y));
+  }
+  return out.join('');
+}
+function wCloud(x, y, cls){ return '<g class="wcloud '+cls+'"><g transform="translate('+x+','+y+')" opacity=".9">'+R(0,6,34,8,'#fff')+R(6,0,18,8,'#fff')+R(20,3,16,6,'#fff')+R(2,12,32,2,'#dff3ff')+'</g></g>'; }
+function wBoat(y, cls){ return '<g class="wboat '+cls+'"><g class="bob" transform="translate(0,'+y+')">'+R(0,12,26,5,'#7a4b24')+R(2,17,22,2,'#5a3516')+R(12,0,2,12,'#14110f')+R(14,1,10,8,'#fff')+R(14,1,10,1,'#ff5fa2')+'</g></g>'; }
+function wFish(x, y, cls){ return '<g class="wfish '+cls+'" transform="translate('+x+','+y+')">'+R(0,0,8,4,'#ff8c3a')+R(8,-1,3,6,'#ff8c3a')+R(2,1,1,1,'#14110f')+'</g>'; }
+function wStar(x, y, on){ return '<polygon transform="translate('+x+','+y+') scale(1.15)" points="0,-5 1.5,-1.6 5,-1.3 2.4,1 3.1,4.7 0,2.8 -3.1,4.7 -2.4,1 -5,-1.3 -1.5,-1.6" fill="'+(on ? '#ffd93b' : '#e4dfcf')+'" stroke="#14110f" stroke-width="1.2" stroke-linejoin="round"/>'; }
+const wShort = (t, n) => t.length > n ? t.slice(0, n-1)+'…' : t;
+function worldSvg(){
+  const W = worldLayout(), pos = {}; S.seen = S.seen || {}; let newly = false;
+  let o = '<defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6fd3ff"/><stop offset="1" stop-color="#2b8fe0"/></linearGradient><linearGradient id="fogg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity=".8"/></linearGradient></defs><rect width="360" height="'+W.H+'" fill="url(#sea)"/>';
+  for(let i = 0; i < W.H/38; i++){ const y = 20 + i*38 + wr(i)*12, x = wr(i*3)*300; o += '<g class="wave '+['','b','c'][i%3]+'"><rect x="'+x+'" y="'+y+'" width="22" height="2" fill="#fff" opacity=".5"/><rect x="'+(x+7)+'" y="'+(y+4)+'" width="14" height="2" fill="#fff" opacity=".35"/></g>'; }
+  o += wCloud(0, 40, '')+wCloud(40, W.H*.35, 'b')+wCloud(-20, W.H*.62, 'c')+wCloud(10, W.H*.86, 'b');
+  W.isl.forEach(is => {
+    const ar = is.ar, pal = ISLE[ar.id] || ISLE.nefro, d = islandPath(is.y0, is.h, is.k), T = is.T;
+    o += '<g transform="translate(4,6)"><path d="'+d+'" fill="#14110f" stroke="#14110f" stroke-width="18" stroke-linejoin="round" opacity=".35"/></g>'+
+      '<path d="'+d+'" fill="#14110f" stroke="#14110f" stroke-width="20" stroke-linejoin="round"/><path d="'+d+'" fill="'+pal[1]+'" stroke="'+pal[1]+'" stroke-width="12" stroke-linejoin="round"/><path d="'+d+'" fill="'+pal[0]+'"/>'+wDecor(is);
+    const stT = T.reduce((n, t) => n + starsOf(ar.id, t), 0), bT = T.filter(t => S.bosses[ar.id+'|'+t]).length, bN = T.filter(t => bossOk(ar.id, t)).length;
+    o += '<g id="isl-'+ar.id+'"><rect x="64" y="'+(is.y0+16)+'" width="232" height="44" rx="10" fill="#14110f"/><rect x="68" y="'+(is.y0+20)+'" width="224" height="36" rx="7" fill="'+ARC[ar.id]+'"/>'+
+      '<text x="180" y="'+(is.y0+35)+'" text-anchor="middle" class="wt" font-size="11" fill="#fff">'+esc(ar.n.toUpperCase())+'</text><text x="180" y="'+(is.y0+50)+'" text-anchor="middle" class="wt" font-size="8" fill="#fff" opacity=".9">★ '+stT+'/'+(T.length*3)+'  ·  JEFES '+bT+'/'+bN+'</text></g>';
+    const pts = is.nodes, open = T.map((t, i) => nodeOpen(ar.id, i)), lastOpen = open.lastIndexOf(true);
+    let dp = 'M'+pts[0].x+','+(pts[0].y-8);
+    pts.forEach((q, i) => { if(i){ const a = pts[i-1], my = (a.y + q.y)/2; dp += ' C'+a.x+','+my+' '+q.x+','+my+' '+q.x+','+q.y; } });
+    o += '<path d="'+dp+'" fill="none" stroke="#14110f" stroke-width="14" stroke-linecap="round" opacity=".25"/><path d="'+dp+'" fill="none" stroke="#f6e3a8" stroke-width="10" stroke-linecap="round"/><path d="'+dp+'" fill="none" stroke="#c9a45c" stroke-width="2.5" stroke-dasharray="6 7" stroke-linecap="round"/>';
+    pts.forEach((q, i) => {
+      const t = T[i], op = open[i], st = starsOf(ar.id, t), bd = !!S.bosses[ar.id+'|'+t], bo = bossOk(ar.id, t), key = ar.id+'|'+t;
+      pos[ar.id+'|'+i] = q;
+      const gold = st >= 3, right = q.x < 200, label = '<text x="'+(right ? 30 : -30)+'" y="-2" text-anchor="'+(right ? 'start' : 'end')+'" font-family="Courier New,monospace" font-weight="700" font-size="10.5" fill="#14110f" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">'+esc(wShort(t, Math.floor((right ? 340 - q.x - 30 : q.x - 30 - 14)/6.4)))+'</text>'+
+        '<text x="'+(right ? 30 : -30)+'" y="11" text-anchor="'+(right ? 'start' : 'end')+'" font-family="Courier New,monospace" font-weight="700" font-size="9" fill="#5a5444" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">'+tq(ar.id, t).length+' preguntas</text>';
+      o += '<g class="wnode '+(op ? '' : 'lock')+(op && st === 0 ? ' pulse' : '')+'" data-act="wnode" data-a="'+ar.id+'" data-i="'+i+'" role="button" tabindex="0" aria-label="'+esc(t)+(op ? ', '+st+' de 3 estrellas' : ', bloqueado')+'" transform="translate('+q.x+','+q.y+')">'+
+        '<rect x="-24" y="-24" width="48" height="52" fill="transparent"/><rect class="wn" x="-17" y="-17" width="38" height="38" rx="8" fill="#14110f"/><rect class="wn" x="-20" y="-20" width="38" height="38" rx="8" style="fill:'+(op ? 'var(--'+ar.id+')' : '#9a9482')+'" stroke="'+(gold ? '#ffd93b' : '#14110f')+'" stroke-width="3.5"/>'+
+        (op ? '<text y="6" text-anchor="middle" class="wt" font-size="14" fill="#fff">'+(i+1)+'</text>' : '')+
+        (op ? wStar(-12, 28, st >= 1)+wStar(-1, 28, st >= 2)+wStar(10, 28, st >= 3) : '')+
+        (bd ? '<g transform="translate(10,-34)">'+R(0,0,2,16,'#14110f')+R(2,0,12,8,'#ffd93b')+R(2,0,12,2,'#ffb02e')+'</g>' : op && st >= 2 && bo ? '<svg x="6" y="-40" width="22" height="22" viewBox="-1 -1 14 14" shape-rendering="crispEdges">'+bossSvg(ARC[ar.id], 1).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '')+'</svg>' : '')+
+        '</g>';
+      const lbl = '<g transform="translate('+q.x+','+q.y+')" style="pointer-events:none">'+label+'</g>';
+      if(!op){
+        o += '<g class="fogc" style="pointer-events:none"><g opacity=".82" fill="#fff"><circle cx="'+(q.x-14)+'" cy="'+(q.y+2)+'" r="18"/><circle cx="'+(q.x+12)+'" cy="'+(q.y-6)+'" r="20"/><circle cx="'+(q.x+4)+'" cy="'+(q.y+12)+'" r="16"/><circle cx="'+(q.x-4)+'" cy="'+(q.y-12)+'" r="15"/></g><text x="'+q.x+'" y="'+(q.y+6)+'" text-anchor="middle" class="wt" font-size="14" fill="#8c8672">?</text></g>'+lbl;
+      } else if(!S.seen[key]){
+        if(i > 0){ o += '<g class="fogout" style="pointer-events:none;transform-origin:'+q.x+'px '+q.y+'px"><g opacity=".82" fill="#fff"><circle cx="'+(q.x-14)+'" cy="'+(q.y+2)+'" r="18"/><circle cx="'+(q.x+12)+'" cy="'+(q.y-6)+'" r="20"/><circle cx="'+(q.x+4)+'" cy="'+(q.y+12)+'" r="16"/></g></g>'; }
+        S.seen[key] = 1; newly = true; o += lbl;
+      } else o += lbl;
+    });
+    const gy = is.y0 + is.h - 92, bs = bossSvg(ARC[ar.id], 1).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '');
+    o += '<g transform="translate(180,'+gy+')"><rect x="-58" y="14" width="116" height="40" rx="6" fill="#14110f" opacity=".85"/><rect x="-46" y="10" width="92" height="40" rx="4" fill="#5a5444" stroke="#14110f" stroke-width="3"/><rect x="-12" y="26" width="24" height="24" fill="#14110f"/>'+
+      '<svg x="-18" y="-34" width="36" height="36" viewBox="-1 -1 14 14" shape-rendering="crispEdges">'+bs+'</svg><text y="68" text-anchor="middle" class="wt" font-size="8" fill="#14110f" stroke="#fff" stroke-width="3" paint-order="stroke">GUARIDA DE LOS JEFES</text></g>';
+  });
+  const key = S.mapcat && pos[S.mapcat.replace(/\|(\d+)$/, '|$1')] ? S.mapcat : AREAS[0].id+'|0', cp = pos[key] || {x:180, y:100};
+  o += wBoat(W.isl[0].y0 + W.isl[0].h + 50, '')+wBoat(W.isl[1] ? W.isl[1].y0 + W.isl[1].h + 62 : 400, 'b')+wFish(60, W.isl[0].y0 + W.isl[0].h + 70, '')+wFish(250, W.isl[1] ? W.isl[1].y0 + W.isl[1].h + 84 : 500, 'b');
+  const cat = catSvg('ok', 3, S.worn, stageOf(level(S.xp)).halo).replace('<svg ', '<svg x="-24" y="-52" ');
+  o += '<g id="wcat" style="transform:translate('+cp.x+'px,'+cp.y+'px);pointer-events:none" data-pos="'+key+'"><g class="cb">'+cat+'</g></g>';
+  if(newly) setTimeout(save, 0);
+  WPOS = pos;
+  return '<svg viewBox="0 0 360 '+W.H+'" xmlns="http://www.w3.org/2000/svg" role="group" aria-label="Mapa del juego">'+o+'</svg>';
+}
+let WPOS = {};
+function vMapa(){
+  if(S.set.maplist) return vMapaLista();
+  return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button><button class="btn small ghost" data-act="maplista">Ver como lista</button></div>'+
+   '<h2 style="font-size:15px">MAPA DEL JUEGO</h2>'+
+   '<div class="chips">'+AREAS.map(x => '<button class="chip" data-act="isla" data-v="'+x.id+'">'+esc(x.n)+'</button>').join('')+'</div>'+
+   '<p class="src">Toca un tema para que tu gatito camine hasta allí. 1 estrella abre el siguiente tema; con 2 estrellas se abre el jefe.</p>'+
+   '<div class="world">'+worldSvg()+'</div></div>';
+}
+function mapInit(){
+  if(V.name !== 'mapa' || S.set.maplist) return;
+  const c = document.getElementById('wcat'); if(!c) return;
+  c.scrollIntoView({block:'center', behavior:'auto'});
+}
+function closeSheet(){ const d = document.getElementById('wsheet'); if(d) d.remove(); }
+function showSheet(a, i){
+  closeSheet(); const t = temasOf(a)[i]; if(!t) return;
+  const ar = areaOf(a), Q = tq(a, t), dom = Q.filter(isDominada).length, st = starsOf(a, t), bd = !!S.bosses[a+'|'+t], bo = bossOk(a, t), jOk = st >= 2 && bo;
+  const d = document.createElement('div'); d.id = 'wsheet';
+  d.innerHTML = '<div class="wsback" data-act="wclose"></div><div class="wscard"><p class="label" style="color:'+ar.c+'">'+esc(ar.n.toUpperCase())+' · TEMA '+(i+1)+'</p><h3>'+esc(t)+'</h3>'+
+    '<p class="src">'+Q.length+' preguntas · '+dom+' dominadas</p>'+starsRow(st)+(bd ? '<span class="qdone">JEFE DERROTADO</span>' : '')+
+    '<div class="row"><button class="btn gold grow" data-act="nivel" data-a="'+a+'" data-i="'+i+'">Nivel (8 preguntas)</button><button class="btn grow" data-act="jefe" data-a="'+a+'" data-i="'+i+'" '+(jOk ? '' : 'disabled')+'>'+(bd ? 'Revancha' : 'Jefe')+'</button></div>'+
+    (jOk ? '' : '<p class="src" style="margin-top:8px">'+(bo ? 'El jefe se abre con 2 estrellas en el nivel.' : 'Este tema aún tiene pocas preguntas para tener jefe.')+'</p>')+
+    '<div class="row"><button class="btn small ghost grow" data-act="wclose">Cerrar</button></div></div>';
+  document.body.appendChild(d);
+}
+function walkTo(key){
+  const c = document.getElementById('wcat'), p = WPOS[key]; if(!c || !p) return 0;
+  const m = /translate\(([-\d.]+)px,\s*([-\d.]+)px\)/.exec(c.style.transform) || [0, p.x, p.y], dist = Math.hypot(p.x - +m[1], p.y - +m[2]), far = dist > 400;
+  const dur = REDUCE() ? 0 : far ? 450 : Math.min(1300, Math.max(450, dist*7));
+  c.style.transition = 'transform '+dur+'ms '+(far ? 'ease-in-out' : 'steps('+Math.max(2, Math.round(dur/90))+')');
+  c.classList.add('walk'); c.style.transform = 'translate('+p.x+'px,'+p.y+'px)'; c.dataset.pos = key;
+  setTimeout(() => c.classList.remove('walk'), dur);
+  return dur;
+}
+
 /* ---------- fase 4: mapa de islas, estrellas, jefes, insignias ---------- */
 const temasOf = a => { const seen = []; allQ().forEach(q => { if(q.area === a && !seen.includes(q.tema)) seen.push(q.tema); }); return seen; };
 const tq = (a, t) => allQ().filter(q => q.area === a && q.tema === t);
@@ -624,7 +787,7 @@ function bossBar(){
   const tot = V.ids.length, left = Math.max(0, tot - V.ok), hit = V.answered && V.lastCoin > 0, ac = areaOf(V.jefe.a).c;
   return '<div class="bossbar '+(hit ? 'hit' : '')+(left <= 3 ? ' low' : '')+'">'+bossSvg(ac, 3.2)+'<div class="grow"><p class="label">JEFE · '+esc(V.jefe.t.toUpperCase())+'</p>'+segs(left/tot, tot, 'boss')+'<span class="src">Vida del jefe: '+left+' / '+tot+'</span></div></div>';
 }
-function vMapa(){
+function vMapaLista(){
   const a = V.area || AREAS[0].id, ar = areaOf(a), T = temasOf(a);
   const stT = T.reduce((n, t) => n + starsOf(a, t), 0), bT = T.filter(t => S.bosses[a+'|'+t]).length, bN = T.filter(t => bossOk(a, t)).length;
   const nodes = T.map((t, i) => {
@@ -634,7 +797,7 @@ function vMapa(){
       '<div class="mn-btns"><button class="btn small gold" data-act="nivel" data-a="'+a+'" data-i="'+i+'" '+(open ? '' : 'disabled')+'>Nivel</button>'+
       '<button class="btn small" data-act="jefe" data-a="'+a+'" data-i="'+i+'" '+(open && st >= 2 && bo ? '' : 'disabled')+'>'+(bd ? 'Revancha' : 'Jefe')+'</button></div></div>';
   }).join('');
-  return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button></div>'+
+  return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button><button class="btn small ghost" data-act="maplista">Ver como mundo</button></div>'+
    '<h2 style="font-size:15px">MAPA DEL JUEGO</h2>'+
    '<div class="chips">'+AREAS.map(x => '<button class="chip '+(a === x.id ? 'on' : '')+'" data-act="isla" data-v="'+x.id+'">'+esc(x.n)+'</button>').join('')+'</div>'+
    '<div class="panel islandhead" style="border-left:12px solid '+ar.c+'"><div class="grow"><p class="label">ISLA</p><b style="font-size:17px;color:'+ar.c+'">'+esc(ar.n)+'</b><div class="src">'+stT+' / '+(T.length*3)+' estrellas · '+bT+' / '+bN+' jefes</div></div>'+bossSvg(ar.c, 4)+'</div>'+
@@ -1151,6 +1314,7 @@ function render(){
   if(V.name === 'home') initHero();
   if(V.name === 'play' && V.timed) runTimer();
   if(V.name === 'tarjeta') cardInit();
+  closeSheet(); if(V.name === 'mapa') mapInit();
   if(V.name === 'result' && !V.dead && V.answeredN && V.ok/V.answeredN >= 0.8) setTimeout(() => { confetti(40); burstAt(document.querySelector('.catbox svg'), 'ok'); }, 300);
   if(V.name === 'result'){
     const el = document.getElementById('xpcount');
@@ -1313,7 +1477,18 @@ const A = {
   },
   cont: () => { if(V.lives > 0 || (V.cont || 0) >= 2) return; const c = contCost(); if(S.coins < c){ toast('Te faltan monedas'); return; } S.coins -= c; V.cont = (V.cont || 0) + 1; V.lives = 1; V.lostNow = false; save(); sfx('buy'); next(); },
   mapa: () => go({name:'mapa', area:(V.area || V.jefe && V.jefe.a || V.nivel && V.nivel.a || AREAS[0].id)}),
-  isla: d => { V.area = d.v; render(); },
+  isla: d => {
+    if(!S.set.maplist){ const e = document.getElementById('isl-'+d.v); if(e) e.scrollIntoView({block:'start', behavior:REDUCE() ? 'auto' : 'smooth'}); return; }
+    V.area = d.v; render();
+  },
+  maplista: () => { S.set.maplist = !S.set.maplist; save(); render(); },
+  wclose: () => closeSheet(),
+  wnode: d => {
+    const i = +d.i, t = temasOf(d.a)[i]; if(!t) return;
+    if(!nodeOpen(d.a, i)){ toast('Consigue 1 estrella en el tema anterior para abrir este.'); sfx('bad'); return; }
+    closeSheet(); sfx('click'); const key = d.a+'|'+i; S.mapcat = key; save();
+    const dur = walkTo(key); setTimeout(() => { if(V.name === 'mapa') showSheet(d.a, i); }, dur + 80);
+  },
   nivel: d => { const t = temasOf(d.a)[+d.i]; if(!t || !nodeOpen(d.a, +d.i)) return; const ids = nivelIds(d.a, t); startRound(ids, 'practica'); if(V.name === 'play') V.nivel = {a:d.a, t}; },
   jefe: d => { const t = temasOf(d.a)[+d.i]; if(!t || !bossOk(d.a, t) || starsOf(d.a, t) < 2) return; sfx('boss'); const ids = jefeIds(d.a, t); startRound(ids, 'boss'); if(V.name === 'play') V.jefe = {a:d.a, t}; render(); },
   tienda: () => go({name:'tienda', tab:'hat'}),
