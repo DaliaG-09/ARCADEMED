@@ -661,10 +661,20 @@ function vResumen(){
    '<div class="panel"><p class="label">PREGUNTAS POR DÍA</p><div class="wk">'+bars+'</div>'+
     '<div class="kpis"><div><b>'+n+'</b><span>preguntas</span></div><div><b>'+(n ? acc+' %' : '-')+'</b><span>de aciertos</span></div><div><b>'+dias+' / 7</b><span>días con estudio</span></div><div><b>x'+(S.cnt.best || 0)+'</b><span>mejor combo (total)</span></div></div>'+
     '<p class="src" style="margin-top:10px">'+esc(cmp)+(acc2 !== null && n ? ' Acierto de la semana pasada: '+acc2+' %.' : '')+'</p></div>'+
+   '<div class="panel"><p class="label">TARJETAS: TUS 5 CAJAS</p>'+boxesHtml(-1)+cardForecast()+'</div>'+
    '<div class="panel stack" style="gap:8px"><p class="label">POR ÁREA ESTA SEMANA</p>'+areaAcc+'</div>'+
    '<div class="panel stack" style="gap:10px"><p class="label">TEMA MÁS FUERTE Y MÁS DÉBIL</p>'+
     (best ? '<div><b style="color:'+areaOf(best.a).c+'">Más fuerte:</b> '+esc(best.t)+' <span class="src">('+Math.round(best.p*100)+' % de acierto)</span></div>' : '<p class="src">Responde unas 6 preguntas de un mismo tema para ver cuál te sale mejor.</p>')+
     (worst && worst !== best ? '<div><b style="color:var(--bad)">Más débil:</b> '+esc(worst.t)+' <span class="src">('+Math.round(worst.p*100)+' % de acierto)</span></div><button class="btn gold small" data-act="reforzar" data-a="'+worst.a+'" data-t="'+esc(worst.t)+'">Reforzar este tema</button>' : '')+'</div></div>';
+}
+
+function cardForecast(){
+  const cs = allC().filter(c => S.c[c.id]), day = 864e5, t0 = new Date(); t0.setHours(23, 59, 59, 999);
+  const n = Array.from({length:7}, (_, i) => cs.filter(c => { const d = S.c[c.id].due; return i === 0 ? d <= t0.getTime() : d > t0.getTime() + (i-1)*day && d <= t0.getTime() + i*day; }).length), mx = Math.max(1, ...n);
+  const leech = cs.filter(c => (S.c[c.id].lap || 0) >= 3).length, seen = cs.length;
+  const names = Array.from({length:7}, (_, i) => { const x = new Date(); x.setDate(x.getDate() + i); return i === 0 ? 'HOY' : 'DLMXJVS'[x.getDay()]; });
+  return '<p class="label" style="margin-top:14px">PRÓXIMOS 7 DÍAS: TARJETAS POR REPASAR</p><div class="wk">'+n.map((k, i) => '<div><small>'+(k || '')+'</small><i class="'+(k ? '' : 'z')+'" style="height:'+Math.round(k/mx*90)+'px"></i><span>'+names[i]+'</span></div>').join('')+'</div>'+
+    '<p class="src" style="margin-top:8px">'+seen+' de '+allC().length+' tarjetas ya empezadas'+(leech ? ' · '+leech+' sanguijuelas que conviene reescribir con tu propio truco' : '')+'.</p>';
 }
 async function buildCard(){
   const lv = level(S.xp), st = stageOf(lv), qs = allQ(), dom = qs.filter(isDominada).length, th = THEMES[S.set.theme] || THEMES.sol;
@@ -1437,7 +1447,7 @@ function vHome(){
       '<button class="btn act" data-act="reto"><b>RETO CONTRARRELOJ</b><span>12 preguntas de opción múltiple, 20 segundos cada una, 3 vidas y bonus por rapidez</span></button>'+
       '<button class="btn act gold" data-act="sim"><b>SIMULACRO</b><span>11 preguntas, 20 puntos, como el examen</span></button>'+
       '<button class="btn act" data-act="falladas" '+(nFall ? '' : 'disabled')+'><b>REPASAR FALLADAS</b><span>'+nFall+' por dominar (necesitas 2 aciertos seguidos)</span></button>'+
-      '<button class="btn act" data-act="cards"><b>FLASHCARDS</b><span>'+nDue+' por repasar hoy, repetición espaciada</span></button>'+
+      '<button class="btn act" data-act="cards"><b>FLASHCARDS</b><span>'+(function(){ const d = todayDeck(); return d.rev.length+' por repasar y '+d.nw.length+' nuevas hoy · repetición espaciada y recuerdo activo'; })()+'</span></button>'+
     '</div></div>'+
     '<div><p class="label">MUNDOS</p><div class="worlds">'+worlds+'</div></div>'+minisHtml()+
     '<p class="src">Has visto '+vistas+' de '+qs.length+' preguntas. Las preguntas con * al final tienen un dato corregido porque el PPT lo trae mal; al responder te explico qué cambió.</p>'+
