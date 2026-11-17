@@ -2149,9 +2149,9 @@
    "area": "nefro",
    "tema": "Electrolitos (casos)",
    "f": "Meta de corrección del sodio y qué se evita*",
-   "b": "En hiponatremia crónica: subir 4 a 6 mEq/L en 24 horas, con tope de 8 en pacientes de riesgo (alcoholismo, desnutrición, hipopotasemia, hepatopatía) y de 10 a 12 en bajo riesgo, para evitar la mielinólisis pontina. Si hay síntomas graves (convulsión, coma): 100 a 150 mL de NaCl 3 % en bolo.",
+   "b": "En hiponatremia crónica: meta de 4 a 6 mEq/L en 24 horas y tope de 8 mEq/L en 24 horas (es el límite que se usa en la práctica en Lima). En bajo riesgo algunas guías toleran hasta 10 a 12, pero conviene no pasar de 8 para evitar la mielinólisis pontina; en alcoholismo, desnutrición, hipopotasemia o hepatopatía, el tope de 8 es obligatorio. Si hay síntomas graves (convulsión, coma): 100 a 150 mL de NaCl 3 % en bolo.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11",
-   "nota": "Corregido: el PPT da 4 a 8 mEq/L como meta; la meta es 4 a 6 y 8 es el tope en pacientes de riesgo."
+   "nota": "Corregido: el PPT da 4 a 8 mEq/L como meta; la meta es 4 a 6 y 8 es el tope máximo en 24 horas."
   },
   {
    "id": "n-t-elec-pasos",
