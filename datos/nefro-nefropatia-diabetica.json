@@ -423,7 +423,7 @@
    "area": "nefro",
    "tema": "Nefropatía diabética",
    "f": "¿Qué fármacos se usan para tratar la nefropatía diabética?",
-   "b": "iSGLT2 (inhibidores de SGLT2), IECA o ARA II, finerenona y estatina.",
+   "b": "iSGLT2 (inhibidores de SGLT2), IECA o ARA II, finerenona y estatina. Los agonistas del GLP-1 también dan beneficio renal.",
    "fuente": "PPT Nefropatía diabética (sem. 10), lám. 22"
   },
   {
@@ -438,9 +438,10 @@
    "id": "n-nd-c-5",
    "area": "nefro",
    "tema": "Nefropatía diabética",
-   "f": "¿Cuándo se deriva a Nefrología a un paciente diabético?",
-   "b": "TFG <30 o albuminuria >500-1000",
-   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 23"
+   "f": "¿Cuándo se deriva a Nefrología a un paciente diabético?*",
+   "b": "TFG <30, albuminuria persistente >300 mg/g, caída rápida de la TFG, hematuria sin explicación, hipertensión resistente o hiperpotasemia refractaria.",
+   "fuente": "PPT Nefropatía diabética (sem. 10), lám. 23",
+   "nota": "Corregido: el PPT usa albuminuria >500 a 1000; el criterio habitual de referencia es >300 mg/g."
   }
  ]
 }

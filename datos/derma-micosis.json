@@ -479,7 +479,7 @@
    "area": "derma",
    "tema": "Micosis en dermatología",
    "f": "¿Qué formas clínicas tiene la tiña capitis?",
-   "b": "Tonsurante con puntos negros, querion y forma seca; frecuente en niños; tratamiento con griseofulvina.",
+   "b": "Tonsurante con puntos negros, querion y forma seca; frecuente en niños. Siempre se trata con antifúngico oral: griseofulvina (Microsporum) o terbinafina (Trichophyton); el tópico solo no basta.",
    "fuente": "PPT Micosis en dermatología (sem. 15), lám. 15"
   },
   {
@@ -526,9 +526,10 @@
    "id": "d-mic-c-7",
    "area": "derma",
    "tema": "Micosis en dermatología",
-   "f": "¿Qué se usa para onicomicosis?",
-   "b": "Terbinafina 250 mg/día: 6-12 semanas manos, 12-24 semanas pies; itraconazol; laca de amorolfina 5 %.",
-   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 30"
+   "f": "¿Qué se usa para onicomicosis?*",
+   "b": "Terbinafina 250 mg/día: 6 semanas en uñas de manos y 12 semanas en uñas de pies; itraconazol en pulsos; laca de amorolfina 5 % en casos leves. Confirmar con KOH o cultivo antes de tratar.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 30",
+   "nota": "Corregido: el PPT da 6 a 12 semanas en manos y 12 a 24 en pies; el esquema estándar es 6 y 12 semanas."
   }
  ]
 }

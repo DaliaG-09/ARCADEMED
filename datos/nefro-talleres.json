@@ -2051,9 +2051,10 @@
    "id": "n-t-aga-normales",
    "area": "nefro",
    "tema": "Gases arteriales (casos)",
-   "f": "Valores normales de la AGA (gasometría arterial)",
-   "b": "pH 7.40 ± 0.05 (7.35 a 7.45)\npCO₂ 40 ± 4 (36 a 44) mmHg\npO₂ 80 a 97 mmHg\nHCO₃⁻ 24 ± 2 (22 a 26) mEq/L\nSatO₂ mayor de 98 %",
-   "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 6"
+   "f": "Valores normales de la AGA (gasometría arterial)*",
+   "b": "pH 7.40 ± 0.05 (7.35 a 7.45)\npCO₂ 40 ± 4 (36 a 44) mmHg\npO₂ 80 a 97 mmHg\nHCO₃⁻ 24 ± 2 (22 a 26) mEq/L\nSatO₂ ≥95 %",
+   "fuente": "PPT Taller aplicativo de gases arteriales (sem. 10), lám. 6",
+   "nota": "Corregido: el PPT pone SatO₂ mayor de 98 %; el límite normal habitual es 95 %."
   },
   {
    "id": "n-t-aga-tabla",
@@ -2147,9 +2148,10 @@
    "id": "n-t-elec-meta",
    "area": "nefro",
    "tema": "Electrolitos (casos)",
-   "f": "Meta de corrección del sodio y qué se evita",
-   "b": "Aumentar 4 a 8 mEq/L en 24 horas, de forma lenta y segura, para evitar la mielinólisis pontina.",
-   "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11"
+   "f": "Meta de corrección del sodio y qué se evita*",
+   "b": "En hiponatremia crónica: subir 4 a 6 mEq/L en 24 horas, con tope de 8 en pacientes de riesgo (alcoholismo, desnutrición, hipopotasemia, hepatopatía) y de 10 a 12 en bajo riesgo, para evitar la mielinólisis pontina. Si hay síntomas graves (convulsión, coma): 100 a 150 mL de NaCl 3 % en bolo.",
+   "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11",
+   "nota": "Corregido: el PPT da 4 a 8 mEq/L como meta; la meta es 4 a 6 y 8 es el tope en pacientes de riesgo."
   },
   {
    "id": "n-t-elec-pasos",
@@ -2164,7 +2166,7 @@
    "area": "nefro",
    "tema": "Electrolitos (casos)",
    "f": "Hipernatremia + hipopotasemia + alcalosis metabólica + HTA refractaria",
-   "b": "Hiperactividad crónica de aldosterona: retiene Na⁺ en el túbulo colector y pierde K⁺ e H⁺ (caso 2).",
+   "b": "Hiperaldosteronismo (primario): la aldosterona en exceso retiene Na⁺ en el túbulo colector y pierde K⁺ e H⁺.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 9"
   },
   {

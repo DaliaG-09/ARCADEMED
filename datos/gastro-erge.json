@@ -362,9 +362,10 @@
    "id": "g-erge-c-3",
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
-   "f": "¿En qué consiste la prueba terapéutica con IBP en ERGE y cuándo se duplica la dosis?",
-   "b": "IBP (inhibidor de bomba de protones) por 2 a 4 semanas. Si hay síntomas extraesofágicos junto con los de ERGE, se duplica la dosis por 12 semanas. No se pide esofagograma para esta prueba.",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 20"
+   "f": "¿En qué consiste la prueba terapéutica con IBP en ERGE y cuándo se duplica la dosis?*",
+   "b": "IBP (inhibidor de bomba de protones) a dosis estándar por 4 a 8 semanas; si hay síntomas extraesofágicos junto con los de ERGE, dosis doble por 12 semanas. No se pide esofagograma para esta prueba.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 20",
+   "nota": "Corregido: el PPT da 2 a 4 semanas; las guías actuales usan 4 a 8 semanas para valorar la respuesta."
   },
   {
    "id": "g-erge-c-4",
@@ -394,9 +395,10 @@
    "id": "g-erge-c-7",
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
-   "f": "¿Cuándo se indica la fundoplicatura y cuándo está contraindicada?",
-   "b": "Indicada en ERGE complicada. Contraindicada: hernia hiatal gigante, íleo, gastroparesia no controlada.",
-   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 35"
+   "f": "¿Cuándo se indica la fundoplicatura y cuándo está contraindicada?*",
+   "b": "Indicada: ERGE refractario a IBP con reflujo comprobado, esofagitis grave, estenosis o Barrett, y hernia hiatal grande sintomática. Contraindicada o parcial: ausencia de peristalsis esofágica (esclerodermia, acalasia), gastroparesia no controlada y ERGE no confirmado con pH-metría o endoscopía.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 35",
+   "nota": "Corregido: el PPT pone la hernia hiatal gigante como contraindicación; al contrario, es una indicación de reparación con fundoplicatura."
   }
  ]
 }

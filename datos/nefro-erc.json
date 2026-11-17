@@ -617,9 +617,10 @@
    "id": "n-erc-c-6",
    "area": "nefro",
    "tema": "Enfermedad renal crónica",
-   "f": "¿Cuáles son los criterios para iniciar diálisis?",
-   "b": "TFG <15 sintomático (<10 diabetes); síntomas urémicos; K⁺ >6.5; pH <7.2 o HCO₃⁻ <12; sobrecarga hídrica refractaria",
-   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 18"
+   "f": "¿Cuáles son los criterios para iniciar diálisis?*",
+   "b": "Síntomas urémicos (pericarditis, encefalopatía, náuseas, sangrado) o complicaciones que no mejoran con tratamiento médico: potasio >6.5, acidosis grave (pH <7.2) o sobrecarga hídrica. Suele ocurrir con TFG de 5 a 10 (hasta <15 si hay síntomas). La TFG sola no decide el inicio.",
+   "fuente": "PPT Enfermedad renal crónica (sem. 11), lám. 18",
+   "nota": "Corregido: el PPT usa umbrales fijos de TFG (<15, <10 en diabetes); hoy el inicio se decide por síntomas y complicaciones refractarias."
   },
   {
    "id": "n-erc-c-7",

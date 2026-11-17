@@ -375,17 +375,19 @@
    "id": "g-eup-c-4",
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
-   "f": "¿Qué esquema de cuadriterapia con bismuto se usa para erradicar H. pylori y cuándo se controla?",
-   "b": "IBP + amoxicilina + metronidazol + bismuto. Control a las 6 a 8 semanas.",
-   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 18"
+   "f": "¿Qué esquema de cuadriterapia con bismuto se usa para erradicar H. pylori y cuándo se controla?*",
+   "b": "IBP + bismuto + tetraciclina + metronidazol por 14 días. Control de erradicación al menos 4 semanas tras terminar los antibióticos y 2 semanas sin IBP.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 18",
+   "nota": "Corregido: el PPT pone amoxicilina en la cuadriterapia con bismuto; el esquema correcto lleva tetraciclina."
   },
   {
    "id": "g-eup-c-5",
    "area": "gastro",
    "tema": "Enfermedad ulcero péptica",
-   "f": "¿Qué esquema se usa en la erradicación de H. pylori si hay alergia a la amoxicilina?",
-   "b": "IBP + tetraciclina + metronidazol + bismuto.",
-   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 19"
+   "f": "¿Qué esquema se usa en la erradicación de H. pylori si hay alergia a la amoxicilina?*",
+   "b": "La misma cuadriterapia con bismuto (IBP + bismuto + tetraciclina + metronidazol), porque no lleva amoxicilina.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 19",
+   "nota": "Corregido: se aclara que el esquema con bismuto ya evita la penicilina."
   },
   {
    "id": "g-eup-c-6",

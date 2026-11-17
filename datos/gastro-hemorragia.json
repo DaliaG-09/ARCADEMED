@@ -350,16 +350,17 @@
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
    "f": "¿Cómo se trata el sangrado por várices y qué mortalidad tiene?",
-   "b": "Tratamiento endoscópico con ligadura de las várices. La mortalidad del sangrado es de 15 a 40 %.",
+   "b": "Vasoactivo (octreótido), antibiótico profiláctico y ligadura endoscópica de las várices en las primeras 12 h. La mortalidad a 6 semanas es de 15 a 20 %.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 10"
   },
   {
    "id": "g-hd-c-3",
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
-   "f": "¿Qué pasos sigue el algoritmo en un paciente con HDA estable?",
-   "b": "Reposición de volumen, IBP 80 mg en bolo y 8 mg/h, transfusión restrictiva, endoscopia antes de 24 h.",
-   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 15"
+   "f": "¿Qué pasos sigue el algoritmo en un paciente con HDA estable?*",
+   "b": "Reanimación, estratificar con Glasgow-Blatchford, transfusión restrictiva (Hb <7), endoscopía antes de 24 h. Tras terapia endoscópica de úlcera de alto riesgo: IBP 80 mg en bolo y luego 8 mg/h por 72 h.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 15",
+   "nota": "Corregido: el PPT pone el bolo y la infusión de IBP como paso inicial; corresponden a después del tratamiento endoscópico en úlcera de alto riesgo."
   },
   {
    "id": "g-hd-c-4",
@@ -381,9 +382,10 @@
    "id": "g-hd-c-6",
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
-   "f": "¿Cómo se presenta la colitis isquémica y cómo se estudia?",
-   "b": "Anciano con hematoquecia por flujo mesentérico reducido; 20 % de las HDB; angiografía mesentérica.",
-   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 23"
+   "f": "¿Cómo se presenta la colitis isquémica y cómo se estudia?*",
+   "b": "Anciano con dolor abdominal y hematoquecia por flujo mesentérico reducido; compromete sobre todo el colon izquierdo y respeta el recto. Se estudia con colonoscopía (lesión segmentaria) y angio-TC; la angiografía queda para casos seleccionados.",
+   "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 23",
+   "nota": "Corregido: el PPT da la angiografía mesentérica como estudio; el primer estudio es la colonoscopía."
   },
   {
    "id": "g-hd-c-7",

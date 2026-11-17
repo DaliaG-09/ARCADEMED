@@ -274,17 +274,19 @@
    "id": "g-pan-c-6",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
-   "f": "¿Qué líquido y qué velocidad de hidratación se usan en la pancreatitis aguda?",
-   "b": "Lactato de Ringer. Agresiva 5 a 10 ml/kg/h; moderada 1,5 a 2 ml/kg/h.",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 23"
+   "f": "¿Qué líquido y qué velocidad de hidratación se usan en la pancreatitis aguda?*",
+   "b": "Lactato de Ringer. Bolo de 10 mL/kg si hay hipovolemia y luego 1.5 mL/kg/h (hidratación moderada). La agresiva (5 a 10 mL/kg/h) aumenta la sobrecarga de volumen sin mejorar la evolución.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 23",
+   "nota": "Corregido: el PPT recomienda la hidratación agresiva; la evidencia actual favorece la moderada."
   },
   {
    "id": "g-pan-c-7",
    "area": "gastro",
    "tema": "Pancreatitis aguda y crónica",
-   "f": "¿Qué analgesia se usa en pancreatitis aguda y cuándo se dan antibióticos?",
-   "b": "Opiáceos, evitar AINE. Antibióticos solo si hay infección (carbapenémicos, quinolonas, metronidazol).",
-   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 26"
+   "f": "¿Qué analgesia se usa en pancreatitis aguda y cuándo se dan antibióticos?*",
+   "b": "Analgesia multimodal: paracetamol, AINE si no hay lesión renal, y opioide (fentanilo, morfina) si no basta. Antibióticos solo si hay necrosis infectada o infección asociada (por ejemplo, colangitis).",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 26",
+   "nota": "Corregido: el PPT dice evitar AINE; se pueden usar si la función renal es normal."
   }
  ]
 }

@@ -290,9 +290,10 @@
    "id": "g-tbc-c-6",
    "area": "gastro",
    "tema": "Tuberculosis enteroperitoneal",
-   "f": "¿Cuál es el esquema de tratamiento de la tuberculosis abdominal?",
-   "b": "9 meses en total: 2 meses de HRZE y 7 meses de HR (H isoniazida, R rifampicina, Z pirazinamida, E etambutol).",
-   "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 22"
+   "f": "¿Cuál es el esquema de tratamiento de la tuberculosis abdominal?*",
+   "b": "6 meses en total: 2 meses de HRZE y 4 meses de HR (H isoniazida, R rifampicina, Z pirazinamida, E etambutol).",
+   "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 22",
+   "nota": "Corregido: el PPT da 9 meses (2 + 7); el esquema vigente es de 6 meses."
   },
   {
    "id": "g-tbc-c-7",

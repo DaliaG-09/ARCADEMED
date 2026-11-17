@@ -357,9 +357,10 @@
    "id": "g-aca-c-4",
    "area": "gastro",
    "tema": "Acalasia (trastornos motores del esófago)",
-   "f": "¿Cuál es el estándar de oro para diagnosticar acalasia y qué hallazgos da?",
-   "b": "Manometría de alta resolución: EEI hipertenso sin relajación y sin peristalsis.",
-   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11"
+   "f": "¿Cuál es el estándar de oro para diagnosticar acalasia y qué hallazgos da?*",
+   "b": "Manometría de alta resolución: relajación incompleta del EEI (IRP, presión de relajación integrada, elevada) y ausencia de peristalsis. La presión basal del EEI puede ser normal o alta.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11",
+   "nota": "Corregido: el PPT dice \"EEI hipertenso\"; lo que define la acalasia es la relajación incompleta, no que la presión basal esté alta."
   },
   {
    "id": "g-aca-c-5",
@@ -373,9 +374,10 @@
    "id": "g-aca-c-6",
    "area": "gastro",
    "tema": "Acalasia (trastornos motores del esófago)",
-   "f": "¿Qué opciones de tratamiento tiene la acalasia, de la menos a la más invasiva?",
-   "b": "Nifedipino/isosorbida, toxina botulínica 100 UI, dilatación neumática, miotomía + fundoplicatura, esofagectomía.",
-   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14"
+   "f": "¿Qué opciones de tratamiento tiene la acalasia, de la menos a la más invasiva?*",
+   "b": "Nifedipino o isosorbida (solo temporal, poco eficaces), toxina botulínica 100 UI (ancianos o riesgo quirúrgico alto), dilatación neumática, miotomía de Heller laparoscópica con fundoplicatura parcial, POEM (miotomía endoscópica peroral) y esofagectomía en último caso.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14",
+   "nota": "Corregido: se añade el POEM, que hoy es opción de primera línea junto con Heller y dilatación."
   },
   {
    "id": "g-aca-c-7",

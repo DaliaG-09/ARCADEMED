@@ -450,9 +450,10 @@
    "id": "n-ira-c-5",
    "area": "nefro",
    "tema": "Injuria renal aguda",
-   "f": "¿Qué porcentaje de IRA es prerrenal y cuál es su mecanismo?",
-   "b": "60 a 70 % de los casos. Hipoperfusión: vasoconstricción de la arteriola aferente, baja el FG.",
-   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 12"
+   "f": "¿Qué porcentaje de IRA es prerrenal y cuál es su mecanismo?*",
+   "b": "Alrededor del 60 a 70 % de las IRA de la comunidad. Baja la perfusión renal con parénquima sano, cae la presión de filtración y baja el FG. Al inicio la angiotensina II contrae la arteriola eferente y las prostaglandinas dilatan la aferente para compensar; por eso los AINE, IECA y ARA II precipitan la IRA prerrenal.",
+   "fuente": "PPT Injuria renal aguda (sem. 9), lám. 12",
+   "nota": "Corregido: el PPT habla de vasoconstricción de la arteriola aferente; en la hipoperfusión la aferente se dilata y es la eferente la que se contrae."
   },
   {
    "id": "n-ira-c-6",

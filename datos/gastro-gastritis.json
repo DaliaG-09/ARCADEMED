@@ -354,7 +354,7 @@
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
    "f": "¿Qué pruebas diagnostican la infección por H. pylori?",
-   "b": "Endoscopía con biopsia, ELISA (80 %), test de aliento, antígeno fecal.",
+   "b": "Endoscopía con biopsia, test de aliento con urea, antígeno fecal. La serología (ELISA) no distingue infección activa de pasada y no sirve para confirmar erradicación.",
    "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 22"
   },
   {
@@ -369,9 +369,10 @@
    "id": "g-gastritis-c-7",
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
-   "f": "¿Cuál es el tratamiento de H. pylori en gastritis y qué esquema usan los alérgicos?",
-   "b": "IBP + amoxicilina + claritromicina. Alérgicos: metronidazol + tetraciclina, o levofloxacina + claritromicina.",
-   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 24"
+   "f": "¿Cuál es el tratamiento de H. pylori en gastritis y qué esquema usan los alérgicos?*",
+   "b": "Cuadriterapia con bismuto por 14 días (IBP + bismuto + tetraciclina + metronidazol). La triple con claritromicina solo si la resistencia local es menor de 15 %, lo que no suele cumplirse en Lima. En alérgicos a la penicilina se usa la misma cuadriterapia con bismuto.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 24",
+   "nota": "Corregido: el PPT da la triple con claritromicina como primera línea y levofloxacina + claritromicina para alérgicos; hoy se prefiere la cuadriterapia con bismuto."
   }
  ]
 }

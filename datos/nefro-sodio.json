@@ -554,9 +554,10 @@
    "id": "n-na-c-2",
    "area": "nefro",
    "tema": "Sodio",
-   "f": "¿Cuánto sodio (mEq/L) aporta cada solución: NaCl 3 %, 0.9 %, 20 % y bicarbonato 8.5 %?",
-   "b": "NaCl 3 % 513; 0.9 % 154; 20 % 68; bicarbonato 8.5 % 20",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 17"
+   "f": "¿Cuánto sodio (mEq/L) aporta cada solución: NaCl 3 %, 0.9 %, 20 % y bicarbonato 8.5 %?*",
+   "b": "NaCl 3 %: 513 mEq/L. NaCl 0.9 %: 154 mEq/L. NaCl 20 % (ampolla de 20 mL): 68 mEq por ampolla. Bicarbonato 8.5 % (ampolla de 20 mL): 20 mEq por ampolla.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: sodio (sem. 9), lám. 17",
+   "nota": "Corregido: el PPT pone las cuatro cifras como mEq/L; en el NaCl 20 % y el bicarbonato 8.5 % son mEq por ampolla, no por litro."
   },
   {
    "id": "n-na-c-5",

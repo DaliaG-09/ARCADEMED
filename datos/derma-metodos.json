@@ -200,9 +200,10 @@
    "id": "d-met-c-3",
    "area": "derma",
    "tema": "Métodos diagnósticos en dermatología",
-   "f": "¿Cuál es el medio de conservación de la biopsia según el estudio?",
-   "b": "Hematoxilina-eosina (H-E) y PCR: formalina al 10 %. Microscopía electrónica: glutaraldehído al 8 %. Inmunofluorescencia directa: medio de Michel. Cultivos: suero fisiológico.",
-   "fuente": "PPT Métodos diagnósticos en dermatología (sem. 14), lám. 15"
+   "f": "¿Cuál es el medio de conservación de la biopsia según el estudio?*",
+   "b": "Hematoxilina-eosina (H-E) y PCR: formalina al 10 %. Microscopía electrónica: glutaraldehído al 2.5 %. Inmunofluorescencia directa: medio de Michel (o congelada). Cultivos: suero fisiológico estéril.",
+   "fuente": "PPT Métodos diagnósticos en dermatología (sem. 14), lám. 15",
+   "nota": "Corregido: el PPT da glutaraldehído al 8 %; la concentración habitual es 2.5 %."
   },
   {
    "id": "d-met-c-4",

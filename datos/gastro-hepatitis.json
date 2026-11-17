@@ -518,9 +518,10 @@
    "id": "g-hep-c-1",
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
-   "f": "¿Qué virus de hepatitis se transmiten por vía fecal-oral y cuáles por sangre, y cuáles cronifican?",
-   "b": "A y E: fecal-oral. B, C, D y G: sangre y líquidos. A y E no cronifican.",
-   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 8"
+   "f": "¿Qué virus de hepatitis se transmiten por vía fecal-oral y cuáles por sangre, y cuáles cronifican?*",
+   "b": "A y E: fecal-oral. B, C y D: sangre y líquidos. A no cronifica; E solo cronifica en inmunodeprimidos (trasplantados).",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 8",
+   "nota": "Corregido: el PPT dice que E no cronifica; sí puede hacerlo en inmunodeprimidos. El virus G no se considera hepatotropo."
   },
   {
    "id": "g-hep-c-2",
@@ -551,7 +552,7 @@
    "area": "gastro",
    "tema": "Hepatitis viral aguda y crónica",
    "f": "¿Cómo se define la hepatitis B crónica y qué caracteriza al portador inactivo?",
-   "b": "HBsAg positivo >6 meses. Portador inactivo: ALT normal, HBeAg −, anti-HBe +.",
+   "b": "HBsAg positivo por más de 6 meses. Portador inactivo: ALT normal, HBeAg negativo, anti-HBe positivo y ADN viral menor de 2000 UI/mL.",
    "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 34"
   },
   {

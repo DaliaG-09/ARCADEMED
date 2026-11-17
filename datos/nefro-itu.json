@@ -310,25 +310,28 @@
    "id": "n-itu-c-0",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
-   "f": "¿Qué tratamientos orales se usan en la cistitis no complicada?",
-   "b": "Fosfomicina 3 g VO dosis única\nNitrofurantoína 100 mg VO c/12 h por 5 días\nTrimetoprima-sulfametoxazol c/8 h si la resistencia es menor de 20 %",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 20"
+   "f": "¿Qué tratamientos orales se usan en la cistitis no complicada?*",
+   "b": "Fosfomicina 3 g VO dosis única.\nNitrofurantoína 100 mg VO c/12 h por 5 días.\nTrimetoprima-sulfametoxazol c/12 h por 3 días solo si la resistencia local es menor de 20 %; en Perú suele ser mayor, por lo que no se usa de forma empírica.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 20",
+   "nota": "Corregido: el PPT pone TMP-SMX cada 8 horas; la dosis es cada 12 horas."
   },
   {
    "id": "n-itu-c-1",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
-   "f": "¿Cómo se define la ITU recurrente y qué medidas se toman?",
-   "b": "2 o más en 6 meses o 3 o más en un año.\nMedidas: más líquidos, antibiótico poscoital, considerar imágenes. No cranberry.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 9"
+   "f": "¿Cómo se define la ITU recurrente y qué medidas se toman?*",
+   "b": "2 o más en 6 meses, o 3 o más en un año.\nMedidas: más líquidos, profilaxis antibiótica (poscoital o continua), estrógeno vaginal en posmenopáusicas y considerar imágenes. El arándano tiene un beneficio pequeño.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 9",
+   "nota": "Corregido: el PPT dice \"no cranberry\"; la evidencia actual muestra un beneficio modesto."
   },
   {
    "id": "n-itu-c-2",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
-   "f": "¿En qué casos se trata la bacteriuria asintomática y en cuáles no?",
-   "b": "Sí: embarazo, intervención urológica, trasplante renal.\nNo: premenopáusicas, ancianos, diabetes, cateterizados, lesión espinal.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 23"
+   "f": "¿En qué casos se trata la bacteriuria asintomática y en cuáles no?*",
+   "b": "Sí: embarazo y antes de procedimientos urológicos con sangrado de mucosa.\nNo: premenopáusicas sanas, ancianos, diabetes, cateterizados, lesión espinal. En trasplante renal no se trata de rutina pasado el primer mes.",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 23",
+   "nota": "Corregido: el PPT incluye trasplante renal entre los casos que sí se tratan; después del primer mes no se trata de rutina."
   },
   {
    "id": "n-itu-c-3",
@@ -350,9 +353,10 @@
    "id": "n-itu-c-5",
    "area": "nefro",
    "tema": "Infección del tracto urinario",
-   "f": "¿Qué antibiótico se usa en pielonefritis con y sin riesgo de BLEE?",
-   "b": "Con riesgo de BLEE: carbapenémico IV. Sin riesgo: ceftriaxona, piperacilina-tazobactam o quinolonas.",
-   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 21"
+   "f": "¿Qué antibiótico se usa en pielonefritis con y sin riesgo de BLEE?*",
+   "b": "Sin riesgo de BLEE: ceftriaxona (o aminoglucósido); las quinolonas solo si el antibiograma las respalda, por la alta resistencia en Perú. Con riesgo de BLEE: carbapenémico IV (ertapenem o meropenem).",
+   "fuente": "PPT Infección del tracto urinario (sem. 10), lám. 21",
+   "nota": "Corregido: el PPT incluye piperacilina-tazobactam y quinolonas como opciones empíricas; con la resistencia en Perú no son primera línea."
   }
  ]
 }

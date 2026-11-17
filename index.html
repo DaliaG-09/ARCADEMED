@@ -1592,6 +1592,7 @@ function vCards(){
       '<span class="side">'+(V.flipped ? 'RESPUESTA' : 'PREGUNTA')+'</span>'+
       (V.flipped ? '<div class="src" style="font-weight:800;font-size:14px">'+nl(c.f)+'</div>' : '')+
       '<div class="txt">'+nl(V.flipped ? c.b : c.f)+'</div>'+
+      (V.flipped && c.nota ? '<p class="note"><b>* Corregido, no es igual al PPT:</b> '+nl(c.nota.replace(/^Corregido:\s*/, ''))+'</p>' : '')+
       (V.flipped && st && st.tip ? '<div class="mine"><b>TU TRUCO</b>'+esc(st.tip)+'</div>' : '')+
       (V.flipped && V.draft ? '<div class="mine"><b>TU RESPUESTA</b>'+esc(V.draft)+'</div>' : '')+
     '</div>'+

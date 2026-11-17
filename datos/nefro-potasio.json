@@ -361,9 +361,10 @@
    "id": "n-k-c-0",
    "area": "nefro",
    "tema": "Potasio",
-   "f": "¿Cuál es el rango normal de potasio?",
-   "b": "3.5 a 5.5 mEq/L",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 11"
+   "f": "¿Cuál es el rango normal de potasio?*",
+   "b": "3.5 a 5.0 mEq/L. Hiperpotasemia desde >5.0 a 5.5 según el laboratorio.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 11",
+   "nota": "Corregido: el PPT da 3.5 a 5.5; el límite superior habitual es 5.0 (algunos laboratorios aceptan hasta 5.5)."
   },
   {
    "id": "n-k-c-1",
@@ -377,9 +378,10 @@
    "id": "n-k-c-2",
    "area": "nefro",
    "tema": "Potasio",
-   "f": "¿Qué velocidad máxima de reposición de potasio se permite por vía periférica y central?",
-   "b": "Periférica <10 mEq/h; central <40 mEq/h",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 18"
+   "f": "¿Qué velocidad máxima de reposición de potasio se permite por vía periférica y central?*",
+   "b": "Periférica: hasta 10 mEq/h (hasta 20 con monitoreo en emergencia), con concentración máxima de 40 mEq/L. Central: habitualmente hasta 20 mEq/h; hasta 40 mEq/h solo con monitoreo continuo en hipopotasemia grave con arritmia.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 18",
+   "nota": "Corregido: el PPT permite hasta 40 mEq/h por vía central como límite general; eso solo se usa en casos graves y monitorizados."
   },
   {
    "id": "n-k-c-3",
@@ -402,7 +404,7 @@
    "area": "nefro",
    "tema": "Potasio",
    "f": "En hiperpotasemia con cambios en el ECG, ¿qué se administra primero?",
-   "b": "Gluconato de calcio 10 %",
+   "b": "Gluconato de calcio 10 %: 10 mL (1 g) IV en 2 a 3 minutos, repetible si persisten los cambios. Estabiliza la membrana pero no baja el potasio. Después: insulina con glucosa, salbutamol, bicarbonato si hay acidosis y eliminar potasio (furosemida, resinas, diálisis si es refractaria).",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: potasio (sem. 9), lám. 24"
   },
   {

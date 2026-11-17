@@ -369,9 +369,10 @@
    "id": "n-tbc-c-5",
    "area": "nefro",
    "tema": "Tuberculosis renal y de vías urinarias",
-   "f": "¿Qué dosis tiene el tratamiento de TBC en fase inicial y de continuación?",
-   "b": "Fase inicial (2 meses): H 300, R 600, Z 2000 y E 1200 mg. Fase de continuación (4 a 7 meses): H 300 y R 600 mg (H isoniazida, R rifampicina, Z pirazinamida, E etambutol).",
-   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 10), lám. 18"
+   "f": "¿Qué dosis tiene el tratamiento de TBC en fase inicial y de continuación?*",
+   "b": "Fase inicial (2 meses): isoniazida 300, rifampicina 600, pirazinamida 2000 y etambutol 1200 mg al día (adulto de 50 a 70 kg; en realidad se ajusta por peso). Fase de continuación: 4 meses de isoniazida y rifampicina, en total 6 meses en TBC sensible.",
+   "fuente": "PPT Tuberculosis renal y vías urinarias (sem. 10), lám. 18",
+   "nota": "Corregido: el PPT da 4 a 7 meses de continuación; la TBC urogenital sensible se trata 6 meses en total."
   }
  ]
 }

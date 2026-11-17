@@ -598,16 +598,17 @@
    "id": "n-sis-c-5",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
-   "f": "¿Cómo se trata una vasculitis con afectación renal?",
-   "b": "Corticoides más ciclofosfamida; rituximab si grave; plasmaféresis.",
-   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 11"
+   "f": "¿Cómo se trata una vasculitis con afectación renal?*",
+   "b": "Inducción con corticoides más rituximab o ciclofosfamida (ambos son opciones de primera línea). La plasmaféresis solo en casos seleccionados: hemorragia alveolar grave, creatinina muy alta o anticuerpo anti-MBG asociado.",
+   "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 11",
+   "nota": "Corregido: el PPT deja el rituximab solo para casos graves y la plasmaféresis como rutina; hoy el rituximab es primera línea y la plasmaféresis se reserva."
   },
   {
    "id": "n-sis-c-6",
    "area": "nefro",
    "tema": "Enfermedades sistémicas y riñón",
    "f": "¿Qué porcentaje de cada vasculitis ANCA es positivo y con qué anticuerpo?",
-   "b": "Wegener: 90 %, anti-PR3. Poliangitis microscópica (PAM): 70 %, anti-MPO. GN pauciinmune: 80 a 90 %. Churg-Strauss: 40 a 60 %.",
+   "b": "Granulomatosis con poliangitis (antes Wegener): 90 %, anti-PR3. Poliangitis microscópica (PAM): 70 %, anti-MPO. GN pauciinmune: 80 a 90 %. Granulomatosis eosinofílica con poliangitis (Churg-Strauss): 40 a 60 %, sobre todo anti-MPO.",
    "fuente": "PPT Enfermedades sistémicas y su compromiso renal (sem. 11), lám. 9"
   },
   {

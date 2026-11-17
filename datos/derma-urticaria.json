@@ -343,16 +343,17 @@
    "id": "d-urt-c-6",
    "area": "derma",
    "tema": "Urticaria aguda y crónica",
-   "f": "¿Qué se hace en urticaria refractaria?",
-   "b": "Subir el antihistamínico H1 hasta 4 comprimidos al día; añadir prednisona 0,5-1 mg/kg/día por 5 días si es muy extensa o hay angioedema.",
-   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 15"
+   "f": "¿Qué se hace en urticaria refractaria?*",
+   "b": "Subir el antihistamínico H1 hasta 4 veces la dosis. Si sigue refractaria: omalizumab. Prednisona 0.5 a 1 mg/kg/día por 3 a 5 días solo para crisis muy extensas o con angioedema.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 15",
+   "nota": "Corregido: se añade el omalizumab, que es el siguiente paso tras la dosis cuádruple, y se limita el corticoide a ciclos cortos."
   },
   {
    "id": "d-urt-c-7",
    "area": "derma",
    "tema": "Urticaria aguda y crónica",
    "f": "¿Cuándo se deriva al especialista?",
-   "b": "Urticaria crónica refractaria a dosis altas, 2 o 3 tandas de corticoides, o cuadro urticariforme atípico.",
+   "b": "Urticaria crónica refractaria a dosis altas de antihistamínico, o necesidad de corticoides repetidos, o cuadro urticariforme atípico (lesiones que duran más de 24 h, dolor, púrpura). Aquí entra el omalizumab.",
    "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 15"
   }
  ]

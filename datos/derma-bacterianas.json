@@ -345,9 +345,10 @@
    "id": "d-bac-c-2",
    "area": "derma",
    "tema": "Enfermedades bacterianas de la piel",
-   "f": "¿Cuál es el tratamiento del impétigo?",
-   "b": "Localizado no ampolloso: mupirocina o ácido fusídico. Ampolloso o más de 5 lesiones: cefalexina o amoxicilina-clavulánico por 10 días.",
-   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 11"
+   "f": "¿Cuál es el tratamiento del impétigo?*",
+   "b": "Localizado no ampolloso: mupirocina 2 % o ácido fusídico tópico por 5 a 7 días. Ampolloso o con varias lesiones: cefalexina (o amoxicilina-clavulánico) por 7 días.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 11",
+   "nota": "Corregido: el PPT da 10 días; la duración habitual del tratamiento oral del impétigo es 7 días."
   },
   {
    "id": "d-bac-c-3",
@@ -369,9 +370,10 @@
    "id": "d-bac-c-5",
    "area": "derma",
    "tema": "Enfermedades bacterianas de la piel",
-   "f": "¿Qué es la erisipela y cómo se trata?",
-   "b": "Infección de la dermis con eritema elevado y bien delimitado, en miembros inferiores. Amoxicilina 7-21 días; sin AINE ni corticoides.",
-   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 21"
+   "f": "¿Qué es la erisipela y cómo se trata?*",
+   "b": "Infección de la dermis superficial con eritema elevado y bien delimitado, sobre todo en miembros inferiores y cara. Penicilina o amoxicilina por 5 a 10 días (más si tarda en mejorar); elevar la extremidad. Evitar AINE y corticoides. Si recurre: penicilina benzatínica como profilaxis.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 21",
+   "nota": "Corregido: el PPT da 7 a 21 días; el curso habitual es de 5 a 10 días según la respuesta."
   },
   {
    "id": "d-bac-c-6",

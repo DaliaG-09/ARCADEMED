@@ -388,17 +388,19 @@
    "id": "n-lit-c-4",
    "area": "nefro",
    "tema": "Litiasis y uropatía obstructiva",
-   "f": "¿Qué fármacos facilitan la expulsión de un cálculo?",
-   "b": "Nifedipino y tamsulosina.",
-   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 17"
+   "f": "¿Qué fármacos facilitan la expulsión de un cálculo?*",
+   "b": "Tamsulosina (alfabloqueante) y nifedipino, con beneficio modesto y sobre todo en cálculos distales de 5 a 10 mm. Para el dolor, AINE si la función renal lo permite.",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 17",
+   "nota": "Corregido: el PPT los presenta como eficaces en general; la evidencia actual muestra un beneficio pequeño y limitado a cálculos distales de tamaño intermedio."
   },
   {
    "id": "n-lit-c-5",
    "area": "nefro",
    "tema": "Litiasis y uropatía obstructiva",
-   "f": "¿Cuándo se indica la litotricia o cirugía percutánea?",
-   "b": "Litos >2 cm o coraliformes.",
-   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 20"
+   "f": "¿Cuándo se indica la litotricia o cirugía percutánea?*",
+   "b": "Litotricia extracorpórea: cálculos <2 cm. Nefrolitotomía percutánea: >2 cm o coraliformes. Obstrucción con infección o sepsis: drenaje urgente (catéter doble J o nefrostomía) antes de tratar el cálculo.",
+   "fuente": "PPT Litiasis renal y uropatía obstructiva (sem. 10), lám. 20",
+   "nota": "Corregido: el PPT junta litotricia y cirugía percutánea para >2 cm; la litotricia extracorpórea es para cálculos menores de 2 cm."
   },
   {
    "id": "n-lit-c-6",

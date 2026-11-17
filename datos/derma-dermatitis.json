@@ -399,9 +399,10 @@
    "id": "d-dmt-c-2",
    "area": "derma",
    "tema": "Dermatitis",
-   "f": "¿Qué fármacos de segunda línea se usan en dermatitis atópica?",
-   "b": "Azatioprina, metotrexato, micofenolato mofetilo y dupilumab (adultos).",
-   "fuente": "PPT Dermatitis (sem. 14), lám. 14"
+   "f": "¿Qué fármacos de segunda línea se usan en dermatitis atópica?*",
+   "b": "Ciclosporina, metotrexato, azatioprina y micofenolato como inmunosupresores clásicos. Terapias dirigidas: dupilumab (desde los 6 meses de edad), tralokinumab e inhibidores de JAK (upadacitinib, abrocitinib) en adultos y adolescentes.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 14",
+   "nota": "Corregido: el PPT limita el dupilumab a adultos y omite la ciclosporina y los inhibidores de JAK."
   },
   {
    "id": "d-dmt-c-3",

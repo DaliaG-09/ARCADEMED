@@ -367,9 +367,10 @@
    "id": "n-ca-c-1",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "¿Cómo se define la hipocalcemia?",
-   "b": "Calcio corregido <8.4 mg/dL o calcio ionizado <4.2 mg/dL.",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 10"
+   "f": "¿Cómo se define la hipocalcemia?*",
+   "b": "Calcio corregido por albúmina <8.4 mg/dL o calcio ionizado <4.4 mg/dL (<1.1 mmol/L).",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 10",
+   "nota": "Corregido: el PPT da ionizado <4.2 mg/dL; el umbral habitual es <1.1 mmol/L (unos 4.4 mg/dL). Guíate por el rango de tu laboratorio."
   },
   {
    "id": "n-ca-c-2",
@@ -384,7 +385,7 @@
    "area": "nefro",
    "tema": "Calcio y magnesio",
    "f": "¿Cuál es el tratamiento de la hipocalcemia grave?",
-   "b": "Gluconato de calcio 10 % IV.",
+   "b": "Gluconato de calcio 10 % IV: 1 a 2 g (10 a 20 mL) diluidos, en 10 minutos y con monitoreo de ECG; luego infusión continua si persiste. Corregir también el magnesio si está bajo.",
    "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 16"
   },
   {
@@ -399,9 +400,10 @@
    "id": "n-ca-c-5",
    "area": "nefro",
    "tema": "Calcio y magnesio",
-   "f": "¿Cómo se trata la hipercalcemia severa según el valor del calcio?",
-   "b": ">15: suero salino, asa, bifosfonatos, calcitonina; >18: hemodiálisis.",
-   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 20"
+   "f": "¿Cómo se trata la hipercalcemia severa según el valor del calcio?*",
+   "b": "Primero hidratar con suero salino 0.9 %. Calcitonina si se necesita bajar rápido, y bifosfonato IV (zoledronato) para el efecto sostenido. La furosemida solo si hay sobrecarga de volumen. Hemodiálisis si hay falla renal o calcio >18 mg/dL refractario.",
+   "fuente": "PPT Alteraciones del equilibrio hidroelectrolítico: calcio y magnesio (sem. 9), lám. 20",
+   "nota": "Corregido: el PPT pone el diurético de asa como parte rutinaria del tratamiento; hoy solo se usa si hay sobrecarga de volumen, tras reponer volumen."
   },
   {
    "id": "n-ca-c-6",
