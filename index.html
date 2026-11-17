@@ -375,10 +375,10 @@ h1,h2,h3{font-weight:400;line-height:1.55;letter-spacing:0}
 .wscard .row{margin-top:12px}
 
 /* Mundo B: día, noche, clima */
-:root{--sk1:#8fd8ff;--sk2:#c9eeff;--gr1:#4fcf7e;--gr2:#3fb86d;--se1:#6fd3ff;--se2:#2b8fe0}
-html[data-tod=dawn]{--sk1:#ff9f7a;--sk2:#ffe3a8;--gr1:#6fc76f;--gr2:#58b45f;--se1:#ffb98a;--se2:#4a8fd0}
-html[data-tod=dusk]{--sk1:#7a4fc0;--sk2:#ff9a6a;--gr1:#3fa365;--gr2:#318a54;--se1:#c26a9a;--se2:#3a4fa8}
-html[data-tod=night]{--sk1:#141d4a;--sk2:#34408f;--gr1:#2c7a52;--gr2:#236444;--se1:#1b3a80;--se2:#0b1944}
+:root{--sk1:#6cd0ff;--sk2:#d6f3ff;--gr1:#4fdc84;--gr2:#3fc872;--se1:#8fe6ff;--se2:#35a6ff}
+html[data-tod=dawn]{--sk1:#ff9fb8;--sk2:#ffe9a8;--gr1:#6fdc78;--gr2:#58c864;--se1:#ffd0a0;--se2:#4aa8f0}
+html[data-tod=dusk]{--sk1:#9a6af0;--sk2:#ffa878;--gr1:#46c874;--gr2:#38b264;--se1:#ff9ac0;--se2:#4a7ae0}
+html[data-tod=night]{--sk1:#4a3fc0;--sk2:#b06af0;--gr1:#3cc878;--gr2:#2fb268;--se1:#4a90f0;--se2:#2250d8}
 .hero{background:linear-gradient(var(--sk1),var(--sk2) 66%,var(--gr1) 66% 100%)!important}
 .hero .ground{background:repeating-linear-gradient(90deg,var(--gr2) 0 16px,var(--gr1) 16px 32px)!important}
 .orb{position:absolute;width:30px;height:30px;border:3px solid var(--ink);border-radius:50%;z-index:0;left:8%;top:64px}
@@ -858,7 +858,8 @@ let WIDEWAS = null; addEventListener('resize', () => { const w = isWide(); if(WI
 const WORLD = {HEAD:104, STEP:76, FOOT:120, GAP:130};
 const wr = n => { const x = Math.sin(n*127.1+311.7)*43758.5453; return x - Math.floor(x); };
 const ARC = {nefro:'#1d5fe0', gastro:'#c85f00', derma:'#a02ee0'};
-const ISLE = {nefro:['#7fd1a0','#e9d9a0'], gastro:['#d8905a','#c9b48a'], derma:['#8ad46a','#f0d9a0']};
+const ISLE = {nefro:['#4fe29a','#fff0b0'], gastro:['#ffa14f','#ffe0a8'], derma:['#74e46c','#fff4b8']};
+const PAST = {nefro:'#b4d2ff', gastro:'#ffd7a6', derma:'#ecc4ff'};
 const isWide = () => innerWidth >= 900;
 function worldLayout(){
   const wide = isWide(); let y = 24, mh = 0; const isl = [];
@@ -886,6 +887,7 @@ function wDecor(isl){
   const out = [];
   for(let j = 0; j < isl.T.length*1.4; j++){
     const y = isl.y0 + WORLD.HEAD + 20 + j*54 + wr(j + isl.k*9)*22, left = (j + isl.k) % 2 === 0, x = left ? 44 + wr(j*3)*10 : 316 - wr(j*5)*10, r = wr(j*7 + isl.k);
+    if(j % 3 === 2) out.push(wflower(x + (left ? 14 : -14), y + 6, ['#ff5fa2','#ffd93b','#fff','#ff8c3a'][j % 4]));
     if(isl.a === 'nefro') out.push(r < .45 ? wtree(x, y, '#2f9e5a') : r < .8 ? wpond(x, y) : wrock(x, y));
     else if(isl.a === 'gastro') out.push(r < .3 ? wvolc(x, y + 14) : r < .7 ? wrock(x, y) : wtree(x, y, '#9c7a3a'));
     else out.push(r < .5 ? wflower(x, y, ['#ff5fa2','#a02ee0','#ffd93b'][j % 3]) : r < .8 ? wtree(x, y, '#2f9e3c') : wpond(x, y));
@@ -900,7 +902,7 @@ const wShort = (t, n) => t.length > n ? t.slice(0, n-1)+'…' : t;
 function worldSvg(){
   const W = worldLayout(), pos = {}; S.seen = S.seen || {}; let newly = false;
   const TW = W.TW; let o = '<defs><linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--se1)"/><stop offset="1" style="stop-color:var(--se2)"/></linearGradient><linearGradient id="fogg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity=".8"/></linearGradient></defs><rect width="'+TW+'" height="'+W.H+'" fill="url(#sea)"/>';
-  for(let i = 0; i < W.H/38*(TW/360); i++){ const y = 20 + (i % Math.ceil(W.H/38))*38 + wr(i)*12, x = wr(i*3)*(TW - 60); o += '<g class="wave '+['','b','c'][i%3]+'"><rect x="'+x+'" y="'+y+'" width="22" height="2" fill="#fff" opacity=".5"/><rect x="'+(x+7)+'" y="'+(y+4)+'" width="14" height="2" fill="#fff" opacity=".35"/></g>'; }
+  for(let i = 0; i < W.H/38*(TW/360); i++){ const y = 20 + (i % Math.ceil(W.H/38))*38 + wr(i)*12, x = wr(i*3)*(TW - 60); o += '<g class="wave '+['','b','c'][i%3]+'"><rect x="'+x+'" y="'+y+'" width="22" height="2" fill="#fff" opacity=".85"/><rect x="'+(x+7)+'" y="'+(y+4)+'" width="14" height="2" fill="#fff" opacity=".6"/></g>'; }
   const tod = todNow();
   if(tod === 'night' || tod === 'dusk'){ for(let i = 0; i < W.H/28*(TW/360); i++) o += '<rect x="'+Math.round(wr(i*2+1)*(TW - 4))+'" y="'+Math.round(i*28 + wr(i)*20)+'" width="2" height="2" fill="#fff" opacity="'+(.5 + wr(i*5)*.5).toFixed(2)+'"/>'; }
   o += wCloud(0, 40, '')+wCloud(40, W.H*.35, 'b')+wCloud(-20, W.H*.62, 'c')+wCloud(10, W.H*.86, 'b');
@@ -916,32 +918,33 @@ function worldSvg(){
     const pts = is.nodes, open = T.map((t, i) => nodeOpen(ar.id, i)), lastOpen = open.lastIndexOf(true);
     let dp = 'M'+pts[0].x+','+(pts[0].y-8);
     pts.forEach((q, i) => { if(i){ const a = pts[i-1], my = (a.y + q.y)/2; dp += ' C'+a.x+','+my+' '+q.x+','+my+' '+q.x+','+q.y; } });
-    o += '<path d="'+dp+'" fill="none" stroke="#14110f" stroke-width="14" stroke-linecap="round" opacity=".25"/><path d="'+dp+'" fill="none" stroke="#f6e3a8" stroke-width="10" stroke-linecap="round"/><path d="'+dp+'" fill="none" stroke="#c9a45c" stroke-width="2.5" stroke-dasharray="6 7" stroke-linecap="round"/>';
+    o += '<path d="'+dp+'" fill="none" stroke="#14110f" stroke-width="14" stroke-linecap="round" opacity=".12"/><path d="'+dp+'" fill="none" stroke="#f6e3a8" stroke-width="10" stroke-linecap="round"/><path d="'+dp+'" fill="none" stroke="#c9a45c" stroke-width="2.5" stroke-dasharray="6 7" stroke-linecap="round"/>';
     pts.forEach((q, i) => {
       const t = T[i], op = open[i], st = starsOf(ar.id, t), bd = !!S.bosses[ar.id+'|'+t], bo = bossOk(ar.id, t), key = ar.id+'|'+t;
       pos[ar.id+'|'+i] = {x:q.x + is.xo, y:q.y};
       const gold = st >= 3, right = q.x < 200, label = '<text x="'+(right ? 30 : -30)+'" y="-2" text-anchor="'+(right ? 'start' : 'end')+'" font-family="Courier New,monospace" font-weight="700" font-size="10.5" fill="#14110f" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">'+esc(wShort(t, Math.floor((right ? 340 - q.x - 30 : q.x - 30 - 14)/6.4)))+'</text>'+
         '<text x="'+(right ? 30 : -30)+'" y="11" text-anchor="'+(right ? 'start' : 'end')+'" font-family="Courier New,monospace" font-weight="700" font-size="9" fill="#5a5444" stroke="#fff" stroke-width="3" paint-order="stroke" stroke-linejoin="round">'+tq(ar.id, t).length+' preguntas</text>';
       o += '<g class="wnode '+(op ? '' : 'lock')+(op && st === 0 ? ' pulse' : '')+'" data-act="wnode" data-a="'+ar.id+'" data-i="'+i+'" role="button" tabindex="0" aria-label="'+esc(t)+(op ? ', '+st+' de 3 estrellas' : ', bloqueado')+'" transform="translate('+q.x+','+q.y+')">'+
-        '<rect x="-24" y="-24" width="48" height="52" fill="transparent"/><rect class="wn" x="-17" y="-17" width="38" height="38" rx="8" fill="#14110f"/><rect class="wn" x="-20" y="-20" width="38" height="38" rx="8" style="fill:'+(op ? 'var(--'+ar.id+')' : '#9a9482')+'" stroke="'+(gold ? '#ffd93b' : '#14110f')+'" stroke-width="3.5"/>'+
+        '<rect x="-24" y="-24" width="48" height="52" fill="transparent"/><rect class="wn" x="-17" y="-17" width="38" height="38" rx="8" fill="#14110f"/><rect class="wn" x="-20" y="-20" width="38" height="38" rx="8" style="fill:'+(op ? 'var(--'+ar.id+')' : PAST[ar.id])+'" stroke="'+(gold ? '#ffd93b' : '#14110f')+'" stroke-width="3.5"/>'+
         (op ? '<text y="6" text-anchor="middle" class="wt" font-size="14" fill="#fff">'+(i+1)+'</text>' : '')+
         (op ? wStar(-12, 28, st >= 1)+wStar(-1, 28, st >= 2)+wStar(10, 28, st >= 3) : '')+
         (bd ? '<g transform="translate(10,-34)">'+R(0,0,2,16,'#14110f')+R(2,0,12,8,'#ffd93b')+R(2,0,12,2,'#ffb02e')+'</g>' : op && st >= 2 && bo ? '<svg x="6" y="-40" width="22" height="22" viewBox="-1 -1 14 14" shape-rendering="crispEdges">'+bossSvg(ARC[ar.id], 1).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '')+'</svg>' : '')+
         '</g>';
       const lbl = '<g transform="translate('+q.x+','+q.y+')" style="pointer-events:none">'+label+'</g>';
       if(!op){
-        o += '<g class="fogc" style="pointer-events:none"><g opacity=".82" fill="#fff"><circle cx="'+(q.x-14)+'" cy="'+(q.y+2)+'" r="18"/><circle cx="'+(q.x+12)+'" cy="'+(q.y-6)+'" r="20"/><circle cx="'+(q.x+4)+'" cy="'+(q.y+12)+'" r="16"/><circle cx="'+(q.x-4)+'" cy="'+(q.y-12)+'" r="15"/></g><text x="'+q.x+'" y="'+(q.y+6)+'" text-anchor="middle" class="wt" font-size="14" fill="#8c8672">?</text></g>'+lbl;
+        o += '<g class="fogc" style="pointer-events:none"><g opacity=".55" fill="#fff"><circle cx="'+(q.x-14)+'" cy="'+(q.y+2)+'" r="18"/><circle cx="'+(q.x+12)+'" cy="'+(q.y-6)+'" r="20"/><circle cx="'+(q.x+4)+'" cy="'+(q.y+12)+'" r="16"/><circle cx="'+(q.x-4)+'" cy="'+(q.y-12)+'" r="15"/></g><text x="'+q.x+'" y="'+(q.y+6)+'" text-anchor="middle" class="wt" font-size="14" style="fill:var(--'+ar.id+')">?</text></g>'+lbl;
       } else if(!S.seen[key]){
-        if(i > 0){ o += '<g class="fogout" style="pointer-events:none;transform-origin:'+q.x+'px '+q.y+'px"><g opacity=".82" fill="#fff"><circle cx="'+(q.x-14)+'" cy="'+(q.y+2)+'" r="18"/><circle cx="'+(q.x+12)+'" cy="'+(q.y-6)+'" r="20"/><circle cx="'+(q.x+4)+'" cy="'+(q.y+12)+'" r="16"/></g></g>'; }
+        if(i > 0){ o += '<g class="fogout" style="pointer-events:none;transform-origin:'+q.x+'px '+q.y+'px"><g opacity=".55" fill="#fff"><circle cx="'+(q.x-14)+'" cy="'+(q.y+2)+'" r="18"/><circle cx="'+(q.x+12)+'" cy="'+(q.y-6)+'" r="20"/><circle cx="'+(q.x+4)+'" cy="'+(q.y+12)+'" r="16"/></g></g>'; }
         S.seen[key] = 1; newly = true; o += lbl;
       } else o += lbl;
     });
     const gy = is.y0 + is.h - 92, bs = bossSvg(ARC[ar.id], 1).replace(/^<svg[^>]*>/, '').replace(/<\/svg>$/, '');
     o += '<g transform="translate(180,'+gy+')"><rect x="-58" y="14" width="116" height="40" rx="6" fill="#14110f" opacity=".85"/><rect x="-46" y="10" width="92" height="40" rx="4" fill="#5a5444" stroke="#14110f" stroke-width="3"/><rect x="-12" y="26" width="24" height="24" fill="#14110f"/>'+
       '<svg x="-18" y="-34" width="36" height="36" viewBox="-1 -1 14 14" shape-rendering="crispEdges">'+bs+'</svg><text y="68" text-anchor="middle" class="wt" font-size="8" fill="#14110f" stroke="#fff" stroke-width="3" paint-order="stroke">GUARIDA DE LOS JEFES</text></g>';
+    for(let i = 0; i < is.T.length*2; i++){ const sx = 50 + wr(i*11 + is.k)*260, sy = is.y0 + 80 + wr(i*13 + is.k)*(is.h - 160); o += '<g class="wtre" style="pointer-events:none" transform="translate('+Math.round(sx)+','+Math.round(sy)+')"><g class="tw" style="animation-delay:'+(-(i%6)*.4)+'s">'+R(-1,-3,2,6,'#fff')+R(-3,-1,6,2,'#fff')+'</g></g>'; }
     o += '</g>';
   });
-  if(tod !== 'day') o += '<rect width="'+TW+'" height="'+W.H+'" fill="'+({night:'#0a1040', dusk:'#ff7a3a', dawn:'#ff9f7a'}[tod])+'" opacity="'+({night:.3, dusk:.14, dawn:.1}[tod])+'" style="pointer-events:none"/>';
+  if(tod !== 'day') o += '<rect width="'+TW+'" height="'+W.H+'" fill="'+({night:'#ffffff', dusk:'#ffb070', dawn:'#ffc0a0'}[tod])+'" opacity="'+({night:0, dusk:.08, dawn:.06}[tod])+'" style="pointer-events:none"/>';
   if(tod === 'night' || tod === 'dusk'){ for(let i = 0; i < 26; i++){ const is = W.isl[i % W.isl.length]; o += '<rect class="ff" style="position:static;animation-delay:'+(-(i%7)*.5)+'s;transform-box:fill-box" x="'+Math.round(40 + wr(i*3)*280 + is.xo)+'" y="'+Math.round(is.y0 + 110 + wr(i*7)*(is.h - 200))+'" width="3" height="3" fill="#ffe36b"/>'; } }
   const key = S.mapcat && pos[S.mapcat.replace(/\|(\d+)$/, '|$1')] ? S.mapcat : AREAS[0].id+'|0', cp = pos[key] || {x:180, y:100};
   if(W.wide) o += wBoat(W.H*.3, '')+wBoat(W.H*.7, 'b')+wFish(W.isl[1].xo - 20, W.H*.45, '');
