@@ -439,6 +439,25 @@ body[data-scene=derma]::before{background-image:url("data:image/svg+xml,%3Csvg x
 .mine b{display:block;font-family:var(--display);font-size:10px;letter-spacing:.08em;margin-bottom:4px;font-weight:400}
 .cmood{display:flex;align-items:center;gap:10px;margin:8px 0 0;font-weight:800;font-size:14px}
 .cmood .bub{background:#fff;border:3px solid var(--ink);border-radius:12px;padding:5px 10px}
+
+/* Flash B: cajas, rareza */
+.boxes{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:10px 0 0}
+.bx{background:#fff;border:3px solid var(--ink);border-radius:12px;padding:6px 2px;text-align:center;line-height:1.1}
+.bx svg{display:block;margin:0 auto 2px}
+.bx b{display:block;font-family:var(--display);font-weight:400;font-size:13px}
+.bx small{font-size:9.5px;font-weight:800;display:block}
+.bx.cur{box-shadow:0 0 0 4px #ff5fa2;transform:translateY(-2px)}
+.bx.pop{animation:bxpop .6s ease-out}
+@keyframes bxpop{40%{transform:scale(1.18)}}
+.card.rar-1{border-color:#1d5fe0;box-shadow:6px 6px 0 #1d5fe0}
+.card.rar-2{border-color:#a02ee0;box-shadow:6px 6px 0 #a02ee0,0 0 16px rgba(160,46,224,.5)}
+.card.rar-3{border-color:#e0a800;box-shadow:6px 6px 0 #e0a800,0 0 20px rgba(255,217,59,.9);background-image:linear-gradient(115deg,transparent 40%,rgba(255,255,255,.7) 50%,transparent 60%);background-size:250% 100%;animation:shine 2.6s linear infinite}
+@keyframes shine{from{background-position:150% 0}to{background-position:-100% 0}}
+.rtag{font-family:var(--display);font-size:9px;padding:2px 8px;border-radius:8px;border:2px solid var(--ink);background:#fff}
+.rtag.r1{background:#cfe0ff}.rtag.r2{background:#ecc4ff}.rtag.r3{background:#ffe98a}
+.leech{background:#ffe0e0;border:3px solid var(--bad);border-radius:12px;padding:8px 10px;font-size:13px;font-weight:700;text-align:left;margin-top:10px}
+.leech textarea,.tipbox textarea{min-height:56px;font:14px var(--body);margin-top:6px}
+.tipbox{margin-top:10px;text-align:left;font-size:14px}
 </style>
 </head>
 <body>
@@ -539,7 +558,7 @@ function sched(c, r){
   due = Date.now() + it*864e5;
   return {ef, int:it, reps, due, label: it + (it === 1 ? ' día' : ' días')};
 }
-const dueCards = () => allC().filter(c => !S.c[c.id] || S.c[c.id].due <= Date.now());
+const dueCards = () => { const d = todayDeck(); return d.rev.concat(d.nw); };
 
 /* ---------- navegación ---------- */
 
@@ -864,6 +883,22 @@ function musSync(){
 }
 document.addEventListener('visibilitychange', () => musSync());
 let WIDEWAS = null; addEventListener('resize', () => { const w = isWide(); if(WIDEWAS !== null && w !== WIDEWAS && V.name === 'mapa' && !S.set.maplist) render(); WIDEWAS = w; });
+
+/* ---------- flashcards: cajas de repaso, rareza, mazo del día ---------- */
+const BOXC = ['#ff8c8c','#ffb86b','#ffd93b','#7be08a','#4cc3ff'], BOXN = ['Aprendiendo','1 día','3 a 6 días','1 a 3 sem.','Dominadas'];
+function boxOf(c){ const r = S.c[c.id]; if(!r) return -1; const i = r.int || 0; return i < 1 ? 0 : i < 3 ? 1 : i < 7 ? 2 : i < 21 ? 3 : 4; }
+function rarOf(c){ const r = S.c[c.id]; if(!r) return 0; const ef = r.ef || 2.5, lap = r.lap || 0; return (lap >= 3 || ef < 1.7) ? 3 : (lap >= 2 || ef < 2.0) ? 2 : (lap >= 1 || ef < 2.4) ? 1 : 0; }
+const RARN = ['COMÚN','RARA','ÉPICA','LEGENDARIA'];
+const chestIco = (c, sz) => '<svg viewBox="0 0 14 11" width="'+(14*sz)+'" height="'+(11*sz)+'" shape-rendering="crispEdges">'+R(0,3,14,8,'#14110f')+R(1,4,12,6,c)+R(1,2,12,3,'#14110f')+R(2,3,10,2,c)+R(0,6,14,1,'#14110f')+R(6,5,2,3,'#ffd93b')+'</svg>';
+function boxesHtml(cur, popBox){
+  const cs = allC(), n = [0,0,0,0,0]; cs.forEach(c => { const b = boxOf(c); if(b >= 0) n[b]++; });
+  return '<div class="boxes">'+n.map((k, i) => '<div class="bx '+(cur === i ? 'cur' : '')+(popBox === i ? ' pop' : '')+'">'+chestIco(BOXC[i], 2.4)+'<b>'+k+'</b><small>'+BOXN[i]+'</small></div>').join('')+'</div>';
+}
+const newLimit = () => S.set.newc === undefined ? 10 : S.set.newc;
+function todayDeck(){
+  const cs = allC(), rev = cs.filter(c => S.c[c.id] && S.c[c.id].due <= Date.now()), nw = cs.filter(c => !S.c[c.id]), lim = newLimit();
+  return {rev, nw:lim === 0 ? nw.slice(0, 0) : (lim < 0 ? nw : shuffle(nw).slice(0, lim)), nwAll:nw.length};
+}
 
 /* ---------- mundo A: mapa-mundo ---------- */
 const WORLD = {HEAD:104, STEP:76, FOOT:120, GAP:130};
@@ -1530,7 +1565,8 @@ function vResult(){
 function vCards(){
   const cs = allC(); const c = cs.find(x => x.id === V.queue[V.i]);
   if(!c){
-    return '<div class="stack"><div class="panel" style="text-align:center"><p class="label">SESIÓN TERMINADA</p><div class="big">'+V.done+'</div><p class="sub">tarjetas repasadas</p></div>'+
+    return '<div class="stack"><div class="panel" style="text-align:center"><p class="label">SESIÓN TERMINADA</p><div class="big">'+V.done+'</div><p class="sub">tarjetas repasadas'+(V.up ? ' · '+V.up+' subieron de caja' : '')+'</p>'+boxesHtml(-1, V.popBox)+'</div>'+
+      (V.done >= 8 && !V.chested ? '<div class="row"><button class="btn gold grow" data-act="cardchest">Abrir cofre de repaso</button></div>' : '')+
       '<div class="row"><button class="btn gold grow" data-act="home">Inicio</button><button class="btn grow" data-act="cardsall">Repasar todas igual</button></div></div>';
   }
   const a = areaOf(c.area); const st = S.c[c.id];
@@ -1539,14 +1575,17 @@ function vCards(){
     return '<button class="btn rate" data-act="rate" data-r="'+r+'">'+lab+'<small>'+sched(st, r).label+'</small></button>';
   }).join('');
   return '<div><div class="hud"><button class="btn small ghost" data-act="home">Salir</button><div class="grow">'+segs(V.i/(V.queue.length), Math.min(V.queue.length, 20))+'</div><span class="src">'+V.done+' hechas · '+(V.queue.length - V.i)+' en cola</span></div>'+
+    boxesHtml(boxOf(c), V.popBox)+
     (V.mood ? '<div class="cmood">'+catSvg(V.mood, 3, S.worn)+'<span class="bub">'+esc(V.cmsg || '')+'</span></div>' : '')+
-    '<div class="panel card nopt '+(V.flipped ? 'back' : '')+(V.fa ? ' flipanim' : '')+'">'+
-      '<span class="pill" style="color:'+a.c+'">'+esc(a.n)+' · '+esc(c.tema)+'</span>'+(c.demo ? '<span class="demo">DEMO</span>' : '')+
+    '<div class="panel card nopt rar-'+rarOf(c)+' '+(V.flipped ? 'back' : '')+(V.fa ? ' flipanim' : '')+'">'+
+      '<span class="pill" style="color:'+a.c+'">'+esc(a.n)+' · '+esc(c.tema)+'</span><span class="rtag r'+rarOf(c)+'">'+RARN[rarOf(c)]+(!st ? ' · NUEVA' : '')+'</span>'+(c.demo ? '<span class="demo">DEMO</span>' : '')+
       '<span class="side">'+(V.flipped ? 'RESPUESTA' : 'PREGUNTA')+'</span>'+
       (V.flipped ? '<div class="src" style="font-weight:800;font-size:14px">'+nl(c.f)+'</div>' : '')+
       '<div class="txt">'+nl(V.flipped ? c.b : c.f)+'</div>'+
+      (V.flipped && st && st.tip ? '<div class="mine"><b>TU TRUCO</b>'+esc(st.tip)+'</div>' : '')+
       (V.flipped && V.draft ? '<div class="mine"><b>TU RESPUESTA</b>'+esc(V.draft)+'</div>' : '')+
     '</div>'+
+    (V.flipped && st && (st.lap || 0) >= 3 ? '<div class="leech">SANGUIJUELA: la has olvidado '+st.lap+' veces. En vez de repetirla igual, invéntale un truco: una regla mnemotécnica, una imagen o ligarla a un paciente.<textarea id="crtip" placeholder="Tu truco para recordarla">'+esc(st.tip || '')+'</textarea></div>' : '')+
     (V.flipped ? '' : '<div class="crbox"><label class="label" for="crtxt">RECUERDO ACTIVO: ESCRIBE LO QUE RECUERDAS ANTES DE VER LA RESPUESTA</label><textarea id="crtxt" placeholder="Con tus palabras, aunque sea a medias. Equivocarte aquí es lo que más ayuda a recordar después." autocomplete="off">'+esc(V.draft || '')+'</textarea><div class="row" style="margin-top:10px"><button class="btn gold grow" data-act="flip">Ver la respuesta</button></div><p class="src" style="margin-top:6px">Atajo: Ctrl + Enter. Si prefieres solo pensarla, deja el cuadro vacío.</p></div>')+
     (V.flipped ? '<div class="rates">'+rates+'</div>' : '')+'</div>';
 }
@@ -1578,6 +1617,7 @@ function vAjustes(){
     '<div><p class="label">TU NOMBRE (sale en el gatito y en tu tarjeta)</p><input id="nm" class="field" maxlength="18" value="'+esc(S.set.name)+'" placeholder="doctora"></div>'+
     '<div><p class="label">SONIDOS 8 BITS</p><div class="chips">'+chip('snd','1','Activados',S.set.snd)+chip('snd','0','Silencio',!S.set.snd)+'<button class="chip" data-act="testsnd">Probar</button></div></div>'+
     '<div><p class="label">MÚSICA DE AMBIENTE (EN EL MAPA, EL CUARTO Y LA PORTADA)</p><div class="chips">'+chip('mus','1','Activada',S.set.mus === true)+chip('mus','0','Silencio',S.set.mus !== true)+'</div></div>'+
+    '<div><p class="label">TARJETAS NUEVAS POR DÍA (REPASO ESPACIADO)</p><div class="chips">'+[[5,'5'],[10,'10'],[20,'20'],[-1,'Todas']].map(o => chip('newc', String(o[0]), o[1], newLimit() === o[0])).join('')+'</div><p class="src" style="margin-top:6px">Las que ya viste siempre salen cuando les toca. Pocas nuevas al día evita que se acumulen los repasos.</p></div>'+
     '<div><p class="label">VIBRACIÓN</p><div class="chips">'+chip('vib','1','Activada',S.set.vib)+chip('vib','0','Apagada',!S.set.vib)+'</div></div>'+
     '<div><p class="label">CIELO DEL JUEGO</p><div class="chips">'+chip('sky','auto','Según mi hora',!S.set.sky || S.set.sky === 'auto')+chip('sky','dia','Siempre día',S.set.sky === 'dia')+chip('sky','noche','Siempre noche',S.set.sky === 'noche')+'</div></div>'+
     '<div><p class="label">CLIMA (LLUVIA, NIEBLA, HOJAS)</p><div class="chips">'+chip('weather','auto','Automático',S.set.weather !== 'off')+chip('weather','off','Sin clima',S.set.weather === 'off')+'</div><p class="src" style="margin-top:6px">Con racha de 3 días o más siempre hay buen clima.</p></div>'+
@@ -1684,14 +1724,17 @@ function startCards(all){
 }
 function rate(r){
   const lv0 = level(S.xp);
-  const id = V.queue[V.i]; const nxt = sched(S.c[id], r);
-  S.c[id] = {ef:nxt.ef, int:nxt.int, reps:nxt.reps, due:nxt.due};
+  const id = V.queue[V.i], card = allC().find(x => x.id === id), prev = S.c[id], rar = card ? rarOf(card) : 0, b0 = card ? boxOf(card) : -1, nxt = sched(prev, r);
+  const tipEl = document.getElementById('crtip');
+  S.c[id] = {ef:nxt.ef, int:nxt.int, reps:nxt.reps, due:nxt.due, lap:(prev && prev.lap || 0) + (r === 'again' && prev && prev.reps > 0 ? 1 : 0), tip:tipEl ? tipEl.value.trim().slice(0, 300) : (prev && prev.tip || '')};
+  const b1 = card ? boxOf(card) : -1; V.popBox = b1 !== b0 ? b1 : undefined; if(b1 > b0 && b0 >= 0) V.up = (V.up || 0) + 1; if(b1 === 4 && b0 !== 4){ toast('¡Tarjeta dominada!'); sfx('ach'); }
+  if(r === 'good' || r === 'easy') addCoins([0, 1, 2, 4][rar]);
   if(r !== 'again') S.xp += 3;
   if(V.draft && V.draft.length >= 3){ S.xp += 2; S.cnt.recall = (S.cnt.recall || 0) + 1; }
   V.mood = (r === 'again' || r === 'hard') ? 'bad' : 'ok'; V.cmsg = {again:'Vuelve en 10 minutos. Equivocarte ayuda a fijarla.', hard:'Casi. La verás pronto otra vez.', good:'¡Bien! Esa ya va quedando.', easy:'¡Fácil! La veré mucho más adelante.'}[r];
   if(r === 'again') V.queue.push(id);
   S.cnt.cards = (S.cnt.cards || 0) + 1; qProg('cards', 1); addCoins(1);
-  V.done++; V.i++; V.flipped = false; V.fa = false; V.draft = ''; markDay(); save(); render(); chkLevel(lv0);
+  V.done++; V.i++; V.flipped = false; V.fa = false; V.draft = ''; if(!V.queue[V.i]) V.popBox = undefined; markDay(); save(); render(); chkLevel(lv0);
 }
 
 /* ---------- acciones ---------- */
@@ -1731,6 +1774,7 @@ const A = {
   replay: () => V.sim ? A.sim() : V.reto ? A.reto() : V.jefe ? A.jefe({a:V.jefe.a, i:temasOf(V.jefe.a).indexOf(V.jefe.t)}) : V.nivel ? A.nivel({a:V.nivel.a, i:temasOf(V.nivel.a).indexOf(V.nivel.t)}) : startRound(shuffle(V.ids), V.modo),
   cards: () => startCards(false),
   cardsall: () => startCards(true),
+  cardchest: () => { if(V.chested) return; V.chested = true; openChest(lootRoll(false), 'COFRE DE REPASO'); save(); render(); },
   flip: () => { const t = document.getElementById('crtxt'); if(t) V.draft = t.value.trim().slice(0, 600); V.flipped = !V.flipped; V.fa = true; sfx('ok'); render(); },
   rate: d => rate(d.r),
   backup: () => go({name:'backup'}),
@@ -1823,7 +1867,7 @@ const A = {
   qclaim: d => { ensureQuests(); const q = S.quests.list[+d.i]; if(!q || q.c || q.p < q.g) return; q.c = true; addCoins(q.r); S.cnt.qdone = (S.cnt.qdone || 0) + 1; save(); burstAt(document.querySelector('[data-act=qclaim][data-i="'+d.i+'"]'), 'coin'); checkAch(); render(); },
   qchest: () => { ensureQuests(); if(S.quests.chest || !S.quests.list.every(q => q.c)) return; S.quests.chest = true; const l = lootRoll(true); save(); openChest(l, 'COFRE DEL DÍA'); },
   resultchest: () => { if(V.loot && !V.lootOpened){ V.lootOpened = true; const l = V.loot; openChest(l, 'COFRE DE LA RONDA'); const b = document.querySelector('[data-act=resultchest]'); if(b) b.outerHTML = '<p class="src">Cofre abierto: '+esc(l.tx)+'</p>'; } },
-  set: d => { if(d.k === 'theme' && !ownsTheme(d.v)){ toast('Se compra en la tienda'); return; } S.set[d.k] = (d.v === '1' ? true : d.v === '0' ? false : d.v); save(); applyTheme(); render(); if(d.k === 'snd' && S.set.snd) sfx('ok'); },
+  set: d => { if(d.k === 'theme' && !ownsTheme(d.v)){ toast('Se compra en la tienda'); return; } S.set[d.k] = d.k === 'newc' ? Number(d.v) : (d.v === '1' ? true : d.v === '0' ? false : d.v); save(); applyTheme(); render(); if(d.k === 'snd' && S.set.snd) sfx('ok'); },
   testsnd: () => { const w = S.set.snd; S.set.snd = true; sfx('lvl'); buzz(60); S.set.snd = w; },
   sndtog: d => { S.set.snd = !S.set.snd; save(); const b = document.querySelector('.sndbtn'); if(b) b.classList.toggle('off', !S.set.snd); if(S.set.snd) sfx('ok'); },
   import: () => go({name:'import'}),
