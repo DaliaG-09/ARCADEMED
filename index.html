@@ -458,6 +458,21 @@ body[data-scene=derma]::before{background-image:url("data:image/svg+xml,%3Csvg x
 .leech{background:#ffe0e0;border:3px solid var(--bad);border-radius:12px;padding:8px 10px;font-size:13px;font-weight:700;text-align:left;margin-top:10px}
 .leech textarea,.tipbox textarea{min-height:56px;font:14px var(--body);margin-top:6px}
 .tipbox{margin-top:10px;text-align:left;font-size:14px}
+.cl-h{font-family:var(--display);font-size:15px;margin:0;line-height:1.5}
+.cl-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.cl-entry{background:#7dffb0!important}
+.cl-entry:hover{background:#5cf59a!important}
+.cl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+.cl-l{display:block;font-weight:700;font-size:13px;margin-bottom:5px}
+.cl-l i{font-style:normal;color:var(--mut);font-weight:600}
+.cl-ck{display:flex;gap:10px;align-items:flex-start;font-weight:700;font-size:14px;grid-column:1/-1}
+.cl-ck input{width:22px;height:22px;flex:none;accent-color:#ff5fa2}
+.cl-ctx{background:#8fd8ff;font-size:14px;line-height:1.5}
+.cl-res{background:#7dffb0;font-size:14px;line-height:1.5}
+.cl-res p{margin:8px 0 0}
+.cl-big{font-family:var(--display);font-size:14px;line-height:1.5}
+.cl-warn{font-weight:800;color:#b3001b}
+select.field{appearance:auto}
 </style>
 </head>
 <body>
@@ -1450,6 +1465,7 @@ function vHome(){
       '<button class="btn act" data-act="cards"><b>FLASHCARDS</b><span>'+(function(){ const d = todayDeck(); return d.rev.length+' por repasar y '+d.nw.length+' nuevas hoy · repetición espaciada y recuerdo activo'; })()+'</span></button>'+
     '</div></div>'+
     '<div><p class="label">MUNDOS</p><div class="worlds">'+worlds+'</div></div>'+minisHtml()+
+    '<div><p class="label">FUERA DEL EXAMEN</p><button class="btn act cl-entry" data-act="clin"><b>PRÁCTICA CLÍNICA</b><span>Calculadoras para la guardia. Aparte del examen: no toca tu progreso.</span></button></div>'+
     '<p class="src">Has visto '+vistas+' de '+qs.length+' preguntas. Las preguntas con * al final tienen un dato corregido porque el PPT lo trae mal; al responder te explico qué cambió.</p>'+
     '<div class="foot"><button class="btn small" data-act="ajustes">Ajustes</button><button class="btn small ghost" data-act="backup">Respaldo del progreso</button><button class="btn small ghost" data-act="import">Cargar preguntas</button></div>'+
   '</div>';
@@ -1636,13 +1652,153 @@ function vAjustes(){
    '</div></div>';
 }
 
+/* ---------- práctica clínica: apartado aparte del examen (no lee ni escribe S) ---------- */
+const num = x => { const n = parseFloat(String(x).replace(',', '.')); return isFinite(n) ? n : NaN; };
+const fx = (n, d) => (Math.round(n * Math.pow(10, d || 0)) / Math.pow(10, d || 0)).toFixed(d || 0);
+const clN = (k, l, u, ph) => ({k, l, u, t:'n', ph});
+const clS = (k, l, o) => ({k, l, t:'s', o});
+const clC = (k, l) => ({k, l, t:'c'});
+const ACT_OPTS = [['0.6','Hombre adulto (0,6)'],['0.5','Mujer adulta u hombre mayor de 65 (0,5)'],['0.45','Mujer mayor de 65 (0,45)']];
+const CALCS = [
+ {id:'nacambio', g:'Electrolitos', n:'Cambio de sodio con un líquido', ctx:'Estima cuánto sube o baja el sodio (Na) del paciente por cada litro de un líquido IV (fórmula de Adrogué y Madias). Se usa para elegir el suero y la velocidad en hiponatremia o hipernatremia sin pasarse del ritmo seguro.',
+  campos:[clN('peso','Peso','kg'), clS('act','Agua corporal total',ACT_OPTS), clN('na','Sodio sérico','mEq/L'), clS('inf','Líquido a infundir',[['513','NaCl 3 % (513)'],['154','NaCl 0,9 % (154)'],['130','Ringer lactato (130)'],['77','NaCl 0,45 % (77)'],['0','Dextrosa 5 % en agua (0)']]), clN('obj','Cambio máximo permitido en 24 h','mEq/L')],
+  def:{obj:8},
+  f(v){
+    const act = v.peso * v.act, d = (v.inf - v.na) / (act + 1), tope = Math.abs(v.obj);
+    const o = {big:'1 litro cambia el Na en '+(d>=0?'+':'')+fx(d,1)+' mEq/L', lines:['Agua corporal total: '+fx(act,1)+' L.']};
+    const bien = v.na < 135 ? d > 0 : (v.na > 145 ? d < 0 : d !== 0);
+    if(Math.abs(d) < 0.05 || !bien){ o.warn = 'Con este líquido el sodio no se mueve en la dirección que necesitas. Cambia el líquido.'; return o; }
+    const ml = tope / Math.abs(d) * 1000;
+    o.lines.push('Para no pasar de '+fx(tope,0)+' mEq/L en 24 h: máximo '+fx(ml,0)+' mL en 24 h (unos '+fx(ml/24,0)+' mL/h).');
+    o.lines.push(v.na < 135 ? 'Hiponatremia: en Lima el tope habitual es 8 mEq/L en 24 h; con riesgo de desmielinización osmótica (Na menor de 105, alcoholismo, desnutrición, hipopotasemia, hepatopatía) la meta es 4 a 6.' : (v.na > 145 ? 'Hipernatremia crónica: bajar como máximo 10 mEq/L en 24 h.' : 'El sodio está en rango normal.'));
+    o.lines.push('La fórmula no cuenta el potasio del suero ni las pérdidas que sigue teniendo el paciente. Controla el Na cada 2 a 4 h y ajusta.');
+    return o;
+  }, ref:'Adrogué y Madias, N Engl J Med 2000. Tope de corrección: guía europea 2014 y panel de EE. UU. 2013, adaptado a la práctica en Lima.'},
+ {id:'naglu', g:'Electrolitos', n:'Sodio corregido por glucosa', ctx:'Con glucosa muy alta el agua sale de las células y diluye el sodio. Esta cuenta muestra el sodio que tendría el paciente con glucosa normal, para no tratar una hiponatremia que no es real.',
+  campos:[clN('na','Sodio sérico','mEq/L'), clN('glu','Glucosa','mg/dL')],
+  f(v){
+    const a = v.na + 1.6 * (v.glu - 100) / 100, b = v.na + 2.4 * (v.glu - 100) / 100;
+    return {big:'Sodio corregido: '+fx(a,1)+' mEq/L', lines:['Con el factor 2,4 (usado si la glucosa pasa de 400): '+fx(b,1)+' mEq/L.', 'Factor 1,6: 1,6 mEq/L de Na por cada 100 mg/dL de glucosa sobre 100.']};
+  }, ref:'Katz, N Engl J Med 1973; Hillier, Am J Med 1999.'},
+ {id:'aguadef', g:'Electrolitos', n:'Déficit de agua libre', ctx:'En hipernatremia calcula cuántos litros de agua libre le faltan al paciente para llevar el sodio a 140. Sirve para planear la reposición con dextrosa o suero hipotónico.',
+  campos:[clN('peso','Peso','kg'), clS('act','Agua corporal total',ACT_OPTS), clN('na','Sodio sérico','mEq/L')],
+  f(v){
+    const act = v.peso * v.act, d = act * (v.na / 140 - 1);
+    if(d <= 0) return {big:'Sin déficit de agua libre', lines:['El sodio es 140 o menos; esta fórmula solo aplica en hipernatremia.']};
+    return {big:'Déficit: '+fx(d,1)+' L de agua libre', lines:['Repón en 48 a 72 h, sin bajar el Na más de 10 mEq/L en 24 h.', 'A ese déficit súmale las pérdidas del día (diuresis, fiebre, diarrea). Si hay hipovolemia con shock, primero cristaloide isotónico.']};
+  }, ref:'Adrogué y Madias, N Engl J Med 2000; Sterns, Am J Kidney Dis 2015.'},
+ {id:'brecha', g:'Ácido-base', n:'Brecha aniónica, corregida por albúmina y delta-delta', ctx:'La brecha aniónica (anion gap) separa las acidosis metabólicas con anión no medido (cetoacidosis, lactato, uremia, tóxicos) de las hiperclorémicas. Con albúmina baja la brecha se subestima, por eso se corrige.',
+  campos:[clN('na','Sodio','mEq/L'), clN('cl','Cloro','mEq/L'), clN('hco','Bicarbonato','mEq/L'), clN('alb','Albúmina','g/dL')],
+  def:{alb:4.4},
+  f(v){
+    const ag = v.na - v.cl - v.hco, agc = ag + 2.5 * (4.4 - v.alb);
+    const o = {big:'Brecha corregida: '+fx(agc,1)+' mEq/L', lines:['Brecha sin corregir: '+fx(ag,1)+'. Normal: 8 a 12.']};
+    o.lines.push(agc > 12 ? 'Brecha elevada: acidosis con anión no medido.' : 'Brecha normal: si hay acidosis, es hiperclorémica (pérdida de bicarbonato, diarrea, acidosis tubular renal).');
+    if(v.hco < 24 && agc > 12){
+      const dd = (agc - 12) / (24 - v.hco);
+      o.lines.push('Delta-delta: '+fx(dd,2)+'. '+(dd < 0.4 ? 'Menor de 0,4: además hay acidosis hiperclorémica.' : dd < 1 ? 'Entre 0,4 y 1: acidosis mixta (con brecha y sin brecha).' : dd <= 2 ? 'Entre 1 y 2: acidosis con brecha aislada.' : 'Mayor de 2: además hay alcalosis metabólica o acidosis crónica compensada.'));
+    }
+    return o;
+  }, ref:'Figge, Crit Care Med 1998. Valores normales de brecha varían con el laboratorio.'},
+ {id:'cacorr', g:'Electrolitos', n:'Calcio corregido por albúmina', ctx:'Casi la mitad del calcio total va unido a albúmina. Con albúmina baja el calcio total parece bajo aunque el calcio libre esté normal.',
+  campos:[clN('ca','Calcio total','mg/dL'), clN('alb','Albúmina','g/dL')],
+  f(v){
+    const c = v.ca + 0.8 * (4 - v.alb);
+    return {big:'Calcio corregido: '+fx(c,1)+' mg/dL', lines:['Normal: 8,5 a 10,5 mg/dL.', 'En enfermedad grave, diálisis o cuando va a cambiar tu conducta, pide calcio iónico: la corrección falla en esos casos.']};
+  }, ref:'Payne, BMJ 1973.'},
+ {id:'child', g:'Hígado', n:'Child-Pugh', ctx:'Puntaje de gravedad de la cirrosis (clases A, B, C). Se usa para pronóstico, para decidir cirugía en un cirrótico y para ajustar dosis de fármacos.',
+  campos:[clS('bili','Bilirrubina total',[['1','Menor de 2 mg/dL'],['2','2 a 3 mg/dL'],['3','Mayor de 3 mg/dL']]), clS('alb','Albúmina',[['1','Mayor de 3,5 g/dL'],['2','2,8 a 3,5 g/dL'],['3','Menor de 2,8 g/dL']]), clS('inr','INR (índice internacional normalizado)',[['1','Menor de 1,7'],['2','1,7 a 2,3'],['3','Mayor de 2,3']]), clS('asc','Ascitis',[['1','Ausente'],['2','Leve o controlada con diuréticos'],['3','Moderada a grave o refractaria']]), clS('enc','Encefalopatía hepática',[['1','Ausente'],['2','Grado 1 a 2 o controlada con tratamiento'],['3','Grado 3 a 4 o refractaria']])],
+  f(v){
+    const p = v.bili + v.alb + v.inr + v.asc + v.enc, c = p <= 6 ? 'A' : p <= 9 ? 'B' : 'C';
+    return {big:'Child-Pugh '+c+' ('+p+' puntos)', lines:[c === 'A' ? 'Cirrosis compensada: sobrevida a 1 año cercana a 100 %.' : c === 'B' ? 'Compromiso funcional significativo: sobrevida a 1 año cercana a 80 %.' : 'Descompensada: sobrevida a 1 año cercana a 45 %. Evalúa trasplante.', 'A es 5 a 6 puntos, B es 7 a 9, C es 10 a 15.']};
+  }, ref:'Pugh, Br J Surg 1973. Sobrevidas aproximadas según series clásicas.'},
+ {id:'meld', g:'Hígado', n:'MELD, MELD-Na y MELD 3.0', ctx:'MELD (Model for End-Stage Liver Disease) estima la mortalidad a 90 días en cirrosis. Se usa para priorizar trasplante hepático. MELD 3.0 es la versión vigente (OPTN, 2023) e incluye sexo y albúmina.',
+  campos:[clN('bili','Bilirrubina total','mg/dL'), clN('inr','INR','sin unidad'), clN('cr','Creatinina','mg/dL'), clN('na','Sodio','mEq/L'), clN('alb','Albúmina','g/dL'), clS('sex','Sexo',[['0','Hombre'],['1','Mujer']]), clC('dial','Diálisis 2 o más veces en la última semana')],
+  f(v){
+    const L = Math.log, cl = (x, a, b) => Math.min(b, Math.max(a, x));
+    const bi = Math.max(1, v.bili), inr = Math.max(1, v.inr);
+    const cr4 = v.dial ? 4 : cl(v.cr, 1, 4), cr3 = v.dial ? 3 : cl(v.cr, 1, 3);
+    const m = Math.round(9.57 * L(cr4) + 3.78 * L(bi) + 11.2 * L(inr) + 6.43);
+    const na = cl(v.na, 125, 137), mna = m > 11 ? Math.round(m + 1.32 * (137 - na) - 0.033 * m * (137 - na)) : m;
+    const al = cl(v.alb, 1.5, 3.5);
+    const m3 = Math.round(1.33 * v.sex + 4.56 * L(bi) + 0.82 * (137 - na) - 0.24 * (137 - na) * L(bi) + 9.09 * L(inr) + 11.14 * L(cr3) + 1.85 * (3.5 - al) - 1.83 * (3.5 - al) * L(cr3) + 6);
+    const s90 = 100 * Math.pow(0.946, Math.exp(0.17698 * m3 - 3.56));
+    return {big:'MELD 3.0: '+m3, lines:['MELD original: '+m+'. MELD-Na: '+mna+'.', 'Sobrevida estimada a 90 días con MELD 3.0: '+fx(s90,0)+' %.', 'Los valores menores de 1 se toman como 1; la creatinina se topa en 3 (MELD 3.0) o 4 (MELD); el sodio se limita a 125 a 137 y la albúmina a 1,5 a 3,5.']};
+  }, ref:'Kim, Gastroenterology 2021 (MELD 3.0); Kamath, Hepatology 2001 (MELD).'},
+ {id:'gbs', g:'Digestivo', n:'Glasgow-Blatchford', ctx:'Puntaje para hemorragia digestiva alta (HDA) que se calcula antes de la endoscopía. Dice quién puede irse a casa con control ambulatorio y quién necesita ingreso, transfusión o endoscopía pronta.',
+  campos:[clN('urea','Urea','mg/dL'), clN('hb','Hemoglobina','g/dL'), clS('sex','Sexo',[['0','Hombre'],['1','Mujer']]), clN('pas','Presión arterial sistólica','mmHg'), clN('fc','Frecuencia cardíaca','lpm'), clC('mel','Melena'), clC('sin','Síncope'), clC('hep','Enfermedad hepática'), clC('ic','Insuficiencia cardíaca')],
+  f(v){
+    let p = 0; const u = v.urea;
+    p += u >= 150 ? 6 : u >= 60 ? 4 : u >= 48 ? 3 : u >= 39 ? 2 : 0;
+    if(v.sex === 0) p += v.hb < 10 ? 6 : v.hb < 12 ? 3 : v.hb < 13 ? 1 : 0;
+    else p += v.hb < 10 ? 6 : v.hb < 12 ? 1 : 0;
+    p += v.pas < 90 ? 3 : v.pas < 100 ? 2 : v.pas < 110 ? 1 : 0;
+    p += (v.fc >= 100 ? 1 : 0) + (v.mel ? 1 : 0) + (v.sin ? 2 : 0) + (v.hep ? 2 : 0) + (v.ic ? 2 : 0);
+    return {big:'Glasgow-Blatchford: '+p+' puntos', lines:[p <= 1 ? 'Riesgo muy bajo (0 a 1): se puede manejar ambulatorio con endoscopía programada.' : 'Mayor de 1: hospitalizar, endoscopía en las primeras 24 h tras reanimar.', 'Máximo posible: 23. Mientras más alto, más probabilidad de transfusión, endoscopía terapéutica o cirugía.', 'Urea convertida a BUN (nitrógeno ureico): '+fx(u / 2.14,1)+' mg/dL.']};
+  }, ref:'Blatchford, Lancet 2000; guía ACG (American College of Gastroenterology) de HDA 2021.'},
+ {id:'bisap', g:'Digestivo', n:'BISAP (pancreatitis aguda)', ctx:'Puntaje para predecir mortalidad en pancreatitis aguda con datos de las primeras 24 h. BISAP viene de sus cinco criterios (BUN, alteración mental, SIRS, edad, derrame pleural).',
+  campos:[clC('bun','Nitrógeno ureico (BUN) mayor de 25 mg/dL'), clC('ment','Alteración del estado mental (Glasgow menor de 15)'), clC('sirs','SIRS (2 o más: T menor de 36 o mayor de 38, FC mayor de 90, FR mayor de 20, leucocitos menor de 4 mil o mayor de 12 mil)'), clC('edad','Edad mayor de 60 años'), clC('der','Derrame pleural')],
+  f(v){
+    const p = (v.bun?1:0) + (v.ment?1:0) + (v.sirs?1:0) + (v.edad?1:0) + (v.der?1:0);
+    return {big:'BISAP: '+p+' de 5', lines:[p < 3 ? 'Menos de 3: mortalidad baja, menos de 2 %.' : 'Tres o más: mortalidad alta (cerca de 5 % con 3, y 20 % o más con 4 a 5). Valora UCI o cuidados intermedios.', 'No reemplaza el criterio clínico ni la gravedad de Atlanta revisada (leve, moderadamente grave, grave).']};
+  }, ref:'Wu, Gut 2008; clasificación de Atlanta revisada 2012.'},
+ {id:'uas7', g:'Piel', n:'UAS7 (actividad de urticaria)', ctx:'Registro semanal de síntomas en urticaria crónica espontánea. Cada día el paciente puntúa ronchas (0 a 3) y prurito (0 a 3); el total diario va de 0 a 6 y se suman 7 días. Sirve para medir gravedad y ver si el tratamiento funciona.',
+  campos:[1,2,3,4,5,6,7].map(i => clN('d'+i,'Día '+i+' (0 a 6)','','0 a 6')),
+  def:{d1:0,d2:0,d3:0,d4:0,d5:0,d6:0,d7:0},
+  f(v){
+    let s = 0; for(let i = 1; i <= 7; i++) s += Math.min(6, Math.max(0, v['d'+i]));
+    return {big:'UAS7: '+s+' de 42', lines:[s === 0 ? 'Sin síntomas.' : s <= 6 ? 'Urticaria bien controlada.' : s <= 15 ? 'Actividad leve.' : s <= 27 ? 'Actividad moderada.' : 'Actividad grave.', 'Ronchas: 0 ninguna, 1 menos de 20 en 24 h, 2 de 20 a 50, 3 más de 50 o grandes y confluentes. Prurito: 0 ninguno, 1 leve, 2 moderado (molesta), 3 intenso (interfiere con el sueño o el día).', 'Control de la enfermedad: UAS7 de 6 o menos. Escalón habitual: antihistamínico de segunda generación y subir hasta 4 veces la dosis; luego omalizumab.']};
+  }, ref:'Zuberbier, Allergy 2022 (guía EAACI/GA²LEN/EuroGuiDerm/APAAACI); Młynek, Allergy 2008.'}
+];
+const CLIN_NEXT = ['Fichas de fármacos','Casos de guardia','Errores que no se pueden cometer','Diagnóstico diferencial','Lectura de datos'];
+const clGroups = () => [...new Set(CALCS.map(c => c.g))];
+function clField(c, f){
+  const dv = c.def && c.def[f.k] !== undefined ? c.def[f.k] : '';
+  const id = 'cf-'+f.k;
+  if(f.t === 'c') return '<label class="cl-ck"><input type="checkbox" id="'+id+'" data-cf="'+f.k+'"><span>'+esc(f.l)+'</span></label>';
+  if(f.t === 's') return '<div><label class="cl-l" for="'+id+'">'+esc(f.l)+'</label><select class="field" id="'+id+'" data-cf="'+f.k+'">'+f.o.map(o => '<option value="'+o[0]+'">'+esc(o[1])+'</option>').join('')+'</select></div>';
+  return '<div><label class="cl-l" for="'+id+'">'+esc(f.l)+(f.u ? ' <i>('+esc(f.u)+')</i>' : '')+'</label><input class="field" type="text" inputmode="decimal" id="'+id+'" data-cf="'+f.k+'" value="'+dv+'" placeholder="'+esc(f.ph || '')+'" autocomplete="off"></div>';
+}
+function vClin(){
+  const c = CALCS.find(x => x.id === V.calc);
+  if(!c){
+    return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button></div>'+
+      '<header><h2 class="cl-h">PRÁCTICA CLÍNICA</h2><p class="sub">Herramientas para la guardia y las rotaciones. Todo esto vive aparte: no cambia tu progreso, tus puntos ni las preguntas del examen.</p></header>'+
+      clGroups().map(g => '<div><p class="label">'+esc(g)+'</p><div class="cl-list">'+CALCS.filter(x => x.g === g).map(x => '<button class="btn act" data-act="clcalc" data-id="'+x.id+'"><b>'+esc(x.n)+'</b></button>').join('')+'</div></div>').join('')+
+      '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>'+
+      '<p class="src">Las calculadoras ayudan a pensar, no reemplazan al criterio clínico ni a la guía de tu hospital. Cada una indica su referencia.</p></div>';
+  }
+  return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>'+
+    '<h2 class="cl-h">'+esc(c.n)+'</h2>'+
+    '<div class="panel cl-ctx"><b>Qué es:</b> '+esc(c.ctx)+'</div>'+
+    '<div class="panel stack" id="clcalc" style="gap:14px"><div class="cl-grid">'+c.campos.map(f => clField(c, f)).join('')+'</div></div>'+
+    '<div class="panel cl-res" id="clres" aria-live="polite"></div>'+
+    '<p class="src">Referencia: '+esc(c.ref)+'</p></div>';
+}
+function clCalc(){
+  const c = CALCS.find(x => x.id === V.calc), out = document.getElementById('clres'); if(!c || !out) return;
+  const v = {}; let falta = false;
+  c.campos.forEach(f => {
+    const el = document.getElementById('cf-'+f.k); if(!el) return;
+    if(f.t === 'c') v[f.k] = el.checked;
+    else if(f.t === 's') v[f.k] = parseFloat(el.value);
+    else { v[f.k] = num(el.value); if(isNaN(v[f.k])) falta = true; }
+  });
+  if(falta){ out.innerHTML = '<p class="src" style="margin:0">Completa los datos para ver el resultado.</p>'; return; }
+  const r = c.f(v);
+  out.innerHTML = '<div class="cl-big">'+esc(r.big)+'</div>'+(r.warn ? '<p class="cl-warn">'+esc(r.warn)+'</p>' : '')+(r.lines || []).map(l => '<p>'+esc(l)+'</p>').join('');
+}
+document.addEventListener('input', e => { if(e.target.closest && e.target.closest('#clcalc')) clCalc(); });
+document.addEventListener('change', e => { if(e.target.closest && e.target.closest('#clcalc')) clCalc(); });
+
 function render(){
-  const f = {home:vHome, setup:vSetup, play:vPlay, result:vResult, cards:vCards, backup:vBackup, import:vImport, ajustes:vAjustes, logros:vLogros, tienda:vTienda, mapa:vMapa, resumen:vResumen, tarjeta:vTarjeta, cuarto:vCuarto}[V.name];
+  const f = {home:vHome, setup:vSetup, play:vPlay, result:vResult, cards:vCards, backup:vBackup, import:vImport, ajustes:vAjustes, logros:vLogros, tienda:vTienda, mapa:vMapa, resumen:vResumen, tarjeta:vTarjeta, cuarto:vCuarto, clin:vClin}[V.name];
   document.getElementById('app').innerHTML = f();
   if(V.name === 'home'){ initHero(); parallaxInit(); }
   sceneSet();
   if(V.name === 'play' && V.timed) runTimer();
   if(V.name === 'tarjeta') cardInit();
+  if(V.name === 'clin') clCalc();
   document.getElementById('app').classList.toggle('wide', V.name === 'mapa' && !S.set.maplist && isWide());
   closeSheet(); if(V.name === 'mapa') mapInit(); applySky(); roomInit(); musSync();
   if(V.name === 'result' && !V.dead && V.answeredN && V.ok/V.answeredN >= 0.8) setTimeout(() => { confetti(40); burstAt(document.querySelector('.catbox svg'), 'ok'); }, 300);
@@ -1806,6 +1962,8 @@ const A = {
   },
   resumen: () => go({name:'resumen'}),
   tarjeta: () => go({name:'tarjeta'}),
+  clin: () => go({name:'clin', calc:null}),
+  clcalc: d => go({name:'clin', calc:d.id}),
   sharecard: async () => {
     if(!V.cardUrl){ toast('Espera un momento, se está armando'); return; }
     try{
