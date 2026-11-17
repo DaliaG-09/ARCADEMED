@@ -428,6 +428,17 @@ body[data-scene=derma]::before{background-image:url("data:image/svg+xml,%3Csvg x
 .wchar .tag{animation:wbob2 1s ease-in-out infinite alternate}
 .csheet .pv{display:inline-block;margin:6px 0}
 .cdato{background:#fff6bd;border:3px solid var(--ink);border-radius:12px;padding:10px;margin:8px 0;font-size:14px}
+
+/* Flash A: recuerdo activo */
+.card.flipanim{animation:cflip .38s ease-out}
+@keyframes cflip{0%{transform:scaleX(1)}45%{transform:scaleX(.02)}100%{transform:scaleX(1)}}
+.card.nopt{cursor:default}
+.crbox{margin-top:12px}
+.crbox textarea{min-height:84px;font:15px/1.4 var(--body)}
+.mine{background:#fff;border:3px solid var(--ink);border-radius:12px;padding:10px 12px;margin-top:10px;text-align:left;font-size:15px;line-height:1.4;font-weight:600}
+.mine b{display:block;font-family:var(--display);font-size:10px;letter-spacing:.08em;margin-bottom:4px;font-weight:400}
+.cmood{display:flex;align-items:center;gap:10px;margin:8px 0 0;font-weight:800;font-size:14px}
+.cmood .bub{background:#fff;border:3px solid var(--ink);border-radius:12px;padding:5px 10px}
 </style>
 </head>
 <body>
@@ -1133,6 +1144,7 @@ const ACH = [
  {id:'rich', n:'Alcancía', d:'Junta 500 monedas en total', g:'500', c:'#ffd93b', r:50, f:() => S.cnt.earned >= 500},
  {id:'cuarto5', n:'Decoradora', d:'Pon 5 muebles en tu cuarto', g:'CASA', c:'#0e8b79', r:50, f:() => Object.keys(S.room || {}).length >= 5},
  {id:'tesoro5', n:'Exploradora', d:'Encuentra 5 tesoros escondidos en el mapa', g:'MAPA', c:'#c85f00', r:50, f:() => Object.keys(S.found || {}).length >= 5},
+ {id:'recall20', n:'Memoria activa', d:'Escribe tu respuesta de memoria en 20 tarjetas', g:'RECUERDO', c:'#e0398b', r:50, f:() => (S.cnt.recall || 0) >= 20},
  {id:'reto1', n:'Contrarreloj', d:'Termina un reto contrarreloj con vidas', g:'20s', c:'#e02a1f', r:50, f:() => S.cnt.reto >= 1},
  {id:'chest5', n:'Cazatesoros', d:'Abre 5 cofres', g:'x5', c:'#b8651f', r:50, f:() => S.cnt.chests >= 5}
 ];
@@ -1527,12 +1539,15 @@ function vCards(){
     return '<button class="btn rate" data-act="rate" data-r="'+r+'">'+lab+'<small>'+sched(st, r).label+'</small></button>';
   }).join('');
   return '<div><div class="hud"><button class="btn small ghost" data-act="home">Salir</button><div class="grow">'+segs(V.i/(V.queue.length), Math.min(V.queue.length, 20))+'</div><span class="src">'+V.done+' hechas · '+(V.queue.length - V.i)+' en cola</span></div>'+
-    '<div class="panel card '+(V.flipped ? 'back' : '')+'" data-act="flip" tabindex="0" role="button" aria-label="Voltear tarjeta">'+
+    (V.mood ? '<div class="cmood">'+catSvg(V.mood, 3, S.worn)+'<span class="bub">'+esc(V.cmsg || '')+'</span></div>' : '')+
+    '<div class="panel card nopt '+(V.flipped ? 'back' : '')+(V.fa ? ' flipanim' : '')+'">'+
       '<span class="pill" style="color:'+a.c+'">'+esc(a.n)+' · '+esc(c.tema)+'</span>'+(c.demo ? '<span class="demo">DEMO</span>' : '')+
       '<span class="side">'+(V.flipped ? 'RESPUESTA' : 'PREGUNTA')+'</span>'+
+      (V.flipped ? '<div class="src" style="font-weight:800;font-size:14px">'+nl(c.f)+'</div>' : '')+
       '<div class="txt">'+nl(V.flipped ? c.b : c.f)+'</div>'+
-      (V.flipped ? '' : '<span class="src">Toca la tarjeta o pulsa Espacio para voltear</span>')+
+      (V.flipped && V.draft ? '<div class="mine"><b>TU RESPUESTA</b>'+esc(V.draft)+'</div>' : '')+
     '</div>'+
+    (V.flipped ? '' : '<div class="crbox"><label class="label" for="crtxt">RECUERDO ACTIVO: ESCRIBE LO QUE RECUERDAS ANTES DE VER LA RESPUESTA</label><textarea id="crtxt" placeholder="Con tus palabras, aunque sea a medias. Equivocarte aquí es lo que más ayuda a recordar después." autocomplete="off">'+esc(V.draft || '')+'</textarea><div class="row" style="margin-top:10px"><button class="btn gold grow" data-act="flip">Ver la respuesta</button></div><p class="src" style="margin-top:6px">Atajo: Ctrl + Enter. Si prefieres solo pensarla, deja el cuadro vacío.</p></div>')+
     (V.flipped ? '<div class="rates">'+rates+'</div>' : '')+'</div>';
 }
 
@@ -1664,7 +1679,7 @@ function next(){
 }
 function startCards(all){
   const cs = all ? allC() : dueCards();
-  V = {name:'cards', queue:shuffle(cs.map(c => c.id)), i:0, flipped:false, done:0};
+  V = {name:'cards', queue:shuffle(cs.map(c => c.id)), i:0, flipped:false, done:0, draft:'', fa:false};
   render();
 }
 function rate(r){
@@ -1672,9 +1687,11 @@ function rate(r){
   const id = V.queue[V.i]; const nxt = sched(S.c[id], r);
   S.c[id] = {ef:nxt.ef, int:nxt.int, reps:nxt.reps, due:nxt.due};
   if(r !== 'again') S.xp += 3;
+  if(V.draft && V.draft.length >= 3){ S.xp += 2; S.cnt.recall = (S.cnt.recall || 0) + 1; }
+  V.mood = (r === 'again' || r === 'hard') ? 'bad' : 'ok'; V.cmsg = {again:'Vuelve en 10 minutos. Equivocarte ayuda a fijarla.', hard:'Casi. La verás pronto otra vez.', good:'¡Bien! Esa ya va quedando.', easy:'¡Fácil! La veré mucho más adelante.'}[r];
   if(r === 'again') V.queue.push(id);
   S.cnt.cards = (S.cnt.cards || 0) + 1; qProg('cards', 1); addCoins(1);
-  V.done++; V.i++; V.flipped = false; markDay(); save(); render(); chkLevel(lv0);
+  V.done++; V.i++; V.flipped = false; V.fa = false; V.draft = ''; markDay(); save(); render(); chkLevel(lv0);
 }
 
 /* ---------- acciones ---------- */
@@ -1714,7 +1731,7 @@ const A = {
   replay: () => V.sim ? A.sim() : V.reto ? A.reto() : V.jefe ? A.jefe({a:V.jefe.a, i:temasOf(V.jefe.a).indexOf(V.jefe.t)}) : V.nivel ? A.nivel({a:V.nivel.a, i:temasOf(V.nivel.a).indexOf(V.nivel.t)}) : startRound(shuffle(V.ids), V.modo),
   cards: () => startCards(false),
   cardsall: () => startCards(true),
-  flip: () => { V.flipped = !V.flipped; render(); },
+  flip: () => { const t = document.getElementById('crtxt'); if(t) V.draft = t.value.trim().slice(0, 600); V.flipped = !V.flipped; V.fa = true; sfx('ok'); render(); },
   rate: d => rate(d.r),
   backup: () => go({name:'backup'}),
   ajustes: () => go({name:'ajustes'}),
@@ -1843,13 +1860,13 @@ document.addEventListener('click', e => {
 });
 document.addEventListener('change', e => { if(e.target.id === 'nm'){ S.set.name = e.target.value.trim().slice(0, 18); save(); } });
 document.addEventListener('keydown', e => {
-  if(e.target.tagName === 'TEXTAREA') return;
+  if(e.target.tagName === 'TEXTAREA'){ if(e.target.id === 'crtxt' && (e.ctrlKey || e.metaKey) && e.key === 'Enter'){ e.preventDefault(); A.flip(); } return; }
   if(V.name === 'play'){
     const i = '1234'.indexOf(e.key) >= 0 && e.key ? '1234'.indexOf(e.key) : 'abcd'.indexOf(e.key.toLowerCase());
     if(!V.answered && i >= 0 && e.key.length === 1) pick(i);
     else if(V.answered && (e.key === 'Enter' || e.key === ' ')){ e.preventDefault(); next(); }
   } else if(V.name === 'cards' && V.queue[V.i]){
-    if(e.key === ' ' || e.key === 'Enter'){ e.preventDefault(); if(!V.flipped){ V.flipped = true; render(); } }
+    if(e.key === ' ' || e.key === 'Enter'){ e.preventDefault(); if(!V.flipped) A.flip(); }
     else if(V.flipped && '1234'.includes(e.key) && e.key.length === 1) rate(['again','hard','good','easy']['1234'.indexOf(e.key)]);
   }
 });
