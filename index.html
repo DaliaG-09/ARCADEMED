@@ -479,6 +479,13 @@ select.field{appearance:auto}
 .cl-fa[open]{background:#fff6b8}
 .cl-fa p{margin:10px 0 0;font-size:14px;line-height:1.5}
 .cl-fu a{color:var(--ink);text-decoration:underline;font-weight:700;word-break:break-word}
+.cl-op{text-align:left}
+.cl-op.cl-ok{background:#8dffb0}
+.cl-op.cl-no{background:#ffb3c8}
+.cl-op:disabled:not(.cl-ok):not(.cl-no){opacity:.55}
+.cl-fb{font-size:14px;line-height:1.5}
+.cl-fbok{background:#d4ffe0}
+.cl-fbno{background:#ffe0ea}
 .cl-warn2{background:#ffb3c8;border:2px solid var(--ink);border-radius:10px;padding:8px 10px}
 </style>
 </head>
@@ -1758,7 +1765,7 @@ const CALCS = [
   }, ref:'Zuberbier, Allergy 2022 (guía EAACI/GA²LEN/EuroGuiDerm/APAAACI); Młynek, Allergy 2008.'}
 ];
 const CALC_FU = {"nacambio": [["Revisión MDCalc: corrección de sodio", "https://mdcalc.scholasticahq.com/article/158150-updated-review-of-sodium-correction-rate-in-hyponatremia-and-hypernatremia"], ["Fórmula Adrogué-Madias", "https://www.evigrade.com/en/calculators/adrogue-madias"], ["WikEM: hiponatremia", "https://wikem.org/wiki/Hyponatremia"]], "naglu": [["Factores 1,6 y 2,4 (Cardioteca)", "https://www.cardioteca.com/calculadoras-cardiologia-clinica/8737-calculadora-sodio-corregido-calcio-corregido-anion-gap-presion-arterial-media.html"]], "aguadef": [["WikEM: hipernatremia", "https://wikem.org/wiki/Hypernatremia"], ["Protocolo de hipernatremia", "https://mediscuss.org/cdss/acute-hypernatraemia"]], "brecha": [["Revisión MDCalc: brecha aniónica", "https://mdcalc.scholasticahq.com/article/154676-updated-review-of-serum-anion-gap"], ["WikEM: brecha aniónica y delta-delta", "https://wikem.org/wiki/Anion_gap"], ["Figge 1998 (resumen)", "https://data.zhenzhi.com/details/1/873802764"]], "cacorr": [["Fórmula de Payne y límites", "https://www.journalmetrics.org/clinical-calculators/corrected-calcium"], ["Calcio corregido (Evigrade)", "https://www.evigrade.com/en/calculators/corrected-calcium"]], "child": [["WikEM: Child-Pugh", "https://wikem.org/wiki/Child-Pugh_score_calculator"]], "meld": [["MELD 3.0 (Univ. de Washington)", "https://www.hepatitisc.uw.edu/page/clinical-calculators/meld"], ["MELD 3.0 (Manual Merck)", "https://www.merckmanuals.com/iframe/manual/medical-calculators/meld3.htm"], ["Fórmulas MELD, MELD-Na y 3.0", "https://casrai.org/guides/meld-score"]], "gbs": [["Radiopaedia: Glasgow-Blatchford", "https://radiopaedia.org/articles/glasgow-blatchford-score-2"], ["ACG hemorragia digestiva alta 2021", "https://pubmed.ncbi.nlm.nih.gov/33929377/"]], "bisap": [["Manual MSD: BISAP", "https://www.msdmanuals.com/iframe/manual/medical-calculators/bisapscore.htm"], ["Wu 2008, Gut", "https://www.qxmd.com/pubmed/18519429"]], "uas7": [["UAS7 y categorías (protocolo)", "https://cdn.clinicaltrials.gov/large-docs/55/NCT04833855/Prot_000.pdf"], ["Bandas del UAS7 (Springer)", "https://link.springer.com/article/10.1007/s40257-017-0331-8"], ["AAD: guía de urticaria", "https://www.aad.org/guidelines/collaborations-urticaria"]]};
-const CLIN_NEXT = ['Casos de guardia','Errores que no se pueden cometer','Diagnóstico diferencial','Lectura de datos'];
+const CLIN_NEXT = ['Errores que no se pueden cometer','Diagnóstico diferencial','Lectura de datos'];
 const clGroups = () => [...new Set(CALCS.map(c => c.g))];
 function clField(c, f){
   const dv = c.def && c.def[f.k] !== undefined ? c.def[f.k] : '';
@@ -1786,13 +1793,111 @@ document.addEventListener('input', e => {
   document.querySelectorAll('#flist .cl-fa').forEach(d => { const ok = !q || d.dataset.s.includes(q); d.hidden = !ok; if(ok) n++; });
   document.getElementById('fnone').hidden = n > 0;
 });
+const CASOS = [
+{id:'varices', n:'Hemorragia por várices en cirrosis', c:'Gastroenterología',
+ pres:'Varón de 58 años con cirrosis alcohólica conocida (Child-Pugh B). Llega por hematemesis (vómito con sangre) y heces negras desde hace 3 horas. PA 100/60, FC 105, Hb 8,6 g/dL. Tiene una vía periférica.',
+ fu:[['Mohanty y García-Tsao 2024, Clin Liver Dis','https://pmc.ncbi.nlm.nih.gov/articles/PMC11216663'],['Resumen de guía (WJES) con tiempos y dosis','https://wjes.biomedcentral.com/articles/10.1186/s13017-018-0194-1/tables/3'],['AASLD, resumen en Guideline Central','https://guidelinecentral.com/guideline/10760'],['Revisión de profilaxis y antibióticos (PMC6593327)','https://pmc.ncbi.nlm.nih.gov/articles/PMC6593327'],['Am J Med 2024, hipertensión portal','https://www.binasss.sa.cr/bibliotecas/bhm/mar24/39.pdf']],
+ pasos:[
+ {q:'¿Qué haces ahora, antes de la endoscopia?', o:[
+  {t:'Segunda vía, reposición prudente, iniciar octreotide y ceftriaxona, y pedir endoscopia dentro de las primeras 12 h', ok:1, fb:'Es el paquete inicial de las guías: fármaco vasoactivo (octreotide, terlipresina o somatostatina, en bolo y luego infusión por 2 a 5 días), antibiótico profiláctico y endoscopia en menos de 12 h desde la presentación.', fu:[1,2]},
+  {t:'Transfundir 2 unidades ya para llevar la Hb a 10', fb:'Con Hb de 8,6 no hay indicación de transfundir. La estrategia restrictiva (transfundir cerca de Hb 7, meta entre 7 y 9) se asoció a mayor supervivencia que la liberal en el ensayo de referencia.', fu:[0,3]},
+  {t:'Esperar la endoscopia sin dar nada, para no alterar los hallazgos', fb:'Las guías incluyen el vasoactivo y el antibiótico en el manejo inicial, junto con la endoscopia en menos de 12 h. No piden esperar a tener los hallazgos para empezarlos.', fu:[1,2]},
+  {t:'Plasma fresco congelado para corregir el INR antes de cualquier otra cosa', fb:'El tratamiento apunta a bajar la presión portal, no a corregir las alteraciones de la coagulación.', fu:[0]}]},
+ {q:'¿Qué antibiótico y por cuánto tiempo?', o:[
+  {t:'Ceftriaxona 1 g IV cada 24 h, máximo 7 días', ok:1, fb:'Es la primera opción en cirrosis avanzada. Puede suspenderse antes si el sangrado cedió y se retiró el vasoactivo.', fu:[3,2]},
+  {t:'Ciprofloxacino oral, porque es más cómodo', fb:'La resistencia a quinolonas está muy extendida y la ceftriaxona es el antibiótico profiláctico de elección.', fu:[3]},
+  {t:'Ceftriaxona 1 g cada 24 h durante todo el ingreso, sin fecha de término', fb:'El máximo son 7 días, y puede suspenderse antes si el sangrado cedió y se retiró el vasoactivo.', fu:[2,3]}]},
+ {q:'A las 6 horas la Hb baja a 6,8 g/dL y la PA se mantiene estable. ¿Qué haces?', o:[
+  {t:'Transfundir concentrado de hematíes y mantener la Hb entre 7 y 9 g/dL', ok:1, fb:'Con Hb bajo 7 corresponde transfundir, apuntando a 7 a 9. Es la estrategia restrictiva, salvo sangrado masivo o enfermedad cardiovascular activa.', fu:[0,3]},
+  {t:'Transfundir hasta Hb 12 para dar margen', fb:'La estrategia liberal tuvo menor supervivencia que la restrictiva en el ensayo de referencia. La meta es 7 a 9.', fu:[3,0]},
+  {t:'Esperar a que la Hb llegue a 5 antes de transfundir', fb:'El umbral de las guías es cerca de 7 g/dL. Con 6,8 ya corresponde transfundir.', fu:[0,2]}]},
+ {q:'El paciente ya está estable. ¿Cuándo y qué haces en la endoscopia?', o:[
+  {t:'Endoscopia dentro de las 12 h de la llegada; si hay várices, ligadura endoscópica', ok:1, fb:'Se hace en menos de 12 h, con el paciente hemodinámicamente estable. Si el origen es variceal, el tratamiento endoscópico es la ligadura.', fu:[2,1]},
+  {t:'Programarla para mañana, cuando esté el equipo completo', fb:'La recomendación es dentro de las primeras 12 h desde la llegada.', fu:[2,1]}]},
+ {q:'Ligadura hecha, sangrado controlado, se retira el vasoactivo. ¿Cómo sigues?', o:[
+  {t:'Iniciar betabloqueante no selectivo (propranolol o carvedilol) y programar ligaduras repetidas', ok:1, fb:'El betabloqueante se inicia cuando se suspende el vasoactivo. En prevención secundaria se considera de elección el carvedilol. Si el paciente es de alto riesgo (Child C, o Child B con sangrado activo en la endoscopia), tiene sangrado refractario o recurrente, se considera TIPS (derivación portosistémica intrahepática transyugular). Revisa en la ficha de propranolol y carvedilol cuándo no usarlos.', fu:[1,2,4]},
+  {t:'Alta sin tratamiento preventivo, porque ya no sangra', fb:'Tras el episodio se necesita prevención secundaria. El betabloqueante se empieza al suspender el vasoactivo, junto con ligaduras repetidas.', fu:[1,2]}]}
+ ]},
+{id:'hiperk', n:'Hiperpotasemia con cambios en el ECG', c:'Nefrología',
+ pres:'Mujer de 64 años con enfermedad renal crónica, en tratamiento con IECA (inhibidor de la enzima convertidora de angiotensina) y espironolactona. Llega con debilidad. Potasio 7,1 mEq/L. ECG: ondas T picudas y QRS ensanchado. Ya tiene monitor y vía periférica.',
+ fu:[['Guía de hiperpotasemia, Royal Wolverhampton NHS (2024)','https://royalwolverhampton.nhs.uk/wp-content/uploads/2024/10/PUBLIC_GDL_11.pdf'],['UK Kidney Association, guía 2023 (borrador de consulta)','https://www.ukkidney.org/sites/renal.org/files/UKKA HYPERKALAEMIA GUIDELINE - 2023 - Draft for public consultation_1.pdf'],['GPnotebook: hiperpotasemia leve a moderada','https://gpnotebook.com/en-IE/pages/haematology/management-of-hyperkalaemia/management-of-mild-moderate-hyperkalaemia'],['iatrox: hiperpotasemia, manejo de emergencia','https://www.iatrox.com/academy/ukmla/hyperkalaemia-emergency'],['iatrox: repaso 2026','https://www.iatrox.com/blog/hyperkalaemia-high-yield-revision-2026'],['MedCourses: guía de guardia','https://medcourses.com/en_uk/blog/severe-hyperkalaemia-an-on-call-guide-to-a-medical-emergency']],
+ pasos:[
+ {q:'¿Cuál es tu primer paso?', o:[
+  {t:'Gluconato de calcio al 10 %, 30 mL IV en 10 minutos, con monitor', ok:1, fb:'Protege la membrana del miocardio, pero no baja el potasio. Se repite si los cambios del ECG persisten. Con cambios en el ECG, el calcio IV va primero.', fu:[0,2,3]},
+  {t:'Insulina con glucosa', fb:'Mueve el potasio hacia la célula, pero no protege la membrana. Con cambios en el ECG, lo primero es calcio IV.', fu:[2,3]},
+  {t:'Una ampolla de gluconato de calcio (10 mL)', fb:'Una ampolla no alcanza: la dosis es 30 mL (3 ampollas) en 10 minutos.', fu:[5,1]},
+  {t:'Resina de intercambio (poliestireno sulfonato de calcio) por vía oral', fb:'La UK Kidney Association indica que ya no debe usarse de forma rutinaria. Además, no resuelve la urgencia del ECG.', fu:[2]}]},
+ {q:'Los cambios del ECG mejoran tras el calcio. ¿Qué sigue?', o:[
+  {t:'Insulina regular 10 U con 25 g de glucosa IV, más salbutamol nebulizado 10 a 20 mg', ok:1, fb:'Es el esquema para mover el potasio hacia el interior de la célula. El salbutamol es complemento.', fu:[2,3,4]},
+  {t:'Salbutamol nebulizado como único tratamiento', fb:'No se usa solo: una parte de los pacientes no responde.', fu:[0,4]},
+  {t:'Solo repetir calcio cada 30 minutos', fb:'El calcio no saca potasio y su efecto dura 30 a 60 minutos. Hay que mover el potasio a la célula.', fu:[0,3]}]},
+ {q:'Ya recibió calcio, insulina con glucosa y salbutamol. ¿Qué haces en las próximas horas?', o:[
+  {t:'Vigilar la glucemia por riesgo de hipoglucemia (suele seguirse de glucosa al 10 %), suspender IECA y espironolactona, y planear cómo eliminar el potasio (captor oral o diálisis si no responde)', ok:1, fb:'Ni el calcio ni la insulina con glucosa eliminan potasio del cuerpo. La hipoglucemia tardía es frecuente tras la insulina, y por eso se sigue con glucosa al 10 %.', fu:[0,4,3]},
+  {t:'Alta pronto: el ECG se normalizó y el potasio ya bajó', fb:'El calcio dura 30 a 60 minutos y ni él ni la insulina con glucosa eliminan potasio del cuerpo. Puede volver a subir mientras siga la causa.', fu:[0,3]}]}
+ ]},
+{id:'hipona', n:'Hiponatremia grave con riesgo de sobrecorrección', c:'Nefrología',
+ pres:'Varón de 45 años, con consumo crónico de alcohol y desnutrición. Llega con una convulsión. Na 108 mEq/L, K 3,0 mEq/L. La hiponatremia viene de días a semanas.',
+ fu:[['Hiponatremia grave y salino hipertónico (PMC10502587)','https://pmc.ncbi.nlm.nih.gov/articles/PMC10502587/'],['Panel de expertos 2013 y límites de corrección (PMC4206391)','https://pmc.ncbi.nlm.nih.gov/articles/PMC4206391'],['Límites y estrategia de rescate (PMC7015090)','https://pmc.ncbi.nlm.nih.gov/articles/PMC7015090'],['Tabla de tratamiento y desmopresina (copia de Verbalis y Sterns)','https://www.scribd.com/document/558161596/1-4904818897884021260'],['EMCrit: sobrecorrección y desmopresina','https://emcrit.org/?p=16837'],['Salino hipertónico y desmopresina, Am J Kidney Dis 2013','https://themednet.org/publications/hypertonic-saline-and-desmopressin-a-simple-strategy-for-safe-correction-of-severe-hyponatremia'],['Riesgo alto de desmielinización (guía de estudio)','https://open-exam-prep.com/study-guides/abim-critical-care/electrolyte-acid-base-endocrine-emergencies/severe-dysnatremias-management']],
+ pasos:[
+ {q:'¿Cómo tratas la convulsión por hiponatremia?', o:[
+  {t:'Salino hipertónico al 3 %: 100 mL IV en bolo (10 min), repetible hasta 3 veces en la primera hora, para subir el sodio 4 a 6 mEq/L', ok:1, fb:'La hiponatremia con convulsión es una emergencia. El bolo de 100 mL de NaCl 3 % busca subir el sodio 4 a 6 mEq/L para bajar la presión intracraneal.', fu:[0,3]},
+  {t:'Restricción hídrica sola', fb:'La restricción hídrica es la primera línea en SIAD (secreción inapropiada de hormona antidiurética) cuando no hay síntomas graves. Con una convulsión se necesita salino hipertónico.', fu:[0]},
+  {t:'Suero fisiológico 0,9 % rápido hasta llegar a Na 135', fb:'Con síntomas graves se usa el bolo de salino 3 % para subir 4 a 6 mEq/L. Normalizar rápido expone a la desmielinización osmótica.', fu:[0,1]}]},
+ {q:'La convulsión cedió y el Na subió a 113 mEq/L. ¿Qué tope de corrección fijas para las próximas 24 h?', o:[
+  {t:'No más de 8 mEq/L en 24 h, con meta de 4 a 6, por riesgo alto de desmielinización osmótica', ok:1, fb:'Alcoholismo, desnutrición, hipopotasemia y sodio muy bajo son factores de riesgo alto. En ese caso el tope es 8 mEq/L en 24 h.', fu:[1,2,6]},
+  {t:'Hasta 12 mEq/L, como en cualquier hiponatremia crónica', fb:'Los 10 a 12 mEq/L en 24 h son el límite para riesgo estándar. Con riesgo alto, el límite es 8.', fu:[1,2]},
+  {t:'Normalizarlo a 135 en 12 h', fb:'Excede cualquiera de los límites aceptados: 8 mEq/L en 24 h en riesgo alto, 10 a 12 en riesgo estándar.', fu:[1,2]}]},
+ {q:'Seis horas después tuvo diuresis acuosa de 6 L. El Na está en 121 mEq/L (subió 13 desde el ingreso). ¿Qué haces?', o:[
+  {t:'Desmopresina parenteral cada 6 a 8 h con dextrosa al 5 %, para volver a bajar el sodio, y controles seriados de Na', ok:1, fb:'Es la estrategia de rescate cuando el sodio ya se pasó del límite. En una serie, desmopresina con dextrosa dejó el sodio 4 a 9 mEq/L por debajo del pico. Las dosis descritas van de 1 a 4 µg IV o SC cada 6 a 8 h según el esquema.', fu:[2,4,5,3]},
+  {t:'Observar y repetir el sodio mañana, porque está asintomático', fb:'El riesgo está en la sobrecorrección, no solo en los síntomas de hoy. Cuando se pasa el límite, está descrito volver a bajar el sodio con desmopresina y dextrosa.', fu:[2,4]},
+  {t:'Tolvaptán para controlar el sodio', fb:'Los vaptanes pueden causar excreción incontrolada de agua y más sobrecorrección. No se recomiendan en esta situación.', fu:[4]}]}
+ ]},
+{id:'anafi', n:'Anafilaxia con urticaria y estridor', c:'Dermatología',
+ pres:'Mujer de 30 años que, minutos después de una dosis de amoxicilina IV en emergencia, presenta ronchas generalizadas, estridor y PA 80/45.',
+ fu:[['WAO: guía de anafilaxia 2020 (afiche)','https://www.worldallergy.org/media/PDFs/Anaphylaxis_Guidelines_Poster.pdf'],['Cleveland Clinic J Med 2022: parámetro de práctica','https://www.ccjm.org/content/89/2/106'],['Resumen del parámetro AAAAI/ACAAI','https://hcn.health/?p=5619'],['Manual of Medicine: epinefrina en anafilaxia','https://manualofmedicine.com/?p=228'],['MIMS: manejo de anafilaxia','https://www.mims.com/malaysia/disease/anaphylaxis-pediatric/management'],['Wilderness Medical Society, tratamiento de anafilaxia','https://guidelinecentral.com/guideline/1675756']],
+ pasos:[
+ {q:'¿Cuál es tu primer medicamento?', o:[
+  {t:'Epinefrina IM en la cara anterolateral del muslo: 0,01 mg/kg de la solución 1 mg/mL, máximo 0,5 mg en adultos', ok:1, fb:'Es el tratamiento de primera línea y no debe retrasarse: la demora se asocia a más morbilidad y mortalidad. Se anota la hora de la dosis.', fu:[0,1]},
+  {t:'Antihistamínico IV primero y epinefrina si no mejora', fb:'Los antihistamínicos y corticoides son de segunda línea y no reemplazan a la epinefrina en los síntomas cardiovasculares.', fu:[2,1]},
+  {t:'Epinefrina IV en bolo directo', fb:'Los efectos adversos graves ocurren sobre todo con bolos IV rápidos o dosis equivocadas. La vía estándar es IM en el muslo.', fu:[3,0]},
+  {t:'Hidrocortisona IV y observar', fb:'Los corticoides son de segunda línea y no reemplazan a la epinefrina.', fu:[2,1]}]},
+ {q:'A los 5 minutos persisten el estridor y la hipotensión. ¿Qué haces?', o:[
+  {t:'Repetir epinefrina IM (cada 5 a 15 min si hace falta), acostarla de espaldas o en posición de comodidad, y dar 1 a 2 L de solución isotónica', ok:1, fb:'La mayoría responde a 1 o 2 dosis. Si no, se repite cada 5 a 15 minutos. Los líquidos isotónicos están indicados cuando hay hipotensión.', fu:[0,4]},
+  {t:'Esperar 30 minutos a ver si responde al antihistamínico', fb:'La epinefrina se repite cada 5 a 15 minutos si hace falta. Los antihistamínicos no sustituyen esa dosis.', fu:[0,2]}]},
+ {q:'Ya se estabilizó. ¿Qué indicas antes del alta?', o:[
+  {t:'Receta de epinefrina autoinyectable, educación sobre el desencadenante y seguimiento con alergología', ok:1, fb:'Antes del alta se da la prescripción de epinefrina y se indica seguimiento para pruebas de alergia.', fu:[5,1]},
+  {t:'Alta sin más indicaciones, porque ya pasó', fb:'Antes del alta el paciente debe recibir receta de epinefrina y control con alergología.', fu:[5]}]}
+ ]}
+];
+function vCaso(){
+  const k = CASOS.find(x => x.id === V.caso), i = V.paso || 0, fin = i >= k.pasos.length;
+  const back = '<div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>';
+  const src = idx => linksHtml(idx.map(j => k.fu[j]));
+  const head = '<h2 class="cl-h">'+esc(k.n)+'</h2><p class="src">'+esc(k.c)+(fin ? '' : ' · decisión '+(i+1)+' de '+k.pasos.length)+'</p>';
+  if(fin){
+    return '<div class="stack">'+back+head+'<div class="panel cl-res"><div class="cl-big">Caso terminado</div><p>Decisiones equivocadas: '+(V.err||0)+'.</p><p class="src" style="margin:0">Es una simulación para estudiar con guías internacionales. En tu hospital manda el protocolo local.</p></div>'+
+      '<button class="btn act" data-act="clcaso" data-id="'+k.id+'"><b>Repetir el caso</b></button><p class="src"><b>Todas las fuentes de este caso:</b></p>'+linksHtml(k.fu)+'</div>';
+  }
+  const p = k.pasos[i], s = V.sel;
+  if(!V.ord || V.ordP !== i){ V.ord = p.o.map((_, j) => j); for(let a = V.ord.length - 1; a > 0; a--){ const b = Math.floor(Math.random() * (a + 1)); [V.ord[a], V.ord[b]] = [V.ord[b], V.ord[a]]; } V.ordP = i; }
+  const ops = V.ord.map(j => { const o = p.o[j]; return '<button class="btn act cl-op'+(s === j ? (o.ok ? ' cl-ok' : ' cl-no') : '')+'" data-act="clop" data-i="'+j+'"'+(s != null ? ' disabled' : '')+'><b>'+esc(o.t)+'</b></button>'; }).join('');
+  let fb = '';
+  if(s != null){
+    const o = p.o[s];
+    fb = '<div class="panel cl-fb '+(o.ok ? 'cl-fbok' : 'cl-fbno')+'"><p style="margin:0"><b>'+(o.ok ? 'Bien.' : 'No es la mejor decisión.')+'</b> '+esc(o.fb)+'</p>'+src(o.fu)+'</div>'+
+      '<button class="btn act" data-act="'+(o.ok ? 'clnext' : 'clretry')+'"><b>'+(o.ok ? (i+1 >= k.pasos.length ? 'Terminar caso' : 'Siguiente decisión') : 'Volver a decidir')+'</b></button>';
+  }
+  return '<div class="stack">'+back+head+(i === 0 ? '<div class="panel cl-ctx">'+esc(k.pres)+'</div>' : '')+'<p class="label">'+esc(p.q)+'</p><div class="stack" style="gap:10px">'+ops+'</div>'+fb+'</div>';
+}
 function vClin(){
   if(V.farm) return vFarm();
+  if(V.caso) return vCaso();
   const c = CALCS.find(x => x.id === V.calc);
   if(!c){
     return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button></div>'+
       '<header><h2 class="cl-h">PRÁCTICA CLÍNICA</h2><p class="sub">Herramientas para la guardia y las rotaciones. Todo esto vive aparte: no cambia tu progreso, tus puntos ni las preguntas del examen.</p></header>'+
       '<div><p class="label">FICHAS</p><button class="btn act" data-act="clfarm"><b>FICHAS DE FÁRMACOS</b><span>'+FARM.length+' fichas: dosis, ajuste renal, interacciones y qué vigilar</span></button></div>'+
+      '<div><p class="label">CASOS DE GUARDIA</p><div class="cl-list">'+CASOS.map(x => '<button class="btn act" data-act="clcaso" data-id="'+x.id+'"><b>'+esc(x.n)+'</b><span>'+esc(x.c)+' · '+x.pasos.length+' decisiones</span></button>').join('')+'</div></div>'+
       clGroups().map(g => '<div><p class="label">'+esc(g)+'</p><div class="cl-list">'+CALCS.filter(x => x.g === g).map(x => '<button class="btn act" data-act="clcalc" data-id="'+x.id+'"><b>'+esc(x.n)+'</b></button>').join('')+'</div></div>').join('')+
       '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>'+
       '<p class="src">Las calculadoras ayudan a pensar, no reemplazan al criterio clínico ni a la guía de tu hospital. Cada una indica su referencia.</p></div>';
@@ -1993,6 +2098,10 @@ const A = {
   tarjeta: () => go({name:'tarjeta'}),
   clin: () => go({name:'clin', calc:null}),
   clfarm: () => go({name:'clin', farm:true}),
+  clcaso: d => go({name:'clin', caso:d.id, paso:0, sel:null, err:0}),
+  clop: d => { const k = CASOS.find(x => x.id === V.caso), o = k.pasos[V.paso].o[+d.i]; if(V.sel != null) return; V.sel = +d.i; if(!o.ok) V.err = (V.err||0)+1; render(); },
+  clnext: () => { V.paso++; V.sel = null; render(); window.scrollTo(0,0); },
+  clretry: () => { V.sel = null; render(); },
   clcalc: d => go({name:'clin', calc:d.id}),
   sharecard: async () => {
     if(!V.cardUrl){ toast('Espera un momento, se está armando'); return; }
