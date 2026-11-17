@@ -360,7 +360,7 @@
    "f": "¿Qué pasos sigue el algoritmo en un paciente con HDA estable?*",
    "b": "Reanimación, estratificar con Glasgow-Blatchford, transfusión restrictiva (Hb <7), endoscopía antes de 24 h. Tras terapia endoscópica de úlcera de alto riesgo: IBP 80 mg en bolo y luego 8 mg/h por 72 h.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 15",
-   "nota": "Corregido: el PPT pone el bolo y la infusión de IBP como paso inicial; corresponden a después del tratamiento endoscópico en úlcera de alto riesgo."
+   "nota": "Corregido: el PPT pone el bolo y la infusión de IBP como paso inicial; el esquema de 72 h corresponde a después del tratamiento endoscópico en úlcera de alto riesgo. Puede darse IBP IV antes, pero sin retrasar la endoscopía."
   },
   {
    "id": "g-hd-c-4",
@@ -383,9 +383,9 @@
    "area": "gastro",
    "tema": "Hemorragia digestiva alta y baja",
    "f": "¿Cómo se presenta la colitis isquémica y cómo se estudia?*",
-   "b": "Anciano con dolor abdominal y hematoquecia por flujo mesentérico reducido; compromete sobre todo el colon izquierdo y respeta el recto. Se estudia con colonoscopía (lesión segmentaria) y angio-TC; la angiografía queda para casos seleccionados.",
+   "b": "Anciano con dolor abdominal y hematoquecia por flujo mesentérico reducido; compromete sobre todo el colon izquierdo y respeta el recto. Se sospecha por TC con contraste (engrosamiento de pared) y se confirma con colonoscopía temprana (en 48 h), que muestra lesión segmentaria. Angio-TC o angiografía solo si se sospecha isquemia mesentérica aguda.",
    "fuente": "PPT Hemorragia digestiva alta y baja (sem. 13), lám. 23",
-   "nota": "Corregido: el PPT da la angiografía mesentérica como estudio; el primer estudio es la colonoscopía."
+   "nota": "Corregido: el PPT da la angiografía mesentérica como estudio; las guías (ACG) piden TC con contraste y colonoscopía temprana, y dejan la angiografía para sospecha de isquemia mesentérica."
   },
   {
    "id": "g-hd-c-7",

@@ -375,9 +375,9 @@
    "area": "gastro",
    "tema": "Acalasia (trastornos motores del esófago)",
    "f": "¿Qué opciones de tratamiento tiene la acalasia, de la menos a la más invasiva?*",
-   "b": "Nifedipino o isosorbida (solo temporal, poco eficaces), toxina botulínica 100 UI (ancianos o riesgo quirúrgico alto), dilatación neumática, miotomía de Heller laparoscópica con fundoplicatura parcial, POEM (miotomía endoscópica peroral) y esofagectomía en último caso.",
+   "b": "Nifedipino o isosorbida (solo temporal, poco eficaces), toxina botulínica 100 UI (solo si no es candidato a tratamiento definitivo), dilatación neumática, miotomía de Heller laparoscópica con fundoplicatura parcial y POEM (miotomía endoscópica peroral). En tipos I y II las tres son comparables; en el tipo III se prefiere POEM. Esofagectomía en último caso.",
    "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14",
-   "nota": "Corregido: se añade el POEM, que hoy es opción de primera línea junto con Heller y dilatación."
+   "nota": "Corregido: se añade el POEM, que hoy es opción de primera línea junto con Heller y dilatación (guía ACG 2020)."
   },
   {
    "id": "g-aca-c-7",
