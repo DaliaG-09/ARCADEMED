@@ -2158,9 +2158,104 @@ function vSim(){
   if(o) fb = '<div class="panel cl-fb '+(o.ok ? 'cl-fbok' : 'cl-fbno')+'"><p style="margin:0"><b>'+(o.ok ? 'Bien.' : 'No es la mejor decisión.')+'</b> '+esc(o.fb)+'</p>'+src(o.fu)+'</div><button class="btn act" data-act="'+(o.ok ? 'simnext' : 'simretry')+'"><b>'+(o.ok ? (i + 1 >= k.pasos.length ? 'Terminar consulta' : 'Siguiente decisión') : 'Volver a decidir')+'</b></button>';
   return '<div class="stack">'+back+'<h2 class="cl-h">'+esc(k.n)+'</h2><p class="src">Simulador de consulta (piloto) · decisión '+(i + 1)+' de '+k.pasos.length+'</p>'+simScene(est, cfg.pac, ent)+hud+bubble+'<p class="label">'+esc(p.q)+'</p><div class="stack" style="gap:10px">'+ops+'</div>'+fb+'</div>';
 }
+
+const LIBA = [
+ {id:'h', cat:'Preguntar y revisar', t:'Preguntar por su historia'},
+ {id:'sv', cat:'Preguntar y revisar', t:'Revisar signos vitales'},
+ {id:'hb', cat:'Preguntar y revisar', t:'Ver la hemoglobina'},
+ {id:'vaso', cat:'Indicar', t:'Iniciar octreotide (vasoactivo)'},
+ {id:'abx', cat:'Indicar', t:'Iniciar ceftriaxona 1 g IV cada 24 h'},
+ {id:'cipro', cat:'Indicar', t:'Dar ciprofloxacino oral como antibiótico'},
+ {id:'via', cat:'Indicar', t:'Segunda vía y reposición de volumen prudente'},
+ {id:'pfc', cat:'Indicar', t:'Plasma fresco congelado para corregir el INR'},
+ {id:'trf', cat:'Indicar', t:'Transfundir concentrado de hematíes (meta de Hb 7 a 9)'},
+ {id:'trf10', cat:'Indicar', t:'Transfundir 2 unidades para llevar la Hb a 10 o más'},
+ {id:'stopv', cat:'Indicar', t:'Retirar el vasoactivo'},
+ {id:'bb', cat:'Indicar', t:'Iniciar betabloqueante no selectivo'},
+ {id:'endo', cat:'Pedir', t:'Endoscopia dentro de las primeras 12 h'},
+ {id:'endo_man', cat:'Pedir', t:'Programar la endoscopia para mañana'},
+ {id:'lig', cat:'Pedir', t:'Programar ligaduras endoscópicas repetidas'},
+ {id:'tips', cat:'Pedir', t:'Evaluar TIPS (derivación portosistémica intrahepática transyugular) precoz'},
+ {id:'alta', cat:'Decidir', t:'Dar de alta'}
+];
+function libDo(id){
+  const L = V.lib, H = L.hechas, has = x => H[x] === 'ok';
+  if(L.fin || H[id]) return;
+  const resus = has('vaso') && has('abx') && has('via');
+  let r;
+  switch(id){
+    case 'h': r = {res:'info', fb:'Cirrosis alcohólica conocida (Child-Pugh B). Vómito con sangre y heces negras desde hace 3 horas.'}; break;
+    case 'sv': r = {res:'info', fb: L.evento ? 'PA estable. Hb 6,8 g/dL.' : 'PA 100/60, FC 105. Tiene una vía periférica.'}; break;
+    case 'hb': r = {res:'info', fb: L.evento ? 'Hb 6,8 g/dL (era 8,6 al llegar).' : 'Hb 8,6 g/dL.'}; break;
+    case 'vaso': r = {res:'ok', fb:'Vasoactivo (octreotide, terlipresina o somatostatina) en bolo y luego infusión por 2 a 5 días. Es parte del paquete inicial de las guías.', fu:[1,2]}; break;
+    case 'abx': r = {res:'ok', fb:'Ceftriaxona 1 g IV cada 24 h, máximo 7 días. Es la primera opción en cirrosis avanzada. Puede suspenderse antes si el sangrado cedió y se retiró el vasoactivo.', fu:[3,2]}; break;
+    case 'cipro': r = {res:'no', fb:'La resistencia a quinolonas está muy extendida y la ceftriaxona es el antibiótico profiláctico de elección.', fu:[3]}; break;
+    case 'via': r = {res:'ok', fb:'Segunda vía y reposición prudente son parte del manejo inicial, antes de la endoscopia.', fu:[1,2]}; break;
+    case 'pfc': r = {res:'no', fb:'El tratamiento apunta a bajar la presión portal, no a corregir las alteraciones de la coagulación.', fu:[0]}; break;
+    case 'trf':
+      r = L.evento ? {res:'ok', fb:'Con Hb bajo 7 corresponde transfundir, apuntando a 7 a 9. Es la estrategia restrictiva, salvo sangrado masivo o enfermedad cardiovascular activa.', fu:[0,3]}
+                   : {res:'no', retry:1, fb:'Con Hb de 8,6 no hay indicación de transfundir. La estrategia restrictiva (transfundir cerca de Hb 7, meta entre 7 y 9) se asoció a mayor supervivencia que la liberal en el ensayo de referencia.', fu:[0,3]}; break;
+    case 'trf10': r = {res:'no', fb:'La estrategia liberal tuvo menor supervivencia que la restrictiva en el ensayo de referencia. La meta es 7 a 9.', fu:[3,0]}; break;
+    case 'endo':
+      if(!resus) r = {res:'no', retry:1, fb:'Primero estabiliza: vasoactivo, antibiótico y segunda vía con reposición prudente. La endoscopia se hace en menos de 12 h con el paciente hemodinámicamente estable.', fu:[2,1]};
+      else if(L.evento && !has('trf')) r = {res:'no', retry:1, fb:'Con Hb 6,8 corresponde transfundir antes (meta 7 a 9) y hacer la endoscopia con el paciente estable.', fu:[0,2]};
+      else r = {res:'ok', fb:'Endoscopia en menos de 12 h con el paciente hemodinámicamente estable. Si el origen es variceal, el tratamiento endoscópico es la ligadura. Ligadura hecha, sangrado controlado.', fu:[2,1]}; break;
+    case 'endo_man': r = {res:'no', fb:'La recomendación es dentro de las primeras 12 h desde la llegada.', fu:[2,1]}; break;
+    case 'stopv':
+      r = has('endo') ? {res:'ok', fb:'Con la ligadura hecha y el sangrado controlado se retira el vasoactivo. En total se usa entre 2 y 5 días.', fu:[1,2]}
+                      : {res:'no', retry:1, fb:'Todavía no: el vasoactivo se retira cuando la endoscopia con ligadura ya controló el sangrado.', fu:[1,2]}; break;
+    case 'bb':
+      r = has('stopv') ? {res:'ok', fb:'El betabloqueante se inicia cuando se suspende el vasoactivo. Es no selectivo (propranolol o carvedilol) y en prevención secundaria se considera de elección el carvedilol. Revisa en la ficha cuándo no usarlos.', fu:[1,2,4,5]}
+                       : {res:'no', retry:1, fb:'Todavía no: el betabloqueante se inicia cuando se suspende el vasoactivo.', fu:[1,2]}; break;
+    case 'lig':
+      r = has('endo') ? {res:'ok', fb:'Las ligaduras repetidas se programan junto con el betabloqueante como prevención secundaria.', fu:[1,2]}
+                      : {res:'no', retry:1, fb:'Todavía no: primero la endoscopia con la primera ligadura.', fu:[1,2]}; break;
+    case 'tips': r = {res:'info', fb:'Se considera TIPS precoz, dentro de 72 h y de preferencia en 24 h, si el paciente es de alto riesgo (Child C, o Child B con sangrado activo en la endoscopia), o si el sangrado es refractario o recurrente. No lo cuento como error: depende de si cumple esos criterios.', fu:[5]}; break;
+    case 'alta': {
+      const need = [['vaso','vasoactivo'],['abx','antibiótico'],['via','segunda vía y reposición'],['trf','transfusión'],['endo','endoscopia'],['stopv','retiro del vasoactivo'],['bb','betabloqueante'],['lig','ligaduras repetidas']].filter(x => !has(x[0])).map(x => x[1]);
+      r = need.length ? {res:'no', retry:1, fb:'Todavía no es momento. Falta: '+need.join(', ')+'. Tras el episodio se necesita prevención secundaria: betabloqueante y ligaduras repetidas.', fu:[1,2]}
+                      : {res:'ok', fb:'Sangrado controlado y prevención secundaria indicada: betabloqueante y ligaduras programadas.', fu:[1,2], fin:1};
+      break; }
+  }
+  if(r.res === 'no') L.fall++;
+  if(!r.retry) H[id] = r.res; 
+  if(r.res !== 'info' || !r.retry) { if(!L.orden.includes(id) && !r.retry) L.orden.push(id); }
+  if(r.res === 'ok' && !L.evento && has('vaso') && has('abx') && has('via')) L.evento = true, r.nuevo = true;
+  if(r.fin || L.fall >= 4) L.fin = true;
+  L.ult = r; L.ultId = id;
+}
+function vLib(){
+  const k = CASOS.find(x => x.id === V.scn), cfg = SIMS[k.id], L = V.lib, H = L.hechas, fall = L.fall;
+  const back = '<div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>';
+  const src = idx => linksHtml((idx || []).map(j => k.fu[j]));
+  const r = L.ult;
+  const post = H.endo === 'ok';
+  const est = L.fin ? (fall <= 1 ? 'estable' : 'empeora') : ((r && r.res === 'no') ? 'empeora' : (fall >= 2 ? 'empeora' : (H.bb === 'ok' ? 'estable' : 'llega')));
+  const ent = !!V.enter; V.enter = false;
+  const stab = Math.max(0, 100 - 25 * fall), col = stab > 50 ? '#19d27f' : stab > 25 ? '#ffd93b' : '#e02a1f';
+  const vit = L.evento ? cfg.vit[2] : cfg.vit[0];
+  const habla = post ? cfg.habla[4] : (L.evento ? cfg.habla[2] : cfg.habla[0]);
+  const hud = '<div class="panel stack" style="gap:8px"><div class="row" style="justify-content:space-between;flex-wrap:wrap"><b>'+esc(cfg.pac.nombre)+'</b><span class="src">'+esc(vit)+'</span></div><div><span class="src">Estabilidad del paciente</span><div class="cl-bar"><i style="width:'+stab+'%;background:'+col+'"></i></div></div></div>';
+  if(L.fin){
+    const ok = fall <= 1, hechas = L.orden.map((id, n) => { const a = LIBA.find(x => x.id === id); return '<li>'+esc(a.t)+' '+(H[id] === 'ok' ? '(bien)' : H[id] === 'no' ? '(error)' : '(dato)')+'</li>'; }).join('');
+    const rec = ['Vasoactivo, antibiótico y segunda vía con reposición prudente (el orden entre ellos es libre)','Transfundir solo si la Hb baja de 7, con meta de 7 a 9','Endoscopia en menos de 12 h con el paciente estable, y ligadura si hay várices','Retirar el vasoactivo cuando el sangrado está controlado','Betabloqueante no selectivo y ligaduras repetidas','Alta'].map(x => '<li>'+esc(x)+'</li>').join('');
+    return '<div class="stack">'+back+'<h2 class="cl-h">'+esc(k.n)+'</h2>'+simScene(est, cfg.pac, false)+hud+'<div class="panel cl-res"><div class="cl-big">'+(ok ? 'El paciente salió estable' : 'El paciente se descompensó en la simulación')+'</div><p>Decisiones equivocadas: '+fall+'.</p><p class="src" style="margin:0">Es una simulación para estudiar con guías internacionales. En tu hospital manda el protocolo local.</p></div>'+
+      '<div class="panel"><p class="label">TU ORDEN</p><ol style="margin:0;padding-left:20px">'+hechas+'</ol></div><div class="panel"><p class="label">ORDEN DE LAS GUÍAS PARA ESTE CASO</p><ol style="margin:0;padding-left:20px">'+rec+'</ol></div>'+
+      '<button class="btn act" data-act="cllib" data-id="'+k.id+'"><b>Atender otra vez</b></button><p class="src"><b>Todas las fuentes de este caso:</b></p>'+linksHtml(k.fu)+'</div>';
+  }
+  const bubble = '<div class="panel cl-bub"><p style="margin:0">'+(!L.orden.length && !r ? '<span class="src">'+esc(k.pres)+'</span><br>' : '')+'“'+esc(habla)+'”</p></div>';
+  let fb = '';
+  if(r){
+    const bad = r.res === 'no', inf = r.res === 'info';
+    fb = '<div class="panel cl-fb '+(bad ? 'cl-fbno' : 'cl-fbok')+'"><p style="margin:0"><b>'+(bad ? 'No es el momento o no es la mejor decisión.' : inf ? 'Dato.' : 'Bien.')+'</b> '+esc(r.fb)+'</p>'+(r.fu ? src(r.fu) : '')+'</div>'+(r.nuevo ? '<div class="panel cl-fb"><p style="margin:0"><b>Pasaron 6 horas.</b> PA estable, Hb 6,8 g/dL. El paciente dice que se siente más débil.</p></div>' : '');
+  }
+  const cats = ['Preguntar y revisar','Pedir','Indicar','Decidir'];
+  const menu = cats.map(c => '<p class="label">'+c.toUpperCase()+'</p><div class="stack" style="gap:10px">'+LIBA.filter(a => a.cat === c).map(a => { const st = H[a.id]; return '<button class="btn act cl-op'+(st === 'ok' ? ' cl-ok' : st === 'no' ? ' cl-no' : '')+'" data-act="libdo" data-id="'+a.id+'"'+(st ? ' disabled' : '')+'><b>'+esc(a.t)+'</b></button>'; }).join('')+'</div>').join('');
+  return '<div class="stack">'+back+'<h2 class="cl-h">'+esc(k.n)+'</h2><p class="src">Simulador de consulta (piloto) · modo libre: tú decides el orden</p>'+simScene(est, cfg.pac, ent)+hud+bubble+fb+menu+'</div>';
+}
 function vClin(){
   if(V.farm) return vFarm();
-  if(V.scn) return vSim();
+  if(V.scn) return V.lib ? vLib() : vSim();
   if(V.deb) return vDeb();
   if(V.lec) return vLec();
   if(V.dx) return vDx();
@@ -2175,7 +2270,7 @@ function vClin(){
       '<div><button class="btn act" data-act="cldx"><b>DIAGNÓSTICO DIFERENCIAL POR SÍNTOMA</b><span>'+DX.length+' síntomas: qué dato separa unas causas de otras</span></button></div>'+
       '<div><button class="btn act" data-act="cllec"><b>LECTURA DE DATOS</b><span>'+lecL().length+' ejercicios con valores al azar: gasometría, lesión renal, hepatograma, Child-Pugh</span></button></div>'+
       '<div><p class="label">TU EXAMEN</p><button class="btn act" data-act="cldeb"><b>MAPA DE PUNTOS DÉBILES Y PLAN DIARIO</b><span>Lee tu avance, ordena los temas y reparte las preguntas hasta la fecha del examen</span></button></div>'+
-      '<div><p class="label">SIMULADOR DE CONSULTA (PILOTO)</p><button class="btn act" data-act="clsim" data-id="varices"><b>Atender a Don Pedro</b><span>Un paciente entra al consultorio y tú decides. Hemorragia por várices.</span></button></div>'+
+      '<div><p class="label">SIMULADOR DE CONSULTA (PILOTO)</p><div class="stack" style="gap:10px"><button class="btn act" data-act="clsim" data-id="varices"><b>Atender a Don Pedro: modo guiado</b><span>Te da opciones en cada etapa. Hemorragia por várices.</span></button><button class="btn act" data-act="cllib" data-id="varices"><b>Atender a Don Pedro: modo libre</b><span>Tú eliges qué preguntar, pedir e indicar, y en qué orden.</span></button></div></div>'+
       '<div><p class="label">CASOS DE GUARDIA</p><div class="cl-list">'+CASOS.filter(x => okF(x.c)).map(x => '<button class="btn act" data-act="clcaso" data-id="'+x.id+'"><b>'+esc(x.n)+'</b><span>'+esc(x.c)+' · '+x.pasos.length+' decisiones</span></button>').join('')+'</div></div>'+
       clGroups().map(g => '<div><p class="label">'+esc(g)+'</p><div class="cl-list">'+CALCS.filter(x => x.g === g && okF(calcCur(x.g))).map(x => '<button class="btn act" data-act="clcalc" data-id="'+x.id+'"><b>'+esc(x.n)+'</b></button>').join('')+'</div></div>').join('')+
       (CLIN_NEXT.length ? '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>' : '')+
@@ -2382,6 +2477,8 @@ const A = {
   cldeb: () => go({name:'clin', deb:true}),
   cldebs: () => { const v = (document.getElementById('cldebf') || {}).value || ''; try{ if(v) localStorage.setItem(DEB_KEY, v); else localStorage.removeItem(DEB_KEY); }catch(e){} render(); },
   cldebp: d => { const r = debData().find(x => x.a === d.a && x.t === d.t); if(!r) return; startRound(r.fall.concat(shuffle(r.nuevas)).slice(0, 10), 'practica'); },
+  cllib: d => { go({name:'clin', scn:d.id, lib:{hechas:{}, orden:[], fall:0, evento:false, ult:null, fin:false}, enter:true}); },
+  libdo: d => { libDo(d.id); render(); window.scrollTo(0,0); },
   clsim: d => { go({name:'clin', scn:d.id, paso:0, sel:null, fallos:0, enter:true}); },
   simop: d => { const k = CASOS.find(x => x.id === V.scn), o = k.pasos[V.paso].o[+d.i]; if(V.sel != null) return; V.sel = +d.i; if(!o.ok) V.fallos = (V.fallos||0)+1; render(); },
   simnext: () => { V.paso++; V.sel = null; render(); window.scrollTo(0,0); },
