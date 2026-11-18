@@ -1765,7 +1765,7 @@ const CALCS = [
   }, ref:'Zuberbier, Allergy 2022 (guía EAACI/GA²LEN/EuroGuiDerm/APAAACI); Młynek, Allergy 2008.'}
 ];
 const CALC_FU = {"nacambio": [["Revisión MDCalc: corrección de sodio", "https://mdcalc.scholasticahq.com/article/158150-updated-review-of-sodium-correction-rate-in-hyponatremia-and-hypernatremia"], ["Fórmula Adrogué-Madias", "https://www.evigrade.com/en/calculators/adrogue-madias"], ["WikEM: hiponatremia", "https://wikem.org/wiki/Hyponatremia"]], "naglu": [["Factores 1,6 y 2,4 (Cardioteca)", "https://www.cardioteca.com/calculadoras-cardiologia-clinica/8737-calculadora-sodio-corregido-calcio-corregido-anion-gap-presion-arterial-media.html"]], "aguadef": [["WikEM: hipernatremia", "https://wikem.org/wiki/Hypernatremia"], ["Protocolo de hipernatremia", "https://mediscuss.org/cdss/acute-hypernatraemia"]], "brecha": [["Revisión MDCalc: brecha aniónica", "https://mdcalc.scholasticahq.com/article/154676-updated-review-of-serum-anion-gap"], ["WikEM: brecha aniónica y delta-delta", "https://wikem.org/wiki/Anion_gap"], ["Figge 1998 (resumen)", "https://data.zhenzhi.com/details/1/873802764"]], "cacorr": [["Fórmula de Payne y límites", "https://www.journalmetrics.org/clinical-calculators/corrected-calcium"], ["Calcio corregido (Evigrade)", "https://www.evigrade.com/en/calculators/corrected-calcium"]], "child": [["WikEM: Child-Pugh", "https://wikem.org/wiki/Child-Pugh_score_calculator"]], "meld": [["MELD 3.0 (Univ. de Washington)", "https://www.hepatitisc.uw.edu/page/clinical-calculators/meld"], ["MELD 3.0 (Manual Merck)", "https://www.merckmanuals.com/iframe/manual/medical-calculators/meld3.htm"], ["Fórmulas MELD, MELD-Na y 3.0", "https://casrai.org/guides/meld-score"]], "gbs": [["Radiopaedia: Glasgow-Blatchford", "https://radiopaedia.org/articles/glasgow-blatchford-score-2"], ["ACG hemorragia digestiva alta 2021", "https://pubmed.ncbi.nlm.nih.gov/33929377/"]], "bisap": [["Manual MSD: BISAP", "https://www.msdmanuals.com/iframe/manual/medical-calculators/bisapscore.htm"], ["Wu 2008, Gut", "https://www.qxmd.com/pubmed/18519429"]], "uas7": [["UAS7 y categorías (protocolo)", "https://cdn.clinicaltrials.gov/large-docs/55/NCT04833855/Prot_000.pdf"], ["Bandas del UAS7 (Springer)", "https://link.springer.com/article/10.1007/s40257-017-0331-8"], ["AAD: guía de urticaria", "https://www.aad.org/guidelines/collaborations-urticaria"]]};
-const CLIN_NEXT = ['Lectura de datos'];
+const CLIN_NEXT = ['Mapa de puntos débiles'];
 const clGroups = () => [...new Set(CALCS.map(c => c.g))];
 function clField(c, f){
   const dv = c.def && c.def[f.k] !== undefined ? c.def[f.k] : '';
@@ -1956,8 +1956,113 @@ function vDx(){
     '<div class="panel cl-ctx">Para cada síntoma o hallazgo: qué dato separa unas causas de otras. Todo está tomado de las fuentes que aparecen al final de cada ficha. Es una guía de estudio, no reemplaza el juicio clínico.</div>'+
     cs.map(c => '<div><p class="label">'+esc(c.toUpperCase())+'</p><div class="stack" style="gap:12px">'+DX.filter(x => x.c === c).map(x => '<details class="cl-fa"><summary><b>'+esc(x.n)+'</b></summary><p class="src" style="margin-top:8px">'+esc(x.ctx)+'</p>'+x.r.map(y => '<p><b>'+esc(y[0])+':</b> '+esc(y[1])+'</p>').join('')+linksHtml(x.fu)+'</details>').join('')+'</div></div>').join('')+'</div>';
 }
+
+const lRi = (a, b) => a + Math.floor(Math.random() * (b - a + 1));
+const lR = (a, b) => a + Math.random() * (b - a);
+const lPick = a => a[lRi(0, a.length - 1)];
+const lc = (n, d) => fx(n, d).replace('.', ',');
+const LEC_FU = {
+  abg: [['Interpretación de gasometría arterial (StatPearls)', 'https://dev2.statpearls.com/articlelibrary/viewarticle/17837'], ['Seis pasos para la gasometría (Lippincott Nursing Center)', 'https://nursingcenter.com/clinical-resources/nursing-pocket-cards/arterial-blood-gas'], ['Brecha aniónica (revisión MDCalc)', 'https://mdcalc.scholasticahq.com/article/154676-updated-review-of-serum-anion-gap']],
+  aki: [['KDIGO 2012 de lesión renal aguda: estadios (QxMD)', 'https://qxmd.com/calculate/definition_17/kdigo-aki-staging'], ['Estadios KDIGO (Crit Care Clin 2021)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8157315/table/tbl1'], ['KDIGO 2012, definición y estadios (Kidney Int Suppl)', 'https://qxmd.com/calculate/reference_book_10/kdigo-clinical-practice-guideline-for-acute-kidney-injury?embed=1']],
+  hep: [['Guía ACG sobre lesión hepática por fármacos (resumen MDCalc)', 'https://www.mdcalc.com/guidelines/509/acg/diagnosis-management-idiosyncratic-drug-induced-liver-injury'], ['AASLD 2022: lesión hepática por fármacos (Guideline Central)', 'https://guidelinecentral.com/guideline/1986837']],
+  child: [['Child-Pugh, tabla de puntos (World J Gastroenterol 2014)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC4202351/table/T1'], ['Child-Pugh, tabla (BMC Nephrol 2018)', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5899361/table/Tab1']]
+};
+const LEC = [
+{id:'abg', n:'Gasometría y brecha aniónica', ctx:'Lee el pH, la PaCO2 y el bicarbonato para nombrar el trastorno primario. Rangos normales usados: pH 7,35 a 7,45; PaCO2 35 a 45 mmHg; HCO3 22 a 26 mEq/L; brecha aniónica 8 a 12 mEq/L.',
+  gen(){
+    const lab = {agalto:'Acidosis metabólica con brecha aniónica alta', agnormal:'Acidosis metabólica con brecha aniónica normal', alcmet:'Alcalosis metabólica', acresp:'Acidosis respiratoria', alcresp:'Alcalosis respiratoria'};
+    const cls = (ph, pc, hc, ag) => ph < 7.35 ? (hc < 22 ? (ag > 12 ? 'agalto' : 'agnormal') : pc > 45 ? 'acresp' : '?') : ph > 7.45 ? (hc > 26 ? 'alcmet' : pc < 35 ? 'alcresp' : '?') : '?';
+    for(;;){
+      const t = lPick(Object.keys(lab)), na = lRi(136, 142);
+      let ph, pc, hc, ag = lRi(8, 12);
+      if(t === 'agalto'){ hc = lRi(7, 15); ph = lR(7.12, 7.31); pc = Math.round(1.5 * hc + 8 + lR(-2, 2)); ag = lRi(18, 28); }
+      else if(t === 'agnormal'){ hc = lRi(10, 17); ph = lR(7.20, 7.33); pc = Math.round(1.5 * hc + 8 + lR(-2, 2)); }
+      else if(t === 'alcmet'){ hc = lRi(31, 40); ph = lR(7.47, 7.58); pc = lRi(46, 56); }
+      else if(t === 'acresp'){ hc = lRi(26, 32); ph = lR(7.18, 7.32); pc = lRi(52, 80); }
+      else { hc = lRi(18, 22); ph = lR(7.48, 7.58); pc = lRi(20, 30); }
+      ph = Math.round(ph * 100) / 100;
+      const cl = na - hc - ag;
+      if(cls(ph, pc, hc, ag) !== t) continue;
+      const why = {
+        agalto: 'pH bajo con bicarbonato bajo: acidosis metabólica. Brecha aniónica = Na − Cl − HCO3 = '+na+' − '+cl+' − '+hc+' = '+ag+' (normal 8 a 12), así que la brecha está elevada: hay un ácido que el laboratorio no mide (lactato, cetonas, uremia, tóxicos). La PaCO2 baja es la compensación respiratoria.',
+        agnormal: 'pH bajo con bicarbonato bajo: acidosis metabólica. Brecha aniónica = '+na+' − '+cl+' − '+hc+' = '+ag+', normal. Es una acidosis hiperclorémica: pérdida de bicarbonato (diarrea) o acidosis tubular renal. La PaCO2 baja es la compensación.',
+        alcmet: 'pH alto con bicarbonato alto: alcalosis metabólica. La PaCO2 sube un poco porque el pulmón compensa hipoventilando.',
+        acresp: 'pH bajo con PaCO2 alta: acidosis respiratoria, por hipoventilación. El bicarbonato elevado es la compensación renal.',
+        alcresp: 'pH alto con PaCO2 baja: alcalosis respiratoria, por hiperventilación. El bicarbonato algo bajo es la compensación.'
+      }[t];
+      return {
+        txt: 'Gasometría arterial: pH '+lc(ph, 2)+'; PaCO2 '+pc+' mmHg; HCO3 '+hc+' mEq/L. Química: Na '+na+', Cl '+cl+' mEq/L; albúmina 4,0 g/dL (no hace falta corregir la brecha).',
+        q: '¿Cuál es el trastorno primario?', o: Object.keys(lab).map(k => ({k, t: lab[k], ok: k === t})), why, fu: LEC_FU.abg
+      };
+    }
+  }},
+{id:'aki', n:'Lesión renal aguda: estadio KDIGO', ctx:'KDIGO define la lesión renal aguda (LRA) por el aumento de creatinina y la estadifica de 1 a 3. Aquí se usa solo la creatinina (sin diuresis). Estadio 1: 1,5 a 1,9 veces la basal o aumento de 0,3 mg/dL en 48 h; estadio 2: 2,0 a 2,9 veces; estadio 3: 3 veces o más, creatinina de 4,0 o más, o diálisis.',
+  gen(){
+    const B = lRi(7, 12), c = lRi(0, 3);
+    let C;
+    if(c === 0) C = B + lRi(1, 2);
+    else if(c === 1) C = Math.random() < 0.5 ? Math.round(B * lR(1.55, 1.85)) : B + lRi(3, 4);
+    else if(c === 2) C = Math.round(B * lR(2.05, 2.85));
+    else C = Math.round(B * lR(3.05, 4.2));
+    const st = C * 10 >= B * 30 || C >= 40 ? 3 : C * 10 >= B * 20 ? 2 : (C * 10 >= B * 15 || C - B >= 3) ? 1 : 0;
+    const razon = C / B, aum = (C - B) / 10;
+    const why = 'Cociente: '+lc(razon, 2)+' veces la basal; aumento de '+lc(aum, 1)+' mg/dL en 48 h. ' + ['No cumple: el aumento es menor de 0,3 mg/dL y el cociente menor de 1,5.', 'Estadio 1: 1,5 a 1,9 veces la basal, o un aumento de 0,3 mg/dL o más en 48 h.', 'Estadio 2: 2,0 a 2,9 veces la basal.', 'Estadio 3: 3 veces la basal o más, o creatinina de 4,0 mg/dL o más.'][st];
+    return {
+      txt: 'Hace 48 horas su creatinina era '+lc(B / 10, 1)+' mg/dL. Hoy es '+lc(C / 10, 1)+' mg/dL. No hay datos de diuresis.',
+      q: '¿Qué categoría KDIGO corresponde?', o: [['No cumple criterios de LRA', 0], ['LRA estadio 1', 1], ['LRA estadio 2', 2], ['LRA estadio 3', 3]].map(a => ({t: a[0], ok: a[1] === st})), ord: true, why, fu: LEC_FU.aki
+    };
+  }},
+{id:'hep', n:'Patrón hepático: cociente R', ctx:'El cociente R separa la lesión hepatocelular de la colestásica según qué enzima sube más respecto a su límite superior normal (LSN). Se usa sobre todo en la lesión hepática por fármacos. R = (ALT ÷ LSN de ALT) ÷ (FA ÷ LSN de FA). R de 5 o más: hepatocelular; de 2 a 5: mixto; menor de 2: colestásico.',
+  gen(){
+    for(;;){
+      const t = lPick(['hepatocelular', 'colestásico', 'mixto']);
+      let alt, fa;
+      if(t === 'hepatocelular'){ alt = lRi(200, 1500); fa = lRi(100, 260); }
+      else if(t === 'colestásico'){ alt = lRi(50, 260); fa = lRi(400, 1300); }
+      else { alt = lRi(150, 450); fa = lRi(250, 560); }
+      const R = (alt / 40) / (fa / 120);
+      const cl = R >= 5 ? 'hepatocelular' : R <= 2 ? 'colestásico' : 'mixto';
+      if(cl !== t || Math.abs(R - 5) < 0.6 || Math.abs(R - 2) < 0.3) continue;
+      return {
+        txt: 'Hepatograma: ALT '+alt+' U/L (LSN 40); fosfatasa alcalina (FA) '+fa+' U/L (LSN 120).',
+        q: '¿Qué patrón de lesión es?', o: ['hepatocelular', 'colestásico', 'mixto'].map(k => ({t: 'Patrón ' + k, ok: k === t})), ord: true,
+        why: 'R = ('+alt+' ÷ 40) ÷ ('+fa+' ÷ 120) = '+lc(alt / 40, 1)+' ÷ '+lc(fa / 120, 1)+' = '+lc(R, 1)+'. ' + (t === 'hepatocelular' ? 'R de 5 o más: hepatocelular.' : t === 'colestásico' ? 'R menor de 2: colestásico.' : 'R entre 2 y 5: mixto.'), fu: LEC_FU.hep
+      };
+    }
+  }},
+{id:'child', n:'Child-Pugh desde los datos', ctx:'Suma de 5 variables (1 a 3 puntos cada una) que clasifica la cirrosis: A de 5 a 6 puntos, B de 7 a 9, C de 10 a 15. Sirve para pronóstico y para decidir fármacos o cirugía.',
+  gen(){
+    const p = [0, 0, 0, 0, 0].map(() => lRi(1, 3));
+    const bili = [lR(0.5, 1.8), lR(2.2, 2.8), lR(3.4, 9)][p[0] - 1], alb = [lR(3.6, 4.5), lR(2.9, 3.4), lR(1.8, 2.6)][p[1] - 1], inr = [lR(1.0, 1.6), lR(1.8, 2.2), lR(2.4, 3.2)][p[2] - 1];
+    const asc = ['sin ascitis', 'ascitis leve o controlada con diuréticos', 'ascitis moderada a grave o refractaria'][p[3] - 1], enc = ['sin encefalopatía', 'encefalopatía grado 1 a 2', 'encefalopatía grado 3 a 4'][p[4] - 1];
+    const tot = p.reduce((a, b) => a + b, 0), c = tot <= 6 ? 'A' : tot <= 9 ? 'B' : 'C';
+    return {
+      txt: 'Bilirrubina total '+lc(bili, 1)+' mg/dL; albúmina '+lc(alb, 1)+' g/dL; INR '+lc(inr, 1)+'; '+asc+'; '+enc+'.',
+      q: '¿Qué clase Child-Pugh tiene?', o: ['A', 'B', 'C'].map(k => ({t: 'Child-Pugh ' + k, ok: k === c})), ord: true,
+      why: 'Puntos: bilirrubina '+p[0]+', albúmina '+p[1]+', INR '+p[2]+', ascitis '+p[3]+', encefalopatía '+p[4]+'. Total '+tot+' = clase '+c+' (A 5 a 6, B 7 a 9, C 10 a 15).', fu: LEC_FU.child
+    };
+  }}
+];
+function vLec(){
+  const L = V.lec, back = '<div class="row"><button class="btn small ghost" data-act="'+(L.k ? 'cllecm' : 'clin')+'">‹ '+(L.k ? 'Lectura de datos' : 'Práctica clínica')+'</button></div>';
+  if(!L.k){
+    return '<div class="stack">'+back+'<header><h2 class="cl-h">LECTURA DE DATOS</h2><p class="sub">Valores al azar de laboratorio: tú los interpretas y la app te dice el porqué. Cada ejercicio cita la guía o el criterio que usa. No toca tu progreso.</p></header>'+
+      '<div class="cl-list">'+LEC.map(x => '<button class="btn act" data-act="cllecn" data-k="'+x.id+'"><b>'+esc(x.n)+'</b></button>').join('')+'</div>'+
+      (L.tot ? '<p class="src">Esta sesión: '+L.ok+' aciertos de '+L.tot+'.</p>' : '')+'</div>';
+  }
+  const d = LEC.find(x => x.id === L.k), q = L.q, s = L.sel;
+  const ops = q.o.map((o, j) => '<button class="btn act cl-op'+(s === j ? (o.ok ? ' cl-ok' : ' cl-no') : (s != null && o.ok ? ' cl-ok' : ''))+'" data-act="clleco" data-i="'+j+'"'+(s != null ? ' disabled' : '')+'><b>'+esc(o.t)+'</b></button>').join('');
+  let fb = '';
+  if(s != null){
+    const ok = q.o[s].ok;
+    fb = '<div class="panel cl-fb '+(ok ? 'cl-fbok' : 'cl-fbno')+'"><p style="margin:0"><b>'+(ok ? 'Bien.' : 'No era esa.')+'</b> '+esc(q.why)+'</p>'+linksHtml(q.fu)+'</div>'+
+      '<button class="btn act" data-act="cllecn" data-k="'+d.id+'"><b>Otro caso</b></button><p class="src">Esta sesión: '+L.ok+' aciertos de '+L.tot+'.</p>';
+  }
+  return '<div class="stack">'+back+'<h2 class="cl-h">'+esc(d.n)+'</h2><div class="panel cl-ctx"><b>Qué es:</b> '+esc(d.ctx)+'</div><div class="panel"><p style="margin:0">'+esc(q.txt)+'</p></div><p class="label">'+esc(q.q)+'</p><div class="stack" style="gap:10px">'+ops+'</div>'+fb+'</div>';
+}
 function vClin(){
   if(V.farm) return vFarm();
+  if(V.lec) return vLec();
   if(V.dx) return vDx();
   if(V.err) return vErr();
   if(V.caso) return vCaso();
@@ -1968,6 +2073,7 @@ function vClin(){
       '<div><p class="label">FICHAS</p><button class="btn act" data-act="clfarm"><b>FICHAS DE FÁRMACOS</b><span>'+FARM.length+' fichas: dosis, ajuste renal, interacciones y qué vigilar</span></button></div>'+
       '<div><p class="label">REPASO RÁPIDO</p><button class="btn act" data-act="clerr"><b>ERRORES QUE NO SE PUEDEN COMETER</b><span>'+ERRS.length+' errores de guardia, con qué hacer y la fuente</span></button></div>'+
       '<div><button class="btn act" data-act="cldx"><b>DIAGNÓSTICO DIFERENCIAL POR SÍNTOMA</b><span>'+DX.length+' síntomas: qué dato separa unas causas de otras</span></button></div>'+
+      '<div><button class="btn act" data-act="cllec"><b>LECTURA DE DATOS</b><span>'+LEC.length+' ejercicios con valores al azar: gasometría, lesión renal, hepatograma, Child-Pugh</span></button></div>'+
       '<div><p class="label">CASOS DE GUARDIA</p><div class="cl-list">'+CASOS.map(x => '<button class="btn act" data-act="clcaso" data-id="'+x.id+'"><b>'+esc(x.n)+'</b><span>'+esc(x.c)+' · '+x.pasos.length+' decisiones</span></button>').join('')+'</div></div>'+
       clGroups().map(g => '<div><p class="label">'+esc(g)+'</p><div class="cl-list">'+CALCS.filter(x => x.g === g).map(x => '<button class="btn act" data-act="clcalc" data-id="'+x.id+'"><b>'+esc(x.n)+'</b></button>').join('')+'</div></div>').join('')+
       '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>'+
@@ -2170,6 +2276,10 @@ const A = {
   clin: () => go({name:'clin', calc:null}),
   clfarm: () => go({name:'clin', farm:true}),
   cldx: () => go({name:'clin', dx:true}),
+  cllec: () => go({name:'clin', lec:{ok:0, tot:0}}),
+  cllecm: () => { V.lec = {ok:V.lec.ok, tot:V.lec.tot}; render(); window.scrollTo(0,0); },
+  cllecn: d => { const g = LEC.find(x => x.id === d.k).gen(); if(!g.ord){ for(let a = g.o.length - 1; a > 0; a--){ const b = Math.floor(Math.random() * (a + 1)); [g.o[a], g.o[b]] = [g.o[b], g.o[a]]; } } V.lec = {k:d.k, q:g, sel:null, ok:V.lec.ok, tot:V.lec.tot}; render(); window.scrollTo(0,0); },
+  clleco: d => { if(V.lec.sel != null) return; V.lec.sel = +d.i; V.lec.tot++; if(V.lec.q.o[+d.i].ok) V.lec.ok++; render(); },
   clerr: () => go({name:'clin', err:true}),
   clcaso: d => go({name:'clin', caso:d.id, paso:0, sel:null, fallos:0}),
   clop: d => { const k = CASOS.find(x => x.id === V.caso), o = k.pasos[V.paso].o[+d.i]; if(V.sel != null) return; V.sel = +d.i; if(!o.ok) V.fallos = (V.fallos||0)+1; render(); },
