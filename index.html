@@ -485,6 +485,14 @@ select.field{appearance:auto}
 .cl-op:disabled:not(.cl-ok):not(.cl-no){opacity:.55}
 .cl-ul{margin:8px 0 0;padding-left:20px;display:grid;gap:4px}
 .cl-fb{font-size:14px;line-height:1.5}
+.cl-scn{width:100%;max-width:520px;height:auto;display:block;margin:0 auto;border:3px solid #14110f;border-radius:14px;background:#8FD8FF;box-shadow:4px 4px 0 #14110f}
+.cl-bar{height:14px;border:3px solid #14110f;border-radius:8px;background:#fff;overflow:hidden;margin-top:4px}
+.cl-bar i{display:block;height:100%;transition:width .5s}
+.cl-bub{border-radius:14px;font-size:15px;line-height:1.5}
+.cl-pin{animation:clpin .9s ease-out both}
+.cl-br{transform-box:fill-box;transform-origin:50% 100%;animation:clbr 3.2s ease-in-out infinite}
+@keyframes clpin{from{transform:translateX(150px);opacity:0}to{transform:none;opacity:1}}
+@keyframes clbr{0%,100%{transform:scale(1)}50%{transform:scale(1,1.018)}}
 .cl-fbok{background:#d4ffe0}
 .cl-fbno{background:#ffe0ea}
 .cl-warn2{background:#ffb3c8;border:2px solid var(--ink);border-radius:10px;padding:8px 10px}
@@ -2109,8 +2117,50 @@ function vDeb(){
     '<p class="label">TEMAS POR PRIORIDAD</p><p class="src" style="margin:0">Prioridad = 2 por cada pregunta fallada + 1 por cada pregunta sin ver. Una pregunta fallada deja de contar cuando la aciertas 2 veces seguidas.</p>'+
     (rows || '<div class="panel"><p style="margin:0">No queda nada pendiente. Todo está visto y dominado.</p></div>')+'</div>';
 }
+
+const SIMS = {
+  varices: {
+    pac: {nombre:'Don Pedro, 58 años', pelo:'#C9CCD1', camisa:'#4F8EF7'},
+    habla: ['Doctor, vomité sangre y mis heces están negras desde hace 3 horas. Tengo cirrosis.', null, 'Me siento más débil.', null, 'Ya no vomito sangre.'],
+    vit: ['PA 100/60 · FC 105 · Hb 8,6 g/dL', null, 'PA estable · Hb 6,8 g/dL', null, null]
+  }
+};
+function simPat(est, pac){
+  const T = {llega:['#EBC572', '#E8C070', '#E3B87A'], empeora:['#E0D6B2', '#DCD1AE', '#D6CBA6'], estable:['#F2C69C', '#EFC095', '#E9B98A']}[est], K = '#14110f';
+  let cara;
+  if(est === 'llega') cara = '<ellipse cx="80" cy="106" rx="9" ry="10" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><ellipse cx="120" cy="106" rx="9" ry="10" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><circle cx="81" cy="109" r="4" fill="'+K+'"/><circle cx="119" cy="109" r="4" fill="'+K+'"/><path d="M66 92L92 83M134 92L108 83" stroke="'+K+'" stroke-width="4" stroke-linecap="round" fill="none"/><path d="M88 150Q100 143 112 150" stroke="'+K+'" stroke-width="3.5" stroke-linecap="round" fill="none"/>';
+  else if(est === 'empeora') cara = '<path d="M68 108Q80 99 92 108M108 108Q120 99 132 108" stroke="'+K+'" stroke-width="3.5" stroke-linecap="round" fill="none"/><path d="M64 88L92 78M136 88L108 78" stroke="'+K+'" stroke-width="4" stroke-linecap="round" fill="none"/><path d="M88 150Q100 142 112 150Q100 160 88 150Z" fill="#8C2B2B" stroke="'+K+'" stroke-width="2.5" stroke-linejoin="round"/><path d="M158 64C153 74 153 80 158 84C163 80 163 74 158 64ZM166 96C162 104 162 109 166 112C170 109 170 104 166 96ZM44 66C40 74 40 79 44 82C48 79 48 74 44 66Z" fill="#7FD3F7" stroke="'+K+'" stroke-width="2.5" stroke-linejoin="round"/>';
+  else cara = '<ellipse cx="80" cy="106" rx="9" ry="10" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><ellipse cx="120" cy="106" rx="9" ry="10" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><circle cx="82" cy="106" r="4" fill="'+K+'"/><circle cx="118" cy="106" r="4" fill="'+K+'"/><path d="M66 89L92 86M134 89L108 86" stroke="'+K+'" stroke-width="4" stroke-linecap="round" fill="none"/><path d="M84 142Q100 156 116 142" stroke="'+K+'" stroke-width="3.5" stroke-linecap="round" fill="none"/><circle cx="68" cy="126" r="7" fill="#FF8FB1" opacity=".7"/><circle cx="132" cy="126" r="7" fill="#FF8FB1" opacity=".7"/>';
+  return '<g data-est="'+est+'"><path d="M20 250C20 205 60 182 100 182C140 182 180 205 180 250Z" fill="'+pac.camisa+'" stroke="'+K+'" stroke-width="3" stroke-linejoin="round"/><path d="M78 184L100 218L122 184Z" fill="#fff" stroke="'+K+'" stroke-width="3" stroke-linejoin="round"/><rect x="82" y="156" width="36" height="30" rx="6" fill="'+T[2]+'" stroke="'+K+'" stroke-width="3"/><circle cx="50" cy="112" r="11" fill="'+T[1]+'" stroke="'+K+'" stroke-width="3"/><circle cx="150" cy="112" r="11" fill="'+T[1]+'" stroke="'+K+'" stroke-width="3"/><ellipse cx="100" cy="108" rx="50" ry="58" fill="'+T[0]+'" stroke="'+K+'" stroke-width="3"/><path d="M51 94C44 42 156 42 149 94C136 70 64 70 51 94Z" fill="'+pac.pelo+'" stroke="'+K+'" stroke-width="3" stroke-linejoin="round"/>'+cara+'<path d="M100 110L95 127L105 127" stroke="'+K+'" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M80 134Q100 124 120 134Q100 140 80 134Z" fill="#9A9DA3" stroke="'+K+'" stroke-width="2.5" stroke-linejoin="round"/></g>';
+}
+function simScene(est, pac, ent){
+  const K = '#14110f';
+  return '<svg class="cl-scn" viewBox="0 0 400 250" role="img" aria-label="Consultorio con el paciente sentado frente al escritorio"><rect width="400" height="250" fill="#8FD8FF"/><rect y="170" width="400" height="80" fill="#FFB86B"/><path d="M0 170H400" stroke="'+K+'" stroke-width="3"/><rect x="24" y="30" width="90" height="80" rx="6" fill="#FFF4B0" stroke="'+K+'" stroke-width="3"/><path d="M69 30V110M24 70H114" stroke="'+K+'" stroke-width="3"/><circle cx="92" cy="52" r="12" fill="#FFD93B" stroke="'+K+'" stroke-width="2.5"/><rect x="300" y="36" width="64" height="64" rx="6" fill="#fff" stroke="'+K+'" stroke-width="3"/><path d="M332 48V88M312 68H352" stroke="#E02A1F" stroke-width="10"/><g class="'+(ent ? 'cl-pin' : '')+'"><g transform="translate(120 16) scale(.82)"><g class="cl-br">'+simPat(est, pac)+'</g></g></g><rect x="0" y="196" width="400" height="54" fill="#C8935A" stroke="'+K+'" stroke-width="3"/><rect x="30" y="206" width="70" height="12" rx="3" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><path d="M300 206q14-26 30 0" stroke="'+K+'" stroke-width="3" fill="none"/><circle cx="300" cy="208" r="5" fill="#FF5FA2" stroke="'+K+'" stroke-width="2"/><circle cx="330" cy="208" r="5" fill="#FF5FA2" stroke="'+K+'" stroke-width="2"/></svg>';
+}
+function vSim(){
+  const k = CASOS.find(x => x.id === V.scn), cfg = SIMS[k.id], i = V.paso || 0, fin = i >= k.pasos.length, fall = V.fallos || 0;
+  const back = '<div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>';
+  const src = idx => linksHtml(idx.map(j => k.fu[j]));
+  const p = fin ? null : k.pasos[i], s = V.sel, o = (p && s != null) ? p.o[s] : null;
+  const est = fin ? (fall <= 1 ? 'estable' : 'empeora') : (o ? (o.ok ? (i + 1 >= k.pasos.length ? 'estable' : 'llega') : 'empeora') : (fall >= 2 ? 'empeora' : 'llega'));
+  const ent = !!V.enter; V.enter = false;
+  const stab = Math.max(0, 100 - 25 * fall), col = stab > 50 ? '#19d27f' : stab > 25 ? '#ffd93b' : '#e02a1f';
+  let vit = ''; for(let j = 0; j <= Math.min(i, cfg.vit.length - 1); j++) if(cfg.vit[j]) vit = cfg.vit[j];
+  let habla = ''; for(let j = Math.min(i, cfg.habla.length - 1); j >= 0; j--) if(cfg.habla[j]){ habla = cfg.habla[j]; break; }
+  const hud = '<div class="panel stack" style="gap:8px"><div class="row" style="justify-content:space-between;flex-wrap:wrap"><b>'+esc(cfg.pac.nombre)+'</b><span class="src">'+esc(vit)+'</span></div><div><span class="src">Estabilidad del paciente</span><div class="cl-bar"><i style="width:'+stab+'%;background:'+col+'"></i></div></div></div>';
+  const bubble = fin ? '' : '<div class="panel cl-bub"><p style="margin:0">'+(i === 0 ? '<span class="src">'+esc(k.pres)+'</span><br>' : '')+(habla ? '“'+esc(habla)+'”' : '')+'</p></div>';
+  if(fin){
+    return '<div class="stack">'+back+'<h2 class="cl-h">'+esc(k.n)+'</h2>'+simScene(est, cfg.pac, false)+hud+'<div class="panel cl-res"><div class="cl-big">'+(fall <= 1 ? 'El paciente salió estable' : 'El paciente se descompensó en la simulación')+'</div><p>Decisiones equivocadas: '+fall+'.</p><p class="src" style="margin:0">Es una simulación para estudiar con guías internacionales. En tu hospital manda el protocolo local.</p></div><button class="btn act" data-act="clsim" data-id="'+k.id+'"><b>Atender otra vez</b></button><p class="src"><b>Todas las fuentes de este caso:</b></p>'+linksHtml(k.fu)+'</div>';
+  }
+  if(!V.ord || V.ordP !== i){ V.ord = p.o.map((_, j) => j); for(let a = V.ord.length - 1; a > 0; a--){ const b = Math.floor(Math.random() * (a + 1)); [V.ord[a], V.ord[b]] = [V.ord[b], V.ord[a]]; } V.ordP = i; }
+  const ops = V.ord.map(j => { const x = p.o[j]; return '<button class="btn act cl-op'+(s === j ? (x.ok ? ' cl-ok' : ' cl-no') : '')+'" data-act="simop" data-i="'+j+'"'+(s != null ? ' disabled' : '')+'><b>'+esc(x.t)+'</b></button>'; }).join('');
+  let fb = '';
+  if(o) fb = '<div class="panel cl-fb '+(o.ok ? 'cl-fbok' : 'cl-fbno')+'"><p style="margin:0"><b>'+(o.ok ? 'Bien.' : 'No es la mejor decisión.')+'</b> '+esc(o.fb)+'</p>'+src(o.fu)+'</div><button class="btn act" data-act="'+(o.ok ? 'simnext' : 'simretry')+'"><b>'+(o.ok ? (i + 1 >= k.pasos.length ? 'Terminar consulta' : 'Siguiente decisión') : 'Volver a decidir')+'</b></button>';
+  return '<div class="stack">'+back+'<h2 class="cl-h">'+esc(k.n)+'</h2><p class="src">Simulador de consulta (piloto) · decisión '+(i + 1)+' de '+k.pasos.length+'</p>'+simScene(est, cfg.pac, ent)+hud+bubble+'<p class="label">'+esc(p.q)+'</p><div class="stack" style="gap:10px">'+ops+'</div>'+fb+'</div>';
+}
 function vClin(){
   if(V.farm) return vFarm();
+  if(V.scn) return vSim();
   if(V.deb) return vDeb();
   if(V.lec) return vLec();
   if(V.dx) return vDx();
@@ -2125,6 +2175,7 @@ function vClin(){
       '<div><button class="btn act" data-act="cldx"><b>DIAGNÓSTICO DIFERENCIAL POR SÍNTOMA</b><span>'+DX.length+' síntomas: qué dato separa unas causas de otras</span></button></div>'+
       '<div><button class="btn act" data-act="cllec"><b>LECTURA DE DATOS</b><span>'+lecL().length+' ejercicios con valores al azar: gasometría, lesión renal, hepatograma, Child-Pugh</span></button></div>'+
       '<div><p class="label">TU EXAMEN</p><button class="btn act" data-act="cldeb"><b>MAPA DE PUNTOS DÉBILES Y PLAN DIARIO</b><span>Lee tu avance, ordena los temas y reparte las preguntas hasta la fecha del examen</span></button></div>'+
+      '<div><p class="label">SIMULADOR DE CONSULTA (PILOTO)</p><button class="btn act" data-act="clsim" data-id="varices"><b>Atender a Don Pedro</b><span>Un paciente entra al consultorio y tú decides. Hemorragia por várices.</span></button></div>'+
       '<div><p class="label">CASOS DE GUARDIA</p><div class="cl-list">'+CASOS.filter(x => okF(x.c)).map(x => '<button class="btn act" data-act="clcaso" data-id="'+x.id+'"><b>'+esc(x.n)+'</b><span>'+esc(x.c)+' · '+x.pasos.length+' decisiones</span></button>').join('')+'</div></div>'+
       clGroups().map(g => '<div><p class="label">'+esc(g)+'</p><div class="cl-list">'+CALCS.filter(x => x.g === g && okF(calcCur(x.g))).map(x => '<button class="btn act" data-act="clcalc" data-id="'+x.id+'"><b>'+esc(x.n)+'</b></button>').join('')+'</div></div>').join('')+
       (CLIN_NEXT.length ? '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>' : '')+
@@ -2331,6 +2382,10 @@ const A = {
   cldeb: () => go({name:'clin', deb:true}),
   cldebs: () => { const v = (document.getElementById('cldebf') || {}).value || ''; try{ if(v) localStorage.setItem(DEB_KEY, v); else localStorage.removeItem(DEB_KEY); }catch(e){} render(); },
   cldebp: d => { const r = debData().find(x => x.a === d.a && x.t === d.t); if(!r) return; startRound(r.fall.concat(shuffle(r.nuevas)).slice(0, 10), 'practica'); },
+  clsim: d => { go({name:'clin', scn:d.id, paso:0, sel:null, fallos:0, enter:true}); },
+  simop: d => { const k = CASOS.find(x => x.id === V.scn), o = k.pasos[V.paso].o[+d.i]; if(V.sel != null) return; V.sel = +d.i; if(!o.ok) V.fallos = (V.fallos||0)+1; render(); },
+  simnext: () => { V.paso++; V.sel = null; render(); window.scrollTo(0,0); },
+  simretry: () => { V.sel = null; render(); },
   cllec: () => go({name:'clin', lec:{ok:0, tot:0}}),
   cllecm: () => { V.lec = {ok:V.lec.ok, tot:V.lec.tot}; render(); window.scrollTo(0,0); },
   cllecn: d => { const g = LEC.find(x => x.id === d.k).gen(); if(!g.ord){ for(let a = g.o.length - 1; a > 0; a--){ const b = Math.floor(Math.random() * (a + 1)); [g.o[a], g.o[b]] = [g.o[b], g.o[a]]; } } V.lec = {k:d.k, q:g, sel:null, ok:V.lec.ok, tot:V.lec.tot}; render(); window.scrollTo(0,0); },
