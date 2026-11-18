@@ -1889,6 +1889,33 @@ const CALC_FU = {"nacambio": [["Revisión MDCalc: corrección de sodio", "https:
 const CLIN_NEXT = [];
 const CLCUR = ['Nefrología', 'Gastroenterología', 'Dermatología'];
 let CLCF = '';
+let CLMODE = 'guiado';
+const GOB = {hiperk:['cart','cart','pc'], hipona:['cart','pc','cart'], anafi:['cart','cart','tel'], aki:['pc','cart','cart'], nefro:['pc','cart','cart'], pielo:['cart','cart','pc'], ascitis:['pc','pc','cart'], pancrea:['cart','cart','pc','cart'], hda:['cart','pc','pc','cart'], zoster:['cart','tel'], acne:['cart','pc'], urtica:['cart','cart','cart'], sarna:['cart','cart','cart']};
+function libNew(id){
+  const L = {hechas:{}, orden:[], fall:0, evento:false, ult:null, fin:false, sel:null};
+  if(id !== 'varices'){
+    const k = CASOS.find(x => x.id === id); L.gen = 1; L.i = 0; L.pool = [];
+    k.pasos.forEach((p, pi) => p.o.forEach((o, oj) => L.pool.push({id:pi+'.'+oj, p:pi, j:oj, ob:(GOB[id] || [])[pi] || 'cart'})));
+    for(let a = L.pool.length - 1; a > 0; a--){ const b = Math.floor(Math.random() * (a + 1)); [L.pool[a], L.pool[b]] = [L.pool[b], L.pool[a]]; }
+  }
+  return L;
+}
+function libDoGen(id){
+  const L = V.lib, k = CASOS.find(x => x.id === V.scn), cfg = SIMS[k.id];
+  if(L.fin) return;
+  let r;
+  if(id === 'g_h'){ let t = ''; for(let j = Math.min(L.i, cfg.habla.length - 1); j >= 0; j--) if(cfg.habla[j]){ t = cfg.habla[j]; break; } r = {res:'info', fb:'El paciente dice: '+t}; }
+  else if(id === 'g_sv'){ let v = ''; for(let j = 0; j <= Math.min(L.i, cfg.vit.length - 1); j++) if(cfg.vit[j]) v = cfg.vit[j]; r = {res:'info', fb:v || 'Sin cambios.'}; }
+  else {
+    const q = id.split('.').map(Number), o = k.pasos[q[0]].o[q[1]];
+    if(L.hechas[id]) return;
+    if(!o.ok){ r = {res:'no', fb:o.fb, fu:o.fu}; L.hechas[id] = 'no'; L.fall++; L.orden.push(id); }
+    else if(q[0] !== L.i){ r = {res:'no', fb:'Todavía no. Antes hay otra decisión pendiente en este caso.'}; L.fall++; }
+    else { r = {res:'ok', fb:o.fb, fu:o.fu}; L.hechas[id] = 'ok'; L.orden.push(id); L.i++; if(L.i >= k.pasos.length) r.fin = 1; }
+  }
+  L.ult = r; L.ultId = id;
+  if(r.fin || L.fall >= 4) L.fin = true;
+}
 const okF = c => !CLCF || c === CLCF;
 const farmCur = g => ({'Riñón y electrolitos':'Nefrología', 'Digestivo':'Gastroenterología', 'Hígado':'Gastroenterología', 'Piel':'Dermatología'})[g];
 const calcCur = g => ({'Electrolitos':'Nefrología', 'Ácido-base':'Nefrología', 'Hígado':'Gastroenterología', 'Digestivo':'Gastroenterología', 'Piel':'Dermatología'})[g];
@@ -2506,7 +2533,21 @@ function vSim(){
   const ent = !!V.enter; V.enter = false;
   const pop = V.pop; V.pop = null; const shake = V.shake; V.shake = false;
   let fall, est, fin, vit, habla, tray = '', sel = null;
-  if(free){
+  if(free && L.gen){
+    const r = L.ult; fall = L.fall; fin = L.fin; sel = L.sel;
+    est = fin ? (fall <= 1 ? 'estable' : 'empeora') : ((r && r.res === 'no') ? 'empeora' : (fall >= 2 ? 'empeora' : 'llega'));
+    vit = ''; for(let j = 0; j <= Math.min(L.i, cfg.vit.length - 1); j++) if(cfg.vit[j]) vit = cfg.vit[j];
+    habla = ''; for(let j = Math.min(L.i, cfg.habla.length - 1); j >= 0; j--) if(cfg.habla[j]){ habla = cfg.habla[j]; break; }
+    if(!fin){
+      let fb = '';
+      if(r){ const bad = r.res === 'no', inf = r.res === 'info';
+        fb = '<div class="panel cl-fb '+(bad ? 'cl-fbno' : 'cl-fbok')+'"><p style="margin:0"><b>'+(bad ? 'No es el momento o no es la mejor decisión.' : inf ? 'Dato.' : 'Bien.')+'</b> '+esc(r.fb)+'</p>'+(r.fu ? src(r.fu) : '')+'</div>'; }
+      const NM = {pac:'Hablar con el paciente', mon:'Monitor', cart:'Carro de medicamentos', pc:'Computador: pedidos y planes', tel:'Teléfono: indicaciones y decisión'};
+      const items = sel === 'pac' ? [{id:'g_h', t:'Preguntar por su historia'}] : sel === 'mon' ? [{id:'g_sv', t:'Revisar signos vitales'}] : L.pool.filter(x => x.ob === sel).map(x => ({id:x.id, t:k.pasos[x.p].o[x.j].t, st:L.hechas[x.id]}));
+      tray = fb + (sel ? '<div class="panel stack" style="gap:10px"><p class="label" style="margin:0">'+esc(NM[sel].toUpperCase())+'</p>'+(items.length ? items.map(a => '<button class="btn act cl-op'+(a.st === 'ok' ? ' cl-ok' : a.st === 'no' ? ' cl-no' : '')+'" data-act="libdo" data-id="'+a.id+'"'+(a.st ? ' disabled' : '')+'><b>'+esc(a.t)+'</b></button>').join('') : '<p style="margin:0">Aquí no hay nada que hacer en este caso.</p>')+'</div>'
+        : '<div class="panel"><p style="margin:0">Toca un objeto de la sala: el paciente, el monitor, el carro de medicamentos, el computador o el teléfono. Tú decides qué hacer y en qué orden.</p></div>');
+    }
+  } else if(free){
     const H = L.hechas, r = L.ult; fall = L.fall; fin = L.fin; sel = L.sel;
     est = fin ? (fall <= 1 ? 'estable' : 'empeora') : ((r && r.res === 'no') ? 'empeora' : (fall >= 2 ? 'empeora' : (H.bb === 'ok' ? 'estable' : 'llega')));
     vit = L.evento ? cfg.vit[2] : cfg.vit[0];
@@ -2539,7 +2580,12 @@ function vSim(){
   const head = '<h2 class="cl-h">'+esc(k.n)+'</h2><p class="src">Simulador de consulta · '+(free ? 'modo libre: tú decides el orden' : 'modo guiado · decisión '+Math.min((V.paso || 0) + 1, k.pasos.length)+' de '+k.pasos.length)+'</p>';
   if(fin){
     const ok = fall <= 1; let extra = '';
-    if(free){
+    if(free && L.gen){
+      const tx = id => { const q = id.split('.').map(Number); return k.pasos[q[0]].o[q[1]].t; };
+      const hechas = L.orden.map(id => '<li>'+esc(tx(id))+' '+(L.hechas[id] === 'ok' ? '(bien)' : '(error)')+'</li>').join('');
+      const rec = k.pasos.map(p => '<li>'+esc(p.o.find(o => o.ok).t)+'</li>').join('');
+      extra = '<div class="panel"><p class="label">TU ORDEN</p><ol style="margin:0;padding-left:20px">'+hechas+'</ol></div><div class="panel"><p class="label">ORDEN DE LAS GUÍAS PARA ESTE CASO</p><ol style="margin:0;padding-left:20px">'+rec+'</ol></div>';
+    } else if(free){
       const H = L.hechas, hechas = L.orden.map(id => { const a = LIBA.find(x => x.id === id); return '<li>'+esc(a.t)+' '+(H[id] === 'ok' ? '(bien)' : H[id] === 'no' ? '(error)' : '(dato)')+'</li>'; }).join('');
       const rec = ['Vasoactivo, antibiótico y segunda vía con reposición prudente (el orden entre ellos es libre)','Transfundir solo si la Hb baja de 7, con meta de 7 a 9','Endoscopia en menos de 12 h con el paciente estable, y ligadura si hay várices','Retirar el vasoactivo cuando el sangrado está controlado','Betabloqueante no selectivo y ligaduras repetidas','Alta'].map(x => '<li>'+esc(x)+'</li>').join('');
       extra = '<div class="panel"><p class="label">TU ORDEN</p><ol style="margin:0;padding-left:20px">'+hechas+'</ol></div><div class="panel"><p class="label">ORDEN DE LAS GUÍAS PARA ESTE CASO</p><ol style="margin:0;padding-left:20px">'+rec+'</ol></div>';
@@ -2570,6 +2616,7 @@ const LIBA = [
  {id:'alta', cat:'Decidir', t:'Dar de alta'}
 ];
 function libDo(id){
+  if(V.lib.gen) return libDoGen(id);
   const L = V.lib, H = L.hechas, has = x => H[x] === 'ok';
   if(L.fin || H[id]) return;
   const resus = has('vaso') && has('abx') && has('via');
@@ -2633,7 +2680,7 @@ function vClin(){
         deck('data-act="cldx"', '?', 'Diagnóstico diferencial', DX.length+' síntomas: qué dato separa unas causas de otras', '#b9a6ff', false, ';--rot:-.8deg;--rd:28px')+
         deck('data-act="cllec"', '%', 'Lectura de datos', lecL().length+' ejercicios con valores al azar', '#7cf0c8', false, ';--rot:1.4deg;--rd:10px')+
         deck('data-act="cldeb"', '★', 'Mapa de puntos débiles y plan diario', 'Lee tu avance y reparte las preguntas hasta tu examen', '#ffb36b', true)+'</div>'+
-      '<div><p class="label">CONSULTORIO: LLEGA UN PACIENTE</p><p class="src" style="margin:0 0 10px">Cinco pacientes vuelven con distintos casos de los tres módulos. Modo guiado: el juego te da opciones en cada etapa. Modo libre (por ahora solo Don Pedro): tú decides qué preguntar, pedir e indicar.</p><div class="deck-grid">'+CASOS.filter(x => okF(x.c)).slice().sort((a, b) => (SIMS[a.id].pac.nombre.split(',')[0] > SIMS[b.id].pac.nombre.split(',')[0] ? 1 : -1)).map(x => deckPt('data-act="clsim" data-id="'+x.id+'"', x.id, SIMS[x.id].pac.nombre, x.n+' · guiado, '+x.pasos.length+' decisiones')).join('')+(okF('Gastroenterología') ? '<button class="deck pt" style="--c:#ffe35c;--rot:-1deg" data-act="cllib" data-id="varices"><svg class="face" viewBox="0 38 200 190" aria-hidden="true">'+simPat('estable', SIMS.varices.pac)+'</svg><b>Don Pedro: modo libre</b><span class="d">Tú eliges qué preguntar, pedir e indicar, y en qué orden.</span></button>' : '')+'</div></div>'+
+      '<div><p class="label">CONSULTORIO: LLEGA UN PACIENTE</p><p class="src" style="margin:0 0 10px">Cinco pacientes vuelven con distintos casos de los tres módulos. Elige cómo jugar: guiado (el juego te da opciones en cada etapa) o libre (tocas el paciente, el monitor, el carro, el computador o el teléfono y decides tú qué hacer y en qué orden).</p><div class="chips" style="margin-bottom:10px"><button class="chip'+(CLMODE === 'guiado' ? ' on' : '')+'" data-act="clmode" data-v="guiado">Modo guiado</button><button class="chip'+(CLMODE === 'libre' ? ' on' : '')+'" data-act="clmode" data-v="libre">Modo libre</button></div><div class="deck-grid">'+CASOS.filter(x => okF(x.c)).slice().sort((a, b) => (SIMS[a.id].pac.nombre.split(',')[0] > SIMS[b.id].pac.nombre.split(',')[0] ? 1 : -1)).map(x => deckPt('data-act="'+(CLMODE === 'libre' ? 'cllib' : 'clsim')+'" data-id="'+x.id+'"', x.id, SIMS[x.id].pac.nombre, x.n+(CLMODE === 'libre' ? ' · libre, tú decides' : ' · guiado, '+x.pasos.length+' decisiones'))).join('')+'</div></div>'+
       clGroups().map(g => '<div><p class="label">CALCULADORAS: '+esc(g.toUpperCase())+'</p><div class="nap-grid">'+CALCS.filter(x => x.g === g && okF(calcCur(x.g))).map(x => nap('ca', calcCur(x.g), CALCART[x.id][0], x.n, '', 'data-act="clcalc" data-id="'+x.id+'"', CALCART[x.id][1])).join('')+'</div></div>').join('')+
       (CLIN_NEXT.length ? '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>' : '')+
       '<p class="src">Las calculadoras ayudan a pensar, no reemplazan al criterio clínico ni a la guía de tu hospital. Cada una indica su referencia. Contenido revisado contra guías y fuentes en noviembre 2026; las guías cambian, por eso cada ítem muestra de dónde sale.</p></div>';
@@ -2840,12 +2887,13 @@ const A = {
   clfarm: () => go({name:'clin', farm:true}),
   cldx: () => go({name:'clin', dx:true}),
   clcf: d => { CLCF = d.v; render(); },
+  clmode: d => { CLMODE = d.v; render(); },
   cldeb: () => go({name:'clin', deb:true}),
   cldebs: () => { const v = (document.getElementById('cldebf') || {}).value || ''; try{ if(v) localStorage.setItem(DEB_KEY, v); else localStorage.removeItem(DEB_KEY); }catch(e){} render(); },
   cldebp: d => { const r = debData().find(x => x.a === d.a && x.t === d.t); if(!r) return; startRound(r.fall.concat(shuffle(r.nuevas)).slice(0, 10), 'practica'); },
-  cllib: d => { go({name:'clin', scn:d.id, lib:{hechas:{}, orden:[], fall:0, evento:false, ult:null, fin:false, sel:null}, enter:true}); },
+  cllib: d => { go({name:'clin', scn:d.id, lib:libNew(d.id), enter:true}); },
   roomobj: d => { V.lib.sel = d.id; render(); },
-  libdo: d => { libDo(d.id); const r = V.lib.ult; V.pop = (LIBA.find(x => x.id === d.id) || {}).t; V.shake = !!(r && r.res === 'no'); render(); const tr = document.getElementById('tray'); if(tr) tr.scrollIntoView({block:'nearest', behavior:'smooth'}); },
+  libdo: d => { libDo(d.id); const r = V.lib.ult; V.pop = V.lib.gen ? (r && r.res === 'ok' ? 'Decisión correcta' : r && r.res === 'info' ? 'Dato' : null) : (LIBA.find(x => x.id === d.id) || {}).t; V.shake = !!(r && r.res === 'no'); render(); const tr = document.getElementById('tray'); if(tr) tr.scrollIntoView({block:'nearest', behavior:'smooth'}); },
   clsim: d => { go({name:'clin', scn:d.id, paso:0, sel:null, fallos:0, enter:true}); },
   simop: d => { const k = CASOS.find(x => x.id === V.scn), o = k.pasos[V.paso].o[+d.i]; if(V.sel != null) return; V.sel = +d.i; if(!o.ok){ V.fallos = (V.fallos||0)+1; V.shake = true; } else V.pop = 'Decisión correcta'; render(); },
   simnext: () => { V.paso++; V.sel = null; render(); window.scrollTo(0,0); },
