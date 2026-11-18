@@ -1954,10 +1954,10 @@ const CASOS = [
  fu:[['Mohanty y García-Tsao 2024, Clin Liver Dis','https://pmc.ncbi.nlm.nih.gov/articles/PMC11216663'],['Resumen de guía (WJES) con tiempos y dosis','https://wjes.biomedcentral.com/articles/10.1186/s13017-018-0194-1/tables/3'],['AASLD, resumen en Guideline Central','https://guidelinecentral.com/guideline/10760'],['Revisión de profilaxis y antibióticos (PMC6593327)','https://pmc.ncbi.nlm.nih.gov/articles/PMC6593327'],['Am J Med 2024, hipertensión portal','https://www.binasss.sa.cr/bibliotecas/bhm/mar24/39.pdf'],['ESGE 2022: manejo endoscópico de la hemorragia por várices','https://scholarlypublications.universiteitleiden.nl/handle/1887/3567413']],
  pasos:[
  {q:'¿Qué haces ahora, antes de la endoscopia?', o:[
-  {t:'Segunda vía, reposición prudente, iniciar octreotide y ceftriaxona, y pedir endoscopia dentro de las primeras 12 h', ok:1, fb:'Es el paquete inicial de las guías: fármaco vasoactivo (octreotide, terlipresina o somatostatina, en bolo y luego infusión por 2 a 5 días), antibiótico profiláctico y endoscopia en menos de 12 h desde la presentación.', fu:[1,2]},
-  {t:'Transfundir 2 unidades ya para llevar la Hb a 10', fb:'Con Hb de 8,6 no hay indicación de transfundir. La estrategia restrictiva (transfundir cerca de Hb 7, meta entre 7 y 9) se asoció a mayor supervivencia que la liberal en el ensayo de referencia.', fu:[0,3]},
-  {t:'Esperar la endoscopia sin dar nada, para no alterar los hallazgos', fb:'Las guías incluyen el vasoactivo y el antibiótico en el manejo inicial, junto con la endoscopia en menos de 12 h. No piden esperar a tener los hallazgos para empezarlos.', fu:[1,2]},
-  {t:'Plasma fresco congelado para corregir el INR antes de cualquier otra cosa', fb:'El tratamiento apunta a bajar la presión portal, no a corregir las alteraciones de la coagulación.', fu:[0]}]},
+  {t:'Segunda vía, reposición prudente, octreotide, ceftriaxona y endoscopia en menos de 12 h', ok:1, fb:'Es el paquete inicial de las guías: fármaco vasoactivo (octreotide, terlipresina o somatostatina, en bolo y luego infusión por 2 a 5 días), antibiótico profiláctico y endoscopia en menos de 12 h desde la presentación.', fu:[1,2]},
+  {t:'Transfundir 2 unidades de hematíes ya, para llevar la Hb a 10 g/dL antes de cualquier otra medida', fb:'Con Hb de 8,6 no hay indicación de transfundir. La estrategia restrictiva (transfundir cerca de Hb 7, meta entre 7 y 9) se asoció a mayor supervivencia que la liberal en el ensayo de referencia.', fu:[0,3]},
+  {t:'Esperar la endoscopia sin dar fármacos antes, para no alterar los hallazgos del examen', fb:'Las guías incluyen el vasoactivo y el antibiótico en el manejo inicial, junto con la endoscopia en menos de 12 h. No piden esperar a tener los hallazgos para empezarlos.', fu:[1,2]},
+  {t:'Plasma fresco congelado para corregir el INR antes de iniciar cualquier otro tratamiento', fb:'El tratamiento apunta a bajar la presión portal, no a corregir las alteraciones de la coagulación.', fu:[0]}]},
  {q:'¿Qué antibiótico y por cuánto tiempo?', o:[
   {t:'Ceftriaxona 1 g IV cada 24 h, máximo 7 días', ok:1, fb:'Es la primera opción en cirrosis avanzada. Puede suspenderse antes si el sangrado cedió y se retiró el vasoactivo.', fu:[3,2]},
   {t:'Ciprofloxacino oral, porque es más cómodo', fb:'La resistencia a quinolonas está muy extendida y la ceftriaxona es el antibiótico profiláctico de elección.', fu:[3]},
@@ -1968,10 +1968,12 @@ const CASOS = [
   {t:'Esperar a que la Hb llegue a 5 antes de transfundir', fb:'El umbral de las guías es cerca de 7 g/dL. Con 6,8 ya corresponde transfundir.', fu:[0,2]}]},
  {q:'El paciente ya está estable. ¿Cuándo y qué haces en la endoscopia?', o:[
   {t:'Endoscopia dentro de las 12 h de la llegada; si hay várices, ligadura endoscópica', ok:1, fb:'Se hace en menos de 12 h, con el paciente hemodinámicamente estable. Si el origen es variceal, el tratamiento endoscópico es la ligadura.', fu:[2,1]},
-  {t:'Programarla para mañana, cuando esté el equipo completo', fb:'La recomendación es dentro de las primeras 12 h desde la llegada.', fu:[2,1]}]},
+  {t:'Hacerla solo si el sangrado persiste a las 48 horas con tratamiento médico', fb:'La recomendación es dentro de las primeras 12 h desde la llegada, no después de fallar el tratamiento médico.', fu:[2,1]},
+  {t:'Programarla para mañana, cuando esté disponible el equipo completo de endoscopia', fb:'La recomendación es dentro de las primeras 12 h desde la llegada.', fu:[2,1]}]},
  {q:'Ligadura hecha, sangrado controlado, se retira el vasoactivo. ¿Cómo sigues?', o:[
   {t:'Iniciar betabloqueante no selectivo (propranolol o carvedilol) y programar ligaduras repetidas', ok:1, fb:'El betabloqueante se inicia cuando se suspende el vasoactivo. En prevención secundaria se considera de elección el carvedilol. Si el paciente es de alto riesgo (Child C, o Child B con sangrado activo en la endoscopia), tiene sangrado refractario o recurrente, se considera TIPS (derivación portosistémica intrahepática transyugular) precoz, dentro de 72 h y de preferencia en 24 h (ESGE 2022). Revisa en la ficha de propranolol y carvedilol cuándo no usarlos.', fu:[1,2,4,5]},
-  {t:'Alta sin tratamiento preventivo, porque ya no sangra', fb:'Tras el episodio se necesita prevención secundaria. El betabloqueante se empieza al suspender el vasoactivo, junto con ligaduras repetidas.', fu:[1,2]}]}
+  {t:'Betabloqueante solo si vuelve a sangrar, sin ligaduras repetidas', fb:'La prevención secundaria combina betabloqueante y ligaduras repetidas desde este primer episodio, no solo ante un nuevo sangrado.', fu:[1,2]},
+  {t:'Alta sin tratamiento preventivo, porque el sangrado ya está controlado y estable', fb:'Tras el episodio se necesita prevención secundaria. El betabloqueante se empieza al suspender el vasoactivo, junto con ligaduras repetidas.', fu:[1,2]}]}
  ]},
 {id:'hiperk', n:'Hiperpotasemia con cambios en el ECG', c:'Nefrología',
  pres:'Mujer de 64 años con enfermedad renal crónica, en tratamiento con IECA (inhibidor de la enzima convertidora de angiotensina) y espironolactona. Llega con debilidad. Potasio 7,1 mEq/L. ECG: ondas T picudas y QRS ensanchado. Ya tiene monitor y vía periférica.',
@@ -1979,49 +1981,51 @@ const CASOS = [
  pasos:[
  {q:'¿Cuál es tu primer paso?', o:[
   {t:'Gluconato de calcio al 10 %, 30 mL IV en 10 minutos, con monitor', ok:1, fb:'Protege la membrana del miocardio, pero no baja el potasio. Se repite si los cambios del ECG persisten. Con cambios en el ECG, el calcio IV va primero.', fu:[0,1]},
-  {t:'Insulina con glucosa', fb:'Mueve el potasio hacia la célula, pero no protege la membrana. Con cambios en el ECG, lo primero es calcio IV.', fu:[0,1]},
-  {t:'Una ampolla de gluconato de calcio (10 mL)', fb:'Una ampolla no alcanza: la dosis es 30 mL (3 ampollas) en 10 minutos.', fu:[1]},
+  {t:'Insulina regular con glucosa en infusión, antes de cualquier otra medida', fb:'Mueve el potasio hacia la célula, pero no protege la membrana. Con cambios en el ECG, lo primero es calcio IV.', fu:[0,1]},
+  {t:'Una sola ampolla de gluconato de calcio al 10 % (10 mL) y repetir si es necesario', fb:'Una ampolla no alcanza: la dosis es 30 mL (3 ampollas) en 10 minutos.', fu:[1]},
   {t:'Resina de intercambio (poliestireno sulfonato de calcio) por vía oral', fb:'La UK Kidney Association indica que ya no debe usarse de forma rutinaria. Además, no resuelve la urgencia del ECG.', fu:[0]}]},
  {q:'Los cambios del ECG mejoran tras el calcio. ¿Qué sigue?', o:[
-  {t:'Insulina regular 10 U IV (con glucosa según la glucemia previa), más salbutamol nebulizado 10 a 20 mg', ok:1, fb:'Es el esquema para mover el potasio hacia el interior de la célula. El salbutamol es complemento.', fu:[0,1]},
-  {t:'Salbutamol nebulizado como único tratamiento', fb:'No se usa solo: una parte de los pacientes no responde.', fu:[0,1]},
-  {t:'Solo repetir calcio cada 30 minutos', fb:'El calcio no saca potasio y su efecto dura 30 a 60 minutos. Hay que mover el potasio a la célula.', fu:[0,1]}]},
+  {t:'Insulina regular 10 U IV con glucosa, más salbutamol nebulizado 10 a 20 mg', ok:1, fb:'Es el esquema para mover el potasio hacia el interior de la célula. El salbutamol es complemento.', fu:[0,1]},
+  {t:'Salbutamol nebulizado 10 a 20 mg como único tratamiento, sin insulina', fb:'No se usa solo: una parte de los pacientes no responde.', fu:[0,1]},
+  {t:'Solo repetir el gluconato de calcio cada 30 minutos hasta normalizar el potasio', fb:'El calcio no saca potasio y su efecto dura 30 a 60 minutos. Hay que mover el potasio a la célula.', fu:[0,1]}]},
  {q:'Ya recibió calcio, insulina con glucosa y salbutamol. ¿Qué haces en las próximas horas?', o:[
-  {t:'Vigilar la glucemia por riesgo de hipoglucemia (se da glucosa si la glucemia previa era baja o si cae después), suspender IECA y espironolactona, y planear cómo eliminar el potasio (captor oral o diálisis si no responde)', ok:1, fb:'Ni el calcio ni la insulina con glucosa eliminan potasio del cuerpo. La hipoglucemia tardía es frecuente tras la insulina, y por eso se vigila la glucemia y se da glucosa si hace falta.', fu:[0,1]},
-  {t:'Alta pronto: el ECG se normalizó y el potasio ya bajó', fb:'El calcio dura 30 a 60 minutos y ni él ni la insulina con glucosa eliminan potasio del cuerpo. Puede volver a subir mientras siga la causa.', fu:[0,1]}]}
+  {t:'Vigilar la glucemia, suspender IECA y espironolactona, y planear cómo eliminar el potasio (captor oral o diálisis)', ok:1, fb:'Ni el calcio ni la insulina con glucosa eliminan potasio del cuerpo. La hipoglucemia tardía es frecuente tras la insulina, y por eso se vigila la glucemia y se da glucosa si hace falta.', fu:[0,1]},
+  {t:'Alta con control ambulatorio en una semana, porque el ECG se normalizó y el potasio ya bajó', fb:'El calcio dura 30 a 60 minutos y ni él ni la insulina con glucosa eliminan potasio del cuerpo. Puede volver a subir mientras siga la causa.', fu:[0,1]}]}
  ]},
 {id:'hipona', n:'Hiponatremia grave con riesgo de sobrecorrección', c:'Nefrología',
  pres:'Varón de 45 años, con consumo crónico de alcohol y desnutrición. Llega con una convulsión. Na 108 mEq/L, K 3,0 mEq/L. La hiponatremia viene de días a semanas.',
  fu:[['Hiponatremia grave y salino hipertónico (PMC10502587)','https://pmc.ncbi.nlm.nih.gov/articles/PMC10502587/'],['Panel de expertos 2013 y límites de corrección (PMC4206391)','https://pmc.ncbi.nlm.nih.gov/articles/PMC4206391'],['Límites y estrategia de rescate (PMC7015090)','https://pmc.ncbi.nlm.nih.gov/articles/PMC7015090'],['Tabla de tratamiento y desmopresina (copia de Verbalis y Sterns)','https://www.scribd.com/document/558161596/1-4904818897884021260'],['EMCrit: sobrecorrección y desmopresina','https://emcrit.org/?p=16837'],['Salino hipertónico y desmopresina, Am J Kidney Dis 2013','https://themednet.org/publications/hypertonic-saline-and-desmopressin-a-simple-strategy-for-safe-correction-of-severe-hyponatremia'],['Riesgo alto de desmielinización (guía de estudio)','https://open-exam-prep.com/study-guides/abim-critical-care/electrolyte-acid-base-endocrine-emergencies/severe-dysnatremias-management']],
  pasos:[
  {q:'¿Cómo tratas la convulsión por hiponatremia?', o:[
-  {t:'Salino hipertónico al 3 %: bolo IV de 150 mL en 20 min (guía europea 2014) o de 100 mL en 10 min (guía de EE. UU. 2013), repetible según respuesta, para subir el sodio 4 a 6 mEq/L', ok:1, fb:'La hiponatremia con convulsión es una emergencia. El bolo de NaCl 3 % (150 mL en 20 min en Europa, 100 mL en 10 min en EE. UU.) busca subir el sodio 4 a 6 mEq/L para bajar la presión intracraneal.', fu:[0,3]},
-  {t:'Restricción hídrica sola', fb:'La restricción hídrica es la primera línea en SIAD (secreción inapropiada de hormona antidiurética) cuando no hay síntomas graves. Con una convulsión se necesita salino hipertónico.', fu:[0]},
-  {t:'Suero fisiológico 0,9 % rápido hasta llegar a Na 135', fb:'Con síntomas graves se usa el bolo de salino 3 % para subir 4 a 6 mEq/L. Normalizar rápido expone a la desmielinización osmótica.', fu:[0,1]}]},
+  {t:'Salino hipertónico al 3 % en bolo IV, repetible según respuesta, para subir el sodio 4 a 6 mEq/L', ok:1, fb:'La hiponatremia con convulsión es una emergencia. El bolo de NaCl 3 % (150 mL en 20 min en Europa, 100 mL en 10 min en EE. UU.) busca subir el sodio 4 a 6 mEq/L para bajar la presión intracraneal.', fu:[0,3]},
+  {t:'Restricción hídrica a 800 mL al día y control del sodio cada 6 horas', fb:'La restricción hídrica es la primera línea en SIAD (secreción inapropiada de hormona antidiurética) cuando no hay síntomas graves. Con una convulsión se necesita salino hipertónico.', fu:[0]},
+  {t:'Suero fisiológico al 0,9 % en infusión rápida hasta llevar el sodio a 135 mEq/L', fb:'Con síntomas graves se usa el bolo de salino 3 % para subir 4 a 6 mEq/L. Normalizar rápido expone a la desmielinización osmótica.', fu:[0,1]}]},
  {q:'La convulsión cedió y el Na subió a 113 mEq/L. ¿Qué tope de corrección fijas para las próximas 24 h?', o:[
-  {t:'No más de 8 mEq/L en 24 h, con meta de 4 a 6, por riesgo alto de desmielinización osmótica', ok:1, fb:'Alcoholismo, desnutrición, hipopotasemia y sodio muy bajo son factores de riesgo alto. En ese caso el tope es 8 mEq/L en 24 h.', fu:[1,2,6]},
+  {t:'No más de 8 mEq/L en 24 h, por riesgo alto de desmielinización osmótica', ok:1, fb:'Alcoholismo, desnutrición, hipopotasemia y sodio muy bajo son factores de riesgo alto. En ese caso el tope es 8 mEq/L en 24 h.', fu:[1,2,6]},
   {t:'Hasta 12 mEq/L, como en cualquier hiponatremia crónica', fb:'Los 10 a 12 mEq/L en 24 h son el límite para riesgo estándar. Con riesgo alto, el límite es 8.', fu:[1,2]},
-  {t:'Normalizarlo a 135 en 12 h', fb:'Excede cualquiera de los límites aceptados: 8 mEq/L en 24 h en riesgo alto, 10 a 12 en riesgo estándar.', fu:[1,2]}]},
+  {t:'Normalizarlo hasta 135 mEq/L en 12 horas con salino al 3 %', fb:'Excede cualquiera de los límites aceptados: 8 mEq/L en 24 h en riesgo alto, 10 a 12 en riesgo estándar.', fu:[1,2]}]},
  {q:'Seis horas después tuvo diuresis acuosa de 6 L. El Na está en 121 mEq/L (subió 13 desde el ingreso). ¿Qué haces?', o:[
-  {t:'Desmopresina parenteral cada 6 a 8 h con dextrosa al 5 %, para volver a bajar el sodio, y controles seriados de Na', ok:1, fb:'Es la estrategia de rescate cuando el sodio ya se pasó del límite. En una serie, desmopresina con dextrosa dejó el sodio 4 a 9 mEq/L por debajo del pico. Las dosis descritas van de 1 a 4 µg IV o SC cada 6 a 8 h según el esquema.', fu:[2,4,5,3]},
+  {t:'Desmopresina parenteral con dextrosa al 5 % para volver a bajar el sodio, con controles seriados', ok:1, fb:'Es la estrategia de rescate cuando el sodio ya se pasó del límite. En una serie, desmopresina con dextrosa dejó el sodio 4 a 9 mEq/L por debajo del pico. Las dosis descritas van de 1 a 4 µg IV o SC cada 6 a 8 h según el esquema.', fu:[2,4,5,3]},
   {t:'Observar y repetir el sodio mañana, porque está asintomático', fb:'El riesgo está en la sobrecorrección, no solo en los síntomas de hoy. Cuando se pasa el límite, está descrito volver a bajar el sodio con desmopresina y dextrosa.', fu:[2,4]},
-  {t:'Tolvaptán para controlar el sodio', fb:'Los vaptanes pueden causar excreción incontrolada de agua y más sobrecorrección. No se recomiendan en esta situación.', fu:[4]}]}
+  {t:'Tolvaptán oral para frenar la diuresis y controlar el sodio', fb:'Los vaptanes pueden causar excreción incontrolada de agua y más sobrecorrección. No se recomiendan en esta situación.', fu:[4]}]}
  ]},
 {id:'anafi', n:'Anafilaxia con urticaria y estridor', c:'Dermatología',
  pres:'Mujer de 30 años que, minutos después de una dosis de amoxicilina IV en emergencia, presenta ronchas generalizadas, estridor y PA 80/45.',
  fu:[['WAO: guía de anafilaxia 2020, afiche (Cardona et al., World Allergy Organ J 2020)','https://www.worldallergy.org/media/PDFs/Anaphylaxis_Guidelines_Poster.pdf'],['Cleveland Clinic J Med 2022: parámetro de práctica AAAAI/ACAAI','https://www.ccjm.org/content/89/2/106'],['WAO Anaphylaxis Guidance 2020 (PubMed 33204386)','https://pubmed.ncbi.nlm.nih.gov/33204386/']],
  pasos:[
  {q:'¿Cuál es tu primer medicamento?', o:[
-  {t:'Epinefrina IM en la cara anterolateral del muslo: 0,01 mg/kg de la solución 1 mg/mL, máximo 0,5 mg en adultos', ok:1, fb:'Es el tratamiento de primera línea y no debe retrasarse: la demora se asocia a más morbilidad y mortalidad. Se anota la hora de la dosis.', fu:[0,1]},
+  {t:'Epinefrina IM en el muslo anterolateral, 0,01 mg/kg (máximo 0,5 mg en adultos)', ok:1, fb:'Es el tratamiento de primera línea y no debe retrasarse: la demora se asocia a más morbilidad y mortalidad. Se anota la hora de la dosis.', fu:[0,1]},
   {t:'Antihistamínico IV primero y epinefrina si no mejora', fb:'Los antihistamínicos y corticoides son de segunda línea y no reemplazan a la epinefrina en los síntomas cardiovasculares.', fu:[2,1]},
-  {t:'Epinefrina IV en bolo directo', fb:'Los efectos adversos graves ocurren sobre todo con bolos IV rápidos o dosis equivocadas. La vía estándar es IM en el muslo.', fu:[0]},
-  {t:'Hidrocortisona IV y observar', fb:'Los corticoides son de segunda línea y no reemplazan a la epinefrina.', fu:[2,1]}]},
+  {t:'Epinefrina IV en bolo directo, porque la hipotensión es grave', fb:'Los efectos adversos graves ocurren sobre todo con bolos IV rápidos o dosis equivocadas. La vía estándar es IM en el muslo.', fu:[0]},
+  {t:'Hidrocortisona IV y observar la evolución durante una hora', fb:'Los corticoides son de segunda línea y no reemplazan a la epinefrina.', fu:[2,1]}]},
  {q:'A los 5 minutos persisten el estridor y la hipotensión. ¿Qué haces?', o:[
-  {t:'Repetir epinefrina IM (cada 5 a 15 min si hace falta), acostarla de espaldas o en posición de comodidad, y dar 1 a 2 L de solución isotónica', ok:1, fb:'La mayoría responde a 1 o 2 dosis. Si no, se repite cada 5 a 15 minutos. Los líquidos isotónicos están indicados cuando hay hipotensión.', fu:[0]},
+  {t:'Repetir epinefrina IM cada 5 a 15 min, acostarla y dar 1 a 2 L de solución isotónica', ok:1, fb:'La mayoría responde a 1 o 2 dosis. Si no, se repite cada 5 a 15 minutos. Los líquidos isotónicos están indicados cuando hay hipotensión.', fu:[0]},
+  {t:'Pasar a epinefrina IV en bolo, porque la IM no funcionó', fb:'Los efectos adversos graves ocurren sobre todo con bolos IV rápidos o dosis equivocadas. Si no responde, se repite la IM cada 5 a 15 minutos.', fu:[0]},
   {t:'Esperar 30 minutos a ver si responde al antihistamínico', fb:'La epinefrina se repite cada 5 a 15 minutos si hace falta. Los antihistamínicos no sustituyen esa dosis.', fu:[0,2]}]},
  {q:'Ya se estabilizó. ¿Qué indicas antes del alta?', o:[
-  {t:'Receta de epinefrina autoinyectable, educación sobre el desencadenante y seguimiento con alergología', ok:1, fb:'Antes del alta se da la prescripción de epinefrina y se indica seguimiento para pruebas de alergia.', fu:[2,1]},
-  {t:'Alta sin más indicaciones, porque ya pasó', fb:'Antes del alta el paciente debe recibir receta de epinefrina y control con alergología.', fu:[2]}]}
+  {t:'Epinefrina autoinyectable, educación sobre el desencadenante y control con alergología', ok:1, fb:'Antes del alta se da la prescripción de epinefrina y se indica seguimiento para pruebas de alergia.', fu:[2,1]},
+  {t:'Alta con antihistamínico oral por 3 días como único tratamiento', fb:'Antes del alta se da la prescripción de epinefrina y se indica seguimiento. El antihistamínico no reemplaza a la epinefrina.', fu:[2,1]},
+  {t:'Alta sin más indicaciones, porque ya se estabilizó y no tiene síntomas', fb:'Antes del alta el paciente debe recibir receta de epinefrina y control con alergología.', fu:[2]}]}
  ]}
 ];
 CASOS.push(
@@ -2030,12 +2034,12 @@ CASOS.push(
  fu:[['KDIGO: tabla de estadios de la lesión renal aguda (Crit Care Clin 2021)','https://pmc.ncbi.nlm.nih.gov/articles/PMC8157315/table/tbl1'],['KDIGO 2012: guía de lesión renal aguda (resumen, Kidney Int Suppl)','https://kdigo.org/wp-content/uploads/2017/04/KDIGO-AKI-Guideline_Cass-2014.pdf'],['Diuréticos en lesión renal aguda: recomendación 5.2.2 (PMC4089654)','https://pmc.ncbi.nlm.nih.gov/articles/PMC4089654']],
  pasos:[
  {q:'¿En qué estadio KDIGO (Kidney Disease: Improving Global Outcomes) de lesión renal aguda está?', o:[
-  {t:'Estadio 2: creatinina de 2,0 a 2,9 veces la basal y diuresis menor de 0,5 mL/kg/h por 12 h o más', ok:1, fb:'Su creatinina es 2,4 veces la basal y la oliguria lleva 12 h, lo que corresponde al estadio 2. El estadio manda sobre cuán urgente es el manejo y la vigilancia.', fu:[0]},
-  {t:'Estadio 1: creatinina de 1,5 a 1,9 veces la basal', fb:'2,4 veces la basal ya supera el rango del estadio 1.', fu:[0]},
-  {t:'Estadio 3: creatinina 3 veces la basal o más, o necesidad de diálisis', fb:'El estadio 3 pide 3 veces la basal, creatinina de 4,0 mg/dL o más, inicio de diálisis o diuresis menor de 0,3 mL/kg/h por 24 h.', fu:[0]}]},
+  {t:'Estadio 2: creatinina 2,0 a 2,9 veces la basal y diuresis menor de 0,5 mL/kg/h por 12 h o más', ok:1, fb:'Su creatinina es 2,4 veces la basal y la oliguria lleva 12 h, lo que corresponde al estadio 2. El estadio manda sobre cuán urgente es el manejo y la vigilancia.', fu:[0]},
+  {t:'Estadio 1: creatinina de 1,5 a 1,9 veces la basal y diuresis menor de 0,5 mL/kg/h por 6 a 12 h', fb:'2,4 veces la basal ya supera el rango del estadio 1.', fu:[0]},
+  {t:'Estadio 3: creatinina 3 veces la basal o más, creatinina de 4,0 mg/dL o diálisis', fb:'El estadio 3 pide 3 veces la basal, creatinina de 4,0 mg/dL o más, inicio de diálisis o diuresis menor de 0,3 mL/kg/h por 24 h.', fu:[0]}]},
  {q:'Está hipovolémica y con un AINE (antiinflamatorio no esteroideo) en su historia. ¿Qué indicas primero?', o:[
   {t:'Suspender el ibuprofeno y reponer volumen con cristaloides isotónicos', ok:1, fb:'La guía KDIGO recomienda cristaloides isotónicos y no coloides cuando no hay shock hemorrágico, y retirar los fármacos nefrotóxicos.', fu:[1]},
-  {t:'Furosemida IV para estimular la diuresis', fb:'KDIGO sugiere no usar diuréticos para prevenir o tratar la lesión renal aguda, salvo que haya sobrecarga de volumen. Aquí está deshidratada.', fu:[1,2]},
+  {t:'Furosemida IV en dosis alta para estimular la diuresis y proteger al riñón', fb:'KDIGO sugiere no usar diuréticos para prevenir o tratar la lesión renal aguda, salvo que haya sobrecarga de volumen. Aquí está deshidratada.', fu:[1,2]},
   {t:'Reponer con coloides (por ejemplo almidón) para expandir más rápido', fb:'KDIGO recomienda cristaloides isotónicos en lugar de coloides cuando no hay shock hemorrágico.', fu:[1]}]},
  {q:'Tras la reposición mejora la presión, pero aparece edema de pulmón y la diuresis sigue baja. ¿Qué haces?', o:[
   {t:'Dar un diurético, porque ahora hay sobrecarga de volumen', ok:1, fb:'El diurético se reserva para la sobrecarga de volumen. No acelera la recuperación del riñón (recomendación 5.2.2, grado 2B).', fu:[1,2]},
@@ -2053,11 +2057,11 @@ CASOS.push(
  {q:'La biopsia confirma enfermedad de cambios mínimos. ¿Cuál es el tratamiento inicial?', o:[
   {t:'Prednisona 1 mg/kg al día (máximo 80 mg) o 2 mg/kg en días alternos (máximo 120 mg)', ok:1, fb:'Son las dosis de la guía KDIGO para el inicio. Los corticoides son la primera línea.', fu:[0,1]},
   {t:'Ciclosporina primero y dejar los corticoides para después', fb:'La primera línea son los corticoides. Los otros inmunosupresores se reservan para recaídas, dependencia o resistencia.', fu:[0]},
-  {t:'Prednisona 10 mg al día por 2 semanas', fb:'Esa dosis es muy baja para inducir la remisión. La guía usa 1 mg/kg al día.', fu:[0]}]},
+  {t:'Prednisona 10 mg al día por 2 semanas y control de proteinuria', fb:'Esa dosis es muy baja para inducir la remisión. La guía usa 1 mg/kg al día.', fu:[0]}]},
  {q:'¿Por cuánto tiempo mantienes la dosis plena y cómo sigues?', o:[
-  {t:'Mínimo 4 semanas si hay remisión completa, máximo 16 si no la hay, y luego bajar lento durante unos 6 meses', ok:1, fb:'Es el esquema de KDIGO. Entre el 5 y el 20 % de los adultos es resistente a corticoides.', fu:[0,1]},
-  {t:'Suspender a las 2 semanas cuando desaparece el edema', fb:'Suspender temprano favorece las recaídas. La dosis plena se sostiene al menos 4 semanas tras la remisión completa.', fu:[0]},
-  {t:'Dosis plena por 6 meses sin reducir', fb:'El máximo con dosis plena es de 16 semanas si no hay remisión completa. Después se rebaja de forma gradual.', fu:[0]}]}
+  {t:'Mínimo 4 semanas si hay remisión completa y máximo 16 si no, y bajar lento durante unos 6 meses', ok:1, fb:'Es el esquema de KDIGO. Entre el 5 y el 20 % de los adultos es resistente a corticoides.', fu:[0,1]},
+  {t:'Suspender de golpe a las 2 semanas, cuando desaparece el edema y baja la proteinuria', fb:'Suspender temprano favorece las recaídas. La dosis plena se sostiene al menos 4 semanas tras la remisión completa.', fu:[0]},
+  {t:'Dosis plena durante 6 meses completos sin reducir antes', fb:'El máximo con dosis plena es de 16 semanas si no hay remisión completa. Después se rebaja de forma gradual.', fu:[0]}]}
  ]},
 {id:'pielo', n:'Pielonefritis aguda (infección urinaria complicada)', c:'Nefrología',
  pres:'Mujer de 28 años con 3 días de disuria y polaquiuria. Desde ayer fiebre de 39 °C, escalofríos, dolor lumbar derecho y vómitos. Dolor a la percusión del ángulo costovertebral. PA 110/70, FC 110.',
@@ -2066,13 +2070,14 @@ CASOS.push(
  {q:'¿Cómo clasificas este cuadro y qué antibiótico empírico eliges?', o:[
   {t:'Infección complicada (fiebre y dolor lumbar). Ceftriaxona 1 g IV cada 24 h', ok:1, fb:'Los signos sistémicos (fiebre, dolor en el flanco, dolor a la percusión) la hacen complicada. Las opciones empíricas son cefalosporinas de 3.ª o 4.ª generación como ceftriaxona, piperacilina-tazobactam o fluoroquinolonas.', fu:[0,1]},
   {t:'Cistitis. Nitrofurantoína 100 mg cada 12 h por 5 días', fb:'La nitrofurantoína sirve para cistitis, pero no suele alcanzar niveles adecuados en el parénquima renal ni en la sangre, y aquí hay compromiso sistémico.', fu:[1,0]},
-  {t:'Fosfomicina 3 g oral en dosis única', fb:'La fosfomicina oral en dosis única es para cistitis. En pielonefritis no se considera adecuada por las mismas razones.', fu:[1,0]}]},
+  {t:'Cistitis. Fosfomicina 3 g por vía oral en dosis única', fb:'La fosfomicina oral en dosis única es para cistitis. En pielonefritis no se considera adecuada por las mismas razones.', fu:[1,0]}]},
  {q:'Mejora con el tratamiento. ¿Cuánto dura el esquema efectivo?', o:[
-  {t:'7 días con un betalactámico (5 a 7 si se usa fluoroquinolona), contados desde el primer día de tratamiento efectivo', ok:1, fb:'Es la duración que señalan las guías para infección complicada con buena respuesta. Se cuenta desde el primer día de terapia activa.', fu:[0,1]},
-  {t:'3 días, igual que en la cistitis', fb:'Los 3 días corresponden a cistitis no complicada con trimetoprima-sulfametoxazol. En la complicada se necesitan 5 a 7 días.', fu:[1]},
-  {t:'Tratar hasta que el urocultivo salga negativo', fb:'La duración se fija por días de tratamiento efectivo y evolución clínica, no por repetir cultivos.', fu:[0]}]},
+  {t:'7 días con betalactámico (5 a 7 con fluoroquinolona), desde el primer día de tratamiento efectivo', ok:1, fb:'Es la duración que señalan las guías para infección complicada con buena respuesta. Se cuenta desde el primer día de terapia activa.', fu:[0,1]},
+  {t:'3 días con trimetoprima-sulfametoxazol, igual que en la cistitis', fb:'Los 3 días corresponden a cistitis no complicada con trimetoprima-sulfametoxazol. En la complicada se necesitan 5 a 7 días.', fu:[1]},
+  {t:'Tratar hasta que un urocultivo de control salga negativo', fb:'La duración se fija por días de tratamiento efectivo y evolución clínica, no por repetir cultivos.', fu:[0]}]},
  {q:'Llega el urocultivo con el germen y su antibiograma. ¿Qué haces?', o:[
   {t:'Ajustar el antibiótico según el antibiograma', ok:1, fb:'El tratamiento definitivo se elige con el cultivo, para no dejar un fármaco al que el germen es resistente ni usar uno de espectro excesivo.', fu:[0]},
+  {t:'Cambiar siempre a un carbapenem para cubrir cualquier resistencia', fb:'El tratamiento definitivo se dirige con el urocultivo. Ampliar el espectro sin necesidad no está indicado.', fu:[0]},
   {t:'Mantener el empírico sin mirar el resultado, porque ya mejoró', fb:'El cultivo sirve para dirigir el tratamiento definitivo. Un germen resistente puede recaer aunque haya mejoría inicial.', fu:[0]}]}
  ]},
 {id:'ascitis', n:'Cirrosis con ascitis y fiebre', c:'Gastroenterología',
@@ -2081,28 +2086,28 @@ CASOS.push(
  pasos:[
  {q:'¿Qué haces primero con el líquido ascítico?', o:[
   {t:'Paracentesis diagnóstica con recuento celular (PMN, polimorfonucleares)', ok:1, fb:'En un paciente con ascitis y fiebre se debe tomar líquido y contar los PMN. Se pide el recuento siempre que se obtiene líquido ascítico.', fu:[0]},
-  {t:'Empezar diuréticos y esperar la respuesta', fb:'Con fiebre y dolor hay que descartar infección del líquido antes de dar por sentado que es solo ascitis.', fu:[0]},
-  {t:'Dar un analgésico y observar 24 horas', fb:'Retrasar el análisis del líquido retrasa el diagnóstico de la infección.', fu:[0]}]},
+  {t:'Empezar espironolactona y furosemida y esperar la respuesta clínica', fb:'Con fiebre y dolor hay que descartar infección del líquido antes de dar por sentado que es solo ascitis.', fu:[0]},
+  {t:'Dar paracetamol y observar la evolución durante 24 horas', fb:'Retrasar el análisis del líquido retrasa el diagnóstico de la infección.', fu:[0]}]},
  {q:'El líquido tiene 480 PMN/mm³. ¿Cómo lo interpretas?', o:[
   {t:'Peritonitis bacteriana espontánea: más de 250 PMN es compatible', ok:1, fb:'Un recuento de más de 250 PMN en el líquido ascítico de un paciente con cirrosis es compatible con peritonitis bacteriana espontánea.', fu:[0]},
   {t:'Líquido normal, el límite de infección es 1000 PMN', fb:'El punto de corte es más de 250 PMN.', fu:[0]},
   {t:'No se puede interpretar hasta que salga el cultivo', fb:'El recuento de PMN permite sospechar la infección sin esperar el cultivo.', fu:[0]}]},
  {q:'Ya resuelta la infección, ¿cómo manejas la ascitis a largo plazo?', o:[
-  {t:'Dieta con restricción de sodio, espironolactona más furosemida por vía oral en una dosis diaria, y suspender el diclofenaco', ok:1, fb:'La primera línea es la dieta baja en sodio con educación, la combinación de espironolactona y furosemida por vía oral una vez al día, y retirar los AINE (antiinflamatorios no esteroideos).', fu:[0]},
-  {t:'Solo restringir líquidos y seguir con el diclofenaco', fb:'Los AINE se retiran en la ascitis. La base es la restricción de sodio y los diuréticos.', fu:[0]},
-  {t:'Paracentesis cada semana como único tratamiento', fb:'La primera línea es la dieta baja en sodio con diuréticos. La paracentesis se reserva para la ascitis a tensión o refractaria.', fu:[0]}]}
+  {t:'Dieta baja en sodio, espironolactona más furosemida por vía oral una vez al día, y suspender el diclofenaco', ok:1, fb:'La primera línea es la dieta baja en sodio con educación, la combinación de espironolactona y furosemida por vía oral una vez al día, y retirar los AINE (antiinflamatorios no esteroideos).', fu:[0]},
+  {t:'Solo restringir líquidos a 1 L al día y mantener el diclofenaco', fb:'Los AINE se retiran en la ascitis. La base es la restricción de sodio y los diuréticos.', fu:[0]},
+  {t:'Paracentesis evacuadora semanal como único tratamiento, sin dieta ni diuréticos', fb:'La primera línea es la dieta baja en sodio con diuréticos. La paracentesis se reserva para la ascitis a tensión o refractaria.', fu:[0]}]}
  ]},
 {id:'pancrea', n:'Pancreatitis aguda biliar', c:'Gastroenterología',
  pres:'Varón de 50 años con dolor epigástrico intenso desde hace 8 horas que se irradia a la espalda, náuseas y vómitos. Lipasa muy elevada. La ecografía abdominal muestra litiasis vesicular sin dilatación de la vía biliar. Sin fiebre ni ictericia.',
  fu:[['ACG 2024: guía de pancreatitis aguda (Am J Gastroenterol 119:419-437), resumen en Guideline Central','https://guidelinecentral.com/guideline/12896']],
  pasos:[
  {q:'¿Cómo hidratas?', o:[
-  {t:'Cristaloide isotónico de forma moderadamente agresiva, mejor Ringer lactato que suero fisiológico, y reevaluar en 6 h', ok:1, fb:'La guía ACG 2024 prefiere Ringer lactato. Se ajusta con bolos si hay hipovolemia, y se reevalúa a las 6 h y durante las primeras 24 a 48 h para ver si baja el BUN (nitrógeno ureico). Hay que vigilar la sobrecarga en cardiópatas y nefrópatas.', fu:[0]},
-  {t:'Restringir líquidos para reposar el páncreas', fb:'La hidratación es parte central del manejo inicial.', fu:[0]},
-  {t:'Hidratación muy agresiva fija, sin reevaluar', fb:'La guía recomienda una estrategia moderadamente agresiva y reevaluar. Más volumen sin control aumenta el riesgo de sobrecarga.', fu:[0]}]},
+  {t:'Cristaloide isotónico moderadamente agresivo, mejor Ringer lactato que suero fisiológico, y reevaluar', ok:1, fb:'La guía ACG 2024 prefiere Ringer lactato. Se ajusta con bolos si hay hipovolemia, y se reevalúa a las 6 h y durante las primeras 24 a 48 h para ver si baja el BUN (nitrógeno ureico). Hay que vigilar la sobrecarga en cardiópatas y nefrópatas.', fu:[0]},
+  {t:'Restringir líquidos y mantener ayuno para reposar el páncreas', fb:'La hidratación es parte central del manejo inicial.', fu:[0]},
+  {t:'Hidratación muy agresiva a velocidad fija durante 48 horas, sin reevaluar', fb:'La guía recomienda una estrategia moderadamente agresiva y reevaluar. Más volumen sin control aumenta el riesgo de sobrecarga.', fu:[0]}]},
  {q:'Con el dolor controlado, ¿cuándo y cómo lo alimentas?', o:[
   {t:'Vía oral dentro de 24 a 48 h según tolerancia, con dieta sólida baja en grasa', ok:1, fb:'La guía favorece la alimentación oral temprana y una dieta sólida baja en grasa desde el inicio, en lugar de avanzar por etapas.', fu:[0]},
-  {t:'Ayuno hasta que la lipasa se normalice', fb:'No hace falta esperar la normalización de la lipasa. La alimentación oral temprana se recomienda cuando el paciente la tolera.', fu:[0]},
+  {t:'Ayuno completo hasta que la lipasa se normalice y el dolor desaparezca', fb:'No hace falta esperar la normalización de la lipasa. La alimentación oral temprana se recomienda cuando el paciente la tolera.', fu:[0]},
   {t:'Líquidos claros por varios días y luego avanzar paso a paso', fb:'La dieta sólida baja en grasa desde el inicio se prefiere frente al avance por etapas.', fu:[0]}]},
  {q:'No hay colangitis y mejora. ¿Cómo manejas la vesícula?', o:[
   {t:'Colecistectomía temprana, de preferencia antes del alta, si la pancreatitis biliar es leve', ok:1, fb:'La guía recomienda la colecistectomía precoz, de preferencia durante la misma hospitalización en la pancreatitis biliar leve. La CPRE (colangiopancreatografía retrógrada endoscópica) se reserva para colangitis, en menos de 24 h.', fu:[0]},
@@ -2110,6 +2115,7 @@ CASOS.push(
   {t:'Alta y programar la cirugía para dentro de varios meses', fb:'La guía prefiere operar antes del alta en la pancreatitis biliar leve.', fu:[0]}]},
  {q:'Evoluciona a pancreatitis grave con necrosis, sin fiebre ni signos de infección. ¿Antibiótico profiláctico?', o:[
   {t:'No. Los antibióticos se reservan para la necrosis infectada', ok:1, fb:'La guía no recomienda antibióticos profilácticos en la pancreatitis grave. Se indican si hay infección de la necrosis.', fu:[0]},
+  {t:'Solo si la tomografía muestra necrosis, iniciar antibiótico por 7 días', fb:'La guía no recomienda antibióticos profilácticos ni tomografía temprana de rutina. Los antibióticos se indican si hay necrosis infectada.', fu:[0]},
   {t:'Sí, un carbapenem de forma profiláctica por 14 días', fb:'La guía ACG 2024 no recomienda profilaxis antibiótica en la pancreatitis grave.', fu:[0]}]}
  ]},
 {id:'hda', n:'Hemorragia digestiva alta no variceal por úlcera', c:'Gastroenterología',
@@ -2117,32 +2123,35 @@ CASOS.push(
  fu:[['ACG 2021: hemorragia digestiva alta y úlcera (Am J Gastroenterol 116:899-917)','https://pubmed.ncbi.nlm.nih.gov/33929377/'],['ACG 2021, resumen en Guideline Central','https://guidelinecentral.com/guideline/325721']],
  pasos:[
  {q:'En el control la Hb cae a 6,7 g/dL. ¿Qué haces?', o:[
-  {t:'Transfundir concentrado de hematíes con umbral de Hb de 7 g/dL (estrategia restrictiva)', ok:1, fb:'La guía recomienda una estrategia restrictiva con umbral de Hb de 7 g/dL. Con 6,7 ya corresponde transfundir.', fu:[0,1]},
-  {t:'Transfundir hasta llevar la Hb a 12', fb:'La guía recomienda la estrategia restrictiva, con umbral de 7 g/dL.', fu:[0]},
-  {t:'Esperar a que baje a 5 antes de transfundir', fb:'El umbral de 7 g/dL ya se cruzó.', fu:[0,1]}]},
+  {t:'Transfundir con umbral de Hb de 7 g/dL (estrategia restrictiva)', ok:1, fb:'La guía recomienda una estrategia restrictiva con umbral de Hb de 7 g/dL. Con 6,7 ya corresponde transfundir.', fu:[0,1]},
+  {t:'Transfundir hasta llevar la Hb a 12 g/dL para tener margen', fb:'La guía recomienda la estrategia restrictiva, con umbral de 7 g/dL.', fu:[0]},
+  {t:'Esperar a que la Hb baje a 5 g/dL antes de transfundir', fb:'El umbral de 7 g/dL ya se cruzó.', fu:[0,1]}]},
  {q:'¿Cuándo haces la endoscopia?', o:[
   {t:'Dentro de las 24 h desde la presentación, una vez reanimado', ok:1, fb:'La guía recomienda la endoscopia dentro de las 24 horas desde la presentación.', fu:[0,1]},
-  {t:'En una semana, de forma ambulatoria', fb:'Esa demora no es adecuada con una hemorragia activa y compromiso hemodinámico. El tiempo recomendado es 24 h.', fu:[0]},
-  {t:'Solo si vuelve a sangrar', fb:'La endoscopia temprana permite identificar la lesión y tratarla.', fu:[0]}]},
+  {t:'En una semana, de forma ambulatoria y programada', fb:'Esa demora no es adecuada con una hemorragia activa y compromiso hemodinámico. El tiempo recomendado es 24 h.', fu:[0]},
+  {t:'Solo si vuelve a sangrar o la Hb sigue cayendo', fb:'La endoscopia temprana permite identificar la lesión y tratarla.', fu:[0]}]},
  {q:'En la endoscopia hay una úlcera duodenal con un vaso visible no sangrante. ¿Qué haces?', o:[
-  {t:'Terapia endoscópica en el mismo acto', ok:1, fb:'La guía indica terapia endoscópica en úlceras con sangrado activo (en chorro o en napa) y en las que tienen vaso visible no sangrante.', fu:[0,1]},
+  {t:'Terapia endoscópica de la lesión en el mismo acto de la endoscopia', ok:1, fb:'La guía indica terapia endoscópica en úlceras con sangrado activo (en chorro o en napa) y en las que tienen vaso visible no sangrante.', fu:[0,1]},
+  {t:'Cirugía de urgencia para suturar la úlcera', fb:'La guía indica terapia endoscópica en la lesión de alto riesgo. La embolización se reserva si la terapia endoscópica falla.', fu:[0,1]},
   {t:'Solo inhibidor de bomba de protones oral y observar', fb:'El vaso visible es una lesión de alto riesgo de resangrado y requiere terapia endoscópica.', fu:[0,1]}]},
  {q:'Tras la hemostasia endoscópica, ¿qué indicas con el inhibidor de bomba de protones y qué haces si resangra?', o:[
-  {t:'Dosis alta de IBP (continuo o intermitente) por 3 días. Si resangra, repetir la endoscopia y, si falla, embolización', ok:1, fb:'Es lo que recomienda la guía: IBP en dosis alta por 3 días tras la hemostasia, nueva endoscopia ante resangrado y embolización si la terapia endoscópica no controla el sangrado.', fu:[0,1]},
-  {t:'Suspender el IBP al terminar la endoscopia', fb:'Después de la hemostasia se mantiene IBP en dosis alta durante 3 días.', fu:[0,1]}]}
+  {t:'IBP en dosis alta por 3 días y, si resangra, nueva endoscopia o embolización si falla', ok:1, fb:'Es lo que recomienda la guía: IBP en dosis alta por 3 días tras la hemostasia, nueva endoscopia ante resangrado y embolización si la terapia endoscópica no controla el sangrado.', fu:[0,1]},
+  {t:'IBP oral en dosis estándar por 1 semana y alta con control en consulta', fb:'Tras la hemostasia endoscópica se mantiene IBP en dosis alta durante 3 días.', fu:[0,1]},
+  {t:'Suspender el IBP al terminar la endoscopia y reiniciarlo solo si resangra', fb:'Después de la hemostasia se mantiene IBP en dosis alta durante 3 días.', fu:[0,1]}]}
  ]},
 {id:'zoster', n:'Herpes zóster en una adulta mayor', c:'Dermatología',
  pres:'Mujer de 70 años con dolor ardoroso en el hemitórax derecho desde hace 3 días. Desde ayer tiene vesículas agrupadas sobre una base roja, en una banda que no cruza la línea media. Sin fiebre. Sin inmunosupresión conocida.',
  fu:[['AAFP: herpes zóster, antivirales y tiempos (2006)','https://www.aafp.org/pubs/afp/issues/2006/0301/p882.html'],['CDC: vacunación contra el herpes zóster','https://www.cdc.gov/shingles/vaccines']],
  pasos:[
  {q:'¿Qué antiviral indicas y cuándo?', o:[
-  {t:'Valaciclovir 1 g cada 8 h por 7 días, empezando dentro de las 72 h del inicio de las lesiones', ok:1, fb:'Las opciones con evidencia son aciclovir 800 mg cinco veces al día, valaciclovir 1 g cada 8 h o famciclovir 500 mg cada 12 h, todas por 7 días. Acelera la resolución del dolor y la guía prefiere valaciclovir o famciclovir en mayores de 50 sin inmunosupresión.', fu:[0]},
-  {t:'Esperar el cultivo viral para empezar', fb:'El diagnóstico es clínico y el tratamiento es más útil cuando se empieza dentro de las primeras 72 h.', fu:[0]},
+  {t:'Valaciclovir 1 g cada 8 h por 7 días, dentro de las 72 h del inicio de las lesiones', ok:1, fb:'Las opciones con evidencia son aciclovir 800 mg cinco veces al día, valaciclovir 1 g cada 8 h o famciclovir 500 mg cada 12 h, todas por 7 días. Acelera la resolución del dolor y la guía prefiere valaciclovir o famciclovir en mayores de 50 sin inmunosupresión.', fu:[0]},
+  {t:'Esperar el cultivo viral antes de iniciar cualquier antiviral', fb:'El diagnóstico es clínico y el tratamiento es más útil cuando se empieza dentro de las primeras 72 h.', fu:[0]},
   {t:'Solo analgésicos, porque los antivirales son para inmunodeprimidos', fb:'Los antivirales aceleran la resolución del dolor en el paciente inmunocompetente, sobre todo mayor de 50 años.', fu:[0]}]},
  {q:'Se recupera. ¿Qué recomiendas para prevenir otro episodio?', o:[
-  {t:'Vacuna recombinante contra el zóster (Shingrix), 2 dosis separadas por 2 a 6 meses, aunque ya haya tenido zóster', ok:1, fb:'Los CDC recomiendan 2 dosis de la vacuna recombinante en mayores de 50 años, incluso si ya tuvieron zóster.', fu:[1]},
-  {t:'No vacunar, porque ya tuvo la enfermedad', fb:'Los CDC indican vacunar aunque haya tenido zóster antes.', fu:[1]},
-  {t:'Una sola dosis es suficiente', fb:'El esquema es de 2 dosis separadas por 2 a 6 meses.', fu:[1]}]}
+  {t:'Vacuna recombinante (Shingrix), 2 dosis separadas por 2 a 6 meses, aunque ya haya tenido zóster', ok:1, fb:'Los CDC recomiendan 2 dosis de la vacuna recombinante en mayores de 50 años, incluso si ya tuvieron zóster.', fu:[1]},
+  {t:'Vacunar recién a partir de los 65 años, con refuerzo cada 5 años', fb:'Los CDC recomiendan la vacuna recombinante desde los 50 años.', fu:[1]},
+  {t:'No vacunar, porque ya tuvo la enfermedad y quedó inmune de por vida', fb:'Los CDC indican vacunar aunque haya tenido zóster antes.', fu:[1]},
+  {t:'Una sola dosis de la vacuna recombinante es suficiente a su edad', fb:'El esquema es de 2 dosis separadas por 2 a 6 meses.', fu:[1]}]}
  ]},
 {id:'acne', n:'Acné severo e isotretinoína', c:'Dermatología',
  pres:'Mujer de 22 años con acné nodular en cara y espalda desde hace 3 años, con cicatrices y mucho malestar emocional. Ya probó peróxido de benzoílo, un retinoide tópico y un ciclo de antibiótico oral, sin mejoría.',
@@ -2150,12 +2159,12 @@ CASOS.push(
  pasos:[
  {q:'¿Qué opción terapéutica corresponde?', o:[
   {t:'Isotretinoína oral, por acné grave con cicatrices y falla de la terapia estándar', ok:1, fb:'La isotretinoína se indica en acné grave, con cicatrices o gran carga psicosocial, o cuando falla el tratamiento tópico y oral habitual.', fu:[0,1]},
-  {t:'Repetir otro ciclo de antibiótico oral', fb:'Ya falló la terapia estándar. Repetirla sin cambiar la estrategia no es la mejor opción.', fu:[0]},
-  {t:'Solo cambiar de cremas tópicas', fb:'El acné nodular con cicatrices, tras falla de tópicos y antibiótico, es indicación de isotretinoína.', fu:[0,1]}]},
+  {t:'Repetir otro ciclo de antibiótico oral con una dosis más alta', fb:'Ya falló la terapia estándar. Repetirla sin cambiar la estrategia no es la mejor opción.', fu:[0]},
+  {t:'Solo cambiar de cremas tópicas y esperar 3 meses más', fb:'El acné nodular con cicatrices, tras falla de tópicos y antibiótico, es indicación de isotretinoína.', fu:[0,1]}]},
  {q:'Antes de empezar, ¿qué indicas?', o:[
-  {t:'Descartar embarazo y exigir anticoncepción eficaz (es teratogénica), con control basal y periódico de función hepática y lípidos', ok:1, fb:'La isotretinoína es teratogénica, con contraindicación absoluta en el embarazo, y exige un programa de prevención. Se monitorizan la función hepática y los lípidos como buena práctica.', fu:[1,2]},
-  {t:'Nada especial: se indica como cualquier antibiótico', fb:'Requiere prevención de embarazo y controles de laboratorio.', fu:[1,2]},
-  {t:'Solo anticoncepción si ella planea tener hijos pronto', fb:'La prevención de embarazo es obligatoria en toda mujer en edad fértil durante el tratamiento.', fu:[1,2]}]}
+  {t:'Descartar embarazo, anticoncepción eficaz (es teratogénica) y control de función hepática y lípidos', ok:1, fb:'La isotretinoína es teratogénica, con contraindicación absoluta en el embarazo, y exige un programa de prevención. Se monitorizan la función hepática y los lípidos como buena práctica.', fu:[1,2]},
+  {t:'Nada especial: se indica igual que cualquier antibiótico oral y se controla en 6 meses', fb:'Requiere prevención de embarazo y controles de laboratorio.', fu:[1,2]},
+  {t:'Anticoncepción solo si planea tener hijos pronto, sin controles de laboratorio', fb:'La prevención de embarazo es obligatoria en toda mujer en edad fértil durante el tratamiento.', fu:[1,2]}]}
  ]},
 {id:'urtica', n:'Urticaria crónica espontánea', c:'Dermatología',
  pres:'Varón de 22 años con ronchas pruriginosas casi todos los días desde hace 3 meses. Cada lesión dura menos de 24 horas y desaparece sin dejar marca. Sin fiebre ni otros síntomas. Examen sin otros hallazgos.',
@@ -2163,14 +2172,15 @@ CASOS.push(
  pasos:[
  {q:'¿Cómo la clasificas y qué tratamiento inicial indicas?', o:[
   {t:'Crónica (más de 6 semanas). Antihistamínico H1 de segunda generación', ok:1, fb:'La urticaria aguda dura hasta 6 semanas y la crónica más de 6. El tratamiento de primera línea es un antihistamínico H1 de segunda generación.', fu:[0,2]},
-  {t:'Prednisona 20 mg al día durante 3 meses', fb:'Se debe evitar el corticoide sistémico prolongado. Solo se considera un ciclo corto en una exacerbación aguda.', fu:[0,2]},
+  {t:'Prednisona 20 mg al día durante 3 meses y luego reducir', fb:'Se debe evitar el corticoide sistémico prolongado. Solo se considera un ciclo corto en una exacerbación aguda.', fu:[0,2]},
   {t:'Pedir una batería amplia de estudios antes de tratar', fb:'Los estudios son limitados. No se piden pruebas de rutina de forma indiscriminada.', fu:[0,2]}]},
  {q:'Sigue con ronchas tras 2 a 4 semanas con la dosis estándar. ¿Qué haces?', o:[
   {t:'Subir la dosis del antihistamínico hasta 4 veces la estándar', ok:1, fb:'La guía indica aumentar la dosis hasta 4 veces si no hay respuesta.', fu:[0,2]},
-  {t:'Pasar directamente a ciclosporina', fb:'La ciclosporina se reserva para los que no responden al antihistamínico en dosis altas ni al omalizumab.', fu:[0,2]},
-  {t:'Dar corticoide oral de forma continua', fb:'No se recomienda el corticoide sistémico a largo plazo.', fu:[0,2]}]},
+  {t:'Pasar directamente a ciclosporina para controlar las ronchas', fb:'La ciclosporina se reserva para los que no responden al antihistamínico en dosis altas ni al omalizumab.', fu:[0,2]},
+  {t:'Dar corticoide oral de forma continua hasta que desaparezcan', fb:'No se recomienda el corticoide sistémico a largo plazo.', fu:[0,2]}]},
  {q:'Persiste con la dosis aumentada. ¿Qué agregas?', o:[
-  {t:'Omalizumab', ok:1, fb:'Es el siguiente paso si no hay respuesta al antihistamínico en dosis altas. Si tampoco responde, se considera ciclosporina. La actualización 2026 incluye además dupilumab y remibrutinib.', fu:[0,1,2]},
+  {t:'Omalizumab, por falta de respuesta a dosis altas', ok:1, fb:'Es el siguiente paso si no hay respuesta al antihistamínico en dosis altas. Si tampoco responde, se considera ciclosporina. La actualización 2026 incluye además dupilumab y remibrutinib.', fu:[0,1,2]},
+  {t:'Ciclosporina como siguiente paso, antes del omalizumab', fb:'Tras los antihistamínicos en dosis altas el siguiente paso es omalizumab. La ciclosporina se considera si no responde a ambos.', fu:[0,2]},
   {t:'Suspender todo y observar', fb:'La urticaria crónica espontánea suele necesitar escalar el tratamiento hasta controlarla.', fu:[0,2]}]}
  ]},
 {id:'sarna', n:'Escabiosis (sarna)', c:'Dermatología',
@@ -2179,13 +2189,15 @@ CASOS.push(
  pasos:[
  {q:'¿Qué tratamiento tópico indicas?', o:[
   {t:'Permetrina al 5 % en crema, del cuello hacia abajo, y lavar a las 8 a 14 horas', ok:1, fb:'Es una de las primeras opciones de los CDC. Se aplica en todo el cuerpo desde el cuello y se retira tras 8 a 14 horas. La causa más frecuente de falla es una aplicación incompleta.', fu:[0,1,2]},
-  {t:'Aplicarla solo sobre las lesiones visibles', fb:'La crema debe cubrir todo el cuerpo del cuello hacia abajo, no solo las lesiones.', fu:[0,1]},
-  {t:'Aplicarla 30 minutos y lavar', fb:'El tiempo de contacto indicado es de 8 a 14 horas.', fu:[0,1]}]},
+  {t:'Aplicarla solo sobre las lesiones visibles y lavar a la mañana siguiente', fb:'La crema debe cubrir todo el cuerpo del cuello hacia abajo, no solo las lesiones.', fu:[0,1]},
+  {t:'Aplicarla por 30 minutos en todo el cuerpo y luego lavar', fb:'El tiempo de contacto indicado es de 8 a 14 horas.', fu:[0,1]}]},
  {q:'Prefiere un tratamiento oral. ¿Qué esquema usas?', o:[
   {t:'Ivermectina 200 µg/kg por vía oral y repetir a los 14 días', ok:1, fb:'La ivermectina tiene poca actividad contra los huevos, por eso se repite la dosis a los 14 días.', fu:[0,1]},
-  {t:'Una dosis única de ivermectina', fb:'Con una sola dosis pueden sobrevivir las larvas que nacen de los huevos. Se repite a los 14 días.', fu:[0,1]}]},
+  {t:'Ivermectina 100 µg/kg por vía oral y repetir a los 14 días', fb:'La dosis es de 200 µg/kg, repetida a los 14 días.', fu:[0,1]},
+  {t:'Una sola dosis de ivermectina oral 200 µg/kg', fb:'Con una sola dosis pueden sobrevivir las larvas que nacen de los huevos. Se repite a los 14 días.', fu:[0,1]}]},
  {q:'Otro paciente tiene sarna costrosa (placas gruesas con muchas costras). ¿Cómo lo tratas?', o:[
-  {t:'Terapia combinada, tópica más ivermectina oral', ok:1, fb:'La sarna costrosa tiene una carga enorme de ácaros y se trata con tratamiento combinado.', fu:[0,1]},
+  {t:'Terapia combinada, tópica más ivermectina oral', ok:1, fb:'La sarna costrosa se trata con tratamiento combinado: tópico más ivermectina oral.', fu:[0,1]},
+  {t:'Ivermectina oral en dosis única, sin tratamiento tópico', fb:'En la sarna costrosa se recomienda combinar un tratamiento tópico con ivermectina oral.', fu:[0,1]},
   {t:'Solo permetrina, como la sarna común', fb:'En la forma costrosa se recomienda la combinación de un tópico con ivermectina oral.', fu:[0,1]}]}
  ]}
 );
