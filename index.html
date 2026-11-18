@@ -1765,7 +1765,7 @@ const CALCS = [
   }, ref:'Zuberbier, Allergy 2022 (guía EAACI/GA²LEN/EuroGuiDerm/APAAACI); Młynek, Allergy 2008.'}
 ];
 const CALC_FU = {"nacambio": [["Revisión MDCalc: corrección de sodio", "https://mdcalc.scholasticahq.com/article/158150-updated-review-of-sodium-correction-rate-in-hyponatremia-and-hypernatremia"], ["Fórmula Adrogué-Madias", "https://www.evigrade.com/en/calculators/adrogue-madias"], ["WikEM: hiponatremia", "https://wikem.org/wiki/Hyponatremia"]], "naglu": [["Factores 1,6 y 2,4 (Cardioteca)", "https://www.cardioteca.com/calculadoras-cardiologia-clinica/8737-calculadora-sodio-corregido-calcio-corregido-anion-gap-presion-arterial-media.html"]], "aguadef": [["WikEM: hipernatremia", "https://wikem.org/wiki/Hypernatremia"], ["Protocolo de hipernatremia", "https://mediscuss.org/cdss/acute-hypernatraemia"]], "brecha": [["Revisión MDCalc: brecha aniónica", "https://mdcalc.scholasticahq.com/article/154676-updated-review-of-serum-anion-gap"], ["WikEM: brecha aniónica y delta-delta", "https://wikem.org/wiki/Anion_gap"], ["Figge 1998 (resumen)", "https://data.zhenzhi.com/details/1/873802764"]], "cacorr": [["Fórmula de Payne y límites", "https://www.journalmetrics.org/clinical-calculators/corrected-calcium"], ["Calcio corregido (Evigrade)", "https://www.evigrade.com/en/calculators/corrected-calcium"]], "child": [["WikEM: Child-Pugh", "https://wikem.org/wiki/Child-Pugh_score_calculator"]], "meld": [["MELD 3.0 (Univ. de Washington)", "https://www.hepatitisc.uw.edu/page/clinical-calculators/meld"], ["MELD 3.0 (Manual Merck)", "https://www.merckmanuals.com/iframe/manual/medical-calculators/meld3.htm"], ["Fórmulas MELD, MELD-Na y 3.0", "https://casrai.org/guides/meld-score"]], "gbs": [["Radiopaedia: Glasgow-Blatchford", "https://radiopaedia.org/articles/glasgow-blatchford-score-2"], ["ACG hemorragia digestiva alta 2021", "https://pubmed.ncbi.nlm.nih.gov/33929377/"]], "bisap": [["Manual MSD: BISAP", "https://www.msdmanuals.com/iframe/manual/medical-calculators/bisapscore.htm"], ["Wu 2008, Gut", "https://www.qxmd.com/pubmed/18519429"]], "uas7": [["UAS7 y categorías (protocolo)", "https://cdn.clinicaltrials.gov/large-docs/55/NCT04833855/Prot_000.pdf"], ["Bandas del UAS7 (Springer)", "https://link.springer.com/article/10.1007/s40257-017-0331-8"], ["AAD: guía de urticaria", "https://www.aad.org/guidelines/collaborations-urticaria"]]};
-const CLIN_NEXT = ['Errores que no se pueden cometer','Diagnóstico diferencial','Lectura de datos'];
+const CLIN_NEXT = ['Diagnóstico diferencial','Lectura de datos'];
 const clGroups = () => [...new Set(CALCS.map(c => c.g))];
 function clField(c, f){
   const dv = c.def && c.def[f.k] !== undefined ? c.def[f.k] : '';
@@ -1889,14 +1889,50 @@ function vCaso(){
   }
   return '<div class="stack">'+back+head+(i === 0 ? '<div class="panel cl-ctx">'+esc(k.pres)+'</div>' : '')+'<p class="label">'+esc(p.q)+'</p><div class="stack" style="gap:10px">'+ops+'</div>'+fb+'</div>';
 }
+const ERRS = [
+{c:'Nefrología', e:'Darle poco calcio, o ninguno, al paciente con hiperpotasemia y cambios en el ECG', p:'Con cambios en el ECG el calcio IV va primero: gluconato al 10 %, 30 mL (3 ampollas, no una) en 10 minutos, con monitor. Protege el corazón 30 a 60 minutos pero no baja el potasio, así que después hay que mover el potasio a la célula (insulina con glucosa) y eliminarlo.', s:['c:hiperk:0,2,5','f:Tratamiento de la hiper:0,1,2']},
+{c:'Nefrología', e:'Usar salbutamol nebulizado como único tratamiento de la hiperpotasemia', p:'Es complemento de la insulina con glucosa. Una parte de los pacientes no responde, por eso no se usa solo.', s:['c:hiperk:0,4']},
+{c:'Nefrología', e:'Subir el sodio más de 8 mEq/L en 24 h en un paciente con riesgo alto de desmielinización', p:'Alcoholismo, desnutrición, hipopotasemia y sodio muy bajo son riesgo alto: tope de 8 en 24 h, con meta de 4 a 6. Si se pasó del límite, se vuelve a bajar con desmopresina y dextrosa al 5 %, con sodio seriado.', s:['c:hipona:1,2,4,6']},
+{c:'Nefrología', e:'Suspender el IECA o ARA II porque la creatinina subió un poco', p:'Se continúa salvo que la creatinina suba más de 30 % en 4 semanas o haya hiperpotasemia refractaria. Se puede seguir aunque la TFG baje de 30. Revisar presión, creatinina y potasio a las 2 a 4 semanas.', s:['f:IECA:0,1,2']},
+{c:'Nefrología', e:'No suspender el iSGLT2 antes de una cirugía programada', p:'Se suspende 3 días antes por riesgo de cetoacidosis (advertencia de la FDA, 2020). También se pausa en días de enfermedad con vómitos o diarrea.', s:['f:iSGLT2:2,0']},
+{c:'Nefrología', e:'Indicar AINE en cirrosis con ascitis o en ERC avanzada', p:'Aumentan el riesgo de lesión renal en ambos escenarios.', s:['f:AINE:0,1,2']},
+{c:'Gastroenterología', e:'Transfundir a un paciente con hemorragia variceal para llevar la Hb a 10 o más', p:'La estrategia restrictiva (transfundir cerca de Hb 7, meta 7 a 9) se asoció a mayor supervivencia que la liberal. La excepción es el sangrado masivo o la enfermedad cardiovascular activa.', s:['c:varices:0,3','f:Octreotide:0,2']},
+{c:'Gastroenterología', e:'Postergar la endoscopia en la hemorragia variceal', p:'Debe hacerse dentro de las 12 h de la llegada, con el paciente estable. Antes se inicia el vasoactivo (octreotide, terlipresina o somatostatina) y el antibiótico.', s:['c:varices:1,2']},
+{c:'Gastroenterología', e:'Dejar la ceftriaxona profiláctica sin fecha de término, o cambiarla por una quinolona', p:'Ceftriaxona 1 g cada 24 h, máximo 7 días. Puede suspenderse antes si el sangrado cedió y se retiró el vasoactivo. La resistencia a quinolonas está muy extendida.', s:['c:varices:2,3']},
+{c:'Gastroenterología', e:'No hacer paracentesis diagnóstica al cirrótico con ascitis que ingresa, u omitir la albúmina en la PBE', p:'La paracentesis diagnóstica se hace a todo cirrótico con ascitis que ingresa. En la peritonitis bacteriana espontánea (PBE) la albúmina previene la lesión renal y baja la mortalidad.', s:['f:Ceftriaxona:0,1,3']},
+{c:'Gastroenterología', e:'Mantener el betabloqueante en el cirrótico con hipotensión, lesión renal, PBE o sodio bajo', p:'Se suspende o reduce si la presión sistólica baja de 90 mmHg, hay lesión renal aguda, PBE o sodio menor de 125. Se reinicia cuando se normalizan.', s:['f:Propranolol:0,1,2']},
+{c:'Gastroenterología', e:'Cambiar tetraciclina por doxiciclina en el esquema con bismuto, o usar triple con claritromicina sin sensibilidad', p:'La guía ACG 2024 indica no sustituir tetraciclina por doxiciclina y desaconseja la triple con claritromicina salvo que se pruebe sensibilidad.', s:['f:Esquema:0,1']},
+{c:'Gastroenterología', e:'Dar lactulosa sin buscar el desencadenante de la encefalopatía, o en dosis que no se ajustan', p:'Siempre se busca y trata el desencadenante. El exceso de lactulosa causa deshidratación, hipernatremia e irritación perianal; la dosis baja deja pasar recaídas.', s:['f:Lactulosa:0,1']},
+{c:'Gastroenterología', e:'Restringir líquidos a 1 L en el cirrótico con ascitis sin mirar el sodio', p:'La restricción a 1 L es solo si el sodio es 125 o menos. Los diuréticos pueden causar lesión renal aguda, hiponatremia y alteraciones del potasio, por eso se controlan peso, creatinina y sodio.', s:['f:Espironolactona:0,1,2']},
+{c:'Dermatología', e:'Prescribir metotrexato sin dejar claro que es semanal', p:'Error mortal frecuente: tomar la dosis semanal todos los días. Se escribe siempre el día de la semana en la receta. Está contraindicado en embarazo.', s:['f:Metotrexato:0,1,2']},
+{c:'Dermatología', e:'Indicar isotretinoína sin control de embarazo ni anticoncepción', p:'Es teratógena. En mujeres que pueden embarazarse exige prueba de embarazo mensual negativa y dos métodos anticonceptivos (programa iPLEDGE). Perfil lipídico y transaminasas al inicio y alrededor del mes 2.', s:['f:Isotretinoína:0,2,3']},
+{c:'Dermatología', e:'Tratar la anafilaxia con antihistamínico o corticoide primero', p:'La epinefrina IM en el muslo es la primera línea y su demora aumenta la morbilidad y mortalidad. Los antihistamínicos y corticoides son de segunda línea. Si no mejora, se repite cada 5 a 15 minutos.', s:['c:anafi:0,1,2']},
+{c:'Dermatología', e:'Suspender de golpe un curso largo de prednisona', p:'Los cursos largos de corticoide no se suspenden de golpe. Se vigilan glucosa, presión y estado de ánimo.', s:['f:Prednisona:0,1,2']}
+];
+function errSrc(list){
+  const out = [];
+  list.forEach(t => { const [k, key, idx] = t.split(':'), ix = idx.split(',').map(Number);
+    const base = k === 'c' ? (CASOS.find(x => x.id === key) || {}).fu : (FARM.find(x => x.n.startsWith(key)) || {}).fu;
+    if(base) ix.forEach(j => { if(base[j] && !out.some(o => o[1] === base[j][1])) out.push(base[j]); }); });
+  return out;
+}
+function vErr(){
+  const cs = ['Nefrología','Gastroenterología','Dermatología'];
+  return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>'+
+    '<h2 class="cl-h">ERRORES QUE NO SE PUEDEN COMETER</h2>'+
+    '<div class="panel cl-ctx">Errores de guardia que se repiten y que las guías señalan de forma explícita. Cada uno dice qué hacer en su lugar y de dónde sale. Todo viene de las mismas fuentes de las fichas y los casos; si algo no se pudo confirmar, no está aquí.</div>'+
+    cs.map(c => '<div><p class="label">'+esc(c.toUpperCase())+'</p><div class="stack" style="gap:12px">'+ERRS.filter(x => x.c === c).map(x => '<details class="cl-fa"><summary><b>'+esc(x.e)+'</b></summary><p>'+esc(x.p)+'</p>'+linksHtml(errSrc(x.s))+'</details>').join('')+'</div></div>').join('')+'</div>';
+}
 function vClin(){
   if(V.farm) return vFarm();
+  if(V.err) return vErr();
   if(V.caso) return vCaso();
   const c = CALCS.find(x => x.id === V.calc);
   if(!c){
     return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button></div>'+
       '<header><h2 class="cl-h">PRÁCTICA CLÍNICA</h2><p class="sub">Herramientas para la guardia y las rotaciones. Todo esto vive aparte: no cambia tu progreso, tus puntos ni las preguntas del examen.</p></header>'+
       '<div><p class="label">FICHAS</p><button class="btn act" data-act="clfarm"><b>FICHAS DE FÁRMACOS</b><span>'+FARM.length+' fichas: dosis, ajuste renal, interacciones y qué vigilar</span></button></div>'+
+      '<div><p class="label">REPASO RÁPIDO</p><button class="btn act" data-act="clerr"><b>ERRORES QUE NO SE PUEDEN COMETER</b><span>'+ERRS.length+' errores de guardia, con qué hacer y la fuente</span></button></div>'+
       '<div><p class="label">CASOS DE GUARDIA</p><div class="cl-list">'+CASOS.map(x => '<button class="btn act" data-act="clcaso" data-id="'+x.id+'"><b>'+esc(x.n)+'</b><span>'+esc(x.c)+' · '+x.pasos.length+' decisiones</span></button>').join('')+'</div></div>'+
       clGroups().map(g => '<div><p class="label">'+esc(g)+'</p><div class="cl-list">'+CALCS.filter(x => x.g === g).map(x => '<button class="btn act" data-act="clcalc" data-id="'+x.id+'"><b>'+esc(x.n)+'</b></button>').join('')+'</div></div>').join('')+
       '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>'+
@@ -2098,6 +2134,7 @@ const A = {
   tarjeta: () => go({name:'tarjeta'}),
   clin: () => go({name:'clin', calc:null}),
   clfarm: () => go({name:'clin', farm:true}),
+  clerr: () => go({name:'clin', err:true}),
   clcaso: d => go({name:'clin', caso:d.id, paso:0, sel:null, err:0}),
   clop: d => { const k = CASOS.find(x => x.id === V.caso), o = k.pasos[V.paso].o[+d.i]; if(V.sel != null) return; V.sel = +d.i; if(!o.ok) V.err = (V.err||0)+1; render(); },
   clnext: () => { V.paso++; V.sel = null; render(); window.scrollTo(0,0); },
