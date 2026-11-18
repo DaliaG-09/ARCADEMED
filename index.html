@@ -1913,8 +1913,8 @@ const CSUIT = {'Nefrología':'♠','Gastroenterología':'♦','Dermatología':'�
 const CALCART = {nacambio:['Na±','#7cc8ff'], naglu:['Na+G','#9fe8ff'], aguadef:['H₂O','#6fd6c8'], brecha:['AG','#b9a6ff'], cacorr:['Ca','#ffe35c'], child:['C-P','#ffb36b'], meld:['MELD','#ff8a80'], gbs:['GBS','#a8f0a0'], bisap:['BISAP','#ffd27a'], uas7:['UAS7','#ff9ccf']};
 const GCOL = {'Digestivo':'#ffb36b','Hígado':'#a8f0a0','Riñón y electrolitos':'#7cc8ff','Piel':'#ff9ccf'};
 const nap = (cls, cur, art, title, sub, attrs, col) => '<button class="nap '+cls+'" style="--c:'+(col || CCOL[cur])+'" '+attrs+'><span class="k">'+CSUIT[cur]+'</span><span class="art">'+art+'</span><div class="tb"><span class="t">'+esc(title)+'</span>'+(sub ? '<p class="s">'+esc(sub)+'</p>' : '')+'</div><span class="k b">'+CSUIT[cur]+'</span></button>';
-const PCOL = {varices:'#ffb36b', hiperk:'#7cc8ff', hipona:'#9ff3b0', anafi:'#ff9ccf'};
-const deckPt = (attrs, id, t, d) => '<button class="deck pt" style="--c:'+PCOL[id]+';--rot:'+({varices:'-1.2deg',hiperk:'1deg',hipona:'-.8deg',anafi:'1.4deg'}[id])+'" '+attrs+'><svg class="face" viewBox="0 38 200 190" aria-hidden="true">'+simPat('llega', SIMS[id].pac)+'</svg><b>'+esc(t)+'</b><span class="d">'+esc(d)+'</span></button>';
+const PCOL = {varices:'#ffb36b', ascitis:'#ffb36b', hiperk:'#7cc8ff', aki:'#7cc8ff', zoster:'#7cc8ff', hipona:'#9ff3b0', pancrea:'#9ff3b0', hda:'#9ff3b0', anafi:'#ff9ccf', pielo:'#ff9ccf', acne:'#ff9ccf', nefro:'#ff8a80', urtica:'#ff8a80', sarna:'#ff8a80'};
+const deckPt = (attrs, id, t, d) => '<button class="deck pt" style="--c:'+PCOL[id]+';--rot:'+({varices:'-1.2deg',hiperk:'1deg',hipona:'-.8deg',anafi:'1.4deg'}[id] || (((id.charCodeAt(0) + id.length) % 5 - 2) * .7 + 'deg'))+'" '+attrs+'><svg class="face" viewBox="0 38 200 190" aria-hidden="true">'+simPat('llega', SIMS[id].pac)+'</svg><b>'+esc(t)+'</b><span class="d">'+esc(d)+'</span></button>';
 const deck = (attrs, art, t, d, c, wide, extra) => '<button class="deck'+(wide ? ' wide' : '')+'" style="--c:'+c+(extra || '')+'" '+attrs+'><span class="art">'+art+'</span><b>'+esc(t)+'</b><span class="d">'+esc(d)+'</span></button>';
 function napBody(k, i){
   if(k === 'fa'){ const f = FARM[i];
@@ -2024,6 +2024,171 @@ const CASOS = [
   {t:'Alta sin más indicaciones, porque ya pasó', fb:'Antes del alta el paciente debe recibir receta de epinefrina y control con alergología.', fu:[2]}]}
  ]}
 ];
+CASOS.push(
+{id:'aki', n:'Lesión renal aguda prerrenal por deshidratación y AINE', c:'Nefrología',
+ pres:'Mujer de 70 años con diarrea y vómitos hace 4 días. Tomó ibuprofeno para el dolor. PA 90/55, FC 110, mucosas secas. Creatinina 2,4 mg/dL (su valor basal es 1,0). Diuresis menor de 0,5 mL/kg/h durante las últimas 12 horas.',
+ fu:[['KDIGO: tabla de estadios de la lesión renal aguda (Crit Care Clin 2021)','https://pmc.ncbi.nlm.nih.gov/articles/PMC8157315/table/tbl1'],['KDIGO 2012: guía de lesión renal aguda (resumen, Kidney Int Suppl)','https://kdigo.org/wp-content/uploads/2017/04/KDIGO-AKI-Guideline_Cass-2014.pdf'],['Diuréticos en lesión renal aguda: recomendación 5.2.2 (PMC4089654)','https://pmc.ncbi.nlm.nih.gov/articles/PMC4089654']],
+ pasos:[
+ {q:'¿En qué estadio KDIGO (Kidney Disease: Improving Global Outcomes) de lesión renal aguda está?', o:[
+  {t:'Estadio 2: creatinina de 2,0 a 2,9 veces la basal y diuresis menor de 0,5 mL/kg/h por 12 h o más', ok:1, fb:'Su creatinina es 2,4 veces la basal y la oliguria lleva 12 h, lo que corresponde al estadio 2. El estadio manda sobre cuán urgente es el manejo y la vigilancia.', fu:[0]},
+  {t:'Estadio 1: creatinina de 1,5 a 1,9 veces la basal', fb:'2,4 veces la basal ya supera el rango del estadio 1.', fu:[0]},
+  {t:'Estadio 3: creatinina 3 veces la basal o más, o necesidad de diálisis', fb:'El estadio 3 pide 3 veces la basal, creatinina de 4,0 mg/dL o más, inicio de diálisis o diuresis menor de 0,3 mL/kg/h por 24 h.', fu:[0]}]},
+ {q:'Está hipovolémica y con un AINE (antiinflamatorio no esteroideo) en su historia. ¿Qué indicas primero?', o:[
+  {t:'Suspender el ibuprofeno y reponer volumen con cristaloides isotónicos', ok:1, fb:'La guía KDIGO recomienda cristaloides isotónicos y no coloides cuando no hay shock hemorrágico, y retirar los fármacos nefrotóxicos.', fu:[1]},
+  {t:'Furosemida IV para estimular la diuresis', fb:'KDIGO sugiere no usar diuréticos para prevenir o tratar la lesión renal aguda, salvo que haya sobrecarga de volumen. Aquí está deshidratada.', fu:[1,2]},
+  {t:'Reponer con coloides (por ejemplo almidón) para expandir más rápido', fb:'KDIGO recomienda cristaloides isotónicos en lugar de coloides cuando no hay shock hemorrágico.', fu:[1]}]},
+ {q:'Tras la reposición mejora la presión, pero aparece edema de pulmón y la diuresis sigue baja. ¿Qué haces?', o:[
+  {t:'Dar un diurético, porque ahora hay sobrecarga de volumen', ok:1, fb:'El diurético se reserva para la sobrecarga de volumen. No acelera la recuperación del riñón (recomendación 5.2.2, grado 2B).', fu:[1,2]},
+  {t:'Seguir con cristaloides a la misma velocidad', fb:'Con edema de pulmón hay sobrecarga y seguir reponiendo empeora el cuadro.', fu:[1]},
+  {t:'Dar furosemida en dosis altas para que el riñón se recupere antes', fb:'El diurético no mejora la recuperación renal. Se usa para tratar la sobrecarga, no para tratar la lesión.', fu:[2]}]}
+ ]},
+{id:'nefro', n:'Síndrome nefrótico por cambios mínimos en adulto joven', c:'Nefrología',
+ pres:'Varón de 22 años con edema en piernas y párpados desde hace 3 semanas, espuma en la orina, proteinuria en rango nefrótico y albúmina baja. Sin hematuria, sin hipertensión, función renal normal.',
+ fu:[['KDIGO: guía de glomerulopatías, enfermedad de cambios mínimos (PMC4089636)','https://pmc.ncbi.nlm.nih.gov/articles/PMC4089636'],['Korbet y Whittier: cambios mínimos en adultos (PMC6556731)','https://pmc.ncbi.nlm.nih.gov/articles/PMC6556731']],
+ pasos:[
+ {q:'¿Cómo confirmas la causa del síndrome nefrótico?', o:[
+  {t:'Biopsia renal, porque en adultos es clave para saber la causa', ok:1, fb:'En adultos la biopsia renal es esencial. La enfermedad de cambios mínimos explica solo cerca del 10 al 25 % de los síndromes nefróticos del adulto, así que hay otras causas posibles.', fu:[1,0]},
+  {t:'Empezar prednisona sin biopsia, porque seguro son cambios mínimos', fb:'En el adulto los cambios mínimos son solo una parte de las causas. Se necesita biopsia para saber qué se trata.', fu:[1]},
+  {t:'Solo controlar la proteinuria y esperar', fb:'Sin diagnóstico histológico no se puede elegir el tratamiento específico.', fu:[1,0]}]},
+ {q:'La biopsia confirma enfermedad de cambios mínimos. ¿Cuál es el tratamiento inicial?', o:[
+  {t:'Prednisona 1 mg/kg al día (máximo 80 mg) o 2 mg/kg en días alternos (máximo 120 mg)', ok:1, fb:'Son las dosis de la guía KDIGO para el inicio. Los corticoides son la primera línea.', fu:[0,1]},
+  {t:'Ciclosporina primero y dejar los corticoides para después', fb:'La primera línea son los corticoides. Los otros inmunosupresores se reservan para recaídas, dependencia o resistencia.', fu:[0]},
+  {t:'Prednisona 10 mg al día por 2 semanas', fb:'Esa dosis es muy baja para inducir la remisión. La guía usa 1 mg/kg al día.', fu:[0]}]},
+ {q:'¿Por cuánto tiempo mantienes la dosis plena y cómo sigues?', o:[
+  {t:'Mínimo 4 semanas si hay remisión completa, máximo 16 si no la hay, y luego bajar lento durante unos 6 meses', ok:1, fb:'Es el esquema de KDIGO. Entre el 5 y el 20 % de los adultos es resistente a corticoides.', fu:[0,1]},
+  {t:'Suspender a las 2 semanas cuando desaparece el edema', fb:'Suspender temprano favorece las recaídas. La dosis plena se sostiene al menos 4 semanas tras la remisión completa.', fu:[0]},
+  {t:'Dosis plena por 6 meses sin reducir', fb:'El máximo con dosis plena es de 16 semanas si no hay remisión completa. Después se rebaja de forma gradual.', fu:[0]}]}
+ ]},
+{id:'pielo', n:'Pielonefritis aguda (infección urinaria complicada)', c:'Nefrología',
+ pres:'Mujer de 28 años con 3 días de disuria y polaquiuria. Desde ayer fiebre de 39 °C, escalofríos, dolor lumbar derecho y vómitos. Dolor a la percusión del ángulo costovertebral. PA 110/70, FC 110.',
+ fu:[['IDSA 2025: infección urinaria complicada, resumen en emDocs','https://www.emdocs.net/?p=24659'],['Sinai Health, Antimicrobial Stewardship: infecciones urinarias','https://www.sinaihealth.ca/areas-of-care/antimicrobial-stewardship/clinical-summaries/urinary-tract-infections-utis']],
+ pasos:[
+ {q:'¿Cómo clasificas este cuadro y qué antibiótico empírico eliges?', o:[
+  {t:'Infección complicada (fiebre y dolor lumbar). Ceftriaxona 1 g IV cada 24 h', ok:1, fb:'Los signos sistémicos (fiebre, dolor en el flanco, dolor a la percusión) la hacen complicada. Las opciones empíricas son cefalosporinas de 3.ª o 4.ª generación como ceftriaxona, piperacilina-tazobactam o fluoroquinolonas.', fu:[0,1]},
+  {t:'Cistitis. Nitrofurantoína 100 mg cada 12 h por 5 días', fb:'La nitrofurantoína sirve para cistitis, pero no suele alcanzar niveles adecuados en el parénquima renal ni en la sangre, y aquí hay compromiso sistémico.', fu:[1,0]},
+  {t:'Fosfomicina 3 g oral en dosis única', fb:'La fosfomicina oral en dosis única es para cistitis. En pielonefritis no se considera adecuada por las mismas razones.', fu:[1,0]}]},
+ {q:'Mejora con el tratamiento. ¿Cuánto dura el esquema efectivo?', o:[
+  {t:'7 días con un betalactámico (5 a 7 si se usa fluoroquinolona), contados desde el primer día de tratamiento efectivo', ok:1, fb:'Es la duración que señalan las guías para infección complicada con buena respuesta. Se cuenta desde el primer día de terapia activa.', fu:[0,1]},
+  {t:'3 días, igual que en la cistitis', fb:'Los 3 días corresponden a cistitis no complicada con trimetoprima-sulfametoxazol. En la complicada se necesitan 5 a 7 días.', fu:[1]},
+  {t:'Tratar hasta que el urocultivo salga negativo', fb:'La duración se fija por días de tratamiento efectivo y evolución clínica, no por repetir cultivos.', fu:[0]}]},
+ {q:'Llega el urocultivo con el germen y su antibiograma. ¿Qué haces?', o:[
+  {t:'Ajustar el antibiótico según el antibiograma', ok:1, fb:'El tratamiento definitivo se elige con el cultivo, para no dejar un fármaco al que el germen es resistente ni usar uno de espectro excesivo.', fu:[0]},
+  {t:'Mantener el empírico sin mirar el resultado, porque ya mejoró', fb:'El cultivo sirve para dirigir el tratamiento definitivo. Un germen resistente puede recaer aunque haya mejoría inicial.', fu:[0]}]}
+ ]},
+{id:'ascitis', n:'Cirrosis con ascitis y fiebre', c:'Gastroenterología',
+ pres:'Varón de 60 años con cirrosis conocida. Consulta por aumento del perímetro abdominal, dolor abdominal difuso leve y fiebre de 38 °C. Ascitis a tensión en el examen. Tomaba diclofenaco por dolor de espalda.',
+ fu:[['Revisión de ascitis en cirrosis (PMC6490258)','https://pmc.ncbi.nlm.nih.gov/articles/PMC6490258']],
+ pasos:[
+ {q:'¿Qué haces primero con el líquido ascítico?', o:[
+  {t:'Paracentesis diagnóstica con recuento celular (PMN, polimorfonucleares)', ok:1, fb:'En un paciente con ascitis y fiebre se debe tomar líquido y contar los PMN. Se pide el recuento siempre que se obtiene líquido ascítico.', fu:[0]},
+  {t:'Empezar diuréticos y esperar la respuesta', fb:'Con fiebre y dolor hay que descartar infección del líquido antes de dar por sentado que es solo ascitis.', fu:[0]},
+  {t:'Dar un analgésico y observar 24 horas', fb:'Retrasar el análisis del líquido retrasa el diagnóstico de la infección.', fu:[0]}]},
+ {q:'El líquido tiene 480 PMN/mm³. ¿Cómo lo interpretas?', o:[
+  {t:'Peritonitis bacteriana espontánea: más de 250 PMN es compatible', ok:1, fb:'Un recuento de más de 250 PMN en el líquido ascítico de un paciente con cirrosis es compatible con peritonitis bacteriana espontánea.', fu:[0]},
+  {t:'Líquido normal, el límite de infección es 1000 PMN', fb:'El punto de corte es más de 250 PMN.', fu:[0]},
+  {t:'No se puede interpretar hasta que salga el cultivo', fb:'El recuento de PMN permite sospechar la infección sin esperar el cultivo.', fu:[0]}]},
+ {q:'Ya resuelta la infección, ¿cómo manejas la ascitis a largo plazo?', o:[
+  {t:'Dieta con restricción de sodio, espironolactona más furosemida por vía oral en una dosis diaria, y suspender el diclofenaco', ok:1, fb:'La primera línea es la dieta baja en sodio con educación, la combinación de espironolactona y furosemida por vía oral una vez al día, y retirar los AINE (antiinflamatorios no esteroideos).', fu:[0]},
+  {t:'Solo restringir líquidos y seguir con el diclofenaco', fb:'Los AINE se retiran en la ascitis. La base es la restricción de sodio y los diuréticos.', fu:[0]},
+  {t:'Paracentesis cada semana como único tratamiento', fb:'La primera línea es la dieta baja en sodio con diuréticos. La paracentesis se reserva para la ascitis a tensión o refractaria.', fu:[0]}]}
+ ]},
+{id:'pancrea', n:'Pancreatitis aguda biliar', c:'Gastroenterología',
+ pres:'Varón de 50 años con dolor epigástrico intenso desde hace 8 horas que se irradia a la espalda, náuseas y vómitos. Lipasa muy elevada. La ecografía abdominal muestra litiasis vesicular sin dilatación de la vía biliar. Sin fiebre ni ictericia.',
+ fu:[['ACG 2024: guía de pancreatitis aguda (Am J Gastroenterol 119:419-437), resumen en Guideline Central','https://guidelinecentral.com/guideline/12896']],
+ pasos:[
+ {q:'¿Cómo hidratas?', o:[
+  {t:'Cristaloide isotónico de forma moderadamente agresiva, mejor Ringer lactato que suero fisiológico, y reevaluar en 6 h', ok:1, fb:'La guía ACG 2024 prefiere Ringer lactato. Se ajusta con bolos si hay hipovolemia, y se reevalúa a las 6 h y durante las primeras 24 a 48 h para ver si baja el BUN (nitrógeno ureico). Hay que vigilar la sobrecarga en cardiópatas y nefrópatas.', fu:[0]},
+  {t:'Restringir líquidos para reposar el páncreas', fb:'La hidratación es parte central del manejo inicial.', fu:[0]},
+  {t:'Hidratación muy agresiva fija, sin reevaluar', fb:'La guía recomienda una estrategia moderadamente agresiva y reevaluar. Más volumen sin control aumenta el riesgo de sobrecarga.', fu:[0]}]},
+ {q:'Con el dolor controlado, ¿cuándo y cómo lo alimentas?', o:[
+  {t:'Vía oral dentro de 24 a 48 h según tolerancia, con dieta sólida baja en grasa', ok:1, fb:'La guía favorece la alimentación oral temprana y una dieta sólida baja en grasa desde el inicio, en lugar de avanzar por etapas.', fu:[0]},
+  {t:'Ayuno hasta que la lipasa se normalice', fb:'No hace falta esperar la normalización de la lipasa. La alimentación oral temprana se recomienda cuando el paciente la tolera.', fu:[0]},
+  {t:'Líquidos claros por varios días y luego avanzar paso a paso', fb:'La dieta sólida baja en grasa desde el inicio se prefiere frente al avance por etapas.', fu:[0]}]},
+ {q:'No hay colangitis y mejora. ¿Cómo manejas la vesícula?', o:[
+  {t:'Colecistectomía temprana, de preferencia antes del alta, si la pancreatitis biliar es leve', ok:1, fb:'La guía recomienda la colecistectomía precoz, de preferencia durante la misma hospitalización en la pancreatitis biliar leve. La CPRE (colangiopancreatografía retrógrada endoscópica) se reserva para colangitis, en menos de 24 h.', fu:[0]},
+  {t:'CPRE urgente en todos los casos de pancreatitis biliar', fb:'Sin colangitis, la guía prefiere el manejo médico antes que una CPRE temprana a las 72 h.', fu:[0]},
+  {t:'Alta y programar la cirugía para dentro de varios meses', fb:'La guía prefiere operar antes del alta en la pancreatitis biliar leve.', fu:[0]}]},
+ {q:'Evoluciona a pancreatitis grave con necrosis, sin fiebre ni signos de infección. ¿Antibiótico profiláctico?', o:[
+  {t:'No. Los antibióticos se reservan para la necrosis infectada', ok:1, fb:'La guía no recomienda antibióticos profilácticos en la pancreatitis grave. Se indican si hay infección de la necrosis.', fu:[0]},
+  {t:'Sí, un carbapenem de forma profiláctica por 14 días', fb:'La guía ACG 2024 no recomienda profilaxis antibiótica en la pancreatitis grave.', fu:[0]}]}
+ ]},
+{id:'hda', n:'Hemorragia digestiva alta no variceal por úlcera', c:'Gastroenterología',
+ pres:'Varón de 55 años con artrosis, toma ibuprofeno hace meses. Melena desde ayer, con mareo. PA 105/65, FC 100, Hb 8,2 g/dL. No tiene cirrosis ni enfermedad cardiovascular.',
+ fu:[['ACG 2021: hemorragia digestiva alta y úlcera (Am J Gastroenterol 116:899-917)','https://pubmed.ncbi.nlm.nih.gov/33929377/'],['ACG 2021, resumen en Guideline Central','https://guidelinecentral.com/guideline/325721']],
+ pasos:[
+ {q:'En el control la Hb cae a 6,7 g/dL. ¿Qué haces?', o:[
+  {t:'Transfundir concentrado de hematíes con umbral de Hb de 7 g/dL (estrategia restrictiva)', ok:1, fb:'La guía recomienda una estrategia restrictiva con umbral de Hb de 7 g/dL. Con 6,7 ya corresponde transfundir.', fu:[0,1]},
+  {t:'Transfundir hasta llevar la Hb a 12', fb:'La guía recomienda la estrategia restrictiva, con umbral de 7 g/dL.', fu:[0]},
+  {t:'Esperar a que baje a 5 antes de transfundir', fb:'El umbral de 7 g/dL ya se cruzó.', fu:[0,1]}]},
+ {q:'¿Cuándo haces la endoscopia?', o:[
+  {t:'Dentro de las 24 h desde la presentación, una vez reanimado', ok:1, fb:'La guía recomienda la endoscopia dentro de las 24 horas desde la presentación.', fu:[0,1]},
+  {t:'En una semana, de forma ambulatoria', fb:'Esa demora no es adecuada con una hemorragia activa y compromiso hemodinámico. El tiempo recomendado es 24 h.', fu:[0]},
+  {t:'Solo si vuelve a sangrar', fb:'La endoscopia temprana permite identificar la lesión y tratarla.', fu:[0]}]},
+ {q:'En la endoscopia hay una úlcera duodenal con un vaso visible no sangrante. ¿Qué haces?', o:[
+  {t:'Terapia endoscópica en el mismo acto', ok:1, fb:'La guía indica terapia endoscópica en úlceras con sangrado activo (en chorro o en napa) y en las que tienen vaso visible no sangrante.', fu:[0,1]},
+  {t:'Solo inhibidor de bomba de protones oral y observar', fb:'El vaso visible es una lesión de alto riesgo de resangrado y requiere terapia endoscópica.', fu:[0,1]}]},
+ {q:'Tras la hemostasia endoscópica, ¿qué indicas con el inhibidor de bomba de protones y qué haces si resangra?', o:[
+  {t:'Dosis alta de IBP (continuo o intermitente) por 3 días. Si resangra, repetir la endoscopia y, si falla, embolización', ok:1, fb:'Es lo que recomienda la guía: IBP en dosis alta por 3 días tras la hemostasia, nueva endoscopia ante resangrado y embolización si la terapia endoscópica no controla el sangrado.', fu:[0,1]},
+  {t:'Suspender el IBP al terminar la endoscopia', fb:'Después de la hemostasia se mantiene IBP en dosis alta durante 3 días.', fu:[0,1]}]}
+ ]},
+{id:'zoster', n:'Herpes zóster en una adulta mayor', c:'Dermatología',
+ pres:'Mujer de 70 años con dolor ardoroso en el hemitórax derecho desde hace 3 días. Desde ayer tiene vesículas agrupadas sobre una base roja, en una banda que no cruza la línea media. Sin fiebre. Sin inmunosupresión conocida.',
+ fu:[['AAFP: herpes zóster, antivirales y tiempos (2006)','https://www.aafp.org/pubs/afp/issues/2006/0301/p882.html'],['CDC: vacunación contra el herpes zóster','https://www.cdc.gov/shingles/vaccines']],
+ pasos:[
+ {q:'¿Qué antiviral indicas y cuándo?', o:[
+  {t:'Valaciclovir 1 g cada 8 h por 7 días, empezando dentro de las 72 h del inicio de las lesiones', ok:1, fb:'Las opciones con evidencia son aciclovir 800 mg cinco veces al día, valaciclovir 1 g cada 8 h o famciclovir 500 mg cada 12 h, todas por 7 días. Acelera la resolución del dolor y la guía prefiere valaciclovir o famciclovir en mayores de 50 sin inmunosupresión.', fu:[0]},
+  {t:'Esperar el cultivo viral para empezar', fb:'El diagnóstico es clínico y el tratamiento es más útil cuando se empieza dentro de las primeras 72 h.', fu:[0]},
+  {t:'Solo analgésicos, porque los antivirales son para inmunodeprimidos', fb:'Los antivirales aceleran la resolución del dolor en el paciente inmunocompetente, sobre todo mayor de 50 años.', fu:[0]}]},
+ {q:'Se recupera. ¿Qué recomiendas para prevenir otro episodio?', o:[
+  {t:'Vacuna recombinante contra el zóster (Shingrix), 2 dosis separadas por 2 a 6 meses, aunque ya haya tenido zóster', ok:1, fb:'Los CDC recomiendan 2 dosis de la vacuna recombinante en mayores de 50 años, incluso si ya tuvieron zóster.', fu:[1]},
+  {t:'No vacunar, porque ya tuvo la enfermedad', fb:'Los CDC indican vacunar aunque haya tenido zóster antes.', fu:[1]},
+  {t:'Una sola dosis es suficiente', fb:'El esquema es de 2 dosis separadas por 2 a 6 meses.', fu:[1]}]}
+ ]},
+{id:'acne', n:'Acné severo e isotretinoína', c:'Dermatología',
+ pres:'Mujer de 22 años con acné nodular en cara y espalda desde hace 3 años, con cicatrices y mucho malestar emocional. Ya probó peróxido de benzoílo, un retinoide tópico y un ciclo de antibiótico oral, sin mejoría.',
+ fu:[['AAD 2024: resumen de la guía de acné (MDedge)','https://mdedge.com/content/updated-clinical-guidelines-treatment-acne-vulgaris'],['Acné vulgar (StatPearls, NBK525949)','https://www.ncbi.nlm.nih.gov/books/NBK525949/'],['iPLEDGE: guía de buenas prácticas','https://ipledgeprogram.com/ResourceDownloadRaw/GuideBestPractices']],
+ pasos:[
+ {q:'¿Qué opción terapéutica corresponde?', o:[
+  {t:'Isotretinoína oral, por acné grave con cicatrices y falla de la terapia estándar', ok:1, fb:'La isotretinoína se indica en acné grave, con cicatrices o gran carga psicosocial, o cuando falla el tratamiento tópico y oral habitual.', fu:[0,1]},
+  {t:'Repetir otro ciclo de antibiótico oral', fb:'Ya falló la terapia estándar. Repetirla sin cambiar la estrategia no es la mejor opción.', fu:[0]},
+  {t:'Solo cambiar de cremas tópicas', fb:'El acné nodular con cicatrices, tras falla de tópicos y antibiótico, es indicación de isotretinoína.', fu:[0,1]}]},
+ {q:'Antes de empezar, ¿qué indicas?', o:[
+  {t:'Descartar embarazo y exigir anticoncepción eficaz (es teratogénica), con control basal y periódico de función hepática y lípidos', ok:1, fb:'La isotretinoína es teratogénica, con contraindicación absoluta en el embarazo, y exige un programa de prevención. Se monitorizan la función hepática y los lípidos como buena práctica.', fu:[1,2]},
+  {t:'Nada especial: se indica como cualquier antibiótico', fb:'Requiere prevención de embarazo y controles de laboratorio.', fu:[1,2]},
+  {t:'Solo anticoncepción si ella planea tener hijos pronto', fb:'La prevención de embarazo es obligatoria en toda mujer en edad fértil durante el tratamiento.', fu:[1,2]}]}
+ ]},
+{id:'urtica', n:'Urticaria crónica espontánea', c:'Dermatología',
+ pres:'Varón de 22 años con ronchas pruriginosas casi todos los días desde hace 3 meses. Cada lesión dura menos de 24 horas y desaparece sin dejar marca. Sin fiebre ni otros síntomas. Examen sin otros hallazgos.',
+ fu:[['AAD: guía internacional de urticaria (EAACI/GA2LEN/EDF/WAO)','https://www.aad.org/guidelines/collaborations-urticaria'],['Actualización de la guía 2026 (HCPLive)','https://www.hcplive.com/view/updated-urticaria-guidelines-clarify-diagnosis-biomarkers-treatment-pathways'],['Optimizar el manejo de la urticaria crónica espontánea (Medthority)','https://medthority.com/medical-education/chronic-spontaneous-urticaria/optimizing-csu-care/']],
+ pasos:[
+ {q:'¿Cómo la clasificas y qué tratamiento inicial indicas?', o:[
+  {t:'Crónica (más de 6 semanas). Antihistamínico H1 de segunda generación', ok:1, fb:'La urticaria aguda dura hasta 6 semanas y la crónica más de 6. El tratamiento de primera línea es un antihistamínico H1 de segunda generación.', fu:[0,2]},
+  {t:'Prednisona 20 mg al día durante 3 meses', fb:'Se debe evitar el corticoide sistémico prolongado. Solo se considera un ciclo corto en una exacerbación aguda.', fu:[0,2]},
+  {t:'Pedir una batería amplia de estudios antes de tratar', fb:'Los estudios son limitados. No se piden pruebas de rutina de forma indiscriminada.', fu:[0,2]}]},
+ {q:'Sigue con ronchas tras 2 a 4 semanas con la dosis estándar. ¿Qué haces?', o:[
+  {t:'Subir la dosis del antihistamínico hasta 4 veces la estándar', ok:1, fb:'La guía indica aumentar la dosis hasta 4 veces si no hay respuesta.', fu:[0,2]},
+  {t:'Pasar directamente a ciclosporina', fb:'La ciclosporina se reserva para los que no responden al antihistamínico en dosis altas ni al omalizumab.', fu:[0,2]},
+  {t:'Dar corticoide oral de forma continua', fb:'No se recomienda el corticoide sistémico a largo plazo.', fu:[0,2]}]},
+ {q:'Persiste con la dosis aumentada. ¿Qué agregas?', o:[
+  {t:'Omalizumab', ok:1, fb:'Es el siguiente paso si no hay respuesta al antihistamínico en dosis altas. Si tampoco responde, se considera ciclosporina. La actualización 2026 incluye además dupilumab y remibrutinib.', fu:[0,1,2]},
+  {t:'Suspender todo y observar', fb:'La urticaria crónica espontánea suele necesitar escalar el tratamiento hasta controlarla.', fu:[0,2]}]}
+ ]},
+{id:'sarna', n:'Escabiosis (sarna)', c:'Dermatología',
+ pres:'Varón de 22 años con prurito intenso que empeora en la noche desde hace 3 semanas. Pápulas y surcos entre los dedos y en las muñecas. Dos compañeros de cuarto con el mismo prurito.',
+ fu:[['CDC: guía de ITS 2021, ectoparásitos','https://www.cdc.gov/std/treatment-guidelines/ectoparasitic.htm'],['CDC: escabiosis, información para profesionales','https://www.cdc.gov/stiapp/scabies.html'],['CDC Yellow Book 2024: escabiosis','https://wwwnc.cdc.gov/travel/yellowbook/2024/infections-diseases/scabies']],
+ pasos:[
+ {q:'¿Qué tratamiento tópico indicas?', o:[
+  {t:'Permetrina al 5 % en crema, del cuello hacia abajo, y lavar a las 8 a 14 horas', ok:1, fb:'Es una de las primeras opciones de los CDC. Se aplica en todo el cuerpo desde el cuello y se retira tras 8 a 14 horas. La causa más frecuente de falla es una aplicación incompleta.', fu:[0,1,2]},
+  {t:'Aplicarla solo sobre las lesiones visibles', fb:'La crema debe cubrir todo el cuerpo del cuello hacia abajo, no solo las lesiones.', fu:[0,1]},
+  {t:'Aplicarla 30 minutos y lavar', fb:'El tiempo de contacto indicado es de 8 a 14 horas.', fu:[0,1]}]},
+ {q:'Prefiere un tratamiento oral. ¿Qué esquema usas?', o:[
+  {t:'Ivermectina 200 µg/kg por vía oral y repetir a los 14 días', ok:1, fb:'La ivermectina tiene poca actividad contra los huevos, por eso se repite la dosis a los 14 días.', fu:[0,1]},
+  {t:'Una dosis única de ivermectina', fb:'Con una sola dosis pueden sobrevivir las larvas que nacen de los huevos. Se repite a los 14 días.', fu:[0,1]}]},
+ {q:'Otro paciente tiene sarna costrosa (placas gruesas con muchas costras). ¿Cómo lo tratas?', o:[
+  {t:'Terapia combinada, tópica más ivermectina oral', ok:1, fb:'La sarna costrosa tiene una carga enorme de ácaros y se trata con tratamiento combinado.', fu:[0,1]},
+  {t:'Solo permetrina, como la sarna común', fb:'En la forma costrosa se recomienda la combinación de un tópico con ivermectina oral.', fu:[0,1]}]}
+ ]}
+);
 function vCaso(){
   const k = CASOS.find(x => x.id === V.caso), i = V.paso || 0, fin = i >= k.pasos.length;
   const back = '<div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>';
@@ -2279,6 +2444,20 @@ const SIMS = {
     vit: ['PA 80/45 · ronchas y estridor', null, null]
   }
 };
+const PJ = {pedro:{pelo:'#C9CCD1', camisa:'#4F8EF7'}, rosa:{pelo:'#9A9DA3', camisa:'#FF7DB0', largo:1}, luis:{pelo:'#5b3a29', camisa:'#2fbf71', barba:'#5b3a29'}, camila:{pelo:'#8a4b2a', camisa:'#ffd93b', largo:1}, mateo:{pelo:'#2b1a12', camisa:'#e8372c'}};
+const pj = (k, nombre) => Object.assign({nombre}, PJ[k]);
+Object.assign(SIMS, {
+  aki: {pac: pj('rosa', 'Doña Rosa, 70 años'), habla: ['Doctor, tengo mucha sed y casi no oriné hoy.', null, 'Me cuesta respirar.'], vit: ['PA 90/55 · FC 110 · Cr 2,4 mg/dL', null, 'Edema de pulmón · diuresis baja']},
+  zoster: {pac: pj('rosa', 'Doña Rosa, 70 años'), habla: ['Doctor, me arde el costado desde hace días y ahora me salieron ampollitas.', 'Ya me siento mucho mejor.'], vit: ['Vesículas agrupadas en banda · sin fiebre', null]},
+  pancrea: {pac: pj('luis', 'Don Luis, 50 años'), habla: ['Me duele muchísimo la boca del estómago y se me va a la espalda.', null, 'Ya puedo comer algo.', null], vit: ['Lipasa muy elevada · litiasis vesicular', null, 'Mejora clínica', 'Pancreatitis grave con necrosis, afebril']},
+  hda: {pac: pj('luis', 'Don Luis, 55 años'), habla: ['Doctor, hago deposiciones negras y me mareo.', null, null, null], vit: ['PA 105/65 · FC 100 · Hb 8,2 g/dL', 'Hb 6,7 g/dL', 'Úlcera duodenal con vaso visible', null]},
+  pielo: {pac: pj('camila', 'Camila, 28 años'), habla: ['Tengo fiebre, escalofríos y me duele mucho la espalda del lado derecho.', null, null], vit: ['T 39 °C · FC 110 · puño percusión +', null, 'Urocultivo con antibiograma']},
+  acne: {pac: pj('camila', 'Camila, 22 años'), habla: ['Ya probé de todo y mi cara sigue igual. Me da vergüenza salir.', null], vit: ['Acné nodular con cicatrices', null]},
+  ascitis: {pac: pj('pedro', 'Don Pedro, 60 años'), habla: ['Doctor, tengo la barriga muy hinchada, me duele y tuve fiebre.', null, 'Ya no tengo fiebre.'], vit: ['T 38 °C · ascitis a tensión', 'PMN 480/mm³', 'Sin fiebre']},
+  nefro: {pac: pj('mateo', 'Mateo, 22 años'), habla: ['Doctor, se me hincharon las piernas y los ojos, y la orina sale con espuma.', null, null], vit: ['Proteinuria nefrótica · albúmina baja', 'Biopsia: cambios mínimos', null]},
+  urtica: {pac: pj('mateo', 'Mateo, 22 años'), habla: ['Me salen ronchas que pican casi todos los días hace meses.', null, null], vit: ['Ronchas · lesiones de menos de 24 h', null, null]},
+  sarna: {pac: pj('mateo', 'Mateo, 22 años'), habla: ['Me pica muchísimo, sobre todo de noche. A mis compañeros también.', null, null], vit: ['Surcos y pápulas interdigitales', null, 'Sarna costrosa en otro paciente']}
+});
 function simPat(est, pac){
   const T = {llega:['#EBC572', '#E8C070', '#E3B87A'], empeora:['#E0D6B2', '#DCD1AE', '#D6CBA6'], estable:['#F2C69C', '#EFC095', '#E9B98A']}[est], K = '#14110f';
   let cara;
@@ -2442,7 +2621,7 @@ function vClin(){
         deck('data-act="cldx"', '?', 'Diagnóstico diferencial', DX.length+' síntomas: qué dato separa unas causas de otras', '#b9a6ff', false, ';--rot:-.8deg;--rd:28px')+
         deck('data-act="cllec"', '%', 'Lectura de datos', lecL().length+' ejercicios con valores al azar', '#7cf0c8', false, ';--rot:1.4deg;--rd:10px')+
         deck('data-act="cldeb"', '★', 'Mapa de puntos débiles y plan diario', 'Lee tu avance y reparte las preguntas hasta tu examen', '#ffb36b', true)+'</div>'+
-      '<div><p class="label">CONSULTORIO: LLEGA UN PACIENTE</p><p class="src" style="margin:0 0 10px">Cada caso de guardia es un paciente en el consultorio. Modo guiado: el juego te da opciones en cada etapa. Modo libre (por ahora solo Don Pedro): tú decides qué preguntar, pedir e indicar.</p><div class="deck-grid">'+CASOS.filter(x => okF(x.c)).map(x => deckPt('data-act="clsim" data-id="'+x.id+'"', x.id, SIMS[x.id].pac.nombre, x.n+' · guiado, '+x.pasos.length+' decisiones')).join('')+(okF('Gastroenterología') ? '<button class="deck pt" style="--c:#ffe35c;--rot:-1deg" data-act="cllib" data-id="varices"><svg class="face" viewBox="0 38 200 190" aria-hidden="true">'+simPat('estable', SIMS.varices.pac)+'</svg><b>Don Pedro: modo libre</b><span class="d">Tú eliges qué preguntar, pedir e indicar, y en qué orden.</span></button>' : '')+'</div></div>'+
+      '<div><p class="label">CONSULTORIO: LLEGA UN PACIENTE</p><p class="src" style="margin:0 0 10px">Cinco pacientes vuelven con distintos casos de los tres módulos. Modo guiado: el juego te da opciones en cada etapa. Modo libre (por ahora solo Don Pedro): tú decides qué preguntar, pedir e indicar.</p><div class="deck-grid">'+CASOS.filter(x => okF(x.c)).slice().sort((a, b) => (SIMS[a.id].pac.nombre.split(',')[0] > SIMS[b.id].pac.nombre.split(',')[0] ? 1 : -1)).map(x => deckPt('data-act="clsim" data-id="'+x.id+'"', x.id, SIMS[x.id].pac.nombre, x.n+' · guiado, '+x.pasos.length+' decisiones')).join('')+(okF('Gastroenterología') ? '<button class="deck pt" style="--c:#ffe35c;--rot:-1deg" data-act="cllib" data-id="varices"><svg class="face" viewBox="0 38 200 190" aria-hidden="true">'+simPat('estable', SIMS.varices.pac)+'</svg><b>Don Pedro: modo libre</b><span class="d">Tú eliges qué preguntar, pedir e indicar, y en qué orden.</span></button>' : '')+'</div></div>'+
       clGroups().map(g => '<div><p class="label">CALCULADORAS: '+esc(g.toUpperCase())+'</p><div class="nap-grid">'+CALCS.filter(x => x.g === g && okF(calcCur(x.g))).map(x => nap('ca', calcCur(x.g), CALCART[x.id][0], x.n, '', 'data-act="clcalc" data-id="'+x.id+'"', CALCART[x.id][1])).join('')+'</div></div>').join('')+
       (CLIN_NEXT.length ? '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>' : '')+
       '<p class="src">Las calculadoras ayudan a pensar, no reemplazan al criterio clínico ni a la guía de tu hospital. Cada una indica su referencia. Contenido revisado contra guías y fuentes en noviembre 2026; las guías cambian, por eso cada ítem muestra de dónde sale.</p></div>';
