@@ -475,24 +475,72 @@ body[data-scene=derma]::before{background-image:url("data:image/svg+xml,%3Csvg x
 select.field{appearance:auto}
 
 
+
+/* v61: diseño amplio, simulador a pantalla completa, mapa de puntos débiles */
+@media (min-width:1000px){
+#app.hw{max-width:1240px}
+#app.hh>.stack{display:grid;grid-template-columns:7fr 5fr;gap:22px 28px;align-items:start}
+#app.hh>.stack>*{min-width:0}
+#app.hh>.stack>:nth-child(1){grid-column:1/-1}
+#app.hh>.stack>:nth-child(2){grid-column:1;grid-row:2}
+#app.hh>.stack>:nth-child(3){grid-column:1;grid-row:3}
+#app.hh>.stack>:nth-child(4){grid-column:2;grid-row:2/span 2}
+#app.hh>.stack>:nth-child(n+5){grid-column:1/-1}
+#app.hh .actions{grid-template-columns:repeat(3,1fr)}
+#app.hh .worlds{grid-template-columns:repeat(3,1fr)}
+}
+.cl-ctx{max-width:860px}
+#app.full{max-width:none;padding:10px 14px 14px}
+.simbar{display:flex;gap:10px;align-items:center;margin-bottom:8px}
+.simfull{display:grid;grid-template-columns:1fr;gap:14px}
+@media (min-width:1000px){#app.hw .deck-grid{grid-template-columns:repeat(auto-fill,minmax(215px,1fr))}#app.hw .nap-grid{grid-template-columns:repeat(auto-fill,minmax(175px,1fr))}#app.hw .deck.wide{min-height:110px}}
+@media (min-width:900px){
+.simfull{grid-template-columns:minmax(0,1fr) minmax(340px,480px);height:calc(100vh - 78px);align-items:stretch}
+.simL{display:flex;align-items:center;justify-content:center;min-height:0}
+.simL .room-wrap{position:static;width:100%;display:flex;justify-content:center}
+.simL .room{max-width:min(100%,calc((100vh - 96px) * 1.1765))}
+.simR{overflow:auto;min-height:0;padding:4px 10px 24px 4px}
+#tray{scroll-margin-top:12px}
+}
+.room{container-type:inline-size}
+.nap.ca .art{left:12px;right:12px;top:30%;display:block;background:#17202b;color:#7dffb0;border:3px solid #14110f;border-radius:8px;padding:10px 2px;font-size:24px;box-shadow:inset 0 0 0 2px #2a3a4e}
+.deck{border-radius:var(--rd,16px);transform:rotate(var(--rot,0deg))}
+.deck:hover{transform:translateY(-5px) rotate(0)}
+.deck .face{position:absolute;right:8px;top:6px;width:74px;height:74px;pointer-events:none}
+.deck.pt{padding-top:88px}
+.deck.pt b{font-size:16px}
+.deck.xl{grid-column:span 2}
+.dbd{display:grid;gap:16px}
+.dtop{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.dstat{display:flex;flex-direction:column;justify-content:center;border:3px solid var(--ink);border-radius:16px;padding:12px;box-shadow:4px 4px 0 var(--ink);background:var(--c);text-align:center}
+.dstat b{display:block;font-family:var(--display);font-size:30px;line-height:1.1}
+.dstat span{font-size:12px;font-weight:800}
+.dcount{background:#14110f;color:#ffe35c;border:3px solid var(--ink);border-radius:18px;padding:16px;box-shadow:6px 6px 0 #ff5fa2;text-align:center}
+.dcount b{display:block;font-family:var(--display);font-size:58px;line-height:1}
+.dgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.dtema{border:3px solid var(--ink);border-radius:16px;padding:12px;background:#fff;box-shadow:5px 5px 0 var(--ink);display:flex;flex-direction:column;gap:8px}
+.dtema .pr{display:flex;align-items:center;gap:8px}
+.dtema .rk{width:34px;height:34px;border-radius:50%;border:3px solid var(--ink);background:var(--c);display:grid;place-items:center;font-family:var(--display);font-size:14px;flex:none}
+.dbar{height:14px;border:3px solid var(--ink);border-radius:8px;overflow:hidden;display:flex;background:#fff}
+.dbar i{display:block;height:100%}
 .room-wrap{position:sticky;top:0;z-index:6;padding:4px 0}
 .room{position:relative;width:100%;max-width:min(560px,calc(42vh * 1.1765));margin:0 auto;line-height:1.3}
 .room .cl-scn{max-width:none;width:100%}
 .hs{position:absolute;padding:0;border:0;background:transparent;border-radius:12px;cursor:pointer;font:inherit;color:inherit;transition:box-shadow .15s,background .15s}
-.hs .hl{position:absolute;left:50%;bottom:-2px;transform:translate(-50%,50%);background:#ffe35c;border:2px solid #14110f;border-radius:8px;padding:1px 7px;font-size:10px;font-weight:900;white-space:nowrap;text-transform:uppercase;opacity:0;transition:opacity .15s;pointer-events:none}
+.hs .hl{position:absolute;left:50%;bottom:-2px;transform:translate(-50%,50%);background:#ffe35c;border:2px solid #14110f;border-radius:8px;padding:1px 7px;font-size:clamp(9px,2.2cqw,13px);font-weight:900;white-space:nowrap;text-transform:uppercase;opacity:0;transition:opacity .15s;pointer-events:none}
 .hs:hover:not(:disabled),.hs:focus-visible,.hs.on{background:rgba(255,227,92,.28);box-shadow:0 0 0 3px #ffe35c,0 0 0 6px #14110f}
 .hs:hover:not(:disabled) .hl,.hs.on .hl,.hs:focus-visible .hl{opacity:1}
 .hs:disabled{cursor:default}
 .hs.mon{background:#17202b;border:3px solid #14110f;border-radius:10px;box-shadow:3px 3px 0 #14110f;color:#7dffb0;text-align:left;padding:6px 8px;display:flex;flex-direction:column;gap:2px;overflow:hidden}
 .hs.mon:hover:not(:disabled),.hs.mon.on{background:#1f2e3f}
-.hs.mon b{font-size:clamp(9px,2.5vw,13px);color:#fff;line-height:1.15}
-.hs.mon .mv{font-size:clamp(8px,2.2vw,12px);line-height:1.2;font-family:var(--mono,monospace)}
-.hs.mon .ms{font-size:clamp(7px,1.9vw,10px);opacity:.75;margin-top:auto}
+.hs.mon b{font-size:clamp(9px,2.7cqw,16px);color:#fff;line-height:1.15}
+.hs.mon .mv{font-size:clamp(8px,2.3cqw,14px);line-height:1.2;font-family:var(--mono,monospace)}
+.hs.mon .ms{font-size:clamp(7px,1.9cqw,11px);opacity:.75;margin-top:auto}
 .hs.mon .cl-bar{height:9px;border-width:2px;margin-top:0;border-radius:5px}
-.rbub{position:absolute;left:36%;top:1.5%;width:62%;max-height:21%;overflow:hidden;background:#fff;border:3px solid #14110f;border-radius:16px;padding:6px 10px;font-size:clamp(10.5px,2.9vw,15px);font-weight:700;line-height:1.25;box-shadow:3px 3px 0 #14110f;display:flex;align-items:center}
+.rbub{position:absolute;left:36%;top:1.5%;width:62%;max-height:21%;overflow:hidden;background:#fff;border:3px solid #14110f;border-radius:16px;padding:6px 10px;font-size:clamp(10.5px,3.3cqw,21px);font-weight:700;line-height:1.25;box-shadow:3px 3px 0 #14110f;display:flex;align-items:center}
 .rbub::after{content:"";position:absolute;left:14%;bottom:-13px;border:8px solid transparent;border-top:12px solid #14110f;border-bottom:0}
 .rbub::before{content:"";position:absolute;left:calc(14% + 3px);bottom:-8px;border:5px solid transparent;border-top:8px solid #fff;border-bottom:0;z-index:1}
-.rpop{position:absolute;left:50%;bottom:4%;transform:translateX(-50%);background:#14110f;color:#ffe35c;border-radius:10px;padding:5px 12px;font-size:clamp(10px,2.8vw,14px);font-weight:900;white-space:nowrap;animation:rpop 1.6s ease-out forwards;pointer-events:none}
+.rpop{position:absolute;left:50%;bottom:4%;transform:translateX(-50%);background:#14110f;color:#ffe35c;border-radius:10px;padding:5px 12px;font-size:clamp(10px,2.8cqw,16px);font-weight:900;white-space:nowrap;animation:rpop 1.6s ease-out forwards;pointer-events:none}
 @keyframes rpop{0%{opacity:0;transform:translate(-50%,10px)}15%{opacity:1;transform:translate(-50%,0)}80%{opacity:1}100%{opacity:0;transform:translate(-50%,-14px)}}
 .room.shake{animation:rshake .4s}
 @keyframes rshake{0%,100%{transform:none}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
@@ -521,9 +569,6 @@ select.field{appearance:auto}
 .nap.dx .art{color:#ffe35c}
 .nap.dx .t{text-shadow:0 0 6px #2a2540,0 0 6px #2a2540}
 .nap.ca{background:var(--c);border-radius:10px}
-.nap.ca .art{font-size:0;top:28%;display:grid;grid-template-columns:repeat(3,18px);gap:6px;justify-content:center}
-.nap.ca .art i{width:18px;height:18px;border:2px solid var(--ink);border-radius:4px;background:#fff;display:block}
-.nap.ca .art i:nth-child(5){background:#ffe35c}
 .nap.fa .art{font-size:40px;top:30%}
 .nap.fa::after{content:"";position:absolute;left:0;right:0;top:0;height:30px;background:rgba(255,255,255,.35);border-bottom:2px solid var(--ink)}
 .nap-mod{position:fixed;inset:0;z-index:90;background:rgba(20,17,15,.62);display:flex;align-items:center;justify-content:center;padding:14px}
@@ -1865,9 +1910,12 @@ const linksHtml = fu => '<p class="src cl-fu"><b>Fuentes:</b> '+fu.map(x => '<a 
 
 const CCOL = {'Nefrología':'#7cc8ff','Gastroenterología':'#ffb36b','Dermatología':'#ff9ccf'};
 const CSUIT = {'Nefrología':'♠','Gastroenterología':'♦','Dermatología':'♥'};
+const CALCART = {nacambio:['Na±','#7cc8ff'], naglu:['Na+G','#9fe8ff'], aguadef:['H₂O','#6fd6c8'], brecha:['AG','#b9a6ff'], cacorr:['Ca','#ffe35c'], child:['C-P','#ffb36b'], meld:['MELD','#ff8a80'], gbs:['GBS','#a8f0a0'], bisap:['BISAP','#ffd27a'], uas7:['UAS7','#ff9ccf']};
 const GCOL = {'Digestivo':'#ffb36b','Hígado':'#a8f0a0','Riñón y electrolitos':'#7cc8ff','Piel':'#ff9ccf'};
 const nap = (cls, cur, art, title, sub, attrs, col) => '<button class="nap '+cls+'" style="--c:'+(col || CCOL[cur])+'" '+attrs+'><span class="k">'+CSUIT[cur]+'</span><span class="art">'+art+'</span><div class="tb"><span class="t">'+esc(title)+'</span>'+(sub ? '<p class="s">'+esc(sub)+'</p>' : '')+'</div><span class="k b">'+CSUIT[cur]+'</span></button>';
-const deck = (attrs, art, t, d, c, wide) => '<button class="deck'+(wide ? ' wide' : '')+'" style="--c:'+c+'" '+attrs+'><span class="art">'+art+'</span><b>'+esc(t)+'</b><span class="d">'+esc(d)+'</span></button>';
+const PCOL = {varices:'#ffb36b', hiperk:'#7cc8ff', hipona:'#9ff3b0', anafi:'#ff9ccf'};
+const deckPt = (attrs, id, t, d) => '<button class="deck pt" style="--c:'+PCOL[id]+';--rot:'+({varices:'-1.2deg',hiperk:'1deg',hipona:'-.8deg',anafi:'1.4deg'}[id])+'" '+attrs+'><svg class="face" viewBox="0 38 200 190" aria-hidden="true">'+simPat('llega', SIMS[id].pac)+'</svg><b>'+esc(t)+'</b><span class="d">'+esc(d)+'</span></button>';
+const deck = (attrs, art, t, d, c, wide, extra) => '<button class="deck'+(wide ? ' wide' : '')+'" style="--c:'+c+(extra || '')+'" '+attrs+'><span class="art">'+art+'</span><b>'+esc(t)+'</b><span class="d">'+esc(d)+'</span></button>';
 function napBody(k, i){
   if(k === 'fa'){ const f = FARM[i];
     return {cur:farmCur(f.g), t:f.n, h:[['Para qué sirve',f.uso],['Dosis',f.dosis],['Ajuste renal',f.renal],['Interacciones',f.inter],['Qué vigilar',f.vig]].filter(x => x[1]).map(x => '<p><b>'+x[0]+':</b> '+esc(x[1])+'</p>').join('')+(f.alerta ? '<p class="cl-warn2"><b>Ojo:</b> '+esc(f.alerta)+'</p>' : '')+linksHtml(f.fu)}; }
@@ -1887,7 +1935,7 @@ document.addEventListener('click', e => { if(e.target.id === 'napmod') napClose(
 document.addEventListener('keydown', e => { if(e.key === 'Escape') napClose(); });
 let CLY = 0;
 function vFarm(){
-  const card = f => { const i = FARM.indexOf(f); return nap('fa', farmCur(f.g), 'Rx', f.n, f.g, 'data-act="napo" data-k="fa" data-i="'+i+'" data-s="'+esc((f.n+' '+f.g+' '+f.uso).toLowerCase())+'"', GCOL[f.g]); };
+  const card = f => { const i = FARM.indexOf(f); return nap('fa', farmCur(f.g), esc(f.n.replace(/[^A-Za-zÁÉÍÓÚáéíóúñÑ ]/g,'').trim().slice(0,2)), f.n, f.g, 'data-act="napo" data-k="fa" data-i="'+i+'" data-s="'+esc((f.n+' '+f.g+' '+f.uso).toLowerCase())+'"', GCOL[f.g]); };
   return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>'+
     '<h2 class="cl-h">FICHAS DE FÁRMACOS</h2>'+
     '<div class="panel cl-ctx">Resumen de dosis habituales en adultos, interacciones y qué vigilar. Revisé cada dato contra las fuentes que ves al final de cada ficha (revisión de noviembre 2026). Si a una ficha le falta un campo (por ejemplo ajuste renal), es porque no pude confirmarlo en una fuente. No verifiqué la disponibilidad en Perú: confirma con el petitorio de tu hospital (PNUME, petitorio nacional de medicamentos esenciales) y con la guía local.</div>'+
@@ -2198,13 +2246,15 @@ function vDeb(){
       (lines.length ? '<ul class="cl-ul">'+lines.join('')+'</ul>' : '')+
       '<p class="src" style="margin:0">Además hoy tienes '+venc+' flashcard'+(venc === 1 ? '' : 's')+' para repasar.</p>';
   }
-  const rows = ts.slice(0, 12).map(r => '<div class="panel stack" style="gap:6px"><b>'+esc(r.t)+'</b><span class="src">'+esc(areaN(r.a))+' · '+r.n+' preguntas: '+r.nuevas.length+' sin ver, '+r.fall.length+' falladas, '+r.dom+' dominadas</span><button class="btn act" data-act="cldebp" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'"><b>Practicar este tema</b><span>falladas primero, hasta 10 preguntas</span></button></div>').join('');
-  return '<div class="stack">'+back+'<header><h2 class="cl-h">MAPA DE PUNTOS DÉBILES</h2><p class="sub">Lee lo que ya respondiste en ArcadeMed y te ordena los temas por prioridad. Solo lee: no cambia tu progreso, tus puntos ni tus preguntas. La fecha se guarda aparte.</p></header>'+
+  const ACOL = ['#7cc8ff', '#ffb36b', '#ff9ccf', '#a8f0a0', '#b9a6ff', '#ffe35c'];
+  const rows = ts.slice(0, 12).map((r, n) => { const tt = r.n || 1, pf = Math.round(100 * r.fall.length / tt), pd = Math.round(100 * r.dom / tt), pn = Math.round(100 * r.nuevas.length / tt); return '<div class="dtema" style="--c:'+ACOL[n % ACOL.length]+'"><div class="pr"><span class="rk">'+(n + 1)+'</span><div><b>'+esc(r.t)+'</b><br><span class="src">'+esc(areaN(r.a))+' · '+r.n+' preguntas</span></div></div><div class="dbar" title="Falladas, sin ver y dominadas"><i style="width:'+pf+'%;background:#e02a1f"></i><i style="width:'+pn+'%;background:#ffd93b"></i><i style="width:'+pd+'%;background:#19d27f"></i></div><span class="src">'+r.fall.length+' falladas · '+r.nuevas.length+' sin ver · '+r.dom+' dominadas</span><button class="btn act" data-act="cldebp" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'"><b>Practicar este tema</b><span>falladas primero, hasta 10 preguntas</span></button></div>'; }).join('');
+  const cuenta = (fecha && dias != null && dias >= 0) ? '<div class="dcount"><span class="src" style="color:#fff">TU EXAMEN</span><b>'+dias+'</b><span>'+(dias === 1 ? 'día' : 'días')+' para el examen</span></div>' : '<div class="dcount"><span class="src" style="color:#fff">TU EXAMEN</span><b>?</b><span>Pon la fecha para empezar la cuenta</span></div>';
+  return '<div class="stack dbd">'+back+'<header><h2 class="cl-h">MAPA DE PUNTOS DÉBILES</h2><p class="sub">Lee lo que ya respondiste en ArcadeMed y te ordena los temas por prioridad. Solo lee: no cambia tu progreso, tus puntos ni tus preguntas. La fecha se guarda aparte.</p></header>'+
+    '<div class="dtop">'+cuenta+'<div class="dstat" style="--c:#7cc8ff"><b>'+vistas+'</b><span>de '+tot+' preguntas vistas</span></div><div class="dstat" style="--c:#a8f0a0"><b>'+dom+'</b><span>dominadas (2 aciertos seguidos)</span></div><div class="dstat" style="--c:#ff8a80"><b>'+fall+'</b><span>falladas por repasar</span></div></div>'+
+    '<div class="panel cl-res" style="background:#9ff3b0">'+plan+'</div>'+
     '<div class="panel stack" style="gap:10px"><p class="label">FECHA DE TU EXAMEN</p><div class="row" style="gap:10px;flex-wrap:wrap"><input type="date" id="cldebf" value="'+esc(fecha)+'" style="font:inherit;padding:8px;border:3px solid #14110f;border-radius:10px"><button class="btn act" data-act="cldebs"><b>Guardar fecha</b></button></div></div>'+
-    '<div class="panel cl-res">'+plan+'</div>'+
-    '<div class="panel"><p class="label">TU AVANCE</p><p style="margin:0">'+vistas+' de '+tot+' preguntas vistas; '+dom+' dominadas (2 aciertos seguidos); '+fall+' falladas.</p></div>'+
-    '<p class="label">TEMAS POR PRIORIDAD</p><p class="src" style="margin:0">Prioridad = 2 por cada pregunta fallada + 1 por cada pregunta sin ver. Una pregunta fallada deja de contar cuando la aciertas 2 veces seguidas.</p>'+
-    (rows || '<div class="panel"><p style="margin:0">No queda nada pendiente. Todo está visto y dominado.</p></div>')+'</div>';
+    '<p class="label">TEMAS POR PRIORIDAD</p><p class="src" style="margin:0">Prioridad = 2 por cada pregunta fallada + 1 por cada pregunta sin ver. Una pregunta fallada deja de contar cuando la aciertas 2 veces seguidas. En cada barra: rojo falladas, amarillo sin ver, verde dominadas.</p>'+
+    (rows ? '<div class="dgrid">'+rows+'</div>' : '<div class="panel"><p style="margin:0">No queda nada pendiente. Todo está visto y dominado.</p></div>')+'</div>';
 }
 
 const SIMS = {
@@ -2303,10 +2353,10 @@ function vSim(){
       const rec = ['Vasoactivo, antibiótico y segunda vía con reposición prudente (el orden entre ellos es libre)','Transfundir solo si la Hb baja de 7, con meta de 7 a 9','Endoscopia en menos de 12 h con el paciente estable, y ligadura si hay várices','Retirar el vasoactivo cuando el sangrado está controlado','Betabloqueante no selectivo y ligaduras repetidas','Alta'].map(x => '<li>'+esc(x)+'</li>').join('');
       extra = '<div class="panel"><p class="label">TU ORDEN</p><ol style="margin:0;padding-left:20px">'+hechas+'</ol></div><div class="panel"><p class="label">ORDEN DE LAS GUÍAS PARA ESTE CASO</p><ol style="margin:0;padding-left:20px">'+rec+'</ol></div>';
     }
-    return '<div class="stack">'+back+head+ficha+room+'<div class="panel cl-res"><div class="cl-big">'+(ok ? 'El paciente salió estable' : 'El paciente se descompensó en la simulación')+'</div><p>Decisiones equivocadas: '+fall+'.</p><p class="src" style="margin:0">Es una simulación para estudiar con guías internacionales. En tu hospital manda el protocolo local.</p></div>'+extra+
-      '<button class="btn act" data-act="'+(free ? 'cllib' : 'clsim')+'" data-id="'+k.id+'"><b>Atender otra vez</b></button><p class="src"><b>Todas las fuentes de este caso:</b></p>'+linksHtml(k.fu)+'</div>';
+    return '<div class="simbar">'+back.replace('<div class="row">','').replace('</div>','')+'<button class="btn small ghost" data-act="simfs">Pantalla completa</button></div><div class="simfull"><div class="simL">'+room+'</div><div class="simR stack">'+head+ficha+'<div class="panel cl-res"><div class="cl-big">'+(ok ? 'El paciente salió estable' : 'El paciente se descompensó en la simulación')+'</div><p>Decisiones equivocadas: '+fall+'.</p><p class="src" style="margin:0">Es una simulación para estudiar con guías internacionales. En tu hospital manda el protocolo local.</p></div>'+extra+
+      '<button class="btn act" data-act="'+(free ? 'cllib' : 'clsim')+'" data-id="'+k.id+'"><b>Atender otra vez</b></button><p class="src"><b>Todas las fuentes de este caso:</b></p>'+linksHtml(k.fu)+'</div></div>';
   }
-  return '<div class="stack">'+back+head+ficha+room+'<div id="tray" class="stack" style="gap:12px">'+tray+'</div></div>';
+  return '<div class="simbar">'+back.replace('<div class="row">','').replace('</div>','')+'<button class="btn small ghost" data-act="simfs">Pantalla completa</button></div><div class="simfull"><div class="simL">'+room+'</div><div class="simR stack">'+head+ficha+'<div id="tray" class="stack" style="gap:12px">'+tray+'</div></div></div>';
 }
 
 const LIBA = [
@@ -2387,13 +2437,13 @@ function vClin(){
     return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button></div>'+
       '<header><h2 class="cl-h">PRÁCTICA CLÍNICA</h2><p class="sub">Herramientas para la guardia y las rotaciones. Todo esto vive aparte: no cambia tu progreso, tus puntos ni las preguntas del examen.</p></header>'+
       clChips()+'<div class="deck-grid">'+
-        deck('data-act="clfarm"', 'Rx', 'Fichas de fármacos', farmL().length+' cartas: dosis, ajuste renal, interacciones y qué vigilar', '#ffe35c')+
-        deck('data-act="clerr"', '!', 'Errores que no se pueden cometer', ERRS.length+' cartas de guardia, con qué hacer y la fuente', '#ff8a80')+
-        deck('data-act="cldx"', '?', 'Diagnóstico diferencial', DX.length+' síntomas: qué dato separa unas causas de otras', '#b9a6ff')+
-        deck('data-act="cllec"', '%', 'Lectura de datos', lecL().length+' ejercicios con valores al azar', '#7cf0c8')+
+        deck('data-act="clfarm"', 'Rx', 'Fichas de fármacos', farmL().length+' cartas: dosis, ajuste renal, interacciones y qué vigilar', '#ffe35c', false, ';--rot:-1.4deg;--rd:20px')+
+        deck('data-act="clerr"', '!', 'Errores que no se pueden cometer', ERRS.length+' cartas de guardia, con qué hacer y la fuente', '#ff8a80', false, ';--rot:1.2deg;--rd:6px')+
+        deck('data-act="cldx"', '?', 'Diagnóstico diferencial', DX.length+' síntomas: qué dato separa unas causas de otras', '#b9a6ff', false, ';--rot:-.8deg;--rd:28px')+
+        deck('data-act="cllec"', '%', 'Lectura de datos', lecL().length+' ejercicios con valores al azar', '#7cf0c8', false, ';--rot:1.4deg;--rd:10px')+
         deck('data-act="cldeb"', '★', 'Mapa de puntos débiles y plan diario', 'Lee tu avance y reparte las preguntas hasta tu examen', '#ffb36b', true)+'</div>'+
-      '<div><p class="label">CONSULTORIO: LLEGA UN PACIENTE</p><p class="src" style="margin:0 0 10px">Cada caso de guardia es un paciente en el consultorio. Modo guiado: el juego te da opciones en cada etapa. Modo libre (por ahora solo Don Pedro): tú decides qué preguntar, pedir e indicar.</p><div class="deck-grid">'+CASOS.filter(x => okF(x.c)).map(x => deck('data-act="clsim" data-id="'+x.id+'"', '+', SIMS[x.id].pac.nombre, x.n+' · guiado, '+x.pasos.length+' decisiones', CCOL[x.c])).join('')+(okF('Gastroenterología') ? deck('data-act="cllib" data-id="varices"', '+', 'Don Pedro: modo libre', 'Tú eliges qué preguntar, pedir e indicar, y en qué orden.', '#9ff3b0') : '')+'</div></div>'+
-      clGroups().map(g => '<div><p class="label">CALCULADORAS: '+esc(g.toUpperCase())+'</p><div class="nap-grid">'+CALCS.filter(x => x.g === g && okF(calcCur(x.g))).map(x => nap('ca', calcCur(x.g), '<i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>', x.n, '', 'data-act="clcalc" data-id="'+x.id+'"')).join('')+'</div></div>').join('')+
+      '<div><p class="label">CONSULTORIO: LLEGA UN PACIENTE</p><p class="src" style="margin:0 0 10px">Cada caso de guardia es un paciente en el consultorio. Modo guiado: el juego te da opciones en cada etapa. Modo libre (por ahora solo Don Pedro): tú decides qué preguntar, pedir e indicar.</p><div class="deck-grid">'+CASOS.filter(x => okF(x.c)).map(x => deckPt('data-act="clsim" data-id="'+x.id+'"', x.id, SIMS[x.id].pac.nombre, x.n+' · guiado, '+x.pasos.length+' decisiones')).join('')+(okF('Gastroenterología') ? '<button class="deck pt" style="--c:#ffe35c;--rot:-1deg" data-act="cllib" data-id="varices"><svg class="face" viewBox="0 38 200 190" aria-hidden="true">'+simPat('estable', SIMS.varices.pac)+'</svg><b>Don Pedro: modo libre</b><span class="d">Tú eliges qué preguntar, pedir e indicar, y en qué orden.</span></button>' : '')+'</div></div>'+
+      clGroups().map(g => '<div><p class="label">CALCULADORAS: '+esc(g.toUpperCase())+'</p><div class="nap-grid">'+CALCS.filter(x => x.g === g && okF(calcCur(x.g))).map(x => nap('ca', calcCur(x.g), CALCART[x.id][0], x.n, '', 'data-act="clcalc" data-id="'+x.id+'"', CALCART[x.id][1])).join('')+'</div></div>').join('')+
       (CLIN_NEXT.length ? '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>' : '')+
       '<p class="src">Las calculadoras ayudan a pensar, no reemplazan al criterio clínico ni a la guía de tu hospital. Cada una indica su referencia. Contenido revisado contra guías y fuentes en noviembre 2026; las guías cambian, por eso cada ítem muestra de dónde sale.</p></div>';
   }
@@ -2428,6 +2478,7 @@ function render(){
   if(V.name === 'play' && V.timed) runTimer();
   if(V.name === 'tarjeta') cardInit();
   if(V.name === 'clin') clCalc();
+  { const ap = document.getElementById('app'); ap.classList.toggle('hh', V.name === 'home'); ap.classList.toggle('hw', V.name === 'home' || (V.name === 'clin' && !V.scn)); ap.classList.toggle('full', V.name === 'clin' && !!V.scn); }
   document.getElementById('app').classList.toggle('wide', V.name === 'mapa' && !S.set.maplist && isWide());
   closeSheet(); if(V.name === 'mapa') mapInit(); applySky(); roomInit(); musSync();
   if(V.name === 'result' && !V.dead && V.answeredN && V.ok/V.answeredN >= 0.8) setTimeout(() => { confetti(40); burstAt(document.querySelector('.catbox svg'), 'ok'); }, 300);
@@ -2594,6 +2645,7 @@ const A = {
   clin: () => { const sub = V.name === 'clin' && (V.farm || V.err || V.dx || V.lec || V.deb || V.scn || V.caso || V.calc); if(!sub) CLY = 0; go({name:'clin', calc:null}); if(sub && CLY) window.scrollTo(0, CLY); },
   napo: d => napOpen(d.k, +d.i),
   napx: () => napClose(),
+  simfs: () => { if(document.fullscreenElement) document.exitFullscreen(); else if(document.documentElement.requestFullscreen) document.documentElement.requestFullscreen(); },
   clfarm: () => go({name:'clin', farm:true}),
   cldx: () => go({name:'clin', dx:true}),
   clcf: d => { CLCF = d.v; render(); },
@@ -2602,7 +2654,7 @@ const A = {
   cldebp: d => { const r = debData().find(x => x.a === d.a && x.t === d.t); if(!r) return; startRound(r.fall.concat(shuffle(r.nuevas)).slice(0, 10), 'practica'); },
   cllib: d => { go({name:'clin', scn:d.id, lib:{hechas:{}, orden:[], fall:0, evento:false, ult:null, fin:false, sel:null}, enter:true}); },
   roomobj: d => { V.lib.sel = d.id; render(); },
-  libdo: d => { libDo(d.id); const r = V.lib.ult; V.pop = (LIBA.find(x => x.id === d.id) || {}).t; V.shake = !!(r && r.res === 'no'); render(); const tr = document.getElementById('tray'); if(tr) tr.scrollIntoView({block:'start', behavior:'smooth'}); },
+  libdo: d => { libDo(d.id); const r = V.lib.ult; V.pop = (LIBA.find(x => x.id === d.id) || {}).t; V.shake = !!(r && r.res === 'no'); render(); const tr = document.getElementById('tray'); if(tr) tr.scrollIntoView({block:'nearest', behavior:'smooth'}); },
   clsim: d => { go({name:'clin', scn:d.id, paso:0, sel:null, fallos:0, enter:true}); },
   simop: d => { const k = CASOS.find(x => x.id === V.scn), o = k.pasos[V.paso].o[+d.i]; if(V.sel != null) return; V.sel = +d.i; if(!o.ok){ V.fallos = (V.fallos||0)+1; V.shake = true; } else V.pop = 'Decisión correcta'; render(); },
   simnext: () => { V.paso++; V.sel = null; render(); window.scrollTo(0,0); },
