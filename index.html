@@ -483,6 +483,7 @@ select.field{appearance:auto}
 .cl-op.cl-ok{background:#8dffb0}
 .cl-op.cl-no{background:#ffb3c8}
 .cl-op:disabled:not(.cl-ok):not(.cl-no){opacity:.55}
+.cl-ul{margin:8px 0 0;padding-left:20px;display:grid;gap:4px}
 .cl-fb{font-size:14px;line-height:1.5}
 .cl-fbok{background:#d4ffe0}
 .cl-fbno{background:#ffe0ea}
@@ -1765,7 +1766,7 @@ const CALCS = [
   }, ref:'Zuberbier, Allergy 2022 (guía EAACI/GA²LEN/EuroGuiDerm/APAAACI); Młynek, Allergy 2008.'}
 ];
 const CALC_FU = {"nacambio": [["Revisión MDCalc: corrección de sodio", "https://mdcalc.scholasticahq.com/article/158150-updated-review-of-sodium-correction-rate-in-hyponatremia-and-hypernatremia"], ["Fórmula Adrogué-Madias", "https://www.evigrade.com/en/calculators/adrogue-madias"], ["WikEM: hiponatremia", "https://wikem.org/wiki/Hyponatremia"]], "naglu": [["Factores 1,6 y 2,4 (Cardioteca)", "https://www.cardioteca.com/calculadoras-cardiologia-clinica/8737-calculadora-sodio-corregido-calcio-corregido-anion-gap-presion-arterial-media.html"]], "aguadef": [["WikEM: hipernatremia", "https://wikem.org/wiki/Hypernatremia"], ["Protocolo de hipernatremia", "https://mediscuss.org/cdss/acute-hypernatraemia"]], "brecha": [["Revisión MDCalc: brecha aniónica", "https://mdcalc.scholasticahq.com/article/154676-updated-review-of-serum-anion-gap"], ["WikEM: brecha aniónica y delta-delta", "https://wikem.org/wiki/Anion_gap"], ["Figge 1998 (resumen)", "https://data.zhenzhi.com/details/1/873802764"]], "cacorr": [["Fórmula de Payne y límites", "https://www.journalmetrics.org/clinical-calculators/corrected-calcium"], ["Calcio corregido (Evigrade)", "https://www.evigrade.com/en/calculators/corrected-calcium"]], "child": [["WikEM: Child-Pugh", "https://wikem.org/wiki/Child-Pugh_score_calculator"]], "meld": [["MELD 3.0 (Univ. de Washington)", "https://www.hepatitisc.uw.edu/page/clinical-calculators/meld"], ["MELD 3.0 (Manual Merck)", "https://www.merckmanuals.com/iframe/manual/medical-calculators/meld3.htm"], ["Fórmulas MELD, MELD-Na y 3.0", "https://casrai.org/guides/meld-score"]], "gbs": [["Radiopaedia: Glasgow-Blatchford", "https://radiopaedia.org/articles/glasgow-blatchford-score-2"], ["ACG hemorragia digestiva alta 2021", "https://pubmed.ncbi.nlm.nih.gov/33929377/"]], "bisap": [["Manual MSD: BISAP", "https://www.msdmanuals.com/iframe/manual/medical-calculators/bisapscore.htm"], ["Wu 2008, Gut", "https://www.qxmd.com/pubmed/18519429"]], "uas7": [["UAS7 y categorías (protocolo)", "https://cdn.clinicaltrials.gov/large-docs/55/NCT04833855/Prot_000.pdf"], ["Bandas del UAS7 (Springer)", "https://link.springer.com/article/10.1007/s40257-017-0331-8"], ["AAD: guía de urticaria", "https://www.aad.org/guidelines/collaborations-urticaria"]]};
-const CLIN_NEXT = ['Mapa de puntos débiles'];
+const CLIN_NEXT = [];
 const clGroups = () => [...new Set(CALCS.map(c => c.g))];
 function clField(c, f){
   const dv = c.def && c.def[f.k] !== undefined ? c.def[f.k] : '';
@@ -2060,8 +2061,48 @@ function vLec(){
   }
   return '<div class="stack">'+back+'<h2 class="cl-h">'+esc(d.n)+'</h2><div class="panel cl-ctx"><b>Qué es:</b> '+esc(d.ctx)+'</div><div class="panel"><p style="margin:0">'+esc(q.txt)+'</p></div><p class="label">'+esc(q.q)+'</p><div class="stack" style="gap:10px">'+ops+'</div>'+fb+'</div>';
 }
+
+const DEB_KEY = 'arcade-clin-fecha';
+const debFecha = () => { try{ return localStorage.getItem(DEB_KEY) || ''; }catch(e){ return ''; } };
+function debData(){
+  const m = {}; allQ().forEach(q => {
+    const k = q.area+'|'+q.tema, r = m[k] || (m[k] = {a:q.area, t:q.tema, n:0, vistas:0, fall:[], nuevas:[], dom:0});
+    r.n++; if(S.q[q.id]) r.vistas++; else r.nuevas.push(q.id);
+    if(isFallada(q)) r.fall.push(q.id); if(isDominada(q)) r.dom++;
+  });
+  return Object.values(m).map(r => Object.assign(r, {pri:r.fall.length * 2 + r.nuevas.length})).filter(r => r.pri > 0).sort((a, b) => b.pri - a.pri);
+}
+function vDeb(){
+  const back = '<div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>';
+  const ts = debData(), fecha = debFecha(), hoy = new Date(); hoy.setHours(0, 0, 0, 0);
+  let dias = null; if(fecha){ const f = new Date(fecha + 'T00:00:00'); dias = Math.round((f - hoy) / 864e5); }
+  const pend = ts.reduce((n, r) => n + r.fall.length + r.nuevas.length, 0);
+  const areaN = id => (AREAS.find(a => a.id === id) || {n:id}).n;
+  const qs = allQ(), tot = qs.length, vistas = qs.filter(q => S.q[q.id]).length, dom = qs.filter(isDominada).length, fall = qs.filter(isFallada).length;
+  const t0 = new Date(); t0.setHours(23, 59, 59, 999);
+  const venc = allC().filter(c => S.c[c.id] && S.c[c.id].due <= t0.getTime()).length;
+  let plan = '';
+  if(!fecha) plan = '<p class="src" style="margin:0">Pon la fecha de tu examen y calculo cuántas preguntas te tocan por día.</p>';
+  else if(dias < 0) plan = '<p class="src" style="margin:0">Esa fecha ya pasó. Cámbiala por la del próximo examen.</p>';
+  else {
+    const d = Math.max(1, dias + 1), cupo = Math.ceil(pend / d); let rest = cupo; const lines = [];
+    ts.forEach(r => { if(rest <= 0) return; const f = Math.min(rest, r.fall.length); rest -= f; const nn = Math.min(rest, r.nuevas.length); rest -= nn; if(f + nn) lines.push('<li><b>'+esc(r.t)+'</b> ('+esc(areaN(r.a))+'): '+(f ? f+' falladas' : '')+(f && nn ? ' y ' : '')+(nn ? nn+' sin ver' : '')+'</li>'); });
+    plan = '<div class="cl-big">'+(pend ? 'Hoy: '+cupo+' preguntas' : 'Nada pendiente')+'</div>'+
+      '<p style="margin:0">'+(dias === 0 ? 'El examen es hoy.' : 'Faltan '+dias+' día'+(dias === 1 ? '' : 's')+' para el examen.')+' Quedan '+pend+' preguntas por ver o repasar ('+fall+' falladas y '+(pend - fall)+' sin ver); repartidas en '+d+' día'+(d === 1 ? '' : 's')+', son '+cupo+' por día.</p>'+
+      (lines.length ? '<ul class="cl-ul">'+lines.join('')+'</ul>' : '')+
+      '<p class="src" style="margin:0">Además hoy tienes '+venc+' flashcard'+(venc === 1 ? '' : 's')+' para repasar.</p>';
+  }
+  const rows = ts.slice(0, 12).map(r => '<div class="panel stack" style="gap:6px"><b>'+esc(r.t)+'</b><span class="src">'+esc(areaN(r.a))+' · '+r.n+' preguntas: '+r.nuevas.length+' sin ver, '+r.fall.length+' falladas, '+r.dom+' dominadas</span><button class="btn act" data-act="cldebp" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'"><b>Practicar este tema</b><span>falladas primero, hasta 10 preguntas</span></button></div>').join('');
+  return '<div class="stack">'+back+'<header><h2 class="cl-h">MAPA DE PUNTOS DÉBILES</h2><p class="sub">Lee lo que ya respondiste en ArcadeMed y te ordena los temas por prioridad. Solo lee: no cambia tu progreso, tus puntos ni tus preguntas. La fecha se guarda aparte.</p></header>'+
+    '<div class="panel stack" style="gap:10px"><p class="label">FECHA DE TU EXAMEN</p><div class="row" style="gap:10px;flex-wrap:wrap"><input type="date" id="cldebf" value="'+esc(fecha)+'" style="font:inherit;padding:8px;border:3px solid #14110f;border-radius:10px"><button class="btn act" data-act="cldebs"><b>Guardar fecha</b></button></div></div>'+
+    '<div class="panel cl-res">'+plan+'</div>'+
+    '<div class="panel"><p class="label">TU AVANCE</p><p style="margin:0">'+vistas+' de '+tot+' preguntas vistas; '+dom+' dominadas (2 aciertos seguidos); '+fall+' falladas.</p></div>'+
+    '<p class="label">TEMAS POR PRIORIDAD</p><p class="src" style="margin:0">Prioridad = 2 por cada pregunta fallada + 1 por cada pregunta sin ver. Una pregunta fallada deja de contar cuando la aciertas 2 veces seguidas.</p>'+
+    (rows || '<div class="panel"><p style="margin:0">No queda nada pendiente. Todo está visto y dominado.</p></div>')+'</div>';
+}
 function vClin(){
   if(V.farm) return vFarm();
+  if(V.deb) return vDeb();
   if(V.lec) return vLec();
   if(V.dx) return vDx();
   if(V.err) return vErr();
@@ -2074,9 +2115,10 @@ function vClin(){
       '<div><p class="label">REPASO RÁPIDO</p><button class="btn act" data-act="clerr"><b>ERRORES QUE NO SE PUEDEN COMETER</b><span>'+ERRS.length+' errores de guardia, con qué hacer y la fuente</span></button></div>'+
       '<div><button class="btn act" data-act="cldx"><b>DIAGNÓSTICO DIFERENCIAL POR SÍNTOMA</b><span>'+DX.length+' síntomas: qué dato separa unas causas de otras</span></button></div>'+
       '<div><button class="btn act" data-act="cllec"><b>LECTURA DE DATOS</b><span>'+LEC.length+' ejercicios con valores al azar: gasometría, lesión renal, hepatograma, Child-Pugh</span></button></div>'+
+      '<div><p class="label">TU EXAMEN</p><button class="btn act" data-act="cldeb"><b>MAPA DE PUNTOS DÉBILES Y PLAN DIARIO</b><span>Lee tu avance, ordena los temas y reparte las preguntas hasta la fecha del examen</span></button></div>'+
       '<div><p class="label">CASOS DE GUARDIA</p><div class="cl-list">'+CASOS.map(x => '<button class="btn act" data-act="clcaso" data-id="'+x.id+'"><b>'+esc(x.n)+'</b><span>'+esc(x.c)+' · '+x.pasos.length+' decisiones</span></button>').join('')+'</div></div>'+
       clGroups().map(g => '<div><p class="label">'+esc(g)+'</p><div class="cl-list">'+CALCS.filter(x => x.g === g).map(x => '<button class="btn act" data-act="clcalc" data-id="'+x.id+'"><b>'+esc(x.n)+'</b></button>').join('')+'</div></div>').join('')+
-      '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>'+
+      (CLIN_NEXT.length ? '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>' : '')+
       '<p class="src">Las calculadoras ayudan a pensar, no reemplazan al criterio clínico ni a la guía de tu hospital. Cada una indica su referencia.</p></div>';
   }
   return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>'+
@@ -2276,6 +2318,9 @@ const A = {
   clin: () => go({name:'clin', calc:null}),
   clfarm: () => go({name:'clin', farm:true}),
   cldx: () => go({name:'clin', dx:true}),
+  cldeb: () => go({name:'clin', deb:true}),
+  cldebs: () => { const v = (document.getElementById('cldebf') || {}).value || ''; try{ if(v) localStorage.setItem(DEB_KEY, v); else localStorage.removeItem(DEB_KEY); }catch(e){} render(); },
+  cldebp: d => { const r = debData().find(x => x.a === d.a && x.t === d.t); if(!r) return; startRound(r.fall.concat(shuffle(r.nuevas)).slice(0, 10), 'practica'); },
   cllec: () => go({name:'clin', lec:{ok:0, tot:0}}),
   cllecm: () => { V.lec = {ok:V.lec.ok, tot:V.lec.tot}; render(); window.scrollTo(0,0); },
   cllecn: d => { const g = LEC.find(x => x.id === d.k).gen(); if(!g.ord){ for(let a = g.o.length - 1; a > 0; a--){ const b = Math.floor(Math.random() * (a + 1)); [g.o[a], g.o[b]] = [g.o[b], g.o[a]]; } } V.lec = {k:d.k, q:g, sel:null, ok:V.lec.ok, tot:V.lec.tot}; render(); window.scrollTo(0,0); },
