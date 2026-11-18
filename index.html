@@ -474,6 +474,30 @@ body[data-scene=derma]::before{background-image:url("data:image/svg+xml,%3Csvg x
 .cl-warn{font-weight:800;color:#b3001b}
 select.field{appearance:auto}
 
+
+.room-wrap{position:sticky;top:0;z-index:6;padding:4px 0}
+.room{position:relative;width:100%;max-width:min(560px,calc(42vh * 1.1765));margin:0 auto;line-height:1.3}
+.room .cl-scn{max-width:none;width:100%}
+.hs{position:absolute;padding:0;border:0;background:transparent;border-radius:12px;cursor:pointer;font:inherit;color:inherit;transition:box-shadow .15s,background .15s}
+.hs .hl{position:absolute;left:50%;bottom:-2px;transform:translate(-50%,50%);background:#ffe35c;border:2px solid #14110f;border-radius:8px;padding:1px 7px;font-size:10px;font-weight:900;white-space:nowrap;text-transform:uppercase;opacity:0;transition:opacity .15s;pointer-events:none}
+.hs:hover:not(:disabled),.hs:focus-visible,.hs.on{background:rgba(255,227,92,.28);box-shadow:0 0 0 3px #ffe35c,0 0 0 6px #14110f}
+.hs:hover:not(:disabled) .hl,.hs.on .hl,.hs:focus-visible .hl{opacity:1}
+.hs:disabled{cursor:default}
+.hs.mon{background:#17202b;border:3px solid #14110f;border-radius:10px;box-shadow:3px 3px 0 #14110f;color:#7dffb0;text-align:left;padding:6px 8px;display:flex;flex-direction:column;gap:2px;overflow:hidden}
+.hs.mon:hover:not(:disabled),.hs.mon.on{background:#1f2e3f}
+.hs.mon b{font-size:clamp(9px,2.5vw,13px);color:#fff;line-height:1.15}
+.hs.mon .mv{font-size:clamp(8px,2.2vw,12px);line-height:1.2;font-family:var(--mono,monospace)}
+.hs.mon .ms{font-size:clamp(7px,1.9vw,10px);opacity:.75;margin-top:auto}
+.hs.mon .cl-bar{height:9px;border-width:2px;margin-top:0;border-radius:5px}
+.rbub{position:absolute;left:36%;top:1.5%;width:62%;max-height:21%;overflow:hidden;background:#fff;border:3px solid #14110f;border-radius:16px;padding:6px 10px;font-size:clamp(10.5px,2.9vw,15px);font-weight:700;line-height:1.25;box-shadow:3px 3px 0 #14110f;display:flex;align-items:center}
+.rbub::after{content:"";position:absolute;left:14%;bottom:-13px;border:8px solid transparent;border-top:12px solid #14110f;border-bottom:0}
+.rbub::before{content:"";position:absolute;left:calc(14% + 3px);bottom:-8px;border:5px solid transparent;border-top:8px solid #fff;border-bottom:0;z-index:1}
+.rpop{position:absolute;left:50%;bottom:4%;transform:translateX(-50%);background:#14110f;color:#ffe35c;border-radius:10px;padding:5px 12px;font-size:clamp(10px,2.8vw,14px);font-weight:900;white-space:nowrap;animation:rpop 1.6s ease-out forwards;pointer-events:none}
+@keyframes rpop{0%{opacity:0;transform:translate(-50%,10px)}15%{opacity:1;transform:translate(-50%,0)}80%{opacity:1}100%{opacity:0;transform:translate(-50%,-14px)}}
+.room.shake{animation:rshake .4s}
+@keyframes rshake{0%,100%{transform:none}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
+#tray{scroll-margin-top:calc(min(100vw - 32px, 42vh * 1.1765) * .85 + 12px)}
+@media (min-width:700px){.room-wrap{position:static}#tray{scroll-margin-top:12px}}
 .nap-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:18px}
 .nap{position:relative;aspect-ratio:5/7;min-height:200px;background:var(--c,#fff);border:3px solid var(--ink);border-radius:16px;box-shadow:5px 5px 0 var(--ink);padding:10px 10px 26px;display:flex;flex-direction:column;justify-content:flex-start;text-align:left;cursor:pointer;font:inherit;color:var(--ink);transition:transform .15s,box-shadow .15s;overflow:hidden}
 .nap::before{content:"";position:absolute;inset:6px;border:2px dashed rgba(20,17,15,.28);border-radius:10px;pointer-events:none}
@@ -2188,6 +2212,21 @@ const SIMS = {
     pac: {nombre:'Don Pedro, 58 años', pelo:'#C9CCD1', camisa:'#4F8EF7'},
     habla: ['Doctor, vomité sangre y mis heces están negras desde hace 3 horas. Tengo cirrosis.', null, 'Me siento más débil.', null, 'Ya no vomito sangre.'],
     vit: ['PA 100/60 · FC 105 · Hb 8,6 g/dL', null, 'PA estable · Hb 6,8 g/dL', null, null]
+  },
+  hiperk: {
+    pac: {nombre:'Doña Rosa, 64 años', pelo:'#9A9DA3', camisa:'#FF7DB0', largo:1},
+    habla: ['Doctor, me siento muy débil.', null, null],
+    vit: ['K 7,1 mEq/L · ECG: T picudas y QRS ancho', 'K 7,1 mEq/L · ECG mejora', null]
+  },
+  hipona: {
+    pac: {nombre:'Don Luis, 45 años', pelo:'#5b3a29', camisa:'#2fbf71', barba:'#5b3a29'},
+    habla: ['(Llegó convulsionando y no puede hablar)', '(La convulsión cedió)', null],
+    vit: ['Na 108 · K 3,0 mEq/L', 'Na 113 mEq/L', 'Na 121 mEq/L']
+  },
+  anafi: {
+    pac: {nombre:'Camila, 30 años', pelo:'#8a4b2a', camisa:'#ffd93b', largo:1},
+    habla: ['Me salieron ronchas por todo el cuerpo y me cuesta respirar.', null, 'Ya respiro mejor.'],
+    vit: ['PA 80/45 · ronchas y estridor', null, null]
   }
 };
 function simPat(est, pac){
@@ -2196,32 +2235,78 @@ function simPat(est, pac){
   if(est === 'llega') cara = '<ellipse cx="80" cy="106" rx="9" ry="10" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><ellipse cx="120" cy="106" rx="9" ry="10" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><circle cx="81" cy="109" r="4" fill="'+K+'"/><circle cx="119" cy="109" r="4" fill="'+K+'"/><path d="M66 92L92 83M134 92L108 83" stroke="'+K+'" stroke-width="4" stroke-linecap="round" fill="none"/><path d="M88 150Q100 143 112 150" stroke="'+K+'" stroke-width="3.5" stroke-linecap="round" fill="none"/>';
   else if(est === 'empeora') cara = '<path d="M68 108Q80 99 92 108M108 108Q120 99 132 108" stroke="'+K+'" stroke-width="3.5" stroke-linecap="round" fill="none"/><path d="M64 88L92 78M136 88L108 78" stroke="'+K+'" stroke-width="4" stroke-linecap="round" fill="none"/><path d="M88 150Q100 142 112 150Q100 160 88 150Z" fill="#8C2B2B" stroke="'+K+'" stroke-width="2.5" stroke-linejoin="round"/><path d="M158 64C153 74 153 80 158 84C163 80 163 74 158 64ZM166 96C162 104 162 109 166 112C170 109 170 104 166 96ZM44 66C40 74 40 79 44 82C48 79 48 74 44 66Z" fill="#7FD3F7" stroke="'+K+'" stroke-width="2.5" stroke-linejoin="round"/>';
   else cara = '<ellipse cx="80" cy="106" rx="9" ry="10" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><ellipse cx="120" cy="106" rx="9" ry="10" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><circle cx="82" cy="106" r="4" fill="'+K+'"/><circle cx="118" cy="106" r="4" fill="'+K+'"/><path d="M66 89L92 86M134 89L108 86" stroke="'+K+'" stroke-width="4" stroke-linecap="round" fill="none"/><path d="M84 142Q100 156 116 142" stroke="'+K+'" stroke-width="3.5" stroke-linecap="round" fill="none"/><circle cx="68" cy="126" r="7" fill="#FF8FB1" opacity=".7"/><circle cx="132" cy="126" r="7" fill="#FF8FB1" opacity=".7"/>';
-  return '<g data-est="'+est+'"><path d="M20 250C20 205 60 182 100 182C140 182 180 205 180 250Z" fill="'+pac.camisa+'" stroke="'+K+'" stroke-width="3" stroke-linejoin="round"/><path d="M78 184L100 218L122 184Z" fill="#fff" stroke="'+K+'" stroke-width="3" stroke-linejoin="round"/><rect x="82" y="156" width="36" height="30" rx="6" fill="'+T[2]+'" stroke="'+K+'" stroke-width="3"/><circle cx="50" cy="112" r="11" fill="'+T[1]+'" stroke="'+K+'" stroke-width="3"/><circle cx="150" cy="112" r="11" fill="'+T[1]+'" stroke="'+K+'" stroke-width="3"/><ellipse cx="100" cy="108" rx="50" ry="58" fill="'+T[0]+'" stroke="'+K+'" stroke-width="3"/><path d="M51 94C44 42 156 42 149 94C136 70 64 70 51 94Z" fill="'+pac.pelo+'" stroke="'+K+'" stroke-width="3" stroke-linejoin="round"/>'+cara+'<path d="M100 110L95 127L105 127" stroke="'+K+'" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M80 134Q100 124 120 134Q100 140 80 134Z" fill="#9A9DA3" stroke="'+K+'" stroke-width="2.5" stroke-linejoin="round"/></g>';
+  return '<g data-est="'+est+'"><path d="M20 250C20 205 60 182 100 182C140 182 180 205 180 250Z" fill="'+pac.camisa+'" stroke="'+K+'" stroke-width="3" stroke-linejoin="round"/><path d="M78 184L100 218L122 184Z" fill="#fff" stroke="'+K+'" stroke-width="3" stroke-linejoin="round"/>'+(pac.hb || '')+'<rect x="82" y="156" width="36" height="30" rx="6" fill="'+T[2]+'" stroke="'+K+'" stroke-width="3"/><circle cx="50" cy="112" r="11" fill="'+T[1]+'" stroke="'+K+'" stroke-width="3"/><circle cx="150" cy="112" r="11" fill="'+T[1]+'" stroke="'+K+'" stroke-width="3"/><ellipse cx="100" cy="108" rx="50" ry="58" fill="'+T[0]+'" stroke="'+K+'" stroke-width="3"/><path d="M51 94C44 42 156 42 149 94C136 70 64 70 51 94Z" fill="'+pac.pelo+'" stroke="'+K+'" stroke-width="3" stroke-linejoin="round"/>'+cara+(pac.barba ? '<path d="M54 118C56 176 144 176 146 118C134 150 66 150 54 118Z" fill="'+pac.barba+'" stroke="'+K+'" stroke-width="3" stroke-linejoin="round"/>' : '')+'<path d="M100 110L95 127L105 127" stroke="'+K+'" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M80 134Q100 124 120 134Q100 140 80 134Z" fill="#9A9DA3" stroke="'+K+'" stroke-width="2.5" stroke-linejoin="round"/></g>';
 }
-function simScene(est, pac, ent){
+function simRoom(est, pac, ent){
   const K = '#14110f';
-  return '<svg class="cl-scn" viewBox="0 0 400 250" role="img" aria-label="Consultorio con el paciente sentado frente al escritorio"><rect width="400" height="250" fill="#8FD8FF"/><rect y="170" width="400" height="80" fill="#FFB86B"/><path d="M0 170H400" stroke="'+K+'" stroke-width="3"/><rect x="24" y="30" width="90" height="80" rx="6" fill="#FFF4B0" stroke="'+K+'" stroke-width="3"/><path d="M69 30V110M24 70H114" stroke="'+K+'" stroke-width="3"/><circle cx="92" cy="52" r="12" fill="#FFD93B" stroke="'+K+'" stroke-width="2.5"/><rect x="300" y="36" width="64" height="64" rx="6" fill="#fff" stroke="'+K+'" stroke-width="3"/><path d="M332 48V88M312 68H352" stroke="#E02A1F" stroke-width="10"/><g class="'+(ent ? 'cl-pin' : '')+'"><g transform="translate(120 16) scale(.82)"><g class="cl-br">'+simPat(est, pac)+'</g></g></g><rect x="0" y="196" width="400" height="54" fill="#C8935A" stroke="'+K+'" stroke-width="3"/><rect x="30" y="206" width="70" height="12" rx="3" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><path d="M300 206q14-26 30 0" stroke="'+K+'" stroke-width="3" fill="none"/><circle cx="300" cy="208" r="5" fill="#FF5FA2" stroke="'+K+'" stroke-width="2"/><circle cx="330" cy="208" r="5" fill="#FF5FA2" stroke="'+K+'" stroke-width="2"/></svg>';
+  const hairBack = pac.largo ? '<path d="M48 96C34 150 38 190 62 196L82 190L82 120Z M152 96C166 150 162 190 138 196L118 190L118 120Z" fill="'+pac.pelo+'" stroke="'+K+'" stroke-width="3" stroke-linejoin="round"/>' : '';
+  return '<svg class="cl-scn" viewBox="0 0 400 340" role="img" aria-label="Consultorio con el paciente frente al escritorio, el carro de medicamentos, el computador y el teléfono">'+
+    '<rect width="400" height="340" fill="#8FD8FF"/><rect y="240" width="400" height="100" fill="#FFB86B"/><path d="M0 240H400" stroke="'+K+'" stroke-width="3"/>'+
+    '<rect x="338" y="96" width="46" height="60" rx="5" fill="#fff" stroke="'+K+'" stroke-width="3"/><path d="M361 108V144M346 126H376" stroke="#E02A1F" stroke-width="8"/>'+
+    '<g class="'+(ent ? 'cl-pin' : '')+'"><g transform="translate(120 64) scale(.84)"><g class="cl-br">'+simPat(est, Object.assign({}, pac, {hb:hairBack}))+'</g></g></g>'+
+    '<rect x="0" y="246" width="400" height="94" fill="#C8935A" stroke="'+K+'" stroke-width="3"/><rect x="0" y="246" width="400" height="14" fill="#DDAA72" stroke="'+K+'" stroke-width="3"/>'+
+    '<rect x="296" y="206" width="76" height="40" rx="4" fill="#3b3a4a" stroke="'+K+'" stroke-width="3"/><rect x="302" y="212" width="64" height="28" rx="2" fill="#8FE3FF"/><path d="M310 222H350M310 230H340" stroke="#14110f" stroke-width="3" stroke-linecap="round"/><path d="M286 248L382 248L376 240L292 240Z" fill="#9A9DA3" stroke="'+K+'" stroke-width="3" stroke-linejoin="round"/>'+
+    '<rect x="104" y="232" width="48" height="16" rx="5" fill="#FF5FA2" stroke="'+K+'" stroke-width="3"/><path d="M110 232Q128 214 146 232" stroke="'+K+'" stroke-width="4" fill="none" stroke-linecap="round"/>'+
+    '<rect x="10" y="236" width="88" height="96" rx="8" fill="#E8EEF5" stroke="'+K+'" stroke-width="3"/><rect x="10" y="236" width="88" height="14" rx="6" fill="#fff" stroke="'+K+'" stroke-width="3"/><rect x="18" y="256" width="72" height="20" rx="4" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><rect x="18" y="280" width="72" height="20" rx="4" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><rect x="18" y="304" width="72" height="20" rx="4" fill="#fff" stroke="'+K+'" stroke-width="2.5"/><path d="M54 262V270M50 266H58" stroke="#E02A1F" stroke-width="3"/><circle cx="26" cy="338" r="6" fill="#14110f"/><circle cx="82" cy="338" r="6" fill="#14110f"/></svg>';
+}
+function roomView(o){
+  const hs = (id, x, y, w, h, label, cls) => '<button class="hs'+(cls ? ' '+cls : '')+(o.sel === id ? ' on' : '')+'" style="left:'+(x / 4)+'%;top:'+(y / 3.4)+'%;width:'+(w / 4)+'%;height:'+(h / 3.4)+'%" '+(o.free ? 'data-act="roomobj" data-id="'+id+'"' : 'disabled tabindex="-1"')+' aria-label="'+esc(label)+'"><span class="hl">'+esc(label)+'</span></button>';
+  const mon = '<button class="hs mon'+(o.sel === 'mon' ? ' on' : '')+'" style="left:2%;top:2.4%;width:31%;height:35%" '+(o.free ? 'data-act="roomobj" data-id="mon"' : 'disabled tabindex="-1"')+' aria-label="Monitor"><b>'+esc(o.nombre)+'</b><span class="mv">'+esc(o.vit)+'</span><span class="ms">Estabilidad</span><span class="cl-bar"><i style="width:'+o.stab+'%;background:'+o.col+'"></i></span></button>';
+  return '<div class="room-wrap"><div class="room'+(o.shake ? ' shake' : '')+'">'+simRoom(o.est, o.pac, o.ent)+mon+
+    (o.habla ? '<div class="rbub">'+esc(o.habla)+'</div>' : '')+
+    hs('pac', 150, 104, 100, 142, 'Hablar')+hs('cart', 6, 232, 96, 104, 'Carro')+hs('pc', 288, 200, 96, 56, 'Computador')+hs('tel', 100, 214, 56, 36, 'Teléfono')+
+    (o.pop ? '<div class="rpop">'+esc(o.pop)+'</div>' : '')+'</div></div>';
 }
 function vSim(){
-  const k = CASOS.find(x => x.id === V.scn), cfg = SIMS[k.id], i = V.paso || 0, fin = i >= k.pasos.length, fall = V.fallos || 0;
+  const k = CASOS.find(x => x.id === V.scn), cfg = SIMS[k.id], L = V.lib, free = !!L;
   const back = '<div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>';
-  const src = idx => linksHtml(idx.map(j => k.fu[j]));
-  const p = fin ? null : k.pasos[i], s = V.sel, o = (p && s != null) ? p.o[s] : null;
-  const est = fin ? (fall <= 1 ? 'estable' : 'empeora') : (o ? (o.ok ? (i + 1 >= k.pasos.length ? 'estable' : 'llega') : 'empeora') : (fall >= 2 ? 'empeora' : 'llega'));
+  const src = idx => linksHtml((idx || []).map(j => k.fu[j]));
+  const ficha = '<div class="panel cl-ctx" style="padding:10px 14px;font-size:13px"><b>Ficha:</b> '+esc(k.pres)+'</div>';
   const ent = !!V.enter; V.enter = false;
-  const stab = Math.max(0, 100 - 25 * fall), col = stab > 50 ? '#19d27f' : stab > 25 ? '#ffd93b' : '#e02a1f';
-  let vit = ''; for(let j = 0; j <= Math.min(i, cfg.vit.length - 1); j++) if(cfg.vit[j]) vit = cfg.vit[j];
-  let habla = ''; for(let j = Math.min(i, cfg.habla.length - 1); j >= 0; j--) if(cfg.habla[j]){ habla = cfg.habla[j]; break; }
-  const hud = '<div class="panel stack" style="gap:8px"><div class="row" style="justify-content:space-between;flex-wrap:wrap"><b>'+esc(cfg.pac.nombre)+'</b><span class="src">'+esc(vit)+'</span></div><div><span class="src">Estabilidad del paciente</span><div class="cl-bar"><i style="width:'+stab+'%;background:'+col+'"></i></div></div></div>';
-  const bubble = fin ? '' : '<div class="panel cl-bub"><p style="margin:0">'+(i === 0 ? '<span class="src">'+esc(k.pres)+'</span><br>' : '')+(habla ? '“'+esc(habla)+'”' : '')+'</p></div>';
-  if(fin){
-    return '<div class="stack">'+back+'<h2 class="cl-h">'+esc(k.n)+'</h2>'+simScene(est, cfg.pac, false)+hud+'<div class="panel cl-res"><div class="cl-big">'+(fall <= 1 ? 'El paciente salió estable' : 'El paciente se descompensó en la simulación')+'</div><p>Decisiones equivocadas: '+fall+'.</p><p class="src" style="margin:0">Es una simulación para estudiar con guías internacionales. En tu hospital manda el protocolo local.</p></div><button class="btn act" data-act="clsim" data-id="'+k.id+'"><b>Atender otra vez</b></button><p class="src"><b>Todas las fuentes de este caso:</b></p>'+linksHtml(k.fu)+'</div>';
+  const pop = V.pop; V.pop = null; const shake = V.shake; V.shake = false;
+  let fall, est, fin, vit, habla, tray = '', sel = null;
+  if(free){
+    const H = L.hechas, r = L.ult; fall = L.fall; fin = L.fin; sel = L.sel;
+    est = fin ? (fall <= 1 ? 'estable' : 'empeora') : ((r && r.res === 'no') ? 'empeora' : (fall >= 2 ? 'empeora' : (H.bb === 'ok' ? 'estable' : 'llega')));
+    vit = L.evento ? cfg.vit[2] : cfg.vit[0];
+    habla = H.endo === 'ok' ? cfg.habla[4] : (L.evento ? cfg.habla[2] : cfg.habla[0]);
+    if(!fin){
+      let fb = '';
+      if(r){ const bad = r.res === 'no', inf = r.res === 'info';
+        fb = '<div class="panel cl-fb '+(bad ? 'cl-fbno' : 'cl-fbok')+'"><p style="margin:0"><b>'+(bad ? 'No es el momento o no es la mejor decisión.' : inf ? 'Dato.' : 'Bien.')+'</b> '+esc(r.fb)+'</p>'+(r.fu ? src(r.fu) : '')+'</div>'+(r.nuevo ? '<div class="panel cl-fb"><p style="margin:0"><b>Pasaron 6 horas.</b> PA estable, Hb 6,8 g/dL. El paciente dice que se siente más débil.</p></div>' : ''); }
+      const OBJ = {pac:['Hablar con el paciente', ['h']], mon:['Monitor', ['sv','hb']], cart:['Carro de medicamentos', ['vaso','abx','cipro','via','pfc','trf','trf10','stopv','bb']], pc:['Computador: pedidos', ['endo','endo_man','lig','tips']], tel:['Teléfono: decisión final', ['alta']]};
+      const ob = OBJ[sel];
+      tray = fb + (ob ? '<div class="panel stack" style="gap:10px"><p class="label" style="margin:0">'+esc(ob[0].toUpperCase())+'</p>'+ob[1].map(id => { const a = LIBA.find(x => x.id === id), st = L.hechas[id]; return '<button class="btn act cl-op'+(st === 'ok' ? ' cl-ok' : st === 'no' ? ' cl-no' : '')+'" data-act="libdo" data-id="'+id+'"'+(st ? ' disabled' : '')+'><b>'+esc(a.t)+'</b></button>'; }).join('')+'</div>'
+        : '<div class="panel"><p style="margin:0">Toca un objeto de la sala: el paciente, el monitor, el carro de medicamentos, el computador o el teléfono. Tú decides el orden.</p></div>');
+    }
+  } else {
+    const i = V.paso || 0; fall = V.fallos || 0; fin = i >= k.pasos.length;
+    const p = fin ? null : k.pasos[i], s = V.sel, o = (p && s != null) ? p.o[s] : null;
+    est = fin ? (fall <= 1 ? 'estable' : 'empeora') : (o ? (o.ok ? (i + 1 >= k.pasos.length ? 'estable' : 'llega') : 'empeora') : (fall >= 2 ? 'empeora' : 'llega'));
+    vit = ''; for(let j = 0; j <= Math.min(i, cfg.vit.length - 1); j++) if(cfg.vit[j]) vit = cfg.vit[j];
+    habla = ''; for(let j = Math.min(i, cfg.habla.length - 1); j >= 0; j--) if(cfg.habla[j]){ habla = cfg.habla[j]; break; }
+    if(!fin){
+      if(!V.ord || V.ordP !== i){ V.ord = p.o.map((_, j) => j); for(let a = V.ord.length - 1; a > 0; a--){ const b = Math.floor(Math.random() * (a + 1)); [V.ord[a], V.ord[b]] = [V.ord[b], V.ord[a]]; } V.ordP = i; }
+      const ops = V.ord.map(j => { const x = p.o[j]; return '<button class="btn act cl-op'+(s === j ? (x.ok ? ' cl-ok' : ' cl-no') : '')+'" data-act="simop" data-i="'+j+'"'+(s != null ? ' disabled' : '')+'><b>'+esc(x.t)+'</b></button>'; }).join('');
+      let fb = '';
+      if(o) fb = '<div class="panel cl-fb '+(o.ok ? 'cl-fbok' : 'cl-fbno')+'"><p style="margin:0"><b>'+(o.ok ? 'Bien.' : 'No es la mejor decisión.')+'</b> '+esc(o.fb)+'</p>'+src(o.fu)+'</div><button class="btn act" data-act="'+(o.ok ? 'simnext' : 'simretry')+'"><b>'+(o.ok ? (i + 1 >= k.pasos.length ? 'Terminar consulta' : 'Siguiente decisión') : 'Volver a decidir')+'</b></button>';
+      tray = '<p class="label">'+esc(p.q)+'</p><div class="stack" style="gap:10px">'+ops+'</div>'+fb;
+    }
   }
-  if(!V.ord || V.ordP !== i){ V.ord = p.o.map((_, j) => j); for(let a = V.ord.length - 1; a > 0; a--){ const b = Math.floor(Math.random() * (a + 1)); [V.ord[a], V.ord[b]] = [V.ord[b], V.ord[a]]; } V.ordP = i; }
-  const ops = V.ord.map(j => { const x = p.o[j]; return '<button class="btn act cl-op'+(s === j ? (x.ok ? ' cl-ok' : ' cl-no') : '')+'" data-act="simop" data-i="'+j+'"'+(s != null ? ' disabled' : '')+'><b>'+esc(x.t)+'</b></button>'; }).join('');
-  let fb = '';
-  if(o) fb = '<div class="panel cl-fb '+(o.ok ? 'cl-fbok' : 'cl-fbno')+'"><p style="margin:0"><b>'+(o.ok ? 'Bien.' : 'No es la mejor decisión.')+'</b> '+esc(o.fb)+'</p>'+src(o.fu)+'</div><button class="btn act" data-act="'+(o.ok ? 'simnext' : 'simretry')+'"><b>'+(o.ok ? (i + 1 >= k.pasos.length ? 'Terminar consulta' : 'Siguiente decisión') : 'Volver a decidir')+'</b></button>';
-  return '<div class="stack">'+back+'<h2 class="cl-h">'+esc(k.n)+'</h2><p class="src">Simulador de consulta (piloto) · decisión '+(i + 1)+' de '+k.pasos.length+'</p>'+simScene(est, cfg.pac, ent)+hud+bubble+'<p class="label">'+esc(p.q)+'</p><div class="stack" style="gap:10px">'+ops+'</div>'+fb+'</div>';
+  const stab = Math.max(0, 100 - 25 * fall), col = stab > 50 ? '#19d27f' : stab > 25 ? '#ffd93b' : '#e02a1f';
+  const room = roomView({est, pac:cfg.pac, ent, habla, vit, stab, col, nombre:cfg.pac.nombre, free: free && !fin, sel, pop, shake});
+  const head = '<h2 class="cl-h">'+esc(k.n)+'</h2><p class="src">Simulador de consulta · '+(free ? 'modo libre: tú decides el orden' : 'modo guiado · decisión '+Math.min((V.paso || 0) + 1, k.pasos.length)+' de '+k.pasos.length)+'</p>';
+  if(fin){
+    const ok = fall <= 1; let extra = '';
+    if(free){
+      const H = L.hechas, hechas = L.orden.map(id => { const a = LIBA.find(x => x.id === id); return '<li>'+esc(a.t)+' '+(H[id] === 'ok' ? '(bien)' : H[id] === 'no' ? '(error)' : '(dato)')+'</li>'; }).join('');
+      const rec = ['Vasoactivo, antibiótico y segunda vía con reposición prudente (el orden entre ellos es libre)','Transfundir solo si la Hb baja de 7, con meta de 7 a 9','Endoscopia en menos de 12 h con el paciente estable, y ligadura si hay várices','Retirar el vasoactivo cuando el sangrado está controlado','Betabloqueante no selectivo y ligaduras repetidas','Alta'].map(x => '<li>'+esc(x)+'</li>').join('');
+      extra = '<div class="panel"><p class="label">TU ORDEN</p><ol style="margin:0;padding-left:20px">'+hechas+'</ol></div><div class="panel"><p class="label">ORDEN DE LAS GUÍAS PARA ESTE CASO</p><ol style="margin:0;padding-left:20px">'+rec+'</ol></div>';
+    }
+    return '<div class="stack">'+back+head+ficha+room+'<div class="panel cl-res"><div class="cl-big">'+(ok ? 'El paciente salió estable' : 'El paciente se descompensó en la simulación')+'</div><p>Decisiones equivocadas: '+fall+'.</p><p class="src" style="margin:0">Es una simulación para estudiar con guías internacionales. En tu hospital manda el protocolo local.</p></div>'+extra+
+      '<button class="btn act" data-act="'+(free ? 'cllib' : 'clsim')+'" data-id="'+k.id+'"><b>Atender otra vez</b></button><p class="src"><b>Todas las fuentes de este caso:</b></p>'+linksHtml(k.fu)+'</div>';
+  }
+  return '<div class="stack">'+back+head+ficha+room+'<div id="tray" class="stack" style="gap:12px">'+tray+'</div></div>';
 }
 
 const LIBA = [
@@ -2289,38 +2374,9 @@ function libDo(id){
   if(r.fin || L.fall >= 4) L.fin = true;
   L.ult = r; L.ultId = id;
 }
-function vLib(){
-  const k = CASOS.find(x => x.id === V.scn), cfg = SIMS[k.id], L = V.lib, H = L.hechas, fall = L.fall;
-  const back = '<div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>';
-  const src = idx => linksHtml((idx || []).map(j => k.fu[j]));
-  const r = L.ult;
-  const post = H.endo === 'ok';
-  const est = L.fin ? (fall <= 1 ? 'estable' : 'empeora') : ((r && r.res === 'no') ? 'empeora' : (fall >= 2 ? 'empeora' : (H.bb === 'ok' ? 'estable' : 'llega')));
-  const ent = !!V.enter; V.enter = false;
-  const stab = Math.max(0, 100 - 25 * fall), col = stab > 50 ? '#19d27f' : stab > 25 ? '#ffd93b' : '#e02a1f';
-  const vit = L.evento ? cfg.vit[2] : cfg.vit[0];
-  const habla = post ? cfg.habla[4] : (L.evento ? cfg.habla[2] : cfg.habla[0]);
-  const hud = '<div class="panel stack" style="gap:8px"><div class="row" style="justify-content:space-between;flex-wrap:wrap"><b>'+esc(cfg.pac.nombre)+'</b><span class="src">'+esc(vit)+'</span></div><div><span class="src">Estabilidad del paciente</span><div class="cl-bar"><i style="width:'+stab+'%;background:'+col+'"></i></div></div></div>';
-  if(L.fin){
-    const ok = fall <= 1, hechas = L.orden.map((id, n) => { const a = LIBA.find(x => x.id === id); return '<li>'+esc(a.t)+' '+(H[id] === 'ok' ? '(bien)' : H[id] === 'no' ? '(error)' : '(dato)')+'</li>'; }).join('');
-    const rec = ['Vasoactivo, antibiótico y segunda vía con reposición prudente (el orden entre ellos es libre)','Transfundir solo si la Hb baja de 7, con meta de 7 a 9','Endoscopia en menos de 12 h con el paciente estable, y ligadura si hay várices','Retirar el vasoactivo cuando el sangrado está controlado','Betabloqueante no selectivo y ligaduras repetidas','Alta'].map(x => '<li>'+esc(x)+'</li>').join('');
-    return '<div class="stack">'+back+'<h2 class="cl-h">'+esc(k.n)+'</h2>'+simScene(est, cfg.pac, false)+hud+'<div class="panel cl-res"><div class="cl-big">'+(ok ? 'El paciente salió estable' : 'El paciente se descompensó en la simulación')+'</div><p>Decisiones equivocadas: '+fall+'.</p><p class="src" style="margin:0">Es una simulación para estudiar con guías internacionales. En tu hospital manda el protocolo local.</p></div>'+
-      '<div class="panel"><p class="label">TU ORDEN</p><ol style="margin:0;padding-left:20px">'+hechas+'</ol></div><div class="panel"><p class="label">ORDEN DE LAS GUÍAS PARA ESTE CASO</p><ol style="margin:0;padding-left:20px">'+rec+'</ol></div>'+
-      '<button class="btn act" data-act="cllib" data-id="'+k.id+'"><b>Atender otra vez</b></button><p class="src"><b>Todas las fuentes de este caso:</b></p>'+linksHtml(k.fu)+'</div>';
-  }
-  const bubble = '<div class="panel cl-bub"><p style="margin:0">'+(!L.orden.length && !r ? '<span class="src">'+esc(k.pres)+'</span><br>' : '')+'“'+esc(habla)+'”</p></div>';
-  let fb = '';
-  if(r){
-    const bad = r.res === 'no', inf = r.res === 'info';
-    fb = '<div class="panel cl-fb '+(bad ? 'cl-fbno' : 'cl-fbok')+'"><p style="margin:0"><b>'+(bad ? 'No es el momento o no es la mejor decisión.' : inf ? 'Dato.' : 'Bien.')+'</b> '+esc(r.fb)+'</p>'+(r.fu ? src(r.fu) : '')+'</div>'+(r.nuevo ? '<div class="panel cl-fb"><p style="margin:0"><b>Pasaron 6 horas.</b> PA estable, Hb 6,8 g/dL. El paciente dice que se siente más débil.</p></div>' : '');
-  }
-  const cats = ['Preguntar y revisar','Pedir','Indicar','Decidir'];
-  const menu = cats.map(c => '<p class="label">'+c.toUpperCase()+'</p><div class="stack" style="gap:10px">'+LIBA.filter(a => a.cat === c).map(a => { const st = H[a.id]; return '<button class="btn act cl-op'+(st === 'ok' ? ' cl-ok' : st === 'no' ? ' cl-no' : '')+'" data-act="libdo" data-id="'+a.id+'"'+(st ? ' disabled' : '')+'><b>'+esc(a.t)+'</b></button>'; }).join('')+'</div>').join('');
-  return '<div class="stack">'+back+'<h2 class="cl-h">'+esc(k.n)+'</h2><p class="src">Simulador de consulta (piloto) · modo libre: tú decides el orden</p>'+simScene(est, cfg.pac, ent)+hud+bubble+fb+menu+'</div>';
-}
 function vClin(){
   if(V.farm) return vFarm();
-  if(V.scn) return V.lib ? vLib() : vSim();
+  if(V.scn) return vSim();
   if(V.deb) return vDeb();
   if(V.lec) return vLec();
   if(V.dx) return vDx();
@@ -2336,8 +2392,7 @@ function vClin(){
         deck('data-act="cldx"', '?', 'Diagnóstico diferencial', DX.length+' síntomas: qué dato separa unas causas de otras', '#b9a6ff')+
         deck('data-act="cllec"', '%', 'Lectura de datos', lecL().length+' ejercicios con valores al azar', '#7cf0c8')+
         deck('data-act="cldeb"', '★', 'Mapa de puntos débiles y plan diario', 'Lee tu avance y reparte las preguntas hasta tu examen', '#ffb36b', true)+'</div>'+
-      '<div><p class="label">SIMULADOR DE CONSULTA (PILOTO)</p><div class="deck-grid">'+deck('data-act="clsim" data-id="varices"', '+', 'Don Pedro: modo guiado', 'Te da opciones en cada etapa. Hemorragia por várices.', '#9ff3b0')+deck('data-act="cllib" data-id="varices"', '+', 'Don Pedro: modo libre', 'Tú eliges qué preguntar, pedir e indicar, y en qué orden.', '#7cc8ff')+'</div></div>'+
-      '<div><p class="label">CASOS DE GUARDIA</p><div class="deck-grid">'+CASOS.filter(x => okF(x.c)).map(x => deck('data-act="clcaso" data-id="'+x.id+'"', '+', x.n, x.c+' · '+x.pasos.length+' decisiones', CCOL[x.c])).join('')+'</div></div>'+
+      '<div><p class="label">CONSULTORIO: LLEGA UN PACIENTE</p><p class="src" style="margin:0 0 10px">Cada caso de guardia es un paciente en el consultorio. Modo guiado: el juego te da opciones en cada etapa. Modo libre (por ahora solo Don Pedro): tú decides qué preguntar, pedir e indicar.</p><div class="deck-grid">'+CASOS.filter(x => okF(x.c)).map(x => deck('data-act="clsim" data-id="'+x.id+'"', '+', SIMS[x.id].pac.nombre, x.n+' · guiado, '+x.pasos.length+' decisiones', CCOL[x.c])).join('')+(okF('Gastroenterología') ? deck('data-act="cllib" data-id="varices"', '+', 'Don Pedro: modo libre', 'Tú eliges qué preguntar, pedir e indicar, y en qué orden.', '#9ff3b0') : '')+'</div></div>'+
       clGroups().map(g => '<div><p class="label">CALCULADORAS: '+esc(g.toUpperCase())+'</p><div class="nap-grid">'+CALCS.filter(x => x.g === g && okF(calcCur(x.g))).map(x => nap('ca', calcCur(x.g), '<i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>', x.n, '', 'data-act="clcalc" data-id="'+x.id+'"')).join('')+'</div></div>').join('')+
       (CLIN_NEXT.length ? '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>' : '')+
       '<p class="src">Las calculadoras ayudan a pensar, no reemplazan al criterio clínico ni a la guía de tu hospital. Cada una indica su referencia. Contenido revisado contra guías y fuentes en noviembre 2026; las guías cambian, por eso cada ítem muestra de dónde sale.</p></div>';
@@ -2545,10 +2600,11 @@ const A = {
   cldeb: () => go({name:'clin', deb:true}),
   cldebs: () => { const v = (document.getElementById('cldebf') || {}).value || ''; try{ if(v) localStorage.setItem(DEB_KEY, v); else localStorage.removeItem(DEB_KEY); }catch(e){} render(); },
   cldebp: d => { const r = debData().find(x => x.a === d.a && x.t === d.t); if(!r) return; startRound(r.fall.concat(shuffle(r.nuevas)).slice(0, 10), 'practica'); },
-  cllib: d => { go({name:'clin', scn:d.id, lib:{hechas:{}, orden:[], fall:0, evento:false, ult:null, fin:false}, enter:true}); },
-  libdo: d => { libDo(d.id); render(); window.scrollTo(0,0); },
+  cllib: d => { go({name:'clin', scn:d.id, lib:{hechas:{}, orden:[], fall:0, evento:false, ult:null, fin:false, sel:null}, enter:true}); },
+  roomobj: d => { V.lib.sel = d.id; render(); },
+  libdo: d => { libDo(d.id); const r = V.lib.ult; V.pop = (LIBA.find(x => x.id === d.id) || {}).t; V.shake = !!(r && r.res === 'no'); render(); const tr = document.getElementById('tray'); if(tr) tr.scrollIntoView({block:'start', behavior:'smooth'}); },
   clsim: d => { go({name:'clin', scn:d.id, paso:0, sel:null, fallos:0, enter:true}); },
-  simop: d => { const k = CASOS.find(x => x.id === V.scn), o = k.pasos[V.paso].o[+d.i]; if(V.sel != null) return; V.sel = +d.i; if(!o.ok) V.fallos = (V.fallos||0)+1; render(); },
+  simop: d => { const k = CASOS.find(x => x.id === V.scn), o = k.pasos[V.paso].o[+d.i]; if(V.sel != null) return; V.sel = +d.i; if(!o.ok){ V.fallos = (V.fallos||0)+1; V.shake = true; } else V.pop = 'Decisión correcta'; render(); },
   simnext: () => { V.paso++; V.sel = null; render(); window.scrollTo(0,0); },
   simretry: () => { V.sel = null; render(); },
   cllec: () => go({name:'clin', lec:{ok:0, tot:0}}),
