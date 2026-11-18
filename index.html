@@ -1767,7 +1767,16 @@ const CALCS = [
 ];
 const CALC_FU = {"nacambio": [["Revisión MDCalc: corrección de sodio", "https://mdcalc.scholasticahq.com/article/158150-updated-review-of-sodium-correction-rate-in-hyponatremia-and-hypernatremia"], ["Fórmula Adrogué-Madias", "https://www.evigrade.com/en/calculators/adrogue-madias"], ["WikEM: hiponatremia", "https://wikem.org/wiki/Hyponatremia"]], "naglu": [["Factores 1,6 y 2,4 (Cardioteca)", "https://www.cardioteca.com/calculadoras-cardiologia-clinica/8737-calculadora-sodio-corregido-calcio-corregido-anion-gap-presion-arterial-media.html"]], "aguadef": [["WikEM: hipernatremia", "https://wikem.org/wiki/Hypernatremia"], ["Protocolo de hipernatremia", "https://mediscuss.org/cdss/acute-hypernatraemia"]], "brecha": [["Revisión MDCalc: brecha aniónica", "https://mdcalc.scholasticahq.com/article/154676-updated-review-of-serum-anion-gap"], ["WikEM: brecha aniónica y delta-delta", "https://wikem.org/wiki/Anion_gap"], ["Figge 1998 (resumen)", "https://data.zhenzhi.com/details/1/873802764"]], "cacorr": [["Fórmula de Payne y límites", "https://www.journalmetrics.org/clinical-calculators/corrected-calcium"], ["Calcio corregido (Evigrade)", "https://www.evigrade.com/en/calculators/corrected-calcium"]], "child": [["WikEM: Child-Pugh", "https://wikem.org/wiki/Child-Pugh_score_calculator"]], "meld": [["MELD 3.0 (Univ. de Washington)", "https://www.hepatitisc.uw.edu/page/clinical-calculators/meld"], ["MELD 3.0 (Manual Merck)", "https://www.merckmanuals.com/iframe/manual/medical-calculators/meld3.htm"], ["Fórmulas MELD, MELD-Na y 3.0", "https://casrai.org/guides/meld-score"]], "gbs": [["Radiopaedia: Glasgow-Blatchford", "https://radiopaedia.org/articles/glasgow-blatchford-score-2"], ["ACG hemorragia digestiva alta 2021", "https://pubmed.ncbi.nlm.nih.gov/33929377/"]], "bisap": [["Manual MSD: BISAP", "https://www.msdmanuals.com/iframe/manual/medical-calculators/bisapscore.htm"], ["Wu 2008, Gut", "https://www.qxmd.com/pubmed/18519429"]], "uas7": [["UAS7 y categorías (protocolo)", "https://cdn.clinicaltrials.gov/large-docs/55/NCT04833855/Prot_000.pdf"], ["Bandas del UAS7 (Springer)", "https://link.springer.com/article/10.1007/s40257-017-0331-8"], ["AAD: guía de urticaria", "https://www.aad.org/guidelines/collaborations-urticaria"]]};
 const CLIN_NEXT = [];
-const clGroups = () => [...new Set(CALCS.map(c => c.g))];
+const CLCUR = ['Nefrología', 'Gastroenterología', 'Dermatología'];
+let CLCF = '';
+const okF = c => !CLCF || c === CLCF;
+const farmCur = g => ({'Riñón y electrolitos':'Nefrología', 'Digestivo':'Gastroenterología', 'Hígado':'Gastroenterología', 'Piel':'Dermatología'})[g];
+const calcCur = g => ({'Electrolitos':'Nefrología', 'Ácido-base':'Nefrología', 'Hígado':'Gastroenterología', 'Digestivo':'Gastroenterología', 'Piel':'Dermatología'})[g];
+const lecCur = id => ({abg:'Nefrología', aki:'Nefrología', hep:'Gastroenterología', child:'Gastroenterología'})[id];
+const farmL = () => FARM.filter(f => okF(farmCur(f.g)));
+const lecL = () => LEC.filter(x => okF(lecCur(x.id)));
+const clGroups = () => [...new Set(CALCS.filter(c => okF(calcCur(c.g))).map(c => c.g))];
+const clChips = () => '<div><p class="label">FILTRAR POR CURSO</p><div class="chips">'+[['', 'Todos']].concat(CLCUR.map(c => [c, c])).map(x => '<button class="chip'+(CLCF === x[0] ? ' on' : '')+'" data-act="clcf" data-v="'+esc(x[0])+'">'+esc(x[1])+'</button>').join('')+'</div></div>';
 function clField(c, f){
   const dv = c.def && c.def[f.k] !== undefined ? c.def[f.k] : '';
   const id = 'cf-'+f.k;
@@ -1786,7 +1795,7 @@ function vFarm(){
     '<h2 class="cl-h">FICHAS DE FÁRMACOS</h2>'+
     '<div class="panel cl-ctx">Resumen de dosis habituales en adultos, interacciones y qué vigilar. Revisé cada dato contra las fuentes que ves al final de cada ficha (revisión de noviembre 2026). Si a una ficha le falta un campo (por ejemplo ajuste renal), es porque no pude confirmarlo en una fuente. No verifiqué la disponibilidad en Perú: confirma con el petitorio de tu hospital (PNUME, petitorio nacional de medicamentos esenciales) y con la guía local.</div>'+
     '<input class="field" id="fsearch" type="search" placeholder="Buscar fármaco o indicación" autocomplete="off">'+
-    '<div class="stack" id="flist" style="gap:12px">'+FARM.map(row).join('')+'</div><p class="src" id="fnone" hidden>No hay fichas con esa búsqueda.</p></div>';
+    clChips()+'<div class="stack" id="flist" style="gap:12px">'+farmL().map(row).join('')+'</div><p class="src" id="fnone" hidden>No hay fichas con esa búsqueda.</p></div>';
 }
 document.addEventListener('input', e => {
   if(e.target.id !== 'fsearch') return;
@@ -1918,9 +1927,9 @@ function errSrc(list){
   return out;
 }
 function vErr(){
-  const cs = ['Nefrología','Gastroenterología','Dermatología'];
+  const cs = CLCUR.filter(okF);
   return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>'+
-    '<h2 class="cl-h">ERRORES QUE NO SE PUEDEN COMETER</h2>'+
+    clChips()+'<h2 class="cl-h">ERRORES QUE NO SE PUEDEN COMETER</h2>'+
     '<div class="panel cl-ctx">Errores de guardia que se repiten y que las guías señalan de forma explícita. Cada uno dice qué hacer en su lugar y de dónde sale. Todo viene de las mismas fuentes de las fichas y los casos; si algo no se pudo confirmar, no está aquí.</div>'+
     cs.map(c => '<div><p class="label">'+esc(c.toUpperCase())+'</p><div class="stack" style="gap:12px">'+ERRS.filter(x => x.c === c).map(x => '<details class="cl-fa"><summary><b>'+esc(x.e)+'</b></summary><p>'+esc(x.p)+'</p>'+linksHtml(errSrc(x.s))+'</details>').join('')+'</div></div>').join('')+'</div>';
 }
@@ -1951,9 +1960,9 @@ const DX = [
  fu:[['Frontiers in Allergy 2022: diagnóstico diferencial','https://www.frontiersin.org/articles/10.3389/falgy.2022.808543']]}
 ];
 function vDx(){
-  const cs = ['Nefrología','Gastroenterología','Dermatología'];
+  const cs = CLCUR.filter(okF);
   return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>'+
-    '<h2 class="cl-h">DIAGNÓSTICO DIFERENCIAL POR SÍNTOMA</h2>'+
+    clChips()+'<h2 class="cl-h">DIAGNÓSTICO DIFERENCIAL POR SÍNTOMA</h2>'+
     '<div class="panel cl-ctx">Para cada síntoma o hallazgo: qué dato separa unas causas de otras. Todo está tomado de las fuentes que aparecen al final de cada ficha. Es una guía de estudio, no reemplaza el juicio clínico.</div>'+
     cs.map(c => '<div><p class="label">'+esc(c.toUpperCase())+'</p><div class="stack" style="gap:12px">'+DX.filter(x => x.c === c).map(x => '<details class="cl-fa"><summary><b>'+esc(x.n)+'</b></summary><p class="src" style="margin-top:8px">'+esc(x.ctx)+'</p>'+x.r.map(y => '<p><b>'+esc(y[0])+':</b> '+esc(y[1])+'</p>').join('')+linksHtml(x.fu)+'</details>').join('')+'</div></div>').join('')+'</div>';
 }
@@ -2047,8 +2056,8 @@ const LEC = [
 function vLec(){
   const L = V.lec, back = '<div class="row"><button class="btn small ghost" data-act="'+(L.k ? 'cllecm' : 'clin')+'">‹ '+(L.k ? 'Lectura de datos' : 'Práctica clínica')+'</button></div>';
   if(!L.k){
-    return '<div class="stack">'+back+'<header><h2 class="cl-h">LECTURA DE DATOS</h2><p class="sub">Valores al azar de laboratorio: tú los interpretas y la app te dice el porqué. Cada ejercicio cita la guía o el criterio que usa. No toca tu progreso.</p></header>'+
-      '<div class="cl-list">'+LEC.map(x => '<button class="btn act" data-act="cllecn" data-k="'+x.id+'"><b>'+esc(x.n)+'</b></button>').join('')+'</div>'+
+    return '<div class="stack">'+back+clChips()+'<header><h2 class="cl-h">LECTURA DE DATOS</h2><p class="sub">Valores al azar de laboratorio: tú los interpretas y la app te dice el porqué. Cada ejercicio cita la guía o el criterio que usa. No toca tu progreso.</p></header>'+
+      '<div class="cl-list">'+lecL().map(x => '<button class="btn act" data-act="cllecn" data-k="'+x.id+'"><b>'+esc(x.n)+'</b></button>').join('')+'</div>'+(lecL().length ? '' : '<p class="src">Aún no hay ejercicios de lectura de datos para este curso. Elige otro curso o Todos.</p>')+
       (L.tot ? '<p class="src">Esta sesión: '+L.ok+' aciertos de '+L.tot+'.</p>' : '')+'</div>';
   }
   const d = LEC.find(x => x.id === L.k), q = L.q, s = L.sel;
@@ -2111,15 +2120,15 @@ function vClin(){
   if(!c){
     return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="home">‹ Inicio</button></div>'+
       '<header><h2 class="cl-h">PRÁCTICA CLÍNICA</h2><p class="sub">Herramientas para la guardia y las rotaciones. Todo esto vive aparte: no cambia tu progreso, tus puntos ni las preguntas del examen.</p></header>'+
-      '<div><p class="label">FICHAS</p><button class="btn act" data-act="clfarm"><b>FICHAS DE FÁRMACOS</b><span>'+FARM.length+' fichas: dosis, ajuste renal, interacciones y qué vigilar</span></button></div>'+
+      clChips()+'<div><p class="label">FICHAS</p><button class="btn act" data-act="clfarm"><b>FICHAS DE FÁRMACOS</b><span>'+farmL().length+' fichas: dosis, ajuste renal, interacciones y qué vigilar</span></button></div>'+
       '<div><p class="label">REPASO RÁPIDO</p><button class="btn act" data-act="clerr"><b>ERRORES QUE NO SE PUEDEN COMETER</b><span>'+ERRS.length+' errores de guardia, con qué hacer y la fuente</span></button></div>'+
       '<div><button class="btn act" data-act="cldx"><b>DIAGNÓSTICO DIFERENCIAL POR SÍNTOMA</b><span>'+DX.length+' síntomas: qué dato separa unas causas de otras</span></button></div>'+
-      '<div><button class="btn act" data-act="cllec"><b>LECTURA DE DATOS</b><span>'+LEC.length+' ejercicios con valores al azar: gasometría, lesión renal, hepatograma, Child-Pugh</span></button></div>'+
+      '<div><button class="btn act" data-act="cllec"><b>LECTURA DE DATOS</b><span>'+lecL().length+' ejercicios con valores al azar: gasometría, lesión renal, hepatograma, Child-Pugh</span></button></div>'+
       '<div><p class="label">TU EXAMEN</p><button class="btn act" data-act="cldeb"><b>MAPA DE PUNTOS DÉBILES Y PLAN DIARIO</b><span>Lee tu avance, ordena los temas y reparte las preguntas hasta la fecha del examen</span></button></div>'+
-      '<div><p class="label">CASOS DE GUARDIA</p><div class="cl-list">'+CASOS.map(x => '<button class="btn act" data-act="clcaso" data-id="'+x.id+'"><b>'+esc(x.n)+'</b><span>'+esc(x.c)+' · '+x.pasos.length+' decisiones</span></button>').join('')+'</div></div>'+
-      clGroups().map(g => '<div><p class="label">'+esc(g)+'</p><div class="cl-list">'+CALCS.filter(x => x.g === g).map(x => '<button class="btn act" data-act="clcalc" data-id="'+x.id+'"><b>'+esc(x.n)+'</b></button>').join('')+'</div></div>').join('')+
+      '<div><p class="label">CASOS DE GUARDIA</p><div class="cl-list">'+CASOS.filter(x => okF(x.c)).map(x => '<button class="btn act" data-act="clcaso" data-id="'+x.id+'"><b>'+esc(x.n)+'</b><span>'+esc(x.c)+' · '+x.pasos.length+' decisiones</span></button>').join('')+'</div></div>'+
+      clGroups().map(g => '<div><p class="label">'+esc(g)+'</p><div class="cl-list">'+CALCS.filter(x => x.g === g && okF(calcCur(x.g))).map(x => '<button class="btn act" data-act="clcalc" data-id="'+x.id+'"><b>'+esc(x.n)+'</b></button>').join('')+'</div></div>').join('')+
       (CLIN_NEXT.length ? '<div><p class="label">PRÓXIMAMENTE</p><div class="chips">'+CLIN_NEXT.map(n => '<span class="chip lock">'+esc(n)+'</span>').join('')+'</div></div>' : '')+
-      '<p class="src">Las calculadoras ayudan a pensar, no reemplazan al criterio clínico ni a la guía de tu hospital. Cada una indica su referencia.</p></div>';
+      '<p class="src">Las calculadoras ayudan a pensar, no reemplazan al criterio clínico ni a la guía de tu hospital. Cada una indica su referencia. Contenido revisado contra guías y fuentes en noviembre 2026; las guías cambian, por eso cada ítem muestra de dónde sale.</p></div>';
   }
   return '<div class="stack"><div class="row"><button class="btn small ghost" data-act="clin">‹ Práctica clínica</button></div>'+
     '<h2 class="cl-h">'+esc(c.n)+'</h2>'+
@@ -2318,6 +2327,7 @@ const A = {
   clin: () => go({name:'clin', calc:null}),
   clfarm: () => go({name:'clin', farm:true}),
   cldx: () => go({name:'clin', dx:true}),
+  clcf: d => { CLCF = d.v; render(); },
   cldeb: () => go({name:'clin', deb:true}),
   cldebs: () => { const v = (document.getElementById('cldebf') || {}).value || ''; try{ if(v) localStorage.setItem(DEB_KEY, v); else localStorage.removeItem(DEB_KEY); }catch(e){} render(); },
   cldebp: d => { const r = debData().find(x => x.a === d.a && x.t === d.t); if(!r) return; startRound(r.fall.concat(shuffle(r.nuevas)).slice(0, 10), 'practica'); },
