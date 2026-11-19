@@ -2058,18 +2058,18 @@ const CASOS = [
 CASOS.push(
 {id:'aki', n:'Lesión renal aguda prerrenal por deshidratación y AINE', c:'Nefrología',
  pres:'Mujer de 70 años con diarrea y vómitos hace 4 días. Tomó ibuprofeno para el dolor. PA 90/55, FC 110, mucosas secas. Creatinina 2,4 mg/dL (su valor basal es 1,0). Diuresis menor de 0,5 mL/kg/h durante las últimas 12 horas.',
- fu:[['KDIGO: tabla de estadios de la lesión renal aguda (Crit Care Clin 2021)','https://pmc.ncbi.nlm.nih.gov/articles/PMC8157315/table/tbl1'],['KDIGO 2012: guía de lesión renal aguda (resumen, Kidney Int Suppl)','https://kdigo.org/wp-content/uploads/2017/04/KDIGO-AKI-Guideline_Cass-2014.pdf'],['Diuréticos en lesión renal aguda: recomendación 5.2.2 (PMC4089654)','https://pmc.ncbi.nlm.nih.gov/articles/PMC4089654']],
+ fu:[['KDIGO: tabla de estadios de la lesión renal aguda (Crit Care Clin 2021)','https://pmc.ncbi.nlm.nih.gov/articles/PMC8157315/table/tbl1'],['KDIGO 2012: guía de lesión renal aguda, recomendaciones 3.1.1, 3.4.1 y 3.4.2 (Kidney Int Suppl)','https://kdigo.org/wp-content/uploads/2017/04/KDIGO-AKI-Guideline_Cass-2014.pdf'],['Diuréticos en lesión renal aguda: recomendación 5.2.2 (PMC4089654)','https://pmc.ncbi.nlm.nih.gov/articles/PMC4089654']],
  pasos:[
  {q:'¿En qué estadio KDIGO (Kidney Disease: Improving Global Outcomes) de lesión renal aguda está?', o:[
   {t:'Estadio 2: creatinina 2,0 a 2,9 veces la basal y diuresis menor de 0,5 mL/kg/h por 12 h o más', ok:1, fb:'Su creatinina es 2,4 veces la basal y la oliguria lleva 12 h, lo que corresponde al estadio 2. El estadio manda sobre cuán urgente es el manejo y la vigilancia.', fu:[0]},
   {t:'Estadio 1: creatinina de 1,5 a 1,9 veces la basal y diuresis menor de 0,5 mL/kg/h por 6 a 12 h', fb:'2,4 veces la basal ya supera el rango del estadio 1.', fu:[0]},
   {t:'Estadio 3: creatinina 3 veces la basal o más, creatinina de 4,0 mg/dL o diálisis', fb:'El estadio 3 pide 3 veces la basal, creatinina de 4,0 mg/dL o más, inicio de diálisis o diuresis menor de 0,3 mL/kg/h por 24 h.', fu:[0]}]},
  {q:'Está hipovolémica y con un AINE (antiinflamatorio no esteroideo) en su historia. ¿Qué indicas primero?', o:[
-  {t:'Suspender el ibuprofeno y reponer volumen con cristaloides isotónicos', ok:1, fb:'La guía KDIGO recomienda cristaloides isotónicos y no coloides cuando no hay shock hemorrágico, y retirar los fármacos nefrotóxicos.', fu:[1]},
-  {t:'Furosemida IV en dosis alta para estimular la diuresis y proteger al riñón', fb:'KDIGO sugiere no usar diuréticos para prevenir o tratar la lesión renal aguda, salvo que haya sobrecarga de volumen. Aquí está deshidratada.', fu:[1,2]},
-  {t:'Reponer con coloides (por ejemplo almidón) para expandir más rápido', fb:'KDIGO recomienda cristaloides isotónicos en lugar de coloides cuando no hay shock hemorrágico.', fu:[1]}]},
+  {t:'Suspender el ibuprofeno y reponer volumen con cristaloides isotónicos', ok:1, fb:'KDIGO sugiere cristaloides isotónicos en lugar de coloides (grado 2B) para la expansión inicial, y se retiran los fármacos nefrotóxicos. Aquí no hay shock hemorrágico.', fu:[1]},
+  {t:'Furosemida IV en dosis alta para estimular la diuresis y proteger al riñón', fb:'KDIGO recomienda no usar diuréticos para prevenir la lesión renal aguda (1B) y sugiere no usarlos para tratarla salvo sobrecarga de volumen (2C). Aquí está deshidratada.', fu:[1,2]},
+  {t:'Reponer con coloides (por ejemplo almidón) para expandir más rápido', fb:'KDIGO sugiere cristaloides isotónicos en lugar de coloides (grado 2B) cuando no hay shock hemorrágico.', fu:[1]}]},
  {q:'Tras la reposición mejora la presión, pero aparece edema de pulmón y la diuresis sigue baja. ¿Qué haces?', o:[
-  {t:'Dar un diurético, porque ahora hay sobrecarga de volumen', ok:1, fb:'El diurético se reserva para la sobrecarga de volumen. No acelera la recuperación del riñón (recomendación 5.2.2, grado 2B).', fu:[1,2]},
+  {t:'Dar un diurético, porque ahora hay sobrecarga de volumen', ok:1, fb:'El diurético se reserva para tratar la sobrecarga de volumen (recomendación 3.4.2, grado 2C). No acelera la recuperación del riñón (recomendación 5.2.2, grado 2B).', fu:[1,2]},
   {t:'Seguir con cristaloides a la misma velocidad', fb:'Con edema de pulmón hay sobrecarga y seguir reponiendo empeora el cuadro.', fu:[1]},
   {t:'Dar furosemida en dosis altas para que el riñón se recupere antes', fb:'El diurético no mejora la recuperación renal. Se usa para tratar la sobrecarga, no para tratar la lesión.', fu:[2]}]}
  ]},
@@ -2175,7 +2175,7 @@ CASOS.push(
   {t:'Esperar el cultivo viral antes de iniciar cualquier antiviral', fb:'El diagnóstico es clínico y el tratamiento es más útil cuando se empieza dentro de las primeras 72 h.', fu:[0]},
   {t:'Solo analgésicos, porque los antivirales son para inmunodeprimidos', fb:'Los antivirales aceleran la resolución del dolor en el paciente inmunocompetente, sobre todo mayor de 50 años.', fu:[0]}]},
  {q:'Se recupera. ¿Qué recomiendas para prevenir otro episodio?', o:[
-  {t:'Vacuna recombinante (Shingrix), 2 dosis separadas por 2 a 6 meses, aunque ya haya tenido zóster', ok:1, fb:'Los CDC recomiendan 2 dosis de la vacuna recombinante en mayores de 50 años, incluso si ya tuvieron zóster.', fu:[1]},
+  {t:'Vacuna recombinante (Shingrix), 2 dosis separadas por 2 a 6 meses, aunque ya haya tenido zóster', ok:1, fb:'Los CDC recomiendan 2 dosis de la vacuna recombinante en mayores de 50 años, incluso si ya tuvieron zóster. Por lo general se espera a que la erupción haya desaparecido.', fu:[1]},
   {t:'Vacunar recién a partir de los 65 años, con refuerzo cada 5 años', fb:'Los CDC recomiendan la vacuna recombinante desde los 50 años.', fu:[1]},
   {t:'No vacunar, porque ya tuvo la enfermedad y quedó inmune de por vida', fb:'Los CDC indican vacunar aunque haya tenido zóster antes.', fu:[1]},
   {t:'Una sola dosis de la vacuna recombinante es suficiente a su edad', fb:'El esquema es de 2 dosis separadas por 2 a 6 meses.', fu:[1]}]}
