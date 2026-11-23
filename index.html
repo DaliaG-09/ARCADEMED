@@ -67,6 +67,13 @@ button:focus-visible,input:focus-visible,textarea:focus-visible{outline:4px soli
 .act b{font-family:var(--display);font-weight:800;font-size:19px;text-transform:uppercase}
 .act span{color:var(--mut);font-size:13.5px;font-weight:500}
 .gold span{color:var(--ink)}
+.plan-row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;background:#fff;border:3px solid var(--ink);border-radius:12px;padding:10px 12px;box-shadow:3px 3px 0 var(--ink)}
+.pbar{height:14px;border:3px solid var(--ink);border-radius:8px;background:#fff;overflow:hidden}
+.pbar i{display:block;height:100%}
+.hoja-card{background:#fff;border:3px solid var(--ink);border-radius:12px;padding:12px 14px;box-shadow:3px 3px 0 var(--ink)}
+.hoja-card .hq{margin:0 0 6px;font-weight:800}
+.hoja-card .hb{margin:0;line-height:1.45}
+@media print{.noprint,.foot,.btn{display:none!important}body{background:#fff!important}.hoja-card{box-shadow:none;break-inside:avoid}}
 .chips{display:flex;gap:8px;flex-wrap:wrap}
 .chip{background:#fff;border:3px solid var(--ink);border-radius:10px;padding:6px 13px;font-weight:700;font-size:14px;box-shadow:3px 3px 0 var(--ink)}
 .chip.on{background:var(--pink)}
@@ -624,7 +631,7 @@ const RANKS = ['Ciclo básico','Internado','Residente','Asistente','Jefe de serv
 
 /* ---------- estado y guardado ---------- */
 let mem = null;
-function fresh(){ return {xp:0, days:[], q:{}, c:{}, custom:{preguntas:[], tarjetas:[]}, coins:0, set:{snd:false, vib:true, theme:'sol', name:''}, owned:{}, worn:{}, ach:{}, quests:null, stars:{}, bosses:{}, log:[], cnt:{ok:0, n:0, rounds:0, rcok:0, best:0, chests:0, boss:0, wins:0}}; }
+function fresh(){ return {xp:0, days:[], q:{}, c:{}, custom:{preguntas:[], tarjetas:[]}, coins:0, set:{snd:false, vib:true, theme:'sol', name:''}, owned:{}, worn:{}, ach:{}, quests:null, stars:{}, bosses:{}, log:[], sims:[], cnt:{ok:0, n:0, rounds:0, rcok:0, best:0, chests:0, boss:0, wins:0}}; }
 function norm(o){ const f = fresh(), r = Object.assign(f, o); r.set = Object.assign(fresh().set, o && o.set); r.cnt = Object.assign(fresh().cnt, o && o.cnt); return r; }
 function load(){
   try{ const r = localStorage.getItem(KEY); if(r){ const o = JSON.parse(r); return norm(o); } }catch(e){}
@@ -1573,6 +1580,69 @@ let cargando = true, errorCarga = false;
 function go(v){ V = v; render(); window.scrollTo(0,0); }
 
 /* ---------- vistas ---------- */
+/* ---------- plan al examen y hojas de repaso ---------- */
+const EXAMS = [
+  {id:'p2', n:'Parcial 2', f:'2026-11-27', m:'Nefrología, gastroenterología y dermatología'},
+  {id:'fin', n:'Final', f:'2026-12-04', m:'Todo el ciclo. ArcadeMed cubre nefrología, gastroenterología y dermatología; neumología y cardiología no están aquí.'}
+];
+const MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+const daysTo = f => Math.round((new Date(f+'T00:00:00') - new Date(today()+'T00:00:00'))/864e5);
+const fechaTxt = f => { const d = new Date(f+'T00:00:00'); return ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'][d.getDay()]+' '+d.getDate()+' de '+MESES[d.getMonth()]; };
+function temaProg(a, t){
+  const Q = tq(a, t); let ok = 0, bad = 0, vistas = 0, dom = 0;
+  Q.forEach(q => { const s = S.q[q.id]; if(s){ vistas++; ok += s.ok; bad += s.bad; } if(isDominada(q)) dom++; });
+  return {a, t, n:Q.length, vistas, dom, ok, bad, p:(ok + bad) ? ok/(ok + bad) : null};
+}
+const temaCubierto = r => r.n > 0 && r.vistas/r.n >= 0.7 && (r.p === null || r.p >= 0.7);
+function planTemas(){
+  const out = [];
+  AREAS.forEach(ar => temasOf(ar.id).forEach(t => { const r = temaProg(ar.id, t); if(r.n) out.push(r); }));
+  return out;
+}
+const planScore = r => (r.vistas/r.n)*0.5 + (r.p === null ? 0 : r.p)*0.5;
+function planChip(r){
+  const ar = areaOf(r.a);
+  return '<div class="plan-row" style="border-left:12px solid '+ar.c+'"><div class="grow"><b>'+esc(r.t)+'</b><br><span class="src">'+esc(ar.n)+' · vistas '+r.vistas+' de '+r.n+(r.p === null ? '' : ' · acierto '+Math.round(r.p*100)+' %')+'</span></div>'+
+    '<button class="btn small gold" data-act="reforzar" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'">Practicar</button>'+
+    '<button class="btn small" data-act="hoja" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'">Hoja</button></div>';
+}
+function vPlan(){
+  const ex = EXAMS[0], dl = daysTo(ex.f), all = planTemas(), pend = all.filter(r => !temaCubierto(r)).sort((x, y) => planScore(x) - planScore(y));
+  const cub = all.length - pend.length, dk = todayDeck(), nFall = allQ().filter(isFallada).length;
+  const studyDays = Math.max(1, dl - 1), cuota = dl <= 1 ? Math.min(6, pend.length) : Math.ceil(pend.length/studyDays);
+  const por = AREAS.map(ar => pend.filter(r => r.a === ar.id)), hoy = [];
+  for(let k = 0; hoy.length < cuota && k < pend.length; k++) por.forEach(L => { if(hoy.length < cuota && L[k]) hoy.push(L[k]); });
+  const head = dl > 0 ? 'Faltan '+dl+(dl === 1 ? ' día' : ' días') : dl === 0 ? 'Es hoy. Tú puedes' : 'Este examen ya pasó';
+  const areas = AREAS.map(ar => { const T = all.filter(r => r.a === ar.id), c = T.filter(temaCubierto).length, pc = T.length ? Math.round(100*c/T.length) : 0;
+    return '<div><div class="row" style="justify-content:space-between"><b style="color:'+ar.c+'">'+esc(ar.n)+'</b><span class="src">'+c+' de '+T.length+' temas cubiertos</span></div><div class="pbar"><i style="width:'+pc+'%;background:'+ar.c+'"></i></div></div>'; }).join('');
+  const sims = (S.sims || []).slice(-5), ult = sims.length ? sims[sims.length-1] : null;
+  const simTxt = ult ? 'Último: '+fmt(ult.n)+' / 20 · tus últimos: '+sims.map(x => fmt(x.n)).join(', ') : 'Aún no haces ninguno. Hazlo al menos dos veces antes del examen.';
+  const fn = EXAMS[1], fd = daysTo(fn.f);
+  return '<div class="stack">'+
+    '<div class="panel" style="text-align:center"><p class="label">'+esc(ex.n.toUpperCase())+' · '+esc(fechaTxt(ex.f).toUpperCase())+'</p><div class="big">'+head+'</div><p class="sub">'+esc(ex.m)+'</p></div>'+
+    '<div><p class="label">HOY</p><div class="stack" style="gap:10px">'+
+      '<div class="plan-row"><div class="grow"><b>1. Flashcards</b><br><span class="src">'+dk.rev.length+' por repasar y '+dk.nw.length+' nuevas hoy</span></div><button class="btn small gold" data-act="cards">Empezar</button></div>'+
+      '<div class="plan-row"><div class="grow"><b>2. Falladas</b><br><span class="src">'+nFall+' por dominar (2 aciertos seguidos)</span></div><button class="btn small gold" data-act="falladas" '+(nFall ? '' : 'disabled')+'>Repasar</button></div>'+
+      '<div class="plan-row"><div class="grow"><b>3. Temas de hoy</b><br><span class="src">'+(dl <= 1 ? 'Repaso final: los más flojos' : 'Meta de hoy: '+hoy.length+' de '+pend.length+' pendientes, los más flojos primero')+'. Practicar abre 10 preguntas del tema.</span></div></div>'+
+      (hoy.length ? hoy.map(planChip).join('') : '<p class="src">No tienes temas pendientes. Haz un simulacro.</p>')+
+      '<div class="plan-row"><div class="grow"><b>4. Simulacro</b><br><span class="src">'+esc(simTxt)+'</span></div><button class="btn small gold" data-act="sim">Simulacro</button></div>'+
+    '</div></div>'+
+    '<div><p class="label">COBERTURA ('+cub+' DE '+all.length+' TEMAS)</p><div class="stack" style="gap:10px">'+areas+'</div><p class="src">Un tema cuenta como cubierto cuando viste al menos 70 % de sus preguntas y aciertas 70 % o más.</p></div>'+
+    '<div><p class="label">HOJAS DE REPASO</p><button class="btn act" data-act="hojaidx"><b>HOJAS POR TEMA</b><span>Todas las flashcards de un tema en una página, para leer la noche anterior</span></button></div>'+
+    '<p class="src">'+esc(fn.n)+': '+esc(fechaTxt(fn.f))+' (faltan '+fd+' días). '+esc(fn.m)+'</p>'+
+    '<div class="row"><button class="btn grow ghost" data-act="home">Inicio</button></div></div>';
+}
+function vHoja(){
+  if(!V.t){
+    return '<div class="stack"><div class="panel"><p class="label">HOJAS DE REPASO</p><p class="sub" style="margin:0">Elige un tema. Verás todas sus flashcards juntas.</p></div>'+
+      AREAS.map(ar => '<div><p class="label" style="color:'+ar.c+'">'+esc(ar.n.toUpperCase())+'</p><div class="chips">'+temasOf(ar.id).filter(t => allC().some(c => c.area === ar.id && c.tema === t)).map(t => '<button class="chip" data-act="hoja" data-a="'+esc(ar.id)+'" data-t="'+esc(t)+'">'+esc(t)+'</button>').join('')+'</div></div>').join('')+
+      '<div class="row"><button class="btn grow ghost" data-act="plan">Volver al plan</button></div></div>';
+  }
+  const ar = areaOf(V.a), cs = allC().filter(c => c.area === V.a && c.tema === V.t);
+  return '<div class="stack hoja"><div class="panel"><p class="label" style="color:'+ar.c+'">'+esc(ar.n.toUpperCase())+'</p><div class="big" style="font-size:24px">'+esc(V.t)+'</div><p class="sub" style="margin:0">'+cs.length+' tarjetas. Tapa la respuesta y trata de decirla antes de leerla.</p></div>'+
+    cs.map(c => '<div class="hoja-card"><p class="hq">'+nl(c.f)+'</p><p class="hb">'+nl(c.b)+'</p>'+(c.nota ? '<p class="note"><b>* Corregido, no es igual al PPT:</b> '+nl(c.nota.replace(/^Corregido:\s*/, ''))+'</p>' : '')+'</div>').join('')+
+    '<div class="row noprint"><button class="btn grow" data-act="imprimir">Imprimir o guardar PDF</button><button class="btn grow ghost" data-act="hojaidx">Otros temas</button><button class="btn grow ghost" data-act="plan">Plan</button></div></div>';
+}
 function vHome(){
   const lv = level(S.xp), cur = xpFor(lv), nxt = xpFor(lv+1), pct = (S.xp-cur)/(nxt-cur);
   const qs = allQ(), nFall = qs.filter(isFallada).length, nDue = dueCards().length;
@@ -1592,6 +1662,7 @@ function vHome(){
     '<div class="stats"><div><b>'+S.xp+'</b><span>XP total</span></div><div><b>'+dayStreak()+'</b><span>días de racha</span></div><div><b>'+dom+'/'+qs.length+'</b><span>dominadas</span></div></div></div>'+
     questsHtml()+
     '<div><p class="label">MODOS <span class="press">&gt; PRESS START</span></p><div class="actions">'+
+      '<button class="btn act gold" data-act="plan"><b>PLAN AL PARCIAL 2</b><span>'+(function(){ const d = daysTo(EXAMS[0].f); return d > 0 ? 'Faltan '+d+(d === 1 ? ' día' : ' días')+'. Qué hacer hoy, tema por tema' : d === 0 ? 'Es hoy. Repaso final' : 'Plan y hojas de repaso'; })()+'</span></button>'+
       '<button class="btn act gold" data-act="quick"><b>RONDA RÁPIDA</b><span>10 preguntas: casi todas de opción múltiple y 2 de respuesta corta, con vidas</span></button>'+
       '<button class="btn act" data-act="setup" data-area="all"><b>RONDA A MEDIDA</b><span>Elige área, tema y cantidad</span></button>'+
       '<button class="btn act" data-act="reto"><b>RETO CONTRARRELOJ</b><span>12 preguntas de opción múltiple, 20 segundos cada una, 3 vidas y bonus por rapidez</span></button>'+
@@ -1715,6 +1786,7 @@ function vResult(){
       (lvUp ? '<p class="lvl" style="margin-top:10px">¡SUBISTE AL NIVEL '+level(S.xp)+'!</p>' : '')+
       (V.loot ? '<div style="margin-top:14px"><button class="btn gold" data-act="resultchest">ABRIR COFRE DE LA RONDA</button></div>' : '')+
     '</div>'+
+    (V.sim && V.simTemas ? '<div><p class="label">DÓNDE PERDISTE PUNTOS</p>'+(V.simTemas.length ? '<div class="stack" style="gap:10px">'+V.simTemas.map(r => '<div class="plan-row" style="border-left:12px solid '+areaOf(r.a).c+'"><div class="grow"><b>'+esc(r.t)+'</b><br><span class="src">Perdiste '+fmt(r.perd)+' de '+fmt(r.m)+' puntos</span></div><button class="btn small gold" data-act="reforzar" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'">Reforzar</button><button class="btn small" data-act="hoja" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'">Hoja</button></div>').join('')+'</div>' : '<p class="sub">No perdiste puntos. Simulacro perfecto.</p>')+'</div>' : '')+
     (V.fails.length ? '<div><p class="label">PARA REPASAR ('+V.fails.length+')</p><div class="res-list">'+fails+'</div></div>' : '<p class="sub" style="text-align:center">Ronda limpia, sin falladas.</p>')+
     '<div class="row">'+
       (V.fails.length ? '<button class="btn gold grow" data-act="retryfails">Repasar las falladas</button>' : '')+
@@ -2709,7 +2781,7 @@ document.addEventListener('input', e => { if(e.target.closest && e.target.closes
 document.addEventListener('change', e => { if(e.target.closest && e.target.closest('#clcalc')) clCalc(); });
 
 function render(){
-  const f = {home:vHome, setup:vSetup, play:vPlay, result:vResult, cards:vCards, backup:vBackup, import:vImport, ajustes:vAjustes, logros:vLogros, tienda:vTienda, mapa:vMapa, resumen:vResumen, tarjeta:vTarjeta, cuarto:vCuarto, clin:vClin}[V.name];
+  const f = {home:vHome, setup:vSetup, play:vPlay, result:vResult, cards:vCards, backup:vBackup, import:vImport, ajustes:vAjustes, logros:vLogros, tienda:vTienda, mapa:vMapa, resumen:vResumen, tarjeta:vTarjeta, cuarto:vCuarto, clin:vClin, plan:vPlan, hoja:vHoja}[V.name];
   document.getElementById('app').innerHTML = f();
   if(V.name === 'home'){ initHero(); parallaxInit(); }
   sceneSet();
@@ -2790,11 +2862,18 @@ function pick(i){
 }
 function next(){
   const lv0 = level(S.xp);
+  if(V.sim){ V.qlog = V.qlog || []; V.qlog.push({id:V.ids[V.i], e:V.earn - (V.pE || 0), m:V.max - (V.pM || 0)}); V.pE = V.earn; V.pM = V.max; }
   const over = (V.modo === 'boss' && V.lives <= 0) || V.i + 1 >= V.ids.length;
   if(over){
     V.dead = V.modo === 'boss' && V.lives <= 0;
     const acc = V.ok / Math.max(1, V.answeredN);
     if(!V.dead && V.answeredN >= 5 && acc >= 0.8){ S.xp += 20; V.xp += 20; V.bonus = true; addCoins(5); V.coins = (V.coins || 0) + 5; save(); }
+    if(V.sim && V.max){
+      const qm = new Map(allQ().map(q => [q.id, q])), tm = {};
+      (V.qlog || []).forEach(x => { const q = qm.get(x.id); if(!q) return; const k = q.area+'|'+q.tema, r = tm[k] || (tm[k] = {a:q.area, t:q.tema, e:0, m:0}); r.e += x.e; r.m += x.m; });
+      V.simTemas = Object.values(tm).map(r => Object.assign(r, {perd:r.m - r.e})).filter(r => r.perd > 0.01).sort((x, y) => y.perd - x.perd);
+      S.sims = (S.sims || []).concat([{d:today(), n:+(V.earn/V.max*20).toFixed(1)}]).slice(-15);
+    }
     onRoundEnd(acc); onSpecialEnd(acc); if(V.bonus && !V.loot) V.loot = lootRoll(false); save();
     const keep = V; V = Object.assign({}, keep, {name:'result'}); render(); window.scrollTo(0,0); chkLevel(lv0); return;
   }
@@ -2828,6 +2907,10 @@ const A = {
   home: () => go({name:'home'}),
   quick: () => startRound(pool({area:'all', tema:'all', n:10, src:'todas', tipo:'mixto', mezcla:'libre', pct:'80'}).map(q => q.id), 'boss'),
   sim: () => { const ids = simIds(); if(ids.length < 11){ toast('Aún no hay suficientes preguntas para un simulacro completo.'); } startRound(ids, 'sim'); },
+  plan: () => go({name:'plan'}),
+  hoja: d => go({name:'hoja', a:d.a, t:d.t}),
+  hojaidx: () => go({name:'hoja'}),
+  imprimir: () => window.print(),
   falladas: () => startRound(shuffle(allQ().filter(isFallada)).map(q => q.id), 'practica'),
   setup: d => go(Object.assign({name:'setup'}, OPT, {area:d.area || 'all', tema:'all'})),
   opt: d => { V[d.k] = d.v; if(d.k === 'area') V.tema = 'all'; ['area','tema','n','src','modo','tipo','mezcla','pct'].forEach(k => OPT[k] = V[k]); render(); },
