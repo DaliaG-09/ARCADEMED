@@ -1586,6 +1586,7 @@ const EXAMS = [
   {id:'fin', n:'Final', f:'2026-12-04', m:'Todo el ciclo. ArcadeMed cubre nefrología, gastroenterología y dermatología; neumología y cardiología no están aquí.'}
 ];
 const MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+const examNow = () => EXAMS.find(e => daysTo(e.f) >= 0) || EXAMS[EXAMS.length-1];
 const daysTo = f => Math.round((new Date(f+'T00:00:00') - new Date(today()+'T00:00:00'))/864e5);
 const fechaTxt = f => { const d = new Date(f+'T00:00:00'); return ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'][d.getDay()]+' '+d.getDate()+' de '+MESES[d.getMonth()]; };
 function temaProg(a, t){
@@ -1604,10 +1605,10 @@ function planChip(r){
   const ar = areaOf(r.a);
   return '<div class="plan-row" style="border-left:12px solid '+ar.c+'"><div class="grow"><b>'+esc(r.t)+'</b><br><span class="src">'+esc(ar.n)+' · vistas '+r.vistas+' de '+r.n+(r.p === null ? '' : ' · acierto '+Math.round(r.p*100)+' %')+'</span></div>'+
     '<button class="btn small gold" data-act="reforzar" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'">Practicar</button>'+
-    '<button class="btn small" data-act="hoja" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'">Hoja</button></div>';
+    (allC().some(c => c.area === r.a && c.tema === r.t) ? '<button class="btn small" data-act="hoja" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'">Hoja</button>' : '')+'</div>';
 }
 function vPlan(){
-  const ex = EXAMS[0], dl = daysTo(ex.f), all = planTemas(), pend = all.filter(r => !temaCubierto(r)).sort((x, y) => planScore(x) - planScore(y));
+  const ex = examNow(), dl = daysTo(ex.f), all = planTemas(), pend = all.filter(r => !temaCubierto(r)).sort((x, y) => planScore(x) - planScore(y));
   const cub = all.length - pend.length, dk = todayDeck(), nFall = allQ().filter(isFallada).length;
   const studyDays = Math.max(1, dl - 1), cuota = dl <= 1 ? Math.min(6, pend.length) : Math.ceil(pend.length/studyDays);
   const por = AREAS.map(ar => pend.filter(r => r.a === ar.id)), hoy = [];
@@ -1617,7 +1618,7 @@ function vPlan(){
     return '<div><div class="row" style="justify-content:space-between"><b style="color:'+ar.c+'">'+esc(ar.n)+'</b><span class="src">'+c+' de '+T.length+' temas cubiertos</span></div><div class="pbar"><i style="width:'+pc+'%;background:'+ar.c+'"></i></div></div>'; }).join('');
   const sims = (S.sims || []).slice(-5), ult = sims.length ? sims[sims.length-1] : null;
   const simTxt = ult ? 'Último: '+fmt(ult.n)+' / 20 · tus últimos: '+sims.map(x => fmt(x.n)).join(', ') : 'Aún no haces ninguno. Hazlo al menos dos veces antes del examen.';
-  const fn = EXAMS[1], fd = daysTo(fn.f);
+  const fn = EXAMS.find(e => e !== ex && daysTo(e.f) >= 0), fd = fn ? daysTo(fn.f) : 0;
   return '<div class="stack">'+
     '<div class="panel" style="text-align:center"><p class="label">'+esc(ex.n.toUpperCase())+' · '+esc(fechaTxt(ex.f).toUpperCase())+'</p><div class="big">'+head+'</div><p class="sub">'+esc(ex.m)+'</p></div>'+
     '<div><p class="label">HOY</p><div class="stack" style="gap:10px">'+
@@ -1629,7 +1630,7 @@ function vPlan(){
     '</div></div>'+
     '<div><p class="label">COBERTURA ('+cub+' DE '+all.length+' TEMAS)</p><div class="stack" style="gap:10px">'+areas+'</div><p class="src">Un tema cuenta como cubierto cuando viste al menos 70 % de sus preguntas y aciertas 70 % o más.</p></div>'+
     '<div><p class="label">HOJAS DE REPASO</p><button class="btn act" data-act="hojaidx"><b>HOJAS POR TEMA</b><span>Todas las flashcards de un tema en una página, para leer la noche anterior</span></button></div>'+
-    '<p class="src">'+esc(fn.n)+': '+esc(fechaTxt(fn.f))+' (faltan '+fd+' días). '+esc(fn.m)+'</p>'+
+    (fn ? '<p class="src">'+esc(fn.n)+': '+esc(fechaTxt(fn.f))+' (faltan '+fd+' días). '+esc(fn.m)+'</p>' : '')+
     '<div class="row"><button class="btn grow ghost" data-act="home">Inicio</button></div></div>';
 }
 function vHoja(){
@@ -1662,7 +1663,7 @@ function vHome(){
     '<div class="stats"><div><b>'+S.xp+'</b><span>XP total</span></div><div><b>'+dayStreak()+'</b><span>días de racha</span></div><div><b>'+dom+'/'+qs.length+'</b><span>dominadas</span></div></div></div>'+
     questsHtml()+
     '<div><p class="label">MODOS <span class="press">&gt; PRESS START</span></p><div class="actions">'+
-      '<button class="btn act gold" data-act="plan"><b>PLAN AL PARCIAL 2</b><span>'+(function(){ const d = daysTo(EXAMS[0].f); return d > 0 ? 'Faltan '+d+(d === 1 ? ' día' : ' días')+'. Qué hacer hoy, tema por tema' : d === 0 ? 'Es hoy. Repaso final' : 'Plan y hojas de repaso'; })()+'</span></button>'+
+      '<button class="btn act gold" data-act="plan"><b>PLAN AL '+esc(examNow().n.toUpperCase())+'</b><span>'+(function(){ const d = daysTo(examNow().f); return d > 0 ? 'Faltan '+d+(d === 1 ? ' día' : ' días')+'. Qué hacer hoy, tema por tema' : d === 0 ? 'Es hoy. Repaso final' : 'Plan y hojas de repaso'; })()+'</span></button>'+
       '<button class="btn act gold" data-act="quick"><b>RONDA RÁPIDA</b><span>10 preguntas: casi todas de opción múltiple y 2 de respuesta corta, con vidas</span></button>'+
       '<button class="btn act" data-act="setup" data-area="all"><b>RONDA A MEDIDA</b><span>Elige área, tema y cantidad</span></button>'+
       '<button class="btn act" data-act="reto"><b>RETO CONTRARRELOJ</b><span>12 preguntas de opción múltiple, 20 segundos cada una, 3 vidas y bonus por rapidez</span></button>'+
@@ -1786,7 +1787,7 @@ function vResult(){
       (lvUp ? '<p class="lvl" style="margin-top:10px">¡SUBISTE AL NIVEL '+level(S.xp)+'!</p>' : '')+
       (V.loot ? '<div style="margin-top:14px"><button class="btn gold" data-act="resultchest">ABRIR COFRE DE LA RONDA</button></div>' : '')+
     '</div>'+
-    (V.sim && V.simTemas ? '<div><p class="label">DÓNDE PERDISTE PUNTOS</p>'+(V.simTemas.length ? '<div class="stack" style="gap:10px">'+V.simTemas.map(r => '<div class="plan-row" style="border-left:12px solid '+areaOf(r.a).c+'"><div class="grow"><b>'+esc(r.t)+'</b><br><span class="src">Perdiste '+fmt(r.perd)+' de '+fmt(r.m)+' puntos</span></div><button class="btn small gold" data-act="reforzar" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'">Reforzar</button><button class="btn small" data-act="hoja" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'">Hoja</button></div>').join('')+'</div>' : '<p class="sub">No perdiste puntos. Simulacro perfecto.</p>')+'</div>' : '')+
+    (V.sim && V.simTemas ? '<div><p class="label">DÓNDE PERDISTE PUNTOS</p>'+(V.simTemas.length ? '<div class="stack" style="gap:10px">'+V.simTemas.map(r => '<div class="plan-row" style="border-left:12px solid '+areaOf(r.a).c+'"><div class="grow"><b>'+esc(r.t)+'</b><br><span class="src">Perdiste '+fmt(r.perd)+' de '+fmt(r.m)+' puntos</span></div><button class="btn small gold" data-act="reforzar" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'">Reforzar</button>'+(allC().some(c => c.area === r.a && c.tema === r.t) ? '<button class="btn small" data-act="hoja" data-a="'+esc(r.a)+'" data-t="'+esc(r.t)+'">Hoja</button>' : '')+'</div>').join('')+'</div>' : '<p class="sub">No perdiste puntos. Simulacro perfecto.</p>')+'</div>' : '')+
     (V.fails.length ? '<div><p class="label">PARA REPASAR ('+V.fails.length+')</p><div class="res-list">'+fails+'</div></div>' : '<p class="sub" style="text-align:center">Ronda limpia, sin falladas.</p>')+
     '<div class="row">'+
       (V.fails.length ? '<button class="btn gold grow" data-act="retryfails">Repasar las falladas</button>' : '')+
