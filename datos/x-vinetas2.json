@@ -1,0 +1,791 @@
+{
+ "preguntas": [
+  {
+   "id": "w-d-sem-habon",
+   "area": "derma",
+   "tema": "Anatomofisiología y semiología de la piel",
+   "dif": 2,
+   "enunciado": "Mujer de 28 años con placas elevadas, rosadas en la periferia y pálidas en el centro, muy pruriginosas, que aparecen y desaparecen en horas. ¿Cuál es la lesión elemental y qué enfermedad sugiere?",
+   "opciones": [
+    {
+     "t": "Habón; urticaria",
+     "por": "Es una lesión elevada, aplanada, pruriginosa y transitoria."
+    },
+    {
+     "t": "Pápula; escabiosis",
+     "por": "La pápula es sólida y menor de 0.5 cm, y no desaparece en horas."
+    },
+    {
+     "t": "Ampolla; pénfigo",
+     "por": "La ampolla es una elevación con líquido, traslúcida."
+    },
+    {
+     "t": "Mácula; vitíligo",
+     "por": "La mácula es un cambio de color sin relieve."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El habón es la lesión de la urticaria. La urticaria superficial da placas eritematopapulosas pruriginosas y migratorias.",
+   "fuente": "PPT Anatomofisiología y semiología de la piel (sem. 14), lám. 31"
+  },
+  {
+   "id": "w-d-sem-nikol",
+   "area": "derma",
+   "tema": "Anatomofisiología y semiología de la piel",
+   "dif": 2,
+   "enunciado": "Varón de 45 años con ampollas flácidas. Al frotar la piel aparentemente sana, se desprende la epidermis. ¿Qué signo es y en qué enfermedad es característico?",
+   "opciones": [
+    {
+     "t": "Nikolsky; pénfigo",
+     "por": "Se desprende la epidermis al frotar piel sana."
+    },
+    {
+     "t": "Darier; mastocitosis",
+     "por": "Es eritema y edema al rascar una lesión."
+    },
+    {
+     "t": "Koebner; vitíligo",
+     "por": "Es la aparición de lesiones en sitios de trauma."
+    },
+    {
+     "t": "Patergia; Behçet",
+     "por": "Es una pústula tras una punción a las 24 a 48 horas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El signo de Nikolsky aparece en pénfigo, síndrome de Stevens-Johnson, necrólisis epidérmica tóxica y piel escaldada.",
+   "fuente": "PPT Anatomofisiología y semiología de la piel (sem. 14), lám. 41"
+  },
+  {
+   "id": "w-d-dis-acant",
+   "area": "derma",
+   "tema": "Discromías de la piel",
+   "dif": 2,
+   "enunciado": "Adolescente obesa con placas oscuras en cuello y axilas. ¿Qué se debe sospechar?",
+   "opciones": [
+    {
+     "t": "Hiperinsulinismo",
+     "por": "La acantosis nigricans son placas oscuras en pliegues y se asocia a hiperinsulinismo."
+    },
+    {
+     "t": "Enfermedad de Addison",
+     "por": "Causa hiperpigmentación generalizada por melanina."
+    },
+    {
+     "t": "Neurofibromatosis",
+     "por": "Se asocia a manchas café con leche."
+    },
+    {
+     "t": "Síndrome de Peutz-Jeghers",
+     "por": "Tiene manchas en labios y dedos con pólipos intestinales."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La acantosis nigricans se asocia con hiperinsulinismo.",
+   "fuente": "PPT Discromías: hipocromía e hipercromía (sem. 14), lám. 20"
+  },
+  {
+   "id": "w-d-dis-melas",
+   "area": "derma",
+   "tema": "Discromías de la piel",
+   "dif": 2,
+   "enunciado": "Mujer embarazada de 27 años con manchas pardas simétricas en las mejillas. ¿Cuál es el diagnóstico?",
+   "opciones": [
+    {
+     "t": "Melasma",
+     "por": "Es una hiperpigmentación facial que aparece en 25 % de los embarazos."
+    },
+    {
+     "t": "Vitíligo",
+     "por": "Produce máculas acrómicas por destrucción de melanocitos."
+    },
+    {
+     "t": "Acantosis nigricans",
+     "por": "Son placas oscuras en pliegues."
+    },
+    {
+     "t": "Enfermedad de Addison",
+     "por": "Causa hiperpigmentación generalizada."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El melasma tiene formas centrofacial, malar y mandibular.",
+   "fuente": "PPT Discromías: hipocromía e hipercromía (sem. 14), lám. 18"
+  },
+  {
+   "id": "w-d-dis-peutz",
+   "area": "derma",
+   "tema": "Discromías de la piel",
+   "dif": 2,
+   "enunciado": "Niño con manchas pigmentadas en los labios y los dedos, que presenta dolor abdominal por pólipos intestinales. ¿Qué síndrome es?",
+   "opciones": [
+    {
+     "t": "Síndrome de Peutz-Jeghers",
+     "por": "Son manchas en labios y dedos con pólipos intestinales."
+    },
+    {
+     "t": "Neurofibromatosis de Von Recklinghausen",
+     "por": "Se asocia a manchas café con leche."
+    },
+    {
+     "t": "Enfermedad de Addison",
+     "por": "Cursa con hiperpigmentación generalizada."
+    },
+    {
+     "t": "Acantosis nigricans",
+     "por": "Son placas oscuras en pliegues con hiperinsulinismo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Manchas en labios y dedos con pólipos intestinales: Peutz-Jeghers.",
+   "fuente": "PPT Discromías: hipocromía e hipercromía (sem. 14), lám. 21"
+  },
+  {
+   "id": "w-d-met-tzanck",
+   "area": "derma",
+   "tema": "Métodos diagnósticos en dermatología",
+   "dif": 2,
+   "enunciado": "Varón con ampollas agrupadas en el labio. El médico raspa el piso de una vesícula y observa el frotis al microscopio. ¿Qué hallazgo espera si es herpes?",
+   "opciones": [
+    {
+     "t": "Células gigantes multinucleadas",
+     "por": "Es el hallazgo del test de Tzanck en el herpes."
+    },
+    {
+     "t": "Hifas con KOH",
+     "por": "Es el examen directo de las micosis."
+    },
+    {
+     "t": "Fluorescencia con lámpara de Wood",
+     "por": "Se usa en micosis y porfirias."
+    },
+    {
+     "t": "Ácaro en el raspado",
+     "por": "Confirma la escabiosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El Tzanck define la etiología de ampollas cutáneas y en herpes muestra células gigantes multinucleadas.",
+   "fuente": "PPT Métodos diagnósticos en dermatología (sem. 14), lám. 22"
+  },
+  {
+   "id": "w-d-mic-pv",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "Joven con máculas hipopigmentadas y descamativas en el tronco. ¿Cuál es el diagnóstico?",
+   "opciones": [
+    {
+     "t": "Pitiriasis versicolor",
+     "por": "Son máculas descamativas hipo o hiperpigmentadas en el tronco."
+    },
+    {
+     "t": "Vitíligo",
+     "por": "Las máculas son acrómicas y sin descamación."
+    },
+    {
+     "t": "Tiña corporis",
+     "por": "Son placas anulares con borde activo y centro claro."
+    },
+    {
+     "t": "Dermatitis seborreica",
+     "por": "Son parches rojos con caspa en zonas con pelo."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La pitiriasis versicolor es una micosis superficial que se confirma con KOH.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 23"
+  },
+  {
+   "id": "w-d-mic-cand",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "Paciente con placas rojas en los pliegues, con borde activo y pústulas satélite. ¿Qué diagnóstico plantea?",
+   "opciones": [
+    {
+     "t": "Candidiasis cutánea",
+     "por": "Son placas rojas con borde activo y pústulas satélite."
+    },
+    {
+     "t": "Tiña corporis",
+     "por": "Son placas anulares con centro claro, sin pústulas satélite."
+    },
+    {
+     "t": "Impétigo",
+     "por": "Son costras melicéricas."
+    },
+    {
+     "t": "Escabiosis",
+     "por": "Son pápulas y túneles pruriginosos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la candidiasis cutánea extensa o recurrente se usa fluconazol 150 mg semanal por 2 a 4 semanas.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 21"
+  },
+  {
+   "id": "w-d-par-lm",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "Mujer con un trayecto serpiginoso, rojo y muy pruriginoso en el pie. ¿Cuál es el tratamiento?",
+   "opciones": [
+    {
+     "t": "Albendazol o ivermectina oral",
+     "por": "Es el tratamiento de la larva migrans cutánea por Ancylostoma."
+    },
+    {
+     "t": "Antimoniales pentavalentes por 20 días",
+     "por": "Es el tratamiento de la leishmaniasis cutánea."
+    },
+    {
+     "t": "Permetrina al 5 %",
+     "por": "Es el tratamiento de la escabiosis."
+    },
+    {
+     "t": "Itraconazol 3 a 6 meses",
+     "por": "Es el tratamiento de la esporotricosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El trayecto serpiginoso pruriginoso en pies o glúteos es la larva migrans cutánea.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 16"
+  },
+  {
+   "id": "w-d-par-miasclin",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "Paciente con un nódulo doloroso con un orificio central donde se ve moverse una larva. ¿Cuál es el tratamiento?",
+   "opciones": [
+    {
+     "t": "Extraer las larvas",
+     "por": "Es el manejo de la miasis; se usa ivermectina si son múltiples."
+    },
+    {
+     "t": "Antimoniales pentavalentes",
+     "por": "Se usan en la leishmaniasis."
+    },
+    {
+     "t": "Permetrina al 5 %",
+     "por": "Se usa en la escabiosis."
+    },
+    {
+     "t": "Griseofulvina oral",
+     "por": "Es un antifúngico de la tiña capitis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La miasis es un nódulo doloroso con larva visible que se mueve.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 17"
+  },
+  {
+   "id": "w-d-vir-plant",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "Adulto con una lesión hiperqueratósica dolorosa en la planta del pie con puntos negros. ¿Qué son esos puntos?",
+   "opciones": [
+    {
+     "t": "Trombosis de capilares",
+     "por": "Son la marca de la verruga plantar."
+    },
+    {
+     "t": "Comedones",
+     "por": "Son del acné."
+    },
+    {
+     "t": "Larvas",
+     "por": "Se ven en la miasis."
+    },
+    {
+     "t": "Túneles de ácaros",
+     "por": "Son de la escabiosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La verruga plantar tiene puntos negros por trombosis capilares. El ácido salicílico tiene eficacia respaldada por estudios controlados.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 13"
+  },
+  {
+   "id": "w-d-vir-ramsay",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "Mujer de 60 años con zóster en el oído, parálisis facial del mismo lado y dolor intenso. ¿Qué síndrome es?",
+   "opciones": [
+    {
+     "t": "Síndrome de Ramsay Hunt",
+     "por": "Es el zóster con parálisis facial y compromiso del oído."
+    },
+    {
+     "t": "Signo de Hutchinson",
+     "por": "Es el zóster de la rama nasociliar con riesgo ocular."
+    },
+    {
+     "t": "Síndrome de Nikolsky",
+     "por": "Es un signo de desprendimiento epidérmico."
+    },
+    {
+     "t": "Herpes simple tipo 2",
+     "por": "Es de localización genital."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El zóster es la reactivación del virus varicela zóster latente. La vacuna Shingrix es la más eficaz, con 97 %.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 29"
+  },
+  {
+   "id": "w-d-sem-ulcera",
+   "area": "derma",
+   "tema": "Anatomofisiología y semiología de la piel",
+   "dif": 2,
+   "enunciado": "En una lesión cutánea, ¿qué diferencia una úlcera de una erosión? Marque la alternativa correcta.",
+   "opciones": [
+    {
+     "t": "La úlcera llega a la dermis",
+     "por": "La erosión no pasa de la epidermis."
+    },
+    {
+     "t": "La erosión llega a la dermis",
+     "por": "Es al revés."
+    },
+    {
+     "t": "Ambas son lesiones primarias",
+     "por": "Son lesiones secundarias."
+    },
+    {
+     "t": "La úlcera deja la piel intacta",
+     "por": "La úlcera es una pérdida de sustancia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La úlcera llega a la dermis; la erosión, no. Ambas son lesiones elementales secundarias.",
+   "fuente": "PPT Anatomofisiología y semiología de la piel (sem. 14), lám. 37"
+  },
+  {
+   "id": "w-g-aca-causa",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "Varón de 50 años de zona endémica con disfagia a sólidos y líquidos y regurgitación, con esofagograma con pico de pájaro. ¿Qué infección causa la acalasia secundaria?",
+   "opciones": [
+    {
+     "t": "Trypanosoma cruzi (Chagas)",
+     "por": "Es una causa secundaria de acalasia."
+    },
+    {
+     "t": "Entamoeba histolytica",
+     "por": "Produce el absceso hepático amebiano."
+    },
+    {
+     "t": "Helicobacter pylori",
+     "por": "Produce gastritis y úlcera péptica."
+    },
+    {
+     "t": "Clostridioides difficile",
+     "por": "Produce colitis asociada a antibióticos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Sin tratamiento, la acalasia puede llevar a megaesófago con riesgo de carcinoma escamoso.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 7"
+  },
+  {
+   "id": "w-g-aca-dilat",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "Varón de 45 años con acalasia que se somete a dilatación neumática. ¿Cuál es su principal riesgo?",
+   "opciones": [
+    {
+     "t": "Perforación esofágica",
+     "por": "Es el principal riesgo de la dilatación neumática."
+    },
+    {
+     "t": "Hepatitis aguda",
+     "por": "No se relaciona con el procedimiento."
+    },
+    {
+     "t": "Pancreatitis aguda",
+     "por": "No se relaciona con el procedimiento."
+    },
+    {
+     "t": "Hemorragia por várices",
+     "por": "No es el riesgo del procedimiento."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La miotomía quirúrgica del EEI se asocia a fundoplicatura.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 14 y 15"
+  },
+  {
+   "id": "w-g-erge-la",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "Varón de 50 años con ERGE. La endoscopía muestra rupturas de la mucosa que afectan 75 % o más de la circunferencia. ¿Qué grado de Los Ángeles es?",
+   "opciones": [
+    {
+     "t": "Grado D",
+     "por": "Rupturas que afectan 75 % o más de la circunferencia."
+    },
+    {
+     "t": "Grado A",
+     "por": "Es la lesión menor."
+    },
+    {
+     "t": "Grado B",
+     "por": "Es una lesión menor que C y D."
+    },
+    {
+     "t": "Grado C",
+     "por": "Afecta menos de 75 % de la circunferencia."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La clasificación de Los Ángeles gradúa la esofagitis erosiva de A a D según la extensión.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 26"
+  },
+  {
+   "id": "w-g-eup-dolor",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 2,
+   "enunciado": "Varón de 55 años con úlcera duodenal antigua, que ahora tiene dolor constante que irradia al dorso. ¿Qué sospecha?",
+   "opciones": [
+    {
+     "t": "Penetración al páncreas",
+     "por": "Es lo que indica un dolor de úlcera constante que irradia al dorso."
+    },
+    {
+     "t": "Reflujo gastroesofágico",
+     "por": "Cursa con pirosis."
+    },
+    {
+     "t": "Colecistitis aguda",
+     "por": "Es dolor en el hipocondrio derecho con fiebre."
+    },
+    {
+     "t": "Colangitis aguda",
+     "por": "Cursa con la tríada de Charcot."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El dolor epigástrico es el síntoma más frecuente de la úlcera péptica.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 22"
+  },
+  {
+   "id": "w-g-gastritis-erosiva",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Mujer gran quemada que presenta hematemesis a los 5 días de internación. ¿Cómo se llaman estas úlceras por estrés?",
+   "opciones": [
+    {
+     "t": "Úlceras de Curling",
+     "por": "Son las úlceras por estrés de la gastritis aguda ulcerada en quemados."
+    },
+    {
+     "t": "Úlceras de Forrest",
+     "por": "Es una clasificación del riesgo de resangrado."
+    },
+    {
+     "t": "Úlceras de Barrett",
+     "por": "Es la metaplasia del esófago por reflujo."
+    },
+    {
+     "t": "Úlceras de Crohn",
+     "por": "Se asocian a la enfermedad inflamatoria intestinal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la gastritis aguda con hemorragia digestiva alta, cerca de 80 % se autolimita.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 10",
+   "nota": "La clasificación Curling/Cushing se menciona como parte de la gastritis ulcerada; en otros textos se llaman «úlceras de estrés»."
+  },
+  {
+   "id": "w-g-eup-forrest",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 2,
+   "enunciado": "Varón con úlcera péptica sangrante. En la endoscopía se ve una úlcera con sangrado activo en chorro (Forrest IA). ¿Qué indica?",
+   "opciones": [
+    {
+     "t": "Mayor riesgo de resangrado",
+     "por": "Forrest IA o IB tienen cerca de 55 % de resangrado."
+    },
+    {
+     "t": "Riesgo bajo que no requiere tratamiento",
+     "por": "Es el riesgo de otras categorías."
+    },
+    {
+     "t": "Úlcera sin riesgo de sangrado",
+     "por": "El sangrado activo es de alto riesgo."
+    },
+    {
+     "t": "Diagnóstico de neoplasia",
+     "por": "Se toma biopsia para descartarla."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La clasificación de Forrest estima el riesgo de resangrado.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 14"
+  },
+  {
+   "id": "w-g-hep-hcv_extra",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "Mujer de 50 años con hepatitis C crónica que presenta púrpura, artralgias y proteinuria con hematuria. ¿Qué manifestación extrahepática se asocia?",
+   "opciones": [
+    {
+     "t": "Crioglobulinemia y GNMP",
+     "por": "Se asocian a la hepatitis C crónica."
+    },
+    {
+     "t": "Colitis ulcerosa",
+     "por": "No es manifestación de la hepatitis C."
+    },
+    {
+     "t": "Anemia megaloblástica",
+     "por": "Se asocia a gastritis atrófica por déficit de B12."
+    },
+    {
+     "t": "Pancreatitis aguda",
+     "por": "No es manifestación de la hepatitis C."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "De 100 pacientes con hepatitis C, cerca de 80 desarrollan infección crónica. Los antivirales de acción directa inhiben la replicación viral.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 51"
+  },
+  {
+   "id": "w-g-hep-indic_trat",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "Varón con hepatitis B crónica, ADN del VHB de 50 000 UI/ml y transaminasas altas. ¿Qué corresponde?",
+   "opciones": [
+    {
+     "t": "Iniciar tratamiento",
+     "por": "Es una indicación: ADN VHB >20 000 UI/ml con transaminasas altas."
+    },
+    {
+     "t": "Solo observación",
+     "por": "Hay criterio de tratamiento."
+    },
+    {
+     "t": "Vacunarlo contra hepatitis B",
+     "por": "Ya tiene la infección crónica."
+    },
+    {
+     "t": "Solicitar IgM anti-VHA",
+     "por": "No es el estudio que corresponde."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La hepatitis B crónica es HBsAg positivo por más de 6 meses.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 39 a 43",
+   "nota": "son criterios de fuentes distintas."
+  },
+  {
+   "id": "w-g-eii-dif2",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "Varón de 30 años con diarrea crónica. Los anticuerpos muestran p-ANCA positivo y ASCA negativo. ¿Qué enfermedad apoya?",
+   "opciones": [
+    {
+     "t": "Colitis ulcerosa",
+     "por": "El p-ANCA positivo con ASCA negativo orienta a colitis ulcerosa."
+    },
+    {
+     "t": "Enfermedad de Crohn",
+     "por": "Se asocia a ASCA positivo."
+    },
+    {
+     "t": "Síndrome de intestino irritable",
+     "por": "No tiene marcadores serológicos."
+    },
+    {
+     "t": "Enfermedad celíaca",
+     "por": "Se estudia con transglutaminasa IgA."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la colitis ulcerosa la lesión es continua desde el recto; en el Crohn, en salto.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 13 a 15"
+  },
+  {
+   "id": "w-g-eii-megacolon",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "Varón con colitis ulcerosa grave, fiebre, distensión abdominal y, en la radiografía, dilatación del colon con columna de aire. ¿Qué complicación es y cuál es la conducta?",
+   "opciones": [
+    {
+     "t": "Megacolon tóxico; cirugía urgente",
+     "por": "Es una indicación quirúrgica urgente en la colitis ulcerosa."
+    },
+    {
+     "t": "Colitis isquémica; observación",
+     "por": "No es lo que muestra la radiografía."
+    },
+    {
+     "t": "Colitis por C. difficile; fidaxomicina",
+     "por": "No explica la dilatación con columna de aire."
+    },
+    {
+     "t": "Enfermedad de Crohn; azatioprina",
+     "por": "No es la complicación descrita."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El megacolon tóxico y la hemorragia masiva son indicaciones quirúrgicas urgentes en la colitis ulcerosa.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 14, 18 y 21"
+  },
+  {
+   "id": "w-g-gastritis-cascada",
+   "area": "gastro",
+   "tema": "Gastritis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Varón de 60 años con gastritis crónica por H. pylori de larga data. ¿Qué secuencia propone la cascada de Correa hacia el cáncer?",
+   "opciones": [
+    {
+     "t": "Atrofia, metaplasia, displasia y cáncer",
+     "por": "Es la secuencia de la cascada de Correa."
+    },
+    {
+     "t": "Metaplasia, gastritis atrófica, cáncer y displasia",
+     "por": "Cambia el orden de las etapas."
+    },
+    {
+     "t": "Displasia, atrofia, gastritis y cáncer",
+     "por": "Cambia el orden de las etapas."
+    },
+    {
+     "t": "Gastritis aguda, úlcera y cáncer directo",
+     "por": "No es la cascada de Correa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La gastritis crónica progresa por etapas durante años hasta la atrofia glandular.",
+   "fuente": "PPT Gastritis aguda y crónica (sem. 12), lám. 19"
+  },
+  {
+   "id": "w-g-func-alarma_sii",
+   "area": "gastro",
+   "tema": "Dispepsia y síndrome de intestino irritable",
+   "dif": 2,
+   "enunciado": "Mujer de 35 años con sospecha de síndrome de intestino irritable. ¿Cuál de estos datos es un signo de alarma?",
+   "opciones": [
+    {
+     "t": "Sangre en las heces",
+     "por": "Es un signo de alarma que obliga a estudiar."
+    },
+    {
+     "t": "Dolor que mejora con la deposición",
+     "por": "Es parte del cuadro de SII."
+    },
+    {
+     "t": "Alternancia entre diarrea y estreñimiento",
+     "por": "Es un subtipo mixto de SII."
+    },
+    {
+     "t": "Dolor abdominal de 3 años",
+     "por": "La cronicidad es parte del cuadro."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El SII es dolor abdominal crónico con cambio del hábito intestinal.",
+   "fuente": "PPT Trastornos funcionales del aparato digestivo (sem. 12), lám. 17"
+  },
+  {
+   "id": "w-g-tbc-img",
+   "area": "gastro",
+   "tema": "Tuberculosis enteroperitoneal",
+   "dif": 2,
+   "enunciado": "Varón de 28 años con VIH, fiebre y dolor en fosa ilíaca derecha. En el estudio radiológico se ve la válvula ileocecal engrosada y abierta con estrechamiento. ¿Qué signo es?",
+   "opciones": [
+    {
+     "t": "Signo de Fleischner",
+     "por": "Es el signo de la tuberculosis ileocecal."
+    },
+    {
+     "t": "Signo de Murphy",
+     "por": "Es el signo de la colecistitis."
+    },
+    {
+     "t": "Signo de Hutchinson",
+     "por": "Es un signo del zóster."
+    },
+    {
+     "t": "Signo de Nikolsky",
+     "por": "Es un signo de ampollas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la tuberculosis intestinal, la forma más frecuente es la ulcerativa.",
+   "fuente": "PPT TBC intestinal-peritoneal-hepática (sem. 13), lám. 18 a 21"
+  },
+  {
+   "id": "w-g-bil-dx_col",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 2,
+   "enunciado": "Varón con dolor en hipocondrio derecho, fiebre de 39 °C, ictericia y dilatación de la vía biliar. ¿Cómo se clasifica la colangitis si tiene hipotensión?",
+   "opciones": [
+    {
+     "t": "Grado III (severa)",
+     "por": "Se define por disfunción orgánica, como hipotensión."
+    },
+    {
+     "t": "Grado I (leve)",
+     "por": "No hay disfunción orgánica."
+    },
+    {
+     "t": "Grado II (moderada)",
+     "por": "Es una forma intermedia sin falla orgánica."
+    },
+    {
+     "t": "No es colangitis",
+     "por": "Cumple criterios diagnósticos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El grado III tiene disfunción orgánica y requiere drenaje urgente.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 20 y 21"
+  },
+  {
+   "id": "w-g-abs-clin",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "Varón de 55 años con fiebre, malestar y dolor en el hipocondrio derecho que se irradia al hombro derecho, con leucocitosis y fosfatasa alcalina alta. ¿Cuál es el estudio de imagen inicial?",
+   "opciones": [
+    {
+     "t": "Ecografía abdominal",
+     "por": "Es el estudio inicial ante sospecha de absceso hepático piógeno."
+    },
+    {
+     "t": "Colonoscopía",
+     "por": "No estudia el hígado."
+    },
+    {
+     "t": "Manometría esofágica",
+     "por": "Se usa en la acalasia."
+    },
+    {
+     "t": "pH-metría esofágica",
+     "por": "Se usa en el ERGE."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los abscesos piógenos son por gramnegativos aerobios y anaerobios.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 13"
+  }
+ ],
+ "tarjetas": []
+}
