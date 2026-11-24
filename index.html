@@ -1784,7 +1784,8 @@ function vResult(){
       '<div style="display:flex;justify-content:center">'+catBox((V.dead || acc < 50) ? 'bad' : (acc >= 80 ? 'party' : 'ok'), V.dead ? '¡Perdimos, pero repasamos y volvemos!' : (acc >= 80 ? '¡Ganaste! ¡Miau-ravilloso!' : acc >= 50 ? '¡Buena ronda! Repasa las falladas.' : 'Ánimo, repasa y vuelve a intentar.'), 5)+'</div>'+
       '<div class="big">'+V.ok+' / '+V.answeredN+'</div>'+
       '<p class="sub">'+acc+'% de aciertos · mejor combo x'+V.maxCombo+'</p>'+
-      (V.hasRC || V.sim ? '<p class="score" style="margin-top:12px">Puntaje: '+fmt(V.earn)+' / '+fmt(V.max)+(V.sim && V.max ? ' · nota '+fmt(V.earn/V.max*20)+' / 20' : '')+'</p>' : '')+
+      (V.max ? '<p class="score" style="margin-top:12px">Nota: '+fmt(V.earn/V.max*20)+' / 20</p>' : '')+
+      (V.hasRC || V.sim ? '<p class="muted" style="margin:2px 0 0">Puntaje de la ronda: '+fmt(V.earn)+' / '+fmt(V.max)+'</p>' : '')+
       '<p style="font-family:var(--display);font-size:16px;color:var(--ink);margin:14px 0 4px">+<span id="xpcount" data-t="'+V.xp+'">'+V.xp+'</span> XP</p>'+
       '<p class="coinct" style="justify-content:center;margin:2px 0">'+COIN+'+'+(V.coins || 0)+' monedas</p>'+(V.retoBonus ? '<p class="src">Bonus del reto: 15 XP y 15 monedas por terminarlo con vidas.</p>' : '')+(V.bonus ? '<p class="src">Incluye bonus de 20 XP y 5 monedas por superar 80%.</p>' : '')+
       (lvUp ? '<p class="lvl" style="margin-top:10px">¡SUBISTE AL NIVEL '+level(S.xp)+'!</p>' : '')+
