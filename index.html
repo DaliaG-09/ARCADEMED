@@ -651,7 +651,8 @@ function allC(){ const m = new Map(); BANCO.tarjetas.concat(S.custom.tarjetas).f
 const level = xp => 1 + Math.floor(Math.sqrt(xp/40));
 const xpFor = l => 40*(l-1)*(l-1);
 const isRC = q => q.tipo === 'rc';
-const ptsOf = q => isRC(q) ? (q.pts || 2) : 1.25;
+const ptsOf = q => (typeof V === 'object' && V && V.sim && V_SIMPTS[q.id] != null) ? V_SIMPTS[q.id] : (isRC(q) ? (q.pts || 2) : 1.25);
+const rcW = (q, w) => w * ptsOf(q) / (q.pts || 2);
 const fmt = n => String(Math.round(n*100)/100).replace('.', ',');
 const isFallada = q => { const s = S.q[q.id]; return !!s && s.bad > 0 && s.streak < 2; };
 const isDominada = q => { const s = S.q[q.id]; return !!s && s.streak >= 2; };
@@ -1667,7 +1668,8 @@ function vHome(){
       '<button class="btn act gold" data-act="quick"><b>RONDA RÁPIDA</b><span>10 preguntas: casi todas de opción múltiple y 2 de respuesta corta, con vidas</span></button>'+
       '<button class="btn act" data-act="setup" data-area="all"><b>RONDA A MEDIDA</b><span>Elige área, tema y cantidad</span></button>'+
       '<button class="btn act" data-act="reto"><b>RETO CONTRARRELOJ</b><span>12 preguntas de opción múltiple, 20 segundos cada una, 3 vidas y bonus por rapidez</span></button>'+
-      '<button class="btn act gold" data-act="sim"><b>SIMULACRO</b><span>11 preguntas, 20 puntos, como el examen</span></button>'+
+      '<button class="btn act gold" data-act="sim" data-m="examen"><b>SIMULACRO</b><span>15 preguntas, 20 puntos: 12 de marcar y 3 escritas, como tu parcial</span></button>'+
+      '<div class="row" style="gap:8px"><button class="btn small grow" data-act="sim" data-m="om">Solo marcar (12)</button><button class="btn small grow" data-act="sim" data-m="rc">Solo escribir (6)</button></div>'+
       '<button class="btn act" data-act="falladas" '+(nFall ? '' : 'disabled')+'><b>REPASAR FALLADAS</b><span>'+nFall+' por dominar (necesitas 2 aciertos seguidos)</span></button>'+
       '<button class="btn act" data-act="cards"><b>FLASHCARDS</b><span>'+(function(){ const d = todayDeck(); return d.rev.length+' por repasar y '+d.nw.length+' nuevas hoy · repetición espaciada y recuerdo activo'; })()+'</span></button>'+
     '</div></div>'+
@@ -1701,7 +1703,8 @@ function vSetup(){
 function buildOpts(q){
   if(isRC(q)) return [];
   const all = q.opciones.map((o, i) => ({t:o.t, full:o.full, por:o.por, ok:i === q.correcta}));
-  const nin = all.filter(o => /^ninguna de las anteriores/i.test(o.t));
+  const nin = all.filter(o => /^ning/i.test(o.t));
+  if(V && V.sim && !nin.length && all.length === 4) nin.push({t:'Ninguna de las anteriores', por:'Una de las otras opciones sí es correcta.', ok:false});
   return shuffle(all.filter(o => nin.indexOf(o) < 0)).concat(nin);
 }
 function noteHtml(q){
@@ -1719,11 +1722,11 @@ function rcBody(q){
     return '<label class="label" for="rctxt">TU RESPUESTA (opcional)</label><textarea id="rctxt" class="rctxt" placeholder="Escríbela aquí o piénsala, y luego mira la respuesta modelo">'+esc(V.rc.txt)+'</textarea>'+
       '<div class="row" style="margin-top:12px"><button class="btn gold grow" data-act="rcrev">Ver respuesta modelo</button></div>';
   }
-  const earned = P.reduce((t, p, i) => t + (V.rc.chk[i] ? p.w : 0), 0);
+  const earned = P.reduce((t, p, i) => t + (V.rc.chk[i] ? rcW(q, p.w) : 0), 0);
   if(V.rc.txt.trim()) h += '<div class="mine"><p class="label">TU RESPUESTA</p><p>'+nl(V.rc.txt)+'</p></div>';
   h += '<p class="label">RESPUESTA MODELO · '+(V.answered ? 'LO QUE CUBRISTE' : 'MARCA LO QUE CUBRISTE')+'</p><div class="pts">'+
     P.map((p, i) => { const on = !!V.rc.chk[i]; const cls = V.answered ? (on ? 'ok' : 'bad') : (on ? 'on' : '');
-      return '<button class="pt '+cls+'" data-act="rctoggle" data-i="'+i+'" '+(V.answered ? 'disabled' : '')+'><span class="box">'+(on ? '✓' : (V.answered ? '✗' : ''))+'</span><span>'+esc(p.t)+'<small>'+fmt(p.w)+' pt</small></span></button>'; }).join('')+'</div>'+
+      return '<button class="pt '+cls+'" data-act="rctoggle" data-i="'+i+'" '+(V.answered ? 'disabled' : '')+'><span class="box">'+(on ? '✓' : (V.answered ? '✗' : ''))+'</span><span>'+esc(p.t)+'<small>'+fmt(rcW(q, p.w))+' pt</small></span></button>'; }).join('')+'</div>'+
     '<p class="score">'+fmt(earned)+' / '+fmt(pts)+' puntos</p>';
   if(!V.answered) return h + '<div class="row"><button class="btn gold grow" data-act="rcdone">Confirmar mi puntaje</button></div>';
   const ok = V.rcFrac >= 0.7;
@@ -2828,24 +2831,41 @@ function pool(cfg){
   nOm = Math.min(om.length, cfg.n - nRc);
   return shuffle(om.slice(0, nOm).concat(rc.slice(0, nRc)));
 }
-const SIM_TPL = [['nefro','rc'],['nefro','rc'],['nefro','rc','gasometria'],['nefro','rc'],['nefro','om','itu'],['gastro','rc'],['gastro','rc'],['gastro','om','pancreatitis'],['gastro','rc'],['derma','rc'],['derma','rc']];
-function simIds(){
+// Estructura del Parcial 1 real: 15 preguntas, 12 de marcar (7 de 1 pt y 5 de 1,5 pt = 14,5) y 3 escritas (2 + 2 + 1,5 = 5,5). Total 20.
+const SIM_AREAS = [['nefro', ['rc','om','om','om','om'], 'gasometria', 'itu'], ['gastro', ['rc','om','om','om','om'], null, 'pancreatitis'], ['derma', ['rc','om','om','om','om'], null, null]];
+function simIds(m){
+  m = m || 'examen';
   const qs = allQ(), used = new Set(), out = [];
   const take = (f) => { const c = shuffle(qs.filter(q => !used.has(q.id) && f(q))); return c[0] || null; };
-  SIM_TPL.forEach(([area, tipo, slot]) => {
-    const wantRC = tipo === 'rc';
-    const q = take(q => q.area === area && isRC(q) === wantRC && (!slot || q.slot === slot)) ||
-              take(q => q.area === area && (!slot || q.slot === slot)) ||
-              take(q => q.area === area && isRC(q) === wantRC) || take(q => q.area === area);
-    if(q){ used.add(q.id); out.push(q.id); }
+  const nA = m === 'examen' ? null : 6;
+  SIM_AREAS.forEach(([area, tipos, slotRc, slotOm]) => {
+    tipos.forEach(tipo => {
+      if(m === 'om' && tipo === 'rc') return; if(m === 'rc' && tipo === 'om') return;
+      const wantRC = tipo === 'rc', slot = wantRC ? slotRc : null;
+      const ok = q => q.area === area && isRC(q) === wantRC;
+      const q = (slot && take(q => ok(q) && q.slot === slot)) || (!wantRC && slotOm && !out.some(id => (qs.find(x => x.id === id) || {}).slot === slotOm) && take(q => ok(q) && q.slot === slotOm)) || take(ok) || take(q => q.area === area);
+      if(q){ used.add(q.id); out.push(q.id); }
+    });
   });
+  // en modos parciales, 10 preguntas del tipo elegido
+  if(m !== 'examen'){
+    const want = m === 'rc', pool = shuffle(qs.filter(q => !used.has(q.id) && isRC(q) === want));
+    const need = (m === 'om' ? 12 : 6) - out.length;
+    for(let k = 0; k < need && k < pool.length; k++){ out.push(pool[k].id); }
+  }
+  // puntos como el examen real
+  const omIds = shuffle(out.filter(id => !isRC(qs.find(q => q.id === id)))), rcIds = shuffle(out.filter(id => isRC(qs.find(q => q.id === id))));
+  V_SIMPTS = {};
+  omIds.forEach((id, k) => { V_SIMPTS[id] = k < Math.round(omIds.length*5/12) ? 1.5 : 1; });
+  const rp = [2, 2, 1.5]; rcIds.forEach((id, k) => { V_SIMPTS[id] = rp[k % 3]; });
   return out;
 }
+let V_SIMPTS = {}, SIM_M = 'examen';
 function pick(i){
   if(V.name !== 'play' || V.answered) return;
   const q = allQ().find(x => x.id === V.ids[V.i]); const o = V.opts[i]; if(!o) return;
   const lv0 = level(S.xp);
-  V.answered = true; V.picked = i; V.answeredN++; V.max += 1.25; if(o.ok) V.earn += 1.25;
+  V.answered = true; V.picked = i; V.answeredN++; V.max += ptsOf(q); if(o.ok) V.earn += ptsOf(q);
   const wasF = isFallada(q);
   if(V.timed) V.tPct = Math.max(0, 100 - (Date.now() - V.tStart)/200);
   const st = S.q[q.id] || {ok:0, bad:0, streak:0};
@@ -2907,7 +2927,7 @@ const OPT = {area:'all', tema:'all', n:'10', src:'todas', modo:'practica', tipo:
 const A = {
   home: () => go({name:'home'}),
   quick: () => startRound(pool({area:'all', tema:'all', n:10, src:'todas', tipo:'mixto', mezcla:'libre', pct:'80'}).map(q => q.id), 'boss'),
-  sim: () => { const ids = simIds(); if(ids.length < 11){ toast('Aún no hay suficientes preguntas para un simulacro completo.'); } startRound(ids, 'sim'); },
+  sim: d => { const m = (d && d.m) || 'examen'; const ids = simIds(m); if(ids.length < (m === 'examen' ? 15 : 6)){ toast('Aún no hay suficientes preguntas para este simulacro.'); } SIM_M = m; startRound(ids, 'sim'); },
   plan: () => go({name:'plan'}),
   hoja: d => go({name:'hoja', a:d.a, t:d.t}),
   hojaidx: () => go({name:'hoja'}),
@@ -2927,7 +2947,7 @@ const A = {
     const q = curQ(); if(!q || !isRC(q) || V.answered) return;
     const P = q.puntos || [], pts = ptsOf(q);
     const lv0 = level(S.xp);
-    const earned = P.reduce((t, p, i) => t + (V.rc.chk[i] ? p.w : 0), 0), frac = pts ? earned/pts : 0, ok = frac >= 0.7;
+    const earned = P.reduce((t, p, i) => t + (V.rc.chk[i] ? rcW(q, p.w) : 0), 0), frac = pts ? earned/pts : 0, ok = frac >= 0.7;
     V.answered = true; V.answeredN++; V.earn += earned; V.max += pts; V.hasRC = true; V.rcFrac = frac;
     const wasF = isFallada(q);
     const st = S.q[q.id] || {ok:0, bad:0, streak:0};
@@ -2940,7 +2960,7 @@ const A = {
   pick: d => pick(+d.i),
   next: () => next(),
   retryfails: () => startRound(shuffle(V.fails), 'practica'),
-  replay: () => V.sim ? A.sim() : V.reto ? A.reto() : V.jefe ? A.jefe({a:V.jefe.a, i:temasOf(V.jefe.a).indexOf(V.jefe.t)}) : V.nivel ? A.nivel({a:V.nivel.a, i:temasOf(V.nivel.a).indexOf(V.nivel.t)}) : startRound(shuffle(V.ids), V.modo),
+  replay: () => V.sim ? A.sim({m:SIM_M}) : V.reto ? A.reto() : V.jefe ? A.jefe({a:V.jefe.a, i:temasOf(V.jefe.a).indexOf(V.jefe.t)}) : V.nivel ? A.nivel({a:V.nivel.a, i:temasOf(V.nivel.a).indexOf(V.nivel.t)}) : startRound(shuffle(V.ids), V.modo),
   cards: () => startCards(false),
   cardsall: () => startCards(true),
   cardchest: () => { if(V.chested) return; V.chested = true; openChest(lootRoll(false), 'COFRE DE REPASO'); save(); render(); },
