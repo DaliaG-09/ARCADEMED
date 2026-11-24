@@ -2837,7 +2837,7 @@ function simIds(m){
   m = m || 'examen';
   const qs = allQ(), used = new Set(), out = [];
   const isViv = q => /\b\d{1,2} años|Paciente|Varón|Mujer|Niñ|Adolescente|Joven|Gestante|Lactante|marque la alternativa/i.test(q.enunciado);
-  const take = (f) => { const c = shuffle(qs.filter(q => !used.has(q.id) && f(q))); c.sort((x, y) => isViv(y) - isViv(x)); return c[0] || null; };
+  const take = (f) => { const c = shuffle(qs.filter(q => !used.has(q.id) && f(q))); const seen = (S.simSeen || {}); c.sort((x, y) => (isViv(y) - isViv(x)) || ((seen[x.id] || 0) - (seen[y.id] || 0))); return c[0] || null; };
   const nA = m === 'examen' ? null : 6;
   SIM_AREAS.forEach(([area, tipos, slotRc, slotOm]) => {
     tipos.forEach(tipo => {
@@ -2928,7 +2928,7 @@ const OPT = {area:'all', tema:'all', n:'10', src:'todas', modo:'practica', tipo:
 const A = {
   home: () => go({name:'home'}),
   quick: () => startRound(pool({area:'all', tema:'all', n:10, src:'todas', tipo:'mixto', mezcla:'libre', pct:'80'}).map(q => q.id), 'boss'),
-  sim: d => { const m = (d && d.m) || 'examen'; const ids = simIds(m); if(ids.length < (m === 'examen' ? 15 : 6)){ toast('Aún no hay suficientes preguntas para este simulacro.'); } SIM_M = m; startRound(ids, 'sim'); },
+  sim: d => { const m = (d && d.m) || 'examen'; const ids = simIds(m); if(ids.length < (m === 'examen' ? 15 : 6)){ toast('Aún no hay suficientes preguntas para este simulacro.'); } SIM_M = m; S.simSeen = S.simSeen || {}; const sv = S.simSeen; ids.forEach(id => { sv[id] = (sv[id] || 0) + 1; }); save(); startRound(ids, 'sim'); },
   plan: () => go({name:'plan'}),
   hoja: d => go({name:'hoja', a:d.a, t:d.t}),
   hojaidx: () => go({name:'hoja'}),
