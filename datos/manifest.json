@@ -49,6 +49,7 @@
   "x-gastro-higado.json",
   "x-gastro-digestivo.json",
   "x-derma-1.json",
-  "x-derma-2.json"
+  "x-derma-2.json",
+  "x-vinetas.json"
  ]
 }

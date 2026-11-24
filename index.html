@@ -2836,7 +2836,8 @@ const SIM_AREAS = [['nefro', ['rc','om','om','om','om'], 'gasometria', 'itu'], [
 function simIds(m){
   m = m || 'examen';
   const qs = allQ(), used = new Set(), out = [];
-  const take = (f) => { const c = shuffle(qs.filter(q => !used.has(q.id) && f(q))); return c[0] || null; };
+  const isViv = q => /\b\d{1,2} años|Paciente|Varón|Mujer|Niñ|Adolescente|Joven|Gestante/.test(q.enunciado);
+  const take = (f) => { const c = shuffle(qs.filter(q => !used.has(q.id) && f(q))); c.sort((x, y) => (isRC(y) ? 0 : isViv(y)) - (isRC(x) ? 0 : isViv(x))); return c[0] || null; };
   const nA = m === 'examen' ? null : 6;
   SIM_AREAS.forEach(([area, tipos, slotRc, slotOm]) => {
     tipos.forEach(tipo => {

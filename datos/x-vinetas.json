@@ -1,0 +1,1157 @@
+{
+ "preguntas": [
+  {
+   "id": "v-d-acn-tx2",
+   "area": "derma",
+   "tema": "Acné y rosácea",
+   "dif": 2,
+   "enunciado": "Adolescente de 16 años con acné papulopustuloso grave en cara y espalda, con algunos nódulos. Según el algoritmo de tratamiento, ¿cuál es la primera elección?",
+   "opciones": [
+    {
+     "t": "Antibiótico oral y retinoide con POB",
+     "por": "Es la primera elección en el acné papulopustuloso grave o nodular moderado."
+    },
+    {
+     "t": "Retinoides tópicos, con o sin peróxido de benzoilo",
+     "por": "Es la primera elección del acné comedoniano, no del papulopustuloso grave."
+    },
+    {
+     "t": "Derivar a dermatología para isotretinoína oral",
+     "por": "Se reserva para el acné nódulo-quístico o con tendencia cicatricial."
+    },
+    {
+     "t": "Metronidazol tópico dos veces al día",
+     "por": "Es un tópico de la rosácea, no del acné grave."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Acné comedoniano: retinoide tópico. Papulopustuloso grave o nodular moderado: antibiótico oral más retinoide con peróxido de benzoilo. Nódulo-quístico o cicatricial: derivar para isotretinoína.",
+   "fuente": "PPT Acné y rosácea (sem. 14), lám. 16"
+  },
+  {
+   "id": "v-d-acn-rosclin",
+   "area": "derma",
+   "tema": "Acné y rosácea",
+   "dif": 2,
+   "enunciado": "Hombre de 45 años con eritema persistente en la nariz y las mejillas, telangiectasias y algunas pústulas. No tiene comedones ni picor. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "Rosácea",
+     "por": "Es una inflamación crónica facial con eritema, telangiectasias y pústulas, sin comedones."
+    },
+    {
+     "t": "Acné vulgar",
+     "por": "El acné tiene comedones, que aquí no hay."
+    },
+    {
+     "t": "Lupus eritematoso sistémico",
+     "por": "El lupus da eritema en mariposa que empeora con el sol, con artropatía y anticuerpos antinucleares."
+    },
+    {
+     "t": "Dermatitis atópica",
+     "por": "Es muy pruriginosa y se ubica en las flexuras."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La ausencia de comedones y de prurito, con eritema, telangiectasias y pústulas, orienta a rosácea. Un tópico inicial puede ser metronidazol, ivermectina o ácido azelaico.",
+   "fuente": "PPT Acné y rosácea (sem. 14), lám. 20"
+  },
+  {
+   "id": "v-d-amp-bp",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "Mujer de 75 años con ampollas tensas y pruriginosas en el tronco y los pliegues, con las mucosas respetadas. La inmunofluorescencia directa muestra IgG y C3 lineales en la membrana basal. ¿Cuál es el diagnóstico?",
+   "opciones": [
+    {
+     "t": "Penfigoide ampolloso",
+     "por": "Ampollas tensas, mucosas respetadas e IgG y C3 lineales en la membrana basal."
+    },
+    {
+     "t": "Pénfigo vulgar",
+     "por": "Da ampollas flácidas con compromiso mucoso, e IgG en red alrededor de los queratinocitos."
+    },
+    {
+     "t": "Dermatitis herpetiforme",
+     "por": "Tiene lesiones agrupadas muy pruriginosas y depósitos granulares de IgA en las papilas dérmicas."
+    },
+    {
+     "t": "Escabiosis",
+     "por": "Produce pápulas y túneles pruriginosos en pliegues, no ampollas tensas."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El penfigoide ampolloso se dirige contra BP180 y BP230 de la membrana basal. La biopsia muestra ampolla subepidérmica con eosinófilos.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 13"
+  },
+  {
+   "id": "v-d-amp-pvtx",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "Varón de 45 años con ampollas flácidas en la piel y erosiones orales dolorosas. La inmunofluorescencia directa muestra IgG en red alrededor de los queratinocitos. ¿Cuál es la terapia de primera línea actual?",
+   "opciones": [
+    {
+     "t": "Rituximab",
+     "por": "Es la primera línea actual del pénfigo vulgar."
+    },
+    {
+     "t": "Dieta libre de gluten más dapsona",
+     "por": "Es el tratamiento de la dermatitis herpetiforme."
+    },
+    {
+     "t": "Antihistamínicos orales solos",
+     "por": "Calman el prurito, pero no tratan una enfermedad ampollar autoinmune."
+    },
+    {
+     "t": "Tópicos potentes únicamente",
+     "por": "Se usan en el penfigoide localizado, no en el pénfigo vulgar."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Ampollas flácidas en piel y mucosas con IgG en red indican pénfigo vulgar, por IgG contra desmogleínas con acantólisis. Su primera línea es rituximab.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 23"
+  },
+  {
+   "id": "v-d-amp-dhtx",
+   "area": "derma",
+   "tema": "Enfermedades ampollares",
+   "dif": 2,
+   "enunciado": "Joven con enfermedad celíaca y lesiones agrupadas muy pruriginosas. La biopsia muestra depósitos granulares de IgA en las papilas dérmicas. ¿Qué tratamiento corresponde?",
+   "opciones": [
+    {
+     "t": "Dieta sin gluten y dapsona",
+     "por": "Es el tratamiento de la dermatitis herpetiforme."
+    },
+    {
+     "t": "Rituximab por vía endovenosa",
+     "por": "Es la primera línea del pénfigo vulgar."
+    },
+    {
+     "t": "Tópicos potentes si es localizado",
+     "por": "Es el manejo del penfigoide ampolloso localizado."
+    },
+    {
+     "t": "Mupirocina tópica por 5 a 7 días",
+     "por": "Es un antibiótico tópico del impétigo localizado."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Lesiones agrupadas muy pruriginosas con celiaquía e IgA granular dan el diagnóstico de dermatitis herpetiforme.",
+   "fuente": "PPT Enfermedades ampollares (sem. 15), lám. 24"
+  },
+  {
+   "id": "v-d-bac-eritx",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "Mujer de 60 años con insuficiencia venosa crónica y una placa roja, caliente y bien delimitada en la pierna, con fiebre. Se diagnostica erisipela. ¿Cuál es el tratamiento antibiótico? *",
+   "opciones": [
+    {
+     "t": "Amoxicilina por 7 a 21 días",
+     "por": "Es el antibiótico indicado en la erisipela."
+    },
+    {
+     "t": "Mupirocina tópica por 5 a 7 días",
+     "por": "Se usa en el impétigo localizado, no en una erisipela con fiebre."
+    },
+    {
+     "t": "Fluconazol 150 mg semanal",
+     "por": "Es un antifúngico para la candidiasis cutánea extensa."
+    },
+    {
+     "t": "Metronidazol tópico",
+     "por": "Es un tópico de la rosácea."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La insuficiencia venosa o linfática es un factor de riesgo de erisipela. Se evitan los AINE y los corticoides.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 21",
+   "nota": "* El PPT llama «beta lactámico» a la clindamicina; es una lincosamida, no un betalactámico. Sirve como alternativa en alergia a penicilinas."
+  },
+  {
+   "id": "v-d-bac-erino",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "Varón de 55 años con erisipela de pierna que toma ibuprofeno y prednisona por dolor y malestar. ¿Qué fármacos deben evitarse en la erisipela?",
+   "opciones": [
+    {
+     "t": "AINE y corticoides",
+     "por": "Se evitan porque pueden empeorar la infección."
+    },
+    {
+     "t": "Penicilinas",
+     "por": "Son parte del tratamiento antibiótico."
+    },
+    {
+     "t": "Paracetamol",
+     "por": "No está contraindicado en la erisipela."
+    },
+    {
+     "t": "Antihistamínicos orales",
+     "por": "No se contraindican en la erisipela."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la erisipela se evitan los AINE y los corticoides.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 21"
+  },
+  {
+   "id": "v-d-bac-celtx",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "Paciente con celulitis en la pierna, fiebre alta e hipotensión, que no mejoró con antibiótico oral. ¿Qué vía de antibiótico corresponde?",
+   "opciones": [
+    {
+     "t": "Endovenosa",
+     "por": "Se indica en la celulitis grave, con signos sistémicos o falla del tratamiento oral."
+    },
+    {
+     "t": "Oral ambulatoria",
+     "por": "Es para la celulitis leve, no para una con signos sistémicos o falla oral."
+    },
+    {
+     "t": "Tópica",
+     "por": "No alcanza a tratar una celulitis con compromiso sistémico."
+    },
+    {
+     "t": "Ninguna: la celulitis se trata con AINE",
+     "por": "Los AINE se evitan en estos cuadros y no reemplazan al antibiótico."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El antibiótico endovenoso está indicado en la celulitis grave, con signos sistémicos o falla oral. El dolor desproporcionado orienta a una infección necrotizante.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 31"
+  },
+  {
+   "id": "v-d-bac-imptx2",
+   "area": "derma",
+   "tema": "Enfermedades bacterianas de la piel",
+   "dif": 2,
+   "enunciado": "Niño de 5 años con ocho lesiones costrosas melicéricas en la cara y los brazos. ¿Qué tratamiento corresponde?",
+   "opciones": [
+    {
+     "t": "Cefalexina sistémica por 10 días",
+     "por": "El impétigo con más de 5 lesiones requiere antibiótico sistémico."
+    },
+    {
+     "t": "Mupirocina o ácido fusídico tópicos",
+     "por": "Sirven para el impétigo localizado no ampolloso, con pocas lesiones."
+    },
+    {
+     "t": "Corticoide tópico de alta potencia",
+     "por": "No trata una infección bacteriana."
+    },
+    {
+     "t": "Griseofulvina oral por 6 a 12 semanas",
+     "por": "Es un antifúngico para tiña capitis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Impétigo localizado: tópico. Con más de 5 lesiones: cefalexina sistémica por 10 días.",
+   "fuente": "PPT Enfermedades bacterianas de la piel (sem. 14), lám. 11"
+  },
+  {
+   "id": "v-d-dmt-dcalerg",
+   "area": "derma",
+   "tema": "Dermatitis",
+   "dif": 2,
+   "enunciado": "Mujer que desarrolla eritema y vesículas muy pruriginosas, 24 horas después de tocar una sustancia nueva. ¿Qué mecanismo de hipersensibilidad produce una dermatitis de contacto alérgica?",
+   "opciones": [
+    {
+     "t": "Tipo IV, de 12 a 48 horas tras el contacto",
+     "por": "Es una hipersensibilidad celular tardía."
+    },
+    {
+     "t": "Tipo I, inmediata por IgE",
+     "por": "Es el mecanismo de la urticaria y la anafilaxia, de minutos."
+    },
+    {
+     "t": "Tipo II, por anticuerpos citotóxicos",
+     "por": "No es el mecanismo de la dermatitis de contacto."
+    },
+    {
+     "t": "No inmunológico, con test de parche negativo",
+     "por": "Es la dermatitis de contacto irritativa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La dermatitis de contacto alérgica es de tipo IV y aparece 12 a 48 horas tras el contacto. El primer signo es el prurito. Se trata con corticoide de alta potencia dos veces al día.",
+   "fuente": "PPT Dermatitis (sem. 14), lám. 26"
+  },
+  {
+   "id": "v-d-mic-txcap",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "Niño de 7 años con placa de alopecia, descamación y pelos rotos en el cuero cabelludo. Se diagnostica tiña capitis. ¿Qué antifúngico se usa sobre todo?",
+   "opciones": [
+    {
+     "t": "Griseofulvina oral por 6 a 12 semanas",
+     "por": "Es el antifúngico más usado en la tiña capitis."
+    },
+    {
+     "t": "Terbinafina 1 % crema por 1 a 2 semanas",
+     "por": "Es el tópico de una tiña leve de piel lampiña."
+    },
+    {
+     "t": "Fluconazol 150 mg semanal por 2 a 4 semanas",
+     "por": "Es el esquema de la candidiasis cutánea extensa o recurrente."
+    },
+    {
+     "t": "Itraconazol 200 mg/día por 3 a 6 meses",
+     "por": "Es el tratamiento de la esporotricosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La tiña capitis tiene formas tonsurante, querion y seca. Se trata con griseofulvina oral por 6 a 12 semanas.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 30"
+  },
+  {
+   "id": "v-d-mic-txespor",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "Paciente con un nódulo ulcerado en la mano y nuevos nódulos a lo largo del trayecto linfático del brazo, por Sporothrix. ¿Cuál es el tratamiento?",
+   "opciones": [
+    {
+     "t": "Itraconazol 200 mg/día por 3 a 6 meses",
+     "por": "Es el tratamiento de la esporotricosis cutánea fija o linfática."
+    },
+    {
+     "t": "Terbinafina 1 % crema por 1 a 2 semanas",
+     "por": "Es para tiñas leves, no cubre la forma linfática."
+    },
+    {
+     "t": "Griseofulvina oral por 6 a 12 semanas",
+     "por": "Se usa sobre todo en la tiña capitis."
+    },
+    {
+     "t": "Antimoniales pentavalentes por 20 días",
+     "por": "Es el tratamiento de la leishmaniasis cutánea."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Nódulos ulcerados en trayecto linfático son la esporotricosis (Sporothrix).",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 31"
+  },
+  {
+   "id": "v-d-mic-dx",
+   "area": "derma",
+   "tema": "Micosis en dermatología",
+   "dif": 2,
+   "enunciado": "Mujer con una placa anular de borde activo y centro claro en el tronco. ¿Qué examen directo confirma una micosis superficial?",
+   "opciones": [
+    {
+     "t": "Examen con KOH",
+     "por": "Busca hifas o esporas en la escama."
+    },
+    {
+     "t": "Test de Tzanck con frotis del borde",
+     "por": "Busca células gigantes multinucleadas en el herpes y define la etiología de ampollas."
+    },
+    {
+     "t": "Biopsia punch de la lesión",
+     "por": "No es el examen directo de rutina de una micosis superficial."
+    },
+    {
+     "t": "Lámpara de Wood sobre la orina",
+     "por": "Se usa en las porfirias, con color rosa-naranja."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La placa anular con borde activo y centro claro es la tiña corporis. El KOH confirma la infección fúngica.",
+   "fuente": "PPT Micosis en dermatología (sem. 15), lám. 27"
+  },
+  {
+   "id": "v-d-par-ivm",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "Varón con escabiosis costrosa extensa, en un brote de un albergue donde convive con muchas personas. ¿Qué tratamiento se prefiere?",
+   "opciones": [
+    {
+     "t": "Ivermectina oral",
+     "por": "Se prefiere en casos extensos, costrosos, brotes o mala adherencia."
+    },
+    {
+     "t": "Antihistamínicos orales como único tratamiento",
+     "por": "Calman el prurito, pero no eliminan el ácaro."
+    },
+    {
+     "t": "Albendazol oral",
+     "por": "Se usa en la larva migrans cutánea."
+    },
+    {
+     "t": "Antimoniales pentavalentes por 20 días",
+     "por": "Es el tratamiento de la leishmaniasis cutánea."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La permetrina al 5 % se aplica en todo el cuerpo por 8 a 14 horas y se repite a los 7 días. En casos extensos, costrosos o brotes se prefiere ivermectina. Los contactos se tratan para evitar la reinfestación.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 20"
+  },
+  {
+   "id": "v-d-par-leishtx",
+   "area": "derma",
+   "tema": "Enfermedades parasitarias de la piel",
+   "dif": 2,
+   "enunciado": "Agricultor de zona endémica con una pápula que se ulceró, con borde elevado y fondo necrótico. Se diagnostica leishmaniasis cutánea. ¿Cuál es el tratamiento de primera línea?",
+   "opciones": [
+    {
+     "t": "Antimoniales pentavalentes 20 días",
+     "por": "Es la primera línea de la leishmaniasis cutánea."
+    },
+    {
+     "t": "Albendazol o ivermectina oral",
+     "por": "Es el tratamiento de la larva migrans cutánea."
+    },
+    {
+     "t": "Metronidazol oral por 7 a 10 días",
+     "por": "Es el tratamiento del absceso hepático amebiano."
+    },
+    {
+     "t": "Permetrina al 5 % en todo el cuerpo",
+     "por": "Es el tratamiento de la escabiosis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Leishmania spp. es un protozoario. La lesión típica es una pápula que se ulcera con borde elevado y fondo necrótico.",
+   "fuente": "PPT Enfermedades parasitarias de la piel (sem. 15), lám. 20"
+  },
+  {
+   "id": "v-d-urt-txref",
+   "area": "derma",
+   "tema": "Urticaria aguda y crónica",
+   "dif": 2,
+   "enunciado": "Mujer de 30 años con habones diarios desde hace 10 semanas que persisten pese a un antihistamínico H1 diario. ¿Qué indica el algoritmo?",
+   "opciones": [
+    {
+     "t": "Subir el H1 hasta 4 comprimidos",
+     "por": "Es el siguiente paso si persisten los síntomas con una dosis estándar."
+    },
+    {
+     "t": "Añadir metilprednisolona 1 mg/kg por vía IM",
+     "por": "Se reserva para urgencias con cuadro muy extenso o angioedema."
+    },
+    {
+     "t": "Suspender el antihistamínico H1",
+     "por": "Empeoraría el cuadro."
+    },
+    {
+     "t": "Añadir un AINE para el prurito",
+     "por": "Se recomienda suspender los AINE si es posible."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Habones diarios por 10 semanas son una urticaria crónica. Si persisten con un H1 diario, se sube la dosis hasta 4 comprimidos al día.",
+   "fuente": "PPT Urticaria aguda y crónica (sem. 14), lám. 15"
+  },
+  {
+   "id": "v-d-vir-zostx",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "Mujer de 68 años con dolor ardoroso y luego vesículas agrupadas en un dermatoma torácico, de 48 horas de evolución. ¿Cuál es el tratamiento oral del herpes zóster en un adulto inmunocompetente?",
+   "opciones": [
+    {
+     "t": "Valaciclovir 1 g cada 8 h por 7 días",
+     "por": "Es el antiviral indicado, dentro de las 72 horas."
+    },
+    {
+     "t": "Corticoide oral solo, sin antivirales",
+     "por": "No trata la infección viral."
+    },
+    {
+     "t": "Amoxicilina oral por 7 días",
+     "por": "Es un antibiótico, no actúa sobre el virus."
+    },
+    {
+     "t": "Ivermectina oral en dosis única",
+     "por": "Se usa en la escabiosis extensa."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El zóster es la reactivación del virus varicela zóster latente. Los antivirales se inician en las primeras 72 horas. La PCR es la prueba preferida.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 31"
+  },
+  {
+   "id": "v-d-vir-hutch",
+   "area": "derma",
+   "tema": "Enfermedades virales de la piel",
+   "dif": 2,
+   "enunciado": "Varón de 65 años con herpes zóster y vesículas en la punta de la nariz. ¿Qué riesgo indica este signo de Hutchinson?",
+   "opciones": [
+    {
+     "t": "Afectación ocular, por la rama nasociliar",
+     "por": "El signo indica compromiso de la rama nasociliar."
+    },
+    {
+     "t": "Parálisis facial y compromiso del oído",
+     "por": "Es el síndrome de Ramsay Hunt."
+    },
+    {
+     "t": "Sobreinfección por Candida",
+     "por": "No es lo que indica este signo."
+    },
+    {
+     "t": "Ninguno: la nariz no tiene riesgo especial",
+     "por": "Es una localización de riesgo ocular."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El signo de Hutchinson se ve en el zóster de la rama nasociliar y alerta de riesgo ocular.",
+   "fuente": "PPT Enfermedades virales de la piel (sem. 15), lám. 28"
+  },
+  {
+   "id": "v-d-dis-koebner",
+   "area": "derma",
+   "tema": "Discromías de la piel",
+   "dif": 2,
+   "enunciado": "Mujer con máculas acrómicas por vitíligo que presenta nuevas lesiones en una cicatriz de quemadura reciente. ¿Qué fenómeno es?",
+   "opciones": [
+    {
+     "t": "Fenómeno de Koebner",
+     "por": "Es la aparición de lesiones en sitios de trauma."
+    },
+    {
+     "t": "Signo de Nikolsky en piel sana",
+     "por": "Es el desprendimiento de la epidermis al frotar piel sana."
+    },
+    {
+     "t": "Signo de Darier en mastocitosis",
+     "por": "Es eritema y edema al rascar una lesión, en mastocitosis."
+    },
+    {
+     "t": "Dermografismo en urticaria",
+     "por": "Es una marca roja y pruriginosa al raspar la piel."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El vitíligo es una autoinmunidad con destrucción de melanocitos. El Koebner es la aparición de lesiones en sitios de trauma.",
+   "fuente": "PPT Discromías: hipocromía e hipercromía (sem. 14), lám. 9"
+  },
+  {
+   "id": "v-g-hep-perfil",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "Varón de 35 años en un chequeo, sin síntomas. Sus resultados: HBsAg negativo, anti-HBs positivo, IgM anti-HBc negativo y anti-HBc total positivo. ¿Cómo se interpreta?",
+   "opciones": [
+    {
+     "t": "Infección pasada resuelta",
+     "por": "Con anti-HBs y anti-HBc total positivos, y HBsAg negativo, la infección se resolvió."
+    },
+    {
+     "t": "Infección aguda por hepatitis B",
+     "por": "La aguda tiene HBsAg positivo, o IgM anti-HBc positivo en el periodo ventana."
+    },
+    {
+     "t": "Hepatitis B crónica",
+     "por": "La crónica tiene HBsAg positivo por más de 6 meses."
+    },
+    {
+     "t": "Fase inmunotolerante",
+     "por": "Tiene HBsAg positivo, ALT normal y ADN del VHB alto."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "HBsAg negativo, anti-HBs positivo, IgM anti-HBc negativo y anti-HBc total positivo: infección pasada resuelta.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 36"
+  },
+  {
+   "id": "v-g-hep-ventana",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "Mujer de 30 años con ictericia y náuseas de una semana. El HBsAg ya es negativo, pero el IgM anti-HBc es positivo. ¿Qué situación explica este perfil?",
+   "opciones": [
+    {
+     "t": "Periodo ventana de hepatitis B aguda",
+     "por": "El HBsAg ya se negativizó y el IgM anti-HBc confirma la infección aguda."
+    },
+    {
+     "t": "Infección pasada ya resuelta",
+     "por": "Tendría IgM anti-HBc negativo."
+    },
+    {
+     "t": "Hepatitis B crónica en fase inmunotolerante",
+     "por": "La crónica tiene HBsAg positivo por más de 6 meses."
+    },
+    {
+     "t": "Hepatitis A aguda en recuperación",
+     "por": "Se diagnostica con IgM anti-VHA, no con IgM anti-HBc."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En el periodo ventana el HBsAg ya es negativo con infección aguda en curso. Se diagnostica con IgM anti-HBc.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 32"
+  },
+  {
+   "id": "v-g-hep-prev_b",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "Recién nacido de una madre con HBsAg positivo. Además de la vacuna, ¿qué se indica como inmunoprofilaxis pasiva?",
+   "opciones": [
+    {
+     "t": "Inmunoglobulina anti-hepatitis B",
+     "por": "Está indicada en el recién nacido de madre HBsAg positiva."
+    },
+    {
+     "t": "Solo observación y control del peso",
+     "por": "No protege al recién nacido expuesto."
+    },
+    {
+     "t": "Interferón durante el primer mes",
+     "por": "No es una medida de inmunoprofilaxis."
+    },
+    {
+     "t": "Antivirales de acción directa",
+     "por": "Se usan contra el virus de la hepatitis C."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La inmunoglobulina contra hepatitis B se indica en el recién nacido de madre HBsAg positiva, además de la vacuna.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 44 y 45"
+  },
+  {
+   "id": "v-g-hep-hev",
+   "area": "gastro",
+   "tema": "Hepatitis viral aguda y crónica",
+   "dif": 2,
+   "enunciado": "Gestante con hepatitis viral aguda. ¿Qué virus tiene el riesgo particular de hepatitis fulminante, con 20 a 25 % de casos en el embarazo?",
+   "opciones": [
+    {
+     "t": "Hepatitis E",
+     "por": "Es la hepatitis con evolución fulminante en 20 a 25 % de las embarazadas."
+    },
+    {
+     "t": "Hepatitis A",
+     "por": "Su tratamiento es soporte e hidratación."
+    },
+    {
+     "t": "Hepatitis C",
+     "por": "Se cronifica en cerca de 80 de 100 pacientes."
+    },
+    {
+     "t": "Hepatitis D",
+     "por": "Es un virus defectuoso que requiere al VHB."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La hepatitis E se distingue por la hepatitis fulminante en embarazadas.",
+   "fuente": "PPT Hepatitis viral aguda y crónica (sem. 12), lám. 60 a 63"
+  },
+  {
+   "id": "v-g-cir-algoritmo",
+   "area": "gastro",
+   "tema": "Cirrosis hepática",
+   "dif": 2,
+   "enunciado": "Varón de 58 años con cirrosis alcohólica y hematemesis, hemodinámicamente estable. Según el algoritmo, ¿qué se indica?",
+   "opciones": [
+    {
+     "t": "Reanimar, antibiótico, vasoactivos y endoscopía en 12 h",
+     "por": "Es el manejo indicado en el sangrado por várices."
+    },
+    {
+     "t": "Observación ambulatoria con propranolol y control en una semana",
+     "por": "No es el manejo de una hemorragia activa."
+    },
+    {
+     "t": "Cirugía de derivación portosistémica inmediata",
+     "por": "No es la conducta inicial."
+    },
+    {
+     "t": "Colonoscopía urgente para buscar el punto de sangrado",
+     "por": "El sangrado es alto, de várices, y se estudia con endoscopía alta."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En el sangrado variceal estable: reanimar, antibiótico, vasoactivos y endoscopía en 12 horas.",
+   "fuente": "PPT Cirrosis hepática (sem. 13), lám. 26",
+   "nota": "En Perú se usa mucho el octreótido y la ligadura endoscópica;"
+  },
+  {
+   "id": "v-g-erge-prueba",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "Varón de 35 años con pirosis y regurgitación típicas, sin signos de alarma. ¿Cuál es el siguiente paso?",
+   "opciones": [
+    {
+     "t": "IBP de prueba por 2 a 4 semanas",
+     "por": "Sin signos de alarma, se inicia una prueba terapéutica."
+    },
+    {
+     "t": "Endoscopía digestiva alta de entrada",
+     "por": "Se reserva para signos de alarma o riesgo de Barrett."
+    },
+    {
+     "t": "Cirugía antirreflujo programada",
+     "por": "Se indica en la ERGE complicada o con Barrett."
+    },
+    {
+     "t": "pH-metría con cápsula inalámbrica",
+     "por": "Se hace si no mejora con IBP y la endoscopía es normal."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Pirosis y regurgitación típicas sin alarma: IBP de prueba por 2 a 4 semanas.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 20"
+  },
+  {
+   "id": "v-g-erge-endo",
+   "area": "gastro",
+   "tema": "ERGE (reflujo gastroesofágico)",
+   "dif": 2,
+   "enunciado": "Varón de 55 años con pirosis crónica, disfagia y pérdida de peso. ¿Qué está indicado?",
+   "opciones": [
+    {
+     "t": "Endoscopía digestiva alta",
+     "por": "Hay signos de alarma."
+    },
+    {
+     "t": "IBP de prueba por 4 semanas sin otros estudios",
+     "por": "Es para pirosis típica sin alarma."
+    },
+    {
+     "t": "Fundoplicatura inmediata",
+     "por": "Se indica en ERGE complicada o Barrett."
+    },
+    {
+     "t": "Solo medidas de estilo de vida",
+     "por": "No bastan ante signos de alarma."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La endoscopía en ERGE se indica con signos de alarma o riesgo de Barrett.",
+   "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 20"
+  },
+  {
+   "id": "v-g-eup-alergia",
+   "area": "gastro",
+   "tema": "Enfermedad ulcero péptica",
+   "dif": 2,
+   "enunciado": "Paciente con úlcera duodenal por H. pylori y alergia a la amoxicilina. ¿Qué esquema de cuadriterapia corresponde?",
+   "opciones": [
+    {
+     "t": "IBP, tetraciclina, metronidazol y bismuto",
+     "por": "Evita la amoxicilina por la alergia."
+    },
+    {
+     "t": "IBP, amoxicilina, metronidazol y bismuto en dosis altas",
+     "por": "Incluye amoxicilina, que está contraindicada."
+    },
+    {
+     "t": "IBP solo, por 8 semanas completas",
+     "por": "No erradica H. pylori."
+    },
+    {
+     "t": "Amoxicilina sola, por 14 días",
+     "por": "Está contraindicada y no basta para erradicar."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Sin alergia, el esquema con bismuto es IBP, amoxicilina, metronidazol y bismuto. Si falla la primera línea, la segunda es IBP, tetraciclina, metronidazol y bismuto.",
+   "fuente": "PPT Enfermedad ulcero péptica (sem. 12), lám. 19",
+   "nota": "Lo importante para responder es la combinación de fármacos, no el intervalo."
+  },
+  {
+   "id": "v-g-aca-manometria",
+   "area": "gastro",
+   "tema": "Acalasia (trastornos motores del esófago)",
+   "dif": 2,
+   "enunciado": "Varón de 40 años con disfagia a sólidos y líquidos, regurgitación y pérdida de 12 kg. El esofagograma con bario muestra dilatación esofágica con estrechamiento en pico de pájaro. ¿Cuál es el estándar de oro diagnóstico?",
+   "opciones": [
+    {
+     "t": "Manometría de alta resolución",
+     "por": "Es el estándar de oro de la acalasia."
+    },
+    {
+     "t": "Endoscopía digestiva alta con biopsia",
+     "por": "No es el estándar de oro."
+    },
+    {
+     "t": "pH-metría con cápsula inalámbrica",
+     "por": "Se usa en el estudio de ERGE."
+    },
+    {
+     "t": "Tomografía de tórax con contraste",
+     "por": "No es el estándar de oro."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la clasificación de Chicago, el tipo III muestra contracciones prematuras. Sin tratamiento puede llegar a megaesófago con riesgo de carcinoma escamoso.",
+   "fuente": "PPT Trastornos motores del esófago (sem. 12), lám. 11"
+  },
+  {
+   "id": "v-g-pan-analgesia",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Mujer de 45 años con pancreatitis aguda biliar y dolor intenso en la barra epigástrica. ¿Qué analgésicos se recomiendan?",
+   "opciones": [
+    {
+     "t": "Opiáceos (tramadol o morfina)",
+     "por": "Son los analgésicos recomendados."
+    },
+    {
+     "t": "Diclofenaco por vía intramuscular",
+     "por": "Es un AINE, y no se recomiendan AINE."
+    },
+    {
+     "t": "Ketorolaco por vía endovenosa",
+     "por": "Es un AINE, y no se recomiendan AINE."
+    },
+    {
+     "t": "Ibuprofeno por vía oral",
+     "por": "Es un AINE, y no se recomiendan AINE."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la pancreatitis aguda se recomiendan opiáceos (tramadol, morfina o petidina) y no AINE.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 26",
+   "nota": "Algunas guías aceptan AINE si no hay insuficiencia renal;"
+  },
+  {
+   "id": "v-g-pan-hidrata",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Varón de 50 años con pancreatitis aguda, sin hipotensión. ¿Qué solución se prefiere para la hidratación?",
+   "opciones": [
+    {
+     "t": "Lactato de Ringer",
+     "por": "Tiene mejor balance electrolítico."
+    },
+    {
+     "t": "Cloruro de sodio al 0.9 %",
+     "por": "Es la alternativa, pero no la preferida."
+    },
+    {
+     "t": "Dextrosa al 5 %",
+     "por": "No repone el volumen intravascular."
+    },
+    {
+     "t": "Cloruro de sodio al 3 %",
+     "por": "Es hipertónico, para hiponatremia grave."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Para hidratar en pancreatitis aguda se prefiere lactato de Ringer, por su mejor balance electrolítico.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 23 y 24"
+  },
+  {
+   "id": "v-g-pan-atb",
+   "area": "gastro",
+   "tema": "Pancreatitis aguda y crónica",
+   "dif": 2,
+   "enunciado": "Mujer de 40 años con pancreatitis aguda leve y sin fiebre ni signos de infección. ¿Se indican antibióticos?",
+   "opciones": [
+    {
+     "t": "No: solo con infección demostrada",
+     "por": "Los antibióticos se dan únicamente si hay infección demostrada."
+    },
+    {
+     "t": "Sí, ceftriaxona profiláctica en todos los casos",
+     "por": "No se indican de forma profiláctica."
+    },
+    {
+     "t": "Sí, siempre junto con los opiáceos",
+     "por": "No hay indicación sin infección."
+    },
+    {
+     "t": "Sí, por 14 días de forma sistemática",
+     "por": "No se dan por rutina."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los antibióticos se dan solo cuando la infección está demostrada.",
+   "fuente": "PPT Pancreatitis aguda y crónica (sem. 13), lám. 27 y 28"
+  },
+  {
+   "id": "v-g-bil-trat_col",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 2,
+   "enunciado": "Mujer de 50 años con dolor en el hipocondrio derecho, fiebre e ictericia. Se diagnostica colangitis aguda. ¿Cuál es el tratamiento inicial?",
+   "opciones": [
+    {
+     "t": "Hidratación, antibiótico en 6 h y drenaje",
+     "por": "Es el manejo inicial de la colangitis aguda."
+    },
+    {
+     "t": "Solo analgesia y observación en piso",
+     "por": "No trata la infección ni la obstrucción."
+    },
+    {
+     "t": "Colecistectomía diferida sin antibióticos",
+     "por": "No es el tratamiento inicial."
+    },
+    {
+     "t": "Antibióticos orales en forma ambulatoria",
+     "por": "No son suficientes en una colangitis aguda."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La tríada de Charcot (dolor en hipocondrio derecho, fiebre e ictericia) sugiere colangitis aguda. La severa (grado III) cursa con disfunción orgánica, como hipotensión.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 24 a 27 y 36"
+  },
+  {
+   "id": "v-g-bil-atb_cole",
+   "area": "gastro",
+   "tema": "Colecistitis, colangitis y coledocolitiasis",
+   "dif": 2,
+   "enunciado": "Mujer de 45 años con colecistitis aguda leve y sin factores de riesgo de BLEE. ¿Qué antibiótico empírico se indica?",
+   "opciones": [
+    {
+     "t": "Ceftriaxona 2 g IV cada 24 h",
+     "por": "Es el esquema empírico para colecistitis leve."
+    },
+    {
+     "t": "Meropenem 1 g IV cada 8 horas",
+     "por": "Se reserva para riesgo de gérmenes resistentes."
+    },
+    {
+     "t": "Metronidazol oral como único fármaco",
+     "por": "No cubre los gérmenes habituales."
+    },
+    {
+     "t": "Ningún antibiótico, solo analgesia",
+     "por": "Se indican antibióticos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Colecistitis leve sin riesgo de BLEE: ceftriaxona 2 g intravenosos cada 24 horas.",
+   "fuente": "PPT Colecistitis, colangitis y coledocolitiasis (sem. 13), lám. 12 y 18"
+  },
+  {
+   "id": "v-g-abs-trat_a",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "Varón de 30 años con un absceso hepático amebiano confirmado por serología. ¿Cuál es el tratamiento de elección?",
+   "opciones": [
+    {
+     "t": "Metronidazol oral 7 a 10 días",
+     "por": "Es el tratamiento de elección del absceso amebiano."
+    },
+    {
+     "t": "Drenaje quirúrgico inmediato del absceso",
+     "por": "No es el tratamiento de elección."
+    },
+    {
+     "t": "Ceftriaxona intravenosa como único fármaco",
+     "por": "No es el tratamiento del absceso amebiano."
+    },
+    {
+     "t": "Albendazol oral por 7 a 10 días",
+     "por": "No es el tratamiento del absceso amebiano."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Absceso hepático amebiano: metronidazol oral por 7 a 10 días.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 31 a 33"
+  },
+  {
+   "id": "v-g-eii-trat_leve",
+   "area": "gastro",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "dif": 2,
+   "enunciado": "Varón de 28 años con colitis ulcerosa distal leve a moderada. ¿Qué tratamiento se indica?",
+   "opciones": [
+    {
+     "t": "Mesalazina tópica por 4 a 6 semanas",
+     "por": "Es el tratamiento de la colitis ulcerosa distal leve a moderada."
+    },
+    {
+     "t": "Colectomía total programada",
+     "por": "Se reserva para hemorragia masiva o megacolon tóxico."
+    },
+    {
+     "t": "Azatioprina desde el inicio del brote",
+     "por": "Se usa en dependencia de esteroides o enfermedad fistulizante."
+    },
+    {
+     "t": "Esteroides intravenosos de entrada",
+     "por": "Se usan si el brote moderado no responde a corticoides orales."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En un brote moderado se indican corticoides orales. Sin respuesta en 1 a 2 semanas, se pasa a esteroides intravenosos.",
+   "fuente": "PPT Enfermedad inflamatoria intestinal (sem. 12), lám. 26 a 29"
+  },
+  {
+   "id": "v-g-dia-atb",
+   "area": "gastro",
+   "tema": "Diarrea aguda y crónica",
+   "dif": 2,
+   "enunciado": "Paciente hospitalizada con antibióticos que desarrolla diarrea acuosa y colitis por Clostridioides difficile. ¿Cuál es el antibiótico de primera elección?",
+   "opciones": [
+    {
+     "t": "Fidaxomicina",
+     "por": "Es la primera elección para la colitis por C. difficile."
+    },
+    {
+     "t": "Loperamida",
+     "por": "No es un antibiótico y no trata la infección."
+    },
+    {
+     "t": "Ciprofloxacino",
+     "por": "No es el tratamiento de la colitis por C. difficile."
+    },
+    {
+     "t": "Solo rehidratación",
+     "por": "La base es rehidratar, pero esta colitis necesita antibiótico."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La primera elección para la colitis por C. difficile es fidaxomicina.",
+   "fuente": "PPT Diarrea aguda y crónica (sem. 13), lám. 15"
+  },
+  {
+   "id": "v-n-sn-trombo",
+   "area": "nefro",
+   "tema": "Síndrome nefrótico",
+   "dif": 2,
+   "enunciado": "Varón de 40 años con síndrome nefrótico que presenta dolor lumbar y hematuria de inicio brusco. ¿Qué complicación es la más característica?",
+   "opciones": [
+    {
+     "t": "Trombosis de la vena renal",
+     "por": "Se asocia a pérdida de antitrombina III."
+    },
+    {
+     "t": "Infección por gérmenes encapsulados",
+     "por": "Es complicación del síndrome nefrótico, pero no cursa con dolor lumbar y hematuria brusca."
+    },
+    {
+     "t": "Hipertensión como único hallazgo",
+     "por": "No explica el dolor lumbar con hematuria."
+    },
+    {
+     "t": "Neoplasia renal",
+     "por": "No es la causa trombótica del síndrome nefrótico."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "El síndrome nefrótico pierde antitrombina III, y esto favorece la trombosis de vena renal.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 17, 19 y 20"
+  },
+  {
+   "id": "v-n-sn-tx",
+   "area": "nefro",
+   "tema": "Síndrome nefrótico",
+   "dif": 2,
+   "enunciado": "Niña de 5 años con edema palpebral y proteinuria en rango nefrótico, sin hematuria ni hipertensión. Se sospecha nefropatía por cambios mínimos. ¿Qué tratamiento corresponde?",
+   "opciones": [
+    {
+     "t": "Prednisona 2 mg/kg/día por 4 a 6 semanas",
+     "por": "Es el tratamiento de los cambios mínimos, con excelente respuesta."
+    },
+    {
+     "t": "Rituximab o el esquema de Ponticelli",
+     "por": "Se plantean en la glomerulopatía membranosa."
+    },
+    {
+     "t": "Ciclosporina o micofenolato, más IECA",
+     "por": "Se plantea en la GEFS que no responde a corticoides."
+    },
+    {
+     "t": "Plasmaféresis más inmunosupresión",
+     "por": "Es el tratamiento del síndrome de Goodpasture."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Los cambios mínimos son la causa más frecuente de síndrome nefrótico en niños (70 a 90 %). La microscopía muestra borramiento de los pedicelos podocitarios.",
+   "fuente": "PPT Síndrome nefrótico (sem. 10), lám. 21"
+  },
+  {
+   "id": "v-n-gp1-iga1",
+   "area": "nefro",
+   "tema": "Glomerulopatías primarias",
+   "dif": 2,
+   "enunciado": "Joven de 22 años con episodios recurrentes de hematuria macroscópica, cada vez que tiene una infección respiratoria. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "Nefropatía por IgA (Berger)",
+     "por": "Es la presentación típica: hematuria macroscópica recurrente tras infecciones."
+    },
+    {
+     "t": "Enfermedad de cambios mínimos",
+     "por": "Da proteinuria nefrótica sin hematuria."
+    },
+    {
+     "t": "Glomerulonefritis membranosa",
+     "por": "Es la causa más común de síndrome nefrótico en adultos."
+    },
+    {
+     "t": "Síndrome de Goodpasture",
+     "por": "Cursa con hematuria, insuficiencia renal aguda y hemoptisis."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En la nefropatía por IgA se activa la vía alternativa o de la lectina del complemento.",
+   "fuente": "PPT Glomerulopatías I: primarias (sem. 9), lám. 19"
+  },
+  {
+   "id": "v-n-sn-txn",
+   "area": "nefro",
+   "tema": "Síndrome nefrítico",
+   "dif": 2,
+   "enunciado": "Paciente con síndrome nefrítico agudo, con edema e hipertensión. ¿Qué medidas generales se indican?",
+   "opciones": [
+    {
+     "t": "Restringir sal y agua, furosemida e IECA",
+     "por": "Son las medidas generales del síndrome nefrítico agudo."
+    },
+    {
+     "t": "Prednisona 2 mg/kg/día por 4 a 6 semanas",
+     "por": "Es el tratamiento de los cambios mínimos en niños."
+    },
+    {
+     "t": "Albúmina intravenosa junto con un diurético",
+     "por": "Se plantea en síndrome nefrótico con anasarca y riesgo de shock."
+    },
+    {
+     "t": "Plasmaféresis desde el primer día",
+     "por": "Se usa en el síndrome de Goodpasture."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "En el síndrome nefrítico agudo con edema e hipertensión: restringir sal y líquidos, furosemida e IECA.",
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 16 y 17"
+  },
+  {
+   "id": "v-n-sn-goodp",
+   "area": "nefro",
+   "tema": "Síndrome nefrítico",
+   "dif": 2,
+   "enunciado": "Varón de 24 años con hemoptisis, hematuria e insuficiencia renal aguda. La inmunofluorescencia muestra depósitos lineales de IgG en la membrana basal. ¿Qué tratamiento corresponde?",
+   "opciones": [
+    {
+     "t": "Plasmaféresis más inmunosupresión",
+     "por": "Es el tratamiento del síndrome de Goodpasture."
+    },
+    {
+     "t": "Prednisona sola por 4 a 6 semanas",
+     "por": "Es el tratamiento de los cambios mínimos."
+    },
+    {
+     "t": "Rituximab o esquema Ponticelli",
+     "por": "Se plantean en la glomerulopatía membranosa."
+    },
+    {
+     "t": "Albúmina intravenosa con un diurético",
+     "por": "Es un apoyo del síndrome nefrótico con anasarca."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "La GN anti-MBG (Goodpasture) se trata con plasmaféresis más inmunosupresión.",
+   "fuente": "PPT Síndrome nefrítico (sem. 10), lám. 18"
+  }
+ ],
+ "tarjetas": []
+}
