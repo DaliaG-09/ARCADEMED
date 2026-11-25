@@ -2807,9 +2807,28 @@ function render(){
 }
 
 /* ---------- lógica de rondas ---------- */
+/* Evita repetir el mismo caso o la misma idea en una ronda: mismo enunciado, misma serie de caso (n-aga-1-*), o misma respuesta en el mismo tema. */
+const normT = t => String(t || '').toLowerCase().replace(/[^a-z0-9áéíóúñ]+/g, ' ').trim();
+function dupKeys(q){
+  const k = ['e:' + normT(q.enunciado).slice(0, 90)];
+  const m = /^(.*-\d+)-[a-z_0-9]+$/.exec(q.id); if(m) k.push('s:' + m[1]);
+  if(!isRC(q) && q.opciones && q.opciones[0]) k.push('r:' + q.tema + '|' + normT(q.opciones[0].t));
+  return k;
+}
+function sinRepetidas(ids, qs){
+  const byId = new Map(qs.map(q => [q.id, q])), used = new Set(), out = [], drop = [];
+  ids.forEach(id => { const q = byId.get(id); if(!q){ out.push(id); return; } const ks = dupKeys(q); if(ks.some(k => used.has(k))){ drop.push(q); return; } ks.forEach(k => used.add(k)); out.push(id); });
+  drop.forEach(d => {
+    const inR = new Set(out), cand = shuffle(qs.filter(q => !inR.has(q.id) && q.area === d.area && isRC(q) === isRC(d) && !dupKeys(q).some(k => used.has(k))));
+    const c = cand.find(q => q.tema === d.tema) || cand[0];
+    if(c){ dupKeys(c).forEach(k => used.add(k)); out.push(c.id); }
+  });
+  return out;
+}
 function startRound(ids, modo, redo){
   if(!ids.length){ toast('No hay preguntas con ese filtro.'); return; }
   const qs = allQ();
+  if(!redo) ids = sinRepetidas(ids, qs);
   sfx('start');
   V = {name:'play', sim:modo === 'sim', earn:0, max:0, hasRC:false, missMap:{}, rcFrac:0, ids, i:0, modo, lives:3, combo:0, maxCombo:0, ok:0, answeredN:0, xp:0, fails:[], answered:false, picked:null, lastXp:0, lvStart:level(S.xp), dead:false, bonus:false};
   V.opts = buildOpts(qs.find(q => q.id === ids[0])); rcReset();
