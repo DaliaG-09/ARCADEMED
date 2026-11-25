@@ -785,6 +785,34 @@
    "correcta": 0,
    "explicacion": "Los abscesos piógenos son por gramnegativos aerobios y anaerobios.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 13"
+  },
+  {
+   "id": "w-g-abs-pio",
+   "area": "gastro",
+   "tema": "Abscesos hepáticos (piógeno y amebiano)",
+   "dif": 2,
+   "enunciado": "Varón de 64 años con diabetes y colangitis previa, con fiebre y dolor en el hipocondrio derecho. La ecografía muestra varios abscesos hepáticos y el hemocultivo es positivo. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    {
+     "t": "Absceso hepático piógeno",
+     "por": "Mayor de 50 años, abscesos múltiples, foco biliar previo, diabetes y hemocultivo positivo orientan al piógeno."
+    },
+    {
+     "t": "Absceso hepático amebiano",
+     "por": "Se espera en menores de 40 años, con un absceso único en el lóbulo derecho, zona endémica y serología positiva."
+    },
+    {
+     "t": "Colecistitis aguda",
+     "por": "Es una inflamación de la vesícula, no explica varios abscesos hepáticos."
+    },
+    {
+     "t": "Pancreatitis aguda",
+     "por": "Cursa con dolor epigástrico en barra y lipasa elevada, no con abscesos hepáticos."
+    }
+   ],
+   "correcta": 0,
+   "explicacion": "Favorecen el absceso piógeno: mayor de 50 años, abscesos múltiples, foco biliar, diabetes y hemocultivo positivo. Se trata con antibióticos y drenaje según el tamaño.",
+   "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 36 y 40"
   }
  ],
  "tarjetas": []

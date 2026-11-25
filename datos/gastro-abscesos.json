@@ -271,28 +271,27 @@
    "area": "gastro",
    "tema": "Abscesos hepáticos (piógeno y amebiano)",
    "dif": 3,
-   "enunciado": "Un varón de 40 años acude por fiebre de 39 °C y dolor en el hipocondrio derecho. ¿Qué dato favorece el absceso amebiano sobre el piógeno?",
+   "enunciado": "Varón de 36 años, de zona endémica, con fiebre de 39 °C y dolor en el hipocondrio derecho. La ecografía muestra un absceso único en el lóbulo derecho y la serología antiamebiana es positiva. ¿Cuál es el diagnóstico más probable?",
    "opciones": [
     {
-     "t": "Único, derecho, zona endémica, serología positiva",
-     "por": "Son rasgos típicos del absceso amebiano, que se trata con metronidazol.",
-     "full": "Edad menor de 40, absceso único en el lóbulo derecho, viaje a zona endémica y serología positiva"
+     "t": "Absceso hepático amebiano",
+     "por": "Edad menor de 40 años, absceso único del lóbulo derecho, zona endémica y serología positiva son los rasgos típicos del amebiano; se trata con metronidazol."
     },
     {
-     "t": "Diabetes y hemocultivo positivo",
-     "por": "Orientan al absceso piógeno."
+     "t": "Absceso hepático piógeno",
+     "por": "Se espera en mayores de 50 años, con abscesos múltiples, foco biliar previo, diabetes o hemocultivo positivo."
     },
     {
-     "t": "Edad mayor de 50 años y abscesos múltiples",
-     "por": "Orientan al absceso piógeno."
+     "t": "Colangitis aguda",
+     "por": "Cursa con la tríada de Charcot (dolor en hipocondrio derecho, fiebre e ictericia) y no con un absceso hepático único."
     },
     {
-     "t": "Foco biliar previo",
-     "por": "Orienta a una vía biliar y, por tanto, al piógeno."
+     "t": "Colecistitis aguda",
+     "por": "Es una inflamación de la vesícula; no explica un absceso en el lóbulo hepático derecho ni la serología positiva."
     }
    ],
    "correcta": 0,
-   "explicacion": "Preguntas del caso: causas más comunes de absceso hepático y tratamiento del amebiano.",
+   "explicacion": "Favorecen el absceso amebiano: edad menor de 40 años, absceso único en el lóbulo derecho, viaje o residencia en zona endémica y serología antiamebiana positiva. Favorecen el piógeno: mayor de 50 años, abscesos múltiples, foco biliar, diabetes y hemocultivo positivo.",
    "fuente": "PPT Abscesos y quistes hepáticos (sem. 13), lám. 36 y 40"
   }
  ],
