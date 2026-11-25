@@ -117,7 +117,7 @@
    "area": "derma",
    "tema": "Discromías de la piel",
    "dif": 2,
-   "enunciado": "Niño con manchas pigmentadas en los labios y los dedos, que presenta dolor abdominal por pólipos intestinales. ¿Qué síndrome es?",
+   "enunciado": "Niño con manchas pigmentadas en los labios y los dedos, y con dolor abdominal por pólipos intestinales. ¿Qué síndrome es?",
    "opciones": [
     {
      "t": "Síndrome de Peutz-Jeghers",
@@ -257,7 +257,7 @@
    "area": "derma",
    "tema": "Enfermedades parasitarias de la piel",
    "dif": 2,
-   "enunciado": "Paciente con un nódulo doloroso con un orificio central donde se ve moverse una larva. ¿Cuál es el tratamiento?",
+   "enunciado": "Paciente con un nódulo doloroso que tiene un orificio central por donde se ve moverse una larva. ¿Cuál es el tratamiento?",
    "opciones": [
     {
      "t": "Extraer las larvas",
@@ -369,7 +369,7 @@
    "area": "gastro",
    "tema": "Acalasia (trastornos motores del esófago)",
    "dif": 2,
-   "enunciado": "Varón de 50 años de zona endémica con disfagia a sólidos y líquidos y regurgitación, con esofagograma con pico de pájaro. ¿Qué infección causa la acalasia secundaria?",
+   "enunciado": "Varón de 50 años de zona endémica con disfagia a sólidos y líquidos y regurgitación. El esofagograma muestra pico de pájaro. ¿Qué infección causa la acalasia secundaria?",
    "opciones": [
     {
      "t": "Trypanosoma cruzi (Chagas)",
@@ -481,7 +481,7 @@
    "area": "gastro",
    "tema": "Gastritis aguda y crónica",
    "dif": 2,
-   "enunciado": "Mujer gran quemada que presenta hematemesis a los 5 días de internación. ¿Cómo se llaman estas úlceras por estrés?",
+   "enunciado": "Mujer con quemaduras extensas, internada, que presenta hematemesis al 5.º día de hospitalización. ¿Cómo se llaman las úlceras por estrés de este cuadro?",
    "opciones": [
     {
      "t": "Úlceras de Curling",
@@ -492,8 +492,8 @@
      "por": "Es una clasificación del riesgo de resangrado."
     },
     {
-     "t": "Úlceras de Barrett",
-     "por": "Es la metaplasia del esófago por reflujo."
+     "t": "Úlceras de Zollinger-Ellison",
+     "por": "Se asocian a un gastrinoma con exceso de ácido, no al estrés."
     },
     {
      "t": "Úlceras de Crohn",

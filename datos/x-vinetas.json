@@ -370,7 +370,7 @@
    "area": "derma",
    "tema": "Enfermedades parasitarias de la piel",
    "dif": 2,
-   "enunciado": "Varón con escabiosis costrosa extensa, en un brote de un albergue donde convive con muchas personas. ¿Qué tratamiento se prefiere?",
+   "enunciado": "Varón con escabiosis costrosa extensa, dentro de un brote en un albergue. ¿Qué tratamiento se prefiere?",
    "opciones": [
     {
      "t": "Ivermectina oral",
@@ -398,7 +398,7 @@
    "area": "derma",
    "tema": "Enfermedades parasitarias de la piel",
    "dif": 2,
-   "enunciado": "Agricultor de zona endémica con una pápula que se ulceró, con borde elevado y fondo necrótico. Se diagnostica leishmaniasis cutánea. ¿Cuál es el tratamiento de primera línea?",
+   "enunciado": "Agricultor de zona endémica con una pápula que luego se ulceró, con borde elevado y fondo necrótico. Se diagnostica leishmaniasis cutánea. ¿Cuál es el tratamiento de primera línea?",
    "opciones": [
     {
      "t": "Antimoniales pentavalentes 20 días",
@@ -989,7 +989,7 @@
    "area": "gastro",
    "tema": "Diarrea aguda y crónica",
    "dif": 2,
-   "enunciado": "Paciente hospitalizada con antibióticos que desarrolla diarrea acuosa y colitis por Clostridioides difficile. ¿Cuál es el antibiótico de primera elección?",
+   "enunciado": "Paciente hospitalizada que recibe antibióticos y desarrolla diarrea acuosa por colitis por Clostridioides difficile. ¿Cuál es el antibiótico de primera elección?",
    "opciones": [
     {
      "t": "Fidaxomicina",
