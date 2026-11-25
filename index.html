@@ -1668,8 +1668,9 @@ function vHome(){
       '<button class="btn act gold" data-act="quick"><b>RONDA RÁPIDA</b><span>10 preguntas: casi todas de opción múltiple y 2 de respuesta corta, con vidas</span></button>'+
       '<button class="btn act" data-act="setup" data-area="all"><b>RONDA A MEDIDA</b><span>Elige área, tema y cantidad</span></button>'+
       '<button class="btn act" data-act="reto"><b>RETO CONTRARRELOJ</b><span>12 preguntas de opción múltiple, 20 segundos cada una, 3 vidas y bonus por rapidez</span></button>'+
-      '<button class="btn act gold" data-act="sim" data-m="examen"><b>SIMULACRO</b><span>11 preguntas, 20 puntos: 9 de casos escritos y 2 de marcar, como la Continua 6</span></button>'+
-      '<div class="row" style="gap:8px"><button class="btn small grow" data-act="sim" data-m="parcial">Estilo Parcial 1 (15)</button><button class="btn small grow" data-act="sim" data-m="om">Solo marcar</button><button class="btn small grow" data-act="sim" data-m="rc">Solo escribir</button></div>'+
+      '<button class="btn act gold" data-act="sim" data-m="parcial"><b>SIMULACRO ESTILO PARCIAL 1</b><span>15 preguntas, 20 puntos: 12 de marcar y 3 escritas</span></button>'+
+      '<button class="btn act gold" data-act="sim" data-m="examen"><b>SIMULACRO ESTILO CONTINUA 6</b><span>11 preguntas, 20 puntos: 9 casos escritos y 2 de marcar</span></button>'+
+      '<div class="row" style="gap:8px"><button class="btn small grow" data-act="sim" data-m="om">Solo marcar</button><button class="btn small grow" data-act="sim" data-m="rc">Solo escribir</button></div>'+
       '<button class="btn act" data-act="falladas" '+(nFall ? '' : 'disabled')+'><b>REPASAR FALLADAS</b><span>'+nFall+' por dominar (necesitas 2 aciertos seguidos)</span></button>'+
       '<button class="btn act" data-act="cards"><b>FLASHCARDS</b><span>'+(function(){ const d = todayDeck(); return d.rev.length+' por repasar y '+d.nw.length+' nuevas hoy · repetición espaciada y recuerdo activo'; })()+'</span></button>'+
     '</div></div>'+
@@ -2857,22 +2858,24 @@ function simIdsP(m){
   m = m || 'examen';
   const qs = allQ(), used = new Set(), out = [];
   const isViv = q => /\b\d{1,2} años|Paciente|Varón|Mujer|Niñ|Adolescente|Joven|Gestante|Lactante|marque la alternativa/i.test(q.enunciado);
-  const take = (f) => { const c = shuffle(qs.filter(q => !used.has(q.id) && f(q))); const seen = (S.simSeen || {}); c.sort((x, y) => (isViv(y) - isViv(x)) || ((seen[x.id] || 0) - (seen[y.id] || 0))); return c[0] || null; };
+  const usedT = new Set(), isG = q => /gases/i.test(q.tema || '');
+  const take = (f) => { const gUsed = [...used].some(id => isG(qs.find(x => x.id === id) || {})); const c = shuffle(qs.filter(q => !used.has(q.id) && f(q) && !(gUsed && isG(q)))); const seen = (S.simSeen || {}); c.sort((x, y) => (usedT.has(x.tema) - usedT.has(y.tema)) || (isViv(y) - isViv(x)) || ((seen[x.id] || 0) - (seen[y.id] || 0))); return c[0] || null; };
   const nA = m === 'examen' ? null : 6;
   SIM_AREAS.forEach(([area, tipos, slotRc, slotOm]) => {
     tipos.forEach(tipo => {
       if(m === 'om' && tipo === 'rc') return; if(m === 'rc' && tipo === 'om') return;
       const wantRC = tipo === 'rc', slot = wantRC ? slotRc : null;
       const ok = q => q.area === area && isRC(q) === wantRC;
-      const q = (slot && take(q => ok(q) && q.slot === slot)) || (!wantRC && slotOm && !out.some(id => (qs.find(x => x.id === id) || {}).slot === slotOm) && take(q => ok(q) && q.slot === slotOm)) || take(ok) || take(q => q.area === area);
-      if(q){ used.add(q.id); out.push(q.id); }
+      const takeS = f => { const r = take(f); return r && !usedT.has(r.tema) ? r : null; };
+      const q = (slot && takeS(q => ok(q) && q.slot === slot)) || (!wantRC && slotOm && !out.some(id => (qs.find(x => x.id === id) || {}).slot === slotOm) && takeS(q => ok(q) && q.slot === slotOm)) || takeS(ok) || take(ok) || take(q => q.area === area);
+      if(q){ used.add(q.id); usedT.add(q.tema); out.push(q.id); }
     });
   });
   // en modos parciales, 10 preguntas del tipo elegido
   if(m !== 'examen'){
-    const want = m === 'rc', pool = shuffle(qs.filter(q => !used.has(q.id) && isRC(q) === want));
+    const want = m === 'rc', pool = shuffle(qs.filter(q => !used.has(q.id) && isRC(q) === want && !isG(q))).sort((x, y) => usedT.has(x.tema) - usedT.has(y.tema));
     const need = (m === 'om' ? 12 : 6) - out.length;
-    for(let k = 0; k < need && k < pool.length; k++){ out.push(pool[k].id); }
+    for(let k = 0; k < need && k < pool.length; k++){ out.push(pool[k].id); usedT.add(pool[k].tema); }
   }
   // puntos como el examen real
   const omIds = shuffle(out.filter(id => !isRC(qs.find(q => q.id === id)))), rcIds = shuffle(out.filter(id => isRC(qs.find(q => q.id === id))));
