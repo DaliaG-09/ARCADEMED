@@ -120,28 +120,27 @@
    "area": "gastro",
    "tema": "ERGE (reflujo gastroesofágico)",
    "dif": 3,
-   "enunciado": "En la clasificación de Montreal, ¿qué es la 'ERNE'?",
+   "enunciado": "En la clasificación de Montreal, ¿cómo se caracteriza el síndrome típico de reflujo (ERNE)?",
    "opciones": [
     {
-     "t": "Síntomas típicos con endoscopía normal",
-     "por": "Es el síndrome típico de reflujo del grupo de síndromes sintomáticos.",
-     "full": "Enfermedad por reflujo no erosiva: síntomas típicos de reflujo sin lesión visible en la endoscopía"
+     "t": "Pirosis y regurgitación sin lesión en la endoscopía",
+     "por": "Es el síndrome típico de reflujo (ERNE, enfermedad por reflujo no erosiva): hay síntomas, pero la mucosa se ve normal."
     },
     {
-     "t": "Esofagitis erosiva",
-     "por": "Es la contraparte: hay lesión visible de la mucosa."
+     "t": "Lesión visible de la mucosa en la endoscopía",
+     "por": "Eso corresponde a los síndromes esofágicos con lesión de mucosa (esofagitis, estenosis, Barrett, adenocarcinoma)."
     },
     {
-     "t": "Esófago de Barrett",
-     "por": "Es una complicación con metaplasia, dentro de síndromes con lesión."
+     "t": "Metaplasia intestinal del esófago distal",
+     "por": "Es el esófago de Barrett, un síndrome con lesión de mucosa."
     },
     {
-     "t": "Un síndrome extraesofágico propuesto",
-     "por": "La ERNE es un síndrome esofágico sintomático, no extraesofágico."
+     "t": "Tos crónica o laringitis por reflujo",
+     "por": "Son síndromes extraesofágicos de asociación establecida."
     }
    ],
    "correcta": 0,
-   "explicacion": "ERNE: enfermedad por reflujo no erosiva. Se manifiesta con pirosis y regurgitación pero la endoscopía es normal. Pertenece a los síndromes esofágicos sintomáticos, junto con el dolor torácico por reflujo.",
+   "explicacion": "Según el PPT (lám. 19), los síndromes esofágicos sintomáticos son el síndrome típico de reflujo (ERNE, enfermedad por reflujo no erosiva) y el dolor torácico por reflujo. Se manifiestan con pirosis y regurgitación, con endoscopía normal.",
    "fuente": "PPT Enfermedad por reflujo gastroesofágico (sem. 12), lám. 19",
    "contexto": "Clasificación de Montreal: ordena las manifestaciones de la ERGE en síndromes esofágicos (los síntomas o lesiones dentro del esófago) y extraesofágicos (los que aparecen fuera de él, como tos o laringitis)."
   },
