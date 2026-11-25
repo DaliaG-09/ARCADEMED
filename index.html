@@ -1668,8 +1668,8 @@ function vHome(){
       '<button class="btn act gold" data-act="quick"><b>RONDA RÁPIDA</b><span>10 preguntas: casi todas de opción múltiple y 2 de respuesta corta, con vidas</span></button>'+
       '<button class="btn act" data-act="setup" data-area="all"><b>RONDA A MEDIDA</b><span>Elige área, tema y cantidad</span></button>'+
       '<button class="btn act" data-act="reto"><b>RETO CONTRARRELOJ</b><span>12 preguntas de opción múltiple, 20 segundos cada una, 3 vidas y bonus por rapidez</span></button>'+
-      '<button class="btn act gold" data-act="sim" data-m="examen"><b>SIMULACRO</b><span>15 preguntas, 20 puntos: 12 de marcar y 3 escritas, como tu parcial</span></button>'+
-      '<div class="row" style="gap:8px"><button class="btn small grow" data-act="sim" data-m="om">Solo marcar (12)</button><button class="btn small grow" data-act="sim" data-m="rc">Solo escribir (6)</button></div>'+
+      '<button class="btn act gold" data-act="sim" data-m="examen"><b>SIMULACRO</b><span>11 preguntas, 20 puntos: 9 de casos escritos y 2 de marcar, como la Continua 6</span></button>'+
+      '<div class="row" style="gap:8px"><button class="btn small grow" data-act="sim" data-m="parcial">Estilo Parcial 1 (15)</button><button class="btn small grow" data-act="sim" data-m="om">Solo marcar</button><button class="btn small grow" data-act="sim" data-m="rc">Solo escribir</button></div>'+
       '<button class="btn act" data-act="falladas" '+(nFall ? '' : 'disabled')+'><b>REPASAR FALLADAS</b><span>'+nFall+' por dominar (necesitas 2 aciertos seguidos)</span></button>'+
       '<button class="btn act" data-act="cards"><b>FLASHCARDS</b><span>'+(function(){ const d = todayDeck(); return d.rev.length+' por repasar y '+d.nw.length+' nuevas hoy · repetición espaciada y recuerdo activo'; })()+'</span></button>'+
     '</div></div>'+
@@ -2853,7 +2853,7 @@ function pool(cfg){
 }
 // Estructura del Parcial 1 real: 15 preguntas, 12 de marcar (7 de 1 pt y 5 de 1,5 pt = 14,5) y 3 escritas (2 + 2 + 1,5 = 5,5). Total 20.
 const SIM_AREAS = [['nefro', ['rc','om','om','om','om'], 'gasometria', 'itu'], ['gastro', ['rc','om','om','om','om'], null, 'pancreatitis'], ['derma', ['rc','om','om','om','om'], null, null]];
-function simIds(m){
+function simIdsP(m){
   m = m || 'examen';
   const qs = allQ(), used = new Set(), out = [];
   const isViv = q => /\b\d{1,2} años|Paciente|Varón|Mujer|Niñ|Adolescente|Joven|Gestante|Lactante|marque la alternativa/i.test(q.enunciado);
@@ -2881,6 +2881,44 @@ function simIds(m){
   const rp = [2, 2, 1.5]; rcIds.forEach((id, k) => { V_SIMPTS[id] = rp[k % 3]; });
   return out;
 }
+// Estructura de las Evaluaciones Continuas 6 (14 modelos revisados): 11 preguntas = 9 escritas de caso (8 de 2 pts y 1 de 1,5 pts, en Gastro) + 2 de marcar de 1,25 pts: siempre una de Pancreatitis (Ranson, Atlanta o Marshall) y una de ITU (clasificación o tratamiento). Gases arteriales: como máximo 1 pregunta.
+const SIM_CONT = [
+  {k:'rc', area:'nefro', temas:['Enfermedad renal crónica','Nefropatía diabética']},
+  {k:'rc', area:'nefro', temas:['Sodio','Potasio','Calcio y magnesio','Gases arteriales (casos)','Gases arteriales (casos)']},
+  {k:'rc', area:'nefro', temas:['Glomerulopatías primarias','Glomerulopatías secundarias','Síndrome nefrítico','Síndrome nefrótico','Enfermedades sistémicas y riñón','Injuria renal aguda','Litiasis y uropatía obstructiva','Tuberculosis renal y de vías urinarias']},
+  {k:'rc', area:'gastro', pts:1.5, temas:['Cirrosis hepática','Hepatitis viral aguda y crónica','Abscesos hepáticos (piógeno y amebiano)']},
+  {k:'rc', area:'gastro', temas:['Enfermedad inflamatoria intestinal','Diarrea aguda y crónica','Tuberculosis enteroperitoneal']},
+  {k:'rc', area:'gastro', temas:['Enfermedad ulcero péptica','Hemorragia digestiva alta y baja','ERGE (reflujo gastroesofágico)','Acalasia (trastornos motores del esófago)','Gastritis aguda y crónica']},
+  {k:'rc', area:'gastro', temas:['Colecistitis, colangitis y coledocolitiasis','Cirrosis hepática','Hepatitis viral aguda y crónica']},
+  {k:'rc', area:'derma', temas:['Micosis en dermatología','Enfermedades parasitarias de la piel','Enfermedades virales de la piel','Enfermedades bacterianas de la piel']},
+  {k:'rc', area:'derma', temas:['Urticaria aguda y crónica','Enfermedades ampollares','Dermatitis','Enfermedades bacterianas de la piel','Enfermedades parasitarias de la piel']},
+  {k:'om', area:'gastro', temas:['Pancreatitis aguda y crónica']},
+  {k:'om', area:'nefro', temas:['Infección del tracto urinario']}
+];
+function simContinua(){
+  const qs = allQ(), seen = (S.simSeen || {}), usedId = new Set(), usedTema = new Set(), out = {rc: [], om: []};
+  const slots = SIM_CONT.slice();
+  slots.forEach(sl => {
+    const wantRC = sl.k === 'rc';
+    let temas = shuffle(sl.temas.slice()).filter((t, i, a) => a.indexOf(t) === i);
+    temas = temas.filter(t => !usedTema.has(t)).concat(temas.filter(t => usedTema.has(t)));
+    let q = null, tema = null;
+    for(const t of temas){
+      const c = shuffle(qs.filter(x => !usedId.has(x.id) && x.area === sl.area && x.tema === t && isRC(x) === wantRC));
+      if(!c.length) continue;
+      c.sort((a, b) => (seen[a.id] || 0) - (seen[b.id] || 0));
+      q = c[0]; tema = t; break;
+    }
+    if(!q){ const c = shuffle(qs.filter(x => !usedId.has(x.id) && x.area === sl.area && isRC(x) === wantRC)); q = c[0]; tema = q && q.tema; }
+    if(q){ usedId.add(q.id); usedTema.add(tema); (wantRC ? out.rc : out.om).push({id: q.id, pts: sl.pts || (wantRC ? 2 : 1.25)}); }
+  });
+  V_SIMPTS = {};
+  [...out.rc, ...out.om].forEach(o => { V_SIMPTS[o.id] = o.pts; });
+  const rc = shuffle(out.rc.map(o => o.id)), om = out.om.map(o => o.id);
+  const order = rc.slice(); order.splice(4, 0, om[0]); if(om[1]) order.splice(7, 0, om[1]);
+  return order;
+}
+function simIds(m){ m = m || 'examen'; if(m === 'examen') return simContinua(); return simIdsP(m === 'parcial' ? 'examen' : m); }
 let V_SIMPTS = {}, SIM_M = 'examen';
 function pick(i){
   if(V.name !== 'play' || V.answered) return;
@@ -2948,7 +2986,7 @@ const OPT = {area:'all', tema:'all', n:'10', src:'todas', modo:'practica', tipo:
 const A = {
   home: () => go({name:'home'}),
   quick: () => startRound(pool({area:'all', tema:'all', n:10, src:'todas', tipo:'mixto', mezcla:'libre', pct:'80'}).map(q => q.id), 'boss'),
-  sim: d => { const m = (d && d.m) || 'examen'; const ids = simIds(m); if(ids.length < (m === 'examen' ? 15 : 6)){ toast('Aún no hay suficientes preguntas para este simulacro.'); } SIM_M = m; S.simSeen = S.simSeen || {}; const sv = S.simSeen; ids.forEach(id => { sv[id] = (sv[id] || 0) + 1; }); save(); startRound(ids, 'sim'); },
+  sim: d => { const m = (d && d.m) || 'examen'; const ids = simIds(m); if(ids.length < (m === 'examen' ? 11 : m === 'parcial' ? 15 : 6)){ toast('Aún no hay suficientes preguntas para este simulacro.'); } SIM_M = m; S.simSeen = S.simSeen || {}; const sv = S.simSeen; ids.forEach(id => { sv[id] = (sv[id] || 0) + 1; }); save(); startRound(ids, 'sim'); },
   plan: () => go({name:'plan'}),
   hoja: d => go({name:'hoja', a:d.a, t:d.t}),
   hojaidx: () => go({name:'hoja'}),
