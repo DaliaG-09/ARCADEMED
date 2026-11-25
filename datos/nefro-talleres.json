@@ -929,7 +929,7 @@
    "correcta": 0,
    "explicacion": "ACT en hombres = 0.6 × peso = 0.6 × 70 = 42 L.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 6 y 11",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-1-aga",
@@ -1045,7 +1045,7 @@
    "correcta": 0,
    "explicacion": "Cambio por litro = (Na infundido − Na sérico) / (ACT + 1) = (68 − 168) / (42 + 1) = −100 / 43 = −2.33 mEq/L por cada litro.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 6",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
    "nota": "* El PPT rotula la solución como «hipotónica (D5W)» pero calcula con 68 mEq/L de Na⁺; la dextrosa al 5 % en agua tiene 0 mEq/L de sodio (daría −3.91 por litro). La respuesta sigue la cifra de 68 mEq/L del PPT."
   },
   {
@@ -1075,7 +1075,7 @@
    "correcta": 0,
    "explicacion": "Volumen = 8 mEq/L ÷ 2.33 mEq/L por litro = 3.433 L = 3433 mL en 24 horas.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 6",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
    "nota": "Sin redondear el −2.33 el resultado es 3440 mL; con el valor redondeado sale 3433. Elige la opción más cercana."
   },
   {
@@ -1105,7 +1105,7 @@
    "correcta": 0,
    "explicacion": "Velocidad = 3433 mL ÷ 24 h = 143 mL/h. Se monitorea el sodio cada 4 a 6 horas para no corregir demasiado rápido.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 6",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-2-aga",
@@ -1192,7 +1192,7 @@
    "correcta": 0,
    "explicacion": "ACT en mujeres = 0.5 × peso = 0.5 × 65 = 32.5 L.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 10 y 11",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-2-cambio",
@@ -1221,7 +1221,7 @@
    "correcta": 0,
    "explicacion": "(68 − 155) / (32.5 + 1) = −87 / 33.5 = −2.60 mEq/L por litro.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 10",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
    "nota": "* Igual que en el caso 1: el PPT no aclara qué solución tiene 68 mEq/L; la dextrosa al 5 % en agua tiene 0 mEq/L (daría −4.63 por litro). La respuesta sigue la cifra de 68 mEq/L del PPT."
   },
   {
@@ -1251,7 +1251,7 @@
    "correcta": 0,
    "explicacion": "Volumen = 8 mEq/L ÷ 2.60 = 3.077 L = 3077 mL en 24 horas.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 10",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-2-rate",
@@ -1280,7 +1280,7 @@
    "correcta": 0,
    "explicacion": "Velocidad = 3077 mL ÷ 24 h = 128 mL/h.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 10",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-3-dx",
@@ -1339,7 +1339,7 @@
    "correcta": 0,
    "explicacion": "En ancianos (mayores de 65 años) el ACT es 0.5 × peso, sea hombre o mujer: 0.5 × 60 = 30 L.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11 y 14",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-3-solucion",
@@ -1368,7 +1368,7 @@
    "correcta": 0,
    "explicacion": "Hay dos presentaciones: NaCl 0.9 % = 154 mEq/L y NaCl 3 % = 513 mEq/L. En la hiponatremia del caso 3 se calcula con 513.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11 y 14",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-3-cambio",
@@ -1397,7 +1397,7 @@
    "correcta": 0,
    "explicacion": "(513 − 115) / (30 + 1) = 398 / 31 = 12.83 mEq/L por litro de solución.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 14",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
    "nota": "398/31 es 12.84 sin truncar; truncado queda 12.83."
   },
   {
@@ -1427,7 +1427,7 @@
    "correcta": 0,
    "explicacion": "Volumen = 8 mEq/L ÷ 12.83 mEq/L por litro = 0.623 L = 623 mL en 24 horas.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 14",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
    "nota": "8000 / 12.83 da 623.5; se toma como 623."
   },
   {
@@ -1457,7 +1457,7 @@
    "correcta": 0,
    "explicacion": "Velocidad = 623 mL ÷ 24 h ≈ 25 a 26 mL/h.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 14",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
    "nota": "623 / 24 da 25.96, que redondea a 26 mL/h; truncado es 25."
   },
   {
@@ -1545,7 +1545,7 @@
    "correcta": 0,
    "explicacion": "ACT en hombres = 0.6 × peso = 0.6 × 80 = 48 L.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11 y 17",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-4-cambio",
@@ -1574,7 +1574,7 @@
    "correcta": 0,
    "explicacion": "(513 − 122) / (48 + 1) = 391 / 49 = 7.97 mEq/L por litro.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 17",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
    "nota": "391/49 es 7.98 sin truncar; truncado queda 7.97."
   },
   {
@@ -1604,7 +1604,7 @@
    "correcta": 0,
    "explicacion": "Volumen = 8 mEq/L ÷ 7.97 = 1.003 L = 1003 mL en 24 horas.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 17",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
    "nota": "8000 / 7.97 da 1003.8; se toma como 1003."
   },
   {
@@ -1634,7 +1634,7 @@
    "correcta": 0,
    "explicacion": "Velocidad = 1003 mL ÷ 24 h ≈ 41 a 42 mL/h.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 17",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
    "nota": "1003 / 24 da 41.8, que redondea a 42 mL/h; truncado es 41."
   },
   {
@@ -1664,7 +1664,7 @@
    "correcta": 0,
    "explicacion": "ACT (agua corporal total): hombres 0.6 × peso, mujeres 0.5 × peso, ancianos (> 65 años) 0.5 × peso.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
    "nota": "Algunas fuentes usan 0.45 para la mujer anciana y 0.5 para el varón anciano; aquí se usa 0.5 para ancianos en general. Usa el valor que te indique el enunciado."
   },
   {
@@ -1694,7 +1694,7 @@
    "correcta": 0,
    "explicacion": "La meta es de 4 a 8 mEq/L en 24 horas: corrección lenta y segura.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina.",
    "nota": "Otras fuentes dicen no corregir más de 8 a 10 mEq/L o más de 10 a 12. Para el examen, usa 4 a 8 mEq/L en 24 horas."
   },
   {
@@ -1724,7 +1724,7 @@
    "correcta": 0,
    "explicacion": "Corregir la hiponatremia demasiado rápido puede producir mielinólisis pontina (desmielinización osmótica). Por eso la meta es 4 a 8 mEq/L en 24 horas.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-c-formula",
@@ -1753,7 +1753,7 @@
    "correcta": 0,
    "explicacion": "La fórmula da el cambio en Na⁺ (mEq/L) que producirá 1 litro de la solución elegida, según su concentración de sodio, el sodio del paciente y su ACT. Multiplicada por el volumen da el cambio total.",
    "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-p-act-1",
@@ -1782,7 +1782,7 @@
    "correcta": 0,
    "explicacion": "Categoría: mujer. ACT = 0.5 × 58 = 29 L.",
    "fuente": "Complemento: caso inventado para practicar con la fórmula de la lám. 11 del taller de electrolitos (no es del PPT)",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-p-act-2",
@@ -1811,7 +1811,7 @@
    "correcta": 0,
    "explicacion": "Categoría: anciano (más de 65 años). ACT = 0.5 × 80 = 40 L.",
    "fuente": "Complemento: caso inventado para practicar con la fórmula de la lám. 11 del taller de electrolitos (no es del PPT)",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-p-hipona-1",
@@ -1840,7 +1840,7 @@
    "correcta": 0,
    "explicacion": "ACT = 0.6 × 75 = 45 L.\nCambio por litro = (513 − 118) / (45 + 1) = 395 / 46 = 8.587 mEq/L.\nVolumen = 8 ÷ 8.587 = 0.932 L ≈ 932 mL en 24 h.",
    "fuente": "Complemento: caso inventado para practicar con la fórmula de la lám. 11 del taller de electrolitos (no es del PPT)",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-p-hipona-2",
@@ -1869,7 +1869,7 @@
    "correcta": 0,
    "explicacion": "ACT = 0.5 × 60 = 30 L.\nCambio por litro = (513 − 110) / (30 + 1) = 403 / 31 = 13 mEq/L.\nVolumen = 8 ÷ 13 = 0.615 L ≈ 615 mL en 24 h.",
    "fuente": "Complemento: caso inventado para practicar con la fórmula de la lám. 11 del taller de electrolitos (no es del PPT)",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-p-hipona-3",
@@ -1898,7 +1898,7 @@
    "correcta": 0,
    "explicacion": "ACT = 0.5 × 70 = 35 L.\nCambio por litro = (513 − 120) / (35 + 1) = 393 / 36 = 10.917 mEq/L.\nVolumen = 8 ÷ 10.917 = 0.733 L ≈ 733 mL en 24 h.",
    "fuente": "Complemento: caso inventado para practicar con la fórmula de la lám. 11 del taller de electrolitos (no es del PPT)",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-p-hipona-rate-1",
@@ -1927,7 +1927,7 @@
    "correcta": 0,
    "explicacion": "ACT = 45 L; cambio por litro = 8.587 mEq/L; volumen = 932 mL; velocidad = 932 / 24 ≈ 39 mL/h.",
    "fuente": "Complemento: caso inventado para practicar con la fórmula de la lám. 11 del taller de electrolitos (no es del PPT)",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-p-hipona-rate-2",
@@ -1956,7 +1956,7 @@
    "correcta": 0,
    "explicacion": "ACT = 30 L; cambio por litro = 13 mEq/L; volumen = 615 mL; velocidad = 615 / 24 ≈ 26 mL/h.",
    "fuente": "Complemento: caso inventado para practicar con la fórmula de la lám. 11 del taller de electrolitos (no es del PPT)",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-p-hiperna-1",
@@ -1985,7 +1985,7 @@
    "correcta": 0,
    "explicacion": "ACT = 0.6 × 80 = 48 L.\nCambio por litro = (77 − 160) / (48 + 1) = −83 / 49 = −1.694 mEq/L.\nVolumen = 8 ÷ 1.694 = 4.723 L ≈ 4723 mL en 24 h.",
    "fuente": "Complemento: caso inventado para practicar con la fórmula de la lám. 11 del taller de electrolitos (no es del PPT)",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-p-hiperna-2",
@@ -2014,7 +2014,7 @@
    "correcta": 0,
    "explicacion": "ACT = 0.5 × 55 = 27.5 L.\nCambio por litro = (77 − 152) / (27.5 + 1) = −75 / 28.5 = −2.632 mEq/L.\nVolumen = 8 ÷ 2.632 = 3.04 L ≈ 3040 mL en 24 h.",
    "fuente": "Complemento: caso inventado para practicar con la fórmula de la lám. 11 del taller de electrolitos (no es del PPT)",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   },
   {
    "id": "n-elec-p-hiperna-rate-1",
@@ -2043,7 +2043,7 @@
    "correcta": 0,
    "explicacion": "ACT = 48 L; cambio por litro = −1.694 mEq/L; volumen = 4723 mL; velocidad = 4723 / 24 ≈ 197 mL/h.",
    "fuente": "Complemento: caso inventado para practicar con la fórmula de la lám. 11 del taller de electrolitos (no es del PPT)",
-   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
+   "contexto": "Fórmula de Adrogué-Madias: cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Así se usa, como en el caso resuelto del taller (lám. 6): 1) calcula el ACT; 2) pon volumen = 1 L en la fórmula, y te da el cambio por cada litro; 3) regla de tres: litros necesarios = meta (por ejemplo 8) ÷ cambio por litro, y pasa a mL; 4) velocidad = mL ÷ 24 horas. ACT = agua corporal total: hombres 0.6 × peso (kg), mujeres 0.5 × peso, varones mayores de 65 años 0.5 × peso y mujeres mayores de 65 años 0.45 × peso. Sirve para calcular qué solución y cuánto volumen infundir para corregir una hipo o hipernatremia sin pasarse; la meta es 4 a 8 mEq/L en 24 horas, para evitar la mielinólisis pontina."
   }
  ],
  "tarjetas": [
@@ -2133,8 +2133,8 @@
    "area": "nefro",
    "tema": "Electrolitos (casos)",
    "f": "Fórmula de Adrogué-Madias",
-   "b": "Cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L).",
-   "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 11"
+   "b": "Cambio esperado en Na⁺ (mEq/L) = (Na⁺ infundido − Na⁺ sérico) / (ACT + 1) × volumen infundido (L). Con volumen = 1 L te da el cambio por cada litro. Luego: litros necesarios = meta (8) ÷ cambio por litro; velocidad = mL ÷ 24 h (lám. 6).",
+   "fuente": "PPT Taller aplicativo de trastornos de electrolitos (sem. 11), lám. 6 y 11"
   },
   {
    "id": "n-t-elec-act",
