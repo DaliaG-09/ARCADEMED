@@ -272,19 +272,19 @@
    "enunciado": "Varón de 70 años con diabetes, hipertensión y ERC. Consulta por debilidad. Creatinina 3.4 mg/dL (antes 2.0) tras iniciar naproxeno por dolor de rodilla. K⁺ 6.8 mEq/L, ECG con ondas T picudas y QRS ancho. ¿Qué haces primero?",
    "opciones": [
     {
-     "t": "Gluconato de calcio endovenoso para proteger el miocardio.",
+     "t": "Gluconato de calcio endovenoso",
      "por": "El calcio estabiliza la membrana del miocardio en minutos; no baja el potasio, pero evita la arritmia mientras actúan los demás tratamientos."
     },
     {
-     "t": "Furosemida por vía oral y control en 24 horas.",
+     "t": "Furosemida por vía oral y control del potasio en 24 horas.",
      "por": "Con cambios en el ECG es una urgencia: no se espera. La furosemida sola es lenta."
     },
     {
-     "t": "Resina de intercambio y repetir el potasio mañana.",
+     "t": "Resina de intercambio y repetir el potasio al día siguiente.",
      "por": "Las resinas actúan en horas; no protegen el corazón ahora."
     },
     {
-     "t": "Suspender el naproxeno y observar.",
+     "t": "Suspender el naproxeno y observar sin otra medida.",
      "por": "Hay que suspenderlo, pero con ECG alterado primero se protege el corazón."
     },
     {
@@ -306,11 +306,11 @@
    "enunciado": "Varón de 58 años con ERC estadio G4 por nefropatía diabética, hemoglobina 8.5 g/dL normocítica, ferritina normal. ¿Cuál es el mecanismo principal de su anemia?",
    "opciones": [
     {
-     "t": "Menor producción de eritropoyetina por el riñón enfermo.",
+     "t": "Menor producción de eritropoyetina.",
      "por": "Las células intersticiales renales producen EPO; al perderse, baja la producción de glóbulos rojos."
     },
     {
-     "t": "Hemólisis autoinmune.",
+     "t": "Hemólisis autoinmune asociada a la uremia.",
      "por": "No hay datos de hemólisis y no es la causa típica."
     },
     {
@@ -318,7 +318,7 @@
      "por": "Posible, pero daría anemia macrocítica y no explica la anemia típica de ERC."
     },
     {
-     "t": "Pérdida de hierro por la orina.",
+     "t": "Pérdida de hierro por la orina en la proteinuria.",
      "por": "La orina no pierde hierro de forma significativa en ERC."
     },
     {

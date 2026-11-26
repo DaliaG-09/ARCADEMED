@@ -208,16 +208,16 @@
      "por": "Son placas rojas con borde activo y pústulas satélite."
     },
     {
-     "t": "Tiña corporis",
-     "por": "Son placas anulares con centro claro, sin pústulas satélite."
+     "t": "Tiña inguinal (cruris)",
+     "por": "Da placas con borde activo y centro claro, sin pústulas satélite."
     },
     {
-     "t": "Impétigo",
-     "por": "Son costras melicéricas."
+     "t": "Impétigo ampolloso",
+     "por": "Da ampollas flácidas que dejan costras, sin pústulas satélite."
     },
     {
-     "t": "Escabiosis",
-     "por": "Son pápulas y túneles pruriginosos."
+     "t": "Psoriasis invertida",
+     "por": "Da placas rojas brillantes y bien delimitadas en pliegues, sin pústulas satélite."
     }
    ],
    "correcta": 0,
@@ -288,16 +288,16 @@
    "enunciado": "Adulto con una lesión hiperqueratósica dolorosa en la planta del pie con puntos negros. ¿Qué son esos puntos?",
    "opciones": [
     {
-     "t": "Trombosis de capilares",
+     "t": "Capilares trombosados",
      "por": "Son la marca de la verruga plantar."
     },
     {
-     "t": "Comedones",
+     "t": "Comedones abiertos",
      "por": "Son del acné."
     },
     {
-     "t": "Larvas",
-     "por": "Se ven en la miasis."
+     "t": "Larvas de Tunga penetrans",
+     "por": "La tungiasis da una pápula con un único punto negro central, no una lesión hiperqueratósica con varios puntos."
     },
     {
      "t": "Túneles de ácaros",
@@ -320,16 +320,16 @@
      "por": "Es el zóster con parálisis facial y compromiso del oído."
     },
     {
-     "t": "Signo de Hutchinson",
-     "por": "Es el zóster de la rama nasociliar con riesgo ocular."
+     "t": "Parálisis de Bell idiopática",
+     "por": "Es idiopática, sin vesículas ni dolor intenso en el oído."
     },
     {
-     "t": "Síndrome de Nikolsky",
-     "por": "Es un signo de desprendimiento epidérmico."
+     "t": "Herpes zóster oftálmico",
+     "por": "Compromete la rama oftálmica del trigémino, con riesgo ocular (signo de Hutchinson)."
     },
     {
-     "t": "Herpes simple tipo 2",
-     "por": "Es de localización genital."
+     "t": "Herpes simple tipo 1 recurrente",
+     "por": "Da vesículas peribucales recurrentes, sin parálisis facial."
     }
    ],
    "correcta": 0,

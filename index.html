@@ -2813,6 +2813,7 @@ const normT = t => String(t || '').toLowerCase().replace(/[^a-z0-9áéíóúñ]+
 function dupKeys(q){
   const k = ['e:' + normT(q.enunciado).slice(0, 90)];
   const m = /^(.*-\d+)-[a-z_0-9]+$/.exec(q.id); if(m) k.push('s:' + m[1]);
+  k.push('b:' + q.id.replace(/^[vw]-/, ''));   // la viñeta v-/w- y su pregunta original cuentan como la misma
   if(!isRC(q) && q.opciones && q.opciones[0]) k.push('r:' + q.tema + '|' + normT(q.opciones[0].t));
   return k;
 }
@@ -2829,7 +2830,7 @@ function sinRepetidas(ids, qs){
 function startRound(ids, modo, redo){
   if(!ids.length){ toast('No hay preguntas con ese filtro.'); return; }
   const qs = allQ();
-  if(!redo) ids = sinRepetidas(ids, qs);
+  if(!redo && modo !== 'sim') ids = sinRepetidas(ids, qs);   // el simulacro ya viene sin repetidas y con su estructura
   sfx('start');
   V = {name:'play', sim:modo === 'sim', earn:0, max:0, hasRC:false, missMap:{}, rcFrac:0, ids, i:0, modo, lives:3, combo:0, maxCombo:0, ok:0, answeredN:0, xp:0, fails:[], answered:false, picked:null, lastXp:0, lvStart:level(S.xp), dead:false, bonus:false};
   V.opts = buildOpts(qs.find(q => q.id === ids[0])); rcReset();
@@ -2869,14 +2870,14 @@ function simKind(q){
 }
 function simOK(q){ return !!simKind(q); }
 function simPicker(){
-  const qs = allQ(), seen = (S.simSeen || {}), usedId = new Set(), usedTema = new Set();
+  const qs = allQ(), seen = (S.simSeen || {}), usedId = new Set(), usedTema = new Set(), usedK = new Set();
   // f: filtro; temas: lista preferida (opcional). Evita repetir tema y prioriza lo menos visto.
   const pick = (f, temas) => {
-    let c = qs.filter(q => !usedId.has(q.id) && simOK(q) && f(q));
+    let c = qs.filter(q => !usedId.has(q.id) && simOK(q) && f(q) && !dupKeys(q).some(k => usedK.has(k)));
     if(temas){ const ts = shuffle(temas.slice()); for(const t of ts){ if(usedTema.has(t)) continue; const ct = c.filter(q => q.tema === t); if(ct.length){ c = ct; break; } } }
     const libres = c.filter(q => !usedTema.has(q.tema)); if(libres.length) c = libres;
     c = shuffle(c); c.sort((x, y) => (seen[x.id] || 0) - (seen[y.id] || 0));
-    const q = c[0]; if(q){ usedId.add(q.id); usedTema.add(q.tema); } return q || null;
+    const q = c[0]; if(q){ usedId.add(q.id); usedTema.add(q.tema); dupKeys(q).forEach(k => usedK.add(k)); } return q || null;
   };
   return {qs, pick};
 }

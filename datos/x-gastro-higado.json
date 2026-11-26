@@ -518,20 +518,20 @@
    "enunciado": "Mujer de 58 años con cirrosis por esteatohepatitis, Child B, sin sangrado previo. La endoscopía muestra várices esofágicas grandes. ¿Qué indicas para prevenir el primer sangrado?",
    "opciones": [
     {
-     "t": "β-bloqueador no selectivo o ligadura endoscópica",
+     "t": "β-bloqueador no selectivo o ligadura",
      "por": "Reducen la presión portal y el riesgo de sangrado."
     },
     {
-     "t": "Anticoagulación.",
+     "t": "Anticoagulación para prevenir trombosis portal.",
      "por": "Aumenta el riesgo de sangrado."
     },
     {
-     "t": "Solo observar.",
+     "t": "Observar y repetir la endoscopía en 3 años.",
      "por": "Las várices grandes necesitan profilaxis primaria."
     },
     {
-     "t": "AINEs para el dolor.",
-     "por": "Están contraindicados en cirrosis."
+     "t": "Omeprazol a dosis altas de forma indefinida.",
+     "por": "El IBP no baja la presión portal ni previene el sangrado de las várices."
     },
     {
      "t": "Ninguna de las anteriores",
@@ -617,20 +617,20 @@
    "enunciado": "Una gestante de 30 semanas tiene HBsAg positivo. ¿Qué indicas al recién nacido?",
    "opciones": [
     {
-     "t": "Vacuna e inmunoglobulina anti-VHB en las primeras 12 horas",
+     "t": "Vacuna e inmunoglobulina antes de 12 horas",
      "por": "Previene la transmisión perinatal, que es la forma más frecuente en países de alta prevalencia."
     },
     {
-     "t": "Solo lactancia materna exclusiva.",
+     "t": "Lactancia materna exclusiva sin otra medida.",
      "por": "No previene la infección."
     },
     {
-     "t": "Vacuna a los 6 meses.",
+     "t": "Vacuna contra la hepatitis B a los 6 meses de vida.",
      "por": "Es tarde: la inmunoprofilaxis es inmediata."
     },
     {
-     "t": "Antibiótico profiláctico.",
-     "por": "No actúa sobre un virus."
+     "t": "Lamivudina profiláctica al recién nacido por un mes.",
+     "por": "No es la profilaxis del recién nacido; el antiviral se da a la madre con carga viral alta en el tercer trimestre."
     },
     {
      "t": "Ninguna de las anteriores",
@@ -653,15 +653,15 @@
      "por": "El HBsAg ya desapareció pero aún no aparece el anti-HBs: solo se detecta IgM anti-HBc."
     },
     {
-     "t": "Inmunidad por vacuna.",
+     "t": "Inmunidad por vacunación previa contra el VHB.",
      "por": "Sería solo anti-HBs positivo."
     },
     {
-     "t": "Hepatitis B crónica.",
+     "t": "Hepatitis B crónica en fase de portador inactivo.",
      "por": "El HBsAg sería positivo por más de 6 meses."
     },
     {
-     "t": "Hepatitis A aguda.",
+     "t": "Hepatitis A aguda con reacción cruzada del anti-HBc.",
      "por": "Se diagnostica con IgM anti-VHA."
     },
     {
@@ -681,19 +681,19 @@
    "enunciado": "Varón de 35 años con colangitis por coledocolitiasis hace 3 semanas. Ahora fiebre, escalofríos y dolor en hipocondrio derecho. Ecografía: dos lesiones hipoecoicas. ¿Cuál es el diagnóstico más probable?",
    "opciones": [
     {
-     "t": "Absceso hepático piógeno por vía biliar.",
+     "t": "Absceso hepático piógeno.",
      "por": "La vía biliar es la causa más frecuente de abscesos piógenos múltiples."
     },
     {
-     "t": "Absceso amebiano.",
+     "t": "Absceso amebiano por Entamoeba histolytica.",
      "por": "Suele ser único, en lóbulo derecho, en pacientes que viajan a zonas endémicas."
     },
     {
-     "t": "Quiste hidatídico.",
+     "t": "Quiste hidatídico complicado con infección.",
      "por": "Es un quiste con membrana, sin fiebre alta."
     },
     {
-     "t": "Hepatocarcinoma.",
+     "t": "Hepatocarcinoma con necrosis central.",
      "por": "No explica la fiebre ni el antecedente."
     },
     {

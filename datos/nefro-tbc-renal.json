@@ -212,20 +212,20 @@
    "enunciado": "Varón de 65 años con ERC, fiebre persistente y urocultivos comunes negativos. Se sospecha TBC renal. ¿Qué hallazgo apoyaría el diagnóstico?",
    "opciones": [
     {
-     "t": "BAAR en orina (Ziehl-Neelsen) y cultivo especial",
+     "t": "BAAR en orina y cultivo para micobacterias",
      "por": "La orina con piuria y cultivos comunes negativos (piuria estéril) orienta a TBC. Se busca el bacilo con Ziehl-Neelsen y se confirma con cultivo para micobacterias.",
      "full": "BAAR en orina con tinción de Ziehl-Neelsen, seguido de cultivo en medio especial"
     },
     {
-     "t": "Cultivo común con E. coli y nitritos",
+     "t": "Cultivo común con E. coli y nitritos positivos",
      "por": "Un urocultivo común positivo para E. coli sugiere ITU bacteriana, no TBC."
     },
     {
-     "t": "Eosinofilia con IgE elevada",
+     "t": "Eosinofiluria con IgE sérica elevada",
      "por": "No es un hallazgo de TBC renal."
     },
     {
-     "t": "Depósitos de IgA en la biopsia renal",
+     "t": "Depósitos mesangiales de IgA en la biopsia renal",
      "por": "Eso es nefropatía por IgA, una glomerulopatía."
     }
    ],
@@ -247,16 +247,16 @@
      "por": "La fase inicial usa cuatro fármacos para reducir rápido la carga de bacilos."
     },
     {
-     "t": "Dos: isoniazida y rifampicina",
+     "t": "Dos: isoniazida y rifampicina, todos los días por 2 meses",
      "por": "Esos son los dos de la fase de continuación, no de la inicial."
     },
     {
-     "t": "Tres: isoniazida, rifampicina y pirazinamida",
+     "t": "Tres: isoniazida, rifampicina y pirazinamida, sin etambutol",
      "por": "Falta el etambutol, que sí está en la tabla de la fase inicial."
     },
     {
-     "t": "Uno solo: rifampicina",
-     "por": "La monoterapia genera resistencia; la TBC siempre se trata con combinación."
+     "t": "Cuatro: isoniazida, rifampicina, estreptomicina y amikacina",
+     "por": "No es el esquema de la fase inicial: la estreptomicina y la amikacina se reservan para casos especiales o resistentes."
     }
    ],
    "correcta": 0,
@@ -272,20 +272,20 @@
    "enunciado": "Terminada la fase inicial de 2 meses del tratamiento de TBC, ¿cómo sigue el esquema?",
    "opciones": [
     {
-     "t": "Continuación de 4 a 7 meses con isoniazida y rifampicina",
+     "t": "4 a 7 meses más con isoniazida y rifampicina",
      "por": "Se retiran pirazinamida y etambutol y se mantienen dos fármacos para eliminar los bacilos restantes.",
      "full": "Fase de continuación de 4 a 7 meses con isoniazida y rifampicina"
     },
     {
-     "t": "Se suspende todo porque ya pasaron 2 meses",
+     "t": "Se suspende todo, porque la fase inicial ya esterilizó la lesión",
      "por": "El tratamiento dura entre 6 y 9 meses en total; suspender antes causa recaída y resistencia."
     },
     {
-     "t": "Se repiten los 4 fármacos por 2 meses más",
+     "t": "Se repiten los cuatro fármacos por 2 meses más y se cierra",
      "por": "La tabla indica pasar a solo dos fármacos."
     },
     {
-     "t": "Solo pirazinamida y etambutol por 4 meses",
+     "t": "Pirazinamida y etambutol solos por 4 meses más",
      "por": "Son justo los que se retiran en la continuación."
     }
    ],

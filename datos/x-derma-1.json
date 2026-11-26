@@ -639,16 +639,16 @@
      "por": "Es el segundo escalón del tratamiento de la urticaria crónica."
     },
     {
-     "t": "Dar corticoide oral de forma prolongada.",
+     "t": "Corticoide oral de forma prolongada por 3 meses.",
      "por": "Los corticoides se limitan a tandas cortas por sus efectos adversos."
     },
     {
-     "t": "Añadir antibiótico.",
+     "t": "Antibiótico empírico por posible foco infeccioso.",
      "por": "No hay infección."
     },
     {
-     "t": "Suspender el antihistamínico.",
-     "por": "Empeoraría los síntomas."
+     "t": "Cambiar a un antihistamínico de primera generación.",
+     "por": "Los antihistamínicos de primera generación sedan más y no son más eficaces; no son el siguiente escalón."
     },
     {
      "t": "Ninguna de las anteriores",
@@ -671,15 +671,15 @@
      "por": "Los antifúngicos tópicos no penetran el folículo; en tiña capitis se necesita tratamiento oral."
     },
     {
-     "t": "Terbinafina crema.",
+     "t": "Terbinafina en crema por 2 semanas.",
      "por": "Un tópico solo no basta."
     },
     {
-     "t": "Nistatina oral.",
+     "t": "Nistatina oral en suspensión por 4 semanas.",
      "por": "No es eficaz contra dermatofitos."
     },
     {
-     "t": "Corticoide tópico.",
+     "t": "Corticoide tópico de mediana potencia.",
      "por": "Empeora la infección."
     },
     {
@@ -699,7 +699,7 @@
    "enunciado": "Varón de 70 años con dolor ardiente y vesículas agrupadas en banda en el hemitórax derecho desde hace 48 horas. ¿Cuándo debes iniciar el antiviral?",
    "opciones": [
     {
-     "t": "En las primeras 72 horas desde el inicio de los síntomas.",
+     "t": "En las primeras 72 horas.",
      "por": "El beneficio del antiviral es mayor si se inicia temprano."
     },
     {
@@ -707,11 +707,11 @@
      "por": "Es tarde: se busca prevenirla."
     },
     {
-     "t": "Después de 2 semanas.",
+     "t": "Después de 2 semanas, cuando aparecen costras.",
      "por": "Está fuera de la ventana de eficacia."
     },
     {
-     "t": "No se trata en adultos mayores.",
+     "t": "No se trata en adultos mayores de 65 años.",
      "por": "Es la población de mayor riesgo de complicaciones."
     },
     {

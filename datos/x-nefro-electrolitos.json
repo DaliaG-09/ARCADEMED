@@ -321,19 +321,19 @@
    "enunciado": "Varón de 80 años en cama, con fiebre y sin acceso a agua. Na⁺ 168 mEq/L, deshidratado. ¿Qué tipo de solución usas para corregir el déficit de agua libre?",
    "opciones": [
     {
-     "t": "Solución hipotónica, tras corregir el shock",
+     "t": "Hipotónica, tras corregir el shock",
      "por": "La hipernatremia es déficit de agua libre; se repone agua con descenso lento del sodio."
     },
     {
-     "t": "Salino hipertónico al 3 %.",
+     "t": "Salino hipertónico al 3 % en bolo lento.",
      "por": "Subiría más el sodio."
     },
     {
-     "t": "Salino isotónico en todos los casos.",
+     "t": "Salino isotónico como única solución en todos los casos.",
      "por": "Se usa solo si hay inestabilidad hemodinámica."
     },
     {
-     "t": "Restricción de líquidos.",
+     "t": "Restricción de líquidos y furosemida endovenosa.",
      "por": "Empeora la hipernatremia."
     },
     {
@@ -353,19 +353,19 @@
    "enunciado": "Mujer de 55 años en tratamiento con furosemida. K⁺ 2.4 mEq/L, calambres y debilidad. ECG con onda U. ¿Cuál es la vía de reposición más segura por una vena periférica?",
    "opciones": [
     {
-     "t": "Hasta 10 mEq/h de potasio por vía periférica.",
+     "t": "Hasta 10 mEq/h por vía periférica.",
      "por": "Más rápido irrita la vena y puede causar arritmias; por vía central se tolera hasta 40 mEq/h con monitoreo."
     },
     {
-     "t": "Bolo rápido de 40 mEq.",
+     "t": "Bolo endovenoso rápido de 40 mEq.",
      "por": "Peligroso: causa arritmias fatales."
     },
     {
-     "t": "40 mEq/h por vía periférica.",
+     "t": "40 mEq/h por vía periférica, sin monitoreo.",
      "por": "Solo se tolera por vía central con monitoreo."
     },
     {
-     "t": "Solo dieta rica en potasio.",
+     "t": "Solo dieta rica en potasio, sin reposición.",
      "por": "Insuficiente para una hipopotasemia grave."
     },
     {

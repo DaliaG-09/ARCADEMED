@@ -397,19 +397,19 @@
    "enunciado": "Varón de 28 años con episodios de orina oscura 1 a 2 días después de cada infección respiratoria. Entre episodios tiene hematuria microscópica. Complemento normal. ¿Cuál es el diagnóstico más probable?",
    "opciones": [
     {
-     "t": "Nefropatía por IgA (enfermedad de Berger).",
+     "t": "Nefropatía por IgA.",
      "por": "Hematuria macroscópica recurrente poco después de una infección de vías altas, con complemento normal; los depósitos son de IgA en el mesangio."
     },
     {
-     "t": "Glomerulonefritis posestreptocócica.",
+     "t": "Glomerulonefritis posestreptocócica aguda.",
      "por": "Aparece 1 a 3 semanas después de la infección y baja el C3; no es recurrente."
     },
     {
-     "t": "Nefropatía por cambios mínimos.",
+     "t": "Nefropatía por cambios mínimos recurrente.",
      "por": "Es un síndrome nefrótico puro sin hematuria."
     },
     {
-     "t": "Nefropatía membranosa.",
+     "t": "Nefropatía membranosa asociada a infección.",
      "por": "Cursa con proteinuria nefrótica en adultos."
     },
     {
@@ -430,19 +430,19 @@
    "enunciado": "Niño de 5 años con síndrome nefrótico por cambios mínimos que recae cada vez que se baja la prednisona. ¿Cómo se define una recaída?",
    "opciones": [
     {
-     "t": "Reaparición de proteinuria tras una remisión",
+     "t": "Reaparición de la proteinuria",
      "por": "Remisión = proteinuria negativa o trazas; recaída = vuelve la proteinuria."
     },
     {
-     "t": "Aumento de la creatinina.",
+     "t": "Aumento progresivo de la creatinina sérica.",
      "por": "Los cambios mínimos no suelen alterar la función renal."
     },
     {
-     "t": "Aparición de hematuria macroscópica.",
+     "t": "Aparición de hematuria macroscópica persistente.",
      "por": "No define la recaída."
     },
     {
-     "t": "Disminución del colesterol.",
+     "t": "Disminución del colesterol y de los triglicéridos.",
      "por": "No es un criterio."
     },
     {
@@ -494,11 +494,11 @@
    "enunciado": "Mujer de 30 años con lupus y proteinuria nueva. ¿Cuál es el hallazgo de laboratorio que sugiere actividad lúpica renal?",
    "opciones": [
     {
-     "t": "Anti-DNA de doble cadena elevado con C3 y C4 bajos.",
+     "t": "Anti-dsDNA alto con C3 y C4 bajos.",
      "por": "El complemento se consume por los inmunocomplejos y el anti-dsDNA suele subir con la actividad."
     },
     {
-     "t": "ANA negativos.",
+     "t": "ANA negativos con complemento elevado.",
      "por": "En lupus los ANA suelen ser positivos; su valor no mide actividad."
     },
     {
@@ -506,7 +506,7 @@
      "por": "Sugiere inactividad."
     },
     {
-     "t": "Eosinofilia con IgE alta.",
+     "t": "Eosinofilia periférica con IgE elevada.",
      "por": "Orienta a Churg-Strauss."
     },
     {

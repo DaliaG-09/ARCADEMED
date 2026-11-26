@@ -383,15 +383,15 @@
      "full": "Menos de 0.3 mL/kg/h por más de 24 horas, o anuria de más de 12 horas"
     },
     {
-     "t": "Menos de 0.5 mL/kg/h por 6 horas",
+     "t": "<0.5 mL/kg/h por 6 a 12 horas seguidas",
      "por": "Es Risk (RIFLE)."
     },
     {
-     "t": "Menos de 0.5 mL/kg/h por 12 horas",
+     "t": "<0.5 mL/kg/h por más de 12 horas seguidas",
      "por": "Es Injury (RIFLE)."
     },
     {
-     "t": "Más de 1 mL/kg/h por 3 horas",
+     "t": "<1 mL/kg/h por 3 horas, con creatinina estable",
      "por": "No es criterio de IRA."
     }
    ],

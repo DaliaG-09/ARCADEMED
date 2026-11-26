@@ -677,19 +677,19 @@
    "enunciado": "Mujer de 70 años con artrosis que toma diclofenaco a diario, con epigastralgia y anemia. Endoscopía: úlcera gástrica. ¿Cuál es la conducta?",
    "opciones": [
     {
-     "t": "Suspender el AINE, dar IBP y buscar H. pylori.",
+     "t": "Suspender el AINE, IBP y buscar H. pylori.",
      "por": "El AINE es la causa; los IBP cicatrizan y protegen. Se trata H. pylori si es positivo."
     },
     {
-     "t": "Mantener el AINE y añadir antiácido.",
+     "t": "Mantener el AINE y añadir un antiácido.",
      "por": "Los antiácidos no previenen la lesión."
     },
     {
-     "t": "Cambiar a aspirina.",
+     "t": "Cambiar el diclofenaco por aspirina a dosis baja.",
      "por": "La aspirina también daña la mucosa."
     },
     {
-     "t": "Solo dieta blanda.",
+     "t": "Dieta blanda y antiácidos, sin endoscopía control.",
      "por": "No cicatriza la úlcera."
     },
     {

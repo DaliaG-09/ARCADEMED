@@ -247,7 +247,7 @@
    "enunciado": "Según la clasificación de Atlanta revisada, ¿cuál de los siguientes corresponde a una pancreatitis aguda LEVE?",
    "opciones": [
     {
-     "t": "Ausencia de falla de órgano y de complicaciones locales",
+     "t": "Sin falla de órgano ni complicaciones locales",
      "por": "Es la definición de pancreatitis leve."
     },
     {
@@ -255,11 +255,11 @@
      "por": "Eso es pancreatitis severa."
     },
     {
-     "t": "Falla orgánica transitoria (menos de 48 horas)",
+     "t": "Falla orgánica transitoria de menos de 48 horas",
      "por": "Eso es pancreatitis moderadamente severa."
     },
     {
-     "t": "Necrosis pancreática infectada",
+     "t": "Necrosis pancreática infectada sin falla de órgano",
      "por": "Es una complicación local: no corresponde a una pancreatitis leve."
     },
     {

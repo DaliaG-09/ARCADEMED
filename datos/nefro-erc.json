@@ -514,20 +514,20 @@
    "enunciado": "Varón de 58 años con ERC, TFG 9, edema agudo de pulmón que no mejora con furosemida en dosis altas. ¿Qué criterio dialítico cumple?",
    "opciones": [
     {
-     "t": "Sobrecarga hídrica refractaria a diuréticos",
+     "t": "Sobrecarga hídrica refractaria",
      "por": "Congestión pulmonar que no responde a diuréticos."
     },
     {
-     "t": "Acidosis con pH menor de 7.2",
-     "por": "El caso no da gases arteriales; el dato clave es el edema pulmonar."
+     "t": "Acidosis metabólica con pH de 7.30",
+     "por": "Un pH de 7.30 no indica diálisis urgente; el criterio es la acidosis grave refractaria. Además el caso no da gases."
     },
     {
-     "t": "Hiperpotasemia mayor de 6.5",
-     "por": "El caso no menciona el potasio."
+     "t": "Potasio de 5.6 mEq/L sin cambios en el ECG",
+     "por": "Un potasio de 5.6 sin cambios en el ECG no es indicación de diálisis urgente; lo es la hiperpotasemia grave refractaria."
     },
     {
      "t": "Anemia con hemoglobina de 9 g/dL",
-     "por": "Es un criterio, pero no explica un edema agudo de pulmón."
+     "por": "La anemia no indica diálisis; se trata con hierro y eritropoyetina."
     }
    ],
    "correcta": 0,
