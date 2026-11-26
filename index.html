@@ -2854,17 +2854,26 @@ function pool(cfg){
 }
 // Estructura del Parcial 1 real: 15 preguntas, 12 de marcar (7 de 1 pt y 5 de 1,5 pt = 14,5) y 3 escritas (2 + 2 + 1,5 = 5,5). Total 20.
 const SIM_AREAS = [['nefro', ['rc','om','om','om','om'], 'gasometria', 'itu'], ['gastro', ['rc','om','om','om','om'], null, 'pancreatitis'], ['derma', ['rc','om','om','om','om'], null, null]];
+const SIM_VIV = /\b\d{1,2} (años|meses)|Recién nacido|Lactante/i; // caso clínico con edad, como en los modelos
+function simOK(q){
+  if(/^n-(el|ag)/.test(q.id)) return false;            // talleres de cálculo: no salen así en el examen
+  if(/^x-gas-(9|10)$/.test(q.id)) return false;         // teoría de gases, no caso
+  if(/ACT\b|Adrogu|por litro|mL\/h/.test(q.enunciado || '')) return false; // cálculo de taller
+  if(/^(v|w)-/.test(q.id)) return true;                 // viñetas hechas con la estructura de los modelos
+  if(!isRC(q) && /Pancreatitis|Infección del tracto urinario/.test(q.tema || '')) return true; // Ranson/Atlanta/Marshall e ITU vienen como concepto
+  return SIM_VIV.test(q.enunciado || '');
+}
 function simIdsP(m){
   m = m || 'examen';
   const qs = allQ(), used = new Set(), out = [];
   const isViv = q => /\b\d{1,2} años|Paciente|Varón|Mujer|Niñ|Adolescente|Joven|Gestante|Lactante|marque la alternativa/i.test(q.enunciado);
   const usedT = new Set(), isG = q => /gases/i.test(q.tema || '');
-  const take = (f) => { const gUsed = [...used].some(id => isG(qs.find(x => x.id === id) || {})); const c = shuffle(qs.filter(q => !used.has(q.id) && f(q) && !(gUsed && isG(q)))); const seen = (S.simSeen || {}); c.sort((x, y) => (usedT.has(x.tema) - usedT.has(y.tema)) || (isViv(y) - isViv(x)) || ((seen[x.id] || 0) - (seen[y.id] || 0))); return c[0] || null; };
+  const take = (f) => { const gUsed = [...used].some(id => isG(qs.find(x => x.id === id) || {})); const c = shuffle(qs.filter(q => !used.has(q.id) && simOK(q) && f(q) && !(gUsed && isG(q)))); const seen = (S.simSeen || {}); c.sort((x, y) => (usedT.has(x.tema) - usedT.has(y.tema)) || (isViv(y) - isViv(x)) || ((seen[x.id] || 0) - (seen[y.id] || 0))); return c[0] || null; };
   const nA = m === 'examen' ? null : 6;
   SIM_AREAS.forEach(([area, tipos, slotRc, slotOm]) => {
     tipos.forEach(tipo => {
       if(m === 'om' && tipo === 'rc') return; if(m === 'rc' && tipo === 'om') return;
-      const wantRC = tipo === 'rc', slot = wantRC ? slotRc : null;
+      const wantRC = tipo === 'rc', slot = wantRC && Math.random() < 0.5 ? slotRc : null;
       const ok = q => q.area === area && isRC(q) === wantRC;
       const takeS = f => { const r = take(f); return r && !usedT.has(r.tema) ? r : null; };
       const q = (slot && takeS(q => ok(q) && q.slot === slot)) || (!wantRC && slotOm && !out.some(id => (qs.find(x => x.id === id) || {}).slot === slotOm) && takeS(q => ok(q) && q.slot === slotOm)) || takeS(ok) || take(ok) || take(q => q.area === area);
@@ -2873,7 +2882,7 @@ function simIdsP(m){
   });
   // en modos parciales, 10 preguntas del tipo elegido
   if(m !== 'examen'){
-    const want = m === 'rc', pool = shuffle(qs.filter(q => !used.has(q.id) && isRC(q) === want && !isG(q))).sort((x, y) => usedT.has(x.tema) - usedT.has(y.tema));
+    const want = m === 'rc', pool = shuffle(qs.filter(q => !used.has(q.id) && simOK(q) && isRC(q) === want && !isG(q))).sort((x, y) => usedT.has(x.tema) - usedT.has(y.tema));
     const need = (m === 'om' ? 12 : 6) - out.length;
     for(let k = 0; k < need && k < pool.length; k++){ out.push(pool[k].id); usedT.add(pool[k].tema); }
   }
@@ -2907,12 +2916,12 @@ function simContinua(){
     temas = temas.filter(t => !usedTema.has(t)).concat(temas.filter(t => usedTema.has(t)));
     let q = null, tema = null;
     for(const t of temas){
-      const c = shuffle(qs.filter(x => !usedId.has(x.id) && x.area === sl.area && x.tema === t && isRC(x) === wantRC));
+      const c = shuffle(qs.filter(x => !usedId.has(x.id) && simOK(x) && x.area === sl.area && x.tema === t && isRC(x) === wantRC));
       if(!c.length) continue;
       c.sort((a, b) => (seen[a.id] || 0) - (seen[b.id] || 0));
       q = c[0]; tema = t; break;
     }
-    if(!q){ const c = shuffle(qs.filter(x => !usedId.has(x.id) && x.area === sl.area && isRC(x) === wantRC)); q = c[0]; tema = q && q.tema; }
+    if(!q){ const c = shuffle(qs.filter(x => !usedId.has(x.id) && simOK(x) && x.area === sl.area && isRC(x) === wantRC)); q = c[0]; tema = q && q.tema; }
     if(q){ usedId.add(q.id); usedTema.add(tema); (wantRC ? out.rc : out.om).push({id: q.id, pts: sl.pts || (wantRC ? 2 : 1.25)}); }
   });
   V_SIMPTS = {};
