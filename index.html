@@ -2853,84 +2853,85 @@ function pool(cfg){
   return shuffle(om.slice(0, nOm).concat(rc.slice(0, nRc)));
 }
 // Estructura del Parcial 1 real: 15 preguntas, 12 de marcar (7 de 1 pt y 5 de 1,5 pt = 14,5) y 3 escritas (2 + 2 + 1,5 = 5,5). Total 20.
-const SIM_AREAS = [['nefro', ['rc','om','om','om','om'], 'gasometria', 'itu'], ['gastro', ['rc','om','om','om','om'], null, 'pancreatitis'], ['derma', ['rc','om','om','om','om'], null, null]];
-const SIM_VIV = /\b\d{1,2} (años|meses)|Recién nacido|Lactante/i; // caso clínico con edad, como en los modelos
-function simOK(q){
-  if(/^n-(el|ag)/.test(q.id)) return false;            // talleres de cálculo: no salen así en el examen
-  if(/^x-gas-(9|10)$/.test(q.id)) return false;         // teoría de gases, no caso
-  if(/ACT\b|Adrogu|por litro|mL\/h/.test(q.enunciado || '')) return false; // cálculo de taller
-  if(/^(v|w)-/.test(q.id)) return true;                 // viñetas hechas con la estructura de los modelos
-  if(!isRC(q) && /Pancreatitis|Infección del tracto urinario/.test(q.tema || '')) return true; // Ranson/Atlanta/Marshall e ITU vienen como concepto
-  return SIM_VIV.test(q.enunciado || '');
+// Simulacros armados con la estructura de los exámenes reales (14 modelos de la Continua 6 y el Parcial 1).
+// En todos: exactamente 1 pregunta de gases, siempre escrita ("Interpreta y justifica... trastorno primario, compensación, simple o mixto, fórmula").
+const SIM_VIV = /\b\d{1,2} (años|meses)|Recién nacido|Lactante/i;
+const SIM_CONC = /marque|señale|en relación|en cuanto|corresponde a|criterio/i;
+const SIM_DIR_NO = /para qué sirve|^\s*¿?compara|relaciona cada|explica qué indica|^\s*define con un ejemplo/i;
+function simKind(q){
+  if(/^n-(el|ag)/.test(q.id)) return null;                        // talleres de cálculo
+  const e = q.enunciado || '', rc = isRC(q);
+  if(/ACT\b|Adrogu|por litro|mL\/h/.test(e)) return null;          // cálculo de taller
+  if(/gases/i.test(q.tema || '')) return rc && /pH\s*\d/.test(e) && /^x-gas-/.test(q.id) ? 'gas' : null;
+  if(/^(v|w)-/.test(q.id) || SIM_VIV.test(e)) return 'caso';
+  if(rc) return SIM_DIR_NO.test(e) ? null : 'directa';           // tipo "Explique 3 opciones de manejo de...", "Describa 2 esquemas..."
+  return SIM_CONC.test(e) ? 'concepto' : null;                    // tipo "En relación con X, marque la alternativa correcta"
 }
-function simIdsP(m){
-  m = m || 'examen';
-  const qs = allQ(), used = new Set(), out = [];
-  const isViv = q => /\b\d{1,2} años|Paciente|Varón|Mujer|Niñ|Adolescente|Joven|Gestante|Lactante|marque la alternativa/i.test(q.enunciado);
-  const usedT = new Set(), isG = q => /gases/i.test(q.tema || '');
-  const take = (f) => { const gUsed = [...used].some(id => isG(qs.find(x => x.id === id) || {})); const c = shuffle(qs.filter(q => !used.has(q.id) && simOK(q) && f(q) && !(gUsed && isG(q)))); const seen = (S.simSeen || {}); c.sort((x, y) => (usedT.has(x.tema) - usedT.has(y.tema)) || (isViv(y) - isViv(x)) || ((seen[x.id] || 0) - (seen[y.id] || 0))); return c[0] || null; };
-  const nA = m === 'examen' ? null : 6;
-  SIM_AREAS.forEach(([area, tipos, slotRc, slotOm]) => {
-    tipos.forEach(tipo => {
-      if(m === 'om' && tipo === 'rc') return; if(m === 'rc' && tipo === 'om') return;
-      const wantRC = tipo === 'rc', slot = wantRC && Math.random() < 0.5 ? slotRc : null;
-      const ok = q => q.area === area && isRC(q) === wantRC;
-      const takeS = f => { const r = take(f); return r && !usedT.has(r.tema) ? r : null; };
-      const q = (slot && takeS(q => ok(q) && q.slot === slot)) || (!wantRC && slotOm && !out.some(id => (qs.find(x => x.id === id) || {}).slot === slotOm) && takeS(q => ok(q) && q.slot === slotOm)) || takeS(ok) || take(ok) || take(q => q.area === area);
-      if(q){ used.add(q.id); usedT.add(q.tema); out.push(q.id); }
-    });
-  });
-  // en modos parciales, 10 preguntas del tipo elegido
-  if(m !== 'examen'){
-    const want = m === 'rc', pool = shuffle(qs.filter(q => !used.has(q.id) && simOK(q) && isRC(q) === want && !isG(q))).sort((x, y) => usedT.has(x.tema) - usedT.has(y.tema));
-    const need = (m === 'om' ? 12 : 6) - out.length;
-    for(let k = 0; k < need && k < pool.length; k++){ out.push(pool[k].id); usedT.add(pool[k].tema); }
-  }
-  // puntos como el examen real
-  const omIds = shuffle(out.filter(id => !isRC(qs.find(q => q.id === id)))), rcIds = shuffle(out.filter(id => isRC(qs.find(q => q.id === id))));
-  V_SIMPTS = {};
-  omIds.forEach((id, k) => { V_SIMPTS[id] = k < Math.round(omIds.length*5/12) ? 1.5 : 1; });
-  const rp = [2, 2, 1.5]; rcIds.forEach((id, k) => { V_SIMPTS[id] = rp[k % 3]; });
-  return out;
+function simOK(q){ return !!simKind(q); }
+function simPicker(){
+  const qs = allQ(), seen = (S.simSeen || {}), usedId = new Set(), usedTema = new Set();
+  // f: filtro; temas: lista preferida (opcional). Evita repetir tema y prioriza lo menos visto.
+  const pick = (f, temas) => {
+    let c = qs.filter(q => !usedId.has(q.id) && simOK(q) && f(q));
+    if(temas){ const ts = shuffle(temas.slice()); for(const t of ts){ if(usedTema.has(t)) continue; const ct = c.filter(q => q.tema === t); if(ct.length){ c = ct; break; } } }
+    const libres = c.filter(q => !usedTema.has(q.tema)); if(libres.length) c = libres;
+    c = shuffle(c); c.sort((x, y) => (seen[x.id] || 0) - (seen[y.id] || 0));
+    const q = c[0]; if(q){ usedId.add(q.id); usedTema.add(q.tema); } return q || null;
+  };
+  return {qs, pick};
 }
-// Estructura de las Evaluaciones Continuas 6 (14 modelos revisados): 11 preguntas = 9 escritas de caso (8 de 2 pts y 1 de 1,5 pts, en Gastro) + 2 de marcar de 1,25 pts: siempre una de Pancreatitis (Ranson, Atlanta o Marshall) y una de ITU (clasificación o tratamiento). Gases arteriales: como máximo 1 pregunta.
-const SIM_CONT = [
-  {k:'rc', area:'nefro', temas:['Enfermedad renal crónica','Nefropatía diabética']},
-  {k:'rc', area:'nefro', temas:['Sodio','Potasio','Calcio y magnesio','Gases arteriales (casos)','Gases arteriales (casos)']},
-  {k:'rc', area:'nefro', temas:['Glomerulopatías primarias','Glomerulopatías secundarias','Síndrome nefrítico','Síndrome nefrótico','Enfermedades sistémicas y riñón','Injuria renal aguda','Litiasis y uropatía obstructiva','Tuberculosis renal y de vías urinarias']},
-  {k:'rc', area:'gastro', pts:1.5, temas:['Cirrosis hepática','Hepatitis viral aguda y crónica','Abscesos hepáticos (piógeno y amebiano)']},
-  {k:'rc', area:'gastro', temas:['Enfermedad inflamatoria intestinal','Diarrea aguda y crónica','Tuberculosis enteroperitoneal']},
-  {k:'rc', area:'gastro', temas:['Enfermedad ulcero péptica','Hemorragia digestiva alta y baja','ERGE (reflujo gastroesofágico)','Acalasia (trastornos motores del esófago)','Gastritis aguda y crónica']},
-  {k:'rc', area:'gastro', temas:['Colecistitis, colangitis y coledocolitiasis','Cirrosis hepática','Hepatitis viral aguda y crónica']},
-  {k:'rc', area:'derma', temas:['Micosis en dermatología','Enfermedades parasitarias de la piel','Enfermedades virales de la piel','Enfermedades bacterianas de la piel']},
-  {k:'rc', area:'derma', temas:['Urticaria aguda y crónica','Enfermedades ampollares','Dermatitis','Enfermedades bacterianas de la piel','Enfermedades parasitarias de la piel']},
-  {k:'om', area:'gastro', temas:['Pancreatitis aguda y crónica']},
-  {k:'om', area:'nefro', temas:['Infección del tracto urinario']}
-];
-function simContinua(){
-  const qs = allQ(), seen = (S.simSeen || {}), usedId = new Set(), usedTema = new Set(), out = {rc: [], om: []};
-  const slots = SIM_CONT.slice();
-  slots.forEach(sl => {
-    const wantRC = sl.k === 'rc';
-    let temas = shuffle(sl.temas.slice()).filter((t, i, a) => a.indexOf(t) === i);
-    temas = temas.filter(t => !usedTema.has(t)).concat(temas.filter(t => usedTema.has(t)));
-    let q = null, tema = null;
-    for(const t of temas){
-      const c = shuffle(qs.filter(x => !usedId.has(x.id) && simOK(x) && x.area === sl.area && x.tema === t && isRC(x) === wantRC));
-      if(!c.length) continue;
-      c.sort((a, b) => (seen[a.id] || 0) - (seen[b.id] || 0));
-      q = c[0]; tema = t; break;
+const K = k => q => simKind(q) === k;
+const ESC = q => isRC(q) && simKind(q) !== 'gas';
+// Estilo Parcial 1: 15 preguntas (12 de marcar + 3 escritas), en bloques por curso. Escritas: el caso de gases (2 pts) + 2 entre caso y pregunta directa (2 y 1,5 pts). Marcar: por curso 3 casos + 1 "marque la correcta"; 5 valen 1,5 y 7 valen 1.
+function simParcial(m){
+  const {pick} = simPicker(), out = [], pts = {};
+  [['nefro', ['Infección del tracto urinario']], ['gastro', ['Pancreatitis aguda y crónica']], ['derma', null]].forEach(([area, temaConc]) => {
+    const blk = [];
+    if(m !== 'om'){
+      const w = area === 'nefro' ? pick(q => q.area === area && simKind(q) === 'gas') : pick(q => q.area === area && ESC(q) && (Math.random() < 0.5 ? simKind(q) === 'directa' : simKind(q) === 'caso')) || pick(q => q.area === area && ESC(q));
+      if(w) blk.push(w.id);
+      if(m === 'rc'){ const w2 = pick(q => q.area === area && ESC(q) && simKind(q) === 'caso'); if(w2) blk.push(w2.id); }
     }
-    if(!q){ const c = shuffle(qs.filter(x => !usedId.has(x.id) && simOK(x) && x.area === sl.area && isRC(x) === wantRC)); q = c[0]; tema = q && q.tema; }
-    if(q){ usedId.add(q.id); usedTema.add(tema); (wantRC ? out.rc : out.om).push({id: q.id, pts: sl.pts || (wantRC ? 2 : 1.25)}); }
+    if(m !== 'rc'){
+      const c = pick(q => q.area === area && !isRC(q) && simKind(q) === 'concepto', temaConc) || pick(q => q.area === area && !isRC(q));
+      if(c) blk.push(c.id);
+      for(let k = 0; k < 3; k++){ const q = pick(q => q.area === area && !isRC(q) && simKind(q) === 'caso') || pick(q => q.area === area && !isRC(q)); if(q) blk.push(q.id); }
+    }
+    out.push(...shuffle(blk));
   });
-  V_SIMPTS = {};
-  [...out.rc, ...out.om].forEach(o => { V_SIMPTS[o.id] = o.pts; });
-  const rc = shuffle(out.rc.map(o => o.id)), om = out.om.map(o => o.id);
-  const order = rc.slice(); order.splice(4, 0, om[0]); if(om[1]) order.splice(7, 0, om[1]);
-  return order;
+  const qs = allQ(), Q = id => qs.find(q => q.id === id);
+  const om = shuffle(out.filter(id => !isRC(Q(id)))), rc = out.filter(id => isRC(Q(id)));
+  om.forEach((id, k) => { pts[id] = k < Math.round(om.length*5/12) ? 1.5 : 1; });
+  const rp = shuffle([2, 1.5]); let j = 0;
+  rc.forEach(id => { pts[id] = simKind(Q(id)) === 'gas' ? 2 : (m === 'rc' ? 2 : rp[j++ % 2]); });
+  V_SIMPTS = pts; return out;
 }
-function simIds(m){ m = m || 'examen'; if(m === 'examen') return simContinua(); return simIdsP(m === 'parcial' ? 'examen' : m); }
+// Estilo Continua 6: 11 preguntas. Orden de los modelos: 4 escritas de Nefro (una es gases), ITU de marcar, 3 escritas de Gastro con Pancreatitis de marcar en medio (una de 1,5 pts), 2 escritas de Derma. Escritas 2 pts; marcar 1,25.
+const SIM_CONT = {
+  nefro: [['Enfermedad renal crónica','Nefropatía diabética'], ['Sodio','Potasio','Calcio y magnesio'], 'gas', ['Glomerulopatías primarias','Glomerulopatías secundarias','Síndrome nefrítico','Síndrome nefrótico','Enfermedades sistémicas y riñón','Injuria renal aguda','Litiasis y uropatía obstructiva','Tuberculosis renal y de vías urinarias']],
+  gastro: [['Enfermedad ulcero péptica','Hemorragia digestiva alta y baja','ERGE (reflujo gastroesofágico)','Acalasia (trastornos motores del esófago)','Gastritis aguda y crónica'], ['Enfermedad inflamatoria intestinal','Diarrea aguda y crónica','Tuberculosis enteroperitoneal'], ['Cirrosis hepática','Hepatitis viral aguda y crónica','Abscesos hepáticos (piógeno y amebiano)','Colecistitis, colangitis y coledocolitiasis']],
+  derma: [['Micosis en dermatología','Enfermedades parasitarias de la piel','Enfermedades virales de la piel'], ['Enfermedades bacterianas de la piel','Urticaria aguda y crónica','Dermatitis','Enfermedades ampollares','Acné y rosácea','Discromías de la piel']]
+};
+function simContinua(){
+  const {pick} = simPicker(), pts = {};
+  let directas = Math.random() < 0.3 ? 1 : 0;                       // en 4 de 14 modelos hubo 1 escrita directa ("Explique...")
+  const esc = (area, sl) => {
+    if(sl === 'gas') return pick(q => simKind(q) === 'gas');
+    let q = null;
+    if(directas){ q = pick(q => q.area === area && ESC(q) && simKind(q) === 'directa', sl); if(q && sl.indexOf(q.tema) < 0){ q = null; } if(q) directas--; }
+    return q || pick(q => q.area === area && ESC(q) && simKind(q) === 'caso', sl) || pick(q => q.area === area && ESC(q), sl);
+  };
+  const N = SIM_CONT.nefro.map(sl => esc('nefro', sl)), G = SIM_CONT.gastro.map(sl => esc('gastro', sl)), D = SIM_CONT.derma.map(sl => esc('derma', sl));
+  const itu = pick(q => !isRC(q) && q.tema === 'Infección del tracto urinario' && simKind(q) === 'concepto') || pick(q => !isRC(q) && q.tema === 'Infección del tracto urinario');
+  const pan = pick(q => !isRC(q) && q.tema === 'Pancreatitis aguda y crónica' && simKind(q) === 'concepto') || pick(q => !isRC(q) && q.tema === 'Pancreatitis aguda y crónica');
+  const g = shuffle(G.filter(Boolean));
+  const order = [...shuffle(N.filter(Boolean)), itu, g[0], g[1], pan, ...g.slice(2), ...shuffle(D.filter(Boolean))].filter(Boolean).map(q => q.id);
+  order.forEach(id => { pts[id] = 2; });
+  if(itu) pts[itu.id] = 1.25; if(pan) pts[pan.id] = 1.25;
+  if(g.length) pts[g[Math.floor(Math.random()*g.length)].id] = 1.5;
+  V_SIMPTS = pts; return order;
+}
+function simIds(m){ m = m || 'examen'; return m === 'examen' ? simContinua() : simParcial(m === 'parcial' ? 'parcial' : m); }
 let V_SIMPTS = {}, SIM_M = 'examen';
 function pick(i){
   if(V.name !== 'play' || V.answered) return;
@@ -2998,7 +2999,7 @@ const OPT = {area:'all', tema:'all', n:'10', src:'todas', modo:'practica', tipo:
 const A = {
   home: () => go({name:'home'}),
   quick: () => startRound(pool({area:'all', tema:'all', n:10, src:'todas', tipo:'mixto', mezcla:'libre', pct:'80'}).map(q => q.id), 'boss'),
-  sim: d => { const m = (d && d.m) || 'examen'; const ids = simIds(m); if(ids.length < (m === 'examen' ? 11 : m === 'parcial' ? 15 : 6)){ toast('Aún no hay suficientes preguntas para este simulacro.'); } SIM_M = m; S.simSeen = S.simSeen || {}; const sv = S.simSeen; ids.forEach(id => { sv[id] = (sv[id] || 0) + 1; }); save(); startRound(ids, 'sim'); },
+  sim: d => { const m = (d && d.m) || 'examen'; const ids = simIds(m); if(ids.length < (m === 'examen' ? 11 : m === 'parcial' ? 15 : m === 'om' ? 12 : 6)){ toast('Aún no hay suficientes preguntas para este simulacro.'); } SIM_M = m; S.simSeen = S.simSeen || {}; const sv = S.simSeen; ids.forEach(id => { sv[id] = (sv[id] || 0) + 1; }); save(); startRound(ids, 'sim'); },
   plan: () => go({name:'plan'}),
   hoja: d => go({name:'hoja', a:d.a, t:d.t}),
   hojaidx: () => go({name:'hoja'}),

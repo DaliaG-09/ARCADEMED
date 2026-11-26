@@ -308,6 +308,223 @@
    ],
    "explicacion": "Se usa solo en acidosis metabólica (HCO₃⁻ menor de 22 mEq/L).",
    "fuente": "PPT"
+  },
+  {
+   "id": "x-gas-m1",
+   "area": "nefro",
+   "tema": "Gases arteriales (casos)",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 75 años hospitalizado por obstrucción intestinal. Gasometría: pH 7.55; PaCO₂ 50 mmHg; PaO₂ 95 mmHg; HCO₃⁻ 43 mEq/L; FiO₂ 0.21.\n\nInterpreta y justifica el estado ácido-base: ¿cuál es el trastorno primario?, ¿está compensado?, ¿es simple o mixto? Justifica con el desarrollo de la fórmula respectiva.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Trastorno primario: alcalosis metabólica (pH alto con HCO₃⁻ alto).",
+     "w": 0.5
+    },
+    {
+     "t": "Fórmula: pCO₂ esperada = 0.7 × (43 − 24) + 40 = 53.3 ± 5, o sea 48.3 a 58.3 mmHg.",
+     "w": 0.75
+    },
+    {
+     "t": "La pCO₂ real (50) está dentro del rango: compensada y simple.",
+     "w": 0.5
+    },
+    {
+     "t": "Causa: pérdida de ácido clorhídrico por vómitos o sonda en la obstrucción.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Alcalosis metabólica compensada (trastorno simple). La pCO₂ sube por hipoventilación compensadora.",
+   "fuente": "Modelos de la Evaluación Continua 6 (clave de respuestas) y PPT del taller de gases arteriales",
+   "contexto": "Gasometría arterial: mide pH, pCO₂ (presión parcial de CO₂), HCO₃⁻ (bicarbonato) y pO₂. Sirve para hallar el trastorno ácido-base primario y ver si el cuerpo lo compensa. Se usa en pacientes con insuficiencia respiratoria, sepsis, cetoacidosis, vómitos o diarrea intensos."
+  },
+  {
+   "id": "x-gas-m2",
+   "area": "nefro",
+   "tema": "Gases arteriales (casos)",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Paciente de 50 años sufre un colapso súbito en la emergencia y recibe maniobras de resucitación cardiopulmonar. Gasometría: pH 6.95; PaCO₂ 70 mmHg; PaO₂ 85 mmHg; HCO₃⁻ 15 mEq/L; Na⁺ 140 mEq/L; Cl⁻ 95 mEq/L; FiO₂ 0.21.\n\nInterpreta y justifica el estado ácido-base: ¿cuál es el trastorno primario?, ¿está compensado?, ¿es simple o mixto? Justifica con el desarrollo de la fórmula respectiva.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "pH muy bajo con pCO₂ alta y HCO₃⁻ bajo: las dos alteraciones van hacia acidosis.",
+     "w": 0.5
+    },
+    {
+     "t": "Si el primario es respiratorio: HCO₃⁻ esperado = 24 + [(70 − 40)/10] × 1 = 27; el real (15) es mucho menor: hay acidosis metabólica añadida.",
+     "w": 0.75
+    },
+    {
+     "t": "Si se toma la metabólica como primaria: pCO₂ esperada = 1.5 × 15 + 8 = 30.5 ± 2; la real (70) es mucho mayor: hay acidosis respiratoria añadida.",
+     "w": 0.25
+    },
+    {
+     "t": "Conclusión: acidosis mixta, respiratoria y metabólica (no compensada).",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "En la clave se acepta como primario tanto la acidosis respiratoria como la metabólica; el puntaje va por la fórmula bien desarrollada y por concluir acidosis mixta. En el paro hay hipoventilación (CO₂ retenido) y acidosis láctica.",
+   "fuente": "Modelos de la Evaluación Continua 6 (clave de respuestas) y PPT del taller de gases arteriales",
+   "contexto": "Gasometría arterial: mide pH, pCO₂ (presión parcial de CO₂), HCO₃⁻ (bicarbonato) y pO₂. Sirve para hallar el trastorno ácido-base primario y ver si el cuerpo lo compensa. Se usa en pacientes con insuficiencia respiratoria, sepsis, cetoacidosis, vómitos o diarrea intensos."
+  },
+  {
+   "id": "x-gas-m3",
+   "area": "nefro",
+   "tema": "Gases arteriales (casos)",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Paciente de 16 años con asma bronquial acude a emergencia por crisis de broncoespasmo leve a moderada. Gasometría: pH 7.48; PaCO₂ 28 mmHg; PaO₂ 95 mmHg; HCO₃⁻ 20 mEq/L; FiO₂ 0.21.\n\nInterpreta y justifica el estado ácido-base: ¿cuál es el trastorno primario?, ¿está compensado?, ¿es simple o mixto? Justifica con el desarrollo de la fórmula respectiva.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Trastorno primario: alcalosis respiratoria (pH alto con pCO₂ baja).",
+     "w": 0.5
+    },
+    {
+     "t": "Fórmula aguda: HCO₃⁻ esperado = 24 − [(40 − 28)/10] × 2 = 21.6 ± 2.",
+     "w": 0.75
+    },
+    {
+     "t": "El HCO₃⁻ real (20) está dentro del rango: compensada y simple.",
+     "w": 0.5
+    },
+    {
+     "t": "Causa: hiperventilación durante la crisis asmática leve a moderada.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Alcalosis respiratoria compensada (trastorno simple). Ojo: en una crisis asmática, una pCO₂ que se normaliza o sube es signo de agotamiento.",
+   "fuente": "Modelos de la Evaluación Continua 6 (clave de respuestas) y PPT del taller de gases arteriales",
+   "contexto": "Gasometría arterial: mide pH, pCO₂ (presión parcial de CO₂), HCO₃⁻ (bicarbonato) y pO₂. Sirve para hallar el trastorno ácido-base primario y ver si el cuerpo lo compensa. Se usa en pacientes con insuficiencia respiratoria, sepsis, cetoacidosis, vómitos o diarrea intensos."
+  },
+  {
+   "id": "x-gas-m4",
+   "area": "nefro",
+   "tema": "Gases arteriales (casos)",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 32 años que acude luego de estar 3 semanas a más de 4000 metros sobre el nivel del mar. Gasometría: pH 7.44; PaCO₂ 28 mmHg; PaO₂ 95 mmHg; HCO₃⁻ 20 mEq/L; FiO₂ 0.21.\n\nInterpreta y justifica el estado ácido-base: ¿cuál es el trastorno primario?, ¿está compensado?, ¿es simple o mixto? Justifica con el desarrollo de la fórmula respectiva.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Trastorno primario: alcalosis respiratoria (pCO₂ baja, pH en el límite alto).",
+     "w": 0.5
+    },
+    {
+     "t": "Fórmula: HCO₃⁻ esperado = 24 − [(40 − 28)/10] × 2 = 21.6 ± 2.",
+     "w": 0.75
+    },
+    {
+     "t": "El HCO₃⁻ real (20) está dentro del rango: compensada, trastorno simple.",
+     "w": 0.5
+    },
+    {
+     "t": "Causa: hiperventilación por hipoxia de altura.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Alcalosis respiratoria compensada (trastorno simple), como en la clave del modelo. La hipoxia de altura estimula la ventilación y baja la pCO₂; el riñón elimina bicarbonato.",
+   "fuente": "Modelos de la Evaluación Continua 6 (clave de respuestas) y PPT del taller de gases arteriales",
+   "contexto": "Gasometría arterial: mide pH, pCO₂ (presión parcial de CO₂), HCO₃⁻ (bicarbonato) y pO₂. Sirve para hallar el trastorno ácido-base primario y ver si el cuerpo lo compensa. Se usa en pacientes con insuficiencia respiratoria, sepsis, cetoacidosis, vómitos o diarrea intensos."
+  },
+  {
+   "id": "x-gas-m5",
+   "area": "nefro",
+   "tema": "Gases arteriales (casos)",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Mujer de 60 años hipertensa, en tratamiento con hidroclorotiazida. Acude a emergencia por debilidad muscular extrema, mialgias y palpitaciones; el EKG muestra signos de hipopotasemia severa. Gasometría: pH 7.50; PaCO₂ 46 mmHg; PaO₂ 95 mmHg; HCO₃⁻ 34 mEq/L; FiO₂ 0.21.\n\nInterpreta y justifica el estado ácido-base: ¿cuál es el trastorno primario?, ¿está compensado?, ¿es simple o mixto? Justifica con el desarrollo de la fórmula respectiva.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Trastorno primario: alcalosis metabólica (pH alto con HCO₃⁻ alto).",
+     "w": 0.5
+    },
+    {
+     "t": "Fórmula: pCO₂ esperada = 0.7 × (34 − 24) + 40 = 47 ± 5, o sea 42 a 52 mmHg.",
+     "w": 0.75
+    },
+    {
+     "t": "La pCO₂ real (46) está dentro del rango: compensada y simple.",
+     "w": 0.5
+    },
+    {
+     "t": "Causa: la tiazida produce pérdida renal de K⁺ y H⁺ (alcalosis con hipopotasemia).",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Alcalosis metabólica compensada (trastorno simple), asociada al diurético tiazídico y a la hipopotasemia.",
+   "fuente": "Modelos de la Evaluación Continua 6 (clave de respuestas) y PPT del taller de gases arteriales",
+   "contexto": "Gasometría arterial: mide pH, pCO₂ (presión parcial de CO₂), HCO₃⁻ (bicarbonato) y pO₂. Sirve para hallar el trastorno ácido-base primario y ver si el cuerpo lo compensa. Se usa en pacientes con insuficiencia respiratoria, sepsis, cetoacidosis, vómitos o diarrea intensos."
+  },
+  {
+   "id": "x-gas-m6",
+   "area": "nefro",
+   "tema": "Gases arteriales (casos)",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 55 años operado recientemente de una coledocolitiasis complicada; quedó con una fístula biliar de alto débito (más de 1.5 litros al día) por el drenaje abdominal. Gasometría: pH 7.32; PaCO₂ 32 mmHg; PaO₂ 95 mmHg; HCO₃⁻ 16 mEq/L; Na⁺ 139 mEq/L; Cl⁻ 114 mEq/L; FiO₂ 0.21.\n\nInterpreta y justifica el estado ácido-base: ¿cuál es el trastorno primario?, ¿está compensado?, ¿es simple o mixto? Justifica con el desarrollo de la fórmula respectiva.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Trastorno primario: acidosis metabólica (pH bajo con HCO₃⁻ bajo).",
+     "w": 0.5
+    },
+    {
+     "t": "Anion gap (brecha aniónica) = 139 − (114 + 16) = 9: normal, hiperclorémica.",
+     "w": 0.25
+    },
+    {
+     "t": "Fórmula de Winter: pCO₂ esperada = 1.5 × 16 + 8 = 32 ± 2, o sea 30 a 34 mmHg.",
+     "w": 0.75
+    },
+    {
+     "t": "La pCO₂ real (32) está en el rango: compensada y simple.",
+     "w": 0.5
+    }
+   ],
+   "explicacion": "Acidosis metabólica con anion gap normal, compensada. La bilis es rica en bicarbonato: la fístula de alto débito lo pierde.",
+   "fuente": "Modelos de la Evaluación Continua 6 (clave de respuestas) y PPT del taller de gases arteriales",
+   "contexto": "Gasometría arterial: mide pH, pCO₂ (presión parcial de CO₂), HCO₃⁻ (bicarbonato) y pO₂. Sirve para hallar el trastorno ácido-base primario y ver si el cuerpo lo compensa. Se usa en pacientes con insuficiencia respiratoria, sepsis, cetoacidosis, vómitos o diarrea intensos."
+  },
+  {
+   "id": "x-gas-m7",
+   "area": "nefro",
+   "tema": "Gases arteriales (casos)",
+   "dif": 2,
+   "tipo": "rc",
+   "sub": "caso",
+   "enunciado": "Varón de 43 años con insuficiencia respiratoria por neumonía severa. Al ingreso satura 75 % con aire ambiental y tiene gran tiraje intercostal. Gasometría: pH 7.15; PaCO₂ 60 mmHg; PaO₂ 85 mmHg; HCO₃⁻ 20 mEq/L; FiO₂ 0.40; Na⁺ 138 mEq/L; Cl⁻ 100 mEq/L.\n\nInterpreta y justifica el estado ácido-base: ¿cuál es el trastorno primario?, ¿está compensado?, ¿es simple o mixto? Justifica con el desarrollo de la fórmula respectiva.",
+   "pts": 2,
+   "puntos": [
+    {
+     "t": "Trastorno primario: acidosis respiratoria (pH bajo con pCO₂ alta).",
+     "w": 0.5
+    },
+    {
+     "t": "Fórmula aguda: HCO₃⁻ esperado = 24 + [(60 − 40)/10] × 1 = 26.",
+     "w": 0.75
+    },
+    {
+     "t": "El HCO₃⁻ real (20) es menor que el esperado: hay acidosis metabólica añadida.",
+     "w": 0.5
+    },
+    {
+     "t": "Conclusión: trastorno mixto, acidosis respiratoria más acidosis metabólica.",
+     "w": 0.25
+    }
+   ],
+   "explicacion": "Acidosis respiratoria con acidosis metabólica añadida (mixta). El anion gap es 138 − (100 + 20) = 18, elevado: orienta a acidosis láctica por hipoxia y sepsis.",
+   "fuente": "Modelos de la Evaluación Continua 6 (clave de respuestas) y PPT del taller de gases arteriales",
+   "contexto": "Gasometría arterial: mide pH, pCO₂ (presión parcial de CO₂), HCO₃⁻ (bicarbonato) y pO₂. Sirve para hallar el trastorno ácido-base primario y ver si el cuerpo lo compensa. Se usa en pacientes con insuficiencia respiratoria, sepsis, cetoacidosis, vómitos o diarrea intensos."
   }
  ],
  "tarjetas": []
